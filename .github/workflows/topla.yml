@@ -1,0 +1,47 @@
+name: Cenaze ilanlarini topla
+
+on:
+  schedule:
+    - cron: "30 4,9,14,19 * * *"   # TR saatiyle 07:30, 12:30, 17:30, 22:30
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: topla
+  cancel-in-progress: false
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Onceki veriyi geri yukle (biriktirme icin)
+        run: |
+          mkdir -p veri
+          URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
+          if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+      - name: Okuyuculari calistir
+        env:
+          TZ: Europe/Istanbul
+        run: python3 okuyucu/hepsi.py
+      - name: Yayin klasorunu hazirla
+        run: |
+          mkdir -p site
+          cp -r veri site/
+          tar -czf site/veri.tar.gz veri
+          echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a></p>' > site/index.html
+          python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v['il_adi'],v['kayit_sayisi'],v.get('hata') or '') for v in d.values()]"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
