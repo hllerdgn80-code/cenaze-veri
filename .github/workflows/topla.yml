@@ -14,12 +14,18 @@ concurrency:
   group: topla
   cancel-in-progress: false
 
+env:
+  CENAZE_HIZLI: "1"
+  TZ: Europe/Istanbul
+
 jobs:
-  topla:
+  oku:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-    environment:
-      name: github-pages
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        grup: [1, 2, 3, 4]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,16 +36,52 @@ jobs:
           mkdir -p veri
           URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
           if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
-      - name: Okuyuculari calistir
-        env:
-          TZ: Europe/Istanbul
-        run: python3 okuyucu/hepsi.py
+      - name: Okuyuculari calistir (grup ${{ matrix.grup }}/4)
+        run: python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: veri-grup-${{ matrix.grup }}
+          path: veri
+          retention-days: 2
+
+  birlestir:
+    needs: oku
+    if: ${{ always() && needs.oku.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Onceki veriyi geri yukle
+        run: |
+          mkdir -p veri
+          URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
+          if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+          if [ -f veri/ozet.json ]; then cp veri/ozet.json onceki-ozet.json; fi
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: veri-grup-*
+          path: gruplar
+      - name: Gruplari birlestir
+        run: |
+          for g in gruplar/*/; do cp -r "$g". veri/; done
+          python3 okuyucu/hepsi.py --ozet-birlestir
+          rm -f veri/ozet.[0-9]*.json
+      - name: Saglik denetimi (basarisiz yapmaz)
+        run: python3 okuyucu/saglik.py onceki-ozet.json || true
       - name: Yayin klasorunu hazirla
         run: |
           mkdir -p site
           cp -r veri site/
+          # depodaki haftalik Kaybettiklerimiz verisi (checkout'ta veri/kaybettiklerimiz) site'a girsin
+          mkdir -p site/veri/kaybettiklerimiz
+          if [ -d veri/kaybettiklerimiz ]; then cp -r veri/kaybettiklerimiz/. site/veri/kaybettiklerimiz/; fi
           tar -czf site/veri.tar.gz veri
-          echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a></p>' > site/index.html
+          echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
           python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
       - uses: actions/upload-pages-artifact@v3
         with:

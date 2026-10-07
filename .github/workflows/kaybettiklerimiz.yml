@@ -1,0 +1,38 @@
+name: Kaybettiklerimiz haftalik
+
+on:
+  schedule:
+    - cron: "0 1 * * 0"   # Pazar 01:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kaybettiklerimiz
+  cancel-in-progress: false
+
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tam uretim
+        env:
+          TEMIZ: "1"
+        run: python3 okuyucu/kaybettiklerimiz.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kaybettiklerimiz
+          path: veri/kaybettiklerimiz
+          retention-days: 14
+      - name: Depoya commit et
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri/kaybettiklerimiz
+          if git diff --cached --quiet; then echo "degisiklik yok"; else git commit -m "kaybettiklerimiz: haftalik guncelleme $(date -u +%F)"; git push; fi

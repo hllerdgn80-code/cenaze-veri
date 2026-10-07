@@ -1,0 +1,24 @@
+name: Depoyu canli tut
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Pazartesi 03:00 UTC (60 gun commitsizlikte zamanlanmis isler kapanmasin)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  canli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tarih yaz ve commit et
+        run: |
+          mkdir -p durum
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > durum/son-calisma.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add durum/son-calisma.txt
+          git commit -m "canli tut: $(date -u +%F)"
+          git push
