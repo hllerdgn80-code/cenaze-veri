@@ -37,7 +37,9 @@ jobs:
           URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
           if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
       - name: Okuyuculari calistir (grup ${{ matrix.grup }}/4)
-        run: python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4
+        run: |
+          python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4
+          python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4 --sadece-grubu-birak
       - uses: actions/upload-artifact@v4
         with:
           name: veri-grup-${{ matrix.grup }}
