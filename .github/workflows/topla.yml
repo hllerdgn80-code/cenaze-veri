@@ -40,7 +40,7 @@ jobs:
           cp -r veri site/
           tar -czf site/veri.tar.gz veri
           echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a></p>' > site/index.html
-          python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v['il_adi'],v['kayit_sayisi'],v.get('hata') or '') for v in d.values()]"
+          python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
