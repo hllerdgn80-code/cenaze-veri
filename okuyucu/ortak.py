@@ -214,12 +214,15 @@ def indir(url, bekle=3.5, veri=None, timeout=40, ssl_baglam=None, basliklar=None
     """GET (veri verilirse POST). Aynı alan adına yapılan istekler arasında en az 'bekle' sn.
     ssl_baglam: isteğe bağlı ssl.SSLContext (doğrulama AÇIK kalır; yalnız eksik ara sertifikayı eklemek için).
     basliklar: isteğe bağlı ek HTTP başlıkları (ör. JSON POST için Content-Type)."""
+    hizli = os.environ.get("CENAZE_HIZLI") == "1"   # CI: yanıtsız sitede uzun beklemeyi kes
+    if hizli:
+        timeout = min(timeout, 15)
     host = urllib.parse.urlparse(url).netloc
     gecen = time.time() - _son_istek.get(host, 0)
     if gecen < bekle:
         time.sleep(bekle - gecen)
     istek = urllib.request.Request(url, data=veri, headers={"User-Agent": UA, **(basliklar or {})})
-    for deneme in range(3):          # geçici kopmalarda (IncompleteRead, zaman aşımı) en çok 3 deneme, 5 sn arayla
+    for deneme in range(1 if hizli else 3):          # geçici kopmalarda (IncompleteRead, zaman aşımı) en çok 3 deneme, 5 sn arayla
         try:
             with urllib.request.urlopen(istek, timeout=timeout, context=ssl_baglam) as r:
                 ham = r.read()
@@ -228,7 +231,7 @@ def indir(url, bekle=3.5, veri=None, timeout=40, ssl_baglam=None, basliklar=None
         except urllib.error.HTTPError:
             raise
         except Exception:
-            if deneme == 2:
+            if deneme == (0 if hizli else 2):
                 raise
             time.sleep(5)
         finally:
