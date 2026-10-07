@@ -70,6 +70,16 @@ def main():
         args = args[:i] + args[i + 2:]
         grup = n
         parca = [ILLER[k] for k in range(len(ILLER)) if k % m == n - 1]   # dağıtık: yavaş iller gruplara yayılır
+        if "--sadece-grubu-birak" in args:   # CI: artifact'a yalnız bu grubun illeri girsin (eski veri öbür grubu ezmesin)
+            for ad in os.listdir(VERI):
+                yol = os.path.join(VERI, ad)
+                if os.path.isdir(yol) and ad not in parca and ad != "kaybettiklerimiz":
+                    shutil.rmtree(yol, ignore_errors=True)
+            for ad in os.listdir(VERI):
+                if ad.startswith("ozet") and ad != f"ozet.{grup}.json":
+                    os.remove(os.path.join(VERI, ad))
+            print(f"grup {grup}/{m}: yalnız {parca} bırakıldı")
+            return
     secilen = [a for a in args if not a.startswith("-")] or (parca if grup else ILLER)
     ozet_yolu = os.path.join(VERI, f"ozet.{grup}.json" if grup else "ozet.json")
     try:
