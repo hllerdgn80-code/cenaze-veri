@@ -5,7 +5,7 @@ name: Turkiye'den oku
 # topla.yml birlestir adimi bu veriyi uzerine kopyalar.
 on:
   schedule:
-    - cron: "41 3,5,6,7,8,9,12,18 * * *"   # TR saatiyle 06:41 08:41 09:41 10:41 11:41 12:41 15:41 21:41
+    - cron: "41 3,6,9 * * *"   # TR saatiyle 06:41 09:41 12:41 (Mac runner; 3 tur)
   workflow_dispatch: {}
 
 permissions:
@@ -17,7 +17,7 @@ concurrency:
 
 env:
   TZ: Europe/Istanbul
-  TR_ILLER: "kocaeli aksaray van malatya mugla istanbul"
+  TR_ILLER: "kocaeli van mugla aksaray malatya"
 
 jobs:
   oku-tr:
@@ -25,12 +25,13 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - name: Onceki veriyi geri yukle (biriktirme icin)
+      - name: Onceki veriyi geri yukle (biriktirme icin; depodaki son veri-tr/ — veri.tar.gz 08.10.2026'dan beri yayinlanmaz)
         run: |
           rm -rf veri onceki.tar.gz
           mkdir -p veri
-          URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
-          if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+          for il in $TR_ILLER; do
+            if [ -d "veri-tr/$il" ]; then cp -r "veri-tr/$il" veri/; echo "onceki $il yuklendi"; fi
+          done
       - name: Illeri oku (Turkiye'den)
         run: python3 okuyucu/hepsi.py $TR_ILLER
       - name: veri-tr/ klasorunu hazirla
