@@ -32,6 +32,8 @@ class _Satir extends StatelessWidget {
           Expanded(
             child: Text(yazi,
                 textAlign: TextAlign.center,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
                 style: Y.satir(r).copyWith(
                     color: vurgulu ? r.vurguMetin : r.metin, fontWeight: vurgulu ? FontWeight.w600 : FontWeight.w400)),
           ),

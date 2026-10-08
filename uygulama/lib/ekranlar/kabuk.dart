@@ -86,6 +86,8 @@ class AnaKabuk extends StatelessWidget {
                         const SizedBox(height: 3),
                         Text(M.sekmeler[i],
                             maxLines: 1,
+                            softWrap: false,
+                            overflow: TextOverflow.ellipsis,
                             textAlign: TextAlign.center,
                             style: Y.sekme(d.sekme == i ? r.vurguMetin : r.metin3)),
                       ]),

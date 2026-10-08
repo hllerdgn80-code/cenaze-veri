@@ -253,6 +253,8 @@ class _TarihSeridi extends StatelessWidget {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                   Text(n == 0 ? M.seritBugun : gunKisa[haftaGunu(g)],
                       maxLines: 1,
+                      softWrap: false,
+                      overflow: TextOverflow.ellipsis,
                       style: TextStyle(
                           fontSize: 11, height: 13 / 11, fontWeight: FontWeight.w500, color: sec ? r.vurguUst : r.metin3)),
                   const SizedBox(height: 2),
