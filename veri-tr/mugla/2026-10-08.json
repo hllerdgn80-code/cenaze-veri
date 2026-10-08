@@ -1,0 +1,81 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-08",
+ "kayitlar": [
+  {
+   "id": "13005a1cad85",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Sezgin Gökmen",
+   "anne_baba": null,
+   "yas": 64,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-07",
+   "defin_yeri": "Yalıkavak Merkez Camii'den Sandıma mezarlığına",
+   "defin_zamani": "2026-10-08",
+   "namaz_tarihi": "2026-10-08",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-08",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "08bcbad111f0",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Kıral Yalkut",
+   "anne_baba": null,
+   "yas": 87,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Bitez Gülsevim Rüştü Kaynak Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-08",
+   "namaz_tarihi": "2026-10-08",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-08",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "7351b4a2291d",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Nuri Şahin",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Koyunbaba Camii'den Gümüşlük Burunköy mezarlığına",
+   "defin_zamani": "2026-10-08",
+   "namaz_tarihi": "2026-10-08",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-08",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

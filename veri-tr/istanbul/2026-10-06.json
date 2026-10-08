@@ -1,0 +1,57 @@
+{
+ "il": "İstanbul",
+ "liste_tarihi": "2026-10-06",
+ "kayitlar": [
+  {
+   "id": "f85ba3e7b012",
+   "il": "İstanbul",
+   "ilce": "Silivri",
+   "mahalle": "Piri Mehmet Paşa Mahallesi",
+   "ad_soyad": "İsmet Yıldız",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şiran Çal Köyü Mezarlığı",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": "2026-10-06",
+   "namaz_yeri_vakti": "bugün (06.10.2026) İkindi namazının ardından Silivri Cem Evi'nden kaldırılarak, Gümüşhane Şiran Çal Köyü Mezarlığı'na",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Silivri Belediyesi",
+   "kaynak_url": "https://www.silivri.bel.tr/",
+   "alindi": "2026-10-08T05:03:23+03:00",
+   "ham": {
+    "cenaze_namazi_camii": "Silivri Cem Evi"
+   },
+   "il_disi_defin": {
+    "il": "Gümüşhane",
+    "ilce": null
+   },
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "5d3dc66f80a5",
+   "il": "İstanbul",
+   "ilce": "Silivri",
+   "mahalle": "Alibey Mahallesi",
+   "ad_soyad": "Soner Özekimci",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Asri Mezarlığı",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": "2026-10-06",
+   "namaz_yeri_vakti": "bugün ( 06.10.2026 ) İkindi namazının ardından Piri Mehmet Paşa Camisi'nden kaldırılarak, Asri Mezarlığı'na",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Silivri Belediyesi",
+   "kaynak_url": "https://www.silivri.bel.tr/",
+   "alindi": "2026-10-08T05:03:23+03:00",
+   "ham": {
+    "cenaze_namazi_camii": "Piri Mehmet Paşa"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

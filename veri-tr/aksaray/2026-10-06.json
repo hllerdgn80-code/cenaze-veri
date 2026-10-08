@@ -1,0 +1,87 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-06",
+ "kayitlar": [
+  {
+   "id": "d081740c79c3",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ravza Özdemir",
+   "anne_baba": "Metin",
+   "yas": 4,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-05",
+   "defin_yeri": "Ervah Kabristanlığı / Cennet Deresi 2 Ada",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "İkindi – defin saati 16:10",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "METİN",
+    "defin": "06.10.2026 16:10",
+    "namaz": "İkindi",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CENNET DERESİ 2 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "1d69ebca1d09",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Abdullah Deniz",
+   "anne_baba": "Selahattin",
+   "yas": 69,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Bedir Muhtar Mezarlığı",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:53",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "SELAHATTİN",
+    "defin": "06.10.2026 13:53",
+    "namaz": "Öğlen",
+    "mezarlik": "BEDİR MUHTAR MEZARLIĞI /"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "96952406bba4",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Gülüzar Ekinci",
+   "anne_baba": "Osman",
+   "yas": 72,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-05",
+   "defin_yeri": "Bedir Muhtar Mezarlığı / 3 Ada",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "OSMAN",
+    "defin": "06.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "BEDİR MUHTAR MEZARLIĞI / 3 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

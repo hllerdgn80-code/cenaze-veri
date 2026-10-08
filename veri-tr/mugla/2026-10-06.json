@@ -1,0 +1,80 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-06",
+ "kayitlar": [
+  {
+   "id": "b7b3bebed4e9",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Nüran Dedebek",
+   "anne_baba": null,
+   "yas": 62,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-05",
+   "defin_yeri": "Ortakent mezarlığına",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": "2026-10-06",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "4286a5eb39e3",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Fidel Berber",
+   "anne_baba": null,
+   "yas": 55,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-04",
+   "defin_yeri": "Ortakent Köyiçi Camii'den Ortakent mezarlığına",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": "2026-10-06",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "356435517c0a",
+   "il": "Muğla",
+   "ilce": "Fethiye",
+   "mahalle": null,
+   "ad_soyad": "Hüsnü Terman",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-04",
+   "defin_yeri": "Ovacık Çatallar Mezarlığı",
+   "defin_zamani": "2026-10-06",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Fethiye Belediyesi",
+   "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+   "alindi": "2026-10-08T05:02:45+03:00",
+   "ham": {
+    "tur": "Defin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

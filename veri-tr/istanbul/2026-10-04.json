@@ -1,0 +1,30 @@
+{
+ "il": "İstanbul",
+ "liste_tarihi": "2026-10-04",
+ "kayitlar": [
+  {
+   "id": "9c9a664b91f7",
+   "il": "İstanbul",
+   "ilce": "Silivri",
+   "mahalle": "Fener Mahallesi",
+   "ad_soyad": "Umut Tömen",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Fener Mezarlığı",
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": "2026-10-04",
+   "namaz_yeri_vakti": "bugün ( 04.10.2026 ) İkindi namazının ardından Fenerköy Camisi'nden kaldırılarak, Fener Mezarlığı'na",
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Silivri Belediyesi",
+   "kaynak_url": "https://www.silivri.bel.tr/",
+   "alindi": "2026-10-08T05:03:23+03:00",
+   "ham": {
+    "cenaze_namazi_camii": "Fenerköy"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "il": "Van",
+ "liste_tarihi": "2026-10-04",
+ "kayitlar": [
+  {
+   "id": "22ec5cc76f5d",
+   "il": "Van",
+   "ilce": "Tuşba",
+   "mahalle": null,
+   "ad_soyad": "Kudret Özdemir",
+   "anne_baba": null,
+   "yas": 79,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Seyrantepe",
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-08T05:02:18+03:00",
+   "ham": {
+    "ilce": "tusba",
+    "mezar_no": "3886",
+    "il_disi_notu": null
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "fac2e5f5c7bd",
+   "il": "Van",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Akif Kesici",
+   "anne_baba": null,
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-08T05:02:18+03:00",
+   "ham": {
+    "ilce": "ildisi",
+    "mezar_no": null,
+    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "4e2c42f0994c",
+   "il": "Van",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Seyhan Kaplan",
+   "anne_baba": null,
+   "yas": 45,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-08T05:02:18+03:00",
+   "ham": {
+    "ilce": "ildisi",
+    "mezar_no": null,
+    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

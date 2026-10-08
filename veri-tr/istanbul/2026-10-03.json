@@ -1,0 +1,54 @@
+{
+ "il": "İstanbul",
+ "liste_tarihi": "2026-10-03",
+ "kayitlar": [
+  {
+   "id": "3de988dd40f9",
+   "il": "İstanbul",
+   "ilce": "Silivri",
+   "mahalle": null,
+   "ad_soyad": "Sabahattin Koşar",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Alipaşa Mezarlığı",
+   "defin_zamani": "2026-10-03",
+   "namaz_tarihi": "2026-10-03",
+   "namaz_yeri_vakti": "bugün ( 03.10.2026 ) İkindi namazının ardından Kiptaş Ş. Akıncı Camisi'nden kaldırılarak, Alipaşa Mezarlığı'na",
+   "liste_tarihi": "2026-10-03",
+   "kaynak_ad": "Silivri Belediyesi",
+   "kaynak_url": "https://www.silivri.bel.tr/",
+   "alindi": "2026-10-08T05:03:23+03:00",
+   "ham": {
+    "cenaze_namazi_camii": "Kiptaş Ş. Akıncı"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "4fb4df5e8635",
+   "il": "İstanbul",
+   "ilce": "Silivri",
+   "mahalle": "Çanta Sancaktepe Mahallesi",
+   "ad_soyad": "Melehat Ateş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Eski Çanta Mezarlığı",
+   "defin_zamani": "2026-10-03",
+   "namaz_tarihi": "2026-10-03",
+   "namaz_yeri_vakti": "bugün (03.10.2026) Öğle namazının ardından Çanta Merkez Camisi'nden kaldırılarak, Eski Çanta Mezarlığı'na",
+   "liste_tarihi": "2026-10-03",
+   "kaynak_ad": "Silivri Belediyesi",
+   "kaynak_url": "https://www.silivri.bel.tr/",
+   "alindi": "2026-10-08T05:03:23+03:00",
+   "ham": {
+    "cenaze_namazi_camii": "Çanta Merkez"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

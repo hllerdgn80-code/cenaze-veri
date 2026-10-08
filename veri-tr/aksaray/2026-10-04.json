@@ -1,0 +1,60 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-04",
+ "kayitlar": [
+  {
+   "id": "24c32d5cdd92",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Osman Üçler Atalan",
+   "anne_baba": "Ömer",
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-04",
+   "defin_yeri": "Ervah Kabristanlığı / Cennet Deresi 3 Ada",
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:14",
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "ÖMER",
+    "defin": "04.10.2026 13:14",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CENNET DERESİ 3 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "0166d3229930",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mahmut Orhan Kuzucu",
+   "anne_baba": "İhsan",
+   "yas": 69,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-04",
+   "defin_yeri": "Ervah Kabristanlığı / 2 Ada",
+   "defin_zamani": "2026-10-04",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "İkindi – defin saati 16:19",
+   "liste_tarihi": "2026-10-04",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "İHSAN",
+    "defin": "04.10.2026 16:19",
+    "namaz": "İkindi",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 2 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

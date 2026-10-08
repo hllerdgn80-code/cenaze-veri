@@ -1,0 +1,33 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-07",
+ "kayitlar": [
+  {
+   "id": "5fff43704e65",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Abdülsamet Akış",
+   "anne_baba": "Davut",
+   "yas": 20,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Ervah Kabristanlığı / Cennet Deresi 1 Ada",
+   "defin_zamani": "2026-10-07",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-07",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-08T05:02:14+03:00",
+   "ham": {
+    "baba": "DAVUT",
+    "defin": "07.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CENNET DERESİ 1 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}
