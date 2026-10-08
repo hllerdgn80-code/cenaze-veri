@@ -14,7 +14,7 @@ sys.path.insert(0, DIZIN)
 import ortak
 
 VERI = os.path.join(DIZIN, "..", "veri")
-ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya"]   # dosyası olmayan atlanır
+ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya", "artvin", "samsun", "erzurum", "mugla", "balikesir", "tekirdag", "yozgat", "adiyaman", "antalya", "burdur", "hatay", "aydin", "ankara", "istanbul", "izmir", "eskisehir"]   # dosyası olmayan atlanır
 
 
 IL_SINIRI_SN = 150
