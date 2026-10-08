@@ -1,0 +1,40 @@
+name: Android yukleme anahtari uret (TEK SEFER)
+
+# Sahip once uc secret'i girer: ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_PASSWORD (ayni sifre olabilir), ANDROID_KEY_ALIAS.
+# Sonra bu is elle calistirilir; cikan anahtar 1 gun sonra kendiliginden silinir. Ayrinti: deploy/ANDROID-IMZA.md
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Anahtar uret
+        env:
+          SIFRE: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KSIFRE: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          TAKMA: ${{ secrets.ANDROID_KEY_ALIAS }}
+        run: |
+          if [ -z "$SIFRE" ] || [ -z "$TAKMA" ]; then echo "::error::Once ANDROID_KEYSTORE_PASSWORD ve ANDROID_KEY_ALIAS secret'larini girin"; exit 1; fi
+          [ -z "$KSIFRE" ] && KSIFRE="$SIFRE"
+          mkdir -p cikti
+          keytool -genkeypair -v -keystore cikti/yukleme-anahtari.jks -storetype JKS \
+            -keyalg RSA -keysize 2048 -validity 10000 -alias "$TAKMA" \
+            -storepass "$SIFRE" -keypass "$KSIFRE" \
+            -dname "CN=Kimin Cenazesi, O=Kimin Cenazesi, C=TR"
+          base64 -w 0 cikti/yukleme-anahtari.jks > cikti/ANDROID_KEYSTORE_BASE64.txt
+          keytool -list -v -keystore cikti/yukleme-anahtari.jks -storepass "$SIFRE" | grep -E "SHA1|SHA256" > cikti/parmak-izi.txt || true
+          ls -la cikti
+      - uses: actions/upload-artifact@v4
+        with:
+          name: yukleme-anahtari
+          path: cikti
+          retention-days: 1

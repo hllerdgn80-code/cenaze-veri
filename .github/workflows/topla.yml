@@ -133,6 +133,8 @@ jobs:
           # YAYIN SUZGECI (URUN-TASLAGI §16.5, §28): yerel basin/haber kayit ve illeri, kaynak_ad/kaynak_url/ham/anne_baba cikar.
           # Suzgec kendini denetler; sizinti kalirsa cikis kodu 1 -> is DURUR, yayin yapilmaz.
           python3 okuyucu/yayin_suz.py site/veri
+          # Uygulamanin gizlilik politikasi (Play Console URL'si; alan adi alininca tasinir)
+          if [ -f uygulama/web/gizlilik.html ]; then cp uygulama/web/gizlilik.html site/kimincenazesi-gizlilik.html; fi
           echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
           python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
       - uses: actions/upload-pages-artifact@v3
