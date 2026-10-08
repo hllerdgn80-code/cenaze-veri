@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+  <!-- Play Console özellik grafiği: L13 + ad; simetrik, ortalı. CI'da rsvg-convert ile PNG'ye çevrilir. -->
+  <rect width="1024" height="500" fill="#25282D"/>
+  <defs>
+    <g id="y">
+      <path d="M512,214 C430,256 326,306 318,456 L318,806" fill="none" stroke="#C9A45C" stroke-width="22"/>
+      <path d="M512,322 C462,350 398,384 394,476 L394,806" fill="none" stroke="#C9A45C" stroke-width="12"/>
+      <rect x="276" y="806" width="236" height="22" fill="#C9A45C"/>
+      <rect x="420" y="690" width="92" height="44" fill="#F2EBDD"/>
+      <rect x="436" y="734" width="18" height="72" fill="#F2EBDD"/>
+    </g>
+  </defs>
+  <g transform="translate(328,-27) scale(0.36)">
+    <use href="#y"/>
+    <use href="#y" transform="matrix(-1 0 0 1 1024 0)"/>
+  </g>
+  <text x="512" y="356" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="62" font-weight="bold" fill="#F2EBDD">Kimin Cenazesi</text>
+  <rect x="472" y="384" width="80" height="2" fill="#C9A45C"/>
+  <text x="512" y="430" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#C9A45C" letter-spacing="3">İL VE İLÇENİZDEKİ CENAZE İLANLARI</text>
+</svg>
