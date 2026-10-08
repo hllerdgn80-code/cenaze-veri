@@ -12,7 +12,7 @@ Yalnız standart kütüphane.
 """
 import http.client, json, os, sys, time, re, html, urllib.request, urllib.parse, urllib.error, datetime
 
-UA = "CenazeIlanlariBot/0.1 (hllerdgn80@gmail.com)"
+UA = "CenazeVaktiBot/0.1 (+cenazevakti)"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "veri", "kaybettiklerimiz")
 HARIC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "haric_tutulanlar.json")
