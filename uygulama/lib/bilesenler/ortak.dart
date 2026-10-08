@@ -96,7 +96,13 @@ class YuvarlakDugme extends StatelessWidget {
                 Ikon(ikon, boyut: 20, renk: r.metin2),
                 if (yazi != null) ...[
                   const SizedBox(width: 2),
-                  Text(yazi!, style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: r.metin2)),
+                  Flexible(
+                    child: Text(yazi!,
+                        maxLines: 1,
+                        softWrap: false,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: r.metin2)),
+                  ),
                 ],
               ],
             ),
