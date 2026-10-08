@@ -38,6 +38,10 @@ class Durum:
             self.d = {}
         for k in ("istek", "okunan", "robots"):
             self.d.setdefault(k, {})
+        for h in [h for h in self.d["istek"] if h.lower().startswith("www.")]:     # eski kayıt: www. ayrı sayılmıştı -> siteye kat
+            hedef = self.d["istek"].setdefault(h[4:].lower(), {})
+            for g, n in self.d["istek"].pop(h).items():
+                hedef[g] = hedef.get(g, 0) + n
 
     def kaydet(self):
         bugun = date.today()
@@ -93,8 +97,14 @@ def _indir(url, timeout=40):
     return ham.decode(m.group(1) if m else "utf-8", "replace")
 
 
+def site_anahtari(host):
+    """Bütçe SİTE başına tutulur: www.alan.com ile alan.com aynı sitedir (yönlendirmede iki ad görülür)."""
+    h = (host or "").lower().split(":")[0]
+    return h[4:] if h.startswith("www.") else h
+
+
 def _say(ctx, host):
-    d = durum(ctx).d["istek"].setdefault(host, {})
+    d = durum(ctx).d["istek"].setdefault(site_anahtari(host), {})
     g = date.today().isoformat()
     if d.get(g, 0) >= GUNLUK_ISTEK:
         raise ButceDoldu(f"{host}: bugünkü {GUNLUK_ISTEK} istek hakkı doldu")

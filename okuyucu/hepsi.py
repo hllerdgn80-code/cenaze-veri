@@ -8,15 +8,15 @@ Kullanım: python3 okuyucu/hepsi.py [il ...]     (il verilmezse hepsi)
           python3 okuyucu/hepsi.py --kapi             (yayın öncesi makine denetçisi okuyucu/kapi.py: tüm illerin son7gun.json'u; CI birleştirme adımında)
 Her il en çok IL_SINIRI_SN sürer; aşarsa "zaman aşımı" ile atlanır.
 """
-import importlib, io, json, os, shutil, sys, threading, time, traceback
-from contextlib import redirect_stdout
+import importlib, io, json, os, re, shutil, sys, threading, time, traceback
+from contextlib import redirect_stdout, redirect_stderr
 
 DIZIN = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, DIZIN)
 import ortak
 
 VERI = os.path.join(DIZIN, "..", "veri")
-ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya", "artvin", "samsun", "erzurum", "mugla", "balikesir", "tekirdag", "yozgat", "adiyaman", "antalya", "burdur", "hatay", "aydin", "ankara", "istanbul", "izmir", "eskisehir", "amasya", "mardin", "siirt", "bitlis", "manisa"]   # dosyası olmayan atlanır
+ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya", "artvin", "samsun", "erzurum", "mugla", "balikesir", "tekirdag", "yozgat", "adiyaman", "antalya", "burdur", "hatay", "aydin", "ankara", "istanbul", "izmir", "eskisehir", "amasya", "mardin", "siirt", "bitlis", "manisa", "agri", "ardahan", "bayburt", "bingol", "corum", "diyarbakir", "hakkari", "igdir", "kars", "kastamonu", "kilis", "kirklareli", "mersin", "mus", "sirnak", "tunceli"]   # dosyası olmayan atlanır
 
 
 IL_SINIRI_SN = 150
@@ -119,6 +119,7 @@ def main():
         giris = {"son_calisma": ortak.simdi_iso(), "hata": None}
         t0 = time.time()
         tampon = io.StringIO()
+        hata_tampon = io.StringIO()     # okuyucunun stderr'i: gün/ilçe düzeyindeki "HATA ..." satırları sayılır (sağlık görsün)
         il_dizin = os.path.join(VERI, il)
         yedek = os.path.join(VERI, f"_yedek_{il}")
         shutil.rmtree(yedek, ignore_errors=True)
@@ -126,7 +127,7 @@ def main():
             shutil.copytree(il_dizin, yedek)          # hata/boş sonuçta eski veri korunur
         try:
             modul = importlib.import_module(il)
-            with redirect_stdout(tampon):
+            with redirect_stdout(tampon), redirect_stderr(hata_tampon):
                 sinirli_calistir(modul, il)
         except Exception as e:
             giris["hata"] = f"{type(e).__name__}: {e}"
@@ -158,6 +159,10 @@ def main():
         except Exception as e:
             giris.update(son_guncelleme=None, kayit_sayisi=None)
             giris["hata"] = giris["hata"] or f"son7gun.json okunamadı: {e}"
+        hata_satir = [x for x in hata_tampon.getvalue().splitlines() if x.strip()]
+        if hata_satir:
+            sys.stderr.write("\n".join(hata_satir[-20:]) + "\n")
+        giris["gun_hatasi"] = sum(1 for x in hata_satir if re.match(r"\s*(\[[^\]]*\]\s*)?HATA\b", x))
         giris["sure_sn"] = round(time.time() - t0)
         ozet["iller"][il] = giris
         print(f"[{il}] {giris.get('kayit_sayisi')} kayıt, {giris['sure_sn']} sn" + (f", HATA: {giris['hata']}" if giris["hata"] else ""))

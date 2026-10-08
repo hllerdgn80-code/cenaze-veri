@@ -28,6 +28,9 @@ def yalin(yer):
     if not kelimeler:
         return yer
     son = kelimeler[-1]
+    if re.search(r"[’']", son):          # "Köyü'nde" -> "Köyü" (kesme işaretinden sonrası ektir; 08.10.2026: "Köyü'i" hatası)
+        kelimeler[-1] = re.split(r"[’']", son)[0]
+        return " ".join(kelimeler)
     for ek, yerine in _SON_EK:
         if tr_ends(son, ek) and len(son) > len(ek) + 2:
             kelimeler[-1] = son[: -len(ek)] + yerine
@@ -78,7 +81,7 @@ def kayda_cevir(r, alindi):
         defin_yeri=defin,
         namaz_yeri_vakti=namaz,
         liste_tarihi=r["gun"],
-        ham={"ilan_metni": r["metin"], "slug": r["slug"]},
+        ham={"slug": r["slug"]},     # KVKK: ilan metni yakın adlarını taşıyabilir ("X, Y'nin annesi"), saklanmaz (08.10.2026)
     )
     return k
 

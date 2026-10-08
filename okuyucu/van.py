@@ -33,8 +33,8 @@ def ayristir(sayfa):
 
 
 def kayda_cevir(baslik, alan, alindi):
-    m = re.match(r"^(.*?)\s*\((\d{1,3})\)\s*$", baslik)
-    ad, yas = (m.group(1), int(m.group(2))) if m else (baslik, None)
+    m = re.match(r"^(.*?)\s*\((\d{1,3})?\s*\)\s*$", baslik)     # "Ad Soyad (67)"; yaşı boş "Ad Soyad ()" da olur
+    ad, yas = (m.group(1), int(m.group(2)) if m.group(2) else None) if m else (baslik, None)
     defin = alan.get("Defin Tarihi")
     if not defin or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", defin):
         return None

@@ -15,7 +15,7 @@ from datetime import date, datetime, timedelta
 
 DIZIN = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, DIZIN)
-import ortak, ortak_ek, ortak9
+import ortak, ortak_ek, ortak9, ortak_kopru
 
 VERI = os.path.join(DIZIN, "..", "veri")
 SERT = os.path.join(DIZIN, "sertifika", "ilce-zincir.pem")
@@ -297,7 +297,8 @@ def al_parca(url, yeterli, ssl_baglam=None, azami=7_000_000, parca=262144):
     gecen = time.time() - ortak._son_istek.get(host, 0)
     if gecen < 3.5:
         time.sleep(3.5 - gecen)
-    rq = urllib.request.Request(url, headers={"User-Agent": ortak.UA})
+    hedef, ek = ortak_kopru.kopru_url(url)
+    rq = urllib.request.Request(hedef, headers={"User-Agent": ortak.UA, **ek})
     ham = b""
     try:
         with urllib.request.urlopen(rq, timeout=60, context=ssl_baglam) as r:

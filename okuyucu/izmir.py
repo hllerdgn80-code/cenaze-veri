@@ -10,9 +10,17 @@ Gün = defin tarihi (Bayındır) / ilan tarihi (Ödemiş, Torbalı). Kullanım: 
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak, ortak_ilce as oi
+import ortak, ortak_ilce as oi, ortak_haber as oh
 
 IL = "İzmir"
+
+# YEREL HABER (08.10.2026): il geneli tek kişilik vefat haberleri (ortak_haber; site başına günde en çok 3 istek)
+HABER_SITELERI = [
+    oh.site("Yeni Bakış", "izmir-yenibakis", "https://www.yenibakishaber.com/rss", ek_dizin="https://www.yenibakishaber.com/sitemap/sitemap-{AY}.xml"),
+    oh.site("Ege Telgraf", "izmir-egetelgraf", "https://www.egetelgraf.com/rss", ek_dizin="https://www.egetelgraf.com/sitemap/sitemap-{AY}.xml"),
+    oh.site("Dokuz Eylül", "izmir-dokuzeylul", "https://www.dokuzeylul.com/rss", ek_dizin="https://www.dokuzeylul.com/sitemap/sitemap-{AY}.xml"),
+    oh.site("Son Mühür", "izmir-sonmuhur", "https://www.sonmuhur.com/rss", ek_dizin="https://www.sonmuhur.com/sitemap/sitemap-{AY}.xml"),
+]
 
 BAYINDIR = "https://www.bayindir.bel.tr/guncel/vefat-ilanlari"
 
@@ -95,7 +103,7 @@ def torbali(ctx):
 
 
 def main():
-    oi.il_calistir(IL, "izmir", [("Bayındır", bayindir), ("Ödemiş", odemis), ("Torbalı", torbali)])
+    oi.il_calistir(IL, "izmir", [("Bayındır", bayindir), ("Ödemiş", odemis), ("Torbalı", torbali)] + oh.okuyucular(IL, HABER_SITELERI))
 
 
 if __name__ == "__main__":

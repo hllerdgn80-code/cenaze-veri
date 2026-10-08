@@ -10,6 +10,8 @@ Fotoğraf: Commons dosya adı + lisans (yalnız serbest lisanslılar tutulur).
 Hariç tutma: (1) otomatik kurallar (Wikidata'dan), (2) elle liste haric_tutulanlar.json.
 Yalnız standart kütüphane.
 """
+# meslek etiketi düzeltmesi: "Ordu subayı" → "Asker" (sahip: en bilinen kimlik)
+ORDU_SUBAYI = ("Ordu subayı", "Asker")
 import http.client, json, os, sys, time, re, html, urllib.request, urllib.parse, urllib.error, datetime
 
 UA = "KiminCenazesiBot/0.1 (+kimincenazesi)"
@@ -38,13 +40,13 @@ Q_TERORIST = "Q12414919"
 SUCLAR = {"Q41397": "soykırım", "Q173462": "insanlığa karşı suç", "Q135010": "savaş suçu"}
 SANAT_MESLEKLERI = ("Q33999 Q10800557 Q2259451 Q10798782 Q2405480 Q177220 Q488205 Q639669 Q36834 Q36180 Q6625963 "
                     "Q49757 Q1028181 Q2526255 Q2059704 Q245068 Q214917 Q28389 Q1281618 Q158852 Q822146 Q486748 "
-                    "Q3387717 Q4610556 Q1930187 Q482980 Q42973 Q1209498 Q15981151 Q2865819 Q5716684 Q33231 Q10871364").split()
+                    "Q3387717 Q4610556 Q1930187 Q482980 Q42973 Q1209498 Q15981151 Q2865819 Q5716684 Q33231 Q10871364 Q901 Q169470 Q593644 Q170790 Q864503 Q11063 Q81096 Q205375 Q1622272 Q39631 Q2487799 Q1650915 Q520549 Q82594 Q15632617 Q1662561").split()
 
 _son = [0.0]
 BASLA = time.time()
 BUTCE = float(os.environ.get("BUTCE", "0"))   # saniye; aşılırsa önbellek kaydedilip çıkılır (yeniden çalıştırınca devam eder)
 ONBELLEK = os.path.join(OUT, "_ara", "onbellek.json")
-CACHE = {"dilim": {}, "FL": {}, "DET": {}, "FOTO": {}}
+CACHE = {"dilim": {}, "FL": {}, "DET": {}, "FOTO": {}, "EK": {}}
 
 _log = lambda *a: print(*a, file=sys.stderr, flush=True)
 
@@ -57,7 +59,7 @@ def kaydet_onbellek():
     os.makedirs(os.path.dirname(ONBELLEK), exist_ok=True)
     fl = {i: {k: sorted(v) for k, v in d.items()} for i, d in FL.items()}
     with open(ONBELLEK + ".tmp", "w", encoding="utf8") as f:
-        json.dump({"dilim": CACHE["dilim"], "FL": fl, "DET": DET, "FOTO": FOTO}, f, ensure_ascii=False)
+        json.dump({"dilim": CACHE["dilim"], "FL": fl, "DET": DET, "FOTO": FOTO, "EK": EK}, f, ensure_ascii=False)
     os.replace(ONBELLEK + ".tmp", ONBELLEK)
 
 
@@ -69,6 +71,7 @@ def yukle_onbellek():
     FL.update({i: {k: set(v) for k, v in x.items()} for i, x in d["FL"].items()})
     DET.update(d["DET"])
     FOTO.update(d["FOTO"])
+    EK.update({i: {k: ([tuple(x) for x in v] if isinstance(v, list) else v) for k, v in x.items()} for i, x in d.get("EK", {}).items()})
 
 
 def sparql(q, deneme=5):
@@ -311,6 +314,17 @@ def osmanli_safi(ids):
     return {qid(val(b, "p")) for b in toplu(ids, sg)}
 
 
+def org_genis(ids):
+    """Örgüt bağı: P39 / P108 / P1037 (kişi -> örgüt) ve P112 / P488 / P3320 / P1037 (örgüt -> kişi)."""
+    org = " ".join("wd:" + x for x in ORGUTLER)
+
+    def sg(g):
+        return f"""SELECT DISTINCT ?p ?v WHERE {{ {values(g)}
+          {{ VALUES ?v {{ {org} }} ?p (wdt:P39|wdt:P108|wdt:P1037|wdt:P463|wdt:P102|wdt:P1416) ?v }}
+          UNION {{ VALUES ?v {{ {org} }} ?v (wdt:P112|wdt:P488|wdt:P3320|wdt:P1037|wdt:P127) ?p }} }}"""
+    return toplu(ids, sg)
+
+
 def haric_yukle():
     try:
         return {x["wikidata_id"]: x for x in json.load(open(HARIC, encoding="utf8"))}
@@ -325,6 +339,11 @@ def filtrele(adaylar, kategori, manuel, fl_cache):
     """adaylar: id listesi. Dönen: kalanlar listesi. Elenenleri ELENENLER'e yazar."""
     yeni = [i for i in adaylar if i not in fl_cache]
     fl_cache.update(bayraklar(yeni))
+    gen = [i for i in adaylar if "o2" not in fl_cache[i]]
+    for b in org_genis(gen):
+        fl_cache[qid(val(b, "p"))]["o"].add(qid(val(b, "v")))
+    for i in gen:
+        fl_cache[i]["o2"] = set()
     gerekli = [i for i in adaylar if fl_cache[i]["w"] and "m" not in fl_cache[i]]
     if gerekli:
         osm = osmanli_safi(gerekli)
@@ -437,6 +456,308 @@ def _ayrinti_grup(ids):
     return loc
 
 
+# ----------------------------------------------------------------- ek alanlar: meslek / açıklama / neden önemli / hassas
+EK = {}
+HASSAS = {}
+CURKAT = [""]
+HASSAS_ANAHTAR = ("torture", "custody", "prison", "assassinat", "execut", "hanging", "hanged", "capital punishment",
+                  "homicide", "murder", "lynch", "extrajudicial", "shot", "işkence", "gözaltı", "cezaevi", "suikast", "idam", "cinayet")
+
+
+def ek_cek(ids):
+    ids = [i for i in dict.fromkeys(ids) if i not in EK]
+    if not ids:
+        return
+
+    def sg(g):
+        return f"""SELECT ?p ?k ?x ?tr ?en ?ord ?q WHERE {{ {values(g)}
+          {{ ?p wdt:P106 ?x . BIND("meslek" AS ?k) }} UNION {{ ?p wdt:P166 ?x . BIND("odul" AS ?k) }}
+          UNION {{ ?p p:P39 ?st . ?st ps:P39 ?x . OPTIONAL {{ ?st pq:P1545 ?ord }} BIND("gorev" AS ?k) }}
+          UNION {{ ?p wdt:P800 ?x . BIND("eser" AS ?k) }} UNION {{ ?p wdt:P509 ?x . BIND("sebep" AS ?k) }}
+          UNION {{ ?p wdt:P1196 ?x . BIND("sekil" AS ?k) }} UNION {{ ?p wdt:P27 ?x . BIND("ulke" AS ?k) }}
+          UNION {{ ?p schema:description ?x . FILTER(lang(?x)="tr") BIND("dtr" AS ?k) }}
+          UNION {{ ?p schema:description ?x . FILTER(lang(?x)="en") BIND("den" AS ?k) }}
+          OPTIONAL {{ ?x rdfs:label ?tr FILTER(lang(?tr)="tr") }} OPTIONAL {{ ?x rdfs:label ?en FILTER(lang(?en)="en") }} }}"""
+    for g in partiler(ids, 120):
+        loc = {i: {"meslek": [], "odul": [], "gorev": [], "eser": [], "sebep": [], "sekil": [], "ulke": [], "dtr": None, "den": None, "aday": []}
+               for i in g}
+        for b in _toplu_grup(g, sg):
+            e = loc[qid(val(b, "p"))]
+            k = val(b, "k")
+            if k in ("dtr", "den"):
+                e[k] = val(b, "x")
+                continue
+            ad = (val(b, "tr"), val(b, "en"))
+            if k == "gorev":
+                t = (qid(val(b, "x")), ad[0] or ad[1], val(b, "ord"))
+                if t not in e["gorev"]:
+                    e["gorev"].append(t)
+            elif ad not in e[k] and (ad[0] or ad[1]):
+                e[k].append(ad)
+        for i in g:
+            loc[i].pop("aday")
+            loc[i]["gorev_tr"] = False
+        EK.update(loc)
+        kaydet_onbellek()
+
+
+def liste_adi_mi(a):
+    l = (a or "").lower()
+    return "listesi" in l or "kategorisi" in l or "kategori:" in l
+
+
+def gorev_duzelt(a):
+    """'... genelkurmay başkanları listesi' gibi liste maddeleri görev değildir; bilinenlere görev adı verilir, kalanı atılır."""
+    if not a:
+        return a
+    l = a.lower()
+    if "genelkurmay" in l and ("listesi" in l or "başkanları" in l):
+        return "Genelkurmay Başkanı"
+    return None if liste_adi_mi(a) else a
+
+
+def ek_gorev_tr(ids):
+    """P39 görev etiketlerini yalnız Türkçe etiketle yeniden çeker (İngilizce kalıntı çıkmasın). EK[i]['gorev_tr'] işaretlenir."""
+    gerek = [i for i in dict.fromkeys(ids) if i in EK and not EK[i].get("gorev_tr")]
+    if not gerek:
+        return
+
+    def sg(g):
+        return f"""SELECT ?p ?x ?tr ?ord WHERE {{ {values(g)} ?p p:P39 ?st . ?st ps:P39 ?x . OPTIONAL {{ ?st pq:P1545 ?ord }}
+          OPTIONAL {{ ?x rdfs:label ?tr FILTER(lang(?tr)="tr") }} }}"""
+    for g in partiler(gerek, 150):
+        for i in g:
+            EK[i]["gorev"] = []
+            EK[i]["gorev_tr"] = True
+        for b in _toplu_grup(g, sg):
+            t = (qid(val(b, "x")), val(b, "tr"), val(b, "ord"))
+            if t not in EK[qid(val(b, "p"))]["gorev"]:
+                EK[qid(val(b, "p"))]["gorev"].append(t)
+        kaydet_onbellek()
+
+
+def ek_aday(ids):
+    """P1411 (aday gösterildiği ödül): önbellekteki EK kayıtlarında 'aday' anahtarı yoksa çeker."""
+    gerek = [i for i in dict.fromkeys(ids) if i in EK and "aday" not in EK[i]]
+    if not gerek:
+        return
+
+    def sg(g):
+        return f"""SELECT ?p ?tr ?en WHERE {{ {values(g)} ?p wdt:P1411 ?x .
+          OPTIONAL {{ ?x rdfs:label ?tr FILTER(lang(?tr)="tr") }} OPTIONAL {{ ?x rdfs:label ?en FILTER(lang(?en)="en") }} }}"""
+    for g in partiler(gerek, 150):
+        for i in g:
+            EK[i]["aday"] = []
+        for b in _toplu_grup(g, sg):
+            t = (val(b, "tr"), val(b, "en"))
+            if t not in EK[qid(val(b, "p"))]["aday"] and (t[0] or t[1]):
+                EK[qid(val(b, "p"))]["aday"].append(t)
+        kaydet_onbellek()
+
+
+# Sanat, Edebiyat ve Bilim: SABİT öncelik tablosu (sahip kararı) — P106 sırasına bakılmaz.
+SANAT_SIRA = [("şarkıcı", ("şarkıcı", "ses sanatçısı", "solist", "vokalist")),
+              ("oyuncu", ("oyuncu", "aktör", "aktris")),
+              ("şair", ("şair",)),
+              ("yazar", ("yazar", "romancı", "öykücü", "denemeci", "eleştirmen", "oyun yazarı")),
+              ("besteci", ("besteci",)),
+              ("müzisyen", ("müzisyen", "piyanist", "gitarist", "kemancı", "orkestra şefi", "bağlama", "udi", "neyzen", "sazende", "enstrüman")),
+              ("ressam", ("ressam", "karikatürist", "illüstratör", "grafiker")),
+              ("komedyen", ("komedyen", "mizahçı", "mizah")),
+              ("yönetmen", ("yönetmen",)),
+              ("senarist", ("senarist", "yapımcı")),
+              ("heykeltıraş", ("heykeltıraş",)),
+              ("mimar", ("mimar",)),
+              ("bilim", ("bilim insanı", "fizikçi", "kimyager", "matematikçi", "biyolog", "astronom", "mühendis", "mucit", "akademisyen",
+                         "profesör", "hekim", "doktor", "araştırmacı", "jeolog", "bilgisayar bilimci", "biyokimyacı", "genetikçi", "tarihçi", "filozof"))]
+# Sanat dışı listelerde (cumhurbaşkanı/başbakan/bakan/siyasetçi) ikinci kimlik tablosu
+DIGER_SIRA = [("asker", ("asker", "subay", "general", "komutan", "paşa", "mareşal")),
+              ("hukukçu", ("hukukçu", "avukat", "hâkim", "hakim", "savcı", "hukuk")),
+              ("ekonomist", ("ekonomist", "iktisatçı", "bankacı", "işletmeci", "iş insanı", "sanayici")),
+              ("doktor", ("doktor", "hekim", "cerrah")),
+              ("mühendis", ("mühendis",)),
+              ("diplomat", ("diplomat", "büyükelçi")),
+              ("gazeteci", ("gazeteci",)),
+              ("akademisyen", ("akademisyen", "profesör", "öğretmen", "öğretim")),
+              ] + SANAT_SIRA
+SIYASI = ("devrimci", "papa", "gerilla", "politikacı", "siyasetçi", "devlet adamı", "milletvekili", "bakan", "başbakan", "cumhurbaşkanı", "lider", "politik", "sultan", "hükümdar", "halife", "padişah", "sadrazam", "vezir", "kral", "imparator", "başkan", "diktatör", "şah")
+# Elle belirlenen tek kimlik / önem cümleleri (sahip talimatı)
+OZEL_MESLEK = {"Q203768": "Son halife"}
+OZEL_NEDEN = {"Q5152": "Türkiye Cumhuriyeti'nin kurucusu ve 1. Cumhurbaşkanı"}
+
+
+def tr_buyuk(x):
+    if not x:
+        return x
+    c = x[0]
+    return {"i": "İ", "ı": "I"}.get(c, c.upper()) + x[1:]
+
+
+def _tr_etiketler(taglar):
+    out = []
+    for t in taglar:
+        if t[0] and t[0] not in out:      # yalnız Türkçe etiketi olanlar; İngilizce kalıntı çıkmaz
+            out.append(t[0])
+    return out
+
+
+def _rank(et, tablo):
+    l = et.lower() + " "
+    for x in ("söz yazarı", "şarkı yazarı", "şarkı sözü yazarı"):
+        l = l.replace(x, "söz_besteci")
+    for r, (_, anah) in enumerate(tablo):
+        if any(a in l for a in anah):
+            return r
+    return None
+
+
+def tek_meslek(taglar, tablo, siyasi_atla, n=1):
+    """Sabit tabloya göre en çok n kimlik (her sıradan bir etiket). Aynı sırada birden çok etiket varsa 'sinema/film' içereni, yoksa en kısası."""
+    best = {}
+    for et in _tr_etiketler(taglar):
+        if siyasi_atla and any(x in et.lower() for x in SIYASI):
+            continue
+        r = _rank(et, tablo)
+        if r is None:
+            continue
+        anahtar = (len(et), et)      # aynı eşanlam kümesinde en kısa etiket
+        if r not in best or anahtar < best[r][0]:
+            best[r] = (anahtar, et)
+    adlar = {r: (SANAT_SIRA[r][0] if tablo is SANAT_SIRA else None) for r in best}
+    if tablo is SANAT_SIRA and 0 in best and 5 in best:      # şarkıcı ≈ ses sanatçısı ≈ müzisyen: birlikte yazılmaz
+        del best[5]
+    if tablo is SANAT_SIRA and 4 in best and 5 in best:      # besteci ≈ müzisyen
+        del best[5]
+    liste = [tr_buyuk(best[r][1]) if k == 0 else best[r][1].lower() for k, r in enumerate(sorted(best))][:n]
+    return liste if n > 1 else (liste[0] if liste else None)
+
+
+SIYASI_ACIKLAMA = ("başkan", "başbakan", "cumhurbaşkanı", "şansölye", "kral", "sultan", "sadrazam", "imparator", "siyasetçi",
+                   "devlet adamı", "papa", "devrimci", "diplomat", "hükümdar", "lider", "general", "asker", "komutan", "vali")
+SIYASI_EK = ("devrimci", "papa", "gerilla")
+
+
+def meslek_sec(i, taglar, gorevler, mod, aciklama=None):
+    if i in OZEL_MESLEK:
+        return [OZEL_MESLEK[i]]
+    if mod == "sanat":
+        return tek_meslek(taglar, SANAT_SIRA, True, 3)
+    elif mod == "genel":
+        # tarihte bugün: önce en üst görev, yoksa siyasi kimlik, yoksa sabit tablo
+        ust = {q for q, _, _ in gorevler}
+        if Q_CUMHURBASKANI in ust:
+            return ["Cumhurbaşkanı"]
+        if Q_BASBAKAN in ust:
+            return ["Başbakan"]
+        desc = (aciklama or "").lower()
+        siyasi_desc = any(x in desc for x in SIYASI_ACIKLAMA)
+        siy = [e for e in _tr_etiketler(taglar) if any(x in e.lower() for x in SIYASI)]
+        sanat = tek_meslek(taglar, SANAT_SIRA, False)
+        if siyasi_desc:
+            m = tr_buyuk(siy[0]) if siy else (tek_meslek(taglar, DIGER_SIRA, False) if not sanat else sanat)
+        else:
+            m = sanat or (tr_buyuk(siy[0]) if siy else None)
+    else:
+        # cumhurbaşkanı/başbakan/bakan/siyasetçi listeleri: görev adı tekrarlanmaz, ikinci kimlik
+        m = tek_meslek(taglar, DIGER_SIRA, True)
+        if m is None and mod == "siyasetci":
+            m = "Siyasetçi"
+    return [m] if m else []
+
+
+def _ad(t):
+    return t[0]          # yalnız Türkçe etiket
+
+
+def turk_sil(x):
+    """'Türk ressam' -> 'ressam' (Türk sıfatı yazılmaz); Türkiye/Türk Silahlı… gibi özel adlara dokunmaz."""
+    if not x:
+        return x
+    y = re.sub(r"\bTürk (?=[a-zçğıöşü])", "", x)
+    y = re.sub(r"\s{2,}", " ", y).strip()
+    if y and y[0].islower() and y != x:
+        y = tr_buyuk(y)
+    return y or None
+
+
+def neden_temizle(neden, mes):
+    """neden_onemli, meslek ile aynı kelimeyi içeren cümleleri atar; anlamlı bir şey kalmazsa None."""
+    if not neden:
+        return None
+    jet = [w.lower() for m in mes for w in re.findall(r"\w+", m) if len(w) >= 4]
+    if not jet:
+        return neden
+    parcalar = []
+    for seg in re.split(r"(?<!\d)\.\s+", neden):
+        ham = [re.sub(r"\W+", "", w).lower() for w in seg.split()]
+        if any(h and any(h.startswith(j[:max(4, len(j) - 2)]) for j in jet) for h in ham):
+            continue
+        if seg.strip().endswith(":"):
+            continue
+        parcalar.append(seg.strip())
+    return ". ".join(parcalar) or None
+
+
+def turet(i):
+    e = EK.get(i) or {}
+    d = DET.get(i, {})
+    mod = {"sanatcilar": "sanat", "tarihte_bugun": "genel", "siyasetciler": "siyasetci"}.get(CURKAT[0], "diger")
+    mes = meslek_sec(i, e.get("meslek", []), e.get("gorev", []), mod, e.get("dtr"))
+    ulke = _ad(e["ulke"][0]) if e.get("ulke") and _ad(e["ulke"][0]) else None
+    if e.get("dtr"):
+        acik, kaynak = e["dtr"], "wikidata_tr"
+    elif e.get("den") and mes:
+        acik, kaynak = mes[0] + (f" ({ulke})" if ulke else ""), "turetilmis"
+    else:
+        acik, kaynak = None, None
+    neden = OZEL_NEDEN.get(i)
+    if not neden:
+        for q, ad, o in e.get("gorev", []):
+            if o and o.isdigit() and q in (Q_CUMHURBASKANI, Q_BASBAKAN):
+                neden = f"{o}. {'Cumhurbaşkanı' if q == Q_CUMHURBASKANI else 'Türkiye Başbakanı'}"
+                break
+    if not neden:
+        for t in e.get("odul", []):
+            if _ad(t) and "nobel" in _ad(t).lower() and not liste_adi_mi(_ad(t)):
+                neden = f"{_ad(t)} sahibi"
+                break
+    if not neden:
+        odul = list(dict.fromkeys(_ad(t) for t in e.get("odul", []) if _ad(t) and not liste_adi_mi(_ad(t))))[:2]
+        eser = list(dict.fromkeys(_ad(t) for t in e.get("eser", []) if _ad(t) and not liste_adi_mi(_ad(t))))[:3]
+        gor = list(dict.fromkeys(gorev_duzelt(g[1]) for g in e.get("gorev", []) if gorev_duzelt(g[1])))[:2]
+        aday = list(dict.fromkeys(_ad(t) for t in e.get("aday", []) if _ad(t)))[:2]
+        parca = []
+        if odul:
+            parca.append("Ödül: " + ", ".join(odul))
+        if eser:
+            parca.append("Önemli eserleri: " + ", ".join("“" + x + "”" for x in eser))
+        if gor:
+            parca.append("Görev: " + ", ".join(gor))
+        if aday:
+            parca.append("Aday olduğu ödül: " + ", ".join(aday))
+        neden = ". ".join(parca[:2]) if parca else (e.get("dtr") or None)
+    neden = turk_sil(neden)
+    acik = turk_sil(acik)
+    neden = neden_temizle(neden, mes)
+    if neden and acik and neden.strip().lower() == acik.strip().lower():
+        neden = None
+    acik_var = bool(acik)
+    if mes or neden:     # tanıtım satırı: meslek + neden_onemli; aciklama yalnız ikisi de yoksa
+        acik, kaynak = None, None
+    h = []
+    for t in e.get("sebep", []) + e.get("sekil", []):
+        for a in t:
+            if a and any(w in a.lower() for w in HASSAS_ANAHTAR):
+                h.append(t[0] or t[1])
+                break
+    for w in HASSAS_ANAHTAR:
+        if e.get("den") and w in e["den"].lower() and w not in ("shot", "prison", "custody"):
+            h.append("açıklama: " + e["den"])
+            break
+    return {"meslek": mes, "aciklama": acik, "aciklama_kaynak": kaynak, "neden_onemli": neden,
+            "hassas": bool(h), "hassas_nedeni": sorted(set(h)) or None, "_aciklama_var": bool(e.get("dtr") or e.get("den"))}
+
+
 # ----------------------------------------------------------------- Commons lisans
 FOTO = {}   # dosya adı -> dict | None
 
@@ -493,6 +814,9 @@ def commons_lisans(dosyalar):
 
 
 def foto_sec(ids):
+    ek_cek(ids)
+    ek_gorev_tr(ids)
+    ek_aday(ids)
     commons_lisans([f for i in ids for f in DET[i]["foto"]])
     for i in ids:
         DET[i]["fotograf"] = next((FOTO[f] for f in DET[i]["foto"] if FOTO.get(f)), None)
@@ -507,14 +831,32 @@ def kayit(i, ek=None):
         r["vefat_yasi_yaklasik"] = True
     r.update({"dogum_yeri": d["dogum_yeri"], "vefat_yeri": d["vefat_yeri"], "defin_yeri": d["defin_yeri"],
               "defin_il": d["defin_il"], "defin_ulke": None if d["defin_il"] else d["defin_ulke"],
-              "wikidata_id": i, "sitelink_sayisi": d["sl"], "fotograf": d.get("fotograf")})
+              "wikidata_id": i, "sitelink": d["sl"], "fotograf": d.get("fotograf")})
+    t = turet(i)
+    r.update({"meslek": t["meslek"], "aciklama": t["aciklama"], "aciklama_kaynak": t["aciklama_kaynak"],
+              "neden_onemli": t["neden_onemli"], "hassas": t["hassas"]})
+    if t["hassas"]:
+        r["hassas_nedeni"] = t["hassas_nedeni"]
+        h = HASSAS.setdefault(i, {"wikidata_id": i, "ad": r["ad"], "aciklama": t["aciklama"], "neden": t["hassas_nedeni"],
+                                  "vefat_tarihi": r["vefat_tarihi"], "kategoriler": []})
+        if CURKAT[0] not in h["kategoriler"]:
+            h["kategoriler"].append(CURKAT[0])
+    if CURKAT[0] == "sanatcilar":
+        r["kategori_adi"] = "Sanat, Edebiyat ve Bilim"
     if ek:
         r.update(ek)
     return r
 
 
 def sirala(kayitlar):
-    return sorted(kayitlar, key=lambda r: ((r["vefat_tarihi"] or "").ljust(10, "0"), r["sitelink_sayisi"]), reverse=True)
+    return sorted(kayitlar, key=lambda r: ((r["vefat_tarihi"] or "").ljust(10, "0"), r["sitelink"]), reverse=True)
+
+
+def sirala_sitelink(kayitlar):
+    return sorted(kayitlar, key=lambda r: (-r["sitelink"], r["ad"]))
+
+
+ATANDI = set()   # üst kategoride yer alanlar: cumhurbaşkanı > başbakan > bakan > siyasetçi > sanatçı
 
 
 def yaz(ad, veri):
@@ -556,7 +898,7 @@ def kategori_pozisyon(ad, q_poz, manuel):
             g[i] = [x for x in g[i] if (x["baslangic"] or "") >= "1923-10-29"]
         if not g[i]:
             del g[i]
-    adaylar = [i for i in adaylar if i in g]
+    adaylar = [i for i in adaylar if i in g and i not in ATANDI]
     kalan = filtrele(adaylar, ad, manuel, FL)
     ayrinti_cek(kalan)
     foto_sec(kalan)
@@ -564,31 +906,47 @@ def kategori_pozisyon(ad, q_poz, manuel):
     for i in kalan:
         dn = g.get(i, [])
         siralar = [x["sira"] for x in dn if x["sira"]]
-        out.append(kayit(i, {"sira": siralar[0] if siralar else None, "gorev_donemi": [{"baslangic": x["baslangic"], "bitis": x["bitis"]} for x in dn]}))
+        etiket_ = "Cumhurbaşkanı" if q_poz == Q_CUMHURBASKANI else "Başbakan"
+        out.append(kayit(i, {"sira": f"{siralar[0]}. {etiket_}" if siralar else None,
+                             "gorev_donemi": [{"baslangic": x["baslangic"], "bitis": x["bitis"]} for x in dn]}))
+    ATANDI.update(kalan)
     yaz(ad + ".json", sirala(out))
     return len(out)
 
 
 def kategori_bakan(manuel):
-    adaylar = list(aday_bakan())
+    adaylar = [i for i in aday_bakan() if i not in ATANDI]
     kalan = filtrele(adaylar, "bakanlar", manuel, FL)
     ayrinti_cek(kalan)
     foto_sec(kalan)
     g = gorevler(kalan, f"?pos wdt:P279* wd:{Q_BAKAN} . ?pos (wdt:P1001|wdt:P17) wd:{Q_TURKIYE} .")
     out = []
     for i in kalan:
-        out.append(kayit(i, {"gorevler": [{"gorev": x["gorev"], "baslangic": x["baslangic"], "bitis": x["bitis"]} for x in g.get(i, [])]}))
+        gv = []
+        for x in g.get(i, []):
+            y = {"gorev": x["gorev"], "baslangic": x["baslangic"], "bitis": x["bitis"]}
+            if re.fullmatch(r"Q\d+", y["gorev"] or ""):
+                continue
+            y["gorev"] = gorev_duzelt(y["gorev"])
+            if not y["gorev"]:
+                continue
+            if y not in gv:
+                gv.append(y)
+        out.append(kayit(i, {"gorevler": gv}))
+    ATANDI.update(kalan)
     yaz("bakanlar.json", sirala(out))
     return len(out)
 
 
 def kategori_ilk_n(ad, adaylar_fn, n, limit, manuel):
     ad_ = adaylar_fn(limit)
-    sirali = sorted(ad_, key=lambda i: -ad_[i]["sl"])
+    sirali = sorted((i for i in ad_ if i not in ATANDI), key=lambda i: -ad_[i]["sl"])
     kalan = filtrele(sirali, ad, manuel, FL)[:n]
     ayrinti_cek(kalan)
     foto_sec(kalan)
-    yaz(ad + ".json", sirala([kayit(i) for i in kalan]))
+    kay = [kayit(i) for i in kalan]
+    ATANDI.update(kalan)
+    yaz(ad + ".json", sirala_sitelink(kay) if ad == "sanatcilar" else sirala(kay))
     return len(kalan)
 
 
@@ -596,18 +954,21 @@ def kategori_tarihte_bugun(manuel):
     gunler = aday_tarihte_bugun()
     secim = {}
     for gun, v in sorted(gunler.items()):
-        t = sorted(v["tr"], reverse=True)[:10]
-        y = sorted(v["yab"], reverse=True)[:24]
+        t = sorted([x for x in v["tr"] if x[0] >= 10], reverse=True)[:10]
+        y = sorted([x for x in v["yab"] if x[0] >= 30], reverse=True)[:24]
         secim[gun] = (t, y)
     havuz = [i for t, y in secim.values() for _, i in t + y]
     filtrele(havuz, "tarihte_bugun", manuel, FL)
+    havuz = [i for i in havuz if not _elendi(i)]
+    ek_cek(havuz)
     final = {}
     for gun, (t, y) in secim.items():
-        t = [i for _, i in t if not _elendi(i)][:8]
-        y = [i for _, i in y if not _elendi(i)]
-        yer = 15 - len(t)
-        final[gun] = (t, y[:max(yer, 0)])
-        # Türk sayısı 8'in altındaysa yabancılar zaten doldurur
+        def uygun(i, turk):
+            x = turet(i)
+            return x["_aciklama_var"] and (x["meslek"] if turk else True)
+        t = [i for _, i in t if not _elendi(i) and uygun(i, True)][:8]
+        y = [i for _, i in y if not _elendi(i) and uygun(i, False)]
+        final[gun] = (t, y[:max(12 - len(t), 0)])
     tum = [i for t, y in final.values() for i in t + y]
     ayrinti_cek(tum)
     foto_sec(tum)
@@ -623,7 +984,7 @@ def kategori_tarihte_bugun(manuel):
             t, y = final.get(k, ([], []))
             kay = [kayit(i, {"turk": True}) for i in t] + [kayit(i, {"turk": False}) for i in y]
             # Türkler önce, kendi içinde ve yabancılar kendi içinde sitelink sayısına göre
-            kay.sort(key=lambda r: (not r["turk"], -r["sitelink_sayisi"]))
+            kay.sort(key=lambda r: (not r["turk"], -r["sitelink"]))
             yaz(f"tarihte_bugun/{k}.json", kay)
             adet += len(kay)
     return adet
@@ -636,11 +997,13 @@ def _elendi(i):
 # ----------------------------------------------------------------- ana
 def main():
     yukle_onbellek()
-    kats = sys.argv[1:] or ["cumhurbaskanlari", "basbakanlar", "bakanlar", "siyasetciler", "sanatcilar", "tarihte_bugun"]
+    KANON = ["cumhurbaskanlari", "basbakanlar", "bakanlar", "siyasetciler", "sanatcilar", "tarihte_bugun"]
+    kats = sorted(sys.argv[1:], key=KANON.index) if sys.argv[1:] else ["cumhurbaskanlari", "basbakanlar", "bakanlar", "siyasetciler", "sanatcilar", "tarihte_bugun"]
     manuel = haric_yukle()
     sayilar = {}
     for k in kats:
         _log("=== kategori:", k)
+        CURKAT[0] = k
         if k == "cumhurbaskanlari":
             sayilar[k] = kategori_pozisyon(k, Q_CUMHURBASKANI, manuel)
         elif k == "basbakanlar":
@@ -648,9 +1011,9 @@ def main():
         elif k == "bakanlar":
             sayilar[k] = kategori_bakan(manuel)
         elif k == "siyasetciler":
-            sayilar[k] = kategori_ilk_n(k, aday_siyasetci, 500, 800, manuel)
+            sayilar[k] = kategori_ilk_n(k, aday_siyasetci, 500, 1100, manuel)
         elif k == "sanatcilar":
-            sayilar[k] = kategori_ilk_n(k, aday_sanatci, 1000, 1700, manuel)
+            sayilar[k] = kategori_ilk_n(k, aday_sanatci, 1000, 2400, manuel)
         elif k == "tarihte_bugun":
             sayilar[k] = kategori_tarihte_bugun(manuel)
         else:
@@ -661,6 +1024,7 @@ def main():
     elen = [{"wikidata_id": i, "ad": DET[i]["ad"], "kategoriler": sorted(v["kategoriler"]), "kurallar": sorted(v["kurallar"])}
             for i, v in ELENENLER.items()]
     yaz("_elenenler.json", sorted(elen, key=lambda x: x["ad"] or ""))
+    yaz("_hassas.json", sorted(HASSAS.values(), key=lambda x: x["ad"] or ""))
     kural_say = {}
     for e in elen:
         for r in e["kurallar"]:

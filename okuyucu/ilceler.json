@@ -992,5 +992,162 @@
   "Şehzadeler",
   "Turgutlu",
   "Yunusemre"
+ ],
+ "Ağrı": [
+  "Diyadin",
+  "Doğubayazıt",
+  "Eleşkirt",
+  "Hamur",
+  "Patnos",
+  "Taşlıçay",
+  "Tutak"
+ ],
+ "Ardahan": [
+  "Çıldır",
+  "Damal",
+  "Göle",
+  "Hanak",
+  "Posof"
+ ],
+ "Bayburt": [
+  "Aydıntepe",
+  "Demirözü"
+ ],
+ "Bingöl": [
+  "Adaklı",
+  "Genç",
+  "Karlıova",
+  "Kiğı",
+  "Solhan",
+  "Yayladere",
+  "Yedisu"
+ ],
+ "Çorum": [
+  "Alaca",
+  "Bayat",
+  "Boğazkale",
+  "Dodurga",
+  "İskilip",
+  "Kargı",
+  "Laçin",
+  "Mecitözü",
+  "Oğuzlar",
+  "Ortaköy",
+  "Osmancık",
+  "Sungurlu",
+  "Uğurludağ"
+ ],
+ "Diyarbakır": [
+  "Bağlar",
+  "Bismil",
+  "Çermik",
+  "Çınar",
+  "Çüngüş",
+  "Dicle",
+  "Eğil",
+  "Ergani",
+  "Hani",
+  "Hazro",
+  "Kayapınar",
+  "Kocaköy",
+  "Kulp",
+  "Lice",
+  "Silvan",
+  "Sur",
+  "Yenişehir"
+ ],
+ "Hakkari": [
+  "Çukurca",
+  "Derecik",
+  "Şemdinli",
+  "Yüksekova"
+ ],
+ "Iğdır": [
+  "Aralık",
+  "Karakoyunlu",
+  "Tuzluca"
+ ],
+ "Kars": [
+  "Akyaka",
+  "Arpaçay",
+  "Digor",
+  "Kağızman",
+  "Sarıkamış",
+  "Selim",
+  "Susuz"
+ ],
+ "Kastamonu": [
+  "Abana",
+  "Ağlı",
+  "Araç",
+  "Azdavay",
+  "Bozkurt",
+  "Cide",
+  "Çatalzeytin",
+  "Daday",
+  "Devrekani",
+  "Doğanyurt",
+  "Hanönü",
+  "İhsangazi",
+  "İnebolu",
+  "Küre",
+  "Pınarbaşı",
+  "Seydiler",
+  "Şenpazar",
+  "Taşköprü",
+  "Tosya"
+ ],
+ "Kilis": [
+  "Elbeyli",
+  "Musabeyli",
+  "Polateli"
+ ],
+ "Kırklareli": [
+  "Babaeski",
+  "Demirköy",
+  "Kofçaz",
+  "Lüleburgaz",
+  "Pehlivanköy",
+  "Pınarhisar",
+  "Vize"
+ ],
+ "Mersin": [
+  "Akdeniz",
+  "Anamur",
+  "Aydıncık",
+  "Bozyazı",
+  "Çamlıyayla",
+  "Erdemli",
+  "Gülnar",
+  "Mezitli",
+  "Mut",
+  "Silifke",
+  "Tarsus",
+  "Toroslar",
+  "Yenişehir"
+ ],
+ "Muş": [
+  "Bulanık",
+  "Hasköy",
+  "Korkut",
+  "Malazgirt",
+  "Varto"
+ ],
+ "Şırnak": [
+  "Beytüşşebap",
+  "Cizre",
+  "Güçlükonak",
+  "İdil",
+  "Silopi",
+  "Uludere"
+ ],
+ "Tunceli": [
+  "Çemişgezek",
+  "Hozat",
+  "Mazgirt",
+  "Nazımiye",
+  "Ovacık",
+  "Pertek",
+  "Pülümür"
  ]
 }

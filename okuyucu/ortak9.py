@@ -4,7 +4,7 @@ import json, os, re, ssl, subprocess, sys, time, urllib.error, urllib.parse, url
 from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak
+import ortak, ortak_kopru
 
 VERI = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri")
 
@@ -56,7 +56,8 @@ class Oturum:
         gecen = time.time() - ortak._son_istek.get(host, 0)
         if gecen < self.bekle:
             time.sleep(self.bekle - gecen)
-        rq = urllib.request.Request(url, data=veri, headers={"User-Agent": ortak.UA, **(basliklar or {})})
+        hedef, ek = ortak_kopru.kopru_url(url)
+        rq = urllib.request.Request(hedef, data=veri, headers={"User-Agent": ortak.UA, **(basliklar or {}), **ek})
         for deneme in range(3):
             try:
                 with self.op.open(rq, timeout=40) as r:

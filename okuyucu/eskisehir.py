@@ -9,9 +9,16 @@ Kullanım: python3 okuyucu/eskisehir.py [--gun 7]
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak, ortak_ilce as oi
+import ortak, ortak_ilce as oi, ortak_haber as oh
 
 IL = "Eskişehir"
+
+# YEREL HABER (08.10.2026): il geneli tek kişilik vefat haberleri (ortak_haber; site başına günde en çok 3 istek)
+HABER_SITELERI = [
+    oh.site("Sakarya Gazetesi", "eskisehir-sakaryagazetesi", "https://www.sakaryagazetesi.com.tr/rss", ek_dizin="https://www.sakaryagazetesi.com.tr/sitemap/sitemap-{AY}.xml"),
+    oh.site("Sonhaber", "eskisehir-sonhaber", "https://www.sonhaber.com.tr/rss", ek_dizin="https://www.sonhaber.com.tr/sitemap/sitemap-{AY}.xml"),
+    oh.site("İstikbal Gazetesi", "eskisehir-istikbal", "https://www.istikbalgazetesi.com/rss", ek_dizin="https://www.istikbalgazetesi.com/sitemap/sitemap-{AY}.xml"),
+]
 CIFTELER = "https://www.cifteler.bel.tr/HOME/INDEX/HIZMET-VE-TESISLER/VEFAT-EDENLER"
 
 
@@ -36,7 +43,7 @@ def cifteler(ctx):
 
 
 def main():
-    oi.il_calistir(IL, "eskisehir", [("Çifteler", cifteler)])
+    oi.il_calistir(IL, "eskisehir", [("Çifteler", cifteler)] + oh.okuyucular(IL, HABER_SITELERI))
 
 
 if __name__ == "__main__":

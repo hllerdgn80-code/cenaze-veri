@@ -1,6 +1,7 @@
 """Ortak kayıt şeması ve JSON yazma yardımcıları (tüm il okuyucuları kullanır)."""
-import hashlib, json, os, re, time, urllib.error, urllib.parse, urllib.request, urllib.robotparser
+import hashlib, http.client, json, os, re, time, urllib.error, urllib.parse, urllib.request, urllib.robotparser
 from datetime import datetime, timedelta, timezone
+import ortak_kopru
 
 ALANLAR = ["id", "il", "ilce", "mahalle", "ad_soyad", "anne_baba", "yas", "dogum_tarihi",
            "vefat_tarihi", "defin_yeri", "defin_zamani", "namaz_tarihi", "namaz_yeri_vakti",
@@ -77,6 +78,22 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
     ilceler (ilçe -> kayıtlar), il_disi (il dışı defin), ilce_belirsiz, toplam, guncelleme.
     İlçe alanı henüz işlenmemiş kayıtlar burada ilce_isle() ile işlenir (yerinde)."""
     ilceler, il_disi, belirsiz, goruldu = {}, [], [], set()
+    # O gün okunamadıysa (ağ hatası -> okuyucu günü atlar) eski gün dosyası korunur ve son7gun'a girer
+    # (08.10.2026 denetimi: Gaziantep'te 5 günün kaydı tek IncompleteRead ile son7gun'dan düşüyordu).
+    kayitlar_by_gun = dict(kayitlar_by_gun)
+    bugun_ = datetime.now(timezone.utc).astimezone().date()
+    pencere = {(bugun_ - timedelta(days=i)).isoformat() for i in range(7)}
+    dosya_gunleri = set()
+    if os.path.isdir(klasor):
+        dosya_gunleri = {m.group(1) for m in (re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.json", a) for a in os.listdir(klasor)) if m}
+    gunler = sorted(set(gunler) | (dosya_gunleri & pencere), reverse=True)
+    for g in gunler:
+        if g not in kayitlar_by_gun and g in dosya_gunleri:
+            try:
+                with open(os.path.join(klasor, f"{g}.json"), encoding="utf-8") as f:
+                    kayitlar_by_gun[g] = json.load(f).get("kayitlar", [])
+            except Exception:
+                pass
     for g in gunler:
         for k in kayitlar_by_gun.get(g, []):
             if k["id"] in goruldu:
@@ -221,8 +238,12 @@ def indir(url, bekle=3.5, veri=None, timeout=40, ssl_baglam=None, basliklar=None
     gecen = time.time() - _son_istek.get(host, 0)
     if gecen < bekle:
         time.sleep(bekle - gecen)
-    istek = urllib.request.Request(url, data=veri, headers={"User-Agent": UA, **(basliklar or {})})
-    for deneme in range(1 if hizli else 3):          # geçici kopmalarda (IncompleteRead, zaman aşımı) en çok 3 deneme, 5 sn arayla
+    hedef, ek = ortak_kopru.kopru_url(url)           # yalnız CENAZE_KOPRU tanımlıysa (GitHub) ve izinli alan adıysa köprü
+    istek = urllib.request.Request(hedef, data=veri, headers={"User-Agent": UA, **(basliklar or {}), **ek})
+    # geçici kopmalarda en çok 3 deneme, 5 sn arayla. CI (hızlı): zaman aşımında tekrar YOK (bekleme uzamasın), ama
+    # yarım gelen yanıtta (IncompleteRead / bağlantı sıfırlandı) bir kez daha denenir (08.10.2026 denetimi: 7 il/ilçe bundan düştü)
+    son_deneme = 2
+    for deneme in range(3):
         try:
             with urllib.request.urlopen(istek, timeout=timeout, context=ssl_baglam) as r:
                 ham = r.read()
@@ -230,10 +251,12 @@ def indir(url, bekle=3.5, veri=None, timeout=40, ssl_baglam=None, basliklar=None
             break
         except urllib.error.HTTPError:
             raise
-        except Exception:
-            if deneme == (0 if hizli else 2):
+        except Exception as e:
+            if hizli:
+                son_deneme = 1 if isinstance(e, (http.client.IncompleteRead, ConnectionResetError)) else 0
+            if deneme >= son_deneme:
                 raise
-            time.sleep(5)
+            time.sleep(2 if hizli else 5)
         finally:
             _son_istek[host] = time.time()
     m = re.search(r"charset=([\w-]+)", ctype)

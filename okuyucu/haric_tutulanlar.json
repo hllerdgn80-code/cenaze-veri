@@ -160,5 +160,23 @@
   "ad": "Ebubekir el-Bağdadi",
   "gerekce": "IŞİD lideri (otomatik kuralla da yakalanır)",
   "aday": false
+ },
+ {
+  "wikidata_id": "Q488200",
+  "ad": "Fethullah Gülen",
+  "gerekce": "FETÖ kurucusu ve lideri (Türkiye'nin terör örgütü saydığı yapı)",
+  "aday": false
+ },
+ {
+  "wikidata_id": "Q224870",
+  "ad": "Dursun Karataş",
+  "gerekce": "DHKP-C kurucusu ve lideri",
+  "aday": false
+ },
+ {
+  "wikidata_id": "Q618268",
+  "ad": "Hüseyin Velioğlu",
+  "gerekce": "Hizbullah (Türkiye) kurucusu ve lideri",
+  "aday": false
  }
 ]

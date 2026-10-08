@@ -49,6 +49,15 @@ def ayristir(satir):
             "vakit": vm.group(0) if vm else None, "yer": yer or None, "tarih": ortak.tarih_iso(m.group("tarih")), "tarih_ham": m.group("tarih"), "satir": satir}
 
 
+def _koy_on(ad):
+    """Metinde açıkça yazılmış '<YER> KÖYÜNDEN / MAHALLESİNDEN' önekini addan ayırır (08.10.2026 denetimi); yoksa (None, ad)."""
+    m = re.match(r"^(?P<yer>.+?)\s+(?P<tur>KÖYÜNDEN|KÖYÜ'NDEN|MAHALLESİNDEN|MAH\.?DEN)\s+(?P<ad>.+)$", ad.strip())
+    if not m or not (2 <= len(m.group("ad").split()) <= 5):
+        return None, ad
+    tur = "Köyü" if "KÖY" in m.group("tur") else "Mahallesi"
+    return ortak.tr_title(m.group("yer")) + " " + tur, m.group("ad")
+
+
 def kayda_cevir(h, url, alindi):
     g = h["tarih"]
     yer_vakit = " – ".join(x for x in (ortak.tr_title(h["vakit"]) if h["vakit"] else None, ortak.tr_title(h["yer"]) if h["yer"] else None) if x) or None
@@ -56,8 +65,8 @@ def kayda_cevir(h, url, alindi):
         "id": ortak.kayit_id("kirikkale", h["ad"], g, h["yas_ham"] + "|" + (h["yer"] or "")),
         "il": IL,
         "ilce": None,                       # kaynakta yok
-        "mahalle": None,
-        "ad_soyad": ortak.tr_title(h["ad"]),
+        "mahalle": _koy_on(h["ad"])[0],     # "KARACALI KÖYÜNDEN HACI ÖMER ÖCAL" -> mahalle "Karacalı Köyü", ad "Hacı Ömer Öcal"
+        "ad_soyad": ortak.tr_title(_koy_on(h["ad"])[1]),
         "anne_baba": None,                  # kaynakta yok
         "yas": h["yas"],
         "dogum_tarihi": None,

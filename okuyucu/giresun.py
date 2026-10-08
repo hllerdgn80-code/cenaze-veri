@@ -167,7 +167,9 @@ def kisi_ayristir(metin, gun, url, alindi):
     # ad/soyad karşılaştırması: 'VEFAT ETMİŞTİR'den hemen önceki büyük harfli sözcükler de aynı adı vermeli
     if not mv:
         return None, "'VEFAT ETMİŞTİR' adın ardında değil"
-    ad = ortak.tr_title(ad_govde.replace("«", "").replace("»", ""))
+    # "( AYDIN) SEDAT AYGÜN": parantez içi takma ad / önek ad sayılmaz (08.10.2026 denetimi)
+    ad_govde = re.sub(r"\([^()]*\)|^[^()]*\)", " ", ad_govde.replace("«", "").replace("»", ""))
+    ad = ortak.tr_title(" ".join(ad_govde.split()).strip(" ()"))
     if len(ad.split()) < 2:
         return None, f"ad tek sözcük: {ad_govde}"
     ilce, yer = yer_cikar(bas)
@@ -186,7 +188,7 @@ def kisi_ayristir(metin, gun, url, alindi):
         "namaz_tarihi": gun if bugun else None,  # 'CENAZESİ BUGÜN' = ilanın yayımlandığı gün
         "namaz_yeri_vakti": namaz,
         "liste_tarihi": liste, "kaynak_ad": KAYNAK_AD, "kaynak_url": url, "alindi": alindi,
-        "ham": {"metin": re.sub(r"[«»]", "", metin)},
+        "ham": {},   # KVKK: ilan metni yakın adlarını taşır, saklanmaz (08.10.2026 denetimi)
     }
     return kayit, None
 
@@ -222,14 +224,14 @@ def main():
         for grup in gruplar(metin_yap(html)):
             parcalar, neden = kisilere_bol(grup)
             if neden:
-                ayrisamayan.append({"liste_tarihi": gun, "kaynak_url": link, "neden": neden, "ham_metin": grup.replace("«", "").replace("»", "")})
+                ayrisamayan.append({"liste_tarihi": gun, "kaynak_url": link, "neden": neden, "uzunluk": len(grup)})
                 continue
             for p in parcalar:
                 k, neden = kisi_ayristir(p, gun, link, alindi)
                 if k:
                     by_gun[gun].append(k)
                 else:
-                    ayrisamayan.append({"liste_tarihi": gun, "kaynak_url": link, "neden": neden, "ham_metin": p.replace("«", "").replace("»", "")})
+                    ayrisamayan.append({"liste_tarihi": gun, "kaynak_url": link, "neden": neden, "uzunluk": len(p)})
     for g in gunler:
         gor, tek = set(), []
         for k in by_gun[g]:

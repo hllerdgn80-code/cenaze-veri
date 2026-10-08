@@ -74,8 +74,20 @@ def blok_coz(ad, ls, gun):
 _ADRES = re.compile(r"\b(?:sokak\w*|sk\.|cadde\w*|cd\.|bulvar\w*|apartman\w*|apt\.|no\s*:\s*\d+|daire\s*\d)", re.I)
 
 
+_SOKAK = re.compile(r"\s*\b[\wÇĞİÖŞÜçğıöşü.]+\s+(?:sokak\w*|sk\.|cadde\w*|cd\.|bulvar\w*)\b.*$", re.I)
+_CAMI = re.compile(r"((?:[A-ZÇĞİÖŞÜ][\wçğıöşü]*\s+){1,4}Cami(?:i|si)?)")
+
+
 def kayda_cevir(ad, ls, gun, url, alindi):
     konum, metin, namaz_tarihi, defin_yeri = blok_coz(ad, ls, gun)
+    if konum:   # "Karaelmas Mahallesi Güney Sokak": sokak ev adresidir (KVKK), yalnız mahalle/köy kalır (08.10.2026 denetimi)
+        konum = _SOKAK.sub("", konum).strip(" ,") or None
+    cumle = metin
+    if metin:   # kartta site cümlesi değil kısa biçim: "Öğle namazı – Çaydamar İnamiye Camii"
+        v = re.search(r"\b(sabah|öğle|ikindi|akşam|yatsı|cuma)\s+namaz", ortak.tr_lower(metin))
+        c = _CAMI.search(metin)
+        if v and c:
+            metin = f"{ortak.tr_title(v.group(1))} namazı – {c.group(1).strip()}"
     if metin and _ADRES.search(metin):
         # cümlede ev adresi var ("... Köşk Sokak'ta helallik ..."): KVKK, cümle yayımlanmaz, yalnız namaz vakti (kapi.py K4)
         v = re.search(r"\b(sabah|öğle|ikindi|akşam|yatsı|cuma)\s+namaz", ortak.tr_lower(metin))
@@ -93,12 +105,12 @@ def kayda_cevir(ad, ls, gun, url, alindi):
         "defin_yeri": defin_yeri,
         "defin_zamani": None,
         "namaz_tarihi": namaz_tarihi,
-        "namaz_yeri_vakti": metin,           # "Cenazesi, ..." cümlesi (namaz vakti/yeri ve defin yeri), aynen
+        "namaz_yeri_vakti": metin,           # kısa biçim (vakit – cami); ayrıştırılamazsa "Cenazesi, ..." cümlesi aynen
         "liste_tarihi": gun,
         "kaynak_ad": KAYNAK_AD,
         "kaynak_url": url,
         "alindi": alindi,
-        "ham": {"konum": konum, "cenaze_cumlesi": metin},
+        "ham": {"konum": konum, "cenaze_cumlesi": cumle if cumle and not _ADRES.search(cumle) else None},
     }
 
 

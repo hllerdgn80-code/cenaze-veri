@@ -45,11 +45,14 @@ def main():
             ilce_sorun[il] = kotu
     if ilce_sorun:
         sorunlar.append("ilçe hatası: " + "; ".join(f"{il}/{k} ({v[:50]})" for il, d in ilce_sorun.items() for k, v in d.items()))
+    gun_hatasi = {k: v.get("gun_hatasi") for k, v in iller.items() if (v.get("gun_hatasi") or 0) > 0}
+    if gun_hatasi:     # gün/ilçe sayfası okunamadı (eski gün dosyası korunur ama o gün tazelenmedi)
+        sorunlar.append("okunamayan gün/ilçe sayfası: " + ", ".join(f"{k} ({v})" for k, v in gun_hatasi.items()))
     if dusus is not None and dusus > 40:
         sorunlar.append(f"toplam kayıt önceki çalışmaya göre %{dusus} düştü ({onceki_toplam} -> {toplam})")
     cikti = {"guncelleme": ozet.get("guncelleme"), "il_sayisi": len(iller), "toplam_kayit": toplam,
              "onceki_toplam": onceki_toplam, "dusus_yuzde": dusus, "hatali_iller": hatali,
-             "sifir_kayitli_iller": sifir, "ilce_sorunlari": ilce_sorun, "sorunlar": sorunlar, "saglikli": not sorunlar}
+             "sifir_kayitli_iller": sifir, "ilce_sorunlari": ilce_sorun, "gun_hatasi": gun_hatasi, "sorunlar": sorunlar, "saglikli": not sorunlar}
     os.makedirs(KOK, exist_ok=True)
     with open(os.path.join(KOK, "saglik.json"), "w", encoding="utf-8") as f:
         json.dump(cikti, f, ensure_ascii=False, indent=1)

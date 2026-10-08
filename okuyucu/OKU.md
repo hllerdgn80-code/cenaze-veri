@@ -111,3 +111,18 @@ veri/<il>/son7gun.json'daki her kayıt K1-K8 kurallarından geçer (zorunlu alan
 ölüm nedeni, aynı kişi aynı gün, alan adı tutarlılığı, yerel basında site cümlesi/60 karakter). Geçmeyen kayıt son7gun'dan çıkarılır,
 `veri/<il>/_kapi_red.json`'a yazılır; özet `veri/kapi.json`; `veri/ozet.json` kayıt sayısı güncellenir. Yeni yerel basın sitesi eklenince
 `kapi.YEREL_BASIN`'a (kaynak_ad -> alan adı) da yazılır, yoksa K7 eler.
+
+## YEREL HABER: tek kişilik vefat haberleri (site sahibi kararı 08.10.2026)
+Yeni iller: agri, ardahan, bayburt, bingol, corum, diyarbakir, hakkari, igdir, kars, kastamonu, kilis, kirklareli, mersin, mus,
+sirnak ve tunceli. Ayrıca eskisehir.py ile izmir.py'ye `HABER_SITELERI` eklendi.
+Ortak kod `ortak_haber.py` dosyasında. Her il dosyası `SITELER = [oh.site(ad, slug, rss, kesin_yerel=, ilce=, takma=, ek_dizin=)]`
+listesini taşır ve `oi.il_calistir(IL, klasör, oh.okuyucular(IL, SITELER))` ile çalışır.
+- Dizin sitenin RSS'idir ve 6 saat önbellekte tutulur (`veri/<il>/_haber_dizin/`). `ek_dizin` sitenin aylık haritasıdır; RSS'e
+  girmeyen vefat haberlerinin adresini verir ve bu haberler bütçe kaldıkça açılır.
+- Seçim ve yerellik kuralları için `ortak_haber.yerel_mi` ile `vefat_haberi_mi` işlevlerine bakılır. Ad yalnız Türkçe başlıktan ya da
+  özetten alınır; site haritasındaki adres parçasından alınmaz.
+- Kayıtta `kaynak_turu` "yerel_haber" olur, `kaynak_url` haberin adresidir. `ham` alanında yalnız `yayin_tarihi` ve `tarih_kaynagi` durur.
+- Açılan haberden yalnız OLGULAR saklanır (`_haber_olgu.json`, 10 gün). Metin saklanmaz.
+- İstek bütçesi `ortak_basin` ile ortaktır: site başına günde 3 istek. `www.` ile `www.`siz adres aynı site sayılır (`site_anahtari`).
+- Yeni bir site eklenince `kapi.YEREL_BASIN` listesine site adı ve alan adı yazılır. Yazılmazsa K7 kaydı eler.
+- Siteler, hacim ve sıfır çıkan iller: `arastirma/yerel-haber-2026-10-08.md`.

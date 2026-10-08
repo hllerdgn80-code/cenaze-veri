@@ -8,13 +8,15 @@ okuma son7gun'u yeniden kurar, kapı yine çalışır).
 Kurallar (her kayıt):
   K1 zorunlu alan: ad_soyad, kaynak_url ve tarih (resmî: vefat|namaz|defin|liste_tarihi; yerel basın: vefat|namaz|defin
      ya da ham.tarih_kaynagi işaretli ilan günü)
-  K2 ad: 2-5 sözcük; rakam, URL, @, ünlem yok (karşılaştırma büyük harfe normalize edilmiş adla yapılır)
+  K2 ad: 2-5 sözcük; rakam, URL, @, ünlem, parantez yok (karşılaştırma büyük harfe normalize edilmiş adla yapılır)
   K3 tarih: geçerli YYYY-AA-GG; liste_tarihi pencerede (son 8 gün .. +2 gün); hiçbir tarih bugünden 2 günden ileri değil
-  K4 kişisel veri: metin alanlarında telefon / TC kimlik no / e-posta / açık adres kalıbı yok
+  K4 kişisel veri: metin alanlarında telefon / TC kimlik no / e-posta / açık adres kalıbı yok (cami/mezarlık alanlarında
+     "sokak/cadde" yer adıdır; orada yalnız kapı no / daire / kat / apartman elenir)
   K5 ölüm nedeni / hastalık sözcüğü yok
-  K6 aynı kişi aynı gün tekrar yok (resmî kaynak önce tutulur, yerel basın kopyası elenir)
+  K6 aynı kişi aynı gün tekrar yok (resmî kaynak önce tutulur, yerel basın kopyası elenir); yerel_haber kaydı aynı adla ±3 gün
+     içinde daha önce tutulmuş bir kayıt varsa elenir (vefat ve defin haberi, iki site)
   K7 kaynak_url http(s) ve aynı kaynak_ad'ın kayıtlarıyla AYNI alan adından; yerel basında kayıtlı alan adı
-  K8 (yalnız kaynak_turu == "yerel_basin") sitenin cümlesi yok: alan değerleri <= 60 karakter; "vefat etmiştir/etti",
+  K8 (kaynak_turu "yerel_basin" ya da "yerel_haber") sitenin cümlesi yok: alan değerleri <= 60 karakter; "vefat etmiştir/etti",
      "başsağlığı", "Allah rahmet", "rahmetine kavuş", "taziye" gibi cümle parçaları yok
 Kullanım: python3 okuyucu/kapi.py [il ...] [--kuru]     (--kuru: yalnız rapor, dosyalar değişmez)
           python3 okuyucu/hepsi.py --kapi           (aynısı, tüm iller)
@@ -39,7 +41,35 @@ YEREL_BASIN = {
     "Kurtalan Gazetesi": "www.kurtalangazetesi.com",
     "Bitlis Haber": "www.bitlishaber13.net",
     "Akhisar Haber": "www.akhisarhaber.net",
+    # YEREL HABER (tek kişilik vefat haberleri, ortak_haber.py; 08.10.2026). Karşılaştırmada baştaki "www." yok sayılır.
+    "Doğubayazıt Gazetesi": "dogubayazitgazetesi.com", "Ağrı Hürses": "agrihurses.net", "Patnos Haber Gazetesi": "patnoshabergazetesi.com",
+    "Ardahan Haber": "ardahanhaber.com.tr",
+    "Bayburt Haber": "bayburthaber.com", "Bayburt Haber Ajansı": "bayburthaberajansi.com.tr", "Bayburt Gündem": "bayburtgundem.com",
+    "Bingöl Kent Haber": "bingolkenthaber.com", "Bingöl Online": "bingolonline.com",
+    "Osmancık Haber": "osmancik.com.tr", "Çorum Hakimiyet": "corumhakimiyet.net", "Leblebi TV": "leblebi.tv",
+    "Yayla Haber": "yaylahaber.com.tr", "Çorum Haber": "corumhaber.net",
+    "Bismil Haber": "bismilhaber.com.tr", "Mücadele Gazetesi": "mucadelegazetesi.com.tr", "Diyarbakır Söz": "diyarbakirsoz.com",
+    "Sakarya Gazetesi": "sakaryagazetesi.com.tr", "Sonhaber": "sonhaber.com.tr", "İstikbal Gazetesi": "istikbalgazetesi.com",
+    "Hakkari İl Sesi": "hakkariilsesigazetesi.com", "Gazete Pano": "gazetepano.com", "Yüksekova Halkın Sesi": "yuksekovahalkinsesigazetesi.com",
+    "Yeşil Iğdır": "yesiligdir.com", "Iğdır Haber": "igdirhaber.net",
+    "Kars Manşet": "karsmanset.com", "Haber Sarıkamış": "habersarikamis.com", "Kars Hakimiyet": "karshakimiyet.com",
+    "Taşköprü Postası": "taskoprupostasi.com", "Kastamonu İstiklal": "kastamonuistiklal.com", "Kastamonu Haber": "kastamonuhaber.com",
+    "Açıksöz": "aciksoz.com.tr",
+    "Kilis Kent Haber": "kiliskenthaber.com", "Kilis Olay": "kilisolay.com",
+    "Alternatif Gazetesi": "alternatifgazetesi.com", "Kırklareli Gazetesi": "kirklareligazetesi.com.tr",
+    "Çukurova Gazetesi": "cukurovagazetesi.com", "Mersin Haber Merkezi": "mersinhabermerkezi.com", "İmece Gazetesi": "imecegazetesi.com",
+    "İste Mersin": "istemersin.com",
+    "Haber49": "haber49.net",
+    "Şırnak Ajans": "sirnakajans.com", "Şırnak Haber": "sirnakhaber.com", "Şırnak Haber 73": "sirnakhaber73.com",
+    "Tunceli Emek": "tunceliemek.com.tr",
+    "Yeni Bakış": "yenibakishaber.com", "Ege Telgraf": "egetelgraf.com", "Dokuz Eylül": "dokuzeylul.com", "Son Mühür": "sonmuhur.com",
 }
+BASIN_TURLERI = ("yerel_basin", "yerel_haber")
+
+
+def _www(h):
+    h = (h or "").lower()
+    return h[4:] if h.startswith("www.") else h
 
 TARIH_ALANLARI = ("vefat_tarihi", "namaz_tarihi", "defin_zamani", "liste_tarihi", "dogum_tarihi")
 TARAMA_DISI = {"id", "kaynak_url", "alindi", "il", "kaynak_turu"} | set(TARIH_ALANLARI)
@@ -57,7 +87,11 @@ NEDEN = re.compile(r"\b(?:kanser\w*|tümör\w*|lösemi\w*|kalp\s+kriz\w*|kalp\s+
                    r"ameliyat\w*|tedavi\s+gör\w*|ölüm\s+nedeni|ölüm\s+sebebi)\b", re.I)
 BASIN_CUMLE = re.compile(r"(?:vefat\s+et(?:miştir|ti|mişti)|başsağlığı|allah['’]?\s*(?:tan)?\s*rahmet|rahmetine\s+kavuş|taziye|"
                          r"mekan[ıi]\s+cennet|ruhu\s+için|el\s+fatiha|hakk?['’]?[ıi]n\s+rahmeti)", re.I)
-AD_YASAK = re.compile(r"[\d!@]|https?:|www\.|\.com|\.tr\b", re.I)
+AD_YASAK = re.compile(r"[\d!@()\[\]]|https?:|www\.|\.com|\.tr\b", re.I)   # parantez: takma ad/ayrıştırma artığı ("Aydın) Sedat Aygün")
+# cami / mezarlık alanlarında "sokak/cadde" bir YER ADIDIR ("Aşağı Sokak Camii", Ordu Tekkeköy; 08.10.2026 denetimi: yanlış eleme);
+# bu alanlarda yalnız kişiye ait açık adres işaretleri (kapı no, daire, kat, apartman) elenir
+YER_ALANLARI = {"defin_yeri", "namaz_yeri_vakti", "ham.cami", "ham.mezarlik", "ham.namaz", "ham.namaz_yeri", "ham.defin_yeri"}
+ADRES_GUCLU = re.compile(r"\b(?:apartmanı|apartman|apt\.|daire\s*\d|kat\s*:\s*\d|no\s*[:.]?\s*\d+\s*/\s*\d+|no\s*:\s*\d+|kapı\s+no|posta\s+kodu)\b", re.I)
 
 
 def _metinler(k):
@@ -92,7 +126,7 @@ def denetle(k, bugun, alan_adi_cogunluk):
     # K1
     # tarih: resmî kaynakta liste_tarihi (kaynağın ilan/liste günü) yeterli; yerel basında vefat/namaz/defin tarihi ya da
     # ham.tarih_kaynagi ile işaretlenmiş ilan günü (site sahibi kararı 08.10.2026)
-    basin_ = k.get("kaynak_turu") == "yerel_basin"
+    basin_ = k.get("kaynak_turu") in BASIN_TURLERI
     tarih_var = k.get("vefat_tarihi") or k.get("namaz_tarihi") or k.get("defin_zamani")
     if not tarih_var:
         if basin_:
@@ -123,13 +157,13 @@ def denetle(k, bugun, alan_adi_cogunluk):
     if lt is None or lt < bugun - timedelta(days=8) or lt > ileri:
         nedenler.append("K3 pencere dışı")
     # K4 / K5 / K8
-    basin = k.get("kaynak_turu") == "yerel_basin"
+    basin = k.get("kaynak_turu") in BASIN_TURLERI
     for a, v in _metinler(k):
         if a in ("kaynak_ad",):
             continue
         if TEL.search(v) or TC.search(v) or EPOSTA.search(v):
             nedenler.append(f"K4 telefon/TC/e-posta ({a})")
-        if ADRES.search(v):
+        if (ADRES_GUCLU if a in YER_ALANLARI else ADRES).search(v):
             nedenler.append(f"K4 adres ({a})")
         if NEDEN.search(v):
             nedenler.append(f"K5 ölüm nedeni ({a})")
@@ -146,7 +180,7 @@ def denetle(k, bugun, alan_adi_cogunluk):
         beklenen = YEREL_BASIN.get(k.get("kaynak_ad")) if basin else alan_adi_cogunluk.get(k.get("kaynak_ad"))
         if basin and not beklenen:
             nedenler.append("K7 yerel basın kaynağı kayıtlı değil")
-        elif beklenen and u.netloc.lower() != beklenen.lower():
+        elif beklenen and (_www(u.netloc) != _www(beklenen) if basin else u.netloc.lower() != beklenen.lower()):
             nedenler.append("K7 alan adı farklı")
     return sorted(set(nedenler))
 
@@ -163,8 +197,11 @@ def il_denetle(il_klasor, bugun, kuru=False):
         alanlar[k.get("kaynak_ad")][urllib.parse.urlparse(k.get("kaynak_url") or "").netloc.lower()] += 1
     cogunluk = {ka: c.most_common(1)[0][0] for ka, c in alanlar.items() if c}
     # K6 için sıra: resmî kaynaklar önce, yerel basın sonra
-    sira = sorted(range(len(tum)), key=lambda i: (tum[i].get("kaynak_turu") == "yerel_basin", i))
+    # yerel haber kayıtlarında en çok alanı dolu olan önce (aynı kişinin iki sitedeki haberi: zengin olan kalır)
+    sira = sorted(range(len(tum)), key=lambda i: (tum[i].get("kaynak_turu") in BASIN_TURLERI, tum[i].get("kaynak_turu") == "yerel_haber",
+                                                  -sum(v is not None for v in tum[i].values()) if tum[i].get("kaynak_turu") == "yerel_haber" else 0, i))
     gorulen, red, elenen_id = set(), [], set()
+    ad_gunleri = defaultdict(list)          # yerel haber: aynı ad ±3 gün içinde (vefat haberi ile defin haberi farklı günlerde çıkar)
     neden_say = Counter()
     for i in sira:
         k = tum[i]
@@ -172,10 +209,15 @@ def il_denetle(il_klasor, bugun, kuru=False):
         gun_ = k.get("liste_tarihi") or k.get("defin_zamani") or k.get("vefat_tarihi")
         anahtar = (ad_anahtar(k.get("ad_soyad")), gun_)
         if not n:
-            if anahtar in gorulen:
+            yakin = False
+            if k.get("kaynak_turu") == "yerel_haber" and _gun(gun_ or ""):
+                yakin = any(abs((_gun(gun_) - g2).days) <= 3 for g2 in ad_gunleri[anahtar[0]])
+            if anahtar in gorulen or yakin:
                 n = ["K6 aynı kişi aynı gün tekrar"]
             else:
                 gorulen.add(anahtar)
+                if _gun(gun_ or ""):
+                    ad_gunleri[anahtar[0]].append(_gun(gun_))
         if n:
             red.append({"kural": n, "kayit": k})
             elenen_id.add(id(k))
