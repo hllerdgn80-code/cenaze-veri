@@ -21,8 +21,17 @@ Widget kapsamli(AppDurum d, Widget w) => Kapsam(
       ),
     );
 
+/// Gerçek telefon boyutu (1080×2340, DPR 3 → 360×780 mantıksal)
+void telefon(WidgetTester tester) {
+  tester.view.physicalSize = const Size(1080, 2340);
+  tester.view.devicePixelRatio = 3.0;
+  addTearDown(tester.view.resetPhysicalSize);
+  addTearDown(tester.view.resetDevicePixelRatio);
+}
+
 void main() {
   testWidgets('İlk açılış: il → ilçe seçimi cihaza kaydedilir ve İlanlar açılır', (tester) async {
+    telefon(tester);
     final d = await testDurumu();
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
@@ -44,6 +53,7 @@ void main() {
   });
 
   testWidgets('Kayıtlı adresle açılış doğrudan İlanlar; kart etiketi seçili günle aynı', (tester) async {
+    telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Ordu', 'ilce': 'Ünye'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
@@ -62,6 +72,7 @@ void main() {
   });
 
   testWidgets('Sayfam sayacı: +1 artar, −1 geri alır', (tester) async {
+    telefon(tester);
     final d = await testDurumu();
     final r = Ilan.fromJson({
       'id': 's1',
@@ -85,6 +96,7 @@ void main() {
   });
 
   testWidgets('Verisi olmayan il: bilgi kartı ve "Cenaze ilanı paylaş" düğmesi', (tester) async {
+    telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Kars', 'ilce': 'Merkez'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
@@ -94,6 +106,7 @@ void main() {
   });
 
   testWidgets('Kapı: kaynak alanı olmayan kayıt kart olarak çizilir, kaynak adı görünmez', (tester) async {
+    telefon(tester);
     final d = await testDurumu();
     final r = Ilan.fromJson({
       'id': 'k1',
