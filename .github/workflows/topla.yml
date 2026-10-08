@@ -95,6 +95,7 @@ jobs:
             echo "::warning::TR runner calismiyor (veri-tr/ozet-tr.json yok)"
           fi
           rm -f veri/ozet.[0-9]*.json
+          python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
       - name: Saglik denetimi (basarisiz yapmaz)
         run: python3 okuyucu/saglik.py onceki-ozet.json || true
       - name: Yayin klasorunu hazirla
