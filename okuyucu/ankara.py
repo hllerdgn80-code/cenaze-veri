@@ -7,6 +7,10 @@
   kategorideki son yazı Aralık 2020: pencerede 0 kayıt beklenir ("izlemede").
 - Kalecik: `kalecik.bel.tr/vefat-edenler` (tablo: ad, baba adı, vefat tarihi, vefat yeri). Gün = vefat tarihi.
 - Polatlı: `polatli.bel.tr/vefat-edenler?page=N` (tarih, ad, şehir/mahalle, yaş, cenaze namazı yeri, vakit, mezarlık). 403 gelirse bu ilçe BIRAKILIR.
+- YEREL BASIN (site sahibi kararı 08.10.2026) Ankara Net Haber: günlük "D Ay <gün> Ankara vefat sorgulama: Ankara'da bugün
+  defnedilecekler" yazısı (ABB mezarlıkları: Karşıyaka, Sincan, Cebeci, Ortaköy, Gölbaşı; günde ~50 ad). Yalnız ad soyad + mezarlık
+  alınır (ada/parsel ALINMAZ); defin günü = yazı günü; ilçe yazılmadığı için belirsiz (mezarlıktan ilçe çıkarılmaz).
+  Dizin `sitemap-news.xml`; site başına günde en çok 3 istek (ortak_basin). kaynak_turu yerel_basin.
 Kullanım: python3 okuyucu/ankara.py [--gun 7] [--ilce Ayaş,Polatlı]
 """
 import html as _html, os, re, sys
@@ -150,8 +154,39 @@ def polatli(ctx):
     return oi.sayfala(lambda n: POLATLI if n == 1 else f"{POLATLI}?page={n}", ayristir, ctx["gunler"], azami_sayfa=3)
 
 
+# ---------------------------------------------------------------- Ankara Net Haber (yerel basın)
+def ankara_net_haber(ctx):
+    import ortak_basin as ob
+    xml = ob.dizin(ctx, "https://www.ankaranethaber.com/sitemap-news.xml")
+    if xml is None:
+        return []
+    sayfalar = [(u, g) for u, t, g in ob.harita_ogeleri(xml) if "vefat-sorgulama" in u]
+
+    def ayristir(sayfa, url, gun):
+        gun = ob.yayin_tarihi(sayfa) or gun
+        govde = ob.makale_govdesi(sayfa)
+        if not govde:
+            raise RuntimeError("Ankara Net Haber: makale gövdesi bulunamadı (düzen değişmiş olabilir)")
+        liste, mezarlik = [], None
+        for satir in govde.split("\n"):
+            if re.fullmatch(r"[A-ZÇĞİÖŞÜ ]+MEZARLI[GĞ]I", satir.strip()):
+                mezarlik = ortak.tr_title(satir.strip())
+                continue
+            m = re.match(r"^([^—–\-:]{3,60}?)\s+[—–-]\s+Ada\b", satir.strip())
+            if not m or not mezarlik:
+                continue
+            ad = oi.ad_duzelt(m.group(1))
+            if not (2 <= len(ad.split()) <= 5):
+                continue
+            liste.append(ob.kayit(ctx, IL, "ankara-ankaranethaber", "Ankara Net Haber", url, ad, gun, ilce=None, ek_id=mezarlik,
+                                  defin_zamani=gun, defin_yeri=mezarlik, ham={"sayfa_tarihi": gun, "tarih_kaynagi": "yayin_tarihi"}))
+        return liste
+    return ob.sayfalari_oku(ctx, sayfalar, ayristir, azami=2)
+
+
 def main():
-    oi.il_calistir(IL, "ankara", [("Ayaş", ayas), ("Beypazarı", beypazari), ("Çubuk", cubuk), ("Kalecik", kalecik), ("Polatlı", polatli)])
+    oi.il_calistir(IL, "ankara", [("Ayaş", ayas), ("Beypazarı", beypazari), ("Çubuk", cubuk), ("Kalecik", kalecik), ("Polatlı", polatli),
+                                  ("Ankara Net Haber", ankara_net_haber)])
 
 
 if __name__ == "__main__":

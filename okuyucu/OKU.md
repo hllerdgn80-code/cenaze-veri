@@ -93,3 +93,21 @@ Seçenekler: `--gun N`, `--ilce Ad[,Ad]` (örn. `python3 okuyucu/mugla.py --ilce
 - **yozgat**: Sorgun, Çekerek (il belediyesi robots ile kapalı). · **adiyaman**: Besni, Kâhta (kaynak tarih yazım hatalarını `tarih()` eler). · **antalya**: Alanya. · **burdur**: Bucak. · **hatay**: Dörtyol (gün sayfaları). · **aydin**: Söke.
 - **ankara**: Ayaş, Beypazarı, Çubuk (WordPress yayını; son cenaze yazısı 2020: izlemede), Kalecik, Polatlı (403 görülmedi). · **istanbul**: Arnavutköy (liste yalnız 2020 örnek satırı: izlemede), Silivri. · **izmir**: Bayındır (2,2 MB), Ödemiş, Torbalı (3,3 MB). · **eskisehir**: Çifteler (izlemede: son ilan 28.09).
 İzlemede = ayrıştırıcı örnek günle sınandı (`--gun 14`), pencerede 0 kayıt normaldir; yeni ilan çıkınca alınır.
+
+## YEREL BASIN kaynakları (site sahibi kararı 08.10.2026): amasya, mardin, siirt, bitlis, manisa + ankara'da "Ankara Net Haber"
+Belediye kaynağı olmayan illerde yerel haber sitelerinin GÜNLÜK vefat listelerinden yalnız OLGU alınır (ad soyad, vefat/namaz/defin tarihi,
+cami + vakit kısa biçimde "X Camii, öğle namazı", mezarlık, varsa ilçe/köy, yaş). Sitenin cümlesi, taziye metni/yeri, telefon, adres,
+yakın adları, fotoğraf, ölüm nedeni ALINMAZ. Kayıtta `kaynak_turu: "yerel_basin"`, `kaynak_ad` = site adı, `kaynak_url` = o günkü liste
+sayfası; `ham` yalnız `sayfa_tarihi` + `tarih_kaynagi` ("metin" | "yayin_tarihi": ilanda tarih yoksa yayın günü kullanıldı).
+Ortak yardımcı `ortak_basin.py` (ortak.py'ye dokunmaz): site başına günde EN ÇOK 3 istek (robots.txt dahil; sayaç + okunan sayfalar +
+7 günlük robots önbelleği `veri/<il>/_basin.json`), dizin = site haritası/RSS (tek istek), okunmuş sayfa yeniden okunmaz (bugün/dünün
+sayfası 4 saatte bir), önce hiç okunmamış sayfalar; 401/403/429 ya da robots yasağı -> kaynak bırakılır (Engel). Serbest metin
+ayrıştırıcı `serbest_kayitlar()`: ölüm ifadesinden ("Hakk'ın rahmetine kavuştu", "vefat etmiştir") hemen önceki büyük harfli 2-5 sözcük
+ad sayılır; adı yazılmayan ilan (ör. "... annesi Hakk'ın rahmetine kavuştu") ALINMAZ. Siteler ve biçimleri:
+`arastirma/yerel-basin-2026-10-08.md`.
+
+## KAPI (yayın öncesi makine denetçisi): `python3 okuyucu/kapi.py [il ...] [--kuru]` ya da `python3 okuyucu/hepsi.py --kapi`
+veri/<il>/son7gun.json'daki her kayıt K1-K8 kurallarından geçer (zorunlu alan, ad biçimi, tarih penceresi/gelecek, telefon-TC-e-posta-adres,
+ölüm nedeni, aynı kişi aynı gün, alan adı tutarlılığı, yerel basında site cümlesi/60 karakter). Geçmeyen kayıt son7gun'dan çıkarılır,
+`veri/<il>/_kapi_red.json`'a yazılır; özet `veri/kapi.json`; `veri/ozet.json` kayıt sayısı güncellenir. Yeni yerel basın sitesi eklenince
+`kapi.YEREL_BASIN`'a (kaynak_ad -> alan adı) da yazılır, yoksa K7 eler.

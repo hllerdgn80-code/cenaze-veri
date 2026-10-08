@@ -44,7 +44,9 @@ def main():
             m = re.search(r"Cenazesi\b.*", metin)
             namaz, defin = ortak9.cenaze_cumlesi(m.group(0)) if m else (None, None)
             k = ortak9.kayit("bilecik", IL, ortak.tr_title(ad), gun, KAYNAK_AD, SAYFA, alindi,
-                             defin_yeri=defin, namaz_yeri_vakti=namaz, ham={"cenaze_cumlesi": re.sub(r"\s*Belediye Başkanlığı olarak.*$", "", m.group(0)) if m else None})
+                             defin_yeri=defin, namaz_yeri_vakti=namaz,
+                             namaz_tarihi=gun if m and re.search(r"\bbugün\b", ortak.tr_lower(m.group(0))) else None,   # 'Cenazesi bugün' = ilan günü (kapi.py K1)
+                             ham={"cenaze_cumlesi": re.sub(r"\s*Belediye Başkanlığı olarak.*$", "", m.group(0)) if m else None})
             yeni.setdefault(gun, []).append(k)
     print(f"pencerede {sum(len(v) for v in yeni.values())} kayıt")
     by = ortak9.birlestir(KOK, gl, yeni)

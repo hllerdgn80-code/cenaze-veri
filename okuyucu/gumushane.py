@@ -98,7 +98,9 @@ def main():
                 "mahalle": ortak.tr_title(mahalle) if mahalle else None,
                 "ad_soyad": ortak.tr_title(ad),
                 "anne_baba": None, "yas": None, "dogum_tarihi": None, "vefat_tarihi": None,
-                "defin_yeri": None, "defin_zamani": None, "namaz_tarihi": None,
+                "defin_yeri": None, "defin_zamani": None,
+                # 'Cenazesi bugün ...' = duyurunun yayımlandığı gün (giresun.py ile aynı kural; kapi.py K1)
+                "namaz_tarihi": o["tarih"] if cum and re.search(r"\bbugün\b", ortak.tr_lower(cum)) else None,
                 "namaz_yeri_vakti": cum,
                 "liste_tarihi": o["tarih"],
                 "kaynak_ad": KAYNAK_AD, "kaynak_url": url, "alindi": alindi,

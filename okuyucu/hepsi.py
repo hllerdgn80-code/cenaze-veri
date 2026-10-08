@@ -5,6 +5,7 @@ Kullanım: python3 okuyucu/hepsi.py [il ...]     (il verilmezse hepsi)
           python3 okuyucu/hepsi.py --grup N/M    (ILLER'in M parçadan N.sü; özet veri/ozet.N.json)
           python3 okuyucu/hepsi.py --ozet-birlestir   (veri/ozet.*.json -> veri/ozet.json)
           python3 okuyucu/hepsi.py --ozet-ekle DOSYA  (DOSYA'daki iller veri/ozet.json'daki girişlerin üstüne yazılır; TR runner verisi)
+          python3 okuyucu/hepsi.py --kapi             (yayın öncesi makine denetçisi okuyucu/kapi.py: tüm illerin son7gun.json'u; CI birleştirme adımında)
 Her il en çok IL_SINIRI_SN sürer; aşarsa "zaman aşımı" ile atlanır.
 """
 import importlib, io, json, os, shutil, sys, threading, time, traceback
@@ -15,7 +16,7 @@ sys.path.insert(0, DIZIN)
 import ortak
 
 VERI = os.path.join(DIZIN, "..", "veri")
-ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya", "artvin", "samsun", "erzurum", "mugla", "balikesir", "tekirdag", "yozgat", "adiyaman", "antalya", "burdur", "hatay", "aydin", "ankara", "istanbul", "izmir", "eskisehir"]   # dosyası olmayan atlanır
+ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "gaziantep", "bursa", "osmaniye", "kayseri", "konya", "denizli", "sivas", "kirikkale", "zonguldak", "edirne", "afyonkarahisar", "aksaray", "bartin", "bilecik", "bolu", "canakkale", "cankiri", "duzce", "elazig", "erzincan", "gumushane", "isparta", "kirsehir", "nevsehir", "nigde", "rize", "sinop", "sanliurfa", "tokat", "usak", "van", "karaman", "kutahya", "karabuk", "yalova", "malatya", "artvin", "samsun", "erzurum", "mugla", "balikesir", "tekirdag", "yozgat", "adiyaman", "antalya", "burdur", "hatay", "aydin", "ankara", "istanbul", "izmir", "eskisehir", "amasya", "mardin", "siirt", "bitlis", "manisa"]   # dosyası olmayan atlanır
 
 
 IL_SINIRI_SN = 150
@@ -81,6 +82,10 @@ def main():
         return birlestir()
     if "--ozet-ekle" in args:
         return ozet_ekle(args[args.index("--ozet-ekle") + 1])
+    if "--kapi" in args:
+        import kapi
+        kapi.main([a for a in args if a != "--kapi"])
+        return
     grup = None
     if "--grup" in args:
         i = args.index("--grup")

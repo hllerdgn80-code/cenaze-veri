@@ -71,8 +71,15 @@ def blok_coz(ad, ls, gun):
     return konum, metin or None, namaz_tarihi, defin_yeri
 
 
+_ADRES = re.compile(r"\b(?:sokak\w*|sk\.|cadde\w*|cd\.|bulvar\w*|apartman\w*|apt\.|no\s*:\s*\d+|daire\s*\d)", re.I)
+
+
 def kayda_cevir(ad, ls, gun, url, alindi):
     konum, metin, namaz_tarihi, defin_yeri = blok_coz(ad, ls, gun)
+    if metin and _ADRES.search(metin):
+        # cümlede ev adresi var ("... Köşk Sokak'ta helallik ..."): KVKK, cümle yayımlanmaz, yalnız namaz vakti (kapi.py K4)
+        v = re.search(r"\b(sabah|öğle|ikindi|akşam|yatsı|cuma)\s+namaz", ortak.tr_lower(metin))
+        metin = (v.group(1) + " namazı") if v else None
     return {
         "id": ortak.kayit_id("zonguldak", ad, gun, (konum or "") + "|" + (metin or "")),
         "il": IL,

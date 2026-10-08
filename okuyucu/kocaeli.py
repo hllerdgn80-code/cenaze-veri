@@ -60,7 +60,8 @@ def kayda_cevir(h, gun, alindi):
         ilce_ham, cami_yeri = nakil, None
         defin_yeri = "Nakil: " + ortak.tr_title(nakil).replace(" / ", " / ", 1)
     else:
-        ilce_ham, cami_yeri = cami_ilcesi(cami), cami_temiz or None
+        # cami alanı "CAMİ ADI / MAHALLE SOKAK NO İLÇE" biçiminde: sokak/no adresi yayımlanmaz (kapi.py K4), yalnız cami adı
+        ilce_ham, cami_yeri = cami_ilcesi(cami), (cami_temiz.split("/")[0].strip() or None)
         defin_yeri = h["mezarlik"] or None
     vakit_temiz = None if re.fullmatch(r"NAK[İI]L", vakit, re.I) else (vakit or None)
     return {
@@ -82,7 +83,7 @@ def kayda_cevir(h, gun, alindi):
         "kaynak_url": URL,
         "alindi": alindi,
         # ölüm nedeni sağlık verisi olduğundan bilerek alınmaz
-        "ham": {"ad": h["ad"], "soyad": h["soyad"], "mezarlik": h["mezarlik"], "cami": cami, "vakit": vakit,
+        "ham": {"ad": h["ad"], "soyad": h["soyad"], "mezarlik": h["mezarlik"], "cami": cami.split("/")[0].strip(), "vakit": vakit,
                 "olum_tarihi": h["olum"], "defin_tarihi": h["defin"],
                 "ilce_kaynagi": "nakil_alani" if nakil else ("cami_adresi" if ilce_ham else None)},
     }

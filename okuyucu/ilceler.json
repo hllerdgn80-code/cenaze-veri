@@ -937,5 +937,60 @@
   "Seyitgazi",
   "Sivrihisar",
   "Tepebaşı"
+ ],
+ "Amasya": [
+  "Göynücek",
+  "Gümüşhacıköy",
+  "Hamamözü",
+  "Merzifon",
+  "Suluova",
+  "Taşova"
+ ],
+ "Mardin": [
+  "Artuklu",
+  "Dargeçit",
+  "Derik",
+  "Kızıltepe",
+  "Mazıdağı",
+  "Midyat",
+  "Nusaybin",
+  "Ömerli",
+  "Savur",
+  "Yeşilli"
+ ],
+ "Siirt": [
+  "Baykan",
+  "Eruh",
+  "Kurtalan",
+  "Pervari",
+  "Şirvan",
+  "Tillo"
+ ],
+ "Bitlis": [
+  "Adilcevaz",
+  "Ahlat",
+  "Güroymak",
+  "Hizan",
+  "Mutki",
+  "Tatvan"
+ ],
+ "Manisa": [
+  "Ahmetli",
+  "Akhisar",
+  "Alaşehir",
+  "Demirci",
+  "Gölmarmara",
+  "Gördes",
+  "Kırkağaç",
+  "Köprübaşı",
+  "Kula",
+  "Salihli",
+  "Sarıgöl",
+  "Saruhanlı",
+  "Selendi",
+  "Soma",
+  "Şehzadeler",
+  "Turgutlu",
+  "Yunusemre"
  ]
 }
