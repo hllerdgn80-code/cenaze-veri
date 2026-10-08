@@ -134,22 +134,28 @@ class Bolum extends StatelessWidget {
     final r = context.renk;
     return Padding(
       padding: const EdgeInsets.only(top: R.s6, bottom: R.s3),
-      child: Row(
-        children: [
-          Expanded(child: Container(height: 1, color: r.cizgi)),
-          const SizedBox(width: R.s3),
-          Flexible(
-            flex: 0,
-            child: Text(
-              trBuyuk(metin),
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  fontSize: 11, height: 13 / 11, fontWeight: FontWeight.w600, letterSpacing: 1.32, color: r.metin3),
+      // Metin, iki yanda en az 24 px çizgi + boşluk kalacak şekilde sınırlanır; uzun ilçe adı taşmaz, … ile kesilir.
+      child: LayoutBuilder(
+        builder: (context, c) => Row(
+          children: [
+            Expanded(child: Container(height: 1, color: r.cizgi)),
+            const SizedBox(width: R.s3),
+            ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: (c.maxWidth - 2 * (24 + R.s3)).clamp(0.0, double.infinity)),
+              child: Text(
+                trBuyuk(metin),
+                textAlign: TextAlign.center,
+                maxLines: 1,
+                softWrap: false,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                    fontSize: 11, height: 13 / 11, fontWeight: FontWeight.w600, letterSpacing: 1.32, color: r.metin3),
+              ),
             ),
-          ),
-          const SizedBox(width: R.s3),
-          Expanded(child: Container(height: 1, color: r.cizgi)),
-        ],
+            const SizedBox(width: R.s3),
+            Expanded(child: Container(height: 1, color: r.cizgi)),
+          ],
+        ),
       ),
     );
   }
