@@ -1,0 +1,39 @@
+name: kimin_cenazesi
+description: "Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.1
+  flutter_svg: ^2.0.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/veri/
+    - assets/ikon/
+
+# Uygulama simgesi: L13 (koyu zemin). CI'da `dart run flutter_launcher_icons` ile üretilir.
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/ikon/ikon.png"
+  adaptive_icon_background: "#25282D"
+  adaptive_icon_foreground: "assets/ikon/ikon_on.png"
+  min_sdk_android: 21
