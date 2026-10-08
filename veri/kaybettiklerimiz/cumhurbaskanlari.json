@@ -1,0 +1,307 @@
+[
+ {
+  "ad": "Süleyman Demirel",
+  "dogum_tarihi": "1924-11-01",
+  "vefat_tarihi": "2015-06-17",
+  "vefat_yasi": 90,
+  "dogum_yeri": "İslamköy",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Atabey",
+  "defin_il": "Isparta",
+  "defin_ulke": null,
+  "wikidata_id": "Q151729",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Suleyman Demirel 1998.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suleyman_Demirel_1998.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Suleyman_Demirel_1998.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "9. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "9. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1993-05-16",
+    "bitis": "2000-05-16"
+   }
+  ]
+ },
+ {
+  "ad": "Kenan Evren",
+  "dogum_tarihi": "1917-07-17",
+  "vefat_tarihi": "2015-05-09",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Kula",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q216983",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Kenan Evren (cropped).png",
+   "lisans": "CC BY 3.0",
+   "yazar": "Reagan Library",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenan_Evren_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenan_Evren_%28cropped%29.png"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "7. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "7. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1980-09-12",
+    "bitis": "1989-11-09"
+   }
+  ]
+ },
+ {
+  "ad": "Turgut Özal",
+  "dogum_tarihi": "1927-10-13",
+  "vefat_tarihi": "1993-04-17",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Malatya",
+  "vefat_yeri": "Hacettepe Erişkin Hastanesi",
+  "defin_yeri": "Turgut Özal Anıt Mezarı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q180280",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Turgut Özal as Turkish Prime Minister.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "European Communities / Christian Lambiotte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turgut_%C3%96zal_as_Turkish_Prime_Minister.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turgut_%C3%96zal_as_Turkish_Prime_Minister.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "8. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "8. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1989-11-09",
+    "bitis": "1993-04-17"
+   }
+  ]
+ },
+ {
+  "ad": "Fahri Korutürk",
+  "dogum_tarihi": "1903-08-03",
+  "vefat_tarihi": "1987-10-12",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Fatih",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q313357",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Korutürk with cadets (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korut%C3%BCrk_with_cadets_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Korut%C3%BCrk_with_cadets_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "6. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "6. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1973-04-06",
+    "bitis": "1980-04-06"
+   }
+  ]
+ },
+ {
+  "ad": "Celâl Bayar",
+  "dogum_tarihi": "1883-05-16",
+  "vefat_tarihi": "1986-08-22",
+  "vefat_yasi": 103,
+  "dogum_yeri": "Umurbey",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Bursa",
+  "defin_il": "Bursa",
+  "defin_ulke": null,
+  "wikidata_id": "Q151735",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Mahmut Celâl Bayar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahmut_Cel%C3%A2l_Bayar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mahmut_Cel%C3%A2l_Bayar.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "3. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "3. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1950-05-27",
+    "bitis": "1960-05-27"
+   }
+  ]
+ },
+ {
+  "ad": "Cevdet Sunay",
+  "dogum_tarihi": "1899-02-10",
+  "vefat_tarihi": "1982-05-22",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q158500",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Turkse chef Generale staf (Generaal Sunay), Bestanddeelnr 916-7535 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "F.N. Broers / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turkse_chef_Generale_staf_%28Generaal_Sunay%29%2C_Bestanddeelnr_916-7535_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkse_chef_Generale_staf_%28Generaal_Sunay%29%2C_Bestanddeelnr_916-7535_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "5. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "5. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1966-02-02",
+    "bitis": "1973-03-28"
+   }
+  ]
+ },
+ {
+  "ad": "İsmet İnönü",
+  "dogum_tarihi": "1884-09-24",
+  "vefat_tarihi": "1973-12-25",
+  "vefat_yasi": 89,
+  "dogum_yeri": "İnönü Evi Müzesi",
+  "vefat_yeri": "Pembe Köşk",
+  "defin_yeri": "Anıtkabir",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q183297",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Inonu Ismet (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown. Official photo of President.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Inonu_Ismet_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Inonu_Ismet_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "2. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "2. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1938-11-11",
+    "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Cemal Gürsel",
+  "dogum_tarihi": "1895-10-13",
+  "vefat_tarihi": "1966-09-14",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Hınıs",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Anıtkabir",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q159161",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Cemal Gürsel (1960).jpg",
+   "lisans": "CC0",
+   "yazar": "THA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cemal_G%C3%BCrsel_%281960%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cemal_G%C3%BCrsel_%281960%29.jpg"
+  },
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "4. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "4. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1961-11-10",
+    "bitis": "1966-02-02"
+   }
+  ]
+ },
+ {
+  "ad": "Mustafa Kemal Atatürk",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1938-11-10",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Selanik",
+  "vefat_yeri": "Dolmabahçe Sarayı",
+  "defin_yeri": "Anıtkabir",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q5152",
+  "sitelink": 253,
+  "fotograf": {
+   "dosya": "Atatürk Kemal.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atat%C3%BCrk_Kemal.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Kemal.jpg"
+  },
+  "meslek": [
+   "Ordu subayı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Türkiye Cumhuriyeti'nin kurucusu ve 1. Cumhurbaşkanı",
+  "hassas": false,
+  "sira": "1. Cumhurbaşkanı",
+  "gorev_donemi": [
+   {
+    "baslangic": "1923-10-29",
+    "bitis": "1938-11-10"
+   }
+  ]
+ }
+]

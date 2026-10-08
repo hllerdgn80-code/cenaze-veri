@@ -1,0 +1,657 @@
+[
+ {
+  "ad": "Yıldırım Akbulut",
+  "dogum_tarihi": "1935-09-02",
+  "vefat_tarihi": "2021-04-14",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Erzincan",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q558287",
+  "sitelink": 33,
+  "fotograf": {
+   "dosya": "Yildirim Akbulut (1988).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Rob Croes for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yildirim_Akbulut_%281988%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yildirim_Akbulut_%281988%29.jpg"
+  },
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi Başkanı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1989-11-09",
+    "bitis": "1991-06-23"
+   }
+  ]
+ },
+ {
+  "ad": "Mesut Yılmaz",
+  "dogum_tarihi": "1947-11-06",
+  "vefat_tarihi": "2020-10-30",
+  "vefat_yasi": 72,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Kanlıca Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q366692",
+  "sitelink": 41,
+  "fotograf": {
+   "dosya": "Mesut Yilmaz as Turkish Prime Minister.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "European Communities",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mesut_Yilmaz_as_Turkish_Prime_Minister.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mesut_Yilmaz_as_Turkish_Prime_Minister.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "sira": "21. Başbakan",
+  "gorev_donemi": [
+   {
+    "baslangic": "1991-06-23",
+    "bitis": "1991-11-20"
+   },
+   {
+    "baslangic": "1996-03-06",
+    "bitis": "1996-06-28"
+   },
+   {
+    "baslangic": "1997-06-30",
+    "bitis": "1999-01-11"
+   }
+  ]
+ },
+ {
+  "ad": "Ali Bozer",
+  "dogum_tarihi": "1925-07-28",
+  "vefat_tarihi": "2020-09-30",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q459130",
+  "sitelink": 19,
+  "fotograf": {
+   "dosya": "Ali Bozer (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Benoît Bourgeois, European Communities",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Bozer_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Bozer_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Hâkim"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye başbakan yardımcısı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1989-10-31",
+    "bitis": "1989-11-09"
+   }
+  ]
+ },
+ {
+  "ad": "Bülent Ulusu",
+  "dogum_tarihi": "1923-05-07",
+  "vefat_tarihi": "2015-12-23",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Üsküdar",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q375687",
+  "sitelink": 24,
+  "fotograf": null,
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1980-09-21",
+    "bitis": "1983-12-13"
+   }
+  ]
+ },
+ {
+  "ad": "Necmettin Erbakan",
+  "dogum_tarihi": "1926-10-29",
+  "vefat_tarihi": "2011-02-27",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Sinop",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Merkezefendi Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q243550",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Necmettin Erbakan (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Zest at Turkish Wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Necmettin_Erbakan_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Necmettin_Erbakan_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1996-06-28",
+    "bitis": "1997-06-30"
+   }
+  ]
+ },
+ {
+  "ad": "Bülent Ecevit",
+  "dogum_tarihi": "1925-05-28",
+  "vefat_tarihi": "2006-11-05",
+  "vefat_yasi": 81,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q192634",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Bülent Ecevit-Davos 2000 cropped.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Copyright World Economic Forum (www.weforum.org) / swiss-image.ch",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%BClent_Ecevit-Davos_2000_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:B%C3%BClent_Ecevit-Davos_2000_cropped.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye başbakan yardımcısı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1974-01-26",
+    "bitis": "1974-11-17"
+   },
+   {
+    "baslangic": "1977-06-21",
+    "bitis": "1977-07-21"
+   },
+   {
+    "baslangic": "1978-01-05",
+    "bitis": "1979-11-12"
+   },
+   {
+    "baslangic": "1999-01-11",
+    "bitis": "1999-05-28"
+   },
+   {
+    "baslangic": "1999-05-28",
+    "bitis": "2002-11-18"
+   }
+  ]
+ },
+ {
+  "ad": "Naim Talu",
+  "dogum_tarihi": "1919-07-22",
+  "vefat_tarihi": "1998-05-15",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q174709",
+  "sitelink": 17,
+  "fotograf": null,
+  "meslek": [
+   "Bankacı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1973-04-15",
+    "bitis": "1974-01-26"
+   }
+  ]
+ },
+ {
+  "ad": "Sadi Irmak",
+  "dogum_tarihi": "1904-05-15",
+  "vefat_tarihi": "1990-11-11",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Seydişehir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Aşiyan Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1397975",
+  "sitelink": 20,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1974-11-17",
+    "bitis": "1975-03-31"
+   }
+  ]
+ },
+ {
+  "ad": "Ferit Melen",
+  "dogum_tarihi": "1906-11-02",
+  "vefat_tarihi": "1988-09-03",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Van",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1400345",
+  "sitelink": 22,
+  "fotograf": {
+   "dosya": "President John F. Kennedy with Ferit Melen (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Abbie Rowe. White House Photographs. John F. Kennedy Presidential Library and Museum, Boston",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_John_F._Kennedy_with_Ferit_Melen_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:President_John_F._Kennedy_with_Ferit_Melen_%28cropped%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1972-05-22",
+    "bitis": "1973-04-15"
+   }
+  ]
+ },
+ {
+  "ad": "Suat Hayri Ürgüplü",
+  "dogum_tarihi": "1903-08-13",
+  "vefat_tarihi": "1981-12-27",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Şam",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2306500",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Suat Ürgüplü.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suat_%C3%9Crg%C3%BCpl%C3%BC.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Suat_%C3%9Crg%C3%BCpl%C3%BC.jpg"
+  },
+  "meslek": [
+   "Hukukçu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1965-02-20",
+    "bitis": "1965-10-27"
+   }
+  ]
+ },
+ {
+  "ad": "Nihat Erim",
+  "dogum_tarihi": "1912-11-30",
+  "vefat_tarihi": "1980-07-19",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Kandıra",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q721715",
+  "sitelink": 32,
+  "fotograf": {
+   "dosya": "Nihat Erim in Washington D.C (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Robert L. Knudsen",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihat_Erim_in_Washington_D.C_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nihat_Erim_in_Washington_D.C_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye başbakan yardımcısı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1971-03-26",
+    "bitis": "1971-12-11"
+   },
+   {
+    "baslangic": "1971-12-11",
+    "bitis": "1972-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Şemsettin Günaltay",
+  "dogum_tarihi": "1883-07-17",
+  "vefat_tarihi": "1961-10-19",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Kemaliye",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q388771",
+  "sitelink": 22,
+  "fotograf": {
+   "dosya": "Mehmet Şemsettin Bey Günaltay.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_%C5%9Eemsettin_Bey_G%C3%BCnaltay.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmet_%C5%9Eemsettin_Bey_G%C3%BCnaltay.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1949-01-16",
+    "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Adnan Menderes",
+  "dogum_tarihi": "1899",
+  "vefat_tarihi": "1961-09-17",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Aydın",
+  "vefat_yeri": "İmralı",
+  "defin_yeri": "Adnan Menderes Anıt Mezarı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q238745",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Adnan Menderes VI. Yasama Dönemi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adnan_Menderes_VI._Yasama_D%C3%B6nemi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adnan_Menderes_VI._Yasama_D%C3%B6nemi.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1950-05-22",
+    "bitis": "1951-03-09"
+   },
+   {
+    "baslangic": "1951-03-09",
+    "bitis": "1954-05-17"
+   },
+   {
+    "baslangic": "1954-05-17",
+    "bitis": "1955-12-09"
+   },
+   {
+    "baslangic": "1955-12-09",
+    "bitis": "1957-11-25"
+   },
+   {
+    "baslangic": "1957-11-25",
+    "bitis": "1960-05-27"
+   }
+  ]
+ },
+ {
+  "ad": "Hasan Saka",
+  "dogum_tarihi": "1885",
+  "vefat_tarihi": "1960-07-29",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1588141",
+  "sitelink": 19,
+  "fotograf": {
+   "dosya": "Hasan saka.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hasan_saka.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hasan_saka.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Türkiye Başbakanı, Türkiye dışişleri bakanı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1947-09-10",
+    "bitis": "1948-06-10"
+   },
+   {
+    "baslangic": "1948-06-10",
+    "bitis": "1949-01-16"
+   }
+  ]
+ },
+ {
+  "ad": "Şükrü Saraçoğlu",
+  "dogum_tarihi": "1887-06-17",
+  "vefat_tarihi": "1953-12-27",
+  "vefat_yasi": 66,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q390725",
+  "sitelink": 29,
+  "fotograf": {
+   "dosya": "Mehmet Şükrü Saracoğlu.jpg",
+   "lisans": "Public domain",
+   "yazar": "TBMM",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmet_%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi Başkanı",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1942-07-09",
+    "bitis": "1943-03-09"
+   },
+   {
+    "baslangic": "1943-03-09",
+    "bitis": "1946-08-07"
+   }
+  ]
+ },
+ {
+  "ad": "Recep Peker",
+  "dogum_tarihi": "1889-02-05",
+  "vefat_tarihi": "1950-04-02",
+  "vefat_yasi": 61,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q728586",
+  "sitelink": 23,
+  "fotograf": {
+   "dosya": "Recep peker.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Recep_peker.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Recep_peker.jpg"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1946-08-07",
+    "bitis": "1947-09-10"
+   }
+  ]
+ },
+ {
+  "ad": "Ali Fethi Okyar",
+  "dogum_tarihi": "1880-04-29",
+  "vefat_tarihi": "1943-05-07",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Pirlepe",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q366292",
+  "sitelink": 36,
+  "fotograf": {
+   "dosya": "Fethi Okyar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fethi_Okyar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fethi_Okyar.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye'nin Paris Büyükelçisi",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1924-11-22",
+    "bitis": "1925-03-03"
+   }
+  ]
+ },
+ {
+  "ad": "Refik Saydam",
+  "dogum_tarihi": "1881-09-08",
+  "vefat_tarihi": "1942-07-08",
+  "vefat_yasi": 60,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q983535",
+  "sitelink": 21,
+  "fotograf": {
+   "dosya": "Refik Saydam.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown. Original photographer may not be listed.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Refik_Saydam.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Refik_Saydam.jpg"
+  },
+  "meslek": [
+   "Askerî doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Başbakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "sira": null,
+  "gorev_donemi": [
+   {
+    "baslangic": "1939-01-25",
+    "bitis": "1939-04-03"
+   },
+   {
+    "baslangic": "1939-04-03",
+    "bitis": "1942-07-09"
+   }
+  ]
+ }
+]
