@@ -69,6 +69,9 @@ jobs:
         run: |
           flutter build appbundle --release --build-number ${{ github.run_number }}
           flutter build apk --release --build-number ${{ github.run_number }}
+          # Siteden indirme icin yalniz arm64 (kucuk; Cloudflare Pages dosya siniri 25 MB)
+          flutter build apk --release --split-per-abi --target-platform android-arm64 --build-number ${{ github.run_number }}
+          ls -la build/app/outputs/flutter-apk/
 
       - name: Hata ayiklama imzali APK (imza anahtari yok)
         if: steps.ayar.outputs.imzali != 'true'
@@ -89,6 +92,14 @@ jobs:
         with:
           name: kimin-cenazesi-apk-${{ github.run_number }}
           path: uygulama/build/app/outputs/flutter-apk/app-release.apk
+          retention-days: 30
+
+      - name: arm64 APK'yi yukle (site icin)
+        if: steps.ayar.outputs.imzali == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kimin-cenazesi-apk-arm64-${{ github.run_number }}
+          path: uygulama/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           retention-days: 30
 
       - name: Imza dosyalarini sil
