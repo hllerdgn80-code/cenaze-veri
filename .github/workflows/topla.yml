@@ -72,6 +72,28 @@ jobs:
         run: |
           for g in gruplar/*/; do cp -r "$g". veri/; done
           python3 okuyucu/hepsi.py --ozet-birlestir
+          # Turkiye'den (self-hosted runner) okunan iller: veri-tr/ klasoru depoda
+          if [ -f veri-tr/ozet-tr.json ]; then
+            if python3 - <<'PY'
+          import json, sys
+          from datetime import datetime, timezone
+          g = json.load(open("veri-tr/ozet-tr.json", encoding="utf-8")).get("guncelleme")
+          try:
+              yas = (datetime.now(timezone.utc) - datetime.fromisoformat(g).astimezone(timezone.utc)).total_seconds() / 3600
+          except Exception:
+              yas = 9999
+          print(f"veri-tr yasi: {yas:.1f} saat")
+          sys.exit(0 if yas <= 36 else 1)
+          PY
+            then
+              for d in veri-tr/*/; do cp -r "$d" veri/; done
+              python3 okuyucu/hepsi.py --ozet-ekle veri-tr/ozet-tr.json
+            else
+              echo "::warning::TR runner calismiyor (veri-tr 36 saatten eski), yurt disi okumasi kullaniliyor"
+            fi
+          else
+            echo "::warning::TR runner calismiyor (veri-tr/ozet-tr.json yok)"
+          fi
           rm -f veri/ozet.[0-9]*.json
       - name: Saglik denetimi (basarisiz yapmaz)
         run: python3 okuyucu/saglik.py onceki-ozet.json || true
