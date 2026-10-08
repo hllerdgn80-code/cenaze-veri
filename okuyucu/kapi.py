@@ -18,6 +18,12 @@ Kurallar (her kayıt):
   K7 kaynak_url http(s) ve aynı kaynak_ad'ın kayıtlarıyla AYNI alan adından; yerel basında kayıtlı alan adı
   K8 (kaynak_turu "yerel_basin" ya da "yerel_haber") sitenin cümlesi yok: alan değerleri <= 60 karakter; "vefat etmiştir/etti",
      "başsağlığı", "Allah rahmet", "rahmetine kavuş", "taziye" gibi cümle parçaları yok
+  K9 isimsiz bebek: ad "Bebek", "Bebek 1/2", "Kız/Erkek Bebek", "İsimsiz", "Adsız", "Yeni Doğan", "… Bebeği" gibi yer tutucuysa ya da
+     "bebek" sözcüğünü atınca kişi adı kalmıyorsa (yalnız soyad) ELENİR ("K9 isimsiz bebek"); adı olan bebek kalır, ad_soyad'dan
+     "Bebek" sözcüğü atılır, kayda bebek: true yazılır (yaş < 2 ya da kaynakta "bebek"). (08.10.2026, URUN-TASLAGI §32)
+  K10 il içinde tekilleştirme: aynı ad soyad (normalize) + namaz/defin/vefat tarihi ±2 gün (yaşlar biliniyorsa en çok 1 fark)
+     -> tek kayıt; alanı en dolu olan tutulur, boş alanlar ötekilerden tamamlanır, ilçe: İLK ilçe korunur, öbür kaynaklar
+     kayıttaki iç "kaynaklar" listesine eklenir (yayına gitmez). Elenen kopya _kapi_red.json'a "K10 il içi tekrar" ile yazılır.
 Kullanım: python3 okuyucu/kapi.py [il ...] [--kuru]     (--kuru: yalnız rapor, dosyalar değişmez)
           python3 okuyucu/hepsi.py --kapi           (aynısı, tüm iller)
 """
@@ -120,6 +126,120 @@ def ad_anahtar(ad):
     return ortak.katla(ad).upper()
 
 
+# ---------------------------------------------------------------- K9 isimsiz bebek / K10 il içi tekilleştirme
+BEBEK_SOZ = {"bebek", "bebegi", "bebeği", "bebekler"}
+YER_TUTUCU = {"isimsiz", "adsiz", "yeni", "dogan", "kiz", "erkek", "bilinmeyen", "bilinmiyor", "bebek", "bebegi", "bebekler",
+              "no", "nolu"}
+
+
+def _kelimeler(ad):
+    return ortak.katla(ad).split()
+
+
+def bebek_incele(k):
+    """-> ('red', neden) | ('bebek', temiz_ad) | ('normal', None). Yer tutucu ad ya da yalnız soyadı kalan bebek = red."""
+    ad = (k.get("ad_soyad") or "").strip()
+    kel = _kelimeler(ad)
+    if not kel:
+        return "normal", None
+    ham = " ".join(kel)
+    bebek_soz = any(w in ("bebek", "bebegi", "bebekler") for w in kel)
+    yeni_dogan = "yeni dogan" in ham
+    yas = k.get("yas")
+    try:
+        yas_kucuk = yas is not None and int(yas) < 2
+    except (TypeError, ValueError):
+        yas_kucuk = False
+    isimsiz_soz = any(w in ("isimsiz", "adsiz") for w in kel)
+    if not (bebek_soz or yeni_dogan or isimsiz_soz):
+        return ("bebek", None) if yas_kucuk else ("normal", None)
+    # sözcük sözcük: yer tutucu / rakam / "Yeni Doğan" atılır; kalanlar kişi adı
+    orj = ad.split()
+    kalan = []
+    for i, w in enumerate(orj):
+        kw = ortak.katla(w)
+        if not kw:
+            continue
+        if kw in YER_TUTUCU and not (kw == "dogan" and not (i > 0 and ortak.katla(orj[i - 1]) == "yeni")):
+            continue
+        if re.fullmatch(r"\d+", kw):
+            continue
+        kalan.append(w)
+    # "Bebek <Soyad>" (kayıtta yalnız aile soyadı) gerçek ad değildir: ad + soyad için en az 2 sözcük şart
+    if len(kalan) < 2:
+        return "red", "K9 isimsiz bebek"
+    return "bebek", " ".join(kalan)
+
+
+def _tarihler(k):
+    out = []
+    for a in ("vefat_tarihi", "namaz_tarihi"):
+        g = _gun(k.get(a) or "")
+        if g:
+            out.append(g)
+    g = _gun((k.get("defin_zamani") or "")[:10])
+    if g:
+        out.append(g)
+    if not out:
+        g = _gun(k.get("liste_tarihi") or "")
+        if g:
+            out.append(g)
+    return out
+
+
+def ayni_kisi(a, b):
+    if ad_anahtar(a.get("ad_soyad")) != ad_anahtar(b.get("ad_soyad")):
+        return False
+    try:
+        if a.get("yas") is not None and b.get("yas") is not None and abs(int(a["yas"]) - int(b["yas"])) > 1:
+            return False
+    except (TypeError, ValueError):
+        pass
+    return any(abs((x - y).days) <= 2 for x in _tarihler(a) for y in _tarihler(b))
+
+
+def _doluluk(k):
+    return (sum(v not in (None, "", []) for v in k.values()), k.get("kaynak_turu") not in BASIN_TURLERI)
+
+
+def il_ici_tekille(sirali):
+    """sirali: kayıt listesi (okuma sırası). -> (elenenler [(kayit, tutulan)], tutulan sayısı). Tutulan kayıt YERİNDE birleştirilir."""
+    kumeler = []
+    for k in sirali:
+        for km in kumeler:
+            if ayni_kisi(km[0], k):
+                km.append(k)
+                break
+        else:
+            kumeler.append([k])
+    elenen = []
+    for km in kumeler:
+        if len(km) < 2:
+            continue
+        ilk = km[0]
+        taban = max(km, key=_doluluk)
+        birlesik = dict(taban)
+        for o in km:
+            for a, v in o.items():
+                if birlesik.get(a) in (None, "", []) and v not in (None, "", []) and a not in ("kaynaklar",):
+                    birlesik[a] = v
+        birlesik["ilce"] = ilk.get("ilce")
+        birlesik["id"] = taban.get("id")
+        ks = list(taban.get("kaynaklar") or [])
+        for o in km:
+            ks.append({"kaynak_ad": o.get("kaynak_ad"), "kaynak_url": o.get("kaynak_url"), "ilce": o.get("ilce"), "id": o.get("id")})
+        goruldu, tekil = set(), []
+        for x in ks:
+            if (x["id"], x["kaynak_url"]) not in goruldu:
+                goruldu.add((x["id"], x["kaynak_url"]))
+                tekil.append(x)
+        birlesik["kaynaklar"] = tekil
+        ilk.clear()
+        ilk.update(birlesik)
+        elenen.extend((o, ilk) for o in km[1:])
+    return elenen
+
+
 def denetle(k, bugun, alan_adi_cogunluk):
     nedenler = []
     ad = (k.get("ad_soyad") or "").strip()
@@ -138,6 +258,11 @@ def denetle(k, bugun, alan_adi_cogunluk):
     # K2
     if ad and (not (2 <= len(ad.split()) <= 5) or AD_YASAK.search(ad)):
         nedenler.append("K2 ad biçimi")
+    # K9
+    if ad:
+        durum, _ = bebek_incele(k)
+        if durum == "red":
+            nedenler.append("K9 isimsiz bebek")
     # K3
     ileri = bugun + timedelta(days=2)
     for a in TARIH_ALANLARI:
@@ -223,6 +348,24 @@ def il_denetle(il_klasor, bugun, kuru=False):
             elenen_id.add(id(k))
             for x in n:
                 neden_say[x.split(" (")[0]] += 1
+    # K9 devamı: geçen bebek kayıtlarında "Bebek" sözcüğü addan atılır, bebek: true yazılır
+    bebek_say = 0
+    for k in tum:
+        if id(k) in elenen_id:
+            continue
+        durum, temiz = bebek_incele(k)
+        if durum == "bebek":
+            if temiz:
+                k["ad_soyad"] = temiz
+            k["bebek"] = True
+            bebek_say += 1
+    # K10: il içi tekilleştirme (okuma sırası = ilçeler, il_disi, ilce_belirsiz)
+    kalan = [k for k in tum if id(k) not in elenen_id]
+    tekil = il_ici_tekille(kalan)
+    for kopya, tutulan in tekil:
+        red.append({"kural": ["K10 il içi tekrar"], "tutulan_id": tutulan.get("id"), "kayit": dict(kopya)})
+        elenen_id.add(id(kopya))
+        neden_say["K10 il içi tekrar"] += 1
     if not kuru:
         d["ilceler"] = {ilce: [k for k in l if id(k) not in elenen_id] for _, ilce, l in gruplar if ilce}
         d["ilceler"] = {a: l for a, l in d["ilceler"].items() if l}
@@ -234,7 +377,7 @@ def il_denetle(il_klasor, bugun, kuru=False):
         ortak.json_yaz(os.path.join(VERI, il_klasor, "_kapi_red.json"),
                        {"il": d.get("il"), "guncelleme": ortak.simdi_iso(), "elenen": len(red), "red": red})
     return {"il": d.get("il"), "kayit": len(tum), "gecen": len(tum) - len(red), "elenen": len(red),
-            "nedenler": dict(neden_say.most_common())}
+            "nedenler": dict(neden_say.most_common()), "bebek": bebek_say}
 
 
 def main(argv=None):

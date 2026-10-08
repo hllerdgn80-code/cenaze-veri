@@ -12,6 +12,9 @@ Kurallar (URUN-TASLAGI §16.5, §28, KVKK):
   (d) kayıtta yalnız UYGULAMA_ALANLARI kalır; il klasöründe yalnız son7gun.json kalır (gün dosyaları, _kapi_red, _basin,
       _haber_olgu, _tarama, _haber_dizin, örnek HTML'ler silinir)
   (e) ozet.json / saglik.json / kapi.json: çıkarılan iller düşer, metinlerdeki adresler (http..., alan adları) silinir
+  (g) İKİNCİ KİLİT (URUN-TASLAGI §32): isimsiz bebek kaydı ("Bebek", "Kız/Erkek Bebek", "İsimsiz", "Adsız", "Yeni Doğan", "… Bebeği",
+      ya da "Bebek" atınca yalnız soyad kalan) yayına girmez; il içinde aynı ad soyad + namaz/defin/vefat tarihi ±2 gün tek kayıt olur
+      (en dolu kalır, ilk ilçe korunur). Süzgeç sonrası denetim bunların kalmadığını da doğrular.
   (f) kaybettiklerimiz/ içinde "_" ile başlayan iç dosyalar silinir; _meta.json yerine yalnız tarih + sayılar: durum.json
 Yeni bir yerel basın/haber ili eklenirse YEREL_ILLER'e de yazılır (yazılmasa bile kayıtları (a) ile çıkar; il klasörü boş kalır).
 """
@@ -24,9 +27,9 @@ YEREL_ILLER = {"agri", "amasya", "ardahan", "bayburt", "bingol", "bitlis", "coru
 # uygulamanın okuyacağı alanlar (başka hiçbir alan yayına gitmez)
 UYGULAMA_ALANLARI = ("id", "il", "ilce", "mahalle", "ad_soyad", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti",
                      "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz",
-                     "cinsiyet", "sehit", "rutbe", "toren", "aile")
+                     "cinsiyet", "sehit", "rutbe", "toren", "aile", "bebek")
 SON7_ALANLARI = ("il", "ilceler", "il_disi", "ilce_belirsiz", "toplam", "guncelleme")
-YASAK_ALANLAR = ("kaynak_ad", "kaynak_url", "ham", "anne_baba", "alindi", "kaynak_turu")
+YASAK_ALANLAR = ("kaynak_ad", "kaynak_url", "ham", "anne_baba", "alindi", "kaynak_turu", "kaynaklar")
 UST_DOSYALAR = ("ozet.json", "saglik.json", "kapi.json")
 URL = re.compile(r"https?://\S+|\b(?:[\w-]+\.)+(?:bel\.tr|gov\.tr|com\.tr|com|net|org|tv)\b(?:/\S*)?", re.I)
 
@@ -52,12 +55,100 @@ def kayit_suz(k):
     return out
 
 
+# ---- ikinci kilit: isimsiz bebek + il içi tekilleştirme (kapi.py ile aynı kural; süzgeç tek başına çalışabilsin diye burada da var)
+_TR = str.maketrans("çğıöşüÇĞİÖŞÜI", "cgiosucgiosuı")
+YER_TUTUCU = {"isimsiz", "adsiz", "yeni", "dogan", "kiz", "erkek", "bilinmeyen", "bilinmiyor", "bebek", "bebegi", "bebekler", "no", "nolu"}
+
+
+def _kat(s):
+    s = (s or "").replace("İ", "i").replace("I", "ı").lower().translate(_TR)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def isimsiz_bebek(k):
+    """True: yer tutucu ad ya da 'Bebek <Soyad>' (kişi adı yok)."""
+    ad = (k.get("ad_soyad") or "").strip()
+    kel = _kat(ad).split()
+    if not kel or not (any(w in ("bebek", "bebegi", "bebekler", "isimsiz", "adsiz") for w in kel) or "yeni dogan" in " ".join(kel)):
+        return False
+    orj, kalan = ad.split(), 0
+    for i, w in enumerate(orj):
+        kw = _kat(w)
+        if not kw or re.fullmatch(r"\d+", kw):
+            continue
+        if kw in YER_TUTUCU and not (kw == "dogan" and not (i > 0 and _kat(orj[i - 1]) == "yeni")):
+            continue
+        kalan += 1
+    return kalan < 2
+
+
+def _gun(s):
+    from datetime import datetime
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").date()
+    except Exception:
+        return None
+
+
+def _tarihler(k):
+    t = [_gun(k.get(a) or "") for a in ("vefat_tarihi", "namaz_tarihi")] + [_gun((k.get("defin_zamani") or "")[:10])]
+    t = [x for x in t if x]
+    return t or [x for x in [_gun(k.get("liste_tarihi") or "")] if x]
+
+
+def _ayni(a, b):
+    if _kat(a.get("ad_soyad")) != _kat(b.get("ad_soyad")):
+        return False
+    try:
+        if a.get("yas") is not None and b.get("yas") is not None and abs(int(a["yas"]) - int(b["yas"])) > 1:
+            return False
+    except (TypeError, ValueError):
+        pass
+    return any(abs((x - y).days) <= 2 for x in _tarihler(a) for y in _tarihler(b))
+
+
+def il_ici_tekille(tum):
+    """tum: okuma sırasıyla kayıt listesi -> elenecek kayıtların id()'leri; tutulan YERİNDE birleştirilir (ilk ilçe korunur)."""
+    kumeler = []
+    for k in tum:
+        for km in kumeler:
+            if _ayni(km[0], k):
+                km.append(k)
+                break
+        else:
+            kumeler.append([k])
+    atilan = set()
+    for km in kumeler:
+        if len(km) < 2:
+            continue
+        ilk = km[0]
+        taban = max(km, key=lambda x: sum(v not in (None, "", []) for v in x.values()))
+        b = dict(taban)
+        for o in km:
+            for a, v in o.items():
+                if b.get(a) in (None, "", []) and v not in (None, "", []):
+                    b[a] = v
+        b["ilce"] = ilk.get("ilce")
+        ilk.clear()
+        ilk.update(b)
+        atilan.update(id(o) for o in km[1:])
+    return atilan
+
+
 def son7_suz(d):
-    resmi = lambda l: [kayit_suz(k) for k in l if k.get("kaynak_turu") not in BASIN_TURLERI]
+    resmi = lambda l: [kayit_suz(k) for k in l if k.get("kaynak_turu") not in BASIN_TURLERI and not isimsiz_bebek(k)]
     ilceler = {i: resmi(l) for i, l in (d.get("ilceler") or {}).items()}
     ilceler = {i: l for i, l in ilceler.items() if l}
     out = {"il": d.get("il"), "ilceler": ilceler, "il_disi": resmi(d.get("il_disi") or []),
            "ilce_belirsiz": resmi(d.get("ilce_belirsiz") or []), "guncelleme": d.get("guncelleme")}
+    tum = [k for l in ilceler.values() for k in l] + out["il_disi"] + out["ilce_belirsiz"]
+    atilan = il_ici_tekille(tum)
+    if atilan:
+        ilceler = {i: [k for k in l if id(k) not in atilan] for i, l in ilceler.items()}
+        out["ilceler"] = {i: l for i, l in ilceler.items() if l}
+        out["il_disi"] = [k for k in out["il_disi"] if id(k) not in atilan]
+        out["ilce_belirsiz"] = [k for k in out["ilce_belirsiz"] if id(k) not in atilan]
+        ilceler = out["ilceler"]
     out["toplam"] = sum(len(l) for l in ilceler.values()) + len(out["il_disi"]) + len(out["ilce_belirsiz"])
     return out
 
@@ -164,6 +255,12 @@ def denetle(kok):
             fazla = set(k) - set(UYGULAMA_ALANLARI)
             if fazla:
                 hata.append(f"{ad}/{k.get('id')}: yasak alan {sorted(fazla)}")
+        for k in tum:
+            if isimsiz_bebek(k):
+                hata.append(f"{ad}/{k.get('id')}: isimsiz bebek yayında")
+        for i, a in enumerate(tum):
+            if any(_ayni(a, b) for b in tum[i + 1:]):
+                hata.append(f"{ad}/{a.get('id')}: il içinde aynı kişi iki kez ({a.get('ad_soyad')})")
         ham = json.dumps(d, ensure_ascii=False)
         for y in YASAK_ALANLAR:
             if f'"{y}"' in ham:
