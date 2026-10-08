@@ -1,0 +1,63 @@
+name: Turkiye'den oku
+
+# Yalniz Turkiye'den acilan kaynaklar: site sahibinin Mac'indeki self-hosted runner'da calisir.
+# topla.yml'den 6 dk ONCE (cron 47 -> 41) calisir; sonucu veri-tr/ klasorune commit eder,
+# topla.yml birlestir adimi bu veriyi uzerine kopyalar.
+on:
+  schedule:
+    - cron: "41 3,5,6,7,8,9,12,18 * * *"   # TR saatiyle 06:41 08:41 09:41 10:41 11:41 12:41 15:41 21:41
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: topla-tr
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Istanbul
+  TR_ILLER: "kocaeli aksaray van malatya mugla istanbul"
+
+jobs:
+  oku-tr:
+    runs-on: self-hosted
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Onceki veriyi geri yukle (biriktirme icin)
+        run: |
+          rm -rf veri onceki.tar.gz
+          mkdir -p veri
+          URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
+          if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+      - name: Illeri oku (Turkiye'den)
+        run: python3 okuyucu/hepsi.py $TR_ILLER
+      - name: veri-tr/ klasorunu hazirla
+        run: |
+          rm -rf veri-tr
+          mkdir -p veri-tr
+          for il in $TR_ILLER; do
+            if [ -d "veri/$il" ]; then cp -r "veri/$il" veri-tr/; fi
+          done
+          python3 - <<'PY'
+          import json, os
+          iller = os.environ["TR_ILLER"].split()
+          ozet = json.load(open("veri/ozet.json", encoding="utf-8"))
+          cikti = {"guncelleme": ozet.get("guncelleme"),
+                   "iller": {k: v for k, v in ozet.get("iller", {}).items() if k in iller}}
+          json.dump(cikti, open("veri-tr/ozet-tr.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          print(sorted(cikti["iller"]))
+          PY
+      - name: Depoya commit et
+        run: |
+          git config user.name "cenaze-bot"
+          git config user.email "cenaze-bot@users.noreply.github.com"
+          git add -A veri-tr
+          if git diff --cached --quiet; then
+            echo "degisiklik yok, commit atilmadi"
+          else
+            git commit -m "veri-tr: Turkiye'den okunan iller"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
