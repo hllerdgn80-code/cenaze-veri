@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -69,10 +69,32 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "tur": "Defin"
    },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "1622095bca02",
+   "il": "Muğla",
+   "ilce": "Seydikemer",
+   "mahalle": "Gölbent Mahallesi",
+   "ad_soyad": "Ali İhsan Ata",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Gölbent Tomalar Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-06",
+   "kaynak_ad": "Seydikemer Belediyesi",
+   "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
+   "alindi": "2026-10-08T17:00:15+03:00",
+   "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false
   }

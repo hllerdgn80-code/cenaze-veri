@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-08",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-08",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -69,10 +69,59 @@
    "liste_tarihi": "2026-10-08",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "b0a8650b2ce7",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Yılmaz Aşkın",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-08",
+   "defin_yeri": "Bitez Köyiçi Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-08",
+   "namaz_tarihi": "2026-10-08",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-08",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-08T17:00:15+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "9bbebe0ab76b",
+   "il": "Muğla",
+   "ilce": "Fethiye",
+   "mahalle": null,
+   "ad_soyad": "Ayşe Konur",
+   "anne_baba": null,
+   "yas": 94,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-07",
+   "defin_yeri": "Alacamaşat Mezarlığı",
+   "defin_zamani": "2026-10-08",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-08",
+   "kaynak_ad": "Fethiye Belediyesi",
+   "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+   "alindi": "2026-10-08T17:00:15+03:00",
+   "ham": {
+    "tur": "Defin"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false

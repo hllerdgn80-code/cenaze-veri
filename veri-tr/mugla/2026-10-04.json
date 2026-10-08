@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": "Milas",
     "nakil_tarihi": "2026-10-04"
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": "Ankara",
     "nakil_tarihi": "2026-10-04"
@@ -69,7 +69,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -94,7 +94,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -119,7 +119,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "tur": "Nakil"
    },
@@ -143,7 +143,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Seydikemer Belediyesi",
    "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false
@@ -165,7 +165,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Dalaman Belediyesi",
    "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {
     "dogum_yili": "1940"
    },
@@ -189,7 +189,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Milas Belediyesi",
    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-   "alindi": "2026-10-08T08:09:26+03:00",
+   "alindi": "2026-10-08T17:00:15+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false
