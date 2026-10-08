@@ -62,6 +62,8 @@ jobs:
     if: ${{ always() && needs.oku.result != 'cancelled' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
     environment:
       name: github-pages
     steps:
@@ -137,6 +139,15 @@ jobs:
           if [ -f uygulama/web/gizlilik.html ]; then cp uygulama/web/gizlilik.html site/kimincenazesi-gizlilik.html; fi
           echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
           python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
+      # Cloudflare Pages (veri.kimincenazesi.com) — uygulamanın kalıcı veri adresi (08.10.2026; URUN-TASLAGI §16).
+      # CLOUDFLARE_API_TOKEN secret'ı yoksa adım atlanır, GitHub Pages yayını sürer (sürüm 8'e kadar ikisi birlikte).
+      - name: Cloudflare Pages'e yayimla (veri.kimincenazesi.com)
+        if: ${{ env.CF_TOKEN != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ba872dc9ccbc4853f9f06378bc456ab7
+          command: pages deploy site --project-name=kimincenazesi-veri --branch=main --commit-dirty=true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
