@@ -4,6 +4,7 @@ Sonunda veri/ozet.json yazar: il -> son güncelleme, kayıt sayısı, hata.
 Kullanım: python3 okuyucu/hepsi.py [il ...]     (il verilmezse hepsi)
           python3 okuyucu/hepsi.py --grup N/M    (ILLER'in M parçadan N.sü; özet veri/ozet.N.json)
           python3 okuyucu/hepsi.py --ozet-birlestir   (veri/ozet.*.json -> veri/ozet.json)
+          python3 okuyucu/hepsi.py --ozet-ekle DOSYA  (DOSYA'daki iller veri/ozet.json'daki girişlerin üstüne yazılır; TR runner verisi)
 Her il en çok IL_SINIRI_SN sürer; aşarsa "zaman aşımı" ile atlanır.
 """
 import importlib, io, json, os, shutil, sys, threading, time, traceback
@@ -38,6 +39,21 @@ def birlestir():
     print(f"{n} grup özeti birleştirildi, {len(ozet['iller'])} il")
 
 
+def ozet_ekle(dosya):
+    ozet_yolu = os.path.join(VERI, "ozet.json")
+    try:
+        with open(ozet_yolu, encoding="utf-8") as f:
+            ozet = json.load(f)
+    except Exception:
+        ozet = {"iller": {}}
+    with open(dosya, encoding="utf-8") as f:
+        ek = json.load(f).get("iller", {})
+    ozet.setdefault("iller", {}).update(ek)
+    ozet["guncelleme"] = ortak.simdi_iso()
+    ortak.json_yaz(ozet_yolu, ozet)
+    print(f"{len(ek)} il özeti eklendi: {sorted(ek)}")
+
+
 def sinirli_calistir(modul, il):
     """modul.main()'i ayrı iş parçacığında çalıştırır; IL_SINIRI_SN'yi aşarsa TimeoutError."""
     sonuc = {}
@@ -63,6 +79,8 @@ def main():
     args = sys.argv[1:]
     if "--ozet-birlestir" in args:
         return birlestir()
+    if "--ozet-ekle" in args:
+        return ozet_ekle(args[args.index("--ozet-ekle") + 1])
     grup = None
     if "--grup" in args:
         i = args.index("--grup")
