@@ -457,4 +457,13 @@ def il_calistir(il, klasor_adi, okuyucular, argv=None):
     ctx["durum"].kaydet(gl)
     sayac = ortak_ek.yaz_birlestir(klasor, il, gl, by_gun)
     print(f"{il}: gün başına {sayac}")
+    # ilçe başına sonuç son7gun.json'a yazılır (saglik.py HATA/ENGEL satırlarını uyarı olarak gösterir)
+    try:
+        son = os.path.join(klasor, "son7gun.json")
+        with open(son, encoding="utf-8") as f:
+            d = json.load(f)
+        d["ilce_durum"] = {k: (v if isinstance(v, int) else str(v)) for k, v in ozet.items()}
+        ortak.json_yaz(son, d)
+    except Exception as e:
+        print(f"ilce_durum yazılamadı: {e}", file=sys.stderr)
     return ozet

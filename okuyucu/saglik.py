@@ -32,11 +32,24 @@ def main():
         sorunlar.append(f"{len(hatali)} il hata verdi: " + ", ".join(f"{k} ({str(h)[:60]})" for k, h in hatali.items()))
     if sifir:
         sorunlar.append(f"{len(sifir)} ilde son 7 günde 0 kayıt: " + ", ".join(sifir))
+    # ilçe düzeyinde hata/engel (ortak_ilce il_calistir → son7gun.json["ilce_durum"])
+    ilce_sorun = {}
+    for il in iller:
+        try:
+            with open(os.path.join(KOK, il, "son7gun.json"), encoding="utf-8") as f:
+                idur = json.load(f).get("ilce_durum") or {}
+        except Exception:
+            idur = {}
+        kotu = {k: v for k, v in idur.items() if isinstance(v, str)}
+        if kotu:
+            ilce_sorun[il] = kotu
+    if ilce_sorun:
+        sorunlar.append("ilçe hatası: " + "; ".join(f"{il}/{k} ({v[:50]})" for il, d in ilce_sorun.items() for k, v in d.items()))
     if dusus is not None and dusus > 40:
         sorunlar.append(f"toplam kayıt önceki çalışmaya göre %{dusus} düştü ({onceki_toplam} -> {toplam})")
     cikti = {"guncelleme": ozet.get("guncelleme"), "il_sayisi": len(iller), "toplam_kayit": toplam,
              "onceki_toplam": onceki_toplam, "dusus_yuzde": dusus, "hatali_iller": hatali,
-             "sifir_kayitli_iller": sifir, "sorunlar": sorunlar, "saglikli": not sorunlar}
+             "sifir_kayitli_iller": sifir, "ilce_sorunlari": ilce_sorun, "sorunlar": sorunlar, "saglikli": not sorunlar}
     os.makedirs(KOK, exist_ok=True)
     with open(os.path.join(KOK, "saglik.json"), "w", encoding="utf-8") as f:
         json.dump(cikti, f, ensure_ascii=False, indent=1)
