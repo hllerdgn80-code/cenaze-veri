@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak
 
 URL = "https://www.ordu.bel.tr/vefat-edenler?date={}"
-UA = "CenazeVaktiBot/0.1 (+cenazevakti)"
+UA = "KiminCenazesiBot/0.1 (+kimincenazesi)"
 KAYNAK_AD = "Ordu Büyükşehir Belediyesi"
 BEKLE = 3.5
 KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri", "ordu")

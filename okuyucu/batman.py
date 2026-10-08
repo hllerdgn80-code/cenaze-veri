@@ -14,7 +14,7 @@ import ortak
 
 SITE = "https://www.batman.bel.tr"
 URL = SITE + "/index.php?sayfa=vefat_edenler&limit=100&baslangic={0}&bitis={0}"
-UA = "CenazeVaktiBot/0.1 (+cenazevakti)"
+UA = "KiminCenazesiBot/0.1 (+kimincenazesi)"
 KAYNAK_AD = "Batman Belediyesi"
 BEKLE = 3.5
 KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri", "batman")

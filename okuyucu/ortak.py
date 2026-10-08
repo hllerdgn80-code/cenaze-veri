@@ -206,7 +206,7 @@ def gun_yaz(klasor, il, gun, kayitlar):
 
 
 # ---------------------------------------------------------------- ağ: User-Agent, robots.txt, bekleme
-UA = "CenazeVaktiBot/0.1 (+cenazevakti)"
+UA = "KiminCenazesiBot/0.1 (+kimincenazesi)"
 _son_istek = {}
 
 
