@@ -1,0 +1,60 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-09",
+ "kayitlar": [
+  {
+   "id": "25bb3d8ab046",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hüdaverdi Yüksel",
+   "anne_baba": "İshak Dede",
+   "yas": 56,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-06",
+   "defin_yeri": "Ervah Kabristanlığı / 3 Ada",
+   "defin_zamani": "2026-10-09",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:09",
+   "liste_tarihi": "2026-10-09",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-09T13:57:15+03:00",
+   "ham": {
+    "baba": "İSHAK DEDE",
+    "defin": "09.10.2026 13:09",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 3 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "6204ac1142c8",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Rasim Turan",
+   "anne_baba": "Besim",
+   "yas": 55,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-08",
+   "defin_yeri": "Ervah Kabristanlığı / 1 Ada",
+   "defin_zamani": "2026-10-09",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-09",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-09T13:57:15+03:00",
+   "ham": {
+    "baba": "BESİM",
+    "defin": "09.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 1 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}
