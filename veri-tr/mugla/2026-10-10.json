@@ -1,0 +1,31 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-10",
+ "kayitlar": [
+  {
+   "id": "da4e61b791d1",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Münevver Uluçay",
+   "anne_baba": null,
+   "yas": 88,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-09",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-10",
+   "namaz_tarihi": "2026-10-10",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-10",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-10T16:41:20+03:00",
+   "ham": {
+    "nakil_yeri": "Aydın Çine",
+    "nakil_tarihi": "2026-10-10"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

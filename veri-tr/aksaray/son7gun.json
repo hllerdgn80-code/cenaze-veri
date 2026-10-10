@@ -20,7 +20,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "İSHAK DEDE",
     "defin": "09.10.2026 13:09",
@@ -47,7 +47,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "BESİM",
     "defin": "09.10.2026 13:10",
@@ -74,7 +74,7 @@
    "liste_tarihi": "2026-10-07",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "DAVUT",
     "defin": "07.10.2026 13:10",
@@ -101,7 +101,7 @@
    "liste_tarihi": "2026-10-07",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "SÜLEYMAN",
     "defin": "",
@@ -128,7 +128,7 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "METİN",
     "defin": "06.10.2026 16:10",
@@ -155,7 +155,7 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "SELAHATTİN",
     "defin": "06.10.2026 13:53",
@@ -182,7 +182,7 @@
    "liste_tarihi": "2026-10-06",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "OSMAN",
     "defin": "06.10.2026 13:10",
@@ -209,7 +209,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "ÖMER",
     "defin": "04.10.2026 13:14",
@@ -236,7 +236,7 @@
    "liste_tarihi": "2026-10-04",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
+   "alindi": "2026-10-10T16:42:06+03:00",
    "ham": {
     "baba": "İHSAN",
     "defin": "04.10.2026 16:19",
@@ -245,35 +245,8 @@
    },
    "ilce_belirsiz": true,
    "il_disi_defin": null
-  },
-  {
-   "id": "0ab7ff828199",
-   "il": "Aksaray",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Melek Ceylan",
-   "anne_baba": "Sabri",
-   "yas": 78,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-01",
-   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
-   "defin_zamani": "2026-10-03",
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
-   "liste_tarihi": "2026-10-03",
-   "kaynak_ad": "Aksaray Belediyesi",
-   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-09T13:57:15+03:00",
-   "ham": {
-    "baba": "SABRİ",
-    "defin": "03.10.2026 13:10",
-    "namaz": "Öğlen",
-    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM"
-   },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
   }
  ],
- "toplam": 10,
- "guncelleme": "2026-10-09T13:57:15+03:00"
+ "toplam": 9,
+ "guncelleme": "2026-10-10T16:42:06+03:00"
 }
