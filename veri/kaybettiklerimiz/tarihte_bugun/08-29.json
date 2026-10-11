@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Mehdi Zana",
+  "dogum_tarihi": "1940-12-20",
+  "vefat_tarihi": "2026-08-29",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Silvan",
+  "vefat_yeri": "Diyarbakır",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1423181",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Diyarbakır belediye başkanı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Augustinus",
+  "dogum_tarihi": "0354-11-14",
+  "vefat_tarihi": "0430-08-29",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Thagaste",
+  "vefat_yeri": "Hippo Regius",
+  "defin_yeri": "San Pietro in Ciel d'Oro",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q8018",
+  "sitelink": 227,
+  "fotograf": {
+   "dosya": "Saint Augustine by Philippe de Champaigne.jpg",
+   "lisans": "Public domain",
+   "yazar": "Philippe de Champaigne",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tanrı'nın Şehri”, “İtiraflar”, “De Trinitate”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ingrid Bergman",
+  "dogum_tarihi": "1915-08-29",
+  "vefat_tarihi": "1982-08-29",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Hedvig Eleonora parish",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q43247",
+  "sitelink": 123,
+  "fotograf": {
+   "dosya": "Bergman Harcourt 1957.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergman_Harcourt_1957.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bergman_Harcourt_1957.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gene Wilder",
+  "dogum_tarihi": "1933-06-11",
+  "vefat_tarihi": "2016-08-29",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Milwaukee",
+  "vefat_yeri": "Stamford",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q191966",
+  "sitelink": 101,
+  "fotograf": {
+   "dosya": "Gene Wilder 1970.JPG",
+   "lisans": "Public domain",
+   "yazar": "Warner Brothers/Tandem Production",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gene_Wilder_1970.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gene_Wilder_1970.JPG"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü. Aday olduğu ödül: En İyi Yardımcı Erkek Oyuncu Akademi Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Pius",
+  "dogum_tarihi": "1717-12-25",
+  "vefat_tarihi": "1799-08-29",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Cesena",
+  "vefat_yeri": "Valence",
+  "defin_yeri": "Vatican Grotto",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q128019",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "Pompeo Batoni - Ritratto di Papa Pio VI (National Gallery of Ireland).jpg",
+   "lisans": "Public domain",
+   "yazar": "Pompeo Batoni",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pompeo_Batoni_-_Ritratto_di_Papa_Pio_VI_%28National_Gallery_of_Ireland%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pompeo_Batoni_-_Ritratto_di_Papa_Pio_VI_%28National_Gallery_of_Ireland%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IX. Gregorius",
+  "dogum_tarihi": "1170",
+  "vefat_tarihi": "1241-08-29",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Anagni",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q124831",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Gregory IX.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_IX.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gregory_IX.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edward Asner",
+  "dogum_tarihi": "1929-11-15",
+  "vefat_tarihi": "2021-08-29",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Kansas City",
+  "vefat_yeri": "Tarzana",
+  "defin_yeri": "Sheffield Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q154421",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Ed Asner in 2017.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Terry Ballard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ed_Asner_in_2017.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ed_Asner_in_2017.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Saftirik Greg'in Günlüğü: Rodrick Kuralları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrea Palladio",
+  "dogum_tarihi": "1508-12-10",
+  "vefat_tarihi": "1580-08-29",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Padova",
+  "vefat_yeri": "Maser",
+  "defin_yeri": "major cemetery of Vicenza",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q177692",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Andrea Palladio2.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Alessandro Maganza",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea_Palladio2.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrea_Palladio2.jpeg"
+  },
+  "meslek": [
+   "Mimar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Basilica Palladiana”, “San Giorgio Maggiore Kilisesi”, “Vicenza Şehri ve Veneto'daki Palladyan Villaları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Éamon de Valera",
+  "dogum_tarihi": "1882-10-14",
+  "vefat_tarihi": "1975-08-29",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Dublin",
+  "defin_yeri": "Glasnevin Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İrlanda",
+  "wikidata_id": "Q173347",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Eamon de Valera c 1922-30.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Photo Company",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eamon_de_Valera_c_1922-30.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eamon_de_Valera_c_1922-30.jpg"
+  },
+  "meslek": [
+   "Matematikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: büyükelçi, İrlanda Devlet Başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Nicolaus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1280-08-29",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Viterbo",
+  "defin_yeri": "Vatican Grotto",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q170859",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Scuola romana, affreschi del sancta sanctorum, 1280 ca., Niccolò III dona la chiesa ai ss. pietro e paolo 03 (cropped) (cropped).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Sailko",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scuola_romana%2C_affreschi_del_sancta_sanctorum%2C_1280_ca.%2C_Niccol%C3%B2_III_dona_la_chiesa_ai_ss._pietro_e_paolo_03_%28cropped%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Scuola_romana%2C_affreschi_del_sancta_sanctorum%2C_1280_ca.%2C_Niccol%C3%B2_III_dona_la_chiesa_ai_ss._pietro_e_paolo_03_%28cropped%29_%28cropped%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Atahualpa",
+  "dogum_tarihi": "1500",
+  "vefat_tarihi": "1533-08-05",
+  "vefat_yasi": 33,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Quito",
+  "vefat_yeri": "Plaza de Armas of Cajamarca",
+  "defin_yeri": "Cajamarca",
+  "defin_il": null,
+  "defin_ulke": "Peru",
+  "wikidata_id": "Q179577",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Atahuallpa, Inca XIIII From Berlin Ethnologisches Museum, Staatliche Museen, Berlin, Germany.png",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atahuallpa%2C_Inca_XIIII_From_Berlin_Ethnologisches_Museum%2C_Staatliche_Museen%2C_Berlin%2C_Germany.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Atahuallpa%2C_Inca_XIIII_From_Berlin_Ethnologisches_Museum%2C_Staatliche_Museen%2C_Berlin%2C_Germany.png"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Sapa Inca",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Lee Marvin",
+  "dogum_tarihi": "1924-02-19",
+  "vefat_tarihi": "1987-08-29",
+  "vefat_yasi": 63,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Tucson",
+  "defin_yeri": "Arlington Ulusal Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q76895",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Lee marvin 1971.JPG",
+   "lisans": "Public domain",
+   "yazar": "NBC Television Uploaded by We hope at en.wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee_marvin_1971.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lee_marvin_1971.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

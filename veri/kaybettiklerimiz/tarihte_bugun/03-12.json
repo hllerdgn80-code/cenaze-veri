@@ -1,0 +1,337 @@
+[
+ {
+  "ad": "Erol Büyükburç",
+  "dogum_tarihi": "1936-08-08",
+  "vefat_tarihi": "2015-03-12",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Adana",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6066830",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "UteVeErol.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Heartswagger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/UteVeErol.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:UteVeErol.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Devlet Sanatçısı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Anne Frank",
+  "dogum_tarihi": "1929-06-12",
+  "vefat_tarihi": "1945-02",
+  "vefat_yasi": 16,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Maingau Clinic of the Red Cross",
+  "vefat_yeri": "Bergen-Belsen toplama kampı",
+  "defin_yeri": "Bergen-Belsen toplama kampı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q4583",
+  "sitelink": 170,
+  "fotograf": {
+   "dosya": "Anne Frank (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Frank_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anne_Frank_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Günce yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Anne Frank'in Hatıra Defteri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sun Yat-sen",
+  "dogum_tarihi": "1866-11-12",
+  "vefat_tarihi": "1925-03-12",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Cuiheng",
+  "vefat_yeri": "Peking Union Medical College Hospital",
+  "defin_yeri": "Sun Yat-sen Anıt Mezarı",
+  "defin_il": null,
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q8573",
+  "sitelink": 152,
+  "fotograf": {
+   "dosya": "孙中山肖像.jpg",
+   "lisans": "Public domain",
+   "yazar": "上海波尔照相馆",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı. Görev: başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Terry Pratchett",
+  "dogum_tarihi": "1948-04-28",
+  "vefat_tarihi": "2015-03-12",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Beaconsfield",
+  "vefat_yeri": "Broad Chalke",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q46248",
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "10.12.12TerryPratchettByLuigiNovi1.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Luigi Novi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/10.12.12TerryPratchettByLuigiNovi1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:10.12.12TerryPratchettByLuigiNovi1.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Carnegie Madalyası, fahri doktora. Önemli eserleri: “Ulus”, “Diskdünya”, “Bir Kıyamet Komedisi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Henry Bragg",
+  "dogum_tarihi": "1862-07-02",
+  "vefat_tarihi": "1942-03-12",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Wigton",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q133747",
+  "sitelink": 101,
+  "fotograf": {
+   "dosya": "Wh-bragg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wh-bragg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wh-bragg.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Heinrich Mann",
+  "dogum_tarihi": "1871-03-27",
+  "vefat_tarihi": "1950-03-11",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Lübeck",
+  "vefat_yeri": "Santa Monica",
+  "defin_yeri": "Dorotheenstadt Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76480",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Heinrich Mann in seinen Münchner Jahren.png",
+   "lisans": "Public domain",
+   "yazar": "Photographer not credited",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinrich_Mann_in_seinen_M%C3%BCnchner_Jahren.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Heinrich_Mann_in_seinen_M%C3%BCnchner_Jahren.png"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kul”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charlie Parker",
+  "dogum_tarihi": "1920-08-29",
+  "vefat_tarihi": "1955-03-12",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Kansas City",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Lincoln Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q103767",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Portrait of Charlie Parker in 1947.jpg",
+   "lisans": "Public domain",
+   "yazar": "William P. Gottlieb",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Charlie_Parker_in_1947.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charlie_Parker_in_1947.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Zoran Cinciç",
+  "dogum_tarihi": "1952-08-01",
+  "vefat_tarihi": "2003-03-12",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Aziziye",
+  "vefat_yeri": "Belgrad",
+  "defin_yeri": "Belgrade New Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Sırbistan",
+  "wikidata_id": "Q157131",
+  "sitelink": 62,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Sırbistan başbakanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Yehudi Menuhin",
+  "dogum_tarihi": "1916-04-22",
+  "vefat_tarihi": "1999-03-12",
+  "vefat_yasi": 82,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q156814",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "YehudiMenuhinStageDoorCanteen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Film screenshot",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YehudiMenuhinStageDoorCanteen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:YehudiMenuhinStageDoorCanteen.jpg"
+  },
+  "meslek": [
+   "Kemancı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, Asturias Prensliği Ödülü. Görev: Britanya Lordlar Kamarası üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Westinghouse",
+  "dogum_tarihi": "1846-10-06",
+  "vefat_tarihi": "1914-03-12",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Central Bridge",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Arlington Ulusal Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q262367",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "George Westinghouse.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph G. Gessford",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Westinghouse.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:George_Westinghouse.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Edison Madalyası, John Fritz Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ragnar Granit",
+  "dogum_tarihi": "1900-10-30",
+  "vefat_tarihi": "1991-03-12",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Riihimäki",
+  "vefat_yeri": "Stockholm",
+  "defin_yeri": "Turku Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Finlandiya",
+  "wikidata_id": "Q217722",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Ragnar Granit2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ragnar_Granit2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ragnar_Granit2.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bolesław Bierut",
+  "dogum_tarihi": "1892-04-18",
+  "vefat_tarihi": "1956-03-12",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Lublin",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Powązki Military Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q55832",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "PL Bolesław Bierut (1892-1956).jpg",
+   "lisans": "Public domain",
+   "yazar": "Burzyński Roman",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PL_Boles%C5%82aw_Bierut_%281892-1956%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:PL_Boles%C5%82aw_Bierut_%281892-1956%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Polonya cumhurbaşkanı, Polonya başbakanı",
+  "hassas": false,
+  "turk": false
+ }
+]

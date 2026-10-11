@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "Latife Uşşaki",
+  "dogum_tarihi": "1898-06-17",
+  "vefat_tarihi": "1975-07-12",
+  "vefat_yasi": 77,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q464994",
+  "sitelink": 33,
+  "fotograf": {
+   "dosya": "Latife Hanım.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Latife_Han%C4%B1m.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Latife_Han%C4%B1m.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Cumhurbaşkanı'nın eşi",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ece Ayhan Çağlar",
+  "dogum_tarihi": "1931-09-10",
+  "vefat_tarihi": "2002-07-12",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Datça",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q3564174",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Nostradamus",
+  "dogum_tarihi": "1503-12-24",
+  "vefat_tarihi": "1566-07-12",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Saint-Rémy-de-Provence",
+  "vefat_yeri": "Salon-de-Provence",
+  "defin_yeri": "Collégiale Saint-Laurent de Salon-de-Provence",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q39978",
+  "sitelink": 122,
+  "fotograf": {
+   "dosya": "Nostradamus 1846.jpg",
+   "lisans": "Public domain",
+   "yazar": "After César de Notre-Dame",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nostradamus_1846.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nostradamus_1846.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alexander Hamilton",
+  "dogum_tarihi": "1757-01-11",
+  "vefat_tarihi": "1804-07-12",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Charlestown",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Trinity Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q178903",
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "Google Arts Project - Alexander Hamilton (1792 portrait) by John Trumbull.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Trumbull",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Google_Arts_Project_-_Alexander_Hamilton_%281792_portrait%29_by_John_Trumbull.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Google_Arts_Project_-_Alexander_Hamilton_%281792_portrait%29_by_John_Trumbull.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Federalist Yazılar”. Görev: Amerika Birleşik Devletleri hazine bakanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Pran",
+  "dogum_tarihi": "1920-02-12",
+  "vefat_tarihi": "2013-07-12",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Lahor",
+  "vefat_yeri": "Lilavati Hospital and Research Centre",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q3111264",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Pran 90th bday.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Bollywood Hungama",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pran_90th_bday.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pran_90th_bday.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dadasaheb Phalke Ödülü, Filmfare Ödülleri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alfred Dreyfus",
+  "dogum_tarihi": "1859-10-09",
+  "vefat_tarihi": "1935-07-12",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Mulhouse",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q171826",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Alfred Dreyfus (1859-1935).jpg",
+   "lisans": "Public domain",
+   "yazar": "Aron Gerschel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Dreyfus_%281859-1935%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfred_Dreyfus_%281859-1935%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Fransız topçu subayı",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hamad bin Halife es-Sani",
+  "dogum_tarihi": "1952-01-01",
+  "vefat_tarihi": "2026-07-12",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Doha",
+  "vefat_yeri": "Doha",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q57360",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Hamad bin Khalifa Al-Thani 1997 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamad_bin_Khalifa_Al-Thani_1997_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hamad_bin_Khalifa_Al-Thani_1997_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Devlet başkanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Nişan-ı Pakistan. Görev: savunma bakanı, Katar emiri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gertrude Bell",
+  "dogum_tarihi": "1868-07-14",
+  "vefat_tarihi": "1926-07-12",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Washington",
+  "vefat_yeri": "Bağdat",
+  "defin_yeri": "Bağdat",
+  "defin_il": null,
+  "defin_ulke": "Irak",
+  "wikidata_id": "Q231360",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Gertrude Bell - Al-Alam, V2, P 115.jpg",
+   "lisans": "Public domain",
+   "yazar": "Khayr al-Din al-Zirikli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gertrude_Bell_-_Al-Alam%2C_V2%2C_P_115.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gertrude_Bell_-_Al-Alam%2C_V2%2C_P_115.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Britanya İmparatorluğu genel kurmay başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kelly Preston",
+  "dogum_tarihi": "1962-10-13",
+  "vefat_tarihi": "2020-07-12",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Honolulu",
+  "vefat_yeri": "Clearwater",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q236842",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Kelly Preston Cannes 2018.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Georges Biard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelly_Preston_Cannes_2018.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kelly_Preston_Cannes_2018.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nathan Söderblom",
+  "dogum_tarihi": "1866-01-15",
+  "vefat_tarihi": "1931-07-12",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Trönö",
+  "vefat_yeri": "Uppsala",
+  "defin_yeri": "Uppsala Cathedral",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q159723",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Nathan Söderblom 1914-1920.png",
+   "lisans": "Public domain",
+   "yazar": "Emil Finn",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nathan_S%C3%B6derblom_1914-1920.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nathan_S%C3%B6derblom_1914-1920.png"
+  },
+  "meslek": [
+   "Tarihçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Douglas Hyde",
+  "dogum_tarihi": "1860-01-17",
+  "vefat_tarihi": "1949-07-12",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Castlerea",
+  "vefat_yeri": "Dublin",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q237951",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Douglas Hyde - Project Gutenberg eText 19028.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alice Boughton",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas_Hyde_-_Project_Gutenberg_eText_19028.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Douglas_Hyde_-_Project_Gutenberg_eText_19028.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Onursal vatandaşlık. Görev: İrlanda Devlet Başkanı, başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anthemius",
+  "dogum_tarihi": "0420",
+  "vefat_tarihi": "0472-07-12",
+  "vefat_yasi": 52,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q211772",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Solidus of Anthemius.png",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "CNG Coins",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidus_of_Anthemius.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Solidus_of_Anthemius.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Romalı konsül",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ }
+]

@@ -1,0 +1,345 @@
+[
+ {
+  "ad": "Bahriye Üçok",
+  "dogum_tarihi": "1919",
+  "vefat_tarihi": "1990-10-06",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q465465",
+  "sitelink": 23,
+  "fotograf": {
+   "dosya": "Bahriye Üçok (young, black and white photo).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Harald the Bard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bahriye_%C3%9C%C3%A7ok_%28young%2C_black_and_white_photo%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bahriye_%C3%9C%C3%A7ok_%28young%2C_black_and_white_photo%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Feridun Buğeker",
+  "dogum_tarihi": "1933-04-05",
+  "vefat_tarihi": "2014-10-06",
+  "vefat_yasi": 81,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Feriköy Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2479808",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Feridun Bugeker.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "TWsk",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feridun_Bugeker.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Feridun_Bugeker.jpg"
+  },
+  "meslek": [
+   "Mimar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Enver Sedat",
+  "dogum_tarihi": "1918-12-25",
+  "vefat_tarihi": "1981-10-06",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Mit Abu al-Kum",
+  "vefat_yeri": "Kahire",
+  "defin_yeri": "Unknown Soldier Memorial",
+  "defin_il": null,
+  "defin_ulke": "Mısır",
+  "wikidata_id": "Q42013",
+  "sitelink": 126,
+  "fotograf": {
+   "dosya": "Official Portrait - Anwar Sadat.jpg",
+   "lisans": "Public domain",
+   "yazar": "Press",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Official_Portrait_-_Anwar_Sadat.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Official_Portrait_-_Anwar_Sadat.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Alfred Tennyson",
+  "dogum_tarihi": "1809-08-06",
+  "vefat_tarihi": "1892-10-06",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Somersby",
+  "vefat_yeri": "Aldworth",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q173869",
+  "sitelink": 118,
+  "fotograf": {
+   "dosya": "Alfred, Lord Tennyson by Julia Margaret Cameron.jpg",
+   "lisans": "Public domain",
+   "yazar": "Julia Margaret Cameron / Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred%2C_Lord_Tennyson_by_Julia_Margaret_Cameron.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfred%2C_Lord_Tennyson_by_Julia_Margaret_Cameron.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Britanya Lordlar Kamarası üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bette Davis",
+  "dogum_tarihi": "1908-04-05",
+  "vefat_tarihi": "1989-10-06",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Lowell",
+  "vefat_yeri": "Neuilly-sur-Seine",
+  "defin_yeri": "Forest Lawn Memorial Park (Hollywood Hills)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q71206",
+  "sitelink": 109,
+  "fotograf": {
+   "dosya": "BetteDavis1935.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Publicity",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BetteDavis1935.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Montserrat Caballé",
+  "dogum_tarihi": "1933-04-12",
+  "vefat_tarihi": "2018-10-06",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Barselona",
+  "vefat_yeri": "Barselona",
+  "defin_yeri": "Sant Andreu de Palomar Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q151435",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Montserrat Caballé c. 1969 (1).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montserrat_Caball%C3%A9_c._1969_%281%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Montserrat_Caball%C3%A9_c._1969_%281%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Asturias Prensliği Ödülü, Dostluk Nişanı. Görev: UNICEF İyi Niyet Elçisi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eddie Van Halen",
+  "dogum_tarihi": "1955-01-26",
+  "vefat_tarihi": "2020-10-06",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Amsterdam",
+  "vefat_yeri": "Santa Monica",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q272012",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Eddie Van Halen at the New Haven Coliseum.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Carl Lender",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eddie_Van_Halen_at_the_New_Haven_Coliseum.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eddie_Van_Halen_at_the_New_Haven_Coliseum.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Otto Fritz Meyerhof",
+  "dogum_tarihi": "1884-04-12",
+  "vefat_tarihi": "1951-10-06",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Hannover",
+  "vefat_yeri": "Philadelphia",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q57132",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Otto Fritz Meyerhof.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Fritz_Meyerhof.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Fritz_Meyerhof.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Auguste Marie François Beernaert",
+  "dogum_tarihi": "1829-07-26",
+  "vefat_tarihi": "1912-10-06",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Ostende",
+  "vefat_yeri": "Lucerne",
+  "defin_yeri": "Watermael-Boitsfort/Watermaal-Bosvoorde",
+  "defin_il": null,
+  "defin_ulke": "Belçika",
+  "wikidata_id": "Q202049",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Auguste Beernaert(03).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auguste_Beernaert%2803%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Auguste_Beernaert%2803%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Elizabeth Bishop",
+  "dogum_tarihi": "1911-02-08",
+  "vefat_tarihi": "1979-10-06",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Worcester",
+  "vefat_yeri": "Boston",
+  "defin_yeri": "Hope Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q235946",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Elizabeth Bishop, 1934 yearbook portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Elizabeth_Bishop%2C_1934_yearbook_portrait.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kitap Ödülü, Neustadt Uluslararası Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vera Muhina",
+  "dogum_tarihi": "1889-07-01",
+  "vefat_tarihi": "1953-10-06",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Riga",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q234601",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Mikhail Nesterov, Vera Mukhina, 1940, Tretyakov Gallery 26668; from goskatalog.ru.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mikhail Nesterov",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail_Nesterov%2C_Vera_Mukhina%2C_1940%2C_Tretyakov_Gallery_26668%3B_from_goskatalog.ru.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mikhail_Nesterov%2C_Vera_Mukhina%2C_1940%2C_Tretyakov_Gallery_26668%3B_from_goskatalog.ru.jpg"
+  },
+  "meslek": [
+   "Heykeltıraş"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, SSCB Halkın Ressamı Madalyası. Önemli eserleri: “İşçi ve Çiftçi Kadın Heykeli”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eva Marie Saint",
+  "dogum_tarihi": "1924-07-04",
+  "vefat_tarihi": "2026-10-06",
+  "vefat_yasi": 102,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q228928",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Eva Marie Saint (1951).jpg",
+   "lisans": "Public domain",
+   "yazar": "20th Century Fox. Photographer not credited",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eva_Marie_Saint_%281951%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eva_Marie_Saint_%281951%29.jpg"
+  },
+  "meslek": [
+   "Dizi oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

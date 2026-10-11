@@ -1,0 +1,342 @@
+[
+ {
+  "ad": "Cemal Gürsel",
+  "dogum_tarihi": "1895-10-13",
+  "vefat_tarihi": "1966-09-14",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Hınıs",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Anıtkabir",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q159161",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Cemal Gürsel (1960).jpg",
+   "lisans": "CC0",
+   "yazar": "THA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cemal_G%C3%BCrsel_%281960%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cemal_G%C3%BCrsel_%281960%29.jpg"
+  },
+  "meslek": [
+   "Cumhurbaşkanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "William McKinley",
+  "dogum_tarihi": "1843-01-29",
+  "vefat_tarihi": "1901-09-14",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Niles",
+  "vefat_yeri": "Buffalo",
+  "defin_yeri": "McKinley National Memorial",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q35041",
+  "sitelink": 142,
+  "fotograf": {
+   "dosya": "William mckinley.jpg",
+   "lisans": "Public domain",
+   "yazar": "photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_mckinley.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_mckinley.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Grace Kelly",
+  "dogum_tarihi": "1929-11-12",
+  "vefat_tarihi": "1982-09-14",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Philadelphia",
+  "vefat_yeri": "Commune of Monaco",
+  "defin_yeri": "Cathedral of Our Lady Immaculate",
+  "defin_il": null,
+  "defin_ulke": "Monako",
+  "wikidata_id": "Q3925",
+  "sitelink": 119,
+  "fotograf": {
+   "dosya": "Gracia van Monaco (1972).jpg",
+   "lisans": "CC0",
+   "yazar": "Hans Peters for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gracia_van_Monaco_%281972%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gracia_van_Monaco_%281972%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Isadora Duncan",
+  "dogum_tarihi": "1877-05-26",
+  "vefat_tarihi": "1927-09-14",
+  "vefat_yasi": 50,
+  "dogum_yeri": "San Francisco",
+  "vefat_yeri": "Nice",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q483512",
+  "sitelink": 108,
+  "fotograf": {
+   "dosya": "1923. duncan (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1923._duncan_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1923._duncan_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arthur Wellesley",
+  "dogum_tarihi": "1769-05-01",
+  "vefat_tarihi": "1852-09-14",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Dublin",
+  "vefat_yeri": "Walmer Kalesi",
+  "defin_yeri": "St Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q131691",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "Sir Arthur Wellesley, 1st Duke of Wellington.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Lawrence",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Altın Post Nişanı. Görev: Birleşik Krallık Başbakanı, Birleşik Krallık içişleri bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tomáš Garrigue Masaryk",
+  "dogum_tarihi": "1850-03-07",
+  "vefat_tarihi": "1937-09-14",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Hodonín",
+  "vefat_yeri": "Lány Castle",
+  "defin_yeri": "Grave of Masaryk family",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q78492",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Masaryk im Bild (1937) obr 088 – Podobizna z r. 1934 (Karel Novák) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Státní grafická škola v Praze / Karel Novák (1875–1950)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Masaryk_im_Bild_%281937%29_obr_088_%E2%80%93_Podobizna_z_r._1934_%28Karel_Nov%C3%A1k%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Masaryk_im_Bild_%281937%29_obr_088_%E2%80%93_Podobizna_z_r._1934_%28Karel_Nov%C3%A1k%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Karađorđe'nin Yıldızı Nişanı. Aday olduğu ödül: Nobel Barış Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Fenimore Cooper",
+  "dogum_tarihi": "1789-09-15",
+  "vefat_tarihi": "1851-09-14",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Burlington",
+  "vefat_yeri": "Cooperstown",
+  "defin_yeri": "Christ Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q167856",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "James Fenimore Cooper by Jarvis.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Wesley Jarvis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Fenimore_Cooper_by_Jarvis.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Fenimore_Cooper_by_Jarvis.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Son Mohikan”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jose Echegaray",
+  "dogum_tarihi": "1832-04-19",
+  "vefat_tarihi": "1916-09-14",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Madrid",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "Aziz Isidore Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q127349",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "José Echegaray y Eizaguirre.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Echegaray_y_Eizaguirre.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Echegaray_y_Eizaguirre.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Patrick Swayze",
+  "dogum_tarihi": "1952-08-18",
+  "vefat_tarihi": "2009-09-14",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Houston",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q49004",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Patrick Swayze - 1990 Grammy Awards (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Alan Light",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Swayze_-_1990_Grammy_Awards_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patrick_Swayze_-_1990_Grammy_Awards_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Hayalet”. Aday olduğu ödül: En Kötü Erkek Oyuncu Altın Ahududu Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Dominique Cassini",
+  "dogum_tarihi": "1625-06-08",
+  "vefat_tarihi": "1712-09-14",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Perinaldo",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Église Saint-Jacques-du-Haut-Pas",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q14279",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Giovanni Domenico Cassini.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_Domenico_Cassini.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Cassini.jpg"
+  },
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Cassini yasaları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aaron Burr",
+  "dogum_tarihi": "1756-02-06",
+  "vefat_tarihi": "1836-09-14",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "Port Richmond",
+  "defin_yeri": "Princeton Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q179090",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "John Vanderlyn - Official Portrait of Vice President Aaron Burr.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Vanderlyn",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Vanderlyn_-_Official_Portrait_of_Vice_President_Aaron_Burr.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Vanderlyn_-_Official_Portrait_of_Vice_President_Aaron_Burr.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, New York Eyalet Meclis üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Mössbauer",
+  "dogum_tarihi": "1929-01-31",
+  "vefat_tarihi": "2011-09-14",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Münih",
+  "vefat_yeri": "Grünwald",
+  "defin_yeri": "Grünwald Woodland Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q44286",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Rudolf L. Moessbauer 1962.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf_L._Moessbauer_1962.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rudolf_L._Moessbauer_1962.png"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

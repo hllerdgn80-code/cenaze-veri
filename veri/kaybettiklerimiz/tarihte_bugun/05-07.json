@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Ali Fethi Okyar",
+  "dogum_tarihi": "1880-04-29",
+  "vefat_tarihi": "1943-05-07",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Pirlepe",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q366292",
+  "sitelink": 36,
+  "fotograf": {
+   "dosya": "Fethi Okyar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fethi_Okyar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fethi_Okyar.jpg"
+  },
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Nazım Kıbrısi",
+  "dogum_tarihi": "1922-04-21",
+  "vefat_tarihi": "2014-05-07",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Larnaka",
+  "vefat_yeri": "Kuzey Lefkoşa",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1275426",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Nazim Haqqani.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Shaykhana",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nazim_Haqqani.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nazim_Haqqani.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Başmüftü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Haldun Taner",
+  "dogum_tarihi": "1915-03-16",
+  "vefat_tarihi": "1986-05-07",
+  "vefat_yasi": 71,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1366590",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Salih Mirzabeyoğlu",
+  "dogum_tarihi": "1950-05-09",
+  "vefat_tarihi": "2018-05-07",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Erzincan",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2214353",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Salih Mirzabeyoğlu.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Kirxlc",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salih_Mirzabeyo%C4%9Flu.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Salih_Mirzabeyo%C4%9Flu.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ferdinand Macellan",
+  "dogum_tarihi": "1480",
+  "vefat_tarihi": "1521-05-07",
+  "vefat_yasi": 41,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ponte da Barca",
+  "vefat_yeri": "Maktan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1496",
+  "sitelink": 197,
+  "fotograf": {
+   "dosya": "Retrato de Hernando de Magallanes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_de_Hernando_de_Magallanes.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Retrato_de_Hernando_de_Magallanes.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Mesih Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Caspar David Friedrich",
+  "dogum_tarihi": "1774-09-05",
+  "vefat_tarihi": "1840-05-07",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Greifswald",
+  "vefat_yeri": "Dresden",
+  "defin_yeri": "Trinitatis Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q104884",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Caspar David Friedrich, Selvportræt, 1800, KKSgb5006, Statens Museum for Kunst.jpg",
+   "lisans": "Public domain",
+   "yazar": "Caspar David Friedrich",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar_David_Friedrich%2C_Selvportr%C3%A6t%2C_1800%2C_KKSgb5006%2C_Statens_Museum_for_Kunst.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich%2C_Selvportr%C3%A6t%2C_1800%2C_KKSgb5006%2C_Statens_Museum_for_Kunst.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Deniz Kenarında Keşiş”, “Bulutların Üzerinde Yolculuk”, “Meşe Ormanında Manastır”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sienalı Katerina",
+  "dogum_tarihi": "1347-04-02",
+  "vefat_tarihi": "1380-05-07",
+  "vefat_yasi": 33,
+  "dogum_yeri": "Siena",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Basilica of San Domenico",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q229190",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Santa Catalina de Siena, Pedro de Villegas Marmolejo.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jl FilpoC",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa_Catalina_de_Siena%2C_Pedro_de_Villegas_Marmolejo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Santa_Catalina_de_Siena%2C_Pedro_de_Villegas_Marmolejo.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antonio Salieri",
+  "dogum_tarihi": "1750-08-18",
+  "vefat_tarihi": "1825-05-07",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Legnago",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Zentralfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q51088",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Antonio Salieri painted by Joseph Willibrord Mähler.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Willibrord Mähler",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Antonio_Salieri_painted_by_Joseph_Willibrord_M%C3%A4hler.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Willard Boyle",
+  "dogum_tarihi": "1924-08-19",
+  "vefat_tarihi": "2011-05-07",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Amherst",
+  "vefat_yeri": "Wallace",
+  "defin_yeri": "Wallace Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q73058",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Nobel Prize 2009-Press Conference KVA-23.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Prolineserver (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nobel_Prize_2009-Press_Conference_KVA-23.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2009-Press_Conference_KVA-23.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James George Frazer",
+  "dogum_tarihi": "1854-01-01",
+  "vefat_tarihi": "1941-05-07",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Glasgow",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": "Ascension Parish Burial Ground",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q151936",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "JamesGeorgeFrazer.jpg",
+   "lisans": "Public domain",
+   "yazar": "Contemporary photograph",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JamesGeorgeFrazer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JamesGeorgeFrazer.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, İngiliz Akademisi bursu. Önemli eserleri: “Altın Dal”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Allan McLeod Cormack",
+  "dogum_tarihi": "1924-02-23",
+  "vefat_tarihi": "1998-05-07",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Johannesburg",
+  "vefat_yeri": "Winchester",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q223542",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "34. Tagung 1984 Mediziner; Verabschiedung H.-H. Kunckel, Allen Cormack - W134Nr.123006 - Willy Pragher (cropped).jpg",
+   "lisans": "CC BY 3.0 de",
+   "yazar": "Willy Pragher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/34._Tagung_1984_Mediziner%3B_Verabschiedung_H.-H._Kunckel%2C_Allen_Cormack_-_W134Nr.123006_-_Willy_Pragher_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:34._Tagung_1984_Mediziner%3B_Verabschiedung_H.-H._Kunckel%2C_Allen_Cormack_-_W134Nr.123006_-_Willy_Pragher_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Fyodor",
+  "dogum_tarihi": "1661-06-09",
+  "vefat_tarihi": "1682-05-07",
+  "vefat_yasi": 20,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Başmelek Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q184868",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Feodor III - parsuna near 1680.jpg",
+   "lisans": "Public domain",
+   "yazar": "Неизвестен",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feodor_III_-_parsuna_near_1680.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Feodor_III_-_parsuna_near_1680.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Rus çarı",
+  "hassas": false,
+  "turk": false
+ }
+]

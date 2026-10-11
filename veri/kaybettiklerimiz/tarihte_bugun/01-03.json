@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Vasco da Gama",
+  "dogum_tarihi": "1469",
+  "vefat_tarihi": "1525-01-03",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sines",
+  "vefat_yeri": "Koçin",
+  "defin_yeri": "Jerónimos Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Portekiz",
+  "wikidata_id": "Q7328",
+  "sitelink": 184,
+  "fotograf": {
+   "dosya": "Ignoto portoghese, ritratto di un cavaliere dell'ordine di cristo, 1525-50 ca. 02.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Sailko",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ignoto_portoghese%2C_ritratto_di_un_cavaliere_dell%27ordine_di_cristo%2C_1525-50_ca._02.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Bartolomeu Dias'ın bulduğu yolu geliştirerek Hindistan'a giden ilk Portekizli denizci",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jaroslav Hašek",
+  "dogum_tarihi": "1883-04-30",
+  "vefat_tarihi": "1923-01-03",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Prag",
+  "vefat_yeri": "Lipnice nad Sázavou",
+  "defin_yeri": "Starý hřbitov",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q2754",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Ярослав Гашек.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%93%D0%B0%D1%88%D0%B5%D0%BA.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%93%D0%B0%D1%88%D0%B5%D0%BA.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Aslan Asker Şvayk”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kasım Süleymani",
+  "dogum_tarihi": "1957-03-11",
+  "vefat_tarihi": "2020-01-03",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Qanat-e Malek",
+  "vefat_yeri": "Baghdad Airport Road",
+  "defin_yeri": "Kerman Martyrs Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İran",
+  "wikidata_id": "Q892014",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Qasem Soleimani with Zolfaghar Order (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qasem_Soleimani_with_Zolfaghar_Order_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Qasem_Soleimani_with_Zolfaghar_Order_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Ordu subayı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Zülfikar Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Anterus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0236-01-03",
+  "vefat_yasi": null,
+  "dogum_yeri": "Petilia Policastro",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Catacomb of Callixtus",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q132100",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Pietro Perugino – Anterus.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pietro Perugino",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pietro_Perugino_%E2%80%93_Anterus.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pietro_Perugino_%E2%80%93_Anterus.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joseph Joffre",
+  "dogum_tarihi": "1852-01-12",
+  "vefat_tarihi": "1931-01-03",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Rivesaltes",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Les Invalides",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q207958",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Joseph Joffre.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Joffre.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Joffre.jpg"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Üstün Hizmet Madalyası, Liyakat Nişanı. Görev: başkan yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alois Hitler",
+  "dogum_tarihi": "1837-06-07",
+  "vefat_tarihi": "1903-01-03",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Strones",
+  "vefat_yeri": "Linz",
+  "defin_yeri": "Leonding",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q78500",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Alois Hitler.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Reinegger, Josef [photographer] (born 1833)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alois_Hitler.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alois_Hitler.jpeg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: memur",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joseph Wirth",
+  "dogum_tarihi": "1879-09-06",
+  "vefat_tarihi": "1956-01-03",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Freiburg im Breisgau",
+  "vefat_yeri": "Freiburg im Breisgau",
+  "defin_yeri": "Hauptfriedhof Freiburg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60150",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 146III-105, Joseph Wirth.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146III-105%2C_Joseph_Wirth.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146III-105%2C_Joseph_Wirth.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Dışişleri Bakanı, Almanya Şansölyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jack Ruby",
+  "dogum_tarihi": "1911-04-25",
+  "vefat_tarihi": "1967-01-03",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Parkland Memorial Hospital",
+  "defin_yeri": "Westlawn Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q192519",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Jack Ruby 1963 Mugshot Extracted (3x4 cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Uncredited police photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack_Ruby_1963_Mugshot_Extracted_%283x4_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jack_Ruby_1963_Mugshot_Extracted_%283x4_cropped%29.jpg"
+  },
+  "meslek": [
+   "İş insanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Monique Wittig",
+  "dogum_tarihi": "1935-07-13",
+  "vefat_tarihi": "2003-01-03",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Dannemarie",
+  "vefat_yeri": "Tucson",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q263201",
+  "sitelink": 50,
+  "fotograf": {
+   "dosya": "Monique Wittig (ph. Colette Geoffrey) (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Succession littéraire de Monique Wittig",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monique_Wittig_%28ph._Colette_Geoffrey%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Monique_Wittig_%28ph._Colette_Geoffrey%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Médicis Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wilhelm Cuno",
+  "dogum_tarihi": "1876-07-02",
+  "vefat_tarihi": "1933-01-03",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Suhl",
+  "vefat_yeri": "Aumühle",
+  "defin_yeri": "Ohlsdorf Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q77179",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-2002-0625-505, Dr. Wilhelm Cuno (cropped).jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-2002-0625-505%2C_Dr._Wilhelm_Cuno_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-2002-0625-505%2C_Dr._Wilhelm_Cuno_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Almanya Şansölyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edgar Cayce",
+  "dogum_tarihi": "1877-03-18",
+  "vefat_tarihi": "1945-01-03",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Hopkinsville",
+  "vefat_yeri": "Virginia Beach",
+  "defin_yeri": "Riverside Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q310920",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Cayce 1910.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cayce_1910.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cayce_1910.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pat Hingle",
+  "dogum_tarihi": "1924-07-19",
+  "vefat_tarihi": "2009-01-03",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Miami",
+  "vefat_yeri": "Carolina Beach",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q165283",
+  "sitelink": 47,
+  "fotograf": {
+   "dosya": "Pat Hingle (4443330082 724d5a94a0 z).jpg",
+   "lisans": "Public domain",
+   "yazar": "General Electric",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat_Hingle_%284443330082_724d5a94a0_z%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pat_Hingle_%284443330082_724d5a94a0_z%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

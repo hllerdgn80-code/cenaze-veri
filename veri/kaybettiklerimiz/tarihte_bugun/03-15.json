@@ -1,0 +1,337 @@
+[
+ {
+  "ad": "Aytaç Yalman",
+  "dogum_tarihi": "1940-07-29",
+  "vefat_tarihi": "2020-03-15",
+  "vefat_yasi": 79,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6089269",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mahmud Muhtar Paşa",
+  "dogum_tarihi": "1867-12-01",
+  "vefat_tarihi": "1935-03-15",
+  "vefat_yasi": 67,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İskenderiye",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q509004",
+  "sitelink": 11,
+  "fotograf": {
+   "dosya": "Mahmud Muhtar Pasha.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sir Edwin Pears",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahmud_Muhtar_Pasha.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mahmud_Muhtar_Pasha.jpg"
+  },
+  "meslek": [
+   "Asker"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Osmanlı Bahriye Nazırlığı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Howard Phillips Lovecraft",
+  "dogum_tarihi": "1890-08-20",
+  "vefat_tarihi": "1937-03-15",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Providence",
+  "vefat_yeri": "Providence",
+  "defin_yeri": "Swan Point Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q169566",
+  "sitelink": 117,
+  "fotograf": {
+   "dosya": "H. P. Lovecraft, June 1934.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lucius B. Truesdell",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/H._P._Lovecraft%2C_June_1934.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:H._P._Lovecraft%2C_June_1934.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Deliliğin Dağlarında”, “Bilinmeyen Kadath'a Düş Yolculuğu”, “Uyku Duvarının Ötesinde”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Büyük Gregorius",
+  "dogum_tarihi": "0540",
+  "vefat_tarihi": "0604-03-15",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q42827",
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "Pope Gregory I illustration.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Gregory_I_illustration.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Gregory_I_illustration.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arthur Compton",
+  "dogum_tarihi": "1892-09-10",
+  "vefat_tarihi": "1962-03-15",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Wooster",
+  "vefat_yeri": "Berkeley",
+  "defin_yeri": "Wooster Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q127944",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Arthur Compton 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Compton_1927.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Compton_1927.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aristoteles Onassis",
+  "dogum_tarihi": "1906-01-15",
+  "vefat_tarihi": "1975-03-15",
+  "vefat_yasi": 69,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "Neuilly-sur-Seine",
+  "defin_yeri": "Skorpiyo",
+  "defin_il": null,
+  "defin_ulke": "Yunanistan",
+  "wikidata_id": "Q180455",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Aristotle Onassis 1967cr.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Pieter Jongerhuis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristotle_Onassis_1967cr.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aristotle_Onassis_1967cr.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hans-Georg Gadamer",
+  "dogum_tarihi": "1900-02-11",
+  "vefat_tarihi": "2002-03-13",
+  "vefat_yasi": 102,
+  "dogum_yeri": "Marburg",
+  "vefat_yeri": "Heidelberg",
+  "defin_yeri": "Heidelberg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76356",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Hans Gadamer.png",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Oto Vega Ponce",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Gadamer.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Gadamer.png"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nikolay Buharin",
+  "dogum_tarihi": "1888-10-09",
+  "vefat_tarihi": "1938-03-15",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Kommunarka shooting ground",
+  "defin_yeri": "Kommunarka shooting ground",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q186709",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Bucharin.bra.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bucharin.bra.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bucharin.bra.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Belisarius",
+  "dogum_tarihi": "0505",
+  "vefat_tarihi": "0565-03-15",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sapareva Banya",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q174943",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Meister von San Vitale in Ravenna 013.jpg",
+   "lisans": "Public domain",
+   "yazar": "Meister von San Vitale in Ravenna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meister_von_San_Vitale_in_Ravenna_013.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meister_von_San_Vitale_in_Ravenna_013.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: strategos, Romalı konsül",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Caelestinus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1144-03-15",
+  "vefat_yasi": null,
+  "dogum_yeri": "Città di Castello",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Giovanni in Laterano Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q171144",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Papa Celestino II.png",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Celestino_II.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Papa_Celestino_II.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Cao Cao",
+  "dogum_tarihi": "0155",
+  "vefat_tarihi": "0220",
+  "vefat_yasi": 65,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Buzhou",
+  "vefat_yeri": "Luoyang",
+  "defin_yeri": "Cao Cao Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q204077",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Cao Cao scth.jpg",
+   "lisans": "Public domain",
+   "yazar": "Wang Qi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cao_Cao_scth.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cao_Cao_scth.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Victor Vasarely",
+  "dogum_tarihi": "1906-04-09",
+  "vefat_tarihi": "1997-03-15",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Macaristan",
+  "vefat_yeri": "16. arrondissement",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q154448",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Victor Vasarely.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Vasarely.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Victor_Vasarely.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,328 @@
+[
+ {
+  "ad": "Kadir Mısıroğlu",
+  "dogum_tarihi": "1933-01-24",
+  "vefat_tarihi": "2019-05-05",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Akçaabat",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Üsküdar",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q3626505",
+  "sitelink": 17,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Atıf Yılmaz",
+  "dogum_tarihi": "1925-12-09",
+  "vefat_tarihi": "2006-05-05",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Mersin",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q758354",
+  "sitelink": 14,
+  "fotograf": null,
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Romalı Perihan",
+  "dogum_tarihi": "1942-03-18",
+  "vefat_tarihi": "2016-05-05",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Ayazağa Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q7361560",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "Romalı Perihan (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "R. Mussolini",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Romal%C4%B1_Perihan_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Romal%C4%B1_Perihan_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Napolyon Bonapart",
+  "dogum_tarihi": "1769-08-15",
+  "vefat_tarihi": "1821-05-05",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Ajaccio",
+  "vefat_yeri": "Longwood House",
+  "defin_yeri": "Cathédrale Saint-Louis-des-Invalides",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q517",
+  "sitelink": 287,
+  "fotograf": {
+   "dosya": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacques-Louis David",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kızıl Kartal Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anselme de Cantorbéry",
+  "dogum_tarihi": "1033",
+  "vefat_tarihi": "1109-05-05",
+  "vefat_yasi": 76,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Aosta",
+  "vefat_yeri": "Canterbury",
+  "defin_yeri": "Canterbury Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q43939",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Anselm-CanterburyVit.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown, English",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anselm-CanterburyVit.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anselm-CanterburyVit.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Proslogion”, “Cur Deus homo/Geleceği Görme, İlahi Takdir ve Tanrı'nın İnayeti ile Özgür İradenin Uyumu Üzerine”, “Monologion”. Görev: başrahip",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ludwig Erhard",
+  "dogum_tarihi": "1897-02-04",
+  "vefat_tarihi": "1977-05-05",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Fürth",
+  "vefat_yeri": "Bonn",
+  "defin_yeri": "Gmund am Tegernsee",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2496",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "Bundesarchiv B 145 Bild-F004204-0003, Ludwig Erhard mit seinem Buch.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Adrian, Doris",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_B_145_Bild-F004204-0003%2C_Ludwig_Erhard_mit_seinem_Buch.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F004204-0003%2C_Ludwig_Erhard_mit_seinem_Buch.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı, Büyük Katolik Isabel Nişanı. Görev: Bundestag üyesi, Almanya Federal Cumhuriyeti Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mihail Botvinnik",
+  "dogum_tarihi": "1911-08-17",
+  "vefat_tarihi": "1995-05-05",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Repino",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q178865",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Mikhail Botvinnik 1962.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Harry Pot for Anefo ]]",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail_Botvinnik_1962.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mikhail_Botvinnik_1962.jpg"
+  },
+  "meslek": [
+   "Satranç oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Kızıl Bayrak İşçi Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Katerina",
+  "dogum_tarihi": "1684-04-15",
+  "vefat_tarihi": "1727-05-17",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Krustpils",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Peter ve Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q15208",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Catherine I of Russia by Nattier.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jean-Marc Nattier",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Catherine_I_of_Russia_by_Nattier.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Catherine_I_of_Russia_by_Nattier.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Kutsal Aleksandr Nevski Nişanı. Görev: Rusya imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Leopold",
+  "dogum_tarihi": "1640-06-09",
+  "vefat_tarihi": "1705-05-05",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Imperial Crypt",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q150494",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Benjamin von Block 001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Benjamin Block",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benjamin_von_Block_001.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Benjamin_von_Block_001.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Elektör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Peter Gustav Lejeune Dirichlet",
+  "dogum_tarihi": "1805-02-13",
+  "vefat_tarihi": "1859-05-05",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Düren",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Bartholomäusfriedhof, Göttingen",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q29193",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Dirichlet.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dirichlet.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dirichlet.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Umaru Musa Yar'Adua",
+  "dogum_tarihi": "1951-08-16",
+  "vefat_tarihi": "2010-05-05",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Katsina",
+  "vefat_yeri": "Nigerian Presidential Complex",
+  "defin_yeri": "Katsina Eyaleti",
+  "defin_il": null,
+  "defin_ulke": "Nijerya",
+  "wikidata_id": "Q104705",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Umaruyaradua07052007.jpg",
+   "lisans": "CC BY 3.0 br",
+   "yazar": "Marcello Casal Jr./ABr",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umaruyaradua07052007.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Umaruyaradua07052007.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Galerius",
+  "dogum_tarihi": "0258",
+  "vefat_tarihi": "0311-05-05",
+  "vefat_yasi": 53,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Daçya",
+  "vefat_yeri": "Serdica",
+  "defin_yeri": "Sofya",
+  "defin_il": null,
+  "defin_ulke": "Bulgaristan",
+  "wikidata_id": "Q172168",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Romuliana Galerius head.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Shinjirod",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Romuliana_Galerius_head.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Romuliana_Galerius_head.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Roma imparatoru",
+  "hassas": false,
+  "turk": false
+ }
+]

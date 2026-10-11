@@ -1,0 +1,316 @@
+[
+ {
+  "ad": "İlhan Berk",
+  "dogum_tarihi": "1918-11-18",
+  "vefat_tarihi": "2008-08-28",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Manisa",
+  "vefat_yeri": "Bodrum",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q343590",
+  "sitelink": 16,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sedat Simavi Ödülleri, Necatigil Şiir Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "V. Harald",
+  "dogum_tarihi": "1937-02-21",
+  "vefat_tarihi": "2026-08-28",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Skaugum",
+  "vefat_yeri": "Rikshospitalet",
+  "defin_yeri": "Royal Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Norveç",
+  "wikidata_id": "Q57287",
+  "sitelink": 107,
+  "fotograf": {
+   "dosya": "Kong Harald åpner Sametinget 1993 (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Harry Johansen / Sámediggi Sametinget",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kong_Harald_%C3%A5pner_Sametinget_1993_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kong_Harald_%C3%A5pner_Sametinget_1993_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Avis Liyakat Nişanı. Görev: veliaht, Norveç kralı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Alexander",
+  "dogum_tarihi": "1431-01-10",
+  "vefat_tarihi": "1503-08-28",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Xàtiva",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria in Monserrato degli Spagnoli Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q108316",
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "Portrait of Pope Alexander VI Borgia (Vatican Museums - Musei Vaticani, Vatican).jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Pedro Berruguete",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Alexander_VI_Borgia_%28Vatican_Museums_-_Musei_Vaticani%2C_Vatican%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pope_Alexander_VI_Borgia_%28Vatican_Museums_-_Musei_Vaticani%2C_Vatican%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başrahip, Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hugo Grotius",
+  "dogum_tarihi": "1583-04-10",
+  "vefat_tarihi": "1645-08-28",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Delft",
+  "vefat_yeri": "Rostock",
+  "defin_yeri": "Nieuwe Kerk Delft",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q154959",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "Portret van Hugo de Groot (1583-1645) Rijksmuseum SK-A-581.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Workshop of Michiel Jansz. van Mierevelt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portret_van_Hugo_de_Groot_%281583-1645%29_Rijksmuseum_SK-A-581.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portret_van_Hugo_de_Groot_%281583-1645%29_Rijksmuseum_SK-A-581.jpeg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Paulus",
+  "dogum_tarihi": "1476-07-07",
+  "vefat_tarihi": "1559-08-28",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Capriglia Irpina",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria sopra Minerva Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q101430",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Pope Paul IV – Jacopino Conte (Manner), ca. 1560.jpg",
+   "lisans": "Public domain",
+   "yazar": "Manner of Jacopino del Conte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Paul_IV_%E2%80%93_Jacopino_Conte_%28Manner%29%2C_ca._1560.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Paul_IV_%E2%80%93_Jacopino_Conte_%28Manner%29%2C_ca._1560.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, Napoli Roma Katolik başpiskoposu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Chadwick Boseman",
+  "dogum_tarihi": "1976-11-29",
+  "vefat_tarihi": "2020-08-28",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Anderson",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Forest Lawn Memorial Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q5066520",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Chadwick Boseman by Gage Skidmore July 2017 (cropped).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Gage Skidmore",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chadwick_Boseman_by_Gage_Skidmore_July_2017_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Michael Ende",
+  "dogum_tarihi": "1929-11-12",
+  "vefat_tarihi": "1995-08-28",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Garmisch-Partenkirchen",
+  "vefat_yeri": "Filderklinik",
+  "defin_yeri": "Munich Waldfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76498",
+  "sitelink": 73,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı-söz yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Jim Button ve Makinist Luke”, “Bitmeyecek Öykü”, “Momo”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Huston",
+  "dogum_tarihi": "1906-08-05",
+  "vefat_tarihi": "1987-08-28",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Nevada",
+  "vefat_yeri": "Middletown",
+  "defin_yeri": "Hollywood Forever Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q51575",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "John Huston 1979.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author, distributed by: Embassy Pictures",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Huston_1979.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Huston_1979.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü. Önemli eserleri: “Casino Royale”, “İguananın Gecesi”, “Malta Şahini”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Étienne de La Boétie",
+  "dogum_tarihi": "1530-11-11",
+  "vefat_tarihi": "1563-08-28",
+  "vefat_yasi": 32,
+  "dogum_yeri": "Sarlat-la-Canéda",
+  "vefat_yeri": "Le Taillan-Médoc",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q290227",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Statue d'Étienne de La Boétie.JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Tommy-Boy",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_d%27%C3%89tienne_de_La_Bo%C3%A9tie.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Statue_d%27%C3%89tienne_de_La_Bo%C3%A9tie.JPG"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Gönüllü Kulluk Üzerine Söylev”. Görev: hâkim",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Melvin Schwartz",
+  "dogum_tarihi": "1932-11-02",
+  "vefat_tarihi": "2006-08-28",
+  "vefat_yasi": 73,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Twin Falls",
+  "defin_yeri": "Ketchum Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q189741",
+  "sitelink": 65,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Muhammed Necib",
+  "dogum_tarihi": "1901-02-20",
+  "vefat_tarihi": "1984-08-28",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Hartum",
+  "vefat_yeri": "Kahire",
+  "defin_yeri": "Tombs of the martyrs of the Armed Forces",
+  "defin_il": null,
+  "defin_ulke": "Mısır",
+  "wikidata_id": "Q104392",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Mohamed Naguib1952.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ashkroft Bombai",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohamed_Naguib1952.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mohamed_Naguib1952.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başbakan, savunma bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Boris",
+  "dogum_tarihi": "1894-01-30",
+  "vefat_tarihi": "1943-08-28",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Sofya",
+  "vefat_yeri": "Sofya",
+  "defin_yeri": "Rila Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Bulgaristan",
+  "wikidata_id": "Q159585",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "BASA-3K-7-342-28-Boris III of Bulgaria.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Dimitar Karastoyanov",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BASA-3K-7-342-28-Boris_III_of_Bulgaria.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:BASA-3K-7-342-28-Boris_III_of_Bulgaria.jpeg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Beyaz Kartal Nişanı",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,10 +1,10 @@
 {
- "uretim_tarihi": "2026-10-08T07:54:48",
+ "uretim_tarihi": "2026-10-11T07:41:31",
  "kaynak": "Wikidata (CC0)",
  "sayilar": {
   "cumhurbaskanlari": 9,
   "basbakanlar": 18,
-  "bakanlar": 253,
+  "bakanlar": 316,
   "siyasetciler": 500,
   "sanatcilar": 1000,
   "tarihte_bugun": 4388
@@ -19,7 +19,7 @@
    ]
   },
   "c_teror_orgutu": {
-   "adet": 26,
+   "adet": 25,
    "ornek": [
     "İbrahim Kaypakkaya",
     "Mazlum Doğan",
@@ -43,5 +43,5 @@
    ]
   }
  },
- "elenen_toplam": 130
+ "elenen_toplam": 129
 }

@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "Şehzade Ertuğrul Osman",
+  "dogum_tarihi": "1912-08-18",
+  "vefat_tarihi": "2009-09-23",
+  "vefat_yasi": 97,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "II. Mahmud Türbesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q311164",
+  "sitelink": 32,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Latife Bekir Çeyrekbaşı",
+  "dogum_tarihi": "1901",
+  "vefat_tarihi": "1952-09-23",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q111187606",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Portrait of Latife Bekir Çeyrekbaşı.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Latife_Bekir_%C3%87eyrekba%C5%9F%C4%B1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Latife_Bekir_%C3%87eyrekba%C5%9F%C4%B1.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Sigmund Freud",
+  "dogum_tarihi": "1856-05-06",
+  "vefat_tarihi": "1939-09-23",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Příbor",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Golders Green Crematorium",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q9215",
+  "sitelink": 253,
+  "fotograf": {
+   "dosya": "Sigmund Freud, by Max Halberstadt (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Max Halberstadt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Deneme yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Düşlerin Yorumu”, “Totem ve Tabu”, “id, ego ve süperego”. Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pablo Neruda",
+  "dogum_tarihi": "1904-07-12",
+  "vefat_tarihi": "1973-09-23",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Parral, Şili",
+  "vefat_yeri": "Santiago",
+  "defin_yeri": "Isla Negra",
+  "defin_il": null,
+  "defin_ulke": "Şili",
+  "wikidata_id": "Q34189",
+  "sitelink": 167,
+  "fotograf": {
+   "dosya": "Pablo Neruda 1963.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Neruda_1963.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_1963.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Shaka Zulu",
+  "dogum_tarihi": "1787-07",
+  "vefat_tarihi": "1828-09-22",
+  "vefat_yasi": 41,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Mthethwa Paramountcy",
+  "vefat_yeri": "Stanger",
+  "defin_yeri": "Nonya",
+  "defin_il": null,
+  "defin_ulke": "Burundi",
+  "wikidata_id": "Q27695",
+  "sitelink": 100,
+  "fotograf": {
+   "dosya": "KingShaka.jpg",
+   "lisans": "Public domain",
+   "yazar": "James King",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KingShaka.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:KingShaka.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kral",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Prosper Mérimée",
+  "dogum_tarihi": "1803-09-28",
+  "vefat_tarihi": "1870-09-23",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Cannes",
+  "defin_yeri": "Cannes (Grand Jas) Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q160333",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Проспер Мериме.jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles Reutlinger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D1%80_%D0%9C%D0%B5%D1%80%D0%B8%D0%BC%D0%B5.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D1%80_%D0%9C%D0%B5%D1%80%D0%B8%D0%BC%D0%B5.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Carmen”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claudia Cardinale",
+  "dogum_tarihi": "1938-04-15",
+  "vefat_tarihi": "2025-09-23",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Halkü'l-Vadi",
+  "vefat_yeri": "Nemours",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q107006",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Claudia Cardinale (1960 hq).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claudia_Cardinale_%281960_hq%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Claudia_Cardinale_%281960_hq%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sanat ve Edebiyat Nişanı, Altın Ayı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles K. Kao",
+  "dogum_tarihi": "1933-11-04",
+  "vefat_tarihi": "2018-09-23",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Şanghay",
+  "vefat_yeri": "Bradbury Hospice",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q16389",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Charles K. Kao cropped 2.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "David Dobkin [1]",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_K._Kao_cropped_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_K._Kao_cropped_2.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Urbain Le Verrier",
+  "dogum_tarihi": "1811-03-11",
+  "vefat_tarihi": "1877-09-23",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Saint-Lô",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q104154",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Urbain Le Verrier.jpg",
+   "lisans": "Public domain",
+   "yazar": "User Magnus Manske on en.wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urbain_Le_Verrier.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Urbain_Le_Verrier.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası. Önemli eserleri: “Neptün'ün keşfi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrea Mantegna",
+  "dogum_tarihi": "1431",
+  "vefat_tarihi": "1506-09-23",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Isola Mantegna",
+  "vefat_yeri": "Mantova",
+  "defin_yeri": "Basilica di Sant'Andrea",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q5681",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Andrea Mantegna 049 detail possible self-portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Andrea Mantegna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea_Mantegna_049_detail_possible_self-portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrea_Mantegna_049_detail_possible_self-portrait.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Camera degli Sposi”, “Aziz Markos”, “Meryem'in Ölümü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard Adolf Zsigmondy",
+  "dogum_tarihi": "1865-04-01",
+  "vefat_tarihi": "1929-09-23",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Göttingen City Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q78481",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Richard Adolf Zsigmondy LOC.jpg",
+   "lisans": "Public domain",
+   "yazar": "Walter Gircke",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Adolf_Zsigmondy_LOC.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_Adolf_Zsigmondy_LOC.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Friedrich Wöhler",
+  "dogum_tarihi": "1800-07-31",
+  "vefat_tarihi": "1882-09-23",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Eschersheim",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Göttingen City Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q58575",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Friedrich Wöhler Litho.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rudolph Hoffmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_W%C3%B6hler_Litho.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_W%C3%B6hler_Litho.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası",
+  "hassas": false,
+  "turk": false
+ }
+]

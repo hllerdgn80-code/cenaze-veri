@@ -1,0 +1,337 @@
+[
+ {
+  "ad": "Nasuhi Ertegün",
+  "dogum_tarihi": "1917-11-26",
+  "vefat_tarihi": "1989-04-15",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q710748",
+  "sitelink": 11,
+  "fotograf": {
+   "dosya": "Nesuhi Ertegun (Gottlieb) 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "William P. Gottlieb",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nesuhi_Ertegun_%28Gottlieb%29_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nesuhi_Ertegun_%28Gottlieb%29_1.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Rock and Roll Hall of Fame, Grammy Trustees Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Emin Bektóre",
+  "dogum_tarihi": "1906",
+  "vefat_tarihi": "1995-04-15",
+  "vefat_yasi": 89,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hacıoğlupazarcığı",
+  "vefat_yeri": "Eskişehir",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q17626485",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Söz yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Abraham Lincoln",
+  "dogum_tarihi": "1809-02-12",
+  "vefat_tarihi": "1865-04-15",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Sinking Spring Farm",
+  "vefat_yeri": "Petersen House",
+  "defin_yeri": "Lincoln Tomb",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q91",
+  "sitelink": 296,
+  "fotograf": {
+   "dosya": "Abraham Lincoln O-77 matte collodion print.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alexander Gardner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Gettysburg Konuşması”. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "shot to the head"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Jean-Paul Sartre",
+  "dogum_tarihi": "1905-06-21",
+  "vefat_tarihi": "1980-04-15",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "14. arrondissement",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q9364",
+  "sitelink": 201,
+  "fotograf": {
+   "dosya": "Flickr - Government Press Office (GPO) - Jean Paul Sartre and Simone De Beauvoir welcomed by Avraham Shlonsky and Leah Goldberg (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Moshe Milner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_Government_Press_Office_%28GPO%29_-_Jean_Paul_Sartre_and_Simone_De_Beauvoir_welcomed_by_Avraham_Shlonsky_and_Leah_Goldberg_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_%28GPO%29_-_Jean_Paul_Sartre_and_Simone_De_Beauvoir_welcomed_by_Avraham_Shlonsky_and_Leah_Goldberg_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Greta Garbo",
+  "dogum_tarihi": "1905-09-18",
+  "vefat_tarihi": "1990-04-15",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Katarina church parish",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Skogskyrkogården",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q5443",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Garbo in Inspiration.jpg",
+   "lisans": "Public domain",
+   "yazar": "Metro-Goldwyn-Mayer (work for hire)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garbo_in_Inspiration.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Garbo_in_Inspiration.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mihail Lomonosov",
+  "dogum_tarihi": "1711-11-19",
+  "vefat_tarihi": "1765-04-15",
+  "vefat_yasi": 53,
+  "dogum_yeri": "Mishaninskaya",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Lazarev Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q58720",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "M.V. Lomonosov by L.Miropolskiy after G.C.Prenner (1787, RAN).jpg",
+   "lisans": "Public domain",
+   "yazar": "After Georg Caspar Prenner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_%281787%2C_RAN%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:M.V._Lomonosov_by_L.Miropolskiy_after_G.C.Prenner_%281787%2C_RAN%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Musil",
+  "dogum_tarihi": "1880-11-06",
+  "vefat_tarihi": "1942-04-15",
+  "vefat_yasi": 61,
+  "dogum_yeri": "St. Ruprecht",
+  "vefat_yeri": "Cenevre",
+  "defin_yeri": "Cemetery of Kings",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q78487",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "Musil.jpg",
+   "lisans": "Public domain",
+   "yazar": "не указан в источнике",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Musil.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Musil.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Niteliksiz Adam”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Matthew Arnold",
+  "dogum_tarihi": "1822-12-24",
+  "vefat_tarihi": "1888-04-15",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Laleham",
+  "vefat_yeri": "Liverpool",
+  "defin_yeri": "Church of All Saints",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q271032",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Matthew Arnold - Project Gutenberg eText 16745.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthew_Arnold_-_Project_Gutenberg_eText_16745.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Matthew_Arnold_-_Project_Gutenberg_eText_16745.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Madame de Pompadour",
+  "dogum_tarihi": "1721-12-29",
+  "vefat_tarihi": "1764-04-15",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Versailles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q188965",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Jeanne-Antoinette Poisson, Marquise de Pompadour (1721-1764), by François-Hubert Drouais.jpg",
+   "lisans": "Public domain",
+   "yazar": "François-Hubert Drouais",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeanne-Antoinette_Poisson%2C_Marquise_de_Pompadour_%281721-1764%29%2C_by_Fran%C3%A7ois-Hubert_Drouais.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jeanne-Antoinette_Poisson%2C_Marquise_de_Pompadour_%281721-1764%29%2C_by_Fran%C3%A7ois-Hubert_Drouais.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "César Vallejo",
+  "dogum_tarihi": "1892-03-16",
+  "vefat_tarihi": "1938-04-15",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Santiago de Chuco",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q222744",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Cesar Vallejo (1930) - Restored.jpg",
+   "lisans": "Public domain",
+   "yazar": "Prefecture of Police of Paris",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesar_Vallejo_%281930%29_-_Restored.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cesar_Vallejo_%281930%29_-_Restored.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Genet",
+  "dogum_tarihi": "1910-12-19",
+  "vefat_tarihi": "1986-04-14",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Larache",
+  "defin_il": null,
+  "defin_ulke": "Fas",
+  "wikidata_id": "Q184622",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "JeanGenet-HansKoechler1983-cropped.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "International Progress Organization",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JeanGenet-HansKoechler1983-cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JeanGenet-HansKoechler1983-cropped.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Yannis Komnenos",
+  "dogum_tarihi": "1087-09-19",
+  "vefat_tarihi": "1143-04-15",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Kilikya",
+  "defin_yeri": "Zeyrek Camii",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q41628",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Jean II Comnene.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_II_Comnene.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_II_Comnene.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
+  "hassas": false,
+  "turk": false
+ }
+]

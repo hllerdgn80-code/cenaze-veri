@@ -1,0 +1,340 @@
+[
+ {
+  "ad": "Rajiv Gandhi",
+  "dogum_tarihi": "1944-08-20",
+  "vefat_tarihi": "1991-05-21",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Mumbai",
+  "vefat_yeri": "Sriperumbudur",
+  "defin_yeri": "Raj Ghat and associated memorials",
+  "defin_il": null,
+  "defin_ulke": "Hindistan",
+  "wikidata_id": "Q4593",
+  "sitelink": 108,
+  "fotograf": {
+   "dosya": "Rajiv Gandhi (1987).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Bart Molendijk / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rajiv_Gandhi_%281987%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_%281987%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "James Franck",
+  "dogum_tarihi": "1882-08-26",
+  "vefat_tarihi": "1964-05-21",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Hamburg",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Oak Woods Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q57066",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "James Franck.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Franck.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Franck.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Carl Wilhelm Scheele",
+  "dogum_tarihi": "1742-12-09",
+  "vefat_tarihi": "1786-05-21",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Stralsund",
+  "vefat_yeri": "Köping",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q70538",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Carl Wilhelm Scheele.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Wilhelm_Scheele.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Wilhelm_Scheele.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tommaso Campanella",
+  "dogum_tarihi": "1568-09-14",
+  "vefat_tarihi": "1639-05-21",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Stilo",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q191850",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Cozza Tommaso Campanella.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francesco Cozza",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cozza_Tommaso_Campanella.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cozza_Tommaso_Campanella.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Güneş Ülkesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hernando de Soto",
+  "dogum_tarihi": "1500",
+  "vefat_tarihi": "1542-05-21",
+  "vefat_yasi": 42,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Jerez de los Caballeros",
+  "vefat_yeri": "Guachoya",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q60040",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "De Soto by Telfer & Sartain.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Sartain",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/De_Soto_by_Telfer_%26_Sartain.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:De_Soto_by_Telfer_%26_Sartain.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Otto von Guericke",
+  "dogum_tarihi": "1602-11-30",
+  "vefat_tarihi": "1686-05-21",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Magdeburg",
+  "vefat_yeri": "Hamburg",
+  "defin_yeri": "Magdeburg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60095",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Otto von Guericke portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Anselm van Hulle, 1601-1674",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_von_Guericke_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_von_Guericke_portrait.jpg"
+  },
+  "meslek": [
+   "Enstrüman üreticisi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: belediye başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "İvan Konev",
+  "dogum_tarihi": "1897-12-28",
+  "vefat_tarihi": "1973-05-21",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Lodeyno",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Kremlin Duvarı Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q185024",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Ivan Stepanovich Konev.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan_Stepanovich_Konev.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ivan_Stepanovich_Konev.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, \"Sovyet Ordusu ve Donanmasının 30 Yılı\" Jübile Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Klaus Mann",
+  "dogum_tarihi": "1906-11-18",
+  "vefat_tarihi": "1949-05-21",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Münih",
+  "vefat_yeri": "Cannes",
+  "defin_yeri": "Cannes (Grand Jas) Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q77087",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Klaus Mann 1944.jpg",
+   "lisans": "Public domain",
+   "yazar": "United States 5th Army",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Klaus_Mann_1944.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Klaus_Mann_1944.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Barbara Cartland",
+  "dogum_tarihi": "1901-07-09",
+  "vefat_tarihi": "2000-05-21",
+  "vefat_yasi": 98,
+  "dogum_yeri": "Edgbaston",
+  "vefat_yeri": "Hatfield, Hertfordshire",
+  "defin_yeri": "Hertfordshire",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q235965",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Dame Barbara Cartland Allan Warren.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Allan warren",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dame_Barbara_Cartland_Allan_Warren.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dame_Barbara_Cartland_Allan_Warren.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Gielgud",
+  "dogum_tarihi": "1904-04-14",
+  "vefat_tarihi": "2000-05-21",
+  "vefat_yasi": 96,
+  "dogum_yeri": "South Kensington",
+  "vefat_yeri": "Wotton House",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q204685",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "John Gielgud - 1953.jpg",
+   "lisans": "Public domain",
+   "yazar": "MGM",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Gielgud_-_1953.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Gielgud_-_1953.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oliver E. Williamson",
+  "dogum_tarihi": "1932-09-27",
+  "vefat_tarihi": "2020-05-21",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Superior",
+  "vefat_yeri": "Berkeley",
+  "defin_yeri": "Greenwood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q232062",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Nobel Prize 2009-Press Conference KVA-42.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Prolineserver (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nobel_Prize_2009-Press_Conference_KVA-42.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2009-Press_Conference_KVA-42.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hugo de Vries",
+  "dogum_tarihi": "1848-02-16",
+  "vefat_tarihi": "1935-05-21",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Haarlem",
+  "vefat_yeri": "Lunteren",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q160192",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Hugo de Vries.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hugo_de_Vries.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hugo_de_Vries.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Darwin Madalyası. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ }
+]

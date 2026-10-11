@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Mehmet Emin Toprak",
+  "dogum_tarihi": "1974-09-11",
+  "vefat_tarihi": "2002-12-02",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Yenice",
+  "vefat_yeri": "Çan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q130164",
+  "sitelink": 15,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Valéry Giscard d'Estaing",
+  "dogum_tarihi": "1926-02-02",
+  "vefat_tarihi": "2020-12-02",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Koblenz",
+  "vefat_yeri": "Authon",
+  "defin_yeri": "Authon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q2124",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Valéry Giscard d'Estaing (1975).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Christian Lambiotte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Nansen Mülteci Ödülü, Büyük Katolik Isabel Nişanı. Görev: Fransa Cumhurbaşkanı, Avrupa Parlamentosu milletvekilliği",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pablo Escobar",
+  "dogum_tarihi": "1949-12-01",
+  "vefat_tarihi": "1993-12-02",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Rionegro",
+  "vefat_yeri": "Medellín",
+  "defin_yeri": "Medellín",
+  "defin_il": null,
+  "defin_ulke": "Kolombiya",
+  "wikidata_id": "Q187447",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Pablo Escobar Mug.jpg",
+   "lisans": "Public domain",
+   "yazar": "Colombian National Police",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo_Escobar_Mug.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pablo_Escobar_Mug.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: yönetici",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Marquis de Sade",
+  "dogum_tarihi": "1740-06-02",
+  "vefat_tarihi": "1814-12-02",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Charenton asylum",
+  "defin_yeri": "Charenton asylum",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q123867",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Marquis de sade.jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles-Amédée-Philippe van Loo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marquis_de_sade.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marquis_de_sade.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Sodom'un 120 Günü”, “Justine”, “Juliette”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Gregorius",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0741-12-02",
+  "vefat_yasi": null,
+  "dogum_yeri": "ancient Syria",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q103268",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "178-7866 IMG - Gregorius III AV.png",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "ASKI",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/178-7866_IMG_-_Gregorius_III_AV.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:178-7866_IMG_-_Gregorius_III_AV.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Henry",
+  "dogum_tarihi": "1068",
+  "vefat_tarihi": "1135-12-08",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Selby",
+  "vefat_yeri": "Lyons-la-Forêt",
+  "defin_yeri": "Port-du-Salut Abbey",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q101384",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Henry1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Matthew Paris",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henry1.jpg"
+  },
+  "meslek": [
+   "Kral"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gerardus Mercator",
+  "dogum_tarihi": "1512-03-15",
+  "vefat_tarihi": "1594-12-02",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Rupelmonde",
+  "vefat_yeri": "Duisburg",
+  "defin_yeri": "Church of Our Saviour",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q6353",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Gerard Mercator (Cremer). Line engraving by N. de Larmessin, Wellcome V0003979.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nicolas de Larmessin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard_Mercator_%28Cremer%29._Line_engraving_by_N._de_Larmessin%2C_Wellcome_V0003979.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gerard_Mercator_%28Cremer%29._Line_engraving_by_N._de_Larmessin%2C_Wellcome_V0003979.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Merkatör projeksiyonu”, “Chronologia”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Lucius",
+  "dogum_tarihi": "1110",
+  "vefat_tarihi": "1185-12-02",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Lucca",
+  "vefat_yeri": "Verona",
+  "defin_yeri": "Verona Katedrali",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q182474",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Lucius-III.jpg",
+   "lisans": "Public domain",
+   "yazar": "Probably Peter of Eboli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucius-III.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lucius-III.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kliment Voroşilov",
+  "dogum_tarihi": "1881-02-04",
+  "vefat_tarihi": "1969-12-02",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Verkhnee",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Kremlin Duvarı Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q186185",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Russische oud president Worosjilow uit de gratie, Bestanddeelnr 913-1533 (cropped) (c).jpg",
+   "lisans": "CC0",
+   "yazar": "Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russische_oud_president_Worosjilow_uit_de_gratie%2C_Bestanddeelnr_913-1533_%28cropped%29_%28c%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Russische_oud_president_Worosjilow_uit_de_gratie%2C_Bestanddeelnr_913-1533_%28cropped%29_%28c%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Moskova Savunması Madalyası, 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Filippo Tommaso Marinetti",
+  "dogum_tarihi": "1876-12-22",
+  "vefat_tarihi": "1944-12-02",
+  "vefat_yasi": 67,
+  "dogum_yeri": "İskenderiye",
+  "vefat_yeri": "Bellagio",
+  "defin_yeri": "Cimitero Monumentale di Milano",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q216582",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Emilio Sommariva (1883 - 1956) Ritratto di Filippo Tommaso Marinetti, intellettuale futurista (1913).jpg",
+   "lisans": "Public domain",
+   "yazar": "Emilio Sommariva",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emilio_Sommariva_%281883_-_1956%29_Ritratto_di_Filippo_Tommaso_Marinetti%2C_intellettuale_futurista_%281913%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emilio_Sommariva_%281883_-_1956%29_Ritratto_di_Filippo_Tommaso_Marinetti%2C_intellettuale_futurista_%281913%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edmond Rostand",
+  "dogum_tarihi": "1868-04-01",
+  "vefat_tarihi": "1918-12-02",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Marsilya",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Saint Pierre Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q202749",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Edmond Rostand.jpg",
+   "lisans": "Public domain",
+   "yazar": "Léopold-Émile Reutlinger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edmond_Rostand.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edmond_Rostand.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Chantecler”, “Cyrano de Bergerac”. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Romain Gary",
+  "dogum_tarihi": "1914-05-21",
+  "vefat_tarihi": "1980-12-02",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Vilnius",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q157322",
+  "sitelink": 65,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü. Önemli eserleri: “Onca Yoksulluk Varken”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ }
+]

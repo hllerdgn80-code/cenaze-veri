@@ -38,7 +38,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Demokrat Parti Genel Başkanı",
   "hassas": false
  },
  {
@@ -70,25 +70,24 @@
   "hassas": false
  },
  {
-  "ad": "Cahit Karakaş",
-  "dogum_tarihi": "1928",
-  "vefat_tarihi": "2025-09-07",
-  "vefat_yasi": 97,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Bartın",
+  "ad": "Agah Oktay Güner",
+  "dogum_tarihi": "1937-06-21",
+  "vefat_tarihi": "2025-09-08",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Bayburt",
   "vefat_yeri": "Ankara",
-  "defin_yeri": "Devlet Mezarlığı",
+  "defin_yeri": "Karşıyaka Mezarlığı",
   "defin_il": "Ankara",
   "defin_ulke": null,
-  "wikidata_id": "Q1025777",
-  "sitelink": 7,
+  "wikidata_id": "Q6088608",
+  "sitelink": 3,
   "fotograf": null,
   "meslek": [
-   "Mühendis"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -260,7 +259,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Koza En İyi Senaryo Ödülü. Görev: Türkiye Büyük Millet Meclisi Başkanvekili, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Ödül: Altın Koza En İyi Senaryo Ödülü. Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye Büyük Millet Meclisi Başkanvekili",
   "hassas": false
  },
  {
@@ -400,27 +399,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Diyanet İşleri Başkanı",
-  "hassas": false
- },
- {
-  "ad": "Vefa Tanır",
-  "dogum_tarihi": "1927-01-01",
-  "vefat_tarihi": "2023-03-10",
-  "vefat_yasi": 96,
-  "dogum_yeri": "Ilgın",
-  "vefat_yeri": "Ankara",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6079576",
-  "sitelink": 4,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
   "hassas": false
  },
  {
@@ -726,7 +704,7 @@
   "dogum_tarihi": "1945-01-08",
   "vefat_tarihi": "2021-02-13",
   "vefat_yasi": 76,
-  "dogum_yeri": "Yusufeli",
+  "dogum_yeri": "Altıparmak",
   "vefat_yeri": "İstanbul",
   "defin_yeri": "Fatih Camii Haziresi",
   "defin_il": "İstanbul",
@@ -863,7 +841,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false
  },
  {
@@ -1052,7 +1030,28 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye Büyük Millet Meclisi Başkanı",
+  "hassas": false
+ },
+ {
+  "ad": "Süleyman Arif Emre",
+  "dogum_tarihi": "1923-07-01",
+  "vefat_tarihi": "2019-07-21",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Besni",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6060638",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -1177,7 +1176,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Devlet bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Devlet bakanı, Diyanet İşleri Başkanı",
   "hassas": false
  },
  {
@@ -1242,6 +1241,28 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Okyanus 20. Yüzyıl Ansiklopedik Türkçe Sözlük”",
+  "hassas": false
+ },
+ {
+  "ad": "Nevzat Yalçıntaş",
+  "dogum_tarihi": "1933",
+  "vefat_tarihi": "2016-07-15",
+  "vefat_yasi": 83,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": null,
+  "defin_yeri": "Topkapı Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6069688",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Ekonomist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -1615,7 +1636,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi vekili, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -1666,17 +1687,17 @@
   ]
  },
  {
-  "ad": "Necdet Menzir",
-  "dogum_tarihi": "1945",
-  "vefat_tarihi": "2013-02-02",
-  "vefat_yasi": 68,
+  "ad": "Kadri Altay",
+  "dogum_tarihi": "1921",
+  "vefat_tarihi": "2013-01-13",
+  "vefat_yasi": 92,
   "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Bursa",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Zincirlikuyu Mezarlığı",
-  "defin_il": "İstanbul",
+  "dogum_yeri": "Kesriye",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
   "defin_ulke": null,
-  "wikidata_id": "Q4561309",
+  "wikidata_id": "Q3647815",
   "sitelink": 3,
   "fotograf": null,
   "meslek": [
@@ -1684,7 +1705,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -1706,27 +1727,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Mükerrem Hiç",
-  "dogum_tarihi": "1929-08-29",
-  "vefat_tarihi": "2012-11-03",
-  "vefat_yasi": 83,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q4683069",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Ekonomist"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: doçent, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -1917,13 +1917,13 @@
   "dogum_tarihi": "1949-03-02",
   "vefat_tarihi": "2010-05-31",
   "vefat_yasi": 61,
-  "dogum_yeri": "Batman",
+  "dogum_yeri": "Beşiri",
   "vefat_yeri": "Gazze Şeridi",
   "defin_yeri": null,
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q343236",
-  "sitelink": 8,
+  "sitelink": 9,
   "fotograf": {
    "dosya": "Bilgen.jpg",
    "lisans": "CC BY-SA 2.0",
@@ -1958,7 +1958,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Batman belediye başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Batman belediye başkanı",
   "hassas": false
  },
  {
@@ -2131,6 +2131,28 @@
   "hassas": false
  },
  {
+  "ad": "Ayvaz Gökdemir",
+  "dogum_tarihi": "1942",
+  "vefat_tarihi": "2008-04-19",
+  "vefat_yasi": 66,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gaziantep",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q4831860",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "İhsan Saraçlar",
   "dogum_tarihi": "1928-06-06",
   "vefat_tarihi": "2008-01-05",
@@ -2203,7 +2225,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ankara belediye başkanı",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Ankara belediye başkanı",
   "hassas": false
  },
  {
@@ -2225,7 +2247,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Ankara belediye başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi vekili, Ankara belediye başkanı",
   "hassas": false
  },
  {
@@ -2312,7 +2334,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false
  },
  {
@@ -2378,49 +2400,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Faik Türün",
-  "dogum_tarihi": "1913-10-17",
-  "vefat_tarihi": "2003-02-15",
-  "vefat_yasi": 89,
-  "dogum_yeri": "Bursa",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Edirnekapı Şehitliği",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6101749",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Gümüş Yıldız. Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Seyfi Öztürk",
-  "dogum_tarihi": "1927",
-  "vefat_tarihi": "2002-11-05",
-  "vefat_yasi": 75,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": null,
-  "vefat_yeri": null,
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6061032",
-  "sitelink": 4,
-  "fotograf": null,
-  "meslek": [
-   "Avukat"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false
  },
  {
@@ -2828,34 +2807,6 @@
   "hassas": false
  },
  {
-  "ad": "Kasım Gülek",
-  "dogum_tarihi": "1905",
-  "vefat_tarihi": "1996-01-19",
-  "vefat_yasi": 91,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Adana",
-  "vefat_yeri": "Washington",
-  "defin_yeri": "Adana Asri Mezarlığı",
-  "defin_il": "Adana",
-  "defin_ulke": null,
-  "wikidata_id": "Q6374938",
-  "sitelink": 5,
-  "fotograf": {
-   "dosya": "Kasım Gülek.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kas%C4%B1m_G%C3%BClek.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kas%C4%B1m_G%C3%BClek.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
-  "hassas": false
- },
- {
   "ad": "Mükerrem Sarol",
   "dogum_tarihi": "1909",
   "vefat_tarihi": "1995-11-08",
@@ -3180,11 +3131,11 @@
   "wikidata_id": "Q6825651",
   "sitelink": 16,
   "fotograf": {
-   "dosya": "Inonu ailesi (cropped).jpg",
+   "dosya": "Mevhibe İnönü.jpg",
    "lisans": "Public domain",
    "yazar": "NA",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Inonu_ailesi_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Inonu_ailesi_%28cropped%29.jpg"
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mevhibe_%C4%B0n%C3%B6n%C3%BC.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mevhibe_%C4%B0n%C3%B6n%C3%BC.jpg"
   },
   "meslek": [
    "Siyasetçi"
@@ -3235,27 +3186,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false
- },
- {
-  "ad": "Kemal Satır",
-  "dogum_tarihi": "1911-04-23",
-  "vefat_tarihi": "1991-05-23",
-  "vefat_yasi": 80,
-  "dogum_yeri": "Adana",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6097255",
-  "sitelink": 6,
-  "fotograf": null,
-  "meslek": [
-   "Doktor"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false
  },
  {
@@ -3385,7 +3315,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -3411,28 +3341,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false
- },
- {
-  "ad": "Fahri Özdilek",
-  "dogum_tarihi": "1898",
-  "vefat_tarihi": "1989-03-13",
-  "vefat_yasi": 91,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Bursa",
-  "vefat_yeri": "Ankara",
-  "defin_yeri": "Cebeci Asri Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q1337667",
-  "sitelink": 12,
-  "fotograf": null,
-  "meslek": [
-   "Askerî personel"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false
  },
  {
@@ -3523,7 +3431,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false
  },
  {
@@ -3546,28 +3454,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "İlhami Sancar",
-  "dogum_tarihi": "1909",
-  "vefat_tarihi": "1986-12-13",
-  "vefat_yasi": 77,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Gördes",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6077355",
-  "sitelink": 8,
-  "fotograf": null,
-  "meslek": [
-   "Hâkim"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false
  },
  {
@@ -3748,7 +3634,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -3857,6 +3743,28 @@
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serdengecti_01.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Serdengecti_01.jpg"
   },
+  "meslek": [
+   "Gazeteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Ali Cavit Oral",
+  "dogum_tarihi": "1904",
+  "vefat_tarihi": "1983-06-09",
+  "vefat_yasi": 79,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Adana",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6052665",
+  "sitelink": 3,
+  "fotograf": null,
   "meslek": [
    "Gazeteci"
   ],
@@ -4387,7 +4295,7 @@
   "vefat_tarihi": "1978-01-17",
   "vefat_yasi": 64,
   "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Trabzon",
+  "dogum_yeri": "Çaykara",
   "vefat_yeri": "İstanbul",
   "defin_yeri": null,
   "defin_il": null,
@@ -4548,7 +4456,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Deli Kurt”, “Ruh Adam”, “Z Vitamini”",
+  "neden_onemli": "Önemli eserleri: “Z Vitamini”, “Yolların Sonu”, “Bozkurtların Ölümü”",
   "hassas": false
  },
  {
@@ -4646,7 +4554,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, bakan",
+  "neden_onemli": "Görev: bakan, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -4873,7 +4781,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanvekili, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye Büyük Millet Meclisi Başkanvekili",
   "hassas": false
  },
  {
@@ -5048,12 +4956,40 @@
   ]
  },
  {
+  "ad": "Mehmet Fuat Carım",
+  "dogum_tarihi": "1892",
+  "vefat_tarihi": "1972-04-09",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Halep",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6070090",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Fuad Bey Çarım.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fuad_Bey_%C3%87ar%C4%B1m.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fuad_Bey_%C3%87ar%C4%B1m.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "Mahir Çayan",
   "dogum_tarihi": "1945-03-15",
   "vefat_tarihi": "1972-03-30",
   "vefat_yasi": 27,
   "dogum_yeri": "Samsun",
-  "vefat_yeri": "Tokat",
+  "vefat_yeri": "Ataköy",
   "defin_yeri": "Karşıyaka Mezarlığı",
   "defin_il": "Ankara",
   "defin_ulke": null,
@@ -5282,6 +5218,28 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false
+ },
+ {
+  "ad": "Tahsin Bekir Balta",
+  "dogum_tarihi": "1902",
+  "vefat_tarihi": "1970-07-24",
+  "vefat_yasi": 68,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Rize",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6089261",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -5548,7 +5506,7 @@
   "vefat_yasi": 79,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Pınarlı",
-  "vefat_yeri": "Kaliforniya",
+  "vefat_yeri": "Montebello",
   "defin_yeri": "Evergreen Cemetery",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -5567,34 +5525,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false
- },
- {
-  "ad": "Kâzım Özalp",
-  "dogum_tarihi": "1880-12",
-  "vefat_tarihi": "1968-06-06",
-  "vefat_yasi": 88,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Köprülü",
-  "vefat_yeri": "Ankara",
-  "defin_yeri": "Devlet Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q925035",
-  "sitelink": 16,
-  "fotograf": {
-   "dosya": "Özalp.jpg",
-   "lisans": "Public domain",
-   "yazar": "Republic of Turkey",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%96zalp.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%96zalp.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Demir Haç, İmtiyaz Madalyası. Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false
  },
  {
@@ -5621,34 +5551,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, İstanbul belediye başkanı",
-  "hassas": false
- },
- {
-  "ad": "Ali Fuat Cebesoy",
-  "dogum_tarihi": "1882-09-23",
-  "vefat_tarihi": "1968-01-10",
-  "vefat_yasi": 85,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Devlet Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q983601",
-  "sitelink": 17,
-  "fotograf": {
-   "dosya": "Ali Fuat Cebesoy 1.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Fuat_Cebesoy_1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Fuat_Cebesoy_1.jpg"
-  },
-  "meslek": [
-   "Askerî personel"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: büyükelçi, Türkiye Büyük Millet Meclisi Başkanı",
+  "neden_onemli": "Görev: İstanbul belediye başkanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -5901,27 +5804,6 @@
   "hassas": false
  },
  {
-  "ad": "Faik Üstün",
-  "dogum_tarihi": "1884-01-01",
-  "vefat_tarihi": "1966-10-02",
-  "vefat_yasi": 82,
-  "dogum_yeri": "Milas",
-  "vefat_yeri": null,
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q19611206",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
   "ad": "Nafiz Gürman",
   "dogum_tarihi": "1882",
   "vefat_tarihi": "1966-02-06",
@@ -6088,6 +5970,34 @@
   "hassas": false
  },
  {
+  "ad": "Reşit Saffet Atabinen",
+  "dogum_tarihi": "1884-09",
+  "vefat_tarihi": "1965-02-03",
+  "vefat_yasi": 81,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6059042",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Ali Reşit Bey Atabinen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Re%C5%9Fit_Bey_Atabinen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Re%C5%9Fit_Bey_Atabinen.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: genel başkan, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "Eşref Sencer Kuşçubaşı",
   "dogum_tarihi": "1873",
   "vefat_tarihi": "1964",
@@ -6116,34 +6026,6 @@
   "hassas": false
  },
  {
-  "ad": "Naci Tınaz",
-  "dogum_tarihi": "1882",
-  "vefat_tarihi": "1964-11-25",
-  "vefat_yasi": 82,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Serfiçe",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Devlet Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q135082",
-  "sitelink": 6,
-  "fotograf": {
-   "dosya": "Naci Tınaz.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naci_T%C4%B1naz.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Naci_T%C4%B1naz.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
-  "hassas": false
- },
- {
   "ad": "Ragıp Gümüşpala",
   "dogum_tarihi": "1897",
   "vefat_tarihi": "1964-06-05",
@@ -6163,6 +6045,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Genelkurmay Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Emin Erkul",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1964-06-03",
+  "vefat_yasi": 83,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Grebene",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6055627",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Erkulseyitoğlu Mehmet Emin Bey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erkulseyito%C4%9Flu_Mehmet_Emin_Bey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Erkulseyito%C4%9Flu_Mehmet_Emin_Bey.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -6532,7 +6442,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Saatleri Ayarlama Enstitüsü”, “Huzur”, “Suat'ın Mektubu”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Önemli eserleri: “Saatleri Ayarlama Enstitüsü”, “Suat'ın Mektubu”, “Huzur”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -6587,7 +6497,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Demir Haç. Görev: Türkiye'nin Paris Büyükelçisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Demir Haç. Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye'nin Paris Büyükelçisi",
   "hassas": false
  },
  {
@@ -6610,34 +6520,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Anıtkabir”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Şükrü Koçak",
-  "dogum_tarihi": "1886",
-  "vefat_tarihi": "1961-09-16",
-  "vefat_yasi": 75,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Elazığ",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6045825",
-  "sitelink": 4,
-  "fotograf": {
-   "dosya": "Şükrü Koçak.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C3%BCkr%C3%BC_Ko%C3%A7ak.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9E%C3%BCkr%C3%BC_Ko%C3%A7ak.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false
  },
  {
@@ -6720,29 +6602,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Genelkurmay Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Yümnü Üresin",
-  "dogum_tarihi": "1898",
-  "vefat_tarihi": "1961-05-30",
-  "vefat_yasi": 63,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Elazığ",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6090123",
-  "sitelink": 4,
-  "fotograf": null,
-  "meslek": [
-   "Askerî personel"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Genelkurmay Başkanı",
   "hassas": false
  },
  {
@@ -6769,7 +6629,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Cumhuriyeti İstanbul Valiliği, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye Cumhuriyeti İstanbul Valiliği",
   "hassas": false
  },
  {
@@ -6955,33 +6815,6 @@
   "hassas": false
  },
  {
-  "ad": "Ali Rıza Artunkal",
-  "dogum_tarihi": "1881-01-01",
-  "vefat_tarihi": "1959-12-13",
-  "vefat_yasi": 78,
-  "dogum_yeri": "Filibe",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6086393",
-  "sitelink": 6,
-  "fotograf": {
-   "dosya": "Ali Rıza Artunkal.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_R%C4%B1za_Artunkal.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_R%C4%B1za_Artunkal.jpg"
-  },
-  "meslek": [
-   "Askerî personel"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
-  "hassas": false
- },
- {
   "ad": "Ruşen Eşref Ünaydın",
   "dogum_tarihi": "1892-03-18",
   "vefat_tarihi": "1959-09-21",
@@ -7145,6 +6978,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Genelkurmay Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Mehmet Vehbi Bolak",
+  "dogum_tarihi": "1882",
+  "vefat_tarihi": "1958-04-06",
+  "vefat_yasi": 76,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Balıkesir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6073893",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Mehmet Vehbi Bolak.jpg",
+   "lisans": "Public domain",
+   "yazar": "Aralıkoz28",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_Vehbi_Bolak.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmet_Vehbi_Bolak.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -7421,7 +7282,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false
  },
  {
@@ -7609,34 +7470,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Çalıkuşu”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
-  "ad": "Cemil Cahit Toydemir",
-  "dogum_tarihi": "1883",
-  "vefat_tarihi": "1956-07-15",
-  "vefat_yasi": 73,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Devlet Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q5058728",
-  "sitelink": 5,
-  "fotograf": {
-   "dosya": "Korgeneral Cemil Cahit Toydemir.jpg",
-   "lisans": "Public domain",
-   "yazar": "JGK",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korgeneral_Cemil_Cahit_Toydemir.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Korgeneral_Cemil_Cahit_Toydemir.jpg"
-  },
-  "meslek": [
-   "Subay"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false
  },
  {
@@ -7883,6 +7716,28 @@
   },
   "meslek": [
    "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Fuat Hulusi Demirelli",
+  "dogum_tarihi": "1876",
+  "vefat_tarihi": "1955-11-23",
+  "vefat_yasi": 79,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1472442",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -8208,6 +8063,28 @@
   },
   "meslek": [
    "Gazeteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Reşat Mimaroğlu",
+  "dogum_tarihi": "1878",
+  "vefat_tarihi": "1953-08-04",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6026528",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -8543,34 +8420,6 @@
   "hassas": false
  },
  {
-  "ad": "Çerkes Reşit",
-  "dogum_tarihi": "1869",
-  "vefat_tarihi": "1951-09-10",
-  "vefat_yasi": 82,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Karacabey",
-  "vefat_yeri": "Bursa",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6477462",
-  "sitelink": 3,
-  "fotograf": {
-   "dosya": "Reshid Bey.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reshid_Bey.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Reshid_Bey.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
   "ad": "İzzettin Çalışlar",
   "dogum_tarihi": "1882",
   "vefat_tarihi": "1951-08-20",
@@ -8673,7 +8522,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Cebel-i Lübnan Sancağı mutasarrıfı",
+  "neden_onemli": "Görev: Cebel-i Lübnan Sancağı mutasarrıfı, Beyrut Valisi",
   "hassas": false
  },
  {
@@ -8956,6 +8805,33 @@
   "hassas": false
  },
  {
+  "ad": "Abdülkadir Kemali Öğütçü",
+  "dogum_tarihi": "1889-08-10",
+  "vefat_tarihi": "1949-07-21",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Osmaniye",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6089613",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Abdülkadir Kemali Öğütçü.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abd%C3%BClkadir_Kemali_%C3%96%C4%9F%C3%BCt%C3%A7%C3%BC.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abd%C3%BClkadir_Kemali_%C3%96%C4%9F%C3%BCt%C3%A7%C3%BC.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "Kâzım Sevüktekin",
   "dogum_tarihi": "1877",
   "vefat_tarihi": "1949-04-01",
@@ -9067,31 +8943,58 @@
   "hassas": false
  },
  {
-  "ad": "Ali Çetinkaya",
-  "dogum_tarihi": "1878",
-  "vefat_tarihi": "1949-02-21",
-  "vefat_yasi": 71,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Afyonkarahisar",
+  "ad": "Necmeddin Molla Kocataş",
+  "dogum_tarihi": "1875-01-01",
+  "vefat_tarihi": "1949-02-06",
+  "vefat_yasi": 74,
+  "dogum_yeri": "İstanbul",
   "vefat_yeri": "İstanbul",
-  "defin_yeri": "Afyonkarahisar",
-  "defin_il": "Afyonkarahisar",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
   "defin_ulke": null,
-  "wikidata_id": "Q3676683",
-  "sitelink": 5,
+  "wikidata_id": "Q6055729",
+  "sitelink": 3,
   "fotograf": {
-   "dosya": "Kel Ali Bey Çetinkaya.jpg",
+   "dosya": "Necmeddin Molla Kocatas.jpg",
    "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kel_Ali_Bey_%C3%87etinkaya.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kel_Ali_Bey_%C3%87etinkaya.jpg"
+   "yazar": "Lucy Mary Jane Garnett",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Necmeddin_Molla_Kocatas.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Necmeddin_Molla_Kocatas.jpg"
   },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "neden_onemli": "Görev: Osmanlı Adliye Nazırlığı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Yusuf Ziya Başara",
+  "dogum_tarihi": "1869",
+  "vefat_tarihi": "1948",
+  "vefat_yasi": 79,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sivas",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6078386",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Yusuf Ziya Başara.gif",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yusuf_Ziya_Ba%C5%9Fara.gif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yusuf_Ziya_Ba%C5%9Fara.gif"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -9307,7 +9210,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hariciye Nazırı",
+  "neden_onemli": "Görev: Hariciye Nazırı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -9362,7 +9265,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: parti lideri, Türkiye Büyük Millet Meclisi Başkanı",
+  "neden_onemli": "Görev: parti lideri, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -9399,7 +9302,7 @@
   "vefat_tarihi": "1947",
   "vefat_yasi": 78,
   "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Erivan",
+  "dogum_yeri": "Tiflis",
   "vefat_yeri": "Tiflis",
   "defin_yeri": null,
   "defin_il": null,
@@ -9446,34 +9349,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false
- },
- {
-  "ad": "Zekâi Apaydın",
-  "dogum_tarihi": "1884",
-  "vefat_tarihi": "1947-04-29",
-  "vefat_yasi": 63,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Osmanlı döneminde Bosna-Hersek",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Edirnekapı Şehitliği",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6500952",
-  "sitelink": 6,
-  "fotograf": {
-   "dosya": "Aziz Zekai Bey.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aziz_Zekai_Bey.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Aziz_Zekai_Bey.jpg"
-  },
-  "meslek": [
-   "Diplomat"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false
  },
  {
@@ -9582,6 +9457,34 @@
   "hassas_nedeni": [
    "ateşli silah yaralanması"
   ]
+ },
+ {
+  "ad": "Mehmet Ülkü",
+  "dogum_tarihi": "1877",
+  "vefat_tarihi": "1946-07-02",
+  "vefat_yasi": 69,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bandırma",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q17468176",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Mehmet Ulku.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_Ulku.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmet_Ulku.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
  },
  {
   "ad": "Ömer Bedrettin Uşaklı",
@@ -9799,11 +9702,11 @@
   "wikidata_id": "Q6441935",
   "sitelink": 8,
   "fotograf": {
-   "dosya": "Şevket Dağ.jpg",
+   "dosya": "Sevket Dağ.jpg",
    "lisans": "Public domain",
    "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9Eevket_Da%C4%9F.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9Eevket_Da%C4%9F.jpg"
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sevket_Da%C4%9F.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sevket_Da%C4%9F.jpg"
   },
   "meslek": [
    "Ressam"
@@ -9837,7 +9740,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Gulyabani”, “Cadı”, “Şıpsevdi”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Önemli eserleri: “Kuyruklu Yıldız Altında Bir İzdivaç”, “Cadı”, “Şıpsevdi”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -10587,6 +10490,34 @@
   "hassas": false
  },
  {
+  "ad": "Mehmet Zülfü Tigrel",
+  "dogum_tarihi": "1876",
+  "vefat_tarihi": "1940-10-29",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Diyarbakır",
+  "vefat_yeri": "Diyarbakır",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6057392",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Mehmed Zulfi Bey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmed_Zulfi_Bey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmed_Zulfi_Bey.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "İsmail Safa Özler",
   "dogum_tarihi": "1885-01-01",
   "vefat_tarihi": "1940-06-28",
@@ -10721,7 +10652,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Suriye başbakanı, Suriye Halk Meclisi başkanı",
+  "neden_onemli": "Görev: Suriye Halk Meclisi başkanı, Suriye başbakanı",
   "hassas": false
  },
  {
@@ -10852,7 +10783,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Sadrazam, Osmanlı Bahriye Nazırlığı",
+  "neden_onemli": "Görev: Osmanlı Bahriye Nazırlığı, Erkân-ı Harbiye Umumiye Vekili",
   "hassas": false
  },
  {
@@ -11186,7 +11117,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genelkurmay başkanı, Harbiye Nezareti",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, genelkurmay başkanı",
   "hassas": false
  },
  {
@@ -11338,7 +11269,7 @@
   "vefat_yasi": 75,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Altınca",
-  "vefat_yeri": "Tunceli",
+  "vefat_yeri": "Ovacık",
   "defin_yeri": null,
   "defin_il": null,
   "defin_ulke": null,
@@ -11432,7 +11363,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Sadrazam, Harbiye Nezareti",
+  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Erkân-ı Harbiye-i Umûmiye Riyaseti, Harbiye Nezareti",
   "hassas": false
  },
  {
@@ -11714,33 +11645,6 @@
   ]
  },
  {
-  "ad": "Ahmet Rüstem Bilinski",
-  "dogum_tarihi": "1862-04-18",
-  "vefat_tarihi": "1934-09-24",
-  "vefat_yasi": 72,
-  "dogum_yeri": "Midilli",
-  "vefat_yeri": null,
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6103003",
-  "sitelink": 3,
-  "fotograf": {
-   "dosya": "RUSTEM, BEY AMBASSADOR LCCN2016857412 (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Harris & Ewing, photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RUSTEM%2C_BEY_AMBASSADOR_LCCN2016857412_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:RUSTEM%2C_BEY_AMBASSADOR_LCCN2016857412_%28cropped%29.jpg"
-  },
-  "meslek": [
-   "Diplomat"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false
- },
- {
   "ad": "Kemalettin Sami Gökçen",
   "dogum_tarihi": "1884-08-19",
   "vefat_tarihi": "1934-04-15",
@@ -11820,7 +11724,35 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Şeriye Vekili, milletvekili",
+  "neden_onemli": "Görev: milletvekili, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
+  "ad": "Cavit Erdel",
+  "dogum_tarihi": "1884",
+  "vefat_tarihi": "1933-03-05",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Edirne",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q5055161",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Cavit Erdel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cavit_Erdel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cavit_Erdel.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -12043,6 +11975,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false
+ },
+ {
+  "ad": "Musa Kazım Onar",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1930-12-05",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hadim",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6055024",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Musa Kâzım Efendi Onar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Musa_K%C3%A2z%C4%B1m_Efendi_Onar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Musa_K%C3%A2z%C4%B1m_Efendi_Onar.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Şeriye Vekili, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -12506,6 +12466,34 @@
   ]
  },
  {
+  "ad": "İsmail Canbulat",
+  "dogum_tarihi": "1880",
+  "vefat_tarihi": "1926-07-13",
+  "vefat_yasi": 46,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": "Kokluca Mezarlığı",
+  "defin_il": "İzmir",
+  "defin_ulke": null,
+  "wikidata_id": "Q6075207",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Ismail Canbulat.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ismail_Canbulat.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ismail_Canbulat.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false
+ },
+ {
   "ad": "Mehmed Celal Bey",
   "dogum_tarihi": "1863",
   "vefat_tarihi": "1926-02-15",
@@ -12614,6 +12602,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false
+ },
+ {
+  "ad": "Mustafa Taki Doğruyol",
+  "dogum_tarihi": "1873",
+  "vefat_tarihi": "1925-08-01",
+  "vefat_yasi": 52,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sivas",
+  "vefat_yeri": "Gürün",
+  "defin_yeri": "Sivas",
+  "defin_il": "Sivas",
+  "defin_ulke": null,
+  "wikidata_id": "Q6055298",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Portrait of Mustafa Taki Doğruyol.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Mustafa_Taki_Do%C4%9Fruyol.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mustafa_Taki_Do%C4%9Fruyol.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {
@@ -12755,7 +12771,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Türkçülüğün Esasları”, “Kızıl Elma”, “Türkleşmek, İslamlaşmak, Muasırlaşmak”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Önemli eserleri: “Türkleşmek, İslamlaşmak, Muasırlaşmak”, “Kızıl Elma”, “Altın Işık”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false
  },
  {

@@ -1,0 +1,328 @@
+[
+ {
+  "ad": "Zeki Ökten",
+  "dogum_tarihi": "1941-08-04",
+  "vefat_tarihi": "2009-12-19",
+  "vefat_yasi": 68,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2739722",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Yönetmen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Emily Brontë",
+  "dogum_tarihi": "1818-07-30",
+  "vefat_tarihi": "1848-12-19",
+  "vefat_yasi": 30,
+  "dogum_yeri": "The Brontë Birthplace",
+  "vefat_yeri": "Haworth",
+  "defin_yeri": "St Michael and All Angels' Church, Haworth",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q80137",
+  "sitelink": 131,
+  "fotograf": {
+   "dosya": "Emily Brontë cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "Branwell Brontë",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emily_Bront%C3%AB_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emily_Bront%C3%AB_cropped.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Uğultulu Tepeler”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert A. Millikan",
+  "dogum_tarihi": "1868-03-22",
+  "vefat_tarihi": "1953-12-19",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Morrison",
+  "vefat_yeri": "San Marino",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q130975",
+  "sitelink": 105,
+  "fotograf": {
+   "dosya": "Robert Andrews Millikan 1920s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Andrews_Millikan_1920s.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Andrews_Millikan_1920s.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marcello Mastroianni",
+  "dogum_tarihi": "1924-09-28",
+  "vefat_tarihi": "1996-12-19",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Fontana Liri",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Campo Verano",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q55469",
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "Marcello Mastroianni 02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Gorup de Besanez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcello_Mastroianni_02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marcello_Mastroianni_02.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "J. M. W. Turner",
+  "dogum_tarihi": "1775-04-23",
+  "vefat_tarihi": "1851-12-19",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Maiden Lane",
+  "vefat_yeri": "Cheyne Walk",
+  "defin_yeri": "St Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q159758",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Joseph Mallord William Turner auto-retrato.jpg",
+   "lisans": "Public domain",
+   "yazar": "J. M. W. Turner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Mallord_William_Turner_auto-retrato.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_auto-retrato.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Işık ve Renk (Goethe'nin Teorisi) - Tufandan Sonraki Sabah - Musa'nın Yaratılış Kitabını Yazması”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Pius",
+  "dogum_tarihi": "1499-04-09",
+  "vefat_tarihi": "1565-12-19",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Milano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria degli Angeli e dei Martiri Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q161983",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Portrait of Pope Pius IV, three-quarter-length, seated at a draped table (Circle of Scipione Pulzone).jpg",
+   "lisans": "Public domain",
+   "yazar": "Circle of Scipione Pulzone",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Pius_IV%2C_three-quarter-length%2C_seated_at_a_draped_table_%28Circle_of_Scipione_Pulzone%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pope_Pius_IV%2C_three-quarter-length%2C_seated_at_a_draped_table_%28Circle_of_Scipione_Pulzone%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vitus Bering",
+  "dogum_tarihi": "1681-08-05",
+  "vefat_tarihi": "1741-12-19",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Horsens",
+  "vefat_yeri": "Bering Adası",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q127641",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Vitus Bering Reconstruction (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Институт Археологии РАН (Institute of Archaeology in Russian Academy of Sciences)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitus_Bering_Reconstruction_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vitus_Bering_Reconstruction_%28cropped%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alois Alzheimer",
+  "dogum_tarihi": "1864-06-14",
+  "vefat_tarihi": "1915-12-19",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Marktbreit",
+  "vefat_yeri": "Wrocław",
+  "defin_yeri": "Frankfurt Main Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q70530",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Alois Alzheimer 002.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alois_Alzheimer_002.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alois_Alzheimer_002.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert H. Grubbs",
+  "dogum_tarihi": "1942-02-27",
+  "vefat_tarihi": "2021-12-19",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Possum Trot",
+  "vefat_yeri": "Duarte",
+  "defin_yeri": "Mountain View Cemetery and Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q202140",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Robert Grubbs Royal Society.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Duncan.Hull",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Grubbs_Royal_Society.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Grubbs_Royal_Society.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Langevin",
+  "dogum_tarihi": "1872-01-23",
+  "vefat_tarihi": "1946-12-19",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q25320",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Paul Langevin Wellcome2.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Henri Manuel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Langevin_Wellcome2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Langevin_Wellcome2.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Britanya İmparatorluğu genel kurmay başkanı, Copley Madalyası. Görev: profesör, yönetici",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paolo Uccello",
+  "dogum_tarihi": "1397-06-15",
+  "vefat_tarihi": "1475-12-19",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Pratovecchio",
+  "vefat_yeri": "Firenze",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192488",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Cinq maîtres de la Renaissance florentine - Uccello (Louvre).jpg",
+   "lisans": "Public domain",
+   "yazar": "Florentine School, Unknown Master, Italian (active late 15th century) ; généralement attribuée à Paolo Uccello",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_-_Uccello_%28Louvre%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cinq_ma%C3%AEtres_de_la_Renaissance_florentine_-_Uccello_%28Louvre%29.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “San Romano Muharebesi (Uccello)”, “Jacopone da Todi Portresi”, “Meryem ve Çocuk İsa”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Herbert C. Brown",
+  "dogum_tarihi": "1912-05-22",
+  "vefat_tarihi": "2004-12-19",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "West Lafayette",
+  "defin_yeri": "Jewish Cemetery of Greater Lafayette",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102406",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "33. Tagung 1983 Chemiker Herbert C. Brown - W134Nr.120809d - Willy Pragher (cropped).jpg",
+   "lisans": "CC BY 3.0 de",
+   "yazar": "Willy Pragher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/33._Tagung_1983_Chemiker_Herbert_C._Brown_-_W134Nr.120809d_-_Willy_Pragher_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:33._Tagung_1983_Chemiker_Herbert_C._Brown_-_W134Nr.120809d_-_Willy_Pragher_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ }
+]

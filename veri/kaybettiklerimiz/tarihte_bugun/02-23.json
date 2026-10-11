@@ -1,0 +1,340 @@
+[
+ {
+  "ad": "Carl Friedrich Gauss",
+  "dogum_tarihi": "1777-04-30",
+  "vefat_tarihi": "1855-02-23",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Brunswick",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Albanifriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q6722",
+  "sitelink": 200,
+  "fotograf": {
+   "dosya": "Carl Friedrich Gauss.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gottlieb Biermann / After Christian Albrecht Jensen",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Friedrich_Gauss.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg"
+  },
+  "meslek": [
+   "Bilim yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lalande Ödülü, Royal Society Üyesi. Önemli eserleri: “Yer çekimi için Gauss yasası”, “Disquisitiones Arithmeticae”, “normal dağılım”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Quincy Adams",
+  "dogum_tarihi": "1767-07-11",
+  "vefat_tarihi": "1848-02-23",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Braintree",
+  "vefat_yeri": "Amerikan Kongre Binası",
+  "defin_yeri": "United First Parish Church",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q11816",
+  "sitelink": 166,
+  "fotograf": {
+   "dosya": "John Q. Adams-edit.jpg",
+   "lisans": "Public domain",
+   "yazar": "jklamo Cleaned and enhanced by Julielangford",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Q._Adams-edit.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Q._Adams-edit.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri dışişleri bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Keats",
+  "dogum_tarihi": "1795-10-31",
+  "vefat_tarihi": "1821-02-23",
+  "vefat_yasi": 25,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Protestant Cemetery, Rome",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q82083",
+  "sitelink": 145,
+  "fotograf": {
+   "dosya": "John Keats by William Hilton circa 1822 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Hilton",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Keats_by_William_Hilton_circa_1822_02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Keats_by_William_Hilton_circa_1822_02.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Stefan Zweig",
+  "dogum_tarihi": "1881-11-28",
+  "vefat_tarihi": "1942-02-22",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Petropolis",
+  "defin_yeri": "Petrópolis Municipal Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q78491",
+  "sitelink": 126,
+  "fotograf": {
+   "dosya": "Zweig Setzer 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Franz Xaver Setzer (1886-1939)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zweig_Setzer_1927.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zweig_Setzer_1927.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Önemli eserleri: “Satranç”, “Bilinmeyen Bir Kadının Mektubu”, “Dünün Dünyası”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alexis Nikolaïevitch Tolstoï",
+  "dogum_tarihi": "1883-01-10",
+  "vefat_tarihi": "1945-02-23",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Pugaçyov",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q192279",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "ANTolstoy.jpg",
+   "lisans": "Public domain",
+   "yazar": "ИППИ",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ANTolstoy.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ANTolstoy.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Onur Rozeti Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Claudel",
+  "dogum_tarihi": "1868-08-06",
+  "vefat_tarihi": "1955-02-23",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Villeneuve-sur-Fère",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Brangues Kalesi",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q295830",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Paul Claudel 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Claudel_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Claudel_01.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edward Elgar",
+  "dogum_tarihi": "1857-06-02",
+  "vefat_tarihi": "1934-02-23",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Lower Broadheath",
+  "vefat_yeri": "Worcester",
+  "defin_yeri": "St Wulstan's Roman Catholic Church",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q179631",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Edward Elgar 1857 - 1934.jpg",
+   "lisans": "Public domain",
+   "yazar": "not stated",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Elgar_1857_-_1934.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edward_Elgar_1857_-_1934.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, baronet. Önemli eserleri: “Cello Concerto”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joshua Reynolds",
+  "dogum_tarihi": "1723-07-16",
+  "vefat_tarihi": "1792-02-23",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Plympton",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "St Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q194402",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Sir Joshua Reynolds - Self-Portrait - Google Art Project (2315517)FXD.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joshua Reynolds",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Joshua_Reynolds_-_Self-Portrait_-_Google_Art_Project_%282315517%29FXD.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Joshua_Reynolds_-_Self-Portrait_-_Google_Art_Project_%282315517%29FXD.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Suud bin Abdül Aziz",
+  "dogum_tarihi": "1902-01-15",
+  "vefat_tarihi": "1969-02-23",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Kuveyt",
+  "vefat_yeri": "Atina",
+  "defin_yeri": "Ud Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Suudi Arabistan",
+  "wikidata_id": "Q244206",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Saud IV of Saudi Arabia portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saud_IV_of_Saudi_Arabia_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saud_IV_of_Saudi_Arabia_portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Suudi Arabistan Kralı, Suudi Arabistan veliaht prensi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Catherine Howard",
+  "dogum_tarihi": "1524",
+  "vefat_tarihi": "1542-02-23",
+  "vefat_yasi": 18,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Lambeth",
+  "vefat_yeri": "Londra Kalesi",
+  "defin_yeri": "Aziz Peter ad Vincula Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q188926",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Hans Holbein the Younger - Portrait of a Lady, perhaps Katherine Howard (Royal Collection).JPG",
+   "lisans": "Public domain",
+   "yazar": "Hans Holbein the Younger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Holbein_the_Younger_-_Portrait_of_a_Lady%2C_perhaps_Katherine_Howard_%28Royal_Collection%29.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_Portrait_of_a_Lady%2C_perhaps_Katherine_Howard_%28Royal_Collection%29.JPG"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Yanez Drnovşek",
+  "dogum_tarihi": "1950-05-17",
+  "vefat_tarihi": "2008-02-23",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Celje",
+  "vefat_yeri": "Zaplana",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q171228",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Janez Drnovsek.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "World Economic Forum from Cologny, Switzerland",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janez_Drnovsek.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Janez_Drnovsek.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Slovenya cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Stan Laurel",
+  "dogum_tarihi": "1890-06-16",
+  "vefat_tarihi": "1965-02-23",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Ulverston",
+  "vefat_yeri": "Santa Monica",
+  "defin_yeri": "Forest Lawn Memorial Park (Hollywood Hills)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q72869",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Stan in color.jpg",
+   "lisans": "Public domain",
+   "yazar": "US Department of Agriculture",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stan_in_color.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Stan_in_color.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,341 @@
+[
+ {
+  "ad": "Ayhan Işık",
+  "dogum_tarihi": "1929-05-05",
+  "vefat_tarihi": "1979-06-16",
+  "vefat_yasi": 50,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q792949",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Helmut Kohl",
+  "dogum_tarihi": "1930-04-03",
+  "vefat_tarihi": "2017-06-16",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Friesenheim",
+  "vefat_yeri": "Ludwigshafen",
+  "defin_yeri": "Old Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2518",
+  "sitelink": 129,
+  "fotograf": {
+   "dosya": "Helmut Kohl (1996).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Christian Lambiotte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helmut_Kohl_%281996%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Helmut_Kohl_%281996%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası, Liyakat Nişanı. Görev: Bundestag üyesi, Almanya Federal Cumhuriyeti Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wernher von Braun",
+  "dogum_tarihi": "1912-03-23",
+  "vefat_tarihi": "1977-06-16",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Wyrzysk",
+  "vefat_yeri": "Alexandria",
+  "defin_yeri": "Ivy Hill Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q57384",
+  "sitelink": 108,
+  "fotograf": {
+   "dosya": "Wernher von Braun.jpg",
+   "lisans": "Public domain",
+   "yazar": "NASA/MSFC",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wernher_von_Braun.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wernher_von_Braun.jpg"
+  },
+  "meslek": [
+   "Kurgu olmayan eser yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Leo",
+  "dogum_tarihi": "0750",
+  "vefat_tarihi": "0816-06-16",
+  "vefat_yasi": 66,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q132086",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Pope Leo III – Triclinium Leoninum.jpg",
+   "lisans": "Public domain",
+   "yazar": "Various: Original: Unknown authorUnknown author Restoration: Ferdinando Fuga (1743)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Leo_III_%E2%80%93_Triclinium_Leoninum.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Leo_III_%E2%80%93_Triclinium_Leoninum.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Imre Nagy",
+  "dogum_tarihi": "1896-06-07",
+  "vefat_tarihi": "1958-06-16",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Kaposvár",
+  "vefat_yeri": "Budapeşte",
+  "defin_yeri": "New Public Cemetery, Budapest",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q177917",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Imre Nagy portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "ismeretlen szerző(Nagy Imre Emlékház tulajdona)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Imre_Nagy_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Imre_Nagy_portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Macaristan başbakanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Edward",
+  "dogum_tarihi": "1330-06-23",
+  "vefat_tarihi": "1376-06-16",
+  "vefat_yasi": 45,
+  "dogum_yeri": "Woodstock Palace",
+  "vefat_yeri": "Westminster Sarayı",
+  "defin_yeri": "Canterbury Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q184854",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Edward of Woodstock portrait detail.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_of_Woodstock_portrait_detail.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edward_of_Woodstock_portrait_detail.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q156585",
+  "dogum_tarihi": "1886-07-06",
+  "vefat_tarihi": "1944-06-16",
+  "vefat_yasi": 57,
+  "dogum_yeri": "2nd arrondissement of Lyon",
+  "vefat_yeri": "Saint-Didier-de-Formans",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q156585",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Marc Bloch (1886–1944).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc_Bloch_%281886%E2%80%931944%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marc_Bloch_%281886%E2%80%931944%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: öğretmen, Kıdemli okutman",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "execution",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Cyd Charisse",
+  "dogum_tarihi": "1922-03-08",
+  "vefat_tarihi": "2008-06-16",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Amarillo",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Hillside Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q62558",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "CYD CHARISSE (5112514299).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CYD_CHARISSE_%285112514299%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CYD_CHARISSE_%285112514299%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası. Önemli eserleri: “Singin' in the Rain”, “The Band Wagon”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Stepan Razin",
+  "dogum_tarihi": "1630",
+  "vefat_tarihi": "1671-06-16",
+  "vefat_yasi": 41,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kotelnikovsky District",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q193175",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Stepan Razin, German portrait.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Пауль Фюрст, вдова и наследники",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stepan_Razin%2C_German_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Stepan_Razin%2C_German_portrait.jpg"
+  },
+  "meslek": [],
+  "aciklama": "rus haydutu",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Nicholas Ray",
+  "dogum_tarihi": "1911-08-07",
+  "vefat_tarihi": "1979-06-16",
+  "vefat_yasi": 67,
+  "dogum_yeri": "La Crosse",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Oak Grove Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q240677",
+  "sitelink": 47,
+  "fotograf": {
+   "dosya": "Nicholas Ray (1953).jpg",
+   "lisans": "Public domain",
+   "yazar": "Nat Dallinger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_Ray_%281953%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicholas_Ray_%281953%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: En İyi Hikaye Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Daveigh Chase",
+  "dogum_tarihi": "1990-07-24",
+  "vefat_tarihi": "2026-06-16",
+  "vefat_yasi": 35,
+  "dogum_yeri": "Las Vegas",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q237774",
+  "sitelink": 47,
+  "fotograf": {
+   "dosya": "Daveigh Chase LF adjusted.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "derivative work: Tabercil (talk) Daveigh_Chase_LF.jpg: lukeford.net",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Daveigh_Chase_LF_adjusted.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Daveigh_Chase_LF_adjusted.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Annie Ödülleri, En İyi Kötü Karakter MTV Film Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jo Cox",
+  "dogum_tarihi": "1974-06-22",
+  "vefat_tarihi": "2016-06-16",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Batley",
+  "vefat_yeri": "Leeds General Infirmary",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q19872361",
+  "sitelink": 46,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ }
+]

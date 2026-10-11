@@ -1,0 +1,327 @@
+[
+ {
+  "ad": "Metin Erksan",
+  "dogum_tarihi": "1929-01-01",
+  "vefat_tarihi": "2012-08-04",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Çanakkale",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q936089",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Yönetmen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Hans Christian Andersen",
+  "dogum_tarihi": "1805-04-02",
+  "vefat_tarihi": "1875-08-04",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Odense",
+  "vefat_yeri": "Rolighed",
+  "defin_yeri": "Assistens Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Danimarka",
+  "wikidata_id": "Q5673",
+  "sitelink": 244,
+  "fotograf": {
+   "dosya": "Hans Christian Andersen by Thora Hallager 1869.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thora Hallager",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kutup Yıldızı Nişanı, Dannebrog Yoldaşlığı. Önemli eserleri: “İmparatorun Yeni Giysileri”, “Çirkin Ördek Yavrusu”, “Kibritçi Kız”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Urbanus",
+  "dogum_tarihi": "1035",
+  "vefat_tarihi": "1099-08-04",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Châtillon-sur-Marne",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q30578",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Urbano II in consacrazione de l'altare del monastero di Cluny (detail).png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urbano_II_in_consacrazione_de_l%27altare_del_monastero_di_Cluny_%28detail%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Urbano_II_in_consacrazione_de_l%27altare_del_monastero_di_Cluny_%28detail%29.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Paulus",
+  "dogum_tarihi": "1417-03-04",
+  "vefat_tarihi": "1471-08-04",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Venedik",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Vatican Grotto",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q102605",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Portrait of Paolo II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Paolo_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Paolo_II.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başrahip, Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tsung-Dao Lee",
+  "dogum_tarihi": "1926-11-24",
+  "vefat_tarihi": "2024-08-04",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Şanghay",
+  "vefat_yeri": "San Francisco",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q183679",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "TD Lee.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TD_Lee.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:TD_Lee.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jeanne Calment",
+  "dogum_tarihi": "1875-02-21",
+  "vefat_tarihi": "1997-08-04",
+  "vefat_yasi": 122,
+  "dogum_yeri": "Arles",
+  "vefat_yeri": "Arles",
+  "defin_yeri": "Trinquetaille Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q182260",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "JeanneCalmentaged40.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gustave Ouvière",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JeanneCalmentaged40.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JeanneCalmentaged40.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Dünya'nın bilinen en çok yaşamış insanı",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mileva Marić",
+  "dogum_tarihi": "1875-12-19",
+  "vefat_tarihi": "1948-08-04",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Titel",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Cemetery Nordheim",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q76346",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Mileva Maric 1912.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mileva_Maric_1912.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mileva_Maric_1912.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Enver Paşa",
+  "dogum_tarihi": "1881-11-22",
+  "vefat_tarihi": "1922-08-04",
+  "vefat_yasi": 40,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Buhara Sovyet Halk Cumhuriyeti",
+  "defin_yeri": "Abide-i Hürriyet",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q153899",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Ismail Enver.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ismail_Enver.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ismail_Enver.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Harp Madalyası, Kılıçlı Mecidi Nişanı. Görev: savunma bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Henri de France",
+  "dogum_tarihi": "1008-05-04",
+  "vefat_tarihi": "1060-08-04",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Reims",
+  "vefat_yeri": "Vitry-aux-Loges",
+  "defin_yeri": "Saint-Denis Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q178908",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Blondel - Henry I of France.jpg",
+   "lisans": "Public domain",
+   "yazar": "Merry-Joseph Blondel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blondel_-_Henry_I_of_France.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Blondel_-_Henry_I_of_France.jpg"
+  },
+  "meslek": [
+   "Kral"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edgar Douglas Adrian",
+  "dogum_tarihi": "1889-11-30",
+  "vefat_tarihi": "1977-08-04",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Hampstead",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": "Trinity College Chapel",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q231292",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Edgar Douglas Adrian nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Douglas_Adrian_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edgar_Douglas_Adrian_nobel.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Liyakat Nişanı. Görev: Britanya Lordlar Kamarası üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Juan Sebastián Elcano",
+  "dogum_tarihi": "1486-12-09",
+  "vefat_tarihi": "1526-08-04",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Getaria",
+  "vefat_yeri": "Büyük Okyanus",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q201510",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Elcano.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elcano.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Elcano.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: deniz kaptanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernst Bloch",
+  "dogum_tarihi": "1885-07-08",
+  "vefat_tarihi": "1977-08-04",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Ludwigshafen",
+  "vefat_yeri": "Tübingen",
+  "defin_yeri": "Berg cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57240",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-35545-0009, Berlin, Ernst Bloch auf 15. Schriftstellerkongress.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Krueger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-35545-0009%2C_Berlin%2C_Ernst_Bloch_auf_15._Schriftstellerkongress.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-35545-0009%2C_Berlin%2C_Ernst_Bloch_auf_15._Schriftstellerkongress.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,340 @@
+[
+ {
+  "ad": "Turgut Özal",
+  "dogum_tarihi": "1927-10-13",
+  "vefat_tarihi": "1993-04-17",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Malatya",
+  "vefat_yeri": "Hacettepe Erişkin Hastanesi",
+  "defin_yeri": "Turgut Özal Anıt Mezarı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q180280",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Turgut Özal as Turkish Prime Minister.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "European Communities / Christian Lambiotte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turgut_%C3%96zal_as_Turkish_Prime_Minister.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turgut_%C3%96zal_as_Turkish_Prime_Minister.jpg"
+  },
+  "meslek": [
+   "Cumhurbaşkanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Benjamin Franklin",
+  "dogum_tarihi": "1706-01-17",
+  "vefat_tarihi": "1790-04-17",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Boston",
+  "vefat_yeri": "Philadelphia",
+  "defin_yeri": "Christ Church Gömü Alanı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q34969",
+  "sitelink": 217,
+  "fotograf": {
+   "dosya": "Joseph Siffrein Duplessis - Benjamin Franklin - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph-Siffred Duplessis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gabriel García Márquez",
+  "dogum_tarihi": "1927-03-06",
+  "vefat_tarihi": "2014-04-17",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Aracataca",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q5878",
+  "sitelink": 207,
+  "fotograf": {
+   "dosya": "Gabriel Garcia Marquez.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jose Lara",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel_Garcia_Marquez.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gabriel_Garcia_Marquez.jpg"
+  },
+  "meslek": [
+   "Dizi oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Raffaello Sanzio",
+  "dogum_tarihi": "1483-04-15",
+  "vefat_tarihi": "1520-04-16",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Urbino",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Panteon",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q5597",
+  "sitelink": 195,
+  "fotograf": {
+   "dosya": "Raffaello Sanzio.jpg",
+   "lisans": "Public domain",
+   "yazar": "Raphael",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raffaello_Sanzio.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Raffaello Odaları”, “Sistina Meryemi”, “Meryem'in Evliliği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ockhamlı William",
+  "dogum_tarihi": "1287",
+  "vefat_tarihi": "1349-04-17",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ockham, Surrey",
+  "vefat_yeri": "Münih",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q43936",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "William of Ockham.png",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "self-created (Moscarlop)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_of_Ockham.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_of_Ockham.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sarvepalli Radhakrishnan",
+  "dogum_tarihi": "1888-09-05",
+  "vefat_tarihi": "1975-04-17",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Tiruttani",
+  "vefat_yeri": "Çennay",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q156349",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "Photograph of Sarvepalli Radhakrishnan presented to First Lady Jacqueline Kennedy in 1962.jpg",
+   "lisans": "Public domain",
+   "yazar": "White House",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Sarvepalli_Radhakrishnan_presented_to_First_Lady_Jacqueline_Kennedy_in_1962.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photograph_of_Sarvepalli_Radhakrishnan_presented_to_First_Lady_Jacqueline_Kennedy_in_1962.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, Pour le Mérite. Görev: Hindistan Cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Perrin",
+  "dogum_tarihi": "1870-09-30",
+  "vefat_tarihi": "1942-04-17",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Lille",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q134085",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Jean Perrin 1926.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Perrin_1926.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Perrin_1926.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lorenzo de' Medici",
+  "dogum_tarihi": "1449-01-10",
+  "vefat_tarihi": "1492-04-17",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Careggi",
+  "defin_yeri": "Medici Şapeli",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q177854",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Bottega di Agnolo di Cosimo, detto il Bronzino (Firenze 1503-1572) - Ritratto di Lorenzo il Magnifico - 865 - Uffizi Gallery (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Workshop of Bronzino",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bottega_di_Agnolo_di_Cosimo%2C_detto_il_Bronzino_%28Firenze_1503-1572%29_-_Ritratto_di_Lorenzo_il_Magnifico_-_865_-_Uffizi_Gallery_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bottega_di_Agnolo_di_Cosimo%2C_detto_il_Bronzino_%28Firenze_1503-1572%29_-_Ritratto_di_Lorenzo_il_Magnifico_-_865_-_Uffizi_Gallery_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Barbara Bush",
+  "dogum_tarihi": "1925-06-08",
+  "vefat_tarihi": "2018-04-17",
+  "vefat_yasi": 92,
+  "dogum_yeri": "NewYork–Presbyterian/Queens",
+  "vefat_yeri": "Houston",
+  "defin_yeri": "George Bush Presidential Library",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q190628",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Barbara Bush portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "David Valdez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbara_Bush_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Barbara_Bush_portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri'nde First Lady",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Juana Inés de la Cruz",
+  "dogum_tarihi": "1651-11-12",
+  "vefat_tarihi": "1695-04-17",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Nepantla de Sor Juana Inés de la Cruz",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": "Meksiko",
+  "defin_il": null,
+  "defin_ulke": "Meksika",
+  "wikidata_id": "Q183074",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Sor Juana Inés de la Cruz, 1732 - Fray Miguel de Herrera.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fray Miguel de Herrera",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sor_Juana_In%C3%A9s_de_la_Cruz%2C_1732_-_Fray_Miguel_de_Herrera.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sor_Juana_In%C3%A9s_de_la_Cruz%2C_1732_-_Fray_Miguel_de_Herrera.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alan García",
+  "dogum_tarihi": "1949-05-23",
+  "vefat_tarihi": "2019-04-17",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Lima",
+  "vefat_yeri": "Lima",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q167211",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Alan García presidente del Perú.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Ministerio de Relaciones Exteriores from Perú",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Garc%C3%ADa_presidente_del_Per%C3%BA.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alan_Garc%C3%ADa_presidente_del_Per%C3%BA.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Mugunghwa Büyük Nişanı. Görev: Peru Devlet Başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "shot to the head"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Donus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0678-04-17",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q103545",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Dono I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dono_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dono_I.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ }
+]

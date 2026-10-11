@@ -1,0 +1,317 @@
+[
+ {
+  "ad": "Fikret Kızılok",
+  "dogum_tarihi": "1946-11-10",
+  "vefat_tarihi": "2001-09-22",
+  "vefat_yasi": 54,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q3063992",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Giorgio Napolitano",
+  "dogum_tarihi": "1925-06-29",
+  "vefat_tarihi": "2023-09-22",
+  "vefat_yasi": 98,
+  "dogum_yeri": "Napoli",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Protestant Cemetery, Rome",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1220",
+  "sitelink": 113,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Mugunghwa Büyük Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, İtalya Devlet Başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frederick Soddy",
+  "dogum_tarihi": "1877-09-02",
+  "vefat_tarihi": "1956-09-22",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Eastbourne",
+  "vefat_yeri": "Brighton",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q102830",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Frederick Soddy.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Soddy.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Frederick_Soddy.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XIV. Clemens",
+  "dogum_tarihi": "1705-10-31",
+  "vefat_tarihi": "1774-09-22",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Santarcangelo di Romagna",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santi XII Apostoli Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q131587",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Giovanni Domenico Porta – Ritratto di papa Clemente XIV (c. 1770).jpg",
+   "lisans": "Public domain",
+   "yazar": "Original uploaded by: Museodellacittacquapendente",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_Domenico_Porta_%E2%80%93_Ritratto_di_papa_Clemente_XIV_%28c._1770%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Porta_%E2%80%93_Ritratto_di_papa_Clemente_XIV_%28c._1770%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Martinus",
+  "dogum_tarihi": "0598-06-23",
+  "vefat_tarihi": "0655-09-22",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Pian di San Martino",
+  "vefat_yeri": "Chersonesos Taurica",
+  "defin_yeri": "Chersonesos Taurica",
+  "defin_il": null,
+  "defin_ulke": "Ukrayna",
+  "wikidata_id": "Q172390",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "14 Chiesa di Santa Maria della Consolazione (Todi), el papa Martí I, de Carlo Laurenti.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Enric",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Irving Berlin",
+  "dogum_tarihi": "1888-05-11",
+  "vefat_tarihi": "1989-09-22",
+  "vefat_yasi": 101,
+  "dogum_yeri": "Talachyn",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Woodlawn Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q128746",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Irving Berlin (1907 portrait, NPG.93.388.3 - crop).jpg",
+   "lisans": "Public domain",
+   "yazar": "Pach Brothers",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Irving_Berlin_%281907_portrait%2C_NPG.93.388.3_-_crop%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Irving_Berlin_%281907_portrait%2C_NPG.93.388.3_-_crop%29.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, En İyi Özgün Şarkı Akademi Ödülü. Önemli eserleri: “White Christmas”, “Alexander's Ragtime Band”, “Blue Skies”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Victor",
+  "dogum_tarihi": "1027",
+  "vefat_tarihi": "1087-09-22",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Benevento",
+  "vefat_yeri": "Abbey of Monte Cassino",
+  "defin_yeri": "Abbey of Monte Cassino",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q227724",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Victor III. - Desiderius of Montecassino.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_III._-_Desiderius_of_Montecassino.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Victor_III._-_Desiderius_of_Montecassino.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başrahip, Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ivan Minçov Vazov",
+  "dogum_tarihi": "1850-07-09",
+  "vefat_tarihi": "1921-09-22",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Sopot",
+  "vefat_yeri": "Sofya",
+  "defin_yeri": "Ayasofya Camii",
+  "defin_il": null,
+  "defin_ulke": "Bulgaristan",
+  "wikidata_id": "Q310630",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "BASA-937K-1-410-7-Ivan Vazov (cropped).JPG",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BASA-937K-1-410-7-Ivan_Vazov_%28cropped%29.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:BASA-937K-1-410-7-Ivan_Vazov_%28cropped%29.JPG"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bulgaristan Ulusal Meclisi üyesi. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George C. Scott",
+  "dogum_tarihi": "1927-10-18",
+  "vefat_tarihi": "1999-09-22",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Wise",
+  "vefat_yeri": "Westlake Village",
+  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q182450",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "George C. Scott - publicity.JPG",
+   "lisans": "Public domain",
+   "yazar": "unknown photographer -",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_C._Scott_-_publicity.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:George_C._Scott_-_publicity.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “General Patton”, “Dr. Garipaşk”, “The Hospital”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marcel Marceau",
+  "dogum_tarihi": "1923-03-22",
+  "vefat_tarihi": "2007-09-22",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Strazburg",
+  "vefat_yeri": "Cahors",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q157191",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Marcel Marceau - 1971.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel_Marceau_-_1971.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marcel_Marceau_-_1971.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hilary Mantel",
+  "dogum_tarihi": "1952-07-06",
+  "vefat_tarihi": "2022-09-22",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Glossop",
+  "vefat_yeri": "Exeter",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q465700",
+  "sitelink": 57,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Man Booker Ödülü, fahri doktora. Aday olduğu ödül: Man Booker Ödülü, En İyi Oyun Tony Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Melanie Klein",
+  "dogum_tarihi": "1882-03-30",
+  "vefat_tarihi": "1960-09-22",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Golders Green Crematorium",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q82999",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Melanie Klein 1952.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Douglas Glass",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Melanie_Klein_1952.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Melanie_Klein_1952.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

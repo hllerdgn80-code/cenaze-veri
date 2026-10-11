@@ -1,0 +1,282 @@
+[
+ {
+  "ad": "Ali Bozer",
+  "dogum_tarihi": "1925-07-28",
+  "vefat_tarihi": "2020-09-30",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q459130",
+  "sitelink": 19,
+  "fotograf": {
+   "dosya": "Ali Bozer (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Benoît Bourgeois, European Communities",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Bozer_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Bozer_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "James Dean",
+  "dogum_tarihi": "1931-02-08",
+  "vefat_tarihi": "1955-09-30",
+  "vefat_yasi": 24,
+  "dogum_yeri": "Marion",
+  "vefat_yeri": "Cholame",
+  "defin_yeri": "Park Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q83359",
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "James Dean in Rebel Without a Cause.jpg",
+   "lisans": "Public domain",
+   "yazar": "In-house publicity still",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Dean_in_Rebel_Without_a_Cause.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Dean_in_Rebel_Without_a_Cause.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Theatre World Award",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Diesel",
+  "dogum_tarihi": "1858-03-18",
+  "vefat_tarihi": "1913-09-30",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Manş Denizi",
+  "defin_yeri": "deniz",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q12674",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Thérèse de Lisieux",
+  "dogum_tarihi": "1873-01-02",
+  "vefat_tarihi": "1897-09-30",
+  "vefat_yasi": 24,
+  "dogum_yeri": "Alençon",
+  "vefat_yeri": "Lisieux",
+  "defin_yeri": "Lisieux",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q181715",
+  "sitelink": 88,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Snorri Sturluson",
+  "dogum_tarihi": "1179",
+  "vefat_tarihi": "1241-09-30",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hvammur",
+  "vefat_yeri": "Reykholt",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q102323",
+  "sitelink": 80,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Heimskringla”, “Egils saga”, “Nesir Edda”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Martin Lewis Perl",
+  "dogum_tarihi": "1927-06-24",
+  "vefat_tarihi": "2014-09-30",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Palo Alto",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q107416",
+  "sitelink": 76,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simone Signoret",
+  "dogum_tarihi": "1921-03-25",
+  "vefat_tarihi": "1985-09-30",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Wiesbaden",
+  "vefat_yeri": "Autheuil-Authouillet",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q106126",
+  "sitelink": 75,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Francis Richter",
+  "dogum_tarihi": "1900-04-26",
+  "vefat_tarihi": "1985-09-30",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Overpeck",
+  "vefat_yeri": "Pasadena",
+  "defin_yeri": "Mountain View Cemetery and Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q184014",
+  "sitelink": 66,
+  "fotograf": null,
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Richter ölçeği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Margaret Hamilton",
+  "dogum_tarihi": "1936-08-17",
+  "vefat_tarihi": "2026-09-30",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Paoli",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q11628",
+  "sitelink": 64,
+  "fotograf": null,
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ralph M. Steinman",
+  "dogum_tarihi": "1943-01-14",
+  "vefat_tarihi": "2011-09-30",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Montreal",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q105494",
+  "sitelink": 59,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "André Lwoff",
+  "dogum_tarihi": "1902-05-08",
+  "vefat_tarihi": "1994-09-30",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Ainay-le-Château",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q223309",
+  "sitelink": 55,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nurhaci",
+  "dogum_tarihi": "1559-02-21",
+  "vefat_tarihi": "1626-09-30",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Hetu Ala City",
+  "vefat_yeri": "Xingcheng",
+  "defin_yeri": "Fuling Tomb",
+  "defin_il": null,
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q311189",
+  "sitelink": 54,
+  "fotograf": null,
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Çin imparatoru, han",
+  "hassas": false,
+  "turk": false
+ }
+]

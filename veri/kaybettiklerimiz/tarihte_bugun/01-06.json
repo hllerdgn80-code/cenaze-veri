@@ -1,0 +1,326 @@
+[
+ {
+  "ad": "Ahmet Adnan Saygun",
+  "dogum_tarihi": "1907-09-07",
+  "vefat_tarihi": "1991-01-06",
+  "vefat_yasi": 83,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q401118",
+  "sitelink": 24,
+  "fotograf": null,
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Devlet Sanatçısı. Önemli eserleri: “Yunus Emre Oratoryosu”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Azer Bülbül",
+  "dogum_tarihi": "1967-02-01",
+  "vefat_tarihi": "2012-01-06",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Arpaçay",
+  "vefat_yeri": "Antalya",
+  "defin_yeri": "Esenyurt",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6895627",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Theodore Roosevelt",
+  "dogum_tarihi": "1858-10-27",
+  "vefat_tarihi": "1919-01-06",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Sagamore Hill",
+  "defin_yeri": "Youngs Memorial Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q33866",
+  "sitelink": 192,
+  "fotograf": {
+   "dosya": "Theodore Roosevelt by the Pach Bros.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodore_Roosevelt_by_the_Pach_Bros.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gregor Mendel",
+  "dogum_tarihi": "1822-07-20",
+  "vefat_tarihi": "1884-01-06",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Hynčice",
+  "vefat_yeri": "Brno",
+  "defin_yeri": "Brno Central Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q37970",
+  "sitelink": 134,
+  "fotograf": {
+   "dosya": "Gregor Mendel 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregor_Mendel_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg"
+  },
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georg Cantor",
+  "dogum_tarihi": "1845-03-03",
+  "vefat_tarihi": "1918-01-06",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Halle",
+  "defin_yeri": "Friedhof Giebichenstein",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76420",
+  "sitelink": 115,
+  "fotograf": {
+   "dosya": "Georg Cantor2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georg_Cantor2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georg_Cantor2.jpg"
+  },
+  "meslek": [
+   "Matematikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sidney Poitier",
+  "dogum_tarihi": "1927-02-20",
+  "vefat_tarihi": "2022-01-06",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Miami",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q104049",
+  "sitelink": 100,
+  "fotograf": {
+   "dosya": "Sidney Poitier 1968.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sidney_Poitier_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sidney_Poitier_1968.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Louis Braille",
+  "dogum_tarihi": "1809-01-04",
+  "vefat_tarihi": "1852-01-06",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Coupvray",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q93182",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Engraving of Louis Braille by Henri Thiriat (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Henri Thiriat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Engraving_of_Louis_Braille_by_Henri_Thiriat_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Engraving_of_Louis_Braille_by_Henri_Thiriat_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Huell Howser",
+  "dogum_tarihi": "1945-10-18",
+  "vefat_tarihi": "2013-01-06",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Gallatin",
+  "vefat_yeri": "Palm Springs",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2837916",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Huell Howser Nisei Week Grand Parade 2007.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Joits",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Huell_Howser_Nisei_Week_Grand_Parade_2007.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Huell_Howser_Nisei_Week_Grand_Parade_2007.jpg"
+  },
+  "meslek": [
+   "Dizi oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “California's Gold”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pavel A. Cherenkov",
+  "dogum_tarihi": "1904-07-28",
+  "vefat_tarihi": "1990-01-06",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Novaya Chigla",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q76970",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Cerenkov.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cerenkov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cerenkov.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Nureyev",
+  "dogum_tarihi": "1938-03-17",
+  "vefat_tarihi": "1993-01-06",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Razdolnoe",
+  "vefat_yeri": "Levallois-Perret",
+  "defin_yeri": "Sainte-Geneviève-des-Bois Russian Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q84217",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Nureyev 9 Allan Warren.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Allan Warren",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nureyev_9_Allan_Warren.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nureyev_9_Allan_Warren.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Mehmed",
+  "dogum_tarihi": "1642-01-02",
+  "vefat_tarihi": "1693-01-06",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Edirne",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q170514",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Sultan Mehmed IV (2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultan_Mehmed_IV_%282%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Mehmed_IV_%282%29.jpg"
+  },
+  "meslek": [
+   "Sultan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vladimir Vernadski",
+  "dogum_tarihi": "1863-03-12",
+  "vefat_tarihi": "1945-01-06",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q316371",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "1934-V I Vernadsky.jpg",
+   "lisans": "Public domain",
+   "yazar": "АН СССР",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1934-V_I_Vernadsky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1934-V_I_Vernadsky.jpg"
+  },
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: SSCB Devlet Ödülü, Kızıl Bayrak İşçi Nişanı. Görev: profesör",
+  "hassas": false,
+  "turk": false
+ }
+]

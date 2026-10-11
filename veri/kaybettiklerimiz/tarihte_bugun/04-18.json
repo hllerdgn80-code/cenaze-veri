@@ -1,0 +1,330 @@
+[
+ {
+  "ad": "Oktay Rifat",
+  "dogum_tarihi": "1914-06-10",
+  "vefat_tarihi": "1988-04-18",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1388882",
+  "sitelink": 21,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sedat Simavi Edebiyat Ödülü, Necatigil Şiir Ödülü. Önemli eserleri: “Bir Kadının Penceresinden”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Q937",
+  "dogum_tarihi": "1879-03-14",
+  "vefat_tarihi": "1955-04-18",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Ulm",
+  "vefat_yeri": "Princeton",
+  "defin_yeri": "National Museum of Health and Medicine",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q937",
+  "sitelink": 321,
+  "fotograf": {
+   "dosya": "Albert Einstein Head cleaned.jpg",
+   "lisans": "Public domain",
+   "yazar": "Oren Jack Turner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_Einstein_Head_cleaned.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Thor Heyerdahl",
+  "dogum_tarihi": "1914-10-06",
+  "vefat_tarihi": "2002-04-18",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Larvik",
+  "vefat_yeri": "Colla Micheri",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q133622",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "ThorHeyerdahl.jpg",
+   "lisans": "Public domain",
+   "yazar": "uncredited",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ThorHeyerdahl.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ThorHeyerdahl.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Justus von Liebig",
+  "dogum_tarihi": "1803-05-12",
+  "vefat_tarihi": "1873-04-18",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Darmstadt",
+  "vefat_yeri": "Münih",
+  "defin_yeri": "Alter Südfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q16571",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Justus von Liebig. Stipple engraving. Wellcome V0003559.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Justus_von_Liebig._Stipple_engraving._Wellcome_V0003559.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Justus_von_Liebig._Stipple_engraving._Wellcome_V0003559.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Edward",
+  "dogum_tarihi": "1442-05-07",
+  "vefat_tarihi": "1483-04-18",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Rouen",
+  "vefat_yeri": "Westminster Sarayı",
+  "defin_yeri": "St George's Chapel, Windsor",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q160341",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Edward4.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward4.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edward4.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: York Dükü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Isoroku Yamamoto",
+  "dogum_tarihi": "1884-04-04",
+  "vefat_tarihi": "1943-04-18",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Nagaoka",
+  "vefat_yeri": "Bougainville",
+  "defin_yeri": "Tama Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q152325",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Yamamoto-Isoroku.jpg",
+   "lisans": "Public domain",
+   "yazar": "The Advance in Nippon 画報 躍進之日本 (Gaho Yakushin no Nihon)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamamoto-Isoroku.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yamamoto-Isoroku.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pavlonya Çiçekleri Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marcel Pagnol",
+  "dogum_tarihi": "1895-02-28",
+  "vefat_tarihi": "1974-04-18",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Aubagne",
+  "vefat_yeri": "16. arrondissement",
+  "defin_yeri": "La Treille cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q236630",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Pagnol Harcourt 1948.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pagnol_Harcourt_1948.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pagnol_Harcourt_1948.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “La Femme du Boulanger”. Görev: başkan, yardımcı doçent",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Proklos",
+  "dogum_tarihi": "0412-02-09",
+  "vefat_tarihi": "0485-04-18",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Atina",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q271809",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "In primum Euclidis elementorum librum 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Euclid Francesco Barozzi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/In_primum_Euclidis_elementorum_librum_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:In_primum_Euclidis_elementorum_librum_01.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William R. King",
+  "dogum_tarihi": "1786-04-07",
+  "vefat_tarihi": "1853-04-18",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Sampson ilçesi",
+  "vefat_yeri": "Selma",
+  "defin_yeri": "Live Oak Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q298985",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "WilliamRufusKing.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WilliamRufusKing.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:WilliamRufusKing.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Erasmus Darwin",
+  "dogum_tarihi": "1731-12-12",
+  "vefat_tarihi": "1802-04-18",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Elston Hall",
+  "vefat_yeri": "Breadsall Priory",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q234050",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Portrait of Erasmus Darwin by Joseph Wright of Derby (1792).jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Wright of Derby",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Erasmus_Darwin_by_Joseph_Wright_of_Derby_%281792%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Erasmus_Darwin_by_Joseph_Wright_of_Derby_%281792%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Roger Wolcott Sperry",
+  "dogum_tarihi": "1913-08-20",
+  "vefat_tarihi": "1994-04-17",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Hartford",
+  "vefat_yeri": "Pasadena",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q232305",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Roger Wolcott Sperry.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger_Wolcott_Sperry.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Roger_Wolcott_Sperry.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gustave Moreau",
+  "dogum_tarihi": "1826-04-06",
+  "vefat_tarihi": "1898-04-18",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Rennes",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q203828",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "GustaveMoreau02.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gustave Moreau",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GustaveMoreau02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GustaveMoreau02.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

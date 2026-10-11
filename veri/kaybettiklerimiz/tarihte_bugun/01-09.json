@@ -1,0 +1,329 @@
+[
+ {
+  "ad": "Halide Edib Adıvar",
+  "dogum_tarihi": "1884-06-11",
+  "vefat_tarihi": "1964-01-09",
+  "vefat_yasi": 79,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Merkezefendi Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q234289",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Halide adivar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halide_adivar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Halide_adivar.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Cemal Süreya",
+  "dogum_tarihi": "1931",
+  "vefat_tarihi": "1990-01-09",
+  "vefat_yasi": 59,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzincan",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Kulaksız Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q982905",
+  "sitelink": 21,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Türk Dil Kurumu Şiir Ödülü, Necatigil Şiir Ödülü. Önemli eserleri: “Göçebe”, “Üvercinka”, “Sevda Sözleri”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ahmet Hamdi Akseki",
+  "dogum_tarihi": "1887",
+  "vefat_tarihi": "1951-01-09",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Akseki",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6070251",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Diyanet İşleri Başkanı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Napoléon III",
+  "dogum_tarihi": "1808-04-20",
+  "vefat_tarihi": "1873-01-09",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Chislehurst",
+  "defin_yeri": "Sarcophagus of Emperor Napoleon III",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q7721",
+  "sitelink": 128,
+  "fotograf": {
+   "dosya": "Napoleon III by Mayer & Pierson c1860 (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "Mayer & Peirson, France",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Napoleon_III_by_Mayer_%26_Pierson_c1860_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Napoleon_III_by_Mayer_%26_Pierson_c1860_%28cropped%29.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı. Görev: Fransa Cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Verlaine",
+  "dogum_tarihi": "1844-03-30",
+  "vefat_tarihi": "1896-01-08",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Metz",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Batignolles Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q755",
+  "sitelink": 118,
+  "fotograf": {
+   "dosya": "Paul Verlaine.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Otto Wegener",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Verlaine.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Verlaine.jpeg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Emily Greene Balch",
+  "dogum_tarihi": "1867-01-08",
+  "vefat_tarihi": "1961-01-09",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Jamaica Plain",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": "Forest Hills Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q215139",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "EmilyGreeneBalch.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EmilyGreeneBalch.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:EmilyGreeneBalch.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Vittorio Emanuele",
+  "dogum_tarihi": "1820-03-14",
+  "vefat_tarihi": "1878-01-09",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Torino",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Panteon",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q168691",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "VictorEmmanuel2 (3).jpg",
+   "lisans": "Public domain",
+   "yazar": "Eugène Disdéri",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/VictorEmmanuel2_%283%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:VictorEmmanuel2_%283%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Altın Post Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Maria Gaetana Agnesi",
+  "dogum_tarihi": "1718-05-16",
+  "vefat_tarihi": "1799-01-09",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Milano",
+  "vefat_yeri": "Milano",
+  "defin_yeri": "Cimitero Monumentale di Milano",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q200392",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Maria Gaetana Agnesi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Gaetana_Agnesi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maria_Gaetana_Agnesi.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IX. Johannes",
+  "dogum_tarihi": "0840",
+  "vefat_tarihi": "0900-01-09",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Tivoli",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q227961",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "John IX.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_IX.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_IX.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Caroline Herschel",
+  "dogum_tarihi": "1750-03-16",
+  "vefat_tarihi": "1848-01-09",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Hannover",
+  "vefat_yeri": "Hannover",
+  "defin_yeri": "Gartenfriedhof (Hanover)",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76948",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "1829 Melchior Gommar Tieleman, Ölgemälde Caroline Herschel Hannover.tif",
+   "lisans": "Public domain",
+   "yazar": "Ölgemälde: Melchior Gommar Tieleman; Foto des gemeinfreien Gemäldes: unbekannt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1829_Melchior_Gommar_Tieleman%2C_%C3%96lgem%C3%A4lde_Caroline_Herschel_Hannover.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1829_Melchior_Gommar_Tieleman%2C_%C3%96lgem%C3%A4lde_Caroline_Herschel_Hannover.tif"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bob Saget",
+  "dogum_tarihi": "1956-05-17",
+  "vefat_tarihi": "2022-01-09",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Philadelphia",
+  "vefat_yeri": "Orlando",
+  "defin_yeri": "Mount Sinai Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q333544",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Bob Saget, Behind The Velvet Rope TV .05.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Behind The Velvet Rope TV",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob_Saget%2C_Behind_The_Velvet_Rope_TV_.05.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bob_Saget%2C_Behind_The_Velvet_Rope_TV_.05.jpg"
+  },
+  "meslek": [
+   "Stand-up komedyeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Bizim Ev”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Katherine Mansfield",
+  "dogum_tarihi": "1888-10-14",
+  "vefat_tarihi": "1923-01-09",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Wellington",
+  "vefat_yeri": "Avon",
+  "defin_yeri": "Avon Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q270632",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Katherine Mansfield (no signature).jpg",
+   "lisans": "Public domain",
+   "yazar": "Original: UnknownUnknown Derivative work: Carnby",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Katherine_Mansfield_%28no_signature%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Katherine_Mansfield_%28no_signature%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

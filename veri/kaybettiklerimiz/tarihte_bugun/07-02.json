@@ -1,0 +1,271 @@
+[
+ {
+  "ad": "Fatma Seher Erden",
+  "dogum_tarihi": "1888",
+  "vefat_tarihi": "1955-07-02",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzurum",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Kulaksız Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q3701685",
+  "sitelink": 15,
+  "fotograf": null,
+  "meslek": [
+   "Asker"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Jean-Jacques Rousseau",
+  "dogum_tarihi": "1712-06-28",
+  "vefat_tarihi": "1778-07-02",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Cenevre",
+  "vefat_yeri": "Ermenonville",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q6527",
+  "sitelink": 233,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Emile ya da Eğitim Üzerine”, “Toplum Sözleşmesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernest Hemingway",
+  "dogum_tarihi": "1899-07-21",
+  "vefat_tarihi": "1961-07-02",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Oak Park",
+  "vefat_yeri": "Ketchum",
+  "defin_yeri": "Ketchum Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q23434",
+  "sitelink": 208,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Vladimir Nabokov",
+  "dogum_tarihi": "1899-04-22",
+  "vefat_tarihi": "1977-07-02",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Montreux",
+  "defin_yeri": "Cemetery of Clarens",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q36591",
+  "sitelink": 152,
+  "fotograf": null,
+  "meslek": [
+   "Satranç oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Lolita”, “Lujin Savunması”, “Solgun Ateş”. Aday olduğu ödül: Nobel Edebiyat Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Stewart",
+  "dogum_tarihi": "1908-05-20",
+  "vefat_tarihi": "1997-07-02",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Indiana",
+  "vefat_yeri": "Beverly Hills",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102462",
+  "sitelink": 97,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Gümüş Ayı. Önemli eserleri: “You Can't Take it With You”, “Two Rode Together”, “The Shop Around the Corner”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mario Puzo",
+  "dogum_tarihi": "1920-10-15",
+  "vefat_tarihi": "1999-07-02",
+  "vefat_yasi": 78,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Long Island",
+  "defin_yeri": "North Babylon Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q182870",
+  "sitelink": 87,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Writers Guild of America Ödülleri, En İyi Uyarlama Senaryo Akademi Ödülü. Önemli eserleri: “Baba”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Porfirio Díaz",
+  "dogum_tarihi": "1830-09-15",
+  "vefat_tarihi": "1915-07-02",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Oaxaca de Juárez",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q150688",
+  "sitelink": 81,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: bakan, Meksika Başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Paulus",
+  "dogum_tarihi": "0700",
+  "vefat_tarihi": "0767-07-02",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q103404",
+  "sitelink": 81,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Peel",
+  "dogum_tarihi": "1788-02-05",
+  "vefat_tarihi": "1850-07-02",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Ramsbottom",
+  "vefat_yeri": "Westminster",
+  "defin_yeri": "Church of St Peter, Drayton Bassett",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q181875",
+  "sitelink": 77,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Douglas Engelbart",
+  "dogum_tarihi": "1925-01-30",
+  "vefat_tarihi": "2013-07-02",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Portland",
+  "vefat_yeri": "Atherton",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q92614",
+  "sitelink": 74,
+  "fotograf": null,
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: IEEE John von Neumann Madalyası, Turing Ödülü. Önemli eserleri: “İnsan bilgisayar etkileşimi”, “grafiksel kullanıcı arayüzü”, “fare”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrey Gromıko",
+  "dogum_tarihi": "1909-07-18",
+  "vefat_tarihi": "1989-07-02",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Staryja Hramykі",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q184267",
+  "sitelink": 74,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sosyalist Emek Kahramanı ünvanı, \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Otuz Yılı\" Jübile Madalyası. Görev: Sovyetler Birliği Birinci Başbakan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georgi Dimitrov Mihaylov",
+  "dogum_tarihi": "1882-06-30",
+  "vefat_tarihi": "1949-07-02",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Demirciler",
+  "vefat_yeri": "Barvikha",
+  "defin_yeri": "Central Sofia Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Bulgaristan",
+  "wikidata_id": "Q155074",
+  "sitelink": 74,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Bulgaristan Başbakanı, Bulgaristan Ulusal Meclisi üyesi",
+  "hassas": false,
+  "turk": false
+ }
+]

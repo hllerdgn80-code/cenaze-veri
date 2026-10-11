@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Lale Oraloğlu",
+  "dogum_tarihi": "1924-08-15",
+  "vefat_tarihi": "2007-01-15",
+  "vefat_yasi": 82,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6480242",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Rosa Luxemburg",
+  "dogum_tarihi": "1871-03-05",
+  "vefat_tarihi": "1919-01-15",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Zamość",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Friedrichsfelde Merkez Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q7231",
+  "sitelink": 190,
+  "fotograf": {
+   "dosya": "Rosa Luxemburg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_Luxemburg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosa_Luxemburg.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Karl Liebknecht",
+  "dogum_tarihi": "1871-08-13",
+  "vefat_tarihi": "1919-01-15",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Leipzig",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "The Socialists' Memorial",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q75886",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Karl Liebknecht portrait (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Liebknecht_portrait_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Karl_Liebknecht_portrait_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Alman İmparatorluğu'nda Reichstag üyesi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "VI. Ioannes",
+  "dogum_tarihi": "0655",
+  "vefat_tarihi": "0705-01-15",
+  "vefat_yasi": 50,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Efes",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q199487",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Ioannes VI. Giovanni VI, papa (LXXXVII.).jpg",
+   "lisans": "CC0",
+   "yazar": "Oleografia Panigati e Meneghini Milano",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_VI._Giovanni_VI%2C_papa_%28LXXXVII.%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ioannes_VI._Giovanni_VI%2C_papa_%28LXXXVII.%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Caelestinus",
+  "dogum_tarihi": "1106",
+  "vefat_tarihi": "1198-01-15",
+  "vefat_yasi": 92,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Giovanni in Laterano Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q103437",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Coelestin III (cropped 2).png",
+   "lisans": "Public domain",
+   "yazar": "Peter of Eboli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coelestin_III_%28cropped_2%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Coelestin_III_%28cropped_2%29.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dolores O'Riordan",
+  "dogum_tarihi": "1971-09-06",
+  "vefat_tarihi": "2018-01-15",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Ballybricken North",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Caherelly",
+  "defin_il": null,
+  "defin_ulke": "İrlanda",
+  "wikidata_id": "Q541599",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Dolores O'Riordan 2016 (cropped).jpeg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Bart Notermans from Rotterdam, The Netherlands",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolores_O%27Riordan_2016_%28cropped%29.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dolores_O%27Riordan_2016_%28cropped%29.jpeg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Zombie”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marshall Warren Nirenberg",
+  "dogum_tarihi": "1927-04-10",
+  "vefat_tarihi": "2010-01-15",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": "Sharon Gardens Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q110060",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Marshall Nirenberg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hecht, Gerald V. (National Institutes of Health).",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marshall_Nirenberg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marshall_Nirenberg.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası. Önemli eserleri: “genetik kod”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Seán MacBride",
+  "dogum_tarihi": "1904-01-26",
+  "vefat_tarihi": "1988-01-15",
+  "vefat_yasi": 83,
+  "dogum_yeri": "16. arrondissement",
+  "vefat_yeri": "Dublin",
+  "defin_yeri": "Glasnevin Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İrlanda",
+  "wikidata_id": "Q244395",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Seán MacBride 1984.jpg",
+   "lisans": "CC0",
+   "yazar": "Bogaerts, Rob / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Se%C3%A1n_MacBride_1984.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Se%C3%A1n_MacBride_1984.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Stavrakios",
+  "dogum_tarihi": "0775",
+  "vefat_tarihi": "0812-01-15",
+  "vefat_yasi": 37,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q237587",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Solidus-Stauracius.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Panairjdde",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidus-Stauracius.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Solidus-Stauracius.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Shojiro Sugimura",
+  "dogum_tarihi": "1905-04-04",
+  "vefat_tarihi": "1975-01-15",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Osaka",
+  "vefat_yeri": "Bunkyō",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2535753",
+  "sitelink": 50,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": "Japon futbolcu (1905 – 1975)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Carol Channing",
+  "dogum_tarihi": "1921-01-31",
+  "vefat_tarihi": "2019-01-15",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Seattle",
+  "vefat_yeri": "Rancho Mirage",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q237287",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Carol Channing colour Allan Warren.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Allan Warren",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carol_Channing_colour_Allan_Warren.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carol_Channing_colour_Allan_Warren.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Kadın Oyuncu Tony Ödülü (Müzikal), Theatre World Award. Aday olduğu ödül: En İyi Yardımcı Kadın Oyuncu Akademi Ödülü, En İyi Kadın Oyuncu Tony Ödülü (Müzikal)",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Christopher (Kalmar Birliği kralı)",
+  "dogum_tarihi": "1416-02-26",
+  "vefat_tarihi": "1448-01-15",
+  "vefat_yasi": 31,
+  "dogum_yeri": "Neumarkt in der Oberpfalz",
+  "vefat_yeri": "Helsingborg",
+  "defin_yeri": "Roskilde Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Danimarka",
+  "wikidata_id": "Q58056",
+  "sitelink": 45,
+  "fotograf": {
+   "dosya": "Kristoffer, 1418-48, av Bayern konung av Danmark Norge och Sverige - Nationalmuseum - 15050.tif",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristoffer%2C_1418-48%2C_av_Bayern_konung_av_Danmark_Norge_och_Sverige_-_Nationalmuseum_-_15050.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kristoffer%2C_1418-48%2C_av_Bayern_konung_av_Danmark_Norge_och_Sverige_-_Nationalmuseum_-_15050.tif"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: İsveç Kraliyet Ailesi, Norveç kralı",
+  "hassas": false,
+  "turk": false
+ }
+]

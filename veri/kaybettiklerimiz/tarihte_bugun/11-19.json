@@ -1,0 +1,273 @@
+[
+ {
+  "ad": "Ömer Lütfi Akad",
+  "dogum_tarihi": "1916-09-02",
+  "vefat_tarihi": "2011-11-19",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Ulus Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q3176600",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "LutfiAkad-LeventEv.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": "Serdar Pehlivanoğlu",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LutfiAkad-LeventEv.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:LutfiAkad-LeventEv.jpg"
+  },
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Göç Üçlemesi”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Franz Schubert",
+  "dogum_tarihi": "1797-01-31",
+  "vefat_tarihi": "1828-11-19",
+  "vefat_yasi": 31,
+  "dogum_yeri": "Himmelpfortgrund",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Zentralfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q7312",
+  "sitelink": 174,
+  "fotograf": null,
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Winterreise”, “Ave Maria”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Manson",
+  "dogum_tarihi": "1934-11-12",
+  "vefat_tarihi": "2017-11-19",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Cincinnati",
+  "vefat_yeri": "Bakersfield",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q485508",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Müzisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nicolas Poussin",
+  "dogum_tarihi": "1594-06",
+  "vefat_tarihi": "1665-11-19",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Les Andelys",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Lorenzo in Lucina Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q41554",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frederick Sanger",
+  "dogum_tarihi": "1918-08-13",
+  "vefat_tarihi": "2013-11-19",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Rendcomb",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q151564",
+  "sitelink": 87,
+  "fotograf": null,
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rosalynn Carter",
+  "dogum_tarihi": "1927-08-18",
+  "vefat_tarihi": "2023-11-19",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Plains",
+  "vefat_yeri": "Jimmy Carter House",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q219353",
+  "sitelink": 73,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame, Başkanlık Özgürlük Madalyası. Görev: Amerika Birleşik Devletleri'nde First Lady",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giorgio de Chirico",
+  "dogum_tarihi": "1888-07-10",
+  "vefat_tarihi": "1978-11-20",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Volos",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Francesco a Ripa Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q156622",
+  "sitelink": 66,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kazimierz Funk",
+  "dogum_tarihi": "1884-02-23",
+  "vefat_tarihi": "1967-11-20",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Varşova",
+  "vefat_yeri": "Albany",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q28738",
+  "sitelink": 62,
+  "fotograf": null,
+  "meslek": [
+   "Politika yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mike Nichols",
+  "dogum_tarihi": "1931-11-06",
+  "vefat_tarihi": "2014-11-19",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Berlin",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q51537",
+  "sitelink": 61,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: BAFTA En İyi Yönetmen Ödülü, En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Leonid Gayday",
+  "dogum_tarihi": "1923-01-30",
+  "vefat_tarihi": "1993-11-19",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Svobodni",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Kuntsevo Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q312480",
+  "sitelink": 61,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Kırk Yılı\" Jübile Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Erving Goffman",
+  "dogum_tarihi": "1922-06-11",
+  "vefat_tarihi": "1982-11-19",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Mannville",
+  "vefat_yeri": "Philadelphia",
+  "defin_yeri": "Mount Lebanon Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q314471",
+  "sitelink": 60,
+  "fotograf": null,
+  "meslek": [
+   "Kurgu olmayan eser yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard Mentor Johnson",
+  "dogum_tarihi": "1780-10-17",
+  "vefat_tarihi": "1850-11-19",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Louisville",
+  "vefat_yeri": "Frankfort",
+  "defin_yeri": "Frankfort Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q109463",
+  "sitelink": 55,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ }
+]

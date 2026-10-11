@@ -1,0 +1,340 @@
+[
+ {
+  "ad": "Blaise Pascal",
+  "dogum_tarihi": "1623-06-19",
+  "vefat_tarihi": "1662-08-19",
+  "vefat_yasi": 39,
+  "dogum_yeri": "birth house of Blaise Pascal",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Saint-Étienne-du-Mont",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q1290",
+  "sitelink": 195,
+  "fotograf": {
+   "dosya": "Blaise Pascal Versailles.JPG",
+   "lisans": "Public domain",
+   "yazar": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck en 1691[réf. nécessaire].",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blaise_Pascal_Versailles.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles.JPG"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Pascal teoremi”, “Pascal'ın Bahsi”, “Pascal'ın Hesap Makinesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Honoré de Balzac",
+  "dogum_tarihi": "1799-05-20",
+  "vefat_tarihi": "1850-08-18",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Tours",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Balzac and Ewelina Hańska Mezarı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q9711",
+  "sitelink": 176,
+  "fotograf": {
+   "dosya": "Honoré de Balzac (1842) detail.jpg",
+   "lisans": "Public domain",
+   "yazar": "Louis-Auguste Bisson",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honor%C3%A9_de_Balzac_%281842%29_detail.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_de_Balzac_%281842%29_detail.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Goriot Baba”, “Tılsımlı Deri”, “Eugénie Grandet”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Federico García Lorca",
+  "dogum_tarihi": "1898-06-05",
+  "vefat_tarihi": "1936-08-19",
+  "vefat_yasi": 38,
+  "dogum_yeri": "Fuente Vaqueros",
+  "vefat_yeri": "Víznar",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q41408",
+  "sitelink": 143,
+  "fotograf": {
+   "dosya": "Federico García Lorca. Huerta de San Vicente, Granada.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Federico_Garc%C3%ADa_Lorca._Huerta_de_San_Vicente%2C_Granada.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Federico_Garc%C3%ADa_Lorca._Huerta_de_San_Vicente%2C_Granada.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kız Kurusu Gül Hanım”, “Bernarda Alba'nın Evi”, “Kanlı Düğün (oyun)”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "katliam"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Linus Pauling",
+  "dogum_tarihi": "1901-02-28",
+  "vefat_tarihi": "1994-08-19",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Portland",
+  "vefat_yeri": "Big Sur",
+  "defin_yeri": "Oswego Pioneer Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q48983",
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "Linus Pauling 1962.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Linus_Pauling_1962.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Linus_Pauling_1962.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Groucho Marx",
+  "dogum_tarihi": "1890-10-02",
+  "vefat_tarihi": "1977-08-19",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Cedars-Sinai Medical Center",
+  "defin_yeri": "Eden Anıt Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q103846",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Groucho Marx - portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "ABC Photo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Groucho_Marx_-_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Groucho_Marx_-_portrait.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Peabody Ödülü. Önemli eserleri: “Duck Soup (film, 1933)”, “A Night at the Opera (film)”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vilfredo Pareto",
+  "dogum_tarihi": "1848-07-15",
+  "vefat_tarihi": "1923-08-19",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Céligny",
+  "defin_yeri": "New cemetery of Céligny",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q11031",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Vilfredo Pareto 1870s2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vilfredo_Pareto_1870s2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vilfredo_Pareto_1870s2.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alcide De Gasperi",
+  "dogum_tarihi": "1881-04-03",
+  "vefat_tarihi": "1954-08-19",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Pieve Tesino",
+  "vefat_yeri": "Borgo Valsugana",
+  "defin_yeri": "San Lorenzo fuori le mura Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q153832",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Alcide De Gasperi 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Presidenza Del Consiglio Dei Ministri",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcide_De_Gasperi_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alcide_De_Gasperi_2.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Avrupa Parlamentosu Başkanı, İtalya Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Helena",
+  "dogum_tarihi": "0250",
+  "vefat_tarihi": "0330-08-19",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Helenopolis",
+  "vefat_yeri": "Nicomedia",
+  "defin_yeri": "Lateran",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q170164",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "0 Statue de Sainte Hélène par Andrea Bolgi - Basilique St-Pierre - Vatican.JPG",
+   "lisans": "CC BY 3.0",
+   "yazar": "Jean-Pol GRANDMONT",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/0_Statue_de_Sainte_H%C3%A9l%C3%A8ne_par_Andrea_Bolgi_-_Basilique_St-Pierre_-_Vatican.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:0_Statue_de_Sainte_H%C3%A9l%C3%A8ne_par_Andrea_Bolgi_-_Basilique_St-Pierre_-_Vatican.JPG"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Gamow",
+  "dogum_tarihi": "1904-03-04",
+  "vefat_tarihi": "1968-08-19",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Odessa",
+  "vefat_yeri": "Boulder",
+  "defin_yeri": "Green Mountain Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q59478",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "格·安·伽莫夫.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown, dedicated to Bettmann Archive",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%A0%BC%C2%B7%E5%AE%89%C2%B7%E4%BC%BD%E8%8E%AB%E5%A4%AB.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%E6%A0%BC%C2%B7%E5%AE%89%C2%B7%E4%BC%BD%E8%8E%AB%E5%A4%AB.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “1-2-3 Sonsuz... Sonsuz Bilimin Gerçekleri ve Çözümlenmesi”, “Kozmik mikrodalga arkaplan ışıması”. Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William-Adolphe Bouguereau",
+  "dogum_tarihi": "1825-11-30",
+  "vefat_tarihi": "1905-08-19",
+  "vefat_yasi": 79,
+  "dogum_yeri": "La Rochelle",
+  "vefat_yeri": "La Rochelle",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q483992",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "William-Adolphe Bouguereau photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographerUnknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William-Adolphe_Bouguereau_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William-Adolphe_Bouguereau_photo.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Prix de Rome, Katolik Isabel Nişanı Kumandanı. Önemli eserleri: “Venüs'ün Doğuşu”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Roland",
+  "dogum_tarihi": "0737",
+  "vefat_tarihi": "0778-08-19",
+  "vefat_yasi": 41,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": "Roncevaux Pass",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q207535",
+  "sitelink": 60,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Avitus",
+  "dogum_tarihi": "0395",
+  "vefat_tarihi": "0457-08-19",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Clermont-Ferrand",
+  "vefat_yeri": "Galya",
+  "defin_yeri": "Brioude",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q203198",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Tremissis Avitus-RIC 2402.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tremissis_Avitus-RIC_2402.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tremissis_Avitus-RIC_2402.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Romalı konsül, Piskopos",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ }
+]

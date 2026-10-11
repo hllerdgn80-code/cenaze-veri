@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "Mustafa Kemal Atatürk",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1938-11-10",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Selanik",
+  "vefat_yeri": "Dolmabahçe Sarayı",
+  "defin_yeri": "Anıtkabir",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q5152",
+  "sitelink": 253,
+  "fotograf": {
+   "dosya": "Atatürk Kemal.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Atat%C3%BCrk_Kemal.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Kemal.jpg"
+  },
+  "meslek": [
+   "Cumhurbaşkanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Lev Tolstoy",
+  "dogum_tarihi": "1828-09-09",
+  "vefat_tarihi": "1910-11-20",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Yasnaya Polyana",
+  "vefat_yeri": "Astapovo",
+  "defin_yeri": "Yasnaya Polyana",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q7243",
+  "sitelink": 282,
+  "fotograf": {
+   "dosya": "L.N.Tolstoy Prokudin-Gorsky.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sergei Prokudin-Gorskii",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L.N.Tolstoy_Prokudin-Gorsky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:L.N.Tolstoy_Prokudin-Gorsky.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Çocukluk”, “Tanrı'nın Hükümdarlığı Kendi İçimizdedir”, “Diriliş”. Aday olduğu ödül: Nobel Barış Ödülü, Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arthur Rimbaud",
+  "dogum_tarihi": "1854-10-20",
+  "vefat_tarihi": "1891-11-10",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Charleville",
+  "vefat_yeri": "Marsilya",
+  "defin_yeri": "Boutet Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q493",
+  "sitelink": 144,
+  "fotograf": {
+   "dosya": "Rimbaud.PNG",
+   "lisans": "Public domain",
+   "yazar": "Étienne Carjat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rimbaud.PNG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rimbaud.PNG"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Cehennemde Bir Mevsim”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Leonid Brejnev",
+  "dogum_tarihi": "1906-12-19",
+  "vefat_tarihi": "1982-11-10",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Kamyans'ke",
+  "vefat_yeri": "Zarechye",
+  "defin_yeri": "Kremlin Duvarı Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q765165",
+  "sitelink": 139,
+  "fotograf": {
+   "dosya": "Leonid Brezjnev, leider van de Sovjet-Unie, Bestanddeelnr 925-6564.jpg",
+   "lisans": "CC0",
+   "yazar": "Vladimir Musaelyan",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Leonid_Brezjnev%2C_leider_van_de_Sovjet-Unie%2C_Bestanddeelnr_925-6564.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, Kızıl Bayrak Nişanı. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Helmut Schmidt",
+  "dogum_tarihi": "1918-12-23",
+  "vefat_tarihi": "2015-11-10",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Hamburg",
+  "vefat_yeri": "Hamburg",
+  "defin_yeri": "Ohlsdorf Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2516",
+  "sitelink": 111,
+  "fotograf": {
+   "dosya": "Bundeskanzler Helmut Schmidt.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Hans Schafgans",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundeskanzler_Helmut_Schmidt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundeskanzler_Helmut_Schmidt.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Onursal vatandaşlık, fahri doktora. Görev: Avrupa Parlamentosu milletvekilliği, Dışişleri Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Miriam Makeba",
+  "dogum_tarihi": "1932-03-04",
+  "vefat_tarihi": "2008-11-09",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Johannesburg",
+  "vefat_yeri": "Castel Volturno",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q146256",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Miriam Makeba (1968).png",
+   "lisans": "Public domain",
+   "yazar": "Reprise Records",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miriam_Makeba_%281968%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Miriam_Makeba_%281968%29.png"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: En İyi Yeni Sanatçı Grammy Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Norman Mailer",
+  "dogum_tarihi": "1923-01-31",
+  "vefat_tarihi": "2007-11-10",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Long Branch",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Provincetown Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q180962",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Oliver Mark - Norman Mailer, Berlin 2002.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oliver_Mark_-_Norman_Mailer%2C_Berlin_2002.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Norman_Mailer%2C_Berlin_2002.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En Kötü Yönetmen Razzie Ödülü, Kurgu dalında Pulitzer Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ken Kesey",
+  "dogum_tarihi": "1935-09-17",
+  "vefat_tarihi": "2001-11-10",
+  "vefat_yasi": 66,
+  "dogum_yeri": "La Junta",
+  "vefat_yeri": "Sacred Heart Medical Center University District",
+  "defin_yeri": "Kesey Family Farm Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q244390",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Ken Kesey in Pasadena in 1974 from The Big T 1974 (page 45 crop).jpg",
+   "lisans": "Public domain",
+   "yazar": "Associated Students of the California Institute of Technology (ASCIT)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken_Kesey_in_Pasadena_in_1974_from_The_Big_T_1974_%28page_45_crop%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ken_Kesey_in_Pasadena_in_1974_from_The_Big_T_1974_%28page_45_crop%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jack Palance",
+  "dogum_tarihi": "1919-02-18",
+  "vefat_tarihi": "2006-11-10",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Lattimer",
+  "vefat_yeri": "Montecito",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q193653",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Jack Palance - 1954 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "20th Century Fox",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack_Palance_-_1954_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jack_Palance_-_1954_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Enke",
+  "dogum_tarihi": "1977-08-24",
+  "vefat_tarihi": "2009-11-10",
+  "vefat_yasi": 32,
+  "dogum_yeri": "Jena",
+  "vefat_yeri": "Neustadt am Rübenberge",
+  "defin_yeri": "Empede",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q107089",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Robert Enke 3.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Original by User:Ina96",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Enke_3.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Enke_3.JPG"
+  },
+  "meslek": [],
+  "aciklama": "Alman futbolcu",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Władysław",
+  "dogum_tarihi": "1424-10-31",
+  "vefat_tarihi": "1444-11-10",
+  "vefat_yasi": 20,
+  "dogum_yeri": "Kraków",
+  "vefat_yeri": "Varna",
+  "defin_yeri": "Wawel Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q54053",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Ladislaus varna.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Jan Matejko",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ladislaus_varna.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ladislaus_varna.jpeg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Yannis Vatatzes",
+  "dogum_tarihi": "1192",
+  "vefat_tarihi": "1254-11-10",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Dimetoka",
+  "vefat_yeri": "Nimfeo (İzmir)",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q37072",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "John III Doukas Vatatzes.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown Byzantine artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_III_Doukas_Vatatzes.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_III_Doukas_Vatatzes.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

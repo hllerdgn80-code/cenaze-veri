@@ -1,0 +1,322 @@
+[
+ {
+  "ad": "Attila İlhan",
+  "dogum_tarihi": "1925-06-15",
+  "vefat_tarihi": "2005-10-10",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Menemen",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Aşiyan Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q758126",
+  "sitelink": 21,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Türk Dil Kurumu Şiir Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mehmed Uzun",
+  "dogum_tarihi": "1953-01-01",
+  "vefat_tarihi": "2007-10-10",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Siverek",
+  "vefat_yeri": "Diyarbakır",
+  "defin_yeri": "Mardinkapı Mezarlığı",
+  "defin_il": "Diyarbakır",
+  "defin_ulke": null,
+  "wikidata_id": "Q741754",
+  "sitelink": 20,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Behice Boran",
+  "dogum_tarihi": "1910-05-01",
+  "vefat_tarihi": "1987-10-10",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "Brüksel",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2377908",
+  "sitelink": 18,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ahmet Refik Altınay",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1937-10-10",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beşiktaş",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6102857",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "AhmetRefik.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ahmet Refik - Two committees. Two Massacres. Published 1919.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AhmetRefik.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AhmetRefik.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Assisili Francesco",
+  "dogum_tarihi": "1182-07-01",
+  "vefat_tarihi": "1226-10-10",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Assisi",
+  "vefat_yeri": "Portiuncula",
+  "defin_yeri": "Assisili Francesco Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q676555",
+  "sitelink": 139,
+  "fotograf": {
+   "dosya": "StFrancis part.jpg",
+   "lisans": "Public domain",
+   "yazar": "Parzi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/StFrancis_part.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:StFrancis_part.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Laudes creaturarum”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Orson Welles",
+  "dogum_tarihi": "1915-05-06",
+  "vefat_tarihi": "1985-10-10",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Kenosha",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Ronda",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q24829",
+  "sitelink": 113,
+  "fotograf": {
+   "dosya": "Orson Welles 1937 cr3-4.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Van Vechten",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orson_Welles_1937_cr3-4.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Orson_Welles_1937_cr3-4.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Film National Board of Review Ödülü, Altın Palmiye. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Abel Tasman",
+  "dogum_tarihi": "1603",
+  "vefat_tarihi": "1659-10-10",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Lutjegast",
+  "vefat_yeri": "Cakarta",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q42188",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "Abel Tasman Navigateur en Australie (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sirimavo Bandaranaike",
+  "dogum_tarihi": "1916-04-17",
+  "vefat_tarihi": "2000-10-10",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Baḷangoḍa",
+  "vefat_yeri": "Kadawatha",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q194291",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "S. Bandaranaike w Polsce (Sirimavo cropped close).jpg",
+   "lisans": "Public domain",
+   "yazar": "Centralna Agencja Fotograficzna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S._Bandaranaike_w_Polsce_%28Sirimavo_cropped_close%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:S._Bandaranaike_w_Polsce_%28Sirimavo_cropped_close%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Sri Lanka başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dazlak Karl",
+  "dogum_tarihi": "0823-06-17",
+  "vefat_tarihi": "0877-10-10",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Frankfurt",
+  "vefat_yeri": "Avrieux",
+  "defin_yeri": "Saint-Denis Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q71231",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Carlo calvo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_calvo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carlo_calvo.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ludwig von Mises",
+  "dogum_tarihi": "1881-09-29",
+  "vefat_tarihi": "1973-10-10",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Lviv",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Ferncliff Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q84233",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Ludwig von Mises.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ludwig von Mises Institute",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig_von_Mises.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ludwig_von_Mises.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Christopher Reeve",
+  "dogum_tarihi": "1952-09-25",
+  "vefat_tarihi": "2004-10-10",
+  "vefat_yasi": 52,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Mount Kisco",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q174311",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "C Reeve in Marriage of Figaro Opening night 1985.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Jbfrankel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/C_Reeve_in_Marriage_of_Figaro_Opening_night_1985.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:C_Reeve_in_Marriage_of_Figaro_Opening_night_1985.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Bernardo O'Higgins Büyük Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Fourier",
+  "dogum_tarihi": "1772-04-07",
+  "vefat_tarihi": "1837-10-10",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Besançon",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q181707",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Françoise Foliot - Jean Gigoux - Portrait de Charles Fourrier (cropped) (1).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jean Gigoux",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7oise_Foliot_-_Jean_Gigoux_-_Portrait_de_Charles_Fourrier_%28cropped%29_%281%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7oise_Foliot_-_Jean_Gigoux_-_Portrait_de_Charles_Fourrier_%28cropped%29_%281%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “falanster”",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "Muhsin Yazıcıoğlu",
+  "dogum_tarihi": "1954-12-31",
+  "vefat_tarihi": "2009-03-25",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Şarkışla",
+  "vefat_yeri": "Göksun",
+  "defin_yeri": "Ankara",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1397239",
+  "sitelink": 16,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "İbn Haldun",
+  "dogum_tarihi": "1332-06-04",
+  "vefat_tarihi": "1406-03-26",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Tunus",
+  "vefat_yeri": "Kahire",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q9294",
+  "sitelink": 166,
+  "fotograf": {
+   "dosya": "Bust of Ibn Khaldun (Casbah of Bejaia, Algeria).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Reda Kerbush",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bust_of_Ibn_Khaldun_%28Casbah_of_Bejaia%2C_Algeria%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Mukaddime”, “Lübâbü'll-Muhaşşal”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claude Debussy",
+  "dogum_tarihi": "1862-08-22",
+  "vefat_tarihi": "1918-03-25",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Saint-Germain-en-Laye",
+  "vefat_yeri": "16. arrondissement",
+  "defin_yeri": "Passy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q4700",
+  "sitelink": 131,
+  "fotograf": {
+   "dosya": "Claude Debussy by Atelier Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Debussy_by_Atelier_Nadar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Prix de Rome. Önemli eserleri: “Pelléas et Mélisande”, “La mer”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frédéric Mistral",
+  "dogum_tarihi": "1830-09-08",
+  "vefat_tarihi": "1914-03-25",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Maillane",
+  "vefat_yeri": "Maillane",
+  "defin_yeri": "Cimetière de Maillane",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q42596",
+  "sitelink": 124,
+  "fotograf": {
+   "dosya": "Frederic Mistral portrait photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tucker Collection",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederic_Mistral_portrait_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Frederic_Mistral_portrait_photo.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Novalis",
+  "dogum_tarihi": "1772-05-02",
+  "vefat_tarihi": "1801-03-25",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Wiederstedt",
+  "vefat_yeri": "Weißenfels",
+  "defin_yeri": "Alter Friedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60684",
+  "sitelink": 114,
+  "fotograf": {
+   "dosya": "Novalis-1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Franz Gareis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Novalis-1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Novalis-1.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nursialı Benedikt",
+  "dogum_tarihi": "0480-03-04",
+  "vefat_tarihi": "0547-03-25",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Norcia",
+  "vefat_yeri": "Abbey of Monte Cassino",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q44265",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Fra Angelico 031.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fra Angelico",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fra_Angelico_031.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_031.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Faysal b. Abdülaziz",
+  "dogum_tarihi": "1906-04-14",
+  "vefat_tarihi": "1975-03-25",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Riyad",
+  "vefat_yeri": "Riyad",
+  "defin_yeri": "Ud Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Suudi Arabistan",
+  "wikidata_id": "Q217167",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "King Faisal of Saudi Arabia on on arrival ceremony welcoming 05-27-1971 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Arrival_ceremony_welcoming_King_Faisal_of_Saudi_Arabia_05-27-1971.jpg: Knudsen, Robert L. (Robert LeRoy), 1929-1989",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/King_Faisal_of_Saudi_Arabia_on_on_arrival_ceremony_welcoming_05-27-1971_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:King_Faisal_of_Saudi_Arabia_on_on_arrival_ceremony_welcoming_05-27-1971_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Suudi Arabistan Kralı, Suudi Arabistan veliaht prensi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "III. Honorius",
+  "dogum_tarihi": "1148",
+  "vefat_tarihi": "1227-03-25",
+  "vefat_yasi": 79,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Roma",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q160182",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Interior of Santi Giovanni e Paolo (Venice) - Honorius III by Leandro Bassano.jpg",
+   "lisans": "Public domain",
+   "yazar": "Didier Descouens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Honorius_III_by_Leandro_Bassano.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Honorius_III_by_Leandro_Bassano.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Afonso",
+  "dogum_tarihi": "1185-04-23",
+  "vefat_tarihi": "1223-03-25",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Coimbra",
+  "vefat_yeri": "Coimbra",
+  "defin_yeri": "Alcobaça Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Portekiz",
+  "wikidata_id": "Q296463",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "AfonsoII-P.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AfonsoII-P.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AfonsoII-P.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antonio Tabucchi",
+  "dogum_tarihi": "1943-09-24",
+  "vefat_tarihi": "2012-03-25",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Pisa",
+  "vefat_yeri": "Lizbon",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q231781",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Antonio Tabucchi.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Rebeca Yanke from Madrid, España",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Tabucchi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Antonio_Tabucchi.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Campiello Ödülü, Viareggio Ödülü. Önemli eserleri: “Pereira İddia Ediyor”, “Hint Gece Müziği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Josef Albers",
+  "dogum_tarihi": "1888-03-19",
+  "vefat_tarihi": "1976-03-25",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Bottrop",
+  "vefat_yeri": "New Haven",
+  "defin_yeri": "Orange Center Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q170071",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Josef Albers.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jthill84",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Josef_Albers.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Josef_Albers.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pargalı İbrahim Paşa",
+  "dogum_tarihi": "1495",
+  "vefat_tarihi": "1536-03-25",
+  "vefat_yasi": 41,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Parga",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q511943",
+  "sitelink": 49,
+  "fotograf": {
+   "dosya": "Ibrahim Pasha (portrait) suppresses the Kalender Çelebi rebellion in 1527. Süleymanname, TSM Haz 1517, f.248a.jpg",
+   "lisans": "Public domain",
+   "yazar": "1558 Ottoman artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibrahim_Pasha_%28portrait%29_suppresses_the_Kalender_%C3%87elebi_rebellion_in_1527._S%C3%BCleymanname%2C_TSM_Haz_1517%2C_f.248a.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ibrahim_Pasha_%28portrait%29_suppresses_the_Kalender_%C3%87elebi_rebellion_in_1527._S%C3%BCleymanname%2C_TSM_Haz_1517%2C_f.248a.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Stadhouder, Sadrazam",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ }
+]

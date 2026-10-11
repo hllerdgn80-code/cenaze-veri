@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Nüzhet Gökdoğan",
+  "dogum_tarihi": "1910-08-14",
+  "vefat_tarihi": "2003-04-24",
+  "vefat_yasi": 92,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6093154",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Astronom"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Daniel Defoe",
+  "dogum_tarihi": "1660",
+  "vefat_tarihi": "1731-04-24",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Moorfields",
+  "defin_yeri": "Bunhill Fields",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q40946",
+  "sitelink": 144,
+  "fotograf": {
+   "dosya": "Daniel Defoe Kneller Style.jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown , style of Sir Godfrey Kneller",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel_Defoe_Kneller_Style.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Daniel_Defoe_Kneller_Style.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Robinson Crusoe”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yorgi",
+  "dogum_tarihi": "0275",
+  "vefat_tarihi": "0303-04-24",
+  "vefat_yasi": 28,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kayseri",
+  "vefat_yeri": "Lud",
+  "defin_yeri": "Lud",
+  "defin_il": null,
+  "defin_ulke": "İsrail",
+  "wikidata_id": "Q48438",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Martorell - Sant Jordi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernat Martorell",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martorell_-_Sant_Jordi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martorell_-_Sant_Jordi.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Praetorian muhafızlar",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Max von Laue",
+  "dogum_tarihi": "1879-10-09",
+  "vefat_tarihi": "1960-04-24",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Koblenz-Pfaffendorf",
+  "vefat_yeri": "Batı Berlin",
+  "defin_yeri": "Göttingen City Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57067",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "(UAZ) AB.1.0583 Laue.tif",
+   "lisans": "Public domain",
+   "yazar": "Franz Schmelhaus, Zürich",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28UAZ%29_AB.1.0583_Laue.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%28UAZ%29_AB.1.0583_Laue.tif"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Agapetus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0536-04-24",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q160900",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Agapitus I.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agapitus_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Agapitus_I.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yaşlı Helmuth von Moltke",
+  "dogum_tarihi": "1800-10-26",
+  "vefat_tarihi": "1891-04-24",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Parchim",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q44205",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Helmuth Karl Bernhard von Moltke.jpg",
+   "lisans": "Public domain",
+   "yazar": "Kunstverlag der Photographischen Gesellschaft Berlin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helmuth_Karl_Bernhard_von_Moltke.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Helmuth_Karl_Bernhard_von_Moltke.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı. Görev: Alman İmparatorluğu'nda Reichstag üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alejo Carpentier",
+  "dogum_tarihi": "1904-12-26",
+  "vefat_tarihi": "1980-04-24",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Lozan",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": "Colón Cemetery, Havana",
+  "defin_il": null,
+  "defin_ulke": "Küba",
+  "wikidata_id": "Q216466",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Alejo Carpentier c. 1955.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alejo_Carpentier_c._1955.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alejo_Carpentier_c._1955.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gerhard Domagk",
+  "dogum_tarihi": "1895-10-30",
+  "vefat_tarihi": "1964-04-24",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Łagów",
+  "vefat_yeri": "Königsfeld im Schwarzwald",
+  "defin_yeri": "Lauheide Forest Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57192",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Gerhard Domagk nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerhard_Domagk_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gerhard_Domagk_nobel.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sathya Sai Baba",
+  "dogum_tarihi": "1926-11-23",
+  "vefat_tarihi": "2011-04-24",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Puttaparthi",
+  "vefat_yeri": "Puttaparthi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q483931",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Sri Sathya Sai Baba at Brindavan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Venkatant",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Sathya_Sai_Baba_at_Brindavan.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sri_Sathya_Sai_Baba_at_Brindavan.jpg"
+  },
+  "meslek": [
+   "Dini lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wallis Simpson",
+  "dogum_tarihi": "1896-06-19",
+  "vefat_tarihi": "1986-04-24",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Blue Ridge Summit",
+  "vefat_yeri": "Villa Windsor",
+  "defin_yeri": "Royal Burial Ground",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q209417",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Vincenzo Laviosa - Duke and Duchess of Windsor - Google Art Project (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Angelo Laviosa / Formerly attributed to Vincenzo Laviosa",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincenzo_Laviosa_-_Duke_and_Duchess_of_Windsor_-_Google_Art_Project_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vincenzo_Laviosa_-_Duke_and_Duchess_of_Windsor_-_Google_Art_Project_%28cropped%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "İngiltere'nin eski kralı VIII. Edward'ın eşi",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Filippo Brunelleschi",
+  "dogum_tarihi": "1377",
+  "vefat_tarihi": "1446-04-24",
+  "vefat_yasi": 69,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Firenze",
+  "defin_yeri": "Floransa Katedrali",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q174330",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Masaccio, cappella brancacci, san pietro in cattedra. ritratto di filippo brunelleschi.jpg",
+   "lisans": "Public domain",
+   "yazar": "see filename or category",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi.jpg"
+  },
+  "meslek": [
+   "Heykeltıraş"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Ospedale degli Innocenti”, “San Lorenzo Bazilikası”, “Santo Spirito Bazilikası”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lucy Maud Montgomery",
+  "dogum_tarihi": "1874-11-30",
+  "vefat_tarihi": "1942-04-24",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Prens Edward Adası",
+  "vefat_yeri": "Toronto",
+  "defin_yeri": "Cavendish",
+  "defin_il": null,
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q273034",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "LMM signed photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LMM_signed_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:LMM_signed_photo.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Anne of Avonlea”, “Anne of the Island”, “Yeşilin Kızı Anne”",
+  "hassas": false,
+  "turk": false
+ }
+]

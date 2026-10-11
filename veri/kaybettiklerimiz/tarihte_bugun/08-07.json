@@ -1,0 +1,336 @@
+[
+ {
+  "ad": "Erkin Koray",
+  "dogum_tarihi": "1941-06-24",
+  "vefat_tarihi": "2023-08-07",
+  "vefat_yasi": 82,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Toronto",
+  "defin_yeri": "Toronto",
+  "defin_il": null,
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q259405",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Rabindranath Tagore",
+  "dogum_tarihi": "1861-05-07",
+  "vefat_tarihi": "1941-08-07",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Kalküta",
+  "vefat_yeri": "Kalküta",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q7241",
+  "sitelink": 246,
+  "fotograf": {
+   "dosya": "Rabindranath Tagore in 1909.jpg",
+   "lisans": "Public domain",
+   "yazar": "Generalstabens litografiska anstalt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindranath_Tagore_in_1909.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rabindranath_Tagore_in_1909.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aleksandr Blok",
+  "dogum_tarihi": "1880-11-28",
+  "vefat_tarihi": "1921-08-07",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Volkovo Cemetery Writer's Walkways",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q164765",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "Alexander Blok.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Blok.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexander_Blok.jpeg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jöns Jakob Berzelius",
+  "dogum_tarihi": "1779-08-20",
+  "vefat_tarihi": "1848-08-07",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Väfversunda",
+  "vefat_yeri": "Adolf Fredriks parish",
+  "defin_yeri": "Solna cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q151911",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Jöns Jacob Berzelius from Familj-Journalen1873.png",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6ns_Jacob_Berzelius_from_Familj-Journalen1873.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:J%C3%B6ns_Jacob_Berzelius_from_Familj-Journalen1873.png"
+  },
+  "meslek": [
+   "Kurgu olmayan eser yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Konstantin Stanislavski",
+  "dogum_tarihi": "1863-01-17",
+  "vefat_tarihi": "1938-08-07",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q49484",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Constantin Stanislavski.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Constantin_Stanislavski.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Constantin_Stanislavski.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sovyetler Birliği Halk Sanatçısı, Kızıl Kartal Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q152441",
+  "dogum_tarihi": "1878-07-21",
+  "vefat_tarihi": "1942-08-07",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Varşova",
+  "vefat_yeri": "Treblinka İmha Kampı",
+  "defin_yeri": "Okopowa Street Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q152441",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Janusz Korczak (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "portret bezautorski",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janusz_Korczak_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Janusz_Korczak_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Polonia Restituta Nişanı Kumandanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Kary Mullis",
+  "dogum_tarihi": "1944-12-28",
+  "vefat_tarihi": "2019-08-07",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Lenoir",
+  "vefat_yeri": "Newport Beach",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q157224",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Kary Mullis.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Dona Mapston",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kary_Mullis.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kary_Mullis.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jim Lovell",
+  "dogum_tarihi": "1928-03-25",
+  "vefat_tarihi": "2025-08-07",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Cleveland",
+  "vefat_yeri": "Lake Forest",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q111240",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "James Lovell.jpg",
+   "lisans": "Public domain",
+   "yazar": "NASA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Lovell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Lovell.jpg"
+  },
+  "meslek": [
+   "Senarist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Hava madalyası, Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Majorian",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0461-08-07",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma Galyası",
+  "vefat_yeri": "Tortona",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q191956",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "As Majorian-RIC 2646v.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/As_Majorian-RIC_2646v.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:As_Majorian-RIC_2646v.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Batı Roma İmparatoru (457-461)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Oliver Hardy",
+  "dogum_tarihi": "1892-01-18",
+  "vefat_tarihi": "1957-08-07",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Harlem",
+  "vefat_yeri": "Hollywood",
+  "defin_yeri": "Valhalla Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q72911",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Oliver Hardy - 1938.jpg",
+   "lisans": "CC0",
+   "yazar": "Harry Warnecke, 1900 - 1984",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oliver_Hardy_-_1938.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oliver_Hardy_-_1938.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Virginia Apgar",
+  "dogum_tarihi": "1909-06-07",
+  "vefat_tarihi": "1974-08-07",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Westfield",
+  "vefat_yeri": "Columbia University Irving Medical Center",
+  "defin_yeri": "Fairview Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q463891",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Virginia-Apgar-July-6-1959.jpg",
+   "lisans": "Public domain",
+   "yazar": "March of Dimes",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Virginia-Apgar-July-6-1959.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Virginia-Apgar-July-6-1959.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame, fahri doktora",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nobusuke Kishi",
+  "dogum_tarihi": "1896-11-13",
+  "vefat_tarihi": "1987-08-07",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Yamaguchi",
+  "vefat_yeri": "Tokyo Medical University Hospital",
+  "defin_yeri": "Tabuse",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q315572",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Nobusuke Kishi portrait.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "外務省",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nobusuke_Kishi_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nobusuke_Kishi_portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Güney Haçı Liyakat Nişanı. Görev: Japonya Başbakanı",
+  "hassas": false,
+  "turk": false
+ }
+]

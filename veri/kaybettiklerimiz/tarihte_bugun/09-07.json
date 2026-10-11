@@ -1,0 +1,326 @@
+[
+ {
+  "ad": "Türkân Akyol",
+  "dogum_tarihi": "1928-09-12",
+  "vefat_tarihi": "2017-09-07",
+  "vefat_yasi": 88,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q4310486",
+  "sitelink": 27,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Kadın ve Aileden Sorumlu Devlet Bakanı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Sedad Hakkı Eldem",
+  "dogum_tarihi": "1908-08-18",
+  "vefat_tarihi": "1988-09-07",
+  "vefat_yasi": 80,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q549968",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Mimar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mobutu Sese Seko",
+  "dogum_tarihi": "1930-10-14",
+  "vefat_tarihi": "1997-09-07",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Lisala",
+  "vefat_yeri": "Rabat",
+  "defin_yeri": "Rabat",
+  "defin_il": null,
+  "defin_ulke": "Fas",
+  "wikidata_id": "Q164535",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "Mobutu.jpg",
+   "lisans": "Public domain",
+   "yazar": "Frank Hall",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mobutu.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mobutu.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Faysal",
+  "dogum_tarihi": "1885-05-20",
+  "vefat_tarihi": "1933-09-08",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Mekke",
+  "vefat_yeri": "Bern",
+  "defin_yeri": "Iraq Royal Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Irak",
+  "wikidata_id": "Q212486",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Faisal I, King of Syria and King of Iraq.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vandyk photographic studio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edwin McMillan",
+  "dogum_tarihi": "1907-09-18",
+  "vefat_tarihi": "1991-09-07",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Redondo Beach",
+  "vefat_yeri": "El Cerrito",
+  "defin_yeri": "Sunset View Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q19009",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Edwin McMillan Nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edwin_McMillan_Nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edwin_McMillan_Nobel.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marsha Hunt",
+  "dogum_tarihi": "1917-10-17",
+  "vefat_tarihi": "2022-09-07",
+  "vefat_yasi": 104,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Sherman Oaks",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q267814",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "MarshaHunt.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "CBS Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MarshaHunt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MarshaHunt.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wilhelm Pieck",
+  "dogum_tarihi": "1876-01-03",
+  "vefat_tarihi": "1960-09-07",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Guben",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Friedrichsfelde Merkez Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q65917",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Fotothek df ps 0000064 Bildnisse - Porträts ^ Politiker.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Richard Peter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek_df_ps_0000064_Bildnisse_-_Portr%C3%A4ts_%5E_Politiker.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fotothek_df_ps_0000064_Bildnisse_-_Portr%C3%A4ts_%5E_Politiker.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Weimar Cumhuriyeti Reichstag üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Rama",
+  "dogum_tarihi": "1737-03-20",
+  "vefat_tarihi": "1809-09-07",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Ayutthaya",
+  "vefat_yeri": "Bangkok",
+  "defin_yeri": "Tayland",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q310992",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Buddha Yodfa Chulaloke portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_Yodfa_Chulaloke_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Buddha_Yodfa_Chulaloke_portrait.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Holman Hunt",
+  "dogum_tarihi": "1827-04-02",
+  "vefat_tarihi": "1910-09-07",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "St Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q211763",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "William Holman Hunt - Selfportrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "William Holman Hunt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Holman_Hunt_-_Selfportrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Holman_Hunt_-_Selfportrait.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı. Önemli eserleri: “Dünyanın Işığı”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Valeri Polyakov",
+  "dogum_tarihi": "1942-04-27",
+  "vefat_tarihi": "2022-09-07",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Tula",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Vagankovo Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q317792",
+  "sitelink": 50,
+  "fotograf": {
+   "dosya": "Cosmonaut Polyakov Watches Discovery's Rendezvous With Mir crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "NASA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmonaut_Polyakov_Watches_Discovery%27s_Rendezvous_With_Mir_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cosmonaut_Polyakov_Watches_Discovery%27s_Rendezvous_With_Mir_crop.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Yıldız Madalyası, Asturias Prensliği Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "A.J.P. Taylor",
+  "dogum_tarihi": "1906-03-25",
+  "vefat_tarihi": "1990-09-07",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Birkdale",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Golders Green Crematorium",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q706931",
+  "sitelink": 49,
+  "fotograf": {
+   "dosya": "Photo of AJP Taylor on dust jacket of Bismarck The Man and the Statesman.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gillman & Soame",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_AJP_Taylor_on_dust_jacket_of_Bismarck_The_Man_and_the_Statesman.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_AJP_Taylor_on_dust_jacket_of_Bismarck_The_Man_and_the_Statesman.jpg"
+  },
+  "meslek": [
+   "Tarihçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İngiliz Akademisi bursu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Otto Yulyeviç Şmidt",
+  "dogum_tarihi": "1891-09-30",
+  "vefat_tarihi": "1956-09-07",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Mahilyov",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q167997",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Otto Schmidt.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Schmidt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Schmidt.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kızıl Yıldız Nişanı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Önemli eserleri: “Büyük Sovyet Ansiklopedisi”, “Krull-Schmidt teoremi”",
+  "hassas": false,
+  "turk": false
+ }
+]

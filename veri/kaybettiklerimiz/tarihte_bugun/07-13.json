@@ -1,0 +1,330 @@
+[
+ {
+  "ad": "Fatma Aliye Topuz",
+  "dogum_tarihi": "1862-10-09",
+  "vefat_tarihi": "1936-07-13",
+  "vefat_yasi": 73,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Feriköy Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1136761",
+  "sitelink": 36,
+  "fotograf": {
+   "dosya": "Fatma Aliye Portrait (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fatma_Aliye_Portrait_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fatma_Aliye_Portrait_%28cropped%29.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mimar Kemaleddin Bey",
+  "dogum_tarihi": "1870",
+  "vefat_tarihi": "1927-07-13",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Acıbadem",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q587928",
+  "sitelink": 17,
+  "fotograf": {
+   "dosya": "Mimar Kemaleddin.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimar_Kemaleddin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mimar_Kemaleddin.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tayyare Apartmanları”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Bilge Karasu",
+  "dogum_tarihi": "1930-01-09",
+  "vefat_tarihi": "1995-07-13",
+  "vefat_yasi": 65,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6841352",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sait Faik Hikâye Armağanı, Pegasus Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Frida Kahlo",
+  "dogum_tarihi": "1907-07-06",
+  "vefat_tarihi": "1954-07-13",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Coyoacán",
+  "vefat_yeri": "Coyoacán",
+  "defin_yeri": "Coyoacán",
+  "defin_il": null,
+  "defin_ulke": "Meksika",
+  "wikidata_id": "Q5588",
+  "sitelink": 200,
+  "fotograf": {
+   "dosya": "Frida Kahlo, by Guillermo Kahlo (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Guillermo Kahlo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frida_Kahlo%2C_by_Guillermo_Kahlo_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo%2C_by_Guillermo_Kahlo_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nadine Gordimer",
+  "dogum_tarihi": "1923-11-20",
+  "vefat_tarihi": "2014-07-13",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Springs",
+  "vefat_yeri": "Johannesburg",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q47619",
+  "sitelink": 125,
+  "fotograf": {
+   "dosya": "Nadine Gordimer 01.JPG",
+   "lisans": "CC BY 3.0",
+   "yazar": "Boberger. Photo: Bengt Oberger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nadine_Gordimer_01.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Liu Xiaobo",
+  "dogum_tarihi": "1955-12-28",
+  "vefat_tarihi": "2017-07-13",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Çangçun",
+  "vefat_yeri": "First Affiliated Hospital, China Medical University",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q41617",
+  "sitelink": 117,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Muhammadu Buhari",
+  "dogum_tarihi": "1942-12-17",
+  "vefat_tarihi": "2025-07-13",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Daura",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Daura",
+  "defin_il": null,
+  "defin_ulke": "Nijerya",
+  "wikidata_id": "Q361567",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Muhammadu Buhari, President of the Federal Republic of Nigeria (cropped3).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bayo Omoboriowo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Muhammadu_Buhari%2C_President_of_the_Federal_Republic_of_Nigeria_%28cropped3%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Muhammadu_Buhari%2C_President_of_the_Federal_Republic_of_Nigeria_%28cropped3%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gabriel Lippmann",
+  "dogum_tarihi": "1845-08-16",
+  "vefat_tarihi": "1921-07-13",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Bonnevoie",
+  "vefat_yeri": "Atlas Okyanusu",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q133232",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "Gabriel Lippmann2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel_Lippmann2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gabriel_Lippmann2.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Paul Marat",
+  "dogum_tarihi": "1743-05-24",
+  "vefat_tarihi": "1793-07-13",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Boudry",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q122290",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Jean-Paul Marat - portrait peint par Joseph Boze.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Boze",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Paul_Marat_-_portrait_peint_par_Joseph_Boze.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Paul_Marat_-_portrait_peint_par_Joseph_Boze.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Arnold Schoenberg",
+  "dogum_tarihi": "1874-09-13",
+  "vefat_tarihi": "1951-07-13",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Zentralfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q154770",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Arnold schönberg man ray.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Man Ray",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnold_sch%C3%B6nberg_man_ray.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arnold_sch%C3%B6nberg_man_ray.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Henry",
+  "dogum_tarihi": "1133-03-12",
+  "vefat_tarihi": "1189-07-13",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Le Mans",
+  "vefat_yeri": "Chinon Kalesi",
+  "defin_yeri": "Royal abbey of Fontevraud",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q102140",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Henry II of England.png",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_II_of_England.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henry_II_of_England.png"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kral, Akitanya Dükü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard Simmons",
+  "dogum_tarihi": "1948-07-12",
+  "vefat_tarihi": "2024-07-13",
+  "vefat_yasi": 76,
+  "dogum_yeri": "New Orleans",
+  "vefat_yeri": "Hollywood Hills",
+  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q498019",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "RichardSimmonsSept2011.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Angela George",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RichardSimmonsSept2011.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:RichardSimmonsSept2011.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

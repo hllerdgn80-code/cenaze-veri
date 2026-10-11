@@ -1,0 +1,335 @@
+[
+ {
+  "ad": "Aliye Rona",
+  "dogum_tarihi": "1921-01-01",
+  "vefat_tarihi": "1996-08-27",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Dera",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q4727547",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Le Corbusier",
+  "dogum_tarihi": "1887-10-06",
+  "vefat_tarihi": "1965-08-27",
+  "vefat_yasi": 77,
+  "dogum_yeri": "La Chaux-de-Fonds",
+  "vefat_yeri": "Roquebrune-Cap-Martin",
+  "defin_yeri": "Roquebrune-Cap-Martin",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q4724",
+  "sitelink": 200,
+  "fotograf": {
+   "dosya": "Le Corbusier (1964).jpg",
+   "lisans": "CC0",
+   "yazar": "Joop van Bilsen for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Corbusier_%281964%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Le_Corbusier_%281964%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Villa Le Lac”, “Unité d'Habitation”, “Villa Savoye”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lope de Vega",
+  "dogum_tarihi": "1562-12-05",
+  "vefat_tarihi": "1635-08-27",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Madrid",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "San Sebastian Church",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q165257",
+  "sitelink": 125,
+  "fotograf": {
+   "dosya": "LopedeVega.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Eugenio Caxés",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LopedeVega.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:LopedeVega.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Haile Selassie",
+  "dogum_tarihi": "1892-07-23",
+  "vefat_tarihi": "1975-08-27",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Ejersa Goro",
+  "vefat_yeri": "Addis Ababa",
+  "defin_yeri": "Kutsal Üçleme Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Etiyopya",
+  "wikidata_id": "Q41178",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Haile Selassie in full dress.jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown; according to [1] and [2] an official portrait of which b/w copies were distributed by the Ethiopian government",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Haile_Selassie_in_full_dress.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Polonia Restituta Nişanı. Görev: Etiyopya İmparatoru",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Ernest Orlando Lawrence",
+  "dogum_tarihi": "1901-08-08",
+  "vefat_tarihi": "1958-08-27",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Canton",
+  "vefat_yeri": "Palo Alto",
+  "defin_yeri": "Chapel of Memories Columbarium and Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q169577",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Ernest Lawrence.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ernest_Lawrence.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ernest_Lawrence.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Clairvauxlu Bernard",
+  "dogum_tarihi": "1091",
+  "vefat_tarihi": "1153-08-27",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Fontaine-lès-Dijon",
+  "vefat_yeri": "Clairvaux Abbey",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q188411",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Bernhard von Clairvaux (Initiale-B).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernhard_von_Clairvaux_%28Initiale-B%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bernhard_von_Clairvaux_%28Initiale-B%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başrahip",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "V. Sixtus",
+  "dogum_tarihi": "1521-12-23",
+  "vefat_tarihi": "1590-08-27",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Grottammare",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Tomb of Sixtus V",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q133350",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "(Albi) Cathédrale Sainte-Cécile - Trèsor - Portrait du pape Sixte V - PalissyIM81001477.jpg",
+   "lisans": "Public domain",
+   "yazar": "Didier Descouens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29_Cath%C3%A9drale_Sainte-C%C3%A9cile_-_Tr%C3%A8sor_-_Portrait_du_pape_Sixte_V_-_PalissyIM81001477.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%28Albi%29_Cath%C3%A9drale_Sainte-C%C3%A9cile_-_Tr%C3%A8sor_-_Portrait_du_pape_Sixte_V_-_PalissyIM81001477.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Francisco de Zurbarán",
+  "dogum_tarihi": "1598-11-07",
+  "vefat_tarihi": "1664-08-27",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Fuente de Cantos",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q209615",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Francisco de Zurbarán autoportrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francisco de Zurbarán",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_de_Zurbar%C3%A1n_autoportrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_autoportrait.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Cesare Pavese",
+  "dogum_tarihi": "1908-09-09",
+  "vefat_tarihi": "1950-08-27",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Santo Stefano Belbo",
+  "vefat_yeri": "Torino",
+  "defin_yeri": "Santo Stefano Belbo",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q2022",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Cesare Pavese cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesare_Pavese_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cesare_Pavese_cropped.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Strega Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Edward Burghardt Du Bois",
+  "dogum_tarihi": "1868-02-23",
+  "vefat_tarihi": "1963-08-27",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Great Barrington",
+  "vefat_yeri": "Akra",
+  "defin_yeri": "Osu Kalesi",
+  "defin_il": null,
+  "defin_ulke": "Gana",
+  "wikidata_id": "Q158060",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "W.E.B. Du Bois by James E. Purdy, 1907 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "James E. Purdy / Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/W.E.B._Du_Bois_by_James_E._Purdy%2C_1907_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:W.E.B._Du_Bois_by_James_E._Purdy%2C_1907_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Barış Ödülü. Görev: insan hakları savunucusu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Friedrich",
+  "dogum_tarihi": "1415-09-30",
+  "vefat_tarihi": "1493-08-27",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Innsbruck",
+  "vefat_yeri": "Linz",
+  "defin_yeri": "Grabmal Kaiser Friedrichs III",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q150966",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Hans Burgkmair d. Ä. (zugeschr.) - Bildnis Kaiser Friedrich III.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Hans Burgkmair the Elder",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Burgkmair_d._%C3%84._%28zugeschr.%29_-_Bildnis_Kaiser_Friedrich_III.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Burgkmair_d._%C3%84._%28zugeschr.%29_-_Bildnis_Kaiser_Friedrich_III.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Arşidük, Karintiya Dükü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Louis Mountbatten",
+  "dogum_tarihi": "1900-06-25",
+  "vefat_tarihi": "1979-08-27",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Windsor Sarayı",
+  "vefat_yeri": "Mullaghmore",
+  "defin_yeri": "Romsey Abbey",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q157068",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Lord Mountbatten Naval in colour Allan Warren.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Allan Warren",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Mountbatten_Naval_in_colour_Allan_Warren.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lord_Mountbatten_Naval_in_colour_Allan_Warren.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, Üstün Hizmet Madalyası. Görev: Britanya Lordlar Kamarası üyesi, Birleşik Krallık Genelkurmay Başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ }
+]

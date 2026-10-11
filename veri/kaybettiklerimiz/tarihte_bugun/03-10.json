@@ -1,0 +1,339 @@
+[
+ {
+  "ad": "Kenan Pars",
+  "dogum_tarihi": "1920-03-10",
+  "vefat_tarihi": "2008-03-10",
+  "vefat_yasi": 88,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6101497",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "KenanPars.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Serkan Yakın",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KenanPars.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:KenanPars.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mihail Afanasyeviç Bulgakov",
+  "dogum_tarihi": "1891-05-15",
+  "vefat_tarihi": "1940-03-10",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Kiev",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q835",
+  "sitelink": 118,
+  "fotograf": {
+   "dosya": "Михаил-Булгаков.jpg",
+   "lisans": "Public domain",
+   "yazar": "Moisej Nappelbaum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Köpek Kalbi”, “Beyaz Muhafız”, “Usta ile Margarita”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Harriet Tubman",
+  "dogum_tarihi": "1821",
+  "vefat_tarihi": "1913-03-10",
+  "vefat_yasi": 92,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Dorchester ilçesi",
+  "vefat_yeri": "Auburn",
+  "defin_yeri": "Harriet Tubman grave",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102870",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Harriet Tubman (circa 1885).jpg",
+   "lisans": "Public domain",
+   "yazar": "Horatio Seymour Squyer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harriet_Tubman_%28circa_1885%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_%28circa_1885%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Konstantin Çernenko",
+  "dogum_tarihi": "1912-10-01",
+  "vefat_tarihi": "1985-03-10",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Bolshaya Tes",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Kremlin Duvarı Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q127442",
+  "sitelink": 101,
+  "fotograf": {
+   "dosya": "Константин Черненко.jpg",
+   "lisans": "Public domain",
+   "yazar": "Associated Press",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A7%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A7%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Askerî İşbirliğini Güçlendirme Madalyası. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giuseppe Mazzini",
+  "dogum_tarihi": "1805-06-22",
+  "vefat_tarihi": "1872-03-10",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Cenova",
+  "vefat_yeri": "Pisa",
+  "defin_yeri": "Mausoleum for Giuseppe Mazzini",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q187336",
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "Giuseppe Mazzini.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe_Mazzini.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giuseppe_Mazzini.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frits Zernike",
+  "dogum_tarihi": "1888-07-16",
+  "vefat_tarihi": "1966-03-10",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Amsterdam",
+  "vefat_yeri": "Amersfoort",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q188293",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Zernike.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zernike.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zernike.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yevgeny Zamyatin",
+  "dogum_tarihi": "1884-02-01",
+  "vefat_tarihi": "1937-03-10",
+  "vefat_yasi": 53,
+  "dogum_yeri": "Lebedyan",
+  "vefat_yeri": "16. arrondissement",
+  "defin_yeri": "Cimetière parisien de Thiais",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q204868",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Zamjatin.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zamjatin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zamjatin.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Biz”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Max Delbrück",
+  "dogum_tarihi": "1906-09-04",
+  "vefat_tarihi": "1981-03-09",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Charlottenburg",
+  "vefat_yeri": "Pasadena",
+  "defin_yeri": "Mountain View Cemetery and Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q76807",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Maxdelbrück-cr.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "The original uploader was MalteAhrens at German Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maxdelbr%C3%BCck-cr.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maxdelbr%C3%BCck-cr.jpg"
+  },
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frank Sherwood Rowland",
+  "dogum_tarihi": "1927-06-28",
+  "vefat_tarihi": "2012-03-10",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Delaware",
+  "vefat_yeri": "Newport Beach",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q111190",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "F. Sherwood Rowland.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Markus Pössel (Mapos)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F._Sherwood_Rowland.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F._Sherwood_Rowland.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. João",
+  "dogum_tarihi": "1767-05-13",
+  "vefat_tarihi": "1826-03-10",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Lizbon",
+  "vefat_yeri": "Lizbon",
+  "defin_yeri": "São Vicente de Fora Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "Portekiz",
+  "wikidata_id": "Q676301",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Retrato D. Joao (Henri-François Riesener).jpg",
+   "lisans": "Public domain",
+   "yazar": "Henri-François Riesener",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Retrato_D._Joao_%28Henri-Fran%C3%A7ois_Riesener%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Retrato_D._Joao_%28Henri-Fran%C3%A7ois_Riesener%29.jpg"
+  },
+  "meslek": [
+   "Kral"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ray Milland",
+  "dogum_tarihi": "1907-01-03",
+  "vefat_tarihi": "1986-03-10",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Neath",
+  "vefat_yeri": "Torrance",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q181774",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Ray Milland by A. L. Whitey Schafer, 1947.jpg",
+   "lisans": "Public domain",
+   "yazar": "Whitey Schafer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ray_Milland_by_A._L._Whitey_Schafer%2C_1947.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ray_Milland_by_A._L._Whitey_Schafer%2C_1947.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Michael Curtiz",
+  "dogum_tarihi": "1886-12-25",
+  "vefat_tarihi": "1962-04-10",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q51491",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Curtiz 1928 portrait (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Curtiz_1928_portrait_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Curtiz_1928_portrait_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ }
+]

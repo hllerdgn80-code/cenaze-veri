@@ -1,0 +1,306 @@
+[
+ {
+  "ad": "Roald Dahl",
+  "dogum_tarihi": "1916-09-13",
+  "vefat_tarihi": "1990-11-23",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Llandaff",
+  "vefat_yeri": "Oxford",
+  "defin_yeri": "Great Missenden",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q25161",
+  "sitelink": 108,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Edgar Ödülü. Önemli eserleri: “Dünya Şampiyonu Danny”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "André Malraux",
+  "dogum_tarihi": "1901-11-03",
+  "vefat_tarihi": "1976-11-23",
+  "vefat_yasi": 75,
+  "dogum_yeri": "18. arrondissement",
+  "vefat_yeri": "Créteil",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q151164",
+  "sitelink": 98,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü, Büyük I. George Nişanı. Önemli eserleri: “İnsanlık Durumu”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Muhyiddin İbnü'l-Arabi",
+  "dogum_tarihi": "1165-08-04",
+  "vefat_tarihi": "1240-11-23",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Murcia",
+  "vefat_yeri": "Şam",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q46420",
+  "sitelink": 89,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Fususü'l-Hikem”, “el-Fütuhatü'l-Mekkiye”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Gelasius",
+  "dogum_tarihi": "0410",
+  "vefat_tarihi": "0496-11-20",
+  "vefat_yasi": 86,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Afrika",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q162135",
+  "sitelink": 84,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Henry",
+  "dogum_tarihi": "1207-10-08",
+  "vefat_tarihi": "1272-11-23",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Winchester Kalesi",
+  "vefat_yeri": "Westminster Sarayı",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q160311",
+  "sitelink": 76,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aleksandr Litvinenko",
+  "dogum_tarihi": "1962-12-04",
+  "vefat_tarihi": "2006-11-23",
+  "vefat_yasi": 43,
+  "dogum_yeri": "Voronej",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Highgate Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q87015",
+  "sitelink": 65,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Chun Duhwan",
+  "dogum_tarihi": "1931-01-18",
+  "vefat_tarihi": "2021-11-23",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Hapcheon",
+  "vefat_yeri": "Yeonhui-dong",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q14362",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Chun Doo-hwan (전두환) Presidential Portrait.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Korea.net / Korean Culture and Information Service",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chun_Doo-hwan_%28%EC%A0%84%EB%91%90%ED%99%98%29_Presidential_Portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chun_Doo-hwan_%28%EC%A0%84%EB%91%90%ED%99%98%29_Presidential_Portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Nişan-ı Pakistan, Ulusal Kuruluş İçin Liyakat Nişanı. Görev: Güney Kore cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Klaus Kinski",
+  "dogum_tarihi": "1926-10-18",
+  "vefat_tarihi": "1991-11-23",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Sopot",
+  "vefat_yeri": "Lagunitas-Forest Knolls",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q55419",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Klaus Kinski Cannes-(retouched-cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Georges Biard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Klaus_Kinski_Cannes-%28retouched-cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Klaus_Kinski_Cannes-%28retouched-cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jagadish Chandra Bose",
+  "dogum_tarihi": "1858-11-30",
+  "vefat_tarihi": "1937-11-23",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Bikrampur",
+  "vefat_yeri": "Giridih",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q314267",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "1920 Jagadish Chandra Bose.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Georges Chevalier",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1920_Jagadish_Chandra_Bose.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1920_Jagadish_Chandra_Bose.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Philippe Noiret",
+  "dogum_tarihi": "1930-10-01",
+  "vefat_tarihi": "2006-11-23",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Lille",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q106482",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Philippe Noiret Cannes 1989 cropped.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Georges Biard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe_Noiret_Cannes_1989_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Philippe_Noiret_Cannes_1989_cropped.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Larry Hagman",
+  "dogum_tarihi": "1931-09-21",
+  "vefat_tarihi": "2012-11-23",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Fort Worth",
+  "vefat_yeri": "Dallas",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q100440",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Larry Hagman 2010.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Toglenn",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry_Hagman_2010.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Larry_Hagman_2010.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Theatre World Award",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Elbridge Gerry",
+  "dogum_tarihi": "1744-07-17",
+  "vefat_tarihi": "1814-11-23",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Marblehead",
+  "vefat_yeri": "Washington County",
+  "defin_yeri": "Congressional Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q219797",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "05 Elbridge Gerry 3x4.jpg",
+   "lisans": "Public domain",
+   "yazar": "James Bogle",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/05_Elbridge_Gerry_3x4.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:05_Elbridge_Gerry_3x4.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Massachusetts valisi",
+  "hassas": false,
+  "turk": false
+ }
+]

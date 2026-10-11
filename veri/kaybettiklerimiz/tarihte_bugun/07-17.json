@@ -1,0 +1,325 @@
+[
+ {
+  "ad": "Erden Kıral",
+  "dogum_tarihi": "1942-04-10",
+  "vefat_tarihi": "2022-07-17",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Gölcük",
+  "vefat_yeri": "Kumluca",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1349104",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "İlhan Mimaroğlu",
+  "dogum_tarihi": "1926-03-11",
+  "vefat_tarihi": "2012-07-17",
+  "vefat_yasi": 86,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q8080086",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Seyfi Dursunoğlu",
+  "dogum_tarihi": "1932-10-01",
+  "vefat_tarihi": "2020-07-17",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6093126",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Adam Smith",
+  "dogum_tarihi": "1723-06",
+  "vefat_tarihi": "1790-07-17",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kirkcaldy",
+  "vefat_yeri": "Edinburgh",
+  "defin_yeri": "Canongate Kirkyard",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q9381",
+  "sitelink": 224,
+  "fotograf": {
+   "dosya": "AdamSmith.jpg",
+   "lisans": "Public domain",
+   "yazar": "Etching created by Cadell and Davies (1811), John Horsburgh (1828) or R.C. Bell (1872).",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AdamSmith.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AdamSmith.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Ulusların Zenginliği”, “Ahlaki Duygular Teorisi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mimar Sinan",
+  "dogum_tarihi": "1490",
+  "vefat_tarihi": "1588-07-17",
+  "vefat_yasi": 98,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ağırnas",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Mimar Sinan Türbesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q5600",
+  "sitelink": 138,
+  "fotograf": {
+   "dosya": "Mimar Sinan, architecte de Soliman le Magnifique.jpg",
+   "lisans": "Public domain",
+   "yazar": "Drawn by Hazan Riza",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimar_Sinan%2C_architecte_de_Soliman_le_Magnifique.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mimar_Sinan%2C_architecte_de_Soliman_le_Magnifique.jpg"
+  },
+  "meslek": [
+   "Mimar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Ferhad Paşa Camii”, “Banyabaşı Camii”, “Şehzade Camii”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Nikolay",
+  "dogum_tarihi": "1868-05-18",
+  "vefat_tarihi": "1918-07-17",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Puskin",
+  "vefat_yeri": "Yekaterinburg",
+  "defin_yeri": "Peter ve Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q40787",
+  "sitelink": 137,
+  "fotograf": {
+   "dosya": "Nicolas II de russie.jpg",
+   "lisans": "Public domain",
+   "yazar": "Boissonnas & Eggler",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_II_de_russie.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicolas_II_de_russie.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Yorgi Nişanı. Görev: Rusya imparatoru, Finlandiya Büyük Dükü",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Henri Poincaré",
+  "dogum_tarihi": "1854-04-29",
+  "vefat_tarihi": "1912-07-17",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Nancy",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q81082",
+  "sitelink": 131,
+  "fotograf": {
+   "dosya": "Henri Poincaré-2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henri_Poincar%C3%A9-2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henri_Poincar%C3%A9-2.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Bruce Madalyası, Matteucci Madalyası. Önemli eserleri: “Poincaré-Bendixson teoremi”, “Poincaré-Birkhoff-Witt teoremi”, “Poincaré-Hopf teoremi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Billie Holiday",
+  "dogum_tarihi": "1915-04-07",
+  "vefat_tarihi": "1959-07-17",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Philadelphia",
+  "vefat_yeri": "Metropolitan Hospital Center",
+  "defin_yeri": "Saint Raymond's Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q104358",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Portrait of Billie Holiday and Mister, Downbeat, New York, N.Y., ca. Feb. 1947 (LOC, 5020400274, cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "William P. Gottlieb",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, National Women's Hall of Fame. Önemli eserleri: “God Bless the Child”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Petro",
+  "dogum_tarihi": "1728-02-21",
+  "vefat_tarihi": "1762-07-17",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Kiel",
+  "vefat_yeri": "Ropsha Palace",
+  "defin_yeri": "Peter ve Paul Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q151789",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Coronation portrait of Peter III of Russia -1761.JPG",
+   "lisans": "Public domain",
+   "yazar": "Lucas Conrad Pfandzelt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Coronation_portrait_of_Peter_III_of_Russia_-1761.JPG"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kara Kartal Nişanı. Görev: Rusya imparatoru",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Edward Heath",
+  "dogum_tarihi": "1916-07-09",
+  "vefat_tarihi": "2005-07-17",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Broadstairs",
+  "vefat_yeri": "Salisbury",
+  "defin_yeri": "Salisbury Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q128967",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Edward Heath (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Moshe Milner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Heath_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edward_Heath_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: fahri doktora, Britanya İmparatorluğu Nişanı. Görev: Birleşik Krallık Başbakanı, Muhafazakar Parti Lideri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Juan Manuel Fangio",
+  "dogum_tarihi": "1911-06-24",
+  "vefat_tarihi": "1995-07-17",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Balcarce, Buenos Aires",
+  "vefat_yeri": "Buenos Aires",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2069",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Juan Manuel Fangio (circa 1952).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan_Manuel_Fangio_%28circa_1952%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Juan_Manuel_Fangio_%28circa_1952%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Arjantinli araba yarışçısı",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Coltrane",
+  "dogum_tarihi": "1926-09-23",
+  "vefat_tarihi": "1967-07-17",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Hamlet",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Pinelawn Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q7346",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "John Coltrane 1963 cropped ver2.jpg",
+   "lisans": "CC0",
+   "yazar": "Gelderen, Hugo van / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Coltrane_1963_cropped_ver2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Coltrane_1963_cropped_ver2.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, II. Dünya Savaşı Zafer Madalyası",
+  "hassas": false,
+  "turk": false
+ }
+]

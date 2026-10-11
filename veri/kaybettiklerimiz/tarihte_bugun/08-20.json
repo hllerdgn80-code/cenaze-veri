@@ -1,0 +1,323 @@
+[
+ {
+  "ad": "Halil Kut",
+  "dogum_tarihi": "1882-11-22",
+  "vefat_tarihi": "1957-08-20",
+  "vefat_yasi": 74,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q367697",
+  "sitelink": 26,
+  "fotograf": {
+   "dosya": "Halil Kut.png",
+   "lisans": "Public domain",
+   "yazar": "It is government property, which original photographer may not be listed. Original photographer unknown.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halil_Kut.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Halil_Kut.png"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Hayriye Ayşe Nermin Neftçi",
+  "dogum_tarihi": "1924",
+  "vefat_tarihi": "2003-08-20",
+  "vefat_yasi": 79,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Bodrum",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6037996",
+  "sitelink": 15,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "X. Pius",
+  "dogum_tarihi": "1835-06-02",
+  "vefat_tarihi": "1914-08-20",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Riese Pio X",
+  "vefat_yeri": "Apostolik Sarayı",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q43739",
+  "sitelink": 118,
+  "fotograf": {
+   "dosya": "Pius X, by Ernest Walter Histed (retouched).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ernest Walter Histed",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pius_X%2C_by_Ernest_Walter_Histed_%28retouched%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pius_X%2C_by_Ernest_Walter_Histed_%28retouched%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kutsal Kabir Tarikatı. Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VII. Pius",
+  "dogum_tarihi": "1742-08-14",
+  "vefat_tarihi": "1823-08-20",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Cesena",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q124754",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Jacques-Louis David 018.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacques-Louis David",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques-Louis_David_018.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_018.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Friedrich Schelling",
+  "dogum_tarihi": "1775-01-27",
+  "vefat_tarihi": "1854-08-20",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Leonberg",
+  "vefat_yeri": "Bad Ragaz",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q60070",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Friedrich Wilhelm Joseph Schelling, 1848 daguerreotype - cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hermann Biow (1804–1850), Berlin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_Wilhelm_Joseph_Schelling%2C_1848_daguerreotype_-_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Joseph_Schelling%2C_1848_daguerreotype_-_cropped.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Ehrlich",
+  "dogum_tarihi": "1854-03-14",
+  "vefat_tarihi": "1915-08-20",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Strzelin",
+  "vefat_yeri": "Bad Homburg vor der Höhe",
+  "defin_yeri": "Old Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57089",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Paul Ehrlich 3.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Eduard Blum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Ehrlich_3.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Ehrlich_3.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jerry Lewis",
+  "dogum_tarihi": "1926-03-16",
+  "vefat_tarihi": "2017-08-20",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "Las Vegas",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q294927",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Jerry Lewis (Paramount photo by Bud Fraker).jpg",
+   "lisans": "Public domain",
+   "yazar": "According to Bonhams, the reverse side was stamped with \"Paramount Photo by Bud Fraker\". According to mptvimages.com, Fraker was born in 1916, died in 2002, and worked as Director of Still Photography",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerry_Lewis_%28Paramount_photo_by_Bud_Fraker%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jerry_Lewis_%28Paramount_photo_by_Bud_Fraker%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: En Kötü Erkek Oyuncu Altın Ahududu Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nicolaus Cusanus",
+  "dogum_tarihi": "1401",
+  "vefat_tarihi": "1464-08-20",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bernkastel-Kues",
+  "vefat_yeri": "Todi",
+  "defin_yeri": "San Pietro in Vincoli Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q154751",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Nicholas of Cusa.jpg",
+   "lisans": "Public domain",
+   "yazar": "Master of the Life of the Virgin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_of_Cusa.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicholas_of_Cusa.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “De concordantia catholica”, “Öğrenilmiş Cahillik”. Görev: kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Percy Williams Bridgman",
+  "dogum_tarihi": "1882-04-21",
+  "vefat_tarihi": "1961-08-20",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Cambridge",
+  "vefat_yeri": "Randolph",
+  "defin_yeri": "Bridgman Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q172118",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Bridgman.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bridgman.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bridgman.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Adolf von Baeyer",
+  "dogum_tarihi": "1835-10-31",
+  "vefat_tarihi": "1917-08-20",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Berlin",
+  "vefat_yeri": "Münih",
+  "defin_yeri": "Munich Waldfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57078",
+  "sitelink": 79,
+  "fotograf": null,
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Sixtus",
+  "dogum_tarihi": "0390",
+  "vefat_tarihi": "0440-08-20",
+  "vefat_yasi": 50,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q167065",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Pope-Sixtus-III.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope-Sixtus-III.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope-Sixtus-III.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Meles Zenawi",
+  "dogum_tarihi": "1955-05-08",
+  "vefat_tarihi": "2012-08-20",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Adva",
+  "vefat_yeri": "Brüksel Şehri",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q161184",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Meles Zenawi - World Economic Forum Annual Meeting 2012.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "World Economic Forum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

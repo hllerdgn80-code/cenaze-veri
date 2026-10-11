@@ -1,0 +1,326 @@
+[
+ {
+  "ad": "Memduh Ün",
+  "dogum_tarihi": "1920-03-14",
+  "vefat_tarihi": "2015-10-16",
+  "vefat_yasi": 95,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Bodrum",
+  "defin_yeri": "Torba Mezarlığı",
+  "defin_il": "Muğla",
+  "defin_ulke": null,
+  "wikidata_id": "Q6815170",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal En İyi Yönetmen Ödülü, Altın Portakal Yaşam Boyu Onur Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Markar Esayan",
+  "dogum_tarihi": "1969-02-04",
+  "vefat_tarihi": "2020-10-16",
+  "vefat_yasi": 51,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Şişli Ermeni Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6034902",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Arif Erkin Güzelbeyoğlu",
+  "dogum_tarihi": "1935-09-11",
+  "vefat_tarihi": "2025-10-16",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Gaziantep",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2654629",
+  "sitelink": 11,
+  "fotograf": {
+   "dosya": "Arif Erkin Güzelbeyoğlu (cropped).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Kim Seslendirdi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arif_Erkin_G%C3%BCzelbeyo%C4%9Flu_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arif_Erkin_G%C3%BCzelbeyo%C4%9Flu_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Marie-Antoinette",
+  "dogum_tarihi": "1755-11-02",
+  "vefat_tarihi": "1793-10-16",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Hofburg İmparatorluk Sarayı",
+  "vefat_yeri": "Concorde Meydanı",
+  "defin_yeri": "Saint-Denis Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q47365",
+  "sitelink": 133,
+  "fotograf": {
+   "dosya": "Louise Elisabeth Vigée-Lebrun - Marie-Antoinette dit « à la Rose » - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Élisabeth Louise Vigée Le Brun",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Fransa Konsort Kraliçesi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "George C. Marshall",
+  "dogum_tarihi": "1880-12-31",
+  "vefat_tarihi": "1959-10-16",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Uniontown",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Arlington Ulusal Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q151414",
+  "sitelink": 105,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Martti Ahtisaari",
+  "dogum_tarihi": "1937-06-23",
+  "vefat_tarihi": "2023-10-16",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Vıborg",
+  "vefat_yeri": "Helsinki",
+  "defin_yeri": "Hietaniemi Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Finlandiya",
+  "wikidata_id": "Q29230",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "Martti Ahtisaari 2012-04-16.jpg",
+   "lisans": "CC BY 2.5 dk",
+   "yazar": "Johannes Jansson",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martti_Ahtisaari_2012-04-16.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martti_Ahtisaari_2012-04-16.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XIV. Gregorius",
+  "dogum_tarihi": "1535-02-21",
+  "vefat_tarihi": "1591-10-16",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Somma Lombardo",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q171622",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Roman School – Portrait of Pope Gregory XIV (16th Century).jpg",
+   "lisans": "Public domain",
+   "yazar": "Scuola romana/ Roman School",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roman_School_%E2%80%93_Portrait_of_Pope_Gregory_XIV_%2816th_Century%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Roman_School_%E2%80%93_Portrait_of_Pope_Gregory_XIV_%2816th_Century%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, Diosezan piskopos",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dürrani Ahmed Şah",
+  "dogum_tarihi": "1722",
+  "vefat_tarihi": "1772-10-16",
+  "vefat_yasi": 50,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Herat",
+  "vefat_yeri": "Kandehar",
+  "defin_yeri": "Tomb of Ahmad Shah Durrani",
+  "defin_il": null,
+  "defin_ulke": "Afganistan",
+  "wikidata_id": "Q46798",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Portrait of Ahmad-Shah Durrani. Mughal miniature. ca. 1757, Bibliothèque nationale de France.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Ahmad-Shah_Durrani._Mughal_miniature._ca._1757%2C_Biblioth%C3%A8que_nationale_de_France.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ahmad-Shah_Durrani._Mughal_miniature._ca._1757%2C_Biblioth%C3%A8que_nationale_de_France.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yahya Sinvar",
+  "dogum_tarihi": "1962-10-29",
+  "vefat_tarihi": "2024-10-16",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Han Yunus Mülteci Kampı",
+  "vefat_yeri": "Tel al-Sultan refugee camp",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q22690797",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Yahya Sinwar, 2012 - 2 (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yahya_Sinwar%2C_2012_-_2_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yahya_Sinwar%2C_2012_-_2_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Deborah Kerr",
+  "dogum_tarihi": "1921-09-30",
+  "vefat_tarihi": "2007-10-16",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Hillhead",
+  "vefat_yeri": "Suffolk",
+  "defin_yeri": "St Mary's Church, Redgrave",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q104146",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Deborah Kerr in colour Allan Warren (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Allan warren",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deborah_Kerr_in_colour_Allan_Warren_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Deborah_Kerr_in_colour_Allan_Warren_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q2756349",
+  "dogum_tarihi": "1993-08-29",
+  "vefat_tarihi": "2024-10-16",
+  "vefat_yasi": 31,
+  "dogum_yeri": "Wolverhampton",
+  "vefat_yeri": "Palermo",
+  "defin_yeri": "Amersham",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q2756349",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Liam Payne for UNICEF 2023.png",
+   "lisans": "CC BY 3.0",
+   "yazar": "Soccer Aid for UNICEF",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liam_Payne_for_UNICEF_2023.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Liam_Payne_for_UNICEF_2023.png"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Teen Choice Awards",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrea del Verrocchio",
+  "dogum_tarihi": "1435",
+  "vefat_tarihi": "1488-10-16",
+  "vefat_yasi": 53,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Venedik",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q183458",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "André Verrochio.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nicolas de Larmessin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9_Verrochio.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Verrochio.jpg"
+  },
+  "meslek": [
+   "Müzisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İsa'nın Vaftiz Edilişi”, “Madonna ve çocuk”",
+  "hassas": false,
+  "turk": false
+ }
+]

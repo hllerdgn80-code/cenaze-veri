@@ -1,0 +1,343 @@
+[
+ {
+  "ad": "İsa",
+  "dogum_tarihi": "-0001",
+  "vefat_tarihi": "0033-04-01",
+  "vefat_yasi": 33,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beytüllahim",
+  "vefat_yeri": "Golgota",
+  "defin_yeri": "Kutsal Kabir Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İsrail",
+  "wikidata_id": "Q302",
+  "sitelink": 346,
+  "fotograf": {
+   "dosya": "Spas vsederzhitel sinay (cropped1).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spas_vsederzhitel_sinay_%28cropped1%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay_%28cropped1%29.jpg"
+  },
+  "meslek": [
+   "Dini lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İsa'nın mucizeleri”, “İsa'nın benzetmesi”. Görev: peygamber",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Chiang Kai-shek",
+  "dogum_tarihi": "1887-10-31",
+  "vefat_tarihi": "1975-04-05",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Xikou",
+  "vefat_yeri": "Taipei",
+  "defin_yeri": "Cihu Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Tayvan",
+  "wikidata_id": "Q16574",
+  "sitelink": 138,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı, Üstün Hizmet Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kurt Cobain",
+  "dogum_tarihi": "1967-02-20",
+  "vefat_tarihi": "1994-04-05",
+  "vefat_yasi": 27,
+  "dogum_yeri": "Abardeen",
+  "vefat_yeri": "Seattle",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q8446",
+  "sitelink": 129,
+  "fotograf": {
+   "dosya": "Nirvana around 1992 (cropped).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "P.B. Rage from USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nirvana_around_1992_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Smells Like Teen Spirit”, “Nevermind”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Saul Bellow",
+  "dogum_tarihi": "1915-06-10",
+  "vefat_tarihi": "2005-04-05",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Lachine",
+  "vefat_yeri": "Brookline",
+  "defin_yeri": "Morningside Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q83059",
+  "sitelink": 120,
+  "fotograf": {
+   "dosya": "Saul Bellow (Herzog portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph by Jeff Lowenthal. Published by Viking Press.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saul_Bellow_%28Herzog_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saul_Bellow_%28Herzog_portrait%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Douglas MacArthur",
+  "dogum_tarihi": "1880-01-26",
+  "vefat_tarihi": "1964-04-05",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Little Rock",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "MacArthur Memorial",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q127417",
+  "sitelink": 113,
+  "fotograf": {
+   "dosya": "MacArthur Manila (cropped2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer not credited.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MacArthur_Manila_%28cropped2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MacArthur_Manila_%28cropped2%29.jpg"
+  },
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Hava madalyası, Ulusal Kuruluş İçin Liyakat Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ambrosius",
+  "dogum_tarihi": "0339",
+  "vefat_tarihi": "0397-04-05",
+  "vefat_yasi": 58,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Augusta Treverorum",
+  "vefat_yeri": "Mediolanum",
+  "defin_yeri": "Basilica of Sant'Ambrogio",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q43689",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "AmbroseOfMilan.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AmbroseOfMilan.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AmbroseOfMilan.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Piskopos, Roma valisi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Allen Ginsberg",
+  "dogum_tarihi": "1926-06-03",
+  "vefat_tarihi": "1997-04-05",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "East Village",
+  "defin_yeri": "BNai Israel Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q6711",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "Allen Ginsberg 1979 - cropped.jpg",
+   "lisans": "CC0",
+   "yazar": "Hans van Dijk for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Ginsberg_1979_-_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Allen_Ginsberg_1979_-_cropped.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kitap Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charlton Heston",
+  "dogum_tarihi": "1923-10-04",
+  "vefat_tarihi": "2008-04-05",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Evanston",
+  "vefat_yeri": "Beverly Hills",
+  "defin_yeri": "Kaliforniya",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q80739",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Charlton Heston - 1953.jpg",
+   "lisans": "Public domain",
+   "yazar": "20th Century Fox studios",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlton_Heston_-_1953.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charlton_Heston_-_1953.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, Theatre World Award",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georges Jacques Danton",
+  "dogum_tarihi": "1759-10-26",
+  "vefat_tarihi": "1794-04-05",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Arcis-sur-Aube",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Errancis Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q184623",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Anonyme - Portrait de Georges Danton (1759-1794), orateur et homme politique - P712 - Musée Carnavalet - 2.jpg",
+   "lisans": "CC0",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_Mus%C3%A9e_Carnavalet_-_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_Mus%C3%A9e_Carnavalet_-_2.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Howard Hughes",
+  "dogum_tarihi": "1905-12-24",
+  "vefat_tarihi": "1976-04-05",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Houston",
+  "vefat_yeri": "Houston",
+  "defin_yeri": "Glenwood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q189081",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Howard Hughes 1938 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Acme Newspictures",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Howard_Hughes_1938_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Howard_Hughes_1938_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sydney Brenner",
+  "dogum_tarihi": "1927-01-13",
+  "vefat_tarihi": "2019-04-05",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Germiston",
+  "vefat_yeri": "Singapur",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q234463",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Sydney Brenner OIST 2008 (33208371153) (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "OIST from Onna Village, Japan",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Brenner_OIST_2008_%2833208371153%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sydney_Brenner_OIST_2008_%2833208371153%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Baruch Samuel Blumberg",
+  "dogum_tarihi": "1925-07-28",
+  "vefat_tarihi": "2011-04-05",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Mountain View",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q105830",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Baruch Samuel Blumberg by Tom Trower (NASA) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Tom Trower (NASA)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baruch_Samuel_Blumberg_by_Tom_Trower_%28NASA%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Baruch_Samuel_Blumberg_by_Tom_Trower_%28NASA%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: fahri doktora",
+  "hassas": false,
+  "turk": false
+ }
+]

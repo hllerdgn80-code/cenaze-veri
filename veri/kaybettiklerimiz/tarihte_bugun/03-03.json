@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Müslüm Gürses",
+  "dogum_tarihi": "1953-05-07",
+  "vefat_tarihi": "2013-03-03",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Halfeti",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1395064",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Hasan İzzet Paşa",
+  "dogum_tarihi": "1871",
+  "vefat_tarihi": "1931-03-03",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Aksaray",
+  "vefat_yeri": "Halep",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q728188",
+  "sitelink": 12,
+  "fotograf": {
+   "dosya": "Hasan-Izzet-Pasa.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ottoman Empire",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hasan-Izzet-Pasa.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hasan-Izzet-Pasa.jpg"
+  },
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Tayfur Sökmen",
+  "dogum_tarihi": "1892",
+  "vefat_tarihi": "1980-03-03",
+  "vefat_yasi": 88,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gaziantep",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q358771",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Tayfur Ata Sökmen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tayfur_Ata_S%C3%B6kmen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tayfur_Ata_S%C3%B6kmen.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Amerigo Vespucci",
+  "dogum_tarihi": "1454-03-18",
+  "vefat_tarihi": "1512-03-03",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Sevilla",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q47674",
+  "sitelink": 114,
+  "fotograf": {
+   "dosya": "Amerigo Vespucci.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amerigo_Vespucci.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Amerigo_Vespucci.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kenzaburō Ōe",
+  "dogum_tarihi": "1935-01-31",
+  "vefat_tarihi": "2023-03-03",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Ōse",
+  "vefat_yeri": "Tokyo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q80095",
+  "sitelink": 107,
+  "fotograf": {
+   "dosya": "Paris - Salon du livre 2012 - Kenzaburō Ōe - 003.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Thesupermat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_Salon_du_livre_2012_-_Kenzabur%C5%8D_%C5%8Ce_-_003.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paris_-_Salon_du_livre_2012_-_Kenzabur%C5%8D_%C5%8Ce_-_003.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Julius",
+  "dogum_tarihi": "1443-12-14",
+  "vefat_tarihi": "1513-03-03",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Albisola Superiore",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q80516",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Pope Julius II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Raphael",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Julius_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Julius_II.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, Mende Roma Katolik piskoposu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Evrengzib",
+  "dogum_tarihi": "1618-11-03",
+  "vefat_tarihi": "1707-03-03",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Dahod",
+  "vefat_yeri": "Ahmednagar",
+  "defin_yeri": "Evrengzib Türbesi",
+  "defin_il": null,
+  "defin_ulke": "Hindistan",
+  "wikidata_id": "Q485547",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Aurangzeb (r. 1658-1707).jpg (Cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aurangzeb_%28r._1658-1707%29.jpg_%28Cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aurangzeb_%28r._1658-1707%29.jpg_%28Cropped%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VIII. Clemens",
+  "dogum_tarihi": "1536-03-05",
+  "vefat_tarihi": "1605-03-03",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Fano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria Maggiore Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q170395",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Papa Clemente VIII Aldobrandini – Giuseppe Cesari (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Giuseppe Cesari",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Clemente_VIII_Aldobrandini_%E2%80%93_Giuseppe_Cesari_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Papa_Clemente_VIII_Aldobrandini_%E2%80%93_Giuseppe_Cesari_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Hukukçu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi, Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marguerite Duras",
+  "dogum_tarihi": "1914-04-04",
+  "vefat_tarihi": "1996-03-03",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Ho Chi Minh Kenti",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q153248",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Identite-Duras-1960-Sacem.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Identite-Duras-1960-Sacem.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Identite-Duras-1960-Sacem.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hergé",
+  "dogum_tarihi": "1907-05-22",
+  "vefat_tarihi": "1983-03-03",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Etterbeek",
+  "vefat_yeri": "Saint-Luc University Hospital",
+  "defin_yeri": "Dieweg Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Belçika",
+  "wikidata_id": "Q52985",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Herge-Italie-1965-Linus.png",
+   "lisans": "Public domain",
+   "yazar": "Anonyme, revue italienne Linus, publiée en 1965.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herge-Italie-1965-Linus.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Herge-Italie-1965-Linus.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tenten'in Maceraları”. Görev: Sanat yönetmeni",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "David Ogden Stiers",
+  "dogum_tarihi": "1942-10-31",
+  "vefat_tarihi": "2018-03-03",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Peoria",
+  "vefat_yeri": "Newport",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q202449",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "David Ogden Stiers \"Doc\" (1975 CBS press photo).JPG",
+   "lisans": "Public domain",
+   "yazar": "CBS Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Ogden_Stiers_%22Doc%22_%281975_CBS_press_photo%29.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:David_Ogden_Stiers_%22Doc%22_%281975_CBS_press_photo%29.JPG"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Komedi Dizilerinde En İyi Yardımcı Erkek Oyuncu Emmy Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Danny Kaye",
+  "dogum_tarihi": "1911-01-18",
+  "vefat_tarihi": "1987-03-03",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Kensico Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q213425",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Kaye, Danny.jpg",
+   "lisans": "Public domain",
+   "yazar": "Wikiwatcher1 at en.wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaye%2C_Danny.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kaye%2C_Danny.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ekran Oyuncuları Derneği Yaşam Başarı Ödülü, Peabody Ödülü. Görev: UNICEF İyi Niyet Elçisi",
+  "hassas": false,
+  "turk": false
+ }
+]

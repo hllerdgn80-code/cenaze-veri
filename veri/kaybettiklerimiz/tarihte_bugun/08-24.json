@@ -1,0 +1,327 @@
+[
+ {
+  "ad": "Simone Weil",
+  "dogum_tarihi": "1909-02-03",
+  "vefat_tarihi": "1943-08-24",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Ashford",
+  "defin_yeri": "Bybrook Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q157309",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Simone Weil 1943.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_Weil_1943.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Simone_Weil_1943.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Callistus",
+  "dogum_tarihi": "1379-01-16",
+  "vefat_tarihi": "1458-08-24",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Torreta de Canals",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria in Monserrato degli Spagnoli Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q160369",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Calixtus III.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sano di Pietro",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calixtus_III.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Calixtus_III.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Getúlio Vargas",
+  "dogum_tarihi": "1882-04-19",
+  "vefat_tarihi": "1954-08-24",
+  "vefat_yasi": 72,
+  "dogum_yeri": "São Borja",
+  "vefat_yeri": "Catete Sarayı",
+  "defin_yeri": "São Borja",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q156844",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Getulio Vargas (1930).jpg",
+   "lisans": "Public domain",
+   "yazar": "Governo do Brasil",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getulio_Vargas_%281930%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Getulio_Vargas_%281930%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Güney Haçı Liyakat Nişanı. Görev: Brezilya devlet başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Clausius",
+  "dogum_tarihi": "1822-01-02",
+  "vefat_tarihi": "1888-08-24",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Koszalin",
+  "vefat_yeri": "Bonn",
+  "defin_yeri": "Eski Bonn Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q30693",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Clausius.jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clausius.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Clausius.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Demir Haç, Copley Madalyası. Önemli eserleri: “Clausius teoremi”, “Clausius-Mossotti eşitliği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sadi Carnot",
+  "dogum_tarihi": "1796-06-01",
+  "vefat_tarihi": "1832-08-24",
+  "vefat_yasi": 36,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Cimetière ancien d'Ivry-sur-Seine",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q181685",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Sadi Carnot.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Louis-Léopold Boilly",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sadi_Carnot.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sadi_Carnot.jpeg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Carnot ısı motoru”, “Carnot kuramı”, “Carnot çevrimi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard Attenborough",
+  "dogum_tarihi": "1923-08-29",
+  "vefat_tarihi": "2014-08-24",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Cambridge",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "St Mary Magdalene church, Richmond, London",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q51506",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "RichardAttenborough07TIFF.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "gdcgraphics at https://www.flickr.com/photos/gdcgraphics/",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RichardAttenborough07TIFF.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:RichardAttenborough07TIFF.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Gölge Topraklarda”, “A Bridge Too Far”, “Gandhi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Walter Scheel",
+  "dogum_tarihi": "1919-07-08",
+  "vefat_tarihi": "2016-08-24",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Höhscheid",
+  "vefat_yeri": "Bad Krozingen",
+  "defin_yeri": "Zehlendorf Forest Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2571",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 146-1989-047-20, Walter Scheel.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-1989-047-20%2C_Walter_Scheel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1989-047-20%2C_Walter_Scheel.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Onursal vatandaşlık, Krizantem Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, Dışişleri Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hideki Shirakawa",
+  "dogum_tarihi": "1936-08-20",
+  "vefat_tarihi": "2026-08-24",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Tokyo",
+  "vefat_yeri": "Yokohama",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q110916",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Hideki Shirakawa.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "日本学士院",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hideki_Shirakawa.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hideki_Shirakawa.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Roger Y. Tsien",
+  "dogum_tarihi": "1952-02-01",
+  "vefat_tarihi": "2016-08-24",
+  "vefat_yasi": 64,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Eugene",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q200470",
+  "sitelink": 62,
+  "fotograf": null,
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charlie Watts",
+  "dogum_tarihi": "1941-06-02",
+  "vefat_tarihi": "2021-08-24",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Devon",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q216051",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Charlie Watts on drums The ABC & D of Boogie Woogie (2010) (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Poiseon Bild & Text (press photo by a photographer of the consulting company Poiseon AG in St. Gallen, Switzerland))",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlie_Watts_on_drums_The_ABC_%26_D_of_Boogie_Woogie_%282010%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charlie_Watts_on_drums_The_ABC_%26_D_of_Boogie_Woogie_%282010%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Müzisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kenji Mizoguchi",
+  "dogum_tarihi": "1898-05-16",
+  "vefat_tarihi": "1956-08-24",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Tokyo",
+  "vefat_yeri": "Kyoto",
+  "defin_yeri": "Honmon-ji Temple Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q55401",
+  "sitelink": 51,
+  "fotograf": {
+   "dosya": "Kenji Mizoguchi 3.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenji_Mizoguchi_3.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenji_Mizoguchi_3.jpg"
+  },
+  "meslek": [
+   "Yönetmen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Mainichi Film Ödülleri, Altın Aslan. Önemli eserleri: “Gion'lu Kızkardeşler”, “Utanç Sokağı”, “Eğlence Kadını Oharu'nun Yaşamı”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sergey Dovlatov",
+  "dogum_tarihi": "1941-09-03",
+  "vefat_tarihi": "1990-08-24",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Ufa",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Mount Hebron Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q141114",
+  "sitelink": 51,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

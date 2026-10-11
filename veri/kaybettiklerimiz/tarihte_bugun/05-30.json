@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Güzin Dino",
+  "dogum_tarihi": "1910-09-21",
+  "vefat_tarihi": "2013-05-30",
+  "vefat_yasi": 102,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "14. arrondissement",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6049308",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Voltaire",
+  "dogum_tarihi": "1694-11-21",
+  "vefat_tarihi": "1778-05-30",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q9068",
+  "sitelink": 256,
+  "fotograf": {
+   "dosya": "Nicolas de Largillière - Portrait de Voltaire (1694-1778) en 1718 - P208 - musée Carnavalet - 5 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Nicolas de Largillière",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_%281694-1778%29_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Zaire (roman)”, “Candide”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Peter Paul Rubens",
+  "dogum_tarihi": "1577-07-08",
+  "vefat_tarihi": "1640-05-30",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Siegen",
+  "vefat_yeri": "Anvers",
+  "defin_yeri": "St. James' Church, Antwerp",
+  "defin_il": null,
+  "defin_ulke": "Belçika",
+  "wikidata_id": "Q5599",
+  "sitelink": 175,
+  "fotograf": {
+   "dosya": "Sir Peter Paul Rubens - Portrait of the Artist - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Peter Paul Rubens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Boris Pasternak",
+  "dogum_tarihi": "1890-02-10",
+  "vefat_tarihi": "1960-05-30",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Peredelkino",
+  "defin_yeri": "Peredelkino Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q41223",
+  "sitelink": 141,
+  "fotograf": {
+   "dosya": "Boris Pasternak 1958 photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Владимир Савостьянов / ТАСС",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boris_Pasternak_1958_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Boris_Pasternak_1958_photo.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alexander Pope",
+  "dogum_tarihi": "1688-05-31",
+  "vefat_tarihi": "1744-06-10",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Twickenham",
+  "defin_yeri": "Londra",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q164047",
+  "sitelink": 122,
+  "fotograf": {
+   "dosya": "Alexander Pope by Michael Dahl.jpg",
+   "lisans": "Public domain",
+   "yazar": "Michael Dahl",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Pope_by_Michael_Dahl.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexander_Pope_by_Michael_Dahl.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Humphry Davy",
+  "dogum_tarihi": "1778-12-17",
+  "vefat_tarihi": "1829-05-29",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Penzance",
+  "vefat_yeri": "Cenevre",
+  "defin_yeri": "Cemetery of Kings",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q131761",
+  "sitelink": 102,
+  "fotograf": {
+   "dosya": "Sir Humphry Davy, Bt by Thomas Phillips.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Phillips",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Humphry_Davy%2C_Bt_by_Thomas_Phillips.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Humphry_Davy%2C_Bt_by_Thomas_Phillips.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Rumford Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rosalyn Sussman Yalow",
+  "dogum_tarihi": "1921-07-19",
+  "vefat_tarihi": "2011-05-30",
+  "vefat_yasi": 89,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Bronx",
+  "defin_yeri": "Mount Moriah Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q107402",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Rosalyn Yalow.jpg",
+   "lisans": "Public domain",
+   "yazar": "US Information Agency (see image credits at the end)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalyn_Yalow.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosalyn_Yalow.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası, National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Henry",
+  "dogum_tarihi": "1421-12-15",
+  "vefat_tarihi": "1471-05-30",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Windsor Sarayı",
+  "vefat_yeri": "Londra Kalesi",
+  "defin_yeri": "St George's Chapel, Windsor",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q160337",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Henry VI of England, Shrewsbury book.jpg",
+   "lisans": "Public domain",
+   "yazar": "Poems and Romances (Shrewsbury book), illuminated by the MASTER OF JOHN TALBOT",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_VI_of_England%2C_Shrewsbury_book.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henry_VI_of_England%2C_Shrewsbury_book.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Akitanya Dükü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georgi Plehanov",
+  "dogum_tarihi": "1856-11-29",
+  "vefat_tarihi": "1918-05-30",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Gudalovka",
+  "vefat_yeri": "Zelenogorsk, Sankt-Peterburg",
+  "defin_yeri": "Volkovo Cemetery Writer's Walkways",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q182905",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Georgi Plekhanov.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georgi_Plekhanov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georgi_Plekhanov.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Mieszko",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0992-05-30",
+  "vefat_yasi": null,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": "Archcathedral Basilica of St. Peter and St. Paul",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q53435",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Mieszko I (274939) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan Matejko",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mieszko_I_%28274939%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mieszko_I_%28274939%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Polonya Dükü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Leó Szilárd",
+  "dogum_tarihi": "1898-02-11",
+  "vefat_tarihi": "1964-05-30",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "La Jolla",
+  "defin_yeri": "Fiume Yolu Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q153238",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Leo Szilard.jpg",
+   "lisans": "Public domain",
+   "yazar": "U.S. Department of Energy",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo_Szilard.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Leo_Szilard.jpg"
+  },
+  "meslek": [
+   "Bilimkurgu yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizik Ödülü, Nobel Kimya Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrew Huxley",
+  "dogum_tarihi": "1917-11-22",
+  "vefat_tarihi": "2012-05-30",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Hampstead",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q104607",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Andrew Fielding Huxley nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrew_Fielding_Huxley_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrew_Fielding_Huxley_nobel.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ }
+]

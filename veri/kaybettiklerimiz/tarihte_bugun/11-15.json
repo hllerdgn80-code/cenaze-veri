@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "Seyit Rıza",
+  "dogum_tarihi": "1863",
+  "vefat_tarihi": "1937-11-15",
+  "vefat_yasi": 74,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ovacık",
+  "vefat_yeri": "Elazığ",
+  "defin_yeri": "Türkiye",
+  "defin_il": null,
+  "defin_ulke": "Türkiye",
+  "wikidata_id": "Q2166481",
+  "sitelink": 16,
+  "fotograf": {
+   "dosya": "Sey Riza.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sey_Riza.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sey_Riza.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Osman Öcalan",
+  "dogum_tarihi": "1958",
+  "vefat_tarihi": "2021-11-15",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ömerli",
+  "vefat_yeri": "Erbil",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2034293",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "Osman Öcalan (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "VOA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Osman_%C3%96calan_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Osman_%C3%96calan_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Johannes Kepler",
+  "dogum_tarihi": "1572-01-06",
+  "vefat_tarihi": "1630-11-15",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Weil der Stadt",
+  "vefat_yeri": "Regensburg",
+  "defin_yeri": "Regensburg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q8963",
+  "sitelink": 186,
+  "fotograf": {
+   "dosya": "Johannes Kepler by Hans von Aachen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hans von Aachen",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Kepler_by_Hans_von_Aachen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johannes_Kepler_by_Hans_von_Aachen.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Astronomia nova”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Henryk Sienkiewicz",
+  "dogum_tarihi": "1846-05-05",
+  "vefat_tarihi": "1916-11-15",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Wola Okrzejska",
+  "vefat_yeri": "Vevey",
+  "defin_yeri": "St. John Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q41502",
+  "sitelink": 139,
+  "fotograf": {
+   "dosya": "Henryk Sienkiewicz ca 1885 (45871548) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henryk_Sienkiewicz_ca_1885_%2845871548%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henryk_Sienkiewicz_ca_1885_%2845871548%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Émile Durkheim",
+  "dogum_tarihi": "1858-04-15",
+  "vefat_tarihi": "1917-11-15",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Épinal",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q15948",
+  "sitelink": 125,
+  "fotograf": {
+   "dosya": "Émile Durkheim.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89mile_Durkheim.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Durkheim.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Dini Hayatın İlkel Biçimleri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Cixi",
+  "dogum_tarihi": "1835-11-29",
+  "vefat_tarihi": "1908-11-15",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Pekin",
+  "vefat_yeri": "Imperial City",
+  "defin_yeri": "Eastern Qing tombs",
+  "defin_il": null,
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q47842",
+  "sitelink": 101,
+  "fotograf": {
+   "dosya": "The Ci-Xi Imperial Dowager Empress (9.2).PNG",
+   "lisans": "Public domain",
+   "yazar": "John Yu Shuinling",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Ci-Xi_Imperial_Dowager_Empress_%289.2%29.PNG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Ci-Xi_Imperial_Dowager_Empress_%289.2%29.PNG"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Değerli Taç Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jan Amos Comenius",
+  "dogum_tarihi": "1592-03-28",
+  "vefat_tarihi": "1670-11-15",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Uherský Brod",
+  "vefat_yeri": "Amsterdam",
+  "defin_yeri": "Naarden",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q12735",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Jan Amos Comenius (Komensky) (1592-1670). Tsjechisch humanist en pedagoog. Als voorganger van de Moravische of Boheemse Broedergemeente verdreven en sedert 1656 gevestigd te Amsterdam Rijksmuseum SK-A-2161.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Jürgen Ovens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Amos_Comenius_%28Komensky%29_%281592-1670%29._Tsjechisch_humanist_en_pedagoog._Als_voorganger_van_de_Moravische_of_Boheemse_Broedergemeente_verdreven_en_sedert_1656_gevestigd_te_Amsterdam_Rijksmuseum_SK-A-2161.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jan_Amos_Comenius_%28Komensky%29_%281592-1670%29._Tsjechisch_humanist_en_pedagoog._Als_voorganger_van_de_Moravische_of_Boheemse_Broedergemeente_verdreven_en_sedert_1656_gevestigd_te_Amsterdam_Rijksmuseum_SK-A-2161.jpeg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Piskopos, baş öğretmen",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Margaret Mead",
+  "dogum_tarihi": "1901-12-16",
+  "vefat_tarihi": "1978-11-15",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Philadelphia",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Trinity Episcopal Church Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q180099",
+  "sitelink": 97,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame, Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Thomson Rees Wilson",
+  "dogum_tarihi": "1869-02-14",
+  "vefat_tarihi": "1959-11-15",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Glencorse",
+  "vefat_yeri": "Carlops",
+  "defin_yeri": "Cemetery, St Andrew's Church, Neidpath Road, Peebles",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q162900",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "CTR Wilson.jpg",
+   "lisans": "Public domain",
+   "yazar": "The American Institute of Physics credits the photo [1] to AB Lagrelius & Westphal, which is the Swedish company used by the Nobel Foundation for most photos of its book series Les Prix Nobel.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CTR_Wilson.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CTR_Wilson.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Gabin",
+  "dogum_tarihi": "1904-05-17",
+  "vefat_tarihi": "1976-11-15",
+  "vefat_yasi": 72,
+  "dogum_yeri": "9. arrondissement",
+  "vefat_yeri": "Neuilly-sur-Seine",
+  "defin_yeri": "Iroise Sea",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q23842",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Jean Gabin 1958.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers), published in Grazia magazine",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Gabin_1958.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Gabin_1958.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Erkek Oyuncu Volpi Kupası, Gümüş Ayı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Christoph Willibald Gluck",
+  "dogum_tarihi": "1714-07-02",
+  "vefat_tarihi": "1787-11-15",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Erasbach",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Zentralfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q130759",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Joseph Siffred Duplessis - Christoph Willibald Gluck - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph-Siffred Duplessis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Armide”, “İphigenia Tauris'te”, “Orphe ve Eurydice”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alfred Werner",
+  "dogum_tarihi": "1866-12-12",
+  "vefat_tarihi": "1919-11-15",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Mulhouse",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Rehalp Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q123014",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "(UAZ) AB.1.1093 Werner.tif",
+   "lisans": "Public domain",
+   "yazar": "Franz Schmelhaus, Zürich",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28UAZ%29_AB.1.1093_Werner.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%28UAZ%29_AB.1.1093_Werner.tif"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ }
+]

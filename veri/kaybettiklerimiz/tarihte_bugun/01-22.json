@@ -1,0 +1,337 @@
+[
+ {
+  "ad": "Kamer Genç",
+  "dogum_tarihi": "1940-02-23",
+  "vefat_tarihi": "2016-01-22",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Ramazanköy",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Ramazanköy",
+  "defin_il": "Tunceli",
+  "defin_ulke": null,
+  "wikidata_id": "Q1399569",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Kamer Genç crop.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Cano58",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamer_Gen%C3%A7_crop.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kamer_Gen%C3%A7_crop.JPG"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Victoria",
+  "dogum_tarihi": "1819-05-24",
+  "vefat_tarihi": "1901-01-22",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Kensington Sarayı",
+  "vefat_yeri": "Osborne House",
+  "defin_yeri": "Windsor, Berkshire",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q9439",
+  "sitelink": 176,
+  "fotograf": {
+   "dosya": "Queen Victoria by Bassano.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alexander Bassano",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Victoria_by_Bassano.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Liyakat Nişanı. Görev: Hindistan imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lyndon B. Johnson",
+  "dogum_tarihi": "1908-08-27",
+  "vefat_tarihi": "1973-01-22",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Stonewall",
+  "vefat_yeri": "LBJ Ranch House",
+  "defin_yeri": "grave of Lyndon B. Johnson",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q9640",
+  "sitelink": 175,
+  "fotograf": {
+   "dosya": "Lyndon B. Johnson, photo portrait, leaning on chair, color cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "Arnold Newman",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lyndon_B._Johnson%2C_photo_portrait%2C_leaning_on_chair%2C_color_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson%2C_photo_portrait%2C_leaning_on_chair%2C_color_cropped.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Gümüş Yıldız. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Caligula",
+  "dogum_tarihi": "0012-08-29",
+  "vefat_tarihi": "0041-01-22",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Antium",
+  "vefat_yeri": "Palatino Tepesi",
+  "defin_yeri": "Augustus Anıt Mezarı",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1409",
+  "sitelink": 130,
+  "fotograf": {
+   "dosya": "Portrait Head of Caligula - Getty Museum (72.AA.155).jpg",
+   "lisans": "CC0",
+   "yazar": "J. Paul Getty Museum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Head_of_Caligula_-_Getty_Museum_%2872.AA.155%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_Head_of_Caligula_-_Getty_Museum_%2872.AA.155%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "XV. Benedictus",
+  "dogum_tarihi": "1854-11-21",
+  "vefat_tarihi": "1922-01-22",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Pegli",
+  "vefat_yeri": "Apostolik Sarayı",
+  "defin_yeri": "Vatican Grotto",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q4448",
+  "sitelink": 113,
+  "fotograf": {
+   "dosya": "Benedictus XV, by Nicola Perscheid, 1915 (retouched).jpg",
+   "lisans": "Public domain",
+   "yazar": "Nicola Perscheid",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_XV%2C_by_Nicola_Perscheid%2C_1915_%28retouched%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Benedictus_XV%2C_by_Nicola_Perscheid%2C_1915_%28retouched%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kutsal Kabir Tarikatı. Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Heath Ledger",
+  "dogum_tarihi": "1979-04-04",
+  "vefat_tarihi": "2008-01-22",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Perth, Batı Avustralya",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": "Karrakatta",
+  "defin_il": null,
+  "defin_ulke": "Avustralya",
+  "wikidata_id": "Q40572",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Heath Ledger.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Howie",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heath_Ledger.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Heath_Ledger.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ursula K. Le Guin",
+  "dogum_tarihi": "1929-10-21",
+  "vefat_tarihi": "2018-01-22",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Berkeley",
+  "vefat_yeri": "Portland",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q181659",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Ursula Le Guin (3551195631) - Restoration.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Marian Wood Kolisch, Oregon State University Restored by Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ursula_Le_Guin_%283551195631%29_-_Restoration.jpg"
+  },
+  "meslek": [
+   "Roman yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Mülksüzler”, “Yerdeniz”, “Hain Döngüsü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Şah Cihan",
+  "dogum_tarihi": "1592-01-15",
+  "vefat_tarihi": "1666-01-22",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Lahor Kalesi",
+  "vefat_yeri": "Agra Kalesi",
+  "defin_yeri": "Tac Mahal",
+  "defin_il": null,
+  "defin_ulke": "Hindistan",
+  "wikidata_id": "Q83672",
+  "sitelink": 102,
+  "fotograf": {
+   "dosya": "'Jujhar Singh Bundela Kneels in Submission to Shah Jahan', painted by Bichitr, c. 1630, Chester Beatty Library (cropped2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bichitr",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Jujhar_Singh_Bundela_Kneels_in_Submission_to_Shah_Jahan%27%2C_painted_by_Bichitr%2C_c._1630%2C_Chester_Beatty_Library_%28cropped2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%27Jujhar_Singh_Bundela_Kneels_in_Submission_to_Shah_Jahan%27%2C_painted_by_Bichitr%2C_c._1630%2C_Chester_Beatty_Library_%28cropped2%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arno Allan Penzias",
+  "dogum_tarihi": "1933-04-26",
+  "vefat_tarihi": "2024-01-22",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Münih",
+  "vefat_yeri": "San Francisco",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q172877",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "32. Tagung 1982 Physiker; Beim Studentenabend Arno A. Penzias - W134Nr.119142 - Willy Pragher (cropped).jpg",
+   "lisans": "CC BY 3.0 de",
+   "yazar": "Willy Pragher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/32._Tagung_1982_Physiker%3B_Beim_Studentenabend_Arno_A._Penzias_-_W134Nr.119142_-_Willy_Pragher_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:32._Tagung_1982_Physiker%3B_Beim_Studentenabend_Arno_A._Penzias_-_W134Nr.119142_-_Willy_Pragher_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Maximilian",
+  "dogum_tarihi": "1459-03-31",
+  "vefat_tarihi": "1519-01-22",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Wiener Neustadt",
+  "vefat_yeri": "Wels",
+  "defin_yeri": "St. George's Cathedral, Wiener Neustadt",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q150726",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Albrecht Dürer - Portrait of Maximilian I - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Albrecht Dürer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Portrait_of_Maximilian_I_-_Google_Art_Project.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lucius Verus",
+  "dogum_tarihi": "0130-12-14",
+  "vefat_tarihi": "0169-01-22",
+  "vefat_yasi": 38,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Altinum",
+  "defin_yeri": "Sant'Angelo Kalesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1433",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Lucius Verus - MET - L.2007.26.jpg",
+   "lisans": "CC0",
+   "yazar": "PierreSelim",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lucius_Verus_-_MET_-_L.2007.26.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lucius_Verus_-_MET_-_L.2007.26.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kōbō Abe",
+  "dogum_tarihi": "1924-03-07",
+  "vefat_tarihi": "1993-01-22",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Kita-ku",
+  "vefat_yeri": "Tokyo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q186273",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Kobo Abe 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobo_Abe_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kobo_Abe_01.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Akutagava Ödülü. Önemli eserleri: “Kumların Kadını”",
+  "hassas": false,
+  "turk": false
+ }
+]

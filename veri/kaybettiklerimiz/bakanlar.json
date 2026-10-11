@@ -1,5 +1,34 @@
 [
  {
+  "ad": "Cahit Karakaş",
+  "dogum_tarihi": "1928",
+  "vefat_tarihi": "2025-09-07",
+  "vefat_yasi": 97,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bartın",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1025777",
+  "sitelink": 7,
+  "fotograf": null,
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1971-10-27",
+    "bitis": "1971-12-11"
+   }
+  ]
+ },
+ {
   "ad": "Mustafa Demir",
   "dogum_tarihi": "1961-01-18",
   "vefat_tarihi": "2025-08-06",
@@ -45,13 +74,23 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Enerji ve Tabii Kaynaklar Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1969-11-03",
+    "bitis": "1970-12-14"
+   },
    {
     "gorev": "Enerji ve Tabii Kaynaklar Bakanı",
     "baslangic": "1970-12-10",
     "bitis": "1971-03-26"
+   },
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1975-03-31",
+    "bitis": "1977-04-11"
    },
    {
     "gorev": "Millî Eğitim Bakanı",
@@ -67,6 +106,33 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1993-10-24",
     "bitis": "1995-10-31"
+   }
+  ]
+ },
+ {
+  "ad": "Ömer Barutçu",
+  "dogum_tarihi": "1942",
+  "vefat_tarihi": "2024-12-02",
+  "vefat_yasi": 82,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beşikdüzü",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6064984",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1996-03-06",
+    "bitis": "1997-06-30"
    }
   ]
  },
@@ -99,6 +165,11 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1991-08-29",
     "bitis": "1991-11-20"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1999-05-28",
+    "bitis": "2002-11-18"
    }
   ]
  },
@@ -158,13 +229,69 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "2002-11-19",
     "bitis": "2003-03-14"
+   }
+  ]
+ },
+ {
+  "ad": "İbrahim Aysoy",
+  "dogum_tarihi": "1931",
+  "vefat_tarihi": "2024-05-14",
+  "vefat_yasi": 93,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Mardin",
+  "vefat_yeri": null,
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6025885",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1977-04-11",
+    "bitis": "1977-06-21"
+   }
+  ]
+ },
+ {
+  "ad": "Mustafa Aysan",
+  "dogum_tarihi": "1933",
+  "vefat_tarihi": "2024-01-29",
+  "vefat_yasi": 91,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q12810976",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Ekonomist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1983-03-02",
+    "bitis": "1983-12-13"
    }
   ]
  },
@@ -363,6 +490,32 @@
   "gorevler": []
  },
  {
+  "ad": "Vefa Tanır",
+  "dogum_tarihi": "1927-01-01",
+  "vefat_tarihi": "2023-03-10",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Ilgın",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6079576",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1995-10-05",
+    "bitis": "1996-03-06"
+   }
+  ]
+ },
+ {
   "ad": "Deniz Baykal",
   "dogum_tarihi": "1938-07-20",
   "vefat_tarihi": "2023-02-11",
@@ -386,7 +539,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Türkiye başbakan yardımcısı",
   "hassas": false,
   "gorevler": [
    {
@@ -502,7 +655,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Sanayi ve Teknoloji Bakanı",
+  "neden_onemli": "Görev: Sanayi ve Teknoloji Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -542,6 +695,33 @@
   ]
  },
  {
+  "ad": "Haluk Arık",
+  "dogum_tarihi": "1917",
+  "vefat_tarihi": "2022-02-23",
+  "vefat_yasi": 105,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6022769",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1971-03-26",
+    "bitis": "1971-09-29"
+   }
+  ]
+ },
+ {
   "ad": "Neşet Akmandor",
   "dogum_tarihi": "1921",
   "vefat_tarihi": "2021",
@@ -558,13 +738,18 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Enerji ve Tabii Kaynaklar Bakanı, Millî Savunma Bakanı",
+  "neden_onemli": "Görev: Millî Savunma Bakanı, Enerji ve Tabii Kaynaklar Bakanı",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Enerji ve Tabii Kaynaklar Bakanı",
     "baslangic": "1977-06-21",
     "bitis": "1977-07-21"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1979-01-16",
+    "bitis": "1979-11-12"
    }
   ]
  },
@@ -673,7 +858,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Sanayi ve Teknoloji Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye İçişleri Bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -690,6 +875,33 @@
     "gorev": "Sanayi ve Teknoloji Bakanı",
     "baslangic": "1977-07-21",
     "bitis": "1978-01-05"
+   }
+  ]
+ },
+ {
+  "ad": "Selahattin Babüroğlu",
+  "dogum_tarihi": "1923",
+  "vefat_tarihi": "2021-06-04",
+  "vefat_yasi": 98,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6039057",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1971-10-13",
+    "bitis": "1971-10-27"
    }
   ]
  },
@@ -760,9 +972,14 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1991-11-20",
+    "bitis": "1993-10-24"
+   },
    {
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1993-10-24",
@@ -828,6 +1045,33 @@
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1978-01-05",
     "bitis": "1979-11-12"
+   }
+  ]
+ },
+ {
+  "ad": "Zeki Yavuztürk",
+  "dogum_tarihi": "1935",
+  "vefat_tarihi": "2020-04-23",
+  "vefat_yasi": 85,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kemaliye",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6029449",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1983-12-13",
+    "bitis": "1987-12-21"
    }
   ]
  },
@@ -915,7 +1159,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: dekan, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -1056,6 +1300,62 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": []
+ },
+ {
+  "ad": "Rıfkı Danışman",
+  "dogum_tarihi": "1924",
+  "vefat_tarihi": "2018-07-14",
+  "vefat_yasi": 94,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzurum",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6040442",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1971-12-11",
+    "bitis": "1973-04-15"
+   }
+  ]
+ },
+ {
+  "ad": "Mehmet Ercan Vuralhan",
+  "dogum_tarihi": "1943",
+  "vefat_tarihi": "2018-04-18",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Malatya",
+  "vefat_yeri": "Haseki Eğitim ve Araştırma Hastanesi",
+  "defin_yeri": "Nakkaş Baba Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6089060",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1987-12-21",
+    "bitis": "1989-03-30"
+   }
+  ]
  },
  {
   "ad": "Hasan Celal Güzel",
@@ -1225,7 +1525,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: büyükelçi, Türkiye dışişleri bakanı",
+  "neden_onemli": "Görev: büyükelçi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -1269,6 +1569,11 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1991-11-20",
     "bitis": "1993-06-25"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1997-06-30",
+    "bitis": "1999-01-11"
    }
   ]
  },
@@ -1356,6 +1661,33 @@
   ]
  },
  {
+  "ad": "Arif Ahmet Denizolgun",
+  "dogum_tarihi": "1955",
+  "vefat_tarihi": "2016-09-08",
+  "vefat_yasi": 61,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q777109",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1998-08-04",
+    "bitis": "1999-01-11"
+   }
+  ]
+ },
+ {
   "ad": "Ekrem Pakdemirli",
   "dogum_tarihi": "1939-04-13",
   "vefat_tarihi": "2015-12-31",
@@ -1376,6 +1708,11 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1987-12-21",
+    "bitis": "1989-03-30"
+   },
    {
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1989-03-30",
@@ -1572,6 +1909,39 @@
   ]
  },
  {
+  "ad": "Hüseyin Özalp",
+  "dogum_tarihi": "1923",
+  "vefat_tarihi": "2014-03-10",
+  "vefat_yasi": 91,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6053263",
+  "sitelink": 2,
+  "fotograf": {
+   "dosya": "Hüseyin ÖZALP.jpeg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bozalioğlu",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%BCseyin_%C3%96ZALP.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:H%C3%BCseyin_%C3%96ZALP.jpeg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1979-11-12",
+    "bitis": "1980-09-12"
+   }
+  ]
+ },
+ {
   "ad": "Rüştü Kazım Yücelen",
   "dogum_tarihi": "1948",
   "vefat_tarihi": "2014-02-02",
@@ -1626,6 +1996,33 @@
   ]
  },
  {
+  "ad": "Mehmet Gölhan",
+  "dogum_tarihi": "1929",
+  "vefat_tarihi": "2013-12-05",
+  "vefat_yasi": 84,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Adapazarı",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6060876",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1993-10-24",
+    "bitis": "1995-10-05"
+   }
+  ]
+ },
+ {
   "ad": "Mehmet Nuri Kodamanoğlu",
   "dogum_tarihi": "1923",
   "vefat_tarihi": "2013-10-03",
@@ -1672,6 +2069,91 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": []
+ },
+ {
+  "ad": "Necdet Menzir",
+  "dogum_tarihi": "1945",
+  "vefat_tarihi": "2013-02-02",
+  "vefat_yasi": 68,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q4561309",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1997-06-30",
+    "bitis": "1998-08-04"
+   }
+  ]
+ },
+ {
+  "ad": "Sabahattin Yalınpala",
+  "dogum_tarihi": "1926",
+  "vefat_tarihi": "2012",
+  "vefat_yasi": 86,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6022110",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1991-08-29",
+    "bitis": "1991-11-20"
+   }
+  ]
+ },
+ {
+  "ad": "Sadettin Bilgiç",
+  "dogum_tarihi": "1920-12-23",
+  "vefat_tarihi": "2012-04-20",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Şarkikaraağaç",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6069307",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1967-04-03",
+    "bitis": "1969-08-01"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1977-07-21",
+    "bitis": "1977-10-18"
+   }
+  ]
  },
  {
   "ad": "Nafiz Kurt",
@@ -1749,6 +2231,11 @@
   "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1989-03-30",
+    "bitis": "1990-10-19"
+   },
    {
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1991-06-23",
@@ -1834,7 +2321,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hazine ve Maliye Bakanı",
+  "neden_onemli": "Görev: Hazine ve Maliye Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -2014,6 +2501,33 @@
   ]
  },
  {
+  "ad": "Naci Kınacıoğlu",
+  "dogum_tarihi": "1929",
+  "vefat_tarihi": "2009-06-20",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kayseri",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6070178",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "2002-08-05",
+    "bitis": "2002-11-18"
+   }
+  ]
+ },
+ {
   "ad": "Sabit Osman Avcı",
   "dogum_tarihi": "1921",
   "vefat_tarihi": "2009-02-08",
@@ -2030,13 +2544,40 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye Büyük Millet Meclisi Başkanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Enerji ve Tabii Kaynaklar Bakanı",
     "baslangic": "1969-11-03",
     "bitis": "1970-11-28"
+   }
+  ]
+ },
+ {
+  "ad": "Ferda Güley",
+  "dogum_tarihi": "1916",
+  "vefat_tarihi": "2008-11-18",
+  "vefat_yasi": 92,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Aybastı",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6054971",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1974-01-26",
+    "bitis": "1974-11-17"
    }
   ]
  },
@@ -2176,7 +2717,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -2239,6 +2780,11 @@
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1971-12-11",
     "bitis": "1974-01-25"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1980-09-20",
+    "bitis": "1983-12-13"
    }
   ]
  },
@@ -2266,7 +2812,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -2283,6 +2829,93 @@
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1999-04-18",
     "bitis": "2002-07-11"
+   }
+  ]
+ },
+ {
+  "ad": "Ahmet İhsan Birincioğlu",
+  "dogum_tarihi": "1923",
+  "vefat_tarihi": "2007-01-20",
+  "vefat_yasi": 84,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Akçaabat",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6075397",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1979-11-12",
+    "bitis": "1980-09-12"
+   }
+  ]
+ },
+ {
+  "ad": "Muzaffer Kurbanoğlu",
+  "dogum_tarihi": "1913",
+  "vefat_tarihi": "2006-03-09",
+  "vefat_yasi": 93,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Manisa",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6044927",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Hâkim"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1958-11-01",
+    "bitis": "1959-12-09"
+   }
+  ]
+ },
+ {
+  "ad": "Mehmet Orhan Tuğrul",
+  "dogum_tarihi": "1916",
+  "vefat_tarihi": "2006-02-13",
+  "vefat_yasi": 90,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Söğüt",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6034965",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1970-12-14",
+    "bitis": "1971-03-26"
    }
   ]
  },
@@ -2359,7 +2992,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -2514,6 +3147,33 @@
   ]
  },
  {
+  "ad": "Mehmet Köstepen",
+  "dogum_tarihi": "1947",
+  "vefat_tarihi": "2004-09-01",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6037300",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1993-06-25",
+    "bitis": "1995-04-12"
+   }
+  ]
+ },
+ {
   "ad": "Veysel Atasoy",
   "dogum_tarihi": "1947-01-01",
   "vefat_tarihi": "2004-08-24",
@@ -2531,9 +3191,14 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Enerji ve Tabii Kaynaklar Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1983-12-13",
+    "bitis": "1987-09-16"
+   },
    {
     "gorev": "Enerji ve Tabii Kaynaklar Bakanı",
     "baslangic": "1993-06-25",
@@ -2613,6 +3278,35 @@
   "gorevler": []
  },
  {
+  "ad": "Seyfi Öztürk",
+  "dogum_tarihi": "1927",
+  "vefat_tarihi": "2002-11-05",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6061032",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1965-10-27",
+    "bitis": "1967-04-03"
+   }
+  ]
+ },
+ {
   "ad": "Cevdet Menteş",
   "dogum_tarihi": "1915-01-01",
   "vefat_tarihi": "2002-10-14",
@@ -2684,13 +3378,23 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, rektör",
+  "neden_onemli": "Görev: rektör, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1972-05-22",
     "bitis": "1973-04-15"
+   },
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1973-04-15",
+    "bitis": "1974-01-26"
+   },
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1974-11-17",
+    "bitis": "1975-03-31"
    },
    {
     "gorev": "Türkiye İçişleri Bakanı",
@@ -2721,6 +3425,11 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Adalet Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1965-02-20",
+    "bitis": "1965-08-10"
+   },
    {
     "gorev": "Adalet Bakanı",
     "baslangic": "1965-10-27",
@@ -2811,7 +3520,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi vekili, Hazine ve Maliye Bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -2919,7 +3628,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false,
   "gorevler": [
    {
@@ -2974,6 +3683,32 @@
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1953-04-09",
     "bitis": "1954-05-17"
+   }
+  ]
+ },
+ {
+  "ad": "Sıtkı Ulay",
+  "dogum_tarihi": "1907-01-01",
+  "vefat_tarihi": "1997-06-14",
+  "vefat_yasi": 90,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6065494",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1960-05-30",
+    "bitis": "1961-01-05"
    }
   ]
  },
@@ -3046,6 +3781,100 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1963-10-22",
     "bitis": "1963-12-25"
+   }
+  ]
+ },
+ {
+  "ad": "Kasım Gülek",
+  "dogum_tarihi": "1905",
+  "vefat_tarihi": "1996-01-19",
+  "vefat_yasi": 91,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Adana",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Adana Asri Mezarlığı",
+  "defin_il": "Adana",
+  "defin_ulke": null,
+  "wikidata_id": "Q6374938",
+  "sitelink": 5,
+  "fotograf": {
+   "dosya": "Kasım Gülek.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kas%C4%B1m_G%C3%BClek.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kas%C4%B1m_G%C3%BClek.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1948-06-10",
+    "bitis": "1949-01-16"
+   }
+  ]
+ },
+ {
+  "ad": "Şemi Ergin",
+  "dogum_tarihi": "1913",
+  "vefat_tarihi": "1996-01-18",
+  "vefat_yasi": 83,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gebze",
+  "vefat_yeri": null,
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6051627",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1957-07-28",
+    "bitis": "1958-01-19"
+   },
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1959-12-09",
+    "bitis": "1960-05-27"
+   }
+  ]
+ },
+ {
+  "ad": "Arif Demirer",
+  "dogum_tarihi": "1909",
+  "vefat_tarihi": "1995",
+  "vefat_yasi": 86,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Afyonkarahisar",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6054184",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1955-12-09",
+    "bitis": "1957-11-25"
    }
   ]
  },
@@ -3175,6 +4004,44 @@
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1974-11-17",
     "bitis": "1975-03-31"
+   }
+  ]
+ },
+ {
+  "ad": "Seyfi Kurtbek",
+  "dogum_tarihi": "1905",
+  "vefat_tarihi": "1995-03-27",
+  "vefat_yasi": 90,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gelibolu",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6071150",
+  "sitelink": 1,
+  "fotograf": {
+   "dosya": "Ali Seyfi Kurtbek.png",
+   "lisans": "Public domain",
+   "yazar": "TBMM",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Seyfi_Kurtbek.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Seyfi_Kurtbek.png"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1950-08-11",
+    "bitis": "1952-11-10"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1952-12-10",
+    "bitis": "1953-11-01"
    }
   ]
  },
@@ -3346,7 +4213,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye cumhurbaşkanı",
+  "neden_onemli": "Görev: Türkiye cumhurbaşkanı, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -3521,7 +4388,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Maliye Bakanı, sandalyesiz bakan",
+  "neden_onemli": "Görev: sandalyesiz bakan, Maliye Bakanı",
   "hassas": false,
   "gorevler": []
  },
@@ -3560,6 +4427,33 @@
   ]
  },
  {
+  "ad": "Cengiz Tuncer",
+  "dogum_tarihi": "1942",
+  "vefat_tarihi": "1992-12-07",
+  "vefat_yasi": 50,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6040114",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1989-03-30",
+    "bitis": "1991-06-23"
+   }
+  ]
+ },
+ {
   "ad": "Refet Sezgin",
   "dogum_tarihi": "1925",
   "vefat_tarihi": "1992-11-12",
@@ -3585,6 +4479,35 @@
     "gorev": "Enerji ve Tabii Kaynaklar Bakanı",
     "baslangic": "1967-04-01",
     "bitis": "1969-11-03"
+   }
+  ]
+ },
+ {
+  "ad": "Güneş Öngüt",
+  "dogum_tarihi": "1933",
+  "vefat_tarihi": "1992-10-25",
+  "vefat_yasi": 59,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6037483",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1978-01-05",
+    "bitis": "1979-11-12"
    }
   ]
  },
@@ -3622,9 +4545,19 @@
     "bitis": "1954-05-17"
    },
    {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1954-05-17",
+    "bitis": "1955-09-15"
+   },
+   {
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1955-09-30",
     "bitis": "1956-10-12"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1958-01-19",
+    "bitis": "1960-05-27"
    }
   ]
  },
@@ -3826,6 +4759,34 @@
   ]
  },
  {
+  "ad": "Kemal Satır",
+  "dogum_tarihi": "1911-04-23",
+  "vefat_tarihi": "1991-05-23",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Adana",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6097255",
+  "sitelink": 6,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1949-01-16",
+    "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
   "ad": "Mehmet Aydın",
   "dogum_tarihi": "1928",
   "vefat_tarihi": "1990-05-26",
@@ -3845,6 +4806,64 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": []
+ },
+ {
+  "ad": "Mustafa Hazım Dağlı",
+  "dogum_tarihi": "1906",
+  "vefat_tarihi": "1990-05-07",
+  "vefat_yasi": 84,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6049224",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1965-08-10",
+    "bitis": "1965-10-27"
+   }
+  ]
+ },
+ {
+  "ad": "Münir Birsel",
+  "dogum_tarihi": "1897",
+  "vefat_tarihi": "1990-02-24",
+  "vefat_yasi": 93,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6046344",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1947-09-05",
+    "bitis": "1948-06-05"
+   }
+  ]
  },
  {
   "ad": "İhsan Köknel",
@@ -3932,6 +4951,35 @@
   ]
  },
  {
+  "ad": "Ferit Alpiskender",
+  "dogum_tarihi": "1908",
+  "vefat_tarihi": "1989-07-29",
+  "vefat_yasi": 81,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Diyarbakır",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q12808259",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1963-12-25",
+    "bitis": "1964-12-15"
+   }
+  ]
+ },
+ {
   "ad": "Hasan Esat Işık",
   "dogum_tarihi": "1916",
   "vefat_tarihi": "1989-07-02",
@@ -3963,6 +5011,21 @@
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1965-02-23",
     "bitis": "1965-10-22"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1974-01-26",
+    "bitis": "1974-11-17"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1977-06-21",
+    "bitis": "1977-07-21"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1978-01-05",
+    "bitis": "1979-01-16"
    }
   ]
  },
@@ -3995,6 +5058,62 @@
   ]
  },
  {
+  "ad": "Necmi Özgür",
+  "dogum_tarihi": "1917",
+  "vefat_tarihi": "1989-05-06",
+  "vefat_yasi": 72,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6036416",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1980-09-20",
+    "bitis": "1983-03-02"
+   }
+  ]
+ },
+ {
+  "ad": "Fahri Özdilek",
+  "dogum_tarihi": "1898",
+  "vefat_tarihi": "1989-03-13",
+  "vefat_yasi": 91,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1337667",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1960-06-09",
+    "bitis": "1960-10-22"
+   }
+  ]
+ },
+ {
   "ad": "Hasan Tahsin Banguoğlu",
   "dogum_tarihi": "1904-01-01",
   "vefat_tarihi": "1989-03-03",
@@ -4023,6 +5142,35 @@
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1948-06-10",
     "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Mustafa Cahit Akyar",
+  "dogum_tarihi": "1910",
+  "vefat_tarihi": "1988-12-02",
+  "vefat_yasi": 78,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": null,
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6035619",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1961-11-20",
+    "bitis": "1962-06-25"
    }
   ]
  },
@@ -4164,6 +5312,45 @@
   ]
  },
  {
+  "ad": "İlhami Sancar",
+  "dogum_tarihi": "1909",
+  "vefat_tarihi": "1986-12-13",
+  "vefat_yasi": 77,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gördes",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6077355",
+  "sitelink": 8,
+  "fotograf": null,
+  "meslek": [
+   "Hâkim"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1961-11-20",
+    "bitis": "1965-02-20"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1973-04-15",
+    "bitis": "1974-01-26"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1974-11-17",
+    "bitis": "1975-03-31"
+   }
+  ]
+ },
+ {
   "ad": "Ahmet Gündüz Ökçün",
   "dogum_tarihi": "1936-06-24",
   "vefat_tarihi": "1986-11-26",
@@ -4187,7 +5374,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -4368,6 +5555,38 @@
   ]
  },
  {
+  "ad": "Mehmet İzmen",
+  "dogum_tarihi": "1909",
+  "vefat_tarihi": "1986-01-08",
+  "vefat_yasi": 77,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Giresun",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6065950",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1969-08-01",
+    "bitis": "1969-11-03"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1972-05-22",
+    "bitis": "1973-04-15"
+   }
+  ]
+ },
+ {
   "ad": "Sadiq Kammuna",
   "dogum_tarihi": "1907",
   "vefat_tarihi": "1985",
@@ -4445,6 +5664,35 @@
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1973-04-15",
     "bitis": "1974-01-26"
+   }
+  ]
+ },
+ {
+  "ad": "İhsan Şeref Dura",
+  "dogum_tarihi": "1901",
+  "vefat_tarihi": "1984-08-27",
+  "vefat_yasi": 83,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6035569",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1963-06-13",
+    "bitis": "1963-12-25"
    }
   ]
  },
@@ -4560,6 +5808,33 @@
   ]
  },
  {
+  "ad": "Kâzım Yurdakul",
+  "dogum_tarihi": "1916",
+  "vefat_tarihi": "1983-07-11",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Manisa",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6054410",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1965-07-31",
+    "bitis": "1965-10-27"
+   }
+  ]
+ },
+ {
   "ad": "Yılmaz Ergenekon",
   "dogum_tarihi": "1929-01-01",
   "vefat_tarihi": "1983-07-08",
@@ -4584,6 +5859,11 @@
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1975-03-31",
     "bitis": "1977-06-21"
+   },
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1977-07-21",
+    "bitis": "1978-01-05"
    }
   ]
  },
@@ -4690,7 +5970,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye başbakan yardımcısı",
+  "neden_onemli": "Görev: Türkiye başbakan yardımcısı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -4718,7 +5998,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false,
   "gorevler": [
    {
@@ -4750,7 +6030,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
   "hassas": false,
   "gorevler": [
    {
@@ -4767,6 +6047,11 @@
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1977-07-21",
     "bitis": "1978-01-05"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1977-10-14",
+    "bitis": "1977-10-28"
    }
   ]
  },
@@ -4834,6 +6119,38 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1961-11-20",
     "bitis": "1962-06-25"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1965-10-27",
+    "bitis": "1971-03-26"
+   }
+  ]
+ },
+ {
+  "ad": "Turhan Kapanlı",
+  "dogum_tarihi": "1916",
+  "vefat_tarihi": "1980-11-20",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6084387",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1977-11-01",
+    "bitis": "1978-01-05"
    }
   ]
  },
@@ -4862,7 +6179,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -4975,7 +6292,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Devlet bakanı",
+  "neden_onemli": "Görev: Devlet bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -5117,7 +6434,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hazine ve Maliye Bakanı",
+  "neden_onemli": "Görev: Hazine ve Maliye Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -5209,6 +6526,61 @@
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1929-04-10",
     "bitis": "1930-09-15"
+   }
+  ]
+ },
+ {
+  "ad": "Hüseyin Ataman",
+  "dogum_tarihi": "1900-01-01",
+  "vefat_tarihi": "1975-02-10",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Yanya",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6060766",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1960-10-22",
+    "bitis": "1961-01-05"
+   }
+  ]
+ },
+ {
+  "ad": "Mehmet Orhan Mersinli",
+  "dogum_tarihi": "1912",
+  "vefat_tarihi": "1975-02-05",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Selanik",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6030419",
+  "sitelink": 2,
+  "fotograf": null,
+  "meslek": [
+   "İnşaat mühendisi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1961-01-05",
+    "bitis": "1961-11-20"
    }
   ]
  },
@@ -5394,6 +6766,59 @@
   ]
  },
  {
+  "ad": "Muzaffer Alankuş",
+  "dogum_tarihi": "1898-01-01",
+  "vefat_tarihi": "1972-12-17",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Erzurum",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6088671",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1961-01-05",
+    "bitis": "1961-07-03"
+   }
+  ]
+ },
+ {
+  "ad": "Muammer Çavuşoğlu",
+  "dogum_tarihi": "1903",
+  "vefat_tarihi": "1972-08-09",
+  "vefat_yasi": 69,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kuşadası",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6047948",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1954-05-17",
+    "bitis": "1955-12-09"
+   }
+  ]
+ },
+ {
   "ad": "Tevfik Rüştü Aras",
   "dogum_tarihi": "1883",
   "vefat_tarihi": "1972-01-05",
@@ -5418,7 +6843,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -5452,7 +6877,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye'nin Paris Büyükelçisi",
+  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: Türkiye'nin Paris Büyükelçisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -5469,6 +6894,68 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1923-10-23",
     "bitis": "1924-05-21"
+   }
+  ]
+ },
+ {
+  "ad": "Mehmet Fahri Engin",
+  "dogum_tarihi": "1888",
+  "vefat_tarihi": "1970-11-06",
+  "vefat_yasi": 82,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Aşiyan Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6054855",
+  "sitelink": 2,
+  "fotograf": {
+   "dosya": "Mehmet Fahri Engin.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_Fahri_Engin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehmet_Fahri_Engin.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1941-11-12",
+    "bitis": "1943-03-09"
+   }
+  ]
+ },
+ {
+  "ad": "Rıfat Öçten",
+  "dogum_tarihi": "1913",
+  "vefat_tarihi": "1970-03-01",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sivas",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6041404",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1962-06-25",
+    "bitis": "1963-06-10"
    }
   ]
  },
@@ -5567,13 +7054,80 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1960-05-28",
     "bitis": "1962-02-16"
+   }
+  ]
+ },
+ {
+  "ad": "Kâzım Özalp",
+  "dogum_tarihi": "1880-12",
+  "vefat_tarihi": "1968-06-06",
+  "vefat_yasi": 88,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Köprülü",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q925035",
+  "sitelink": 16,
+  "fotograf": {
+   "dosya": "Özalp.jpg",
+   "lisans": "Public domain",
+   "yazar": "Republic of Turkey",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%96zalp.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C3%96zalp.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Demir Haç, İmtiyaz Madalyası. Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1935-03-01",
+    "bitis": "1939-01-18"
+   }
+  ]
+ },
+ {
+  "ad": "Ali Fuat Cebesoy",
+  "dogum_tarihi": "1882-09-23",
+  "vefat_tarihi": "1968-01-10",
+  "vefat_yasi": 85,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q983601",
+  "sitelink": 17,
+  "fotograf": {
+   "dosya": "Ali Fuat Cebesoy 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Fuat_Cebesoy_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Fuat_Cebesoy_1.jpg"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası. Görev: büyükelçi, Türkiye Büyük Millet Meclisi Başkanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1943-03-09",
+    "bitis": "1946-08-07"
    }
   ]
  },
@@ -5594,7 +7148,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: bakan, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: bakan, Hazine ve Maliye Bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -5728,6 +7282,11 @@
     "bitis": "1955-04-15"
    },
    {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1955-09-15",
+    "bitis": "1955-12-09"
+   },
+   {
     "gorev": "Türkiye dışişleri bakanı",
     "baslangic": "1955-12-09",
     "bitis": "1956-06-20"
@@ -5758,7 +7317,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Maarif Vekili",
   "hassas": false,
   "gorevler": [
    {
@@ -5793,6 +7352,35 @@
   "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": []
+ },
+ {
+  "ad": "Ahmet Hulusi Köymen",
+  "dogum_tarihi": "1891",
+  "vefat_tarihi": "1965-07-12",
+  "vefat_yasi": 74,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6046700",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [
+   "Avukat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: bakan, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1951-03-09",
+    "bitis": "1952-12-10"
+   }
+  ]
  },
  {
   "ad": "Hüseyin Avni Başman",
@@ -5853,6 +7441,39 @@
     "gorev": "Türkiye İçişleri Bakanı",
     "baslangic": "1949-01-16",
     "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Naci Tınaz",
+  "dogum_tarihi": "1882",
+  "vefat_tarihi": "1964-11-25",
+  "vefat_yasi": 82,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Serfiçe",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q135082",
+  "sitelink": 6,
+  "fotograf": {
+   "dosya": "Naci Tınaz.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Naci_T%C4%B1naz.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Naci_T%C4%B1naz.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1939-01-18",
+    "bitis": "1940-04-05"
    }
   ]
  },
@@ -5958,6 +7579,66 @@
   ]
  },
  {
+  "ad": "Hüsnü Çakır",
+  "dogum_tarihi": "1892",
+  "vefat_tarihi": "1963-08-10",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hopa",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6059364",
+  "sitelink": 2,
+  "fotograf": {
+   "dosya": "Hüseyin Hüsnü Çakır.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%BCseyin_H%C3%BCsn%C3%BC_%C3%87ak%C4%B1r.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:H%C3%BCseyin_H%C3%BCsn%C3%BC_%C3%87ak%C4%B1r.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1948-06-10",
+    "bitis": "1950-05-22"
+   }
+  ]
+ },
+ {
+  "ad": "Fevzi Uçaner",
+  "dogum_tarihi": "1900",
+  "vefat_tarihi": "1963-05-19",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzincan",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6080461",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1957-11-25",
+    "bitis": "1958-09-18"
+   }
+  ]
+ },
+ {
   "ad": "Tevfik İleri",
   "dogum_tarihi": "1911",
   "vefat_tarihi": "1961-12-31",
@@ -5982,9 +7663,14 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
   "hassas": false,
   "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1950-05-22",
+    "bitis": "1950-08-11"
+   },
    {
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1950-08-11",
@@ -6026,7 +7712,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: büyükelçi, Türkiye dışişleri bakanı",
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: büyükelçi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": true,
   "hassas_nedeni": [
    "hanging to death",
@@ -6110,7 +7796,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Maliye Vekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hazine ve Maliye Bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -6137,6 +7823,95 @@
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1923-10-30",
     "bitis": "1924-01-02"
+   }
+  ]
+ },
+ {
+  "ad": "Şükrü Koçak",
+  "dogum_tarihi": "1886",
+  "vefat_tarihi": "1961-09-16",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Elazığ",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6045825",
+  "sitelink": 4,
+  "fotograf": {
+   "dosya": "Şükrü Koçak.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9E%C3%BCkr%C3%BC_Ko%C3%A7ak.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9E%C3%BCkr%C3%BC_Ko%C3%A7ak.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1946-08-07",
+    "bitis": "1948-06-10"
+   }
+  ]
+ },
+ {
+  "ad": "Kenan Yılmaz",
+  "dogum_tarihi": "1900",
+  "vefat_tarihi": "1961-08-05",
+  "vefat_yasi": 61,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzincan",
+  "vefat_yeri": null,
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6059270",
+  "sitelink": 1,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1953-11-01",
+    "bitis": "1954-05-17"
+   }
+  ]
+ },
+ {
+  "ad": "Yümnü Üresin",
+  "dogum_tarihi": "1898",
+  "vefat_tarihi": "1961-05-30",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Elazığ",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6090123",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1952-11-10",
+    "bitis": "1954-05-17"
    }
   ]
  },
@@ -6329,7 +8104,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Maliye Bakanı, sandalyesiz bakan",
+  "neden_onemli": "Görev: sandalyesiz bakan, Maliye Bakanı",
   "hassas": false,
   "gorevler": []
  },
@@ -6358,6 +8133,40 @@
     "gorev": "Adalet Bakanı",
     "baslangic": "1950-05-22",
     "bitis": "1951-03-09"
+   }
+  ]
+ },
+ {
+  "ad": "Ali Rıza Artunkal",
+  "dogum_tarihi": "1881-01-01",
+  "vefat_tarihi": "1959-12-13",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Filibe",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6086393",
+  "sitelink": 6,
+  "fotograf": {
+   "dosya": "Ali Rıza Artunkal.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_R%C4%B1za_Artunkal.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_R%C4%B1za_Artunkal.jpg"
+  },
+  "meslek": [
+   "Askerî personel"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1941-11-12",
+    "bitis": "1946-08-07"
    }
   ]
  },
@@ -6422,7 +8231,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Tarım bakanı, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -6462,7 +8271,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -6496,7 +8305,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Maliye Vekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -6528,6 +8337,11 @@
     "gorev": "Hazine ve Maliye Bakanı",
     "baslangic": "1926-07-13",
     "bitis": "1927-11-01"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1927-11-01",
+    "bitis": "1930-12-25"
    },
    {
     "gorev": "Hazine ve Maliye Bakanı",
@@ -6634,7 +8448,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hazine ve Maliye Bakanı",
+  "neden_onemli": "Görev: Hazine ve Maliye Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "gorevler": [
    {
@@ -6667,6 +8481,41 @@
     "gorev": "Adalet Bakanı",
     "baslangic": "1952-11-10",
     "bitis": "1955-12-09"
+   }
+  ]
+ },
+ {
+  "ad": "Cemil Cahit Toydemir",
+  "dogum_tarihi": "1883",
+  "vefat_tarihi": "1956-07-15",
+  "vefat_yasi": 73,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q5058728",
+  "sitelink": 5,
+  "fotograf": {
+   "dosya": "Korgeneral Cemil Cahit Toydemir.jpg",
+   "lisans": "Public domain",
+   "yazar": "JGK",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korgeneral_Cemil_Cahit_Toydemir.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Korgeneral_Cemil_Cahit_Toydemir.jpg"
+  },
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1946-08-07",
+    "bitis": "1947-09-05"
    }
   ]
  },
@@ -6743,6 +8592,38 @@
   ]
  },
  {
+  "ad": "Refik Şevket İnce",
+  "dogum_tarihi": "1885-01-01",
+  "vefat_tarihi": "1955-04-24",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Poliçnitos",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Soğukkuyu Mezarlığı",
+  "defin_il": "İzmir",
+  "defin_ulke": null,
+  "wikidata_id": "Q6085050",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Refik Şevket Bey İnce.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Refik_%C5%9Eevket_Bey_%C4%B0nce.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Refik_%C5%9Eevket_Bey_%C4%B0nce.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1950-05-22",
+    "bitis": "1951-03-09"
+   }
+  ]
+ },
+ {
   "ad": "Reşat Şemsettin Sirer",
   "dogum_tarihi": "1903",
   "vefat_tarihi": "1953-10-02",
@@ -6794,7 +8675,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -6936,6 +8817,38 @@
   ]
  },
  {
+  "ad": "Cevdet Kerim İncedayı",
+  "dogum_tarihi": "1893-01-01",
+  "vefat_tarihi": "1951-05-19",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Sinop",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6081520",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Cevdet Kerim İncedayı.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cevdet_Kerim_%C4%B0nceday%C4%B1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cevdet_Kerim_%C4%B0nceday%C4%B1.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1940-11-20",
+    "bitis": "1941-11-12"
+   }
+  ]
+ },
+ {
   "ad": "Fevzi Çakmak",
   "dogum_tarihi": "1876-01-12",
   "vefat_tarihi": "1950-04-10",
@@ -7037,6 +8950,39 @@
     "gorev": "Osmanlı Dahiliye Nazırlığı",
     "baslangic": "1919-01-01",
     "bitis": "1919-01-01"
+   }
+  ]
+ },
+ {
+  "ad": "Ali Çetinkaya",
+  "dogum_tarihi": "1878",
+  "vefat_tarihi": "1949-02-21",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Afyonkarahisar",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Afyonkarahisar",
+  "defin_il": "Afyonkarahisar",
+  "defin_ulke": null,
+  "wikidata_id": "Q3676683",
+  "sitelink": 5,
+  "fotograf": {
+   "dosya": "Kel Ali Bey Çetinkaya.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kel_Ali_Bey_%C3%87etinkaya.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kel_Ali_Bey_%C3%87etinkaya.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Ulaştırma ve Altyapı Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Ulaştırma ve Altyapı Bakanı",
+    "baslangic": "1939-04-03",
+    "bitis": "1940-11-20"
    }
   ]
  },
@@ -7168,13 +9114,18 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
   "hassas": false,
   "gorevler": [
    {
     "gorev": "Millî Eğitim Bakanı",
     "baslangic": "1935-06-09",
     "bitis": "1938-12-28"
+   },
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1940-04-05",
+    "bitis": "1941-11-12"
    }
   ]
  },
@@ -7210,6 +9161,41 @@
     "gorev": "Osmanlı Dahiliye Nazırlığı",
     "baslangic": "1920-01-01",
     "bitis": "1920-01-01"
+   }
+  ]
+ },
+ {
+  "ad": "Zekâi Apaydın",
+  "dogum_tarihi": "1884",
+  "vefat_tarihi": "1947-04-29",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Osmanlı döneminde Bosna-Hersek",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6500952",
+  "sitelink": 6,
+  "fotograf": {
+   "dosya": "Aziz Zekai Bey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aziz_Zekai_Bey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aziz_Zekai_Bey.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Savunma Bakanı",
+  "hassas": false,
+  "gorevler": [
+   {
+    "gorev": "Millî Savunma Bakanı",
+    "baslangic": "1930-12-29",
+    "bitis": "1935-03-01"
    }
   ]
  },
@@ -7495,7 +9481,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -7565,7 +9551,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye dışişleri bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye dışişleri bakanı",
   "hassas": false,
   "gorevler": [
    {
@@ -7600,7 +9586,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Osmanlı Dahiliye Nazırlığı, Osmanlı Bahriye Nazırlığı",
+  "neden_onemli": "Görev: Sadrazam, Osmanlı Dahiliye Nazırlığı",
   "hassas": false,
   "gorevler": [
    {

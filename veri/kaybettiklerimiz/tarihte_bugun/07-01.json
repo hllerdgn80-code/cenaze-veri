@@ -1,0 +1,286 @@
+[
+ {
+  "ad": "Kartal Tibet",
+  "dogum_tarihi": "1939-03-27",
+  "vefat_tarihi": "2021-07-01",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q374415",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "Kartal Tibet.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Serkan Yakın",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kartal_Tibet.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kartal_Tibet.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü, Altın Portakal Yıldırım Önal Anı Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Adnan Adıvar",
+  "dogum_tarihi": "1882",
+  "vefat_tarihi": "1955-07-01",
+  "vefat_yasi": 73,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Gelibolu",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Merkezefendi Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q359364",
+  "sitelink": 12,
+  "fotograf": {
+   "dosya": "Adnan Bey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adnan_Bey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adnan_Bey.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Osmanlı Türklerinde İlim”. Görev: Türkiye Büyük Millet Meclisi milletvekili, Sıhhiye ve Muavenet-i İçtimaiye Vekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Nilüfer Gürsoy",
+  "dogum_tarihi": "1921-06-01",
+  "vefat_tarihi": "2024-07-01",
+  "vefat_yasi": 103,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6048869",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Nilüfer Gürsoy.png",
+   "lisans": "Public domain",
+   "yazar": "TBMM",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nil%C3%BCfer_G%C3%BCrsoy.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nil%C3%BCfer_G%C3%BCrsoy.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Niccolò Machiavelli",
+  "dogum_tarihi": "1469-05-12",
+  "vefat_tarihi": "1527-07-01",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Firenze",
+  "defin_yeri": "Tomb of Niccolò Machiavelli",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1399",
+  "sitelink": 229,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Prens”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marlon Brando",
+  "dogum_tarihi": "1924-04-03",
+  "vefat_tarihi": "2004-07-01",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Omaha",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Death Valley",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q34012",
+  "sitelink": 158,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Rıhtımlar Üzerinde”, “İhtiras Tramvayı”, “İsyan”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mihail Bakunin",
+  "dogum_tarihi": "1814-05-30",
+  "vefat_tarihi": "1876-07-01",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Priamukhino",
+  "vefat_yeri": "Bern",
+  "defin_yeri": "Bremgarten cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q27645",
+  "sitelink": 142,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tanrı ve Devlet”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Harriet Beecher Stowe",
+  "dogum_tarihi": "1811-06-14",
+  "vefat_tarihi": "1896-07-01",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Litchfield",
+  "vefat_yeri": "Hartford",
+  "defin_yeri": "Phillips Academy Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102513",
+  "sitelink": 119,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame. Önemli eserleri: “Tom Amca'nın Kulübesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Louis-Ferdinand Céline",
+  "dogum_tarihi": "1894-05-27",
+  "vefat_tarihi": "1961-07-01",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Courbevoie",
+  "vefat_yeri": "Meudon",
+  "defin_yeri": "Longs-Réages cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q151820",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Renaudot Ödülü. Önemli eserleri: “Gecenin Sonuna Yolculuk”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tomas",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0072-07-01",
+  "vefat_yasi": null,
+  "dogum_yeri": "Celile",
+  "vefat_yeri": "Mylapore",
+  "defin_yeri": "San Thome Basilica",
+  "defin_il": null,
+  "defin_ulke": "Hindistan",
+  "wikidata_id": "Q43669",
+  "sitelink": 93,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: havari",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Juan Perón",
+  "dogum_tarihi": "1895-10-08",
+  "vefat_tarihi": "1974-07-01",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Lobos",
+  "vefat_yeri": "Quinta de Olivos",
+  "defin_yeri": "Partido de San Vicente",
+  "defin_il": null,
+  "defin_ulke": "Arjantin",
+  "wikidata_id": "Q93330",
+  "sitelink": 92,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Görev: Arjantin cumhurbaşkanı yardımcısı, Arjantin devlet başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Lawrence Bragg",
+  "dogum_tarihi": "1890-03-31",
+  "vefat_tarihi": "1971-07-01",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Adelaide",
+  "vefat_yeri": "Ipswich",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q131729",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q102289",
+  "dogum_tarihi": "1895-07-12",
+  "vefat_tarihi": "1983-07-01",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Milton",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Mount Auburn Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102289",
+  "sitelink": 88,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası. Önemli eserleri: “Biosphère”, “Dimaksiyon haritası”, “Dimaksiyon”",
+  "hassas": false,
+  "turk": false
+ }
+]

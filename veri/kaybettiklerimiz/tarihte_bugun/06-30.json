@@ -1,0 +1,273 @@
+[
+ {
+  "ad": "Fuat Sezgin",
+  "dogum_tarihi": "1924-10-24",
+  "vefat_tarihi": "2018-06-30",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Bitlis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q641011",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri. Önemli eserleri: “Geschichte des arabischen Schrifttums”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "John Strutt",
+  "dogum_tarihi": "1842-11-12",
+  "vefat_tarihi": "1919-06-30",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Langford Grove",
+  "vefat_yeri": "Terling Place",
+  "defin_yeri": "Terling (All Saints) Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q83297",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simone Veil",
+  "dogum_tarihi": "1927-07-13",
+  "vefat_tarihi": "2017-06-30",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Nice",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q298180",
+  "sitelink": 68,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Avrupa Parlamentosu Başkanı, Avrupa Parlamentosu milletvekilliği",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kurt von Schleicher",
+  "dogum_tarihi": "1882-04-07",
+  "vefat_tarihi": "1934-06-30",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Brandenburg an der Havel",
+  "vefat_yeri": "Neubabelsberg",
+  "defin_yeri": "Parkfriedhof Lichterfelde",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57133",
+  "sitelink": 65,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Demir Haç, Harp Madalyası",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "homicide by firearm"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Theodora",
+  "dogum_tarihi": "0497",
+  "vefat_tarihi": "0548-06-30",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Paphlagonia",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": "Havariyyun Kilisesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q204843",
+  "sitelink": 64,
+  "fotograf": null,
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giuseppe Farina",
+  "dogum_tarihi": "1906-10-30",
+  "vefat_tarihi": "1966-06-30",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Torino",
+  "vefat_yeri": "Chambéry",
+  "defin_yeri": "Monumental Cemetery of Turin",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q2040",
+  "sitelink": 58,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lee de Forest",
+  "dogum_tarihi": "1873-08-26",
+  "vefat_tarihi": "1961-06-30",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Council Bluffs",
+  "vefat_yeri": "Hollywood",
+  "defin_yeri": "San Fernando Misyon Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q354863",
+  "sitelink": 55,
+  "fotograf": null,
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: IEEE Onur Madalyası, Edison Madalyası. Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pina Bausch",
+  "dogum_tarihi": "1940-07-27",
+  "vefat_tarihi": "2009-06-30",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Solingen",
+  "vefat_yeri": "Wuppertal",
+  "defin_yeri": "Wuppertal",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q155538",
+  "sitelink": 50,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite, İtalya Cumhuriyeti Liyakat Nişanı Kumandanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vsevolod Pudovkin",
+  "dogum_tarihi": "1893-02-28",
+  "vefat_tarihi": "1953-06-30",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Penza",
+  "vefat_yeri": "Jurmala",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q55195",
+  "sitelink": 48,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Kızıl Bayrak Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gregor Strasser",
+  "dogum_tarihi": "1892-05-31",
+  "vefat_tarihi": "1934-06-30",
+  "vefat_yasi": 42,
+  "dogum_yeri": null,
+  "vefat_yeri": "Berlin",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q76638",
+  "sitelink": 44,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Parti Rozeti. Görev: Weimar Cumhuriyeti Reichstag üyesi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Alcide Dessalines d'Orbigny",
+  "dogum_tarihi": "1802-09-06",
+  "vefat_tarihi": "1857-06-30",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Couëron",
+  "vefat_yeri": "Pierrefitte-sur-Seine",
+  "defin_yeri": "Cimetière communal de Pierrefitte-sur-Seine",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q344661",
+  "sitelink": 43,
+  "fotograf": null,
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simon Vouet",
+  "dogum_tarihi": "1590-01-08",
+  "vefat_tarihi": "1649-06-30",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q317920",
+  "sitelink": 42,
+  "fotograf": null,
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]
