@@ -587,6 +587,38 @@
   ],
   "Gebze": [
    {
+    "id": "1f2bf970909d",
+    "il": "Kocaeli",
+    "ilce": "Gebze",
+    "mahalle": null,
+    "ad_soyad": "Hanife Aydın",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-10",
+    "defin_yeri": null,
+    "defin_zamani": "2026-10-11",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "İkindi – Ulu Cami",
+    "liste_tarihi": "2026-10-11",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-11T13:18:47+03:00",
+    "ham": {
+     "ad": "HANİFE",
+     "soyad": "AYDIN",
+     "mezarlik": "",
+     "cami": "Ulu Cami",
+     "vakit": "İKİNDİ",
+     "olum_tarihi": "10.10.2026",
+     "defin_tarihi": "11.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Gebze"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null
+   },
+   {
     "id": "b67e6b8fa49c",
     "il": "Kocaeli",
     "ilce": "Gebze",
@@ -1102,6 +1134,38 @@
    }
   ],
   "İzmit": [
+   {
+    "id": "d2385ebf67b2",
+    "il": "Kocaeli",
+    "ilce": "İzmit",
+    "mahalle": null,
+    "ad_soyad": "Fadime Öztunç",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-10",
+    "defin_yeri": "TAVŞANTEPE MEZARLIĞI",
+    "defin_zamani": "2026-10-11",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Öğlen – Tavşantepe Ulu Cami",
+    "liste_tarihi": "2026-10-11",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-11T13:18:47+03:00",
+    "ham": {
+     "ad": "FADİME",
+     "soyad": "ÖZTUNÇ",
+     "mezarlik": "TAVŞANTEPE MEZARLIĞI",
+     "cami": "Tavşantepe Ulu Cami",
+     "vakit": "ÖĞLEN",
+     "olum_tarihi": "10.10.2026",
+     "defin_tarihi": "11.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "İzmit"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null
+   },
    {
     "id": "c6afdaa28ce8",
     "il": "Kocaeli",
@@ -1681,6 +1745,38 @@
   ],
   "Kandıra": [
    {
+    "id": "c7a96137dbe3",
+    "il": "Kocaeli",
+    "ilce": "Kandıra",
+    "mahalle": null,
+    "ad_soyad": "Nihat Ayhan",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-10",
+    "defin_yeri": "AKÇAKESE MEZARLIĞI",
+    "defin_zamani": "2026-10-11",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Öğlen – Akçakese Cami",
+    "liste_tarihi": "2026-10-11",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-11T13:18:47+03:00",
+    "ham": {
+     "ad": "NİHAT",
+     "soyad": "AYHAN",
+     "mezarlik": "AKÇAKESE MEZARLIĞI",
+     "cami": "Akçakese Cami",
+     "vakit": "ÖĞLEN",
+     "olum_tarihi": "10.10.2026",
+     "defin_tarihi": "11.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Kandıra"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null
+   },
+   {
     "id": "08f2cf709a3c",
     "il": "Kocaeli",
     "ilce": "Kandıra",
@@ -2167,6 +2263,70 @@
   ],
   "Körfez": [
    {
+    "id": "f2ce76603db1",
+    "il": "Kocaeli",
+    "ilce": "Körfez",
+    "mahalle": null,
+    "ad_soyad": "Nuricihan Şencan",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-10",
+    "defin_yeri": "İLİMTEPE ERİKLİ MEZARLIĞI",
+    "defin_zamani": "2026-10-11",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Öğlen – KUZEY MAH. MERKEZ CAMİ",
+    "liste_tarihi": "2026-10-11",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-11T13:18:47+03:00",
+    "ham": {
+     "ad": "NURİCİHAN",
+     "soyad": "ŞENCAN",
+     "mezarlik": "İLİMTEPE ERİKLİ MEZARLIĞI",
+     "cami": "KUZEY MAH. MERKEZ CAMİ",
+     "vakit": "ÖĞLEN",
+     "olum_tarihi": "10.10.2026",
+     "defin_tarihi": "11.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Körfez"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null
+   },
+   {
+    "id": "8a0d2a991e32",
+    "il": "Kocaeli",
+    "ilce": "Körfez",
+    "mahalle": null,
+    "ad_soyad": "Savaş Culfa",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-10",
+    "defin_yeri": null,
+    "defin_zamani": "2026-10-11",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "İkindi – 95 Evler Körfez Cami",
+    "liste_tarihi": "2026-10-11",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-11T13:18:47+03:00",
+    "ham": {
+     "ad": "SAVAŞ",
+     "soyad": "CULFA",
+     "mezarlik": "",
+     "cami": "95 Evler Körfez Cami",
+     "vakit": "İKİNDİ",
+     "olum_tarihi": "10.10.2026",
+     "defin_tarihi": "11.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Körfez"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null
+   },
+   {
     "id": "6065912d3bb8",
     "il": "Kocaeli",
     "ilce": "Körfez",
@@ -2361,6 +2521,111 @@
   ]
  },
  "il_disi": [
+  {
+   "id": "9cc9c3cc877e",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Perihan Akyıldız",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-11",
+   "defin_yeri": "Nakil: Artvin",
+   "defin_zamani": "2026-10-11",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-11T13:18:47+03:00",
+   "ham": {
+    "ad": "PERİHAN",
+    "soyad": "AKYILDIZ",
+    "mezarlik": "",
+    "cami": "THY ARTVİN NAKİL",
+    "vakit": "NAKIL",
+    "olum_tarihi": "11.10.2026",
+    "defin_tarihi": "11.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Artvin"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Artvin",
+    "ilce": null
+   }
+  },
+  {
+   "id": "dba1762f8d3f",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Korkmaz Uysal",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-11",
+   "defin_yeri": "Nakil: Eskişehir / Sivrihisar",
+   "defin_zamani": "2026-10-11",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-11T13:18:47+03:00",
+   "ham": {
+    "ad": "KORKMAZ",
+    "soyad": "UYSAL",
+    "mezarlik": "",
+    "cami": "SİVRİHİSAR",
+    "vakit": "NAKIL",
+    "olum_tarihi": "11.10.2026",
+    "defin_tarihi": "11.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Eskişehir / Sivrihisar"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Eskişehir",
+    "ilce": "Sivrihisar"
+   }
+  },
+  {
+   "id": "8ff25b50f012",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Halil Gençtürk",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-10",
+   "defin_yeri": "Nakil: Sinop",
+   "defin_zamani": "2026-10-11",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-11T13:18:47+03:00",
+   "ham": {
+    "ad": "HALİL",
+    "soyad": "GENÇTÜRK",
+    "mezarlik": "",
+    "cami": "THY SİNOP NAKİL",
+    "vakit": "NAKIL",
+    "olum_tarihi": "10.10.2026",
+    "defin_tarihi": "11.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Sinop"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Sinop",
+    "ilce": null
+   }
+  },
   {
    "id": "2c6e0eac058c",
    "il": "Kocaeli",
@@ -3347,6 +3612,6 @@
    "il_disi_defin": null
   }
  ],
- "toplam": 103,
- "guncelleme": "2026-10-10T16:41:15+03:00"
+ "toplam": 111,
+ "guncelleme": "2026-10-11T13:18:47+03:00"
 }

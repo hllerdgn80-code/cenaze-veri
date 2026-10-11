@@ -1,0 +1,56 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-11",
+ "kayitlar": [
+  {
+   "id": "c6d27ec607ca",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mucuk Önal",
+   "anne_baba": null,
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-10",
+   "defin_yeri": "İrmene mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_zamani": "2026-10-11",
+   "namaz_tarihi": "2026-10-11",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-11T13:18:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "d2ff29f76ae1",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Ayşe Ayla Emiroğlu",
+   "anne_baba": null,
+   "yas": 89,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-09",
+   "defin_yeri": "Gölköy Camii'den Türkbükü mezarlığına",
+   "defin_zamani": "2026-10-11",
+   "namaz_tarihi": "2026-10-11",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-11T13:18:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
