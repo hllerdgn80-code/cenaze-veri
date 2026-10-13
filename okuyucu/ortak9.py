@@ -127,9 +127,7 @@ def robots_ok(url, indirici=None):
         return True
     if "<html" in govde[:600].lower() or "user-agent" not in govde.lower():
         return True
-    rp = urllib.robotparser.RobotFileParser()
-    rp.parse(govde.splitlines())
-    return rp.can_fetch(ortak.UA, url) and rp.can_fetch("*", url)
+    return ortak.robots_kural(govde, ortak.UA, p.path or "/")
 
 
 # ---------------------------------------------------------------- kayıt biriktirme / yazma

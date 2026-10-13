@@ -132,9 +132,7 @@ def robots_izin(ctx, url):
         return False
     if not r.get("metin"):
         return True
-    rp = urllib.robotparser.RobotFileParser()
-    rp.parse(r["metin"].splitlines())
-    return rp.can_fetch(ortak.UA, url) and rp.can_fetch("*", url)
+    return ortak.robots_kural(r["metin"], ortak.UA, urllib.parse.urlparse(url).path or "/")
 
 
 def al(ctx, url):

@@ -263,6 +263,40 @@ def indir(url, bekle=3.5, veri=None, timeout=40, ssl_baglam=None, basliklar=None
     return ham.decode(m.group(1) if m else "utf-8", "replace")
 
 
+def robots_kural(govde, ua, yol):
+    """RFC 9309 / Google biçimi: boş satırlar yok sayılır, UA grupları birleşir, en UZUN eşleşen kural kazanır (eşitlikte Allow).
+    Python RobotFileParser iki durumda yanılıyor: 'User-agent: *' sonrası boş satır (kayıt düşer -> her şey serbest) ve 'Allow: /'
+    satırının 'Disallow: /api/'dan önce gelmesi (ilk eşleşme kazanır -> her şey serbest). 13.10.2026: Merzifon ve Erenler bu yüzden yanlış serbest çıkıyordu."""
+    ua = (ua or "").split("/")[0].lower()
+    gruplar, simdiki, kurallar_basladi = [], None, False
+    for ham in govde.splitlines():
+        satir = ham.split("#", 1)[0].strip()
+        if ":" not in satir:
+            continue
+        ad, deger = [x.strip() for x in satir.split(":", 1)]
+        ad = ad.lower()
+        if ad == "user-agent":
+            if simdiki is None or kurallar_basladi:
+                simdiki, kurallar_basladi = ([], []), False
+                gruplar.append(simdiki)
+            simdiki[0].append(deger.lower())
+        elif ad in ("allow", "disallow") and simdiki is not None:
+            kurallar_basladi = True
+            if deger:
+                simdiki[1].append((ad == "allow", deger))
+    ozel = [g for g in gruplar if any(u != "*" and u in ua for u in g[0])]
+    secili = ozel or [g for g in gruplar if "*" in g[0]]
+    en_iyi = (-1, True)
+    for _, kurallar in secili:
+        for izin, desen in kurallar:
+            rx = re.escape(desen).replace(r"\*", ".*")
+            if rx.endswith(r"\$"):
+                rx = rx[:-2] + "$"
+            if re.match(rx, yol) and (len(desen), izin) > (en_iyi[0], en_iyi[1] if len(desen) == en_iyi[0] else False):
+                en_iyi = (len(desen), izin)
+    return en_iyi[1]
+
+
 def robots_izin(url, ssl_baglam=None):
     """robots.txt bu UA için url'yi yasaklıyorsa False. robots.txt yoksa/404/HTML dönerse (kural yok) True."""
     p = urllib.parse.urlparse(url)
@@ -272,9 +306,7 @@ def robots_izin(url, ssl_baglam=None):
         return True
     if "<html" in govde[:600].lower() or "user-agent" not in govde.lower():
         return True
-    rp = urllib.robotparser.RobotFileParser()
-    rp.parse(govde.splitlines())
-    return rp.can_fetch(UA, url) and rp.can_fetch("*", url)
+    return robots_kural(govde, UA, p.path or "/" + (("?" + p.query) if p.query else ""))
 
 
 # ---------------------------------------------------------------- yalnız güncel liste veren siteler
