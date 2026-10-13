@@ -245,6 +245,40 @@ def vakit_ayikla(txt):
 _robots = {}
 
 
+def robots_kural(govde, ua, yol):
+    """RFC 9309 / Google biçimi: boş satırlar yok sayılır, UA grupları birleşir, en UZUN eşleşen kural kazanır (eşitlikte Allow).
+    Python RobotFileParser iki durumda yanılıyor: 'User-agent: *' sonrası boş satır (kayıt düşer -> her şey serbest) ve 'Allow: /'
+    satırının 'Disallow: /api/'dan önce gelmesi (ilk eşleşme kazanır -> her şey serbest). 13.10.2026: Merzifon ve Erenler bu yüzden yanlış serbest çıkıyordu."""
+    ua = (ua or "").split("/")[0].lower()
+    gruplar, simdiki, kurallar_basladi = [], None, False
+    for ham in govde.splitlines():
+        satir = ham.split("#", 1)[0].strip()
+        if ":" not in satir:
+            continue
+        ad, deger = [x.strip() for x in satir.split(":", 1)]
+        ad = ad.lower()
+        if ad == "user-agent":
+            if simdiki is None or kurallar_basladi:
+                simdiki, kurallar_basladi = ([], []), False
+                gruplar.append(simdiki)
+            simdiki[0].append(deger.lower())
+        elif ad in ("allow", "disallow") and simdiki is not None:
+            kurallar_basladi = True
+            if deger:
+                simdiki[1].append((ad == "allow", deger))
+    ozel = [g for g in gruplar if any(u != "*" and u in ua for u in g[0])]
+    secili = ozel or [g for g in gruplar if "*" in g[0]]
+    en_iyi = (-1, True)
+    for _, kurallar in secili:
+        for izin, desen in kurallar:
+            rx = re.escape(desen).replace(r"\*", ".*")
+            if rx.endswith(r"\$"):
+                rx = rx[:-2] + "$"
+            if re.match(rx, yol) and (len(desen), izin) > (en_iyi[0], en_iyi[1] if len(desen) == en_iyi[0] else False):
+                en_iyi = (len(desen), izin)
+    return en_iyi[1]
+
+
 def robots_ok(url, ssl_baglam=None):
     p = urllib.parse.urlparse(url)
     k = p.scheme + "://" + p.netloc
@@ -253,8 +287,7 @@ def robots_ok(url, ssl_baglam=None):
         try:
             govde = ortak.indir(k + "/robots.txt", bekle=3.5, timeout=30, ssl_baglam=ssl_baglam)
             if "<html" not in govde[:600].lower() and "user-agent" in govde.lower():
-                rp = urllib.robotparser.RobotFileParser()
-                rp.parse(govde.splitlines())
+                rp = govde
         except urllib.error.HTTPError as e:
             if e.code in (401, 403):
                 rp = "yasak"            # robots.txt'e erişim engeli: tüm siteyi yasak say
@@ -264,7 +297,10 @@ def robots_ok(url, ssl_baglam=None):
     rp = _robots[k]
     if rp == "yasak":
         return False
-    return True if rp is None else (rp.can_fetch(ortak.UA, url) and rp.can_fetch("*", url))
+    if rp is None:
+        return True
+    yol = (p.path or "/") + (("?" + p.query) if p.query else "")
+    return robots_kural(rp, ortak.UA, yol)
 
 
 def al(url, ssl_baglam=None, veri=None, basliklar=None, bekle=3.5):

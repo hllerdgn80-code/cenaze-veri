@@ -5,12 +5,16 @@ Her ilan: tarih kutusu (ilan günü), ad (h5) ve serbest metin ("X vefat etmişt
 defnedilecektir. Merhuma Allah'tan rahmet ..."). Metinde yakın/telefon yok; yalnız cami + vakit + defin yeri alınır.
 Not: robots.txt yalnız tek bir ilan sayfasını (/cenaze-ilani/beyhan-kilinc) yasaklar; liste sayfaları serbest, ilan ayrıntı sayfalarına GİRİLMEZ.
 Metinde hangi gün olduğu yazmaz: ilan günü liste_tarihi'ne yazılır, vefat/defin/namaz tarihi null. İlçe kaynakta yok -> ilce_belirsiz.
+Eşme Belediyesi (13.10.2026, RESMÎ ilçe kaynağı): `esme.bel.tr/gundem/cenaze-ilanlari` Next.js sayfası; ilanlar sayfanın gömülü verisinde
+(`initialCenazeIlanlari`: title = ad, summary = "X vefat etmiştir. Cenazesi <vakit> namazına müteakip <cami>'nden kaldırılarak <mezarlık>'ta defnedilecektir.",
+publishedAt = UTC; yerel güne çevrilir). Yakın/telefon yok. Gün = yayın günü (namaz günü aynı kabul). Son ~10 ilan.
 Kullanım: python3 okuyucu/usak.py
 """
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak, ortak_ek
+import json, ortak, ortak_ek, ortak_ilce as oi
+from datetime import datetime, timedelta
 
 IL = "Uşak"
 URL = "https://www.usak.bel.tr/cenaze-ilanlari"
@@ -92,6 +96,23 @@ def kayda_cevir(r, alindi):
     return k
 
 
+def bilinen_slug():
+    """Daha once kaydedilmis ilanlarin slug'lari (ham.slug): ayrinti sayfasi YENIDEN istenmez (150 sn il siniri; 13.10.2026)."""
+    import glob, json
+    s = set()
+    for f in glob.glob(os.path.join(KOK, "20*.json")):
+        try:
+            for k in json.load(open(f, encoding="utf-8")).get("kayitlar", []):
+                if (k.get("ham") or {}).get("slug"):
+                    s.add(k["ham"]["slug"])
+        except Exception:
+            pass
+    return s
+
+
+EN_COK_AYRINTI = 30
+
+
 def main():
     if not ortak.robots_izin(URL):
         print("robots.txt bu adresi yasaklıyor, okunmadı", file=sys.stderr)
@@ -99,6 +120,7 @@ def main():
     gunler = ortak_ek.son_gunler(7)
     alindi = ortak.simdi_iso()
     by_gun, gorulen = {}, set()
+    bilinen, istenen = bilinen_slug(), 0
     for sayfa_no in range(1, EN_COK_SAYFA + 1):
         url = URL if sayfa_no == 1 else f"{URL}/{sayfa_no}"
         kayitlar = ayristir(ortak.indir(url))
@@ -107,11 +129,16 @@ def main():
                 raise RuntimeError("İlan bulunamadı (sayfa düzeni değişmiş olabilir)")
             break
         for r in kayitlar:
-            if r["gun"] in gunler and not r["metin"]:                       # ayrinti sayfasi yalniz 7 gun penceresi icin
+            if r["slug"] in bilinen:                                         # zaten kayitli: ayrinti istenmez, kayit korunur
+                continue
+            if r["gun"] in gunler and not r["metin"] and istenen < EN_COK_AYRINTI:   # ayrinti sayfasi yalniz 7 gun penceresi icin
+                istenen += 1
                 try:
                     r["metin"] = ayristir_ayrinti(ortak.indir("https://www.usak.bel.tr/cenaze-ilani/" + r["slug"]))
                 except Exception:
                     r["metin"] = ""
+            if r["gun"] in gunler and not r["metin"]:                        # ayrinti alinamadi / tavan: kaydi KAYDETME, sonraki turda dene
+                continue
             r["metin"] = r["metin"] or ""
             k = kayda_cevir(r, alindi)
             if r["gun"] in gunler and k["id"] not in gorulen:
@@ -124,5 +151,40 @@ def main():
         print(f"{g}: {sayac[g]} kayıt")
 
 
+ESME = "https://esme.bel.tr/gundem/cenaze-ilanlari"
+
+
+def esme_ilanlari(sayfa):
+    """Gömülü RSC verisinden [(ad, özet, yerel_gün)]."""
+    d = sayfa.replace('\\"', '"')
+    sonuc = []
+    for m in re.finditer(r'"title":"([^"]+)","summary":"([^"]*)","publishedAt":"(\d{4}-\d\d-\d\dT[\d:.]+Z)"', d):
+        ad, ozet, yayin = m.groups()
+        try:
+            gun = (datetime.strptime(yayin[:19], "%Y-%m-%dT%H:%M:%S") + timedelta(hours=3)).date().isoformat()
+        except ValueError:
+            continue
+        sonuc.append((ad, ozet, gun))
+    return sonuc
+
+
+def esme(ctx):
+    sonuc = []
+    for ad, ozet, gun in esme_ilanlari(oi.al(ESME)):
+        ad = oi.ad_duzelt(ad)
+        if not ad or not oi.pencerede(gun, ctx["gunler"]):
+            continue
+        namaz, defin = oi.cenaze_ayikla(ozet)
+        sonuc.append(oi.kayit(IL, "Eşme", "usak-esme", ad, gun, "Eşme Belediyesi", ESME, ctx["alindi"], il_disi_metin=ozet,
+                              defin_yeri=defin, namaz_tarihi=gun if namaz else None, namaz_yeri_vakti=namaz, liste_tarihi=gun,
+                              ham={"ilan_tarihi": gun}))
+    return sonuc
+
+
+def main_esme():
+    oi.il_calistir(IL, "usak", [("Eşme", esme)], argv=[sys.argv[0]])
+
+
 if __name__ == "__main__":
     main()
+    main_esme()

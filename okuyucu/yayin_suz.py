@@ -22,8 +22,10 @@ import json, os, re, shutil, sys
 
 BASIN_TURLERI = ("yerel_basin", "yerel_haber")
 # yalnız yerel basın / yerel haber kaynağından okunan iller (resmî kaynakları yok) — §28: yayına girmez
+# 13.10.2026: mersin (Anamur Belediyesi) RESMÎ ilçe kaynağı kazandı -> listeden çıktı; il klasörüne yalnız resmî kayıtlar girer (yerel
+# haber kayıtları (a) ile elenir). Resmî kaynak sıfır kayıt verirse il boş görünür: izle. amasya kaldı (Merzifon Belediyesi robots.txt ile KAPALI).
 YEREL_ILLER = {"agri", "amasya", "ardahan", "bayburt", "bingol", "bitlis", "corum", "diyarbakir", "hakkari", "igdir", "kars",
-               "kastamonu", "kilis", "kirklareli", "manisa", "mardin", "mersin", "mus", "siirt", "sirnak", "tunceli"}
+               "kastamonu", "kilis", "kirklareli", "manisa", "mardin", "mus", "siirt", "sirnak", "tunceli"}
 # uygulamanın okuyacağı alanlar (başka hiçbir alan yayına gitmez)
 UYGULAMA_ALANLARI = ("id", "il", "ilce", "mahalle", "ad_soyad", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti",
                      "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz",
