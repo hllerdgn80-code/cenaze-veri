@@ -20,7 +20,7 @@ IL = "Uşak"
 URL = "https://www.usak.bel.tr/cenaze-ilanlari"
 KAYNAK_AD = "Uşak Belediyesi"
 KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri", "usak")
-EN_COK_SAYFA = 6
+EN_COK_SAYFA = 5
 
 _SON_EK = [("ında", "ı"), ("inde", "i"), ("unda", "u"), ("ünde", "ü"), ("ına", "ı"), ("ine", "i"), ("una", "u"), ("üne", "ü"),
            ("nda", "ı"), ("nde", "i")]
@@ -110,7 +110,7 @@ def bilinen_slug():
     return s
 
 
-EN_COK_AYRINTI = 30
+EN_COK_AYRINTI = 12     # CI il siniri 150 sn: 12 x 3,5 sn + liste/Esme; birikim birkac turda kapanir, her tur ilerleme kaydeder
 
 
 def main():
