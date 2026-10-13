@@ -1,0 +1,60 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-13",
+ "kayitlar": [
+  {
+   "id": "cdfcf0713066",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Polat Torabay",
+   "anne_baba": "Torbay",
+   "yas": 90,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-12",
+   "defin_yeri": "Yeni Şehir Mezarlığı / S-3 - Yabancı Uyruklu Sıralı Sistem",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:18",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-13T14:05:33+03:00",
+   "ham": {
+    "baba": "TORBAY",
+    "defin": "13.10.2026 13:18",
+    "namaz": "Öğlen",
+    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-3 - YABANCI UYRUKLU SIRALI SİSTEM"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "418e6906a1db",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Zeynep Bakırcı",
+   "anne_baba": "Mehmet",
+   "yas": 70,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-12",
+   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Sabah – defin saati 13:15",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-13T14:05:33+03:00",
+   "ham": {
+    "baba": "MEHMET",
+    "defin": "13.10.2026 13:15",
+    "namaz": "Sabah",
+    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

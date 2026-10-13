@@ -73,7 +73,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "caldiran",
      "mezar_no": null,
@@ -101,7 +101,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "catak",
      "mezar_no": null,
@@ -129,7 +129,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "edremit",
      "mezar_no": "4021",
@@ -189,32 +189,6 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null
-   },
-   {
-    "id": "3de52c3a202c",
-    "il": "Van",
-    "ilce": "Edremit",
-    "mahalle": null,
-    "ad_soyad": "İsa Akyol",
-    "anne_baba": null,
-    "yas": 77,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Yeni Cami Yeni Mezar",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "edremit",
-     "mezar_no": null,
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
    }
   ],
   "Erciş": [
@@ -235,7 +209,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ercis",
      "mezar_no": null,
@@ -261,7 +235,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ercis",
      "mezar_no": null,
@@ -295,32 +269,6 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null
-   },
-   {
-    "id": "8865f6c08917",
-    "il": "Van",
-    "ilce": "Erciş",
-    "mahalle": null,
-    "ad_soyad": "Hamza Beder",
-    "anne_baba": null,
-    "yas": 77,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Merkez Mezarlığı",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "ercis",
-     "mezar_no": null,
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
    }
   ],
   "İpekyolu": [
@@ -341,7 +289,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "637",
@@ -367,7 +315,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3768",
@@ -393,7 +341,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3767",
@@ -419,7 +367,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3765",
@@ -445,7 +393,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "636",
@@ -471,7 +419,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3763",
@@ -497,7 +445,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3764",
@@ -523,7 +471,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": "3762",
@@ -549,7 +497,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "ipekyolu",
      "mezar_no": null,
@@ -635,58 +583,6 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null
-   },
-   {
-    "id": "f41962c6cb98",
-    "il": "Van",
-    "ilce": "İpekyolu",
-    "mahalle": null,
-    "ad_soyad": "Sinem Yurtlu",
-    "anne_baba": null,
-    "yas": 85,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Değirmenköy Yeni Mez",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "ipekyolu",
-     "mezar_no": null,
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
-   },
-   {
-    "id": "cf27cc72258a",
-    "il": "Van",
-    "ilce": "İpekyolu",
-    "mahalle": null,
-    "ad_soyad": "Sakine Özaraz",
-    "anne_baba": null,
-    "yas": 66,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Köy Mezarlığı",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "ipekyolu",
-     "mezar_no": null,
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
    }
   ],
   "Muradiye": [
@@ -707,7 +603,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "muradiye",
      "mezar_no": null,
@@ -733,7 +629,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "muradiye",
      "mezar_no": null,
@@ -761,7 +657,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5397",
@@ -787,7 +683,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5396",
@@ -813,7 +709,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "3766",
@@ -839,7 +735,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5395",
@@ -865,7 +761,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "3892",
@@ -891,7 +787,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": null,
@@ -917,7 +813,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5394",
@@ -943,7 +839,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "3890",
@@ -969,7 +865,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "3891",
@@ -995,7 +891,7 @@
     "liste_tarihi": "2026-10-09",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "1235",
@@ -1021,7 +917,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5392",
@@ -1047,7 +943,7 @@
     "liste_tarihi": "2026-10-08",
     "kaynak_ad": "Van Büyükşehir Belediyesi",
     "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-12T17:45:03+03:00",
+    "alindi": "2026-10-13T14:04:22+03:00",
     "ham": {
      "ilce": "tusba",
      "mezar_no": "5393",
@@ -1185,110 +1081,6 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null
-   },
-   {
-    "id": "ee3a5cea38cc",
-    "il": "Van",
-    "ilce": "Tuşba",
-    "mahalle": null,
-    "ad_soyad": "Kaniye Toker",
-    "anne_baba": null,
-    "yas": 72,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Akköprü",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "tusba",
-     "mezar_no": "5389",
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
-   },
-   {
-    "id": "ec0b7ed73531",
-    "il": "Van",
-    "ilce": "Tuşba",
-    "mahalle": null,
-    "ad_soyad": "Zübeyde Işık",
-    "anne_baba": null,
-    "yas": 63,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Akköprü",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "tusba",
-     "mezar_no": "5390",
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
-   },
-   {
-    "id": "5f8980385500",
-    "il": "Van",
-    "ilce": "Tuşba",
-    "mahalle": null,
-    "ad_soyad": "Hatem Kaya",
-    "anne_baba": null,
-    "yas": 83,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Seyrantepe",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "tusba",
-     "mezar_no": "3888",
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
-   },
-   {
-    "id": "141bddf862c0",
-    "il": "Van",
-    "ilce": "Tuşba",
-    "mahalle": null,
-    "ad_soyad": "Mazlum Gürbüz",
-    "anne_baba": null,
-    "yas": 19,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Seyrantepe",
-    "defin_zamani": "2026-10-06",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-06",
-    "kaynak_ad": "Van Büyükşehir Belediyesi",
-    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-    "alindi": "2026-10-11T13:18:53+03:00",
-    "ham": {
-     "ilce": "tusba",
-     "mezar_no": "3889",
-     "il_disi_notu": null
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null
    }
   ]
  },
@@ -1311,7 +1103,7 @@
    "liste_tarihi": "2026-10-12",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1337,7 +1129,7 @@
    "liste_tarihi": "2026-10-12",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1363,7 +1155,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1389,7 +1181,7 @@
    "liste_tarihi": "2026-10-10",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1415,7 +1207,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1441,59 +1233,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-12T17:45:03+03:00",
-   "ham": {
-    "ilce": "ildisi",
-    "mezar_no": null,
-    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
-   },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
-  },
-  {
-   "id": "a317336fee4e",
-   "il": "Van",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Nesihat Sağat",
-   "anne_baba": null,
-   "yas": 65,
-   "dogum_tarihi": null,
-   "vefat_tarihi": null,
-   "defin_yeri": null,
-   "defin_zamani": "2026-10-06",
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-06",
-   "kaynak_ad": "Van Büyükşehir Belediyesi",
-   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-11T13:18:53+03:00",
-   "ham": {
-    "ilce": "ildisi",
-    "mezar_no": null,
-    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
-   },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
-  },
-  {
-   "id": "737f272d6a87",
-   "il": "Van",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Emin Aykut",
-   "anne_baba": null,
-   "yas": 64,
-   "dogum_tarihi": null,
-   "vefat_tarihi": null,
-   "defin_yeri": null,
-   "defin_zamani": "2026-10-06",
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-06",
-   "kaynak_ad": "Van Büyükşehir Belediyesi",
-   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-11T13:18:53+03:00",
+   "alindi": "2026-10-13T14:04:22+03:00",
    "ham": {
     "ilce": "ildisi",
     "mezar_no": null,
@@ -1503,6 +1243,6 @@
    "il_disi_defin": null
   }
  ],
- "toplam": 57,
- "guncelleme": "2026-10-12T17:45:03+03:00"
+ "toplam": 47,
+ "guncelleme": "2026-10-13T14:04:22+03:00"
 }

@@ -1,60 +1,60 @@
 {
- "guncelleme": "2026-10-12T17:46:17+03:00",
+ "guncelleme": "2026-10-13T14:06:08+03:00",
  "iller": {
   "kocaeli": {
-   "son_calisma": "2026-10-12T17:44:53+03:00",
+   "son_calisma": "2026-10-13T14:04:13+03:00",
    "hata": null,
    "il_adi": "Kocaeli",
-   "son_guncelleme": "2026-10-12T17:44:58+03:00",
-   "kayit_sayisi": 148,
-   "il_disi": 28,
-   "ilce_belirsiz": 18,
-   "gun_hatasi": 0,
-   "sure_sn": 4
-  },
-  "van": {
-   "son_calisma": "2026-10-12T17:44:58+03:00",
-   "hata": null,
-   "il_adi": "Van",
-   "son_guncelleme": "2026-10-12T17:45:03+03:00",
-   "kayit_sayisi": 57,
-   "il_disi": 0,
-   "ilce_belirsiz": 8,
+   "son_guncelleme": "2026-10-13T14:04:18+03:00",
+   "kayit_sayisi": 169,
+   "il_disi": 33,
+   "ilce_belirsiz": 19,
    "gun_hatasi": 0,
    "sure_sn": 5
   },
+  "van": {
+   "son_calisma": "2026-10-13T14:04:18+03:00",
+   "hata": null,
+   "il_adi": "Van",
+   "son_guncelleme": "2026-10-13T14:04:22+03:00",
+   "kayit_sayisi": 47,
+   "il_disi": 0,
+   "ilce_belirsiz": 6,
+   "gun_hatasi": 0,
+   "sure_sn": 4
+  },
   "mugla": {
-   "son_calisma": "2026-10-12T17:45:03+03:00",
+   "son_calisma": "2026-10-13T14:04:22+03:00",
    "hata": null,
    "il_adi": "Muğla",
-   "son_guncelleme": "2026-10-12T17:45:41+03:00",
-   "kayit_sayisi": 61,
+   "son_guncelleme": "2026-10-13T14:05:25+03:00",
+   "kayit_sayisi": 69,
    "il_disi": 0,
    "ilce_belirsiz": 0,
    "gun_hatasi": 0,
-   "sure_sn": 38
+   "sure_sn": 63
   },
   "aksaray": {
-   "son_calisma": "2026-10-12T17:45:41+03:00",
+   "son_calisma": "2026-10-13T14:05:25+03:00",
    "hata": null,
    "il_adi": "Aksaray",
-   "son_guncelleme": "2026-10-12T17:45:50+03:00",
-   "kayit_sayisi": 7,
+   "son_guncelleme": "2026-10-13T14:05:33+03:00",
+   "kayit_sayisi": 9,
    "il_disi": 0,
-   "ilce_belirsiz": 7,
+   "ilce_belirsiz": 9,
    "gun_hatasi": 0,
-   "sure_sn": 9
+   "sure_sn": 8
   },
   "malatya": {
-   "son_calisma": "2026-10-12T17:45:50+03:00",
+   "son_calisma": "2026-10-13T14:05:33+03:00",
    "hata": null,
    "il_adi": "Malatya",
-   "son_guncelleme": "2026-10-12T17:46:17+03:00",
+   "son_guncelleme": "2026-10-13T14:06:08+03:00",
    "kayit_sayisi": 0,
    "il_disi": 0,
    "ilce_belirsiz": 0,
    "gun_hatasi": 0,
-   "sure_sn": 28
+   "sure_sn": 35
   }
  }
 }
