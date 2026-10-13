@@ -43,17 +43,23 @@ def tr_ends(s, ek):
 
 
 def ayristir(sayfa):
+    """13.10.2026: site yeniden tasarlandi. Liste sayfasi gun bloklari: <div class="fun-day"><h3><b>13 Ekim 2026 Sali</b>3 ilan</h3> ... <a class="fun" href="/cenaze-ilani/slug"> ... <b>Ad Soyad</b>.
+    Namaz/defin cumlesi ILAN SAYFASINDA (robots.txt artik yalniz /manage/ ve /install'i yasaklar): ayristir_ayrinti."""
     sonuc = []
-    for blok in re.split(r'<div class="e-tarih">', sayfa)[1:]:
-        g, ay, y = re.findall(r"<p>([^<]*)</p>", blok)[:3]
-        gun = ortak.tarih_iso(f"{int(g)} {ay.strip()} {y.strip()}")
-        ad = re.search(r"<h5>(.*?)</h5>", blok, re.S)
-        slug = re.search(r'href="cenaze-ilani/([^"]+)"', blok)
-        p = re.search(r"</h5>\s*</a>\s*<p>(.*?)</p>", blok, re.S)
-        if gun and ad and p:
-            sonuc.append({"gun": gun, "ad": ortak_ek.metin(ad.group(1)), "slug": slug.group(1) if slug else None,
-                          "metin": ortak_ek.metin(p.group(1))})
+    for blok in re.split(r'<div class="fun-day">', sayfa)[1:]:
+        bas = re.search(r"<h3><b>(\d{1,2}\s+\w+\s+\d{4})", blok)
+        gun = ortak.tarih_iso(bas.group(1)) if bas else None
+        if not gun:
+            continue
+        for ad, slug in [(m.group(2), m.group(1)) for m in re.finditer(r'<a class="fun" href="/cenaze-ilani/([^"]+)">.*?<b>(.*?)</b>', blok, re.S)]:
+            sonuc.append({"gun": gun, "ad": ortak_ek.metin(ad), "slug": slug, "metin": None})
     return sonuc
+
+
+def ayristir_ayrinti(sayfa):
+    """Ilan sayfasi: <div class="prose"><p>Ad vefat etmistir. Cenazesi ... defnedilecektir. <span>...</span></p>. Yakin adi/telefon yok; yalniz cumle."""
+    p = re.search(r'<div class="prose"><p>(.*?)</p>', sayfa, re.S)
+    return ortak_ek.metin(re.sub(r"<span>.*?</span>", "", p.group(1), flags=re.S)) if p else ""
 
 
 def cenaze_cumlesi(metin):
@@ -101,6 +107,12 @@ def main():
                 raise RuntimeError("İlan bulunamadı (sayfa düzeni değişmiş olabilir)")
             break
         for r in kayitlar:
+            if r["gun"] in gunler and not r["metin"]:                       # ayrinti sayfasi yalniz 7 gun penceresi icin
+                try:
+                    r["metin"] = ayristir_ayrinti(ortak.indir("https://www.usak.bel.tr/cenaze-ilani/" + r["slug"]))
+                except Exception:
+                    r["metin"] = ""
+            r["metin"] = r["metin"] or ""
             k = kayda_cevir(r, alindi)
             if r["gun"] in gunler and k["id"] not in gorulen:
                 gorulen.add(k["id"])
