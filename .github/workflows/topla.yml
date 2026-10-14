@@ -117,6 +117,9 @@ jobs:
             echo "::warning::TR runner calismiyor (veri-tr/ozet-tr.json yok)"
           fi
           rm -f veri/ozet.[0-9]*.json
+          # 14.10.2026 ULUSAL AKIS (vefatilanlari.com.tr): tum Turkiye en yeniden eskiye; her il/ilce icin eksik kisileri ekler (hata verirse tur durmaz)
+          python3 okuyucu/vefatilan.py || echo "::warning::ulusal akis okunamadi"
+          python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
           python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
       - name: Saglik denetimi (basarisiz yapmaz)
         run: python3 okuyucu/saglik.py onceki-ozet.json || true
