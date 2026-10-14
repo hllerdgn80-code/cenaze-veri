@@ -147,6 +147,20 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
       out.add(Text(M.hataBaglanti, textAlign: TextAlign.center, style: Y.soluk(r)));
     }
     out.addAll(gunIcerigi(v, d.ilce, _gun, bugunTr()));
+    // 14.10.2026 sahibi: ilan olmayan/eksik yerlerde de "ilan ver" bağlantısı olsun (yalnız kaynaksız ilde değil, her ilde, listenin sonunda)
+    out.add(const SizedBox(height: R.s4));
+    out.add(Padding(
+      padding: const EdgeInsets.symmetric(horizontal: R.s5),
+      child: Column(children: [
+        Text(M.ilanVerAciklama, textAlign: TextAlign.center, style: Y.soluk(r)),
+        const SizedBox(height: R.s3),
+        IkincilDugme(M.kaynaksizDugme,
+            onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
+                  builder: (_) => AileFormu(il: v.il, ilce: d.ilce),
+                ))),
+        const SizedBox(height: R.s6),
+      ]),
+    ));
     return out;
   }
 
