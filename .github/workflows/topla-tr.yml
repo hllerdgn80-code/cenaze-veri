@@ -70,6 +70,6 @@ jobs:
             echo "degisiklik yok, commit atilmadi"
           else
             git commit -m "veri-tr: Turkiye'den okunan iller"
-            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true   # 14.10.2026 #13: veri/ altindaki okuma ciktilari (unstaged) rebase'i engelliyordu
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi

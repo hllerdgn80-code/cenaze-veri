@@ -20,7 +20,7 @@ VERI = os.environ.get("EDEVLET_VERI") or os.path.join(DIZIN, "..", "veri")   # E
 TABAN = "https://www.turkiye.gov.tr/"
 BEKLE = 3.5
 HIZMET_ARASI_SN = int(os.environ.get("EDEVLET_HIZMET_ARASI_SN", "600"))   # 14.10.2026 sahibi "nazik kullanim": hizmetler arasi 10 dk (--kuru/--hizmet: 0)
-ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "60"))             # kosu basina toplam istek tavani
+ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "80"))             # kosu basina toplam istek tavani
 KOSU_SAATLERI = os.environ.get("EDEVLET_KOSU_SAATLERI", "")                  # "06,18": yalniz bu TR saatlerinde kosar (bos: her zaman)
 CAPTCHA_BEKLEME_SA = 6               # hizmet CAPTCHA gösterdiyse (14.10: art arda sorguda uyarlamalı CAPTCHA çıkıyor) 6 saat hiç istek atma
 GUN_SAYISI = 3                       # bugün + dün + evvelsi (site bu kadarını tutuyor)
@@ -251,7 +251,26 @@ def main():
     except Exception:
         onceki = {}
     # ilçe hizmetleri önce, il geneli sonra
-    sira = sorted(HIZMETLER.items(), key=lambda kv: (kv[1][1] is None, kv[0]))
+    # 14.10.2026 #13 dersi: alfabetik sira 60 istegi 0 donen ilce hizmetlerine harcadi (Istanbul/Izmir/Trabzon'a sira gelmedi).
+    # ONCELIK: bilinen verimli hizmetler once; son 3 kosuda 0/captcha donen hizmet 7 gunde bir denenir (haftalik yeniden kontrol).
+    ONCELIK = ["izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama", "trabzon-buyuksehir-belediyesi-vefat-sorgulama",
+               "denizli-buyuksehir-belediyesi-vefat-sorgulama", "kocaeli-buyuksehir-belediyesi-vefat-sorgulama", "konya-buyuksehir-belediyesi-vefat-sorgulama",
+               "kahramanmaras-buyuksehir-belediyesi-vefat-sorgulama", "tekirdag-buyuksehir-belediyesi-vefat-sorgulama", "diyarbakir-buyuksehir-belediyesi-vefat-sorgulama-v3",
+               "erzurum-buyuksehir-belediyesi-vefat-sorgulama-v3", "pendik-belediyesi-vefat-sorgulama", "gebze-belediyesi-vefat-sorgulama", "bagcilar-belediyesi-vefat-sorgulama",
+               "inegol-belediyesi-vefat-sorgulama", "mamak-belediyesi-vefat-sorgulama-v3", "korfez-belediyesi-vefat-sorgulama", "bafra-belediyesi-vefat-sorgulama"]
+    def _oncelik(kv):
+        return (ONCELIK.index(kv[0]) if kv[0] in ONCELIK else 100 + (kv[1][1] is None), kv[0])
+    sira = sorted(HIZMETLER.items(), key=_oncelik)
+    def _haftalik_atla(slug):
+        o = onceki.get(slug) or {}
+        bos = o.get("bos_kosu", 0)
+        z = o.get("zaman")
+        if bos >= 3 and z:
+            try:
+                return (datetime.now(timezone.utc) - datetime.fromisoformat(z)).total_seconds() < 7 * 86400
+            except Exception:
+                return False
+        return False
     toplam = {}
     if KOSU_SAATLERI and not secili and not kuru and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":   # elle tetiklenen kosu saat kapisini gecer
         saat = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%H")
@@ -268,6 +287,9 @@ def main():
         o = onceki.get(slug) or {}
         if o.get("durum") == "captcha" and o.get("zaman") and (datetime.now(timezone.utc) - datetime.fromisoformat(o["zaman"])).total_seconds() < CAPTCHA_BEKLEME_SA * 3600:
             print(f"  {slug}: captcha beklemesi ({CAPTCHA_BEKLEME_SA} sa), istek yok", file=sys.stderr)
+            continue
+        if _haftalik_atla(slug):
+            durum[slug] = dict(onceki.get(slug) or {}, not="haftalik atlama (3 bos kosu)")
             continue
         if toplam_istek >= ISTEK_TAVANI:
             print(f"  {slug}: kosu istek tavani ({ISTEK_TAVANI}) doldu, sonraki kosuya", file=sys.stderr)
@@ -288,7 +310,9 @@ def main():
             gorulen_kisi.add(anahtar)
             yeni.setdefault(slug_il, []).append(r)
             eklenen += 1
-        durum[slug] = {"durum": "calisir" if any(isinstance(v, int) and v > 0 for v in sayilar.values()) else "bos", "gunler": sayilar, "eklenen": eklenen, "zaman": alindi}
+        calisir = any(isinstance(v, int) and v > 0 for v in sayilar.values())
+        durum[slug] = {"durum": "calisir" if calisir else "bos", "gunler": sayilar, "eklenen": eklenen, "zaman": alindi,
+                       "bos_kosu": 0 if calisir else (onceki.get(slug) or {}).get("bos_kosu", 0) + 1}
         toplam[slug] = eklenen
         print(f"  {slug}: {sayilar} -> {eklenen} kayıt", file=sys.stderr)
     if kuru:
