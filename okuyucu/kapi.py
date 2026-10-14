@@ -39,6 +39,7 @@ VERI = os.path.join(DIZIN, "..", "veri")
 
 # yerel basın kaynakları: kaynak_ad -> izinli alan adı (yeni site eklenince buraya da yazılır)
 YEREL_BASIN = {
+    "ulusal liste": "www.vefatilanlari.com.tr",   # 14.10.2026: ulusal akis (vefatilan.py); alan adi kaydi
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",

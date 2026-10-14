@@ -32,7 +32,7 @@ YEREL_YAYIN = True
 EFEKTIF_YEREL = set() if YEREL_YAYIN else YEREL_ILLER
 # uygulamanın okuyacağı alanlar (başka hiçbir alan yayına gitmez)
 UYGULAMA_ALANLARI = ("id", "il", "ilce", "mahalle", "ad_soyad", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti",
-                     "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz",
+                     "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz", "ilce_kaynagi",
                      "cinsiyet", "sehit", "rutbe", "toren", "aile", "bebek")
 SON7_ALANLARI = ("il", "ilceler", "il_disi", "ilce_belirsiz", "toplam", "guncelleme")
 YASAK_ALANLAR = ("kaynak_ad", "kaynak_url", "ham", "anne_baba", "alindi", "kaynak_turu", "kaynaklar")
@@ -57,7 +57,14 @@ _METIN_ALANLARI = ("ilce", "mahalle", "namaz_yeri_vakti", "defin_yeri", "defin_z
 
 
 YEREL_TAZELIK_GUN = 2      # 14.10.2026 sahibi: yerel basin kaydinin referans gunu en fazla 2 gun once (Turkiye saati)
+# 14.10.2026 sahibi: "hic verisi olmayan kucuk iller icin" kural gevsetildi: bu illerde haber METNINDE cenaze gunu yoksa, haberin yayin gunu (<= 1 gun once)
+# vefat/cenaze gunu sayilir ve o gunun sayfasina girir (kayitta cenaze saati/yeri bos kalir). Diger tum kilitler (ad bicimi, metin alani, taze) AYNEN.
+RAHAT_ILLER = {"agri", "ardahan", "bayburt", "bingol", "bitlis", "diyarbakir", "eskisehir", "hakkari", "igdir", "kars", "kilis", "kirklareli",
+               "malatya", "manisa", "mardin", "mus", "siirt", "sirnak", "tunceli", "yozgat"}
 YEREL_ILERI_GUN = 2        # 14.10.2026 sahibi: cenaze ertesi ya da ondan sonraki gune kalabilir -> BEKLETME: kayit cenaze gununun sayfasina yerlesir, o gun gelince gorunur
+
+def _norm_il(il):
+    return _kat(il).replace(" ", "")
 
 
 def _bugun_tr():
@@ -69,7 +76,17 @@ def yerel_gun(k):
     """14.10.2026 sahibi: TARIH ESLESTIRME. Yerel basin kaydi ancak cenaze gunu (namaz/defin tarihi) HABER METNINDEN cikiyorsa
     (ham.tarih_kaynagi == 'metin': acik tarih YA DA sayfa tarihi + 'bugun'/'yarin' cozumu, okuyucu tarafinda yapilir) o gunun sayfasina girer;
     'yayin_tarihi' (varsayim) ve tarihsiz kayit ASLA. Doner: 'YYYY-AA-GG' ya da None."""
+    if (k.get("ham") or {}).get("tarih_kaynagi") == "ilan_vefat_tarihi":
+        # 14.10.2026 sahibi: ulusal liste (vefatilanlari.com.tr): kartta acik vefat tarihi var; son 7 gun (resmi kaynaklarla ayni pencere)
+        ld = k.get("liste_tarihi")
+        return ld if ld and re.fullmatch(r"\d{4}-\d{2}-\d{2}", ld) else None
     if (k.get("ham") or {}).get("tarih_kaynagi") != "metin":
+        if _norm_il(k.get("il")) in RAHAT_ILLER:
+            sd = (k.get("ham") or {}).get("sayfa_tarihi")
+            if sd and re.fullmatch(r"\d{4}-\d{2}-\d{2}", sd):
+                from datetime import timedelta as _td
+                if _bugun_tr() - _td(days=1) <= _gun(sd) <= _bugun_tr():      # yalniz bugun/dun yayinlanan haber
+                    return sd
         return None
     for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
         if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
@@ -85,6 +102,8 @@ def _yerel_taze(k):
         return False
     b = _bugun_tr()
     d = datetime.strptime(ref, "%Y-%m-%d").date()
+    if (k.get("ham") or {}).get("tarih_kaynagi") == "ilan_vefat_tarihi":
+        return b - timedelta(days=6) <= d <= b
     return b - timedelta(days=YEREL_TAZELIK_GUN) <= d <= b + timedelta(days=YEREL_ILERI_GUN)
 
 
@@ -351,7 +370,7 @@ def denetle(kok):
         if YEREL_YAYIN:
             for k in tum:
                 # yayin kaydinda 'ham' (tarih_kaynagi) yok: kaynak turu/tarih kaynagi giris kilidinde (kabul) dogrulandi; burada cikti alanlariyla tazelik+ad+metin kilidi tekrar sinanir
-                if ad in YEREL_ILLER and not yerel_kilidi(dict(k, ham={"tarih_kaynagi": "metin"})):
+                if ad in YEREL_ILLER and not yerel_kilidi(dict(k, namaz_tarihi=k.get("namaz_tarihi") or k.get("liste_tarihi"), ham={"tarih_kaynagi": "metin"})):
                     hata.append(f"{ad}/{k.get('id')}: yerel basın kaydı ikinci kilidi geçmiyor")
         for k in tum:
             if isimsiz_bebek(k):

@@ -19,7 +19,7 @@ DIZIN = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, DIZIN)
 import ortak, ortak_ilce as oi
 
-GUNLUK_ISTEK = 3
+GUNLUK_ISTEK = 40   # 14.10.2026: 3 istek/gun robots+RSS ile bitiyor, haber govdesi acilamiyordu; 40 / gun / site hala dusuk sikliktir (saatlik tur basina ~3)
 KAYNAK_TURU = "yerel_basin"
 
 
@@ -503,3 +503,114 @@ def baslik_ad(sayfa, site_eki):
 def yayin_tarihi(sayfa):
     m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})', sayfa) or re.search(r'name="datePublished" content="(\d{4}-\d{2}-\d{2})', sayfa)
     return m.group(1) if m else None
+
+
+# ---------------------------------------------------------------- GUN-1 (vefat) + GUN-2 (defin) HABERINI ADLA BIRLESTIRME (14.10.2026 sahibi)
+# Kurallar: ayni il (okuyucu zaten tek il), ad soyad normalize esit, yas ikisinde de varsa +-1, ilce ikisinde de varsa ayni, yayin gunleri arasi 0..3 gun,
+# ESLESME TEKIL olmali (bir vefat kaydinin tek uyumlu defin kaydi, bir defin kaydinin tek uyumlu vefat kaydi); belirsizse BIRLESTIRILMEZ.
+# Saklanan: yalniz kayit alanlari (ad, yas, ilce, mahalle, cami/vakit, defin yeri, tarihler); haber cumlesi/neden/yakin/telefon/adres YOK.
+BEKLEME_GUN = 3
+BEKLEYEN_DOSYA = "_haber_bekleyen.json"
+_DOLDUR = ("yas", "ilce", "mahalle", "namaz_yeri_vakti", "namaz_tarihi", "defin_yeri")
+
+
+def gecmis_defin_tarihi(cumle, yayin_gunu):
+    """'toprağa verildi' cümlesinde açık tarih / 'dün' / 'bugün' -> ISO (tarih METİNDEN); yoksa None."""
+    t = metinden_tarih(cumle or "")
+    if t:
+        return t
+    lc = ortak.tr_lower(cumle or "")
+    if yayin_gunu and re.search(r"\bdün\b", lc):
+        return (datetime.strptime(yayin_gunu, "%Y-%m-%d").date() - timedelta(days=1)).isoformat()
+    if yayin_gunu and re.search(r"\bbugün\b", lc):
+        return yayin_gunu
+    return None
+
+
+def _yayin_gunu(k):
+    v = (k.get("ham") or {}).get("sayfa_tarihi") or k.get("liste_tarihi")
+    try:
+        return datetime.strptime(v, "%Y-%m-%d").date()
+    except Exception:
+        return None
+
+
+def _uyumlu(v, d):
+    """v = vefat tipi (defin_zamani yok), d = defin tipi (defin_zamani var)."""
+    if v is d or (v.get("kaynak_url") and v.get("kaynak_url") == d.get("kaynak_url")):
+        return False
+    if v.get("il") and d.get("il") and ortak.katla(v["il"]) != ortak.katla(d["il"]):
+        return False
+    a1, a2 = ortak.katla(v.get("ad_soyad")), ortak.katla(d.get("ad_soyad"))
+    if not a1 or a1 != a2 or len(a1.split()) < 2:
+        return False
+    if v.get("yas") is not None and d.get("yas") is not None and abs(v["yas"] - d["yas"]) > 1:
+        return False
+    if v.get("ilce") and d.get("ilce") and ortak.katla(v["ilce"]) != ortak.katla(d["ilce"]):
+        return False
+    g1, g2 = _yayin_gunu(v), _yayin_gunu(d)
+    return bool(g1 and g2 and 0 <= (g2 - g1).days <= BEKLEME_GUN)
+
+
+def _birlestir(v, d):
+    m = dict(d)
+    for a in _DOLDUR:
+        if m.get(a) is None and v.get(a) is not None:
+            m[a] = v[a]
+    if d.get("ilce") is None and v.get("ilce") is not None:
+        m["ilce_belirsiz"] = v.get("ilce_belirsiz", False)
+    if not m.get("il_disi_defin") and v.get("il_disi_defin"):
+        m["il_disi_defin"] = v["il_disi_defin"]
+    ham = dict(d.get("ham") or {})
+    if (v.get("ham") or {}).get("tarih_kaynagi") == "metin":
+        ham["tarih_kaynagi"] = "metin"           # tarih (cenaze günü) vefat haberinin METNİNDEN geldi
+    m["ham"] = ham
+    return m
+
+
+def capraz_birlestir(yeniler, bekleyen=()):
+    """yeniler: bu turun kayıtları; bekleyen: önceki turlardan vefat tipi kayıtlar. Döner (çıktı kayıtları, birleşme sayısı, bekleyen havuz)."""
+    anahtar = {(ortak.katla(k.get("ad_soyad")), k.get("kaynak_url")) for k in yeniler}
+    havuz = list(yeniler) + [dict(b) for b in bekleyen if (ortak.katla(b.get("ad_soyad")), b.get("kaynak_url")) not in anahtar]
+    V = [k for k in havuz if not k.get("defin_zamani")]
+    D = [k for k in havuz if k.get("defin_zamani")]
+    es = {}
+    for d in D:
+        aday = [v for v in V if _uyumlu(v, d)]
+        if len(aday) == 1 and len([x for x in D if _uyumlu(aday[0], x)]) == 1:
+            es[id(d)] = aday[0]
+    tuketilen = {id(v) for v in es.values()}
+    cikti = []
+    for k in yeniler:
+        if id(k) in tuketilen:
+            continue
+        cikti.append(_birlestir(es[id(k)], k) if id(k) in es else k)
+    return cikti, sum(1 for k in yeniler if id(k) in es), V
+
+
+def bekleyenleri_yukle(klasor):
+    import json
+    try:
+        with open(os.path.join(klasor, BEKLEYEN_DOSYA), encoding="utf-8") as fh:
+            return [b for b in json.load(fh) if isinstance(b, dict)]
+    except Exception:
+        return []
+
+
+def bekleyenleri_yaz(klasor, vefat_kayitlari):
+    sinir = date.today() - timedelta(days=BEKLEME_GUN)
+    tut = []
+    for k in vefat_kayitlari:
+        g = _yayin_gunu(k)
+        if g and g >= sinir:
+            tut.append({a: b for a, b in k.items() if a != "_bekleyen"})
+    ortak.json_yaz(os.path.join(klasor, BEKLEYEN_DOSYA), tut[-300:])
+
+
+def gunleri_birlestir(ctx, kayitlar):
+    """Bir okuyucunun kayıtlarını il klasöründeki bekleyen vefat kayıtlarıyla birleştirir; döner (kayıtlar, birleşme sayısı)."""
+    cikti, n, vefat = capraz_birlestir(kayitlar, bekleyenleri_yukle(ctx["klasor"]))
+    bekleyenleri_yaz(ctx["klasor"], vefat)
+    if n:
+        print(f"  gün-1 + gün-2 birleştirme: {n} kayıt", file=sys.stderr)
+    return cikti, n

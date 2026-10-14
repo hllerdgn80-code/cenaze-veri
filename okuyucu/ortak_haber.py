@@ -29,12 +29,14 @@ ONBELLEK_SN = 6 * 3600
 VEFAT_BASLIK = re.compile(
     r"(vefat\s+etti|vefat\s+etmiştir|hayatını\s+kaybetti|yaşamını\s+yitirdi|hayata\s+veda\s+etti|hakk['’]?a\s+yürüdü|"
     r"rahmet[ei]\s+kavuştu|rahmetine\s+kavuştu|son\s+yolculuğuna\s+uğurlandı|toprağa\s+verildi|defnedildi|"
-    r"ebediyete\s+uğurlandı|dualarla\s+uğurlandı|gözyaşlarıyla\s+uğurlandı|kabri\s+başında|vefatı|hayatını\s+kaybeden)",
+    r"ebediyete\s+uğurlandı|dualarla\s+uğurlandı|gözyaşlarıyla\s+uğurlandı|kabri\s+başında|vefatı|hayatını\s+kaybeden|"
+    r"uğurland\w*|defnedildiler|toprağa\s+verildiler)",
     re.I)
 # toplu/olay haberleri ve tek kişilik olmayanlar (ölü sayısı, anma, yıl dönümü, başka ülke)
 DISLA = re.compile(r"(\d+\s+(?:kişi|ölü|yaralı)|kişiler|anıldı|anma|yıl\s*dönümü|ölüm\s+yıl|vefatının|şehit|şehadet|"
                    r"cenazesi\s+bekleniyor|aranıyor|kayıp\s+(?:kişi|çocuk|genç|kadın)|gözaltı|tutuklandı|dava|mahkeme|sanık|"
-                   r"çift|kardeşler|ailesinden\s+\d|anne\s+ve|baba\s+ve|ve\s+(?:oğlu|kızı|eşi))", re.I)
+                   r"çift|kardeşler|ailesinden\s+\d|anne\s+ve|baba\s+ve|ve\s+(?:oğlu|kızı|eşi)|"
+                   r"asker|hacı\s+aday|umre|tatil|gurbet|emekliliğe|göreve|veda\s+töreni|ziyaret|karşılandı)", re.I)
 _UNVAN = set("""prof dr doç op uzm av öğr gör yrd hacı hafız şeyh seyda molla merhum merhume rahmetli emekli öğretmen imam
 muhtar başkan başkanı eski usta ağa hoca hocası hemşerimiz hemşehrimiz esnaf esnafı iş insanı""".split())
 _ONEK_DUR = set("""ve ile de da genç yaşlı yaşındaki yaşında acı kayıp kaybı haber haberi sevilen tanınan değerli usta eski
@@ -112,6 +114,9 @@ def vefat_haberi_mi(baslik):
     b = baslik or ""
     if not VEFAT_BASLIK.search(b):
         return False
+    m = VEFAT_BASLIK.search(b)
+    if re.search(r"(?:verildiler|defnedildiler|uğurlandılar)", m.group(0) + b[m.end():m.end() + 6], re.I) and re.search(r"\sve\s", b[:m.start()]):
+        return False                                   # '<Ad> ve <Ad> toprağa verildiler': iki kişi, tek ad alınamaz (belirsiz)
     if DISLA.search(b):
         return False
     return True
@@ -378,12 +383,170 @@ def olgular(il, baslik, ozet, yayin_gunu):
     defin = ob.kisa(defin) or _mezarlik(ozet)
     if not namaz:
         namaz = _cami_vakit(ozet)
-    gecti = re.search(r"(?i)toprağa\s+verildi|defnedildi|son\s+yolculuğuna\s+uğurlandı|dualarla\s+uğurlandı|gözyaşlarıyla\s+uğurlandı",
+    gecti = re.search(r"(?i)toprağa\s+verildi|defnedildi|(?:son\s+yolculuğuna\s+|dualarla\s+|gözyaşlarıyla\s+|törenle\s+)?uğurland\w*",
                       f"{baslik} {ozet or ''}")
-    if gecti and not namaz_t:
-        defin_t = yayin_gunu                     # 'toprağa verildi' haberi: defin, yayın günü (ya da bir gün önce) yapılmış
+    if gecti:                                    # defin YAPILMIŞ haber (gün-2): tarih cümledeki açık tarih / dün / bugün; yoksa yayın günü
+        gt = None
+        for c in re.split(r"(?<=[.!?])\s+|\n", f"{baslik}. {ozet or ''}"):
+            if re.search(r"(?i)toprağa\s+verildi|defnedildi|uğurland\w*", c):
+                gt = ob.gecmis_defin_tarihi(c, yayin_gunu) or gt
+        gt = gt or ob.gecmis_defin_tarihi(baslik, yayin_gunu)
+        if gt:
+            defin_t = gt
+            namaz_t = namaz_t or gt
+        else:
+            defin_t = defin_t or yayin_gunu       # 'toprağa verildi' haberi: defin, yayın günü (ya da bir gün önce) yapılmış
     return {"ad": ad, "yas": yas, "ilce": ilce, "mahalle": ob.kisa(_koy_mahalle(ozet)), "namaz": ob.kisa(namaz), "defin": ob.kisa(defin),
             "namaz_t": namaz_t, "defin_t": defin_t, "il_disi": ob.il_disi_bul(il, defin) if defin else None}
+
+
+# ---------------------------------------------------------------- OLAY HABERLERİ (14.10.2026 sahibi: kaza/cinayet/iş kazası/yangın haberinin SON PARAGRAFINDA cenaze bilgisi)
+OLAY_BASLIK = re.compile(r"(kaza|cinayet|yangın|öldü|ölü\b|ölüm|hayatını\s+kaybet|yaşamını\s+yitir|can\s+verdi|can\s+verdi|feci|silahlı|bıçak|"
+                         r"intihar|boğul|elektrik\w*\s+(?:çarp|akım)|göçük|çöktü|devrildi|çarp|patlama|donarak|akıma\s+kapıl|kavga|ağır\s+yaralı)", re.I)
+OLAY_DISLA = re.compile(r"(anıldı|anma\b|yıl\s*dönümü|vefatının|şehit|şehadet|aranıyor|dava\b|mahkeme|sanık|ceza\b|hapis|beraat|depremzede)", re.I)
+_OLUM_FIIL = r"(?:hayatını\s+kaybet\w*|yaşamını\s+yitir\w*|can\s+verdi|öldü|ölen\w*|hayatını\s+kaybeden\w*|yaşama\s+veda\s+etti|vefat\s+et\w*)"
+_YARALI = r"(?:yaralan\w*|yaralı\w*|tedavi\s+altına|hastaneye\s+kaldır\w*|kurtarıl\w*)"
+_CENAZE_DESEN = re.compile(r"cena[sz]e\w*|naaş\w*|toprağa\s+veril\w*|defnedil\w*|defin\w*|namaz[ıi]\s+k[ıi]l[ıi]n\w*|k[ıi]l[ıi]nacak", re.I)
+_GUN_ADI = {"pazartesi": 0, "salı": 1, "çarşamba": 2, "perşembe": 3, "cuma": 4, "cumartesi": 5, "pazar": 6}
+_AD_STOP = _AD_DEGIL | {"olay", "olayda", "kaza", "sonrası", "bölge", "bölgede", "yapılan", "ekipler", "jandarma", "polis", "savcılık",
+                       "kimlikleri", "kimliği", "belirlenen", "belirlendi", "hayatını", "ölenlerin", "ölenler", "yaralananlar", "yaralanan",
+                       "sürücü", "yolcu", "yolcular", "araç", "aracın", "araçta", "ambulans", "hastane", "devlet", "belediye", "başkanı",
+                       "ilçe", "ilçesi", "köyü", "mahallesi", "mevkii", "karayolu", "yolu", "otoyol", "ekip", "acil", "sağlık", "cumhuriyet",
+                       "merkez", "genel", "müdürlüğü", "emniyet", "komutanlığı", "il", "ilçemiz", "gece", "sabah", "akşam", "öğle", "bugün",
+                       "dün", "yarın", "olayın", "olayı", "kazanın", "kazada", "kazası", "iş", "işçi", "işçiler", "çalışan"}
+
+
+def _gecerli_ad_dizisi(sozler):
+    """Sondan geriye geçerli ad sözcükleri (2-4)."""
+    top = []
+    for w in reversed(sozler):
+        w2 = w.strip(".,;:'\"“”")
+        lw = ortak.tr_lower(w2)
+        if not re.fullmatch(r"[A-ZÇĞİÖŞÜÂÎÛ][" + _HARF + r"]+", w2) or lw in _AD_STOP or lw in _ONEK_DUR or lw in _UNVAN or (len(lw) > 6 and _EK_SONU.search(lw)):
+            break
+        top.append(w2)
+        if len(top) == 4:
+            break
+    top.reverse()
+    return top
+
+
+def _cumleler(govde):
+    """Gövde -> cümle listesi (satır sonu ve '. ' ile bölünür; kısaltmalarda bölünmez)."""
+    out = []
+    for satir in (govde or "").split("\n"):
+        t = re.sub(r"\s+", " ", satir).strip()
+        if not t:
+            continue
+        parca = re.split(r"(?<=[a-zçğıöşü0-9\)\"”’'])\.\s+(?=[A-ZÇĞİÖŞÜ0-9“\"])", t)
+        out.extend(p.strip() for p in parca if p.strip())
+    return out
+
+
+def _olenler(cumleler):
+    """Ölüm cümlelerinden ölenlerin adları: [(ad, yas)]. Yaralı bağlamındaki adlar alınmaz."""
+    sonuc = {}
+    for i, c in enumerate(cumleler):
+        for m in re.finditer(_OLUM_FIIL, c, re.I):
+            on = c[:m.start()]
+            # 'X Y (45) hayatını kaybetti' / 'X Y hayatını kaybetti'
+            ad, yas = ob.ad_bul(on)
+            if ad:
+                sozler = _gecerli_ad_dizisi(ad.split())
+                if len(sozler) >= 2:
+                    sonuc.setdefault(ortak.katla(" ".join(sozler)), (oi.ad_duzelt(" ".join(sozler)), yas))
+        # 'A B (30), C D (25)' çiftleri: ölüm anahtarı kendinden önce en yakın anahtar ya da hemen sonrasında
+        for m in re.finditer(r"((?:[A-ZÇĞİÖŞÜÂÎÛ][" + _HARF + r"]+\s){1,3}[A-ZÇĞİÖŞÜÂÎÛ][" + _HARF + r"]+)\s*\((\d{1,3})\)", c):
+            onceki = c[:m.end(1)]
+            son_olum = [x.start() for x in re.finditer(_OLUM_FIIL + r"|kimlik\w*|isimleri|adları", onceki, re.I)]
+            son_yarali = [x.start() for x in re.finditer(_YARALI, onceki, re.I)]
+            sonrasi = c[m.end(): m.end() + 45]
+            olum_once = bool(son_olum) and (not son_yarali or son_olum[-1] > son_yarali[-1])
+            olum_sonra = bool(re.match(r"[^.;]{0,40}?" + _OLUM_FIIL, sonrasi, re.I)) and not re.search(_YARALI, sonrasi[:sonrasi.lower().find("kaybet") if "kaybet" in sonrasi.lower() else 0])
+            if i and not (olum_once or olum_sonra):                  # ilk cümle dışında: önceki cümle ölüm listesi başlığıysa (kimlikleri belli oldu)
+                if not (re.search(_OLUM_FIIL + r"|kimlik", cumleler[i - 1], re.I) and not re.search(_YARALI, c[:m.end(1)], re.I)):
+                    continue
+            elif not i and not (olum_once or olum_sonra):
+                continue
+            sozler = _gecerli_ad_dizisi(m.group(1).split())
+            if len(sozler) >= 2:
+                y = int(m.group(2))
+                sonuc.setdefault(ortak.katla(" ".join(sozler)), (oi.ad_duzelt(" ".join(sozler)), y if 0 < y < 125 else None))
+    return list(sonuc.values())
+
+
+def _tarih_coz(cumle, yayin_gunu):
+    """Cenaze cümlesinden gün: açık tarih; bugün/yarın/öbür gün/dün; '<Gün adı> günü'. Çözülemezse None."""
+    if not cumle:
+        return None
+    t = ob.metinden_tarih(cumle)
+    if t:
+        return t
+    lc = ortak.tr_lower(cumle)
+    try:
+        y = datetime.strptime(yayin_gunu, "%Y-%m-%d").date()
+    except Exception:
+        return None
+    if re.search(r"\b(?:öbür|ertesi)\s+gün\b", lc):
+        return (y + timedelta(days=2)).isoformat()
+    if re.search(r"\byarın\b", lc):
+        return (y + timedelta(days=1)).isoformat()
+    if re.search(r"\bbugün\b", lc):
+        return y.isoformat()
+    if re.search(r"\bdün\b", lc):
+        return (y - timedelta(days=1)).isoformat()
+    m = re.search(r"\b(pazartesi|salı|çarşamba|perşembe|cumartesi|cuma|pazar)\s+günü\b", lc)
+    if m:
+        fark = (_GUN_ADI[m.group(1)] - y.weekday()) % 7
+        if fark <= 2:
+            return (y + timedelta(days=fark)).isoformat()
+    return None
+
+
+def olay_olgulari(il, govde, yayin_gunu):
+    """Olay haberi gövdesi -> [olgu sözlüğü]. Cenaze cümlesi + ad ŞART; adsız ölü atlanır; tarih çözülemezse kayıt yok.
+    Hem cenaze cümlesi hem ad aynı habere bağlanır: cümlede ad geçiyorsa yalnız o kişiye, genel 'cenazeleri' ise ölen herkese,
+    'cenazesi' ve tek ölü varsa ona."""
+    cum = _cumleler(govde)
+    if not cum or not _CENAZE_DESEN.search(" ".join(cum)):
+        return []
+    olenler = _olenler(cum)
+    if not olenler:
+        return []
+    ilce_lead = _ilce_metinde(il, " ".join(cum[:2]))
+    cikti = {}
+    for c in cum:
+        if not _CENAZE_DESEN.search(c) or not re.search(r"cena[sz]e|naaş|toprağa|defn|namaz|kılın", c, re.I):
+            continue
+        t = _tarih_coz(c, yayin_gunu)
+        if not t:
+            continue
+        adli = [(a, y) for a, y in olenler if (lambda k: k[0] in ortak.katla(c) and k[-1] in ortak.katla(c))(ortak.katla(a).split())]
+        if adli:
+            hedef = adli
+        elif re.search(r"cenazeler\w*|naaşlar\w*", c, re.I):
+            hedef = olenler
+        elif len(olenler) == 1:
+            hedef = olenler
+        else:
+            continue
+        _, defin = oi.cenaze_ayikla(c)
+        if defin:
+            defin = re.sub(r"^(?:İlçemiz|ilçemiz|Şehrimiz|şehrimiz|Köyündeki|köyündeki)\s+", "", defin)
+            if len(defin.split()) < 2 or re.search(r"(?i)cami|namaz", defin):
+                defin = None
+        defin = ob.kisa(defin) or _mezarlik(c)
+        namaz = ob.namaz_kisa(re.sub(r"(?i)\b(?:pazartesi|salı|çarşamba|perşembe|cumartesi|cuma|pazar)\s+günü", " ", c))
+        mahalle = ob.kisa(_koy_mahalle(c))
+        if not (namaz or defin or mahalle):
+            continue
+        for a, y in hedef:
+            if len(a.split()) < 2 or ortak.katla(a) in cikti:
+                continue
+            cikti[ortak.katla(a)] = {"ad": a, "yas": y, "ilce": _ilce_metinde(il, c) or ilce_lead, "mahalle": mahalle,
+                                     "namaz": ob.kisa(namaz), "defin": ob.kisa(defin), "namaz_t": t, "defin_t": None,
+                                     "il_disi": ob.il_disi_bul(il, defin or c) if (defin or re.search(r"götürül|nakledil", c)) else None}
+    return list(cikti.values())
 
 
 def kayit_yap(ctx, il, slug, kaynak_ad, url, f, yayin_gunu):
@@ -393,7 +556,7 @@ def kayit_yap(ctx, il, slug, kaynak_ad, url, f, yayin_gunu):
     k = oi.kayit(il, f["ilce"], slug, f["ad"], gun, kaynak_ad, url, ctx["alindi"], ek_id="", liste_tarihi=gun,
                  yas=f["yas"], vefat_tarihi=None, defin_zamani=f["defin_t"], namaz_tarihi=f["namaz_t"],
                  namaz_yeri_vakti=f["namaz"], defin_yeri=f["defin"], mahalle=f["mahalle"],
-                 ham={"yayin_tarihi": yayin_gunu, "tarih_kaynagi": tk})
+                 ham={"yayin_tarihi": yayin_gunu, "sayfa_tarihi": yayin_gunu, "tarih_kaynagi": tk})
     k["kaynak_turu"] = KAYNAK_TURU
     if not f["ilce"]:
         k["ilce"] = None
@@ -409,7 +572,7 @@ def _ozet_yeterli(oz, baslik):
 
 
 SLUG_VEFAT = re.compile(r"vefat-etti|vefat-etmistir|hayatini-kaybetti|yasamini-yitirdi|hakka-yurudu|son-yolculuguna-ugurlandi|"
-                        r"topraga-verildi|defnedildi|dualarla-ugurlandi|gozyaslariyla-ugurlandi|hayata-veda|rahmetine-kavustu")
+                        r"topraga-verildi|defnedildi|ugurlandi|dualarla-ugurlandi|gozyaslariyla-ugurlandi|hayata-veda|rahmetine-kavustu")
 
 
 def _ayni_site(u1, u2):
@@ -420,6 +583,19 @@ def sayfa_basligi(sayfa):
     m = re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', sayfa) or re.search(r"<title>([\s\S]*?)</title>", sayfa)
     t = oi.metin(m.group(1)) if m else ""
     return re.split(r"\s[-|–]\s", t)[0].strip()
+
+
+def _sakli_olgular(v):
+    """Saklı giriş -> olgu listesi (eski biçim: tek 'olgu'; olay haberi: 'olgular')."""
+    out = list(v.get("olgular") or [])
+    if v.get("olgu"):
+        out.append(v["olgu"])
+    return out
+
+
+def olay_baslik_mi(baslik):
+    b = baslik or ""
+    return bool(OLAY_BASLIK.search(b)) and not OLAY_DISLA.search(b)
 
 
 def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_ac=2, varsayilan_ilce=None, takma=(),
@@ -442,20 +618,32 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
     for o in rss_ogeleri(xml):
         if url_suzgec and not re.search(url_suzgec, o["url"]):
             continue
-        if o["slug"] or not vefat_haberi_mi(o["baslik"]):
+        if o["slug"]:
+            continue
+        vefat = vefat_haberi_mi(o["baslik"])
+        olay = olay_baslik_mi(o["baslik"])
+        if not (vefat or olay):
             continue
         g = o["tarih"] or ob.metinden_tarih(o["url"].replace("-", " "))
         if not g or g not in gl:
             continue
         if o["url"] in sakli:
-            f = sakli[o["url"]].get("olgu")
-            if f and f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
-                f["defin"] = None
-            if f:
-                sonuc[o["url"]] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+            for f in _sakli_olgular(sakli[o["url"]]):
+                if f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
+                    f["defin"] = None
+                sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
             continue
         y = yerel_mi(il, o["baslik"], o["ozet"], takma, kesin_yerel)
         if y is False:
+            continue
+        if not vefat:                                  # yalnız olay başlığı: ad/cenaze gövdede; özet cenaze cümlesi veriyorsa önce özetten
+            bulundu = olay_olgulari(il, o["ozet"], g) if y else []
+            for f in bulundu:
+                if not f["ilce"] and varsayilan_ilce:
+                    f["ilce"] = varsayilan_ilce
+                sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+            if not bulundu:
+                acilacak.append((o, g))
             continue
         if y is None:                                  # yerellik belirsiz: özet yetersizse haber açılır
             if not _ozet_yeterli(o["ozet"], o["baslik"]):
@@ -465,17 +653,18 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
         if f and not f["ilce"] and varsayilan_ilce:
             f["ilce"] = varsayilan_ilce
         if f:
-            sonuc[o["url"]] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+            sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
         if (f is None or not (f["namaz"] or f["defin"])) and not _ozet_yeterli(o["ozet"], o["baslik"]):
             acilacak.append((o, g))
     # daha önce açılmış (site haritasından gelen) haberlerin saklı olguları: RSS'te artık görünmeseler de pencere içindeyse kayıt
     for u, v in sakli.items():
-        f = v.get("olgu")
-        if f and u not in sonuc and (v.get("tarih") or "") in gl and (not url_suzgec or re.search(url_suzgec, u)) \
-                and _ayni_site(u, dizin_url):
-            if f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
-                f["defin"] = None
-            sonuc[u] = kayit_yap(ctx, il, slug, kaynak_ad, u, f, v["tarih"])
+        if (v.get("tarih") or "") in gl and (not url_suzgec or re.search(url_suzgec, u)) and _ayni_site(u, dizin_url):
+            for f in _sakli_olgular(v):
+                if (u, f["ad"]) in sonuc or u in sonuc:
+                    continue
+                if f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
+                    f["defin"] = None
+                sonuc[(u, f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, u, f, v["tarih"])
     if ek_dizin:
         rss_url = {o["url"] for o in rss_ogeleri(xml)}
         try:
@@ -487,8 +676,11 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             g = o["tarih"]
             if g in gl and o["url"] not in rss_url and o["url"] not in sakli and SLUG_VEFAT.search(o["url"]):
                 acilacak.append(({"url": o["url"], "baslik": "", "ozet": ""}, g))
+    def oncelik(x):                                    # önce yeni, sonra başlığında ad/ölüm bildirimi olanlar
+        o = x[0]
+        return (x[1], 2 if vefat_haberi_mi(o["baslik"]) else (1 if re.search(_OLUM_FIIL, o["baslik"] or "", re.I) else 0))
     n = 0
-    for o, g in sorted(acilacak, key=lambda x: x[1], reverse=True):
+    for o, g in sorted(acilacak, key=oncelik, reverse=True):
         if n >= makale_ac:
             break
         try:
@@ -499,27 +691,42 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             print(f"  haber açılamadı: {o['url']}: {e}", file=sys.stderr)
             continue
         n += 1
-        ilk = (ob.makale_govdesi(sayfa) or _ilk_paragraflar(sayfa))[:900]
+        govde = ob.makale_govdesi(sayfa) or _ilk_paragraflar(sayfa, 40)
+        ilk = govde[:900]
         ob.okundu(ctx, o["url"])
         f = None
         if not o["baslik"]:                            # site haritasından gelen aday: başlık sayfadan
             o["baslik"] = sayfa_basligi(sayfa)
+        bulunan = []
         if o["baslik"] and vefat_haberi_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
             f = olgular(il, o["baslik"], ilk, g)
             if f and not f["ilce"] and varsayilan_ilce:
                 f["ilce"] = varsayilan_ilce
-        sakli[o["url"]] = {"olgu": f, "tarih": g}          # yalnız olgular saklanır (sitenin metni değil)
-        if f:
-            sonuc[o["url"]] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
-        else:
-            sonuc.pop(o["url"], None)
+            if f:
+                bulunan.append(f)
+        if o["baslik"] and olay_baslik_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
+            for f2 in olay_olgulari(il, govde, g):         # kaza/cinayet/yangın: cenaze bilgisi son paragrafta
+                if not f2["ilce"] and varsayilan_ilce:
+                    f2["ilce"] = varsayilan_ilce
+                if not any(ortak.katla(x["ad"]) == ortak.katla(f2["ad"]) and (x["namaz"] or x["defin"]) for x in bulunan):
+                    bulunan = [x for x in bulunan if ortak.katla(x["ad"]) != ortak.katla(f2["ad"])] + [f2]
+        tani = None
+        if o["baslik"] and olay_baslik_mi(o["baslik"]):  # tanı: yalnız sayılar (metin saklanmaz) -> parser başarısızlığı ile 'haberde cenaze bilgisi yok' ayrılır
+            cum = _cumleler(govde)
+            tani = {"cenaze_cumlesi": sum(1 for c in cum if _CENAZE_DESEN.search(c)), "olen": len(_olenler(cum)), "kayit": len(bulunan)}
+            print(f"  olay haberi açıldı ({kaynak_ad}): {tani}", file=sys.stderr)
+        sakli[o["url"]] = {"olgular": bulunan, "tarih": g, "tani": tani}   # yalnız olgular saklanır (sitenin metni değil)
+        for f in bulunan:
+            sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
     ob.durum(ctx).kaydet()
     sinir = (date.today() - timedelta(days=10)).isoformat()
     sakli = {u: v for u, v in sakli.items() if (v.get("tarih") or "") >= sinir}
     ortak.json_yaz(olgu_yol, sakli)
+    # gün-1 (vefat) + gün-2 (defin) haberi: aynı il, ad (normalize), yaş ±1, ≤3 gün, eşleşme tekil -> TEK kayıt (belirsizse birleştirme yok)
+    birlesen, _ = ob.gunleri_birlestir(ctx, list(sonuc.values()))
     # aynı kişi aynı sitede iki haber (vefat + defin): tek kayıt (en çok alanı dolu olan)
     tek = {}
-    for k in sonuc.values():
+    for k in birlesen:
         a = ortak.katla(k["ad_soyad"])
         eski = tek.get(a)
         if not eski or sum(v is not None for v in k.values()) > sum(v is not None for v in eski.values()):
@@ -527,13 +734,13 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
     return list(tek.values())
 
 
-def _ilk_paragraflar(sayfa):
+def _ilk_paragraflar(sayfa, azami=4):
     """JSON-LD yoksa: <article> ya da sayfadaki ilk uzun <p>'ler (yalnız bellekte işlenir; saklanmaz)."""
     m = re.search(r"<article[\s\S]*?</article>", sayfa)
     alan = m.group(0) if m else sayfa
     ps = [oi.metin(p) for p in re.findall(r"<p[^>]*>([\s\S]*?)</p>", alan)]
     ps = [p for p in ps if len(p) > 60]
-    return "\n".join(ps[:4])
+    return "\n".join(ps[:azami])
 
 
 # ---------------------------------------------------------------- il okuyucusu kalıbı
