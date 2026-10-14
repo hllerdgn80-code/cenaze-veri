@@ -122,8 +122,12 @@ void main() {
     // Önizlemeye dokununca tam ilan + harita bağlantıları
     await tester.tap(find.byKey(const ValueKey('tam_Nurcihan Örneksoy')));
     await tester.pumpAndSettle();
-    expect(find.text('Cami · haritada aç'), findsOneWidget);
-    expect(find.text('Mezarlık · haritada aç'), findsOneWidget);
+    // Harita bağlantıları gazete ilanının altında (ListView tembel kurar): kaydırarak görünür kıl
+    final kaydirici = find.descendant(of: find.byType(ListView).last, matching: find.byType(Scrollable)).first;
+    await tester.scrollUntilVisible(find.text(M.tamHaritaCami), 300, scrollable: kaydirici);
+    await tester.pumpAndSettle();
+    expect(find.text(M.tamHaritaCami), findsOneWidget);
+    expect(find.text(M.tamHaritaMezarlik), findsOneWidget);
     await tester.tap(find.byType(YuvarlakDugme).first);
     await tester.pumpAndSettle();
 

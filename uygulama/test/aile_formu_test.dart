@@ -183,7 +183,8 @@ void main() {
     await tester.pump();
     expect(find.text('Lütfen kodu eksiksiz yazın'), findsOneWidget); // 6 hane değil: istek gitmedi
     expect(istekler.containsKey('/aile/dogrula'), isFalse);
-    await tester.pump(const Duration(seconds: 3));
+    await tester.pump(const Duration(seconds: 3)); // bildirim kapanır, alt çubuktaki düğme açılır
+    await tester.pump(const Duration(seconds: 1));
     await tester.enterText(kod, '123456');
     await tester.pump();
     await tester.tap(find.widgetWithText(AnaDugme, 'Doğrula'));
