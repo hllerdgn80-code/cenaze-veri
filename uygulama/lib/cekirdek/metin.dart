@@ -2,8 +2,9 @@
 // Süzgeç: pazar dili yok, ölüm sayısı yok, ünlem yok, "ücretsiz/elle/moderatör" yok, merhum/merhume kuralı.
 import 'yardimci.dart';
 
-/// §28: ücretli ilan bu sürümde kapalı. true olursa Tam Sayfa formunda fiyat kartı ve ödeme adımı görünür.
-const bool odemeAcik = false;
+/// Site sahibi 14.10.2026: prototipteki Tam Sayfa akışı yayında olsun (fiyat kartı, "Ödemeye geç", ödeme ekranı).
+/// Gerçek tahsilat (Play Billing) sonraki iş; şimdilik ödeme ekranı prototip görünümüyle gelir.
+const bool odemeAcik = true;
 
 /// Push paketi (Firebase) bağlanana dek kaynaksız ilde bildirim teklifi sorulmaz.
 const bool bildirimTeklifiAcik = false;
@@ -36,6 +37,7 @@ class M {
   static const kartKaydet = 'Sayfama kaydet';
   static const kartKaydedildi = 'Sayfamda ✓';
   static const kartYakini = 'Yakını paylaştı';
+  static const kartDogrulandi = 'Doğrulandı';
   static const kartBebek = 'Bebek'; // §32: adı olan bebek kaydında rozet
   static const kartKaldir = 'Sayfamdan kaldır';
   static const kaldirSoru = 'Bu kaydı sayfanızdan kaldırmak istiyor musunuz?';
@@ -59,6 +61,9 @@ class M {
   static const izinHayir = 'Şimdi değil';
   static const izinEvetBildirim = 'Paylaşıldığında haber vereceğiz';
   static const izinHayirBildirim = 'Bildirim gönderilmeyecek';
+  // Bugün ilan yoksa kartın hemen altı (14.10.2026 sahibi: bağlantı en üstte)
+  static const aileDavetMetin = 'Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz';
+  static const aileDavetDugme = 'Cenaze bilgilerini paylaş';
   static const ilanVerAciklama = 'Aradığınız ilan burada yoksa, yakınınızın ilanını siz de paylaşabilirsiniz.';
 
   // 4. Aile formu
@@ -69,13 +74,62 @@ class M {
       'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra $il sayfasında görünür.';
   static const aileGirisEtiket = 'Yakınlar için';
   static const aileGirisNot = 'Yalnız vefat edenin yakınları paylaşabilir';
-  static const aileMadde1 = 'Ölüm belgesi e-Devlet koduyla doğrulanır';
-  static const aileMadde3 = 'Kontrolden sonra il ve ilçe sayfasında görünür';
+  static const aileMadde1 = 'e-Devlet belge kodu isteğe bağlıdır';
+  static const aileMadde3 = 'Bilgiler kurallardan geçince ilan il ve ilçe sayfasında görünür.';
   static const aileMadde4 = 'Belge dosyası saklanmaz';
-  static const aileNot = 'İlanınız kontrolden sonra yayımlanır.';
+  static const aileNot = 'İlanınız kurallardan geçtiğinde yayımlanır.';
   static const aileBittiUst = 'Gönderildi';
   static const aileBittiDugme = 'Tamam';
-  // v0.1 eki (METIN-SOZLUGU §16): gönderim kullanıcının e-posta uygulamasında tamamlanır
+  static const aileBittiBaslik = 'İlanınız alındı';
+  static String aileBittiAciklama(String il) => 'İlan kontrolden sonra $il sayfasında yayımlanır. Başınız sağ olsun.';
+  // Şehit akışı (METIN-SOZLUGU sehit.*): ücret ifadesi hiçbir yerde geçmez
+  static const sehitFormBaslik = 'Şehit İlanı';
+  static const sehitAdim1 = 'Şehidimizin bilgileri';
+  static const sehitAdimDuyuru = 'Resmî duyuru doğrulaması';
+  static const sehitRutbe = 'Rütbe / unvan';
+  static const sehitRutbeYer = 'Ör. Piyade Uzman Çavuş';
+  static const sehitAdYer = 'Şehidimizin adı ve soyadı';
+  static const sehitTorenYeri = 'Cenaze töreni yeri';
+  static const sehitTorenYer = 'Tören yapılacak yer';
+  static const sehitMezarlikYer = 'Şehitlik';
+  static const sehitDuyuruAciklama =
+      'Valilik, Emniyet, Jandarma ya da Türk Silahlı Kuvvetleri duyurusunun bağlantısını girin. İlan bu duyuruyla karşılaştırılır.';
+  static const sehitDuyuruAlan = 'Resmî duyuru bağlantısı';
+  static const sehitDuyuruYer = 'Duyurunun internet adresi';
+  static const sehitDuyuruDugme = 'Duyuruyu doğrula';
+  static const sehitDuyuruTamam = 'Duyuru doğrulandı';
+  static const sehitBittiYazi = 'İlan kontrolden sonra Tam Sayfa’da yayımlanır. Şehidimizin ruhu şad olsun.';
+  static const sehitNot = 'İlanınız kontrolden sonra yayımlanır.';
+  static const belgeDugme = 'Belgeyi doğrula';
+  static const belgeTamam = 'Belge doğrulandı';
+  // v0.1.2: form Worker'a gönderilir (deploy/AILE-ILAN-SOZLESME.md); sonuç ekranı
+  static const aileYayinda = 'İlanınız yayımlandı. Allah rahmet eylesin.';
+  static const aileRed = 'İlan yayımlanamadı. Bilgiler doğrulanamadı.';
+  static const aileAgHata =
+      'İşlem tamamlanamadı. Bilgileriniz silinmedi; biraz sonra yeniden deneyebilirsiniz.';
+  static const kodUst = 'Doğrulama';
+  static const kodBaslik = 'Doğrulama kodu';
+  static String kodAciklama(String eposta) => 'Doğrulama kodunu $eposta adresine gönderdik.';
+  static const kodAlan = 'Kod';
+  static const kodYer = '6 haneli kod';
+  static const kodDugme = 'Doğrula';
+  static const kodYeniden = 'Kodu yeniden gönder';
+  static String kodBekle(int sn) => 'Kodu yeniden gönder ($sn sn)';
+  static const kodEksik = 'Lütfen kodu eksiksiz yazın';
+  static const kodGitti = 'Doğrulama kodu gönderildi';
+  static const kodHatali = 'Kod doğru değil. Yeniden deneyebilirsiniz.';
+  // Kartta bildirim (METIN-SOZLUGU §11)
+  static const bildirDugme = 'Bu ilanda bir yanlışlık mı var?';
+  // [ekrandaki metin, Worker'a giden neden]
+  static const bildirSecenekler = [
+    ['Kişi bilgisi yanlış', 'yanlış bilgi'],
+    ['Cenaze bilgisi yanlış', 'yanlış bilgi'],
+    ['Bu ilan gerçek değil', 'böyle bir kişi yok'],
+    ['Diğer', 'diğer'],
+  ];
+  static const bildirGonder = 'Bildirin';
+  static const bildirTamam = 'Bildiriminiz alındı. Teşekkür ederiz.';
+  // v0.1 eki (METIN-SOZLUGU §16): öneri penceresi e-posta uygulamasını açar
   static const aileEpostaNot = 'Gönderimi e-posta uygulamanızda tamamlayabilirsiniz.';
 
   // 5. Ortak form metinleri
@@ -98,18 +152,24 @@ class M {
   static const alanCamiYer = 'Cenaze namazının kılınacağı cami';
   static const alanMezarlik = 'Mezarlık';
   static const alanMezarlikYer = 'Defin yeri';
+  static const alanYas = 'Yaş';
+  static const alanYasYer = 'Biliyorsanız';
+  static const alanNamazTarihi = 'Cenaze namazı tarihi';
+  static const adimCenazeBaslik = 'Cenaze bilgileri';
+  static const adimCenazeAciklama = 'Bildiğiniz kadarını yazabilirsiniz.';
   static const adim2Baslik = 'Ölüm belgesi doğrulama';
-  static const adim2Aciklama = 'e-Devlet’ten aldığınız Ölüm Belgesi’nin doğrulama kodunu girin. Belge dosyası saklanmaz.';
+  static const adim2Aciklama =
+      'İsteğe bağlı. e-Devlet’ten aldığınız Ölüm Belgesi’nin doğrulama kodunu girerseniz ilanda “Doğrulandı” işareti görünür. Belge dosyası saklanmaz.';
   static const adim2Alan = 'Belge doğrulama kodu';
   static const adim2AlanYer = 'Örn. ABCD-1234-EFGH';
-  static const adim3Baslik = 'Telefon doğrulama';
+  static const adim3Baslik = 'Başvuran bilgileri';
+  static const adim3Aciklama = 'Doğrulama kodu e-posta adresinize gönderilir.';
+  static const adim3Eposta = 'E-posta';
+  static const adim3EpostaYer = 'ornek@eposta.com';
   static const adim3Ad = 'Ad soyad';
   static const adim3AdYer = 'Adınız ve soyadınız';
-  static const adim3Tc = 'T.C. son 4 hane';
   static const adim3Yakinlik = 'Yakınlık';
   static const yakinlikSecenek = ['Oğlu / kızı', 'Eşi', 'Kardeşi', 'Torunu', 'Gelini / damadı', 'Diğer'];
-  static const adim3Tel = 'Cep telefonu';
-  static const adim3TelYer = '05xx xxx xx xx';
   static const adim5Baslik = 'Yasal beyan';
   static const adim5Aciklama = 'Lütfen aşağıdaki metni okuyun.';
   static const hukukBaslik = 'YASAL UYARI — Yanlış beyanın cezai sorumluluğu vardır';
@@ -122,13 +182,19 @@ class M {
   static const hukukKutu = 'Okudum, kabul ediyorum.';
   static const sonDugme = 'Onayla ve gönder';
   static const formDevam = 'Devam';
+  static String formUst(int n) => 'Adım $n / 5';
 
   // 6. Tam Sayfa
   static const tamUst = 'Türkiye geneli';
   static const tamBaslik = 'Tam Sayfa';
   static const tamOrnek = 'ÖRNEK';
   // v0.1 eki (METIN-SOZLUGU §16): ücretli ilan ilk sürümde kapalı (URUN-TASLAGI §28)
-  static const tamYakinda = 'Tam sayfa vefat ilanları yakında';
+  static const tamBolum = 'Yayımlanan vefat ilanları';
+  static const sehitTamDugme = 'Şehidimiz için ilan hazırlayın';
+  static const tamIlanUst = 'Tam sayfa ilan';
+  static const tamHaritaCami = 'Cami · haritada aç';
+  static const tamHaritaMezarlik = 'Mezarlık · haritada aç';
+  static String tamHaritaBildirim(String yer) => '$yer · haritada açılır';
   static const fiyatAciklama = 'Gazetedeki vefat ilanının uygulamadaki karşılığı.';
   static const tamDugme = 'Vefat ilanı hazırlayın';
   static const formTamUst = 'Tam sayfa';
@@ -145,10 +211,18 @@ class M {
   static const adim5TamTutar = 'Ödenecek: 200 ₺';
   static const adim5TamDugme = 'Ödemeye geç';
   static const adim5TamNot = 'İlanınız ödeme ve kontrolden sonra yayımlanır.';
-  static const odemeBaslik = 'Ödeme — Mağaza içi satın alma';
-  static const odemeUrun = 'Tam sayfa cenaze ilanı — Kimin Cenazesi · tek seferlik satın alma';
-  // Yer tutucu: mağaza içi satın alma bağlanana dek (süzgeç: pazar dili yok)
-  static const odemeHazirlaniyor = 'Ödeme adımı hazırlanıyor. Bilgileriniz bu aşamada gönderilmez.';
+  static const odemeUst = 'Ödeme';
+  static const odemeAlt = 'Mağaza içi satın alma';
+  static const odemeUrunAd = 'Tam sayfa cenaze ilanı';
+  static const odemeUrunAlt = 'Kimin Cenazesi · tek seferlik satın alma';
+  static const odemeTutarEt = 'Tutar';
+  static const odemeTutar = '200,00 ₺';
+  static const odemeHesapEt = 'Hesap';
+  static const odemeHesap = '••••@••••';
+  static const odemeYayinEt = 'Yayın';
+  static const odemeYayin = 'Kontrolden sonra';
+  static const odemeNot = 'Gerçek uygulamada bu ekranı App Store / Google Play açar; ödeme bilgisi uygulamaya gelmez.';
+  static const odemeDugme = 'Ödemeyi onayla';
   static const odemeGeri = 'Forma dönün';
 
   // 7. Sayfam
@@ -219,7 +293,7 @@ class M {
   static const oneriTamamDugme = 'Tamam';
   static const hakkindaBaslik = 'Kimin Cenazesi';
   static const hakkindaMetin =
-      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.1';
+      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.2';
   static const gizlilikBaslik = 'Gizlilik';
   static const gizlilikMetin =
       'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.';

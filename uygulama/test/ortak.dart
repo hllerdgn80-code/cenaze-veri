@@ -55,9 +55,9 @@ http.Client sahteAg(String bugun) => MockClient((req) async {
       return http.Response('yok', 404);
     });
 
-Future<AppDurum> testDurumu({Map<String, Object> onceki = const {}}) async {
+Future<AppDurum> testDurumu({Map<String, Object> onceki = const {}, http.Client? istemci}) async {
   SharedPreferences.setMockInitialValues(onceki);
   final depo = await Depo.ac();
-  final veri = VeriServisi(istemci: sahteAg(bugunTr()), depo: depo);
+  final veri = VeriServisi(istemci: istemci ?? sahteAg(bugunTr()), depo: depo);
   return AppDurum(depo: depo, veri: veri, gomulu: testGomulu());
 }

@@ -293,7 +293,11 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   if (h.isEmpty && genelBugun.isEmpty) {
     if (gun == bugun) {
       // Kaynak var, bugün ilan yok: önce ilin diğer ilçeleri (§21/2), sonra son 7 gün kendiliğinden açılır
-      h = <Widget>[BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true)];
+      h = <Widget>[
+        BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true),
+        // 14.10.2026 sahibi: "bugün ilan yok" kartının hemen altında paylaşma bağlantısı
+        AileDavet(il: v.il, ilce: ilce),
+      ];
       if (ilce != null && !ilcesiz) h.addAll(digerIlceler(bugun));
       for (int n = 1; n < 7; n++) {
         final g = gunEkle(bugun, -n);
@@ -322,6 +326,28 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
     }
   }
   return h;
+}
+
+/// "Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz" + "Cenaze bilgilerini paylaş" (AileFormu'nu açar)
+class AileDavet extends StatelessWidget {
+  final String il;
+  final String? ilce;
+  const AileDavet({super.key, required this.il, this.ilce});
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Padding(
+      padding: const EdgeInsets.only(bottom: R.s5),
+      child: Column(children: [
+        Text(M.aileDavetMetin, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+        const SizedBox(height: R.s3),
+        IkincilDugme(M.aileDavetDugme,
+            onTap: () => Navigator.of(context, rootNavigator: true)
+                .push(MaterialPageRoute(builder: (_) => AileFormu(il: il, ilce: ilce)))),
+      ]),
+    );
+  }
 }
 
 /// 7 eşit hücre: Bugün → 6 gün önce; seçili altın dolgu; ilan olan günde nokta

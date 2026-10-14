@@ -24,6 +24,7 @@ class Ilan {
   final String? toren;
   final bool bebek;
   final bool aile; // yakını paylaştı
+  final bool dogrulandi; // aile ilanında e-Devlet belge kodu verildi
 
   const Ilan({
     required this.id,
@@ -46,6 +47,7 @@ class Ilan {
     this.toren,
     this.bebek = false,
     this.aile = false,
+    this.dogrulandi = false,
   });
 
   static String? _s(dynamic v) {
@@ -101,6 +103,7 @@ class Ilan {
       toren: _s(j['toren']),
       bebek: j['bebek'] == true,
       aile: j['aile'] == true || j['kaynak_turu'] == 'aile',
+      dogrulandi: j['dogrulandi'] == true,
     );
   }
 
@@ -125,6 +128,7 @@ class Ilan {
         'toren': toren,
         'bebek': bebek,
         'aile': aile,
+        'dogrulandi': dogrulandi,
       };
 
   /// TEK KAYNAK: tarih şeridi gruplaması VE kart üst etiketi bu günü kullanır

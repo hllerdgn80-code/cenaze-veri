@@ -13,6 +13,9 @@ import 'yardimci.dart';
 /// Veri kök adresi. Veri Cloudflare'e taşınınca YALNIZ bu satır değişir.
 const String veriKok = 'https://hllerdgn80-code.github.io/cenaze-veri/veri';
 
+/// Aile ilanı Worker adresi (sözleşme: deploy/AILE-ILAN-SOZLESME.md). Site sahibi gerçek adresi yazar.
+const String aileKok = 'https://kimincenazesi-aile.tr-kopru.workers.dev';
+
 enum VeriDurumu { tamam, onbellek, baglantiYok, hata }
 
 class IlSonucu {

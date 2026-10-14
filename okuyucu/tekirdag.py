@@ -73,8 +73,47 @@ def muratli(ctx):
     return sonuc
 
 
+BB = "https://www.tekirdag.bel.tr/merhumlar"
+BB_ATLA = {"suleymanpasa", "muratli"}      # bu iki ilçe kendi sayfalarından zaten okunuyor (çift kayıt olmasın)
+
+
+def buyuksehir(ctx):
+    """Tekirdağ BB 'Vefat Edenler - Güncel liste' (14.10.2026 keşfi): il geneli, girişsiz/CAPTCHA'sız, yalnız güncel gün(ler).
+    Sütunlar: ad, 'İLÇE / İL' (merkezde boş), vakit + tarih (defin), cami + mezarlık. Önceki günler kendi dosyalarımızdan tamamlanır."""
+    sayfa = oi.al(BB)
+    govde = sayfa.split('id="merhum-body"', 1)
+    if len(govde) < 2:
+        raise RuntimeError("liste gövdesi bulunamadı (sayfa düzeni değişmiş olabilir)")
+    sonuc = []
+    for tr in re.findall(r"<tr>([\s\S]*?)</tr>", govde[1]):
+        ad = re.search(r'class="name">([^<]+)<', tr)
+        yer = re.search(r'class="location">\s*([^<]*?)\s*<', tr)
+        vakit = re.search(r'class="badge vakit">([^<]+)<', tr)
+        gun = re.search(r'class="date">([^<]+)<', tr)
+        cami = re.search(r'class="place">([^<]*)<', tr)
+        mez = re.search(r'class="grave">([^<]*)<', tr)
+        if not (ad and gun):
+            continue
+        ad = oi.ad_duzelt(oi.metin(ad.group(1)))
+        gun = oi.tarih(gun.group(1))
+        ilce = oi.metin(yer.group(1)).split("/")[0].strip() if yer else ""
+        ilce = ortak.tr_title(ilce) if ilce else None
+        if not ad or not gun or ortak.katla(ilce or "") in BB_ATLA:
+            continue
+        v = ortak.tr_title(oi.metin(vakit.group(1))) if vakit else None
+        k = oi.kayit(IL, ilce, "tekirdag-bb", ad, gun, "Tekirdağ Büyükşehir Belediyesi", BB, ctx["alindi"],
+                     ek_id=ortak.katla(ad) + gun + ortak.katla(ilce or ""), vefat_tarihi=None,
+                     defin_yeri=oi.metin(mez.group(1)) if mez and mez.group(1).strip() else None, defin_zamani=gun,
+                     namaz_tarihi=gun, namaz_yeri_vakti=((oi.buyuk_ise_title(oi.metin(cami.group(1)), yer=True) + (" - " + v if v else "")) if cami and cami.group(1).strip() else v),
+                     liste_tarihi=gun, ham={})
+        if not ilce:
+            k["ilce_belirsiz"] = True
+        sonuc.append(k)
+    return sonuc
+
+
 def main():
-    oi.il_calistir(IL, "tekirdag", [("Süleymanpaşa", suleymanpasa), ("Muratlı", muratli)])
+    oi.il_calistir(IL, "tekirdag", [("Süleymanpaşa", suleymanpasa), ("Muratlı", muratli), ("Büyükşehir", buyuksehir)])
 
 
 if __name__ == "__main__":

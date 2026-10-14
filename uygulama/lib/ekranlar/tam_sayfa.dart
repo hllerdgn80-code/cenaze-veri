@@ -1,8 +1,9 @@
-// Tam Sayfa (gazetedeki vefat ilanının karşılığı). v0.1: ücretli ilan KAPALI (URUN-TASLAGI §28) —
-// sekme görünür; sakin "yakında" metni + iki ÖRNEK ilan (kişiler kurgusaldır). Ödeme yok.
+// Tam Sayfa (gazetedeki vefat ilanının karşılığı) — prototip e-tam / p-ilan ekranı: "Vefat ilanı hazırlayın" (fiyat kartı → form → ödeme),
+// "Şehidimiz için ilan hazırlayın" (şehit formu), "Yayımlanan vefat ilanları" altında ÖRNEK önizlemeler; dokununca tam ilan + harita bağlantıları.
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../bilesenler/ikonlar.dart';
 import '../bilesenler/menu.dart';
 import 'aile_formu.dart';
 import '../bilesenler/ortak.dart';
@@ -12,7 +13,7 @@ import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
 
 class _Ornek {
-  final String tur, ar, ok, meal, sure, sifat, ad, il, ilce, cenaze, kapanis, not;
+  final String tur, ar, ok, meal, sure, sifat, ad, il, ilce, cenaze, kapanis, not, cami, mez;
   final String? unvan, soy, imza;
   final int vefatGun;
   final List<List<String>> aile;
@@ -29,6 +30,8 @@ class _Ornek {
     required this.cenaze,
     required this.kapanis,
     required this.not,
+    required this.cami,
+    required this.mez,
     required this.vefatGun,
     required this.aile,
     this.unvan,
@@ -61,6 +64,8 @@ List<_Ornek> _ornekler(String bugun) {
         ['Torunları', 'Ruhsar, Tanyeli, Aksun'],
       ],
       not: 'Taziyeler Selâmiye’deki aile evinde kabul edilir.',
+      cami: 'Sükûn Tepesi Camii',
+      mez: 'Huzurbahçe Mezarlığı',
     ),
     _Ornek(
       tur: 'ACI KAYBIMIZ',
@@ -86,6 +91,8 @@ List<_Ornek> _ornekler(String bugun) {
       ],
       imza: 'KURGULUOĞLU AİLESİ',
       not: 'Çelenk yerine bir eğitim vakfına bağış yapılması rica olunur.',
+      cami: 'Nurlu Kubbe Camii',
+      mez: 'Servili Yamaç Mezarlığı',
     ),
   ];
 }
@@ -95,7 +102,6 @@ class TamSayfaEkrani extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final r = context.renk;
     final d = Kapsam.of(context);
     final bugun = bugunTr();
     return Column(children: [
@@ -113,22 +119,13 @@ class TamSayfaEkrani extends StatelessWidget {
                 onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
                       builder: (_) => AileFormu(il: d.il ?? '', ilce: d.ilce, tam: true),
                     ))),
-            const SizedBox(height: R.s4),
-            Container(
-              padding: const EdgeInsets.all(R.s5),
-              decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
-              child: Column(children: [
-                const Daire('kemer', boyut: 56),
-                const SizedBox(height: R.s4),
-                Text(M.tamYakinda,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
-                const SizedBox(height: R.s2),
-                Text(M.fiyatAciklama, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
-              ]),
-            ),
-            const Bolum(M.tamOrnek),
-            for (final o in _ornekler(bugun)) _GazeteIlani(o: o, bugun: bugun),
+            const SizedBox(height: R.s3),
+            IkincilDugme(M.sehitTamDugme,
+                onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
+                      builder: (_) => AileFormu(il: d.il ?? '', ilce: d.ilce, sehit: true),
+                    ))),
+            const Bolum(M.tamBolum),
+            for (final o in _ornekler(bugun)) _Onizleme(o: o, bugun: bugun),
           ],
         ),
       ),
@@ -200,6 +197,113 @@ class _GazeteIlani extends StatelessWidget {
           ]),
         ),
       ]),
+    );
+  }
+}
+
+/// Prototipteki "onizleme": kurdele, ÖRNEK, tür, ad, ilçe · il, vefat tarihi; dokununca tam ilan açılır
+class _Onizleme extends StatelessWidget {
+  final _Ornek o;
+  final String bugun;
+  const _Onizleme({required this.o, required this.bugun});
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Container(
+      margin: const EdgeInsets.only(bottom: R.s3),
+      decoration: BoxDecoration(
+        color: r.yuzey,
+        borderRadius: BorderRadius.circular(R.kart),
+        boxShadow: const [BoxShadow(color: Color(0x14000000), blurRadius: 12, offset: Offset(0, 2))],
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        key: ValueKey('tam_${o.ad}'),
+        onTap: () => Navigator.of(context, rootNavigator: true)
+            .push(MaterialPageRoute(builder: (_) => _TamIlanSayfasi(o: o, bugun: bugun))),
+        child: Stack(children: [
+          Positioned(left: 0, top: 0, child: SvgPicture.string(_kurdele, width: 56, height: 56)),
+          Positioned(right: R.s4, top: R.s4, child: Hap(M.tamOrnek, zemin: r.vurguZemin, renk: r.vurguMetin)),
+          Padding(
+            padding: const EdgeInsets.all(R.s5),
+            child: SizedBox(
+              width: double.infinity,
+              child: Column(children: [
+                Text(o.tur,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontFamily: 'serif', fontSize: 13, letterSpacing: 3.9, color: r.metin3)),
+                const SizedBox(height: 8),
+                Text(trBuyuk(o.ad),
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        fontFamily: 'serif', fontSize: 20, fontWeight: FontWeight.w600, letterSpacing: 0.4, color: r.metin)),
+                Text('${o.ilce} · ${o.il}', textAlign: TextAlign.center, style: Y.kucuk(r)),
+                Text('Vefat ${tarih(gunEkle(bugun, o.vefatGun))}', textAlign: TextAlign.center, style: Y.soluk(r)),
+              ]),
+            ),
+          ),
+        ]),
+      ),
+    );
+  }
+}
+
+/// Prototipteki p-ilan: tam gazete ilanı + "Cami · haritada aç" / "Mezarlık · haritada aç"
+class _TamIlanSayfasi extends StatelessWidget {
+  final _Ornek o;
+  final String bugun;
+  const _TamIlanSayfasi({required this.o, required this.bugun});
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    Widget harita(String etiket, String yer) => Expanded(
+          child: Material(
+            color: r.yuzey,
+            borderRadius: BorderRadius.circular(R.dugme),
+            child: InkWell(
+              borderRadius: BorderRadius.circular(R.dugme),
+              onTap: () => bildir(context, M.tamHaritaBildirim(yer)),
+              child: SizedBox(
+                height: 48,
+                child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                  Ikon('konum', boyut: 18, renk: r.vurguMetin),
+                  const SizedBox(width: 6),
+                  Flexible(
+                    child: Text(etiket,
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, color: r.metin)),
+                  ),
+                ]),
+              ),
+            ),
+          ),
+        );
+    return Scaffold(
+      body: SafeArea(
+        child: Column(children: [
+          BaslikCubugu(
+            sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
+            sag: const SizedBox(width: 40, height: 40),
+            ust: M.tamIlanUst,
+            baslik: BuyukBaslik(o.tur == 'VEFAT' ? 'Vefat' : 'Acı Kaybımız'),
+          ),
+          Expanded(
+            child: ListView(
+              padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
+              children: [
+                _GazeteIlani(o: o, bugun: bugun),
+                Row(children: [
+                  harita(M.tamHaritaCami, o.cami),
+                  const SizedBox(width: R.s3),
+                  harita(M.tamHaritaMezarlik, o.mez),
+                ]),
+              ],
+            ),
+          ),
+        ]),
+      ),
     );
   }
 }

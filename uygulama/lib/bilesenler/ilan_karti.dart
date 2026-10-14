@@ -5,6 +5,7 @@ import 'dart:ui' show FontFeature;
 
 import 'package:flutter/material.dart';
 
+import '../cekirdek/aile.dart';
 import '../cekirdek/cinsiyet.dart';
 import '../cekirdek/durum.dart';
 import '../cekirdek/ilan.dart';
@@ -37,7 +38,10 @@ class IlanKarti extends StatelessWidget {
         const SizedBox(height: R.s3),
       ],
       if (ilan.aile) ...[
-        Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
+        Wrap(alignment: WrapAlignment.center, spacing: R.s2, runSpacing: R.s2, children: [
+          Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
+          if (ilan.dogrulandi) Hap(M.kartDogrulandi, zemin: r.vurgu, renk: r.vurguUst),
+        ]),
         const SizedBox(height: R.s3),
       ],
       Text(trBuyuk(ilan.etiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
@@ -100,6 +104,10 @@ class IlanKarti extends StatelessWidget {
                 await d.sayfamaEkle(ilan);
                 if (context.mounted) bildir(context, M.bildirimKaydedildi);
               }),
+        if (ilan.aile) ...[
+          const SizedBox(height: R.s3),
+          _BildirSatiri(ilan: ilan),
+        ],
       ],
     ];
 
@@ -129,6 +137,71 @@ class IlanKarti extends StatelessWidget {
     );
     return kart;
   }
+}
+
+/// Kartın alt satırında küçük "Bu ilanda bir yanlışlık mı var?" bağlantısı (METIN-SOZLUGU §11)
+class _BildirSatiri extends StatelessWidget {
+  final Ilan ilan;
+  const _BildirSatiri({required this.ilan});
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Center(
+      child: InkWell(
+        key: ValueKey('bildir_${ilan.id}'),
+        borderRadius: BorderRadius.circular(R.cip),
+        onTap: () => bildirAc(context, ilan),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: R.s3, vertical: R.s2),
+          child: Text(M.bildirDugme,
+              textAlign: TextAlign.center, style: Y.soluk(r).copyWith(decoration: TextDecoration.underline)),
+        ),
+      ),
+    );
+  }
+}
+
+/// Neden seçtirir, POST /aile/bildir gönderir. Başarıda "Bildiriminiz alındı. Teşekkür ederiz."
+Future<void> bildirAc(BuildContext context, Ilan ilan, {AileServisi? servis}) async {
+  final d = Kapsam.oku(context);
+  String? secili;
+  final neden = await showDialog<String>(
+    context: context,
+    builder: (c) => StatefulBuilder(builder: (c, setS) {
+      final r = c.renk;
+      return Dialog(
+        backgroundColor: r.yuzey,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(R.kart)),
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(R.s5),
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            Text(M.bildirDugme,
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
+            const SizedBox(height: R.s4),
+            for (final o in M.bildirSecenekler)
+              Padding(
+                padding: const EdgeInsets.only(bottom: R.s2),
+                child: IkincilDugme(o[0], secili: secili == o[0], onTap: () => setS(() => secili = o[0])),
+              ),
+            const SizedBox(height: R.s3),
+            IkiliSatir(
+              sol: IkincilDugme(M.kaldirVazgec, onTap: () => Navigator.of(c).pop()),
+              sag: AnaDugme(M.bildirGonder,
+                  yukseklik: 48,
+                  onTap: secili == null
+                      ? null
+                      : () => Navigator.of(c).pop(M.bildirSecenekler.firstWhere((x) => x[0] == secili)[1])),
+            ),
+          ]),
+        ),
+      );
+    }),
+  );
+  if (neden == null || !context.mounted) return;
+  final y = await (servis ?? AileServisi(istemci: d.veri.istemci)).bildir(ilan.id, neden);
+  if (!context.mounted) return;
+  bildir(context, y.tamam ? M.bildirTamam : M.aileAgHata);
 }
 
 class _Ayrac extends StatelessWidget {

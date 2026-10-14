@@ -318,7 +318,10 @@ def denetle(k, bugun, alan_adi_cogunluk):
         nedenler.append("K7 kaynak_url geçersiz")
     else:
         beklenen = YEREL_BASIN.get(k.get("kaynak_ad")) if basin else alan_adi_cogunluk.get(k.get("kaynak_ad"))
-        if basin and not beklenen:
+        if k.get("kaynak_ad") == "aile":       # 14.10.2026 aile ilanı hattı: Worker adresi (workers.dev ya da kimincenazesi.com); yalnız https şart
+            if u.scheme != "https":
+                nedenler.append("K7 aile kaynağı https değil")
+        elif basin and not beklenen:
             nedenler.append("K7 yerel basın kaynağı kayıtlı değil")
         elif beklenen and (_www(u.netloc) != _www(beklenen) if basin else u.netloc.lower() != beklenen.lower()):
             nedenler.append("K7 alan adı farklı")

@@ -7,6 +7,7 @@ const Map<String, String> _yollar = {
   'gunes': '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
   'ok': '<path d="M9 6l6 6-6 6"/>',
   'geri': '<path d="M15 5l-7 7 7 7"/>',
+  'kapat': '<path d="M6 6l12 12M18 6L6 18"/>',
   'asagi': '<path d="M7 10l5 5 5-5"/>',
   'ara': '<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>',
   'isaret': '<path d="M7 3h10v18l-5-4-5 4z"/>',

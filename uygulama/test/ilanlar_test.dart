@@ -91,29 +91,58 @@ void main() {
     expect(find.text('Cenaze ilanı paylaş'), findsOneWidget);
   });
 
-  testWidgets('Tam Sayfa: "Vefat ilanı hazırlayın" formu açar; ücret/ödeme yok; onay kutusuna kadar düğme pasif', (tester) async {
+  testWidgets('Bugün ilan yoksa "ilan yok" kartının hemen altında paylaşma bağlantısı; dokununca form açılır', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final v = veriYap(bugun, ilceler: {'Marmaris': []});
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Marmaris', bugun, bugun))));
+    await tester.pumpAndSettle();
+    final bosY = tester.getTopLeft(find.text('Bugün Marmaris’te cenaze ilanı bulunmuyor')).dy;
+    final davetY = tester.getTopLeft(find.text('Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz')).dy;
+    expect(davetY > bosY, isTrue);
+    await tester.tap(find.text('Cenaze bilgilerini paylaş'));
+    await tester.pumpAndSettle();
+    expect(find.text('Cenaze ilanı paylaşın'), findsOneWidget); // form giriş kartıyla açılır
+    expect(find.text(trBuyuk(M.aileUstGiris)), findsOneWidget);
+  });
+
+  testWidgets('Tam Sayfa: iki giriş, "Yayımlanan vefat ilanları" önizlemeleri, fiyat kartıyla açılan form, şehit formu', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Ordu', 'ilce': 'Ünye'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('sekme_1')));
     await tester.pumpAndSettle();
+    expect(odemeAcik, isTrue);
+    expect(find.text('Vefat ilanı hazırlayın'), findsOneWidget);
+    expect(find.text('Şehidimiz için ilan hazırlayın'), findsOneWidget);
+    expect(find.text(trBuyuk('Yayımlanan vefat ilanları')), findsOneWidget);
+    expect(find.text('NURCİHAN ÖRNEKSOY'), findsOneWidget); // önizleme kartı
+
+    // Önizlemeye dokununca tam ilan + harita bağlantıları
+    await tester.tap(find.byKey(const ValueKey('tam_Nurcihan Örneksoy')));
+    await tester.pumpAndSettle();
+    expect(find.text('Cami · haritada aç'), findsOneWidget);
+    expect(find.text('Mezarlık · haritada aç'), findsOneWidget);
+    await tester.tap(find.byType(YuvarlakDugme).first);
+    await tester.pumpAndSettle();
+
+    // "Vefat ilanı hazırlayın" → fiyat kartı (200 ₺)
     await tester.tap(find.text('Vefat ilanı hazırlayın'));
     await tester.pumpAndSettle();
-    expect(odemeAcik, isFalse);
     expect(find.text('Vefat İlanı'), findsOneWidget);
+    expect(find.text('200 ₺'), findsOneWidget);
+    expect(find.text(M.fiyatMadde4), findsOneWidget);
+    await tester.tap(find.byType(YuvarlakDugme).first);
+    await tester.pumpAndSettle();
+
+    // "Şehidimiz için ilan hazırlayın" → 1. adım, ücret yok
+    await tester.tap(find.text('Şehidimiz için ilan hazırlayın'));
+    await tester.pumpAndSettle();
+    expect(find.text('Şehit İlanı'), findsOneWidget);
+    expect(find.text(trBuyuk('Adım 1 / 5')), findsOneWidget);
     expect(find.textContaining('₺'), findsNothing);
-    // Form ListView'inin kendi kaydırıcısı (TextField içindeki Scrollable'lar değil)
-    final kaydirici = find.descendant(of: find.byType(ListView).last, matching: find.byType(Scrollable)).first;
-    await tester.scrollUntilVisible(find.textContaining('5237 sayılı Türk Ceza Kanunu'), 300, scrollable: kaydirici);
-    await tester.pumpAndSettle();
-    expect(find.textContaining('5237 sayılı Türk Ceza Kanunu'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Onayla ve gönder'), 300, scrollable: kaydirici);
-    await tester.pumpAndSettle();
-    expect(find.text('Onayla ve gönder'), findsOneWidget);
-    expect(find.text('Ödemeye geç'), findsNothing);
-    // Zorunlu alanlar ve onay kutusu boşken son düğme pasif
-    final dugme = tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Onayla ve gönder'));
-    expect(dugme.onTap, isNull);
+    final devam = tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Devam'));
+    expect(devam.onTap, isNull);
   });
 }
