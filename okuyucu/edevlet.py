@@ -19,6 +19,9 @@ DIZIN = os.path.dirname(os.path.abspath(__file__))
 VERI = os.environ.get("EDEVLET_VERI") or os.path.join(DIZIN, "..", "veri")   # EDEVLET_VERI: deneme çıktısı için ayrı klasör
 TABAN = "https://www.turkiye.gov.tr/"
 BEKLE = 3.5
+HIZMET_ARASI_SN = int(os.environ.get("EDEVLET_HIZMET_ARASI_SN", "600"))   # 14.10.2026 sahibi "nazik kullanim": hizmetler arasi 10 dk (--kuru/--hizmet: 0)
+ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "60"))             # kosu basina toplam istek tavani
+KOSU_SAATLERI = os.environ.get("EDEVLET_KOSU_SAATLERI", "")                  # "06,18": yalniz bu TR saatlerinde kosar (bos: her zaman)
 CAPTCHA_BEKLEME_SA = 6               # hizmet CAPTCHA gösterdiyse (14.10: art arda sorguda uyarlamalı CAPTCHA çıkıyor) 6 saat hiç istek atma
 GUN_SAYISI = 3                       # bugün + dün + evvelsi (site bu kadarını tutuyor)
 ILCELER = json.load(open(os.path.join(DIZIN, "..", "uygulama", "assets", "veri", "ilceler.json"), encoding="utf-8"))
@@ -250,6 +253,13 @@ def main():
     # ilçe hizmetleri önce, il geneli sonra
     sira = sorted(HIZMETLER.items(), key=lambda kv: (kv[1][1] is None, kv[0]))
     toplam = {}
+    if KOSU_SAATLERI and not secili and not kuru:
+        saat = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%H")
+        if saat not in [x.strip() for x in KOSU_SAATLERI.split(",")]:
+            print(f"e-Devlet: kosu saati degil (TR {saat}; izinli {KOSU_SAATLERI}), istek yok", file=sys.stderr)
+            return
+    ara = 0 if (kuru or secili) else HIZMET_ARASI_SN
+    toplam_istek = 0
     gorulen_kisi = set()                                               # (il, ad_norm, tarih): ilçeli kayıt varken il geneli kopyasını ekleme
     yeni = {}
     for slug, (il, ilce) in sira:
@@ -259,7 +269,13 @@ def main():
         if o.get("durum") == "captcha" and o.get("zaman") and (datetime.now(timezone.utc) - datetime.fromisoformat(o["zaman"])).total_seconds() < CAPTCHA_BEKLEME_SA * 3600:
             print(f"  {slug}: captcha beklemesi ({CAPTCHA_BEKLEME_SA} sa), istek yok", file=sys.stderr)
             continue
+        if toplam_istek >= ISTEK_TAVANI:
+            print(f"  {slug}: kosu istek tavani ({ISTEK_TAVANI}) doldu, sonraki kosuya", file=sys.stderr)
+            continue
+        if ara and toplam_istek:
+            time.sleep(ara)                                                # nazik kullanim: hizmetler arasi bekleme
         sonuc, sayilar = hizmet_oku(slug, il, ilce, gunler, alindi, {})
+        toplam_istek += 4
         if isinstance(sayilar, str):
             durum[slug] = {"durum": sayilar, "zaman": alindi}
             print(f"  {slug}: {sayilar}", file=sys.stderr)

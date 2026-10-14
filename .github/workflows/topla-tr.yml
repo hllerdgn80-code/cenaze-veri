@@ -22,7 +22,7 @@ env:
 jobs:
   oku-tr:
     runs-on: self-hosted
-    timeout-minutes: 25
+    timeout-minutes: 200   # 14.10.2026: e-Devlet nazik kullanim (hizmetler arasi 10 dk) kosuyu uzatir
     steps:
       - uses: actions/checkout@v4
       - name: Onceki veriyi geri yukle (biriktirme icin; depodaki son veri-tr/ — veri.tar.gz 08.10.2026'dan beri yayinlanmaz)
@@ -34,7 +34,11 @@ jobs:
           done
       - name: Illeri oku (Turkiye'den)
         run: python3 okuyucu/hepsi.py $TR_ILLER
-      - name: e-Devlet vefat sorgulama (yalniz TR IP; CAPTCHA gorunce hizmeti birakir, 6 saat bekler; gunde en cok 2 kosu)
+      - name: e-Devlet vefat sorgulama (yalniz TR IP; NAZIK KULLANIM: 06 ve 18 kosularinda, hizmetler arasi 10 dk, kosu basina <=60 istek; CAPTCHA gorunce 6 sa bekler)
+        env:
+          EDEVLET_KOSU_SAATLERI: "06,18"
+          EDEVLET_HIZMET_ARASI_SN: "600"
+          EDEVLET_ISTEK_TAVANI: "60"
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
       - name: veri-tr/ klasorunu hazirla
         run: |
