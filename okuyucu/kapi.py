@@ -42,6 +42,7 @@ YEREL_BASIN = {
     "ulusal liste": "www.vefatilanlari.com.tr",   # 14.10.2026: ulusal akis (vefatilan.py); alan adi kaydi
     "Son Dakika Yerel": "www.sondakika.com",   # 14.10.2026: sondakika.py (RSS yerel akisi)
     "Malatya Haber": "www.malatyahaber.com",   # 14.10.2026: malatyahaber.py (vefat-edenler listesi)
+    "cenazeilanlari.com.tr": "cenazeilanlari.com.tr",   # 14.10.2026: cenazeilanlari.py (ulusal toplayici; Trabzon/Gumushane/Rize/Samsun/Bayburt)
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",

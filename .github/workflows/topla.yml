@@ -123,6 +123,7 @@ jobs:
           python3 okuyucu/sondakika.py || echo "::warning::sondakika yerel akisi okunamadi"
           python3 okuyucu/malatyahaber.py || echo "::warning::malatya haber listesi okunamadi"
           python3 okuyucu/sehit_ulusal.py || echo "::warning::sehit duyurulari okunamadi"
+          python3 okuyucu/cenazeilanlari.py || echo "::warning::cenazeilanlari akisi okunamadi"
           # aile ilanlari (Worker). AILE_WORKER_URL repo degiskeni/secret olarak tanimlaninca calisir; Resend + GELISTIRME=0 olmadan TANIMLANMAZ (sahte ilan riski)
           python3 okuyucu/aile_al.py || echo "::warning::aile ilanlari okunamadi"
           python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
