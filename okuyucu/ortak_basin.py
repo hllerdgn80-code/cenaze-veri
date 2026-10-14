@@ -478,6 +478,10 @@ def serbest_kayitlar(ctx, il, slug, kaynak_ad, url, sayfa_gunu, metin_, varsayil
         if dis:
             k["il_disi_defin"] = {"il": dis, "ilce": None}
             k["ilce_belirsiz"] = False
+        if sehit_metni_mi("", on + " " + son[:300]):        # liste girişinde şehit ibaresi (§27): yalnız işaret + rütbe; ad başındaki rütbe ayrılır
+            rut, ad2 = ad_rutbe_ayir(k["ad_soyad"])
+            if ad2:
+                k["ad_soyad"], k["sehit"], k["rutbe"] = ad2, True, rut
         sonuc.append(k)
     return sonuc
 
@@ -511,7 +515,7 @@ def yayin_tarihi(sayfa):
 # Saklanan: yalniz kayit alanlari (ad, yas, ilce, mahalle, cami/vakit, defin yeri, tarihler); haber cumlesi/neden/yakin/telefon/adres YOK.
 BEKLEME_GUN = 3
 BEKLEYEN_DOSYA = "_haber_bekleyen.json"
-_DOLDUR = ("yas", "ilce", "mahalle", "namaz_yeri_vakti", "namaz_tarihi", "defin_yeri")
+_DOLDUR = ("yas", "ilce", "mahalle", "namaz_yeri_vakti", "namaz_tarihi", "defin_yeri", "sehit", "rutbe", "toren")   # sehit/rutbe/toren: URUN-TASLAGI §27 (14.10.2026)
 
 
 def gecmis_defin_tarihi(cumle, yayin_gunu):
@@ -614,3 +618,256 @@ def gunleri_birlestir(ctx, kayitlar):
     if n:
         print(f"  gün-1 + gün-2 birleştirme: {n} kayıt", file=sys.stderr)
     return cikti, n
+
+
+# ---------------------------------------------------------------- ŞEHİT İLANI (URUN-TASLAGI §27; site sahibi 08.10.2026, veri hattı 14.10.2026)
+# Kayda YALNIZ işaret + rütbe + tören yeri yazılır (sehit: true, rutbe, toren); ölüm nedeni/olay ayrıntısı ALINMAZ.
+# Belirsizse (sıfat/cadde-mahalle adı, tarihî anma, "şehit yakını", rolü belli olmayan kişi) işaret KONMAZ.
+_SH_GUVENLIK = (r"\b(?:asker\w*|mehmetçi\w*|\ber\b|erimiz\w*|uzman\w*|onbaşı\w*|çavuş\w*|astsubay\w*|subay\w*|teğmen\w*|yüzbaşı\w*|binbaşı\w*|"
+                r"yarbay\w*|albay\w*|general\w*|jandarma\w*|polis\w*|komiser\w*|korucu\w*|bekçi\w*|komando\w*|piyade\w*|pilot\w*)")
+_SH_SAGLIK = r"\b(?:itfaiye\w*|hemşire\w*|doktor\w*|sağlık\w*|\bebe\b|paramedik\w*)"
+_SH_YAKIN = (r"(?:babası|babaları|annesi|anneleri|anası|kardeşi|kardeşleri|oğlu|oğulları|kızı|kızları|eşi|eşleri|dedesi|ninesi|amcası|dayısı|"
+             r"ağabeyi|ablası|yeğeni|torunu|gelini|damadı|yakını|yakınları|ailesi|aileleri|ailemiz|ailelerine|ailesine|ailelerini|ailesini|ailelerinin|ailesinin)")
+_SH_NEG = re.compile(
+    r"şehit\w*\s+(?:ve\s+gazi\w*\s+)?" + _SH_YAKIN + r"\b"
+    r"|şehit\w*\s+(?:gazisi|gazi|gaziler|gazileri|çocuğu|çocukları|dul\w*|hakları|bayramı|haftası|anıtı|abidesi|anması|aylığı|yetimi|yetimleri|kimlik\w*|derneği)\b"
+    r"|şehit\w*\s+(?:ve\s+)?gazi\w*"
+    r"|\bşehit\w*\s+(?:[^\s.,;:!?]+\s+){0,3}?(?:cadde\w*|sokak|sokağ\w*|mahalle\w*|ilkokul\w*|ortaokul\w*|lise\w*|park\w*|meydan\w*|stad\w*|"
+    r"kütüphane\w*|bulvar\w*|köprü\w*|okul\w*|kampüs\w*|anaokul\w*|spor\s+salon\w*|çeşme\w*|kışla\w*|karakol\w*|lojman\w*|sınıf\w*|"
+    r"salon\w*|tesis\w*|anıt\w*|müze\w*|bursu|burs\w*)")
+# "<Şehit ... Ad>'ın babası/annesi/..." : cenazesi kaldırılan kişi şehidin YAKINI (şehit değil)
+_SH_YAKINI = re.compile(r"şehit[^.;!?]{0,90}?['’]\w{1,3}\s+" + _SH_YAKIN + r"\b|şehit\w*\s+(?:er|onbaşı|çavuş|astsubay|polis|jandarma)[^.;!?]{0,60}?['’]\w{1,3}\s+" + _SH_YAKIN + r"\b")
+_SH_TARIHSEL = re.compile(r"\b(?:19\d\d|20[01]\d)\b|15\s+temmuz|çanakkale|sarıkamış|kurtuluş\s+savaşı|kıbrıs\s+barış|kore\s+savaşı|"
+                          r"yıl\s+önce|yıllar\s+önce|yıl\s*dönümü|anıl\w*|\banma\b|anması")
+# olay = ölüm/cenaze: "tören" tek başına YETMEZ (açılış/anma/tanıtım törenleri); cenaze/uğurlama/defin sözcüğü ya da "şehit düştü/oldu"
+_SH_OLAY = re.compile(r"cenaze|naaş|toprağa|defn|uğurla|son\s+yolculu|son\s+veda|şehit\w*\s+(?:düş|ol)|şehadet\w*|memleketine\s+(?:uğurlan|götürül|getiril)|getirildi")
+_SH_ANMA = re.compile(r"anıldı|anıl\w*|\banma\b|anması|yıl\s*dönümü|rahmetle\s+an|dualarla\s+an|mezarı\s+başında|kabri\s+başında|ziyaret|açılış|"
+                      r"anısına|hatırasına|adını\s+taşı|adı\s+verilen|adının\s+verildiği|isim\s+verilen|tanıtım|sergi|konferans|panel|yarışma|turnuva|anma\s+programı")
+_SH_CENAZE = re.compile(r"cenaze|naaş|toprağa\s+veril|uğurlan|uğurladı|defnedil")
+
+
+_RUTBE_KISA = {"p": "Piyade", "uzm": "Uzman", "çvş": "Çavuş", "onb": "Onbaşı", "asb": "Astsubay", "kd": "Kıdemli", "bçvş": "Başçavuş", "başçvş": "Başçavuş",
+               "tğm": "Teğmen", "üstğm": "Üsteğmen", "yzb": "Yüzbaşı", "bnb": "Binbaşı", "j": "Jandarma", "top": "Topçu", "sözl": "Sözleşmeli", "er": "Er",
+               "kom": "Komando", "zrh": "Zırhlı", "ist": "İstihkam"}
+_KISA_TOKEN = re.compile(r"(?<![\w.])((?:[A-Za-zÇĞİÖŞÜçğıöşü]{1,6}\.){1,5})(?=\s|,|$)")
+
+
+def rutbe_ac(metin_):
+    """MSB biçimi kısaltmalar: 'P.Uzm.Çvş. Mustafa Aslan' -> 'Piyade Uzman Çavuş Mustafa Aslan'. Yalnız TÜM parçaları bilinen rütbe kısaltması olan ve
+    en az iki parçalı (ya da Uzm./Çvş./Onb./Asb./Tğm./Yzb./Bnb. tek başına) öbekler açılır; 'P. Yılmaz' gibi ad baş harfleri dokunulmaz."""
+    def ac(m):
+        parcalar = [x for x in m.group(1).split(".") if x]
+        low = [ortak.tr_lower(x) for x in parcalar]
+        if not all(x in _RUTBE_KISA for x in low):
+            return m.group(0)
+        if len(low) == 1 and low[0] not in ("uzm", "çvş", "onb", "asb", "tğm", "yzb", "bnb", "üstğm", "bçvş"):
+            return m.group(0)
+        return " ".join(_RUTBE_KISA[x] for x in low) + " "
+    return _KISA_TOKEN.sub(ac, metin_ or "")
+
+
+def _cumle_sehit_mi(c):
+    t = _SH_YAKINI.sub(" ", _SH_NEG.sub(" ", ortak.tr_lower(c or "")))
+    if not re.search(r"şehit|şehadet", t) or not _SH_OLAY.search(t):
+        return False
+    return not (_SH_ANMA.search(t) and not _SH_CENAZE.search(t))
+
+
+def sehit_metni_mi(baslik, govde):
+    """Bir CÜMLEDE 'şehit düştü / şehit oldu / şehadet / şehidimiz / şehit <rol>' ile cenaze/uğurlama/defin/naaş (ölüm olayı) birlikte geçiyorsa VE metinde
+    güvenlik görevlisi (ya da görev başında itfaiye/sağlık) varsa True. Cadde-mahalle-okul-sınıf adı, "şehit yakını/babası/ailesi/gazi", şehidin yakınının cenazesi,
+    açılış/anma/ziyaret, tarihî anma -> False (belirsizse işaret KONMAZ; sahte şehit ilanı en ağır itibar riskidir)."""
+    baslik, govde = rutbe_ac(baslik), rutbe_ac(govde)
+    tb = ortak.tr_lower(baslik or "")
+    if tb and _SH_TARIHSEL.search(tb):
+        return False
+    cumleler = re.split(r"(?<=[.!?])\s+|\n", (govde or "")[:2500])
+    if not any(_cumle_sehit_mi(c) for c in [baslik or ""] + cumleler):
+        # başlıkta şehit (temiz) + gövdede ölüm/cenaze olayı (ayrı cümlelerde) da kabul: "Şehit Uzman Çavuş X İçin Tören" + "... toprağa verildi"
+        bt = _SH_YAKINI.sub(" ", _SH_NEG.sub(" ", tb))
+        gt = _SH_YAKINI.sub(" ", _SH_NEG.sub(" ", ortak.tr_lower((govde or "")[:1800])))
+        if not (re.search(r"şehit|şehadet", bt) and _SH_OLAY.search(gt) and not (_SH_ANMA.search(bt + " " + gt) and not _SH_CENAZE.search(gt))):
+            return False
+    t = ortak.tr_lower((baslik or "") + ". " + (govde or "")[:1800])
+    if re.search(_SH_GUVENLIK, t):
+        return True
+    return bool(re.search(_SH_SAGLIK, t) and re.search(r"görev\w*", t))
+
+
+def sehit_baslik_adayi(baslik):
+    """Başlıkta (cadde/mahalle adı, 'şehit yakını/ailesi/gazi' ve tarihî anma ayıklandıktan sonra) şehit/şehadet sözcüğü kalıyor mu?
+    Aday için haber açılıp sehit_metni_mi ile (rol + olay) kesinleştirilir."""
+    tl = ortak.tr_lower(baslik or "")
+    return bool(re.search(r"şehit|şehadet", _SH_NEG.sub(" ", tl)) and not _SH_TARIHSEL.search(tl))
+
+
+def sehit_rol_baslik_mi(baslik):
+    """Başlıkta 'şehit' yok ama güvenlik görevlisi + uğurlandı/toprağa verildi: haber açılıp gövdeye bakılır (emekli/eski elenir)."""
+    tl = ortak.tr_lower(baslik or "")
+    if re.search(r"şehit|şehadet", tl) or re.search(r"emekli|\beski\b|müteveffa", tl):
+        return False
+    return bool(re.search(_SH_GUVENLIK, tl) and re.search(r"uğurland|toprağa\s+veril|defned|son\s+yolculu|son\s+veda|cenaze\s+töreni", tl))
+
+
+_RUTBE_SOZ = set("""jandarma piyade topçu komando zırhlı sözleşmeli kıdemli uzman çavuş onbaşı başçavuş astsubay subay teğmen üsteğmen yüzbaşı
+binbaşı yarbay albay tuğgeneral tümgeneral korgeneral orgeneral er polis polisi memuru memur komiser yardımcısı başkomiser bekçi bekçisi
+güvenlik korucusu korucu geçici köy itfaiye eri itfaiyeci hemşire doktor ebe sağlık personeli çalışanı pilot özel harekat asker""".split())
+_RUTBE_ATLA = {"şehit", "şehidimiz", "asker"}
+_ADA_DEGIL = _RUTBE_SOZ | _RUTBE_ATLA | {"ve", "ile", "için", "olarak", "son", "veda", "şehidimize", "şehitler", "uçak", "bakım", "kuvvetleri", "komutanlığı",
+                                         "müdürlüğü", "başkanlığı", "valiliği", "bölük", "tabur", "alay", "tugay", "tümen", "kolordu", "eğitim", "sınıfı", "sayın",
+                                         "vali", "valimiz", "kaymakam", "kaymakamı", "müdürü", "komutanı", "başkanı",
+                                         "bir", "kahraman", "silah", "arkadaşımız", "aziz", "kıymetli", "yiğit", "genç", "sevgili", "vatan", "millî", "milli",
+                                         "kahramanımız", "bölgesinde", "bölge", "operasyon", "harekât", "harekat"}
+_BIZIM = re.compile(r"[ıiuü]m[ıiuü]z$")                  # Arkadaşımız, şehidimiz, kahramanımız: ad değil
+_YER_EKI_KONUM = re.compile(r"^(?:n?[dt][ae]n?)$")      # 'da/de/ta/te/dan/den/nda/nde'
+_YER_EKI_YONELME = re.compile(r"^(?:y?[ae]|n[ae])$")
+
+
+def _tk(w):
+    return w.strip(".,;:!?\"“”()[]–-…")
+
+
+def _il_katla_kumesi():
+    return {ortak.katla(x) for x in ortak.ilce_verisi().get("_iller", [])}
+
+
+def _ad_oku(c, j):
+    """c[j:] belirteçlerinden 2-4 sözcüklük kişi adı. Kesmeli belirteç: yer eki (Ankara'da, Ankara'ya) ise durur; iyelik/hal eki (Veli'nin, Veli'ye)
+    ise kökü adın SON sözcüğü olarak alınır."""
+    adlar = []
+    iller = _il_katla_kumesi()
+    for w in c[j:j + 6]:
+        if not w:
+            break
+        if "'" in w:
+            kok, ek = w.split("'", 1)
+            if not _buyuk_basli(kok) or ortak.tr_lower(kok) in _ADA_DEGIL:
+                break
+            yer = ortak.katla(kok) in iller and (_YER_EKI_KONUM.match(ortak.tr_lower(ek)) or _YER_EKI_YONELME.match(ortak.tr_lower(ek)))
+            if yer or _YER_EKI_KONUM.match(ortak.tr_lower(ek)):
+                break
+            adlar.append(kok)
+            break
+        if not _buyuk_basli(w) or ortak.tr_lower(w) in _ADA_DEGIL or ortak.tr_lower(w).rstrip(".") in _YAKIN or ortak.tr_lower(w) in _DUR or _BIZIM.search(ortak.tr_lower(w)):
+            break
+        adlar.append(w)
+        if len(adlar) == 4:
+            sonraki = c[j + 4] if j + 4 < len(c) else ""
+            if sonraki and "'" not in sonraki and _buyuk_basli(sonraki) and ortak.tr_lower(sonraki) not in _ADA_DEGIL:
+                return None                          # 5+ büyük harfli sözcük: ad değil (tesis/etkinlik adı) -> belirsiz
+            break
+    return adlar if 2 <= len(adlar) <= 4 else None
+
+
+def _parca_ad_rutbe(seg):
+    c = [_tk(w) for w in seg.replace("’", "'").split()]
+    c = [w for w in c if w]
+    lw = [ortak.tr_lower(w.split("'")[0]) for w in c]
+    # 1) rütbe/görev öbeği + ad ("Jandarma Uzman Çavuş Ali Veli")
+    i = 0
+    while i < len(c):
+        if lw[i] in _RUTBE_SOZ or lw[i] in _RUTBE_ATLA:
+            j = i
+            while j < len(c) and j - i < 6 and (lw[j] in _RUTBE_SOZ or lw[j] in _RUTBE_ATLA):
+                j += 1
+            ad = _ad_oku(c, j)
+            rut = [w for w in c[i:j] if ortak.tr_lower(w) not in _RUTBE_ATLA]
+            if ad and rut:
+                return ad, " ".join(ortak.tr_title(w) for w in rut)
+            if ad and any(ortak.tr_lower(x) in ("şehit", "şehidimiz") for x in c[i:j]):
+                return ad, None
+            i = j
+        else:
+            i += 1
+    # 2) geriye doğru: "<Ad Soyad> şehit düştü" (rütbe öbeği adın hemen önündeyse yukarıdaki dal yakalar)
+    for k, w in enumerate(lw):
+        if w in ("şehit", "şehidimiz") or w.startswith("şehadet"):
+            ad = []
+            for x in reversed(c[:k]):
+                x2 = x.split("'")[0]
+                if "'" in x or not _buyuk_basli(x2) or ortak.tr_lower(x2) in _ADA_DEGIL or re.search(r"l[ıiuü]$", ortak.tr_lower(x2)) or _BIZIM.search(ortak.tr_lower(x2)):
+                    break
+                ad.append(x2)
+                if len(ad) == 4:
+                    break
+            ad.reverse()
+            if 2 <= len(ad) <= 4:
+                return ad, None
+    return None, None
+
+
+def sehit_ad_rutbe(baslik, govde):
+    """-> (ad|None, rutbe|None, yas|None). Önce başlık, sonra gövdedeki 'şehit' geçen cümleler."""
+    baslik, govde = rutbe_ac(baslik), rutbe_ac(govde)
+    adaylar = [baslik or ""]
+    for c in re.split(r"(?<=[.!?])\s+|\n", (govde or "")[:2500]):
+        if re.search(r"(?i)şehit|şehad|ŞEHİT", c) or re.search(_SH_GUVENLIK, ortak.tr_lower(c)):
+            adaylar.append(c)
+    for seg in adaylar:
+        ad, rut = _parca_ad_rutbe(seg)
+        if ad:
+            ad_s = oi.ad_duzelt(" ".join(ad))
+            yas = None
+            i = seg.find(ad[0])
+            m = re.search(r"\((\d{1,2})\)|(\d{1,2})\s+yaşında", seg[max(0, i - 5): i + len(ad_s) + 60]) if i >= 0 else None
+            if not m:
+                tum = (baslik or "") + " " + (govde or "")[:2500]
+                for mm in re.finditer(re.escape(ad[0]), tum):
+                    j = mm.start()
+                    m = re.search(r"\((\d{1,2})\)|(\d{1,2})\s+yaşında", tum[max(0, j - 5): j + len(ad_s) + 60])
+                    if m:
+                        break
+            if m:
+                y = int(m.group(1) or m.group(2))
+                yas = y if 17 <= y <= 70 else None
+            return ad_s, ((rut or None) if rut and len(rut) <= 40 else None), yas
+    return None, None, None
+
+
+def ad_rutbe_ayir(ad):
+    """'Şehit Uzman Çavuş Ali Veli' -> ('Uzman Çavuş', 'Ali Veli'); rütbe yoksa (None, ad)."""
+    s = (ad or "").split()
+    i = 0
+    while i < len(s) and (ortak.tr_lower(s[i]) in _RUTBE_SOZ or ortak.tr_lower(s[i]) in _RUTBE_ATLA):
+        i += 1
+    rut = [w for w in s[:i] if ortak.tr_lower(w) not in _RUTBE_ATLA]
+    kalan = s[i:]
+    if len(kalan) < 2:
+        return None, ad
+    return (" ".join(rut)[:40] or None), " ".join(kalan)
+
+
+_TOREN_BASLANGIC = {"tören", "töreni", "törenin", "törende", "cenaze", "cenazesi", "ardından", "daha", "önce", "sonra", "ve", "ile", "şehit", "şehidimiz", "şehidimizin",
+                    "naaş", "naaşı", "bugün", "yarın", "dün", "saat", "yapılan", "düzenlenen", "yapılacak", "düzenlenecek", "bu", "şehit"}
+_TOREN_ANAHTAR = re.compile(r"(?i)tören|uğurlan|veda|cenaze\s+namaz|karşılan|anma")
+_TOREN_YER = re.compile(
+    r"((?:[A-ZÇĞİÖŞÜ][A-Za-zÇĞİÖŞÜçğıöşüâîû]*\s+){0,3}(?:Valiliği|Garnizon\s+Komutanlığı|İl\s+Müftülüğü|Müftülüğü|Komutanlığı|Kışlası|"
+    r"Askerî\s+Hastanesi|Hastanesi|Havalimanı|Hava\s+Meydanı|Havaalanı|Meydanı|Emniyet\s+Müdürlüğü|Karargâhı|Karargahı))(?:['’]\w+)?"
+    r"(\s+(?:önünde|önü|bahçesinde|bahçesi|karşısında))?")
+
+
+def toren_yeri(govde, baslik=""):
+    """Tören yeri (valilik/garnizon/il müftülüğü/komutanlık/kışla/hastane/havalimanı/meydan): kısa ad, <= 60 karakter, cümle yok; yoksa None."""
+    for c in re.split(r"(?<=[.!?])\s+|\n", (baslik or "") + ". " + (govde or "")[:3000]):
+        if not _TOREN_ANAHTAR.search(c):
+            continue
+        m = _TOREN_YER.search(c)
+        if not m:
+            low = ortak.tr_lower(c)
+            m2 = re.search(r"(valilik|garnizon\s+komutanlığı|il\s+müftülüğü|şehit\s+aileleri\s+derneği)\s+(önünde|önü|bahçesinde)", low)
+            if m2 and "dernek" not in m2.group(1):
+                y = {"valilik": "Valilik"}.get(m2.group(1), ortak.tr_title(m2.group(1)))
+                return f"{y} önü"
+            continue
+        sozler = m.group(1).split()
+        while sozler and ortak.tr_lower(sozler[0]) in _TOREN_BASLANGIC:
+            sozler = sozler[1:]
+        ad = " ".join(sozler)
+        if not ad or ortak.tr_lower(ad) in ("komutanlığı", "hastanesi", "meydanı", "valiliği", "müftülüğü", "kışlası"):
+            if not (ad and ortak.tr_lower(ad) == "valiliği"):
+                continue
+        on = ortak.tr_lower(m.group(2) or "").strip()
+        r = ad + (" önü" if on in ("önünde", "önü") else "")
+        if len(r) <= 60:
+            return r
+    return None

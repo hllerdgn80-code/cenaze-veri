@@ -60,7 +60,26 @@ def main():
         mevcut = [k for l in (d.get("ilceler") or {}).values() for k in l] + (d.get("il_disi") or []) + (d.get("ilce_belirsiz") or [])
         n = 0
         for r in yeni:
-            if any(ayni(r, m) for m in mevcut):
+            es = next((m for m in mevcut if ayni(r, m)), None)
+            if es is not None:
+                # 14.10.2026 (Fable): ayni kisi zaten varsa EKLEME ama ZENGINLESTIR — mevcut kayitta bos olan alanlari (ilce, mezarlik, yas,
+                # mahalle, namaz) ulusal/e-Devlet kaydindan doldur; ilce yalniz ilin gercek ilcesi ise (kaynak zaten dogruladi) ve kayit
+                # ilcesizse: ilce_belirsiz listesinden o ilcenin listesine tasinir. Boylece belediye listesinin ilcesiz kaydi ilceye kavusur.
+                for a in ("defin_yeri", "yas", "mahalle", "namaz_yeri_vakti", "namaz_tarihi", "defin_zamani", "vefat_tarihi"):
+                    if es.get(a) in (None, "", []) and r.get(a) not in (None, "", []):
+                        es[a] = r[a]
+                if r.get("sehit") and not es.get("sehit"):                   # sehit isareti (ve rutbe/toren) kaybolmasin (§27)
+                    es["sehit"] = True
+                    for a in ("rutbe", "toren"):
+                        if r.get(a) and not es.get(a):
+                            es[a] = r[a]
+                if not es.get("ilce") and r.get("ilce") and not r.get("ilce_belirsiz") and r["ilce"] != "Merkez":
+                    if es in (d.get("ilce_belirsiz") or []):
+                        d["ilce_belirsiz"].remove(es)
+                        es["ilce"] = r["ilce"]; es["ilce_belirsiz"] = False
+                        es.setdefault("ham", {})["ilce_kaynagi"] = "capraz_eslesme"
+                        d.setdefault("ilceler", {}).setdefault(r["ilce"], []).append(es)
+                        n += 1
                 continue
             mevcut.append(r)
             if r.get("ilce") and not r.get("ilce_belirsiz"):
@@ -69,7 +88,7 @@ def main():
                 d.setdefault("ilce_belirsiz", []).append(r)
             n += 1
         if n:
-            d["toplam"] = len(mevcut)
+            d["toplam"] = sum(len(l) for l in (d.get("ilceler") or {}).values()) + len(d.get("il_disi") or []) + len(d.get("ilce_belirsiz") or [])
             d["guncelleme"] = ortak.simdi_iso()
             ortak.json_yaz(son, d)
             eklenen[il] = n

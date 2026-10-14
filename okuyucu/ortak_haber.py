@@ -117,7 +117,7 @@ def vefat_haberi_mi(baslik):
     m = VEFAT_BASLIK.search(b)
     if re.search(r"(?:verildiler|defnedildiler|uğurlandılar)", m.group(0) + b[m.end():m.end() + 6], re.I) and re.search(r"\sve\s", b[:m.start()]):
         return False                                   # '<Ad> ve <Ad> toprağa verildiler': iki kişi, tek ad alınamaz (belirsiz)
-    if DISLA.search(b):
+    if DISLA.search(ob._SH_NEG.sub(" ", ortak.tr_lower(b))):   # "Şehit Mahallesi'nde", "şehit yakını" vefatı normal kayıt (şehit işareti KONMAZ; §27)
         return False
     return True
 
@@ -347,16 +347,8 @@ def yerel_mi(il, baslik, ozet, takma=(), kesin_yerel=False):
     return None          # kanıt yok: haberin kendisi açılırsa yeniden bakılır
 
 
-def olgular(il, baslik, ozet, yayin_gunu):
-    """Başlık + özet/ilk paragraf -> olgu sözlüğü (ad yoksa None). Ölüm nedeni, yakın adı, sitenin cümlesi ALINMAZ."""
-    ad, yas = baslik_ad(baslik)
-    if not ad:
-        ad, yas2 = govde_ad(ozet)
-        yas = yas or yas2
-    if not ad or len(ad.split()) < 2 or re.search(r"\b[A-ZÇĞİÖŞÜ]\.", ad):
-        return None
-    yas = yas or _yas_bul(ozet, ad) or _yas_bul(baslik, ad)
-    ilce = _ilce_metinde(il, baslik) or _ilce_metinde(il, ozet)
+def _cenaze_alanlari(baslik, ozet, yayin_gunu):
+    """Başlık + özet -> (namaz_t, defin_t, namaz, defin). olgular() ve şehit yolu ortak kullanır (davranış değişmedi)."""
     cumle = ob.cenaze_cumlesi(ozet or "")
     namaz_t = defin_t = None
     namaz = defin = None
@@ -396,6 +388,20 @@ def olgular(il, baslik, ozet, yayin_gunu):
             namaz_t = namaz_t or gt
         else:
             defin_t = defin_t or yayin_gunu       # 'toprağa verildi' haberi: defin, yayın günü (ya da bir gün önce) yapılmış
+    return namaz_t, defin_t, namaz, defin
+
+
+def olgular(il, baslik, ozet, yayin_gunu):
+    """Başlık + özet/ilk paragraf -> olgu sözlüğü (ad yoksa None). Ölüm nedeni, yakın adı, sitenin cümlesi ALINMAZ."""
+    ad, yas = baslik_ad(baslik)
+    if not ad:
+        ad, yas2 = govde_ad(ozet)
+        yas = yas or yas2
+    if not ad or len(ad.split()) < 2 or re.search(r"\b[A-ZÇĞİÖŞÜ]\.", ad):
+        return None
+    yas = yas or _yas_bul(ozet, ad) or _yas_bul(baslik, ad)
+    ilce = _ilce_metinde(il, baslik) or _ilce_metinde(il, ozet)
+    namaz_t, defin_t, namaz, defin = _cenaze_alanlari(baslik, ozet, yayin_gunu)
     return {"ad": ad, "yas": yas, "ilce": ilce, "mahalle": ob.kisa(_koy_mahalle(ozet)), "namaz": ob.kisa(namaz), "defin": ob.kisa(defin),
             "namaz_t": namaz_t, "defin_t": defin_t, "il_disi": ob.il_disi_bul(il, defin) if defin else None}
 
@@ -567,6 +573,201 @@ def kayit_yap(ctx, il, slug, kaynak_ad, url, f, yayin_gunu):
     return k
 
 
+# ---------------------------------------------------------------- ŞEHİT İLANI (URUN-TASLAGI §27; veri hattı 14.10.2026)
+# Kayda YALNIZ sehit: true + rutbe + toren yazılır; ölüm nedeni/olay ayrıntısı ALINMAZ. Belirsizse işaret KONMAZ (ob.sehit_metni_mi).
+# Memleket (sicil) ili ile defin ili farklıysa (§27: "Trabzonlu şehit X Ankara'da toprağa verildi") aynı kişi İKİ il klasörüne düşer:
+# okuyucunun kendi iline dönen kayıt normal akıştan geçer; öbür ilin kaydı veri/<okuyucu ili>/_sehit_ikinci.json'a yazılır
+# (CI'da iller gruplara bölündüğü için il klasörü dışına yazmak kaybolur) ve okuyucu/sehit_ulusal.py hedef ilin _ulusal.json'ına dağıtır.
+_KONUM_EK = re.compile(r"^n?[dt][ae]$")            # da/de/ta/te/nda/nde  (bulunma)
+_YONELME_EK = re.compile(r"^(?:y?[ae]|n[ae])$")    # a/e/ya/ye/na/ne  (varış: "Ankara'ya götürüldü")
+_DEFIN_FIILI = re.compile(r"(?i)toprağa\s+veril|toprağa\s+ver|defned|defin|uğurla|son\s+yolculu|emanet\s+edil|cenaze\s+namaz|cenaze\s+tören")
+_SEHITLIK_ONU = re.compile(r"^\s+(?:[A-ZÇĞİÖŞÜ][A-Za-zÇĞİÖŞÜçğıöşüâîû]*\s+){0,3}(?:Şehitliği|Mezarlığı|Şehitlik)")
+
+
+def _yer_dizisi(metin_, il_listeleri):
+    """Metindeki yer adları: [(sira, 'il'|'ilce', il_adi, ilce_adi|None, agirlik)]. agirlik: 3 bulunma (-da), 2 varış (-a), 1 eksiz/iyelik;
+    ayrılma (-dan: 'Ankara'dan getirilen') yok sayılır. il_listeleri: ilçe araması için aday iller."""
+    v = ortak.ilce_verisi()
+    iller = {ortak.katla(x): x for x in v.get("_iller", [])}
+    ilce_sozluk = {}
+    for il_ in il_listeleri:
+        for x in ortak.ilce_listesi(il_):
+            ilce_sozluk.setdefault(ortak.katla(x), (il_, x))
+    out = []
+    for n, m in enumerate(re.finditer(r"([A-ZÇĞİÖŞÜ][" + _HARF + r"]+)(?:['’]([a-zçğıöşü]+))?", metin_ or "")):
+        kok, ek = m.group(1), (m.group(2) or "")
+        if ortak.katla(kok) in _GUNLER:
+            continue
+        ek_l = ortak.tr_lower(ek)
+        if ek_l and re.match(r"^n?[dt][ae]n$", ek_l):
+            continue
+        if ek_l and _KONUM_EK.match(ek_l):
+            w = 3
+        elif ek_l and _YONELME_EK.match(ek_l):
+            w = 2
+        elif not ek_l or re.match(r"^n?[ıiuü]n$|^n?[ıiuü]n[ıiuü]$", ek_l):
+            w = 1
+        else:
+            continue
+        k = ortak.katla(kok)
+        if k in iller:
+            if w == 1 and not _SEHITLIK_ONU.match((metin_ or "")[m.end():m.end() + 60]) and not re.match(r"\s+(?:Valiliği|Garnizon|Müftülüğü)", (metin_ or "")[m.end():m.end() + 20]):
+                w = 0.5
+            out.append((m.start(), "il", iller[k], None, w))
+        elif k in ilce_sozluk:
+            il_, ilce_ = ilce_sozluk[k]
+            out.append((m.start(), "ilce", il_, ilce_, w))
+    return out
+
+
+def sehit_yerleri(il, baslik, govde):
+    """-> dict(m_il, m_ilce, d_il, d_ilce): memleket (sicil) ili/ilçesi ve defin ili/ilçesi; bulunamayan None.
+    Memleket: 'Trabzonlu', 'memleketi X', "X'in Y ilçesi". Defin: toprağa verildi/defnedildi/uğurlandı/cenaze töreni cümlesindeki yer."""
+    v = ortak.ilce_verisi()
+    iller = {ortak.katla(x): x for x in v.get("_iller", [])}
+    bas = (baslik or "") + ". " + (govde or "")[:900]
+    m_il = m_ilce = None
+    for w in re.findall(r"[A-ZÇĞİÖŞÜ][" + _HARF + r"]+", bas):
+        mm = re.fullmatch(r"(.{3,}?)(?:lı|li|lu|lü)(?:lar)?", w)
+        if mm and ortak.katla(mm.group(1)) in iller:
+            m_il = iller[ortak.katla(mm.group(1))]
+            break
+    if not m_il:
+        mm = re.search(r"(?i:memleket\w*|aslen|doğum\s+yeri)\s+(?:olan\s+)?([A-ZÇĞİÖŞÜ][" + _HARF + r"]+)", bas)
+        if mm and ortak.katla(mm.group(1)) in iller:
+            m_il = iller[ortak.katla(mm.group(1))]
+    mm = re.search(r"([A-ZÇĞİÖŞÜ][" + _HARF + r"]+)(?:['’][a-zçğıöşü]+)?\s+([A-ZÇĞİÖŞÜ][" + _HARF + r"]+)\s+[iİ]lçesi", bas)
+    if mm and ortak.katla(mm.group(1)) in iller:
+        il2 = iller[ortak.katla(mm.group(1))]
+        if ortak.katla(mm.group(2)) in {ortak.katla(x) for x in ortak.ilce_listesi(il2)}:
+            m_il = m_il or il2
+            if il2 == m_il:
+                m_ilce = next(x for x in ortak.ilce_listesi(il2) if ortak.katla(x) == ortak.katla(mm.group(2)))
+    # defin
+    adaylar_il = [x for x in (m_il, il) if x]
+    cumleler = [baslik or ""] + _cumleler(govde)
+    defin_c = [c for c in cumleler if _DEFIN_FIILI.search(c)]
+    d_il = d_ilce = None
+    for grup in (defin_c, [c for c in cumleler if re.search(r"(?i)tören|cenaze", c)]):
+        yerler = []
+        for c in grup:
+            yerler += [(i, t, il_, ic, w) for (i, t, il_, ic, w) in _yer_dizisi(c, adaylar_il)]
+        if not yerler:
+            continue
+        en = max(y[4] for y in yerler)
+        iller_ = [y for y in yerler if y[1] == "il" and y[4] == en]
+        ilceler_ = [y for y in yerler if y[1] == "ilce" and y[4] == en]
+        if iller_:
+            d_il = iller_[-1][2]
+        elif ilceler_:
+            d_il = ilceler_[-1][2]
+        if d_il:
+            ic = []
+            for c in grup:                       # defin ilinin ilçeleri yeniden aranır (il önce bulunmuş olabilir: "Of ilçesinde" Trabzon'a ait)
+                ic += [y for y in _yer_dizisi(c, [d_il]) if y[1] == "ilce" and y[2] == d_il and y[4] >= 1]
+            d_ilce = ic[-1][3] if ic else None
+            break
+    if not m_ilce and m_il:
+        liste = {ortak.katla(x): x for x in ortak.ilce_listesi(m_il)}
+        for w in re.findall(r"[A-ZÇĞİÖŞÜ][" + _HARF + r"]+(?:['’][a-zçğıöşü]+)?", bas):
+            a = liste.get(ortak.katla(re.split(r"['’]", w)[0]))
+            if a and ortak.katla(a) != ortak.katla(m_il):
+                m_ilce = a
+                break
+    if m_il and d_il and m_il == d_il and not m_ilce:
+        m_ilce = d_ilce
+    return {"m_il": m_il, "m_ilce": m_ilce, "d_il": d_il, "d_ilce": d_ilce}
+
+
+def sehit_olgulari(il, baslik, govde, yayin_gunu):
+    """Haber başlığı + gövde -> şehit olgu sözlüğü ya da None (şehit değil / ad bulunamadı / belirsiz). il: haberin geldiği il (ulusal kaynakta None).
+    Alanlar: ad, rutbe, yas, m_il, m_ilce, d_il, d_ilce, namaz, defin, namaz_t, defin_t, toren, sehit."""
+    if not ob.sehit_metni_mi(baslik, govde):
+        return None
+    ad, rutbe, yas = ob.sehit_ad_rutbe(baslik, govde)
+    if not ad or len(ad.split()) < 2:
+        return None
+    yer = sehit_yerleri(il, baslik, govde)
+    namaz_t = defin_t = namaz = None
+    for c in _cumleler(govde):
+        if not re.search(r"(?i)tören|cenaze|naaş|uğurla|toprağa|defn|son\s+yolculu|veda", c):
+            continue
+        t = _tarih_coz(c, yayin_gunu)
+        gecmis = re.search(r"(?i)toprağa\s+verildi|toprağa\s+verilmiş|defnedildi|uğurlandı|uğurladı|kılındı", c)
+        if gecmis:
+            defin_t = defin_t or t or yayin_gunu
+        elif t:
+            namaz_t = namaz_t or t
+        if not namaz and re.search(r"(?i)namaz", c):
+            namaz = ob.namaz_kisa(c)
+    defin = None
+    for c in [c for c in _cumleler(govde) if _DEFIN_FIILI.search(c)] + [govde or ""]:
+        defin = _mezarlik(c)
+        if defin:
+            break
+    return {"ad": ad, "rutbe": rutbe, "yas": yas, **yer, "namaz": ob.kisa(namaz), "defin": ob.kisa(defin), "namaz_t": namaz_t, "defin_t": defin_t,
+            "toren": ob.toren_yeri(govde, baslik), "sehit": True}
+
+
+def _sehit_kayit(il, ilce, slug, kaynak_ad, url, f, yayin_gunu, alindi, resmi):
+    gun = f.get("defin_t") or f.get("namaz_t") or yayin_gunu
+    tk = "metin" if (f.get("namaz_t") or f.get("defin_t")) else "yayin_tarihi"
+    k = oi.kayit(il, ilce, slug, f["ad"], gun, kaynak_ad, url, alindi, ek_id=ortak.katla(il), liste_tarihi=gun, yas=f.get("yas"),
+                 vefat_tarihi=None, defin_zamani=f.get("defin_t"), namaz_tarihi=f.get("namaz_t"), namaz_yeri_vakti=f.get("namaz"),
+                 defin_yeri=f.get("defin"), mahalle=None, ham={"yayin_tarihi": yayin_gunu, "sayfa_tarihi": yayin_gunu, "tarih_kaynagi": tk})
+    k["sehit"] = True
+    k["rutbe"] = f.get("rutbe")
+    k["toren"] = f.get("toren")
+    if not resmi:
+        k["kaynak_turu"] = KAYNAK_TURU
+    if not ilce:
+        k["ilce"] = None
+        k["ilce_belirsiz"] = True
+    return k
+
+
+def sehit_kayitlari(il_okuyucu, slug, kaynak_ad, url, f, yayin_gunu, alindi, resmi=False):
+    """Şehit olgusu -> [(il_adi, kayit)]. İl çözümü: memleket (m_il) ve defin (d_il) ili; biri bilinmiyorsa okuyucunun ili (ulusal kaynakta öbürü)
+    kullanılır; ikisi de yoksa [] (yer belli değil). m_il != d_il ise İKİ kayıt (her il klasörüne bir tane; id'ler il adıyla ayrışır)."""
+    m, d = f.get("m_il"), f.get("d_il")
+    m_ilce, d_ilce = f.get("m_ilce"), f.get("d_ilce")
+    if not m:
+        if il_okuyucu:
+            m, m_ilce = il_okuyucu, None            # memleket yazılmamış: kişi haberin geldiği ilin sayılır
+        else:
+            m, m_ilce = d, d_ilce                   # ulusal kaynak, yalnız defin yeri belli
+    if not m:
+        return []
+    if not d:
+        d, d_ilce = m, m_ilce
+    if d == m:
+        return [(m, _sehit_kayit(m, m_ilce or d_ilce, slug, kaynak_ad, url, f, yayin_gunu, alindi, resmi))]
+    return [(m, _sehit_kayit(m, m_ilce, slug, kaynak_ad, url, f, yayin_gunu, alindi, resmi)),
+            (d, _sehit_kayit(d, d_ilce, slug, kaynak_ad, url, f, yayin_gunu, alindi, resmi))]
+
+
+def il_slug(il):
+    """'Şanlıurfa' -> 'sanliurfa' (veri klasörü adı; vefatilan.py kat() ile aynı)."""
+    s = (il or "").replace("İ", "i").replace("I", "ı").lower().translate(str.maketrans("çğıöşü", "cgiosu")).replace("ı", "i")
+    return re.sub(r"[^a-z0-9]+", "", s)
+
+
+def _ikinci_yaz(klasor, kayitlar):
+    """Okuyucunun kendi il klasörüne dönmeyen şehit kayıtları: <klasor>/_sehit_ikinci.json (id'ye göre birleşir, 6 günden eskiler atılır)."""
+    if not kayitlar:
+        return
+    import json
+    yol = os.path.join(klasor, "_sehit_ikinci.json")
+    try:
+        with open(yol, encoding="utf-8") as fh:
+            mevcut = {k["id"]: k for k in json.load(fh).get("kayitlar", [])}
+    except Exception:
+        mevcut = {}
+    mevcut.update({k["id"]: k for k in kayitlar})
+    sinir = (date.today() - timedelta(days=6)).isoformat()
+    ortak.json_yaz(yol, {"guncelleme": ortak.simdi_iso(), "kayitlar": [k for k in mevcut.values() if (k.get("liste_tarihi") or "") >= sinir]})
+
+
 def _ozet_yeterli(oz, baslik):
     return bool(oz) and len(oz) > 80 and not ortak.katla(oz).startswith(ortak.katla(baslik)[:40])
 
@@ -614,7 +815,19 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             sakli = json.load(fh)
     except Exception:
         sakli = {}
-    sonuc, acilacak = {}, []
+    sonuc, acilacak, ikinci = {}, [], []
+
+    def _yaz(url, f, g):
+        """Olgudan kayıt: normal vefat -> sonuc; şehit (§27) -> memleket/defin ili okuyucunun iliyse sonuc, öbür ilin kaydı ikinci (dosyaya)."""
+        if not f.get("sehit"):
+            sonuc[(url, f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, url, f, g)
+            return
+        for il_k, k in sehit_kayitlari(il, slug, kaynak_ad, url, f, g, ctx["alindi"]):
+            if ortak.katla(il_k) == ortak.katla(il):
+                sonuc[(url, f["ad"])] = k
+            else:
+                ikinci.append(k)
+
     for o in rss_ogeleri(xml):
         if url_suzgec and not re.search(url_suzgec, o["url"]):
             continue
@@ -622,7 +835,8 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             continue
         vefat = vefat_haberi_mi(o["baslik"])
         olay = olay_baslik_mi(o["baslik"])
-        if not (vefat or olay):
+        sehit_adayi = ob.sehit_baslik_adayi(o["baslik"]) or ob.sehit_rol_baslik_mi(o["baslik"])
+        if not (vefat or olay or sehit_adayi):
             continue
         g = o["tarih"] or ob.metinden_tarih(o["url"].replace("-", " "))
         if not g or g not in gl:
@@ -631,17 +845,31 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             for f in _sakli_olgular(sakli[o["url"]]):
                 if f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
                     f["defin"] = None
-                sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+                _yaz(o["url"], f, g)
             continue
         y = yerel_mi(il, o["baslik"], o["ozet"], takma, kesin_yerel)
         if y is False:
+            continue
+        if sehit_adayi:
+            f = sehit_olgulari(il, o["baslik"], o["ozet"], g) if _ozet_yeterli(o["ozet"], o["baslik"]) else None
+            if f:
+                if not f.get("m_il") and not f.get("d_il"):
+                    f["m_il"] = il
+                _yaz(o["url"], f, g)
+                if f["namaz"] or f["defin"] or f["toren"]:
+                    continue
+            if f or ob.sehit_baslik_adayi(o["baslik"]) or not _ozet_yeterli(o["ozet"], o["baslik"]):
+                acilacak.append((o, g))                # şehit (§27): tören/defin ayrıntısı ya da doğrulama için haber açılır
+                continue
+            # özet yeterli, şehit değil (yalnız rol sözcüğü): normal vefat akışı
+        if not (vefat or olay):
             continue
         if not vefat:                                  # yalnız olay başlığı: ad/cenaze gövdede; özet cenaze cümlesi veriyorsa önce özetten
             bulundu = olay_olgulari(il, o["ozet"], g) if y else []
             for f in bulundu:
                 if not f["ilce"] and varsayilan_ilce:
                     f["ilce"] = varsayilan_ilce
-                sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+                _yaz(o["url"], f, g)
             if not bulundu:
                 acilacak.append((o, g))
             continue
@@ -653,7 +881,7 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
         if f and not f["ilce"] and varsayilan_ilce:
             f["ilce"] = varsayilan_ilce
         if f:
-            sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+            _yaz(o["url"], f, g)
         if (f is None or not (f["namaz"] or f["defin"])) and not _ozet_yeterli(o["ozet"], o["baslik"]):
             acilacak.append((o, g))
     # daha önce açılmış (site haritasından gelen) haberlerin saklı olguları: RSS'te artık görünmeseler de pencere içindeyse kayıt
@@ -664,7 +892,7 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
                     continue
                 if f.get("defin") and re.fullmatch(r"(?:Mahalle|Köy|Aile|İlçe|Şehir|Kent)\s+Mezarl\w*", f["defin"]):
                     f["defin"] = None
-                sonuc[(u, f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, u, f, v["tarih"])
+                _yaz(u, f, v["tarih"])
     if ek_dizin:
         rss_url = {o["url"] for o in rss_ogeleri(xml)}
         try:
@@ -678,7 +906,7 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
                 acilacak.append(({"url": o["url"], "baslik": "", "ozet": ""}, g))
     def oncelik(x):                                    # önce yeni, sonra başlığında ad/ölüm bildirimi olanlar
         o = x[0]
-        return (x[1], 2 if vefat_haberi_mi(o["baslik"]) else (1 if re.search(_OLUM_FIIL, o["baslik"] or "", re.I) else 0))
+        return (x[1], 3 if ob.sehit_baslik_adayi(o["baslik"]) else (2 if vefat_haberi_mi(o["baslik"]) else (1 if re.search(_OLUM_FIIL, o["baslik"] or "", re.I) else 0)))
     n = 0
     for o, g in sorted(acilacak, key=oncelik, reverse=True):
         if n >= makale_ac:
@@ -698,13 +926,22 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
         if not o["baslik"]:                            # site haritasından gelen aday: başlık sayfadan
             o["baslik"] = sayfa_basligi(sayfa)
         bulunan = []
-        if o["baslik"] and vefat_haberi_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
+        sh = ob.sehit_metni_mi(o["baslik"], govde)
+        if sh and (yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel) is not False):
+            fs = sehit_olgulari(il, o["baslik"], govde, g)      # şehit: işaret + rütbe + tören (ölüm nedeni alınmaz)
+            if fs:
+                if not fs.get("m_il") and not fs.get("d_il"):
+                    fs["m_il"] = il
+                bulunan.append(fs)
+        if sh:
+            pass
+        elif o["baslik"] and vefat_haberi_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
             f = olgular(il, o["baslik"], ilk, g)
             if f and not f["ilce"] and varsayilan_ilce:
                 f["ilce"] = varsayilan_ilce
             if f:
                 bulunan.append(f)
-        if o["baslik"] and olay_baslik_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
+        if not sh and o["baslik"] and olay_baslik_mi(o["baslik"]) and yerel_mi(il, o["baslik"], ilk, takma, kesin_yerel):
             for f2 in olay_olgulari(il, govde, g):         # kaza/cinayet/yangın: cenaze bilgisi son paragrafta
                 if not f2["ilce"] and varsayilan_ilce:
                     f2["ilce"] = varsayilan_ilce
@@ -717,8 +954,9 @@ def haber_kaynagi(ctx, il, slug, kaynak_ad, dizin_url, url_suzgec=None, makale_a
             print(f"  olay haberi açıldı ({kaynak_ad}): {tani}", file=sys.stderr)
         sakli[o["url"]] = {"olgular": bulunan, "tarih": g, "tani": tani}   # yalnız olgular saklanır (sitenin metni değil)
         for f in bulunan:
-            sonuc[(o["url"], f["ad"])] = kayit_yap(ctx, il, slug, kaynak_ad, o["url"], f, g)
+            _yaz(o["url"], f, g)
     ob.durum(ctx).kaydet()
+    _ikinci_yaz(ctx["klasor"], ikinci)
     sinir = (date.today() - timedelta(days=10)).isoformat()
     sakli = {u: v for u, v in sakli.items() if (v.get("tarih") or "") >= sinir}
     ortak.json_yaz(olgu_yol, sakli)

@@ -3,7 +3,8 @@
 Kaynak: sayfanın kendi istemci çağrısı -> POST https://mezarlik.denizli.bel.tr/bugunDefnedilenlerYeni.aspx/GetDefnedilenler
 gövde {"tarih":"YYYY-AA-GG"} (ASP.NET PageMethod, JSON; "d" dizisi). Giriş/CAPTCHA yok. İl geneli (19 ilçe).
 Sorgulanan gün liste_tarihi olur; aynı kayıt birkaç günün cevabında çıkabilir (id: ad + ölüm tarihi + cilt no, son7gun tekilleştirir).
-Kaynakta İLÇE YOK (mezarlık adı ilçe vermez): ilce None + ilce_belirsiz. Kaynak "Nakil Giden" diyorsa defin başka yerde (hedef yok).
+Kayıtta ilçe alanı yok AMA MezarlikKodu var; Denizli BB'nin kendi mezarlık haritası katmanı (ArcGIS, ID + ILCEADI, 739 mezarlık) kodu ilçeye çevirir
+(14.10.2026, YURUT.md H37): ilce = o ilçe (kaynak=resmi katman, ham.ilce_kaynagi='mezarlik_kodu'); kod katmanda yoksa ilce None + ilce_belirsiz. Kaynak "Nakil Giden" diyorsa defin başka yerde (hedef yok).
 Ada/parsel/sıra (mezar konumu) ham'a yazılır. KVKK: telefon/ölüm nedeni yok zaten; yalnız tanımlı alanlar alınır.
 Kullanım: python3 okuyucu/denizli.py [--gun 7]
 """
@@ -21,6 +22,33 @@ BEKLE = 3.5
 KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri", "denizli")
 
 
+KATMAN = "https://adres.denizli.bel.tr/arcgis/rest/services/yayinlar/mezarlik/MapServer/3/query?where=1%3D1&outFields=ID%2CADI%2CILCEADI&returnGeometry=false&f=json"
+KATMAN_ONBELLEK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "denizli_mezarlik_kodu.json")
+_kod_ilce = {}
+
+
+def kod_ilce():
+    """MezarlikKodu -> ilce adi (resmi harita katmani). Agdan alinamazsa son onbellek; ikisi de yoksa bos (ilcesiz kalir)."""
+    if _kod_ilce:
+        return _kod_ilce
+    try:
+        d = json.loads(ortak.indir(KATMAN, BEKLE, timeout=60))
+        t = {str(f["attributes"]["ID"]): ortak.tr_title(f["attributes"]["ILCEADI"]) for f in d.get("features", [])
+             if f["attributes"].get("ID") is not None and f["attributes"].get("ILCEADI")}
+        if len(t) > 300:
+            ortak.json_yaz(KATMAN_ONBELLEK, t)
+            _kod_ilce.update(t)
+    except Exception as e:
+        print(f"UYARI mezarlik katmani alinamadi: {e}", file=sys.stderr)
+    if not _kod_ilce:
+        try:
+            with open(KATMAN_ONBELLEK, encoding="utf-8") as f:
+                _kod_ilce.update(json.load(f))
+        except Exception:
+            pass
+    return _kod_ilce
+
+
 def gun_getir(gun):
     govde = json.dumps({"tarih": gun}).encode("utf-8")
     ham = ortak.indir(API, BEKLE, veri=govde, basliklar={"Content-Type": "application/json; charset=utf-8"})
@@ -36,10 +64,11 @@ def kayda_cevir(r, gun, alindi):
     vakit = None if nakil else (r.get("DefinZamani") or None)
     ap = "-".join(x for x in (r.get("AnneAdi"), r.get("BabaAdi")) if x)
     mezarlik = r.get("MezarlikAdi") or None
+    ilce = kod_ilce().get(str(r.get("MezarlikKodu"))) if not nakil else None
     return {
         "id": ortak.kayit_id("denizli", ad, olum or "", f'{r.get("Cilt") or ""}|{r.get("DogumTarihi") or ""}'),
         "il": IL,
-        "ilce": None,                       # kaynakta yok
+        "ilce": ilce,                       # MezarlikKodu -> resmi mezarlik haritasi katmani; kod yoksa None
         "mahalle": None,
         "ad_soyad": ortak.tr_title(ad),
         "anne_baba": ortak.tr_title(ap) or None,
@@ -57,7 +86,7 @@ def kayda_cevir(r, gun, alindi):
         "ham": {"dogum_yeri": r.get("DogumYeri") or None, "dogum": r.get("DogumTarihi") or None, "cilt": r.get("Cilt") or None,
                 "ada": r.get("Ada") or None, "parsel": r.get("Parsel") or None, "sira": r.get("Sira") or None,
                 "mezarlik_kodu": r.get("MezarlikKodu") or None, "cami": r.get("DefainCamii") or None,
-                "defin_zamani": r.get("DefinZamani") or None, "olum": r.get("OlumTarihi") or None, "nakil": nakil},
+                "defin_zamani": r.get("DefinZamani") or None, "olum": r.get("OlumTarihi") or None, "nakil": nakil, **({"ilce_kaynagi": "mezarlik_kodu"} if ilce else {})},
     }
 
 

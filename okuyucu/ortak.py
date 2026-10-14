@@ -122,6 +122,11 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
             belirsiz.append(k)
         else:
             ilceler.setdefault(k["ilce"], []).append(k)
+    try:   # ipucu 3: bu turun kayitlarindan mezarlik->ilce orani (tablo disi, ilcesi bilinen kayitlar)
+        _tum = [ilce_isle_ham(k, il) for g in gunler for k in kayitlar_by_gun.get(g, [])]
+        ogrenilen_hazirla(il, _tum)
+    except Exception:
+        pass
     for g in gunler:
         for k in kayitlar_by_gun.get(g, []):
             cg = _cenaze_gunu(k)
@@ -234,11 +239,145 @@ def ilce_coz(il, ham):
     return sonuc   # kendi il adı ya da listede olmayan değer -> ilce None, belirsiz
 
 
+# ---- MEZARLIK -> ILCE TABLOSU (14.10.2026 sahibi: "ilce en basit bilgi, verilmeli"; YURUT.md H37)
+# Kaynak: OpenStreetMap (ODbL) + resmi acik listeler; mezarlik_ilce.json = {"il_slug": {"normalize_ad": "Ilce" | {"belirsiz": [ilceler]}},
+# "_mahalle": {il_slug: {ad: ilce}}, "_cami": {il_slug: {ad: ilce}}}. Ad YALNIZ kaydin kendi ilinin altinda aranir. Tablo yok/bozuksa sessizce atlanir.
+_MEZ_YOLU = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mezarlik_ilce.json")
+_mez_onbellek = {}
+_OGRENILEN = {}     # il_slug -> {mezarlik_norm: {ilce: sayi}} (son7gun_yaz her turda doldurur)
+_MEZ_EK = {"mezarligi", "mezarlik", "mezarliginda", "mezarlikta", "mezarlari", "kabristanligi", "kabristani", "kabristanliginda",
+           "mezari", "mez", "mzl", "kabristan"}
+_MEZ_KES = {"pafta", "parsel", "ada", "kapisi", "kapi", "sira", "sistem", "sistemi", "bolum", "kisim", "blok", "no", "sokak", "cadde", "yol"}
+
+
+def il_slug(il):
+    return katla(il).replace(" ", "")
+
+
+def mezarlik_tablosu():
+    if not _mez_onbellek:
+        try:
+            with open(_MEZ_YOLU, encoding="utf-8") as f:
+                _mez_onbellek.update(json.load(f))
+        except Exception:
+            _mez_onbellek["_yok"] = True
+    return _mez_onbellek
+
+
+def mezarlik_norm(ad):
+    """Mezarlik adi anahtari: katla + 'mezarligi/kabristanligi' gibi ekleri at; 'pafta/ada/kapi', '/' ya da rakamdan sonrasini kes."""
+    s = (ad or "").split("/")[0]
+    toks = []
+    for t in katla(s).split():
+        if t in _MEZ_KES or any(c.isdigit() for c in t):
+            break
+        toks.append(t)
+    return " ".join(t for t in toks if t not in _MEZ_EK)
+
+
+def _tablo_ara(bolum, il, ad):
+    """bolum: {il_slug: {norm: ilce|{'belirsiz': [...]}}} icinden il icinde arar -> str | list | None."""
+    if not ad:
+        return None
+    t = mezarlik_tablosu()
+    d = (t.get(bolum, {}) if bolum.startswith("_") else t).get(il_slug(il)) or {}
+    n = mezarlik_norm(ad) if bolum == "mezarlik" else katla(ad)
+    v = d.get(n)
+    if isinstance(v, dict):
+        return list(v.get("belirsiz") or []) or None
+    return v
+
+
+def mezarlik_ilce_bul(il, defin_yeri):
+    """-> ('ilce', ad) | ('belirsiz', [adaylar]) | None. Yalniz o ilin ilcelerine esleme; ad listede degilse yok sayilir."""
+    n = mezarlik_norm(defin_yeri)
+    if not n:
+        return None
+    d = mezarlik_tablosu().get(il_slug(il)) or {}
+    v = d.get(n)
+    if v is None:
+        return None
+    gecerli = set(ilce_listesi(il))
+    if isinstance(v, str):
+        return ("ilce", v) if v in gecerli else None
+    adaylar = [x for x in (v.get("belirsiz") or []) if x in gecerli]
+    return ("belirsiz", adaylar) if len(adaylar) > 1 else (("ilce", adaylar[0]) if adaylar else None)
+
+
+def _ipucu_isle(kayit, il):
+    """ilce yok + il disi degil + defin_yeri tabloda -> ilce ata (tek eslesme) ya da siralı ipuclariyla coz:
+    (1) mahalle (2) cami/namaz yeri (3) ayni ilde ogrenilen oran (baskin >=%80, en az 3 kayit). Hicbiri cozmezse ilcesiz kalir (tahmin yok)."""
+    if kayit.get("ilce") or kayit.get("il_disi_defin") or not kayit.get("ilce_belirsiz", True):
+        return kayit
+    try:
+        r = mezarlik_ilce_bul(il, kayit.get("defin_yeri"))
+        if not r:
+            return kayit
+        ilce, kaynak = None, "mezarlik_tablosu"
+        if r[0] == "ilce":
+            ilce = r[1]
+        else:
+            adaylar = r[1]
+            m = _tablo_ara("_mahalle", il, kayit.get("mahalle"))
+            if isinstance(m, str) and m in adaylar:
+                ilce, kaynak = m, "mezarlik_tablosu+mahalle"
+            if not ilce:
+                c = _tablo_ara("_cami", il, kayit.get("namaz_yeri_vakti"))
+                if isinstance(c, str) and c in adaylar:
+                    ilce, kaynak = c, "mezarlik_tablosu+cami"
+            if not ilce:
+                o = (_OGRENILEN.get(il_slug(il)) or {}).get(mezarlik_norm(kayit.get("defin_yeri"))) or {}
+                o = {i: n for i, n in o.items() if i in adaylar}
+                top = sum(o.values())
+                if top >= 3:
+                    i, n = max(o.items(), key=lambda x: x[1])
+                    if n / top >= 0.8:
+                        ilce, kaynak = i, "mezarlik_tablosu+ogrenilen"
+        if ilce:
+            kayit["ilce"] = ilce
+            kayit["ilce_belirsiz"] = False
+            kayit["ilce_kaynagi"] = kaynak
+            if isinstance(kayit.get("ham"), dict):
+                kayit["ham"]["ilce_kaynagi"] = kaynak
+    except Exception:
+        pass            # tablo/ipucu hatasi mevcut davranisi bozmaz
+    return kayit
+
+
+def _defin_il_disi(kayit, il):
+    """defin_yeri BASKA bir ilin adiysa (Kilis, Diyarbakir...) ya da '<Il> / <ilce>' bicimindeyse kayit il disina alinir
+    (mevcut kural: 'baska il -> il_disi'; okuyucunun ilce_belirsiz on dolduruşu ya da kaynagin 'Merkez'i bunu bastirmaz). 14.10.2026."""
+    if kayit.get("il_disi_defin"):
+        return kayit
+    y = " ".join((kayit.get("defin_yeri") or "").split())
+    if not y:
+        return kayit
+    try:
+        iller = ilce_verisi()["_iller"]
+        if "/" in y:
+            ilk = katla(y.split("/")[0])
+            adaylar = [_ad_bul(ilk, iller), _ad_bul(katla(y.split("/")[-1]), iller)]
+        else:
+            adaylar = [_ad_bul(katla(y), iller)]
+        if not any(a and katla(a) != katla(il) for a in adaylar):
+            return kayit
+        r = ilce_coz(il, y)
+        if r.get("il_disi_defin"):
+            kayit["il_disi_defin"] = r["il_disi_defin"]
+            kayit["ilce"] = None
+            kayit["ilce_belirsiz"] = False
+            if isinstance(kayit.get("ham"), dict):
+                kayit["ham"]["il_disi_kaynagi"] = "defin_yeri"
+    except Exception:
+        pass
+    return kayit
+
+
 def ilce_isle(kayit, il):
-    """Kaydın 'ilce' alanını ilce_coz ile işler (yerinde). Zaten işlenmişse dokunmaz.
+    """Kaydın 'ilce' alanını ilce_coz ile işler (yerinde). Zaten işlenmişse dokunmaz (yalnız ilçesiz kayıt için mezarlık tablosu yeniden denenir).
     Ham değer kayıt['ham']['ilce_ham'] altında korunur (ham dict varsa ve anahtar yoksa)."""
     if "il_disi_defin" in kayit and "ilce_belirsiz" in kayit:
-        return kayit
+        return _ipucu_isle(_defin_il_disi(kayit, il), il)
     ham_ilce = kayit.get("ilce")
     r = ilce_coz(il, ham_ilce)
     if isinstance(kayit.get("ham"), dict) and ham_ilce and "ilce_ham" not in kayit["ham"] and "ilce" not in kayit["ham"]:
@@ -246,7 +385,27 @@ def ilce_isle(kayit, il):
     kayit["ilce"] = r["ilce"]
     kayit["ilce_belirsiz"] = r["ilce_belirsiz"]
     kayit["il_disi_defin"] = r["il_disi_defin"]
-    return kayit
+    return _ipucu_isle(_defin_il_disi(kayit, il), il)
+
+
+def ilce_isle_ham(kayit, il):
+    """Yalniz ogrenme icin: ilce_coz sonucunu (tablo ipucusuz) kayda yazmadan okur; ilcesi bilinen kayit ise kendisini doner."""
+    if "il_disi_defin" in kayit and "ilce_belirsiz" in kayit:
+        return kayit
+    r = ilce_coz(il, kayit.get("ilce"))
+    return {"ilce": r["ilce"], "il_disi_defin": r["il_disi_defin"], "defin_yeri": kayit.get("defin_yeri")}
+
+
+def ogrenilen_hazirla(il, kayitlar):
+    """Ayni ilde ilcesi ZATEN bilinen kayitlardan (tablo disi kaynaklar) mezarlik -> ilce sayimi (ipucu 3)."""
+    d = {}
+    for k in kayitlar:
+        if k.get("ilce") and not k.get("il_disi_defin") and not k.get("ilce_kaynagi") and k.get("defin_yeri"):
+            n = mezarlik_norm(k["defin_yeri"])
+            if n:
+                d.setdefault(n, {}).setdefault(k["ilce"], 0)
+                d[n][k["ilce"]] += 1
+    _OGRENILEN[il_slug(il)] = d
 
 
 def gun_yaz(klasor, il, gun, kayitlar):
