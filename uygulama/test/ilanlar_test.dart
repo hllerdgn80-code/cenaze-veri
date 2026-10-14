@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
+import 'package:kimin_cenazesi/bilesenler/ortak.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
 import 'package:kimin_cenazesi/cekirdek/metin.dart';
 import 'package:kimin_cenazesi/cekirdek/yardimci.dart';
@@ -102,9 +103,17 @@ void main() {
     expect(odemeAcik, isFalse);
     expect(find.text('Vefat İlanı'), findsOneWidget);
     expect(find.textContaining('₺'), findsNothing);
-    await tester.scrollUntilVisible(find.text('Okudum, kabul ediyorum.'), 400, scrollable: find.byType(Scrollable).last);
+    // Form ListView'inin kendi kaydırıcısı (TextField içindeki Scrollable'lar değil)
+    final kaydirici = find.descendant(of: find.byType(ListView).last, matching: find.byType(Scrollable)).first;
+    await tester.scrollUntilVisible(find.textContaining('5237 sayılı Türk Ceza Kanunu'), 300, scrollable: kaydirici);
+    await tester.pumpAndSettle();
     expect(find.textContaining('5237 sayılı Türk Ceza Kanunu'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('Onayla ve gönder'), 300, scrollable: kaydirici);
+    await tester.pumpAndSettle();
     expect(find.text('Onayla ve gönder'), findsOneWidget);
     expect(find.text('Ödemeye geç'), findsNothing);
+    // Zorunlu alanlar ve onay kutusu boşken son düğme pasif
+    final dugme = tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Onayla ve gönder'));
+    expect(dugme.onTap, isNull);
   });
 }
