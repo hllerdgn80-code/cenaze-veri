@@ -119,6 +119,8 @@ jobs:
           rm -f veri/ozet.[0-9]*.json
           # 14.10.2026 ULUSAL AKIS (vefatilanlari.com.tr): tum Turkiye en yeniden eskiye; her il/ilce icin eksik kisileri ekler (hata verirse tur durmaz)
           python3 okuyucu/vefatilan.py || echo "::warning::ulusal akis okunamadi"
+          python3 okuyucu/sondakika.py || echo "::warning::sondakika yerel akisi okunamadi"
+          python3 okuyucu/malatyahaber.py || echo "::warning::malatya haber listesi okunamadi"
           python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
           python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
       - name: Saglik denetimi (basarisiz yapmaz)
