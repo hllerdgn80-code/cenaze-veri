@@ -12,7 +12,7 @@ Kurallar (her kayıt):
   K3 tarih: geçerli YYYY-AA-GG; liste_tarihi pencerede (son 8 gün .. +2 gün); hiçbir tarih bugünden 2 günden ileri değil
   K4 kişisel veri: metin alanlarında telefon / TC kimlik no / e-posta / açık adres kalıbı yok (cami/mezarlık alanlarında
      "sokak/cadde" yer adıdır; orada yalnız kapı no / daire / kat / apartman elenir)
-  K5 ölüm nedeni / hastalık sözcüğü yok
+  K5 ölüm nedeni / hastalık sözcüğü yok (şehit kaydında sehit/rutbe/toren alanları bu taramaya girmez; rutbe <= 40, toren <= 60 karakter; §27)
   K6 aynı kişi aynı gün tekrar yok (resmî kaynak önce tutulur, yerel basın kopyası elenir); yerel_haber kaydı aynı adla ±3 gün
      içinde daha önce tutulmuş bir kayıt varsa elenir (vefat ve defin haberi, iki site)
   K7 kaynak_url http(s) ve aynı kaynak_ad'ın kayıtlarıyla AYNI alan adından; yerel basında kayıtlı alan adı
@@ -40,6 +40,8 @@ VERI = os.path.join(DIZIN, "..", "veri")
 # yerel basın kaynakları: kaynak_ad -> izinli alan adı (yeni site eklenince buraya da yazılır)
 YEREL_BASIN = {
     "ulusal liste": "www.vefatilanlari.com.tr",   # 14.10.2026: ulusal akis (vefatilan.py); alan adi kaydi
+    "Son Dakika Yerel": "www.sondakika.com",   # 14.10.2026: sondakika.py (RSS yerel akisi)
+    "Malatya Haber": "www.malatyahaber.com",   # 14.10.2026: malatyahaber.py (vefat-edenler listesi)
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",
@@ -78,6 +80,8 @@ def _www(h):
     h = (h or "").lower()
     return h[4:] if h.startswith("www.") else h
 
+SEHIT_ALANLARI = ("rutbe", "toren")          # K5/K8 dışı; uzunluk sınırları aşağıda (URUN-TASLAGI §27)
+SEHIT_AZAMI = {"rutbe": 40, "toren": 60}
 TARIH_ALANLARI = ("vefat_tarihi", "namaz_tarihi", "defin_zamani", "liste_tarihi", "dogum_tarihi")
 TARAMA_DISI = {"id", "kaynak_url", "alindi", "il", "kaynak_turu"} | set(TARIH_ALANLARI)
 
@@ -286,6 +290,16 @@ def denetle(k, bugun, alan_adi_cogunluk):
     basin = k.get("kaynak_turu") in BASIN_TURLERI
     for a, v in _metinler(k):
         if a in ("kaynak_ad",):
+            continue
+        if a in SEHIT_ALANLARI:
+            # şehit kartı alanları (URUN-TASLAGI §27): rütbe/tören yeri ölüm nedeni (K5) ve site cümlesi (K8) taramasına GİRMEZ;
+            # yalnız uzunluk sınırı (rutbe <= 40, toren <= 60) ve kişisel veri (telefon/TC/e-posta/kapı no) kontrolü
+            if len(v) > SEHIT_AZAMI[a]:
+                nedenler.append(f"K8 uzun alan ({a})")
+            if TEL.search(v) or TC.search(v) or EPOSTA.search(v):
+                nedenler.append(f"K4 telefon/TC/e-posta ({a})")
+            if ADRES_GUCLU.search(v):
+                nedenler.append(f"K4 adres ({a})")
             continue
         if TEL.search(v) or TC.search(v) or EPOSTA.search(v):
             nedenler.append(f"K4 telefon/TC/e-posta ({a})")

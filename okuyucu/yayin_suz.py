@@ -346,6 +346,14 @@ def suz(kok):
     return cikan, kalan
 
 
+def _denetim_yerel(k):
+    """Yayin kaydinda 'ham' yoktur; kaynak (metin / ulusal ilan / yayin gunu) bilinemez. Giris kilidi (kabul) hangi pencereyi tanidiysa
+    denetim de onu tanir: metin [-2,+2] YA DA ulusal ilan [-6,0]. 14.10.2026 #41: ulusal akis 3 gunluk kayitlari denetim 'metin' penceresiyle
+    reddetti, tur dustu (H44)."""
+    kk = dict(k, namaz_tarihi=k.get("namaz_tarihi") or k.get("liste_tarihi"))
+    return yerel_kilidi(dict(kk, ham={"tarih_kaynagi": "metin"})) or yerel_kilidi(dict(kk, ham={"tarih_kaynagi": "ilan_vefat_tarihi"}))
+
+
 def denetle(kok):
     """Süzülmüş klasörde yasak bir şey kaldıysa listesini döndürür (boş liste = temiz)."""
     hata = []
@@ -370,7 +378,7 @@ def denetle(kok):
         if YEREL_YAYIN:
             for k in tum:
                 # yayin kaydinda 'ham' (tarih_kaynagi) yok: kaynak turu/tarih kaynagi giris kilidinde (kabul) dogrulandi; burada cikti alanlariyla tazelik+ad+metin kilidi tekrar sinanir
-                if ad in YEREL_ILLER and not yerel_kilidi(dict(k, namaz_tarihi=k.get("namaz_tarihi") or k.get("liste_tarihi"), ham={"tarih_kaynagi": "metin"})):
+                if ad in YEREL_ILLER and not _denetim_yerel(k):
                     hata.append(f"{ad}/{k.get('id')}: yerel basın kaydı ikinci kilidi geçmiyor")
         for k in tum:
             if isimsiz_bebek(k):

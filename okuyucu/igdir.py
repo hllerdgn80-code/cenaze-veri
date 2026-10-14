@@ -8,17 +8,21 @@ Kullanım: python3 okuyucu/igdir.py [--gun 7] [--ilce "Kaynak Adı"]
 import os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak_haber as oh, ortak_ilce as oi
+import ortak_haber as oh, ortak_ilce as oi, ortak_kategori as ok
 
 IL = "Iğdır"
 SITELER = [
     oh.site("Yeşil Iğdır", "igdir-yesiligdir", "https://www.yesiligdir.com/rss", ek_dizin="https://www.yesiligdir.com/sitemap/sitemap-{AY}.xml"),
     oh.site("Iğdır Haber", "igdir-igdirhaber", "https://www.igdirhaber.net/rss"),
 ]
+# vefat KATEGORİ sayfaları (14.10.2026, H41; ortak_kategori.py)
+KATEGORI = [
+    (("Iğdır Haber", "igdir-igdirhaber", "https://www.igdirhaber.net/vefatlar"), {}),
+]
 
 
 def main():
-    oi.il_calistir(IL, "igdir", oh.okuyucular(IL, SITELER))
+    oi.il_calistir(IL, "igdir", oh.okuyucular(IL, SITELER) + [ok.kategori(*a, **k) for a, k in KATEGORI])
 
 
 if __name__ == "__main__":

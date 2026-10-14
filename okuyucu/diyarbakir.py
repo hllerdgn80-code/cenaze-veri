@@ -8,7 +8,7 @@ Kullanım: python3 okuyucu/diyarbakir.py [--gun 7] [--ilce "Kaynak Adı"]
 import os, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak_haber as oh, ortak_ilce as oi
+import ortak_haber as oh, ortak_ilce as oi, ortak_kategori as ok
 
 IL = "Diyarbakır"
 SITELER = [
@@ -16,10 +16,15 @@ SITELER = [
     oh.site("Mücadele Gazetesi", "diyarbakir-mucadelegazetesi", "https://www.mucadelegazetesi.com.tr/rss", ek_dizin="https://www.mucadelegazetesi.com.tr/sitemap/sitemap-{AY}.xml"),
     oh.site("Diyarbakır Söz", "diyarbakir-diyarbakirsoz", "https://www.diyarbakirsoz.com/rss"),
 ]
+# vefat KATEGORİ sayfaları (14.10.2026, H41; ortak_kategori.py)
+KATEGORI = [
+    (("Bismil Haber", "diyarbakir-bismilhaber", "https://www.bismilhaber.com.tr/vefat-edenler"), {"ilce": "Bismil"}),
+    (("Mücadele Gazetesi", "diyarbakir-mucadelegazetesi", "https://www.mucadelegazetesi.com.tr/vefat"), {"tip": "kart"}),
+]
 
 
 def main():
-    oi.il_calistir(IL, "diyarbakir", oh.okuyucular(IL, SITELER))
+    oi.il_calistir(IL, "diyarbakir", oh.okuyucular(IL, SITELER) + [ok.kategori(*a, **k) for a, k in KATEGORI])
 
 
 if __name__ == "__main__":
