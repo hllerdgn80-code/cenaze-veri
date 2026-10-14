@@ -221,6 +221,16 @@ def son7_suz(d):
     ilceler = {i: l for i, l in ilceler.items() if l}
     out = {"il": d.get("il"), "ilceler": ilceler, "il_disi": resmi(d.get("il_disi") or []),
            "ilce_belirsiz": resmi(d.get("ilce_belirsiz") or []), "guncelleme": d.get("guncelleme")}
+    # 14.10.2026 ACIL (sahibi: "Gaziantep, Sanliurfa hic yok"): ~30 ilde kayitlarin neredeyse tumu ilcesiz; uygulama bunlari yalniz listenin
+    # EN ALTINDA 'Il geneli' bolumunde gosteriyor, ustte 'bugun ilan yok' yaziyordu. Yayinda ilcesiz kayitlar ana listede 'Ilçe belirtilmemiş'
+    # basligi altinda gorunsun (uygulama surumu gerekmez): ilceler[...] icine tasinir, ilce_belirsiz bosalir.
+    if out["ilce_belirsiz"]:
+        etiket = "İlçe belirtilmemiş"
+        for k in out["ilce_belirsiz"]:
+            k["ilce"] = etiket
+        out["ilceler"] = dict(out["ilceler"], **{etiket: out["ilce_belirsiz"]})
+        ilceler = out["ilceler"]
+        out["ilce_belirsiz"] = []
     tum = [k for l in ilceler.values() for k in l] + out["il_disi"] + out["ilce_belirsiz"]
     atilan = il_ici_tekille(tum)
     if atilan:
