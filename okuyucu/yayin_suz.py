@@ -116,6 +116,9 @@ def yerel_kilidi(k):
 
 def kayit_suz(k):
     out = {a: k[a] for a in UYGULAMA_ALANLARI if a in k}
+    # 14.10.2026 sahibi: "defin yeri Gaziantep ne demek, her il ve ilceye ozgu olsun": defin yeri yalniz kendi ilin adiysa (mezarlik degil) bilgi tasimaz -> bos
+    if out.get("defin_yeri") and _kat(out["defin_yeri"]) == _kat(out.get("il")):
+        out["defin_yeri"] = None
     # kaynakta vefat tarihi cenaze gününden SONRA yazılmışsa (kaynak hatası, ör. Bandırma 08.10.2026) kartta çelişki
     # gösterilmez: vefat tarihi yayına gitmez, cenaze günü kalır
     v = out.get("vefat_tarihi")
