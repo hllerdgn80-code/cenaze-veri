@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   derle:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi (ubuntu-latest 19.10'da Ubuntu 26)
     timeout-minutes: 45
     defaults:
       run:
@@ -33,6 +33,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+          flutter-version: "3.47.7"   # 14.10.2026 sabitlendi: derleme kanalin yeni surumuyle kirilmasin (yukseltme bilincli yapilir)
           cache: true
 
       - name: Flutter surumu
@@ -108,7 +109,7 @@ jobs:
 
   magaza-gorselleri:
     # Play Console ozellik grafigi (1024x500) ve 512 simge: SVG -> PNG
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi (ubuntu-latest 19.10'da Ubuntu 26)
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4

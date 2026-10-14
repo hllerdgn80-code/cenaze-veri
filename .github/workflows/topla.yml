@@ -23,7 +23,7 @@ env:
 
 jobs:
   oku:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
     timeout-minutes: 60
     strategy:
       fail-fast: false
@@ -61,7 +61,7 @@ jobs:
   birlestir:
     needs: oku
     if: ${{ always() && needs.oku.result != 'cancelled' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
     timeout-minutes: 30
     env:
       CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

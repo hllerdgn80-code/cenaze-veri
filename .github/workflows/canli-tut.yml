@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   canli:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
     steps:
       - uses: actions/checkout@v4
       - name: Tarih yaz ve commit et
