@@ -1,0 +1,33 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-14",
+ "kayitlar": [
+  {
+   "id": "2eacc7de334a",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nevruz Ülgen",
+   "anne_baba": "Muharrem",
+   "yas": 74,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": "Ervah Kabristanlığı / 8 Ada",
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:23",
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-14T12:01:59+03:00",
+   "ham": {
+    "baba": "MUHARREM",
+    "defin": "14.10.2026 13:23",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 8 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

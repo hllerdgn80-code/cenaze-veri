@@ -4,6 +4,33 @@
  "il_disi": [],
  "ilce_belirsiz": [
   {
+   "id": "2eacc7de334a",
+   "il": "Aksaray",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nevruz Ülgen",
+   "anne_baba": "Muharrem",
+   "yas": 74,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": "Ervah Kabristanlığı / 8 Ada",
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:23",
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-14T12:01:59+03:00",
+   "ham": {
+    "baba": "MUHARREM",
+    "defin": "14.10.2026 13:23",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 8 ADA"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
    "id": "cdfcf0713066",
    "il": "Aksaray",
    "ilce": null,
@@ -20,7 +47,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "TORBAY",
     "defin": "13.10.2026 13:18",
@@ -47,7 +74,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "MEHMET",
     "defin": "13.10.2026 13:15",
@@ -74,7 +101,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "ABDUSSAMET",
     "defin": "11.10.2026 13:24",
@@ -101,7 +128,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "İSMET",
     "defin": "11.10.2026 13:20",
@@ -128,7 +155,7 @@
    "liste_tarihi": "2026-10-10",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "HÜSEYİN",
     "defin": "10.10.2026 13:20",
@@ -155,7 +182,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "İSHAK DEDE",
     "defin": "09.10.2026 13:09",
@@ -182,7 +209,7 @@
    "liste_tarihi": "2026-10-09",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
+   "alindi": "2026-10-14T12:01:59+03:00",
    "ham": {
     "baba": "BESİM",
     "defin": "09.10.2026 13:10",
@@ -191,62 +218,8 @@
    },
    "ilce_belirsiz": true,
    "il_disi_defin": null
-  },
-  {
-   "id": "5fff43704e65",
-   "il": "Aksaray",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Abdülsamet Akış",
-   "anne_baba": "Davut",
-   "yas": 20,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-06",
-   "defin_yeri": "Ervah Kabristanlığı / Cennet Deresi 1 Ada",
-   "defin_zamani": "2026-10-07",
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
-   "liste_tarihi": "2026-10-07",
-   "kaynak_ad": "Aksaray Belediyesi",
-   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
-   "ham": {
-    "baba": "DAVUT",
-    "defin": "07.10.2026 13:10",
-    "namaz": "Öğlen",
-    "mezarlik": "ERVAH KABRİSTANLIĞI / CENNET DERESİ 1 ADA"
-   },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
-  },
-  {
-   "id": "ac5d48e9690f",
-   "il": "Aksaray",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Fendiye Hüyük",
-   "anne_baba": "Süleyman",
-   "yas": 80,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-07",
-   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-07",
-   "kaynak_ad": "Aksaray Belediyesi",
-   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-13T14:05:33+03:00",
-   "ham": {
-    "baba": "SÜLEYMAN",
-    "defin": "",
-    "namaz": "",
-    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM"
-   },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
   }
  ],
- "toplam": 9,
- "guncelleme": "2026-10-13T14:05:33+03:00"
+ "toplam": 8,
+ "guncelleme": "2026-10-14T12:01:59+03:00"
 }
