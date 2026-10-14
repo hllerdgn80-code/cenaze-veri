@@ -5,7 +5,7 @@ name: Turkiye'den oku
 # topla.yml birlestir adimi bu veriyi uzerine kopyalar.
 on:
   schedule:
-    - cron: "41 3,6,9 * * *"   # TR saatiyle 06:41 09:41 12:41 (Mac runner; 3 tur)
+    - cron: "41 3,6,9,15 * * *"   # TR saatiyle 06:41 09:41 12:41 18:41 (Mac runner; 4 tur; 18:41 e-Devlet ikinci kosusu)
   workflow_dispatch: {}
 
 permissions:
@@ -34,12 +34,19 @@ jobs:
           done
       - name: Illeri oku (Turkiye'den)
         run: python3 okuyucu/hepsi.py $TR_ILLER
+      - name: e-Devlet vefat sorgulama (yalniz TR IP; CAPTCHA gorunce hizmeti birakir, 6 saat bekler; gunde en cok 2 kosu)
+        run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
       - name: veri-tr/ klasorunu hazirla
         run: |
           rm -rf veri-tr
           mkdir -p veri-tr
           for il in $TR_ILLER; do
             if [ -d "veri/$il" ]; then cp -r "veri/$il" veri-tr/; fi
+          done
+          # e-Devlet ciktilari (veri/<il>/_ulusal.json) tum iller icin tasinir; ana tur ulusal_birlestir ile katar
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
           done
           python3 - <<'PY'
           import json, os
