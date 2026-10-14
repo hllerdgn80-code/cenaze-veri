@@ -185,52 +185,141 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
                   ))),
         ]),
       ),
+      // §21/3 + prototip v8: bildirim izni teklifi (bir kez sorulur; Tarihte Bugün/Kaybettiklerimiz şeritleri YOK — §26)
+      if (bildirimTeklifiAcik && d.depo.bildirimIzni == null) ...[
+        const SizedBox(height: R.s3),
+        Container(
+          key: const ValueKey('izin_karti'),
+          padding: const EdgeInsets.all(R.s5),
+          decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
+          child: Column(children: [
+            const Daire('zil', boyut: 56),
+            const SizedBox(height: R.s4),
+            Text(M.izinSoru,
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
+            const SizedBox(height: R.s4),
+            IkiliSatir(
+              sol: AnaDugme(M.izinEvet, onTap: () => _izinSec(context, d, true)),
+              sag: IkincilDugme(M.izinHayir, yukseklik: 52, onTap: () => _izinSec(context, d, false)),
+            ),
+          ]),
+        ),
+      ],
     ];
+  }
+
+  Future<void> _izinSec(BuildContext context, AppDurum d, bool evet) async {
+    await d.depo.bildirimIzniKaydet(evet);
+    if (!mounted) return;
+    setState(() {});
+    bildir(this.context, evet ? M.izinEvetBildirim : M.izinHayirBildirim);
   }
 }
 
 /// Bir günün kartları (prototipteki ilanCiz ile aynı akış). Test edilebilsin diye ayrı işlev.
+/// §27: şehit ilanı listenin EN ÜSTÜNDE (ilçe görünümünde de, il görünümünde de; ilçesi belirtilmemiş şehit kayıtları dahil).
+/// §21/1: ilanları ilçe vermeyen kaynakta (v.ilceler boş) ilanlar "İl geneli" olarak ana içeriktir.
+/// §21/2: seçili ilçede bugün ilan yoksa ilin bugün ilan okunan diğer ilçeleri gösterilir.
 List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   final secili = v.secili(ilce);
   final anahtarlar = secili.keys.toList()..sort(trKarsilastir);
+  final ilcesiz = v.ilceler.isEmpty;
+
+  List<Widget> kartlar(List<Ilan> l) => [for (final r in l) IlanKarti(key: ValueKey(r.id), ilan: r)];
+
+  List<Ilan> sehitGun(String g) => [
+        for (final k in anahtarlar) ...secili[k]!.where((r) => r.cenazeGunu == g && r.sehit),
+        ...v.genel.where((r) => r.cenazeGunu == g && r.sehit),
+      ];
+
+  List<Ilan> genelGun(String g) => v.genel.where((r) => r.cenazeGunu == g && !r.sehit).toList();
 
   List<Widget> gunKartlari(String g, {bool tarihliBolum = false}) {
     final x = <Widget>[];
-    final sehitler = [for (final k in anahtarlar) ...secili[k]!.where((r) => r.cenazeGunu == g && r.sehit)];
+    final sehitler = sehitGun(g);
     if (sehitler.isNotEmpty) {
       if (ilce == null) x.add(Bolum(tarihliBolum ? '${tarih(g, kisa: true)} · ${M.sehitBolum}' : M.sehitBolum));
-      x.addAll(sehitler.map((r) => IlanKarti(key: ValueKey(r.id), ilan: r)));
+      x.addAll(kartlar(sehitler));
     }
     for (final k in anahtarlar) {
       final l = secili[k]!.where((r) => r.cenazeGunu == g && !r.sehit).toList();
       if (l.isEmpty) continue;
       if (ilce == null) x.add(Bolum(tarihliBolum ? '${tarih(g, kisa: true)} · $k' : k));
-      x.addAll(l.map((r) => IlanKarti(key: ValueKey(r.id), ilan: r)));
+      x.addAll(kartlar(l));
+    }
+    return x;
+  }
+
+  // Geçmiş günler (son 7 gün açılırken): ilçesiz kaynakta "İl geneli" kayıtları da girer
+  List<Widget> gecmisGun(String g) {
+    final x = gunKartlari(g, tarihliBolum: true);
+    if (ilcesiz) {
+      final gl = genelGun(g);
+      if (gl.isNotEmpty) {
+        if (ilce == null) x.add(Bolum('${tarih(g, kisa: true)} · ${M.bolumIlGenelSade}'));
+        x.addAll(kartlar(gl));
+      }
+    }
+    return x;
+  }
+
+  // §21/2: ilin diğer ilçelerinde bugünün ilanları (şehit önce)
+  List<Widget> digerIlceler(String g) {
+    final d = <String, List<Ilan>>{};
+    for (final e in v.ilceler.entries) {
+      if (e.key == ilce) continue;
+      final l = e.value.where((r) => r.cenazeGunu == g).toList();
+      if (l.isNotEmpty) d[e.key] = l;
+    }
+    if (d.isEmpty) return <Widget>[];
+    final adlar = d.keys.toList()..sort(trKarsilastir);
+    final x = <Widget>[
+      Bolum(M.digerIlcelerBaslik(v.il, adlar.take(3).toList(), devami: adlar.length > 3)),
+    ];
+    x.addAll(kartlar([for (final k in adlar) ...d[k]!.where((r) => r.sehit)]));
+    for (final k in adlar) {
+      final l = d[k]!.where((r) => !r.sehit).toList();
+      if (l.isEmpty) continue;
+      x.add(Bolum(k));
+      x.addAll(kartlar(l));
     }
     return x;
   }
 
   final yer = ilce ?? v.il;
-  var h = gunKartlari(gun);
-  if (h.isEmpty && gun == bugun) {
-    // Kaynak var, bugün ilan yok: son 7 gün kendiliğinden açılır
-    h = [BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true)];
-    for (int n = 1; n < 7; n++) {
-      final g = gunEkle(bugun, -n);
-      final x = gunKartlari(g, tarihliBolum: true);
-      if (x.isEmpty) continue;
-      if (ilce != null) h.add(Bolum(tarihGun(g)));
-      h.addAll(x);
+  List<Widget> h = gunKartlari(gun);
+  final genelBugun = ilcesiz ? genelGun(gun) : <Ilan>[];
+  if (h.isEmpty && genelBugun.isEmpty) {
+    if (gun == bugun) {
+      // Kaynak var, bugün ilan yok: önce ilin diğer ilçeleri (§21/2), sonra son 7 gün kendiliğinden açılır
+      h = <Widget>[BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true)];
+      if (ilce != null && !ilcesiz) h.addAll(digerIlceler(bugun));
+      for (int n = 1; n < 7; n++) {
+        final g = gunEkle(bugun, -n);
+        final x = gecmisGun(g);
+        if (x.isEmpty) continue;
+        if (ilce != null) h.add(Bolum(tarihGun(g)));
+        h.addAll(x);
+      }
+    } else {
+      h = <Widget>[BosDurum(baslik: M.bosGecmisBaslik, aciklama: M.bosGecmisAciklama(gun, yer))];
     }
-  } else if (h.isEmpty) {
-    h = [BosDurum(baslik: M.bosGecmisBaslik, aciklama: M.bosGecmisAciklama(gun, yer))];
   }
-  final genel = v.genel.where((r) => r.cenazeGunu == gun).toList();
-  h.add(const Bolum(M.bolumIlGeneli));
-  if (genel.isEmpty) {
-    h.add(const BosDurum(aciklama: M.bosIlGeneli, kucuk: true));
+
+  final genel = genelGun(gun);
+  if (ilcesiz) {
+    if (genel.isNotEmpty) {
+      h.add(const Bolum(M.bolumIlGenelSade));
+      h.addAll(kartlar(genel));
+    }
   } else {
-    h.addAll(genel.map((r) => IlanKarti(key: ValueKey(r.id), ilan: r)));
+    h.add(const Bolum(M.bolumIlGeneli));
+    if (genel.isEmpty) {
+      h.add(const BosDurum(aciklama: M.bosIlGeneli, kucuk: true));
+    } else {
+      h.addAll(kartlar(genel));
+    }
   }
   return h;
 }

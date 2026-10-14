@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../bilesenler/menu.dart';
+import 'aile_formu.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
@@ -108,6 +109,11 @@ class TamSayfaEkrani extends StatelessWidget {
         child: ListView(
           padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
           children: [
+            AnaDugme(M.tamDugme,
+                onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
+                      builder: (_) => AileFormu(il: d.il ?? '', ilce: d.ilce, tam: true),
+                    ))),
+            const SizedBox(height: R.s4),
             Container(
               padding: const EdgeInsets.all(R.s5),
               decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),

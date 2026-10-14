@@ -14,14 +14,17 @@ import '../cekirdek/yardimci.dart';
 class AileFormu extends StatefulWidget {
   final String il;
   final String? ilce;
-  const AileFormu({super.key, required this.il, this.ilce});
+  final bool tam; // Tam Sayfa vefat ilanı (§17/2): il seçilebilir, fiyat kartı, ödeme adımı
+  const AileFormu({super.key, required this.il, this.ilce, this.tam = false});
   @override
   State<AileFormu> createState() => _AileFormuState();
 }
 
 class _AileFormuState extends State<AileFormu> {
   String? _cins;
+  late String _il;
   String? _ilce;
+  bool _odeme = false;
   String _vefat = bugunTr();
   String _namaz = M.namazSecenek.first;
   String _yakinlik = M.yakinlikSecenek.first;
@@ -39,7 +42,8 @@ class _AileFormuState extends State<AileFormu> {
   @override
   void initState() {
     super.initState();
-    _ilce = widget.ilce;
+    _il = widget.il;
+    _ilce = _ilce;
   }
 
   @override
@@ -59,12 +63,17 @@ class _AileFormuState extends State<AileFormu> {
       _onay;
 
   Future<void> _gonder() async {
+    if (widget.tam && odemeAcik) {
+      // Ödeme adımı şimdilik yer tutucu (mağaza içi satın alma bağlanınca burada başlayacak)
+      setState(() => _odeme = true);
+      return;
+    }
     final govde = [
       'Vefat eden: ${_cins == 'e' ? M.erkek : M.kadin}',
       '${M.alanAd}: ${_ad.text.trim()}',
       '${M.alanVefat}: ${tarih(_vefat)}',
       '${M.alanNamaz}: $_namaz',
-      '${M.alanIl}: ${widget.il}',
+      '${M.alanIl}: ${_il}',
       '${M.alanIlce}: ${_ilce ?? '-'}',
       '${M.alanMahalle}: ${_mahalle.text.trim()}',
       '${M.alanCami}: ${_cami.text.trim()}',
@@ -79,7 +88,7 @@ class _AileFormuState extends State<AileFormu> {
       '',
       '${M.hukukKutu} ✓',
     ].join('\n');
-    final ok = await epostaTaslagi(konu: 'Cenaze ilanı · ${widget.il}${_ilce != null ? ' / $_ilce' : ''}', govde: govde);
+    final ok = await epostaTaslagi(konu: 'Cenaze ilanı · ${_il}${_ilce != null ? ' / $_ilce' : ''}', govde: govde);
     if (!mounted) return;
     if (ok) setState(() => _bitti = true);
   }
@@ -96,10 +105,25 @@ class _AileFormuState extends State<AileFormu> {
     if (g != null && mounted) setState(() => _vefat = gunYaz(g));
   }
 
+  Future<void> _ilSec() async {
+    final d = Kapsam.oku(context);
+    final s = await _listeSec(d.gomulu.iller);
+    if (s != null && mounted && s != _il) {
+      setState(() {
+        _il = s;
+        _ilce = null;
+      });
+    }
+  }
+
   Future<void> _ilceSec() async {
     final d = Kapsam.oku(context);
-    final liste = d.ilceListesi(widget.il);
-    final s = await showDialog<String>(
+    final s = await _listeSec(d.ilceListesi(_il));
+    if (s != null && mounted) setState(() => _ilce = s);
+  }
+
+  Future<String?> _listeSec(List<String> liste) {
+    return showDialog<String>(
       context: context,
       builder: (c) {
         final r = c.renk;
@@ -124,7 +148,6 @@ class _AileFormuState extends State<AileFormu> {
         );
       },
     );
-    if (s != null && mounted) setState(() => _ilce = s);
   }
 
   @override
@@ -136,19 +159,38 @@ class _AileFormuState extends State<AileFormu> {
           BaslikCubugu(
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
             sag: const SizedBox(width: 40, height: 40),
-            ust: M.aileUstGiris,
-            baslik: const BuyukBaslik(M.aileBaslik),
+            ust: widget.tam ? M.formTamUst : M.aileUstGiris,
+            baslik: BuyukBaslik(widget.tam ? M.formTamBaslik : M.aileBaslik),
           ),
           Expanded(
             child: ListView(
               padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s8),
-              children: _bitti ? _bittiGorunumu(r) : _form(r),
+              children: _bitti ? _bittiGorunumu(r) : (_odeme ? _odemeGorunumu(r) : _form(r)),
             ),
           ),
         ]),
       ),
     );
   }
+
+  List<Widget> _odemeGorunumu(CvRenk r) => [
+        const SizedBox(height: R.s6),
+        Container(
+          padding: const EdgeInsets.all(R.s5),
+          decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
+          child: Column(children: [
+            Text(M.odemeBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
+            const SizedBox(height: R.s2),
+            Text(M.odemeUrun, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+            const SizedBox(height: R.s4),
+            Text(M.adim5TamTutar, textAlign: TextAlign.center, style: Y.adim(r)),
+            const SizedBox(height: R.s4),
+            Text(M.odemeHazirlaniyor, textAlign: TextAlign.center, style: Y.kucuk(r)),
+          ]),
+        ),
+        const SizedBox(height: R.s5),
+        IkincilDugme(M.odemeGeri, onTap: () => setState(() => _odeme = false)),
+      ];
 
   List<Widget> _bittiGorunumu(CvRenk r) => [
         const SizedBox(height: R.s6),
@@ -214,18 +256,34 @@ class _AileFormuState extends State<AileFormu> {
       Container(
         padding: const EdgeInsets.all(R.s5),
         decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
-        child: Column(children: [
-          Text(M.aileGirisBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
-          const SizedBox(height: R.s2),
-          Text(M.aileGirisAciklama(widget.il), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
-          const SizedBox(height: R.s4),
-          Text(trBuyuk(M.aileGirisEtiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
-          const SizedBox(height: R.s1),
-          Text(M.aileGirisNot, textAlign: TextAlign.center, style: Y.kucuk(r)),
-          _madde(r, M.aileMadde1),
-          _madde(r, M.aileMadde3),
-          _madde(r, M.aileMadde4),
-        ]),
+        child: widget.tam && odemeAcik
+            ? Column(children: [
+                Text(M.fiyatBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
+                const SizedBox(height: R.s2),
+                Text(M.fiyatAciklama, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+                const SizedBox(height: R.s4),
+                Text(trBuyuk(M.fiyatEtiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
+                const SizedBox(height: R.s1),
+                Text(M.fiyatTutar, textAlign: TextAlign.center, style: Y.adim(r)),
+                const SizedBox(height: R.s1),
+                Text(M.fiyatNot, textAlign: TextAlign.center, style: Y.kucuk(r)),
+                _madde(r, M.fiyatMadde1),
+                _madde(r, M.fiyatMadde2),
+                _madde(r, M.fiyatMadde3),
+                _madde(r, M.fiyatMadde4),
+              ])
+            : Column(children: [
+                Text(M.aileGirisBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
+                const SizedBox(height: R.s2),
+                Text(M.aileGirisAciklama(_il), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+                const SizedBox(height: R.s4),
+                Text(trBuyuk(M.aileGirisEtiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
+                const SizedBox(height: R.s1),
+                Text(M.aileGirisNot, textAlign: TextAlign.center, style: Y.kucuk(r)),
+                _madde(r, M.aileMadde1),
+                _madde(r, M.aileMadde3),
+                _madde(r, M.aileMadde4),
+              ]),
       ),
       // 1. Vefat eden
       _baslik(r, M.adim1Baslik, M.adim1Aciklama),
@@ -234,7 +292,7 @@ class _AileFormuState extends State<AileFormu> {
       FormAlani(etiket: M.alanAd, ipucu: M.alanAdYer(_cins), denetleyici: _ad, onChanged: yenile),
       _secimDugmesi(r, M.alanVefat, tarih(_vefat), _tarihSec),
       _secenekler(r, M.alanNamaz, M.namazSecenek, _namaz, (v) => setState(() => _namaz = v)),
-      _secimDugmesi(r, M.alanIl, widget.il, () {}),
+      _secimDugmesi(r, M.alanIl, _il, widget.tam ? _ilSec : () {}),
       _secimDugmesi(r, M.alanIlce, _ilce ?? M.alanIlce, _ilceSec),
       FormAlani(etiket: M.alanMahalle, ipucu: M.alanMahalleYer, denetleyici: _mahalle),
       FormAlani(etiket: M.alanCami, ipucu: M.alanCamiYer, denetleyici: _cami),
@@ -250,7 +308,7 @@ class _AileFormuState extends State<AileFormu> {
       FormAlani(
           etiket: M.adim3Tel, ipucu: M.adim3TelYer, denetleyici: _tel, klavye: TextInputType.phone, onChanged: yenile),
       // 4. Yasal beyan
-      _baslik(r, M.adim5Baslik, M.adim5Aciklama),
+      _baslik(r, widget.tam && odemeAcik ? M.adim5TamBaslik : M.adim5Baslik, M.adim5Aciklama),
       Container(
         padding: const EdgeInsets.all(R.s5),
         decoration: BoxDecoration(
@@ -295,9 +353,13 @@ class _AileFormuState extends State<AileFormu> {
         ]),
       ),
       const SizedBox(height: R.s5),
-      AnaDugme(M.sonDugme, onTap: _hazir ? _gonder : null),
+      if (widget.tam && odemeAcik) ...[
+        Text(M.adim5TamTutar, textAlign: TextAlign.center, style: Y.adim(r)),
+        const SizedBox(height: R.s3),
+      ],
+      AnaDugme(widget.tam && odemeAcik ? M.adim5TamDugme : M.sonDugme, onTap: _hazir ? _gonder : null),
       const SizedBox(height: R.s3),
-      Text(M.aileNot, textAlign: TextAlign.center, style: Y.soluk(r)),
+      Text(widget.tam && odemeAcik ? M.adim5TamNot : M.aileNot, textAlign: TextAlign.center, style: Y.soluk(r)),
     ];
   }
 }
