@@ -19,6 +19,7 @@ env:
   TZ: Europe/Istanbul
   CENAZE_KOPRU: ${{ secrets.CENAZE_KOPRU }}
   CENAZE_KOPRU_ANAHTAR: ${{ secrets.CENAZE_KOPRU_ANAHTAR }}
+  AILE_WORKER_URL: ${{ vars.AILE_WORKER_URL }}
 
 jobs:
   oku:
@@ -122,6 +123,8 @@ jobs:
           python3 okuyucu/sondakika.py || echo "::warning::sondakika yerel akisi okunamadi"
           python3 okuyucu/malatyahaber.py || echo "::warning::malatya haber listesi okunamadi"
           python3 okuyucu/sehit_ulusal.py || echo "::warning::sehit duyurulari okunamadi"
+          # aile ilanlari (Worker). AILE_WORKER_URL repo degiskeni/secret olarak tanimlaninca calisir; Resend + GELISTIRME=0 olmadan TANIMLANMAZ (sahte ilan riski)
+          python3 okuyucu/aile_al.py || echo "::warning::aile ilanlari okunamadi"
           python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
           python3 okuyucu/yerlestirme_denetimi.py veri || echo "::warning::yerlestirme denetimi ihlal buldu (veri/yerlestirme-raporu.json)"   # 14.10.2026: il/ilce/mezarlik tutarliligi (uyari modu)
           python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
