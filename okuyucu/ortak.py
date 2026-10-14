@@ -94,18 +94,52 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
                     kayitlar_by_gun[g] = json.load(f).get("kayitlar", [])
             except Exception:
                 pass
+    # BEKLEME DEPOSU (14.10.2026 sahibi: "bilgi depoda beklesin, yarin sabah tarama yapinca bekleyenlerle birlikte listeye girsin"):
+    # cenaze gunu BUGUNDEN SONRA olan kayit son7gun'a (yayina) GIRMEZ; <klasor>/_bekleyen.json'da bekler, gunu gelince listeye eklenir.
+    # Kaynak sayfa kaydi ertesi gun listeden dusurse bile depodaki kopya korunur. _bekleyen.json yayina gitmez (yayin_suz yalniz son7gun.json birakir).
+    bek_yol = os.path.join(klasor, "_bekleyen.json")
+    def _cenaze_gunu(k):
+        for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
+            if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
+                return t
+        return None
+    bugun_s = bugun_.isoformat()
+    bekleyen = {}
+    try:
+        with open(bek_yol, encoding="utf-8") as f:
+            for k in json.load(f).get("kayitlar", []):
+                bekleyen[k["id"]] = k
+    except Exception:
+        pass
+    def yerlestir(k):
+        if k["id"] in goruldu:
+            return
+        goruldu.add(k["id"])
+        ilce_isle(k, il)
+        if k.get("il_disi_defin"):
+            il_disi.append(k)
+        elif k.get("ilce_belirsiz") or not k.get("ilce"):
+            belirsiz.append(k)
+        else:
+            ilceler.setdefault(k["ilce"], []).append(k)
     for g in gunler:
         for k in kayitlar_by_gun.get(g, []):
-            if k["id"] in goruldu:
+            cg = _cenaze_gunu(k)
+            if cg and cg > bugun_s:
+                bekleyen[k["id"]] = k                   # gelecek tarihli: depoda beklet (yeni okuma eskisinin yerine gecer)
                 continue
-            goruldu.add(k["id"])
-            ilce_isle(k, il)
-            if k.get("il_disi_defin"):
-                il_disi.append(k)
-            elif k.get("ilce_belirsiz") or not k.get("ilce"):
-                belirsiz.append(k)
-            else:
-                ilceler.setdefault(k["ilce"], []).append(k)
+            bekleyen.pop(k["id"], None)                 # artik bugun/gecmis: depodaki kopya gereksiz
+            yerlestir(k)
+    kalan_bek = []
+    for k in bekleyen.values():
+        cg = _cenaze_gunu(k)
+        if cg and cg > bugun_s:
+            if (datetime.strptime(cg, "%Y-%m-%d").date() - bugun_).days <= 4:
+                kalan_bek.append(k)                     # beklemeye devam
+        else:
+            yerlestir(k)                                # gunu geldi: bugunun listesine, yeni bilgilerle birlikte
+    if kalan_bek or os.path.isfile(bek_yol):
+        json_yaz(bek_yol, {"il": il, "kayitlar": kalan_bek, "guncelleme": simdi_iso()})
     ilceler = dict(sorted(ilceler.items(), key=lambda x: katla(x[0])))
     json_yaz(os.path.join(klasor, "son7gun.json"),
              {"il": il, "ilceler": ilceler, "il_disi": il_disi, "ilce_belirsiz": belirsiz,

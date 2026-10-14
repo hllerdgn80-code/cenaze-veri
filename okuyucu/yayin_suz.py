@@ -56,7 +56,8 @@ _CUMLE_KIRINTISI = ("vefat etmis", "vefat etti", "hayatini kaybet", "basta", "al
 _METIN_ALANLARI = ("ilce", "mahalle", "namaz_yeri_vakti", "defin_yeri", "defin_zamani")
 
 
-YEREL_TAZELIK_GUN = 2      # 14.10.2026 sahibi: yerel basin kaydinin referans gunu en fazla 2 gun once (Turkiye saati); +1 gun ileri hosgoru
+YEREL_TAZELIK_GUN = 2      # 14.10.2026 sahibi: yerel basin kaydinin referans gunu en fazla 2 gun once (Turkiye saati)
+YEREL_ILERI_GUN = 2        # 14.10.2026 sahibi: cenaze ertesi ya da ondan sonraki gune kalabilir -> BEKLETME: kayit cenaze gununun sayfasina yerlesir, o gun gelince gorunur
 
 
 def _bugun_tr():
@@ -77,14 +78,14 @@ def yerel_gun(k):
 
 
 def _yerel_taze(k):
-    """Dogrulanmis cenaze gunu [bugun-2, bugun+1] (Turkiye saati) icinde mi?"""
+    """Dogrulanmis cenaze gunu [bugun-2, bugun+YEREL_ILERI_GUN] (Turkiye saati) icinde mi? Ileri tarihli = bekleyen ilan."""
     from datetime import datetime, timedelta
     ref = yerel_gun(k)
     if not ref:
         return False
     b = _bugun_tr()
     d = datetime.strptime(ref, "%Y-%m-%d").date()
-    return b - timedelta(days=YEREL_TAZELIK_GUN) <= d <= b + timedelta(days=1)
+    return b - timedelta(days=YEREL_TAZELIK_GUN) <= d <= b + timedelta(days=YEREL_ILERI_GUN)
 
 
 def yerel_kilidi(k):
