@@ -289,7 +289,7 @@ def main():
             print(f"  {slug}: captcha beklemesi ({CAPTCHA_BEKLEME_SA} sa), istek yok", file=sys.stderr)
             continue
         if _haftalik_atla(slug):
-            durum[slug] = dict(onceki.get(slug) or {}, not="haftalik atlama (3 bos kosu)")
+            durum[slug] = dict(onceki.get(slug) or {}, **{"not": "haftalik atlama (3 bos kosu)"})
             continue
         if toplam_istek >= ISTEK_TAVANI:
             print(f"  {slug}: kosu istek tavani ({ISTEK_TAVANI}) doldu, sonraki kosuya", file=sys.stderr)

@@ -38,7 +38,7 @@ jobs:
         env:
           EDEVLET_KOSU_SAATLERI: "06,18"
           EDEVLET_HIZMET_ARASI_SN: "600"
-          EDEVLET_ISTEK_TAVANI: "60"
+          EDEVLET_ISTEK_TAVANI: "80"
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
       - name: veri-tr/ klasorunu hazirla
         run: |
