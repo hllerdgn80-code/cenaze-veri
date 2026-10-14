@@ -26,6 +26,10 @@ BASIN_TURLERI = ("yerel_basin", "yerel_haber")
 # haber kayıtları (a) ile elenir). Resmî kaynak sıfır kayıt verirse il boş görünür: izle. amasya kaldı (Merzifon Belediyesi robots.txt ile KAPALI).
 YEREL_ILLER = {"agri", "amasya", "ardahan", "bayburt", "bingol", "bitlis", "corum", "diyarbakir", "hakkari", "igdir", "kars",
                "kastamonu", "kilis", "kirklareli", "manisa", "mardin", "mus", "siirt", "sirnak", "tunceli"}
+# 14.10.2026 SAHİBİ KARARI: yerel basın/haber kayıtları YAYINA GİRER, ama yalnız ilan kartındaki ALANLAR olarak (kaynak izi, metin, adres YOK).
+# §28'in 08.10 kuralı bu kararla değişti. Geri almak için YEREL_YAYIN = False (eski davranış: yerel basın kayıtları ve YEREL_ILLER çıkar).
+YEREL_YAYIN = True
+EFEKTIF_YEREL = set() if YEREL_YAYIN else YEREL_ILLER
 # uygulamanın okuyacağı alanlar (başka hiçbir alan yayına gitmez)
 UYGULAMA_ALANLARI = ("id", "il", "ilce", "mahalle", "ad_soyad", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti",
                      "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz",
@@ -44,6 +48,69 @@ def oku(yol):
 def yaz(yol, d):
     with open(yol, "w", encoding="utf-8") as f:
         json.dump(d, f, ensure_ascii=False, separators=(",", ":"))
+
+
+# ---- YEREL BASIN IKINCI KILIDI (14.10.2026): yerel basin/haber kaydi yalniz alanlariyla yayina girer; kapi.py K8 ile ayni olcut, yayin aninda yeniden
+_CUMLE_KIRINTISI = ("vefat etmis", "vefat etti", "hayatini kaybet", "basta", "allah", "rahmet", "taziye", "hakkin", "mesaj", "aramizdan ayril",
+                    "acilari", "sabir", "dileriz", "ailesine", "ailesinin", "yakinlari", "tel:", "telefon", "http", "www.", "@")
+_METIN_ALANLARI = ("ilce", "mahalle", "namaz_yeri_vakti", "defin_yeri", "defin_zamani")
+
+
+YEREL_TAZELIK_GUN = 2      # 14.10.2026 sahibi: yerel basin kaydinin referans gunu en fazla 2 gun once (Turkiye saati); +1 gun ileri hosgoru
+
+
+def _bugun_tr():
+    from datetime import datetime, timedelta, timezone
+    return (datetime.now(timezone.utc) + timedelta(hours=3)).date()
+
+
+def yerel_gun(k):
+    """14.10.2026 sahibi: TARIH ESLESTIRME. Yerel basin kaydi ancak cenaze gunu (namaz/defin tarihi) HABER METNINDEN cikiyorsa
+    (ham.tarih_kaynagi == 'metin': acik tarih YA DA sayfa tarihi + 'bugun'/'yarin' cozumu, okuyucu tarafinda yapilir) o gunun sayfasina girer;
+    'yayin_tarihi' (varsayim) ve tarihsiz kayit ASLA. Doner: 'YYYY-AA-GG' ya da None."""
+    if (k.get("ham") or {}).get("tarih_kaynagi") != "metin":
+        return None
+    for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
+        if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
+            return t
+    return None
+
+
+def _yerel_taze(k):
+    """Dogrulanmis cenaze gunu [bugun-2, bugun+1] (Turkiye saati) icinde mi?"""
+    from datetime import datetime, timedelta
+    ref = yerel_gun(k)
+    if not ref:
+        return False
+    b = _bugun_tr()
+    d = datetime.strptime(ref, "%Y-%m-%d").date()
+    return b - timedelta(days=YEREL_TAZELIK_GUN) <= d <= b + timedelta(days=1)
+
+
+def yerel_kilidi(k):
+    """True = yayina girebilir. TAZELIK ONCE: eski/tarihsiz yerel kayit asla girmez. Ad 2-5 sozcuk, rakamsiz; metin alanlari <=60 karakter ve cumle kirintisi icermez; en az bir cenaze bilgisi var."""
+    if not _yerel_taze(k):
+        return False
+    # CAPA TUTARLILIGI (14.10.2026): cenaze gunu sayfa tarihine gore [-1, +2] gun disindaysa ('yarin'/'bugun' cozumu bozuk ya da tarih celiskili) REDDET
+    ref, sayfa = yerel_gun(k), (k.get("ham") or {}).get("sayfa_tarihi")
+    if sayfa and re.fullmatch(r"\d{4}-\d{2}-\d{2}", sayfa):
+        from datetime import datetime
+        f = (datetime.strptime(ref, "%Y-%m-%d").date() - datetime.strptime(sayfa, "%Y-%m-%d").date()).days
+        if not -1 <= f <= 2:
+            return False
+    ad = (k.get("ad_soyad") or "").strip()
+    if not 2 <= len(ad.split()) <= 5 or re.search(r"[\d@:/()!]", ad):
+        return False
+    for a in _METIN_ALANLARI:
+        v = k.get(a)
+        if v is None:
+            continue
+        if not isinstance(v, str) or len(v) > 60:
+            return False
+        t = _kat(v)
+        if any(x in t for x in _CUMLE_KIRINTISI):
+            return False
+    return any(k.get(a) for a in ("namaz_yeri_vakti", "defin_yeri", "namaz_tarihi", "defin_zamani", "vefat_tarihi"))
 
 
 def kayit_suz(k):
@@ -138,7 +205,17 @@ def il_ici_tekille(tum):
 
 
 def son7_suz(d):
-    resmi = lambda l: [kayit_suz(k) for k in l if k.get("kaynak_turu") not in BASIN_TURLERI and not isimsiz_bebek(k)]
+    def kabul(k):
+        if isimsiz_bebek(k):
+            return False
+        if k.get("kaynak_turu") in BASIN_TURLERI:
+            return YEREL_YAYIN and yerel_kilidi(k)          # yerel basin: yalniz YEREL_YAYIN acikken ve ikinci kilitten gecerse
+        return True
+    def yerlestir(k):
+        if k.get("kaynak_turu") in BASIN_TURLERI:
+            k = dict(k); k["liste_tarihi"] = yerel_gun(k)        # kayit DOGRULANMIS cenaze gununun sayfasina yerlesir
+        return k
+    resmi = lambda l: [kayit_suz(yerlestir(k)) for k in l if kabul(k)]
     ilceler = {i: resmi(l) for i, l in (d.get("ilceler") or {}).items()}
     ilceler = {i: l for i, l in ilceler.items() if l}
     out = {"il": d.get("il"), "ilceler": ilceler, "il_disi": resmi(d.get("il_disi") or []),
@@ -184,7 +261,7 @@ def suz(kok):
                     shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
             continue
         son = os.path.join(yol, "son7gun.json")
-        if ad.startswith("_") or ad in YEREL_ILLER or not os.path.isfile(son):
+        if ad.startswith("_") or ad in EFEKTIF_YEREL or not os.path.isfile(son):
             shutil.rmtree(yol)
             cikan.append(ad)
             continue
@@ -243,7 +320,7 @@ def denetle(kok):
         yol = os.path.join(kok, ad)
         if not os.path.isdir(yol) or ad == "kaybettiklerimiz":
             continue
-        if ad in YEREL_ILLER:
+        if ad in EFEKTIF_YEREL:
             hata.append(f"{ad}: yerel basın ili yayında")
         for dosya in os.listdir(yol):
             if dosya != "son7gun.json":
@@ -257,6 +334,10 @@ def denetle(kok):
             fazla = set(k) - set(UYGULAMA_ALANLARI)
             if fazla:
                 hata.append(f"{ad}/{k.get('id')}: yasak alan {sorted(fazla)}")
+        if YEREL_YAYIN:
+            for k in tum:
+                if not yerel_kilidi(k) and ad in YEREL_ILLER:
+                    hata.append(f"{ad}/{k.get('id')}: yerel basın kaydı ikinci kilidi geçmiyor")
         for k in tum:
             if isimsiz_bebek(k):
                 hata.append(f"{ad}/{k.get('id')}: isimsiz bebek yayında")
@@ -275,7 +356,7 @@ def denetle(kok):
             ham = open(yol, encoding="utf-8").read()
             if URL.search(ham):
                 hata.append(f"{ad}: adres metinde")
-            for il in YEREL_ILLER:
+            for il in EFEKTIF_YEREL:
                 if f'"{il}"' in ham:
                     hata.append(f"{ad}: yerel basın ili '{il}' geçiyor")
     if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(kok)), "veri.tar.gz")):
