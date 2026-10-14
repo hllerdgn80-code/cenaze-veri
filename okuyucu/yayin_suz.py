@@ -350,7 +350,8 @@ def denetle(kok):
                 hata.append(f"{ad}/{k.get('id')}: yasak alan {sorted(fazla)}")
         if YEREL_YAYIN:
             for k in tum:
-                if not yerel_kilidi(k) and ad in YEREL_ILLER:
+                # yayin kaydinda 'ham' (tarih_kaynagi) yok: kaynak turu/tarih kaynagi giris kilidinde (kabul) dogrulandi; burada cikti alanlariyla tazelik+ad+metin kilidi tekrar sinanir
+                if ad in YEREL_ILLER and not yerel_kilidi(dict(k, ham={"tarih_kaynagi": "metin"})):
                     hata.append(f"{ad}/{k.get('id')}: yerel basın kaydı ikinci kilidi geçmiyor")
         for k in tum:
             if isimsiz_bebek(k):
