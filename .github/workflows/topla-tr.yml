@@ -34,7 +34,7 @@ jobs:
           done
       - name: Illeri oku (Turkiye'den)
         run: python3 okuyucu/hepsi.py $TR_ILLER
-      - name: e-Devlet vefat sorgulama (yalniz TR IP; NAZIK KULLANIM: 06 ve 18 kosularinda, hizmetler arasi 10 dk, kosu basina <=60 istek; CAPTCHA gorunce 6 sa bekler)
+      - name: "e-Devlet vefat sorgulama (yalniz TR IP; nazik kullanim - 06 ve 18 kosulari, hizmetler arasi 10 dk, kosu basina en cok 60 istek; CAPTCHA gorunce 6 sa bekler)"
         env:
           EDEVLET_KOSU_SAATLERI: "06,18"
           EDEVLET_HIZMET_ARASI_SN: "600"
