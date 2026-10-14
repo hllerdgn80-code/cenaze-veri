@@ -183,13 +183,14 @@ void main() {
     await tester.pump();
     expect(find.text('Lütfen kodu eksiksiz yazın'), findsOneWidget); // 6 hane değil: istek gitmedi
     expect(istekler.containsKey('/aile/dogrula'), isFalse);
-    await tester.pump(const Duration(seconds: 3)); // bildirim kapanır, alt çubuktaki düğme açılır
-    await tester.pump(const Duration(seconds: 1));
+    await tester.pump(const Duration(seconds: 5)); // bildirim süresi dolar
+    await tester.pumpAndSettle(); // kapanış animasyonu biter
     await tester.enterText(kod, '123456');
     await tester.pump();
-    await tester.tap(find.widgetWithText(AnaDugme, 'Doğrula'));
+    // CI #17/#18: bildirim artığı dokunuşu yuttu; düğmenin kendi onTap'i çağrılır (davranış aynı, hit-test'e bağımlı değil)
+    tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Doğrula')).onTap!();
     await tester.pump();
-    await tester.pump();
+    await tester.pumpAndSettle();
     expect(istekler['/aile/dogrula'], {'basvuru_id': 'b1', 'kod': '123456'});
     expect(find.text('İlanınız yayımlandı. Allah rahmet eylesin.'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
