@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Kırklareli: belediye listesi yok -> YEREL HABER siteleri, TEK KİŞİLİK vefat haberleri (site sahibi kararı 08.10.2026).
-Kaynaklar: Alternatif Gazetesi, Kırklareli Gazetesi. Ayrıntı ve hacim: arastirma/yerel-haber-2026-10-08.md.
+Kaynaklar: Alternatif Gazetesi, Kırklareli Gazetesi, Önadım Gazetesi. Ayrıntı ve hacim: arastirma/yerel-haber-2026-10-08.md.
 Her site ayrı kaynak; dizin = sitenin RSS'i (6 saat önbellek), site başına günde en çok 3 istek (robots.txt dahil).
 Yalnız olgu (ad, yaş, ilçe/köy, tarih, cami + vakit, mezarlık); sitenin cümlesi, ölüm nedeni, yakın adı, fotoğraf ALINMAZ (ortak_haber).
 Kullanım: python3 okuyucu/kirklareli.py [--gun 7] [--ilce "Kaynak Adı"]
@@ -14,6 +14,8 @@ IL = "Kırklareli"
 SITELER = [
     oh.site("Alternatif Gazetesi", "kirklareli-alternatifgazetesi", "https://www.alternatifgazetesi.com/rss", ek_dizin="https://www.alternatifgazetesi.com/sitemap/sitemap-{AY}.xml"),
     oh.site("Kırklareli Gazetesi", "kirklareli-kirklareligazetesi", "https://www.kirklareligazetesi.com.tr/rss", ek_dizin="https://www.kirklareligazetesi.com.tr/sitemap/sitemap-{AY}.xml"),
+    # H51 (14.10.2026): vefat haberleri günlük, ad + mahalle/ilçe + helallik/defin; robots serbest
+    oh.site("Önadım Gazetesi", "kirklareli-onadim", "https://www.onadimgazetesi.com/rss.xml"),
 ]
 
 

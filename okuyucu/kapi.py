@@ -45,6 +45,7 @@ YEREL_BASIN = {
     "cenazeilanlari.com.tr": "cenazeilanlari.com.tr",   # 14.10.2026: cenazeilanlari.py (ulusal toplayici; Trabzon/Gumushane/Rize/Samsun/Bayburt)
     "Yozgat Hakimiyet": "www.yozgathakimiyet.com.tr",   # 14.10.2026: yozgat.py hakimiyet() /vefat kartlari
     "Bayburt Postası": "www.bayburtpostasi.com.tr",   # 14.10.2026: bayburt.py RSS + site haritasi + taziye
+    "Önadım Gazetesi": "onadimgazetesi.com",   # 14.10.2026: kirklareli.py RSS (gunluk adli vefat haberi)
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",
