@@ -59,6 +59,15 @@ jobs:
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: python3 araclar/android_ayarla.py
 
+      - name: Veri kapisi anahtari (secrets.KC_ANAHTAR -> lib/cekirdek/anahtar.dart; yoksa yer tutucu kalir ve uyari verilir)
+        env:
+          KC_ANAHTAR: ${{ secrets.KC_ANAHTAR }}
+        run: |
+          if [ -n "$KC_ANAHTAR" ]; then
+            sed -i "s/YERTUTUCU_CI_SECRET_KC_ANAHTAR/$KC_ANAHTAR/" lib/cekirdek/anahtar.dart && echo "anahtar yazildi"
+          else
+            echo "::warning::KC_ANAHTAR secret yok: uygulama veri kapisindan 403 alir"
+          fi
       - name: Kod denetimi
         run: flutter analyze --no-fatal-infos --no-fatal-warnings
 

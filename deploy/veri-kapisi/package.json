@@ -1,0 +1,6 @@
+{
+  "name": "kimincenazesi-veri-kapisi",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test test/kapi.test.js" }
+}
