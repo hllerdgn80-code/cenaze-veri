@@ -43,6 +43,8 @@ YEREL_BASIN = {
     "Son Dakika Yerel": "www.sondakika.com",   # 14.10.2026: sondakika.py (RSS yerel akisi)
     "Malatya Haber": "www.malatyahaber.com",   # 14.10.2026: malatyahaber.py (vefat-edenler listesi)
     "cenazeilanlari.com.tr": "cenazeilanlari.com.tr",   # 14.10.2026: cenazeilanlari.py (ulusal toplayici; Trabzon/Gumushane/Rize/Samsun/Bayburt)
+    "Yozgat Hakimiyet": "www.yozgathakimiyet.com.tr",   # 14.10.2026: yozgat.py hakimiyet() /vefat kartlari
+    "Bayburt Postası": "www.bayburtpostasi.com.tr",   # 14.10.2026: bayburt.py RSS + site haritasi + taziye
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",
