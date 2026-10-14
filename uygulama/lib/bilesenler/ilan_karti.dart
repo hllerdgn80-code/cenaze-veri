@@ -32,6 +32,10 @@ class IlanKarti extends StatelessWidget {
         const Hap(M.sehitEtiket, zemin: R.sehitAl, renk: Colors.white),
         const SizedBox(height: R.s3),
       ],
+      if (ilan.bebek && !sh) ...[
+        Hap(M.kartBebek, zemin: r.vurguZemin, renk: r.vurguMetin),
+        const SizedBox(height: R.s3),
+      ],
       if (ilan.aile) ...[
         Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
         const SizedBox(height: R.s3),
