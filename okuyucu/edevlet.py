@@ -253,7 +253,7 @@ def main():
     # ilçe hizmetleri önce, il geneli sonra
     sira = sorted(HIZMETLER.items(), key=lambda kv: (kv[1][1] is None, kv[0]))
     toplam = {}
-    if KOSU_SAATLERI and not secili and not kuru:
+    if KOSU_SAATLERI and not secili and not kuru and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":   # elle tetiklenen kosu saat kapisini gecer
         saat = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%H")
         if saat not in [x.strip() for x in KOSU_SAATLERI.split(",")]:
             print(f"e-Devlet: kosu saati degil (TR {saat}; izinli {KOSU_SAATLERI}), istek yok", file=sys.stderr)
