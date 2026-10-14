@@ -1,5 +1,5 @@
 // Cihaz deposu (shared_preferences). Hiçbir veri cihaz dışına gönderilmez.
-// Anahtarlar: il, ilce, tema, kayit (Sayfam), sayac, cins, onbellek_<il>.
+// Anahtarlar: il, ilce, tema, kayit (Sayfam), sayac, cins, izin, onbellek_<il>.
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,6 +35,10 @@ class Depo {
   // ---- Tema ('koyu' varsayılan) ----
   bool get koyu => (_p.getString('tema') ?? 'koyu') == 'koyu';
   Future<void> temaKaydet(bool koyu) => _p.setString('tema', koyu ? 'koyu' : 'acik');
+
+  // ---- Bildirim izni teklifi (§21.3): null = henüz sorulmadı ----
+  bool? get bildirimIzni => _p.getBool('izin');
+  Future<void> bildirimIzniKaydet(bool evet) => _p.setBool('izin', evet);
 
   // ---- JSON yardımcıları ----
   Map<String, dynamic> _harita(String k) {

@@ -2,6 +2,12 @@
 // Süzgeç: pazar dili yok, ölüm sayısı yok, ünlem yok, "ücretsiz/elle/moderatör" yok, merhum/merhume kuralı.
 import 'yardimci.dart';
 
+/// §28: ücretli ilan bu sürümde kapalı. true olursa Tam Sayfa formunda fiyat kartı ve ödeme adımı görünür.
+const bool odemeAcik = false;
+
+/// Push paketi (Firebase) bağlanana dek kaynaksız ilde bildirim teklifi sorulmaz.
+const bool bildirimTeklifiAcik = false;
+
 class M {
   M._();
 
@@ -20,11 +26,17 @@ class M {
   static const ilanlarUst = 'Cenaze İlanları';
   static const seritBugun = 'Bugün';
   static const bolumIlGeneli = 'İl geneli (ilçe belirtilmemiş)';
+  // §21/1: ilanları ilçe vermeyen kaynakta (ör. Gaziantep) ilanlar zaten "İl geneli"dir; parantezli açıklama gerekmez
+  static const bolumIlGenelSade = 'İl geneli';
+  // §21/2: kullanıcının ilçesinde bugün ilan yoksa ilde bugün okunan ilçeler ("Muğla’da bugün: Bodrum, Fethiye, Milas…")
+  static String digerIlcelerBaslik(String il, List<String> ilceler, {bool devami = false}) =>
+      '${ek(il)} bugün: ${ilceler.join(', ')}${devami ? '…' : ''}';
   static const kartNamaz = 'Cenaze namazı';
   static const kartDefin = 'Defin';
   static const kartKaydet = 'Sayfama kaydet';
   static const kartKaydedildi = 'Sayfamda ✓';
   static const kartYakini = 'Yakını paylaştı';
+  static const kartBebek = 'Bebek'; // §32: adı olan bebek kaydında rozet
   static const kartKaldir = 'Sayfamdan kaldır';
   static const kaldirSoru = 'Bu kaydı sayfanızdan kaldırmak istiyor musunuz?';
   static const kaldirVazgec = 'Vazgeç';
@@ -41,6 +53,12 @@ class M {
   static String kaynaksizBaslik(String il) => '${ek(il)} cenaze ilanları şu an yakınları tarafından paylaşılıyor.';
   static const kaynaksizAciklama = 'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra burada görünür.';
   static const kaynaksizDugme = 'Cenaze ilanı paylaş';
+  static const kaynaksizBugun = 'Bugün';
+  static const izinSoru = 'İlçenizde cenaze ilanı paylaşıldığında haber verelim mi?';
+  static const izinEvet = 'Haber verin';
+  static const izinHayir = 'Şimdi değil';
+  static const izinEvetBildirim = 'Paylaşıldığında haber vereceğiz';
+  static const izinHayirBildirim = 'Bildirim gönderilmeyecek';
   static const ilanVerAciklama = 'Aradığınız ilan burada yoksa, yakınınızın ilanını siz de paylaşabilirsiniz.';
 
   // 4. Aile formu
@@ -112,6 +130,26 @@ class M {
   // v0.1 eki (METIN-SOZLUGU §16): ücretli ilan ilk sürümde kapalı (URUN-TASLAGI §28)
   static const tamYakinda = 'Tam sayfa vefat ilanları yakında';
   static const fiyatAciklama = 'Gazetedeki vefat ilanının uygulamadaki karşılığı.';
+  static const tamDugme = 'Vefat ilanı hazırlayın';
+  static const formTamUst = 'Tam sayfa';
+  static const formTamBaslik = 'Vefat İlanı';
+  static const fiyatBaslik = 'Tam sayfa vefat ilanı';
+  static const fiyatEtiket = 'Tek seferlik';
+  static const fiyatTutar = '200 ₺';
+  static const fiyatNot = 'Abonelik değildir, bir kez ödenir';
+  static const fiyatMadde1 = 'Türkiye genelinde görünür';
+  static const fiyatMadde2 = 'Metni sizinle birlikte hazırlanır';
+  static const fiyatMadde3 = 'Cami ve mezarlık haritada gösterilir';
+  static const fiyatMadde4 = 'Yayından önce doğrulanır ve kontrol edilir';
+  static const adim5TamBaslik = 'Yasal beyan ve ödeme';
+  static const adim5TamTutar = 'Ödenecek: 200 ₺';
+  static const adim5TamDugme = 'Ödemeye geç';
+  static const adim5TamNot = 'İlanınız ödeme ve kontrolden sonra yayımlanır.';
+  static const odemeBaslik = 'Ödeme — Mağaza içi satın alma';
+  static const odemeUrun = 'Tam sayfa cenaze ilanı — Kimin Cenazesi · tek seferlik satın alma';
+  // Yer tutucu: mağaza içi satın alma bağlanana dek (süzgeç: pazar dili yok)
+  static const odemeHazirlaniyor = 'Ödeme adımı hazırlanıyor. Bilgileriniz bu aşamada gönderilmez.';
+  static const odemeGeri = 'Forma dönün';
 
   // 7. Sayfam
   static const sayfamUst = 'Rahmetle anıyoruz';
@@ -181,7 +219,7 @@ class M {
   static const oneriTamamDugme = 'Tamam';
   static const hakkindaBaslik = 'Kimin Cenazesi';
   static const hakkindaMetin =
-      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1';
+      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.1';
   static const gizlilikBaslik = 'Gizlilik';
   static const gizlilikMetin =
       'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.';
