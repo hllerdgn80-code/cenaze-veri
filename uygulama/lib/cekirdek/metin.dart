@@ -41,6 +41,7 @@ class M {
   static String kaynaksizBaslik(String il) => '${ek(il)} cenaze ilanları şu an yakınları tarafından paylaşılıyor.';
   static const kaynaksizAciklama = 'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra burada görünür.';
   static const kaynaksizDugme = 'Cenaze ilanı paylaş';
+  static const ilanVerAciklama = 'Aradığınız ilan burada yoksa, yakınınızın ilanını siz de paylaşabilirsiniz.';
 
   // 4. Aile formu
   static const aileBaslik = 'Cenaze İlanı';
