@@ -312,9 +312,11 @@ def mezarlik_ilce_bul(il, defin_yeri):
     v = d.get(n)
     if v is None:
         return None
-    gecerli = set(ilce_listesi(il))
+    gecerli = gecerli_ilceler(il)
     if isinstance(v, str):
         return ("ilce", v) if v in gecerli else None
+    if any(x not in gecerli for x in (v.get("belirsiz") or [])):
+        return None            # H61: adaylardan biri gecerli ilce degil (orn. 'Merkez' listede yok) -> kalani secmek tahmin olur
     adaylar = [x for x in (v.get("belirsiz") or []) if x in gecerli]
     return ("belirsiz", adaylar) if len(adaylar) > 1 else (("ilce", adaylar[0]) if adaylar else None)
 
@@ -359,6 +361,225 @@ def _ipucu_isle(kayit, il):
     return kayit
 
 
+# ---- H61 (15.10.2026) EK KATMANLAR: ilce adi metinde / mahalle-koy tablosu / ad sifati. Hepsi YALNIZ kesin eslesmede ilce yazar,
+# yalniz kaydin KENDI ilinin ilceleri icinde; tahmin yok. Etiketler ham.ilce_kaynagi: ilce_adi_metinde | mahalle_tablo | ad_sifati.
+_MAH_YOLU = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mahalle_ilce.json")
+_mah_onbellek = {}
+_MAH_EK = {"mah", "mahallesi", "mahalle", "mh", "mahalles", "koy", "koyu", "koyunde", "koyunun", "koyundeki", "mevkii", "mevki", "beldesi", "belde"}
+_STOP = {"mezarligi", "mezarlik", "mez", "mzl", "kabristan", "kabristanligi", "cami", "camii", "camisi", "camiinde", "mescidi", "mescit",
+         "mah", "mahallesi", "mh", "koy", "koyu", "koyunde", "merkez", "yeni", "eski", "asri", "aile", "sehir", "sehitligi"}
+# ilce adi gunluk sozcukle ayni (ya da kisi/tarihi adla ortak) -> yalniz ilce adi + (ilcesi|belediyesi|mezarligi|cami eki) disinda baska sozcuk yoksa
+_GENEL_ILCE = {"guney", "kale", "bozkurt", "cardak", "merkez", "maden", "bahce", "gonen", "sultan", "kemer", "cay", "ova", "yildirim",
+               "orhangazi", "osmangazi", "gazi", "ulas", "yenice"}
+_STOP_MEZ = {"mezarligi", "mezarlik", "mez", "mzl", "kabristan", "kabristanligi"}   # cami sozcugu BILEREK yok: 'Orhangazi Camii' Bursa'da Osmangazi'dedir
+_IZINLI_REST = _STOP_MEZ | {"merkez", "yeni", "eski", "kent", "belediyesi", "ilcesi", "ilce", "cem", "evi", "cemevi", "cami", "camii", "camisi", "sehir", "sehitlik", "sehitligi", "asri"}
+_ILCE_DEMIR = {"ilcesinden", "ilcesine", "ilcesindeki", "nakil", "otobus", "kilitlenmis"}
+
+
+# Ad sifati ("Keskinli Enver ...") kaynakta KISININ MEMLEKETIDIR, cenaze yeri degil: Kirikkale'de "Keskinli X" ilanlarinin camileri
+# Kirikkale merkezindedir (Yunus Emre, Etiler Ulu, Nokta Camii...). Bu yuzden varsayilan KAPALI (kesin eslesme ilkesi); yalniz sahibi acarsa True.
+AD_SIFATI_ACIK = False
+_GENEL_DEFIN = {"koy", "koyu", "mezarlik", "mezarligi", "mez", "mzl", "koy mezarligi", "mahalle", "mah", "belde", "yeni", "eski", "asri"}
+
+
+# Tablolar (OSM) 'Merkez' ilcesini de biliyor; ama ilceler.json'da Merkez yok (yalniz Batman, Giresun) ve kaynaklar 'Merkez'i kendileri
+# yazmadikca uygulama Merkez gostermez. True yapilirsa tablolardan gelen 'Merkez' de yazilir (H61: ~110 kayit daha). SAHIBI KARARI bekliyor.
+MERKEZ_ETKIN = False
+
+
+def gecerli_ilceler(il):
+    g = set(ilce_listesi(il))
+    if MERKEZ_ETKIN:
+        g.add("Merkez")
+    return g
+
+
+def mahalle_tablosu():
+    if not _mah_onbellek:
+        try:
+            with open(_MAH_YOLU, encoding="utf-8") as f:
+                _mah_onbellek.update(json.load(f))
+        except Exception:
+            _mah_onbellek["_yok"] = True
+    return _mah_onbellek
+
+
+def mahalle_norm(ad):
+    """Mahalle/koy anahtari: katla, 'mah/mahallesi/koy/koyu' eklerini at; '(', '-', ',' sonrasini at."""
+    s = re.split(r"[(,\-]", ad or "")[0]
+    return " ".join(t for t in katla(s).split() if t not in _MAH_EK)
+
+
+def _alt_dizi(tk, it):
+    n = len(it)
+    return [i for i in range(len(tk) - n + 1) if tk[i:i + n] == it]
+
+
+def ilce_adi_metinde(il, metin):
+    """metin (mezarlik/cami/defin yeri) o ilin TEK bir ilce adini tam sozcuk olarak iceriyorsa onu doner, aksi hâlde None.
+    Atlanir: baska il adi gecen metin, 'nakil/otobus/ilcesinden'; genel sozcuk olan ilce adlari (Merkez, Maden, Kale...) yalniz
+    baska anlamli sozcuk eslik etmiyorsa ('Maden Mezarligi', 'Maden Ilcesi')."""
+    tk = katla(metin).split()
+    if not tk or _ILCE_DEMIR & set(tk):
+        return None
+    liste = ilce_listesi(il)
+    bulunan = {}
+    for x in liste:
+        it = katla(x).split()
+        if it == ["merkez"]:
+            continue                      # 'Merkez Mezarligi' baska ilcenin merkez mezarligi de olabilir: metinden Merkez cikarilmaz
+        for i in _alt_dizi(tk, it):
+            bulunan.setdefault(x, []).append((i, i + len(it)))
+    if len(bulunan) != 1:
+        return None
+    ad, yerler = next(iter(bulunan.items()))
+    # baska ilin adi (ilce adinin parcasi degilse) -> metin baska yeri anlatiyor olabilir
+    kapsanan = {j for (a, b) in yerler for j in range(a, b)}
+    for ilk in ilce_verisi()["_iller"]:
+        if katla(ilk) == katla(il):
+            continue
+        for i in _alt_dizi(tk, katla(ilk).split()):
+            if i not in kapsanan:
+                return None
+    il_tk = set(katla(il).split())
+    if katla(ad) in _GENEL_ILCE:
+        kalan = [t for j, t in enumerate(tk) if j not in kapsanan and t not in _STOP_MEZ and t not in il_tk and t not in ("ilcesi", "belediyesi", "ilce", "merkez")]
+        if kalan:
+            return None
+    # KABUL BICIMLERI (15.10.2026 'Harran Aile Mezarligi' dersi: Sanliurfa SEHIR mezarligi, Harran ilcesinde degil; ilce adi yon/yol adi olabilir):
+    # (a) ilce adindan baska yalniz mezarlik/cami/merkez/belediye/ilce/il adi sozcukleri ('Gebze Mezarligi', 'Usak Ulubey Ilcesi')
+    # (b) ilce adi, 'Koyu/Koyunde/Mah./Belde' isaretcisinden ONCE ('Banaz Alaba Koyu', 'Kibriscik Kizilcaoren Koyunde')
+    # (c) ilce adinin hemen ardindan mezarlik sozcugu ('Uzumlu Mezarligina')
+    rest = [t for j, t in enumerate(tk) if j not in kapsanan]
+    ilk, son = min(a for a, b in yerler), max(b for a, b in yerler)
+    a_ok = all(t in _IZINLI_REST or t in il_tk for t in rest)
+    b_ok = any(t in _KOY_ISARET for t in tk[son:]) or "belde" in tk[son:]
+    c_ok = son < len(tk) and (tk[son] in _STOP_MEZ or tk[son] in ("mezarligina", "mezarliginda", "mezarligindan"))
+    if not (a_ok or b_ok or c_ok):
+        return None
+    return ad
+
+
+_YER_EK = {"mezarligi", "mezarlik", "mez", "mzl", "kabristan", "kabristanligi", "cami", "camii", "camisi", "camiinde", "mescidi", "mescit", "cemevi"}
+_YER_SIFAT = {"merkez", "yeni", "eski", "asri", "istasyon", "aile", "park", "sehir", "belediye"}   # 'Halidere Merkez Mezarligi' -> halidere
+
+
+def yer_anahtarlari(ad):
+    """Mezarlik/cami/mahalle metninden yerlesim adi adaylari: tam ad ve (sonda yalniz 'merkez/yeni/kent...' sifati varsa) bas kisim."""
+    tk = [t for t in mahalle_norm(ad).split() if t not in _YER_EK]
+    out = []
+    if tk:
+        out.append(" ".join(tk))
+        h = list(tk)
+        while len(h) > 1 and h[-1] in _YER_SIFAT:
+            h.pop()
+            out.append(" ".join(h))
+    return out
+
+
+_KOY_ISARET = {"koyu", "koyunde", "koyunun", "koyundeki", "koyune", "koyunden", "koy", "mah", "mahallesi", "mahallesinde", "mahallesindeki", "mh", "mahalle"}
+
+
+def koy_adaylari(metin):
+    """Serbest metinden ('Kibriscik Kizilcaoren Koyunde kilinacak...', 'Akbelen Koyu - Ikindi') 'X Koyu/Mahallesi' oncesindeki 1-3 sozcuk:
+    en uzundan kisaya anahtar listesi. Tek tek sozcuk degil, YER ISARETCISIYLE biten kume aranir."""
+    tk = katla(metin).split()
+    out = []
+    for i, t in enumerate(tk):
+        if t in _KOY_ISARET and i > 0:
+            for n in (3, 2, 1):
+                if i - n >= 0:
+                    a = [x for x in tk[i - n:i] if x not in _KOY_ISARET]
+                    if len(a) == n:
+                        out.append(" ".join(a))
+    return out
+
+
+# Kent mahalleleri (OSM suburb/neighbourhood) icin '_kent' bolumu: OSM'de eksik -> canli veride yalniz ~%66 uyum (15.10.2026) -> VARSAYILAN KAPALI.
+KENT_MAHALLE_ETKIN = False
+
+
+def _mahalle_ilce(il, ad):
+    """-> ilce | None. mahalle_ilce.json = {il_slug: {mahalle_norm: ilce}} (koy/mezra); '_kent' yalniz KENT_MAHALLE_ETKIN iken.
+    Ayni ad birden cok ilcedeyse tabloya hic girmez."""
+    t = dict(mahalle_tablosu().get(il_slug(il)) or {})
+    if KENT_MAHALLE_ETKIN:
+        for k, v in ((mahalle_tablosu().get("_kent") or {}).get(il_slug(il)) or {}).items():
+            t.setdefault(k, v)
+    gecerli = gecerli_ilceler(il)
+    for n in yer_anahtarlari(ad) + koy_adaylari(ad):
+        v = t.get(n)
+        if isinstance(v, str) and v in gecerli:
+            return v
+    return None
+
+
+def _ad_sifati_ilce(il, ad_soyad):
+    """'Keskinli Enver Yildizli' -> Keskin (ilce adi + li/lu eki, ad_soyad'in ILK sozcugu, ilcenin kendi ilinin listesinde). Ad DEGISTIRILMEZ."""
+    tk = katla(ad_soyad).split()
+    if len(tk) < 2:
+        return None
+    ilk, adaylar = tk[0], []
+    for x in ilce_listesi(il):
+        k = katla(x)
+        if " " in k or katla(x) in _GENEL_ILCE:
+            continue
+        for ek in ("li", "lu"):
+            if ilk == k + ek:
+                adaylar.append(x)
+    # unlu uyumu: son unlu e/i -> li, a/ı -> li degil lı ... katla() ı->i yaptigindan 'li' ve 'lu' (u/ü->u) kapsar
+    return adaylar[0] if len(adaylar) == 1 else None
+
+
+def namaz_parcalari(ny):
+    """'Ogle - Halidere Merkez Cami' / 'Karsiyaka Merkez Camii - Ikindi Namazi' -> parcalar (en cok 3)."""
+    return [p.strip() for p in re.split(r"\s[-\u2013]\s|\sMüteakiben\s", ny or "") if p.strip()][:3]
+
+
+def _ek_katmanlar(kayit, il):
+    """ilce yok + il disi degil -> sirayla: ilce adi metinde (defin_yeri, namaz_yeri_vakti) -> mahalle/koy tablosu (mahalle, defin_yeri, namaz yeri)
+    -> ad sifati. Ilk KESIN sonuc yazilir; hicbiri yoksa dokunmaz."""
+    if kayit.get("ilce") or kayit.get("il_disi_defin") or not kayit.get("ilce_belirsiz", True):
+        return kayit
+    try:
+        ilce, kaynak = None, None
+        dy = kayit.get("defin_yeri")
+        ilce = ilce_adi_metinde(il, dy)
+        if not ilce:
+            # mahalle alani 'Beycuma Saraycik Koyu' gibi '<ilce> <yerlesim> <Koyu|Mah.>' biciminde ise (ilce adi BASTA, arada en az bir sozcuk)
+            mh = katla(kayit.get("mahalle")).split()
+            if len(mh) >= 3 and (set(mh) & _KOY_ISARET) and mh[-1] in _KOY_ISARET:
+                ilce = ilce_adi_metinde(il, kayit.get("mahalle"))
+                if ilce and katla(kayit.get("mahalle")).split()[:len(katla(ilce).split())] != katla(ilce).split():
+                    ilce = None
+        namaz_serbest = not dy or all(t in _GENEL_DEFIN for t in katla(dy).split()) or "koy" in katla(dy).split()
+        if not ilce and namaz_serbest:
+            # namaz yeri metni: defin yeri bos/genel (Koy Mezarligi) ise guvenilir; belirli ama tabloda olmayan bir mezarlik varsa
+            # ('Yukari Tekke - 90. Ada' + 'Ulas Merkez Cami') namaz ilcesi gomme ilcesi OLMAYABILIR -> baglanmaz
+            ilce = ilce_adi_metinde(il, kayit.get("namaz_yeri_vakti"))
+        if ilce:
+            kaynak = "ilce_adi_metinde"
+        if not ilce:
+            adaylar = [kayit.get("mahalle"), dy]
+            if namaz_serbest:        # cami: defin yeri bos/genel ise (ayni kapi: belirli bir mezarlik varsa cami ilcesi gomme ilcesi olmayabilir)
+                adaylar += namaz_parcalari(kayit.get("namaz_yeri_vakti"))
+            for a in adaylar:
+                ilce = _mahalle_ilce(il, a)
+                if ilce:
+                    kaynak = "mahalle_tablo"
+                    break
+        if not ilce and AD_SIFATI_ACIK:
+            ilce = _ad_sifati_ilce(il, kayit.get("ad_soyad"))
+            kaynak = "ad_sifati" if ilce else None
+        if ilce:
+            kayit["ilce"], kayit["ilce_belirsiz"], kayit["ilce_kaynagi"] = ilce, False, kaynak
+            if isinstance(kayit.get("ham"), dict):
+                kayit["ham"]["ilce_kaynagi"] = kaynak
+    except Exception:
+        pass
+    return kayit
+
+
 def _defin_il_disi(kayit, il):
     """defin_yeri BASKA bir ilin adiysa (Kilis, Diyarbakir...) ya da '<Il> / <ilce>' bicimindeyse kayit il disina alinir
     (mevcut kural: 'baska il -> il_disi'; okuyucunun ilce_belirsiz on dolduruşu ya da kaynagin 'Merkez'i bunu bastirmaz). 14.10.2026."""
@@ -392,7 +613,7 @@ def ilce_isle(kayit, il):
     """Kaydın 'ilce' alanını ilce_coz ile işler (yerinde). Zaten işlenmişse dokunmaz (yalnız ilçesiz kayıt için mezarlık tablosu yeniden denenir).
     Ham değer kayıt['ham']['ilce_ham'] altında korunur (ham dict varsa ve anahtar yoksa)."""
     if "il_disi_defin" in kayit and "ilce_belirsiz" in kayit:
-        return _ipucu_isle(_defin_il_disi(kayit, il), il)
+        return _ek_katmanlar(_ipucu_isle(_defin_il_disi(kayit, il), il), il)
     ham_ilce = kayit.get("ilce")
     r = ilce_coz(il, ham_ilce)
     if isinstance(kayit.get("ham"), dict) and ham_ilce and "ilce_ham" not in kayit["ham"] and "ilce" not in kayit["ham"]:
@@ -400,7 +621,7 @@ def ilce_isle(kayit, il):
     kayit["ilce"] = r["ilce"]
     kayit["ilce_belirsiz"] = r["ilce_belirsiz"]
     kayit["il_disi_defin"] = r["il_disi_defin"]
-    return _ipucu_isle(_defin_il_disi(kayit, il), il)
+    return _ek_katmanlar(_ipucu_isle(_defin_il_disi(kayit, il), il), il)
 
 
 def ilce_isle_ham(kayit, il):

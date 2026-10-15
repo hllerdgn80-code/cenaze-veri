@@ -80,7 +80,16 @@ def main():
                         es.setdefault("ham", {})["ilce_kaynagi"] = "capraz_eslesme"
                         d.setdefault("ilceler", {}).setdefault(r["ilce"], []).append(es)
                         n += 1
+                # H60 (15.10.2026): zenginlesme sonrasi hala ilcesiz ise mezarlik/mahalle/ilce-adi katmanlari bir kez de burada denenir
+                if es in (d.get("ilce_belirsiz") or []) and not es.get("ilce") and not es.get("il_disi_defin"):
+                    ortak.ilce_isle(es, d.get("il") or il)
+                    if es.get("ilce"):
+                        d["ilce_belirsiz"].remove(es)
+                        d.setdefault("ilceler", {}).setdefault(es["ilce"], []).append(es)
+                        n += 1
                 continue
+            if not r.get("ilce") and not r.get("il_disi_defin"):
+                ortak.ilce_isle(r, d.get("il") or il)          # H60: ulusal kayit da mezarlik/mahalle/ilce-adi katmanlarindan gecer (tahmin yok)
             mevcut.append(r)
             if r.get("ilce") and not r.get("ilce_belirsiz"):
                 d.setdefault("ilceler", {}).setdefault(r["ilce"], []).append(r)

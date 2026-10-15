@@ -75,6 +75,19 @@ def denetle(veri, ilce_json=None, rastgele_tohum=None):
                 elif r[0] == "belirsiz" and ik_kayit not in r[1]:
                     ihlal.append({"kural": 3, "id": kid, "il": klasor, "ilce": ik_kayit, "aciklama": "ilce adaylar arasinda degil", "adaylar": r[1], "mezarlik": k.get("defin_yeri")})
                 ornek_havuzu.append((klasor, ik_kayit, k.get("defin_yeri"), kay))
+            elif kay in ("ilce_adi_metinde", "mahalle_tablo", "ad_sifati"):
+                # 7) H61 katmanlari (UYARI modu): bagi ayni kurallarla yeniden dogrula; tutmazsa uyari (cikisi etkilemez)
+                alanlar = [k.get("defin_yeri"), k.get("namaz_yeri_vakti"), k.get("mahalle")]
+                if kay == "ilce_adi_metinde":
+                    tut = ik_kayit in (ortak.ilce_adi_metinde(il_adi, a) for a in alanlar[:2] if a)
+                elif kay == "mahalle_tablo":
+                    ny = k.get("namaz_yeri_vakti") or ""
+                    tut = ik_kayit in (ortak._mahalle_ilce(il_adi, a) for a in [k.get("mahalle"), k.get("defin_yeri")] + ortak.namaz_parcalari(ny) if a)
+                else:
+                    tut = ortak.AD_SIFATI_ACIK and ik_kayit == ortak._ad_sifati_ilce(il_adi, k.get("ad_soyad"))
+                if not tut:
+                    uyari.append({"kural": 7, "id": kid, "il": klasor, "ilce": ik_kayit, "etiket": kay, "aciklama": "H61 katman bagi yeniden dogrulanamadi"})
+                ornek_havuzu.append((klasor, ik_kayit, k.get("defin_yeri") or k.get("mahalle"), kay))
             elif bolum == "ilce" and ik != ETIKET:
                 ornek_havuzu.append((klasor, ik, k.get("defin_yeri"), kay or "kaynak"))
             # 4) defin_yeri baska ilin adiysa o ilin ilcesine/ilimize yerlestirilmemis olmali

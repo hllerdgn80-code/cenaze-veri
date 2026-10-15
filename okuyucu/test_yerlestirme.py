@@ -90,6 +90,123 @@ class IlDisi(unittest.TestCase):
         ortak.ilce_isle(k, "Gaziantep"); self.assertEqual(k["il_disi_defin"]["il"], "Kilis")
 
 
+class H61Katmanlar(unittest.TestCase):
+    """H61 (15.10.2026): ilce adi metinde / mahalle-koy tablosu / ad sifati. Yalniz KESIN eslesme, yalniz kendi il."""
+    def setUp(self):
+        ortak._mez_onbellek.clear(); ortak._mez_onbellek["_yok"] = True
+        ortak._mah_onbellek.clear()
+        ortak._mah_onbellek.update({"bursa": {"kogukcinar": "Osmangazi", "kuplupinar": "Osmangazi"}, "isparta": {"batikent": "Merkez"},
+                                    "sivas": {"yukari tekke": "Merkez"}})
+        ortak._OGRENILEN.clear()
+
+    def isle(self, il, **alan):
+        k = {"id": "t", "ilce": None, "ilce_belirsiz": True, "il_disi_defin": None}
+        k.update(alan)
+        return ortak.ilce_isle(k, il)
+
+    def test_ilce_adi_metinde(self):
+        k = self.isle("Kocaeli", defin_yeri="GEBZE MEZARLIĞI", namaz_yeri_vakti="Vakitsiz – MERKEZ MEZ")
+        self.assertEqual((k["ilce"], k["ilce_kaynagi"], k["ilce_belirsiz"]), ("Gebze", "ilce_adi_metinde", False))
+        k = self.isle("Kocaeli", defin_yeri="KÖSEKÖY İSTASYON MEZARLIĞI", namaz_yeri_vakti="Öğlen – KÖSEKÖY İSTASYON PARK CAMİ")
+        self.assertIsNone(k["ilce"])                      # mahalle adi, ilce adi degil
+        k = self.isle("Bolu", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Kıbrıscık Kızılcaören Köyünde kılınacak ikindi")
+        self.assertEqual(k["ilce"], "Kıbrıscık")
+
+    def test_yon_adi_mezarlik_baglanmaz(self):
+        # 15.10.2026: 'Harran Aile Mezarligi' Sanliurfa sehir mezarligi; ilce adi mezarlik adinin onunde 'Aile' gibi sozcukle gelirse baglanmaz
+        self.assertIsNone(self.isle("Şanlıurfa", defin_yeri="Harran Aile Mezarlığı")["ilce"])
+        self.assertEqual(self.isle("Şanlıurfa", defin_yeri="Harran Mezarlığı")["ilce"], "Harran")
+        self.assertEqual(self.isle("Erzincan", namaz_yeri_vakti="Cenazesi Öğlen Namazını Müteakip Üzümlü Çarşı Camii'nden Alınarak Üzümlü Mezarlığına Defnedilecektir.")["ilce"], "Üzümlü")
+        self.assertEqual(self.isle("Uşak", defin_yeri="Uşak Ulubey İlçesi")["ilce"], "Ulubey")
+
+    def test_baska_il_ve_nakil_atlanir(self):
+        self.assertIsNone(self.isle("Kocaeli", defin_yeri="Nakil: Samsun Otobüs / Gebze")["ilce"])
+        self.assertIsNone(self.isle("Kocaeli", defin_yeri="Ankara Gebze Mezarlığı")["ilce"])
+        self.assertIsNone(self.isle("Kırıkkale", namaz_yeri_vakti="Bayat İlçesinden")["ilce"])
+
+    def test_cok_ilce_adi_belirsiz(self):
+        self.assertIsNone(self.isle("Kocaeli", defin_yeri="Gebze Gölcük Yolu Mezarlığı")["ilce"])
+
+    def test_genel_ilce_adi_siki(self):
+        self.assertEqual(self.isle("Elazığ", defin_yeri="Maden Mezarlığı")["ilce"], "Maden")
+        self.assertIsNone(self.isle("Elazığ", defin_yeri="Bakır Maden Ocağı Mezarlığı")["ilce"])
+        self.assertIsNone(self.isle("Bursa", defin_yeri="Yıldırım Beyazıt Mezarlığı")["ilce"])
+        self.assertIsNone(self.isle("Bursa", defin_yeri="Köy", namaz_yeri_vakti="Orhangazi Camii")["ilce"])   # tarihi cami Osmangazi'de
+
+    def test_namaz_yeri_belirli_mezarlik_varsa_baglanmaz(self):
+        k = self.isle("Sivas", defin_yeri="Yukarı Tekke - 90. Ada Mezarlığı", namaz_yeri_vakti="Ulaş Merkez")
+        self.assertIsNone(k["ilce"])                      # gomme Sivas merkezde olabilir
+        k = self.isle("Sivas", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Ulaş Merkez")
+        self.assertEqual(k["ilce"], "Ulaş")
+
+    def test_mahalle_tablosu(self):
+        k = self.isle("Bursa", mahalle="Koğukçınar Mah.")
+        self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Osmangazi", "mahalle_tablo"))
+        k = self.isle("Bursa", mahalle="Küplüpınar Mahallesi")
+        self.assertEqual(k["ilce"], "Osmangazi")
+        self.assertIsNone(self.isle("Konya", mahalle="Koğukçınar Mah.")["ilce"])      # baska ilin tablosu aranmaz
+        self.assertIsNone(self.isle("Bursa", mahalle="Bilinmeyen Mah.")["ilce"])
+
+    def test_merkez_degeri_listede_yoksa_yazilmaz(self):
+        self.assertIsNone(self.isle("Isparta", mahalle="Batıkent")["ilce"])           # ilceler.json'da Merkez yok -> tahmin yok
+
+    def test_merkez_etkin_bayragi(self):
+        ortak.MERKEZ_ETKIN = True
+        try:
+            k = self.isle("Isparta", mahalle="Batıkent")
+            self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Merkez", "mahalle_tablo"))
+        finally:
+            ortak.MERKEZ_ETKIN = False
+        self.assertIsNone(self.isle("Isparta", mahalle="Batıkent")["ilce"])
+        # 'Merkez' + baska ilce ortak mezarlik adi: Merkez gecerli degilken kalani secmek tahmin olur -> None
+        ortak._mez_onbellek.clear(); ortak._mez_onbellek.update({"isparta": {"asri": {"belirsiz": ["Merkez", "Atabey"]}}})
+        self.assertIsNone(self.isle("Isparta", defin_yeri="Asri Mezarlık")["ilce"])
+
+    def test_koy_adayi_ve_tablo_yoksa_sessiz(self):
+        ortak._mah_onbellek.clear(); ortak._mah_onbellek["bolu"] = {"doganci": "Mudurnu"}
+        k = self.isle("Bolu", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Doğancı Köyü Yeni Camiide kılınacak öğle ve cenaze namazından sonra")
+        self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Mudurnu", "mahalle_tablo"))
+        ortak._mah_onbellek.clear(); ortak._mah_onbellek["_yok"] = True
+        self.assertIsNone(self.isle("Bolu", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Doğancı Köyü")["ilce"])
+
+    def test_belirli_mezarlik_varken_cami_mahallesi_baglanmaz(self):
+        ortak._mah_onbellek.clear(); ortak._mah_onbellek["bursa"] = {"hamitler": "Yıldırım"}
+        k = self.isle("Bursa", defin_yeri="Bilinmeyen Sehir Mezarlığı", namaz_yeri_vakti="Öğle – Hamitler Camii")
+        self.assertIsNone(k["ilce"])
+        k = self.isle("Bursa", defin_yeri=None, namaz_yeri_vakti="Öğle – Hamitler Camii")
+        self.assertEqual(k["ilce"], "Yıldırım")
+
+    def test_ad_sifati_varsayilan_kapali_ve_ad_degismez(self):
+        k = self.isle("Kırıkkale", ad_soyad="Keskinli Enver Yıldızlı")
+        self.assertIsNone(k["ilce"]); self.assertEqual(k["ad_soyad"], "Keskinli Enver Yıldızlı")
+        ortak.AD_SIFATI_ACIK = True
+        try:
+            k = self.isle("Kırıkkale", ad_soyad="Keskinli Enver Yıldızlı")
+            self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Keskin", "ad_sifati"))
+            self.assertEqual(k["ad_soyad"], "Keskinli Enver Yıldızlı")
+            self.assertEqual(self.isle("Kırıkkale", ad_soyad="Balışeyhli Zekeriye Doğan")["ilce"], "Balışeyh")
+            self.assertIsNone(self.isle("Kırıkkale", ad_soyad="Çorumlu Emine Memişoğlu")["ilce"])   # Corum Kirikkale ilcesi degil
+            self.assertIsNone(self.isle("Kırıkkale", ad_soyad="Keskinli")["ilce"])                  # tek sozcuk = ad degil
+        finally:
+            ortak.AD_SIFATI_ACIK = False
+
+    def test_il_disi_ve_mevcut_ilce_bozulmaz(self):
+        k = self.isle("Bursa", mahalle="Koğukçınar Mah.", defin_yeri="Kilis")
+        self.assertEqual(k["il_disi_defin"]["il"], "Kilis"); self.assertIsNone(k["ilce"])
+        k = ortak.ilce_isle({"id": "a", "ilce": "Nilüfer", "mahalle": "Koğukçınar Mah."}, "Bursa")
+        self.assertEqual(k["ilce"], "Nilüfer"); self.assertNotIn("ilce_kaynagi", k)
+
+    def test_mezarlik_tablosu_oncelikli(self):
+        ortak._mez_onbellek.clear(); ortak._mez_onbellek.update({"bursa": {"sayfiye": "Mudanya"}})
+        k = self.isle("Bursa", defin_yeri="Sayfiye Mezarlığı", mahalle="Koğukçınar Mah.")
+        self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Mudanya", "mezarlik_tablosu"))
+
+    def test_mahalle_norm(self):
+        self.assertEqual(ortak.mahalle_norm("Koğukçınar Mah."), "kogukcinar")
+        self.assertEqual(ortak.mahalle_norm("İçmesu Köyü"), "icmesu")
+        self.assertEqual(ortak.mahalle_norm("Demirtaş Dumlupınar Mahallesi (Yeni)"), "demirtas dumlupinar")
+
+
 class Denetim(unittest.TestCase):
     def setUp(self):
         TestAyar = Tablo; TestAyar.setUp(self)
