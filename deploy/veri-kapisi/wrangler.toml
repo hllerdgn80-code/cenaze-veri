@@ -8,7 +8,7 @@ workers_dev = false
 routes = [{ pattern = "veri.kimincenazesi.com/*", zone_name = "kimincenazesi.com" }]
 
 [vars]
-KOKEN = "https://kimincenazesi-veri.pages.dev"
+KOKEN = "https://hllerdgn80-code.github.io/cenaze-veri"   # 15.10.2026: Pages deposu CF belirteci olmadan bos kaliyor -> kaynak github.io (kapi ayni); Asama 2de Pages
 DAKIKA_LIMIT = "60"
 
 

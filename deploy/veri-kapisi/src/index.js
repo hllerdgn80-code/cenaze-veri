@@ -65,7 +65,7 @@ export async function kapi(request, env, kaynakGetir = fetch) {
     const url = new URL(request.url);
     const yol = yolIzinli(url.pathname);
     if (!yol) return bos(404);
-    const y = await kaynakGetir(new URL(yol, env.KOKEN).toString(), {
+    const y = await kaynakGetir(env.KOKEN.replace(/\/$/, "") + yol, {
       method: "GET",
       headers: { Accept: "application/json" },
       cf: { cacheTtl: 60, cacheEverything: true },
