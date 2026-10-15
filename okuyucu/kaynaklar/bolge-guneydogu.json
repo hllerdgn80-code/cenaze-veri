@@ -1,0 +1,29 @@
+[
+ {
+  "il": "sanliurfa",
+  "ilce": null,
+  "ad": "Urfanatik",
+  "url": "https://www.urfanatik.com",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": "https://www.urfanatik.com/rss",
+  "sitemap": null,
+  "liste_url": "https://www.urfanatik.com/vefat-haberleri",
+  "takma": [
+   "Şanlıurfa",
+   "Urfa"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 120,
+  "robots": "yasak",
+  "kanit": [
+   "2026-10-15 15 Ekim Şanlıurfa cenaze ilanları 2026: Güncel bugün vefat edenlerin bilgileri",
+   "2026-10-14 Şanlıurfa'nın tanınan şerbetçisi Halil Ökkaş hayatını kaybetti",
+   "2026-10-14 Harran ve Akçakale'yi üzen ölüm! Mahmut Kaya vefat etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-guneydogu",
+  "tarih": "2026-10-15",
+  "not": "/vefat-haberleri tek sayfada ~53 tek kişilik vefat haberi (günde ~6; Eyyübiye, Haliliye, Karaköprü, Siverek, Viranşehir, Birecik, Suruç, Harran, Akçakale, Ceylanpınar, Halfeti, Hilvan, Bozova ilçe başlıklarıyla; ilçe sayfaları /<ilçe>-vefat-haberleri). Ayrıca GÜNLÜK TOPLU SAYFA tek sabit adreste her gün güncellenir: /20-haziran-sanliurfa-cenaze-ilanlari-2025-guncel-bugun-vefat-edenlerin-bilgileri (başlık her gün '<gün> Ekim Şanlıurfa cenaze ilanları 2026', 'Vefat Edenler Listesi' ad (yaş) + cenaze namazı/mezarlık bilgisi, 15.10'da 10 kişi; ayrı liste_url olarak da okunabilir). RSS yalnız son 40 haber (içinde vefat az) → liste kalıbı tercih edilmeli. DİKKAT robots: /robots.txt ve /sitemap.xml Cloudflare 'Just a moment' (403) döndürüyor, okunamadı; ana sayfa, /vefat-haberleri, haber sayfaları ve /rss girişsiz 200 — robots belirsiz, sahibi/okuyucu karar versin | 15.10 ana oturum: robots.txt Cloudflare doğrulama (403) ardında; okunamayan robots = yasak sayılır, WAF dolanılmaz; sahibi karar verirse elle açılır"
+ }
+]
