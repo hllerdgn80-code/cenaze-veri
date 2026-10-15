@@ -1,0 +1,113 @@
+[
+ {
+  "il": "kutahya",
+  "ilce": null,
+  "ad": "Kütahya'nın Sesi",
+  "url": "https://www.kutahyaninsesi.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.kutahyaninsesi.com/sites/1410/sitemaps/sitemap-{AY}.xml",
+  "liste_url": "https://www.kutahyaninsesi.com/kutahya-vefatlar",
+  "takma": [
+   "Kütahya",
+   "Tavşanlı",
+   "Simav"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-14 14 Ekim 2026'da vefat edenler",
+   "2026-10-13 13 Ekim 2026'da vefat edenler",
+   "2026-10-12 12 Ekim 2026'da vefat edenler"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ege",
+  "tarih": "2026-10-15",
+  "not": "her gün '<gün> Ekim 2026'da vefat edenler' derleme haberi (Ekim sitemap'inde 14 gün art arda) + /kutahya-vefatlar listesi + tek kişilik 'toprağa verildi' haberleri (Tavşanlı, Simav, Domaniç); Kocaeli Gazetesi ile aynı yazılım"
+ },
+ {
+  "il": "usak",
+  "ilce": null,
+  "ad": "Uşak Olay",
+  "url": "https://www.usakolay.com",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": "https://www.usakolay.com/rss",
+  "sitemap": null,
+  "liste_url": "https://www.usakolay.com/usakta-bugun-cenaze-ilanlari",
+  "takma": [
+   "Uşak",
+   "Banaz"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Uşak Cenaze İlanları 15 Ekim 2026 (belediye ilanlarından 4 vefat)",
+   "2026-10-14 Uşak Cenaze İlanları 14 Ekim 2026",
+   "2026-10-02 Uşak Cenaze İlanları 02 Ekim 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ege",
+  "tarih": "2026-10-15",
+  "not": "her gün /usakta-bugun-cenaze-ilanlari/usak-cenaze-ilanlari-<gg>-<ay>-2026-<id>h sayfası: isim, cenaze namazı ve defin yeri, gün içinde güncellenir; robots yalnız /rss/* alt yolunu yasaklıyor (/rss ana adresi serbest)"
+ },
+ {
+  "il": "afyonkarahisar",
+  "ilce": null,
+  "ad": "Afyon Kent Haber",
+  "url": "https://www.afyonkenthaber.com",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.afyonkenthaber.com/vefatlarimiz/",
+  "takma": [
+   "Afyon",
+   "Afyonkarahisar"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-11 Afyonkarahisar'da 3 kişi vefat etti, cenaze namazları öğle vakti kılınacak",
+   "2026-10-07 Afyon cenaze ilanı 7 Ekim 2026",
+   "2026-10-06 Afyonkarahisar'da Şükriye Elaslan vefat etti"
+  ],
+  "guncel": "2026-10-14",
+  "isaretleyen": "ajan-ege",
+  "tarih": "2026-10-15",
+  "not": "/vefatlarimiz/ liste sayfası; seyrek ama düzenli (haftada ~2-3 vefat/cenaze ilanı, tarihler datePublished meta'sında); RSS yok; /sitemap.xml tek dosya (ay ayrımı yok)"
+ },
+ {
+  "il": "aydin",
+  "ilce": null,
+  "ad": "Aydın Denge Haber",
+  "url": "https://www.aydindenge.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.aydindenge.com.tr/kategori/vefatlar",
+  "takma": [
+   "Aydın",
+   "Çine",
+   "Karpuzlu",
+   "Koçarlı"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Ali Rıza Çulha vefat etti (Çine)",
+   "2026-10-14 Remzi Çelik vefat etti (Çine)",
+   "2026-10-14 Umran Gülten Kayalı vefat etti (Çine)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ege",
+  "tarih": "2026-10-15",
+  "not": "/kategori/vefatlar + ilçe bölümlerinde (/cine, /karpuzlu, /kocarli) '<ad> vefat etti' tek kişilik haberler, URL'de tarih /<bölüm>/gg/aa/2026/; RSS yok; /sitemap.txt (ay ayrımsız) ve /news-sitemap.xml var"
+ }
+]
