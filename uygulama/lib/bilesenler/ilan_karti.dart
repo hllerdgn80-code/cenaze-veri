@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import '../cekirdek/aile.dart';
 import '../cekirdek/cinsiyet.dart';
 import '../cekirdek/durum.dart';
+import '../cekirdek/harita.dart';
 import '../cekirdek/ilan.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
@@ -46,10 +47,7 @@ class IlanKarti extends StatelessWidget {
         const SizedBox(height: R.s3),
       ],
       if (ilan.aile) ...[
-        Wrap(alignment: WrapAlignment.center, spacing: R.s2, runSpacing: R.s2, children: [
-          Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
-          if (ilan.dogrulandi) Hap(M.kartDogrulandi, zemin: r.vurgu, renk: r.vurguUst),
-        ]),
+        Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
         const SizedBox(height: R.s3),
       ],
       Text(trBuyuk(ilan.etiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
@@ -97,6 +95,14 @@ class IlanKarti extends StatelessWidget {
           ],
         ),
       ),
+      if (np[1].isNotEmpty || (ilan.definYeri ?? '').isNotEmpty) ...[
+        const SizedBox(height: R.s3),
+        Row(children: [
+          if (np[1].isNotEmpty) Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'cami', etiket: M.tamHaritaCami, yer: np[1])),
+          if ((ilan.definYeri ?? '').isNotEmpty)
+            Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'mezar', etiket: M.tamHaritaMezarlik, yer: ilan.definYeri!)),
+        ]),
+      ],
       if (sh) ...[
         const SizedBox(height: R.s4),
         Text(M.sehitKapanis, textAlign: TextAlign.center, style: Y.kucuk(r).copyWith(fontStyle: FontStyle.italic)),
@@ -144,6 +150,29 @@ class IlanKarti extends StatelessWidget {
       ),
     );
     return kart;
+  }
+}
+
+/// İkincil, küçük "haritada aç" bağlantısı (yalnız yer doluyken gösterilir)
+class _HaritaBaglantisi extends StatelessWidget {
+  final Ilan ilan;
+  final String anahtar, etiket, yer;
+  const _HaritaBaglantisi({required this.ilan, required this.anahtar, required this.etiket, required this.yer});
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Center(
+      child: InkWell(
+        key: ValueKey('harita_${anahtar}_${ilan.id}'),
+        borderRadius: BorderRadius.circular(R.cip),
+        onTap: () => haritadaAc(context, yer: yer, ilce: ilan.ilDisiIlce ?? ilan.ilce, il: ilan.ilDisiIl ?? ilan.il),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: R.s2, vertical: R.s2),
+          child: Text(etiket,
+              textAlign: TextAlign.center, style: Y.soluk(r).copyWith(fontSize: 12, decoration: TextDecoration.underline)),
+        ),
+      ),
+    );
   }
 }
 

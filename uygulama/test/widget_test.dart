@@ -102,7 +102,8 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Kars’ta cenaze ilanları şu an yakınları tarafından paylaşılıyor.'), findsOneWidget);
-    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsOneWidget); // ilan kutusu (15.10.2026)
+    expect(find.byKey(const ValueKey('ilan_kutusu')), findsOneWidget); // ilan kutusu (15.10.2026)
+    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsNothing);
     expect(find.text('Cenaze ilanı paylaş'), findsNothing); // eski düğme kalktı: kutuyla birleşti
   });
 

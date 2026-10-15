@@ -16,7 +16,6 @@ import '../cekirdek/gorevli.dart';
 import '../cekirdek/kart_kamera.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
-import '../cekirdek/yardimci.dart';
 import 'gorevli_panel.dart';
 
 /// Uygulama içi kameradan, TC karartılmış 1600 px JPEG (GALERİ YOK). Testlerde sahte verilir. Hata: [KartIslenemedi].

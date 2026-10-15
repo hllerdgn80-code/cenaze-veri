@@ -1,8 +1,9 @@
 // Aile / Tam Sayfa / Şehit formu (URUN-TASLAGI §15/§17/§21; sözleşme: deploy/AILE-ILAN-SOZLESME.md; ölçü: tasarim/prototip.html p-form).
 // Adım 0 giriş kartı (aile: "Cenaze ilanı paylaşın"; Tam Sayfa: 200 ₺ fiyat kartı; şehit formu doğrudan 1. adımla açılır),
-// 1 vefat eden · 2 cenaze · 3 başvuran (ad, TELEFON, yakınlık; e-posta ve T.C. YOK) · 4 belge kodu (aile: isteğe bağlı;
-// Tam Sayfa: zorunlu; şehit: resmî duyuru bağlantısı) · 5 yasal beyan (Tam Sayfa: "Ödemeye geç" → ödeme ekranı).
-// Gönderim: POST /aile/basvur → telefon kodu (WhatsApp/SMS) → POST /aile/dogrula → sonuç. Serbest metin yok; her alan en çok 60 karakter.
+// 1 vefat eden · 2 cenaze · 3 başvuran (ad, TELEFON, yakınlık; e-posta ve T.C. YOK) · 4 yasal beyan (Tam Sayfa: "Ödemeye geç").
+// 15.10.2026: e-Devlet ölüm belgesi kodu HER YERDEN kalktı; tek doğrulama telefon kodudur (dahili adım 4 yalnız şehit duyuru bağlantısı için, form şehitte artık açılmaz).
+// Gönderim: POST /aile/basvur → telefon kodu (WhatsApp/SMS) → POST /aile/dogrula → (Tam Sayfa) Play satın alma → POST /aile/odeme → sonuç.
+// Serbest metin yok; her alan en çok 60 karakter.
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -13,6 +14,7 @@ import '../bilesenler/ortak.dart';
 import '../cekirdek/aile.dart';
 import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
+import '../cekirdek/odeme.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
 import 'sehit_bilgi.dart';
@@ -25,7 +27,8 @@ class AileFormu extends StatefulWidget {
   final bool tam; // Tam Sayfa vefat ilanı (§17/2): il seçilebilir, fiyat kartı, ödeme adımı
   final bool sehit; // Şehit ilanı (§27): rütbe, tören yeri, resmî duyuru; ücret yok
   final AileServisi? servis; // testlerde sahte ağ; verilmezse uygulamanın http istemcisi + aileKok
-  const AileFormu({super.key, required this.il, this.ilce, this.tam = false, this.sehit = false, this.servis});
+  final OdemeKapisi? odeme; // testlerde sahte; verilmezse Google Play Faturalandırma
+  const AileFormu({super.key, required this.il, this.ilce, this.tam = false, this.sehit = false, this.servis, this.odeme});
   @override
   State<AileFormu> createState() => _AileFormuState();
 }
@@ -37,6 +40,12 @@ class _AileFormuState extends State<AileFormu> {
   late String _il;
   String? _ilce;
   bool _odeme = false;
+  late final OdemeKapisi _odemeKapisi = widget.odeme ?? PlayOdeme();
+  UrunBilgi? _urun; // mağazadan okunan ürün; null = ödeme şu an alınamıyor
+  bool _urunSorgulandi = false;
+  OdemeSonuc? _bekleyen; // satın alındı ama sunucuya bildirilemedi: yeniden denemede ikinci kez satın ALINMAZ
+  String? _odemeId; // dogrula'dan dönen basvuru_id (ilan odeme_bekliyor)
+  bool _odendi = false;
   bool _belgeTamam = false;
   String _vefat = bugunTr();
   String _namaz = bugunTr();
@@ -67,6 +76,10 @@ class _AileFormuState extends State<AileFormu> {
   bool get _tam => widget.tam && !widget.sehit;
   bool get _ucretli => _tam && odemeAcik;
   int get _enAz => _sehit ? 1 : 0;
+  int get _toplam => _sehit ? 5 : 4;
+  int get _gosterAdim => (!_sehit && _adim == 5) ? 4 : _adim;
+  int get _sonraki => (!_sehit && _adim == 3) ? 5 : _adim + 1;
+  int get _onceki => (!_sehit && _adim == 5) ? 3 : _adim - 1;
 
   @override
   void initState() {
@@ -74,6 +87,16 @@ class _AileFormuState extends State<AileFormu> {
     _il = widget.il;
     _ilce = widget.ilce;
     _adim = _enAz;
+    if (_ucretli) _urunYukle();
+  }
+
+  Future<void> _urunYukle() async {
+    final u = await _odemeKapisi.urunSorgula();
+    if (!mounted) return;
+    setState(() {
+      _urun = u;
+      _urunSorgulandi = true;
+    });
   }
 
   @override
@@ -121,7 +144,7 @@ class _AileFormuState extends State<AileFormu> {
       (!_sehit || _rutbe.text.trim().length >= 2);
   bool get _adim3Hazir =>
       _adGecerli(_basvuranAd.text) && _telNormal(_tel.text) != null;
-  bool get _belgeZorunlu => _tam || _sehit;
+  bool get _belgeZorunlu => _sehit;
   bool get _adim4Hazir => !_belgeZorunlu || _belgeTamam;
   bool get _hazir => _adim1Hazir && _adim3Hazir && _adim4Hazir && _onay;
 
@@ -156,11 +179,7 @@ class _AileFormuState extends State<AileFormu> {
 
   void _geri() {
     if (_odeme) {
-      setState(() {
-        _odeme = false;
-        _hata = null;
-      });
-      _yukariKay();
+      Navigator.of(context).pop(); // ilan ödeme bekliyor durumunda; ödenmezse 2 gün içinde silinir
     } else if (_faz == _Faz.kod) {
       _sayac?.cancel();
       setState(() {
@@ -168,7 +187,7 @@ class _AileFormuState extends State<AileFormu> {
         _hata = null;
       });
     } else if (_faz == _Faz.form && _adim > _enAz) {
-      _adimGit(_adim - 1);
+      _adimGit(_onceki);
     } else {
       Navigator.of(context).pop();
     }
@@ -188,7 +207,7 @@ class _AileFormuState extends State<AileFormu> {
     final cami = _bos(_cami.text);
     final namazYeri = _vakit != null && cami != null ? '$_vakit-$cami' : (cami != null ? '-$cami' : _vakit);
     final mezarlik = _bos(_mezarlik.text);
-    final belge = _bos(_belge.text);
+    final belge = _sehit ? _bos(_belge.text) : null;
     final rutbe = _bos(_rutbe.text);
     final toren = _bos(_toren.text);
     return {
@@ -214,7 +233,6 @@ class _AileFormuState extends State<AileFormu> {
       if (_sehit && rutbe != null) 'rutbe': rutbe,
       if (_sehit && toren != null) 'toren_yeri': toren,
       if (_sehit && belge != null) 'duyuru_url': belge,
-      if (!_sehit && belge != null) 'edevlet_kodu': belge,
     };
   }
 
@@ -242,20 +260,10 @@ class _AileFormuState extends State<AileFormu> {
 
   /// 5. adımdaki ana düğme: Tam Sayfa'da ödeme ekranına geçer, diğerlerinde doğrudan gönderir.
   Future<void> _gonder() async {
-    if (_ucretli) {
-      setState(() {
-        _odeme = true;
-        _hata = null;
-      });
-      _yukariKay();
-      return;
-    }
-    await _basvur();
+    await _basvur(); // Tam Sayfa'da da önce telefon kodu; ödeme ekranı kod doğrulanınca açılır
   }
 
-  /// Ödeme ekranındaki "Ödemeyi onayla" da buraya gelir.
-  /// TODO(Play Billing): gerçek tahsilat bağlanınca burada önce satın alma doğrulanır; şimdilik ödeme adımı yalnız görünümdür
-  /// ve ardından mevcut Worker gönderimi (tam:true) çalışır.
+  /// Telefon kodu gönderimi (tüm ilan türleri).
   Future<void> _basvur() async {
     if (_yukleniyor || !_hazir) return;
     setState(() {
@@ -317,7 +325,17 @@ class _AileFormuState extends State<AileFormu> {
     final y = await _servis().dogrula(_basvuruId ?? '', kod);
     if (!mounted) return;
     setState(() => _yukleniyor = false);
-    if (y.durum == 'yayinda') {
+    if (y.durum == 'odeme_bekliyor') {
+      // Tam Sayfa: kod doğrulandı, ilan kaydedildi ama ÖDEME gelene dek yayında değil
+      _sayac?.cancel();
+      setState(() {
+        _odemeId = y.govde?['basvuru_id']?.toString() ?? _basvuruId;
+        _faz = _Faz.form;
+        _odeme = true;
+        _hata = null;
+      });
+      _yukariKay();
+    } else if (y.durum == 'yayinda') {
       _sayac?.cancel();
       setState(() {
         _faz = _Faz.sonuc;
@@ -330,6 +348,47 @@ class _AileFormuState extends State<AileFormu> {
       setState(() => _hata = M.aileAgHata);
     } else {
       bildir(context, M.kodHatali);
+    }
+  }
+
+  /// Ödeme ekranındaki ana düğme: Play satın alma penceresi → Worker doğrulaması → ilan yayında → ürün tüketilir.
+  Future<void> _ode() async {
+    if (_yukleniyor || _urun == null) return;
+    setState(() {
+      _yukleniyor = true;
+      _hata = null;
+    });
+    var sonuc = _bekleyen; // önceki satın alma sunucuya bildirilemediyse yeniden satın alınmaz
+    sonuc ??= await _odemeKapisi.satinAl();
+    if (!mounted) return;
+    if (sonuc.durum != OdemeDurumu.tamam) {
+      setState(() {
+        _yukleniyor = false;
+        _hata = M.odemeTamamlanmadi;
+      });
+      return;
+    }
+    _bekleyen = sonuc;
+    final y = await _servis().odeme(_odemeId ?? '', sonuc.token, sonuc.siparisNo);
+    if (!mounted) return;
+    if (y.durum == 'yayinda') {
+      await _odemeKapisi.tuket(sonuc);
+      if (!mounted) return;
+      _bekleyen = null;
+      setState(() {
+        _yukleniyor = false;
+        _faz = _Faz.sonuc;
+        _odeme = false;
+        _yayinda = true;
+        _odendi = true;
+        _neden = null;
+      });
+      _yukariKay();
+    } else {
+      setState(() {
+        _yukleniyor = false;
+        _hata = (y.agHatasi || y.kod >= 500) ? M.aileAgHata : M.odemeDogrulanamadi;
+      });
     }
   }
 
@@ -451,7 +510,7 @@ class _AileFormuState extends State<AileFormu> {
     } else if (_adim == 0) {
       ust = _tam ? M.formTamUst : M.aileUstGiris;
     } else {
-      ust = M.formUst(_adim);
+      ust = M.formUst(_gosterAdim, _toplam);
     }
     final baslik = _sehit ? M.sehitFormBaslik : (_tam ? M.formTamBaslik : M.aileBaslik);
     final cubukGorunur = _faz == _Faz.form && _adim >= 1 && !_odeme;
@@ -492,14 +551,14 @@ class _AileFormuState extends State<AileFormu> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s4),
           child: Row(children: [
-            for (int i = 1; i <= 5; i++) ...[
+            for (int i = 1; i <= _toplam; i++) ...[
               if (i > 1) const SizedBox(width: 6),
               Expanded(
                 child: Container(
                   key: ValueKey('adim_$i'),
                   height: 4,
                   decoration: BoxDecoration(
-                    color: i <= _adim ? r.vurgu : r.yuzey2,
+                    color: i <= _gosterAdim ? r.vurgu : r.yuzey2,
                     borderRadius: BorderRadius.circular(2),
                   ),
                 ),
@@ -523,20 +582,21 @@ class _AileFormuState extends State<AileFormu> {
       onTap = _yukleniyor ? null : _dogrula;
     } else if (_odeme) {
       yazi = _hata != null ? M.hataTekrar : M.odemeDugme;
-      onTap = _yukleniyor ? null : _basvur;
+      onTap = (_yukleniyor || _urun == null) ? null : _ode;
+      if (_urun == null && _urunSorgulandi) not = M.odemeKapali;
     } else if (_adim < 5) {
       yazi = M.formDevam;
-      onTap = _devamHazir ? () => _adimGit(_adim + 1) : null;
+      onTap = _devamHazir ? () => _adimGit(_sonraki) : null;
     } else {
       if (_ucretli) {
         yazi = M.adim5TamDugme;
-        not = M.adim5TamNot;
+        not = _urunSorgulandi && _urun == null ? M.odemeKapali : M.adim5TamNot; // ürün Play'de yoksa fiyat kartı kalır, düğme pasif
         odenecek = true;
       } else {
         yazi = _hata != null ? M.hataTekrar : M.sonDugme;
         not = _sehit ? M.sehitNot : M.aileNot;
       }
-      onTap = (_hazir && !_yukleniyor) ? _gonder : null;
+      onTap = (_hazir && !_yukleniyor && (!_ucretli || _urun != null)) ? _gonder : null;
     }
     return Container(
       padding: const EdgeInsets.fromLTRB(R.s5, R.s3, R.s5, R.s5),
@@ -591,8 +651,7 @@ class _AileFormuState extends State<AileFormu> {
               Text(M.odemeUrunAlt, textAlign: TextAlign.center, style: Y.soluk(r)),
             ]),
           ),
-          satir(M.odemeTutarEt, M.odemeTutar),
-          satir(M.odemeHesapEt, M.odemeHesap),
+          satir(M.odemeTutarEt, _urun?.fiyat ?? M.odemeTutar),
           satir(M.odemeYayinEt, M.odemeYayin),
         ]),
       ),
@@ -605,7 +664,9 @@ class _AileFormuState extends State<AileFormu> {
     final moderasyonlu = _tam || _sehit;
     return [
       const SizedBox(height: R.s6),
-      if (_yayinda && !moderasyonlu)
+      if (_odendi)
+        const BosDurum(ikon: 'tik', baslik: M.odemeAlindi, aciklama: M.odemeAlindiAciklama)
+      else if (_yayinda && !moderasyonlu)
         const BosDurum(ikon: 'tik', baslik: M.aileYayinda)
       else if (_yayinda)
         BosDurum(
@@ -826,20 +887,18 @@ class _AileFormuState extends State<AileFormu> {
         ];
       case 4:
         return [
-          _baslik(r, _sehit ? M.sehitAdimDuyuru : M.adim2Baslik, _sehit ? M.sehitDuyuruAciklama : M.adim2Aciklama),
+          _baslik(r, M.sehitAdimDuyuru, M.sehitDuyuruAciklama),
           FormAlani(
               key: const ValueKey('f_belge'),
-              etiket: _sehit ? M.sehitDuyuruAlan : M.adim2Alan,
-              ipucu: _sehit ? M.sehitDuyuruYer : M.adim2AlanYer,
+              etiket: M.sehitDuyuruAlan,
+              ipucu: M.sehitDuyuruYer,
               denetleyici: _belge,
-              enCok: _sehit ? 60 : 30,
+              enCok: 60,
               onChanged: (_) => setState(() => _belgeTamam = false)),
-          if (_belgeZorunlu) ...[
-            IkincilDugme(_sehit ? M.sehitDuyuruDugme : M.belgeDugme, onTap: _belgeDogrula),
-            if (_belgeTamam) ...[
-              const SizedBox(height: R.s3),
-              _durum(r, _sehit ? M.sehitDuyuruTamam : M.belgeTamam),
-            ],
+          IkincilDugme(M.sehitDuyuruDugme, onTap: _belgeDogrula),
+          if (_belgeTamam) ...[
+            const SizedBox(height: R.s3),
+            _durum(r, M.sehitDuyuruTamam),
           ],
         ];
       default:

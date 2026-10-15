@@ -10,6 +10,7 @@ import 'gorevli_kayit.dart';
 import 'sehit_bilgi.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
+import '../cekirdek/harita.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
@@ -266,7 +267,7 @@ class _TamIlanSayfasi extends StatelessWidget {
             borderRadius: BorderRadius.circular(R.dugme),
             child: InkWell(
               borderRadius: BorderRadius.circular(R.dugme),
-              onTap: () => bildir(context, M.tamHaritaBildirim(yer)),
+              onTap: () => haritadaAc(context, yer: yer, ilce: o.ilce, il: o.il),
               child: SizedBox(
                 height: 48,
                 child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [

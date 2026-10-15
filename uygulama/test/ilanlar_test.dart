@@ -88,24 +88,22 @@ void main() {
     await tester.pumpAndSettle();
     expect(bildirimTeklifiAcik, isTrue);
     expect(find.text('İlçenizde cenaze ilanı paylaşıldığında haber verelim mi?'), findsNothing);
-    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsOneWidget); // 15.10: ilan kutusu (kaynaksız il)
+    expect(find.byKey(const ValueKey('ilan_kutusu')), findsOneWidget); // 15.10: ilan kutusu (kaynaksız il)
+    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsNothing); // ücretsiz aile ilanı kalktı
   });
 
-  testWidgets('İlan kutusu (15.10): başlık + A) cenaze yakını düğmesi aile formunu açar; B) din görevlisi metni ve kayıt bağlantısı', (tester) async {
+  testWidgets('İlan kutusu (15.10): tek paragraf talep metni → kayıt bağlantısı; "Cenaze yakını" düğmesi ve "veya" YOK', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     await tester.pumpWidget(kapsamli(d, const IlanKutusu(il: 'Kars', ilce: 'Merkez')));
     await tester.pumpAndSettle();
-    final baslikY = tester.getTopLeft(find.text('Cenaze ilanınızın burada görülmesini istiyorsanız:')).dy;
-    final aY = tester.getTopLeft(find.text('Cenaze yakını olarak ilanı paylaş')).dy;
-    final veyaY = tester.getTopLeft(find.text('veya')).dy;
-    final bY = tester.getTopLeft(find.text('Bulunduğunuz bölgedeki cami din görevlisinden bunu talep edin.')).dy;
+    expect(find.text('Cenaze ilanınızın burada görülmesini istiyorsanız'), findsNothing); // eski başlık kalktı
+    final bY = tester.getTopLeft(find.text('Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz.')).dy;
     final linkY = tester.getTopLeft(find.text('Din görevlisi misiniz? Kayıt olun.')).dy;
-    expect(baslikY < aY && aY < veyaY && veyaY < bY && bY < linkY, isTrue); // başlık → düğme → veya → talep metni → bağlantı
-    await tester.tap(find.text('Cenaze yakını olarak ilanı paylaş'));
-    await tester.pumpAndSettle();
-    expect(find.text('Cenaze ilanı paylaşın'), findsOneWidget); // form giriş kartıyla açılır
-    expect(find.text(trBuyuk(M.aileUstGiris)), findsOneWidget);
+    expect(bY < linkY, isTrue); // tek paragraf → bağlantı
+    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsNothing);
+    expect(find.text('veya'), findsNothing);
+    expect(find.byKey(const ValueKey('ilan_kutusu_veya')), findsNothing);
   });
 
   testWidgets('İlan kutusu: "Din görevlisi misiniz? Kayıt olun" kayıt ekranını açar (oturum varsa paneli)', (tester) async {

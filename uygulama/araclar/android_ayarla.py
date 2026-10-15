@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """CI'da `flutter create` sonrası Android iskeletini uygulamaya göre ayarlar (uygulama/ klasöründen çalıştırılır).
 1) Paket adı (applicationId) = com.kimincenazesi.app   2) Uygulama adı = "Kimin Cenazesi"
-3) İzinler: İNTERNET + POST_NOTIFICATIONS (0.1.4 günlük cenaze bildirimi; tam alarm izni YOK)   4) mailto bağlantıları için <queries>
+3) İzinler: İNTERNET + POST_NOTIFICATIONS (0.1.4 günlük cenaze bildirimi; tam alarm izni YOK) + com.android.vending.BILLING (0.1.6 Play Faturalandırma)   4) mailto bağlantıları için <queries>
    0.1.4: bildirim simgesi (tek renkli hilal) + flutter_local_notifications için Gradle ayarları (desugaring, compileSdk >= 37)
 5) İmza: ANDROID_KEYSTORE_BASE64 + şifreler ortam değişkenlerinde varsa release imzası kurulur;
    yoksa şablonun hata ayıklama (debug) imzası kalır ve GITHUB_OUTPUT'a imzali=false yazılır.
@@ -29,6 +29,8 @@ def manifest():
         s = s.replace("<application", '<uses-permission android:name="android.permission.INTERNET"/>\n    <application', 1)
     if "android.permission.POST_NOTIFICATIONS" not in s:
         s = s.replace("<application", '<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>\n    <application', 1)
+    if "com.android.vending.BILLING" not in s:  # 0.1.6: Google Play Faturalandırma (Tam Sayfa 200 ₺); ürün Play Console'da ancak bu izinli AAB yüklendikten sonra tanımlanır
+        s = s.replace("<application", '<uses-permission android:name="com.android.vending.BILLING"/>\n    <application', 1)
     mailto = ('<intent>\n            <action android:name="android.intent.action.SENDTO"/>\n'
               '            <data android:scheme="mailto"/>\n        </intent>')
     if 'android:scheme="mailto"' not in s:

@@ -2,8 +2,8 @@
 // Süzgeç: pazar dili yok, ölüm sayısı yok, ünlem yok, "ücretsiz/elle/moderatör" yok, merhum/merhume kuralı.
 import 'yardimci.dart';
 
-/// Site sahibi 14.10.2026: prototipteki Tam Sayfa akışı yayında olsun (fiyat kartı, "Ödemeye geç", ödeme ekranı).
-/// Gerçek tahsilat (Play Billing) sonraki iş; şimdilik ödeme ekranı prototip görünümüyle gelir.
+/// Tam Sayfa akışı (fiyat kartı, "Ödemeye geç", ödeme ekranı) açık. 0.1.6: tahsilat Google Play Faturalandırma ile (URUN-TASLAGI §38);
+/// ürün mağazada tanımlı değilse ödeme düğmesi pasif kalır ve "Ödeme şu an alınamıyor" yazar.
 const bool odemeAcik = true;
 
 /// 0.1.4 (URUN-TASLAGI §36, site sahibi 15.10.2026): günlük cenaze bildirimi açık; ilk açılışta tek kart sorar.
@@ -36,9 +36,8 @@ class M {
   static const kartDefin = 'Defin';
   static const kartKaydet = 'Sayfama kaydet';
   static const kartKaydedildi = 'Sayfamda ✓';
-  static const kartYakini = 'Yakını paylaştı';
+  static const kartYakini = 'Tam Sayfa'; // Tam Sayfa (200 ₺) kaydının rozeti; ücretsiz aile ilanı kalktı
   static const kartGorevli = 'Mahallenin din görevlisi paylaştı'; // 0.1.5 (§37)
-  static const kartDogrulandi = 'Doğrulandı';
   static const kartBebek = 'Bebek'; // §32: adı olan bebek kaydında rozet
   static const kartKaldir = 'Sayfamdan kaldır';
   static const kaldirSoru = 'Bu kaydı sayfanızdan kaldırmak istiyor musunuz?';
@@ -78,9 +77,9 @@ class M {
       'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra bulunduğunuz il veya ilçenin sayfasında görünür.';
   static const aileGirisEtiket = 'Yakınlar için';
   static const aileGirisNot = 'Yalnız vefat edenin yakınları paylaşabilir';
-  static const aileMadde1 = 'e-Devlet belge kodu isteğe bağlıdır';
+  static const aileMadde1 = 'Telefonunuza gönderilen kodla doğrulanır';
   static const aileMadde3 = 'Bilgiler kurallardan geçince ilan il ve ilçe sayfasında görünür.';
-  static const aileMadde4 = 'Belge dosyası saklanmaz';
+  static const aileMadde4 = 'Telefon numaranız ilanda görünmez';
   static const aileNot = 'İlanınız kurallardan geçtiğinde yayımlanır.';
   static const aileBittiUst = 'Gönderildi';
   static const aileBittiDugme = 'Tamam';
@@ -104,8 +103,6 @@ class M {
   static const sehitDuyuruTamam = 'Duyuru doğrulandı';
   static const sehitBittiYazi = 'İlan kontrolden sonra Tam Sayfa’da yayımlanır. Şehidimizin ruhu şad olsun.';
   static const sehitNot = 'İlanınız kontrolden sonra yayımlanır.';
-  static const belgeDugme = 'Belgeyi doğrula';
-  static const belgeTamam = 'Belge doğrulandı';
   // v0.1.2: form Worker'a gönderilir (deploy/AILE-ILAN-SOZLESME.md); sonuç ekranı
   static const aileYayinda = 'İlanınız yayımlandı. Allah rahmet eylesin.';
   static const aileRed = 'İlan yayımlanamadı. Bilgiler doğrulanamadı.';
@@ -162,11 +159,6 @@ class M {
   static const alanNamazTarihi = 'Cenaze namazı tarihi';
   static const adimCenazeBaslik = 'Cenaze bilgileri';
   static const adimCenazeAciklama = 'Bildiğiniz kadarını yazabilirsiniz.';
-  static const adim2Baslik = 'Ölüm belgesi doğrulama';
-  static const adim2Aciklama =
-      'İsteğe bağlı. e-Devlet’ten aldığınız Ölüm Belgesi’nin doğrulama kodunu girerseniz ilanda “Doğrulandı” işareti görünür. Belge dosyası saklanmaz.';
-  static const adim2Alan = 'Belge doğrulama kodu';
-  static const adim2AlanYer = 'Örn. ABCD-1234-EFGH';
   static const adim3Baslik = 'Başvuran bilgileri';
   static const adim3Aciklama = 'Doğrulama kodu telefonunuza gönderilir.';
   static const adim3Eposta = 'Cep telefonu';
@@ -188,7 +180,7 @@ class M {
   static const hukukKutu = 'Okudum, kabul ediyorum.';
   static const sonDugme = 'Onayla ve gönder';
   static const formDevam = 'Devam';
-  static String formUst(int n) => 'Adım $n / 5';
+  static String formUst(int n, [int toplam = 5]) => 'Adım $n / $toplam';
 
   // 6. Tam Sayfa
   static const tamUst = 'Türkiye geneli';
@@ -200,7 +192,8 @@ class M {
   static const tamIlanUst = 'Tam sayfa ilan';
   static const tamHaritaCami = 'Cami · haritada aç';
   static const tamHaritaMezarlik = 'Mezarlık · haritada aç';
-  static String tamHaritaBildirim(String yer) => '$yer · haritada açılır';
+  static const haritaAcilamadi = 'Harita açılamadı';
+  static const kartHaritadaAc = 'Haritada aç';
   static const fiyatAciklama = 'Gazetedeki vefat ilanının uygulamadaki karşılığı.';
   static const tamDugme = 'Vefat ilanı hazırlayın';
   static const formTamUst = 'Tam sayfa';
@@ -210,7 +203,7 @@ class M {
   static const fiyatTutar = '200 ₺';
   static const fiyatNot = 'Abonelik değildir, bir kez ödenir';
   static const fiyatMadde1 = 'Türkiye genelinde görünür';
-  static const fiyatMadde2 = 'Metni sizinle birlikte hazırlanır';
+  static const fiyatMadde2 = 'Metin sizin istediğiniz şekilde hazırlanır';
   static const fiyatMadde3 = 'Cami ve mezarlık haritada gösterilir';
   static const fiyatMadde4 = 'Yayından önce doğrulanır ve kontrol edilir';
   static const adim5TamBaslik = 'Yasal beyan ve ödeme';
@@ -223,12 +216,15 @@ class M {
   static const odemeUrunAlt = 'Kimin Cenazesi · tek seferlik satın alma';
   static const odemeTutarEt = 'Tutar';
   static const odemeTutar = '200,00 ₺';
-  static const odemeHesapEt = 'Hesap';
-  static const odemeHesap = '••••@••••';
   static const odemeYayinEt = 'Yayın';
-  static const odemeYayin = 'Kontrolden sonra';
-  static const odemeNot = 'Gerçek uygulamada bu ekranı App Store / Google Play açar; ödeme bilgisi uygulamaya gelmez.';
-  static const odemeDugme = 'Ödemeyi onayla';
+  static const odemeYayin = 'Ödemeden sonra';
+  static const odemeNot = 'Ödeme Google Play penceresinde alınır; kart bilgisi uygulamaya gelmez.';
+  static const odemeKapali = 'Ödeme şu an alınamıyor, kısa süre sonra açılacak.';
+  static const odemeTamamlanmadi = 'Ödeme tamamlanmadı. Bilgileriniz saklandı.';
+  static const odemeDogrulanamadi = 'Ödeme doğrulanamadı. Ücret çekildiyse Play size iade eder; yeniden deneyebilirsiniz.';
+  static const odemeAlindi = 'Ödemeniz alındı, ilanınız yayında';
+  static const odemeAlindiAciklama = 'İlan bulunduğunuz il veya ilçenin sayfasında görünür. Başınız sağ olsun.';
+  static const odemeDugme = 'Google Play ile öde';
   static const odemeGeri = 'Forma dönün';
 
   // 7. Sayfam
@@ -315,10 +311,7 @@ class M {
   // 12. Alt sekmeler
   static const sekmeler = ['İlanlar', 'Tam Sayfa', 'Sayfam', 'Dualar', 'Hatırla'];
   // İlan kutusu (15.10.2026): her il/ilçe liste sayfasının üstünde
-  static const ilanKutusuBaslik = 'Cenaze ilanınızın burada görülmesini istiyorsanız:';
-  static const ilanKutusuYakin = 'Cenaze yakını olarak ilanı paylaş';
-  static const ilanKutusuVeya = 'veya';
-  static const ilanKutusuGorevli = 'Bulunduğunuz bölgedeki cami din görevlisinden bunu talep edin.';
+  static const ilanKutusuGorevli = 'Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz.'; // tek paragraf (site sahibi 15.10.2026, birebir); başlık yok
   static const ilanKutusuKayit = 'Din görevlisi misiniz? Kayıt olun.';
 
   // Şehit cenazesi ilanları YALNIZ din görevlisi panelinden (15.10.2026)

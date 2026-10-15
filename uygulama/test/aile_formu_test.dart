@@ -13,6 +13,7 @@ import 'package:kimin_cenazesi/cekirdek/aile.dart';
 import 'package:kimin_cenazesi/cekirdek/durum.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
 import 'package:kimin_cenazesi/cekirdek/metin.dart';
+import 'package:kimin_cenazesi/cekirdek/odeme.dart';
 import 'package:kimin_cenazesi/cekirdek/tema.dart';
 import 'package:kimin_cenazesi/cekirdek/yardimci.dart';
 import 'package:kimin_cenazesi/ekranlar/aile_formu.dart';
@@ -22,14 +23,33 @@ import 'widget_test.dart' show kapsamli, telefon;
 
 const _json = {'content-type': 'application/json; charset=utf-8'};
 
-Widget formSayfasi(AppDurum d, AileServisi s, {bool tam = false, bool sehit = false}) => Kapsam(
+Widget formSayfasi(AppDurum d, AileServisi s, {bool tam = false, bool sehit = false, OdemeKapisi? odeme}) => Kapsam(
       durum: d,
       child: MaterialApp(
-          theme: temaYap(true), home: AileFormu(il: 'Kars', ilce: 'Merkez', tam: tam, sehit: sehit, servis: s)),
+          theme: temaYap(true), home: AileFormu(il: 'Kars', ilce: 'Merkez', tam: tam, sehit: sehit, servis: s, odeme: odeme)),
     );
 
 /// Başlık çubuğu üst etiketi Türkçe büyük harfle yazılır
-Finder ust(int n) => find.text(trBuyuk('Adım $n / 5'));
+Finder ust(int n) => find.text(trBuyuk('Adım $n / 4'));
+
+/// Sahte Play ödemesi: [urun] null ise mağazada ürün yok
+class SahteOdeme implements OdemeKapisi {
+  final UrunBilgi? urun;
+  OdemeSonuc siradaki = const OdemeSonuc.tamam(token: 'tok', siparisNo: 'GPA.0');
+  int satinAlSayisi = 0;
+  int tuketilen = 0;
+  SahteOdeme({this.urun = const UrunBilgi('₺200,00')});
+  @override
+  Future<UrunBilgi?> urunSorgula() async => urun;
+  @override
+  Future<OdemeSonuc> satinAl() async {
+    satinAlSayisi++;
+    return siradaki;
+  }
+
+  @override
+  Future<void> tuket(OdemeSonuc s) async => tuketilen++;
+}
 
 /// Gelen istekleri kaydeden sahte Worker
 AileServisi sahteServis(Map<String, Map<String, dynamic>> istekler) => AileServisi(
@@ -40,6 +60,13 @@ AileServisi sahteServis(Map<String, Map<String, dynamic>> istekler) => AileServi
           return http.Response(jsonEncode({'basvuru_id': 'b1', 'dogrulama': 'telefon'}), 200, headers: _json);
         }
         if (req.url.path == '/aile/dogrula') {
+          final tam = istekler['/aile/basvur']?['tam'] == true;
+          return http.Response(
+              jsonEncode(tam ? {'durum': 'odeme_bekliyor', 'ilan_id': 'i1', 'basvuru_id': 'b1'} : {'durum': 'yayinda', 'ilan_id': 'i1'}),
+              200,
+              headers: _json);
+        }
+        if (req.url.path == '/aile/odeme') {
           return http.Response(jsonEncode({'durum': 'yayinda', 'ilan_id': 'i1'}), 200, headers: _json);
         }
         return http.Response('yok', 404);
@@ -69,11 +96,10 @@ Future<void> dokun(WidgetTester t, Finder f) async {
 
 Finder devam() => find.widgetWithText(AnaDugme, 'Devam');
 
-/// Giriş kartından 5. adıma kadar doldurur. [belge]: Tam Sayfa'da zorunlu belge kodu, şehitte duyuru bağlantısı.
-Future<void> besinciAdima(WidgetTester t, {bool giris = true, String? belge, String? belgeDugme, String? rutbe}) async {
+/// Giriş kartından son (4.) adıma kadar doldurur. 15.10.2026: e-Devlet belge adımı kalktı; 3. adımdan sonra doğrudan yasal beyan.
+Future<void> sonAdima(WidgetTester t, {bool giris = true}) async {
   if (giris) await dokun(t, devam());
   expect(ust(1), findsOneWidget);
-  if (rutbe != null) await yaz(t, 'f_rutbe', rutbe);
   await dokun(t, find.text('Erkek'));
   await yaz(t, 'f_ad', 'Ahmet Örnek');
   await dokun(t, devam());
@@ -84,13 +110,6 @@ Future<void> besinciAdima(WidgetTester t, {bool giris = true, String? belge, Str
   await yaz(t, 'f_telefon', '0532 111 22 33');
   await dokun(t, devam());
   expect(ust(4), findsOneWidget);
-  if (belge != null) {
-    expect(t.widget<AnaDugme>(devam()).onTap, isNull); // doğrulanmadan ilerlenmez
-    await yaz(t, 'f_belge', belge);
-    await dokun(t, find.text(belgeDugme!));
-  }
-  await dokun(t, devam()); // aile: e-Devlet kodu atlanır
-  expect(ust(5), findsOneWidget);
 }
 
 Future<void> onaylaVeGonder(WidgetTester t) async {
@@ -136,22 +155,19 @@ void main() {
     await yaz(tester, 'f_telefon', '+90 532 111 22 33');
     await dokun(tester, devam());
 
-    expect(ust(4), findsOneWidget);
-    expect(find.textContaining('Doğrulandı'), findsOneWidget); // rozet açıklaması
-    expect(tester.widget<AnaDugme>(devam()).onTap, isNotNull); // isteğe bağlı: boş geçilebilir
-    await dokun(tester, devam());
-
-    expect(ust(5), findsOneWidget);
+    expect(ust(4), findsOneWidget); // e-Devlet belge adımı yok: 3. adımdan sonra doğrudan yasal beyan
+    expect(find.textContaining('Belge'), findsNothing);
+    expect(find.textContaining('e-Devlet'), findsNothing);
     expect(find.text(M.hukukMetin), findsOneWidget);
     final dugme = tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Onayla ve gönder'));
     expect(dugme.onTap, isNull); // kutu işaretlenmeden pasif
     await dokun(tester, find.byKey(const ValueKey('beyan_kutu')));
     expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Onayla ve gönder')).onTap, isNotNull);
 
-    // Geri: 5 → 4
+    // Geri: 4 → 3
     await tester.tap(find.byType(YuvarlakDugme).first);
     await tester.pumpAndSettle();
-    expect(ust(4), findsOneWidget);
+    expect(ust(3), findsOneWidget);
   });
 
   testWidgets('Gönder → telefon kodu → doğrula → "İlanınız yayımlandı"', (tester) async {
@@ -161,7 +177,7 @@ void main() {
     final s = sahteServis(istekler);
     await tester.pumpWidget(formSayfasi(d, s));
     await tester.pumpAndSettle();
-    await besinciAdima(tester);
+    await sonAdima(tester);
     await onaylaVeGonder(tester);
 
     final b = istekler['/aile/basvur']!;
@@ -208,7 +224,7 @@ void main() {
     );
     await tester.pumpWidget(formSayfasi(d, s));
     await tester.pumpAndSettle();
-    await besinciAdima(tester);
+    await sonAdima(tester);
     await onaylaVeGonder(tester);
     expect(find.text('İlan yayımlanamadı. Bilgiler doğrulanamadı.'), findsOneWidget);
     expect(find.text('Aynı ilan zaten var'), findsOneWidget);
@@ -229,10 +245,10 @@ void main() {
     );
     await tester.pumpWidget(formSayfasi(d, s));
     await tester.pumpAndSettle();
-    await besinciAdima(tester);
+    await sonAdima(tester);
     await onaylaVeGonder(tester);
     expect(find.text(M.aileAgHata), findsOneWidget);
-    expect(ust(5), findsOneWidget);
+    expect(ust(4), findsOneWidget);
     final tekrar = find.widgetWithText(AnaDugme, 'Yeniden deneyin');
     expect(tekrar, findsOneWidget);
     await tester.tap(tekrar);
@@ -242,11 +258,12 @@ void main() {
     await tester.pumpWidget(const SizedBox()); // geri sayım zamanlayıcısı kapansın
   });
 
-  testWidgets('Tam Sayfa: fiyat kartı → adımlar → belge zorunlu → "Ödemeye geç" → ödeme ekranı → Worker (tam:true)', (tester) async {
+  testWidgets('Tam Sayfa: fiyat kartı → 4 adım (belge adımı yok) → telefon kodu → Play ödemesi → Worker doğrulaması → "Ödemeniz alındı"', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final istekler = <String, Map<String, dynamic>>{};
-    await tester.pumpWidget(formSayfasi(d, sahteServis(istekler), tam: true));
+    final odeme = SahteOdeme();
+    await tester.pumpWidget(formSayfasi(d, sahteServis(istekler), tam: true, odeme: odeme));
     await tester.pumpAndSettle();
 
     expect(odemeAcik, isTrue);
@@ -259,8 +276,8 @@ void main() {
     for (final m in [M.fiyatMadde1, M.fiyatMadde2, M.fiyatMadde3, M.fiyatMadde4]) {
       expect(find.text(m), findsOneWidget);
     }
-    await besinciAdima(tester, belge: 'ABCD-1234-EFGH', belgeDugme: 'Belgeyi doğrula');
-    expect(find.text('Belge doğrulandı'), findsNothing); // 5. adıma geçildi
+    await sonAdima(tester);
+    expect(find.text('Ölüm belgesi doğrulama'), findsNothing);
     expect(find.text('Yasal beyan ve ödeme'), findsOneWidget);
     expect(find.text('Ödenecek: 200 ₺'), findsOneWidget);
     expect(find.text('Onayla ve gönder'), findsNothing);
@@ -270,32 +287,63 @@ void main() {
     expect(tester.widget<AnaDugme>(odemeye).onTap, isNotNull);
     expect(find.text('İlanınız ödeme ve kontrolden sonra yayımlanır.'), findsOneWidget);
     await tester.tap(odemeye);
-    await tester.pumpAndSettle();
+    await tester.pump();
+    await tester.pump();
 
-    // Prototipteki ödeme ekranı; henüz hiçbir istek gitmedi
-    expect(istekler, isEmpty);
-    expect(find.text(trBuyuk('Ödeme')), findsOneWidget);
-    expect(find.text('Mağaza içi satın alma'), findsOneWidget);
-    expect(find.text('Tam sayfa cenaze ilanı'), findsOneWidget);
-    expect(find.text('200,00 ₺'), findsOneWidget);
-    expect(find.text(M.odemeNot), findsOneWidget);
-    await tester.tap(find.widgetWithText(AnaDugme, 'Ödemeyi onayla'));
-    await tester.pump();
-    await tester.pump();
+    // Önce telefon kodu (ödemeden ÖNCE): başvuru gitti, satın alma henüz yok
     final b = istekler['/aile/basvur']!;
     expect(b['tam'], true);
-    expect(b['edevlet_kodu'], 'ABCD-1234-EFGH');
+    expect(b.containsKey('edevlet_kodu'), isFalse);
     expect(b.containsKey('sehit'), isFalse);
-
+    expect(odeme.satinAlSayisi, 0);
     final kod = find.descendant(of: find.byKey(const ValueKey('f_kod')), matching: find.byType(TextField));
     await tester.enterText(kod, '123456');
     await tester.pump();
-    await tester.tap(find.widgetWithText(AnaDugme, 'Doğrula'));
+    tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Doğrula')).onTap!();
     await tester.pump();
-    await tester.pump();
-    expect(find.text('İlanınız alındı'), findsOneWidget);
-    expect(find.text('İlan kontrolden sonra bulunduğunuz il veya ilçenin sayfasında yayımlanır. Başınız sağ olsun.'), findsOneWidget);
+    await tester.pumpAndSettle();
+
+    // Ödeme ekranı: fiyat mağazadan
+    expect(find.text(trBuyuk('Ödeme')), findsOneWidget);
+    expect(find.text('Tam sayfa cenaze ilanı'), findsOneWidget);
+    expect(find.text('₺200,00'), findsOneWidget);
+    expect(find.text(M.odemeNot), findsOneWidget);
+    expect(istekler.containsKey('/aile/odeme'), isFalse);
+
+    // İptal: "Ödeme tamamlanmadı" + yeniden dene; sunucuya bir şey gitmez
+    odeme.siradaki = const OdemeSonuc.iptal();
+    await tester.tap(find.widgetWithText(AnaDugme, 'Google Play ile öde'));
+    await tester.pumpAndSettle();
+    expect(find.text(M.odemeTamamlanmadi), findsOneWidget);
+    expect(istekler.containsKey('/aile/odeme'), isFalse);
+
+    // Başarı: token + orderId Worker'a, sonra tüketilir
+    odeme.siradaki = const OdemeSonuc.tamam(token: 'tok-123', siparisNo: 'GPA.1111-2222-3333-44444');
+    await tester.tap(find.widgetWithText(AnaDugme, 'Yeniden deneyin'));
+    await tester.pumpAndSettle();
+    expect(istekler['/aile/odeme'], {
+      'basvuru_id': 'b1',
+      'purchase_token': 'tok-123',
+      'order_id': 'GPA.1111-2222-3333-44444',
+      'urun': 'tam_sayfa_ilan',
+    });
+    expect(odeme.tuketilen, 1);
+    expect(find.text('Ödemeniz alındı, ilanınız yayında'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Tam Sayfa: ürün Play\'de yoksa düğme pasif, fiyat kartı görünür, "Ödeme şu an alınamıyor"', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final istekler = <String, Map<String, dynamic>>{};
+    await tester.pumpWidget(formSayfasi(d, sahteServis(istekler), tam: true, odeme: SahteOdeme(urun: null)));
+    await tester.pumpAndSettle();
+    expect(find.text('200 ₺'), findsOneWidget);
+    await sonAdima(tester);
+    await dokun(tester, find.byKey(const ValueKey('beyan_kutu')));
+    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Ödemeye geç')).onTap, isNull);
+    expect(find.text('Ödeme şu an alınamıyor, kısa süre sonra açılacak.'), findsOneWidget);
+    expect(istekler, isEmpty);
   });
 
   testWidgets('Şehit yolu: form AÇILMAZ, bilgi ekranı (yalnız din görevlisi); Worker\'a hiçbir istek gitmez; kayıt bağlantısı', (tester) async {
@@ -317,7 +365,7 @@ void main() {
     expect(find.text(M.gorevliGirisNot), findsOneWidget); // din görevlisi kayıt ekranı (alt başlık görünür bölgede)
   });
 
-  testWidgets('Kart: "Yakını paylaştı" + "Doğrulandı" rozetleri ve Bildir', (tester) async {
+  testWidgets('Kart: "Tam Sayfa" rozeti ve Bildir (Doğrulandı rozeti yok)', (tester) async {
     telefon(tester);
     Map<String, dynamic>? giden;
     final d = await testDurumu(
@@ -334,14 +382,13 @@ void main() {
       'ad_soyad': 'Veli Örnek',
       'ilce': 'Merkez',
       'aile': true,
-      'dogrulandi': true,
+      'dogrulandi': true, // eski veri gelse bile rozet çıkmaz
       'namaz_tarihi': '2026-10-14',
     })!;
-    expect(r.dogrulandi, isTrue);
     await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: r)));
     await tester.pumpAndSettle();
-    expect(find.text('Yakını paylaştı'), findsOneWidget);
-    expect(find.text('Doğrulandı'), findsOneWidget);
+    expect(find.text('Tam Sayfa'), findsOneWidget);
+    expect(find.text('Doğrulandı'), findsNothing);
 
     await tester.tap(find.text('Bu ilanda bir yanlışlık mı var?'));
     await tester.pumpAndSettle();
@@ -362,7 +409,7 @@ void main() {
     final r = Ilan.fromJson({'id': 'x', 'ad_soyad': 'Hasan Örnek', 'namaz_tarihi': '2026-10-14'})!;
     await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: r)));
     await tester.pumpAndSettle();
-    expect(find.text('Yakını paylaştı'), findsNothing);
+    expect(find.text('Tam Sayfa'), findsNothing);
     expect(find.text('Doğrulandı'), findsNothing);
     expect(find.text('Bu ilanda bir yanlışlık mı var?'), findsNothing); // Bildir yalnız aile kartlarında
   });

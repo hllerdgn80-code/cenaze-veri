@@ -13,7 +13,6 @@ import '../cekirdek/tema.dart';
 import '../cekirdek/veri.dart';
 import '../cekirdek/yardimci.dart';
 import 'adres.dart';
-import 'aile_formu.dart';
 import 'gorevli_kayit.dart';
 
 class IlanlarEkrani extends StatefulWidget {
@@ -282,8 +281,8 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   return h;
 }
 
-/// İLAN KUTUSU (site sahibi 15.10.2026): her il/ilçe liste sayfasının ÜSTÜNDE sabit.
-/// Başlık + A) cenaze yakını düğmesi (aile formu) + B) din görevlisinden talep metni ve küçük "Din görevlisi misiniz?" bağlantısı.
+/// İLAN KUTUSU (site sahibi 15.10.2026): her il/ilçe liste sayfasının ÜSTÜNDE sabit. Ücretsiz cenaze yakını ilanı KALKTI (15.10.2026 akşam):
+/// yalnız tek paragraf talep metni + "Din görevlisi misiniz? Kayıt olun." bağlantısı.
 class IlanKutusu extends StatelessWidget {
   final String il;
   final String? ilce;
@@ -299,18 +298,6 @@ class IlanKutusu extends StatelessWidget {
       padding: const EdgeInsets.all(R.s4),
       decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
       child: Column(children: [
-        Text(M.ilanKutusuBaslik, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14, fontWeight: FontWeight.w600)),
-        const SizedBox(height: R.s3),
-        IkincilDugme(M.ilanKutusuYakin,
-            onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(builder: (_) => AileFormu(il: il, ilce: ilce)))),
-        const SizedBox(height: 12),
-        // "— veya —": ayrı satır bloğu, ortalı, iki yanda ince çizgi, ikincil metin rengi, alttaki yazıyla aynı boyut; üstte ve altta 12
-        Row(key: const ValueKey('ilan_kutusu_veya'), children: [
-          Expanded(child: Container(height: 1, color: r.cizgi)),
-          Padding(padding: const EdgeInsets.symmetric(horizontal: R.s3), child: Text(M.ilanKutusuVeya, style: Y.govde(r).copyWith(fontSize: 14))),
-          Expanded(child: Container(height: 1, color: r.cizgi)),
-        ]),
-        const SizedBox(height: 12),
         Text(M.ilanKutusuGorevli, key: const ValueKey('ilan_kutusu_talep'), textAlign: TextAlign.center, // 1. metinle aynı parlaklık: ana metin rengi, normal ağırlık, 15
             style: TextStyle(fontSize: 15, height: 20 / 15, fontWeight: FontWeight.w400, color: r.metin)),
         const SizedBox(height: R.s1),

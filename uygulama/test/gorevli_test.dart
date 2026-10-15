@@ -14,6 +14,7 @@ import 'package:kimin_cenazesi/cekirdek/gorevli.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
 import 'package:kimin_cenazesi/cekirdek/metin.dart';
 import 'package:kimin_cenazesi/cekirdek/tema.dart';
+import 'package:kimin_cenazesi/cekirdek/yardimci.dart' show trBuyuk;
 import 'package:kimin_cenazesi/ekranlar/gorevli_kayit.dart';
 import 'package:kimin_cenazesi/ekranlar/gorevli_panel.dart';
 
@@ -105,7 +106,7 @@ void main() {
     expect(ilk.containsKey('eposta'), isFalse);
     expect(ilk['gorev_yeri'], 'Korgan Merkez Camii');
     // kart ekranı: başlık, sahibinin metni EN ÜSTTE, yönerge, tek düğme "Personel kartımı çek"; kâğıt kodu ve galeri YOK
-    expect(find.text(M.gorevliFotoUst), findsWidgets);
+    expect(find.text(trBuyuk(M.gorevliFotoUst)), findsWidgets); // BaslikCubugu üst etiketi BÜYÜK HARF basar (trBuyuk)
     expect(find.text(M.gorevliFotoAciklama), findsOneWidget);
     expect(find.text(M.gorevliFotoYonerge), findsOneWidget);
     expect(find.text(M.gorevliListedeBulundu), findsNothing); // liste artık onay şartı değil; kullanıcıya gösterilmez
@@ -235,7 +236,11 @@ void main() {
   });
 
   testWidgets('Panel (onaylı): "Şehit cenazesi" anahtarı §27 alanlarını açar ve şehit:true gönderir; liste satırı "Şehidimiz <Rütbe Ad>"', (tester) async {
-    telefon(tester);
+    // UZUN ekran: form ListView'ı tamamen kurulur, kaydırma gerekmez (tembel kurulum ve çoklu Scrollable belirsizliği yok)
+    tester.view.physicalSize = const Size(1080, 7000);
+    tester.view.devicePixelRatio = 3.0;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
     final d = await panelDurumu();
     Map<String, dynamic>? giden;
     final servis = GorevliServisi(
@@ -259,18 +264,18 @@ void main() {
     await tester.tap(find.text(M.gorevliIlanPaylas));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('gi_rutbe')), findsNothing);
-    await tester.scrollUntilVisible(find.byKey(const ValueKey('gi_sehit')), 200, scrollable: find.byType(Scrollable).first);
+    expect(find.byKey(const ValueKey('gi_sehit')), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('gi_sehit')));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('gi_rutbe')), findsOneWidget);
     expect(find.byKey(const ValueKey('gi_toren')), findsOneWidget);
     expect(find.byKey(const ValueKey('gi_duyuru')), findsOneWidget);
-    await tester.scrollUntilVisible(find.text(M.erkek), 200, scrollable: find.byType(Scrollable).first);
     await tester.tap(find.text(M.erkek));
-    await _yazF(tester, 'gi_ad', 'Örnekalp Yıldırımhan');
-    await _yazF(tester, 'gi_rutbe', 'Piyade Uzman Çavuş');
-    await _yazF(tester, 'gi_toren', 'Selâmet Meydanı');
-    await tester.scrollUntilVisible(find.text(M.gorevliGonder), 200, scrollable: find.byType(Scrollable).first);
+    Finder alan(String k) => find.descendant(of: find.byKey(ValueKey(k)), matching: find.byType(TextField));
+    await tester.enterText(alan('gi_ad'), 'Örnekalp Yıldırımhan');
+    await tester.enterText(alan('gi_rutbe'), 'Piyade Uzman Çavuş');
+    await tester.enterText(alan('gi_toren'), 'Selâmet Meydanı');
+    await tester.pumpAndSettle();
     await tester.tap(find.text(M.gorevliGonder));
     await tester.pumpAndSettle();
     expect(giden!['sehit'], true);
