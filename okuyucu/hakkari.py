@@ -15,6 +15,9 @@ SITELER = [
     oh.site("Hakkari İl Sesi", "hakkari-hakkariilsesi", "https://www.hakkariilsesigazetesi.com/rss", ek_dizin="https://www.hakkariilsesigazetesi.com/sitemap/sitemap-{AY}.xml"),
     oh.site("Gazete Pano", "hakkari-gazetepano", "https://www.gazetepano.com/feed/"),
     oh.site("Yüksekova Halkın Sesi", "hakkari-yuksekovahalkinsesi", "https://www.yuksekovahalkinsesigazetesi.com/rss", ek_dizin="https://www.yuksekovahalkinsesigazetesi.com/sitemap/sitemap-{AY}.xml"),
+    # H52 (14.10.2026): ilçe bazlı keşif
+    oh.site("Yüksekova Haber", "hakkari-yuksekovahaber", "https://www.yuksekovahaber.com.tr/service/rss.php", ilce="Yüksekova"),
+    oh.site("Hakkari Haber TV", "hakkari-hakkarihabertv", "https://www.hakkarihabertv.com/service/rss.php"),
 ]
 
 

@@ -46,6 +46,20 @@ YEREL_BASIN = {
     "Yozgat Hakimiyet": "www.yozgathakimiyet.com.tr",   # 14.10.2026: yozgat.py hakimiyet() /vefat kartlari
     "Bayburt Postası": "www.bayburtpostasi.com.tr",   # 14.10.2026: bayburt.py RSS + site haritasi + taziye
     "Önadım Gazetesi": "onadimgazetesi.com",   # 14.10.2026: kirklareli.py RSS (gunluk adli vefat haberi)
+    # 15.10.2026: 13 bos il ilce taramasi (arastirma/13-il-ilce-tarama-2026-10-14.md §4) — genel oh.site okuyucusu
+    "Ajans 04": "www.ajans04.net",
+    "Diyadin Net": "www.diyadinnet.com",
+    "Ağrı 04 Haber": "www.agri04haber.com",
+    "TV04": "www.tv04.net",
+    "Ağrıda Haber": "www.agridahaber.com",
+    "Karaköse Haber": "www.karakosehaber.com",
+    "Yüksekova Haber": "www.yuksekovahaber.com.tr",
+    "Hakkari Haber TV": "www.hakkarihabertv.com",
+    "Bitlis Postası": "www.bitlispostasi.com",
+    "Yeni Siirt": "www.yenisiirt.com",
+    "Eskişehir Net": "www.eskisehir.net",
+    "Eskişehir Haber": "www.eskisehirhaber.com",
+    "Eskişehir Ekspres": "www.eskisehirekspres.net",
     "Ankara Net Haber": "www.ankaranethaber.com",
     "Merzifon Bilgi Gazetesi": "www.merzifonbilgigazetesi.com",
     "Mardin Haber Gazetesi": "mardinhaber.com.tr",

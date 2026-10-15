@@ -18,6 +18,10 @@ HABER_SITELERI = [
     oh.site("Sakarya Gazetesi", "eskisehir-sakaryagazetesi", "https://www.sakaryagazetesi.com.tr/rss", ek_dizin="https://www.sakaryagazetesi.com.tr/sitemap/sitemap-{AY}.xml"),
     oh.site("Sonhaber", "eskisehir-sonhaber", "https://www.sonhaber.com.tr/rss", ek_dizin="https://www.sonhaber.com.tr/sitemap/sitemap-{AY}.xml"),
     oh.site("İstikbal Gazetesi", "eskisehir-istikbal", "https://www.istikbalgazetesi.com/rss", ek_dizin="https://www.istikbalgazetesi.com/sitemap/sitemap-{AY}.xml"),
+    # H52 (14.10.2026): ilçe bazlı keşif (Eskişehir yerel siteleri)
+    oh.site("Eskişehir Net", "eskisehir-eskisehirnet", "https://www.eskisehir.net/rss"),
+    oh.site("Eskişehir Haber", "eskisehir-eskisehirhaber", "https://www.eskisehirhaber.com/rss"),
+    oh.site("Eskişehir Ekspres", "eskisehir-eskisehirekspres", "https://www.eskisehirekspres.net/rss"),
 ]
 CIFTELER = "https://www.cifteler.bel.tr/HOME/INDEX/HIZMET-VE-TESISLER/VEFAT-EDENLER"
 

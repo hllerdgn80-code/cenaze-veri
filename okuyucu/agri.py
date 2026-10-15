@@ -15,6 +15,13 @@ SITELER = [
     oh.site("Doğubayazıt Gazetesi", "agri-dogubayazitgazetesi", "https://www.dogubayazitgazetesi.com/rss", kesin_yerel=True, ilce="Doğubayazıt", takma=("Doğubeyazıt",), ek_dizin="https://www.dogubayazitgazetesi.com/sitemap/sitemap-{AY}.xml"),
     oh.site("Ağrı Hürses", "agri-agrihurses", "https://www.agrihurses.net/rss", ek_dizin="https://www.agrihurses.net/sitemap/sitemap-{AY}.xml"),
     oh.site("Patnos Haber Gazetesi", "agri-patnoshabergazetesi", "https://www.patnoshabergazetesi.com/rss"),
+    # H52 (14.10.2026): ilçe bazlı keşifle bulunan yerel siteler (Ağrı/Iğdır; ajans04 Iğdır haberini de verir)
+    oh.site("Ajans 04", "agri-ajans04", "https://www.ajans04.net/rss.php"),
+    oh.site("Diyadin Net", "agri-diyadinnet", "https://www.diyadinnet.com/rss", ilce="Diyadin"),
+    oh.site("Ağrı 04 Haber", "agri-agri04haber", "https://www.agri04haber.com/rss"),
+    oh.site("TV04", "agri-tv04", "https://www.tv04.net/rss/"),
+    oh.site("Ağrıda Haber", "agri-agridahaber", "https://www.agridahaber.com/rss/"),
+    oh.site("Karaköse Haber", "agri-karakosehaber", "https://www.karakosehaber.com/rss/"),
 ]
 
 

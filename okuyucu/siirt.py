@@ -11,9 +11,11 @@ Site başına günde en çok 3 istek (ortak_basin). Kullanım: python3 okuyucu/s
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import ortak_basin as ob, ortak_ilce as oi
+import ortak_basin as ob, ortak_ilce as oi, ortak_haber as oh
 
 IL = "Siirt"
+# H52 (14.10.2026): ilçe bazlı keşif
+SITELER = [oh.site("Yeni Siirt", "siirt-yenisiirt", "https://www.yenisiirt.com/feed/")]
 
 
 def arti_siirt(ctx):
@@ -53,7 +55,7 @@ def kurtalan_gazetesi(ctx):
 
 
 def main():
-    oi.il_calistir(IL, "siirt", [("Artı Siirt", arti_siirt), ("Siirt Haberci", siirt_haberci), ("Kurtalan Gazetesi", kurtalan_gazetesi)])
+    oi.il_calistir(IL, "siirt", [("Artı Siirt", arti_siirt), ("Siirt Haberci", siirt_haberci), ("Kurtalan Gazetesi", kurtalan_gazetesi)] + oh.okuyucular(IL, SITELER))
 
 
 if __name__ == "__main__":
