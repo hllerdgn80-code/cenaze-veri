@@ -406,7 +406,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
             ipucu: M.gorevliTelefonYer,
             denetleyici: _tel,
             klavye: TextInputType.phone,
-            enCok: 16,
+            enCok: 20,
             onChanged: _yenile),
         Text(M.gorevliTelefonNot, key: const ValueKey('g_telefon_not'), textAlign: TextAlign.center, style: Y.soluk(r)),
         const SizedBox(height: R.s2),
@@ -449,7 +449,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
             ipucu: M.gorevliTelefonYer,
             denetleyici: _tel,
             klavye: TextInputType.phone,
-            enCok: 16,
+            enCok: 20,
             onChanged: _yenile),
       ];
 

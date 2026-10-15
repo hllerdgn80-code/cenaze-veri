@@ -816,7 +816,7 @@ class _AileFormuState extends State<AileFormu> {
               ipucu: M.adim3EpostaYer,
               denetleyici: _tel,
               klavye: TextInputType.phone,
-              enCok: 16,
+              enCok: 20,
               onChanged: yenile),
           Padding(
             padding: const EdgeInsets.only(bottom: R.s3),

@@ -116,7 +116,7 @@ void main() {
     await tester.tap(find.text('Din görevlisi misiniz? Kayıt olun.'));
     await tester.pumpAndSettle();
     expect(find.text(M.gorevliBaslik), findsWidgets);
-    expect(find.text(M.gorevliTelefon), findsOneWidget);
+    expect(find.text(M.gorevliGirisNot), findsOneWidget); // kayıt ekranının alt başlığı (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
   });
 
   testWidgets('Tam Sayfa: iki giriş, "Yayımlanan vefat ilanları" önizlemeleri, fiyat kartıyla açılan form, şehit formu', (tester) async {
@@ -153,13 +153,20 @@ void main() {
     await tester.tap(find.byType(YuvarlakDugme).first);
     await tester.pumpAndSettle();
 
-    // "Şehidimiz için ilan hazırlayın" → 1. adım, ücret yok
+    // "Şehidimiz için ilan hazırlayın" → 15.10.2026: form YOK; bilgi PENCERESİ (şehit ilanı yalnız din görevlisinden)
     await tester.tap(find.text('Şehidimiz için ilan hazırlayın'));
     await tester.pumpAndSettle();
-    expect(find.text('Şehit İlanı'), findsOneWidget);
-    expect(find.text(trBuyuk('Adım 1 / 5')), findsOneWidget);
-    expect(find.textContaining('₺'), findsNothing);
-    final devam = tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Devam'));
-    expect(devam.onTap, isNull);
+    expect(find.byKey(const ValueKey('sehit_bilgi_pencere')), findsOneWidget);
+    expect(find.text(M.sehitBilgiBaslik), findsOneWidget);
+    expect(find.text(M.sehitBilgiGovde), findsOneWidget);
+    expect(find.text(M.sehitBilgiKapanis), findsOneWidget);
+    expect(find.text(M.ilanKutusuKayit), findsOneWidget);
+    expect(find.text('Şehit İlanı'), findsNothing); // form başlığı yok
+    expect(find.text(trBuyuk('Adım 1 / 5')), findsNothing);
+    // pencere "Tamam" ile kapanır; Tam Sayfa ekranı yerinde kalır
+    await tester.tap(find.text(M.aileBittiDugme));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('sehit_bilgi_pencere')), findsNothing);
+    expect(find.text('Şehidimiz için ilan hazırlayın'), findsOneWidget);
   });
 }

@@ -123,9 +123,7 @@ class TamSayfaEkrani extends StatelessWidget {
                     ))),
             const SizedBox(height: R.s3),
             IkincilDugme(M.sehitTamDugme,
-                onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
-                      builder: (_) => const SehitBilgiEkrani(), // 15.10.2026: şehit ilanı yalnız din görevlisi panelinden
-                    ))),
+                onTap: () => sehitBilgiGoster(context)), // 15.10.2026: şehit ilanı yalnız din görevlisi panelinden; pencere (tam ekran değil)
             const SizedBox(height: R.s3),
             IkincilDugme(M.gorevliDugme, onTap: () => gorevliKapisi(context, il: d.il ?? '', ilce: d.ilce)),
             const Bolum(M.tamBolum),

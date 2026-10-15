@@ -82,12 +82,13 @@ void main() {
       ),
     ));
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliTelefon), findsOneWidget);
+    expect(find.text(M.gorevliGirisNot), findsOneWidget); // "Hesabınız Diyanet personel kartınızla doğrulanır." (üstte, görünür)
     expect(find.text('E-posta'), findsNothing);
-    expect(find.text(M.gorevliGirisNot), findsOneWidget); // "Hesabınız Diyanet personel kartınızla doğrulanır."
     await _yaz(tester, 'g_ad', 'Hasan Kurguluoğlu');
     await _yaz(tester, 'g_yer', 'Korgan Merkez Camii');
-    await _yaz(tester, 'g_telefon', '0532 111 22 33');
+    await _yaz(tester, 'g_telefon', '0532 111 22 33'); // alan kaydırılarak görünür kılınır (ListView tembel kurar)
+    expect(find.text(M.gorevliTelefon), findsOneWidget);
+    expect(find.text(M.gorevliTelefonNot), findsOneWidget); // KVKK notu
     // beyan işaretlenmeden pasif
     expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliBasvuruGonder)).onTap, isNull);
     await tester.scrollUntilVisible(find.byKey(const ValueKey('g_beyan')), 200, scrollable: find.byType(Scrollable).first);
@@ -258,6 +259,7 @@ void main() {
     await tester.tap(find.text(M.gorevliIlanPaylas));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('gi_rutbe')), findsNothing);
+    await tester.scrollUntilVisible(find.byKey(const ValueKey('gi_sehit')), 200, scrollable: find.byType(Scrollable).first);
     await tester.tap(find.byKey(const ValueKey('gi_sehit')));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('gi_rutbe')), findsOneWidget);

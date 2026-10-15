@@ -308,12 +308,13 @@ void main() {
     expect(find.text('Şehit cenazesi ilanları yalnızca din görevlileri tarafından paylaşılır.'), findsOneWidget);
     expect(find.text('Şehidimizin yakınıysanız, cenaze töreninin yapılacağı caminin din görevlisine iletmeniz yeterlidir; ilan buradan duyurulur.'), findsOneWidget);
     expect(find.text('Başınız sağ olsun. Şehidimizin ruhu şad olsun.'), findsOneWidget);
+    expect(find.byKey(const ValueKey('sehit_bilgi_pencere')), findsOneWidget); // PENCERE (tam ekran değil)
     expect(find.byType(FormAlani), findsNothing);
     expect(find.text('Rütbe / unvan'), findsNothing);
     expect(istekler, isEmpty);
-    await tester.tap(find.text('Din görevlisi misiniz? Kayıt olun.'));
+    await tester.tap(find.text(M.ilanKutusuKayit));
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliTelefon), findsOneWidget); // din görevlisi kayıt ekranı
+    expect(find.text(M.gorevliGirisNot), findsOneWidget); // din görevlisi kayıt ekranı (alt başlık görünür bölgede)
   });
 
   testWidgets('Kart: "Yakını paylaştı" + "Doğrulandı" rozetleri ve Bildir', (tester) async {
