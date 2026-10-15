@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-14",
     "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
@@ -43,164 +43,14 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-14",
     "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false
-  },
-  {
-   "id": "749727c305af",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Osman İrgav",
-   "anne_baba": null,
-   "yas": 74,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
-  },
-  {
-   "id": "f6bcac7456a5",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Cennet Can",
-   "anne_baba": null,
-   "yas": 80,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
-  },
-  {
-   "id": "472f41370daa",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Emine Bilgin",
-   "anne_baba": null,
-   "yas": 96,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
-  },
-  {
-   "id": "6d91fbcee3dc",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Hüseyin Ali Hıdır Nedarlı",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
-  },
-  {
-   "id": "bc0fc6baa672",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Şaziye Çelik",
-   "anne_baba": null,
-   "yas": 81,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
-  },
-  {
-   "id": "30922507be6f",
-   "il": "Ankara",
-   "ilce": "Mamak",
-   "mahalle": null,
-   "ad_soyad": "Veyis Bekar",
-   "anne_baba": null,
-   "yas": 92,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Mamak Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/mamak-belediyesi-vefat-sorgulama-v3",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-13",
-    "hizmet": "mamak-belediyesi-vefat-sorgulama-v3"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false
   }
  ],
- "guncelleme": "2026-10-14T23:32:04+03:00"
+ "guncelleme": "2026-10-15T07:00:58+03:00"
 }

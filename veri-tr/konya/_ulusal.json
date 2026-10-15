@@ -2,56 +2,6 @@
  "il": "Konya",
  "kayitlar": [
   {
-   "id": "2aec840ad137",
-   "il": "Konya",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "İsmet Cömert",
-   "anne_baba": null,
-   "yas": 73,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-14",
-    "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true
-  },
-  {
-   "id": "0b6dc48151aa",
-   "il": "Konya",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Ayşe Sarıçiğdem",
-   "anne_baba": null,
-   "yas": 85,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
-   "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-14",
-    "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true
-  },
-  {
    "id": "fdcc9091040c",
    "il": "Konya",
    "ilce": null,
@@ -68,7 +18,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -93,7 +43,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -118,7 +68,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -143,7 +93,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -168,7 +118,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -193,7 +143,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -218,7 +168,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -243,7 +193,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -268,7 +218,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -293,7 +243,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -318,7 +268,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -343,7 +293,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -368,7 +318,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -393,7 +343,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Konya Büyükşehir Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/konya-buyuksehir-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-14T23:32:04+03:00",
+   "alindi": "2026-10-15T07:00:58+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-13",
     "hizmet": "konya-buyuksehir-belediyesi-vefat-sorgulama"
@@ -402,5 +352,5 @@
    "ilce_belirsiz": true
   }
  ],
- "guncelleme": "2026-10-14T23:32:04+03:00"
+ "guncelleme": "2026-10-15T07:00:58+03:00"
 }
