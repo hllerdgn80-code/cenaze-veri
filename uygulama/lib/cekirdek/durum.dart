@@ -7,6 +7,7 @@ import 'cinsiyet.dart';
 import 'depo.dart';
 import 'ilan.dart';
 import 'metin.dart';
+import 'surum.dart';
 import 'veri.dart';
 import 'yardimci.dart';
 
@@ -40,12 +41,42 @@ class AppDurum extends ChangeNotifier {
     this.bildirim = const YokBildirim(),
     bool bildirimSorusuAcik = false,
     this.acilisAcik = false,
-  })  : il = depo.il,
+    SurumCekici? surumCekici,
+    this.buildNo = buildNoDerleme,
+  })  : _surumCekici = surumCekici ?? varsayilanSurumCekici(veri.istemci),
+         il = depo.il,
         ilce = depo.ilce,
         koyu = depo.koyu,
         bildirimSorusuGerek = bildirimSorusuAcik &&
             bildirimTeklifiAcik &&
             soruZamaniGeldi(izin: depo.bildirimIzni, erteleGunu: depo.bildirimErtele, bugun: bugunTr());
+
+  // ---- Zorunlu güncelleme kapısı (§42) ----
+  final SurumCekici _surumCekici;
+
+  /// Çalışan sürümün build numarası; 0 = kapı atlanır (geliştirme/test)
+  final int buildNo;
+  SurumBilgi? surum;
+  bool surumBekliyor = false;
+  Future<void>? _surumIs;
+
+  bool get guncellemeZorunlu => buildNo > 0 && surum != null && buildNo < surum!.minBuild;
+  bool get guncellemeOnerilir => buildNo > 0 && surum != null && !guncellemeZorunlu && buildNo < surum!.sonBuild;
+
+  /// Sürüm bilgisini çeker (3 sn); hata = kapı açık. Sürerken tekrar çağrılırsa aynı işi döndürür.
+  Future<void> surumKontrol() {
+    if (buildNo <= 0) return Future.value();
+    return _surumIs ??= () async {
+      surumBekliyor = surum == null;
+      try {
+        final s = await _surumCekici().timeout(const Duration(seconds: 3));
+        if (s != null) surum = s; // hata/boş yanıt: önceki bilgi korunur, yoksa kapı açık
+      } catch (_) {}
+      surumBekliyor = false;
+      _surumIs = null;
+      notifyListeners();
+    }();
+  }
 
   String? il;
   String? ilce; // null = tüm ilçeler

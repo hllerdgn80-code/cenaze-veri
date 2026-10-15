@@ -92,10 +92,10 @@ jobs:
         continue-on-error: true
         if: steps.ayar.outputs.imzali == 'true' && steps.test.outcome == 'success'
         run: |
-          flutter build appbundle --release --build-number ${{ github.run_number }}
-          flutter build apk --release --build-number ${{ github.run_number }}
+          flutter build appbundle --release --build-number ${{ github.run_number }} --dart-define=BUILD_NO=${{ github.run_number }}
+          flutter build apk --release --build-number ${{ github.run_number }} --dart-define=BUILD_NO=${{ github.run_number }}
           # Siteden indirme icin yalniz arm64 (kucuk; Cloudflare Pages dosya siniri 25 MB)
-          flutter build apk --release --split-per-abi --target-platform android-arm64 --build-number ${{ github.run_number }}
+          flutter build apk --release --split-per-abi --target-platform android-arm64 --build-number ${{ github.run_number }} --dart-define=BUILD_NO=${{ github.run_number }}
           ls -la build/app/outputs/flutter-apk/
 
       - name: Hata ayiklama imzali APK (imza anahtari yok)
@@ -104,7 +104,7 @@ jobs:
         if: steps.ayar.outputs.imzali != 'true' && steps.test.outcome == 'success'
         run: |
           echo "::warning::ANDROID_KEYSTORE_* secret'lari yok. Yalniz telefona kurulacak deneme APK'si uretildi; Play Console'a yuklenecek AAB icin deploy/ANDROID-IMZA.md"
-          flutter build apk --release --build-number ${{ github.run_number }}
+          flutter build apk --release --build-number ${{ github.run_number }} --dart-define=BUILD_NO=${{ github.run_number }}
 
       - name: Derleme sonucu
         if: steps.test.outcome == 'success'

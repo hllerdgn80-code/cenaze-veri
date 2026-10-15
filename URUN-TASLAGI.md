@@ -262,3 +262,18 @@ Fiyat (200 ₺) her zaman görünür; ücretsiz yapılmaz. Ödeme YALNIZ Google 
 - **Din görevlisi:** telefona kod + Diyanet personel kartı fotoğrafı (yalnız kamera; cihazda TC örtülür; OCR bellekte: Diyanet ibaresi + ad + unvan + fiziksel kart; fotoğraf saklanmaz) + müftülük listesi eşleşmesi (varsa puan) + tek hesap + ilk 7 gün çapraz kontrol + beyan kutusu. Kart tutmazsa: panel açık, "İlan paylaş" pasif, sahibinin kuyruğu (foto ≤7 gün), onayda uygulama içi bildirim (+SMS yedek), redde hesap silinir.
 - **Tam Sayfa (200 ₺):** telefona kod + beyan + Google Play Faturalandırma; ölüm belgesi/e-Devlet adımı yok.
 - **Her yerde:** kart fotoğrafı veri tabanında tutulmaz (KVKK metni), telefon hiçbir çıktıda görünmez, kâğıt kodu yok, galeri yok.
+
+## 40. ÜCRETSİZ AİLE İLANI KALDIRILDI (site sahibi 15.10.2026: "cenaze yakını ilanını kaldıralım, hepsini cami hocalarına yönlendirelim")
+Normal cenaze ilanları yalnız din görevlisi panelinden; Tam Sayfa (200 ₺, yakının ücretli ilanı) kalır. İlan kutusu (sahibi metni, birebir): "Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz." + "Din görevlisi misiniz? Kayıt olun." "İlan ver" kapıları: Tam Sayfa · Din görevlisi (şehit → bilgi penceresi). Worker /aile/basvur yalnız tam:true. §39'daki "cenaze yakını ilanı" maddesi geçersiz.
+
+
+## 41. AÇILIŞ MESAJI VE MOTTO (site sahibi 15.10.2026)
+- Her açılışta tam ekran açılış mesajı **5–7 sn** (uygulamada 6 sn) görünür, sonra sönerek uygulamaya girer: ortada daire simge (altın çift halka, kubbe + hilal + tek minare, önünde ÖRTÜLÜ TABUT ve musalla taşı; `uygulama/assets/acilis/acilis.png`, kaynak `tasarim/acilis/simge22.png`, Higgsfield nano_banana_pro, sahibi seçti: "örtülü tabut olsun"), altında Arapça âyet **إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ**, altında SIRAYLA: küçük altın başlık **BAKARA SÛRESİ, 2/156** → meal **“Doğrusu biz Allah’a aidiz ve kuşkusuz O’na döneceğiz.”** → kaynak satırı **Diyanet İşleri Başkanlığı Meâli** (sahibi 15.10 18:40: sûre/âyet üstte, kaynak altta) (kuran.diyanet.gov.tr, sayfa 23, 15.10.2026'da doğrulandı). Yazı görsele çizdirilmez, uygulama yazıyla bindirir (yapay zekâ Arapça harfleri bozar).
+- Motto **“Şehrinizdeki cenazelerden haberdar olun”**: açılış görselinde DEĞİL; il seçme ekranında başlığın altında ve Play mağaza kısa açıklamasında (PLAY-STORE-PAKETI.md).
+- Prototip: `tasarim/sablon.html` `#acilis` + `prototip_yap.py` (secim.txt; `#aday=N` ile aday karşılaştırma; `#acilis=0` atlama). Uygulama (0.1.7): `AcilisMesaji` ekranı `home`'dan önce, 6 sn Timer, bildirim sorusu ondan sonra.
+
+## 42. ZORUNLU GÜNCELLEME KAPISI (site sahibi 15.10.2026: "kullanıcı girer girmez güncelleme var desin, Play Store'a gitmeden giremesin")
+- Dosya: depoda `site/surum.json` (`min_build`, `son_build`, `son_surum`, `mesaj`) → `https://veri.kimincenazesi.com/surum.json`. Uygulama build numarasını `--dart-define=BUILD_NO=${{ github.run_number }}` ile alır (android.yml); 0 = geliştirme, kapı atlanır.
+- Kural: açılış mesajı (6 sn) sürerken sürüm çekilir (3 sn zaman aşımı); `BUILD_NO < min_build` ise tam ekran "Güncelleme gerekli" + "Play Store'da güncelle" (market:// → https yedek), geri tuşu kapatmaz; uygulama öne dönünce yeniden kontrol. `BUILD_NO < son_build` ama `>= min_build`: ana ekranda tek satır "Yeni sürüm var" çubuğu.
+- Yayın: Play yeni sürümü gösterdikten SONRA `python3 araclar/surum_yayinla.py --min N --son N --surum 0.1.7` (N = yeni sürümün build numarası = Actions run_number). Kapıyı kaldırmak: `--min 0 --son 0`.
+- Ağ hatası/bozuk dosya = kapı AÇIK (fail-open): sunucu düşünce kullanıcı kilitlenmez. Bu kapıyı koyan sürüm (0.1.7+16) öncesi kurulumlar kapıyı bilmez; yalnız 0.1.7+ sonrası sürümler zorlanır. Play In-App Update API ileride.

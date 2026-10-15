@@ -8,6 +8,7 @@ import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import 'dualar.dart';
+import 'guncelleme.dart';
 import 'hatirla.dart';
 import 'ilanlar.dart';
 import 'sayfam.dart';
@@ -53,18 +54,23 @@ class AnaKabuk extends StatelessWidget {
       child: Scaffold(
         body: SafeArea(
           bottom: false,
-          child: IndexedStack(
-            index: d.sekme,
-            children: [
-              for (int i = 0; i < 5; i++)
-                Navigator(
-                  key: d.sekmeAnahtarlari[i],
-                  onGenerateRoute: (_) => MaterialPageRoute(
-                    builder: (_) => Scaffold(body: _kok(i)),
-                  ),
-                ),
-            ],
-          ),
+          child: Column(children: [
+            const GuncellemeCubugu(),
+            Expanded(
+              child: IndexedStack(
+                index: d.sekme,
+                children: [
+                  for (int i = 0; i < 5; i++)
+                    Navigator(
+                      key: d.sekmeAnahtarlari[i],
+                      onGenerateRoute: (_) => MaterialPageRoute(
+                        builder: (_) => Scaffold(body: _kok(i)),
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ]),
         ),
         bottomNavigationBar: Container(
           decoration: BoxDecoration(

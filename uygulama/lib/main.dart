@@ -18,6 +18,7 @@ import 'ekranlar/acilis_mesaji.dart';
 import 'ekranlar/adres.dart';
 import 'ekranlar/bildirim_sorusu.dart';
 import 'ekranlar/gorevli_panel.dart';
+import 'ekranlar/guncelleme.dart';
 import 'ekranlar/kabuk.dart';
 
 Future<Gomulu> gomuluYukle() async {
@@ -45,15 +46,17 @@ Future<void> main() async {
     durum.sekmeAnahtarlari[1].currentState?.push(MaterialPageRoute(builder: (_) => const GorevliPanel()));
   }
 
+  durum.surumKontrol(); // açılış mesajı sürerken arka planda; hata = kapı açık (§42)
   await bildirim.baslat(tiklandi: durum.anaEkranaDon, gorevliTiklandi: gorevliPaneliAc);
   if (depo.bildirimIzni == true) await bildirim.planla(); // zincir her açılışta yeniden kurulur
   runApp(KiminCenazesi(durum: durum));
 }
 
 Widget _ilkEkran(AppDurum durum) {
-  final Widget sonra = durum.bildirimSorusuGerek
-      ? const BildirimSorusu()
-      : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani());
+  final Widget sonra = SurumKapisi(
+      child: durum.bildirimSorusuGerek
+          ? const BildirimSorusu()
+          : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani()));
   return durum.acilisAcik ? AcilisMesaji(sonra: sonra) : sonra;
 }
 

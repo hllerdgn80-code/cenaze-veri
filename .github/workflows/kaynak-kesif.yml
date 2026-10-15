@@ -16,7 +16,14 @@ jobs:
     runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
     timeout-minutes: 15
     steps:
+      # 15.10.2026 H69: GitHub depolama arizasinda ("ServerBusy: egress over the account limit") ilk checkout duserse 60 sn sonra bir kez daha dene
       - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
