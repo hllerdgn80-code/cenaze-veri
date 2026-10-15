@@ -261,7 +261,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
 
   // ---- Telefon girişi ("Hesabım var") ----
   Future<void> _girisKodGonder() async {
-    if (_yukleniyor || !_telNormal(_tel.text) != null) return;
+    if (_yukleniyor || _telNormal(_tel.text) == null) return;
     setState(() {
       _yukleniyor = true;
       _hata = null;
