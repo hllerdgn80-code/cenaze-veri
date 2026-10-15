@@ -56,20 +56,22 @@ void main() {
     expect(find.text(trBuyuk('İl geneli')), findsOneWidget);
   });
 
-  testWidgets('§21/2: ilçede bugün ilan yoksa ilin diğer ilçelerinin ilanları gösterilir', (tester) async {
+  testWidgets('15.10.2026 sahibi: ilçede bugün ilan yoksa YALNIZ "bulunmuyor" satırı; diğer ilçeler ve son 7 gün açılmaz', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final v = veriYap(bugun, ilceler: {
       'Bodrum': [kayit('a', 'Ali Örnek', 'Bodrum', bugun)],
       'Milas': [kayit('b', 'Hasan Örnek', 'Milas', bugun)],
-      'Marmaris': [],
+      'Marmaris': [kayit('e', 'Dünkü Örnek', 'Marmaris', gunEkle(bugun, -1))],
     });
     await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Marmaris', bugun, bugun))));
     await tester.pumpAndSettle();
     expect(find.text('Bugün Marmaris’te cenaze ilanı bulunmuyor'), findsOneWidget);
-    expect(find.text(trBuyuk('Muğla’da bugün: Bodrum, Milas')), findsOneWidget);
-    expect(find.text('Ali Örnek'), findsOneWidget);
-    expect(find.text('Hasan Örnek'), findsOneWidget);
+    expect(find.textContaining('Son yedi gün'), findsNothing);
+    expect(find.text(trBuyuk('Muğla’da bugün: Bodrum, Milas')), findsNothing);
+    expect(find.text('Ali Örnek'), findsNothing);
+    expect(find.text('Hasan Örnek'), findsNothing);
+    expect(find.text('Dünkü Örnek'), findsNothing); // dünün kaydı kendiliğinden açılmaz
   });
 
   testWidgets('§32: adı olan bebek kaydında "Bebek" rozeti', (tester) async {
