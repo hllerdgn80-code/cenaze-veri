@@ -36,9 +36,29 @@ class Depo {
   bool get koyu => (_p.getString('tema') ?? 'koyu') == 'koyu';
   Future<void> temaKaydet(bool koyu) => _p.setString('tema', koyu ? 'koyu' : 'acik');
 
-  // ---- Bildirim izni teklifi (§21.3): null = henüz sorulmadı ----
+  // ---- Günlük bildirim (§36) ----
+  // izin: true = açık · false = kapalı (ayardan kapatıldı / sistem izni verilmedi) · null = henüz cevap yok.
   bool? get bildirimIzni => _p.getBool('izin');
   Future<void> bildirimIzniKaydet(bool evet) => _p.setBool('izin', evet);
+
+  /// "Şimdi değil" denen gün (ISO); 7 gün yeniden sorulmaz
+  String? get bildirimErtele => _p.getString('izin_ertele');
+  Future<void> bildirimErteleKaydet(String gun) => _p.setString('izin_ertele', gun);
+
+  /// Arka plan görevi ayrı izolatta çalışır: diskteki son değerleri okumak için
+  Future<void> yenile() => _p.reload();
+
+  /// Gönderilen bildirimlerin kaydı: sabah/öğle bildirimi hangi gün gitti, sabahta hangi ilanlar vardı
+  String? get bildirimSabahGunu => _p.getString('bil_sabah');
+  String? get bildirimOgleGunu => _p.getString('bil_ogle');
+  Set<String> get bildirimGorulen => (_p.getStringList('bil_gorulen') ?? const <String>[]).toSet();
+
+  Future<void> bildirimSabahKaydet(String gun, Set<String> ilanlar) async {
+    await _p.setString('bil_sabah', gun);
+    await _p.setStringList('bil_gorulen', ilanlar.toList());
+  }
+
+  Future<void> bildirimOgleKaydet(String gun) => _p.setString('bil_ogle', gun);
 
   // ---- JSON yardımcıları ----
   Map<String, dynamic> _harita(String k) {

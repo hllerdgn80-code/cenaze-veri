@@ -185,35 +185,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
                   ))),
         ]),
       ),
-      // §21/3 + prototip v8: bildirim izni teklifi (bir kez sorulur; Tarihte Bugün/Kaybettiklerimiz şeritleri YOK — §26)
-      if (bildirimTeklifiAcik && d.depo.bildirimIzni == null) ...[
-        const SizedBox(height: R.s3),
-        Container(
-          key: const ValueKey('izin_karti'),
-          padding: const EdgeInsets.all(R.s5),
-          decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
-          child: Column(children: [
-            const Daire('zil', boyut: 56),
-            const SizedBox(height: R.s4),
-            Text(M.izinSoru,
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
-            const SizedBox(height: R.s4),
-            IkiliSatir(
-              sol: AnaDugme(M.izinEvet, onTap: () => _izinSec(context, d, true)),
-              sag: IkincilDugme(M.izinHayir, yukseklik: 52, onTap: () => _izinSec(context, d, false)),
-            ),
-          ]),
-        ),
-      ],
     ];
-  }
-
-  Future<void> _izinSec(BuildContext context, AppDurum d, bool evet) async {
-    await d.depo.bildirimIzniKaydet(evet);
-    if (!mounted) return;
-    setState(() {});
-    bildir(this.context, evet ? M.izinEvetBildirim : M.izinHayirBildirim);
   }
 }
 

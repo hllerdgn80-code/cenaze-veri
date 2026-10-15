@@ -6,8 +6,8 @@ import 'yardimci.dart';
 /// Gerçek tahsilat (Play Billing) sonraki iş; şimdilik ödeme ekranı prototip görünümüyle gelir.
 const bool odemeAcik = true;
 
-/// Push paketi (Firebase) bağlanana dek kaynaksız ilde bildirim teklifi sorulmaz.
-const bool bildirimTeklifiAcik = false;
+/// 0.1.4 (URUN-TASLAGI §36, site sahibi 15.10.2026): günlük cenaze bildirimi açık; ilk açılışta tek kart sorar.
+const bool bildirimTeklifiAcik = true;
 
 class M {
   M._();
@@ -56,11 +56,14 @@ class M {
   static const kaynaksizAciklama = 'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra burada görünür.';
   static const kaynaksizDugme = 'Cenaze ilanı paylaş';
   static const kaynaksizBugun = 'Bugün';
-  static const izinSoru = 'İlçenizde cenaze ilanı paylaşıldığında haber verelim mi?';
-  static const izinEvet = 'Haber verin';
+  static const izinSoru = 'Bölgenizde cenaze olduğunda size haber vermemizi ister misiniz?';
+  static const izinEvet = 'Evet, haber verin';
   static const izinHayir = 'Şimdi değil';
-  static const izinEvetBildirim = 'Paylaşıldığında haber vereceğiz';
+  static const izinEvetBildirim = 'Bölgenizdeki cenazeler için sabahları haber vereceğiz';
   static const izinHayirBildirim = 'Bildirim gönderilmeyecek';
+  static const izinVerilmedi = 'Bildirim izni verilmedi. Telefonunuzun ayarlarından açabilirsiniz.';
+  static const menuBildirimAc = 'Cenaze bildirimini aç';
+  static const menuBildirimKapat = 'Cenaze bildirimini kapat';
   // Bugün ilan yoksa kartın hemen altı (14.10.2026 sahibi: bağlantı en üstte)
   static const aileDavetMetin = 'Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz';
   static const aileDavetDugme = 'Cenaze bilgilerini paylaş';
@@ -293,7 +296,7 @@ class M {
   static const oneriTamamDugme = 'Tamam';
   static const hakkindaBaslik = 'Kimin Cenazesi';
   static const hakkindaMetin =
-      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.3';
+      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.4';
   static const gizlilikBaslik = 'Gizlilik';
   static const gizlilikMetin =
       'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.';

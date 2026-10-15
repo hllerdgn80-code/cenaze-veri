@@ -1,9 +1,12 @@
 // Uygulama durumu: adres, tema, Sayfam değişiklikleri, sekme geçişi. Tek ChangeNotifier, InheritedNotifier ile dağıtılır.
 import 'package:flutter/material.dart';
 
+import 'bildirim.dart';
+import 'bildirim_mantik.dart';
 import 'cinsiyet.dart';
 import 'depo.dart';
 import 'ilan.dart';
+import 'metin.dart';
 import 'veri.dart';
 import 'yardimci.dart';
 
@@ -23,10 +26,22 @@ class AppDurum extends ChangeNotifier {
   final VeriServisi veri;
   final Gomulu gomulu;
 
-  AppDurum({required this.depo, required this.veri, required this.gomulu})
-      : il = depo.il,
+  /// Bildirim arayüzü: gerçek uygulamada [AndroidBildirim], testlerde [YokBildirim] (eklenti çağrılmaz)
+  final BildirimArkayuzu bildirim;
+
+  /// [bildirimSorusuAcik]: yalnız main() true verir; testlerde ilk açılış kartı atlanır
+  AppDurum({
+    required this.depo,
+    required this.veri,
+    required this.gomulu,
+    this.bildirim = const YokBildirim(),
+    bool bildirimSorusuAcik = false,
+  })  : il = depo.il,
         ilce = depo.ilce,
-        koyu = depo.koyu;
+        koyu = depo.koyu,
+        bildirimSorusuGerek = bildirimSorusuAcik &&
+            bildirimTeklifiAcik &&
+            soruZamaniGeldi(izin: depo.bildirimIzni, erteleGunu: depo.bildirimErtele, bugun: bugunTr());
 
   String? il;
   String? ilce; // null = tüm ilçeler
@@ -40,6 +55,37 @@ class AppDurum extends ChangeNotifier {
   int anaEkranSayaci = 0;
 
   bool get adresVar => il != null;
+
+  // ---- Günlük bildirim (§36) ----
+  /// İlk açılış kartı gösterilsin mi (başka hiçbir ekrandan önce)
+  bool bildirimSorusuGerek;
+
+  bool get bildirimAcik => depo.bildirimIzni == true;
+
+  /// İlk açılış kartı cevabı. Evet → sistem izni → normal akış. Şimdi değil → 7 gün sorulmaz.
+  Future<void> bildirimSorusunuYanitla(bool evet) async {
+    if (evet) {
+      await bildirimAyarla(true);
+    } else {
+      await depo.bildirimErteleKaydet(bugunTr());
+    }
+    bildirimSorusuGerek = false;
+    notifyListeners();
+  }
+
+  /// Menüdeki aç-kapa. Açarken sistem izni istenir; verilmezse kapalı kalır. Sonuç: gerçekten açık mı.
+  Future<bool> bildirimAyarla(bool ac) async {
+    if (ac && await bildirim.izinIste()) {
+      await depo.bildirimIzniKaydet(true);
+      await bildirim.planla();
+      notifyListeners();
+      return true;
+    }
+    await depo.bildirimIzniKaydet(false);
+    await bildirim.iptal();
+    notifyListeners();
+    return false;
+  }
 
   Future<void> adresKaydet(String yeniIl, String? yeniIlce) async {
     il = yeniIl;

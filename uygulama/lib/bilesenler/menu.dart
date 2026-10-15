@@ -1,4 +1,4 @@
-// ⋮ menü (270 px, ekranın ortasında): Adresi değiştir · Tema · Uygulamayı paylaş · Öneri ve tavsiyeleriniz · Hakkında · Gizlilik
+// ⋮ menü (270 px, ekranın ortasında): Adresi değiştir · Tema · Cenaze bildirimi aç/kapat · Uygulamayı paylaş · Öneri ve tavsiyeleriniz · Hakkında · Gizlilik
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -52,6 +52,7 @@ Future<void> menuAc(BuildContext context) async {
             const SizedBox(height: R.s1),
             satir('adres', 'konum', M.menuAdres),
             satir('tema', d.koyu ? 'gunes' : 'ay', d.koyu ? M.menuAcikTema : M.menuKoyuTema),
+            if (bildirimTeklifiAcik) satir('bildirim', 'zil', d.bildirimAcik ? M.menuBildirimKapat : M.menuBildirimAc),
             satir('paylas', 'paylas', M.menuPaylas),
             satir('oneri', 'mektup', M.menuOneri),
             satir('hakkinda', 'bilgi', M.menuHakkinda),
@@ -70,6 +71,13 @@ Future<void> menuAc(BuildContext context) async {
       break;
     case 'tema':
       await d.temaDegistir();
+      break;
+    case 'bildirim':
+      final ac = !d.bildirimAcik;
+      final acildi = await d.bildirimAyarla(ac);
+      if (context.mounted) {
+        bildir(context, !ac ? M.izinHayirBildirim : (acildi ? M.izinEvetBildirim : M.izinVerilmedi));
+      }
       break;
     case 'paylas':
       await uygulamayiPaylas();

@@ -6,6 +6,7 @@ import 'dart:io' show SocketException;
 
 import 'package:http/http.dart' as http;
 
+import 'anahtar.dart';
 import 'veri.dart';
 
 /// Worker yanıtı. [agHatasi]: bağlantı kurulamadı / zaman aşımı; [govde]: çözülebilen JSON nesnesi.
@@ -35,7 +36,7 @@ class AileServisi {
       final y = await istemci
           .post(
             Uri.parse('$kok$yol'),
-            headers: {'Content-Type': 'application/json; charset=utf-8', 'Accept': 'application/json'},
+            headers: {'Content-Type': 'application/json; charset=utf-8', 'Accept': 'application/json', ...kcBasliklar()},
             body: jsonEncode(govde),
           )
           .timeout(_zamanAsimi);

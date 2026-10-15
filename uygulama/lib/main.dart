@@ -1,5 +1,6 @@
 // Kimin Cenazesi — v0.1 (kapalı test sürümü).
-// Bildirim, analitik, SMS, Firebase YOK; izin istenmez (yalnız internet).
+// Analitik, SMS, Firebase YOK. 0.1.4: yerel günlük cenaze bildirimi (WorkManager + flutter_local_notifications);
+// bildirim izni ilk açılışta tek kartla sorulur (URUN-TASLAGI §36).
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -7,12 +8,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:http/http.dart' as http;
 
+import 'cekirdek/bildirim.dart';
 import 'cekirdek/cinsiyet.dart';
 import 'cekirdek/depo.dart';
 import 'cekirdek/durum.dart';
 import 'cekirdek/tema.dart';
 import 'cekirdek/veri.dart';
 import 'ekranlar/adres.dart';
+import 'ekranlar/bildirim_sorusu.dart';
 import 'ekranlar/kabuk.dart';
 
 Future<Gomulu> gomuluYukle() async {
@@ -31,7 +34,12 @@ Future<void> main() async {
   final gomulu = await gomuluYukle();
   final depo = await Depo.ac();
   final veri = VeriServisi(istemci: http.Client(), depo: depo, haric: gomulu.haric);
-  runApp(KiminCenazesi(durum: AppDurum(depo: depo, veri: veri, gomulu: gomulu)));
+  final bildirim = AndroidBildirim();
+  final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true);
+  // Bildirime dokunuş: uygulama o ilçenin bugünkü listesine döner (il/ilçe depodan; tarih = bugün)
+  await bildirim.baslat(tiklandi: durum.anaEkranaDon);
+  if (depo.bildirimIzni == true) await bildirim.planla(); // zincir her açılışta yeniden kurulur
+  runApp(KiminCenazesi(durum: durum));
 }
 
 class KiminCenazesi extends StatelessWidget {
@@ -56,7 +64,9 @@ class KiminCenazesi extends StatelessWidget {
             GlobalWidgetsLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,
           ],
-          home: durum.adresVar ? const AnaKabuk() : const IlSecEkrani(),
+          home: durum.bildirimSorusuGerek
+              ? const BildirimSorusu()
+              : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani()),
         ),
       ),
     );

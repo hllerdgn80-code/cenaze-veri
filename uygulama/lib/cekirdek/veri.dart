@@ -6,12 +6,13 @@ import 'dart:io' show SocketException;
 import 'package:http/http.dart' as http;
 
 import 'depo.dart';
+import 'anahtar.dart';
 import 'ilan.dart';
 import 'kisi.dart';
 import 'yardimci.dart';
 
-/// Veri kök adresi. Veri Cloudflare'e taşınınca YALNIZ bu satır değişir.
-const String veriKok = 'https://hllerdgn80-code.github.io/cenaze-veri/veri';
+/// Veri kök adresi: Cloudflare Worker veri kapısı (anahtar + User-Agent ister; deploy/veri-kapisi).
+const String veriKok = 'https://veri.kimincenazesi.com/veri';
 
 /// Aile ilanı Worker adresi (sözleşme: deploy/AILE-ILAN-SOZLESME.md). Site sahibi gerçek adresi yazar.
 const String aileKok = 'https://kimincenazesi-aile.tr-kopru.workers.dev';
@@ -43,7 +44,7 @@ class VeriServisi {
   static const _zamanAsimi = Duration(seconds: 15);
 
   Future<http.Response> _getir(String yol) =>
-      istemci.get(Uri.parse('$kok/$yol'), headers: {'Accept': 'application/json'}).timeout(_zamanAsimi);
+      istemci.get(Uri.parse('$kok/$yol'), headers: {'Accept': 'application/json', ...kcBasliklar()}).timeout(_zamanAsimi);
 
   DateTime? _guncellemeZamani(IlVerisi v, int? yedek) {
     final g = v.guncelleme == null ? null : DateTime.tryParse(v.guncelleme!);
