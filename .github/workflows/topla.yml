@@ -131,6 +131,16 @@ jobs:
           python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
       - name: Saglik denetimi (basarisiz yapmaz)
         run: python3 okuyucu/saglik.py onceki-ozet.json || true
+      # 15.10.2026 BOSLUK TURU: her saatlik turda bugun cenaze kaydi olmayan iller yazilir (veri/_bosluk.json; gun ici gecmis birikir, TR 10:05 turunun
+      # kaydi veri-tr/_bosluk.json'dan katilir). Dosya YAYINA GITMEZ (yayin_suz veri/ kokundeki bilinmeyen dosyayi siler); yalniz iç onbellege + gunluk artifact.
+      - name: Bosluk tespiti (basarisiz yapmaz)
+        run: python3 araclar/bosluk.py --tespit --birlestir veri-tr/_bosluk.json || echo "::warning::bosluk tespiti basarisiz"
+      - uses: actions/upload-artifact@v4
+        if: ${{ hashFiles('veri/_bosluk.json') != '' }}
+        with:
+          name: bosluk
+          path: veri/_bosluk.json
+          retention-days: 3
       - name: Ic veriyi onbellege kaydet (sonraki tur buradan biriktirir; yayina GITMEZ)
         uses: actions/cache/save@v4
         with:

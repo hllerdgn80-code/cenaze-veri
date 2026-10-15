@@ -6,7 +6,16 @@ name: Turkiye'den oku
 on:
   schedule:
     - cron: "41 3,6,9,15 * * *"   # TR saatiyle 06:41 09:41 12:41 18:41 (Mac runner; 4 tur; 18:41 e-Devlet ikinci kosusu)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "normal = saatlik/4'lu tur; bosluk = 15.10.2026 BOSLUK TURU (bos illeri tespit et, yalniz onlarin e-Devlet hizmetlerini + ulusal akislari oku)"
+        required: false
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - bosluk
 
 permissions:
   contents: write
@@ -32,15 +41,56 @@ jobs:
           for il in $TR_ILLER; do
             if [ -d "veri-tr/$il" ]; then cp -r "veri-tr/$il" veri/; echo "onceki $il yuklendi"; fi
           done
+          # 15.10.2026: onceki e-Devlet/ulusal ciktilari ve bosluk gecmisi de geri yuklenir (uzerine yazma yerine birlesir)
+          for f in veri-tr/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri/$il"; [ -f "veri/$il/_ulusal.json" ] || cp "$f" "veri/$il/_ulusal.json"
+          done
+          if [ -f veri-tr/_bosluk.json ]; then cp veri-tr/_bosluk.json veri/_bosluk.json; fi
       - name: Illeri oku (Turkiye'den)
+        if: ${{ inputs.mod != 'bosluk' }}
         run: python3 okuyucu/hepsi.py $TR_ILLER
       - name: "e-Devlet vefat sorgulama (yalniz TR IP; nazik kullanim - 06 ve 18 kosulari, hizmetler arasi 10 dk, kosu basina en cok 60 istek; CAPTCHA gorunce 6 sa bekler)"
+        if: ${{ inputs.mod != 'bosluk' }}
         env:
           EDEVLET_KOSU_SAATLERI: "06,18"
           EDEVLET_HIZMET_ARASI_SN: "600"
           EDEVLET_ISTEK_TAVANI: "80"
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
+      # ---- BOSLUK TURU (15.10.2026; mod=bosluk; 10:05 TR'de sunucu zamanlayicisi tetikler): site sahibi "bosluklar 10:00'a kadar beklensin, hala bos varsa kendi
+      # imkanlarimizla doldurulsun". Canli veriden bugun cenaze kaydi olmayan iller bulunur; yalniz onlarin e-Devlet hizmetleri + ulusal akislar okunur.
+      # Nazik kullanim AYNEN: hizmetler arasi 10 dk, kosu basina <=40 istek, captcha'da geri cekilme, haftalik atlama (edevlet.py).
+      - name: "Bosluk: bugun cenaze kaydi olmayan illeri bul (canli veri)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: python3 araclar/bosluk.py --tespit --canli --etiket tr-bosluk
+      - name: "Bosluk: bos illerin e-Devlet hizmetleri (yalniz TR IP; saat kapisi workflow_dispatch'te atlanir)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        env:
+          EDEVLET_YALNIZ: "1"
+          EDEVLET_HIZMET_ARASI_SN: "600"
+          EDEVLET_ISTEK_TAVANI: "40"
+        run: |
+          export EDEVLET_ONCELIK="$(python3 araclar/bosluk.py --oncelik)"
+          echo "e-Devlet bosluk listesi: ${EDEVLET_ONCELIK:-<bos: eslesen hizmet yok>}"
+          python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
+      - name: "Bosluk: ulusal akislar (vefatilan, sondakika, bos illerin cenazeilanlari sayfasi)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: |
+          python3 okuyucu/vefatilan.py || echo "::warning::vefatilan okunamadi"
+          python3 okuyucu/sondakika.py || echo "::warning::sondakika okunamadi"
+          BOS="$(python3 araclar/bosluk.py --il-listesi)"
+          if [ -n "$BOS" ]; then python3 okuyucu/cenazeilanlari.py --il "$BOS" || echo "::warning::cenazeilanlari okunamadi"; else echo "bos il yok"; fi
+      - name: veri-tr/ klasorunu hazirla (bosluk modu; mevcut veri-tr korunur, yalniz _ulusal.json ve _bosluk.json guncellenir)
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: |
+          mkdir -p veri-tr
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
+          done
+          if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
       - name: veri-tr/ klasorunu hazirla
+        if: ${{ inputs.mod != 'bosluk' }}
         run: |
           rm -rf veri-tr
           mkdir -p veri-tr
@@ -52,6 +102,7 @@ jobs:
             [ -f "$f" ] || continue
             il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
           done
+          if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
           python3 - <<'PY'
           import json, os
           iller = os.environ["TR_ILLER"].split()

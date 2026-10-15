@@ -258,6 +258,16 @@ def main():
                "kahramanmaras-buyuksehir-belediyesi-vefat-sorgulama", "tekirdag-buyuksehir-belediyesi-vefat-sorgulama", "diyarbakir-buyuksehir-belediyesi-vefat-sorgulama-v3",
                "erzurum-buyuksehir-belediyesi-vefat-sorgulama-v3", "pendik-belediyesi-vefat-sorgulama", "gebze-belediyesi-vefat-sorgulama", "bagcilar-belediyesi-vefat-sorgulama",
                "inegol-belediyesi-vefat-sorgulama", "mamak-belediyesi-vefat-sorgulama-v3", "korfez-belediyesi-vefat-sorgulama", "bafra-belediyesi-vefat-sorgulama"]
+    # 15.10.2026 BOSLUK TURU: EDEVLET_ONCELIK (virgullu slug) verilirse yukaridaki ONCELIK yerine o kullanilir;
+    # EDEVLET_YALNIZ=1 ise yalniz o liste gezilir (liste bos ise hic istek atilmaz). Nazik kullanim kurallari (aralik, tavan, captcha, haftalik atlama) AYNEN.
+    yalniz_liste = None
+    if "EDEVLET_ONCELIK" in os.environ:
+        ONCELIK = [x.strip() for x in os.environ["EDEVLET_ONCELIK"].split(",") if x.strip()]
+        if os.environ.get("EDEVLET_YALNIZ") == "1":
+            yalniz_liste = set(ONCELIK)
+            if not yalniz_liste:
+                print("e-Devlet: EDEVLET_YALNIZ=1 ve oncelik listesi bos, istek yok", file=sys.stderr)
+                return
     def _oncelik(kv):
         return (ONCELIK.index(kv[0]) if kv[0] in ONCELIK else 100 + (kv[1][1] is None), kv[0])
     sira = sorted(HIZMETLER.items(), key=_oncelik)
@@ -283,6 +293,8 @@ def main():
     yeni = {}
     for slug, (il, ilce) in sira:
         if secili and slug not in secili:
+            continue
+        if yalniz_liste is not None and slug not in yalniz_liste:
             continue
         o = onceki.get(slug) or {}
         if o.get("durum") == "captcha" and o.get("zaman") and (datetime.now(timezone.utc) - datetime.fromisoformat(o["zaman"])).total_seconds() < CAPTCHA_BEKLEME_SA * 3600:
