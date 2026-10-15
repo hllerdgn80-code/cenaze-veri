@@ -71,7 +71,7 @@ class M {
   static const aileUstGiris = 'Cenaze bilgisi paylaşımı';
   static const aileGirisBaslik = 'Cenaze ilanı paylaşın';
   static String aileGirisAciklama(String il) =>
-      'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra $il sayfasında görünür.';
+      'Yakınınızın cenaze ilanını paylaşabilirsiniz. İlan kontrolden sonra bulunduğunuz il veya ilçenin sayfasında görünür.';
   static const aileGirisEtiket = 'Yakınlar için';
   static const aileGirisNot = 'Yalnız vefat edenin yakınları paylaşabilir';
   static const aileMadde1 = 'e-Devlet belge kodu isteğe bağlıdır';
@@ -81,7 +81,7 @@ class M {
   static const aileBittiUst = 'Gönderildi';
   static const aileBittiDugme = 'Tamam';
   static const aileBittiBaslik = 'İlanınız alındı';
-  static String aileBittiAciklama(String il) => 'İlan kontrolden sonra $il sayfasında yayımlanır. Başınız sağ olsun.';
+  static String aileBittiAciklama(String il) => 'İlan kontrolden sonra bulunduğunuz il veya ilçenin sayfasında yayımlanır. Başınız sağ olsun.';
   // Şehit akışı (METIN-SOZLUGU sehit.*): ücret ifadesi hiçbir yerde geçmez
   static const sehitFormBaslik = 'Şehit İlanı';
   static const sehitAdim1 = 'Şehidimizin bilgileri';
@@ -293,7 +293,7 @@ class M {
   static const oneriTamamDugme = 'Tamam';
   static const hakkindaBaslik = 'Kimin Cenazesi';
   static const hakkindaMetin =
-      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.2';
+      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.3';
   static const gizlilikBaslik = 'Gizlilik';
   static const gizlilikMetin =
       'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.';

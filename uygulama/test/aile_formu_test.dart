@@ -292,7 +292,7 @@ void main() {
     await tester.pump();
     await tester.pump();
     expect(find.text('İlanınız alındı'), findsOneWidget);
-    expect(find.text('İlan kontrolden sonra Kars sayfasında yayımlanır. Başınız sağ olsun.'), findsOneWidget);
+    expect(find.text('İlan kontrolden sonra bulunduğunuz il veya ilçenin sayfasında yayımlanır. Başınız sağ olsun.'), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
   });
 
