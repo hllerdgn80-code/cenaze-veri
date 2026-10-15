@@ -15,6 +15,11 @@ class M {
   // 1. Açılış ve adres seçimi
   static const acilisMarka = 'Kimin Cenazesi';
   static const acilisAlt = 'Bulunduğunuz ili seçin';
+  // 0.1.7 (URUN-TASLAGI §41): açılış mesajı ve motto
+  static const acilisArapca = 'إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ';
+  static const acilisMeal = '“Doğrusu biz Allah’a aidiz ve kuşkusuz O’na döneceğiz.”';
+  static const acilisKaynak = 'Bakara sûresi, 2/156 · Diyanet İşleri Başkanlığı Kur’an Yolu Meâli';
+  static const motto = 'Şehrinizdeki cenazelerden haberdar olun';
   static const ilAra = 'İl ara';
   static const ilBos = 'Bu adla bir il bulunamadı';
   static const ilceUst = 'İlçe seçin';

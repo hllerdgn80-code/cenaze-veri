@@ -14,6 +14,7 @@ import 'cekirdek/depo.dart';
 import 'cekirdek/durum.dart';
 import 'cekirdek/tema.dart';
 import 'cekirdek/veri.dart';
+import 'ekranlar/acilis_mesaji.dart';
 import 'ekranlar/adres.dart';
 import 'ekranlar/bildirim_sorusu.dart';
 import 'ekranlar/gorevli_panel.dart';
@@ -36,7 +37,7 @@ Future<void> main() async {
   final depo = await Depo.ac();
   final veri = VeriServisi(istemci: http.Client(), depo: depo, haric: gomulu.haric);
   final bildirim = AndroidBildirim();
-  final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true);
+  final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true, acilisAcik: true);
   // Bildirime dokunuş: uygulama o ilçenin bugünkü listesine döner (il/ilçe depodan; tarih = bugün)
   // Din görevlisi onay bildirimine dokunuş: Tam Sayfa sekmesinde paneli açar (oturum depodadır)
   void gorevliPaneliAc() {
@@ -47,6 +48,13 @@ Future<void> main() async {
   await bildirim.baslat(tiklandi: durum.anaEkranaDon, gorevliTiklandi: gorevliPaneliAc);
   if (depo.bildirimIzni == true) await bildirim.planla(); // zincir her açılışta yeniden kurulur
   runApp(KiminCenazesi(durum: durum));
+}
+
+Widget _ilkEkran(AppDurum durum) {
+  final Widget sonra = durum.bildirimSorusuGerek
+      ? const BildirimSorusu()
+      : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani());
+  return durum.acilisAcik ? AcilisMesaji(sonra: sonra) : sonra;
 }
 
 class KiminCenazesi extends StatelessWidget {
@@ -71,9 +79,7 @@ class KiminCenazesi extends StatelessWidget {
             GlobalWidgetsLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,
           ],
-          home: durum.bildirimSorusuGerek
-              ? const BildirimSorusu()
-              : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani()),
+          home: _ilkEkran(durum),
         ),
       ),
     );

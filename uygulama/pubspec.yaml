@@ -1,7 +1,7 @@
 name: kimin_cenazesi
 description: "Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları."
 publish_to: "none"
-version: 0.1.6+15
+version: 0.1.7+16
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -37,6 +37,7 @@ flutter:
   assets:
     - assets/veri/
     - assets/ikon/
+    - assets/acilis/
 
 # Uygulama simgesi: L13 altin zemin (sahibi 14.10.2026: koyu zemin telefonda sonuk kaliyordu). CI'da `dart run flutter_launcher_icons` ile üretilir.
 flutter_launcher_icons:

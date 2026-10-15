@@ -29,6 +29,9 @@ class AppDurum extends ChangeNotifier {
   /// Bildirim arayüzü: gerçek uygulamada [AndroidBildirim], testlerde [YokBildirim] (eklenti çağrılmaz)
   final BildirimArkayuzu bildirim;
 
+  /// [acilisAcik]: yalnız main() true verir (0.1.7 açılış mesajı, §41); testlerde atlanır
+  final bool acilisAcik;
+
   /// [bildirimSorusuAcik]: yalnız main() true verir; testlerde ilk açılış kartı atlanır
   AppDurum({
     required this.depo,
@@ -36,6 +39,7 @@ class AppDurum extends ChangeNotifier {
     required this.gomulu,
     this.bildirim = const YokBildirim(),
     bool bildirimSorusuAcik = false,
+    this.acilisAcik = false,
   })  : il = depo.il,
         ilce = depo.ilce,
         koyu = depo.koyu,
