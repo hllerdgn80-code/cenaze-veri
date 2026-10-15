@@ -13,6 +13,7 @@ void main() {
       home: AcilisMesaji(sure: Duration(milliseconds: 100), sonra: Scaffold(body: Text('SONRAKI'))),
     ));
     expect(find.text(M.acilisArapca), findsOneWidget);
+    expect(find.text('BAKARA SÛRESİ, 2/156'), findsOneWidget);
     expect(find.text(M.acilisMeal), findsOneWidget);
     expect(find.text(M.acilisKaynak), findsOneWidget);
     expect(find.text('SONRAKI'), findsNothing);

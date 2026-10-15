@@ -67,7 +67,12 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
                     textDirection: TextDirection.rtl,
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 30, height: 1.7, color: _altin)),
-                const SizedBox(height: 14),
+                const SizedBox(height: 6),
+                // Türkçe büyük harf: i -> İ (toUpperCase tek başına "SÛRESI" verirdi)
+                Text(M.acilisSure.replaceAll('i', 'İ').toUpperCase(),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 13, letterSpacing: 0.6, fontWeight: FontWeight.w600, color: _altin)),
+                const SizedBox(height: 12),
                 const Text(M.acilisMeal,
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 17, height: 1.5, fontWeight: FontWeight.w500, color: _krem)),

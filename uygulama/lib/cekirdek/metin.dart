@@ -18,7 +18,8 @@ class M {
   // 0.1.7 (URUN-TASLAGI §41): açılış mesajı ve motto
   static const acilisArapca = 'إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ';
   static const acilisMeal = '“Doğrusu biz Allah’a aidiz ve kuşkusuz O’na döneceğiz.”';
-  static const acilisKaynak = 'Bakara sûresi, 2/156 · Diyanet İşleri Başkanlığı Kur’an Yolu Meâli';
+  static const acilisSure = 'Bakara sûresi, 2/156';
+  static const acilisKaynak = 'Diyanet İşleri Başkanlığı Meâli';
   static const motto = 'Şehrinizdeki cenazelerden haberdar olun';
   static const ilAra = 'İl ara';
   static const ilBos = 'Bu adla bir il bulunamadı';
