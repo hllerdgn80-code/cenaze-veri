@@ -111,10 +111,25 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
                 bekleyen[k["id"]] = k
     except Exception:
         pass
+    # 15.10.2026 (sahibi: "saat 7 oldu Ordu güncellenmedi" — kaynak listeyi henüz girmemişti): her kayda ILK GORULME damgasi;
+    # onceki son7gun.json'daki damga korunur. Yayina gitmez (yayin_suz UYGULAMA_ALANLARI'na gore siler); depodaki veri/<il>/son7gun.json'da
+    # durur -> hangi il/ilce listeyi gunun kacinda giriyor olculur (bildirim saati ve sabah tur sikligi buna gore ayarlanir; araclar/gorulme_saati.py).
+    onceki_gorulme = {}
+    try:
+        with open(os.path.join(klasor, "son7gun.json"), encoding="utf-8") as f:
+            _e = json.load(f)
+        for _l in list((_e.get("ilceler") or {}).values()) + [_e.get("il_disi") or [], _e.get("ilce_belirsiz") or []]:
+            for _k in _l:
+                if _k.get("ilk_gorulme"):
+                    onceki_gorulme[_k["id"]] = _k["ilk_gorulme"]
+    except Exception:
+        pass
+    _simdi = simdi_iso()
     def yerlestir(k):
         if k["id"] in goruldu:
             return
         goruldu.add(k["id"])
+        k["ilk_gorulme"] = onceki_gorulme.get(k["id"]) or k.get("ilk_gorulme") or _simdi
         ilce_isle(k, il)
         if k.get("il_disi_defin"):
             il_disi.append(k)
