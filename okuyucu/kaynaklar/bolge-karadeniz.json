@@ -1,0 +1,161 @@
+[
+ {
+  "il": "gumushane",
+  "ilce": null,
+  "ad": "Gümüşhane.gen.tr (Vefat İlanları)",
+  "url": "https://www.gumushane.gen.tr",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.gumushane.gen.tr/rss/categorynews/vefat-ilanlari",
+  "sitemap": null,
+  "liste_url": "https://www.gumushane.gen.tr/vefat-ilanlari",
+  "takma": [
+   "Gümüşhane"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kemal YAZGAN Hakk'ın rahmetine kavuşmuştur",
+   "2026-10-09 Tevfik KAYA Hakk'ın rahmetine kavuşmuştur",
+   "2026-09-30 Musa CAN Hakk'ın rahmetine kavuşmuştur"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "Her vefat ayrı ilan (/vefat-ilanlari/<ad>-hakkin-rahmetine-kavusmustur/<id>); kategori RSS 50 kayıt, ~1 hafta/7-8 ilan (24.09, 30.09, 09.10, 15.10 vb.). Başlık 'AD SOYAD Hak'ın rahmetine kavuşmuştur'. İlçe (Kelkit, Şiran, Torul…) metinden. robots: /arama, /service, /share, ?page= vb. yasak; /vefat-ilanlari serbest"
+ },
+ {
+  "il": "samsun",
+  "ilce": "Bafra",
+  "ad": "Bafra Haber",
+  "url": "https://www.bafrahaber.com",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.bafrahaber.com/vefat",
+  "takma": [
+   "Bafra"
+  ],
+  "kesin_yerel": true,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Hüseyin Aşçı vefat etti",
+   "2026-10-14 Temel Taşçı vefat etti",
+   "2026-10-13 Ahmet Başar vefat etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "/vefat sayfası günde ~2-4 tek kişilik ilan (07.10–15.10 arası 20 kayıt); tek ilan /<ad>-vefat-etti--<id>.html, sayfalama /vefat?page=N (robots: Disallow boş = tümü serbest). RSS yok (/rss 404); sitemap id'li (sitemap-articles-N.xml). Her sayfa 20 kayıt ve tarih 'GG.AA.2026' biçiminde"
+ },
+ {
+  "il": "samsun",
+  "ilce": null,
+  "ad": "Samsun Gazetesi",
+  "url": "https://www.samsungazetesi.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.samsungazetesi.com/rss",
+  "sitemap": "https://www.samsungazetesi.com/sitemap/sitemap-{YYYY}-{MM}.xml",
+  "liste_url": null,
+  "takma": [
+   "Samsun"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-11 OMÜ'nün acı kaybı Prof. Dr. Ahmet Yaşar Turanlı vefat etti",
+   "2026-10-09 Fransa'da hayatını kaybeden Samsunlu genç memleketinde toprağa verildi",
+   "2026-09-28 Samsun'da Keskin ailesinin acı günü Fatma Keskin vefat etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "Genel yerel haber; ayda ~5-8 vefat/cenaze haberi (sitemap slug taraması: Ekim 8, Eylül 3), günlük derleme YOK; zayıf-orta kaynak. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml (index /sitemap.xml). robots: /arama/, ?q= vb. yasak"
+ },
+ {
+  "il": "zonguldak",
+  "ilce": null,
+  "ad": "Zonguldak Pusula Gazetesi",
+  "url": "https://www.pusulagazetesi.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.pusulagazetesi.com.tr/rss",
+  "sitemap": "https://www.pusulagazetesi.com.tr/sitemap/sitemap-{YYYY}-{MM}.xml",
+  "liste_url": null,
+  "takma": [
+   "Zonguldak"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-13 Celal Çelikyay'ın cenaze programı belli oldu",
+   "2026-10-11 Necmettin Sezer'in cenaze programı belli oldu",
+   "2026-10-08 Zonguldak'ta vefat eden din görevlileri dualarla anıldı"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "Ekim'de 10, Eylül'de 22 vefat/cenaze sluglı haber ('…cenaze programı belli oldu', 'son yolculuğuna uğurlandı'); RSS'te 15.10'da 'Duran Bircan hayatını kaybetti' (iş dünyası). Maden kazası cenazeleri de içerir. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml. robots: /arama/, /index.php vb. yasak"
+ },
+ {
+  "il": "zonguldak",
+  "ilce": null,
+  "ad": "İmza Gazetesi",
+  "url": "https://www.imzagazetesi.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.imzagazetesi.com/rss",
+  "sitemap": "https://www.imzagazetesi.com/sitemap/sitemap-{YYYY}-{MM}.xml",
+  "liste_url": null,
+  "takma": [
+   "Zonguldak",
+   "Çaycuma",
+   "Ereğli"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-13 Çaycuma esnafının acı günü: Yaşar Türköz vefat etti",
+   "2026-09-29 Kilimli'yi yasa boğan kayıp: Vefat Hanım yazar hayatını kaybetti",
+   "2026-09-25 Eğitim camiasını yasa boğan kayıp: Özlem öğretmen vefat etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "Zonguldak/Çaycuma/Ereğli yerel haberi; ayda ~5-8 vefat haberi (Ekim 4-5 gerçek vefat, Eylül ~8); günlük derleme yok. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml. robots: /arama/, ?page= vb. yasak (çok sayfa içinde 'zonguldak' geçen siyasi taziye mesajı haberleri de var, K-filtre gerek)"
+ },
+ {
+  "il": "bartin",
+  "ilce": null,
+  "ad": "Bartın İnfo",
+  "url": "https://www.bartin.info",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.bartin.info/sitemap/sitemap-{YYYY}-{MM}.xml",
+  "liste_url": null,
+  "takma": [
+   "Bartın",
+   "Amasra"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 120,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-07 Saldırıda hayatını kaybeden Eslem Bartın'da toprağa verildi",
+   "2026-09-28 Kardeşinin cenazesine geldi, kazada öldü",
+   "2026-09-25 Emekli olmaya hazırlanıyordu, Amasra'da defnedilecek"
+  ],
+  "guncel": "2026-10-07",
+  "isaretleyen": "ajan-karadeniz",
+  "tarih": "2026-10-15",
+  "not": "Ayda ~2-6 cenaze/vefat haberi (foto-galeri/ altında); günlük derleme yok, ZAYIF kaynak ama Bartın'da başka kaynak bulunamadı. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml; RSS adresi doğrulanmadı. robots: /arama/, /index.php vb. yasak"
+ }
+]
