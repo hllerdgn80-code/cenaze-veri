@@ -60,6 +60,19 @@ class Depo {
 
   Future<void> bildirimOgleKaydet(String gun) => _p.setString('bil_ogle', gun);
 
+  // ---- Din görevlisi oturumu (URUN-TASLAGI §37) ----
+  // Belirteç yalnız ilan paylaşma yetkisi verir (180 gün); kart fotoğrafı ve kod cihazda HİÇ saklanmaz.
+  String? get gorevliOturum {
+    final v = _p.getString('gorevli_oturum');
+    return (v == null || v.isEmpty) ? null : v;
+  }
+
+  Future<void> gorevliOturumKaydet(String? t) => t == null ? _p.remove('gorevli_oturum') : _p.setString('gorevli_oturum', t);
+
+  /// Son bilinen hesap durumu (onayli | kontrolde | silindi): arka plan işi yalnız "kontrolde" iken sunucuya bakar
+  String? get gorevliDurumSon => _p.getString('gorevli_durum');
+  Future<void> gorevliDurumKaydet(String? d) => d == null ? _p.remove('gorevli_durum') : _p.setString('gorevli_durum', d);
+
   // ---- JSON yardımcıları ----
   Map<String, dynamic> _harita(String k) {
     final s = _p.getString(k);

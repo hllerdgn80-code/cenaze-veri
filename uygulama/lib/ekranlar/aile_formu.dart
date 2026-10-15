@@ -1,8 +1,8 @@
 // Aile / Tam Sayfa / Şehit formu (URUN-TASLAGI §15/§17/§21; sözleşme: deploy/AILE-ILAN-SOZLESME.md; ölçü: tasarim/prototip.html p-form).
 // Adım 0 giriş kartı (aile: "Cenaze ilanı paylaşın"; Tam Sayfa: 200 ₺ fiyat kartı; şehit formu doğrudan 1. adımla açılır),
-// 1 vefat eden · 2 cenaze · 3 başvuran (ad, e-posta, yakınlık; telefon ve T.C. YOK) · 4 belge kodu (aile: isteğe bağlı;
+// 1 vefat eden · 2 cenaze · 3 başvuran (ad, TELEFON, yakınlık; e-posta ve T.C. YOK) · 4 belge kodu (aile: isteğe bağlı;
 // Tam Sayfa: zorunlu; şehit: resmî duyuru bağlantısı) · 5 yasal beyan (Tam Sayfa: "Ödemeye geç" → ödeme ekranı).
-// Gönderim: POST /aile/basvur → e-posta kodu → POST /aile/dogrula → sonuç. Serbest metin yok; her alan en çok 60 karakter.
+// Gönderim: POST /aile/basvur → telefon kodu (WhatsApp/SMS) → POST /aile/dogrula → sonuç. Serbest metin yok; her alan en çok 60 karakter.
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -15,6 +15,7 @@ import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
+import 'sehit_bilgi.dart';
 
 enum _Faz { form, kod, sonuc }
 
@@ -59,7 +60,7 @@ class _AileFormuState extends State<AileFormu> {
   final _mezarlik = TextEditingController();
   final _belge = TextEditingController();
   final _basvuranAd = TextEditingController();
-  final _eposta = TextEditingController();
+  final _tel = TextEditingController();
   final _kod = TextEditingController();
 
   bool get _sehit => widget.sehit;
@@ -79,13 +80,26 @@ class _AileFormuState extends State<AileFormu> {
   void dispose() {
     _sayac?.cancel();
     _kay.dispose();
-    for (final c in [_ad, _rutbe, _yas, _mahalle, _cami, _toren, _mezarlik, _belge, _basvuranAd, _eposta, _kod]) {
+    for (final c in [_ad, _rutbe, _yas, _mahalle, _cami, _toren, _mezarlik, _belge, _basvuranAd, _tel, _kod]) {
       c.dispose();
     }
     super.dispose();
   }
 
   // ---- Denetimler (sunucu kuralları K2/K3 ile uyumlu; asıl denetim sunucuda) ----
+  /// 10 haneli cep numarası (5xx…); +90 / 0 ile yazılsa da kabul (sunucu da aynı kuralı uygular)
+  static String? _telNormal(String t) {
+    var d = t.replaceAll(RegExp(r'[\s().-]'), '');
+    if (d.startsWith('+90')) {
+      d = d.substring(3);
+    } else if (d.startsWith('0090')) {
+      d = d.substring(4);
+    } else if (d.startsWith('0')) {
+      d = d.substring(1);
+    }
+    return RegExp(r'^5\d{9}$').hasMatch(d) ? d : null;
+  }
+
   static int _kelime(String s) => s.trim().split(RegExp(r'\s+')).where((x) => x.isNotEmpty).length;
   static bool _adGecerli(String s) {
     final n = _kelime(s);
@@ -106,7 +120,7 @@ class _AileFormuState extends State<AileFormu> {
       _yasGecerli &&
       (!_sehit || _rutbe.text.trim().length >= 2);
   bool get _adim3Hazir =>
-      _adGecerli(_basvuranAd.text) && RegExp(r'^[^@\s]+@[^@\s]+\.[^@\s]+$').hasMatch(_eposta.text.trim());
+      _adGecerli(_basvuranAd.text) && _telNormal(_tel.text) != null;
   bool get _belgeZorunlu => _tam || _sehit;
   bool get _adim4Hazir => !_belgeZorunlu || _belgeTamam;
   bool get _hazir => _adim1Hazir && _adim3Hazir && _adim4Hazir && _onay;
@@ -190,7 +204,7 @@ class _AileFormuState extends State<AileFormu> {
       if (mezarlik != null) 'defin_yeri': mezarlik,
       'basvuran': {
         'ad_soyad': _bos(_basvuranAd.text),
-        'eposta': _eposta.text.trim(),
+        'telefon': _telNormal(_tel.text),
         'yakinlik': _yakinlik,
       },
       'beyan': true,
@@ -425,6 +439,7 @@ class _AileFormuState extends State<AileFormu> {
 
   @override
   Widget build(BuildContext context) {
+    if (widget.sehit) return const SehitBilgiEkrani(); // 15.10.2026: şehit ilanı yalnız din görevlisi panelinden
     final r = context.renk;
     String ust;
     if (_faz == _Faz.sonuc) {
@@ -621,7 +636,7 @@ class _AileFormuState extends State<AileFormu> {
         );
 
   List<Widget> _kodGorunumu(CvRenk r) => [
-        _baslik(r, M.kodBaslik, M.kodAciklama(_eposta.text.trim())),
+        _baslik(r, M.kodBaslik, M.kodAciklamaTel),
         FormAlani(
             key: const ValueKey('f_kod'),
             etiket: M.kodAlan,
@@ -796,13 +811,17 @@ class _AileFormuState extends State<AileFormu> {
               enCok: 60,
               onChanged: yenile),
           FormAlani(
-              key: const ValueKey('f_eposta'),
+              key: const ValueKey('f_telefon'),
               etiket: M.adim3Eposta,
               ipucu: M.adim3EpostaYer,
-              denetleyici: _eposta,
-              klavye: TextInputType.emailAddress,
-              enCok: 60,
+              denetleyici: _tel,
+              klavye: TextInputType.phone,
+              enCok: 16,
               onChanged: yenile),
+          Padding(
+            padding: const EdgeInsets.only(bottom: R.s3),
+            child: Text(M.adim3TelefonNot, key: const ValueKey('f_telefon_not'), textAlign: TextAlign.center, style: Y.soluk(r)),
+          ),
           _secenekler(r, M.adim3Yakinlik, M.yakinlikSecenek, _yakinlik, (v) => setState(() => _yakinlik = v)),
         ];
       case 4:

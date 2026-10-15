@@ -95,14 +95,15 @@ void main() {
     expect((tester.widget(find.byKey(const ValueKey('sayi_f'))) as Text).data, '0');
   });
 
-  testWidgets('Verisi olmayan il: bilgi kartı ve "Cenaze ilanı paylaş" düğmesi', (tester) async {
+  testWidgets('Verisi olmayan il: bilgi kartı ve ilan kutusu', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Kars', 'ilce': 'Merkez'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
 
     expect(find.text('Kars’ta cenaze ilanları şu an yakınları tarafından paylaşılıyor.'), findsOneWidget);
-    expect(find.text('Cenaze ilanı paylaş'), findsOneWidget);
+    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsOneWidget); // ilan kutusu (15.10.2026)
+    expect(find.text('Cenaze ilanı paylaş'), findsNothing); // eski düğme kalktı: kutuyla birleşti
   });
 
   testWidgets('Kapı: kaynak alanı olmayan kayıt kart olarak çizilir, kaynak adı görünmez', (tester) async {

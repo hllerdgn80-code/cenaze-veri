@@ -1,5 +1,5 @@
 // Kimin Cenazesi — v0.1 (kapalı test sürümü).
-// Analitik, SMS, Firebase YOK. 0.1.4: yerel günlük cenaze bildirimi (WorkManager + flutter_local_notifications);
+// Analitik, Firebase YOK (telefon numarası yalnız din görevlisi kaydında, SMS doğrulaması için sunucuya gider). 0.1.4: yerel günlük cenaze bildirimi (WorkManager + flutter_local_notifications);
 // bildirim izni ilk açılışta tek kartla sorulur (URUN-TASLAGI §36).
 import 'dart:convert';
 
@@ -16,6 +16,7 @@ import 'cekirdek/tema.dart';
 import 'cekirdek/veri.dart';
 import 'ekranlar/adres.dart';
 import 'ekranlar/bildirim_sorusu.dart';
+import 'ekranlar/gorevli_panel.dart';
 import 'ekranlar/kabuk.dart';
 
 Future<Gomulu> gomuluYukle() async {
@@ -37,7 +38,13 @@ Future<void> main() async {
   final bildirim = AndroidBildirim();
   final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true);
   // Bildirime dokunuş: uygulama o ilçenin bugünkü listesine döner (il/ilçe depodan; tarih = bugün)
-  await bildirim.baslat(tiklandi: durum.anaEkranaDon);
+  // Din görevlisi onay bildirimine dokunuş: Tam Sayfa sekmesinde paneli açar (oturum depodadır)
+  void gorevliPaneliAc() {
+    durum.sekmeSec(1);
+    durum.sekmeAnahtarlari[1].currentState?.push(MaterialPageRoute(builder: (_) => const GorevliPanel()));
+  }
+
+  await bildirim.baslat(tiklandi: durum.anaEkranaDon, gorevliTiklandi: gorevliPaneliAc);
   if (depo.bildirimIzni == true) await bildirim.planla(); // zincir her açılışta yeniden kurulur
   runApp(KiminCenazesi(durum: durum));
 }

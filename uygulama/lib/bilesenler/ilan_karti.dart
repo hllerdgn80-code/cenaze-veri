@@ -37,6 +37,14 @@ class IlanKarti extends StatelessWidget {
         Hap(M.kartBebek, zemin: r.vurguZemin, renk: r.vurguMetin),
         const SizedBox(height: R.s3),
       ],
+      if (ilan.gorevli) ...[
+        Hap(M.kartGorevli, zemin: r.vurguZemin, renk: r.vurguMetin),
+        if ((ilan.gorevYeri ?? '').isNotEmpty) ...[
+          const SizedBox(height: R.s1),
+          Text(ilan.gorevYeri!, textAlign: TextAlign.center, style: Y.soluk(r)),
+        ],
+        const SizedBox(height: R.s3),
+      ],
       if (ilan.aile) ...[
         Wrap(alignment: WrapAlignment.center, spacing: R.s2, runSpacing: R.s2, children: [
           Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
@@ -104,7 +112,7 @@ class IlanKarti extends StatelessWidget {
                 await d.sayfamaEkle(ilan);
                 if (context.mounted) bildir(context, M.bildirimKaydedildi);
               }),
-        if (ilan.aile) ...[
+        if (ilan.aile || ilan.gorevli) ...[
           const SizedBox(height: R.s3),
           _BildirSatiri(ilan: ilan),
         ],

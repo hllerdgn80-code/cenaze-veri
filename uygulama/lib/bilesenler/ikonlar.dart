@@ -81,6 +81,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ClipRRect(
         borderRadius: BorderRadius.circular(yaricap),
-        child: SvgPicture.string(l13Svg, width: boyut, height: boyut),
+        // 15.10.2026: sahibinin seçtiği YENİ ALTIN LOGO (assets/ikon/ikon.png, A tasarımı); prototipteki logoyla aynı görsel
+        child: Image.asset('assets/ikon/ikon.png', width: boyut, height: boyut, fit: BoxFit.cover),
       );
 }

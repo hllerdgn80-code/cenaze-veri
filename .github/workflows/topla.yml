@@ -20,6 +20,7 @@ env:
   CENAZE_KOPRU: ${{ secrets.CENAZE_KOPRU }}
   CENAZE_KOPRU_ANAHTAR: ${{ secrets.CENAZE_KOPRU_ANAHTAR }}
   AILE_WORKER_URL: ${{ vars.AILE_WORKER_URL }}
+  PANEL_ANAHTARI: ${{ secrets.PANEL_ANAHTARI }}   # gorevli_al.py gozetim capraz kontrolu (15.10.2026)
 
 jobs:
   oku:
@@ -126,7 +127,11 @@ jobs:
           python3 okuyucu/cenazeilanlari.py || echo "::warning::cenazeilanlari akisi okunamadi"
           # aile ilanlari (Worker). AILE_WORKER_URL repo degiskeni/secret olarak tanimlaninca calisir; Resend + GELISTIRME=0 olmadan TANIMLANMAZ (sahte ilan riski)
           python3 okuyucu/aile_al.py || echo "::warning::aile ilanlari okunamadi"
+          # din gorevlisi ilanlari (Worker /gorevli/*; 15.10.2026 URUN-TASLAGI §37). PANEL_ANAHTARI secret'i varsa ilk 7 gun capraz kontrolu de yapilir
+          python3 okuyucu/gorevli_al.py || echo "::warning::gorevli ilanlari okunamadi"
           python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
+          # din gorevlisi onceligi (15.10.2026): ayni kisi iki kaynaktaysa gorevli kaydi kalir, otomatik olan cikar; bos alanlar otomatikten dolar
+          python3 okuyucu/gorevli_birlestir.py || echo "::warning::gorevli birlestirme basarisiz"
           python3 okuyucu/yerlestirme_denetimi.py veri || echo "::warning::yerlestirme denetimi ihlal buldu (veri/yerlestirme-raporu.json)"   # 14.10.2026: il/ilce/mezarlik tutarliligi (uyari modu)
           python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
       - name: Saglik denetimi (basarisiz yapmaz)

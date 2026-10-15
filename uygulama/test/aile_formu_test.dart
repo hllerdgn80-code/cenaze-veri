@@ -1,5 +1,5 @@
 // Aile / Tam Sayfa / Şehit formu (v0.1.2): giriş kartı, 5 adım, telefon/T.C. yok, fiyat + ödeme ekranı (Tam Sayfa),
-// Worker'a POST, e-posta kodu, sonuç ekranı, kartta Bildir.
+// Worker'a POST, TELEFON kodu (15.10.2026), sonuç ekranı, kartta Bildir. Şehit yolu artık bilgi ekranı (yalnız din görevlisi).
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -7,6 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
+import 'package:kimin_cenazesi/bilesenler/menu.dart' show FormAlani;
 import 'package:kimin_cenazesi/bilesenler/ortak.dart';
 import 'package:kimin_cenazesi/cekirdek/aile.dart';
 import 'package:kimin_cenazesi/cekirdek/durum.dart';
@@ -36,7 +37,7 @@ AileServisi sahteServis(Map<String, Map<String, dynamic>> istekler) => AileServi
       istemci: MockClient((req) async {
         istekler[req.url.path] = jsonDecode(req.body) as Map<String, dynamic>;
         if (req.url.path == '/aile/basvur') {
-          return http.Response(jsonEncode({'basvuru_id': 'b1', 'dogrulama': 'eposta'}), 200, headers: _json);
+          return http.Response(jsonEncode({'basvuru_id': 'b1', 'dogrulama': 'telefon'}), 200, headers: _json);
         }
         if (req.url.path == '/aile/dogrula') {
           return http.Response(jsonEncode({'durum': 'yayinda', 'ilan_id': 'i1'}), 200, headers: _json);
@@ -80,7 +81,7 @@ Future<void> besinciAdima(WidgetTester t, {bool giris = true, String? belge, Str
   await dokun(t, devam());
   expect(ust(3), findsOneWidget);
   await yaz(t, 'f_basvuran', 'Ali Örnek');
-  await yaz(t, 'f_eposta', 'ali@ornek.com');
+  await yaz(t, 'f_telefon', '0532 111 22 33');
   await dokun(t, devam());
   expect(ust(4), findsOneWidget);
   if (belge != null) {
@@ -125,13 +126,14 @@ void main() {
 
     await dokun(tester, devam()); // 2. adım
     expect(ust(3), findsOneWidget);
-    expect(find.text('Cep telefonu'), findsNothing);
+    expect(find.text('Cep telefonu'), findsOneWidget); // e-posta yerine telefon
+    expect(find.text('E-posta'), findsNothing);
     expect(find.textContaining('T.C.'), findsNothing);
     expect(tester.widget<AnaDugme>(devam()).onTap, isNull);
     await yaz(tester, 'f_basvuran', 'Ali Örnek');
-    await yaz(tester, 'f_eposta', 'ali@');
-    expect(tester.widget<AnaDugme>(devam()).onTap, isNull); // e-posta biçimi
-    await yaz(tester, 'f_eposta', 'ali@ornek.com');
+    await yaz(tester, 'f_telefon', '12345');
+    expect(tester.widget<AnaDugme>(devam()).onTap, isNull); // telefon biçimi (10 hane, 5 ile başlar)
+    await yaz(tester, 'f_telefon', '+90 532 111 22 33');
     await dokun(tester, devam());
 
     expect(ust(4), findsOneWidget);
@@ -152,7 +154,7 @@ void main() {
     expect(ust(4), findsOneWidget);
   });
 
-  testWidgets('Gönder → e-posta kodu → doğrula → "İlanınız yayımlandı"', (tester) async {
+  testWidgets('Gönder → telefon kodu → doğrula → "İlanınız yayımlandı"', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final istekler = <String, Map<String, dynamic>>{};
@@ -168,13 +170,13 @@ void main() {
     expect(b['ad_soyad'], 'Ahmet Örnek');
     expect(b['cinsiyet'], 'e');
     expect(b['beyan'], true);
-    expect((b['basvuran'] as Map)['eposta'], 'ali@ornek.com');
+    expect((b['basvuran'] as Map)['telefon'], '5321112233');
+    expect((b['basvuran'] as Map).containsKey('eposta'), isFalse);
     expect(b.containsKey('edevlet_kodu'), isFalse);
-    expect(b.containsKey('telefon'), isFalse);
     expect(b.containsKey('tc'), isFalse);
 
     // Kod ekranı
-    expect(find.text('Doğrulama kodunu ali@ornek.com adresine gönderdik.'), findsOneWidget);
+    expect(find.text('Telefonunuza gönderilen 6 haneli kodu girin.'), findsOneWidget);
     expect(find.textContaining('Kodu yeniden gönder'), findsOneWidget);
     final kod = find.descendant(of: find.byKey(const ValueKey('f_kod')), matching: find.byType(TextField));
     await tester.enterText(kod, '123');
@@ -236,7 +238,7 @@ void main() {
     await tester.tap(tekrar);
     await tester.pump();
     await tester.pump();
-    expect(find.text('Doğrulama kodunu ali@ornek.com adresine gönderdik.'), findsOneWidget);
+    expect(find.text('Telefonunuza gönderilen 6 haneli kodu girin.'), findsOneWidget);
     await tester.pumpWidget(const SizedBox()); // geri sayım zamanlayıcısı kapansın
   });
 
@@ -296,59 +298,22 @@ void main() {
     await tester.pumpWidget(const SizedBox());
   });
 
-  testWidgets('Şehit formu: 1. adımla açılır, rütbe/tören/duyuru alanları, ücret yok, Worker\'a sehit:true', (tester) async {
+  testWidgets('Şehit yolu: form AÇILMAZ, bilgi ekranı (yalnız din görevlisi); Worker\'a hiçbir istek gitmez; kayıt bağlantısı', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final istekler = <String, Map<String, dynamic>>{};
     await tester.pumpWidget(formSayfasi(d, sahteServis(istekler), sehit: true));
     await tester.pumpAndSettle();
 
-    expect(find.text('Şehit İlanı'), findsOneWidget);
-    expect(ust(1), findsOneWidget); // giriş kartı yok
-    expect(find.text('Şehidimizin bilgileri'), findsOneWidget);
-    expect(find.text('Rütbe / unvan'), findsOneWidget);
-    expect(find.textContaining('₺'), findsNothing);
-    expect(find.textContaining('ücret'), findsNothing);
-    await dokun(tester, find.text('Erkek'));
-    await yaz(tester, 'f_ad', 'Örnekalp Yıldırımhan');
-    expect(tester.widget<AnaDugme>(devam()).onTap, isNull); // rütbe boş
-    await yaz(tester, 'f_rutbe', 'Piyade Uzman Çavuş');
-    await dokun(tester, devam());
-    expect(find.text('Cenaze töreni yeri'), findsOneWidget);
-    await yaz(tester, 'f_toren', 'Selâmet Meydanı');
-    await dokun(tester, devam());
-    await yaz(tester, 'f_basvuran', 'Ali Örnek');
-    await yaz(tester, 'f_eposta', 'ali@ornek.com');
-    await dokun(tester, devam());
-    expect(ust(4), findsOneWidget);
-    expect(find.text('Resmî duyuru doğrulaması'), findsOneWidget);
-    expect(find.text(M.sehitDuyuruAciklama), findsOneWidget);
-    expect(tester.widget<AnaDugme>(devam()).onTap, isNull);
-    await yaz(tester, 'f_belge', 'https://valilik.gov.tr/duyuru');
-    await dokun(tester, find.text('Duyuruyu doğrula'));
-    expect(find.text('Duyuru doğrulandı'), findsOneWidget);
-    await dokun(tester, devam());
-    expect(ust(5), findsOneWidget);
-    expect(find.text('Ödemeye geç'), findsNothing);
-    expect(find.text('Yasal beyan'), findsOneWidget);
-    expect(find.text('İlanınız kontrolden sonra yayımlanır.'), findsOneWidget);
-    await onaylaVeGonder(tester);
-    final b = istekler['/aile/basvur']!;
-    expect(b['sehit'], true);
-    expect(b['rutbe'], 'Piyade Uzman Çavuş');
-    expect(b['toren_yeri'], 'Selâmet Meydanı');
-    expect(b['duyuru_url'], 'https://valilik.gov.tr/duyuru');
-    expect(b.containsKey('tam'), isFalse);
-    expect(b.containsKey('edevlet_kodu'), isFalse);
-
-    final kod = find.descendant(of: find.byKey(const ValueKey('f_kod')), matching: find.byType(TextField));
-    await tester.enterText(kod, '123456');
-    await tester.pump();
-    await tester.tap(find.widgetWithText(AnaDugme, 'Doğrula'));
-    await tester.pump();
-    await tester.pump();
-    expect(find.text(M.sehitBittiYazi), findsOneWidget);
-    await tester.pumpWidget(const SizedBox());
+    expect(find.text('Şehit cenazesi ilanları yalnızca din görevlileri tarafından paylaşılır.'), findsOneWidget);
+    expect(find.text('Şehidimizin yakınıysanız, cenaze töreninin yapılacağı caminin din görevlisine iletmeniz yeterlidir; ilan buradan duyurulur.'), findsOneWidget);
+    expect(find.text('Başınız sağ olsun. Şehidimizin ruhu şad olsun.'), findsOneWidget);
+    expect(find.byType(FormAlani), findsNothing);
+    expect(find.text('Rütbe / unvan'), findsNothing);
+    expect(istekler, isEmpty);
+    await tester.tap(find.text('Din görevlisi misiniz? Kayıt olun.'));
+    await tester.pumpAndSettle();
+    expect(find.text(M.gorevliTelefon), findsOneWidget); // din görevlisi kayıt ekranı
   });
 
   testWidgets('Kart: "Yakını paylaştı" + "Doğrulandı" rozetleri ve Bildir', (tester) async {

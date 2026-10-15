@@ -6,6 +6,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../bilesenler/ikonlar.dart';
 import '../bilesenler/menu.dart';
 import 'aile_formu.dart';
+import 'gorevli_kayit.dart';
+import 'sehit_bilgi.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
@@ -122,8 +124,10 @@ class TamSayfaEkrani extends StatelessWidget {
             const SizedBox(height: R.s3),
             IkincilDugme(M.sehitTamDugme,
                 onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
-                      builder: (_) => AileFormu(il: d.il ?? '', ilce: d.ilce, sehit: true),
+                      builder: (_) => const SehitBilgiEkrani(), // 15.10.2026: şehit ilanı yalnız din görevlisi panelinden
                     ))),
+            const SizedBox(height: R.s3),
+            IkincilDugme(M.gorevliDugme, onTap: () => gorevliKapisi(context, il: d.il ?? '', ilce: d.ilce)),
             const Bolum(M.tamBolum),
             for (final o in _ornekler(bugun)) _Onizleme(o: o, bugun: bugun),
           ],

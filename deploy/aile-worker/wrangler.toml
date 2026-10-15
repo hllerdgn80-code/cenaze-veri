@@ -1,0 +1,29 @@
+# Aile ilanı Worker'ı (14.10.2026). Deploy: bkz. deploy/aile-worker/README yok; komut raporda — kısaca:
+#   cd haber-motoru/tools/deploy && PATH=../node/bin:$PATH XDG_CONFIG_HOME=../../.cf ./node_modules/.bin/wrangler deploy --config ../../../cenaze-uygulamasi/deploy/aile-worker/wrangler.toml
+# Secret'lar (sahibi, bir kez):  wrangler secret put PANEL_ANAHTARI ; wrangler secret put IP_TUZ
+# ÜRETİMDE GELISTIRME = "0" yapılır (WhatsApp ya da Netgsm gelince). GELISTIRME=1 iken kanal yoksa doğrulama kodu YANITTA döner — yalnız test.
+name = "kimincenazesi-aile"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+# Üretim yolu (Resend anahtarı + GELISTIRME=0 olduktan SONRA açılır):
+# routes = [{ pattern = "kimincenazesi.com/aile/*", zone_name = "kimincenazesi.com" }]
+
+[vars]
+GELISTIRME = "1"
+IZINLI_ORIGIN = "https://kimincenazesi.com,https://www.kimincenazesi.com"
+
+[[kv_namespaces]]
+binding = "AILE"
+id = "3cc1bbb1855648208fa5c40ddaf8368f"
+
+[triggers]
+crons = ["17 3 * * *"]
+
+# Din görevlisi kapısı (15.10.2026): kart OCR'ı için Workers AI (ücretsiz 10.000 nöron/gün; model @cf/meta/llama-3.2-11b-vision-instruct, ilk kullanımda Meta lisansı gerekebilir).
+# Doğrulama kodu (aile, şehit, din görevlisi): kanal sırası WhatsApp şablonu -> Netgsm SMS -> (GELISTIRME=1) yanıtta. En az biri şart (GELISTIRME=0 iken).
+# Secret'lar (sahibi, bir kez): PANEL_ANAHTARI (kuyruk/karar/liste/capraz uçları), NETGSM_KULLANICI, NETGSM_SIFRE, NETGSM_BASLIK, WA_TOKEN (Meta kalıcı erişim belirteci).
+#   wrangler secret put NETGSM_KULLANICI ; ... NETGSM_SIFRE ; ... NETGSM_BASLIK ; ... WA_TOKEN
+# Var'lar ([vars] içine): WA_PHONE_ID (WhatsApp telefon numarası kimliği), WA_SABLON (varsayılan kc_dogrulama, authentication kategorisi, dil tr), WA_API_VERSION (varsayılan v21.0)
+[ai]
+binding = "AI"

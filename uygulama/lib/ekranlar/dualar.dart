@@ -148,6 +148,11 @@ class _DuaKarti extends StatelessWidget {
     final arStil = TextStyle(fontFamily: 'serif', fontSize: 22, height: 40 / 22, color: r.metin);
     final okStil = TextStyle(fontSize: 14, height: 20 / 14, fontStyle: FontStyle.italic, color: r.metin2);
     final surum = Y.soluk(r);
+    final hisse = s(x['h']).trim();
+    // h varsa "Kıssadan hisse: …" son paragrafı anlatımdan düşer (eski sürümler için an'da tekrarlanır).
+    final anMetni = hisse.isEmpty
+        ? s(x['an'])
+        : s(x['an']).replaceFirst(RegExp(r'\s*Kıssadan hisse:[\s\S]*$'), '').trimRight();
 
     return Container(
       margin: const EdgeInsets.only(bottom: R.s3),
@@ -175,7 +180,19 @@ class _DuaKarti extends StatelessWidget {
           ],
         ],
         const SizedBox(height: R.s3),
-        Text(s(x['an']), textAlign: TextAlign.left, style: TextStyle(fontSize: 15, height: 23 / 15, color: r.metin)),
+        Text(anMetni, textAlign: TextAlign.left, style: TextStyle(fontSize: 15, height: 23 / 15, color: r.metin)),
+        if (hisse.isNotEmpty) ...[
+          const SizedBox(height: R.s4),
+          Divider(height: 1, thickness: 1, color: r.cizgi),
+          const SizedBox(height: R.s3),
+          Text('KISSADAN HİSSE',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 11, height: 13 / 11, fontWeight: FontWeight.w600, letterSpacing: 1.32, color: r.metin2)),
+          const SizedBox(height: R.s2),
+          Text(hisse,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 16, height: 24 / 16, fontStyle: FontStyle.italic, fontWeight: FontWeight.w400, color: r.vurguMetin)),
+        ],
         if (s(x['not']).isNotEmpty) ...[
           const SizedBox(height: R.s2),
           Text(s(x['not']), textAlign: TextAlign.left, style: Y.govde(r).copyWith(fontSize: 14, height: 21 / 14)),

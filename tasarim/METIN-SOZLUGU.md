@@ -421,3 +421,54 @@ Gerekçe: form artık e-posta taslağı açmaz; Worker'a gönderilir, e-posta ko
 | bildir.dugme | Bu ilanda bir yanlışlık mı var? | ✓ §11; yalnız `aile:true` kartlarda, kartın alt satırında küçük bağlantı |
 | bildir.secenek → neden | Kişi bilgisi yanlış / Cenaze bilgisi yanlış → "yanlış bilgi" · Bu ilan gerçek değil → "böyle bir kişi yok" · Diğer → "diğer" | ✓ Worker'a giden değerler |
 | bildir.gonder / bildir.tamam | Bildirin · Bildiriminiz alındı. Teşekkür ederiz. | ✓ |
+
+
+## §37 Din görevlisi ve ilan kutusu (0.1.5 — 15.10.2026)
+Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.kartGorevli`). Dil §22: sade, ünlem yok, pazar dili yok.
+
+| Anahtar | Metin | Durum · neden |
+|---|---|---|
+| ilanKutusu.baslik | Cenaze ilanınızın burada görülmesini istiyorsanız: | ＋ sıra: başlık → düğme → "veya" → talep metni → küçük bağlantı; her il/ilçe liste sayfasının ÜSTÜNDE; kaynaksız ilde de aynı kutu (eski "Cenaze ilanı paylaş" düğmesi ve davet metni kutuya birleşti) |
+| ilanKutusu.yakin | Cenaze yakını olarak ilanı paylaş | ＋ A) aile formunu açar |
+| gorevli.dugme | Din görevlisiyim | ＋ Tam Sayfa sekmesi, üçüncü kapı |
+| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ＋ kart ekranının EN ÜSTÜNDE, kamera düğmesinden önce |
+| gorevli.kuyrukUyari | Doğrulama yapılamadı; fotoğrafınız en çok 7 gün kontrol için saklanır, sonra silinir. | ＋ §37 tek istisna |
+| gorevli.fotoSaklama | Doğrulama için kartınızın fotoğrafı en çok 7 gün kontrol amacıyla saklanır, sonra silinir. | ＋ "kontrolde" sonucunda |
+| gorevli.kontrolBilgi | Başvurunuz kontrol ediliyor. Hesabınız onaylanınca paneldeki "İlan paylaş" düğmesi etkin hale gelir. Onay verilmezse panel ve hesap silinir. | ＋ panel bilgi kutusu ve pasif düğme açıklaması |
+| gorevli.kontrolMetin | Başvurunuz kontrol ediliyor. Onaylanınca tarafınıza bilgi verilecek ve din görevlisi paneliniz açılacaktır. | ＋ kayıt sonrası ekran |
+| gorevli.onaylandi / paneleGit | Hesabınız onaylandı · Panele git | ＋ |
+| gorevli.silindi | Başvurunuz onaylanmadı; hesap silindi. | ＋ red sonrası ilk açılış |
+| gorevli.onayBildirimi | Başvurunuz onaylandı; din görevlisi paneliniz açıldı. | ＋ yerel bildirim; SMS yedeği: "Kimin Cenazesi: din görevlisi başvurunuz onaylandı, paneliniz açıldı." |
+| gorevli.ciftKayit | Hesap kontrol bekliyor | ＋ aynı ad + görev yeri için ikinci başvuru |
+| gorevli.baslikKartı | "{görev yeri} {unvan}" / "{ad soyad}" / "{il} · {ilçe}" | ＋ sabit başlık kartı; ör. Korgan Merkez Camii İmam Hatibi |
+| gorevli.ilanPaylas / ilanlarim | İlan paylaş · İlanlarım ({n}) | ＋ iki büyük düğme |
+| gorevli.yerKilit | İl ve ilçe görev yerinize göre sabittir. | ＋ |
+| kart.gorevli | Mahallenin din görevlisi paylaştı | ＋ rozet ("Yakını paylaştı" kalıbı); altında görev yeri |
+
+### §37 düzeltmeleri ve eklemeler (15.10.2026 akşam; yukarıdaki satırların yerine geçer)
+| Anahtar | Metin | Durum · neden |
+|---|---|---|
+| ilanKutusu.veya | veya | ＋ düğmenin altında ortalı küçük |
+| ilanKutusu.gorevli | Bulunduğunuz bölgedeki cami din görevlisinden bunu talep edin. | ＋ "veya"nın altında |
+| ilanKutusu.kayit | Din görevlisi misiniz? Kayıt olun. | ＋ en altta küçük bağlantı (noktalı) |
+| gorevli.girisNot | Hesabınız Diyanet personel kartınızla doğrulanır. | ✎ kayıt ekranı alt başlığı (noktalı) |
+| gorevli.telefon / not | Cep telefonu · Telefon numaranız yalnız doğrulama ve bilgilendirme için kullanılır; ilanlarda görünmez. | ＋ e-posta alanı yok |
+| gorevli.beyan | Verdiğim bilgilerin doğru olduğunu, yanıltıcı bilgi vermem hâlinde hakkımda yasal işlem yapılmasını kabul ediyorum. | ＋ formun EN ALTINDA zorunlu onay kutusu; Worker `beyan:true` + `beyan_tarihi` ister |
+| gorevli.basvuruGonder | Başvuruyu gönder | ＋ beyan işaretlenmeden pasif |
+| gorevli.fotoUst | Diyanet personel kartı | ✎ ekran başlığı (kart ekranı) |
+| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ✓ sahibinin metni, ekranın EN ÜSTÜNDE |
+| gorevli.fotoYonerge | Diyanet İşleri Başkanlığı'nın size verdiği personel kimlik kartınızın ön yüzünü çekin. | ＋ açıklama kutusunun altında |
+| gorevli.kamera | Personel kartımı çek | ✎ tek düğme; yalnız uygulama içi kamera; "Galeriden seç" YOK; kâğıt kodu YOK (iptal) |
+| gorevli.deneme2 | Kart doğrulanamadı. Işığı kontrol edip bir kez daha çekin. | ✎ kod ibaresi kalktı |
+| gorevli.kodGirin | Telefonunuza gönderilen 6 haneli kodu girin. | ＋ kod ekranı; 60 sn sonra "Kodu yeniden gönder" |
+| aile.telefon (adım 3) | Cep telefonu · 5xx xxx xx xx · Telefon numaranız yalnız doğrulama için kullanılır; ilanda görünmez. | ✎ e-posta yerine; kod ekranı: "Telefonunuza gönderilen 6 haneli kodu girin." |
+| sehit.bilgi.baslik | Şehit cenazesi ilanları yalnızca din görevlileri tarafından paylaşılır. | ＋ "Şehit yakını" kapısı ve Tam Sayfa "Şehidimiz için ilan hazırlayın" bu bilgi ekranını açar; form YOK |
+| sehit.bilgi.govde | Şehidimizin yakınıysanız, cenaze töreninin yapılacağı caminin din görevlisine iletmeniz yeterlidir; ilan buradan duyurulur. | ＋ |
+| sehit.bilgi.kapanis | Başınız sağ olsun. Şehidimizin ruhu şad olsun. | ＋ altında bağlantı: Din görevlisi misiniz? Kayıt olun. |
+| gorevli.sehitAnahtar | Şehit cenazesi | ＋ panel ilan formunda anahtar; açılınca rütbe, tören yeri, resmî duyuru bağlantısı (isteğe bağlı); liste satırı "Şehidimiz <Rütbe Ad Soyad>" |
+
+### Otomatik TC karartma (15.10.2026 akşam; "parmağınızla kapatın" cümlesi KALDIRILDI)
+| Anahtar | Metin | Durum · neden |
+|---|---|---|
+| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ✎ kart ekranının EN ÜSTÜ; kuyruk istisnası metni ("…en çok 7 gün…") aynen kalır |
+| gorevli.kartIslenemedi | Fotoğraf işlenemedi. Lütfen kartı yeniden çekin. | ＋ karartma/tanıma hatasında fotoğraf GÖNDERİLMEZ |

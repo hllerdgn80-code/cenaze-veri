@@ -13,6 +13,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:workmanager/workmanager.dart' as wm;
 
 import 'bildirim_mantik.dart';
+import 'gorevli.dart';
 import 'depo.dart';
 import 'veri.dart';
 import 'yardimci.dart';
@@ -59,11 +60,18 @@ class AndroidBildirim implements BildirimArkayuzu {
 
   /// main() içinde bir kez: WorkManager + bildirim eklentisi. [tiklandi]: bildirime dokunulunca (uygulama açıkken
   /// ya da arka plandayken) bugünkü listeye dönülür; kapalıyken dokunma uygulamayı zaten bugünkü listede açar.
-  Future<void> baslat({required void Function() tiklandi}) async {
+  Future<void> baslat({required void Function() tiklandi, void Function()? gorevliTiklandi}) async {
     if (!Platform.isAndroid) return;
     try {
       await wm.Workmanager().initialize(bildirimGorevDagiticisi);
-      await _eklentiyiHazirla(tiklandi: (_) => tiklandi());
+      await _eklentiyiHazirla(tiklandi: (r) {
+        final g = gorevliTiklandi;
+        if (r.payload == 'gorevli' && g != null) {
+          g();
+        } else {
+          tiklandi();
+        }
+      });
     } catch (_) {}
   }
 
@@ -133,6 +141,9 @@ void bildirimGorevDagiticisi() {
 Future<void> arkaPlandaBak(BildirimRolu rol, {DateTime? simdiVerilen}) async {
   final depo = Depo(await SharedPreferences.getInstance());
   await depo.yenile();
+  try {
+    await gorevliBak(depo); // din görevlisi başvurusu "kontrolde" ise onay çıktı mı (URUN-TASLAGI §37)
+  } catch (_) {}
   final il = depo.il;
   if (il == null) return;
   final simdi = simdiVerilen ?? DateTime.now();
@@ -188,5 +199,46 @@ Future<void> _goster(BildirimRolu rol, String metin) async {
       ),
     ),
     payload: 'bugun',
+  );
+}
+
+/// Din görevlisi başvurusu "kontrolde" iken günlük bakışta GET /gorevli/durum'a bakar. "onayli" olduysa yerel bildirim gösterir
+/// (dokununca panel açılır); "silindi" ise durumu kaydeder (uygulama açılınca "hesap silindi" der). Oturum yoksa ya da durum
+/// zaten onaylıysa hiçbir şey yapmaz. Bildirim yalnız kullanıcı bildirim iznini vermişse gösterilir; durum her halükârda kaydedilir.
+Future<void> gorevliBak(Depo depo, {http.Client? istemci}) async {
+  final tok = depo.gorevliOturum;
+  if (tok == null || depo.gorevliDurumSon != 'kontrolde') return;
+  final c = istemci ?? http.Client();
+  try {
+    final y = await GorevliServisi(istemci: c).durum(tok);
+    final d = y.durum;
+    if (d == 'onayli') {
+      await depo.gorevliDurumKaydet('onayli');
+      if (depo.bildirimIzni == true) await _gorevliGoster();
+    } else if (d == 'silindi') {
+      await depo.gorevliDurumKaydet('silindi');
+    }
+  } finally {
+    if (istemci == null) c.close();
+  }
+}
+
+Future<void> _gorevliGoster() async {
+  await _eklentiyiHazirla();
+  await _eklenti.show(
+    id: 3,
+    title: 'Kimin Cenazesi',
+    body: 'Başvurunuz onaylandı; din görevlisi paneliniz açıldı.',
+    notificationDetails: const NotificationDetails(
+      android: AndroidNotificationDetails(
+        _kanalKimligi,
+        _kanalAdi,
+        channelDescription: _kanalAcikla,
+        importance: Importance.defaultImportance,
+        priority: Priority.defaultPriority,
+        icon: _simge,
+      ),
+    ),
+    payload: 'gorevli',
   );
 }

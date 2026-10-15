@@ -88,22 +88,35 @@ void main() {
     await tester.pumpAndSettle();
     expect(bildirimTeklifiAcik, isTrue);
     expect(find.text('İlçenizde cenaze ilanı paylaşıldığında haber verelim mi?'), findsNothing);
-    expect(find.text('Cenaze ilanı paylaş'), findsOneWidget);
+    expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsOneWidget); // 15.10: ilan kutusu (kaynaksız il)
   });
 
-  testWidgets('Bugün ilan yoksa "ilan yok" kartının hemen altında paylaşma bağlantısı; dokununca form açılır', (tester) async {
+  testWidgets('İlan kutusu (15.10): başlık + A) cenaze yakını düğmesi aile formunu açar; B) din görevlisi metni ve kayıt bağlantısı', (tester) async {
     telefon(tester);
     final d = await testDurumu();
-    final v = veriYap(bugun, ilceler: {'Marmaris': []});
-    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Marmaris', bugun, bugun))));
+    await tester.pumpWidget(kapsamli(d, const IlanKutusu(il: 'Kars', ilce: 'Merkez')));
     await tester.pumpAndSettle();
-    final bosY = tester.getTopLeft(find.text('Bugün Marmaris’te cenaze ilanı bulunmuyor')).dy;
-    final davetY = tester.getTopLeft(find.text('Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz')).dy;
-    expect(davetY > bosY, isTrue);
-    await tester.tap(find.text('Cenaze bilgilerini paylaş'));
+    final baslikY = tester.getTopLeft(find.text('Cenaze ilanınızın burada görülmesini istiyorsanız:')).dy;
+    final aY = tester.getTopLeft(find.text('Cenaze yakını olarak ilanı paylaş')).dy;
+    final veyaY = tester.getTopLeft(find.text('veya')).dy;
+    final bY = tester.getTopLeft(find.text('Bulunduğunuz bölgedeki cami din görevlisinden bunu talep edin.')).dy;
+    final linkY = tester.getTopLeft(find.text('Din görevlisi misiniz? Kayıt olun.')).dy;
+    expect(baslikY < aY && aY < veyaY && veyaY < bY && bY < linkY, isTrue); // başlık → düğme → veya → talep metni → bağlantı
+    await tester.tap(find.text('Cenaze yakını olarak ilanı paylaş'));
     await tester.pumpAndSettle();
     expect(find.text('Cenaze ilanı paylaşın'), findsOneWidget); // form giriş kartıyla açılır
     expect(find.text(trBuyuk(M.aileUstGiris)), findsOneWidget);
+  });
+
+  testWidgets('İlan kutusu: "Din görevlisi misiniz? Kayıt olun" kayıt ekranını açar (oturum varsa paneli)', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    await tester.pumpWidget(kapsamli(d, const IlanKutusu(il: 'Kars', ilce: 'Merkez')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Din görevlisi misiniz? Kayıt olun.'));
+    await tester.pumpAndSettle();
+    expect(find.text(M.gorevliBaslik), findsWidgets);
+    expect(find.text(M.gorevliTelefon), findsOneWidget);
   });
 
   testWidgets('Tam Sayfa: iki giriş, "Yayımlanan vefat ilanları" önizlemeleri, fiyat kartıyla açılan form, şehit formu', (tester) async {

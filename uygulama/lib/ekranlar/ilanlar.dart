@@ -14,6 +14,7 @@ import '../cekirdek/veri.dart';
 import '../cekirdek/yardimci.dart';
 import 'adres.dart';
 import 'aile_formu.dart';
+import 'gorevli_kayit.dart';
 
 class IlanlarEkrani extends StatefulWidget {
   const IlanlarEkrani({super.key});
@@ -136,7 +137,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
     }
     if (!v.kaynakli) return _kaynaksiz(context, d, r, v);
 
-    final out = <Widget>[];
+    final out = <Widget>[IlanKutusu(il: v.il, ilce: d.ilce)]; // 15.10.2026: il ve ilçe liste sayfasında listenin ÜSTÜNDE sabit ilan kutusu
     if (s.zaman != null) {
       out.add(Padding(
         padding: const EdgeInsets.only(bottom: R.s1),
@@ -147,20 +148,6 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
       out.add(Text(M.hataBaglanti, textAlign: TextAlign.center, style: Y.soluk(r)));
     }
     out.addAll(gunIcerigi(v, d.ilce, _gun, bugunTr()));
-    // 14.10.2026 sahibi: ilan olmayan/eksik yerlerde de "ilan ver" bağlantısı olsun (yalnız kaynaksız ilde değil, her ilde, listenin sonunda)
-    out.add(const SizedBox(height: R.s4));
-    out.add(Padding(
-      padding: const EdgeInsets.symmetric(horizontal: R.s5),
-      child: Column(children: [
-        Text(M.ilanVerAciklama, textAlign: TextAlign.center, style: Y.soluk(r)),
-        const SizedBox(height: R.s3),
-        IkincilDugme(M.kaynaksizDugme,
-            onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
-                  builder: (_) => AileFormu(il: v.il, ilce: d.ilce),
-                ))),
-        const SizedBox(height: R.s6),
-      ]),
-    ));
     return out;
   }
 
@@ -178,13 +165,10 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
               style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
           const SizedBox(height: R.s2),
           Text(M.kaynaksizAciklama, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
-          const SizedBox(height: R.s5),
-          AnaDugme(M.kaynaksizDugme,
-              onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
-                    builder: (_) => AileFormu(il: v.il, ilce: d.ilce),
-                  ))),
         ]),
       ),
+      const SizedBox(height: R.s4),
+      IlanKutusu(il: v.il, ilce: d.ilce), // davet ile ilan kutusu birleşik: metin iki kez görünmez
     ];
   }
 }
@@ -267,8 +251,6 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
       // Kaynak var, bugün ilan yok: önce ilin diğer ilçeleri (§21/2), sonra son 7 gün kendiliğinden açılır
       h = <Widget>[
         BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true),
-        // 14.10.2026 sahibi: "bugün ilan yok" kartının hemen altında paylaşma bağlantısı
-        AileDavet(il: v.il, ilce: ilce),
       ];
       if (ilce != null && !ilcesiz) h.addAll(digerIlceler(bugun));
       for (int n = 1; n < 7; n++) {
@@ -300,23 +282,47 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   return h;
 }
 
-/// "Yakınınızın cenaze bilgilerini siz paylaşabilirsiniz" + "Cenaze bilgilerini paylaş" (AileFormu'nu açar)
-class AileDavet extends StatelessWidget {
+/// İLAN KUTUSU (site sahibi 15.10.2026): her il/ilçe liste sayfasının ÜSTÜNDE sabit.
+/// Başlık + A) cenaze yakını düğmesi (aile formu) + B) din görevlisinden talep metni ve küçük "Din görevlisi misiniz?" bağlantısı.
+class IlanKutusu extends StatelessWidget {
   final String il;
   final String? ilce;
-  const AileDavet({super.key, required this.il, this.ilce});
+  const IlanKutusu({super.key, required this.il, this.ilce});
 
   @override
   Widget build(BuildContext context) {
     final r = context.renk;
-    return Padding(
-      padding: const EdgeInsets.only(bottom: R.s5),
+    return Container(
+      key: const ValueKey('ilan_kutusu'),
+      width: double.infinity,
+      margin: const EdgeInsets.only(top: R.s3, bottom: R.s4),
+      padding: const EdgeInsets.all(R.s4),
+      decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
       child: Column(children: [
-        Text(M.aileDavetMetin, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+        Text(M.ilanKutusuBaslik, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14, fontWeight: FontWeight.w600)),
         const SizedBox(height: R.s3),
-        IkincilDugme(M.aileDavetDugme,
-            onTap: () => Navigator.of(context, rootNavigator: true)
-                .push(MaterialPageRoute(builder: (_) => AileFormu(il: il, ilce: ilce)))),
+        IkincilDugme(M.ilanKutusuYakin,
+            onTap: () => Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(builder: (_) => AileFormu(il: il, ilce: ilce)))),
+        const SizedBox(height: 12),
+        // "— veya —": ayrı satır bloğu, ortalı, iki yanda ince çizgi, ikincil metin rengi, alttaki yazıyla aynı boyut; üstte ve altta 12
+        Row(key: const ValueKey('ilan_kutusu_veya'), children: [
+          Expanded(child: Container(height: 1, color: r.cizgi)),
+          Padding(padding: const EdgeInsets.symmetric(horizontal: R.s3), child: Text(M.ilanKutusuVeya, style: Y.govde(r).copyWith(fontSize: 14))),
+          Expanded(child: Container(height: 1, color: r.cizgi)),
+        ]),
+        const SizedBox(height: 12),
+        Text(M.ilanKutusuGorevli, key: const ValueKey('ilan_kutusu_talep'), textAlign: TextAlign.center, // 1. metinle aynı parlaklık: ana metin rengi, normal ağırlık, 15
+            style: TextStyle(fontSize: 15, height: 20 / 15, fontWeight: FontWeight.w400, color: r.metin)),
+        const SizedBox(height: R.s1),
+        InkWell(
+          key: const ValueKey('ilan_kutusu_gorevli'),
+          onTap: () => gorevliKapisi(context, il: il, ilce: ilce),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: R.s2, horizontal: R.s3),
+            child: Text(M.ilanKutusuKayit, textAlign: TextAlign.center, // bağlantı: vurgu (altın) rengi, altı çizili, 14
+                style: TextStyle(fontSize: 14, height: 18 / 14, color: r.vurguMetin, decoration: TextDecoration.underline, decorationColor: r.vurguMetin)),
+          ),
+        ),
       ]),
     );
   }
