@@ -33,7 +33,8 @@ EFEKTIF_YEREL = set() if YEREL_YAYIN else YEREL_ILLER
 # uygulamanın okuyacağı alanlar (başka hiçbir alan yayına gitmez)
 UYGULAMA_ALANLARI = ("id", "il", "ilce", "mahalle", "ad_soyad", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti",
                      "defin_yeri", "defin_zamani", "liste_tarihi", "il_disi_defin", "ilce_belirsiz", "ilce_kaynagi",
-                     "cinsiyet", "sehit", "rutbe", "toren", "aile", "bebek", "gorevli", "gorev_yeri")   # 15.10: dogrulandi (e-Devlet) kaldirildi; gorevli (§37)
+                     "cinsiyet", "sehit", "rutbe", "toren", "aile", "bebek", "gorevli", "gorev_yeri",
+                     "ilk_gorulme")   # 15.10: dogrulandi (e-Devlet) kaldirildi; gorevli (§37); ilk_gorulme (sahibi 19:10: belediye saat analizi canli veriden)
 SON7_ALANLARI = ("il", "ilceler", "il_disi", "ilce_belirsiz", "toplam", "guncelleme")
 YASAK_ALANLAR = ("kaynak_ad", "kaynak_url", "ham", "anne_baba", "alindi", "kaynak_turu", "kaynaklar")
 UST_DOSYALAR = ("ozet.json", "saglik.json", "kapi.json")
