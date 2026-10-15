@@ -71,7 +71,7 @@ class Esleme(unittest.TestCase):
         t = kk.site_tanimi(s)
         self.assertEqual((t["ad"], t["dizin"], t["ilce"], t["takma"], t["kesin_yerel"]),
                          ("Test Gazetesi", "https://www.testgazete.com/rss", "Doğubayazıt", ("Doğubeyazıt",), True))
-        self.assertEqual(t["ek_dizin"], "https://www.testgazete.com/sitemap-{AY}.xml")
+        self.assertEqual(t["ek_dizin"], f"https://www.testgazete.com/sitemap-{BUGUN.strftime('%Y-%m')}.xml")
 
     def test_sitemap_kalibi_dizin(self):
         s = kk.dogrula(satir(kalip="sitemap", rss_url=None, sitemap="https://www.testgazete.com/s-{AY}.xml"))[0]
@@ -83,12 +83,13 @@ class Esleme(unittest.TestCase):
         def sahte(ctx, il, slug, ad, dizin, **kw):
             cagri.update(il=il, dizin=dizin, kw=kw)
             return [{"id": "1", "kaynak_turu": "yerel_haber", "kaynak_ad": "x"}]
-        eski = kk.oh.haber_kaynagi
+        eski = (kk.oh.haber_kaynagi, kk.aday_sayfalar)
         kk.oh.haber_kaynagi = sahte
+        kk.aday_sayfalar = lambda *a, **kw: []
         try:
             k = kk.satir_oku({}, "Ağrı", s)
         finally:
-            kk.oh.haber_kaynagi = eski
+            kk.oh.haber_kaynagi, kk.aday_sayfalar = eski
         self.assertEqual(cagri["il"], "Ağrı"); self.assertEqual(k[0]["kaynak_turu"], "yerel_basin"); self.assertEqual(k[0]["kaynak_ad"], "Test Gazetesi")
 
 
@@ -302,13 +303,118 @@ class EgeDefteri(unittest.TestCase):
         s = self.sat("usak", "Uşak Olay", "https://www.usakolay.com")
         html = USAK_LISTE % (BUGUN.day, AYLAR[BUGUN.month], BUGUN.year)
         a = kk.aday_baglantilar(html, "https://www.usakolay.com/usakta-bugun-cenaze-ilanlari", s, oi.gunler())
-        self.assertEqual(len(a), 1); self.assertEqual(list(a.values()), [BUGUN.isoformat()])   # ana liste, eski ve spor bağlantısı elenir
+        self.assertEqual(len(a), 1); self.assertEqual(list(a.values()), [(BUGUN.isoformat(), 0)])   # ana liste, eski ve spor bağlantısı elenir
 
     def test_sitemap_aday_baglantilari_gunsuz_tek_haber(self):
         s = kk.dogrula(satir(il="kutahya", ad="K", url="https://www.kutahyaninsesi.com", kalip="sitemap", rss_url=None, sitemap="https://www.kutahyaninsesi.com/s.xml"))[0]
         xml = (f"<urlset><url><loc>https://www.kutahyaninsesi.com/haber/9/ali-veli-vefat-etti</loc><lastmod>{G}T10:00:00+03:00</lastmod></url>"
                f"<url><loc>https://www.kutahyaninsesi.com/haber/8/trafik-kazasi</loc><lastmod>{G}T10:00:00+03:00</lastmod></url></urlset>")
         self.assertEqual(list(kk.aday_baglantilar(xml, "https://www.kutahyaninsesi.com/s.xml", s, oi.gunler())), ["https://www.kutahyaninsesi.com/haber/9/ali-veli-vefat-etti"])
+
+
+# 15.10.2026 İç Anadolu defteri: gerçek sayfalardan küçültülmüş örnekler
+def _iso(h): return h.replace(" T", "T")
+KONYA_HAK = "Yakup Yılmaz, 21 Kasım 1937 doğumlu. İkindi namazı sonrası mezarlıkta kılınan cenaze namazının ardından Tekke Mezarlığı’nda toprağa verildi. Hasan Çorapcıoğlu, 20 Mart 1936 Konya doğumlu. Öğle namazı sonrası Hacı Veyis Camii’nde (Üçler Mezarlığı yanı) kılınan cenaze namazının ardından Üçler Mezarlığı’nda toprağa verildi."
+KONYA_SES = "Yakup Yılmaz: İkindi namazını müteakiben Tekke Mezarlığı'nda dualarla defnedildi.Hasan Çorapcıoğlu: Öğle namazını müteakiben Üçler Mezarlığı'nda dualarla defnedildi."
+HABER_DAIRESI = ('<h1>Konya\'da bugün vefat edenler</h1><figure><figcaption><div class="text-content"><p>Konya Mezarlık Bilgi sisteminde yer alan bilgiye göre Konya’da bugün 2 kişi hayatını kaybetti.</p></div></figcaption></figure>'
+                 '<div class="text-content"><p><strong>Mithat Gedik</strong>. 1944 Karabayır doğumlu. İkindi namazı sonrası Musalla (Halkabiköşk) Camii’nde kılınan namazın ardından Musalla Mezarlığı’nda toprağa verildi.</p></div>'
+                 '<div class="text-content"><p><strong>Mahiye Atçeken</strong>. 1954 Ölmez doğumlu. İkindi namazı sonrası Yediler Mezarlığı’nda kılınan namazın ardından toprağa verildi.</p></div>')
+KAYSERI = "Kayseri Büyükşehir Belediyesi vefat edenleri yayınlıyor.FATİ FAKİRBaba / Ana Adı: SALMAN / MERYEMDoğum Yeri / Yılı: PINARBAŞI / 1946Cenaze Yeri: ORG.HULUSİ AKAR CAMİİVakit: ÖĞLEDefin Yeri: ANBAR MEZ. (Ada:4, Parsel:32)Taziye Adresi: KOCATEPE Mah. DEDEGÜL Sokak/Cadde No:26 MELİKGAZİ/KAYSERİ"
+SIVAS346 = "Sivas’ta 15 Ekim 2026 tarihinde 2 kişi vefat etti.\nŞEFİK YANCI (71)\nYer – Vakit: Ay Yıldız Camii – Saat: 13:00\nDefin Yeri: Yukarı Tekke 91. Ada Sıra Mezarlığı\nTaziye Adresi: Mehmet Akif Ersoy Mah. 49-73 Sok. No: 4\nMUSTAFA YILMAZ (82)\nYer – Vakit: Gürün\nDefin Yeri: Gürün\nTaziye Adresi: Gürün"
+GUNDEM_SIVAS = "Hubuyar Akgül\n68 yaşında hayatını kaybeden Hubuyar Akgül'ün defin tarihi 14 Ekim 2026 Çarşamba olarak açıklandı.\nCenaze yeri ve vakti Ay Yıldız Camii, saat 13.00 olarak belirtildi.\nDefin işlemi Yukarı Tekke Mezarlığı'nın 91. ada sıra mezarlığında gerçekleştirilecek.\nTaziye adresi Yüceyurt Mahallesi, 15-Karabağ Caddesi, No: 42 olarak kaydedildi."
+IL_GAZETESI = "15 EKİM 2026 PERŞEMBE GÜNCEL VEFAT LİSTESİ\nİsmail Ay: Kırşehir Akçakentli (Yaş 34)\nİsmail Ay (34): Kırşehir Akçakent nüfusuna kayıtlı 34 yaşındaki merhumun cenazesi, öğle namazına müteakiben Sanayi Mahallesi Yeşiltepe Camii'nden kaldırılacaktır.\nAhmet Çapraz (61): Kayserili merhumun cenazesi, öğle namazına müteakiben Fabrikalar Mahallesi Atatepe Camii'nden kaldırılacaktır."
+HUNAT = "Vefat eden vatandaşımızın bilgileri şu şekilde:Fati Fakir - Anbar Mez. - Org.Hulusi Akar Camii"
+NNC = ("Ankara'da 13-14 Ekim 2026 Vefat Edenler: Kızılcahamam ve Bala\nÖnemli bilgi: Aşağıdaki tarihler cenaze tarihleridir.\nKızılcahamam'da 13 Ekim 2026 Vefat Edenler\n"
+       "Şerife Algül – Eğerlidereköy Mahallesi\nKızılcahamam ilçesine bağlı Eğerlidereköy Mahallesi sakinlerinden Hasan Algül'ün eşi Şerife Algül'ün cenazesi öğle namazının ardından Eğerlidereköy Mahallesi Camii'nde kılınacaktır.\n"
+       "Bala'da 14 Ekim 2026 Vefat Edenler\nRamazan Kılıç – Büyükbayat Mahallesi\nCenaze namazı öğle namazına müteakip kılınacak ve Büyükbayat Mahallesi Mezarlığı'na defnedilecek.")
+TALAS = ('<table><thead><tr><th>Vefat Tarihi</th><th>Adı Soyadı</th><th>Baba / Anne Adı</th><th>Doğum Yeri / Yılı</th><th>Yer / Vakit</th><th>Mezarlık</th></tr></thead><tbody>'
+         '<tr><th>%s</th><th>HAKKI ÇOLAK</th><th>FAZLI / HÜSNE</th><th>KAYALTI / 1964</th><th>DEDEOĞLU CAMİ</th><th>TALAS MEZARLIĞI </th></tr></tbody></table>')
+MELIK = ('<table><thead><tr><th>Vefat Tarihi</th><th>Adı Soyadı</th><th>Anne Adı</th><th>Baba Adı</th><th>Mezarlık</th></tr></thead><tbody><tr>'
+         '<td><span class="uk-hidden@m">Vefat Tarihi :</span> %s </td><td><span class="uk-hidden@m">Adı Soyadı :</span>Lutfu Abdüsselamoğlu </td><td><span class="uk-hidden@m">Anne Adı :</span>Asiye </td>'
+         '<td><span class="uk-hidden@m">Baba Adı :</span>Halil </td><td><span class="uk-hidden@m">Mezarlık :</span>Mimarsinan Güneyler Dere Mezarlığı</td></tr></tbody></table>')
+
+
+class IcAnadolu(unittest.TestCase):
+    def sat(self, il, ad="Test", url="https://www.test.com", **a):
+        return kk.dogrula(satir(il=il, ad=ad, url=url, rss_url=url + "/rss", **a))[0]
+
+    def test_yer_tutucular(self):
+        d = date(2026, 10, 5)
+        self.assertEqual(kk.ay_ac("https://x.com/sitemap_posts-{YYYY}-{MM}.xml", d), "https://x.com/sitemap_posts-2026-10.xml")
+        self.assertEqual(kk.ay_ac("https://x.com/s-{AY}.xml", d), "https://x.com/s-2026-10.xml")
+        self.assertEqual(kk.ay_ac("https://x.com/s.xml", d), "https://x.com/s.xml")
+
+    def test_konya_iki_bicim_ve_galeri(self):
+        s = self.sat("konya")
+        for g in (KONYA_HAK, KONYA_SES):
+            k = kk.cumle_listesi_ayristir(g, CTX, "Konya", s, "https://x/1", G)
+            self.assertEqual([(x["ad_soyad"], x["defin_yeri"]) for x in k], [("Yakup Yılmaz", "Tekke Mezarlığı"), ("Hasan Çorapcıoğlu", "Üçler Mezarlığı")])
+        k = kk.cumle_listesi_ayristir(KONYA_HAK, CTX, "Konya", s, "https://x/1", "2026-10-15")
+        self.assertEqual((k[0]["yas"], k[1]["namaz_yeri_vakti"]), (88, "Hacı Veyis Camii, öğle namazı"))
+        g = kk.govde_metni(HABER_DAIRESI)
+        k = kk.cumle_listesi_ayristir(g, CTX, "Konya", s, "https://x/2", G)
+        self.assertEqual([x["ad_soyad"] for x in k], ["Mithat Gedik", "Mahiye Atçeken"])
+        self.assertEqual(k[0]["namaz_yeri_vakti"], "Musalla (Halkabiköşk) Camii, ikindi namazı")
+
+    def test_kayseri_yapisik_etiketler_anne_baba_alinmaz(self):
+        s = self.sat("kayseri")
+        g = kk.etiket_ayir(KAYSERI)
+        k = kk.etiketli_blok_ayristir(g, CTX, "Kayseri", s, "https://x/3", G)
+        self.assertEqual((len(k), k[0]["ad_soyad"], k[0]["defin_yeri"], k[0]["namaz_yeri_vakti"]), (1, "Fati Fakir", "Anbar Mez.", "Org.Hulusi Akar Camii, öğle namazı"))
+        self.assertNotIn("SALMAN", json.dumps(k, ensure_ascii=False)); self.assertNotIn("KOCATEPE", json.dumps(k, ensure_ascii=False))
+        self.assertIsNone(k[0]["anne_baba"])
+
+    def test_sivas346_ve_gundem_sivas(self):
+        s = self.sat("sivas")
+        k = kk.etiketli_blok_ayristir(SIVAS346, CTX, "Sivas", s, "https://x/4", G)
+        self.assertEqual([(x["ad_soyad"], x["yas"], x["namaz_yeri_vakti"]) for x in k], [("Şefik Yancı", 71, "Ay Yıldız Camii, 13:00"), ("Mustafa Yılmaz", 82, "Gürün")])
+        k = kk.isimli_paragraf_ayristir(GUNDEM_SIVAS, CTX, "Sivas", s, "https://x/5", G)
+        self.assertEqual((k[0]["ad_soyad"], k[0]["yas"], k[0]["namaz_yeri_vakti"], k[0]["defin_yeri"]), ("Hubuyar Akgül", 68, "Ay Yıldız Camii, 13:00", "Yukarı Tekke Mezarlığı"))
+
+    def test_il_gazetesi_ve_hunat(self):
+        s = self.sat("kirikkale")
+        k = kk.cumle_listesi_ayristir(IL_GAZETESI, CTX, "Kırıkkale", s, "https://x/6", G)
+        self.assertEqual([(x["ad_soyad"], x["yas"]) for x in k], [("İsmail Ay", 34), ("Ahmet Çapraz", 61)])
+        k = kk.ayracli_satir_ayristir(HUNAT, CTX, "Kayseri", s, "https://x/7", G)
+        self.assertEqual((k[0]["ad_soyad"], k[0]["defin_yeri"], k[0]["namaz_yeri_vakti"]), ("Fati Fakir", "Anbar Mez.", "Org.Hulusi Akar Camii"))
+
+    def test_nnc_ilce_ilce(self):
+        s = self.sat("ankara")
+        k = kk.baslikli_ilan_ayristir(NNC, CTX, "Ankara", s, "https://x/8", "2026-10-14")
+        self.assertEqual([(x["ad_soyad"], x["ilce"], x["mahalle"]) for x in k], [("Şerife Algül", "Kızılcahamam", "Eğerlidereköy Mahallesi"), ("Ramazan Kılıç", "Bala", "Büyükbayat Mahallesi")])
+        self.assertNotIn("Hasan Algül", json.dumps(k, ensure_ascii=False))     # akraba adı alınmaz
+
+    def test_belediye_tablolari_anne_baba_alinmaz(self):
+        for ham, ad in ((TALAS, "Hakkı Çolak"), (MELIK, "Lutfu Abdüsselamoğlu")):
+            s = self.sat("kayseri", ilce="Talas", kalip="liste", liste_url="https://www.test.com/v")
+            k = kk.tablo_ayristir(ham % D, CTX, "Kayseri", s)
+            self.assertEqual((len(k), k[0]["ad_soyad"], k[0]["ilce"]), (1, ad, "Talas"))
+            txt = json.dumps(k, ensure_ascii=False)
+            for yasak in ("FAZLI", "HÜSNE", "Asiye", "Halil", "KAYALTI"):
+                self.assertNotIn(yasak, txt)
+
+    def test_rss_derleme_basligi_ve_baska_il_elenir(self):
+        s = self.sat("konya")
+        rss = ("<rss><channel><item><title>Konya'da bugün vefat edenler | 15 Ekim 2026</title><link>https://www.test.com/konya/a-1</link><pubDate>%s</pubDate></item>"
+               "<item><title>İstanbul'da bugün vefat edenler | 15 Ekim 2026</title><link>https://www.test.com/istanbul/b-2</link><pubDate>%s</pubDate></item>"
+               "<item><title>Belediye yeni hizmet binasını açtı</title><link>https://www.test.com/c-3</link><pubDate>%s</pubDate></item></channel></rss>") % ((BUGUN.isoformat(),) * 3)
+        a = kk.aday_baglantilar(rss, "https://www.test.com/rss", s, oi.gunler(), "Konya")
+        self.assertEqual(list(a), ["https://www.test.com/konya/a-1"])
+
+    def test_html_adaylarinda_baska_il_adresi_elenir(self):
+        s = self.sat("ankara", kalip="liste", liste_url="https://www.test.com/vefatlar")
+        html = ('<a href="/ankara-ve-ilceleri-13-ekim-14-ekim-2026-bugun-vefat-olum-defin">a</a><a href="/afyonkarahisar-ve-ilcelerinde-kimler-vefat-etti-13-14-ekim-2026-cenaze-listesi">b</a>'
+                '<a href="/vefatlar?sayfa=2">c</a>')
+        a = kk.aday_baglantilar(html, "https://www.test.com/vefatlar", s, ["2026-10-14", "2026-10-13"], "Ankara")
+        self.assertEqual(len(a), 1)
+
+    def test_308_yonlendirmesi(self):
+        import urllib.request
+        h = kk.ob._Yonlendir308()
+        r = urllib.request.Request("https://a.com/rss", headers={"User-Agent": "x"})
+        yeni = h.redirect_request(r, None, 308, "Permanent Redirect", {}, "https://b.com/rss")
+        self.assertEqual(yeni.full_url, "https://b.com/rss")
+        self.assertTrue(hasattr(h, "http_error_308"))
 
 
 if __name__ == "__main__":

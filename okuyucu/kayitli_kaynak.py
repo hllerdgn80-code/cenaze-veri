@@ -163,17 +163,23 @@ def atlama_nedeni(s, durum, simdi=None):
 
 
 # ---------------------------------------------------------------- rss / sitemap -> oh.site
+def ay_ac(url, simdi=None):
+    """Defter adresindeki aylık yer tutucuları açar: {AY} -> YYYY-MM, {YYYY} -> yıl, {MM} -> ay (iki hane). Yer tutucu yoksa aynen döner."""
+    d = simdi or date.today()
+    return (url or "").replace("{AY}", d.strftime("%Y-%m")).replace("{YYYY}", d.strftime("%Y")).replace("{MM}", d.strftime("%m"))
+
+
 def site_tanimi(s):
     """Defter satırı -> oh.site(...) (yeni okuma kodu yok; parametreler eşlenir). sitemap kalıbında RSS yoksa dizin = sitemap (aylık {AY} açılır)."""
     slug = "defter-" + _host(s["url"]).replace(".", "-")
     if s["kalip"] == "sitemap":
-        dizin = s.get("rss_url") or s["sitemap"].replace("{AY}", date.today().strftime("%Y-%m"))
+        dizin = s.get("rss_url") or ay_ac(s["sitemap"])
     else:
         dizin = s["rss_url"]
-    ek = s.get("sitemap")
-    if ek and ek.replace("{AY}", date.today().strftime("%Y-%m")) == dizin:
+    ek = ay_ac(s.get("sitemap"))
+    if ek and ek == dizin:
         ek = None                              # dizin zaten bu sitemap: ek_dizin aynı adresi ikinci kez 'RSS'te var' sayıp adayları eler
-    return oh.site(s["ad"], slug, dizin, kesin_yerel=s["kesin_yerel"], ilce=s.get("ilce"), takma=tuple(s["takma"]), ek_dizin=ek)
+    return oh.site(s["ad"], slug, dizin, kesin_yerel=s["kesin_yerel"], ilce=s.get("ilce"), takma=tuple(s["takma"]), ek_dizin=ek or None, makale_ac=1)
 
 
 def rss_oku(ctx, il_adi, s):
@@ -182,8 +188,8 @@ def rss_oku(ctx, il_adi, s):
     kayitlar = oh.haber_kaynagi(ctx, il_adi, t["slug"], t["ad"], t["dizin"], url_suzgec=t["url_suzgec"], makale_ac=t["makale_ac"],
                                 varsayilan_ilce=t["ilce"], takma=t["takma"] + ((t["ilce"],) if t["ilce"] else ()),
                                 kesin_yerel=t["kesin_yerel"], ek_dizin=t["ek_dizin"])
-    if s["kalip"] == "sitemap":
-        kayitlar = list(kayitlar) + aday_sayfalar(ctx, il_adi, s, t["dizin"])
+    # günlük derleme / vefat bölümü sayfaları: sitemap kalıbında 3, RSS kalıbında 2 sayfa (kaynak başına istek disiplini ~5)
+    kayitlar = list(kayitlar) + aday_sayfalar(ctx, il_adi, s, t["dizin"], azami=3 if s["kalip"] == "sitemap" and not s.get("rss_url") else 2)
     return kayitlar
 
 
@@ -192,29 +198,42 @@ def rss_oku(ctx, il_adi, s):
 TEKIL_YOL = re.compile(r"/vefat/\d+", re.I)
 DERLEME_YOL = re.compile(r"vefat-ilanlari|vefat-ilani|cenaze-ilanlari|cenaze-ilani|vefatlar|vefat-edenler|hemsehrilerimiz", re.I)
 TARIHLI_VEFAT_YOL = re.compile(r"/vefatlar?/\d{1,2}/\d{1,2}/20\d\d/", re.I)      # Aydın Denge: /vefatlar/11/10/2026/<ad>-vefat-etti
-GOVDE_KAPLARI = (r'(?:itemprop|property)="articleBody"[^>]*>', r'class="[^"]*detaymetin[^"]*"[^>]*>', r'class="[^"]*metin-alan[^"]*"[^>]*>',
+GOVDE_KAPLARI = (r'id="makale"[^>]*>', r'(?:itemprop|property)="articleBody"[^>]*>', r'class="[^"]*detaymetin[^"]*"[^>]*>', r'class="[^"]*metin-alan[^"]*"[^>]*>',
                  r'class="[^"]*news-content[^"]*"[^>]*>', r'class="[^"]*entry-content[^"]*"[^>]*>', r'class="[^"]*liste-cart[^"]*"[^>]*>')
 GOVDE_SONU = re.compile(r"news-tags|</article>|etiketler|paylas-alan|EDİTÖR|YORUMLAR|İlginizi Çekebilir")
 
 
+EK_SLUG = re.compile(r"vefat-olum|olum-defin|vefat-listesi|cenaze-listesi|kimler-vefat|aci-gunu|aci-kayip|aci-haber|son-yolculuga|son-yolculuk|aramizdan-ayrildi|vefat-haberi|rahmetine-kavustu|hakkin-rahmetine|cenaze-programi")
+
+
 def aday_mi(url):
     """Adres vefat bölümü, günlük derleme ya da tek kişilik vefat haberi gibi mi? (oh.SLUG_VEFAT: 'vefat-etti', 'topraga-verildi'...)"""
-    return bool(TEKIL_YOL.search(url) or DERLEME_YOL.search(url) or TARIHLI_VEFAT_YOL.search(url) or oh.SLUG_VEFAT.search(url))
+    return bool(TEKIL_YOL.search(url) or DERLEME_YOL.search(url) or TARIHLI_VEFAT_YOL.search(url) or oh.SLUG_VEFAT.search(url) or EK_SLUG.search(url))
+
+
+GOVDE_ISARET = re.compile(r"vefat\s+et|hayatını\s+kayb|toprağa|defn|doğumlu|mezarl|cenaze|ölüm tarihi|defin yeri|rahmet", re.I)
 
 
 def govde_metni(sayfa):
-    """Sayfa gövdesi düz metin: önce JSON-LD articleBody, yoksa bilinen gövde kapları (sitelerin ortak adları), satır sonları korunur."""
-    t = ob.makale_govdesi(sayfa)
-    if t:
-        return t
-    for kap in GOVDE_KAPLARI:
-        m = re.search(kap, sayfa)
-        if m:
+    """Sayfa gövdesi düz metin. Adaylar: galeri alt yazıları (Haber Dairesi), bilinen gövde kapları (satır yapısı korunur), <article>, JSON-LD articleBody
+    (yapısı düz). Sitelerin işaretlemesi farklı olduğundan (kap bazen bir meta etiketi ya da menü çıkar) en çok cenaze/vefat ipucu içeren aday seçilir;
+    eşitlikte sıradaki ilk aday. Kaplarda bölümün sonu 'EDİTÖR / YORUMLAR / etiketler' ile kesilir."""
+    adaylar = []
+    parcalar = re.findall(r'<div class="text-content">([\s\S]*?)</div>', sayfa)
+    if len(parcalar) >= 3:
+        adaylar.append(ob.satirlara("\n".join(parcalar)))
+    ld = ob.makale_govdesi(sayfa)
+    if ld:
+        adaylar.append(ld)
+    for kap in GOVDE_KAPLARI + (r"<article[^>]*>",):
+        for m in list(re.finditer(kap, sayfa))[:3]:
             parca = GOVDE_SONU.split(sayfa[m.end():m.end() + 14000])[0]
-            t = ob.satirlara(parca)
-            if t:
-                return t
-    return ""
+            t = re.sub(r"<[^>]*$", "", ob.satirlara(re.sub(r"<(?:img|source|meta|link)[^>]*>", " ", parca)))
+            if len(t) > 40:
+                adaylar.append(t)
+    if not adaylar:
+        return ""
+    return max(adaylar, key=lambda t: (len(GOVDE_ISARET.findall(t)), -len(t)))      # en çok ipucu; eşitlikte en kısa (menü/yan haber başlıkları şişirmez)
 
 
 def sayfa_gunu(sayfa, url):
@@ -223,7 +242,165 @@ def sayfa_gunu(sayfa, url):
     return m.group(1) if m else adres_tarihi(url)
 
 
-ETIKET = re.compile(r"^(Doğum Tarihi|Ölüm Tarihi|Mezarlık|Cami|Vakit)\s*:\s*(.*)$", re.I)
+ETIKET = re.compile(r"^(Doğum Tarihi|Ölüm Tarihi|Mezarlık|Cami|Vakit|Cenaze Yeri|Defin Yeri|Yer\s*[–-]\s*Vakit|Doğum Yeri\s*/\s*Yılı|Baba\s*/\s*Ana Adı|Taziye Adresi)\s*:\s*(.*)$", re.I)
+ETIKETLI_BLOK = re.compile(r"(?m)^(?:Ölüm Tarihi|Defin Yeri|Cenaze Yeri|Yer\s*[–-]\s*Vakit)\s*:", re.I)
+# Baba/Ana adı, taziye adresi ve doğum yeri okunur ama HİÇBİR alana yazılmaz (kişisel veri; K filtreleri)
+
+
+AD_DESENI = r"(?<![\wçğıöşü’'])((?:[A-ZÇĞİÖŞÜ][A-Za-zÇĞİÖŞÜçğıöşüâîû’']+ ){1,3}[A-ZÇĞİÖŞÜ][A-Za-zÇĞİÖŞÜçğıöşüâîû’']+)"
+CUMLE_BASLANGIC = re.compile(
+    AD_DESENI + r"(?:,\s*(?P<d1>\d{1,2} [A-Za-zçğıöşüÇĞİÖŞÜ]+ \d{4})(?: [A-ZÇĞİÖŞÜ][\wçğıöşü]+)? doğumlu\.\s*"
+    r"|\s*\.\s*(?P<d2>\d{4})(?: [A-ZÇĞİÖŞÜ][\wçğıöşü]+)* doğumlu\.\s*"
+    r"|\s*\((?P<y>\d{1,3})\):\s*"
+    r"|:\s+(?=[A-ZÇĞİÖŞÜ][^.]*?(?:namaz|defn|toprağa)))")
+CAMI_DESENI = re.compile(r"((?:\(?[A-ZÇĞİÖŞÜ][\wçğıöşü’']*\)? ){1,4}Cami[i]?)\b")
+MEZAR_DESENI = re.compile(r"((?:[A-ZÇĞİÖŞÜ][\wçğıöşü’']+ ){0,3}Mezarlı[ğk]ı)")
+VAKIT_DESENI = re.compile(r"(sabah|öğle|ikindi|akşam|yatsı|cuma)\s+namaz", re.I)
+
+
+def tail_alanlari(tail):
+    """Cenaze cümlesi -> (namaz_yeri_vakti, defin_yeri): 'Hacı Veyis Camii, öğle namazı' / 'Karaaslan Mezarlığı'. Yalnız olgu; cümle taşınmaz."""
+    c = CAMI_DESENI.search(tail)
+    v = VAKIT_DESENI.search(tail)
+    mz = MEZAR_DESENI.search(tail)
+    cami = c.group(1).strip() if c else None
+    cami = re.sub(r"^(?:Öğle|İkindi|Sabah|Akşam|Yatsı|Cuma|Namazı|Sonrası)\s+", "", cami) if cami else None
+    vakit = f"{ortak.tr_lower(v.group(1))} namazı" if v else None
+    namaz = f"{cami}, {vakit}" if cami and vakit else (cami or vakit)
+    return _temiz_alan(namaz), _temiz_alan(mz.group(1)) if mz else None
+
+
+def cumle_listesi_ayristir(govde, ctx, il_adi, s, url, gun):
+    """Adı cümle başında olan derlemeler: 'Ad, 21 Kasım 1937 doğumlu. …toprağa verildi.' (Konya Hakimiyet), 'Ad. 1944 Karabayır doğumlu. …'
+    (Haber Dairesi), 'Ad: …Mezarlığı'nda defnedildi.' (Konya'nın Sesi), 'Ad (34): …Camii'nden kaldırılacaktır.' (İl Gazetesi). Yaş doğumdan; yoksa parantezden."""
+    g = re.sub(r"\.(?=[A-ZÇĞİÖŞÜ])", ". ", govde.replace("\n", " "))
+    ms = list(CUMLE_BASLANGIC.finditer(g))
+    if len(ms) < 1:
+        return []
+    sonuc, gorulen = [], set()
+    for i, m in enumerate(ms):
+        ad, _ = ad_ayikla(m.group(1))
+        if not ad or ortak.katla(ad) in gorulen:
+            continue
+        tail = g[m.end(): ms[i + 1].start() if i + 1 < len(ms) else len(g)][:400]
+        namaz, mezar = tail_alanlari(tail)
+        if not (namaz or mezar):
+            continue                                       # cenaze bilgisi olmayan eşleşme (cümle içi büyük harfli sözcükler)
+        gorulen.add(ortak.katla(ad))
+        yas = None
+        if m.group("d1"):
+            yas = oi.yas_hesapla(oi.tarih(m.group("d1")) or "", gun)
+        elif m.group("d2"):
+            yas = int(gun[:4]) - int(m.group("d2"))
+        elif m.group("y"):
+            yas = int(m.group("y"))
+        k = _kayit_yap(ctx, il_adi, s, ad, yas if yas and 0 < yas < 125 else None, gun, "defin", None, None, mezar, s.get("ilce"), url)
+        k["namaz_yeri_vakti"] = namaz
+        sonuc.append(k)
+    return sonuc
+
+
+ILCE_BASLIK = re.compile(r"^(.+?)['’](?:da|de|ta|te)\s+(\d{1,2})(?:\s*[-–]\s*\d{1,2})?\s+([A-Za-zçğıöşüÇĞİÖŞÜ]+)\s+(\d{4})\s+Vefat Edenler", re.I)
+KISI_BASLIK = re.compile(r"^(.+?)\s+[–-]\s+(.+)$")
+
+
+def baslikli_ilan_ayristir(govde, ctx, il_adi, s, url, gun):
+    """İlçe ilçe derleme (NNC Haber): "Kızılcahamam'da 13 Ekim 2026 Vefat Edenler" başlığı ilçe ve günü verir; "Ad Soyad – Mahalle" satırı kişiyi başlatır;
+    altındaki paragrafın akraba/yakınlık cümleleri ATILIR, yalnız cami/vakit, mezarlık ve (varsa) yaş alınır."""
+    sat = [x.strip() for x in govde.split("\n") if x.strip()]
+    ilce, bgun, kisi, sonuc = None, gun, None, []
+
+    def bitir():
+        if kisi is None:
+            return
+        namaz, mezar = tail_alanlari(" ".join(kisi["metin"]))
+        if not (namaz or mezar) or not _tarih_penceresi_icinde(bgun):
+            return
+        ym = re.search(r"\((\d{1,3})\)|(\d{1,3}) yaşında", " ".join(kisi["metin"]))
+        yas = int(ym.group(1) or ym.group(2)) if ym else None
+        mah = kisi["mahalle"] if re.search(r"(?i)mahalle|mah\.|köy", kisi["mahalle"]) else None
+        k = _kayit_yap(ctx, il_adi, s, kisi["ad"], yas if yas and 0 < yas < 125 else None, bgun, "defin", None, None, mezar, ilce or s.get("ilce"), url)
+        k["namaz_yeri_vakti"] = namaz
+        k["mahalle"] = _temiz_alan(ortak.tr_title(mah)) if mah else None
+        sonuc.append(k)
+
+    for x in sat:
+        m = ILCE_BASLIK.match(x)
+        if m:
+            bitir()
+            kisi = None
+            ilce = _resmi_ilce(il_adi, m.group(1).split()[-1]) or _resmi_ilce(il_adi, m.group(1))
+            bgun = oi.tarih(f"{m.group(2)} {m.group(3)} {m.group(4)}") or gun
+            continue
+        km = KISI_BASLIK.match(x)
+        if km and len(x) < 90:
+            ad, _ = ad_ayikla(km.group(1))
+            if ad:
+                bitir()
+                kisi = {"ad": ad, "mahalle": km.group(2), "metin": []}
+                continue
+        if kisi is not None:
+            kisi["metin"].append(x)
+    bitir()
+    return sonuc
+
+
+def ayracli_satir_ayristir(govde, ctx, il_adi, s, url, gun):
+    """'Ad Soyad - Mezarlık - Cami' satırları (Hunat TV: 'Fati Fakir - Anbar Mez. - Org.Hulusi Akar Camii'); parça sırası serbest, anahtar sözcüğe bakılır."""
+    sonuc = []
+    for satir_ in re.split(r"\n|şu şekilde:", govde):
+        parcalar = [p_.strip() for p_ in re.split(r"\s+[-–]\s+", satir_) if p_.strip()]
+        if len(parcalar) < 3:
+            continue
+        ad, yas = ad_ayikla(parcalar[0])
+        cami = next((p_ for p_ in parcalar[1:] if re.search(r"cami|camii|camisi|cemevi|musalla", p_, re.I)), None)
+        mezar = next((p_ for p_ in parcalar[1:] if re.search(r"mez\b|mezar|kabristan", p_, re.I)), None)
+        if not ad or not (cami or mezar):
+            continue
+        k = _kayit_yap(ctx, il_adi, s, ad, yas, gun, "defin", None, None, _temiz_alan(mezar), s.get("ilce"), url)
+        k["namaz_yeri_vakti"] = _temiz_alan(cami)
+        sonuc.append(k)
+    return sonuc
+
+
+def isimli_paragraf_ayristir(govde, ctx, il_adi, s, url, gun):
+    """Ad satırı + 'NN yaşında hayatını kaybeden …' paragrafı + 'Cenaze yeri (ve vakti) …' / 'Defin yeri|işlemi …' cümleleri (Gündem Sivas)."""
+    sat = [x.strip() for x in govde.split("\n") if x.strip()]
+    sonuc = []
+    for i, x in enumerate(sat[:-1]):
+        ad, _ = ad_ayikla(x)
+        ym = re.match(r"(\d{1,3}) yaşında hayatını kaybeden", sat[i + 1])
+        if not (ad and ym):
+            continue
+        blok = " ".join(sat[i + 2:i + 6])
+        cm = re.search(r"Cenaze yeri(?: ve vakti)?\s+(.+?)(?:,\s*saat\s*([\d.:]+))?\s+olarak", blok)
+        mz = re.search(r"Defin (?:yeri|işlemi)\s+([^.]*?Mezarlığı)", blok)
+        namaz = None
+        if cm:
+            saat = cm.group(2).replace(".", ":") if cm.group(2) else None
+            namaz = _temiz_alan(f"{cm.group(1)}, {saat}" if saat else cm.group(1))
+        k = _kayit_yap(ctx, il_adi, s, ad, int(ym.group(1)), gun, "defin", None, None, _temiz_alan(mz.group(1)) if mz else None, s.get("ilce"), url)
+        k["namaz_yeri_vakti"] = namaz
+        sonuc.append(k)
+    return sonuc
+
+
+ETIKET_ADLARI = r"Baba\s*/\s*Ana Adı|Doğum Yeri\s*/\s*Yılı|Doğum Tarihi|Ölüm Tarihi|Cenaze Yeri|Defin Yeri|Taziye Adresi|Yer\s*[–-]\s*Vakit|Mezarlık|Cami|Vakit"
+
+
+def etiket_ayir(govde):
+    """JSON-LD gövdesinde satır sonları düşmüşse ('…diliyoruz.FATİ FAKİRBaba / Ana Adı: …Cenaze Yeri: …Vakit: ÖĞLE…') BİTİŞİK duran etiketlerin önüne
+    satır sonu koyar ve etiketten hemen önce yapışık BÜYÜK HARFLİ adı kendi satırına alır. Etiketler zaten ayrıysa (boşluk/satır sonu) metin değişmez."""
+    glued = r"(?<=\S)(?=(?:" + ETIKET_ADLARI + r")\s*:)"
+    if not re.search(glued, govde):
+        return govde
+    t = re.sub(glued, "\n", govde)
+    return re.sub(r"([.!?])([A-ZÇĞİÖŞÜ]{2,}(?: [A-ZÇĞİÖŞÜ]{2,}){1,3})\n(?=Baba|Doğum|Ölüm|Cenaze|Defin|Yer )", r"\1\n\2\n", t)
+
+
+def _dolu(blok):
+    """Blokta ad dışında en az bir etiketli değer var mı?"""
+    return any(k not in ("ad", "_yas", "yer") for k in blok)
 
 
 def etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun):
@@ -237,35 +414,42 @@ def etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun):
             if cur is not None:
                 cur[ortak.katla(m.group(1))] = m.group(2).strip()
             continue
-        if cur is not None and len(cur) > 1:
+        if cur is not None and _dolu(cur):
             bloklar.append(cur)
             cur = None
-        if cur is not None and len(cur) == 1 and " - " in satir_:      # 'ARİFİYE - NEVİYE' (ilçe - mahalle) ad satırından hemen sonra
+        if cur is not None and not _dolu(cur) and "yer" not in cur and " - " in satir_:      # 'ARİFİYE - NEVİYE' (ilçe - mahalle) ad satırından hemen sonra
             cur["yer"] = satir_
             continue
         ad, yas = ad_ayikla(satir_)
         if ad:
-            cur = {"ad": ad}
-        elif cur is not None and len(cur) == 1 and len(satir_) > 40:
+            cur = {"ad": ad, "_yas": yas}
+        elif cur is not None and not _dolu(cur) and len(satir_) > 40:
             cur = None
-    if cur is not None and len(cur) > 1:
+    if cur is not None and _dolu(cur):
         bloklar.append(cur)
-    slug = "defter-" + _host(s["url"]).replace(".", "-")
     sonuc = []
     for b in bloklar:
         olum = oi.tarih(b.get("olum tarihi", ""))
         dogum = oi.tarih(b.get("dogum tarihi", ""))
-        yas = oi.yas_hesapla(dogum, olum) if dogum and olum else None
-        cami_ham = b.get("cami", "")
+        yas = oi.yas_hesapla(dogum, olum) if dogum and olum else b.get("_yas")
+        yer_vakit = b.get("yer vakit", "")
+        saat = (_SAAT.search(yer_vakit) or _SAAT.search(b.get("vakit", "")))
+        cami_ham = b.get("cami") or b.get("cenaze yeri") or re.split(r"\s*[–-]\s*Saat\s*:", yer_vakit)[0]
         cami = re.split(r"(?i)\bmah\.?\s*", cami_ham)[-1].strip() or cami_ham
+        cami = okunur_yap(cami)
         ilce = None
         if b.get("yer"):
             ilce = _resmi_ilce(il_adi, b["yer"].split(" - ")[0])
         ilce = ilce or _resmi_ilce(il_adi, cami_ham.split()[0] if cami_ham else "") or s.get("ilce")
         vakit = (b.get("vakit") or "").strip()
-        namaz = _temiz_alan(f"{cami}, {ortak.tr_lower(vakit)} namazı" if cami and vakit else cami)
+        if saat and not (vakit and not _SAAT.search(vakit)):
+            zaman = f"{int(saat.group(1)):02d}:{saat.group(2)}"
+        else:
+            zaman = f"{ortak.tr_lower(vakit)} namazı" if vakit else ""
+        namaz = _temiz_alan(f"{cami}, {zaman}" if cami and zaman else cami)
+        mezar = re.sub(r"\s*\([^)]*\)", "", b.get("mezarlik") or b.get("defin yeri") or "").strip()
         k = _kayit_yap(ctx, il_adi, s, b["ad"], yas if yas and 0 < yas < 125 else None, gun, "defin", None, None,
-                       _temiz_alan(b.get("mezarlik")), ilce, url)
+                       _temiz_alan(mezar), ilce, url)
         k["namaz_yeri_vakti"] = namaz
         k["vefat_tarihi"] = olum
         sonuc.append(k)
@@ -283,7 +467,8 @@ def aday_sayfa_oku(ctx, il_adi, s, url, sayfa):
     h1 = re.search(r"<h1[^>]*>([\s\S]*?)</h1>", sayfa)
     baslik = oi.metin(h1.group(1)) if h1 else ""
     tekil = bool(TEKIL_YOL.search(url))
-    if re.search(r"(?m)^Ölüm Tarihi\s*:", govde):
+    govde = etiket_ayir(govde)
+    if ETIKETLI_BLOK.search(govde):
         return etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun)
     if tekil or (oh.vefat_haberi_mi(baslik) and not DERLEME_YOL.search(url)):
         if tekil and not oh.vefat_haberi_mi(baslik):
@@ -295,26 +480,43 @@ def aday_sayfa_oku(ctx, il_adi, s, url, sayfa):
             return [oh.kayit_yap(ctx, il_adi, slug, s["ad"], url, f, gun)]
         if tekil:
             return []
-    if re.search(r"(?m)^Ölüm Tarihi\s*:", govde):
-        return etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun)
+    for ayristir in (baslikli_ilan_ayristir, cumle_listesi_ayristir, isimli_paragraf_ayristir, ayracli_satir_ayristir):
+        k = ayristir(govde, ctx, il_adi, s, url, gun)
+        if k:
+            return k
     govde = re.sub(r"(?i)\n(?=(?:vefat|hakk|rahmet))", " ", re.sub(r"<[^>]*$", "", govde))     # 'AD' ve 'vefat etmiştir.' ayrı satırdaysa birleşsin
     govde = re.sub(r"(?i)hayatını\s+kaybet(?:ti|miştir)|yaşamını\s+yitir\w*", "vefat etti", govde)    # ayrıştırıcı yalnız 'vefat' kalıbını tanır (yalnız ayrıştırma metni; olgular değişmez)
     return ob.serbest_kayitlar(ctx, il_adi, slug, s["ad"], url, gun, govde, varsayilan_ilce=s.get("ilce"))
 
 
-def aday_baglantilar(metin_, taban, s, gl=None):
-    """RSS/sitemap XML'inden ya da liste sayfası HTML'inden aday adresler: {url: gün|''}. Aynı site, aday_mi() adresleri;
-    adres tarihi biliniyorsa pencere içinde olmalı (bilinmiyorsa sayfa açılınca datePublished'a bakılır)."""
+DERLEME_BASLIK = re.compile(r"vefat\s+eden|kimler\s+vefat|aramızdan\s+ayrılan|cenaze\s+ilan|defin\s+bilgi|vefat\s+haberleri|vefat\s+ilan|vefat\s+etti\?|cenaze\s+bilgi", re.I)
+
+
+def aday_baglantilar(metin_, taban, s, gl=None, il_adi=None):
+    """RSS/sitemap XML'inden ya da liste sayfası HTML'inden aday adresler: {url: (gün|'', bölüm)}. Aynı site; adresi aday_mi() ya da (RSS'te)
+    başlığı günlük derleme kalıbında olanlar (DERLEME_BASLIK: 'Konya'da bugün vefat edenler', 'Aramızdan Ayrılanlar'). Çok-illi sitede başlıkta
+    başka il/ilçe adı geçenler elenir (oh.yerel_mi). Adres/RSS tarihi biliniyorsa pencere içinde olmalı (bilinmiyorsa sayfa açılınca datePublished'a bakılır).
+    bölüm 0 = vefat bölümü/derleme, 1 = tek haber."""
     gl = set(gl or oi.gunler())
     ham = {}
     if "<loc>" in metin_ or "<item" in metin_ or "<entry" in metin_:
         for o in oh.rss_ogeleri(metin_):
-            ham[o["url"]] = o["tarih"] or adres_tarihi(o["url"]) or ""
+            baslik_derleme = (not o["slug"]) and bool(DERLEME_BASLIK.search(o["baslik"] or ""))
+            if baslik_derleme and il_adi and oh.yerel_mi(il_adi, o["baslik"], "", tuple(s.get("takma") or ()), bool(s.get("kesin_yerel"))) is False:
+                continue
+            ham[o["url"]] = (o["tarih"] or adres_tarihi(o["url"]) or "", baslik_derleme or bool(TEKIL_YOL.search(o["url"]) or DERLEME_YOL.search(o["url"]) or TARIHLI_VEFAT_YOL.search(o["url"])), baslik_derleme or aday_mi(o["url"]))
     else:
+        kendi, baska = oh._yer_sozleri(il_adi, tuple(s.get("takma") or ())) if il_adi else (set(), set())
         for h in re.findall(r'href="([^"#]+)"', metin_):
             u = urllib.parse.urljoin(taban, h.strip())
-            ham.setdefault(u, adres_tarihi(u) or "")
-    return {u: g for u, g in ham.items() if _host(u) == _host(s["url"]) and aday_mi(u) and u.rstrip("/") != taban.rstrip("/") and not (urllib.parse.urlparse(u).path.strip("/").count("/") == 0 and u.rstrip("/").endswith(("vefatlar", "vefatlarimiz"))) and (not g or g in gl)}
+            ilk = ortak.katla(urllib.parse.urlparse(u).path.strip("/").split("/")[0].split("-")[0])      # çok-illi sitede adres 'afyonkarahisar-…', 'bucak-vefat-…'
+            if ilk in baska and ilk not in kendi:
+                continue
+            ham.setdefault(u, (adres_tarihi(u) or "", bool(TEKIL_YOL.search(u) or DERLEME_YOL.search(u) or TARIHLI_VEFAT_YOL.search(u)), aday_mi(u)))
+    return {u: (g, 0 if b else 1) for u, (g, b, ok) in ham.items()
+            if ok and _host(u) == _host(s["url"]) and u.rstrip("/") != taban.rstrip("/") and urllib.parse.urlparse(u).path.rstrip("/") != urllib.parse.urlparse(taban).path.rstrip("/")
+            and not (urllib.parse.urlparse(u).path.strip("/").count("/") == 0 and u.rstrip("/").endswith(("vefatlar", "vefatlarimiz")))
+            and (not g or g in gl)}
 
 
 def _kimlik(u):
@@ -325,10 +527,10 @@ def _kimlik(u):
 def adaylari_ac(ctx, il_adi, s, adaylar, azami=3):
     """Aday sayfaların pencere içindeki en yenilerini açar (okunmamış önce; okunmuş sayfa 4 saat dolmadan yeniden açılmaz)."""
     okunan = ob.durum(ctx).d["okunan"]
-    bolum = lambda u: 0 if (TEKIL_YOL.search(u) or DERLEME_YOL.search(u) or TARIHLI_VEFAT_YOL.search(u)) else 1     # aynı günde vefat bölümü sayfaları genel haberlerden önce; tarihsizlerde yenilik için kimlik sırası
-    sira = sorted(adaylar.items(), key=lambda x: (x[0] in okunan, [-ord(c) for c in x[1]] or [0], bolum(x[0]) if x[1] else 0, -_kimlik(x[0])))
+    # aynı günde vefat bölümü sayfaları genel haberlerden önce; tarihsizlerde yenilik için kimlik sırası
+    sira = sorted(adaylar.items(), key=lambda x: (x[0] in okunan, [-ord(c) for c in x[1][0]] or [0], x[1][1] if x[1][0] else 0, -_kimlik(x[0])))
     sonuc, n = [], 0
-    for u, g in sira:
+    for u, (g, _b) in sira:
         if n >= azami:
             break
         if not ob.okunacak_mi(ctx, u, g):
@@ -350,7 +552,7 @@ def adaylari_ac(ctx, il_adi, s, adaylar, azami=3):
 def aday_sayfalar(ctx, il_adi, s, dizin_url, azami=3):
     """sitemap/RSS dizininden (6 saat önbellek, haber_kaynagi ile aynı adres) vefat adaylarını açar."""
     xml = oh.onbellekli_dizin(ctx, dizin_url)
-    return adaylari_ac(ctx, il_adi, s, aday_baglantilar(xml, dizin_url, s, ctx["gunler"]), azami) if xml else []
+    return adaylari_ac(ctx, il_adi, s, aday_baglantilar(xml, dizin_url, s, ctx["gunler"], il_adi), azami) if xml else []
 
 
 # ---------------------------------------------------------------- liste / tablo ayrıştırıcısı
@@ -363,15 +565,21 @@ _YAS = re.compile(r"(\d{1,3})\s+yaşında(?:ki)?|\((\d{1,3})\)")
 _SAAT = re.compile(r"\b([01]?\d|2[0-3])[:.]([0-5]\d)\b")
 
 AD_KOLON = ("ad soyad", "adi soyadi", "vefat eden", "merhum", "isim", "ad")
-CAMI_KOLON = ("cenaze yeri", "namaz yeri", "cami", "namaz")
+CAMI_KOLON = ("cenaze yeri", "namaz yeri", "yer vakit", "cami", "namaz")
 MEZAR_KOLON = ("mezarlik", "defin yeri", "kabristan", "defin")
-SAAT_KOLON = ("namaz vakti", "saat", "vakit")
+SAAT_KOLON = ("namaz vakti", "saat")
 TARIH_KOLON = ("defin tarihi", "cenaze tarihi", "namaz tarihi", "tarih")
+
+
+def okunur_yap(v):
+    """BÜYÜK HARFLİ değeri okunur biçime çevirir ('ORG.HULUSİ AKAR CAMİİ' -> 'Org.Hulusi Akar Camii'); karışık harfli değere dokunmaz."""
+    return re.sub(r"[^\s.]+", lambda m: ortak.tr_title(m.group(0)), v) if v and v.isupper() else v
 
 
 def _temiz_alan(v, kisa=60):
     """Tek alan değeri -> <= 60 karakter olgu; site cümlesi, telefon, adres içeren değer atılır (None)."""
     v = oi.metin(v or "")
+    v = okunur_yap(v)                          # BÜYÜK HARFLİ kaynak değeri ('ANBAR MEZ.') okunur biçime
     if not v or _CUMLE.search(v) or _TEL.search(v) or _ADRES.search(v):
         return None
     return ob.kisa(v, kisa)
@@ -426,16 +634,16 @@ def tablo_ayristir(sayfa, ctx, il_adi, s):
         if not any(any(a == b or a in b for a in AD_KOLON[:-1]) or b == "ad" for b in baslik):
             continue
         for tr in satirlar[1:]:
-            h = oi.hucreler(tr)
+            h = oi.hucreler(re.sub(r'<span[^>]*hidden[^>]*>[\s\S]*?</span>', "", tr))     # mobil görünüm etiketleri ('Adı Soyadı :') hücre metnine karışmasın
             ad_ham = oi.kolon(baslik, h, *AD_KOLON)
             ad, yas = ad_ayikla(ad_ham)
             if not ad:
                 continue
             yas = yas or next((int(x) for x in [oi.kolon(baslik, h, "yas", "yasi")] if x.isdigit() and 0 < int(x) < 125), None)
-            tarih_hucre = oi.kolon(baslik, h, *TARIH_KOLON)
+            tarih_hucre = oi.kolon(baslik, h, "defin tarihi", "cenaze tarihi", "namaz tarihi")
             tarih_turu = "defin"
             if not oi.tarih(tarih_hucre):
-                tarih_hucre, tarih_turu = oi.kolon(baslik, h, "vefat tarihi"), "vefat"
+                tarih_hucre, tarih_turu = oi.kolon(baslik, h, "vefat tarihi", "tarih"), "vefat"
             gun = oi.tarih(tarih_hucre)
             if not _tarih_penceresi_icinde(gun):
                 tarihsiz += 0 if gun else 1
@@ -593,12 +801,14 @@ def liste_oku(ctx, il_adi, s):
     """liste / tablo satırı: sayfa bütçeli + robots kontrollü açılır (ob.al). Sırayla: kartlar, tablo/li, günlük vefat haberi bağlantıları."""
     sayfa = ob.al(ctx, s["liste_url"])
     kayitlar = kart_ayristir(sayfa, ctx, il_adi, s)
-    if not kayitlar:
-        kayitlar = tablo_ayristir(sayfa, ctx, il_adi, s) if s["kalip"] == "tablo" else liste_ayristir(sayfa, ctx, il_adi, s)
+    if not kayitlar and "<table" in sayfa:
+        kayitlar = tablo_ayristir(sayfa, ctx, il_adi, s)        # belediye listeleri: kalıp 'liste' yazılsa da tablo varsa önce o (Talas, Melikgazi)
+    if not kayitlar and s["kalip"] != "tablo":
+        kayitlar = liste_ayristir(sayfa, ctx, il_adi, s)
     if not kayitlar:
         kayitlar = gunluk_haberler(sayfa, ctx, il_adi, s)
     if not kayitlar:      # genel yol: liste/kategori sayfasındaki vefat bağlantıları (Uşak, Afyon, Aydın, '<il>-vefatlar' yazılım ailesi)
-        kayitlar = adaylari_ac(ctx, il_adi, s, aday_baglantilar(sayfa, s["liste_url"], s, ctx["gunler"]))
+        kayitlar = adaylari_ac(ctx, il_adi, s, aday_baglantilar(sayfa, s["liste_url"], s, ctx["gunler"], il_adi))
     ob.durum(ctx).kaydet()
     tek = {}
     for k in kayitlar:                           # aynı sayfada aynı kişi-gün bir kez

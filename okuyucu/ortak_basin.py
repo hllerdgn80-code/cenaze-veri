@@ -62,6 +62,20 @@ def durum(ctx):
     return _durumlar[k]
 
 
+class _Yonlendir308(urllib.request.HTTPRedirectHandler):
+    """308 Permanent Redirect'i izler (Python < 3.11 izlemez: Gündem Sivas /rss -> 308). Yalnız GET/HEAD; 301/302/303/307 davranışı aynen."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if code == 308 and req.get_method() in ("GET", "HEAD"):
+            return urllib.request.Request(newurl, headers={k: v for k, v in req.header_items()}, origin_req_host=req.origin_req_host, unverifiable=True)
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+    def http_error_308(self, req, fp, code, msg, headers):
+        return self.http_error_302(req, fp, code, msg, headers)
+
+
+_OPENER = urllib.request.build_opener(_Yonlendir308)
+
+
 def _indir(url, timeout=40):
     """GET; aynı alan adına >= 3,5 sn (ortak._son_istek). Sunucu bağlantıyı erken keserse (IncompleteRead)
     ve gövdenin büyük kısmı geldiyse onu kullanır. 401/403/429 -> oi.Engel."""
@@ -74,7 +88,7 @@ def _indir(url, timeout=40):
         timeout = min(timeout, 20)
     for deneme in range(2):          # yanıt hiç gelmeden kopan bağlantıda (IncompleteRead 0 bayt) 5 sn sonra bir kez daha
         try:
-            with urllib.request.urlopen(rq, timeout=timeout) as r:
+            with _OPENER.open(rq, timeout=timeout) as r:
                 ctype = r.headers.get("Content-Type", "")
                 try:
                     ham = r.read()
