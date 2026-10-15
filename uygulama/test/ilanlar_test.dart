@@ -74,6 +74,39 @@ void main() {
     expect(find.text('Dünkü Örnek'), findsNothing); // dünün kaydı kendiliğinden açılmaz
   });
 
+  testWidgets('15.10.2026: yarına kayıt varsa şeritte "Yarın" görünür, seçilince içeriği açılır; Bugün varsayılan', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final yarin = gunEkle(bugun, 1);
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Ali Örnek', 'Bodrum', bugun), kayit('y', 'Yarın Örnek', 'Bodrum', yarin)],
+    });
+    await tester.pumpWidget(kapsamli(d, Column(children: [
+      SizedBox(height: 80, child: SeritSarmal(veri: v, ilce: 'Bodrum', secili: bugun)),
+      ...gunIcerigi(v, 'Bodrum', yarin, bugun),
+    ])));
+    await tester.pumpAndSettle();
+    expect(find.text(M.seritYarin), findsOneWidget);
+    expect(find.byKey(ValueKey('gun_$yarin')), findsOneWidget);
+    expect(find.text('Yarın Örnek'), findsOneWidget);
+    expect(find.text('Ali Örnek'), findsNothing);
+  });
+
+  testWidgets('15.10.2026: yarına kayıt yoksa şeritte "Yarın" YOK; 7 geçmiş gün yine var', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Ali Örnek', 'Bodrum', bugun)],
+    });
+    await tester.pumpWidget(kapsamli(d, SizedBox(height: 80, child: SeritSarmal(veri: v, ilce: 'Bodrum', secili: bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text(M.seritYarin), findsNothing);
+    expect(find.byKey(ValueKey('gun_${gunEkle(bugun, 1)}')), findsNothing);
+    for (int n = 0; n < 7; n++) {
+      expect(find.byKey(ValueKey('gun_${gunEkle(bugun, -n)}')), findsOneWidget);
+    }
+  });
+
   testWidgets('§32: adı olan bebek kaydında "Bebek" rozeti', (tester) async {
     telefon(tester);
     final d = await testDurumu();

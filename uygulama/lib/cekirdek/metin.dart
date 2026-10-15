@@ -32,6 +32,7 @@ class M {
   // 2. Cenaze İlanları
   static const ilanlarUst = 'Cenaze İlanları';
   static const seritBugun = 'Bugün';
+  static const seritYarin = 'Yarın'; // 15.10.2026: yarının ilanı anında yayında; yalnız o güne kayıt varsa şeritte
   static const bolumIlGeneli = 'İl geneli (ilçe belirtilmemiş)';
   // §21/1: ilanları ilçe vermeyen kaynakta (ör. Gaziantep) ilanlar zaten "İl geneli"dir; parantezli açıklama gerekmez
   static const bolumIlGenelSade = 'İl geneli';

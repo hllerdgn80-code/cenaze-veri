@@ -82,7 +82,7 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
     # (08.10.2026 denetimi: Gaziantep'te 5 günün kaydı tek IncompleteRead ile son7gun'dan düşüyordu).
     kayitlar_by_gun = dict(kayitlar_by_gun)
     bugun_ = datetime.now(timezone.utc).astimezone().date()
-    pencere = {(bugun_ - timedelta(days=i)).isoformat() for i in range(7)}
+    pencere = {(bugun_ - timedelta(days=i)).isoformat() for i in range(-2, 7)}   # son 7 gun + yarin + obur gun
     dosya_gunleri = set()
     if os.path.isdir(klasor):
         dosya_gunleri = {m.group(1) for m in (re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.json", a) for a in os.listdir(klasor)) if m}
@@ -94,9 +94,12 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
                     kayitlar_by_gun[g] = json.load(f).get("kayitlar", [])
             except Exception:
                 pass
-    # BEKLEME DEPOSU (14.10.2026 sahibi: "bilgi depoda beklesin, yarin sabah tarama yapinca bekleyenlerle birlikte listeye girsin"):
-    # cenaze gunu BUGUNDEN SONRA olan kayit son7gun'a (yayina) GIRMEZ; <klasor>/_bekleyen.json'da bekler, gunu gelince listeye eklenir.
-    # Kaynak sayfa kaydi ertesi gun listeden dusurse bile depodaki kopya korunur. _bekleyen.json yayina gitmez (yayin_suz yalniz son7gun.json birakir).
+    # YARININ ILANLARI ANINDA YAYINDA (15.10.2026 20:30 sahibi; 14.10 "depoda beklesin" kararini DEGISTIRIR):
+    # cenaze gunu bugunden sonra olan kayit (en cok bugun+2, kapi.py K3 ile uyumlu) kendi tarihiyle HEMEN son7gun'a (yayina) girer.
+    # <klasor>/_bekleyen.json artik "ileri tarihli kayit deposu": kayit burada da tutulur; sonraki turda kaynak sayfa kaydi dusurse bile
+    # cenaze gunu gecene kadar (gun+1) son7gun'a geri katilir. bugun+2'den ileri kayit burada bekler (en cok 4 gun), pencereye girince yayina gider.
+    # Tekillestirme: ayni id bir kez; depodan gelen kopya taze kaynak kaydiyla ayni kisiyse (kapi.ayni_kisi) KOPYA DUSER, _kapi_red.json'a "yarin kopyasi" yazilir.
+    # _bekleyen.json yayina gitmez (yayin_suz yalniz son7gun.json birakir).
     bek_yol = os.path.join(klasor, "_bekleyen.json")
     def _cenaze_gunu(k):
         for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
@@ -104,6 +107,7 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
                 return t
         return None
     bugun_s = bugun_.isoformat()
+    ileri_s = (bugun_ + timedelta(days=2)).isoformat()
     bekleyen = {}
     try:
         with open(bek_yol, encoding="utf-8") as f:
@@ -125,10 +129,12 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
     except Exception:
         pass
     _simdi = simdi_iso()
+    yerlesen, yarin_red = [], []
     def yerlestir(k):
         if k["id"] in goruldu:
             return
         goruldu.add(k["id"])
+        yerlesen.append(k)
         k["ilk_gorulme"] = onceki_gorulme.get(k["id"]) or k.get("ilk_gorulme") or _simdi
         ilce_isle(k, il)
         if k.get("il_disi_defin"):
@@ -145,21 +151,52 @@ def son7gun_yaz(klasor, il, gunler, kayitlar_by_gun):
     for g in gunler:
         for k in kayitlar_by_gun.get(g, []):
             cg = _cenaze_gunu(k)
-            if cg and cg > bugun_s:
-                bekleyen[k["id"]] = k                   # gelecek tarihli: depoda beklet (yeni okuma eskisinin yerine gecer)
+            if cg and cg > ileri_s:
+                bekleyen[k["id"]] = k                   # pencereden ileri: depoda bekler
                 continue
-            bekleyen.pop(k["id"], None)                 # artik bugun/gecmis: depodaki kopya gereksiz
+            if cg and cg >= bugun_s:
+                bekleyen[k["id"]] = k                   # bugun/yarin/obur gun: yayina girer + depoda yedegi (yeni okuma eskisinin yerine gecer)
+            else:
+                bekleyen.pop(k["id"], None)
             yerlestir(k)
+    try:
+        from kapi import ayni_kisi
+    except Exception:
+        ayni_kisi = None
     kalan_bek = []
     for k in bekleyen.values():
         cg = _cenaze_gunu(k)
-        if cg and cg > bugun_s:
-            if (datetime.strptime(cg, "%Y-%m-%d").date() - bugun_).days <= 4:
-                kalan_bek.append(k)                     # beklemeye devam
-        else:
-            yerlestir(k)                                # gunu geldi: bugunun listesine, yeni bilgilerle birlikte
+        if not cg:
+            continue
+        gun_farki = (datetime.strptime(cg, "%Y-%m-%d").date() - bugun_).days
+        if cg > ileri_s:
+            if gun_farki <= 4:
+                kalan_bek.append(k)                     # pencereye girmesini bekler
+            continue
+        if gun_farki < -1:
+            continue                                    # cenaze gunu +1 gecti: depodan cikar
+        if k["id"] in goruldu:
+            kalan_bek.append(k)                         # taze kaynak kaydi zaten yayinda (ayni id tek kayit)
+            continue
+        kopya = next((y for y in yerlesen if ayni_kisi(y, k)), None) if ayni_kisi else None
+        if kopya is not None:
+            yarin_red.append({"kural": ["yarın kopyası"], "tutulan_id": kopya.get("id"), "kayit": dict(k)})
+            continue                                    # taze kayit kalir, depodaki eski kopya duser
+        kalan_bek.append(k)
+        yerlestir(k)                                    # kaynak sayfa dusurdu: cenaze gunu gecene kadar yayinda kalir
     if kalan_bek or os.path.isfile(bek_yol):
         json_yaz(bek_yol, {"il": il, "kayitlar": kalan_bek, "guncelleme": simdi_iso()})
+    if yarin_red:
+        red_yol = os.path.join(klasor, "_kapi_red.json")
+        try:
+            with open(red_yol, encoding="utf-8") as f:
+                eski = json.load(f)
+        except Exception:
+            eski = {"il": il, "red": []}
+        var = {(r.get("kayit") or {}).get("id") for r in eski.get("red", [])}
+        eski["red"] = list(eski.get("red", [])) + [r for r in yarin_red if r["kayit"].get("id") not in var]
+        eski["elenen"] = len(eski["red"]); eski["guncelleme"] = simdi_iso()
+        json_yaz(red_yol, eski)
     ilceler = dict(sorted(ilceler.items(), key=lambda x: katla(x[0])))
     json_yaz(os.path.join(klasor, "son7gun.json"),
              {"il": il, "ilceler": ilceler, "il_disi": il_disi, "ilce_belirsiz": belirsiz,

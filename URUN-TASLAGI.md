@@ -277,3 +277,9 @@ Normal cenaze ilanları yalnız din görevlisi panelinden; Tam Sayfa (200 ₺, y
 - Kural: açılış mesajı (6 sn) sürerken sürüm çekilir (3 sn zaman aşımı); `BUILD_NO < min_build` ise tam ekran "Güncelleme gerekli" + "Play Store'da güncelle" (market:// → https yedek), geri tuşu kapatmaz; uygulama öne dönünce yeniden kontrol. `BUILD_NO < son_build` ama `>= min_build`: ana ekranda tek satır "Yeni sürüm var" çubuğu.
 - Yayın: Play yeni sürümü gösterdikten SONRA `python3 araclar/surum_yayinla.py --min N --son N --surum 0.1.7` (N = yeni sürümün build numarası = Actions run_number). Kapıyı kaldırmak: `--min 0 --son 0`.
 - Ağ hatası/bozuk dosya = kapı AÇIK (fail-open): sunucu düşünce kullanıcı kilitlenmez. Bu kapıyı koyan sürüm (0.1.7+16) öncesi kurulumlar kapıyı bilmez; yalnız 0.1.7+ sonrası sürümler zorlanır. Play In-App Update API ileride.
+
+## 43. YARININ İLANLARI ANINDA YAYINDA (site sahibi 15.10.2026 20:30; 14.10 "bilgi depoda beklesin, yarın sabah taramada listeye girsin" kararını DEĞİŞTİRİR)
+- Cenaze günü bugünden sonra olan kayıt (yarın ve öbür gün, en çok +2; kapı K3 ile uyumlu) toplandığı turda kendi tarihiyle `son7gun.json`'a ve yayına girer; ertesi günün koşusu beklenmez.
+- `_bekleyen.json` artık "ileri tarihli kayıt deposu": kaynak sayfa kaydı düşürse bile cenaze günü +1 gün geçene kadar kayıt yayında kalır; +2'den ileri tarih depoda bekler.
+- Tekilleştirme: aynı `id` tek kayıt; ertesi gün kaynak aynı kişiyi farklı id ile verirse (K10 mantığı: ad + tarih ±2 gün, yaş ±1) TAZE KAYNAK KAYDI kalır, depodaki eski kopya düşer ve `_kapi_red.json`'a "yarın kopyası" yazılır.
+- Uygulama/prototip: tarih şeridinde Bugün'ün soluna "Yarın" (öbür gün için gün adı) YALNIZ o güne kayıt varsa eklenir; Bugün varsayılan seçili kalır, 7 geçmiş gün aynen durur; boş günde başka içerik açılmaz.

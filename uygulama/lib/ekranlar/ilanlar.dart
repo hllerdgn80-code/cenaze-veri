@@ -308,7 +308,7 @@ class IlanKutusu extends StatelessWidget {
   }
 }
 
-/// 7 eşit hücre: Bugün → 6 gün önce; seçili altın dolgu; ilan olan günde nokta
+/// Eşit hücreler: [öbür gün] [Yarın] Bugün → 6 gün önce (15.10.2026: Yarın/öbür gün YALNIZ o güne ilan varsa eklenir); seçili altın dolgu; ilan olan günde nokta
 class _TarihSeridi extends StatelessWidget {
   final IlVerisi veri;
   final String? ilce;
@@ -321,11 +321,16 @@ class _TarihSeridi extends StatelessWidget {
     final r = context.renk;
     final bugun = bugunTr();
     final hucreler = <Widget>[];
-    for (int n = 0; n < 7; n++) {
+    final ileri = <int>[
+      for (final k in [2, 1])
+        if (veri.gunDolu(ilce, gunEkle(bugun, k))) k
+    ];
+    final aralik = ileri.length > 1 ? 4.0 : 6.0;
+    for (final n in [for (final k in ileri) -k, for (int i = 0; i < 7; i++) i]) {
       final g = gunEkle(bugun, -n);
       final sec = g == secili;
       final dolu = veri.gunDolu(ilce, g);
-      if (n > 0) hucreler.add(const SizedBox(width: 6));
+      if (hucreler.isNotEmpty) hucreler.add(SizedBox(width: aralik));
       hucreler.add(Expanded(
         child: Material(
           key: ValueKey('gun_$g'),
@@ -338,7 +343,7 @@ class _TarihSeridi extends StatelessWidget {
               height: 64,
               child: Stack(alignment: Alignment.center, children: [
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                  Text(n == 0 ? M.seritBugun : gunKisa[haftaGunu(g)],
+                  Text(n == 0 ? M.seritBugun : n == -1 ? M.seritYarin : gunKisa[haftaGunu(g)],
                       maxLines: 1,
                       softWrap: false,
                       overflow: TextOverflow.ellipsis,
@@ -369,4 +374,16 @@ class _TarihSeridi extends StatelessWidget {
       child: Row(children: hucreler),
     );
   }
+}
+
+/// Test için açık sarmal: tarih şeridini dışarıdan sınamak (Yarın hücresi) için.
+@visibleForTesting
+class SeritSarmal extends StatelessWidget {
+  final IlVerisi veri;
+  final String? ilce;
+  final String secili;
+  const SeritSarmal({super.key, required this.veri, required this.ilce, required this.secili});
+
+  @override
+  Widget build(BuildContext context) => _TarihSeridi(veri: veri, ilce: ilce, secili: secili, onSec: (_) {});
 }
