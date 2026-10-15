@@ -1,0 +1,129 @@
+[
+ {
+  "il": "kocaeli",
+  "ilce": null,
+  "ad": "Kocaeli Gazetesi",
+  "url": "https://www.kocaeligazetesi.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.kocaeligazetesi.com.tr/sites/77/sitemaps/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-14 Seher Aydoğdu vefat etti",
+   "2026-10-13 Fatma Günaydın vefat etti",
+   "2026-10-13 Nilüfer Türk vefat etti"
+  ],
+  "guncel": "2026-10-14",
+  "isaretleyen": "ajan-marmara",
+  "tarih": "2026-10-15",
+  "not": "/vefat/<id>/<ad-vefat-etti> ilan sayfaları (Ekim ayı sitemap'inde 20 kayıt, 15 günde); /kocaeli-vefatlar listesi tarihleri güvenilmez; ayrı tek tek sayfa datePublished meta'sı doğru; sitemap-latest.xml'de vefat sayfası her zaman bulunmaz, ay sitemap'i kullanılmalı"
+ },
+ {
+  "il": "kocaeli",
+  "ilce": null,
+  "ad": "Özgür Kocaeli Gazetesi",
+  "url": "https://www.ozgurkocaeli.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.ozgurkocaeli.com.tr/sites/535/sitemaps/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Halit Halil Akifoğlu vefat etti (Gebzeli iş insanı, 87)",
+   "2026-10-14 Burak Temizkan (/vefat/28986590)",
+   "2026-10 Serpil Verimli vefat etti (/vefat/28972072)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-marmara",
+  "tarih": "2026-10-15",
+  "not": "/vefat/<id>/<ad> ilan sayfaları (Ekim sitemap'inde 12 kayıt) + /kocaeli-vefatlar günlük 'hemşehrilerimiz' sayfası (15 Eki güncel); sitemap-latest.xml de kullanılabilir"
+ },
+ {
+  "il": "sakarya",
+  "ilce": null,
+  "ad": "Sakarya Yenihaber",
+  "url": "https://www.sakaryayenihaber.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.sakaryayenihaber.com/sites/838/sitemaps/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Adapazarı",
+   "Sakarya"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-14 33 yaşındaki fabrika işçisi Erkan Kundo toprağa verildi",
+   "2026-10-14 Nurten Uzum bugün toprağa verilecek",
+   "2026-10-13 Emekli okul müdürü toprağa verildi"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-marmara",
+  "tarih": "2026-10-15",
+  "not": "her gün 'Sakarya Haberleri: <gün> Sakarya vefatlar' derlemesi (gövdesinde ad listesi olup olmadığı doğrulanamadı) + tek tek 'toprağa verildi' haberleri (Ekim'de ~37 vefat/defin kayıtlı); /sakarya-vefatlar sayfası bugün boş; slug süzgeci: vefat|toprağa|hayatını kaybet"
+ },
+ {
+  "il": "canakkale",
+  "ilce": null,
+  "ad": "Çanakkale Olay",
+  "url": "https://www.canakkaleolay.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.canakkaleolay.com/rss",
+  "sitemap": "https://www.canakkaleolay.com/sitemap.xml",
+  "liste_url": null,
+  "takma": [
+   "Çanakkale Merkez"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Çanakkale Vefat İlanları: 15 Ekim 2026",
+   "2026-10-12 Çanakkale Vefat İlanları: 12 Ekim 2026",
+   "2026-10-09 Çanakkale Vefat İlanları: 9 Ekim 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-marmara",
+  "tarih": "2026-10-15",
+  "not": "günlük/iki-üç günde bir 'Çanakkale Vefat İlanları: <gün>' haberi (gövdede ad + cenaze saati/cami); tüm sitemap tek dosya (15 bin kayıt), slug 'vefat-ilanlari' süzgeci; ayrıca tek vefat haberleri"
+ },
+ {
+  "il": "edirne",
+  "ilce": "Keşan",
+  "ad": "Keşan Postası",
+  "url": "https://kesanpostasi.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://kesanpostasi.com/feed/",
+  "sitemap": "https://kesanpostasi.com/post-sitemap2.xml",
+  "liste_url": null,
+  "takma": [
+   "Keşan"
+  ],
+  "kesin_yerel": true,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Sonay Ürkmez vefat etti",
+   "2026-10-13 Salim Tunca vefat etti",
+   "2026-10-13 İsmet Polat Kaşıkçı vefat etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-marmara",
+  "tarih": "2026-10-15",
+  "not": "WordPress; /aramizdan-ayrilanlar/<ad>-vefat-etti kategorisi (post-sitemap2.xml'de 75 kayıt; yeni ay yeni sitemap dosyasına geçebilir: post-sitemap3.xml…); robots.txt Disallow boş"
+ }
+]

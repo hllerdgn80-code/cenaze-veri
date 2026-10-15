@@ -202,5 +202,54 @@ class GercekSayfa(unittest.TestCase):
         self.assertEqual(len(acilan), 1); self.assertEqual(len(k), 2)     # eylül haberi ve ad-vefat haberi açılmaz
 
 
+# 15.10.2026 gerçek sayfalardan küçültülmüş örnekler: Çanakkale Olay derleme, Sakarya Yenihaber etiketli bloklar, Kocaeli Gazetesi /vefat/ sayfası
+G = BUGUN.isoformat()
+CANAKKALE = ('<meta property="datePublished" content="%s T09:45:00+03:00"><h1>Çanakkale Vefat İlanları: x</h1><div class="detaymetin">'
+             '<p>Çanakkale eşrafından;</p><h2>Müzeyyen GÜDEREL</h2><p>vefat etmiştir.</p><p>Cenazesi bugün öğle namazından sonra Yalı Camii\'nden '
+             'kaldırılarak Şehrimiz Eski Mezarlığı\'na defnedilecektir.</p><p>Dost, akraba ve din kardeşlerine duyurulur.</p></div><div class="news-tags">' % G).replace(" T", "T")
+SAKARYA = ('<script type="application/ld+json">{"datePublished": "%s"}</script><div class="detaymetin"><p>15 Ekim Sakarya\'da vefatlar</p>'
+           '<p>ALİYE EKİNER<br>Doğum Tarihi: 12.07.1932<br>Ölüm Tarihi: 14.10.2026<br>Mezarlık: Serdivan Merkez Mezarlığı-2<br>'
+           'Cami: Adapazarı Semerciler Mah. Şerefiye Cami<br>Vakit: Öğle<br>ŞABAN ŞAVLIK<br>ARİFİYE - NEVİYE<br>Doğum Tarihi: 1.03.1957<br>'
+           'Ölüm Tarihi: 14.10.2026<br>Mezarlık: Arifiye Merkez Mezarlığı<br>Cami: Arifiye Neviye Mah. Büyükdere Cami<br>Vakit: İkindi</p></div><div class="news-tags">' % G)
+KOCAELI = ('<meta itemprop="datePublished" content="%s">'.replace('itemprop="datePublished" content', 'name="datePublished" content') % G +
+           '<h1>Seher Aydoğdu vefat etti</h1><section class="liste-cart"><article><h3>Seher Aydoğdu vefat etti</h3><p>İzmit Mehmet Ali Paşa Mahallesi’nde ikamet eden '
+           'Seher Aydoğdu (86) vefat etti. Cenazesi ikindi namazına müteakip Mehmet Ali Paşa Camii’nde kılınan cenaze namazının ardından Kent Mezarlığı’nda toprağa verildi. </p></article></section>')
+
+
+class Aday(unittest.TestCase):
+    def setUp(self):
+        self.s = kk.dogrula(satir(il="canakkale", ad="Çanakkale Olay", url="https://www.canakkaleolay.com", kalip="sitemap", rss_url=None,
+                                  sitemap="https://www.canakkaleolay.com/sitemap.xml"))[0]
+
+    def test_derleme_ilan(self):
+        k = kk.aday_sayfa_oku(CTX, "Çanakkale", self.s, "https://www.canakkaleolay.com/haber/canakkale-vefat-ilanlari-1", CANAKKALE)
+        self.assertEqual([(x["ad_soyad"], x["namaz_yeri_vakti"], x["defin_yeri"], x["liste_tarihi"]) for x in k],
+                         [("Müzeyyen Güderel", "Yalı Camii, öğle namazı", "Eski Mezarlığı", G)])
+
+    def test_etiketli_bloklar(self):
+        s = kk.dogrula(satir(il="malatya", ad="Sakarya Test", url="https://www.sakaryayenihaber.com", kalip="sitemap", rss_url=None,
+                             sitemap="https://www.sakaryayenihaber.com/s.xml"))[0]
+        g = kk.govde_metni(SAKARYA.replace("<br>", "</p><p>"))
+        k = kk.etiketli_blok_ayristir(g, CTX, "Sakarya", s, "https://www.sakaryayenihaber.com/haber/x-vefatlar", G)
+        self.assertEqual([(x["ad_soyad"], x["yas"], x["defin_yeri"]) for x in k],
+                         [("Aliye Ekiner", 94, "Serdivan Merkez Mezarlığı-2"), ("Şaban Şavlık", 69, "Arifiye Merkez Mezarlığı")])
+        self.assertEqual(k[1]["namaz_yeri_vakti"], "Büyükdere Cami, ikindi namazı"); self.assertEqual(k[0]["vefat_tarihi"], "2026-10-14")
+
+    def test_tekil_vefat_sayfasi(self):
+        s = kk.dogrula(satir(il="kocaeli", ad="Kocaeli Gazetesi", url="https://www.kocaeligazetesi.com.tr", kalip="sitemap", rss_url=None,
+                             sitemap="https://www.kocaeligazetesi.com.tr/s-{AY}.xml"))[0]
+        k = kk.aday_sayfa_oku(CTX, "Kocaeli", s, "https://www.kocaeligazetesi.com.tr/vefat/28983321/seher-aydogdu-vefat-etti", KOCAELI)
+        self.assertEqual((len(k), k[0]["ad_soyad"], k[0]["yas"], k[0]["defin_yeri"]), (1, "Seher Aydoğdu", 86, "Kent Mezarlığı"))
+
+    def test_sitemap_kalibinda_ek_dizin_dizinle_ayni_olmaz(self):
+        s = kk.dogrula(satir(kalip="sitemap", rss_url=None, sitemap="https://www.testgazete.com/s-{AY}.xml"))[0]
+        self.assertIsNone(kk.site_tanimi(s)["ek_dizin"])
+
+    def test_aday_adres_suzgeci(self):
+        self.assertTrue(kk.TEKIL_YOL.search("https://x.com/vefat/28986594/halit"))
+        self.assertTrue(kk.DERLEME_YOL.search("https://x.com/haber/canakkale-vefat-ilanlari-15-ekim-2026-1"))
+        self.assertFalse(kk.DERLEME_YOL.search("https://x.com/haber/biga-da-yol-coktu-126973"))
+
+
 if __name__ == "__main__":
     unittest.main()
