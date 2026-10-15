@@ -1,0 +1,503 @@
+{
+ "tarih": "2026-10-15",
+ "sorgulanan_iller": [
+  "agri",
+  "ardahan",
+  "bayburt",
+  "bingol",
+  "bitlis",
+  "eskisehir",
+  "hakkari",
+  "igdir",
+  "kirklareli",
+  "mardin",
+  "mus",
+  "siirt",
+  "sirnak",
+  "tunceli",
+  "yozgat",
+  "diyarbakir",
+  "adana",
+  "adiyaman",
+  "afyonkarahisar",
+  "aksaray",
+  "amasya",
+  "ankara",
+  "antalya",
+  "artvin",
+  "aydin",
+  "balikesir",
+  "bartin",
+  "batman",
+  "bilecik",
+  "bolu"
+ ],
+ "il_alan_yeni": {
+  "Ağrı": {
+   "malatyaguncel.com": 1,
+   "gunebakisgazetesi.com": 1,
+   "yerkoyhabergazetesi.com": 1
+  },
+  "Ardahan": {
+   "haber7.com": 1,
+   "kuzeyanadolugazetesi.com": 1
+  },
+  "Bayburt": {
+   "gumuskoza.com.tr": 2,
+   "yozgatmedya.com.tr": 1
+  },
+  "Bingöl": {
+   "aksiyon.com.tr": 1,
+   "elazighaberkent.com": 1,
+   "bingolguncel.tv": 1
+  },
+  "Bitlis": {
+   "aksiyon.com.tr": 2,
+   "herkesduysun.com": 1
+  },
+  "Eskişehir": {
+   "aksiyon.com.tr": 1,
+   "haber26.com.tr": 1,
+   "bolgegundemi.com": 1,
+   "esyenigun.com": 1,
+   "cagdaskocaeli.com.tr": 1,
+   "bizimyaka.com": 1,
+   "tv42haber.com": 1,
+   "eskisehirdurum.com": 2,
+   "ortadogugazetesi.com": 1
+  },
+  "Hakkâri": {
+   "mersinhaber.com": 1
+  },
+  "Mardin": {
+   "gzt.com": 1,
+   "amedtv.com": 1,
+   "mardinlife.com": 5,
+   "elazighaberkent.com": 1,
+   "muhalif.com.tr": 1
+  },
+  "Muş": {
+   "pembepusula.org": 1,
+   "mersinhaber.com": 1
+  },
+  "Siirt": {
+   "herkesduysun.com": 1
+  },
+  "Şırnak": {
+   "alucrahaber.com": 1
+  },
+  "Tunceli": {
+   "medyabar.com": 1,
+   "mersinhaber.com": 1,
+   "gunebakisgazetesi.com": 1
+  },
+  "Yozgat": {
+   "tibbiyebulteni.com": 1,
+   "ilerigazetesi.com.tr": 2,
+   "yozgatcamlik.com": 3,
+   "yozgatmedya.com.tr": 14,
+   "merhabayozgat.com": 5,
+   "kayserigurhaber.com": 1
+  },
+  "Diyarbakır": {
+   "haber7.com": 1,
+   "diyarbakir.net": 1,
+   "diyarbakirolay.com.tr": 2,
+   "cegamedya.com": 1,
+   "yorumla.net": 1,
+   "referansturk.com.tr": 1
+  },
+  "Adana": {
+   "kibrispostasi.com": 1,
+   "haberkibris.com": 1,
+   "kucuksaat.com": 6,
+   "akdenizgercek.com.tr": 1,
+   "adanatorosgazetesi.net": 1,
+   "mersinhaber.com": 1,
+   "medyayenigun.net": 1,
+   "ilkhaber-gazetesi.com": 1,
+   "5ocakgazetesi.com": 1,
+   "nnchaber.com": 1,
+   "gazetebirlik.com": 1
+  },
+  "Adıyaman": {
+   "urfadegisim.com.tr": 6,
+   "isikgazetesi.com": 3,
+   "besniguncel.com": 2,
+   "gunebakisgazetesi.com": 1,
+   "bianlikhaber.com": 1
+  },
+  "Afyonkarahisar": {
+   "dunya.com": 1,
+   "haber1.com": 1,
+   "yerel-haberler.haberturk.com": 1,
+   "haberton.com": 1,
+   "memleket.com.tr": 1,
+   "posta.com.tr": 1,
+   "afyonyerelhaber.com": 1,
+   "24saatgazetesi.com": 1,
+   "afyonanahaber.com.tr": 7,
+   "afyonturkeligazetesi.com": 1,
+   "kahtahaberpostasi.com": 1,
+   "beyazbelgehaber.com": 1,
+   "canligaste.com": 3,
+   "nnchaber.com": 2,
+   "afyonkenthaber.com": 1,
+   "gercekgundem.com": 1,
+   "aydinlik.com.tr": 1,
+   "mersinhaber.com": 1,
+   "iscihaber.net": 1
+  },
+  "Aksaray": {
+   "saraymedya.com": 1,
+   "anadoluekspres.com.tr": 1,
+   "marmarisyenisayfa.com": 1,
+   "yenigungazete.com": 1,
+   "haberfark.net": 1
+  },
+  "Amasya": {
+   "haber1.com": 1,
+   "babaocagi.com.tr": 1,
+   "afyonhaber.com": 1,
+   "afyonhaberturk.com": 1,
+   "24saatgazetesi.com": 1,
+   "objektifamasya.com": 3,
+   "canligaste.com": 1,
+   "haberts.com": 1,
+   "mersinhaber.com": 1,
+   "havadis.com": 1,
+   "habererk.com": 1,
+   "aydinlik.com.tr": 1
+  },
+  "Ankara": {
+   "guneydoguekspres.com": 1,
+   "24saatgazetesi.com": 1,
+   "ankaraninsesi.com": 4,
+   "gazeteilksayfa.com": 1,
+   "nnchaber.com": 2,
+   "yeniankara.com.tr": 3,
+   "bagimsizkocaeli.com.tr": 1,
+   "kayserim.net": 1,
+   "haberankara.com": 1,
+   "memurhaber365.com": 1,
+   "ankaramasasi.com.tr": 6
+  },
+  "Antalya": {
+   "antalyahaberal.com": 1,
+   "akdenizgercek.com.tr": 1,
+   "antalyam.com": 1,
+   "antalyasonhaber.com": 1,
+   "nnchaber.com": 6,
+   "burdurgazetesi.com": 1
+  },
+  "Artvin": {
+   "gundemartvin.com": 6,
+   "haberglobal.com": 1,
+   "diyanethaber.com.tr": 1,
+   "yesilgiresun.com.tr": 1
+  },
+  "Aydın": {
+   "aile.gov.tr": 1,
+   "kanal23.com": 1,
+   "haber7.com": 1,
+   "aydintimes.com": 5,
+   "aydindenge.com.tr": 20,
+   "elazigsonhaber.com": 1,
+   "ajansaydin.com": 1,
+   "sesgazetesi.com.tr": 3,
+   "yenikiroba.com": 1,
+   "aydinhedef.com.tr": 3,
+   "aydinhavadisleri.com": 1,
+   "abdpost.com": 1,
+   "haberaydin.com": 1,
+   "yerkoyhabergazetesi.com": 1,
+   "mansetaydin.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Balıkesir": {
+   "haber7.com": 1,
+   "habersbalikesir.com": 1,
+   "gazetemerhaba.com": 1,
+   "balikesirim.net": 3
+  },
+  "Bartın": {
+   "bartinhalkgazetesi.com.tr": 3
+  },
+  "Batman": {
+   "batmancagdas.com": 1,
+   "batmanolaygazetesi.com": 1,
+   "batmandabugun.com": 1,
+   "batmanpusula.com": 1,
+   "batmansonsoz.net": 2
+  },
+  "Bilecik": {
+   "bilecikhaber.com.tr": 1,
+   "bilecik11.com": 1,
+   "haber26.com.tr": 1,
+   "pembepusula.org": 1,
+   "yozgatmedya.com.tr": 1
+  },
+  "Bolu": {
+   "bolutakip.com": 1,
+   "boluolay.com": 37
+  }
+ },
+ "belirsiz": 910,
+ "hata": {},
+ "on_inceleme_yapilan": 25,
+ "alan_sonuc": {
+  "afyonanahaber.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": [
+    "/afyon-cenaze-ilanlari"
+   ]
+  },
+  "aydinlik.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "nnchaber.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/ayfer-yilmazok-vefat-bucak-girasun",
+    "/bucak-vefat-mehmet-ogutlu"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/ayfer-yilmazok-vefat-bucak-girasun",
+    "/bucak-vefat-mehmet-ogutlu",
+    "/bucak-vefat-vesile-akunver",
+    "/celtikci-vefat-huseyin-ozdemir",
+    "/vefatlar",
+    "/videolar/gelin-ve-damat-evde-olu-bulundu-dugun-evi-cenaze-evi-oldu"
+   ]
+  },
+  "isikgazetesi.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "gundemartvin.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/artvinde-cenaze-donusu-kaza-2-yarali"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/artvinde-cenaze-donusu-kaza-2-yarali"
+   ]
+  },
+  "kucuksaat.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "sesgazetesi.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "yeniankara.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "balikesirim.net": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/bugun-balikesirde-vefat-edenler-ve-defin-yerleri-2",
+    "/is-ve-spor-dunyasinin-aci-kaybi-guvenc-kabakci-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/bugun-balikesirde-vefat-edenler-ve-defin-yerleri-2",
+    "/is-ve-spor-dunyasinin-aci-kaybi-guvenc-kabakci-vefat-etti"
+   ]
+  },
+  "marmarisyenisayfa.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL ana 403",
+   "istek": 2
+  },
+  "pembepusula.org": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "besniguncel.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "bartinhalkgazetesi.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "24saatgazetesi.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "haber7.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ankaraninsesi.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
+  },
+  "herkesduysun.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "aydintimes.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "objektifamasya.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "aydindenge.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/cine/14/10/2026/abdurrahman-duran-vefat-etti",
+    "/cine/14/10/2026/remzi-celik-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/cine/14/10/2026/abdurrahman-duran-vefat-etti",
+    "/cine/14/10/2026/remzi-celik-vefat-etti",
+    "/cine/14/10/2026/umran-gulten-kayali-vefat-etti",
+    "/karpuzlu/02/10/2026/rafet-guzel-vefat-etti",
+    "/karpuzlu/10/10/2026/aziz-ozcelik-vefat-etti",
+    "/karpuzlu/18/09/2026/ramazan-akbal-vefat-etti"
+   ]
+  },
+  "aydinhedef.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "urfadegisim.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "boluolay.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "ankaramasasi.com.tr": {
+   "tarih": "2026-10-15",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "gunebakisgazetesi.com": {
+   "tarih": "2026-10-15",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  }
+ }
+}
