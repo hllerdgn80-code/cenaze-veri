@@ -1,0 +1,544 @@
+[
+ {
+  "il": "konya",
+  "ilce": null,
+  "ad": "Konya Hakimiyet",
+  "url": "https://www.hakimiyet.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.hakimiyet.com/rss/",
+  "sitemap": "https://www.hakimiyet.com/sitemap_posts-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Konya"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Konya'da 15 Ekim 2026 Perşembe günü vefat edenler",
+   "2026-10-14 Konya'da 14 Ekim 2026 Çarşamba günü vefat edenler",
+   "2026-10-13 Konya'da 13 Ekim Salı günü vefat edenler"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günde 1 derleme haber (Ekim sitemap'inde 13 'konya-da-<gün>-vefat-edenler' sayfası); Konya Büyükşehir Mezarlık Bilgi Sistemi'ne dayanır, ilçeler dahil. Sitemap deseni: /sitemap_posts-{YYYY}-{MM}.xml (index: /sitemap_posts.xml); RSS /rss/ (100 haber). robots: yalnız /arama/, /arsiv/, /haber-gundemi/ vb. yasak"
+ },
+ {
+  "il": "konya",
+  "ilce": null,
+  "ad": "Konya'nın Sesi",
+  "url": "https://www.konyaninsesi.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.konyaninsesi.com.tr/rss/",
+  "sitemap": "https://www.konyaninsesi.com.tr/sitemap_posts-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Konya"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Konya'da bugün vefat edenler! (15.10.2026)",
+   "2026-10-14 Konya'da bugün vefat edenler (14.10.2026)",
+   "2026-10-13 Konya'da bugün vefat edenler (13.10.2026)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Hakimiyet ile aynı yazılım; günlük 'konya-da-bugun-vefat-edenler-<gg-aa-yyyy>' sayfası (11–15 Ekim hepsi var). Sitemap: /sitemap_posts-{YYYY}-{MM}.xml; RSS /rss/. robots: yalnız /arama/, /arsiv/ vb. yasak"
+ },
+ {
+  "il": "konya",
+  "ilce": null,
+  "ad": "Haber Dairesi Konya",
+  "url": "https://haberdairesi.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://haberdairesi.com/service/rss.php",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Konya"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 120,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Konya'da bugün vefat edenler | 15 Ekim 2026",
+   "2026-10-12 Konya'da bugün vefat edenler 12 Ekim 2026",
+   "2026-10-10 Konya'da bugün vefat edenler 10 Ekim 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Konya'da bugün vefat edenler' (/konya/ kategorisi); RSS 40 haber; robots: yalnız /api yasak. Çok-illi site: yalnız /konya/ yolundaki vefat haberleri alınmalı"
+ },
+ {
+  "il": "ankara",
+  "ilce": null,
+  "ad": "NNC Haber – Vefatlar",
+  "url": "https://www.nnchaber.com",
+  "tur": "yerel_basin",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.nnchaber.com/vefatlar",
+  "takma": [
+   "Ankara"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 180,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-14 Ankara ve İlçeleri 13 ekim 14 ekim 2026 Bugün vefat ölüm defin",
+   "2026-10-12 Ankara ve İlçelerinde Bugün Kimler Vefat Etti? 12 Ekim İlçe İlçe Cenaze ve Defin Listesi",
+   "2026-10-11 Ankara 10-11 Ekim 2026 Vefat Edenler! İlçe İlçe Cenaze ve Defin Listesi"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Büyükşehir toplu sayfa: Ankara ve ilçeleri için 1–3 günlük 'ilçe ilçe isim isim' derleme (yaklaşık günaşırı). Aynı sitede Konya, Afyonkarahisar, Isparta, Burdur, Antalya, Denizli, Uşak listeleri de var (URL'de il adı: /ankara-..., /konya-...). /vefatlar liste sayfası ayrıca tek kişilik 'X Vefat <ad>' ilanları (Burdur/Bucak/Elmalı). robots: Allow /, yalnız /admin vb. yasak"
+ },
+ {
+  "il": "kayseri",
+  "ilce": null,
+  "ad": "Hunat TV",
+  "url": "https://www.hunattv.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.hunattv.com/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Kayseri"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kayseri'de 15 Ekim Perşembe günü vefat edenler",
+   "2026-10-11 Kayseri'de 11 Ekim Pazar günü vefat edenler"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük Kayseri derlemesi (Mezarlık Bilgi Sistemi'ne dayalı); RSS /rss 100 haber, içinde 15 Ekim vefat haberi"
+ },
+ {
+  "il": "kayseri",
+  "ilce": null,
+  "ad": "Kayseri Anadolu Haber",
+  "url": "https://www.kayserianadoluhaber.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.kayserianadoluhaber.com.tr/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Kayseri"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kayseri'de 15 Ekim Perşembe günü vefat edenler...",
+   "2026-10-06 Kayseri'de 6 Ekim Salı günü vefat edenler..."
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Kayseri'de <gün> vefat edenler...' derlemesi; RSS /rss 100 haber; robots serbest"
+ },
+ {
+  "il": "kayseri",
+  "ilce": "Talas",
+  "ad": "Talas Belediyesi – Vefat Edenler",
+  "url": "https://www.talas.bel.tr",
+  "tur": "belediye",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.talas.bel.tr/vefaat-edenler",
+  "takma": [
+   "Talas"
+  ],
+  "kesin_yerel": true,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Talas belediyesi vefat edenler listesi: 2 kayıt (Vefat Tarihi 15 Ekim 2026)",
+   "2026-10-14 Talas belediyesi vefat edenler listesi: 3 kayıt (14 Ekim 2026)",
+   "2026-10-13 Talas belediyesi vefat edenler listesi: 3 kayıt (13 Ekim 2026)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Belediye listesi: kart başına Vefat Tarihi / doğum yeri-yılı / baba-anne adı / yer-vakit; Haziran–Ekim günlük 1–6 kayıt. Not: sayfada anne-baba adı var (K filtreleri). robots.txt yok (HTML dönüyor), kısıt görülmedi"
+ },
+ {
+  "il": "kayseri",
+  "ilce": "Melikgazi",
+  "ad": "Melikgazi Belediyesi – Vefat Edenler",
+  "url": "https://www.melikgazi.bel.tr",
+  "tur": "belediye",
+  "kalip": "liste",
+  "rss_url": null,
+  "sitemap": null,
+  "liste_url": "https://www.melikgazi.bel.tr/vefat-edenler",
+  "takma": [
+   "Melikgazi"
+  ],
+  "kesin_yerel": true,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Melikgazi belediyesi vefat listesi (Mezarlık: Mimarsinan Güneyler Dere, Vefat Tarihi 15 Ekim 2026)",
+   "2026-10-14 Melikgazi belediyesi vefat listesi (Fatih Toki Mezarlığı, 14 Ekim 2026)",
+   "2026-10-14 Melikgazi belediyesi vefat listesi (14 Ekim 2026, 2. kayıt)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Belediye listesi: Mezarlık / Vefat Tarihi / Adı Soyadı / Anne Adı; güncel. robots.txt yok (HTML döner)"
+ },
+ {
+  "il": "nevsehir",
+  "ilce": null,
+  "ad": "FİB Haber",
+  "url": "https://www.fibhaber.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.fibhaber.com/sitemap/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Nevşehir"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Nevşehir ve ilçelerinde bugün vefat edenler (15.10.2026)",
+   "2026-10-14 Nevşehir ve ilçelerinde bugün vefat edenler (14.10.2026)",
+   "2026-10-13 Nevşehir ve ilçelerinde bugün vefat edenler (13.10.2026)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Ekim sitemap'inde 31 vefat/cenaze sayfası (günlük il geneli derleme + tek kişilik); /sitemap/sitemap-{YYYY}-{MM}.xml (Konya Yenigün/Muşkara ile aynı yazılım)"
+ },
+ {
+  "il": "nevsehir",
+  "ilce": null,
+  "ad": "Muşkara Haber",
+  "url": "https://www.muskarahaber.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.muskarahaber.com/sitemap/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Nevşehir"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-10 Nevşehir'de 2 kişi vefat etti (10 Ekim 2026)",
+   "2026-10-09 Nevşehir'de 7 kişi vefat etti (9 Ekim 2026)",
+   "2026-10-06 Nevşehir'de 4 kişi vefat etti (6 Ekim 2026)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Ekim sitemap'inde 12 vefat haberi (Nevşehir, Ürgüp, Avanos, Gülşehir, Hacıbektaş cenaze/defin bilgileri); /sitemap/sitemap-{YYYY}-{MM}.xml"
+ },
+ {
+  "il": "nigde",
+  "ilce": null,
+  "ad": "Hamle Gazetesi",
+  "url": "https://www.hamlegazetesi.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.hamlegazetesi.com/rss.xml",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Niğde"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 NİĞDE'DE BUGÜN VEFAT EDENLER!",
+   "2026-09-30 NİĞDE'DE BUGÜN VEFAT EDENLER",
+   "2026-09-29 NİĞDE'DE BUGÜN VEFAT EDENLER: 29 EYLÜL 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "'Niğde'de bugün vefat edenler' serisi (Eylül–Ekim, her birkaç günde bir; Fertek/Hacı Abdullah/Dündarlı dahil); RSS /rss.xml 50 haber; robots serbest"
+ },
+ {
+  "il": "karaman",
+  "ilce": null,
+  "ad": "Karaman'da Uyanış",
+  "url": "https://www.karamandauyanis.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.karamandauyanis.com/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Karaman"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Karaman'da 15 Ekim Perşembe günü vefat edenler",
+   "2026-10-06 Karaman'da 6 Ekim Salı günü vefat edenler",
+   "2026-10-01 Karaman'da 1 Ekim Perşembe günü vefat edenler"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Karaman'da <gün> vefat edenler' ve 'Bugün N hemşehrimiz vefat etti' haberleri (14 ve 15 Ekim listeleri var); RSS /rss 20 haber"
+ },
+ {
+  "il": "kirikkale",
+  "ilce": null,
+  "ad": "Yenigün Gazetesi (Kırıkkale)",
+  "url": "https://www.yenigungazetesi.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.yenigungazetesi.com.tr/feed",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Kırıkkale"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kırıkkale'de bugün vefat edenler: 15Ekim 2026",
+   "2026-10-13 Kırıkkale'de bugün vefat edenler: 13 Ekim 2026",
+   "2026-10-09 Kırıkkale'de bugün vefat edenler: 9 Ekim 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Kırıkkale'de bugün vefat edenler' (2, 9, 12, 13, 14, 15 Ekim sayfaları görüldü); RSS /feed 40 haber; URL /kirikkale-haber/ altında"
+ },
+ {
+  "il": "kirikkale",
+  "ilce": null,
+  "ad": "İl Gazetesi (Kırıkkale)",
+  "url": "https://www.ilgazetesi.com.tr",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.ilgazetesi.com.tr/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Kırıkkale"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kırıkkale'de bugün kimler vefat etti? 15 Ekim 2026 cenaze bilgileri!",
+   "2026-10-14 Kırıkkale'de bugün kimler vefat etti? 14 Ekim 2026 cenaze bilgileri açıklandı!",
+   "2026-10-13 Kırıkkale'de bugün kimler vefat etti? 13 Ekim 2026 cenaze bilgileri açıklandı!"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Neredeyse her gün (3, 6, 8, 11, 13, 14, 15 Ekim görüldü); RSS /rss 40 haber"
+ },
+ {
+  "il": "kirikkale",
+  "ilce": null,
+  "ad": "Kale Haber",
+  "url": "https://www.kalehaber.net",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.kalehaber.net/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Kırıkkale"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Kırıkkale'de Bugün Vefat Edenler (15 Ekim)",
+   "2026-10-14 Kırıkkale'de Bugün Vefat Edenler (14 Ekim)",
+   "2026-10-12 Kırıkkale'de Bugün Vefat Edenler (12 Ekim)"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Kırıkkale'de bugün vefat edenler (<gün> Ekim)'; RSS /rss 21 haber"
+ },
+ {
+  "il": "kirsehir",
+  "ilce": null,
+  "ad": "Kırşehir Haber 40",
+  "url": "https://www.kirsehirhaber40.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": "https://www.kirsehirhaber40.com/rss",
+  "sitemap": "https://www.kirsehirhaber40.com/sitemap/sitemap-{AY}.xml",
+  "liste_url": null,
+  "takma": [
+   "Kırşehir",
+   "Kaman"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 180,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Temirli Köyünden Acı Haber: Neriman Tosun",
+   "2026-10-08 Doğan Yumuş (Done Yumus) hayatını kaybetti",
+   "2026-10-02 Ali Duman hayatını kaybetti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Tek kişilik vefat haberleri 'X Acı Haber / hayatını kaybetti' kalıbı: Ekim sitemap'inde 4, Eylül'de 6+ (günlük derleme YOK, haftada ~1-2). Kırşehir'de belediye (kirsehir.bel.tr, zaten okunuyor) dışındaki tek bulunan açık gazete; kirsehirmemleket.com.tr 403 verdi. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml; RSS /rss"
+ },
+ {
+  "il": "sivas",
+  "ilce": null,
+  "ad": "Sivas Haber 346",
+  "url": "https://sivashaber346.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://sivashaber346.com/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Sivas"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Sivas'ta Bugün Aramızdan Ayrılanlar – 15 Ekim 2026",
+   "2026-10-14 Sivas'ta Bugün Aramızdan Ayrılanlar – 14 Ekim 2026"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük 'Sivas'ta Bugün Aramızdan Ayrılanlar – <tarih>'; RSS /rss 10 haber (3'ü vefat); robots.txt 404 (kısıt yok)"
+ },
+ {
+  "il": "sivas",
+  "ilce": null,
+  "ad": "Gündem Sivas",
+  "url": "https://www.gundemsivas.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.gundemsivas.com/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Sivas"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 60,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Sivas'ta 15 Ekim Defin Kayıtları: İsimler ve Yerler",
+   "2026-10-14 Sivas'ta Vefat Edenler: 14 Ekim Defin Bilgileri"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Günlük defin kaydı derlemesi; kategori yolu /sivas-vefat-edenler/; RSS /rss 50 haber"
+ },
+ {
+  "il": "aksaray",
+  "ilce": null,
+  "ad": "Aksaray Yenigün Gazetesi",
+  "url": "https://yenigungazete.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://yenigungazete.com/tag/aksaraydavefatedenler/feed/",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Aksaray"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 180,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Aksaray'da rahmeti rahmana kavuşanlar!",
+   "2026-10-13 Aksaray'da son günlerde kimler yaşamını yitirdi!",
+   "2026-10-06 Aksaray'da bugünlerde kimler yaşamını yitirdi?"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Haftada ~2 derleme (8-12 kişilik isim listesi, yaş+mahalle+köken; 29 Ağustos, 10 Eylül, 6/13/15 Ekim). Etiket beslemesi #aksaraydavefatedenler: /tag/aksaraydavefatedenler/feed/. Aksaray'da belediye e-belediye dışında bulunan tek açık kaynak; robots serbest (WordPress)"
+ },
+ {
+  "il": "yozgat",
+  "ilce": null,
+  "ad": "Yozgat Çamlık Gazetesi",
+  "url": "https://www.yozgatcamlik.com",
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "rss_url": "https://www.yozgatcamlik.com/rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Yozgat"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 180,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Yozgat'ın Acı Kaybı! Emekli Öğretmen Mehmet Sait Orhon Hayatını Kaybetti",
+   "2026-10-09 Yozgat vefat edenler! Yozgat'ta vefat edenlerin tam listesi! Yozgat'ta bu hafta kim öldü?"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Haftalık 'Yozgat vefat edenler – tam liste' (9 Ekim; önceki: 15 Mayıs) + tek kişilik vefat haberleri (/yozgat-haber/ listesinde 4). Yozgat Hakimiyet zaten okunuyor; bu ikincil kaynak. RSS /rss 40 haber; robots: /api, /xpanel dışında serbest"
+ },
+ {
+  "il": "cankiri",
+  "ilce": null,
+  "ad": "Haber 18 – Çankırı Vefat Haberleri",
+  "url": "https://www.haber18.com",
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "rss_url": null,
+  "sitemap": "https://www.haber18.com/cankiri-vefat-haberleri.xml",
+  "liste_url": "https://www.haber18.com/cankiri-vefat-haberleri/",
+  "takma": [
+   "Çankırı"
+  ],
+  "kesin_yerel": false,
+  "siklik_dk": 180,
+  "robots": "izin",
+  "kanit": [
+   "2026-10-15 Murat Karakuş Usta'nın Acı Günü",
+   "2026-10-07 Abdullah Bayram Vefat Etti",
+   "2026-10-07 Lastikçi Esnafında Bünyamin Erdem Vefat Etti"
+  ],
+  "guncel": "2026-10-15",
+  "isaretleyen": "ajan-ic-anadolu",
+  "tarih": "2026-10-15",
+  "not": "Kategori sayfası /cankiri-vefat-haberleri/ + kategori sitemap'i (/cankiri-vefat-haberleri.xml, statik, lastmod'lu); haftada ~1-3 tek kişilik haber ('X Vefat Etti', Çankırı esnaf/öğretmen/eczacı). Çankırı Belediyesi vefat listesi (cankiri.bel.tr/vefat-edenler) cankiri.py'de ZATEN okunuyor, tekrar yazılmadı. robots: Allow /"
+ }
+]
