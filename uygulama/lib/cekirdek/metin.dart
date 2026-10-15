@@ -146,7 +146,7 @@ class M {
       c == 'e' ? 'Merhumun adı ve soyadı' : (c == 'k' ? 'Merhumenin adı ve soyadı' : 'Adı ve soyadı');
   static const alanVefat = 'Vefat tarihi';
   static const alanNamaz = 'Namaz vakti';
-  static const namazSecenek = ['Öğle namazı', 'İkindi namazı', 'Cuma namazı', 'Saat belirt'];
+  static const namazSecenek = ['Sabah namazı', 'Öğle namazı', 'İkindi namazı', 'Akşam namazı', 'Yatsı namazı', 'Cuma namazı', 'Saat belirt']; // 15.10 sahibi: sabah/akşam/yatsı eklendi
   static const alanIl = 'İl';
   static const alanIlce = 'İlçe';
   static const alanMahalle = 'Mahalle';

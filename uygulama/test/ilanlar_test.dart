@@ -81,12 +81,12 @@ void main() {
     expect(find.text('Bebek'), findsOneWidget);
   });
 
-  testWidgets('§21/3: bildirim teklifi kapalı sabitle gizli (push paketi yok)', (tester) async {
+  testWidgets('§36: bildirim sorusu listede değil, yalnız ilk açılış kartında (test durumunda kapalı)', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Kars', 'ilce': 'Merkez'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
-    expect(bildirimTeklifiAcik, isFalse);
+    expect(bildirimTeklifiAcik, isTrue);
     expect(find.text('İlçenizde cenaze ilanı paylaşıldığında haber verelim mi?'), findsNothing);
     expect(find.text('Cenaze ilanı paylaş'), findsOneWidget);
   });

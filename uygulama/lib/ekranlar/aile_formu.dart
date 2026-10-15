@@ -770,7 +770,7 @@ class _AileFormuState extends State<AileFormu> {
           _baslik(r, M.adimCenazeBaslik, M.adimCenazeAciklama),
           _secimDugmesi(r, M.alanVefat, tarih(_vefat), _tarihSec),
           _secimDugmesi(r, M.alanNamazTarihi, tarih(_namaz), _namazTarihSec),
-          _secenekler(r, M.alanNamaz, M.namazSecenek.take(3).toList(), _vakit ?? '', (v) => setState(() => _vakit = v)),
+          _secenekler(r, M.alanNamaz, M.namazSecenek.take(6).toList(), _vakit ?? '', (v) => setState(() => _vakit = v)),
           FormAlani(etiket: M.alanCami, ipucu: M.alanCamiYer, denetleyici: _cami, enCok: 40),
           if (_sehit)
             FormAlani(
