@@ -97,6 +97,33 @@ def gradle_bildirim(p):
     print("Gradle: desugaring + compileSdk ayarlandı")
 
 
+KUCULTME_KURALLARI = """# 15.10.2026 H68: ML Kit metin tanima yalniz Latin modeliyle paketlenir; eklenti Cince/Devanagari/Japonca/Korece
+# seceneklerine de basvurur, R8 bu siniflari bulamayinca derlemeyi durdurur (Missing class ...TextRecognizerOptions).
+-dontwarn com.google.mlkit.vision.text.chinese.**
+-dontwarn com.google.mlkit.vision.text.devanagari.**
+-dontwarn com.google.mlkit.vision.text.japanese.**
+-dontwarn com.google.mlkit.vision.text.korean.**
+"""
+
+
+def kucultme_kurallari(p):
+    """R8 kurallarini yazar ve release derlemesine baglar (H68); kts ve groovy icin."""
+    (A / "app" / "proguard-rules.pro").write_text(KUCULTME_KURALLARI, encoding="utf-8")
+    s = p.read_text(encoding="utf-8")
+    if "proguard-rules.pro" in s:
+        return
+    if p.suffix == ".kts":
+        satir = '            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")\n'
+        s, n = re.subn(r'(\n\s*release\s*\{\n)', r'\1' + satir, s, count=1)
+    else:
+        satir = "            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\n"
+        s, n = re.subn(r'(\n\s*release\s*\{\n)', r'\1' + satir, s, count=1)
+    if not n:
+        print("::warning::release buildType bulunamadi, R8 kurallari baglanamadi")
+    p.write_text(s, encoding="utf-8")
+    print("R8 kurallari baglandi (proguard-rules.pro)")
+
+
 def gradle_dosyasi():
     for ad in ("build.gradle.kts", "build.gradle"):
         p = A / "app" / ad
@@ -182,4 +209,5 @@ if __name__ == "__main__":
     kimlik(g)
     bildirim_simgesi()
     gradle_bildirim(g)
+    kucultme_kurallari(g)
     imza(g)
