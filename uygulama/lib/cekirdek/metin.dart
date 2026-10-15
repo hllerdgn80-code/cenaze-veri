@@ -52,7 +52,7 @@ class M {
   static const bildirimKaldirildi = 'Sayfanızdan kaldırıldı';
   static const bildirimKaydedildi = 'Sayfanıza eklendi';
   static String bosBugunBaslik(String yer) => 'Bugün ${ek(yer)} cenaze ilanı bulunmuyor';
-  static const bosBugunAciklama = 'Son yedi günün cenaze ilanları aşağıda.';
+  static const bosBugunAciklama = ''; // 15.10.2026 sahibi: "son 7 günün ilanları aşağıda" ifadesi KALDIRILDI; geçmiş günler yalnız tarih şeridinden
   static const bosGecmisBaslik = 'Bu tarihte cenaze ilanı bulunmuyor';
   static String bosGecmisAciklama(String gun, String yer) => '${tarih(gun)} · $yer';
   static const bosIlGeneli = 'Bu tarihte ilçesi belirtilmemiş cenaze ilanı bulunmuyor.';

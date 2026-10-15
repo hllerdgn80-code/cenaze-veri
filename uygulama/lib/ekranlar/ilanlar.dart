@@ -247,18 +247,11 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   final genelBugun = ilcesiz ? genelGun(gun) : <Ilan>[];
   if (h.isEmpty && genelBugun.isEmpty) {
     if (gun == bugun) {
-      // Kaynak var, bugün ilan yok: önce ilin diğer ilçeleri (§21/2), sonra son 7 gün kendiliğinden açılır
+      // 15.10.2026 sahibi: "ilçesine baktığında ilan varsa vardır, yoksa yoktur" — diğer ilçeler ve son 7 gün KENDİLİĞİNDEN AÇILMAZ
+      // (karıştırma riski); yalnız "bulunmuyor" satırı. Geçmiş günler tarih şeridinden açılır.
       h = <Widget>[
         BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true),
       ];
-      if (ilce != null && !ilcesiz) h.addAll(digerIlceler(bugun));
-      for (int n = 1; n < 7; n++) {
-        final g = gunEkle(bugun, -n);
-        final x = gecmisGun(g);
-        if (x.isEmpty) continue;
-        if (ilce != null) h.add(Bolum(tarihGun(g)));
-        h.addAll(x);
-      }
     } else {
       h = <Widget>[BosDurum(baslik: M.bosGecmisBaslik, aciklama: M.bosGecmisAciklama(gun, yer))];
     }
