@@ -1,0 +1,84 @@
+{
+ "il": "Van",
+ "liste_tarihi": "2026-10-15",
+ "kayitlar": [
+  {
+   "id": "2142c110f818",
+   "il": "Van",
+   "ilce": "Edremit",
+   "mahalle": null,
+   "ad_soyad": "Bebek Vina Ölmez",
+   "anne_baba": null,
+   "yas": 0,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Kurubaş Mezarlığı",
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-15T11:34:51+03:00",
+   "ham": {
+    "ilce": "edremit",
+    "mezar_no": null,
+    "il_disi_notu": null
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "9356dff9fa29",
+   "il": "Van",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nevin Şafak",
+   "anne_baba": null,
+   "yas": 58,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-15T11:34:51+03:00",
+   "ham": {
+    "ilce": "ildisi",
+    "mezar_no": null,
+    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "05d72492949e",
+   "il": "Van",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yunus Gezen",
+   "anne_baba": null,
+   "yas": 41,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-15T11:34:51+03:00",
+   "ham": {
+    "ilce": "ildisi",
+    "mezar_no": null,
+    "il_disi_notu": "kaynak 'ildisi' yazıyor (başka ilde defin; hangi il belli değil)"
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  }
+ ]
+}

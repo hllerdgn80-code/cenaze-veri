@@ -366,7 +366,7 @@
   {
    "id": "bc74320df670",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kandıra",
    "mahalle": null,
    "ad_soyad": "Ali Çetinkaya",
    "anne_baba": null,
@@ -389,10 +389,11 @@
     "vakit": "",
     "olum_tarihi": "09.10.2026",
     "defin_tarihi": "10.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "89a7ce8a7961",
@@ -560,7 +561,7 @@
   {
    "id": "b1a9b2668893",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Gebze",
    "mahalle": null,
    "ad_soyad": "Bilal Yalçınkaya",
    "anne_baba": null,
@@ -583,10 +584,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "09.10.2026",
     "defin_tarihi": "10.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "cd18f88f8174",

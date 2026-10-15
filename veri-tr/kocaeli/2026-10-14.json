@@ -299,7 +299,7 @@
   {
    "id": "bd9c805c3bef",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Gebze",
    "mahalle": null,
    "ad_soyad": "Yüksel Çalışan",
    "anne_baba": null,
@@ -322,15 +322,16 @@
     "vakit": "Vakitsiz",
     "olum_tarihi": "13.10.2026",
     "defin_tarihi": "14.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mezarlik_tablosu"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_tablosu"
   },
   {
    "id": "e935b057bc10",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Gebze",
    "mahalle": null,
    "ad_soyad": "Fatma Tüfekçi",
    "anne_baba": null,
@@ -353,10 +354,11 @@
     "vakit": "İKİNDİ",
     "olum_tarihi": "13.10.2026",
     "defin_tarihi": "14.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "eb7562e229a9",
@@ -520,7 +522,7 @@
   {
    "id": "184d77ac220b",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kartepe",
    "mahalle": null,
    "ad_soyad": "Hayri Günaydın",
    "anne_baba": null,
@@ -543,10 +545,11 @@
     "vakit": "İKİNDİ",
     "olum_tarihi": "13.10.2026",
     "defin_tarihi": "14.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "413dd9c52a65",
@@ -1070,7 +1073,7 @@
   {
    "id": "2dc62251a0d9",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kartepe",
    "mahalle": null,
    "ad_soyad": "Sıddık Kanık",
    "anne_baba": null,
@@ -1093,10 +1096,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "12.10.2026",
     "defin_tarihi": "13.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "76d6be229e69",

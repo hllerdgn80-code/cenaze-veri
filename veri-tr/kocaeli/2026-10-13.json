@@ -171,7 +171,7 @@
   {
    "id": "fe836c53053e",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "İzmit",
    "mahalle": null,
    "ad_soyad": "Nergis Boztaş",
    "anne_baba": null,
@@ -194,10 +194,11 @@
     "vakit": "",
     "olum_tarihi": "13.10.2026",
     "defin_tarihi": "13.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mezarlik_tablosu"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_tablosu"
   },
   {
    "id": "a2494ffb2cef",

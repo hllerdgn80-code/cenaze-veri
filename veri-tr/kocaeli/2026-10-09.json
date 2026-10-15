@@ -170,7 +170,7 @@
   {
    "id": "2971218f3474",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kartepe",
    "mahalle": null,
    "ad_soyad": "Şahin Yılmaz",
    "anne_baba": null,
@@ -193,10 +193,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "09.10.2026",
     "defin_tarihi": "09.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "8c52e8d7eed7",
