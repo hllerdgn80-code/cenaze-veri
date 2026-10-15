@@ -94,6 +94,27 @@ YEREL_BASIN = {
 BASIN_TURLERI = ("yerel_basin", "yerel_haber")
 
 
+def defter_alan_adlari():
+    """Kayıt defteri (okuyucu/kaynaklar/bolge-*.json; `_` ile başlayanlar hariç) -> {kaynak adı: alan adı}. Bozuk dosya/satır sessizce atlanır."""
+    import glob
+    out = {}
+    for yol in sorted(glob.glob(os.path.join(DIZIN, "kaynaklar", "bolge-*.json"))):
+        try:
+            with open(yol, encoding="utf-8") as f:
+                for s in json.load(f):
+                    h = urllib.parse.urlparse(s.get("url") or "").netloc.lower()
+                    if s.get("ad") and h and "facebook" not in h and "instagram" not in h:
+                        out.setdefault(s["ad"], h)
+        except Exception:
+            continue
+    return out
+
+
+DEFTER_ALAN = defter_alan_adlari()
+for _a, _h in DEFTER_ALAN.items():       # 15.10.2026: defterdeki alan adları K7 için kayıtlı sayılır
+    YEREL_BASIN.setdefault(_a, _h)
+
+
 def _www(h):
     h = (h or "").lower()
     return h[4:] if h.startswith("www.") else h
@@ -335,13 +356,13 @@ def denetle(k, bugun, alan_adi_cogunluk):
     if u.scheme not in ("http", "https") or not u.netloc:
         nedenler.append("K7 kaynak_url geçersiz")
     else:
-        beklenen = YEREL_BASIN.get(k.get("kaynak_ad")) if basin else alan_adi_cogunluk.get(k.get("kaynak_ad"))
+        beklenen = YEREL_BASIN.get(k.get("kaynak_ad")) if basin else (DEFTER_ALAN.get(k.get("kaynak_ad")) or alan_adi_cogunluk.get(k.get("kaynak_ad")))
         if k.get("kaynak_ad") in ("aile", "gorevli"):       # 14.10.2026 aile / 15.10.2026 din görevlisi ilanı hattı: Worker adresi (workers.dev ya da kimincenazesi.com); yalnız https şart
             if u.scheme != "https":
                 nedenler.append("K7 aile/görevli kaynağı https değil")
         elif basin and not beklenen:
             nedenler.append("K7 yerel basın kaynağı kayıtlı değil")
-        elif beklenen and (_www(u.netloc) != _www(beklenen) if basin else u.netloc.lower() != beklenen.lower()):
+        elif beklenen and (_www(u.netloc) != _www(beklenen) if (basin or k.get("kaynak_ad") in DEFTER_ALAN) else u.netloc.lower() != beklenen.lower()):
             nedenler.append("K7 alan adı farklı")
     return sorted(set(nedenler))
 
