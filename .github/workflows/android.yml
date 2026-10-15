@@ -3,10 +3,8 @@ name: Android derleme (Kimin Cenazesi)
 # Yalnız uygulama kodu değişince ya da elle çalışır; günlük veri turlarını (topla.yml) etkilemez.
 on:
   workflow_dispatch: {}
-  push:
-    paths:
-      - "uygulama/**"
-      - ".github/workflows/android.yml"
+  # 15.10.2026 (sahibi: "run failed e-postaları gelip duruyor"): push tetiklemesi KALDIRILDI. Derleme yalnız elle (github_api.py --calistir android.yml)
+  # ve ancak testler yerelde (araclar/flutter-sdk) geçtikten sonra başlatılır; böylece her deneme sahibine e-posta olmaz.
 
 permissions:
   contents: read
