@@ -282,7 +282,9 @@ def main():
                 return False
         return False
     toplam = {}
-    if KOSU_SAATLERI and not secili and not kuru and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":   # elle tetiklenen kosu saat kapisini gecer
+    # 15.10.2026 H64: saat kapisi yalniz EDEVLET_ZORLA=1 ile gecilir (bosluk turu, elle 'zorla' girdisi). GITHUB_EVENT_NAME'e bakilmaz:
+    # sunucu zamanlayicisi (kc_tetikleyici) her kosuyu workflow_dispatch ile actigindan eski kosul kapiyi her kosuda kaldiriyordu (12:41 kosusu 200 dk zaman asimi).
+    if KOSU_SAATLERI and not secili and not kuru and os.environ.get("EDEVLET_ZORLA") != "1":
         saat = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%H")
         if saat not in [x.strip() for x in KOSU_SAATLERI.split(",")]:
             print(f"e-Devlet: kosu saati degil (TR {saat}; izinli {KOSU_SAATLERI}), istek yok", file=sys.stderr)

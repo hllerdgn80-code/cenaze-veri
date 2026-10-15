@@ -16,6 +16,14 @@ on:
         options:
           - normal
           - bosluk
+      zorla:
+        description: "true = e-Devlet 06/18 saat kapisini bu kosuda atla (yalniz elle deneme; sunucu zamanlayicisi gondermez)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -56,6 +64,7 @@ jobs:
           EDEVLET_KOSU_SAATLERI: "06,18"
           EDEVLET_HIZMET_ARASI_SN: "600"
           EDEVLET_ISTEK_TAVANI: "80"
+          EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
       # ---- BOSLUK TURU (15.10.2026; mod=bosluk; 10:05 TR'de sunucu zamanlayicisi tetikler): site sahibi "bosluklar 10:00'a kadar beklensin, hala bos varsa kendi
       # imkanlarimizla doldurulsun". Canli veriden bugun cenaze kaydi olmayan iller bulunur; yalniz onlarin e-Devlet hizmetleri + ulusal akislar okunur.
@@ -63,10 +72,11 @@ jobs:
       - name: "Bosluk: bugun cenaze kaydi olmayan illeri bul (canli veri)"
         if: ${{ inputs.mod == 'bosluk' }}
         run: python3 araclar/bosluk.py --tespit --canli --etiket tr-bosluk
-      - name: "Bosluk: bos illerin e-Devlet hizmetleri (yalniz TR IP; saat kapisi workflow_dispatch'te atlanir)"
+      - name: "Bosluk: bos illerin e-Devlet hizmetleri (yalniz TR IP; saat kapisi bu adimda EDEVLET_ZORLA=1 ile atlanir)"
         if: ${{ inputs.mod == 'bosluk' }}
         env:
           EDEVLET_YALNIZ: "1"
+          EDEVLET_ZORLA: "1"
           EDEVLET_HIZMET_ARASI_SN: "600"
           EDEVLET_ISTEK_TAVANI: "40"
         run: |
