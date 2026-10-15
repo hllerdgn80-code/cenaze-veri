@@ -126,6 +126,7 @@
   "Yıldırım"
  ],
  "Osmaniye": [
+  "Merkez",
   "Bahçe",
   "Düziçi",
   "Hasanbeyli",
@@ -206,6 +207,7 @@
   "Çivril"
  ],
  "Sivas": [
+  "Merkez",
   "Akıncılar",
   "Altınyayla",
   "Divriği",
@@ -224,6 +226,7 @@
   "Şarkışla"
  ],
  "Kırıkkale": [
+  "Merkez",
   "Bahşılı",
   "Balışeyh",
   "Delice",
@@ -234,6 +237,7 @@
   "Çelebi"
  ],
  "Zonguldak": [
+  "Merkez",
   "Alaplı",
   "Devrek",
   "Gökçebey",
@@ -243,6 +247,7 @@
   "Çaycuma"
  ],
  "Edirne": [
+  "Merkez",
   "Enez",
   "Havsa",
   "Keşan",
@@ -351,6 +356,7 @@
   "Ilgaz": "Çankırı"
  },
  "Erzincan": [
+  "Merkez",
   "Çayırlı",
   "İliç",
   "Kemah",
@@ -361,6 +367,7 @@
   "Üzümlü"
  ],
  "Gümüşhane": [
+  "Merkez",
   "Kelkit",
   "Köse",
   "Kürtün",
@@ -368,6 +375,7 @@
   "Torul"
  ],
  "Isparta": [
+  "Merkez",
   "Aksu",
   "Atabey",
   "Eğirdir",
@@ -382,6 +390,7 @@
   "Yenişarbademli"
  ],
  "Kırşehir": [
+  "Merkez",
   "Akçakent",
   "Akpınar",
   "Boztepe",
@@ -390,6 +399,7 @@
   "Mucur"
  ],
  "Nevşehir": [
+  "Merkez",
   "Acıgöl",
   "Avanos",
   "Derinkuyu",
@@ -399,6 +409,7 @@
   "Ürgüp"
  ],
  "Niğde": [
+  "Merkez",
   "Altunhisar",
   "Bor",
   "Çamardı",
@@ -406,6 +417,7 @@
   "Ulukışla"
  ],
  "Rize": [
+  "Merkez",
   "Ardeşen",
   "Çamlıhemşin",
   "Çayeli",
@@ -419,6 +431,7 @@
   "Pazar"
  ],
  "Sinop": [
+  "Merkez",
   "Ayancık",
   "Boyabat",
   "Dikmen",
@@ -429,6 +442,7 @@
   "Türkeli"
  ],
  "Afyonkarahisar": [
+  "Merkez",
   "Başmakçı",
   "Bayat",
   "Bolvadin",
@@ -448,6 +462,7 @@
   "Şuhut"
  ],
  "Aksaray": [
+  "Merkez",
   "Ağaçören",
   "Eskil",
   "Gülağaç",
@@ -457,11 +472,13 @@
   "Sultanhanı"
  ],
  "Bartın": [
+  "Merkez",
   "Amasra",
   "Kurucaşile",
   "Ulus"
  ],
  "Bilecik": [
+  "Merkez",
   "Bozüyük",
   "Gölpazarı",
   "İnhisar",
@@ -471,6 +488,7 @@
   "Yenipazar"
  ],
  "Bolu": [
+  "Merkez",
   "Dörtdivan",
   "Gerede",
   "Göynük",
@@ -481,6 +499,7 @@
   "Yeniçağa"
  ],
  "Çanakkale": [
+  "Merkez",
   "Ayvacık",
   "Bayramiç",
   "Biga",
@@ -494,6 +513,7 @@
   "Yenice"
  ],
  "Çankırı": [
+  "Merkez",
   "Atkaracalar",
   "Bayramören",
   "Çerkeş",
@@ -507,6 +527,7 @@
   "Yapraklı"
  ],
  "Düzce": [
+  "Merkez",
   "Akçakoca",
   "Cumayeri",
   "Çilimli",
@@ -516,6 +537,7 @@
   "Yığılca"
  ],
  "Elazığ": [
+  "Merkez",
   "Ağın",
   "Alacakaya",
   "Arıcak",
@@ -543,6 +565,7 @@
   "Viranşehir"
  ],
  "Tokat": [
+  "Merkez",
   "Almus",
   "Artova",
   "Başçiftlik",
@@ -556,6 +579,7 @@
   "Zile"
  ],
  "Uşak": [
+  "Merkez",
   "Banaz",
   "Eşme",
   "Karahallı",
@@ -578,6 +602,7 @@
   "Tuşba"
  ],
  "Karaman": [
+  "Merkez",
   "Ayrancı",
   "Başyayla",
   "Ermenek",
@@ -585,6 +610,7 @@
   "Sarıveliler"
  ],
  "Kütahya": [
+  "Merkez",
   "Altıntaş",
   "Aslanapa",
   "Çavdarhisar",
@@ -599,6 +625,7 @@
   "Tavşanlı"
  ],
  "Karabük": [
+  "Merkez",
   "Eflani",
   "Eskipazar",
   "Ovacık",
@@ -606,6 +633,7 @@
   "Yenice"
  ],
  "Yalova": [
+  "Merkez",
   "Altınova",
   "Armutlu",
   "Çınarcık",
@@ -628,6 +656,7 @@
   "Yeşilyurt"
  ],
  "Artvin": [
+  "Merkez",
   "Ardanuç",
   "Arhavi",
   "Borçka",
@@ -729,6 +758,7 @@
   "Şarköy"
  ],
  "Yozgat": [
+  "Merkez",
   "Akdağmadeni",
   "Aydıncık",
   "Boğazlıyan",
@@ -744,6 +774,7 @@
   "Yerköy"
  ],
  "Adıyaman": [
+  "Merkez",
   "Besni",
   "Çelikhan",
   "Gerger",
@@ -775,6 +806,7 @@
   "Serik"
  ],
  "Burdur": [
+  "Merkez",
   "Ağlasun",
   "Altınyayla",
   "Bucak",
@@ -939,6 +971,7 @@
   "Tepebaşı"
  ],
  "Amasya": [
+  "Merkez",
   "Göynücek",
   "Gümüşhacıköy",
   "Hamamözü",
@@ -959,6 +992,7 @@
   "Yeşilli"
  ],
  "Siirt": [
+  "Merkez",
   "Baykan",
   "Eruh",
   "Kurtalan",
@@ -967,6 +1001,7 @@
   "Tillo"
  ],
  "Bitlis": [
+  "Merkez",
   "Adilcevaz",
   "Ahlat",
   "Güroymak",
@@ -994,6 +1029,7 @@
   "Yunusemre"
  ],
  "Ağrı": [
+  "Merkez",
   "Diyadin",
   "Doğubayazıt",
   "Eleşkirt",
@@ -1003,6 +1039,7 @@
   "Tutak"
  ],
  "Ardahan": [
+  "Merkez",
   "Çıldır",
   "Damal",
   "Göle",
@@ -1010,10 +1047,12 @@
   "Posof"
  ],
  "Bayburt": [
+  "Merkez",
   "Aydıntepe",
   "Demirözü"
  ],
  "Bingöl": [
+  "Merkez",
   "Adaklı",
   "Genç",
   "Karlıova",
@@ -1023,6 +1062,7 @@
   "Yedisu"
  ],
  "Çorum": [
+  "Merkez",
   "Alaca",
   "Bayat",
   "Boğazkale",
@@ -1057,17 +1097,20 @@
   "Yenişehir"
  ],
  "Hakkari": [
+  "Merkez",
   "Çukurca",
   "Derecik",
   "Şemdinli",
   "Yüksekova"
  ],
  "Iğdır": [
+  "Merkez",
   "Aralık",
   "Karakoyunlu",
   "Tuzluca"
  ],
  "Kars": [
+  "Merkez",
   "Akyaka",
   "Arpaçay",
   "Digor",
@@ -1077,6 +1120,7 @@
   "Susuz"
  ],
  "Kastamonu": [
+  "Merkez",
   "Abana",
   "Ağlı",
   "Araç",
@@ -1098,11 +1142,13 @@
   "Tosya"
  ],
  "Kilis": [
+  "Merkez",
   "Elbeyli",
   "Musabeyli",
   "Polateli"
  ],
  "Kırklareli": [
+  "Merkez",
   "Babaeski",
   "Demirköy",
   "Kofçaz",
@@ -1127,6 +1173,7 @@
   "Yenişehir"
  ],
  "Muş": [
+  "Merkez",
   "Bulanık",
   "Hasköy",
   "Korkut",
@@ -1134,6 +1181,7 @@
   "Varto"
  ],
  "Şırnak": [
+  "Merkez",
   "Beytüşşebap",
   "Cizre",
   "Güçlükonak",
@@ -1142,6 +1190,7 @@
   "Uludere"
  ],
  "Tunceli": [
+  "Merkez",
   "Çemişgezek",
   "Hozat",
   "Mazgirt",

@@ -384,7 +384,7 @@ _GENEL_DEFIN = {"koy", "koyu", "mezarlik", "mezarligi", "mez", "mzl", "koy mezar
 
 # Tablolar (OSM) 'Merkez' ilcesini de biliyor; ama ilceler.json'da Merkez yok (yalniz Batman, Giresun) ve kaynaklar 'Merkez'i kendileri
 # yazmadikca uygulama Merkez gostermez. True yapilirsa tablolardan gelen 'Merkez' de yazilir (H61: ~110 kayit daha). SAHIBI KARARI bekliyor.
-MERKEZ_ETKIN = False
+MERKEZ_ETKIN = True   # 15.10 sahibi: "dogru ve tahminsiz olani uygula" — buyuksehir olmayan 51 ilde Merkez ilcesi ilceler.json'a eklendi
 
 
 def gecerli_ilceler(il):

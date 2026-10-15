@@ -135,7 +135,7 @@ class H61Katmanlar(unittest.TestCase):
 
     def test_namaz_yeri_belirli_mezarlik_varsa_baglanmaz(self):
         k = self.isle("Sivas", defin_yeri="Yukarı Tekke - 90. Ada Mezarlığı", namaz_yeri_vakti="Ulaş Merkez")
-        self.assertIsNone(k["ilce"])                      # gomme Sivas merkezde olabilir
+        self.assertEqual(k["ilce"], "Merkez")              # gomme Sivas merkezde (sehir mezarligi); namaz yeri ilce secimini belirlemez (15.10 MERKEZ_ETKIN)
         k = self.isle("Sivas", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Ulaş Merkez")
         self.assertEqual(k["ilce"], "Ulaş")
 
@@ -147,17 +147,13 @@ class H61Katmanlar(unittest.TestCase):
         self.assertIsNone(self.isle("Konya", mahalle="Koğukçınar Mah.")["ilce"])      # baska ilin tablosu aranmaz
         self.assertIsNone(self.isle("Bursa", mahalle="Bilinmeyen Mah.")["ilce"])
 
-    def test_merkez_degeri_listede_yoksa_yazilmaz(self):
-        self.assertIsNone(self.isle("Isparta", mahalle="Batıkent")["ilce"])           # ilceler.json'da Merkez yok -> tahmin yok
+    def test_merkez_degeri_listede_varsa_yazilir(self):
+        k = self.isle("Isparta", mahalle="Batıkent")                                   # 15.10: buyuksehir olmayan illerde Merkez ilceler.json'da
+        self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Merkez", "mahalle_tablo"))
 
     def test_merkez_etkin_bayragi(self):
-        ortak.MERKEZ_ETKIN = True
-        try:
-            k = self.isle("Isparta", mahalle="Batıkent")
-            self.assertEqual((k["ilce"], k["ilce_kaynagi"]), ("Merkez", "mahalle_tablo"))
-        finally:
-            ortak.MERKEZ_ETKIN = False
-        self.assertIsNone(self.isle("Isparta", mahalle="Batıkent")["ilce"])
+        # 15.10: Merkez artik ilceler.json'da oldugu icin bayrak yalniz listede OLMAYAN Merkez'i acar; listedeki Merkez her durumda gecerli
+        self.assertEqual(self.isle("Isparta", mahalle="Batıkent")["ilce"], "Merkez")
         # 'Merkez' + baska ilce ortak mezarlik adi: Merkez gecerli degilken kalani secmek tahmin olur -> None
         ortak._mez_onbellek.clear(); ortak._mez_onbellek.update({"isparta": {"asri": {"belirsiz": ["Merkez", "Atabey"]}}})
         self.assertIsNone(self.isle("Isparta", defin_yeri="Asri Mezarlık")["ilce"])
