@@ -4,8 +4,11 @@ Kaynak: turkiye.gov.tr/<belediye>-vefat-sorgulama (girişsiz, CAPTCHA'sız olanl
 Akış (hizmet başına): 1 GET (form + token, çerez) + 3 POST (bugün, dün, evvelsi gün; site yalnız bu 3 günü tutar, eski tarih boş döner).
   Token aynı oturumda tekrar kullanılabilir (14.10 doğrulandı). İstekler arası ≥3,5 sn. Kısa kopmalarda (IncompleteRead / bağlantı kapandı) en çok 1 tekrar.
   Hizmet CAPTCHA (captcha_name alanı), giriş ya da 404 ise BIRAKILIR (dolanma yok).
-Alınan alanlar: ad soyad, vefat tarihi (= sorgulanan gün), yaş (sayıysa), ilçe (hizmet tek ilçeninse). ALINMAYAN: ölüm sebebi (sağlık verisi), baba adı, doğum tarihi, "Detay" sayfaları
-  (cenazeyle ilgilenen kişi vb.; hizmet başına ek istek gerektirir), T.C. kimlik, adres, telefon.
+Alınan alanlar: ad soyad, vefat tarihi (= sorgulanan gün), yaş (sayıysa), ilçe (hizmet tek ilçeninse).
+  H66 (15.10.2026, site sahibi: "doğru ve tahminsiz olanı uygula"): il geneli İZMİR ve İSTANBUL hizmetlerinde ("Detay" sayfası) YALNIZ "Mezarlık Bilgisi" okunur: İzmir'de
+  "Mezarlık İl/İlçe + Mezarlık Adı" (resmî alan -> ilçe), İstanbul'da mezarlık adı (ilçe okuyucu/veri/mezarlik_resmi.json'daki İBB listesiyle ortak.py'de bağlanır).
+  ALINMAYAN: ölüm sebebi (sağlık verisi), baba adı, doğum tarihi, cenazeyle ilgilenen kişi, cami (cami ilçesi gömü ilçesi olmayabilir), T.C. kimlik, adres, telefon.
+  Detay istekleri ISTEK_TAVANI'na SAYILIR (DETAY_TAVANI / DETAY_HIZMET_TAVANI ile ayrıca sınırlı; bugünün kayıtları önce; çözülmüş kayıt bir daha okunmaz).
 e-Devlet kullanım şartları yazılı izinsiz çoğaltmayı yasaklar; site sahibi kararıyla uygulanır (CLAUDE.md / görev 14.10.2026): alınan alan en az, istek çok düşük.
 Çıktı: veri/<il>/_ulusal.json (vefatilan.py ile AYNI şema; aynı dosyaya id ile birleştirilir). kaynak_turu alanı YOK (resmî belediye verisi).
 Durum: veri/_edevlet_durum.json (hizmet -> durum, kayıt sayıları). Kullanım: python3 okuyucu/edevlet.py [--kuru] [--hizmet slug,slug] [--kesif]"""
@@ -22,6 +25,9 @@ BEKLE = 3.5
 HIZMET_ARASI_SN = int(os.environ.get("EDEVLET_HIZMET_ARASI_SN", "600"))   # 14.10.2026 sahibi "nazik kullanim": hizmetler arasi 10 dk (--kuru/--hizmet: 0)
 ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "80"))             # kosu basina toplam istek tavani
 KOSU_SAATLERI = os.environ.get("EDEVLET_KOSU_SAATLERI", "")                  # "06,18": yalniz bu TR saatlerinde kosar (bos: her zaman)
+DETAY_TAVANI = int(os.environ.get("EDEVLET_DETAY_TAVANI", "30"))              # H66: koşu başına toplam "Detay" isteği
+DETAY_HIZMET_TAVANI = int(os.environ.get("EDEVLET_DETAY_HIZMET_TAVANI", "15"))  # H66: hizmet başına "Detay" isteği
+DETAY_HIZMETLERI = {"izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama"}
 CAPTCHA_BEKLEME_SA = 6               # hizmet CAPTCHA gösterdiyse (14.10: art arda sorguda uyarlamalı CAPTCHA çıkıyor) 6 saat hiç istek atma
 GUN_SAYISI = 3                       # bugün + dün + evvelsi (site bu kadarını tutuyor)
 ILCELER = json.load(open(os.path.join(DIZIN, "..", "uygulama", "assets", "veri", "ilceler.json"), encoding="utf-8"))
@@ -126,6 +132,12 @@ def govde_blok(s):
 
 def satirlar(g):
     """Sonuç tablosu -> [(ad, yas_metni)]. Yalnız ad ve yaş sütunu okunur; baba adı, doğum tarihi, ölüm sebebi atılır."""
+    r = satirlar_idx(g)
+    return None if r is None else [(a, y) for a, y, _ in r]
+
+
+def satirlar_idx(g):
+    """Sonuç tablosu -> [(ad, yas_metni, detay_indeksi | None)] (H66: 'İşlem' sütunundaki '?islem=detay&index=N' bağlantısı)."""
     cikti = []
     m = re.search(r"<table[^>]*>.*?</table>", g, re.S)
     if not m:
@@ -138,8 +150,58 @@ def satirlar(g):
     for tr in re.findall(r"<tr>(.*?)</tr>", m.group(0), re.S):
         hucre = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
         if len(hucre) > max(i_ad, i_yas):
-            cikti.append((hucre[i_ad], hucre[i_yas]))
+            m_i = re.search(r"islem=detay(?:&amp;|&)index=(\d+)", tr)
+            cikti.append((hucre[i_ad], hucre[i_yas], int(m_i.group(1)) if m_i else None))
     return cikti
+
+
+def detay_ayikla(g):
+    """'Vefat Detay Bilgileri' sayfası -> {'ad': Adı Soyadı, 'mezarlik_il', 'mezarlik_ilce', 'mezarlik_ad'} (yalnız bu alanlar; yoksa None).
+    İzmir: 'Mezarlık İl/İlçe :İZMİR / BUCA Mezarlık Adı: BUCA ZAFER MEZARLIĞI Ada: Mezar No:'; İstanbul: düz ad ('KOCASİNAN') ya da '-'.
+    Cami bilgisi, baba adı, ölüm sebebi, cenazeyle ilgilenen kişi OKUNMAZ (ayrıştırıcı bunları hiç döndürmez)."""
+    cift = {}
+    for dt, dd in re.findall(r"<dt[^>]*>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", g, re.S):
+        k = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", dt))).strip()
+        if k in ("Adı Soyadı", "Mezarlık Bilgisi"):
+            cift[k] = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", dd))).strip()
+    if "Mezarlık Bilgisi" not in cift:
+        return None
+    mb, out = cift["Mezarlık Bilgisi"], {"ad": cift.get("Adı Soyadı"), "mezarlik_il": None, "mezarlik_ilce": None, "mezarlik_ad": None}
+    m = re.search(r"Mezarlık\s+İl/İlçe\s*:\s*(.*?)\s*Mezarlık\s+Adı\s*:\s*(.*?)\s*(?:Ada\s*:|Mezar\s+No\s*:|$)", mb)
+    if m:
+        il_ilce = [x.strip() for x in m.group(1).split("/")]
+        out["mezarlik_il"] = il_ilce[0] or None
+        out["mezarlik_ilce"] = il_ilce[1] if len(il_ilce) > 1 and il_ilce[1] else None
+        out["mezarlik_ad"] = m.group(2).strip() or None
+    elif mb and mb != "-" and "İl/İlçe" not in mb:
+        out["mezarlik_ad"] = mb
+    return out
+
+
+def detay_uygula(r, d, hizmet_il, bugun):
+    """Detay sonucunu (detay_ayikla çıktısı) kayda işler -> ilçe bulundu mu. Kayıt adı ile detay adı birebir (normalize) uyuşmuyorsa HİÇBİR ŞEY yazılmaz.
+    İlçe yalnız 'Mezarlık İl/İlçe' resmî alanından: aynı ilin geçerli ilçesi ise ilce, başka ilin adıysa il_disi_defin; aksi halde yazılmaz (tahmin yok)."""
+    ham = r.setdefault("ham", {})
+    ham["detay_tarih"] = bugun
+    ham["detay_deneme"] = ham.get("detay_deneme", 0) + 1
+    if not d or kat(d.get("ad")) != kat(r.get("ad_soyad")):
+        return False
+    if d.get("mezarlik_ad"):
+        r["defin_yeri"] = ortak.tr_title(d["mezarlik_ad"])
+    il_k, m_il, m_ilce = kat(hizmet_il), kat(d.get("mezarlik_il")), d.get("mezarlik_ilce")
+    if m_il and m_ilce and m_il != il_k and m_il in IL_ADI:
+        r["il_disi_defin"] = {"il": IL_ADI[m_il], "ilce": ortak.tr_title(m_ilce)}
+        r["ilce_belirsiz"] = False
+        ham["detay_mezarlik_ilce"] = m_ilce
+        return True
+    if (m_il in ("", il_k)) and m_ilce:
+        ilce_adi = ILCE_ADI[il_k].get(kat(m_ilce))
+        if ilce_adi:
+            r["ilce"], r["ilce_belirsiz"], r["ilce_kaynagi"] = ilce_adi, False, "edevlet_detay"
+            ham["ilce_kaynagi"] = "edevlet_detay"
+            ham["detay_mezarlik_ilce"] = m_ilce
+            return True
+    return False
 
 
 ADSIZ = re.compile(r"^(bebek|kimliksiz|bilinmeyen|bilinmiyor|erkek|kad[ıi]n|ceset|[şs]ahıs|sahis)\b", re.I)
@@ -171,8 +233,15 @@ def kurum_adi(s, il, ilce):
     return t or f"{ilce or il} Belediyesi"
 
 
-def hizmet_oku(slug, il, ilce, gunler, alindi, durum):
-    """-> ([kayıt..], not). Her hizmet: 1 GET + len(gunler) POST."""
+def detay_gerekli(r, bugun):
+    """Çözülmemiş (ilçe/il dışı yok) ve bugün okunmamış, en çok 2 kez denenmiş kayıt."""
+    ham = r.get("ham") or {}
+    return not r.get("ilce") and not r.get("il_disi_defin") and ham.get("detay_tarih") != bugun and ham.get("detay_deneme", 0) < 2
+
+
+def hizmet_oku(slug, il, ilce, gunler, alindi, durum, onceki=None, detay_butce=0):
+    """-> ([kayıt..], not). Her hizmet: 1 GET + len(gunler) POST (+ H66: il geneli İzmir/İstanbul için en çok detay_butce 'Detay' GET).
+    onceki: {kayıt id: kayıt} (_ulusal.json'dan; çözülmüş detay bilgisi taşınır, tekrar okunmaz)."""
     o = Oturum()
     url = TABAN + slug
     try:
@@ -193,7 +262,21 @@ def hizmet_oku(slug, il, ilce, gunler, alindi, durum):
     post = (TABAN.rstrip("/") + html.unescape(act.group(1))) if act else url + "?submit"
     kurum = kurum_adi(s, il, ilce)
     out, sayilar = [], {}
+    onceki = onceki or {}
+    detay_kalan = detay_butce if slug in DETAY_HIZMETLERI else 0
+    detay_oku = detay_cozulen = 0
+    detay_yenile = False
+    bugun_s = bugun_tr().isoformat()
     for gun in gunler:
+        if detay_yenile:                                               # detay okumalarından sonra form belirteci yenilenir (1 GET)
+            try:
+                _, sf = al_tekrarli(o, url)
+                tk = re.search(r'name="token" value="([^"]*)"', govde_blok(sf))
+                if tk:
+                    tok = tk
+            except Exception:
+                pass
+            detay_yenile = False
         t_tr = gun.strftime("%d/%m/%Y")
         veri = urllib.parse.urlencode({"tarih": t_tr, "token": tok.group(1), "btn": "Sorgula"}).encode()
         try:
@@ -210,7 +293,7 @@ def hizmet_oku(slug, il, ilce, gunler, alindi, durum):
                 g2 = govde_blok(s2)
             except Exception:
                 pass
-        satir = satirlar(g2)
+        satir = satirlar_idx(g2)
         if satir is None:
             sayilar[t_tr] = 0 if ("warningContainer" in g2 or 'name="tarih"' in g2) else "belirsiz"
             nt = re.search(r'name="token" value="([^"]*)"', g2)
@@ -222,16 +305,42 @@ def hizmet_oku(slug, il, ilce, gunler, alindi, durum):
             sayilar[t_tr] = "tarih_uyusmuyor"
             continue
         n, sira = 0, {}
-        for ad_ham, yas_s in satir:
+        for ad_ham, yas_s, d_idx in satir:
             ad = temiz_ad(ad_ham)
             if not ad:
                 continue
             sira[ad] = sira.get(ad, 0) + 1
             r, slug_il = kayit(slug, il, ilce, kurum, ad, yas_s, gun.isoformat(), alindi, sira[ad])
+            eski = onceki.get(r["id"])
+            if eski:                                                    # önceki koşuda okunan detay bilgisi korunur
+                for a in ("ilce", "ilce_belirsiz", "ilce_kaynagi", "defin_yeri", "il_disi_defin"):
+                    if eski.get(a) not in (None, "") and not r.get(a):
+                        r[a] = eski[a]
+                r["ham"].update({a: v for a, v in (eski.get("ham") or {}).items() if a.startswith("detay") or a == "ilce_kaynagi"})
+                if r.get("ilce") or r.get("il_disi_defin"):
+                    r["ilce_belirsiz"] = False
+            if d_idx is not None and detay_kalan > 0 and detay_gerekli(r, bugun_s):
+                detay_kalan -= 1
+                detay_oku += 1
+                detay_yenile = True
+                try:
+                    _, sd = al_tekrarli(o, f"{url}?islem=detay&index={d_idx}", None, post)
+                    gd = govde_blok(sd)
+                    if "captcha_name" in gd:
+                        detay_kalan = 0                                # CAPTCHA: detay okuma durur (dolanma yok); liste kayıtları yine de döner
+                        gd = ""
+                    detay_uygula(r, detay_ayikla(gd) if gd else None, il, bugun_s)
+                    if r.get("defin_yeri") and not r.get("ilce") and not r.get("il_disi_defin"):
+                        ortak.ilce_isle(r, IL_ADI[kat(il)])             # İstanbul: mezarlık adı -> İBB resmî listesi (birebir ad)
+                    if r.get("ilce") or r.get("il_disi_defin"):
+                        detay_cozulen += 1
+                except Exception:
+                    pass
             out.append((r, slug_il))
             n += 1
         sayilar[t_tr] = n
     durum["son_istek"] = o.istek_sayisi
+    durum["detay"] = {"okunan": detay_oku, "ilce_bulunan": detay_cozulen}
     return out, sayilar
 
 
@@ -242,7 +351,8 @@ def main():
         print("robots.txt turkiye.gov.tr'yi yasaklıyor: durdu", file=sys.stderr)
         return
     bugun = bugun_tr()
-    gunler = [bugun - timedelta(days=i) for i in range(GUN_SAYISI)]
+    gun_n = int(sys.argv[sys.argv.index("--gun") + 1]) if "--gun" in sys.argv else GUN_SAYISI      # --gun N: yalnız bugün..(N-1) gün önce (doğrulama komutu için --gun 1)
+    gunler = [bugun - timedelta(days=i) for i in range(gun_n)]
     alindi = ortak.simdi_iso()
     durum_yol = os.path.join(VERI, "_edevlet_durum.json")
     durum = {}
@@ -291,6 +401,7 @@ def main():
             return
     ara = 0 if (kuru or secili) else HIZMET_ARASI_SN
     toplam_istek = 0
+    detay_toplam = 0
     gorulen_kisi = set()                                               # (il, ad_norm, tarih): ilçeli kayıt varken il geneli kopyasını ekleme
     yeni = {}
     for slug, (il, ilce) in sira:
@@ -310,8 +421,22 @@ def main():
             continue
         if ara and toplam_istek:
             time.sleep(ara)                                                # nazik kullanim: hizmetler arasi bekleme
-        sonuc, sayilar = hizmet_oku(slug, il, ilce, gunler, alindi, {})
-        toplam_istek += 4
+        onceki_kayit = {}
+        if slug in DETAY_HIZMETLERI:
+            try:
+                for x in json.load(open(os.path.join(VERI, IL_SLUG[kat(il)], "_ulusal.json"), encoding="utf-8")).get("kayitlar", []):
+                    onceki_kayit[x["id"]] = x
+            except Exception:
+                pass
+        # H66: detay bütçesi = koşu/hizmet tavanı ile ISTEK_TAVANI'nda kalan (sonraki en çok 8 hizmetin 4'er isteği ayrılır) arasındaki en küçük
+        kalan_hizmet = [s2 for s2, _ in sira[sira.index((slug, (il, ilce))) + 1:] if not secili or s2 in secili][:8]
+        detay_butce = max(0, min(DETAY_HIZMET_TAVANI, DETAY_TAVANI - detay_toplam, ISTEK_TAVANI - toplam_istek - 4 - 4 * len(kalan_hizmet)))
+        dd = {}
+        sonuc, sayilar = hizmet_oku(slug, il, ilce, gunler, alindi, dd, onceki_kayit, detay_butce)
+        toplam_istek += max(4, dd.get("son_istek", 4))
+        detay_toplam += (dd.get("detay") or {}).get("okunan", 0)
+        if dd.get("detay", {}).get("okunan"):
+            print(f"  {slug}: detay {dd['detay']['okunan']} okundu, {dd['detay']['ilce_bulunan']} ilçe bulundu, istek {dd.get('son_istek')}", file=sys.stderr)
         if isinstance(sayilar, str):
             durum[slug] = {"durum": sayilar, "zaman": alindi}
             print(f"  {slug}: {sayilar}", file=sys.stderr)

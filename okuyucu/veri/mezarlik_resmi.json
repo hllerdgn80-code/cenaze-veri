@@ -1,0 +1,4418 @@
+[
+ {
+  "ad": "Küçükbakkalköy",
+  "il": "İstanbul",
+  "ilce": "Ataşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İçerenköy",
+  "il": "İstanbul",
+  "ilce": "Ataşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karacaahmet",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Seyitahmet",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bülbüldere",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nakkaştepe",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küplüce",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çamlıca (Çakaldağ)",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kandilli",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çengelköy",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KUZGUNCUK NAKKAŞTEPE MUSEVİ",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BAĞLARBAŞI ERMENİ",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KUZGUNCUK RUM ORTODOKS",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HAYDARPAŞA İNGİLİZ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KANDİLLİ ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KUZGUNCUK BAĞLARBAŞI MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BAĞLARBAŞI RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BAĞLARBAŞI SURP GARABET MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Üsküdar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yukarı Dudullu",
+  "il": "İstanbul",
+  "ilce": "Ümraniye",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aşağı Dudullu",
+  "il": "İstanbul",
+  "ilce": "Ümraniye",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ihlamurkuyu",
+  "il": "İstanbul",
+  "ilce": "Ümraniye",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hekimbaşı",
+  "il": "İstanbul",
+  "ilce": "Ümraniye",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kocatepe",
+  "il": "İstanbul",
+  "ilce": "Ümraniye",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Mahmutbaba",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ayrılıkçeşme",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sahrayıcedid",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Merdivenköy",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KADIKOY MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KADIKOY RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "LATİN KATOLİK MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KADIKOY ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Kadıköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükyalı",
+  "il": "İstanbul",
+  "ilce": "Maltepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Başıbüyük",
+  "il": "İstanbul",
+  "ilce": "Maltepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Maltepe",
+  "il": "İstanbul",
+  "ilce": "Maltepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükbakkalköy",
+  "il": "İstanbul",
+  "ilce": "Maltepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gülsuyu",
+  "il": "İstanbul",
+  "ilce": "Maltepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kartal",
+  "il": "İstanbul",
+  "ilce": "Kartal",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yakacık",
+  "il": "İstanbul",
+  "ilce": "Kartal",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurfalı",
+  "il": "İstanbul",
+  "ilce": "Kartal",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Soğanlık",
+  "il": "İstanbul",
+  "ilce": "Kartal",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yenişeyhli",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurtköy",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Koca",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tavşantepe",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Temenye (Pendik Eski)",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dolayoba",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Harmandere",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yayalar",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eskişeyhli",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Osmangazi (Yanyol - Uzundere)",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ballıca",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Emirli",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Göçbeyli",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurnaköy",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurtdoğmuş",
+  "il": "İstanbul",
+  "ilce": "Pendik",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tuzla",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aydıntepe",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şifa",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aydınlı",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tepeören",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akfırat",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Orhanlı",
+  "il": "İstanbul",
+  "ilce": "Tuzla",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükada",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Heybeliada",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Burgazada",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kınalıada",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Burgazada Yeni",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HEYBELİADA RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KINALIADA RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BÜYÜKADA RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HEYBELİADA AYATRİDA MANASTIRI MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BURGAZADA RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KINALIADA KİRKOR  ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "AYANİKOLA MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BÜYÜKADA RUM KATOLİK MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Adalar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Fatih Sultan Mehmet",
+  "il": "İstanbul",
+  "ilce": "Sultanbeyli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Abdurrahmangazi (Karapınar)",
+  "il": "İstanbul",
+  "ilce": "Sultanbeyli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yavuz Selim (Karatepe)",
+  "il": "İstanbul",
+  "ilce": "Sultanbeyli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Orhangazi",
+  "il": "İstanbul",
+  "ilce": "Sultanbeyli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Teferrüçtepe",
+  "il": "İstanbul",
+  "ilce": "Sultanbeyli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Anadolu Hisarı",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Anadolu Kavağı1",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çakmakdede",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çubuklu",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dutdere (Düzkestane) (Beyza)",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Garipler",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gaziyunus",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kanlıca",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kavacık",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kemerüstü",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Paşabahçe",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şahinkaya",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tokatköy",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yenimahalle",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yuşa",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yukarı Baklacı",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karanlıkdere",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşiltepe",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akbaba",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alibahadır",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Anadolufeneri",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bozhane Merkez",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bozhane eski",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dereseki",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Elmalı Merkez",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Göllü",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Görele",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İncirköy",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İshaklı",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kılıçlı",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kılıçlı Köyiçi",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kaynarca Eski",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kaynarca Yeni",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Mahmut Şevket Paşa",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ögümce",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ögümce Eski",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Örnekköy",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Paşamandıra",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Değirmendere",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Poyrazköy",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Riva (Çayağzı)",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şirindere",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Toygar",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Zerzevatçı",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "POLONEZKÖY KATOLİK HIRİSTİYAN MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beykoz",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alemdağ Merkez",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çatalmeşe",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ekşioğlu",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ekşioğlu Yeni",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nişantepe",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çekmeköy Eski",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çekmeköy Yeni",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ömerli",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Taşdelen Asri",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Taşdelen Şehitler",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Valide Sultan",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hüseyinli",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Koçullu",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Murat Demir Şehitlik",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nur",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Reşadiye",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sırapınar",
+  "il": "İstanbul",
+  "ilce": "Çekmeköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıgazi Eski",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıgazi Yeni",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Veysel Karani",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yenidoğan",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Samandıra Merkez",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ferhatpaşa_Sancaktepe",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ortadağ",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Paşaköy",
+  "il": "İstanbul",
+  "ilce": "Sancaktepe",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ağva Merkez",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yakuplu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşilçay",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çavuş",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Balibey",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ağaçdere",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ahmetli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akçakese",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alacalı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Artvinler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aşağı Hatipler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bıçkıdere",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bozahlat",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bozgoca Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükaşağı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çelebi",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Darlık",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Davutlu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Değirmençayırı Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Değirmençayırı Bezir Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Demircili",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Denizli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dereli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dipbucaklı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Divanca",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Doğancılı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Edeyli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eminbeyler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eminbeyler Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Erenler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Esenceli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ezili",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Geredeli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Geredeli Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Göçe",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Göçe Yeniköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gökmaşlı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hacıköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hacıköy Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hacılı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Haliloğlu Eski",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hallı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hallı (Orman Tahsis) 2",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hamitler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hasanlı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İhsanoğlu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İmrendere",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İmrenli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İsaköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kabakoz",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kadıköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kalealtı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kalemköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karabeyli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karacaköy Asri",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karakiraz 1",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karamandere 1",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kasbaşı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Keremettin",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kervansaray",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kılıçlar",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kızılcaköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Koltu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Korucuköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kömürlük",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Köseler",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kumca",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurfallı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurnaköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükaşağı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Mansur",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Manşar",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Meşrutiyet",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Oruçoğlu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ovacık",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Örüncülü 1",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sahilköy (Domalı)",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıkavak",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıkavak (Şehitlik)",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Satmazlı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sevişli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sofular",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Soğullar",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Soğullu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sortullu",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şığıllı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şuayyipli",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şuayyipli Tarihi",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Teke",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ulupelit",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Üvezliköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yaka",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yaylalı",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yazımanayır",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeniköy",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşilvadi",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yumuşak",
+  "il": "İstanbul",
+  "ilce": "Şile",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kuruçeşme",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Maçka",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ortaköy",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yahyaefendi",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ulus",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ARNAVUTKÖY PROFİTİS İLİAS RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ARNAVUTKÖY MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "AŞKENAZ MUSEVİ CEMAATİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ORTAKÖY RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ORTAKÖY MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KURUÇEŞME ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "AZİZ YORGİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KURUÇEŞME RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BEBEK AYA YANİ RUM AYAZMASI MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beşiktaş",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hasköy",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sütlüce",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karahasan",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Zindanarkası (Kulaksız)",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "SÜTLÜCE RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HALICIOĞLU ERMENİ (BADEMLİK) MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HASKÖY KAMANDA MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HASKÖY RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "HASKÖY TURK KARAİM CEMAATİ MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Beyoğlu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hasdal",
+  "il": "İstanbul",
+  "ilce": "Kâğıthane",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kağıthane Eski",
+  "il": "İstanbul",
+  "ilce": "Kâğıthane",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kağıthane Yeni",
+  "il": "İstanbul",
+  "ilce": "Kâğıthane",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sanayi",
+  "il": "İstanbul",
+  "ilce": "Kâğıthane",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aşiyan",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Emirgan (Reşitpaşa)",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeniköy",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İstinye",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kireçburnu",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çayırbaşı",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıyer",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Rumeli Kavağı",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bahçeköy Eski",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bahçeköy Yeni",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ayazağa Eski",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ayazağa Yeni",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nafibaba",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kilyos",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ağlamışdede",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Demirciköy",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Garipçe",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gümüşdere",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gümüşdere Yeni",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Rumelifeneri",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Rumelifeneri Eski",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sarıyer Tarihi",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Uskumruköy",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Zekariyaköy",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kule",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kısırkaya",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "YENİKÖY RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "RUMELİ HİSAR ÜSTÜ ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BOYACIKÖY RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "REŞİTPAŞA ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "TARABYA RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ÇAYIRBAŞI KATOLİK ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ÇAYIRBAŞI ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ÇAYIRBAŞI İTALYAN FRANSIZ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ÇAYIRBAŞI RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KİLYOS MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KİLYOS BAHAİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KİLYOS YEHOVANIN ŞAHİTLERİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KİLYOS ROMANYA MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Sarıyer",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Abide-i Hürriyet",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Helvacıdede",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Feriköy",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Zincirlikuyu",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "FERİKÖY PROTESTAN MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "LATİN KATOLİK MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "KURTULUŞ AYA LEFTER RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "FERİKÖY BULGAR ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İTALYAN MUSEVİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "METAMORFOST RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ŞİŞLİ ERMENİ KATOLİK MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "ŞİŞLİ RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Şişli",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Beşyüzevler",
+  "il": "İstanbul",
+  "ilce": "Bayrampaşa",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Atışalanı",
+  "il": "İstanbul",
+  "ilce": "Esenler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kemer",
+  "il": "İstanbul",
+  "ilce": "Esenler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Köyiçi",
+  "il": "İstanbul",
+  "ilce": "Esenler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alibeyköy Eski",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alibeyköy Yeni (Güzelyayla)",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşilpınar",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eyüp",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tokmaktepe",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Mısırtarlası",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Necatibey",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nişanca",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Edirnekapı Şehitlik",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sakızağacı Şehitlik",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çanakkale Nakil Şehitliği",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Davutağa",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bayrampaşa",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Göktürk",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kemerburgaz",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akpınar",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aşağı Ağaçlı",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çiftalan",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Işıklar",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İhsaniye",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Odayeri",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Princçi",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yukarı Ağaçlı",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "EĞRİKAPI RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "EDİRNEKAPI TURK ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Eyüpsultan",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükköy",
+  "il": "İstanbul",
+  "ilce": "Gaziosmanpaşa",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükköy İçi",
+  "il": "İstanbul",
+  "ilce": "Gaziosmanpaşa",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Taşlıtarla (Karlıtepe)",
+  "il": "İstanbul",
+  "ilce": "Gaziosmanpaşa",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Cebeci",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Cebeci Köy",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gazi",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Habibler",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sultançiftliği (Mescid-i Selam)",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşil Yayla",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yayla",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yayla Köy İçi",
+  "il": "İstanbul",
+  "ilce": "Sultangazi",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ayvalık",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dedeler",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eski Kozlu",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Eski Topkapı",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kazlıçeşme",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Merkezefendi",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Silivrikapı",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tahirefendi (Çürüklük)",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Topkapı Maltepe",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeni Kozlu",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yedikule",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeni Topkapı + Anıt Mezar",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "SİLİVRİKAPI BALIKLI RUM ORTODOKS MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "SİLİVRİKAPI BALIKLI ERMENİ 2 MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "SÜRYANİ KADİM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Topkapı Çamlık",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "MALTEPE MUSLUMAN FRANSIZ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Zeytinburnu",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Avcılar",
+  "il": "İstanbul",
+  "ilce": "Avcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ambarlı",
+  "il": "İstanbul",
+  "ilce": "Avcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Firuzköy",
+  "il": "İstanbul",
+  "ilce": "Avcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bağcılar",
+  "il": "İstanbul",
+  "ilce": "Bağcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükhalkalı",
+  "il": "İstanbul",
+  "ilce": "Bağcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bademlik",
+  "il": "İstanbul",
+  "ilce": "Bağcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kirazlı",
+  "il": "İstanbul",
+  "ilce": "Bağcılar",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Güneşli",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kocasinan",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kocasinan Eski (Köyiçi)",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çobançeşme",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yenibosna",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Osmaniye (Merter)",
+  "il": "İstanbul",
+  "ilce": "Bahçelievler",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bakırköy (Kartaltepe)",
+  "il": "İstanbul",
+  "ilce": "Bakırköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BAKIRKÖY ERMENİ MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Bakırköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "YEŞİLKÖY KATOLİK MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Bakırköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "BAKIRKÖY RUM MEZARLIĞI",
+  "il": "İstanbul",
+  "ilce": "Bakırköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kayabaşı Eski",
+  "il": "İstanbul",
+  "ilce": "Başakşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kayabaşı Yeni",
+  "il": "İstanbul",
+  "ilce": "Başakşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İkitelli",
+  "il": "İstanbul",
+  "ilce": "Başakşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şamlar",
+  "il": "İstanbul",
+  "ilce": "Başakşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kayabaşı Köyiçi",
+  "il": "İstanbul",
+  "ilce": "Başakşehir",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gürpınar",
+  "il": "İstanbul",
+  "ilce": "Beylikdüzü",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kavaklı Eski",
+  "il": "İstanbul",
+  "ilce": "Beylikdüzü",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kavaklı Yeni",
+  "il": "İstanbul",
+  "ilce": "Beylikdüzü",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İhlas",
+  "il": "İstanbul",
+  "ilce": "Beylikdüzü",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yakuplu",
+  "il": "İstanbul",
+  "ilce": "Beylikdüzü",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ahmediye",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükçekmece Eski",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükçekmece Yeni",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çakmaklı",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Güzelce",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Güzelce Yeni",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karaağaç",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kumburgaz Eski",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kumburgaz Yeni",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Mimarsinan",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tepecik Eski (Merkez)",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tepecik Yeni",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Türkoba",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kamiloba Yeni",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Celaliye Asri",
+  "il": "İstanbul",
+  "ilce": "Büyükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Esenyurt Eski",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Esenyurt Yeni",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bahçeşehir (Hoşdere)",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kıraç Eski (Merkez)",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kıraç Yeni (Namık Kemal)",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İstiklal (Kıraç)",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gülbahçe",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gülvadi",
+  "il": "İstanbul",
+  "ilce": "Esenyurt",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Güngören",
+  "il": "İstanbul",
+  "ilce": "Güngören",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Altınşehir",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kanarya",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sefaköy",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükhalkalı",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Şenlikköy",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tepeüstü",
+  "il": "İstanbul",
+  "ilce": "Küçükçekmece",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Arnavutköy Asri",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Arnavutköy Eski",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Arnavutköy Yeni",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Boğazköy Eski",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Memba",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bolluca",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çilingir",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dursunköy Yeni",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dursunköy Tarihi",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Durusu",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hadımköy",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Deliklikaya",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ömerli",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeşilbayır",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Haraçcı",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İmrahor",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sazlıbosna",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Taşoluk",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Baklalı",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Balaban",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Boyalık",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hacımaşlı",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karaburun Eski",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karaburun Yeni",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Roman Mezarlığı",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tayakadın Eski (Bağlarsırtı)",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Tayakadın Yeni",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yassıören",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yassıören Eski",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yeniköy",
+  "il": "İstanbul",
+  "ilce": "Arnavutköy",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gümüşyaka Eski",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gümüşyaka Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çanta Eski",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çanta Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yolçatı",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kavaklı Eski (Hürriyet)",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kavaklı Yeni (Cumhuriyet)",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ortaköy",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kadıköy",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Selimpaşa Asri",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Alipaşa",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Silivri Asri",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Silivri Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gazitepe",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçükkılıçlı",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Değirmenköy Asri",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükçavuşlu Eski",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyükçavuşlu Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akören Asri",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akören Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bekirli",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Beyciler",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyük Kılıçlı",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Büyüksinekli",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çayırdere",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çeltik",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Danamandıra",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Fener",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurfalı Asri",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kurfalı Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Küçüksinekli",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Sayalar",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Seymen Eski",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Seymen Yeni",
+  "il": "İstanbul",
+  "ilce": "Silivri",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ferhatpaşa",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kaleiçi",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çakıl-1",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çakıl Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İzzettin Asri",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İzzettin Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çiftlikköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ovayenice",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karacaköy Asri (Tarihi)",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karacaköy Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karacaköy Yeni (Merkez)",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nakkaş Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Nakkaş Tarihi",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Bahşayiş",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Muratbey",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Binkılıç",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Akalan",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Aydınlar",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Başakköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Belgrat",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Celepköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Çanakça",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Dağyenice",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Elbasan",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gökçeali",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Gümüşpınar",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hallaçlı",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Hisarbeyli",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İhsaniye Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İhsaniye Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "İnceğiz",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kabakça Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kabakça Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kalfaköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karamandere Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Karamandere Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kestanelik",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Kızılcaali",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Oklalı Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Oklalı Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ormanlı Eski",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Ormanlı Yeni",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Örcünlü",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Örencik",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Subaşı",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yalıköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yaylacık",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ },
+ {
+  "ad": "Yazlıkköy",
+  "il": "İstanbul",
+  "ilce": "Çatalca",
+  "kaynak_url": "https://data.ibb.gov.tr/dataset/mezarlik-adres-bilgileri",
+  "kaynak_ad": "İBB Açık Veri – Mezarlık Adres Bilgileri (İBB Açık Veri Lisansı)",
+  "tarih": "2026-10-15"
+ }
+]

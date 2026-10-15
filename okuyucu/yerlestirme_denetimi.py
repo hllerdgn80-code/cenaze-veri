@@ -75,6 +75,16 @@ def denetle(veri, ilce_json=None, rastgele_tohum=None):
                 elif r[0] == "belirsiz" and ik_kayit not in r[1]:
                     ihlal.append({"kural": 3, "id": kid, "il": klasor, "ilce": ik_kayit, "aciklama": "ilce adaylar arasinda degil", "adaylar": r[1], "mezarlik": k.get("defin_yeri")})
                 ornek_havuzu.append((klasor, ik_kayit, k.get("defin_yeri"), kay))
+            elif kay == "mezarlik_resmi":
+                # 8) H66: resmi sozluk baginin yeniden dogrulanmasi (UYARI)
+                if ortak.resmi_mezarlik_ilce(il_adi, k.get("defin_yeri")) != ik_kayit:
+                    uyari.append({"kural": 8, "id": kid, "il": klasor, "ilce": ik_kayit, "etiket": kay, "aciklama": "resmi mezarlik sozlugu bagi yeniden dogrulanamadi", "mezarlik": k.get("defin_yeri")})
+                ornek_havuzu.append((klasor, ik_kayit, k.get("defin_yeri"), kay))
+            elif kay == "edevlet_detay":
+                # 9) H66: e-Devlet Detay 'Mezarlik Il/Ilce' alani kayitta ham.detay_mezarlik_ilce olarak durur; kayit ilcesiyle ayni olmali (UYARI)
+                if ortak.katla((k.get("ham") or {}).get("detay_mezarlik_ilce")) != ortak.katla(ik_kayit):
+                    uyari.append({"kural": 9, "id": kid, "il": klasor, "ilce": ik_kayit, "etiket": kay, "aciklama": "e-Devlet detay mezarlik ilcesi kayit ilcesiyle farkli"})
+                ornek_havuzu.append((klasor, ik_kayit, k.get("defin_yeri"), kay))
             elif kay in ("ilce_adi_metinde", "mahalle_tablo", "ad_sifati"):
                 # 7) H61 katmanlari (UYARI modu): bagi ayni kurallarla yeniden dogrula; tutmazsa uyari (cikisi etkilemez)
                 alanlar = [k.get("defin_yeri"), k.get("namaz_yeri_vakti"), k.get("mahalle")]

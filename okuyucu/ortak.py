@@ -361,6 +361,63 @@ def _ipucu_isle(kayit, il):
     return kayit
 
 
+# ---- H66 (15.10.2026) RESMI MEZARLIK -> ILCE KATMANI: yalniz resmi/birincil listeden (okuyucu/veri/mezarlik_resmi.json: ad, il, ilce, kaynak_url, tarih).
+# Eslestirme: mezarlik_norm ile NORMALIZE EDILMIS BIREBIR AD (benzerlik esigi yok). Ayni ad ayni ilde birden cok ilcede ise baglanmaz; OSM tablosu ayni ad icin
+# FARKLI tek ilce veriyorsa baglanmaz (celiski = tahmin). Etiket: ilce_kaynagi = mezarlik_resmi.
+RESMI_ETKIN = True
+_RESMI_YOLU = os.path.join(os.path.dirname(os.path.abspath(__file__)), "veri", "mezarlik_resmi.json")
+_resmi_onbellek = {}
+
+
+def resmi_tablo():
+    """-> {il_slug: {mezarlik_norm: {ilce, ...}}}; dosya yok/bozuksa bos."""
+    if not _resmi_onbellek:
+        t = {}
+        try:
+            with open(_RESMI_YOLU, encoding="utf-8") as f:
+                for r in json.load(f):
+                    n = mezarlik_norm(r.get("ad"))
+                    if n and r.get("il") and r.get("ilce"):
+                        t.setdefault(il_slug(r["il"]), {}).setdefault(n, set()).add(r["ilce"])
+        except Exception:
+            pass
+        _resmi_onbellek["t"] = t
+    return _resmi_onbellek["t"]
+
+
+def resmi_mezarlik_ilce(il, defin_yeri):
+    """-> ilce (str) | None. Yalniz o ilin gecerli ilcesi ve TEK aday."""
+    n = mezarlik_norm(defin_yeri)
+    if not n:
+        return None
+    v = resmi_tablo().get(il_slug(il), {}).get(n)
+    if not v or len(v) != 1:
+        return None
+    ilce = next(iter(v))
+    if ilce not in gecerli_ilceler(il):
+        return None
+    osm = (mezarlik_tablosu().get(il_slug(il)) or {}).get(n)
+    if isinstance(osm, str) and osm != ilce:
+        return None
+    if isinstance(osm, dict) and ilce not in (osm.get("belirsiz") or []):
+        return None
+    return ilce
+
+
+def _resmi_mezarlik(kayit, il):
+    if not RESMI_ETKIN or kayit.get("ilce") or kayit.get("il_disi_defin") or not kayit.get("ilce_belirsiz", True):
+        return kayit
+    try:
+        ilce = resmi_mezarlik_ilce(il, kayit.get("defin_yeri"))
+        if ilce:
+            kayit["ilce"], kayit["ilce_belirsiz"], kayit["ilce_kaynagi"] = ilce, False, "mezarlik_resmi"
+            if isinstance(kayit.get("ham"), dict):
+                kayit["ham"]["ilce_kaynagi"] = "mezarlik_resmi"
+    except Exception:
+        pass
+    return kayit
+
+
 # ---- H61 (15.10.2026) EK KATMANLAR: ilce adi metinde / mahalle-koy tablosu / ad sifati. Hepsi YALNIZ kesin eslesmede ilce yazar,
 # yalniz kaydin KENDI ilinin ilceleri icinde; tahmin yok. Etiketler ham.ilce_kaynagi: ilce_adi_metinde | mahalle_tablo | ad_sifati.
 _MAH_YOLU = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mahalle_ilce.json")
@@ -613,7 +670,7 @@ def ilce_isle(kayit, il):
     """Kaydın 'ilce' alanını ilce_coz ile işler (yerinde). Zaten işlenmişse dokunmaz (yalnız ilçesiz kayıt için mezarlık tablosu yeniden denenir).
     Ham değer kayıt['ham']['ilce_ham'] altında korunur (ham dict varsa ve anahtar yoksa)."""
     if "il_disi_defin" in kayit and "ilce_belirsiz" in kayit:
-        return _ek_katmanlar(_ipucu_isle(_defin_il_disi(kayit, il), il), il)
+        return _ek_katmanlar(_resmi_mezarlik(_ipucu_isle(_defin_il_disi(kayit, il), il), il), il)
     ham_ilce = kayit.get("ilce")
     r = ilce_coz(il, ham_ilce)
     if isinstance(kayit.get("ham"), dict) and ham_ilce and "ilce_ham" not in kayit["ham"] and "ilce" not in kayit["ham"]:
@@ -621,7 +678,7 @@ def ilce_isle(kayit, il):
     kayit["ilce"] = r["ilce"]
     kayit["ilce_belirsiz"] = r["ilce_belirsiz"]
     kayit["il_disi_defin"] = r["il_disi_defin"]
-    return _ek_katmanlar(_ipucu_isle(_defin_il_disi(kayit, il), il), il)
+    return _ek_katmanlar(_resmi_mezarlik(_ipucu_isle(_defin_il_disi(kayit, il), il), il), il)
 
 
 def ilce_isle_ham(kayit, il):
