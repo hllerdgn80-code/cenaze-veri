@@ -4,8 +4,9 @@ name: Turkiye'den oku
 # topla.yml'den 6 dk ONCE (cron 47 -> 41) calisir; sonucu veri-tr/ klasorune commit eder,
 # topla.yml birlestir adimi bu veriyi uzerine kopyalar.
 on:
-  schedule:
-    - cron: "41 3,6,9,15 * * *"   # TR saatiyle 06:41 09:41 12:41 18:41 (Mac runner; 4 tur; 18:41 e-Devlet ikinci kosusu)
+  # 15.10.2026 H69: GitHub'in kendi zamanlayicisi KALDIRILDI — 12:41 tetiklemesini 4,5 saat gec (17:22) gonderip cift kosu
+  # uretti ve checkout'ta GitHub depolama arizasiyla dustu ("Run failed" e-postasi). Saat artik yalniz sunucu zamanlayicisinda
+  # (kc_tetikleyici.py: 06:41 09:41 12:41 18:41 TR + 10:05 bosluk) ve bekci (kimincenazesi_bekci.py) yedeginde.
   workflow_dispatch:
     inputs:
       mod:
