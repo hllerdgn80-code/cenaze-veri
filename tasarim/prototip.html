@@ -980,7 +980,7 @@ function gkayitCiz(){const a=GV.adim,ak=$('#gk-akis'),ib=$('#gk-ileri');ib.style
     <button class="ikincil-dugme" id="gk-giris">Hesabım var</button>
     <label class="gv-beyan" id="gk-beyan"><input type="checkbox" id="gk-beyan-kutu" ${GV.beyan?'checked':''}><span>Verdiğim bilgilerin doğru olduğunu, yanıltıcı bilgi vermem hâlinde hakkımda yasal işlem yapılmasını kabul ediyorum.</span></label>`;ib.textContent='Başvuruyu gönder';ib.disabled=!GV.beyan;ib.classList.toggle('pasif',!GV.beyan)}
   else if(a===2){$('#gk-ust').textContent='Diyanet personel kartı';ib.style.display='none';
-    ak.innerHTML=`<div class="gv-aciklama" id="gk-foto-aciklama">Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez.</div>
+    ak.innerHTML=`<div class="gv-aciklama" id="gk-foto-aciklama">KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez.</div>
     <h3 style="text-align:center;font-size:17px;margin:16px 0">Diyanet İşleri Başkanlığı'nın size verdiği personel kimlik kartınızın ön yüzünü çekin.</h3>
     <button class="ana-dugme" data-gvf>Personel kartımı çek</button>`}
   else if(a===3){$('#gk-ust').textContent='Doğrulama';ib.textContent='Doğrula';

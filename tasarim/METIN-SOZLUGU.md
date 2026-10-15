@@ -431,7 +431,7 @@ Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.ka
 | ilanKutusu.baslik | Cenaze ilanınızın burada görülmesini istiyorsanız: | ＋ sıra: başlık → düğme → "veya" → talep metni → küçük bağlantı; her il/ilçe liste sayfasının ÜSTÜNDE; kaynaksız ilde de aynı kutu (eski "Cenaze ilanı paylaş" düğmesi ve davet metni kutuya birleşti) |
 | ilanKutusu.yakin | Cenaze yakını olarak ilanı paylaş | ＋ A) aile formunu açar |
 | gorevli.dugme | Din görevlisiyim | ＋ Tam Sayfa sekmesi, üçüncü kapı |
-| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ＋ kart ekranının EN ÜSTÜNDE, kamera düğmesinden önce |
+| gorevli.fotoAciklama | KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez. | ＋ kart ekranının EN ÜSTÜNDE, kamera düğmesinden önce |
 | gorevli.kuyrukUyari | Doğrulama yapılamadı; fotoğrafınız en çok 7 gün kontrol için saklanır, sonra silinir. | ＋ §37 tek istisna |
 | gorevli.fotoSaklama | Doğrulama için kartınızın fotoğrafı en çok 7 gün kontrol amacıyla saklanır, sonra silinir. | ＋ "kontrolde" sonucunda |
 | gorevli.kontrolBilgi | Başvurunuz kontrol ediliyor. Hesabınız onaylanınca paneldeki "İlan paylaş" düğmesi etkin hale gelir. Onay verilmezse panel ve hesap silinir. | ＋ panel bilgi kutusu ve pasif düğme açıklaması |
@@ -456,7 +456,7 @@ Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.ka
 | gorevli.beyan | Verdiğim bilgilerin doğru olduğunu, yanıltıcı bilgi vermem hâlinde hakkımda yasal işlem yapılmasını kabul ediyorum. | ＋ formun EN ALTINDA zorunlu onay kutusu; Worker `beyan:true` + `beyan_tarihi` ister |
 | gorevli.basvuruGonder | Başvuruyu gönder | ＋ beyan işaretlenmeden pasif |
 | gorevli.fotoUst | Diyanet personel kartı | ✎ ekran başlığı (kart ekranı) |
-| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ✓ sahibinin metni, ekranın EN ÜSTÜNDE |
+| gorevli.fotoAciklama | KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez. | ✓ sahibinin metni, ekranın EN ÜSTÜNDE |
 | gorevli.fotoYonerge | Diyanet İşleri Başkanlığı'nın size verdiği personel kimlik kartınızın ön yüzünü çekin. | ＋ açıklama kutusunun altında |
 | gorevli.kamera | Personel kartımı çek | ✎ tek düğme; yalnız uygulama içi kamera; "Galeriden seç" YOK; kâğıt kodu YOK (iptal) |
 | gorevli.deneme2 | Kart doğrulanamadı. Işığı kontrol edip bir kez daha çekin. | ✎ kod ibaresi kalktı |
@@ -470,5 +470,5 @@ Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.ka
 ### Otomatik TC karartma (15.10.2026 akşam; "parmağınızla kapatın" cümlesi KALDIRILDI)
 | Anahtar | Metin | Durum · neden |
 |---|---|---|
-| gorevli.fotoAciklama | Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez. | ✎ kart ekranının EN ÜSTÜ; kuyruk istisnası metni ("…en çok 7 gün…") aynen kalır |
+| gorevli.fotoAciklama | KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez. | ✎ kart ekranının EN ÜSTÜ; kuyruk istisnası metni ("…en çok 7 gün…") aynen kalır |
 | gorevli.kartIslenemedi | Fotoğraf işlenemedi. Lütfen kartı yeniden çekin. | ＋ karartma/tanıma hatasında fotoğraf GÖNDERİLMEZ |

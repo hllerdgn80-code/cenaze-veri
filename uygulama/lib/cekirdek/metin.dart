@@ -361,7 +361,7 @@ class M {
   static const gorevliFotoUst = 'Diyanet personel kartı';
   static const gorevliFotoYonerge = 'Diyanet İşleri Başkanlığı\'nın size verdiği personel kimlik kartınızın ön yüzünü çekin.';
   static const gorevliFotoAciklama =
-      'Personel kartınızın fotoğrafı yalnızca doğrulama anında kullanılır, saklanmaz. TC kimlik numaranız bizim sistemimizde görünmez.';
+      'KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez.';
   static const gorevliKartIslenemedi = 'Fotoğraf işlenemedi. Lütfen kartı yeniden çekin.';
   static const gorevliKamera = 'Personel kartımı çek'; // yalnız uygulama içi kamera; galeri seçeneği yok
   static const gorevliDeneme2 = 'Kart doğrulanamadı. Işığı kontrol edip bir kez daha çekin.';
