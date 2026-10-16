@@ -166,10 +166,10 @@ class H61Katmanlar(unittest.TestCase):
         self.assertIsNone(self.isle("Bolu", defin_yeri="Köy Mezarlığı", namaz_yeri_vakti="Doğancı Köyü")["ilce"])
 
     def test_belirli_mezarlik_varken_cami_mahallesi_baglanmaz(self):
-        ortak._mah_onbellek.clear(); ortak._mah_onbellek["bursa"] = {"hamitler": "Yıldırım"}
-        k = self.isle("Bursa", defin_yeri="Bilinmeyen Sehir Mezarlığı", namaz_yeri_vakti="Öğle – Hamitler Camii")
+        ortak._mah_onbellek.clear(); ortak._mah_onbellek["bursa"] = {"zyxhamit": "Yıldırım"}   # 16.10: resmi tabloda OLMAYAN uydurma ad (resmi liste once gelir)
+        k = self.isle("Bursa", defin_yeri="Bilinmeyen Sehir Mezarlığı", namaz_yeri_vakti="Öğle – Zyxhamit Camii")
         self.assertIsNone(k["ilce"])
-        k = self.isle("Bursa", defin_yeri=None, namaz_yeri_vakti="Öğle – Hamitler Camii")
+        k = self.isle("Bursa", defin_yeri=None, namaz_yeri_vakti="Öğle – Zyxhamit Camii")
         self.assertEqual(k["ilce"], "Yıldırım")
 
     def test_ad_sifati_varsayilan_kapali_ve_ad_degismez(self):

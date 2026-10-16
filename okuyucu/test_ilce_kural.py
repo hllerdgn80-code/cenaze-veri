@@ -26,8 +26,12 @@ class IlceKural(unittest.TestCase):
         self.assertEqual(isle("Edirne", defin_yeri="Yenişehir Mezarlığı", kaynak_ad="Edirne Belediyesi")["ilce"], "Merkez")
 
     def test_merkez_belediyesi_koy_baglanmaz(self):
-        self.assertIsNone(isle("Karabük", defin_yeri="Bulak Köyü Mezarlığı", namaz_yeri_vakti="Bulak Köyü Cami - Öğle",
+        self.assertIsNone(isle("Karabük", defin_yeri="Zyxköy Köyü Mezarlığı", namaz_yeri_vakti="Zyxköy Köyü Cami - Öğle",
                                kaynak_ad="Karabük Belediyesi")["ilce"])
+
+    def test_resmi_mahalle_tablosu(self):
+        self.assertEqual(isle("Bursa", mahalle="Küplüpınar Mah.")["ilce"], "Osmangazi")
+        self.assertEqual(isle("Karabük", defin_yeri="Bulak Köyü Mezarlığı")["ilce"], "Merkez")
 
     def test_buyuksehir_merkez_yok(self):
         self.assertIsNone(isle("Konya", defin_yeri="Yediler Mezarlığı", kaynak_ad="Konya Belediyesi")["ilce"])
