@@ -10,7 +10,7 @@ workers_dev = true
 # routes = [{ pattern = "kimincenazesi.com/aile/*", zone_name = "kimincenazesi.com" }]
 
 [vars]
-GELISTIRME = "1"
+GELISTIRME = "0"   # 16.10.2026: yayin oncesi kapatildi (Resend kanali var)
 IZINLI_ORIGIN = "https://kimincenazesi.com,https://www.kimincenazesi.com"
 
 [[kv_namespaces]]

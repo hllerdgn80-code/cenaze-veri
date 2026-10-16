@@ -207,7 +207,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('pin_unuttum')));
     await tester.pumpAndSettle();
-    expect(_istekler.where((x) => x == 'POST /gorevli/parola-hatirlat'), hasLength(1));
+    expect(_istekler.where((x) => x.startsWith('POST /gorevli/parola-hatirlat')), hasLength(1)); // gövde '{}' gider
     expect(find.text(M.pinGonderildiBaslik), findsOneWidget);
     expect(find.text(M.pinGonderildiBir), findsOneWidget);
     expect(find.text(M.pinGonderildiIki('hasan.k@diyanet.gov.tr')), findsOneWidget);
@@ -238,8 +238,9 @@ void main() {
     await _yaz(tester, 'pin_1', '4821');
     await _yaz(tester, 'pin_2', '4821');
     await tester.tap(find.text(M.pinKaydet));
-    await tester.pump();
-    await tester.pump();
+    for (int i = 0; i < 4; i++) {
+      await tester.pump(const Duration(milliseconds: 100));
+    }
     expect(_istekler, contains('POST /gorevli/parola {"parola":"4821"}'));
     await tester.pumpAndSettle();
     expect(d.depo.gorevliPinDogru('4821'), isTrue);
@@ -251,8 +252,9 @@ void main() {
     await _yaz(tester, 'pin_1', '1111');
     await _yaz(tester, 'pin_2', '1111');
     await tester.tap(find.text(M.pinKaydet));
-    await tester.pump();
-    await tester.pump();
+    for (int i = 0; i < 4; i++) {
+      await tester.pump(const Duration(milliseconds: 100)); // istek hatası + SnackBar girişi
+    }
     expect(find.text(M.pinSunucuyaYok), findsOneWidget);
     expect(d2.depo.gorevliPinDogru('1111'), isTrue);
     _sv = _servis();

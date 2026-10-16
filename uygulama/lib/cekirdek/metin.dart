@@ -13,7 +13,7 @@ class M {
   static const acilisAlt = 'Bulunduğunuz ili seçin';
   // 0.1.7 (URUN-TASLAGI §41): açılış mesajı ve motto
   static const acilisArapca = 'إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ';
-  static const acilisMeal = '“Doğrusu biz Allah’a aidiz ve kuşkusuz O’na döneceğiz.”';
+  static const acilisMeal = '“Biz şüphesiz (her şeyimizle) Allah’a aidiz ve şüphesiz O’na döneceğiz.”';
   static const acilisSure = 'Bakara sûresi, 2/156';
   static const acilisKaynak = 'Diyanet İşleri Başkanlığı Meâli';
   static const motto = 'Şehrinizdeki cenazelerden haberdar olun';
@@ -238,7 +238,7 @@ class M {
   static const pinGunlukSinir = 'Bugün en çok 3 kez gönderilebilir. Yarın yeniden deneyin.';
   static const pinGonderildiBaslik = 'Parolanız gönderildi';
   static const pinGonderildiBir = 'Parolanız e-postanıza gönderildi.';
-  static String pinGonderildiIki(String adres) => 'Parolanızı $adres adresine gönderdik. Gelen kutunuza bakın, sonra buraya dönüp parolanızı yazın.';
+  static String pinGonderildiIki(String adres) => 'Parolanızı $adres adresine gönderdik. Gelen kutunuza bakın, parolanız gönderilmiştir.';
   static const pinGonderilemediSayfa = 'Gönderilemedi; biraz sonra yeniden deneyin.';
   static const pinTamam = 'Tamam';
   static const pinDegistir = 'Parolamı değiştir';
@@ -282,7 +282,7 @@ class M {
     'Diyanet her personeline bir e-posta adresi verir.',
     'Adresiniz: DİBBYS kullanıcı adınız@diyanet.gov.tr',
     'Tarayıcıya posta.diyanet.gov.tr yazın.',
-    'Kullanıcı adı: kullanıcıadınız@diyanet.gov.tr',
+    'Kullanıcı adı: DİBBYSkullanıcıadınız@diyanet.gov.tr',
     'Şifre: DİBBYS şifreniz. Giriş yapın.',
     'Gelen kutusundaki kodu uygulamaya girin.',
   ];

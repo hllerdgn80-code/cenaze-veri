@@ -1,4 +1,4 @@
-// Açılış mesajı (URUN-TASLAGI §41, 0.1.7): tam ekran, 9 sn (sahibi 16.10: 3 sn daha uzun); dokunarak atlama yok, geri tuşu kapatmaz.
+// Açılış mesajı (URUN-TASLAGI §41, 0.1.7): tam ekran, 11 sn (sahibi 16.10: 6→9→11 sn); dokunarak atlama yok, geri tuşu kapatmaz.
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -8,7 +8,7 @@ import '../cekirdek/metin.dart';
 class AcilisMesaji extends StatefulWidget {
   final Duration sure;
   final Widget sonra;
-  const AcilisMesaji({super.key, this.sure = const Duration(seconds: 9), required this.sonra});
+  const AcilisMesaji({super.key, this.sure = const Duration(seconds: 11), required this.sonra});
 
   @override
   State<AcilisMesaji> createState() => _AcilisMesajiState();
