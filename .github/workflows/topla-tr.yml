@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  actions: write     # 16.10.2026: e-Devlet anlik yayin (bosalt.yml tetikleme)
 
 concurrency:
   group: topla-tr
@@ -95,9 +96,11 @@ jobs:
         if: ${{ inputs.mod != 'bosluk' }}
         env:
           EDEVLET_KOSU_SAATLERI: "06,08,10,12,14,16,18,20"   # 16.10.2026: 8 kosu (Mac turlari iki saatte bir); hizmet arasi 10 dk AYNEN   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
-          EDEVLET_HIZMET_ARASI_SN: "600"
-          EDEVLET_ISTEK_TAVANI: "80"
+          EDEVLET_HIZMET_ARASI_SN: "240"   # 16.10.2026 sahibi: "e-Devlet en uzun suren, kisalt" (600 -> 240; CAPTCHA'da hizmet 6 sa dinlenir)
+          EDEVLET_ISTEK_TAVANI: "150"
+          EDEVLET_SURE_DK: "70"
           EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
+          GH_TOKEN: ${{ github.token }}      # anlik yayin: her hizmetten sonra veri-tr/<il>/_ulusal.json + bosalt.yml
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
       # ---- BOSLUK TURU (15.10.2026; mod=bosluk; 10:05 TR'de sunucu zamanlayicisi tetikler): site sahibi "bosluklar 10:00'a kadar beklensin, hala bos varsa kendi
       # imkanlarimizla doldurulsun". Canli veriden bugun cenaze kaydi olmayan iller bulunur; yalniz onlarin e-Devlet hizmetleri + ulusal akislar okunur.

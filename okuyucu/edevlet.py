@@ -346,6 +346,58 @@ def hizmet_oku(slug, il, ilce, gunler, alindi, durum, onceki=None, detay_butce=0
     return out, sayilar
 
 
+def il_yaz(slug_il, recs, bugun, alindi):
+    """veri/<il>/_ulusal.json'a e-Devlet kayitlarini birlestirir (7 gun). Dosya yolunu dondurur."""
+    sinir = (bugun - timedelta(days=7)).isoformat()
+    yol = os.path.join(VERI, slug_il, "_ulusal.json")
+    eski = []
+    try:
+        eski = json.load(open(yol, encoding="utf-8")).get("kayitlar", [])
+    except Exception:
+        pass
+    kay = {x["id"]: x for x in eski}
+    kay.update({x["id"]: x for x in recs})
+    kay = {i: x for i, x in kay.items() if (x.get("liste_tarihi") or "") >= sinir}
+    ortak.json_yaz(yol, {"il": IL_ADI.get(slug_il, slug_il), "kayitlar": list(kay.values()), "guncelleme": alindi})
+    return yol
+
+
+def anlik_yayin(slug_il, yol):
+    """16.10.2026 (sahibi: "topladigi verileri direkt uygulamaya aktar"): hizmet okunur okunmaz il dosyasini depoya (veri-tr/<il>/_ulusal.json)
+    yazar ve bosalt.yml'yi tetikler -> ~3 dk icinde uygulamada. Yalniz GH_TOKEN + GITHUB_REPOSITORY varsa (Mac runner); hata turu durdurmaz."""
+    tok, repo = os.environ.get("GH_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not tok or not repo or os.environ.get("EDEVLET_ANLIK", "1") != "1":
+        return
+    import base64
+    api = f"https://api.github.com/repos/{repo}"
+    h = {"Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json", "User-Agent": "kc-edevlet"}
+    def cagri(url, method="GET", govde=None):
+        rq = urllib.request.Request(url, method=method, headers=h, data=json.dumps(govde).encode() if govde is not None else None)
+        with urllib.request.urlopen(rq, timeout=30) as r:
+            b = r.read()
+            return json.loads(b) if b else {}
+    hedef = f"veri-tr/{slug_il}/_ulusal.json"
+    for deneme in range(3):
+        try:
+            sha = None
+            try:
+                sha = cagri(f"{api}/contents/{hedef}?ref=main").get("sha")
+            except urllib.error.HTTPError as e:
+                if e.code != 404:
+                    raise
+            govde = {"message": f"e-Devlet anlik: {slug_il}", "branch": "main",
+                     "content": base64.b64encode(open(yol, "rb").read()).decode()}
+            if sha:
+                govde["sha"] = sha
+            cagri(f"{api}/contents/{hedef}", "PUT", govde)
+            cagri(f"{api}/actions/workflows/bosalt.yml/dispatches", "POST", {"ref": "main"})
+            print(f"  anlik yayin: {hedef} yazildi, bosalt tetiklendi", file=sys.stderr)
+            return
+        except Exception as e:
+            print(f"  anlik yayin denemesi {deneme + 1}: {str(e)[:80]}", file=sys.stderr)
+            time.sleep(5)
+
+
 def main():
     kuru = "--kuru" in sys.argv
     secili = sys.argv[sys.argv.index("--hizmet") + 1].split(",") if "--hizmet" in sys.argv else None
@@ -466,22 +518,15 @@ def main():
         durum[slug] = {"durum": "calisir" if calisir else "bos", "gunler": sayilar, "eklenen": eklenen, "zaman": alindi,
                        "bos_kosu": 0 if calisir else (onceki.get(slug) or {}).get("bos_kosu", 0) + 1}
         toplam[slug] = eklenen
+        if eklenen and not kuru:
+            for slug_il_ in {si for _, si in sonuc}:
+                anlik_yayin(slug_il_, il_yaz(slug_il_, yeni.get(slug_il_, []), bugun, alindi))
         print(f"  {slug}: {sayilar} -> {eklenen} kayıt", file=sys.stderr)
     if kuru:
         print(f"[kuru] {sum(toplam.values())} kayıt, {len(yeni)} il")
         return
-    sinir = (bugun - timedelta(days=7)).isoformat()
     for slug_il, recs in yeni.items():
-        yol = os.path.join(VERI, slug_il, "_ulusal.json")
-        eski = []
-        try:
-            eski = json.load(open(yol, encoding="utf-8")).get("kayitlar", [])
-        except Exception:
-            pass
-        kay = {x["id"]: x for x in eski}
-        kay.update({x["id"]: x for x in recs})
-        kay = {i: x for i, x in kay.items() if (x.get("liste_tarihi") or "") >= sinir}
-        ortak.json_yaz(yol, {"il": IL_ADI.get(slug_il, slug_il), "kayitlar": list(kay.values()), "guncelleme": alindi})
+        il_yaz(slug_il, recs, bugun, alindi)
     try:
         eski_d = json.load(open(durum_yol, encoding="utf-8"))
     except Exception:
