@@ -237,6 +237,26 @@ export async function gorevliIsle(req, env, o, H, yol) {
     return yanit(req, env, hesapOzeti(k));
   }
 
+  // ---- POST /gorevli/ad-soyad (oturumlu; sahibi 16.10.2026: "soyadımı yanlış yazdım, düzeltemedim"): profildeki ad-soyadı düzeltir.
+  // En çok AD_DUZELTME_HAK kez; eski değerler k.ad_gecmis'te tutulur. Paylaşılmış ilanlar değişmez. ----
+  const AD_DUZELTME_HAK = 5;
+  async function adSoyad() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || k.durum !== "onayli") return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    if (!profilTamam(k)) return yanit(req, env, { hata: "profil_gerekli" }, 409);
+    const g = await govde();
+    if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
+    const ad = typeof (g.json || {}).ad_soyad === "string" ? g.json.ad_soyad.trim().replace(/\s+/g, " ") : "";
+    if (!adGecerli(ad)) return yanit(req, env, { hata: "ad_soyad gecersiz" }, 400);
+    const gecmis = Array.isArray(k.ad_gecmis) ? k.ad_gecmis : [];
+    if (gecmis.length >= AD_DUZELTME_HAK) return yanit(req, env, { hata: "duzeltme_hakki_doldu" }, 429);
+    if (ad === k.ad_soyad) return yanit(req, env, hesapOzeti(k));
+    gecmis.push({ eski: k.ad_soyad, tarih: gun });
+    Object.assign(k, { ad_soyad: ad, ad_gecmis: gecmis });
+    await kayitYaz(k, 0);
+    return yanit(req, env, hesapOzeti(k));
+  }
+
   // ---- ilan yardımcıları ----
   async function ayniKisiVar(slug, adNorm, vefat, haricId) {
     for (const onek of [`${P}x:${slug}:`, `x:${slug}:`]) {
@@ -576,6 +596,7 @@ export async function gorevliIsle(req, env, o, H, yol) {
       case "/gorevli/eposta-dogrula": return epostaDogrula();
       case "/gorevli/profil": return profil();
       case "/gorevli/gorev-yeri": return gorevYeri();
+      case "/gorevli/ad-soyad": return adSoyad();
       case "/gorevli/kayit": case "/gorevli/kod": case "/gorevli/giris": case "/gorevli/dogrula":
         return yanit(req, env, { hata: "kaldirildi", ileti: "Doğrulama artık Diyanet e-posta koduyla: /gorevli/eposta-kod" }, 410);
       case "/gorevli/kvkk-kabul": return kvkkKabul();

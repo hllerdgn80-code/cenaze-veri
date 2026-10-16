@@ -318,6 +318,12 @@ class M {
   static String get gorevliCikisYapildi => UzakAyar.yazi('gorevliCikisYapildi', 'Çıkış yaptınız.');
   static String get gorevliAd => UzakAyar.yazi('gorevliAd', 'Ad soyad');
   static String get gorevliAdYer => UzakAyar.yazi('gorevliAdYer', 'Kartınızdaki gibi');
+  // 16.10.2026 sahibi: "soyadımı yanlış yazdım, düzeltemedim" -> panel menüsünde ad-soyad düzeltme
+  static String get gorevliBilgiDuzenle => UzakAyar.yazi('gorevliBilgiDuzenle', 'Bilgilerimi düzenle');
+  static String get gorevliBilgiDuzenleAciklama => UzakAyar.yazi('gorevliBilgiDuzenleAciklama', 'Ad soyad, il, ilçe, görev yeri ve unvan bilgilerinizi düzeltebilirsiniz. Daha önce paylaştığınız ilanlar değişmez.');
+  static String get gorevliAdKaydet => UzakAyar.yazi('gorevliAdKaydet', 'Kaydet');
+  static String get gorevliBilgiGuncellendi => UzakAyar.yazi('gorevliBilgiGuncellendi', 'Bilgileriniz güncellendi.');
+  static String get gorevliAdHakDoldu => UzakAyar.yazi('gorevliAdHakDoldu', 'Ad soyad düzeltme hakkınız doldu. Destek için iletisim@kimincenazesi.com adresine yazın.');
   static String get gorevliYer => UzakAyar.yazi('gorevliYer', 'Görev yeri');
   static String get gorevliYerYer => UzakAyar.yazi('gorevliYerYer', 'Cami ya da köy adı');
   static String get gorevliUnvan => UzakAyar.yazi('gorevliUnvan', 'Unvan');

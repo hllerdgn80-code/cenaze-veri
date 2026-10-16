@@ -167,6 +167,21 @@ test("GÖREV YERİM DEĞİŞTİ: hesap güncellenir; sonraki ilan yeni il/ilçe/
   assert.equal(ordu.length, 1); assert.equal(ordu[0].gorev_yeri, "Korgan Merkez Camii", "eski ilan değişmez"); assert.equal(ordu[0].ilce, "Korgan");
 });
 
+test("AD SOYAD DÜZELT: profil sonrası ad-soyad değişir; geçersiz 400; oturumsuz 401; profil yokken 409; en çok 5 kez", async () => {
+  const e = env();
+  const { h: h0 } = await giris(e);
+  assert.equal((await cagir(e, "/gorevli/ad-soyad", { ad_soyad: "Ali Veli" }, { ek: h0 })).hata, "profil_gerekli");
+  const e2 = env();
+  const { h } = await hazir(e2);
+  assert.equal((await cagir(e2, "/gorevli/ad-soyad", { ad_soyad: "Ali Veli" })).s, 401);
+  assert.equal((await cagir(e2, "/gorevli/ad-soyad", { ad_soyad: "X" }, { ek: h })).s, 400);
+  const r = await cagir(e2, "/gorevli/ad-soyad", { ad_soyad: "Mehmet Ali Yıldız" }, { ek: h });
+  assert.equal(r.s, 200); assert.equal(r.ad_soyad, "Mehmet Ali Yıldız"); assert.equal(r.gorev_yeri, "Korgan Merkez Camii");
+  assert.equal((await al(e2, "/gorevli/durum", h)).ad_soyad, "Mehmet Ali Yıldız");
+  for (const a of ["Ahmet Bir", "Ahmet İki", "Ahmet Üç", "Ahmet Dört"]) assert.equal((await cagir(e2, "/gorevli/ad-soyad", { ad_soyad: a }, { ek: h })).s, 200);
+  assert.equal((await cagir(e2, "/gorevli/ad-soyad", { ad_soyad: "Ahmet Beş" }, { ek: h })).s, 429);
+});
+
 test("ilan: il/ilçe istekten değil hesaptan; liste JSON'da kişisel veri yok; iptal; K kuralları (K2, K3, K5)", async () => {
   const e = env();
   const { h } = await hazir(e);

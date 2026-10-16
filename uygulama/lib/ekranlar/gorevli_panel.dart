@@ -187,6 +187,17 @@ class _GorevliPanelState extends State<GorevliPanel> {
     }
   }
 
+  Future<void> _bilgiDuzenle() async {
+    final h = _hesap;
+    if (h == null || !h.onayli || !h.profilTamam) return;
+    final tamam = await Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
+        builder: (_) => GorevliYerFormu(ilk: false, duzenle: true, ad: h.adSoyad, il: h.il, ilce: h.ilce, gorevYeri: h.gorevYeri, unvan: h.unvan, servis: widget.servis)));
+    if (tamam == true && mounted) {
+      await _yukle();
+      if (mounted) bildir(context, M.gorevliBilgiGuncellendi);
+    }
+  }
+
   Future<void> _ilanlarimAc() async {
     await Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
         builder: (_) => GorevliIlanlarim(ilanlar: _ilanlar, onayli: _hesap?.onayli == true, servis: widget.servis, duzenle: _ilanAc, hesap: _hesap)));
@@ -245,6 +256,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
               icon: const Icon(Icons.more_vert),
               onSelected: (v) {
                 if (v == 'yer') _yerDegisti();
+                if (v == 'bilgi') _bilgiDuzenle();
                 if (v == 'degistir') {
                   Navigator.of(context, rootNavigator: true)
                       .push(MaterialPageRoute(builder: (_) => GorevliParolaDegistir(servis: widget.servis)));
@@ -257,6 +269,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
               },
               itemBuilder: (_) => [
                 PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: Text(M.gorevliYerDegisti)),
+                PopupMenuItem(value: 'bilgi', enabled: h != null && h.onayli && h.profilTamam, child: Text(M.gorevliBilgiDuzenle)),
                 if (widget.sekmede) PopupMenuItem(value: 'degistir', child: Text(M.pinDegistir)),
                 if (widget.sekmede) PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
                 PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),

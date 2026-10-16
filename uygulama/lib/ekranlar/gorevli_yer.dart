@@ -11,9 +11,10 @@ import '../cekirdek/tema.dart';
 
 class GorevliYerFormu extends StatefulWidget {
   final bool ilk; // true: ad-soyad da istenir (profil); false: görev yeri değişti
+  final bool duzenle; // 16.10.2026 sahibi: "girdiği tüm bilgileri düzeltme" — ad-soyad dahil hepsi ön dolu, değişen kaydedilir
   final String? ad, il, ilce, gorevYeri, unvan; // mevcut hesap (değişiklikte ön dolu)
   final GorevliServisi? servis;
-  const GorevliYerFormu({super.key, required this.ilk, this.ad, this.il, this.ilce, this.gorevYeri, this.unvan, this.servis});
+  const GorevliYerFormu({super.key, required this.ilk, this.duzenle = false, this.ad, this.il, this.ilce, this.gorevYeri, this.unvan, this.servis});
   @override
   State<GorevliYerFormu> createState() => _GorevliYerFormuState();
 }
@@ -52,7 +53,7 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
     return n >= 2 && n <= 5;
   }
 
-  bool get _hazir => (!widget.ilk || _adGecerli(_ad.text)) && _ilce != null && _yer.text.trim().length >= 2;
+  bool get _hazir => (!(widget.ilk || widget.duzenle) || _adGecerli(_ad.text)) && _ilce != null && _yer.text.trim().length >= 2;
 
   String _bos(String s) => s.trim().replaceAll(RegExp(r'\s+'), ' ');
 
@@ -107,9 +108,16 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
     });
     final govde = <String, dynamic>{'il': _il, 'ilce': _ilce, 'gorev_yeri': _bos(_yer.text), 'unvan': _unvan, if (widget.ilk) 'ad_soyad': _bos(_ad.text)};
     final s = _servis();
-    final y = widget.ilk ? await s.profil(tok, govde) : await s.gorevYeri(tok, govde);
+    var y = widget.ilk ? await s.profil(tok, govde) : await s.gorevYeri(tok, govde);
+    // düzenleme kipinde ad-soyad değiştiyse ayrıca kaydedilir (sunucu: /gorevli/ad-soyad, en çok 5 kez)
+    final yeniAd = _ad.text.trim().replaceAll(RegExp(r'\s+'), ' ');
+    if (y.tamam && widget.duzenle && yeniAd != (widget.ad ?? '').trim()) y = await s.adSoyad(tok, yeniAd);
     if (!mounted) return;
     setState(() => _yukleniyor = false);
+    if (!y.tamam && y.kod == 429) {
+      setState(() => _hata = M.gorevliAdHakDoldu);
+      return;
+    }
     if (y.tamam) {
       Navigator.of(context).pop(true);
     } else if (y.kod == 409 && widget.ilk) {
@@ -160,17 +168,17 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop(false)),
             sag: YuvarlakDugme(ikon: 'kapat', anlam: 'Kapat', onTap: () => Navigator.of(context).pop(false)),
             ust: M.gorevliUst,
-            baslik: BuyukBaslik(widget.ilk ? M.gorevliProfilBaslik : M.gorevliYerDegisti),
+            baslik: BuyukBaslik(widget.ilk ? M.gorevliProfilBaslik : widget.duzenle ? M.gorevliBilgiDuzenle : M.gorevliYerDegisti),
           ),
           Expanded(
             child: ListView(
               key: const ValueKey('gy_liste'),
               padding: const EdgeInsets.fromLTRB(R.s5, R.s3, R.s5, R.s6),
               children: [
-                Text(widget.ilk ? M.gorevliProfilAciklama : M.gorevliYerDegistiAciklama,
+                Text(widget.ilk ? M.gorevliProfilAciklama : widget.duzenle ? M.gorevliBilgiDuzenleAciklama : M.gorevliYerDegistiAciklama,
                     key: const ValueKey('gy_aciklama'), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
                 const SizedBox(height: R.s4),
-                if (widget.ilk)
+                if (widget.ilk || widget.duzenle)
                   FormAlani(key: const ValueKey('gy_ad'), etiket: M.gorevliAd, ipucu: M.gorevliAdYer, denetleyici: _ad, enCok: 60, onChanged: (_) => setState(() {})),
                 _secim(r, M.alanIl, _il, _ilSec),
                 _secim(r, M.alanIlce, _ilce ?? M.alanIlce, _ilceSec),
@@ -184,7 +192,7 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
             decoration: BoxDecoration(color: r.zemin, border: Border(top: BorderSide(color: r.cizgi))),
             child: Column(mainAxisSize: MainAxisSize.min, children: [
               if (_hata != null) Padding(padding: const EdgeInsets.only(bottom: R.s3), child: Text(_hata!, textAlign: TextAlign.center, style: Y.kucuk(r))),
-              AnaDugme(widget.ilk ? M.gorevliKaydetDugme : M.gorevliYerKaydet, onTap: (_hazir && !_yukleniyor) ? _kaydet : null),
+              AnaDugme(widget.ilk ? M.gorevliKaydetDugme : widget.duzenle ? M.gorevliAdKaydet : M.gorevliYerKaydet, onTap: (_hazir && !_yukleniyor) ? _kaydet : null),
             ]),
           ),
         ]),
@@ -192,3 +200,4 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
     );
   }
 }
+

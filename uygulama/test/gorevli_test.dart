@@ -292,6 +292,50 @@ void main() {
     expect((tester.widget(find.byKey(const ValueKey('g_kart_3'))) as Text).data, 'Kars · Sarıkamış');
   });
 
+  testWidgets('16.10.2026 ⋮ menüsü: "Bilgilerimi düzenle" ad-soyad dahil hepsini ön dolu açar; ad değişince /gorevli/ad-soyad da çağrılır', (tester) async {
+    uzun(tester);
+    final d = await panelDurumu();
+    var ad = 'Hasan Kurguluoglu', yer = 'Korgan Merkez Camii';
+    String? adGiden;
+    Map<String, dynamic>? yerGiden;
+    final servis = GorevliServisi(
+      kok: 'https://g.test',
+      istemci: MockClient((req) async {
+        if (req.url.path == '/gorevli/durum') {
+          return _y({'durum': 'onayli', 'profil_tamam': true, 'ad_soyad': ad, 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': yer, 'unvan': 'İmam-Hatip'});
+        }
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        if (req.url.path == '/gorevli/gorev-yeri') {
+          yerGiden = jsonDecode(req.body) as Map<String, dynamic>;
+          yer = yerGiden!['gorev_yeri'] as String;
+          return _y({'durum': 'onayli', 'profil_tamam': true});
+        }
+        if (req.url.path == '/gorevli/ad-soyad') {
+          adGiden = (jsonDecode(req.body) as Map<String, dynamic>)['ad_soyad'] as String;
+          ad = adGiden!;
+          return _y({'durum': 'onayli', 'profil_tamam': true, 'ad_soyad': ad});
+        }
+        return http.Response('yok', 404);
+      }),
+    );
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('g_menu')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliBilgiDuzenle));
+    await tester.pumpAndSettle();
+    expect(find.byType(GorevliYerFormu), findsOneWidget);
+    expect(find.byKey(const ValueKey('gy_ad')), findsOneWidget); // ad da düzenlenebilir
+    await tester.enterText(_alan('gy_ad'), 'Hasan Kurguluoğlu');
+    await tester.enterText(_alan('gy_yer'), 'Tepe Camii');
+    await tester.tap(find.text(M.gorevliAdKaydet));
+    await tester.pumpAndSettle();
+    expect(yerGiden!['gorev_yeri'], 'Tepe Camii');
+    expect(adGiden, 'Hasan Kurguluoğlu');
+    expect(find.byType(GorevliYerFormu), findsNothing);
+  });
+
   testWidgets('⋮ menüsü: "Çıkış yap" oturumu siler ve paneli kapatır', (tester) async {
     telefon(tester);
     final d = await panelDurumu();

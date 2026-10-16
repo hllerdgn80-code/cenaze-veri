@@ -62,6 +62,7 @@ class GorevliServisi {
 
   /// "Görev yerim değişti": il, ilce, gorev_yeri, unvan (ad değişmez); eski ilanlar değişmez
   Future<AileYanit> gorevYeri(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/gorev-yeri', govde: govde, oturum: oturum);
+  Future<AileYanit> adSoyad(String oturum, String ad) => _istek('POST', '/gorevli/ad-soyad', govde: {'ad_soyad': ad}, oturum: oturum);
 
   Future<AileYanit> durum(String oturum) => _istek('GET', '/gorevli/durum', oturum: oturum);
   Future<AileYanit> ilanlarim(String oturum) => _istek('GET', '/gorevli/ilanlarim', oturum: oturum);
