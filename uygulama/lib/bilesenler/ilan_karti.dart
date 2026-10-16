@@ -46,10 +46,6 @@ class IlanKarti extends StatelessWidget {
         ],
         const SizedBox(height: R.s3),
       ],
-      if (ilan.aile) ...[
-        Hap(M.kartYakini, zemin: r.vurguZemin, renk: r.vurguMetin),
-        const SizedBox(height: R.s3),
-      ],
       Text(trBuyuk(ilan.etiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
       const SizedBox(height: R.s2),
       Text('${sh && ilan.rutbe != null ? '${ilan.rutbe} ' : ''}${ilan.adSoyad}',
@@ -98,9 +94,9 @@ class IlanKarti extends StatelessWidget {
       if (np[1].isNotEmpty || (ilan.definYeri ?? '').isNotEmpty) ...[
         const SizedBox(height: R.s3),
         Row(children: [
-          if (np[1].isNotEmpty) Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'cami', etiket: M.tamHaritaCami, yer: np[1])),
+          if (np[1].isNotEmpty) Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'cami', etiket: M.haritaCami, yer: np[1])),
           if ((ilan.definYeri ?? '').isNotEmpty)
-            Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'mezar', etiket: M.tamHaritaMezarlik, yer: ilan.definYeri!)),
+            Expanded(child: _HaritaBaglantisi(ilan: ilan, anahtar: 'mezar', etiket: M.haritaMezarlik, yer: ilan.definYeri!)),
         ]),
       ],
       if (sh) ...[

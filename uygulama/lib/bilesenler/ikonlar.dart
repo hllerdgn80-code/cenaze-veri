@@ -33,7 +33,6 @@ const Map<String, String> _yollar = {
   'kilit': '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
   // Alt sekmeler
   'sk_ilan': '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>',
-  'sk_tam': '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8M8 12h3M8 16h3M14 12h2v4h-2z"/>',
   'sk_sayfam': '<path d="M7 3h10v18l-5-4-5 4z"/>',
   'sk_dua': '<path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5c-3-.5-6 0-8 1.5z"/><path d="M12 6v14.5"/>',
   'sk_hatirla': '<path d="M12 13c-2-3-6-5-6-8a3 3 0 0 1 6 0 3 3 0 0 1 6 0c0 3-4 5-6 8z"/><path d="M12 13l-4 8M12 13l4 8"/>',

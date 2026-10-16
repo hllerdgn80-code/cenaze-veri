@@ -84,7 +84,7 @@ class AppDurum extends ChangeNotifier {
 
   // Sekmeli kabuk
   int sekme = 0;
-  final List<GlobalKey<NavigatorState>> sekmeAnahtarlari = List.generate(5, (_) => GlobalKey<NavigatorState>());
+  final List<GlobalKey<NavigatorState>> sekmeAnahtarlari = List.generate(4, (_) => GlobalKey<NavigatorState>());
 
   /// Logoya dokunma ya da adres değişimi: İlanlar sekmesi, bugün
   int anaEkranSayaci = 0;

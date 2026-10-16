@@ -64,26 +64,3 @@ class _SehitBilgiPenceresi extends StatelessWidget {
     );
   }
 }
-
-/// Eski yol (AileFormu(sehit: true)) için: sayfa açılır açılmaz pencereyi gösterir, kapanınca kendini kaldırır.
-class SehitBilgiEkrani extends StatefulWidget {
-  const SehitBilgiEkrani({super.key});
-  @override
-  State<SehitBilgiEkrani> createState() => _SehitBilgiEkraniState();
-}
-
-class _SehitBilgiEkraniState extends State<SehitBilgiEkrani> {
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) async {
-      if (!mounted) return;
-      final rota = ModalRoute.of(context);
-      await sehitBilgiGoster(context);
-      if (mounted && rota != null) Navigator.of(context).removeRoute(rota); // yalnız kendi rotasını kaldırır
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) => const Scaffold(body: SizedBox.expand());
-}

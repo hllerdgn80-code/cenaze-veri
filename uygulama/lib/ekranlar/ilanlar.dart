@@ -14,6 +14,7 @@ import '../cekirdek/veri.dart';
 import '../cekirdek/yardimci.dart';
 import 'adres.dart';
 import 'gorevli_kayit.dart';
+import 'sehit_bilgi.dart';
 
 class IlanlarEkrani extends StatefulWidget {
   const IlanlarEkrani({super.key});
@@ -300,6 +301,16 @@ class IlanKutusu extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: R.s2, horizontal: R.s3),
             child: Text(M.ilanKutusuKayit, textAlign: TextAlign.center, // bağlantı: vurgu (altın) rengi, altı çizili, 14
+                style: TextStyle(fontSize: 14, height: 18 / 14, color: r.vurguMetin, decoration: TextDecoration.underline, decorationColor: r.vurguMetin)),
+          ),
+        ),
+        InkWell(
+          key: const ValueKey('ilan_kutusu_sehit'),
+          onTap: () => sehitBilgiGoster(context),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: R.s2, horizontal: R.s3),
+            child: Text(M.ilanKutusuSehit,
+                textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 14, height: 18 / 14, color: r.vurguMetin, decoration: TextDecoration.underline, decorationColor: r.vurguMetin)),
           ),
         ),

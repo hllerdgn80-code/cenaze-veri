@@ -62,13 +62,5 @@ class AileServisi {
   Future<AileYanit> dogrula(String basvuruId, String kod) =>
       _gonder('/aile/dogrula', {'basvuru_id': basvuruId, 'kod': kod});
 
-  /// Play satın alma makbuzunu Worker'a bildirir; ilan `odeme_bekliyor` → `yayinda`
-  Future<AileYanit> odeme(String basvuruId, String purchaseToken, String orderId) => _gonder('/aile/odeme', {
-        'basvuru_id': basvuruId,
-        'purchase_token': purchaseToken,
-        'order_id': orderId,
-        'urun': 'tam_sayfa_ilan',
-      });
-
   Future<AileYanit> bildir(String ilanId, String neden) => _gonder('/aile/bildir', {'ilan_id': ilanId, 'neden': neden});
 }

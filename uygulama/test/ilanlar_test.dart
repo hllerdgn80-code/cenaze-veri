@@ -1,7 +1,11 @@
 // Mutabık ekran kuralları: §27 şehit en üstte, §21/1 ilçesiz kaynak "İl geneli", §21/2 diğer ilçeler,
-// §21/3 bildirim teklifi, §32 bebek rozeti, Tam Sayfa "Vefat ilanı hazırlayın" + onay kutusu kilidi.
+// §21/3 bildirim teklifi, §32 bebek rozeti, 4 sekme, şehit bilgi penceresi, Bildir.
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:http/http.dart' as http;
+import 'package:http/testing.dart';
 import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
 import 'package:kimin_cenazesi/bilesenler/ortak.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
@@ -152,54 +156,79 @@ void main() {
     expect(find.text(M.gorevliGirisNot), findsOneWidget); // kayıt ekranının alt başlığı (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
   });
 
-  testWidgets('Tam Sayfa: iki giriş, "Yayımlanan vefat ilanları" önizlemeleri, fiyat kartıyla açılan form, şehit formu', (tester) async {
+  testWidgets('Sekme çubuğu 4 sekme (İlanlar · Sayfam · Dualar · Hatırla); 5. sekme yok', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Ordu', 'ilce': 'Ünye'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey('sekme_1')));
-    await tester.pumpAndSettle();
-    expect(odemeAcik, isTrue);
-    expect(find.text('Vefat ilanı hazırlayın'), findsOneWidget);
-    expect(find.text('Şehidimiz için ilan hazırlayın'), findsOneWidget);
-    expect(find.text(trBuyuk('Yayımlanan vefat ilanları')), findsOneWidget);
-    expect(find.text('NURCİHAN ÖRNEKSOY'), findsOneWidget); // önizleme kartı
+    for (int i = 0; i < 4; i++) {
+      expect(find.byKey(ValueKey('sekme_$i')), findsOneWidget);
+    }
+    expect(find.byKey(const ValueKey('sekme_4')), findsNothing);
+    expect(M.sekmeler, ['İlanlar', 'Sayfam', 'Dualar', 'Hatırla']);
+  });
 
-    // Önizlemeye dokununca tam ilan + harita bağlantıları
-    await tester.tap(find.byKey(const ValueKey('tam_Nurcihan Örneksoy')));
+  testWidgets('Şehit cenazesi: ilan kutusundaki bağlantı bilgi PENCERESİ açar (yalnız din görevlisi); form yok', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    await tester.pumpWidget(kapsamli(d, const IlanKutusu(il: 'Kars', ilce: 'Merkez')));
     await tester.pumpAndSettle();
-    // Harita bağlantıları gazete ilanının altında (ListView tembel kurar): kaydırarak görünür kıl
-    final kaydirici = find.descendant(of: find.byType(ListView).last, matching: find.byType(Scrollable)).first;
-    await tester.scrollUntilVisible(find.text(M.tamHaritaCami), 300, scrollable: kaydirici);
-    await tester.pumpAndSettle();
-    expect(find.text(M.tamHaritaCami), findsOneWidget);
-    expect(find.text(M.tamHaritaMezarlik), findsOneWidget);
-    await tester.tap(find.byType(YuvarlakDugme).first);
-    await tester.pumpAndSettle();
-
-    // "Vefat ilanı hazırlayın" → fiyat kartı (200 ₺)
-    await tester.tap(find.text('Vefat ilanı hazırlayın'));
-    await tester.pumpAndSettle();
-    expect(find.text('Vefat İlanı'), findsOneWidget);
-    expect(find.text('200 ₺'), findsOneWidget);
-    expect(find.text(M.fiyatMadde4), findsOneWidget);
-    await tester.tap(find.byType(YuvarlakDugme).first);
-    await tester.pumpAndSettle();
-
-    // "Şehidimiz için ilan hazırlayın" → 15.10.2026: form YOK; bilgi PENCERESİ (şehit ilanı yalnız din görevlisinden)
-    await tester.tap(find.text('Şehidimiz için ilan hazırlayın'));
+    await tester.tap(find.byKey(const ValueKey('ilan_kutusu_sehit')));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('sehit_bilgi_pencere')), findsOneWidget);
     expect(find.text(M.sehitBilgiBaslik), findsOneWidget);
     expect(find.text(M.sehitBilgiGovde), findsOneWidget);
     expect(find.text(M.sehitBilgiKapanis), findsOneWidget);
-    expect(find.text(M.ilanKutusuKayit), findsOneWidget);
     expect(find.text('Şehit İlanı'), findsNothing); // form başlığı yok
-    expect(find.text(trBuyuk('Adım 1 / 5')), findsNothing);
-    // pencere "Tamam" ile kapanır; Tam Sayfa ekranı yerinde kalır
     await tester.tap(find.text(M.aileBittiDugme));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('sehit_bilgi_pencere')), findsNothing);
-    expect(find.text('Şehidimiz için ilan hazırlayın'), findsOneWidget);
+  });
+
+  testWidgets('Kart: aile kaydında rozet yok; Bildir akışı (Doğrulandı rozeti yok)', (tester) async {
+    telefon(tester);
+    Map<String, dynamic>? giden;
+    final d = await testDurumu(
+      istemci: MockClient((req) async {
+        if (req.url.path == '/aile/bildir') {
+          giden = jsonDecode(req.body) as Map<String, dynamic>;
+          return http.Response(jsonEncode({'alindi': true}), 200, headers: {'content-type': 'application/json; charset=utf-8'});
+        }
+        return http.Response('yok', 404);
+      }),
+    );
+    final r = Ilan.fromJson({
+      'id': 'a1',
+      'ad_soyad': 'Veli Örnek',
+      'ilce': 'Merkez',
+      'aile': true,
+      'dogrulandi': true, // eski veri gelse bile rozet çıkmaz
+      'namaz_tarihi': '2026-10-14',
+    })!;
+    await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: r)));
+    await tester.pumpAndSettle();
+    expect(find.text('Doğrulandı'), findsNothing);
+
+    await tester.tap(find.text('Bu ilanda bir yanlışlık mı var?'));
+    await tester.pumpAndSettle();
+    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, 'Bildirin')).onTap, isNull);
+    await tester.tap(find.text('Bu ilan gerçek değil'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.widgetWithText(AnaDugme, 'Bildirin'));
+    await tester.pumpAndSettle();
+    expect(giden, {'ilan_id': 'a1', 'neden': 'böyle bir kişi yok'});
+    expect(find.text('Bildiriminiz alındı. Teşekkür ederiz.'), findsOneWidget);
+    await tester.pump(const Duration(seconds: 3));
+    await tester.pumpAndSettle();
+  });
+
+  testWidgets('Kartta aile alanı yoksa Bildir yok', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final r = Ilan.fromJson({'id': 'x', 'ad_soyad': 'Hasan Örnek', 'namaz_tarihi': '2026-10-14'})!;
+    await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: r)));
+    await tester.pumpAndSettle();
+    expect(find.text('Doğrulandı'), findsNothing);
+    expect(find.text('Bu ilanda bir yanlışlık mı var?'), findsNothing); // Bildir yalnız aile kartlarında
   });
 }

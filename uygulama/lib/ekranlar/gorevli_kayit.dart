@@ -21,7 +21,7 @@ import 'gorevli_panel.dart';
 /// Uygulama içi kameradan, TC karartılmış 1600 px JPEG (GALERİ YOK). Testlerde sahte verilir. Hata: [KartIslenemedi].
 typedef FotoAl = Future<Uint8List?> Function();
 
-/// Din görevlisi girişi: oturum varsa panel, yoksa kayıt ekranı (Tam Sayfa düğmesi ve ilan kutusu bağlantısı kullanır)
+/// Din görevlisi girişi: oturum varsa panel, yoksa kayıt ekranı (ilan kutusu bağlantısı kullanır)
 Future<void> gorevliKapisi(BuildContext context, {required String il, String? ilce}) {
   final d = Kapsam.oku(context);
   final nav = Navigator.of(context, rootNavigator: true);
