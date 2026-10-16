@@ -23,7 +23,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
-  "not": "Günde 1 derleme haber (Ekim sitemap'inde 13 'konya-da-<gün>-vefat-edenler' sayfası); Konya Büyükşehir Mezarlık Bilgi Sistemi'ne dayanır, ilçeler dahil. Sitemap deseni: /sitemap_posts-{YYYY}-{MM}.xml (index: /sitemap_posts.xml); RSS /rss/ (100 haber). robots: yalnız /arama/, /arsiv/, /haber-gundemi/ vb. yasak"
+  "not": "Günde 1 derleme haber (Ekim sitemap'inde 13 'konya-da-<gün>-vefat-edenler' sayfası); Konya Büyükşehir Mezarlık Bilgi Sistemi'ne dayanır, ilçeler dahil. Sitemap deseni: /sitemap_posts-{YYYY}-{MM}.xml (index: /sitemap_posts.xml); RSS /rss/ (100 haber). robots: yalnız /arama/, /arsiv/, /haber-gundemi/ vb. yasak",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "konya",
@@ -101,7 +103,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
-  "not": "Büyükşehir toplu sayfa: Ankara ve ilçeleri için 1–3 günlük 'ilçe ilçe isim isim' derleme (yaklaşık günaşırı). Aynı sitede Konya, Afyonkarahisar, Isparta, Burdur, Antalya, Denizli, Uşak listeleri de var (URL'de il adı: /ankara-..., /konya-...). /vefatlar liste sayfası ayrıca tek kişilik 'X Vefat <ad>' ilanları (Burdur/Bucak/Elmalı). robots: Allow /, yalnız /admin vb. yasak"
+  "not": "Büyükşehir toplu sayfa: Ankara ve ilçeleri için 1–3 günlük 'ilçe ilçe isim isim' derleme (yaklaşık günaşırı). Aynı sitede Konya, Afyonkarahisar, Isparta, Burdur, Antalya, Denizli, Uşak listeleri de var (URL'de il adı: /ankara-..., /konya-...). /vefatlar liste sayfası ayrıca tek kişilik 'X Vefat <ad>' ilanları (Burdur/Bucak/Elmalı). robots: Allow /, yalnız /admin vb. yasak",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "kayseri",
@@ -126,7 +130,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
-  "not": "Günlük Kayseri derlemesi (Mezarlık Bilgi Sistemi'ne dayalı); RSS /rss 100 haber, içinde 15 Ekim vefat haberi"
+  "not": "Günlük Kayseri derlemesi (Mezarlık Bilgi Sistemi'ne dayalı); RSS /rss 100 haber, içinde 15 Ekim vefat haberi",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "kayseri",
@@ -151,7 +157,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
-  "not": "Günlük 'Kayseri'de <gün> vefat edenler...' derlemesi; RSS /rss 100 haber; robots serbest"
+  "not": "Günlük 'Kayseri'de <gün> vefat edenler...' derlemesi; RSS /rss 100 haber; robots serbest",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "kayseri",
@@ -385,7 +393,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
-  "not": "Günlük 'Kırıkkale'de bugün vefat edenler (<gün> Ekim)'; RSS /rss 21 haber"
+  "not": "Günlük 'Kırıkkale'de bugün vefat edenler (<gün> Ekim)'; RSS /rss 21 haber",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "kirsehir",

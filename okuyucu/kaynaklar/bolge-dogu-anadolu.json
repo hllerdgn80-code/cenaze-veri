@@ -45,7 +45,9 @@
    "2026-09-29 Vefat İlanı: Cuma Özdemir (/vefat/28898003)"
   ],
   "guncel": "2026-10-15",
-  "note": "günlük 'Malatya'da vefat edenler' haberi + /vefat/<id>/<ad> ilan sayfaları; sitemap-latest.xml güncel; RSS'te ulusal ölüm haberleri de var, yerel süzgeç gerekir"
+  "note": "günlük 'Malatya'da vefat edenler' haberi + /vefat/<id>/<ad> ilan sayfaları; sitemap-latest.xml güncel; RSS'te ulusal ölüm haberleri de var, yerel süzgeç gerekir",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "isaretleyen": "ajan-dogu-anadolu",
@@ -140,7 +142,9 @@
    "2026-10-13 Malatya'da annesinin ölüm haberini aldı, 2 saat sonra kendisi de hayatını kaybetti"
   ],
   "guncel": "2026-10-15",
-  "note": "/vefat/<id>/<ad> ilan sayfaları var ama örneklenenler 2025-12 tarihli; ilan bölümü güncel görünmüyor, haberler RSS'te"
+  "note": "/vefat/<id>/<ad> ilan sayfaları var ama örneklenenler 2025-12 tarihli; ilan bölümü güncel görünmüyor, haberler RSS'te",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "isaretleyen": "ajan-dogu-anadolu",

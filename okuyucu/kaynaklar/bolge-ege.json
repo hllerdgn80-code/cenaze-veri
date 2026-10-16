@@ -25,7 +25,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-ege",
   "tarih": "2026-10-15",
-  "not": "her gün '<gün> Ekim 2026'da vefat edenler' derleme haberi (Ekim sitemap'inde 14 gün art arda) + /kutahya-vefatlar listesi + tek kişilik 'toprağa verildi' haberleri (Tavşanlı, Simav, Domaniç); Kocaeli Gazetesi ile aynı yazılım"
+  "not": "her gün '<gün> Ekim 2026'da vefat edenler' derleme haberi (Ekim sitemap'inde 14 gün art arda) + /kutahya-vefatlar listesi + tek kişilik 'toprağa verildi' haberleri (Tavşanlı, Simav, Domaniç); Kocaeli Gazetesi ile aynı yazılım",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "usak",

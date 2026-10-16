@@ -24,6 +24,8 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-akdeniz",
   "tarih": "2026-10-15",
-  "not": "Ekim sitemap'inde ~62 vefat haberi (günde 3-6, 'Burdur'da <ad> vefat etti' kalıbı) + /burdur-vefatlar listesi ('Vefat eden hemşehrilerimiz') + /vefat/<id>/<ad> tek kişilik ilan sayfaları; Kütahya'nın Sesi/Kocaeli Gazetesi ile aynı yazılım (/sites/1435/); robots: /ara, /api/, /yazdir/ vb. yasak, haber ve liste yolları serbest"
+  "not": "Ekim sitemap'inde ~62 vefat haberi (günde 3-6, 'Burdur'da <ad> vefat etti' kalıbı) + /burdur-vefatlar listesi ('Vefat eden hemşehrilerimiz') + /vefat/<id>/<ad> tek kişilik ilan sayfaları; Kütahya'nın Sesi/Kocaeli Gazetesi ile aynı yazılım (/sites/1435/); robots: /ara, /api/, /yazdir/ vb. yasak, haber ve liste yolları serbest",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  }
 ]

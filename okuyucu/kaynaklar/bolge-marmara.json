@@ -21,7 +21,9 @@
   "guncel": "2026-10-14",
   "isaretleyen": "ajan-marmara",
   "tarih": "2026-10-15",
-  "not": "/vefat/<id>/<ad-vefat-etti> ilan sayfaları (Ekim ayı sitemap'inde 20 kayıt, 15 günde); /kocaeli-vefatlar listesi tarihleri güvenilmez; ayrı tek tek sayfa datePublished meta'sı doğru; sitemap-latest.xml'de vefat sayfası her zaman bulunmaz, ay sitemap'i kullanılmalı"
+  "not": "/vefat/<id>/<ad-vefat-etti> ilan sayfaları (Ekim ayı sitemap'inde 20 kayıt, 15 günde); /kocaeli-vefatlar listesi tarihleri güvenilmez; ayrı tek tek sayfa datePublished meta'sı doğru; sitemap-latest.xml'de vefat sayfası her zaman bulunmaz, ay sitemap'i kullanılmalı",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "kocaeli",
@@ -45,7 +47,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-marmara",
   "tarih": "2026-10-15",
-  "not": "/vefat/<id>/<ad> ilan sayfaları (Ekim sitemap'inde 12 kayıt) + /kocaeli-vefatlar günlük 'hemşehrilerimiz' sayfası (15 Eki güncel); sitemap-latest.xml de kullanılabilir"
+  "not": "/vefat/<id>/<ad> ilan sayfaları (Ekim sitemap'inde 12 kayıt) + /kocaeli-vefatlar günlük 'hemşehrilerimiz' sayfası (15 Eki güncel); sitemap-latest.xml de kullanılabilir",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "sakarya",
@@ -72,7 +76,9 @@
   "guncel": "2026-10-15",
   "isaretleyen": "ajan-marmara",
   "tarih": "2026-10-15",
-  "not": "her gün 'Sakarya Haberleri: <gün> Sakarya vefatlar' derlemesi (gövdesinde ad listesi olup olmadığı doğrulanamadı) + tek tek 'toprağa verildi' haberleri (Ekim'de ~37 vefat/defin kayıtlı); /sakarya-vefatlar sayfası bugün boş; slug süzgeci: vefat|toprağa|hayatını kaybet"
+  "not": "her gün 'Sakarya Haberleri: <gün> Sakarya vefatlar' derlemesi (gövdesinde ad listesi olup olmadığı doğrulanamadı) + tek tek 'toprağa verildi' haberleri (Ekim'de ~37 vefat/defin kayıtlı); /sakarya-vefatlar sayfası bugün boş; slug süzgeci: vefat|toprağa|hayatını kaybet",
+  "calistir": "mac",
+  "not_mac": "16.10.2026: GitHub IP robots.txt 403, Mac robots Allow:/ -> Mac runner okur (H77)"
  },
  {
   "il": "canakkale",
