@@ -131,5 +131,55 @@
   "isaretleyen": "ajan-marmara",
   "tarih": "2026-10-15",
   "not": "WordPress; /aramizdan-ayrilanlar/<ad>-vefat-etti kategorisi (post-sitemap2.xml'de 75 kayıt; yeni ay yeni sitemap dosyasına geçebilir: post-sitemap3.xml…); robots.txt Disallow boş"
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "kirklareli",
+  "ad": "Önadım Gazetesi",
+  "url": "https://www.onadimgazetesi.com",
+  "rss_url": "https://www.onadimgazetesi.com/rss.xml",
+  "kanit": [
+   "2026-09-25 Karakaş Mahallesi'nden Acı Haber! Aysen Gökbayrak Vefat Etti",
+   "2026-09-25 Karahıdır Mahallesi'nden Acı Kayıp! Beynabi Kanlıoğlu Son Yolculuğuna Uğurlandı",
+   "2026-10-15 Uzunköprü'den Acı Haber! Emekli Ambulans Şoförü Muzaffer Sinop Hayatını Kaybetti"
+  ],
+  "guncel": "2026-10-16",
+  "not": "Mahalle adıyla vefat haberleri (Kırklareli merkez/Lüleburgaz/Uzunköprü); sık."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "kirklareli",
+  "ad": "Kırklareli Alternatif Gazetesi",
+  "url": "https://www.alternatifgazetesi.com",
+  "rss_url": "https://www.alternatifgazetesi.com/rss",
+  "kanit": [
+   "2026-09-30 KIRKLARELİ; Akalar Mahallesi'nden Şerif Soykan Hayatını Kaybetti",
+   "2026-09-30 AK Parti Lüleburgaz İlçe Başkanını Kahreden Vefat",
+   "2026-10-15 KIRKLARELİ; Erdem Soykan Genç Yaşta Toprağa Verildi"
+  ],
+  "guncel": "2026-10-16",
+  "not": "\"KIRKLARELİ; <ad> ...\" kalıbı."
  }
 ]

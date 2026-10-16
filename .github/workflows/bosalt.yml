@@ -1,0 +1,143 @@
+name: Havuzu bosalt (yayin)
+# 16.10.2026 H89 (sahibi: "bir mekanizma veriyi havuza toplasin, bir mekanizma da havuzda birikmeden kriterlerden gecirerek yayina alip
+# uygulamada gostersin"). TOPLAYICI = topla.yml (+ topla-tr.yml Mac): kaynaklari okur, havuza (ic veri onbellegi veri-ic-*) yazar.
+# BOSALTICI = bu is: kaynak OKUMAZ; havuzu (en yeni onbellek + depodaki Mac verisi veri-tr + din gorevlisi/aile ilanlari) kriterlerden
+# (kapi.py K1-K10, yayin_suz: tarih uydurma yok, tazelik, isimsiz bebek, ad/metin kilidi, kaynak izi soyma) gecirip yayinlar.
+# SAAT: DigitalOcean sunucusu her 15 dk (kc_tetikleyici.py bosalt.yml); topla.yml her turun sonunda da tetikler; GitHub schedule YEDEK
+# (gec tetiklese de zararsiz: is idempotent). Onceki cokuslere karsi (YURUT H55/H69/H74/H76/H81): checkout 3 deneme; depoya YAZMAZ (push
+# cakismasi yok); hicbir adim kosuyu kirmaz (Run failed e-postasi yok); yayin_suz sizinti bulursa yalniz YAYIN ATLANIR; canlida degisiklik
+# yoksa Pages'e yayin yapilmaz (saatlik yayin siniri); yayin cakisirsa 90 sn sonra bir kez daha; bekci (kc_saglik.py) 45 dk basarili
+# bosaltma yoksa yeniden tetikler; topla.yml bosaltici 60 dk calismamissa yayini kendisi yapar (yedek).
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "7,37 * * * *"   # YEDEK; asil saat sunucuda
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bosalt
+  cancel-in-progress: true
+
+env:
+  TZ: Europe/Istanbul
+  AILE_WORKER_URL: ${{ vars.AILE_WORKER_URL }}
+  PANEL_ANAHTARI: ${{ secrets.PANEL_ANAHTARI }}
+
+jobs:
+  bosalt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
+        continue-on-error: true
+      - uses: actions/setup-python@v5
+        continue-on-error: true
+        with:
+          python-version: "3.12"
+      - name: Havuzu onbellekten al (en yeni toplama)
+        id: onbellek
+        uses: actions/cache/restore@v4
+        continue-on-error: true
+        with:
+          path: veri
+          key: veri-ic-bosalt-${{ github.run_id }}
+          restore-keys: veri-ic-
+      - name: Havuz var mi
+        id: havuz
+        run: |
+          if [ -f veri/ozet.json ] && [ -f okuyucu/yayin_suz.py ]; then echo "var=1" >> "$GITHUB_OUTPUT"; echo "havuz: ${{ steps.onbellek.outputs.cache-matched-key }}"
+          else echo "var=0" >> "$GITHUB_OUTPUT"; echo "::warning::HAVUZ YOK (onbellek bulunamadi ya da checkout eksik) - yayin atlandi"; fi
+      - name: Havuza Mac verisi ve din gorevlisi/aile ilanlarini kat
+        if: steps.havuz.outputs.var == '1'
+        continue-on-error: true
+        run: |
+          rm -rf gh_ulusal; mkdir -p gh_ulusal
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "gh_ulusal/$il"; cp "$f" "gh_ulusal/$il/_ulusal.json"
+          done
+          if [ -f veri-tr/ozet-tr.json ] && python3 -c "
+          import json,sys
+          from datetime import datetime,timezone
+          g=json.load(open('veri-tr/ozet-tr.json',encoding='utf-8')).get('guncelleme')
+          try: y=(datetime.now(timezone.utc)-datetime.fromisoformat(g).astimezone(timezone.utc)).total_seconds()/3600
+          except Exception: y=9999
+          print(f'veri-tr yasi: {y:.1f} saat'); sys.exit(0 if y<=36 else 1)"; then
+            for d in veri-tr/*/; do cp -r "$d" veri/; done
+            python3 okuyucu/hepsi.py --ozet-ekle veri-tr/ozet-tr.json || echo "::warning::veri-tr ozeti katilamadi"
+            python3 okuyucu/kayitli_kaynak.py --ulusal-katla gh_ulusal || echo "::warning::ulusal kayitlar geri katilamadi"
+          fi
+          rm -f veri/ozet.[0-9]*.json
+          python3 okuyucu/aile_al.py || echo "::warning::aile ilanlari okunamadi"
+          python3 okuyucu/gorevli_al.py || echo "::warning::gorevli ilanlari okunamadi"
+          python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
+          python3 okuyucu/gorevli_birlestir.py || echo "::warning::gorevli birlestirme basarisiz"
+          python3 okuyucu/kapi.py || echo "::warning::kapi hata verdi"
+      - name: Kriterlerden gecir (yayin klasoru)
+        id: hazirla
+        if: steps.havuz.outputs.var == '1'
+        continue-on-error: true
+        run: |
+          rm -rf site/veri; mkdir -p site   # depodaki site/ (surum.json zorunlu guncelleme, gizlilik, 404) KORUNUR; yalniz veri yenilenir
+          cp -r veri site/
+          mkdir -p site/veri/kaybettiklerimiz
+          if [ -d veri/kaybettiklerimiz ]; then cp -r veri/kaybettiklerimiz/. site/veri/kaybettiklerimiz/; fi
+          python3 -B okuyucu/test_yayin_suz.py || echo "::warning::yayin_suz testi gecmedi"
+          python3 okuyucu/yayin_suz.py site/veri
+          python3 okuyucu/yayin_kontrol.py veri/ozet.json site/veri/ozet.json site/veri || echo "::warning::yayin kontrol hata verdi"
+          if [ -f uygulama/web/gizlilik.html ]; then cp uygulama/web/gizlilik.html site/kimincenazesi-gizlilik.html; fi
+          [ -f site/surum.json ] || echo "::warning::site/surum.json yok (zorunlu guncelleme kapisi)"
+          echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
+      - name: Havuz kontrolu (kriterden gecen her kayit yayinda mi; canlidan fark var mi)
+        id: kontrol
+        if: steps.hazirla.outcome == 'success'
+        continue-on-error: true
+        run: python3 okuyucu/havuz_kontrol.py veri site/veri
+      - name: Cloudflare Pages'e yayimla
+        if: ${{ steps.hazirla.outcome == 'success' && steps.kontrol.outputs.degisti != '0' && env.CF_TOKEN != '' }}
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ba872dc9ccbc4853f9f06378bc456ab7
+          command: pages deploy site --project-name=kimincenazesi-veri --branch=main --commit-dirty=true
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ steps.hazirla.outcome == 'success' && steps.kontrol.outputs.degisti != '0' }}
+        id: paket
+        continue-on-error: true
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: yayin1
+        if: ${{ steps.paket.outcome == 'success' }}
+        continue-on-error: true
+      - if: ${{ steps.yayin1.outcome == 'failure' }}
+        run: sleep 90
+      - uses: actions/deploy-pages@v4
+        if: ${{ steps.yayin1.outcome == 'failure' }}
+        continue-on-error: true
+      - name: Ozet
+        if: ${{ always() }}
+        run: |
+          echo "havuz=${{ steps.havuz.outputs.var }} hazirla=${{ steps.hazirla.outcome }} degisti=${{ steps.kontrol.outputs.degisti }} yayin=${{ steps.yayin1.outcome }}" | tee -a "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.hazirla.outcome }}" = "failure" ]; then echo "::warning::KRITER ADIMI DUSTU (sizinti ya da hata) - yayin YAPILMADI, onceki yayin duruyor"; fi

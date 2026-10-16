@@ -157,5 +157,108 @@
   "isaretleyen": "ajan-karadeniz",
   "tarih": "2026-10-15",
   "not": "Ayda ~2-6 cenaze/vefat haberi (foto-galeri/ altında); günlük derleme yok, ZAYIF kaynak ama Bartın'da başka kaynak bulunamadı. Sitemap /sitemap/sitemap-{YYYY}-{MM}.xml; RSS adresi doğrulanmadı. robots: /arama/, /index.php vb. yasak"
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 120,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "sinop",
+  "ad": "Sinop Flaş Haber",
+  "url": "https://www.sinopflashaber.com",
+  "rss_url": "https://www.sinopflashaber.com/rss",
+  "kanit": [
+   "2026-10-13 Kahramaneli Köyü Muhtarı Muhammed Türkeri son yolculuğuna uğurlandı",
+   "2026-10-08 Eski Bağımsız Belediye Başkan Adayı Celal Gündüz hayatını kaybetti",
+   "2026-09-21 Ayşen Gül dualarla son yolculuğuna uğurlandı"
+  ],
+  "guncel": "2026-10-16",
+  "not": "Ayda ~4-6; haber genel."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "mac",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "sinop",
+  "ad": "Vitrin Haber",
+  "url": "https://www.vitrinhaber.com",
+  "rss_url": "https://www.vitrinhaber.com/rss",
+  "kanit": [
+   "2026-10-13 Emekli öğretmen Bayrak vefat etti",
+   "2026-10-11 Eski esnaf Gençtürk vefat etti",
+   "2026-10-13 Traktör kazasında hayatını kaybeden muhtar toprağa verildi"
+  ],
+  "guncel": "2026-10-13",
+  "not": "Ana sayfaya betikle erişimde 403 (CI engeli olası) -> calistir mac; robots.txt Disallow yok."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "sitemap": "https://www.gundem67.com.tr/static/sitemap/googleNews.xml",
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "zonguldak",
+  "ad": "Gündem 67",
+  "url": "https://www.gundem67.com.tr",
+  "rss_url": null,
+  "kanit": [
+   "2026-10-15 Zonguldak'ın tanınmış isminden acı haber: Duran Bircan hayatını kaybetti",
+   "2026-10-13 Sadun Duran'a son yolculuğuna uğurlandı",
+   "2026-10-12 Elektrikçi Yakup Odabaşı son yolculuğuna uğurlandı"
+  ],
+  "guncel": "2026-10-15",
+  "not": "RSS yok, Google News sitemap kullanılır; sık vefat/uğurlama haberi."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "sitemap",
+  "sitemap": "https://www.safakgazete.com/sitemap.xml",
+  "liste_url": null,
+  "takma": [
+   "Bartın",
+   "Ulus"
+  ],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 120,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "zonguldak",
+  "ad": "Şafak Gazetesi (Zonguldak/Bartın)",
+  "url": "https://www.safakgazete.com",
+  "rss_url": null,
+  "kanit": [
+   "2026-10-15 Yıllarca direksiyon salladı: Erkan Özmen hayatını kaybetti",
+   "2026-10-14 Zonguldak'ta acı haber: Aziz Koşar hayatını kaybetti",
+   "2026-10-13 Ulus'ta acı kayıp: İsmet Çetin hayatını kaybetti"
+  ],
+  "guncel": "2026-10-15",
+  "not": "Bartın (Ulus) haberleri de var; sitemap_url doğrulanmadı."
  }
 ]

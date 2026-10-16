@@ -195,5 +195,108 @@
   ],
   "guncel": "2026-10-15",
   "note": "Erzurum'un ilk kaynağı; vefat/defin haberi ayda ~3 (düşük sıklık), çoğu kaza haberi"
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "agri",
+  "ad": "Ağrı Hürses Gazetesi",
+  "url": "https://www.agrihurses.net",
+  "rss_url": "https://www.agrihurses.net/rss",
+  "kanit": [
+   "2026-10-13 Mehmet Aydemir Vefat Etti (Cenazesi Bezirhane Köyü'nde defnedilmiştir)",
+   "2026-10-10 Fikri Eroğul Vefat Etti",
+   "2026-09-28 Hacı Mehmet Polat Vefat Etti"
+  ],
+  "guncel": "2026-10-15",
+  "not": "Düzenli \"X Vefat Etti\" haberleri; Ağrı merkez ve köyler. Metinde cenaze günü her zaman yok (uygulama filtresi eler)."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [
+   "Doğubayazıt",
+   "Doğubeyazıt"
+  ],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "agri",
+  "ad": "Doğubayazıt Gazetesi",
+  "url": "https://www.dogubayazitgazetesi.com",
+  "rss_url": "https://www.dogubayazitgazetesi.com/rss",
+  "kanit": [
+   "2026-10-16 Doğubeyazıt'ta Zerener ailesinin acı günü: Fazile Zerener vefat etti",
+   "2026-10-06 Doğubeyazıt'ta Duman ailesinin acı günü: Mustafa Duman vefat etti",
+   "2026-09-30 Doğubayazıtlı Gers ailesinin acı günü: Mustafa Gers vefat etti"
+  ],
+  "guncel": "2026-10-16",
+  "not": "\"X ailesinin acı günü: Y vefat etti\" kalıbı, sık; Doğubayazıt ilçesi (Ağrı) için."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "hakkari",
+  "ad": "Hakkari İl Sesi Gazetesi",
+  "url": "https://www.hakkariilsesigazetesi.com",
+  "rss_url": "https://www.hakkariilsesigazetesi.com/rss",
+  "kanit": [
+   "2026-10-15 Yılmaz Ailesinin acı günü: Fatma Yılmaz vefat etti",
+   "2026-10-11 Kaya ailesinin acı günü: Meyan Kaya vefat etti",
+   "2026-09-28 Babasının kucağındayken üzerine kaya parçası düşen Kaan, toprağa verildi"
+  ],
+  "guncel": "2026-10-15",
+  "not": "Kalıp \"X ailesinin acı günü\"; haftada ~2."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "erzurum",
+  "ad": "Erzurum Pusula Gazetesi",
+  "url": "https://www.gazetepusula.net",
+  "rss_url": "https://www.gazetepusula.net/rss.xml",
+  "kanit": [
+   "2026-10-14 Annesinin acı haberiyle yola çıkacaktı, aynı gün hayatını kaybetti",
+   "2026-10-03 Asansör kazasında hayatını kaybetmişti! Gözyaşlarıyla toprağa verildi",
+   "2026-09-26 Erzurum'da Ayça Hızarcı ve Gazi Diler toprağa verildi"
+  ],
+  "guncel": "2026-10-15",
+  "not": "Ayda ~3-4 defin haberi, çoğu kaza; düşük sıklık."
  }
 ]

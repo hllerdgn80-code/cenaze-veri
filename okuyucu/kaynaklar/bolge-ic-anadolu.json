@@ -550,5 +550,80 @@
   "isaretleyen": "ajan-ic-anadolu",
   "tarih": "2026-10-15",
   "not": "Kategori sayfası /cankiri-vefat-haberleri/ + kategori sitemap'i (/cankiri-vefat-haberleri.xml, statik, lastmod'lu); haftada ~1-3 tek kişilik haber ('X Vefat Etti', Çankırı esnaf/öğretmen/eczacı). Çankırı Belediyesi vefat listesi (cankiri.bel.tr/vefat-edenler) cankiri.py'de ZATEN okunuyor, tekrar yazılmadı. robots: Allow /"
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "corum",
+  "ad": "Çorum Haber Gazetesi",
+  "url": "https://www.corumhaber.net",
+  "rss_url": "https://www.corumhaber.net/rss",
+  "kanit": [
+   "2026-10-15 Hanefi Bayburtlu vefat etti (cenaze 16 Ekim Cuma, Akşemseddin Camii, Cuma namazı sonrası)",
+   "2026-10-15 Sevilen öğretmen son yolculuğuna uğurlandı",
+   "2026-09-30 Muharrem Kadit vefat etti"
+  ],
+  "guncel": "2026-10-16",
+  "not": "Günde ~2 vefat haberi; metinde \"yarın (16 Ekim)\" gibi AÇIK cenaze günü var."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 60,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "corum",
+  "ad": "Çorum Hakimiyet",
+  "url": "https://www.corumhakimiyet.net",
+  "rss_url": "https://www.corumhakimiyet.net/rss",
+  "kanit": [
+   "2026-10-15 Halim Alptekin vefat etti",
+   "2026-10-15 Sınıf öğretmeni son yolculuğuna uğurlandı",
+   "2026-10-15 Hanefi Bayburtlu hayatını kaybetti"
+  ],
+  "guncel": "2026-10-16",
+  "not": "Çorum Haber ile aynı vefatları verebilir (K10 tekilleştirir)."
+ },
+ {
+  "ilce": null,
+  "tur": "yerel_basin",
+  "kalip": "rss",
+  "sitemap": null,
+  "liste_url": null,
+  "takma": [],
+  "kesin_yerel": false,
+  "calistir": "github",
+  "siklik_dk": 120,
+  "robots": "izin",
+  "isaretleyen": "ajan-yeni-aci-1610",
+  "tarih": "2026-10-16",
+  "il": "eskisehir",
+  "ad": "Eskişehir Haberleri (eskisehir.net)",
+  "url": "https://www.eskisehir.net",
+  "rss_url": "https://www.eskisehir.net/rss",
+  "kanit": [
+   "2026-10-15 Han'ın eski belediye başkanı İbrahim Koğar son yolculuğuna uğurlanıyor",
+   "2026-10-14 Han'ın eski belediye başkanı İbrahim Koğar hayatını kaybetti",
+   "2026-10-15 Nabi Avcı'nın ilkokul müdürü hayatını kaybetti"
+  ],
+  "guncel": "2026-10-16",
+  "not": "Eskişehir il genel haber; vefat haberleri seyrek-orta."
  }
 ]

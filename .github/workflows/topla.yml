@@ -107,6 +107,7 @@ jobs:
       contents: write
       pages: write
       id-token: write
+      actions: write        # 16.10.2026 H89: bosalt.yml tetikleme + durum okuma
     environment:
       name: github-pages
     steps:
@@ -215,6 +216,14 @@ jobs:
         with:
           path: veri
           key: veri-ic-${{ github.run_id }}-${{ github.run_attempt }}
+      # 16.10.2026 H89 TOPLAYICI/BOSALTICI AYRIMI: havuz kaydedildi; yayini bosalt.yml yapar (hemen tetiklenir). Bosaltici 60 dk'dir basarili
+      # degilse ya da durum okunamazsa (kendin != 0) yayini bu tur YEDEK olarak kendisi yapar. Adim dusse de cikti bos -> yedek yayin (fail-open).
+      - name: Yayini bosalticiya devret
+        id: devir
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 araclar/bosalt_devir.py
       - name: Yayin klasorunu hazirla
         run: |
           mkdir -p site
@@ -235,16 +244,28 @@ jobs:
       # Cloudflare Pages (veri.kimincenazesi.com) — uygulamanın kalıcı veri adresi (08.10.2026; URUN-TASLAGI §16).
       # CLOUDFLARE_API_TOKEN secret'ı yoksa adım atlanır, GitHub Pages yayını sürer (sürüm 8'e kadar ikisi birlikte).
       - name: Cloudflare Pages'e yayimla (veri.kimincenazesi.com)
-        if: ${{ env.CF_TOKEN != '' }}
+        if: ${{ env.CF_TOKEN != '' && steps.devir.outputs.kendin != '0' }}
+        continue-on-error: true
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ba872dc9ccbc4853f9f06378bc456ab7
           command: pages deploy site --project-name=kimincenazesi-veri --branch=main --commit-dirty=true
       - uses: actions/upload-pages-artifact@v3
+        if: ${{ steps.devir.outputs.kendin != '0' }}
+        id: paket
+        continue-on-error: true
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        id: yayin1
+        if: ${{ steps.paket.outcome == 'success' }}
+        continue-on-error: true
+      - if: ${{ steps.yayin1.outcome == 'failure' }}
+        run: sleep 90
+      - uses: actions/deploy-pages@v4
+        if: ${{ steps.yayin1.outcome == 'failure' }}
+        continue-on-error: true
       # 16.10.2026 MAC'E DEVIR (son adim): kayitli_kaynak GitHub'da ENGEL alan satirlari okuyucu/kaynaklar/_mac_gerekli.json'a isaretledi. Yayindan SONRA, is alani
       # temizlenip (izlenen dosyalar HEAD'e doner: autostash cakismasi olmasin) yalniz bu dosya degisince commit edilir. Basarisiz olursa kosu kirmizi olmaz.
       # 16.10.2026 H86 GUNLUK DENETIM KAYDI: her turda deploy/denetim/<gun>.json uretilir; 18 UTC (21 TR) ve sonrasindaki turlarda depoya commit
