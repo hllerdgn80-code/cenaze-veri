@@ -11,6 +11,7 @@ import '../cekirdek/durum.dart';
 import '../cekirdek/ilan.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
+import '../cekirdek/uzak_ayar.dart';
 import '../cekirdek/veri.dart';
 import '../cekirdek/yardimci.dart';
 import 'adres.dart';
@@ -92,6 +93,9 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
     } else {
       setState(() => _yukleniyor = true);
     }
+    UzakAyar.tazele(d.veri.istemci).then((degisti) {
+      if (degisti && mounted) setState(() {});
+    });
     final s = await d.veri.ilGetir(il);
     if (!mounted || il != d.il) return;
     setState(() {
@@ -263,7 +267,7 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
 
   // İlçesi belirtilmemiş kayıtlar (ilçesiz kaynakta "İl geneli"; ilçeli kaynakta yalnız o gün kayıt varsa)
   List<Widget> genelBolumu(String g) {
-    if (ilce != null) return <Widget>[]; // 16.10.2026 sahibi: ilçe sayfasında "İl geneli" GÖSTERİLMEZ (yalnız il görünümünde)
+    if (ilce != null && !UzakAyar.ilceSayfasindaIlGeneli) return <Widget>[]; // 16.10.2026 sahibi: ilçe sayfasında "İl geneli" yok (uzak ayar)
     final l = genelGun(g);
     if (l.isEmpty) return <Widget>[];
     return [Bolum(ilcesiz ? M.bolumIlGenelSade : M.bolumIlGeneli), ...kartlar(l)];
@@ -271,8 +275,9 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
 
   final yer = ilce ?? v.il;
   List<Widget> h = gunKartlari(gun);
-  final genelBugun = (ilcesiz && ilce == null) ? genelGun(gun) : <Ilan>[];
-  final bugunBos = h.isEmpty && (ilce != null || genelGun(gun).isEmpty);
+  final genelGoster = ilce == null || UzakAyar.ilceSayfasindaIlGeneli;
+  final genelBugun = (ilcesiz && genelGoster) ? genelGun(gun) : <Ilan>[];
+  final bugunBos = h.isEmpty && (!genelGoster || genelGun(gun).isEmpty);
   if (h.isEmpty && genelBugun.isEmpty) {
     if (gun == bugun) {
       // 15.10.2026 sahibi: "ilçesine baktığında ilan varsa vardır, yoksa yoktur" — diğer ilçeler ve son 7 gün KENDİLİĞİNDEN AÇILMAZ

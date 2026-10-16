@@ -13,6 +13,7 @@ import 'cekirdek/cinsiyet.dart';
 import 'cekirdek/depo.dart';
 import 'cekirdek/durum.dart';
 import 'cekirdek/tema.dart';
+import 'cekirdek/uzak_ayar.dart';
 import 'cekirdek/veri.dart';
 import 'ekranlar/acilis_mesaji.dart';
 import 'ekranlar/adres.dart';
@@ -35,6 +36,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final gomulu = await gomuluYukle();
   final depo = await Depo.ac();
+  await UzakAyar.yerelYukle(); // 16.10.2026 uzak ayar: son değer telefondan, tazesi ilanlar yüklenirken
   final veri = VeriServisi(istemci: http.Client(), depo: depo, haric: gomulu.haric);
   final bildirim = AndroidBildirim();
   final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true, acilisAcik: true);

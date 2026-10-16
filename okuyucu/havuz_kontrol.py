@@ -78,6 +78,20 @@ def main():
         c = canli_al(taban, il)
         if c is None or imza(c) != imza(site):
             degisen.append(il)
+    # 16.10.2026: uzak ayar / surum dosyasi degistiyse de yayin yapilir (yalniz ilan verisine bakilirsa ayar degisikligi yayina cikmaz)
+    kok = os.path.dirname(os.path.normpath(yayin))
+    for ad in ("ayarlar.json", "surum.json"):
+        yerel = oku(os.path.join(kok, ad))
+        if yerel is None:
+            continue
+        try:
+            rq = urllib.request.Request(taban.rsplit("/veri/", 1)[0] + "/" + ad, headers={"User-Agent": "KiminCenazesiHavuz/1.0", "Cache-Control": "no-cache"})
+            with urllib.request.urlopen(rq, timeout=20) as r:
+                canli = json.loads(r.read())
+        except Exception:
+            canli = None
+        if canli != yerel:
+            degisen.append(ad)
     # kapı (K1-K10) havuzdaki bazı kayıtları bilerek eler (tekrar, ad biçimi): bunlar 'eksik' değil; kapi.json'daki elenen kimlikler düşülür
     elenen = set()
     for il in os.listdir(ic):

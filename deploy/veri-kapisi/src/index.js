@@ -25,6 +25,8 @@ export function yolIzinli(ham) {
   const d = yol.split("/").pop();
   if (["ozet.json", "saglik.json", "kapi.json", "yerlestirme-raporu.json"].includes(d)) return null;
   if (IL_YOL.test(yol) || KAYBETTIK_YOL.test(yol)) return yol;
+  if (yol === "/surum.json") return yol;   // 15.10.2026 URUN §42: zorunlu guncelleme kapisi (site/surum.json)
+  if (yol === "/ayarlar.json") return yol; // 16.10.2026: UZAK AYAR (site/ayarlar.json) — ekran kurallari surumsuz degisir
   return null;
 }
 

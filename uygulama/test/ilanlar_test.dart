@@ -10,6 +10,7 @@ import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
 import 'package:kimin_cenazesi/bilesenler/ortak.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
 import 'package:kimin_cenazesi/cekirdek/metin.dart';
+import 'package:kimin_cenazesi/cekirdek/uzak_ayar.dart';
 import 'package:kimin_cenazesi/cekirdek/yardimci.dart';
 import 'package:kimin_cenazesi/ekranlar/ilanlar.dart';
 import 'package:kimin_cenazesi/main.dart';
@@ -114,6 +115,19 @@ void main() {
     expect(find.text('Nakil Kişi'), findsNothing);
     expect(find.textContaining('İL GENELİ'), findsNothing);
     expect(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor'), findsOneWidget);
+  });
+
+  testWidgets('16.10.2026 UZAK AYAR: ayarlar.json ilce_sayfasinda_il_geneli=true ise ilçe sayfasında "İl geneli" görünür (sürümsüz)', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Ali Örnek', 'Bodrum', gunEkle(bugun, -3))],
+    }, belirsiz: [kayit('g', 'Nakil Kişi', '', bugun)]);
+    UzakAyar.uygula({'ilce_sayfasinda_il_geneli': true});
+    addTearDown(() => UzakAyar.ilceSayfasindaIlGeneli = false);
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Nakil Kişi'), findsOneWidget);
   });
 
   testWidgets('15.10.2026 sahibi: ilçede bugün ilan yoksa YALNIZ "bulunmuyor" satırı; diğer ilçeler ve son 7 gün açılmaz', (tester) async {
