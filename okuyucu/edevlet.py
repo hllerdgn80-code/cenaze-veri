@@ -25,6 +25,8 @@ BEKLE = 3.5
 HIZMET_ARASI_SN = int(os.environ.get("EDEVLET_HIZMET_ARASI_SN", "600"))   # 14.10.2026 sahibi "nazik kullanim": hizmetler arasi 10 dk (--kuru/--hizmet: 0)
 ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "120"))   # 16.10.2026: 25 ilce hizmetine hic sira gelmiyordu (80 doluyordu)             # kosu basina toplam istek tavani
 KOSU_SAATLERI = os.environ.get("EDEVLET_KOSU_SAATLERI", "")                  # "06,18": yalniz bu TR saatlerinde kosar (bos: her zaman)
+SURE_DK = int(os.environ.get("EDEVLET_SURE_DK", "70"))   # 16.10.2026: e-Devlet adimi en cok 70 dk; kalan hizmetler sonraki tura (donusumlu)
+BASLANGIC = time.time()
 DETAY_TAVANI = int(os.environ.get("EDEVLET_DETAY_TAVANI", "45"))              # H66: koşu başına toplam "Detay" isteği
 DETAY_HIZMET_TAVANI = int(os.environ.get("EDEVLET_DETAY_HIZMET_TAVANI", "30"))  # H66: hizmet başına "Detay" isteği
 DETAY_HIZMETLERI = {"izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama"}
@@ -365,7 +367,13 @@ def main():
     # ONCELIK: bilinen verimli hizmetler once; son 3 kosuda 0/captcha donen hizmet 7 gunde bir denenir (haftalik yeniden kontrol).
     # 16.10.2026 (sahibi: "bize verilen bilgiyi al, yerlestir"): ILCEYI HAZIR VEREN ilce belediyesi hizmetleri ONCE (Istanbul 13, Ankara Mamak,
     # Kocaeli/Bursa/Tekirdag/Samsun/Corum/Kayseri ilceleri); IBB/Izmir il geneli sonra (ayni kisi ilceli kayitla zaten varsa il geneli kopyasi eklenmez).
-    ONCELIK = [s_ for s_, (il_, ic_) in sorted(HIZMETLER.items()) if ic_] + ["izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama", "trabzon-buyuksehir-belediyesi-vefat-sorgulama",
+    # 16.10.2026 aksam DUZELTME: ilce hizmetleri ONE alininca (10 dk aralikla 25 hizmet = 4+ saat) IBB/Izmir sona kaldi ve tur 200 dk
+    # sinirina dayandi. Yeni sira: IBB + Izmir BSB (en buyuk hacim) ONCE; sonra ILCE hizmetleri EN UZUN SURE OKUNMAMIS olan once
+    # (donusumlu: her tur farkli ilceler; gunde 8 tur); sonra diger il geneli hizmetleri. Tur suresi EDEVLET_SURE_DK (70) ile sinirli.
+    def _son_okuma(s_):
+        return (onceki.get(s_) or {}).get("zaman") or ""
+    ONCELIK = ["istanbul-buyuksehir-belediyesi-vefat-sorgulama", "izmir-buyuksehir-belediyesi-vefat-sorgulama"] + \
+        sorted([s_ for s_, (il_, ic_) in HIZMETLER.items() if ic_], key=_son_okuma) + ["izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama", "trabzon-buyuksehir-belediyesi-vefat-sorgulama",
                "denizli-buyuksehir-belediyesi-vefat-sorgulama", "kocaeli-buyuksehir-belediyesi-vefat-sorgulama", "konya-buyuksehir-belediyesi-vefat-sorgulama",
                "kahramanmaras-buyuksehir-belediyesi-vefat-sorgulama", "tekirdag-buyuksehir-belediyesi-vefat-sorgulama", "diyarbakir-buyuksehir-belediyesi-vefat-sorgulama-v3",
                "erzurum-buyuksehir-belediyesi-vefat-sorgulama-v3", "pendik-belediyesi-vefat-sorgulama", "gebze-belediyesi-vefat-sorgulama", "bagcilar-belediyesi-vefat-sorgulama",
@@ -417,6 +425,9 @@ def main():
             continue
         if _haftalik_atla(slug):
             durum[slug] = dict(onceki.get(slug) or {}, **{"not": "haftalik atlama (3 bos kosu)"})
+            continue
+        if SURE_DK and time.time() - BASLANGIC > SURE_DK * 60:
+            print(f"  {slug}: tur suresi ({SURE_DK} dk) doldu, sonraki tura", file=sys.stderr)
             continue
         if toplam_istek >= ISTEK_TAVANI:
             print(f"  {slug}: kosu istek tavani ({ISTEK_TAVANI}) doldu, sonraki kosuya", file=sys.stderr)
