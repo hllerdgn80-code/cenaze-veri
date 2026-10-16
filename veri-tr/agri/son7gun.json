@@ -19,7 +19,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Doğubayazıt Gazetesi",
     "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazitli-yillarin-esnafi-mehmet-yildirim-hakkin-rahmetine-kavustu",
-    "alindi": "2026-10-16T06:10:23+03:00",
+    "alindi": "2026-10-16T06:43:33+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-15",
      "sayfa_tarihi": "2026-10-15",
@@ -47,7 +47,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Doğubayazıt Gazetesi",
     "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazitta-maruf-kaya-hayatini-kaybetti",
-    "alindi": "2026-10-16T06:10:23+03:00",
+    "alindi": "2026-10-16T06:43:33+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -75,7 +75,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Doğubayazıt Gazetesi",
     "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazitta-9-cocuk-babasi-ismet-sahin-hayatini-kaybetti",
-    "alindi": "2026-10-16T06:10:23+03:00",
+    "alindi": "2026-10-16T06:43:33+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -85,6 +85,62 @@
     "ilce_belirsiz": false,
     "kaynak_turu": "yerel_haber",
     "ilk_gorulme": "2026-10-16T06:12:12+03:00"
+   },
+   {
+    "id": "d97db93e06b4",
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "mahalle": null,
+    "ad_soyad": "Faruk Yavuz",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": "sonrası Hastal Mezarlığı",
+    "defin_zamani": null,
+    "namaz_tarihi": "2026-10-14",
+    "namaz_yeri_vakti": "İstanbul Alibeyköy Veysel Karani Camii, ikindi namazı",
+    "liste_tarihi": "2026-10-14",
+    "kaynak_ad": "Doğubayazıt Gazetesi",
+    "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazittan-iki-aci-haber-mehmet-nakus-ve-faruk-yavuz-vefat-etti",
+    "alindi": "2026-10-16T06:43:33+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-13",
+     "sayfa_tarihi": "2026-10-13",
+     "tarih_kaynagi": "metin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-16T06:44:20+03:00"
+   },
+   {
+    "id": "5f490eb17a2c",
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "mahalle": "Kurtkapan Köyü",
+    "ad_soyad": "Cebbar Fidan",
+    "anne_baba": null,
+    "yas": 35,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": "Koçkıran Şehir Mezarlığı",
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-10",
+    "kaynak_ad": "Doğubayazıt Gazetesi",
+    "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazitta-iki-aci-haber-cafer-yildirim-ve-cebbar-fidan-hayatini-kaybetti",
+    "alindi": "2026-10-16T06:43:33+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-10",
+     "sayfa_tarihi": "2026-10-10",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-16T06:44:20+03:00"
    }
   ],
   "Hamur": [
@@ -105,7 +161,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Ağrı Hürses",
     "kaynak_url": "https://www.agrihurses.net/fikri-erogul-vefat-etti",
-    "alindi": "2026-10-16T06:10:23+03:00",
+    "alindi": "2026-10-16T06:43:33+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-10",
      "sayfa_tarihi": "2026-10-10",
@@ -135,7 +191,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Karaköse Haber",
     "kaynak_url": "https://www.karakosehaber.com/patnoslu-kamuran-aydin-trafik-kazasinda-hayatini-kaybetti/233649/",
-    "alindi": "2026-10-16T06:10:23+03:00",
+    "alindi": "2026-10-16T06:43:33+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-15",
      "sayfa_tarihi": "2026-10-15",
@@ -167,7 +223,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Ajans 04",
    "kaynak_url": "https://www.ajans04.net/agri-ensar-vakfi-sube-baskani-murat-sam-in-aci-gunu-annesi-fatma-sam-vefat-etti",
-   "alindi": "2026-10-16T06:10:23+03:00",
+   "alindi": "2026-10-16T06:43:33+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-15",
     "sayfa_tarihi": "2026-10-15",
@@ -195,7 +251,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Patnos Haber Gazetesi",
    "kaynak_url": "https://www.patnoshabergazetesi.com/patnoslu-24-yasindaki-genc-trafik-kazasinda-hayatini-kaybetti/104354",
-   "alindi": "2026-10-16T06:10:23+03:00",
+   "alindi": "2026-10-16T06:43:33+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-15",
     "sayfa_tarihi": "2026-10-15",
@@ -207,10 +263,10 @@
    "ilk_gorulme": "2026-10-16T06:12:12+03:00"
   }
  ],
- "toplam": 7,
- "guncelleme": "2026-10-16T06:12:12+03:00",
+ "toplam": 9,
+ "guncelleme": "2026-10-16T06:44:20+03:00",
  "ilce_durum": {
-  "Doğubayazıt Gazetesi": 3,
+  "Doğubayazıt Gazetesi": 5,
   "Ağrı Hürses": 1,
   "Patnos Haber Gazetesi": 1,
   "Ajans 04": 1,

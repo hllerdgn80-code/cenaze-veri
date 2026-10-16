@@ -82,5 +82,101 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/dugune-giderken-kaza-yaptilar-anne-ve-4-yasindaki-oglu-yaralandi": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.taskoprupostasi.com/kirmizi-isik-ihlali-kazaya-neden-oldu-2-yarali": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/turk-pop-muziginin-usta-sesi-alpay-yasamini-yitirdi": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 1,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/catalzeytinde-murat-kurt-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Murat Kurt",
+    "yas": null,
+    "ilce": "Çatalzeytin",
+    "mahalle": "Yunuslar Köyü",
+    "namaz": "öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-15",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuhaber.com/kastamonuda-ormanda-kanli-olay-1-olu": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/pence-kilit-operasyon-bolgesinden-aci-haber-uzman-cavus-mustafa-aslan-sehit-oldu": {
+  "olgular": [
+   {
+    "ad": "Mustafa Aslan",
+    "rutbe": "Uzman Çavuş",
+    "yas": null,
+    "m_il": "Kastamonu",
+    "m_ilce": null,
+    "d_il": null,
+    "d_ilce": null,
+    "namaz": null,
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "toren": null,
+    "sehit": true
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": null
+ },
+ "https://www.aciksoz.com.tr/haber/28991928/kastamonuda-yagis-kaza-getirdi-3-yarali": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.aciksoz.com.tr/haber/28991833/kastamonu-arac-yolunda-kaza": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }

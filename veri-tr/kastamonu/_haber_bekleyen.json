@@ -16,7 +16,7 @@
   "liste_tarihi": "2026-10-14",
   "kaynak_ad": "Kastamonu Haber",
   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti",
-  "alindi": "2026-10-16T06:09:23+03:00",
+  "alindi": "2026-10-16T06:43:10+03:00",
   "ham": {
    "yayin_tarihi": "2026-10-14",
    "sayfa_tarihi": "2026-10-14",
@@ -43,7 +43,7 @@
   "liste_tarihi": "2026-10-14",
   "kaynak_ad": "Kastamonu Haber",
   "kaynak_url": "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti",
-  "alindi": "2026-10-16T06:09:23+03:00",
+  "alindi": "2026-10-16T06:43:10+03:00",
   "ham": {
    "yayin_tarihi": "2026-10-14",
    "sayfa_tarihi": "2026-10-14",
@@ -70,7 +70,7 @@
   "liste_tarihi": "2026-10-14",
   "kaynak_ad": "Kastamonu Haber",
   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
-  "alindi": "2026-10-16T06:09:23+03:00",
+  "alindi": "2026-10-16T06:43:10+03:00",
   "ham": {
    "yayin_tarihi": "2026-10-14",
    "sayfa_tarihi": "2026-10-14",
@@ -78,6 +78,36 @@
   },
   "il_disi_defin": null,
   "ilce_belirsiz": true,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
+  "id": "1eb2d6c8d5cf",
+  "il": "Kastamonu",
+  "ilce": null,
+  "mahalle": null,
+  "ad_soyad": "Mustafa Aslan",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": null,
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": null,
+  "liste_tarihi": "2026-10-14",
+  "kaynak_ad": "Kastamonu Haber",
+  "kaynak_url": "https://www.kastamonuhaber.com/pence-kilit-operasyon-bolgesinden-aci-haber-uzman-cavus-mustafa-aslan-sehit-oldu",
+  "alindi": "2026-10-16T06:43:10+03:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-14",
+   "sayfa_tarihi": "2026-10-14",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": true,
+  "sehit": true,
+  "rutbe": "Uzman Çavuş",
+  "toren": null,
   "kaynak_turu": "yerel_haber"
  },
  {
@@ -97,7 +127,7 @@
   "liste_tarihi": "2026-10-15",
   "kaynak_ad": "Kastamonu İstiklal",
   "kaynak_url": "https://www.kastamonuistiklal.com/cidenin-aci-kaybi-nazmiye-guneysu-hayatini-kaybetti",
-  "alindi": "2026-10-16T06:09:23+03:00",
+  "alindi": "2026-10-16T06:43:10+03:00",
   "ham": {
    "yayin_tarihi": "2026-10-15",
    "sayfa_tarihi": "2026-10-15",
@@ -124,11 +154,38 @@
   "liste_tarihi": "2026-10-15",
   "kaynak_ad": "Kastamonu İstiklal",
   "kaynak_url": "https://www.kastamonuistiklal.com/cidede-hamide-yenil-hayatini-kaybetti",
-  "alindi": "2026-10-16T06:09:23+03:00",
+  "alindi": "2026-10-16T06:43:10+03:00",
   "ham": {
    "yayin_tarihi": "2026-10-15",
    "sayfa_tarihi": "2026-10-15",
    "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": false,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
+  "id": "5095260b2a51",
+  "il": "Kastamonu",
+  "ilce": "Çatalzeytin",
+  "mahalle": "Yunuslar Köyü",
+  "ad_soyad": "Murat Kurt",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": null,
+  "defin_zamani": null,
+  "namaz_tarihi": "2026-10-15",
+  "namaz_yeri_vakti": "öğle namazı",
+  "liste_tarihi": "2026-10-15",
+  "kaynak_ad": "Kastamonu İstiklal",
+  "kaynak_url": "https://www.kastamonuistiklal.com/catalzeytinde-murat-kurt-hayatini-kaybetti",
+  "alindi": "2026-10-16T06:43:10+03:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-14",
+   "sayfa_tarihi": "2026-10-14",
+   "tarih_kaynagi": "metin"
   },
   "il_disi_defin": null,
   "ilce_belirsiz": false,

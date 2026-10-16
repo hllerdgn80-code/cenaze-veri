@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Kastamonu Haber",
    "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti",
-   "alindi": "2026-10-16T06:09:23+03:00",
+   "alindi": "2026-10-16T06:43:10+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-14",
     "sayfa_tarihi": "2026-10-14",
@@ -46,7 +46,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Kastamonu Haber",
    "kaynak_url": "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti",
-   "alindi": "2026-10-16T06:09:23+03:00",
+   "alindi": "2026-10-16T06:43:10+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-14",
     "sayfa_tarihi": "2026-10-14",
@@ -73,7 +73,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Kastamonu Haber",
    "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
-   "alindi": "2026-10-16T06:09:23+03:00",
+   "alindi": "2026-10-16T06:43:10+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-14",
     "sayfa_tarihi": "2026-10-14",
@@ -81,6 +81,36 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "1eb2d6c8d5cf",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mustafa Aslan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/pence-kilit-operasyon-bolgesinden-aci-haber-uzman-cavus-mustafa-aslan-sehit-oldu",
+   "alindi": "2026-10-16T06:43:10+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "sehit": true,
+   "rutbe": "Uzman Çavuş",
+   "toren": null,
    "kaynak_turu": "yerel_haber"
   }
  ]

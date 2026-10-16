@@ -1,7 +1,7 @@
 {
  "istek": {
   "dogubayazitgazetesi.com": {
-   "2026-10-16": 6
+   "2026-10-16": 8
   },
   "agrihurses.net": {
    "2026-10-16": 3
@@ -10,16 +10,16 @@
    "2026-10-16": 4
   },
   "ajans04.net": {
-   "2026-10-16": 4
+   "2026-10-16": 6
   },
   "diyadinnet.com": {
    "2026-10-16": 2
   },
   "agri04haber.com": {
-   "2026-10-16": 4
+   "2026-10-16": 6
   },
   "tv04.net": {
-   "2026-10-16": 4
+   "2026-10-16": 6
   },
   "agridahaber.com": {
    "2026-10-16": 3
@@ -40,7 +40,15 @@
   "https://www.tv04.net/agri-da-traktor-kazasi-1-kisi-hayatini-kaybetti/88875/": "2026-10-16T06:11:48",
   "https://www.tv04.net/agri-da-seker-pancari-yuklu-tir-devrildi-1-yarali/88876/": "2026-10-16T06:11:52",
   "https://www.agridahaber.com/agri-da-traktor-kazasi-ballibostan-a-kara-haber-geldi/114341/": "2026-10-16T06:12:02",
-  "https://www.karakosehaber.com/dogubayazit-igdir-yolunda-bir-haftada-ikinci-kamyon-devrildi/233650/": "2026-10-16T06:12:12"
+  "https://www.karakosehaber.com/dogubayazit-igdir-yolunda-bir-haftada-ikinci-kamyon-devrildi/233650/": "2026-10-16T06:12:12",
+  "https://dogubayazitgazetesi.com/dogubeyazittan-iki-aci-haber-mehmet-nakus-ve-faruk-yavuz-vefat-etti": "2026-10-16T06:43:33",
+  "https://dogubayazitgazetesi.com/dogubeyazitta-iki-aci-haber-cafer-yildirim-ve-cebbar-fidan-hayatini-kaybetti": "2026-10-16T06:43:37",
+  "https://www.ajans04.net/dogubayazit-igdir-yolunda-bir-haftada-i-kinci-kamyon-kazasi": "2026-10-16T06:43:38",
+  "https://www.ajans04.net/erzurum-i-tfaiyesinden-guzelova-ortaokulunda-uygulamali-yangin-tatbikati": "2026-10-16T06:43:44",
+  "https://www.agri04haber.com/agrida-tir-sarampole-devrildi-1-yarali": "2026-10-16T06:43:56",
+  "https://www.agri04haber.com/agrida-traktor-kazasi-1-olu": "2026-10-16T06:44:06",
+  "https://www.tv04.net/agri-da-korkutan-kaza-iran-otobusu-devrildi-1-i-agir-5-yarali/88871/": "2026-10-16T06:44:13",
+  "https://www.tv04.net/agri-dogubayazit-sanayi-sitesi-nde-silahli-kavga-1-yarali/88869/": "2026-10-16T06:44:20"
  },
  "robots": {
   "www.dogubayazitgazetesi.com": {

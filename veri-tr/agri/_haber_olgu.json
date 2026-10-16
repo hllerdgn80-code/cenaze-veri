@@ -150,5 +150,97 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://dogubayazitgazetesi.com/dogubeyazittan-iki-aci-haber-mehmet-nakus-ve-faruk-yavuz-vefat-etti": {
+  "olgular": [
+   {
+    "ad": "Faruk Yavuz",
+    "yas": null,
+    "ilce": "Doğubayazıt",
+    "mahalle": null,
+    "namaz": "İstanbul Alibeyköy Veysel Karani Camii, ikindi namazı",
+    "defin": "sonrası Hastal Mezarlığı",
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-13",
+  "tani": null
+ },
+ "https://dogubayazitgazetesi.com/dogubeyazitta-iki-aci-haber-cafer-yildirim-ve-cebbar-fidan-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Cebbar Fidan",
+    "yas": 35,
+    "ilce": "Doğubayazıt",
+    "mahalle": "Kurtkapan Köyü",
+    "namaz": null,
+    "defin": "Koçkıran Şehir Mezarlığı",
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-10",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.ajans04.net/dogubayazit-igdir-yolunda-bir-haftada-i-kinci-kamyon-kazasi": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.ajans04.net/erzurum-i-tfaiyesinden-guzelova-ortaokulunda-uygulamali-yangin-tatbikati": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.agri04haber.com/agrida-tir-sarampole-devrildi-1-yarali": {
+  "olgular": [],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.agri04haber.com/agrida-traktor-kazasi-1-olu": {
+  "olgular": [],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.tv04.net/agri-da-korkutan-kaza-iran-otobusu-devrildi-1-i-agir-5-yarali/88871/": {
+  "olgular": [],
+  "tarih": "2026-10-11",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.tv04.net/agri-dogubayazit-sanayi-sitesi-nde-silahli-kavga-1-yarali/88869/": {
+  "olgular": [],
+  "tarih": "2026-10-10",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }
