@@ -139,7 +139,11 @@ def yerel_kilidi(k):
         t = _kat(v)
         if any(x in t for x in _CUMLE_KIRINTISI):
             return False
-    return any(k.get(a) for a in ("namaz_yeri_vakti", "defin_yeri", "namaz_tarihi", "defin_zamani", "vefat_tarihi"))
+    if any(k.get(a) for a in ("namaz_yeri_vakti", "defin_yeri", "namaz_tarihi", "defin_zamani", "vefat_tarihi")):
+        return True
+    # 16.10.2026 sahibi: "cenaze ilanı tarihi bugünse saati dakikası önemli değil, bugün yayına al": RAHAT_ILLER'de ilanın
+    # kendi yayın günü (bugün/dün) tarih sayılır; cami/defin bilgisi olmayan vefat ilanı da o günün sayfasına girer.
+    return (k.get("ham") or {}).get("tarih_kaynagi") != "metin" and _norm_il(k.get("il")) in RAHAT_ILLER and bool(ref)
 
 
 def kayit_suz(k):

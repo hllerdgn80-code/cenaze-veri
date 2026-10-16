@@ -40,6 +40,11 @@ class YayinSuzTest(unittest.TestCase):
         self.assertIsNone(ys.yerel_gun(k))
         self.assertFalse(ys.yerel_kilidi(k))
 
+    def test_rahat_ilde_bilgisiz_ilan_girer(self):
+        k = _kayit(il="Ağrı", ilce="Patnos", kaynak_turu="yerel_haber", ham={"sayfa_tarihi": self.dun, "tarih_kaynagi": "yayin_tarihi"})
+        self.assertEqual(ys.yerel_gun(k), self.dun)
+        self.assertTrue(ys.yerel_kilidi(k))
+
     def test_eski_kayit_girmez(self):
         eski = (self.bugun - datetime.timedelta(days=9)).isoformat()
         k = _kayit(liste_tarihi=eski, vefat_tarihi=eski, ham={"sayfa_tarihi": eski, "tarih_kaynagi": "metin"})
