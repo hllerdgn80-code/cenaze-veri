@@ -48,7 +48,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/kayseri-de-15-ekim-persembe-gunu-vefat-edenler/31712/",
-   "alindi": "2026-10-16T08:52:19+03:00",
+   "alindi": "2026-10-16T10:52:53+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-15",
     "tarih_kaynagi": "metin"
@@ -74,7 +74,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Kayseri Anadolu Haber",
    "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayseri-de-15-ekim-persembe-gunu-vefat-edenler/200056/",
-   "alindi": "2026-10-16T08:52:19+03:00",
+   "alindi": "2026-10-16T10:52:53+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-15",
     "tarih_kaynagi": "metin"
@@ -82,7 +82,114 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1d3a45eb36fb",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Ahmet Çapraz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "Fabrikalar Mah. Atatepe Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-16T10:48:18+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-15",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "bd5e29325d8a",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Özarslan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": "Org.hulusi Akar Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-16T10:48:18+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-14",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "22aee317a3ad",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Gazi Bir",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-13",
+   "defin_yeri": "Org.hulusi Akar Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-16T10:48:18+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-13",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "b75370c1faf1",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Anşe Koçer",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Erkilet Bülbülpınar Mez.",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-16",
+   "namaz_yeri_vakti": "Org.Hulusi Akar Camii Lütfi Türkmen",
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Hunat TV",
+   "kaynak_url": "https://www.hunattv.com/kayseri-de-16-ekim-cuma-gunu-vefat-edenler/31791/",
+   "alindi": "2026-10-16T10:52:53+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T08:52:19+03:00"
+ "guncelleme": "2026-10-16T10:52:53+03:00"
 }
