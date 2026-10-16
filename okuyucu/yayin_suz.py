@@ -84,12 +84,8 @@ def yerel_gun(k):
         ld = k.get("liste_tarihi")
         return ld if ld and re.fullmatch(r"\d{4}-\d{2}-\d{2}", ld) else None
     if (k.get("ham") or {}).get("tarih_kaynagi") != "metin":
-        if _norm_il(k.get("il")) in RAHAT_ILLER:
-            sd = (k.get("ham") or {}).get("sayfa_tarihi")
-            if sd and re.fullmatch(r"\d{4}-\d{2}-\d{2}", sd):
-                from datetime import timedelta as _td
-                if _bugun_tr() - _td(days=1) <= _gun(sd) <= _bugun_tr():      # yalniz bugun/dun yayinlanan haber
-                    return sd
+        # 16.10.2026 sahibi: "ilan verilmiş ve tarih yoksa biz tarih uydurmayalım, net tarih olmayanları kesinlikle ele" ->
+        # haberin yayın günü ASLA cenaze günü sayılmaz (RAHAT_ILLER istisnası kaldırıldı).
         return None
     for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
         if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
@@ -97,9 +93,9 @@ def yerel_gun(k):
     # 16.10.2026 (H83): kayıt defteri 'vefat edenler' listeleri cenaze gününü değil VEFAT gününü verir (metinde açık tarih,
     # tarih_kaynagi='metin'); bu kayıtlar yayına hiç girmiyordu (defter 158 'yeni' kayıt, uygulamada 0). Resmî belediye listeleri
     # gibi vefat/liste günü sayfasına yerleşir (uygulamada cenazeGunu zaten liste_tarihi'ne düşer); tazelik penceresi aynen uygulanır.
-    for t in (k.get("vefat_tarihi"), k.get("liste_tarihi")):
-        if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
-            return t
+    t = k.get("vefat_tarihi")                    # yalnız metinde AÇIK yazılmış vefat tarihi (liste/sayfa günü değil)
+    if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
+        return t
     return None
 
 
@@ -139,11 +135,7 @@ def yerel_kilidi(k):
         t = _kat(v)
         if any(x in t for x in _CUMLE_KIRINTISI):
             return False
-    if any(k.get(a) for a in ("namaz_yeri_vakti", "defin_yeri", "namaz_tarihi", "defin_zamani", "vefat_tarihi")):
-        return True
-    # 16.10.2026 sahibi: "cenaze ilanı tarihi bugünse saati dakikası önemli değil, bugün yayına al": RAHAT_ILLER'de ilanın
-    # kendi yayın günü (bugün/dün) tarih sayılır; cami/defin bilgisi olmayan vefat ilanı da o günün sayfasına girer.
-    return (k.get("ham") or {}).get("tarih_kaynagi") != "metin" and _norm_il(k.get("il")) in RAHAT_ILLER and bool(ref)
+    return any(k.get(a) for a in ("namaz_yeri_vakti", "defin_yeri", "namaz_tarihi", "defin_zamani", "vefat_tarihi"))
 
 
 def kayit_suz(k):

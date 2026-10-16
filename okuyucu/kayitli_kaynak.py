@@ -545,7 +545,7 @@ def aday_sayfa_oku(ctx, il_adi, s, url, sayfa):
     tekil = bool(TEKIL_YOL.search(url))
     govde = etiket_ayir(govde)
     if ETIKETLI_BLOK.search(govde):
-        return etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun)
+        return _metin_gunu(etiketli_blok_ayristir(govde, ctx, il_adi, s, url, gun), govde, baslik, gun)
     if tekil or (oh.vefat_haberi_mi(baslik) and not DERLEME_YOL.search(url)):
         if tekil and not oh.vefat_haberi_mi(baslik):
             baslik = (baslik + " vefat etti").strip()
@@ -559,10 +559,47 @@ def aday_sayfa_oku(ctx, il_adi, s, url, sayfa):
     for ayristir in (baslikli_ilan_ayristir, cumle_listesi_ayristir, isimli_paragraf_ayristir, ayracli_satir_ayristir):
         k = ayristir(govde, ctx, il_adi, s, url, gun)
         if k:
-            return k
+            return _metin_gunu(k, govde, baslik, gun)
     govde = re.sub(r"(?i)\n(?=(?:vefat|hakk|rahmet))", " ", re.sub(r"<[^>]*$", "", govde))     # 'AD' ve 'vefat etmiştir.' ayrı satırdaysa birleşsin
     govde = re.sub(r"(?i)hayatını\s+kaybet(?:ti|miştir)|yaşamını\s+yitir\w*", "vefat etti", govde)    # ayrıştırıcı yalnız 'vefat' kalıbını tanır (yalnız ayrıştırma metni; olgular değişmez)
     return ob.serbest_kayitlar(ctx, il_adi, slug, s["ad"], url, gun, govde, varsayilan_ilce=s.get("ilce"))
+
+
+def _metin_gunu(kayitlar, govde, baslik, gun):
+    """16.10.2026 sahibi: "tarih yoksa biz tarih uydurmayalım; net tarih olmayanları kesinlikle ele. 'yarın' yazıyorsa haberin tarihi +1,
+    'bugün' yazıyorsa haberin tarihi; yalnız 'defnedilecektir' yazıyorsa o ilanı alma." Ayrıştırıcılar cenaze gününe SAYFA GÜNÜNÜ yazıyordu;
+    burada her kişi için adından sonraki metinde (yoksa başlık + giriş) açık tarih / bugün / yarın aranır; çözülemezse kayıt ATILIR.
+    Kendi tarihini hücreden/metinden almış kayıt (namaz_tarihi sayfa gününden farklı) dokunulmaz."""
+    if not gun:
+        return []
+    duz = govde or ""
+    kd = ortak.katla(duz)
+    bas = oh._tarih_coz((baslik or "") + " . " + duz[:300], gun)
+    sonuc = []
+    for k in kayitlar:
+        if k.get("namaz_tarihi") and k.get("namaz_tarihi") != gun:
+            sonuc.append(k); continue
+        if k.get("vefat_tarihi") and k.get("vefat_tarihi") != gun and not k.get("namaz_tarihi"):
+            sonuc.append(k); continue
+        ad = ortak.katla(k.get("ad_soyad") or "")
+        i = kd.find(ad) if ad else -1
+        d = None
+        if i >= 0:
+            # katla() uzunluğu korumayabilir: orana göre yaklaşık konum
+            j = int(i * len(duz) / max(len(kd), 1))
+            d = oh._tarih_coz(duz[j:j + 450], gun)
+        d = d or bas
+        if not d:
+            continue
+        k = dict(k)
+        if k.get("namaz_tarihi") or not k.get("vefat_tarihi"):
+            k["namaz_tarihi"] = d
+        else:
+            k["vefat_tarihi"] = d
+        k["liste_tarihi"] = d
+        k["ham"] = dict(k.get("ham") or {}, sayfa_tarihi=gun, tarih_kaynagi="metin")
+        sonuc.append(k)
+    return sonuc
 
 
 DERLEME_BASLIK = re.compile(r"vefat\s+eden|kimler\s+vefat|aramızdan\s+ayrılan|cenaze\s+ilan|defin\s+bilgi|vefat\s+haberleri|vefat\s+ilan|vefat\s+etti\?|cenaze\s+bilgi", re.I)
