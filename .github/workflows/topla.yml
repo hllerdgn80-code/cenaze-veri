@@ -224,7 +224,10 @@ jobs:
           if [ -d veri/kaybettiklerimiz ]; then cp -r veri/kaybettiklerimiz/. site/veri/kaybettiklerimiz/; fi
           # YAYIN SUZGECI (URUN-TASLAGI §16.5, §28): yerel basin/haber kayit ve illeri, kaynak_ad/kaynak_url/ham/anne_baba cikar.
           # Suzgec kendini denetler; sizinti kalirsa cikis kodu 1 -> is DURUR, yayin yapilmaz.
+          python3 -B okuyucu/test_yayin_suz.py || echo "::warning::yayin_suz testi gecmedi (H83)"
           python3 okuyucu/yayin_suz.py site/veri
+          # 16.10.2026 H83 tedbiri: ic veri -> yayin kaybi ve bos il sayisi (kosuyu kirmaz)
+          python3 okuyucu/yayin_kontrol.py veri/ozet.json site/veri/ozet.json site/veri || echo "::warning::yayin kontrol hata verdi"
           # Uygulamanin gizlilik politikasi (Play Console URL'si; alan adi alininca tasinir)
           if [ -f uygulama/web/gizlilik.html ]; then cp uygulama/web/gizlilik.html site/kimincenazesi-gizlilik.html; fi
           echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
