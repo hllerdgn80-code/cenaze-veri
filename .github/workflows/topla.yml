@@ -247,6 +247,25 @@ jobs:
       - uses: actions/deploy-pages@v4
       # 16.10.2026 MAC'E DEVIR (son adim): kayitli_kaynak GitHub'da ENGEL alan satirlari okuyucu/kaynaklar/_mac_gerekli.json'a isaretledi. Yayindan SONRA, is alani
       # temizlenip (izlenen dosyalar HEAD'e doner: autostash cakismasi olmasin) yalniz bu dosya degisince commit edilir. Basarisiz olursa kosu kirmizi olmaz.
+      # 16.10.2026 H86 GUNLUK DENETIM KAYDI: her turda deploy/denetim/<gun>.json uretilir; 18 UTC (21 TR) ve sonrasindaki turlarda depoya commit
+      # edilir (bulut onarim rutini 21:30 TR'de okur). Kosuyu kirmaz.
+      - name: Gunluk denetim kaydi (deploy/denetim)
+        if: ${{ always() }}
+        continue-on-error: true
+        run: |
+          python3 okuyucu/gunluk_denetim.py veri site/veri "$RUNNER_TEMP/denetim" || { echo "::warning::gunluk denetim uretilemedi"; exit 0; }
+          H=$(date -u +%H)
+          if [ "$H" -ge 18 ] || [ "${DENETIM_ZORLA:-0}" = "1" ]; then
+            git checkout -q -- . || true
+            mkdir -p deploy/denetim && cp "$RUNNER_TEMP"/denetim/*.json deploy/denetim/
+            ls deploy/denetim | sort | head -n -14 | sed 's#^#deploy/denetim/#' | xargs -r git rm -q --cached 2>/dev/null || true
+            if [ -n "$(git status --porcelain deploy/denetim)" ]; then
+              git config user.name "cenaze-bot"; git config user.email "cenaze-bot@users.noreply.github.com"
+              git add deploy/denetim && git commit -q -m "denetim: $(date -u +%F) gunluk kayit" && bash araclar/guvenli_push.sh
+            fi
+          else
+            echo "denetim kaydi uretildi (commit aksam turunda)"
+          fi
       - name: Mac devir isaretlerini depoya yaz (degismediyse atlanir; basarisiz yapmaz)
         if: ${{ always() }}
         continue-on-error: true
