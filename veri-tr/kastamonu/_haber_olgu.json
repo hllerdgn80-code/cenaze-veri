@@ -469,5 +469,86 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/taskoprude-aysel-sahin-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Aysel Şahin",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Alatarla Köyü",
+    "namaz": "ikindi namazı",
+    "defin": null,
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 4,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Sebahat Karakethüdaoğlu",
+    "yas": null,
+    "ilce": "Devrekani",
+    "mahalle": "Bozkoca Köyü",
+    "namaz": "öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 3,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/kastamonuda-taninan-marangoz-ustasi-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Hacı Orhan Köse",
+    "yas": null,
+    "ilce": "Merkez",
+    "mahalle": null,
+    "namaz": "Pir Şeyh Şaban-ı Veli Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-12",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 2,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/kastamonulu-kadin-34-yasinda-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-11",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/ineboluda-trafik-kazasi-iki-otomobil-carpisti": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }
