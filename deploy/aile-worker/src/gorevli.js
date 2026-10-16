@@ -238,8 +238,7 @@ export async function gorevliIsle(req, env, o, H, yol) {
   }
 
   // ---- POST /gorevli/ad-soyad (oturumlu; sahibi 16.10.2026: "soyadımı yanlış yazdım, düzeltemedim"): profildeki ad-soyadı düzeltir.
-  // En çok AD_DUZELTME_HAK kez; eski değerler k.ad_gecmis'te tutulur. Paylaşılmış ilanlar değişmez. ----
-  const AD_DUZELTME_HAK = 5;
+  // SINIRSIZ (sahibi 16.10: "sınırsız düzeltme hakkı olsun"); eski değerler k.ad_gecmis'te (son 20) tutulur. Paylaşılmış ilanlar değişmez. ----
   async function adSoyad() {
     const k = await hesap();
     if (!k || !dogrulu(k) || k.durum !== "onayli") return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
@@ -249,10 +248,9 @@ export async function gorevliIsle(req, env, o, H, yol) {
     const ad = typeof (g.json || {}).ad_soyad === "string" ? g.json.ad_soyad.trim().replace(/\s+/g, " ") : "";
     if (!adGecerli(ad)) return yanit(req, env, { hata: "ad_soyad gecersiz" }, 400);
     const gecmis = Array.isArray(k.ad_gecmis) ? k.ad_gecmis : [];
-    if (gecmis.length >= AD_DUZELTME_HAK) return yanit(req, env, { hata: "duzeltme_hakki_doldu" }, 429);
     if (ad === k.ad_soyad) return yanit(req, env, hesapOzeti(k));
     gecmis.push({ eski: k.ad_soyad, tarih: gun });
-    Object.assign(k, { ad_soyad: ad, ad_gecmis: gecmis });
+    Object.assign(k, { ad_soyad: ad, ad_gecmis: gecmis.slice(-20) });
     await kayitYaz(k, 0);
     return yanit(req, env, hesapOzeti(k));
   }
