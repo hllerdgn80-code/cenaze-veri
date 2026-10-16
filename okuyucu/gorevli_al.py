@@ -46,6 +46,9 @@ def kayit(k, slug, url, alindi, bugun):
         r["sehit"] = True
         r["rutbe"] = temiz(k.get("rutbe"))
         r["toren"] = temiz(k.get("toren"))
+    duz = k.get("duzeltme_id")                      # §49: din görevlisinin düzelttiği OTOMATİK kaydın id'si (yalnız hex)
+    if isinstance(duz, str) and re.fullmatch(r"[0-9a-f]{8,32}", duz):
+        r["duzeltme_id"] = duz
     r["cinsiyet"] = k.get("cinsiyet") if k.get("cinsiyet") in ("e", "k") else None
     r["dogrulandi"] = k.get("dogrulandi") is True
     return r

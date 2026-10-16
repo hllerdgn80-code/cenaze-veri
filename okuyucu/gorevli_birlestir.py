@@ -3,7 +3,8 @@
 AYNI KİŞİYSE (ulusal_birlestir.ayni(): ad + ±2 gün [+ yaş]) görevlinin kaydı KALIR, otomatik olan yayına girmez; görevli kaydındaki
 BOŞ alanlar (mezarlık, mahalle, namaz yeri, yaş...) otomatik kayıttan doldurulur (ulusal_birlestir zenginleştirmesinin tersi).
 Sıra (topla.yml): gorevli_al -> ulusal_birlestir -> gorevli_birlestir -> yerlestirme_denetimi -> kapi.
-Şehit kaydı (sehit:true) asla silinmez (§27). ortak.py / yayin_suz.py'ye dokunmaz.
+DÜZELTME (§49): görevli kaydında `duzeltme_id` varsa son7gun'da O id'li kayıt (hangi listede olursa olsun) kaldırılır ve görevli kaydı yerine konur
+(ayni() aranmaz, boş alan doldurulmaz: düzeltmede boş bırakılan alan bilerek boştur). Şehit kaydı (sehit:true) asla silinmez (§27). ortak.py / yayin_suz.py'ye dokunmaz.
 Kullanım: python3 okuyucu/gorevli_birlestir.py [veri_klasoru]"""
 import json, os, sys
 
@@ -20,6 +21,21 @@ def birlestir(d, gorevliler):
     listeler = [(None, d.setdefault("il_disi", [])), (None, d.setdefault("ilce_belirsiz", []))] + list(ilceler.items())
     eklenen = silinen = 0
     for g in gorevliler:
+        duz = g.get("duzeltme_id")
+        if duz:
+            hedef = [(l, m) for _, l in listeler for m in l if m.get("id") == duz and m is not g and not m.get("gorevli")]
+            if any(m.get("sehit") for _, m in hedef):
+                continue                                          # şehit kaydı düzeltmeyle değişmez
+            for l, m in hedef:
+                l.remove(m)
+                silinen += 1
+            if not any(x.get("id") == g.get("id") for _, l in listeler for x in l):
+                if g.get("ilce") and not g.get("ilce_belirsiz"):
+                    ilceler.setdefault(g["ilce"], []).append(g)
+                else:
+                    d["ilce_belirsiz"].append(g)
+                eklenen += 1
+            continue
         eslesen = []
         for _, l in listeler:
             for m in l:

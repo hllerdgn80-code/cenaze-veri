@@ -336,17 +336,17 @@ class M {
   static const gorevliDuzelt = 'Düzelt';
   static const gorevliDuzeltmeAlindi = 'Düzeltmeniz alındı; bir sonraki güncellemede yayına girer.';
   static const gorevliDuzeltildi = 'Düzeltildi';
-  static const gorevliKvkkBaslik = 'Kişisel verilerinizin korunması';
+  static const gorevliKvkkBaslik = 'Kişisel verileriniz';
   static const gorevliKvkkOku = 'Okudum, anladım';
   static const gorevliKvkkTam = 'Tam metin';
+  // 16.10.2026 sahibi: "Cloudflare / yurt dışı" satırı kısa uyarıda YOK (korkutur); yurt dışı aktarımı tam metinde (Gizlilik) kalır
   static const gorevliKvkkMetin = [
-    'Tuttuğumuz veriler: Diyanet e-posta adresiniz, ad-soyadınız, görev yeriniz ve unvanınız, il-ilçeniz, paylaştığınız ilanlar ve düzeltmeler.',
-    'Amaç: din görevlisi olduğunuzu teyit etmek, ilan paylaşmanızı sağlamak ve kötüye kullanımı önlemek.',
-    'Yer: veriler Cloudflare sunucularında, yurt dışında tutulur.',
+    'Tuttuğumuz veriler: Diyanet e-posta adresiniz, ad-soyadınız, görev yeriniz ve unvanınız, il-ilçeniz, paylaştığınız ilanlar.',
+    'Amaç: din görevlisi olduğunuzu teyit etmek ve ilan paylaşmanızı sağlamak.',
     'Süre: hesabınız açık kaldıkça; ilanlar 120 gün; e-posta kodu 10 dakika.',
-    'Haklarınız (KVKK md. 11): verilerinize erişme, düzeltme ve silme isteğinde bulunabilirsiniz. Gizlilik sayfasından ya da e-posta ile ulaşın.',
-    'Telefon numarası ve personel kartı fotoğrafı toplanmaz.',
+    'Telefon numarası, kimlik ya da personel kartı fotoğrafı toplanmaz.',
     'Verileriniz üçüncü kişilerle paylaşılmaz.',
+    'Haklarınız (KVKK md. 11): verilerinize erişme, düzeltme ve silme isteğinde bulunabilirsiniz; Gizlilik sayfasından ulaşın.',
   ];
 
   static const gorevliDurumEtiket = {

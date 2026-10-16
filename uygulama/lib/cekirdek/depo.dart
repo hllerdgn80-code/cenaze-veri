@@ -67,7 +67,39 @@ class Depo {
     return (v == null || v.isEmpty) ? null : v;
   }
 
-  Future<void> gorevliOturumKaydet(String? t) => t == null ? _p.remove('gorevli_oturum') : _p.setString('gorevli_oturum', t);
+  Future<void> gorevliOturumKaydet(String? t) async {
+    if (t == null) {
+      await _p.remove('gorevli_oturum');
+      await _p.remove('gorevli_yer');
+    } else {
+      await _p.setString('gorevli_oturum', t);
+    }
+  }
+
+  /// Hesabın il/ilçesi (otomatik ilanı düzeltme yetkisi için; URUN §49). Panel her açılışta günceller, çıkışta silinir.
+  ({String il, String ilce})? get gorevliYer {
+    final v = _p.getString('gorevli_yer');
+    if (v == null) return null;
+    final i = v.indexOf('|');
+    return i < 0 ? null : (il: v.substring(0, i), ilce: v.substring(i + 1));
+  }
+
+  Future<void> gorevliYerKaydet(String il, String ilce) => _p.setString('gorevli_yer', '$il|$ilce');
+
+  /// Giriş yapılan Diyanet kullanıcı adı (yalnız cihazda; KVKK kabulü "hesap değişti mi" için)
+  String? get gorevliKullanici => _p.getString('gorevli_kullanici');
+  Future<void> gorevliKullaniciKaydet(String k) => _p.setString('gorevli_kullanici', k);
+
+  /// KVKK aydınlatma kabulü (URUN §50): "kullanıcı|ISO tarih". Hesap kullanıcı adı değişmişse kabul geçersiz sayılır.
+  String? get gorevliKvkkKabul => _p.getString('gorevli_kvkk');
+  bool gorevliKvkkTamam() {
+    final v = gorevliKvkkKabul;
+    if (v == null) return false;
+    final i = v.indexOf('|');
+    return i >= 0 && v.substring(0, i) == (gorevliKullanici ?? '');
+  }
+
+  Future<void> gorevliKvkkKaydet(String tarih) => _p.setString('gorevli_kvkk', '${gorevliKullanici ?? ''}|$tarih');
 
   /// Son bilinen hesap durumu (onayli | kontrolde | silindi): arka plan işi yalnız "kontrolde" iken sunucuya bakar
   String? get gorevliDurumSon => _p.getString('gorevli_durum');

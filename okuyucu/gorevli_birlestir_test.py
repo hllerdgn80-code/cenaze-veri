@@ -34,4 +34,20 @@ assert d["ilceler"]["Korgan"] == [sehit]
 d = {"il": "Ordu", "ilceler": {"Korgan": [kayit("b4", "Hasan Öz", "Korgan", "2026-10-15", yas=40)]}, "il_disi": [], "ilce_belirsiz": []}
 birlestir(d, [kayit("gorevli-4", "Hasan Öz", "Korgan", "2026-10-15", yas=80, gorevli=True)])
 assert len(d["ilceler"]["Korgan"]) == 2
-print("gorevli_birlestir: 5 test tamam")
+# 6) duzeltme_id: o id'li otomatik kayıt (başka listede de olsa) kalkar, görevli kaydı konur; ad değişmiş olsa bile; boş alan doldurulmaz
+oto = kayit("a30d5cab8953", "Fatma Yanlis", "Korgan", "2026-10-15", defin_yeri="Eski Mezarlık", yas=80)
+diger = kayit("b9", "Ali Kaya", "Korgan", "2026-10-15")
+d = {"il": "Ordu", "ilceler": {"Korgan": [diger]}, "il_disi": [], "ilce_belirsiz": [oto]}
+e, s = birlestir(d, [kayit("gorevli-7", "Fatma Doğru", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="a30d5cab8953", defin_yeri=None)])
+assert d["ilce_belirsiz"] == [] and [x["id"] for x in d["ilceler"]["Korgan"]] == ["b9", "gorevli-7"], d
+assert d["ilceler"]["Korgan"][1]["defin_yeri"] is None and (e, s) == (1, 1)
+# 7) duzeltme_id şehit kaydını silmez; hedef yoksa görevli kaydı yine eklenir; ikinci çalıştırmada çift kart olmaz
+sh = kayit("a30d5cab8953", "Mehmet Er", "Korgan", "2026-10-15", sehit=True)
+d = {"il": "Ordu", "ilceler": {"Korgan": [sh]}, "il_disi": [], "ilce_belirsiz": []}
+birlestir(d, [kayit("gorevli-8", "Mehmet Er", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="a30d5cab8953")])
+assert d["ilceler"]["Korgan"] == [sh]
+g8 = kayit("gorevli-9", "Yeni Ad", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="ffffffffffff")
+d = {"il": "Ordu", "ilceler": {}, "il_disi": [], "ilce_belirsiz": []}
+birlestir(d, [g8]); birlestir(d, [g8])
+assert [x["id"] for x in d["ilceler"]["Korgan"]] == ["gorevli-9"]
+print("gorevli_birlestir: 7 test tamam")

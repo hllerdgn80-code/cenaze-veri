@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import '../bilesenler/ilan_karti.dart';
+import '../bilesenler/kart_sayfa.dart';
 import '../bilesenler/menu.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
@@ -25,7 +26,7 @@ class SayfamEkrani extends StatelessWidget {
       Expanded(
         child: liste.isEmpty
             ? ListView(children: const [BosDurum(baslik: M.sayfamBosBaslik, aciklama: M.sayfamBosAciklama)])
-            : ListView(
+            : KartListesi(
                 padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
                 children: [
                   for (final k in liste) IlanKarti(key: ValueKey('s_${k.ilan.id}'), ilan: k.ilan, sayacli: true),

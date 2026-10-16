@@ -137,7 +137,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
     }
     if (!v.kaynakli) return _kaynaksiz(context, d, r, v);
 
-    final out = <Widget>[IlanKutusu(il: v.il, ilce: d.ilce)]; // 15.10.2026: il ve ilçe liste sayfasında listenin ÜSTÜNDE sabit ilan kutusu
+    final out = <Widget>[]; // 16.10.2026 sahibi: önce 'Bugün … bulunmuyor' / ilanlar, ilan kutusu ALTTA
     if (s.zaman != null) {
       out.add(Padding(
         padding: const EdgeInsets.only(bottom: R.s1),
@@ -148,13 +148,15 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
       out.add(Text(M.hataBaglanti, textAlign: TextAlign.center, style: Y.soluk(r)));
     }
     out.addAll(gunIcerigi(v, d.ilce, _gun, bugunTr()));
+    out.add(IlanKutusu(il: v.il, ilce: d.ilce));
     return out;
   }
 
   List<Widget> _kaynaksiz(BuildContext context, AppDurum d, CvRenk r, IlVerisi v) {
     // 16.10.2026 sahibi: "… yakınları tarafından paylaşılıyor" kartı TAMAMEN kaldırıldı; yalnız ilan kutusu
+    final yer = d.ilce ?? v.il;
     return [
-      const SizedBox(height: R.s3),
+      BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true),
       IlanKutusu(il: v.il, ilce: d.ilce),
     ];
   }

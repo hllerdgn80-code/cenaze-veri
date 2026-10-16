@@ -319,7 +319,7 @@ Sahibinin sözü: "din görevlisi misiniz butonunu tıklayan kişinin karşısı
 ## 50a. ÇIKIŞ SONRASI YENİDEN GİRİŞ = YENİDEN E-POSTA KODU (site sahibi 16.10.2026 09:15)
 "Bir din görevlisi çıkış yaptığında bir daha giriş yapmak istediğinde tekrar e-posta doğrulaması istesin." Çıkışta oturum cihazdan ve Worker'dan silinir; yeniden giriş yalnız kılavuz → kod akışıyla olur, "hesabım var" kestirmesi YOK. KVKK penceresi hesap başına yalnız ilk açılışta (§50); çıkış-giriş KVKK'yı yeniden göstermez.
 
-## 50. PANEL İLK AÇILIŞTA KVKK UYARISI (site sahibi 16.10.2026 08:50; "sadece ilk açılışta")
+## 50. PANEL İLK AÇILIŞTA KVKK UYARISI (site sahibi 16.10.2026 08:50; "sadece ilk açılışta"; 09:35: "Cloudflare sunucuları / yurt dışı" satırı kısa uyarıda OLMAZ — korkutur; yurt dışı aktarım bilgisi yalnız tam metinde/Gizlilik'te)
 Din görevlisi paneli İLK kez açılırken tam ekran KVKK aydınlatma penceresi: kısa metin (hangi veriler: Diyanet e-posta adresi, ad-soyad, görev yeri/unvan, il-ilçe, paylaştığınız ilanlar; amaç; saklama; haklar) + "Tam metin" bağlantısı (Gizlilik sayfası) + **"Okudum, anladım"** düğmesi; kabul tarihi cihazda ve Worker hesap kaydında (`kvkk_kabul`) tutulur; bir daha gösterilmez (hesap değişirse yeniden). Aydınlatma metninin B bölümü (telefon/kart fotoğrafı) §45'e göre YENİDEN YAZILACAK (KVKK işiyle birlikte).
 
 ## 51. EKRANDA TEK İLAN + VEFAT TARİHİ YOK (site sahibi 16.10.2026 09:05)
