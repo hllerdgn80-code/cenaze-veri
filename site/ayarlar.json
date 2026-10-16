@@ -1,1 +1,16 @@
-{"ilce_sayfasinda_il_geneli": false, "guncelleme": "2026-10-16", "bugun_bossa_dunu_goster": false}
+{
+ "ilce_sayfasinda_il_geneli": false,
+ "bugun_bossa_dunu_goster": false,
+ "bayraklar": {
+  "ilce_sayfasinda_il_geneli": false,
+  "bugun_bossa_dunu_goster": false,
+  "ilan_kutusu_goster": true,
+  "bildirim_teklifi_acik": true
+ },
+ "sayilar": {},
+ "yazilar": {},
+ "kaliplar": {},
+ "listeler": {},
+ "haritalar": {},
+ "guncelleme": "2026-10-16"
+}

@@ -21,7 +21,7 @@ class DualarEkrani extends StatelessWidget {
         sol: LogoDugme(onTap: d.anaEkranaDon),
         sag: const MenuDugmesi(),
         ust: M.duaUst,
-        baslik: const BuyukBaslik(M.duaBaslik),
+        baslik: BuyukBaslik(M.duaBaslik),
       ),
       Expanded(
         child: ListView(

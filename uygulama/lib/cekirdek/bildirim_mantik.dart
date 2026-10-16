@@ -1,16 +1,17 @@
 // Günlük cenaze bildirimi — SAF MANTIK (eklenti yok; birim testlenir). Karar: URUN-TASLAGI §36, dil kuralları §22.
 // Eklentiye bağlı kısım (izin, WorkManager, bildirim gösterme): bildirim.dart.
+import 'uzak_ayar.dart';
 import 'ilan.dart';
 import 'yardimci.dart';
 
 /// Sabah bakışı 08:00, öğle bakışı 12:00 (cihaz saati). 21:00–07:00 arası hiçbir bildirim gönderilmez.
-const int sabahSaat = 8;
-const int ogleSaat = 12;
-const int sessizBaslangic = 21;
-const int sessizBitis = 7;
+int get sabahSaat => UzakAyar.sayi('bildirim_sabah_saat', 8);
+int get ogleSaat => UzakAyar.sayi('bildirim_ogle_saat', 12);
+int get sessizBaslangic => UzakAyar.sayi('bildirim_sessiz_baslangic', 21);
+int get sessizBitis => UzakAyar.sayi('bildirim_sessiz_bitis', 7);
 
 /// "Şimdi değil" diyene kaç gün yeniden sorulmaz
-const int erteleGunSayisi = 7;
+int get erteleGunSayisi => UzakAyar.sayi('bildirim_ertele_gun', 7);
 
 enum BildirimRolu { sabah, ogle }
 

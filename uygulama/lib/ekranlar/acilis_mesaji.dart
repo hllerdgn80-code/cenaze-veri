@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../cekirdek/metin.dart';
+import '../cekirdek/uzak_ayar.dart';
 
 class AcilisMesaji extends StatefulWidget {
   final Duration sure;
@@ -23,7 +24,7 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
   @override
   void initState() {
     super.initState();
-    _sayac = Timer(widget.sure, () {
+    _sayac = Timer(UzakAyar.sure('acilis_sn', widget.sure), () {
       if (!mounted) return;
       Navigator.of(context).pushReplacement(PageRouteBuilder<void>(
         pageBuilder: (_, __, ___) => widget.sonra,
@@ -63,7 +64,7 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
                   child: Image.asset('assets/acilis/acilis.png', fit: BoxFit.cover),
                 ),
                 const SizedBox(height: 28),
-                const Text(M.acilisArapca,
+                Text(M.acilisArapca,
                     textDirection: TextDirection.rtl,
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 30, height: 1.7, color: _altin)),
@@ -73,7 +74,7 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
                     textAlign: TextAlign.center,
                     style: const TextStyle(fontSize: 13, letterSpacing: 0.6, fontWeight: FontWeight.w600, color: _altin)),
                 const SizedBox(height: 12),
-                const Text(M.acilisMeal,
+                Text(M.acilisMeal,
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 17, height: 1.5, fontWeight: FontWeight.w500, color: _krem)),
                 const SizedBox(height: 10),
@@ -95,7 +96,7 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
                   height: 3,
                   child: TweenAnimationBuilder<double>(
                     tween: Tween(begin: 0, end: 1),
-                    duration: widget.sure,
+                    duration: UzakAyar.sure('acilis_sn', widget.sure),
                     builder: (_, v, __) => LinearProgressIndicator(
                       value: v,
                       minHeight: 3,

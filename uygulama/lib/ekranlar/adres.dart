@@ -83,7 +83,7 @@ class _IlSecEkraniState extends State<IlSecEkrani> {
                 const SizedBox(height: R.s4),
                 Text(M.acilisMarka, textAlign: TextAlign.center, style: Y.acilis(r)),
                 const SizedBox(height: R.s2),
-                const Text(M.motto,
+                Text(M.motto,
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600, letterSpacing: 0.2, color: Color(0xFFC9A45C))),
                 const SizedBox(height: R.s2),
@@ -94,7 +94,7 @@ class _IlSecEkraniState extends State<IlSecEkrani> {
           SliverToBoxAdapter(child: AramaAlani(ipucu: M.ilAra, onChanged: (v) => setState(() => _q = v))),
           SliverToBoxAdapter(
             child: iller.isEmpty
-                ? const BosDurum(baslik: M.ilBos, ikon: 'konum', kucuk: true)
+                ? BosDurum(baslik: M.ilBos, ikon: 'konum', kucuk: true)
                 : _Liste([
                     for (int i = 0; i < iller.length; i++)
                       _Satir(
@@ -160,7 +160,7 @@ class _IlceSecEkraniState extends State<IlceSecEkrani> {
           AramaAlani(ipucu: M.ilceAra, onChanged: (v) => setState(() => _q = v)),
           Expanded(
             child: ListView(children: [
-              satirlar.isEmpty ? const BosDurum(baslik: M.ilceBos, ikon: 'konum', kucuk: true) : _Liste(satirlar),
+              satirlar.isEmpty ? BosDurum(baslik: M.ilceBos, ikon: 'konum', kucuk: true) : _Liste(satirlar),
             ]),
           ),
         ]),

@@ -40,7 +40,7 @@ class _GorevliDegil extends StatelessWidget {
         sol: const SizedBox(width: 40),
         sag: const SizedBox(width: 40),
         ust: M.gorevliUst,
-        baslik: const BuyukBaslik(M.sekmePanel),
+        baslik: BuyukBaslik(M.sekmePanel),
       ),
       Expanded(
         child: ListView(key: const ValueKey('panel_gorevli_degil'), padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s6), children: [
@@ -107,7 +107,7 @@ class _GorevliParolaGonderildiState extends State<GorevliParolaGonderildi> {
             sol: const SizedBox(width: 40),
             sag: const SizedBox(width: 40),
             ust: M.gorevliUst,
-            baslik: const BuyukBaslik(M.pinGonderildiBaslik),
+            baslik: BuyukBaslik(M.pinGonderildiBaslik),
           ),
           Expanded(
             child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s6), children: [
@@ -183,7 +183,7 @@ class _GorevliParolaDegistirState extends State<GorevliParolaDegistir> {
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
             sag: const SizedBox(width: 40),
             ust: M.gorevliUst,
-            baslik: const BuyukBaslik(M.pinDegistirBaslik),
+            baslik: BuyukBaslik(M.pinDegistirBaslik),
           ),
           Expanded(
             child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6), children: [
@@ -245,7 +245,7 @@ class _GorevliParolaBelirleState extends State<GorevliParolaBelirle> {
             : YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
         sag: const SizedBox(width: 40),
         ust: M.gorevliUst,
-        baslik: const BuyukBaslik(M.sekmePanel),
+        baslik: BuyukBaslik(M.sekmePanel),
       ),
       Expanded(
         child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6), children: [
@@ -347,7 +347,7 @@ class _ParolaGirState extends State<_ParolaGir> {
         sol: const SizedBox(width: 40),
         sag: const SizedBox(width: 40),
         ust: M.gorevliUst,
-        baslik: const BuyukBaslik(M.sekmePanel),
+        baslik: BuyukBaslik(M.sekmePanel),
       ),
       Expanded(
         child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6), children: [

@@ -52,7 +52,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
 
   void _eskiyseYenile() {
     if (!mounted || _yukleniyor || _sonCekme == null) return;
-    if (DateTime.now().difference(_sonCekme!) >= ilanYenilemeAraligi) _yukle();
+    if (DateTime.now().difference(_sonCekme!) >= UzakAyar.sure('ilan_yenileme_sn', ilanYenilemeAraligi)) _yukle();
   }
 
   @override
@@ -313,6 +313,7 @@ class IlanKutusu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (!UzakAyar.bayrak('ilan_kutusu_goster', true)) return const SizedBox.shrink(); // uzak ayar
     final r = context.renk;
     return Container(
       key: const ValueKey('ilan_kutusu'),

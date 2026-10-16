@@ -32,7 +32,7 @@ class IlanKarti extends StatelessWidget {
 
     final icerik = <Widget>[
       if (sh) ...[
-        const Hap(M.sehitEtiket, zemin: R.sehitAl, renk: Colors.white),
+        Hap(M.sehitEtiket, zemin: R.sehitAl, renk: Colors.white),
         const SizedBox(height: R.s3),
       ],
       if (ilan.bebek && !sh) ...[

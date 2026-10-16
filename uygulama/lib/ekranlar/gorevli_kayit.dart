@@ -13,6 +13,7 @@ import '../cekirdek/gorevli.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import 'panel_sekmesi.dart';
+import '../cekirdek/uzak_ayar.dart';
 
 /// Din görevlisi girişi: oturum varsa Panel sekmesi, yoksa kayıt ekranı (ilan kutusu bağlantısı kullanır)
 Future<void> gorevliKapisi(BuildContext context, {required String il, String? ilce}) {
@@ -27,7 +28,7 @@ Future<void> gorevliKapisi(BuildContext context, {required String il, String? il
 enum _Faz { kilavuz, kod }
 
 /// Yeniden gönder bekleme (sn): 5 dakika (sahibi 16.10.2026)
-const int kodBeklemeSn = 300;
+int get kodBeklemeSn => UzakAyar.sayi('kod_bekleme_sn', 300);
 
 class GorevliKayit extends StatefulWidget {
   final String il;
@@ -73,7 +74,8 @@ class _GorevliKayitState extends State<GorevliKayit> {
 
   void _yenile([String? _]) => setState(() {});
 
-  void _sayacBaslat([int sn = kodBeklemeSn]) {
+  void _sayacBaslat([int? sure]) {
+    final sn = sure ?? kodBeklemeSn;
     _sayac?.cancel();
     _kalan = sn;
     _sayac = Timer.periodic(const Duration(seconds: 1), (t) {
@@ -290,7 +292,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
               sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: _geri),
               sag: YuvarlakDugme(ikon: 'kapat', anlam: 'Kapat', onTap: () => Navigator.of(context).pop()),
               ust: _faz == _Faz.kod ? M.kodUst : M.gorevliUst,
-              baslik: const BuyukBaslik(M.gorevliBaslik),
+              baslik: BuyukBaslik(M.gorevliBaslik),
             ),
             Expanded(
               child: ListView(

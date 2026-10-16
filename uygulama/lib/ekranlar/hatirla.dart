@@ -30,7 +30,7 @@ class HatirlaEkrani extends StatelessWidget {
         sol: LogoDugme(onTap: d.anaEkranaDon),
         sag: const MenuDugmesi(),
         ust: M.hatirlaUst,
-        baslik: const BuyukBaslik(M.hatirlaBaslik),
+        baslik: BuyukBaslik(M.hatirlaBaslik),
       ),
       Expanded(
         child: ListView(
@@ -183,7 +183,7 @@ class _KategoriListesiState extends State<KategoriListesi> {
       final q = sade(_q);
       final L = s.liste!.where((x) => q.isEmpty || sade(x.ad).contains(q)).toList();
       if (L.isEmpty) {
-        govde.add(const BosDurum(baslik: M.kayBos));
+        govde.add(BosDurum(baslik: M.kayBos));
       } else {
         govde.addAll(L.take(_n).map((x) => KisiKarti(x)));
         if (L.length > _n) {
@@ -246,11 +246,11 @@ class _TarihteBugunEkraniState extends State<TarihteBugunEkrani> {
       final tr = s.liste!.where((x) => x.turk).toList();
       final dn = s.liste!.where((x) => !x.turk).toList();
       if (tr.isNotEmpty) {
-        govde.add(const Bolum(M.tbTurkiye));
+        govde.add(Bolum(M.tbTurkiye));
         govde.addAll(tr.map((x) => KisiKarti(x)));
       }
       if (dn.isNotEmpty) {
-        govde.add(const Bolum(M.tbDunya));
+        govde.add(Bolum(M.tbDunya));
         govde.addAll(dn.map((x) => KisiKarti(x)));
       }
     }

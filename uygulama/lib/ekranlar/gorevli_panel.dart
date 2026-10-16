@@ -256,14 +256,14 @@ class _GorevliPanelState extends State<GorevliPanel> {
                 if (v == 'cikis') _cik(M.gorevliCikisYapildi);
               },
               itemBuilder: (_) => [
-                PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: const Text(M.gorevliYerDegisti)),
-                if (widget.sekmede) const PopupMenuItem(value: 'degistir', child: Text(M.pinDegistir)),
-                if (widget.sekmede) const PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
-                const PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
+                PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: Text(M.gorevliYerDegisti)),
+                if (widget.sekmede) PopupMenuItem(value: 'degistir', child: Text(M.pinDegistir)),
+                if (widget.sekmede) PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
+                PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
               ],
             ),
             ust: M.gorevliPanelUst,
-            baslik: const BuyukBaslik(M.gorevliUst),
+            baslik: BuyukBaslik(M.gorevliUst),
           ),
           if (h != null) _baslikKarti(r, h), // SABİT: ListView'ın dışında
           Expanded(
@@ -295,7 +295,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
                   ),
                   const SizedBox(height: R.s3),
                   AnaDugme(M.gorevliIlanlarim(_ilanlar.length), onTap: _ilanlarimAc),
-                  const Bolum(M.gorevliSonIlanlar),
+                  Bolum(M.gorevliSonIlanlar),
                   if (_ilanlar.isEmpty)
                     Text(M.gorevliIlanYok, textAlign: TextAlign.center, style: Y.soluk(r))
                   else
@@ -372,7 +372,7 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
             sag: const SizedBox(width: 40),
             ust: M.gorevliPanelUst,
-            baslik: const BuyukBaslik(M.gorevliIlanlarimBaslik),
+            baslik: BuyukBaslik(M.gorevliIlanlarimBaslik),
           ),
           Expanded(
             child: ListView(
@@ -631,7 +631,7 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
             sag: const SizedBox(width: 40),
             ust: M.gorevliPanelUst,
-            baslik: const BuyukBaslik(M.gorevliIlanFormBaslik),
+            baslik: BuyukBaslik(M.gorevliIlanFormBaslik),
           ),
           Expanded(
             child: ListView(
@@ -802,7 +802,7 @@ class _GorevliKvkkState extends State<GorevliKvkk> {
                     child: TextButton(
                       key: const ValueKey('g_kvkk_tam'),
                       onPressed: () => metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin),
-                      child: const Text(M.gorevliKvkkTam),
+                      child: Text(M.gorevliKvkkTam),
                     ),
                   ),
                 ],

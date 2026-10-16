@@ -21,11 +21,11 @@ class SayfamEkrani extends StatelessWidget {
         sol: LogoDugme(onTap: d.anaEkranaDon),
         sag: const MenuDugmesi(),
         ust: M.sayfamUst,
-        baslik: const BuyukBaslik(M.sayfamBaslik),
+        baslik: BuyukBaslik(M.sayfamBaslik),
       ),
       Expanded(
         child: liste.isEmpty
-            ? ListView(children: const [BosDurum(baslik: M.sayfamBosBaslik, aciklama: M.sayfamBosAciklama)])
+            ? ListView(children: [BosDurum(baslik: M.sayfamBosBaslik, aciklama: M.sayfamBosAciklama)])
             : KartListesi(
                 padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
                 children: [
