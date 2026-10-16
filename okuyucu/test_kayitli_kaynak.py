@@ -417,5 +417,124 @@ class IcAnadolu(unittest.TestCase):
         self.assertTrue(hasattr(h, "http_error_308"))
 
 
+class MacDevri(unittest.TestCase):
+    """16.10.2026: GitHub IP'sine engel veren satırlar Mac'e devredilir (ağ YOK)."""
+
+    def sat(self, **a):
+        return kk.dogrula(satir(**a))[0]
+
+    def test_calistir_alani(self):
+        self.assertEqual(self.sat()["calistir"], "github")
+        self.assertIsNone(kk.dogrula(satir(calistir="bulut"))[0])
+        self.assertEqual(self.sat(calistir="mac")["calistir"], "mac")
+
+    def test_github_calistir_mac_atlar_mac_okur(self):
+        s = self.sat(calistir="mac")
+        self.assertIn("mac'e devredildi", kk.atlama_nedeni(s, {"son": {}}))
+        self.assertIsNone(kk.atlama_nedeni(s, {"son": {}}, yer="mac"))
+        self.assertIn("mac turunda değil", kk.atlama_nedeni(self.sat(), {"son": {}}, yer="mac"))
+
+    def test_mac_gerekli_7_gun(self):
+        s = self.sat()
+        anahtar = kk.satir_anahtari(s)
+        simdi = datetime(2026, 10, 16, 12, 0)
+        mac = {anahtar: {"tarih": "2026-10-12", "neden": "robots-403", "ad": s["ad"]}}          # 4 gün önce
+        self.assertIn("robots-403", kk.atlama_nedeni(s, {"son": {}}, simdi, mac=mac))
+        self.assertIsNone(kk.atlama_nedeni(s, {"son": {}}, simdi, yer="mac", mac=mac))
+        mac[anahtar]["tarih"] = "2026-10-05"                                                    # 11 gün: GitHub yeniden dener, Mac hâlâ okur
+        self.assertIsNone(kk.atlama_nedeni(s, {"son": {}}, simdi, mac=mac))
+        self.assertIsNone(kk.atlama_nedeni(s, {"son": {}}, simdi, yer="mac", mac=mac))
+        mac[anahtar]["tarih"] = "2026-09-20"                                                    # 26 gün: Mac de bırakır
+        self.assertIn("mac turunda değil", kk.atlama_nedeni(s, {"son": {}}, simdi, yer="mac", mac=mac))
+
+    def _tur(self, tmp, defter, hata, yer="github", mac_dosya=None):
+        """satir_oku'yu sahte hata ile değiştirir; calistir'i çalıştırır."""
+        gercek = kk.satir_oku
+        def sahte(ctx, il_adi, s):
+            if hata:
+                raise hata(ctx, s)
+            return []
+        kk.satir_oku = sahte
+        try:
+            return kk.calistir(defter, veri_kok=tmp, yer=yer, mac_dosya=mac_dosya)
+        finally:
+            kk.satir_oku = gercek
+
+    def test_engel_mac_isaretlenir_dosyaya_yazilir(self):
+        with tempfile.TemporaryDirectory() as d:
+            md = os.path.join(d, "_mac_gerekli.json")
+            s = self.sat()
+            def robots403(ctx, s):                      # robots.txt'e erişim engeli (WAF): ob.robots_izin yasak=True önbelleği
+                ob.durum(ctx).d["robots"]["www.testgazete.com"] = {"tarih": date.today().isoformat(), "metin": "", "yasak": True}
+                return oi.Engel("robots.txt yasaklıyor: https://www.testgazete.com/rss")
+            o = self._tur(d, [s], robots403, mac_dosya=md)
+            self.assertIn("mac'e devredildi", o["atlandi"]["agri/Test Gazetesi"])
+            kayit = json.load(open(md, encoding="utf-8"))["satirlar"][kk.satir_anahtari(s)]
+            self.assertEqual((kayit["neden"], kayit["tarih"]), ("robots-403", date.today().isoformat()))
+            self.assertIn(kk.satir_anahtari(s), json.load(open(os.path.join(d, "_defter_durum.json")))["mac_gerekli"])
+            icerik = open(md, encoding="utf-8").read()
+            o2 = self._tur(d, [s], robots403, mac_dosya=md)                 # ikinci tur: GitHub atlar, dosya aynen kalır (commit çıkmaz)
+            self.assertIn("mac'e devredildi", o2["atlandi"]["agri/Test Gazetesi"]); self.assertNotIn("mac_isaret", o2)
+            self.assertEqual(open(md, encoding="utf-8").read(), icerik)
+
+    def test_http403_islenir_gercek_robots_yasagi_devredilmez(self):
+        with tempfile.TemporaryDirectory() as d:
+            md = os.path.join(d, "_mac_gerekli.json")
+            o = self._tur(d, [self.sat()], lambda ctx, s: oi.Engel("HTTP 403: https://www.testgazete.com/x"), mac_dosya=md)
+            self.assertIn("http-403", json.load(open(md, encoding="utf-8"))["satirlar"][kk.satir_anahtari(self.sat())]["neden"])
+        with tempfile.TemporaryDirectory() as d:
+            md = os.path.join(d, "_mac_gerekli.json")
+            def gercek(ctx, s):                          # robots.txt 200 ama Disallow: site kendi kuralıyla yasaklıyor
+                ob.durum(ctx).d["robots"]["www.testgazete.com"] = {"tarih": date.today().isoformat(), "metin": "User-agent: *\nDisallow: /", "yasak": False}
+                return oi.Engel("robots.txt yasaklıyor: https://www.testgazete.com/rss")
+            o = self._tur(d, [self.sat()], gercek, mac_dosya=md)
+            self.assertIn("bırakıldı", o["atlandi"]["agri/Test Gazetesi"]); self.assertFalse(os.path.exists(md))
+
+    def test_mac_turu_isaret_yazmaz_ve_engelde_birakir(self):
+        with tempfile.TemporaryDirectory() as d:
+            md = os.path.join(d, "_mac_gerekli.json")
+            s = self.sat(calistir="mac")
+            o = self._tur(d, [s], lambda ctx, s: oi.Engel("HTTP 403: x"), yer="mac", mac_dosya=md)
+            self.assertIn("mac de", o["atlandi"]["agri/Test Gazetesi"]); self.assertFalse(os.path.exists(md))
+
+    def test_ulusal_katla_iki_dosya_id_tekil(self):
+        with tempfile.TemporaryDirectory() as d:
+            v, e = os.path.join(d, "veri"), os.path.join(d, "eski")
+            for kok, kay in ((v, [{"id": "a", "liste_tarihi": D2, "n": "mac"}, {"id": "b", "liste_tarihi": D2}]),
+                             (e, [{"id": "a", "liste_tarihi": D2, "n": "gh"}, {"id": "c", "liste_tarihi": D2}, {"id": "eski", "liste_tarihi": "2020-01-01"}])):
+                os.makedirs(os.path.join(kok, "agri")); json.dump({"il": "Ağrı", "kayitlar": kay}, open(os.path.join(kok, "agri", "_ulusal.json"), "w"))
+            self.assertEqual(kk.ulusal_katla(v, e), 1)
+            out = {x["id"]: x for x in json.load(open(os.path.join(v, "agri", "_ulusal.json")))["kayitlar"]}
+            self.assertEqual(sorted(out), ["a", "b", "c"]); self.assertEqual(out["a"]["n"], "mac")     # güncel dosya kazanır, eski 7 gün dışı atılır
+
+    def test_defter_sayaci(self):
+        import ulusal_birlestir as ub
+        with tempfile.TemporaryDirectory() as d:
+            ub.sayac_yaz(d, {"agri": 2}, {"Test Gazetesi": 2})
+            ub.sayac_yaz(d, {"agri": 1, "van": 1}, {"Test Gazetesi": 1, "Baska": 1})
+            e = json.load(open(os.path.join(d, "_defter_durum.json")))["yeni_kayit"][date.today().isoformat()]
+            self.assertEqual((e["toplam"], e["il"], e["kaynak"]["Test Gazetesi"]), (4, {"agri": 3, "van": 1}, 3))
+
+    def test_ulusal_birlestir_defter_kaynagini_sayar(self):
+        import ulusal_birlestir as ub
+        gercek = ub.defter_adlari
+        ub.defter_adlari = lambda: {"Test Gazetesi"}
+        try:
+            with tempfile.TemporaryDirectory() as d:
+                os.makedirs(os.path.join(d, "agri"))
+                ay = lambda ad, kad: {"id": "x" + ad, "ad_soyad": ad, "il": "Ağrı", "liste_tarihi": D2, "vefat_tarihi": D2, "kaynak_ad": kad}
+                json.dump({"il": "Ağrı", "kayitlar": [ay("Ali Veli", "Test Gazetesi"), ay("Can Can", "Baska")]}, open(os.path.join(d, "agri", "_ulusal.json"), "w"))
+                import io, contextlib
+                b = io.StringIO()
+                with contextlib.redirect_stdout(b):
+                    sys.argv = ["x", d]; ub.main()
+                self.assertIn("defter: 1 yeni kayıt", b.getvalue()); self.assertIn("'agri': 1", b.getvalue())
+        finally:
+            ub.defter_adlari = gercek
+
+
+D2 = BUGUN.isoformat()
+
+
 if __name__ == "__main__":
     unittest.main()

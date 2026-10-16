@@ -35,7 +35,9 @@ concurrency:
 
 env:
   TZ: Europe/Istanbul
-  TR_ILLER: "kocaeli van mugla aksaray malatya"
+  # 16.10.2026: kastamonu agri mardin tunceli mersin = GitHub IP'sine robots.txt 403 veren il okuyuculari (Aciksoz; Agrida Haber+Karakose; Mardin Haber; Tunceli Emek;
+  # Imece+Iste Mersin). Mac kuru probunda 7/8 kaynak acildi (siirt Kurtalan Mac'ten de 403 -> eklenmedi)
+  TR_ILLER: "kocaeli van mugla aksaray malatya kastamonu agri mardin tunceli mersin"
 
 jobs:
   oku-tr:
@@ -121,6 +123,12 @@ jobs:
           python3 okuyucu/sondakika.py || echo "::warning::sondakika okunamadi"
           BOS="$(python3 araclar/bosluk.py --il-listesi)"
           if [ -n "$BOS" ]; then python3 okuyucu/cenazeilanlari.py --il "$BOS" || echo "::warning::cenazeilanlari okunamadi"; else echo "bos il yok"; fi
+      # 16.10.2026 MAC'E DEVIR (sahibi karari: "robots.txt'yi/sayfayi GitHub'a vermeyen TUM kaynaklar Mac'ten okunsun"): kayit defterinde `calistir: mac` olan ya da GitHub turunda
+      # ENGEL (robots.txt 403 / HTTP 401-403-429) alip okuyucu/kaynaklar/_mac_gerekli.json'a isaretlenen satirlar BURADA, ev internetinden, sitenin kendi kurallarina uyan siradan
+      # istemci olarak okunur (robots.txt gercekten yasaklarsa ya da Mac'ten de 403 gelirse satir yine birakilir; engel dolanilmaz). Cikti veri/<il>/_ulusal.json -> asagida veri-tr/'ye
+      # tasinir, topla.yml birlestir adimi katar. Her iki modda (normal + bosluk) e-Devlet adimlarindan SONRA calisir. Istek tavani/sure e-Devlet'ten bagimsizdir.
+      - name: "Mac'e devredilen kaynaklari oku (kayit defteri, --yer mac)"
+        run: python3 okuyucu/kayitli_kaynak.py --yer mac --istek 300 --sure-sn 900 || echo "::warning::mac kayit defteri okuyucusu hata verdi"
       - name: veri-tr/ klasorunu hazirla (bosluk modu; mevcut veri-tr korunur, yalniz _ulusal.json ve _bosluk.json guncellenir)
         if: ${{ inputs.mod == 'bosluk' }}
         run: |

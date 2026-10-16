@@ -6,8 +6,12 @@ Kalıplar: rss / sitemap -> ortak_haber.haber_kaynagi (oh.site ile aynı paramet
 Kurallar: robots 'yasak' ya da canlı robots.txt izin vermiyorsa satır atlanır (ob.al her istekte bakar); siklik_dk uygulanır
 (son okuma veri/_defter_durum.json); bozuk satır uyarıyla atlanır, tur düşmez; Facebook/Instagram/WhatsApp vb. satırlar reddedilir.
 Çıktı: veri/<il>/_ulusal.json (sondakika.py ile aynı dosya/şema; ulusal_birlestir.py son7gun'a katar), kaynak_turu = defterdeki tur.
-Kullanım: python3 okuyucu/kayitli_kaynak.py [--defter DOSYA] [--il agri] [--kuru] [--istek N] [--sure-sn 600]
-  --kuru: dosya yazmaz (geçici klasör), varsayılan istek tavanı 5."""
+Kullanım: python3 okuyucu/kayitli_kaynak.py [--defter DOSYA] [--il agri] [--kuru] [--istek N] [--sure-sn 600] [--yer github|mac]
+  --kuru: dosya yazmaz (geçici klasör), varsayılan istek tavanı 5.
+  --yer mac (16.10.2026): yalnız `calistir: mac` ya da GitHub turunda ENGEL (robots.txt 403 / HTTP 401-403-429) alıp `_mac_gerekli.json`'a
+  işaretlenen satırlar okunur; sahibinin Mac runner'ı (topla-tr.yml) çalıştırır, çıktı veri/<il>/_ulusal.json -> veri-tr/. Mac'ten de engel gelirse
+  satır yine bırakılır (engel dolanılmaz). GitHub turu (varsayılan) bu satırları 7 gün atlar, sonra bir kez yeniden dener.
+  --ulusal-katla KLASOR: KLASOR/<il>/_ulusal.json kayıtlarını veri/<il>/_ulusal.json'a id'ye göre katar (topla.yml: veri-tr kopyası sonrası)."""
 import glob, json, os, re, sys, tempfile, time, urllib.parse
 from datetime import date, datetime, timedelta
 
@@ -18,6 +22,11 @@ import ortak, ortak_ilce as oi, ortak_basin as ob, ortak_haber as oh
 VERI = os.path.join(DIZIN, "..", "veri")
 KAYNAKLAR = os.path.join(DIZIN, "kaynaklar")
 DURUM_DOSYASI = "_defter_durum.json"
+MAC_DOSYASI = os.path.join(KAYNAKLAR, "_mac_gerekli.json")   # depoda tutulur (Mac checkout'ta okur); GitHub turu yazar
+MAC_GITHUB_ATLAMA_GUN = 7        # işaretli satırı GitHub bu kadar gün atlar, sonra bir kez yeniden dener (engel kalktıysa geri döner)
+MAC_OKUMA_GUN = 14               # Mac işareti bu kadar gün geçerli sayar (GitHub yeniden yoklarken boşluk olmasın)
+MAC_SAKLAMA_GUN = 30
+YERLER = ("github", "mac")
 
 TURLER = ("belediye", "muftuluk", "yerel_basin", "ulusal")
 KALIPLAR = ("rss", "sitemap", "liste", "tablo")
@@ -67,6 +76,8 @@ def dogrula(s, iller=None):
         n.append(f"kalip {kalip} ama liste_url yok")
     if s.get("robots", "izin") not in ("izin", "yasak"):
         n.append(f"robots geçersiz: {s.get('robots')!r}")
+    if s.get("calistir", "github") not in YERLER:
+        n.append(f"calistir geçersiz: {s.get('calistir')!r}")
     kanit = s.get("kanit")
     if not isinstance(kanit, list) or len([x for x in kanit if str(x).strip()]) < 2:
         n.append("kanit en az 2 tarihli başlık olmalı")
@@ -89,6 +100,7 @@ def dogrula(s, iller=None):
         return None, n
     t = dict(s)
     t.setdefault("robots", "izin")
+    t.setdefault("calistir", "github")
     t["siklik_dk"] = sk
     t["takma"] = [x for x in (s.get("takma") or []) if isinstance(x, str)]
     t["kesin_yerel"] = bool(s.get("kesin_yerel"))
@@ -146,12 +158,65 @@ def durum_kaydet(veri_kok, d):
     ortak.json_yaz(os.path.join(veri_kok, DURUM_DOSYASI), d)
 
 
-def atlama_nedeni(s, durum, simdi=None):
-    """Satır bu turda okunmayacaksa nedeni (str), okunacaksa None. robots 'yasak' -> atla; siklik_dk dolmadıysa -> atla."""
+def _gun_farki(tarih, simdi):
+    try:
+        return (simdi.date() - date.fromisoformat(str(tarih)[:10])).days
+    except ValueError:
+        return 9999
+
+
+def mac_gerekli_yukle(durum, dosya=None):
+    """Mac'e devredilen satırlar: depodaki _mac_gerekli.json + veri/_defter_durum.json['mac_gerekli'] birleşimi ({satır_anahtarı: {tarih, neden, ad}}).
+    Aynı anahtarda daha yeni tarih kazanır. Dosya yoksa/bozuksa yalnız durum kullanılır."""
+    out = {}
+    kaynaklar = [durum.get("mac_gerekli") or {}]
+    try:
+        with open(dosya or MAC_DOSYASI, encoding="utf-8") as f:
+            kaynaklar.append(json.load(f).get("satirlar") or {})
+    except Exception:
+        pass
+    for k_ in kaynaklar:
+        for k, v in k_.items():
+            if isinstance(v, dict) and v.get("tarih") and v["tarih"] >= (out.get(k, {}).get("tarih") or ""):
+                out[k] = v
+    return out
+
+
+def mac_dosyasi_yaz(mac, dosya=None, simdi=None):
+    """GitHub turu: işaretleri depo dosyasına yazar (üst düzey zaman damgası YOK: içerik değişmedikçe commit çıkmaz). 30 günden eski işaret silinir."""
+    simdi = simdi or datetime.now()
+    mac = {k: v for k, v in mac.items() if _gun_farki(v.get("tarih"), simdi) <= MAC_SAKLAMA_GUN}
+    yol = dosya or MAC_DOSYASI
+    yeni = json.dumps({"aciklama": "GitHub veri merkezi IP'sine engel veren (robots.txt 403 / HTTP 401-403-429) kayıt defteri satırları; Mac runner okur "
+                                   "(kayitli_kaynak.py --yer mac). Otomatik yazılır, elle düzenlenmez.", "satirlar": dict(sorted(mac.items()))},
+                      ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+    try:
+        if open(yol, encoding="utf-8").read() == yeni:
+            return mac
+    except OSError:
+        pass
+    with open(yol, "w", encoding="utf-8") as f:
+        f.write(yeni)
+    return mac
+
+
+def atlama_nedeni(s, durum, simdi=None, yer="github", mac=None):
+    """Satır bu turda okunmayacaksa nedeni (str), okunacaksa None. robots 'yasak' -> atla; siklik_dk dolmadıysa -> atla.
+    yer='github': `calistir: mac` ya da 7 günden yeni Mac işareti -> 'mac'e devredildi'. yer='mac': yalnız `calistir: mac` ∪ 14 günden yeni işaretliler okunur."""
     if s.get("robots") == "yasak":
         return "robots yasak (deftere göre)"
     simdi = simdi or datetime.now()
-    son = durum.get("son", {}).get(satir_anahtari(s))
+    anahtar = satir_anahtari(s)
+    isaret = (mac or {}).get(anahtar)
+    if yer == "mac":
+        if s.get("calistir") != "mac" and not (isaret and _gun_farki(isaret.get("tarih"), simdi) <= MAC_OKUMA_GUN):
+            return "mac turunda değil (GitHub okur)"
+    else:
+        if s.get("calistir") == "mac":
+            return "mac'e devredildi (deftere göre calistir=mac)"
+        if isaret and _gun_farki(isaret.get("tarih"), simdi) <= MAC_GITHUB_ATLAMA_GUN:
+            return f"mac'e devredildi ({isaret.get('neden', 'engel')}, {isaret.get('tarih')})"
+    son = durum.get("son", {}).get(anahtar)
     if son:
         try:
             gecen = (simdi - datetime.fromisoformat(son)).total_seconds() / 60
@@ -160,6 +225,17 @@ def atlama_nedeni(s, durum, simdi=None):
         if gecen < s["siklik_dk"] - ISTEK_ARALIGI_TOLERANS_DK:
             return f"siklik_dk dolmadı ({int(gecen)}/{s['siklik_dk']} dk)"
     return None
+
+
+def engel_sinifi(ctx, s, e):
+    """oi.Engel hangi türden? 'robots-403' (robots.txt'e erişim engeli) | 'http-403' (401/403/429 sayfa) -> Mac'e devredilebilir (veri merkezi IP'si engeli).
+    None -> robots.txt gerçekten yasaklıyor (200 + Disallow): site kendi kuralıyla yasakladı, Mac'e de devredilmez."""
+    host = _host(s["url"])
+    for h, r in (ob.durum(ctx).d.get("robots") or {}).items():
+        if ob.site_anahtari(h) == host and r.get("yasak"):
+            return "robots-403"
+    m = re.search(r"HTTP (40[13]|429)", str(e))
+    return f"http-{m.group(1)}" if m else None
 
 
 # ---------------------------------------------------------------- rss / sitemap -> oh.site
@@ -842,10 +918,13 @@ def _ulusal_yaz(veri_kok, slug, il_adi, kayitlar, alindi):
     ortak.json_yaz(yol, {"il": il_adi, "kayitlar": list(kay.values()), "guncelleme": alindi})
 
 
-def calistir(defter, veri_kok=VERI, kuru=False, sure_sn=600, simdi=None, il_suzgec=None):
-    """Defterdeki satırları okur. Dönen: özet sözlüğü. Hiçbir satır hatası turu düşürmez."""
+def calistir(defter, veri_kok=VERI, kuru=False, sure_sn=600, simdi=None, il_suzgec=None, yer="github", mac_dosya=None):
+    """Defterdeki satırları okur. Dönen: özet sözlüğü. Hiçbir satır hatası turu düşürmez.
+    yer='github': ENGEL (robots-403/http-403) alan satır Mac'e işaretlenir; yer='mac': yalnız Mac'e devredilenler okunur, işaret yazılmaz."""
     iller = il_adlari()
     durum = durum_yukle(veri_kok)
+    mac = mac_gerekli_yukle(durum, mac_dosya)
+    mac_degisti = False
     alindi = ortak.simdi_iso()
     bitis = time.time() + sure_sn
     ozet = {"satir": len(defter), "okundu": 0, "atlandi": {}, "hata": {}, "kayit": 0, "il": {}}
@@ -856,7 +935,7 @@ def calistir(defter, veri_kok=VERI, kuru=False, sure_sn=600, simdi=None, il_suzg
         ad = f"{s['il']}/{s['ad']}"
         if il_suzgec and s["il"] != il_suzgec:
             continue
-        neden = atlama_nedeni(s, durum, simdi)
+        neden = atlama_nedeni(s, durum, simdi, yer=yer, mac=mac)
         if neden:
             ozet["atlandi"][ad] = neden
             continue
@@ -870,7 +949,14 @@ def calistir(defter, veri_kok=VERI, kuru=False, sure_sn=600, simdi=None, il_suzg
         try:
             kayitlar = satir_oku(ctx, il_adi, s)
         except oi.Engel as e:
-            ozet["atlandi"][ad] = f"ENGEL (bırakıldı): {e}"
+            sinif = engel_sinifi(ctx, s, e) if yer == "github" else None
+            if sinif:                           # veri merkezi IP'sine engel: Mac (ev interneti) sitenin kendi kurallarıyla dener; engel DOLANILMAZ
+                mac[satir_anahtari(s)] = {"tarih": (simdi or datetime.now()).date().isoformat(), "neden": sinif, "ad": s["ad"]}
+                mac_degisti = True
+                ozet["atlandi"][ad] = f"ENGEL ({sinif}) -> mac'e devredildi: {e}"
+                ozet.setdefault("mac_isaret", []).append(ad)
+            else:
+                ozet["atlandi"][ad] = f"ENGEL (bırakıldı{', mac de' if yer == 'mac' else ''}): {e}"
             continue
         except ob.ButceDoldu as e:
             ozet["atlandi"][ad] = f"bütçe/istek tavanı: {e}"
@@ -889,10 +975,43 @@ def calistir(defter, veri_kok=VERI, kuru=False, sure_sn=600, simdi=None, il_suzg
         for slug, kayitlar in toplanan.items():
             if kayitlar:
                 _ulusal_yaz(veri_kok, slug, iller[slug], kayitlar, alindi)
+        if yer == "github":
+            durum["mac_gerekli"] = mac_dosyasi_yaz(mac, mac_dosya, simdi) if mac_degisti or mac else {}
         durum_kaydet(veri_kok, durum)
     ozet["ornek"] = [{a: k.get(a) for a in ("il", "ilce", "ad_soyad", "yas", "liste_tarihi", "namaz_yeri_vakti", "defin_yeri", "kaynak_turu")}
                      for v in toplanan.values() for k in v][:5]
     return ozet
+
+
+def ulusal_katla(veri_kok, eski_kok):
+    """eski_kok/<il>/_ulusal.json kayıtlarını veri_kok/<il>/_ulusal.json'a id'ye göre katar (aynı id'de veri_kok'taki KAZANIR; 7 günden eskisi atılır).
+    topla.yml: veri-tr/ (Mac) kopyası veri/<il>/_ulusal.json'un üstüne yazar; kopyadan önce saklanan GitHub kayıtları buradan geri katılır."""
+    n = 0
+    if not os.path.isdir(eski_kok):
+        return 0
+    sinir = (date.today() - timedelta(days=7)).isoformat()
+    for il in sorted(os.listdir(eski_kok)):
+        try:
+            with open(os.path.join(eski_kok, il, "_ulusal.json"), encoding="utf-8") as f:
+                eski = json.load(f)
+        except Exception:
+            continue
+        yol = os.path.join(veri_kok, il, "_ulusal.json")
+        try:
+            with open(yol, encoding="utf-8") as f:
+                simdiki = json.load(f)
+        except Exception:
+            simdiki = {"il": eski.get("il"), "kayitlar": [], "guncelleme": eski.get("guncelleme")}
+        kay = {x["id"]: x for x in eski.get("kayitlar", []) if x.get("id")}
+        onceki = len(kay)
+        kay.update({x["id"]: x for x in simdiki.get("kayitlar", []) if x.get("id")})
+        kay = {i: x for i, x in kay.items() if (x.get("liste_tarihi") or "") >= sinir}
+        if len(kay) != len(simdiki.get("kayitlar", [])):
+            n += len(kay) - len(simdiki.get("kayitlar", []))
+            os.makedirs(os.path.dirname(yol), exist_ok=True)
+            ortak.json_yaz(yol, {"il": simdiki.get("il") or eski.get("il"), "kayitlar": list(kay.values()),
+                                 "guncelleme": simdiki.get("guncelleme") or eski.get("guncelleme")})
+    return n
 
 
 def main(argv=None):
@@ -901,6 +1020,14 @@ def main(argv=None):
     def arg(ad, varsayilan=None):
         return argv[argv.index(ad) + 1] if ad in argv and argv.index(ad) + 1 < len(argv) else varsayilan
 
+    if "--ulusal-katla" in argv:
+        n = ulusal_katla(VERI, arg("--ulusal-katla"))
+        print(f"ulusal katla: {n} kayıt geri katıldı")
+        return 0
+    yer = arg("--yer", "github")
+    if yer not in YERLER:
+        print(f"HATA: --yer {yer!r} geçersiz ({'|'.join(YERLER)})", file=sys.stderr)
+        return 2
     kuru = "--kuru" in argv
     dosya = arg("--defter")
     defter = defter_oku([dosya] if dosya else None)
@@ -917,7 +1044,8 @@ def main(argv=None):
             print(f"  GET {url}", file=sys.stderr)
             return gercek(url, timeout)
         ob._indir = sinirli
-    ozet = calistir(defter, kuru=kuru, sure_sn=int(arg("--sure-sn", "600")), il_suzgec=arg("--il"))
+    ozet = calistir(defter, kuru=kuru, sure_sn=int(arg("--sure-sn", "600")), il_suzgec=arg("--il"), yer=yer)
+    ozet["yer"] = yer
     ozet["istek_sayisi"] = sayac["istek"] if tavan else None
     print(json.dumps(ozet, ensure_ascii=False, indent=1))
     return 0

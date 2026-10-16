@@ -40,9 +40,39 @@ def ayni(a, b):
     return any(abs((x - y).days) <= 2 for x in tarihler(a) for y in tarihler(b))
 
 
+def defter_adlari():
+    """Kayıt defterindeki kaynak adları (kayitli_kaynak 'kaynak_ad' olarak yazar). Defter okunamazsa boş küme (sayaç çalışmaz, birleştirme etkilenmez)."""
+    try:
+        import kayitli_kaynak as kk
+        return {s["ad"] for s in kk.defter_oku(uyar=lambda m: None)}
+    except Exception:
+        return set()
+
+
+def sayac_yaz(kok, yeni_il, yeni_kaynak):
+    """16.10.2026: veri/_defter_durum.json['yeni_kayit'][gün] = {toplam, il, kaynak} (saatlik turlar toplanır, 14 gün tutulur). 'Yeni' = bu turda
+    son7gun'a İLK KEZ giren ve kaynağı defterdeki bir satır olan kayıt (zenginleştirme/yinelenen sayılmaz)."""
+    try:
+        import kayitli_kaynak as kk
+        d = kk.durum_yukle(kok)
+        g = datetime.now().date().isoformat()
+        e = d.setdefault("yeni_kayit", {}).setdefault(g, {"toplam": 0, "il": {}, "kaynak": {}})
+        e["toplam"] += sum(yeni_il.values())
+        for a, b in ((e["il"], yeni_il), (e["kaynak"], yeni_kaynak)):
+            for k, v in b.items():
+                a[k] = a.get(k, 0) + v
+        sinir = (datetime.now().date() - timedelta(days=14)).isoformat()
+        d["yeni_kayit"] = {k: v for k, v in d["yeni_kayit"].items() if k >= sinir}
+        ortak.json_yaz(os.path.join(kok, kk.DURUM_DOSYASI), d)
+    except Exception as ex:
+        print("UYARI: defter sayacı yazılamadı:", ex, file=sys.stderr)
+
+
 def main():
     kok = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri")
     eklenen = {}
+    adlar = defter_adlari()
+    yeni_il, yeni_kaynak = {}, {}
     for il in sorted(os.listdir(kok)):
         yol = os.path.join(kok, il)
         ul = os.path.join(yol, "_ulusal.json")
@@ -91,6 +121,9 @@ def main():
             if not r.get("ilce") and not r.get("il_disi_defin"):
                 ortak.ilce_isle(r, d.get("il") or il)          # H60: ulusal kayit da mezarlik/mahalle/ilce-adi katmanlarindan gecer (tahmin yok)
             mevcut.append(r)
+            if r.get("kaynak_ad") in adlar:                    # defter satırından gelen, son7gun'da ilk kez görülen kayıt
+                yeni_il[il] = yeni_il.get(il, 0) + 1
+                yeni_kaynak[r["kaynak_ad"]] = yeni_kaynak.get(r["kaynak_ad"], 0) + 1
             if r.get("ilce") and not r.get("ilce_belirsiz"):
                 d.setdefault("ilceler", {}).setdefault(r["ilce"], []).append(r)
             else:
@@ -101,6 +134,10 @@ def main():
             d["guncelleme"] = ortak.simdi_iso()
             ortak.json_yaz(son, d)
             eklenen[il] = n
+    if adlar:
+        sayac_yaz(kok, yeni_il, yeni_kaynak)
+        print(f"defter: {sum(yeni_il.values())} yeni kayıt (bugün ilk görülen), il başına {dict(sorted(yeni_il.items(), key=lambda x: -x[1]))}, "
+              f"kaynak başına {dict(sorted(yeni_kaynak.items(), key=lambda x: -x[1]))}")
     print(f"ulusal birleştirme: {sum(eklenen.values())} kayıt, {len(eklenen)} il", dict(sorted(eklenen.items(), key=lambda x: -x[1])[:10]))
 
 

@@ -103,6 +103,10 @@ jobs:
     timeout-minutes: 30
     env:
       CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    permissions:            # 16.10.2026: Mac'e devir isaret dosyasi (okuyucu/kaynaklar/_mac_gerekli.json) depoya yazilir; is duzeyi izin ust duzeyi ezer -> hepsi yazilir
+      contents: write
+      pages: write
+      id-token: write
     environment:
       name: github-pages
     steps:
@@ -145,6 +149,12 @@ jobs:
       - name: Gruplari birlestir
         run: |
           for g in gruplar/*/; do cp -r "$g". veri/; done
+          # 16.10.2026: veri-tr/ (Mac) kopyasi veri/<il>/_ulusal.json'un USTUNE yazar; kopyadan once GitHub kayitlarini sakla, sonra id'ye gore geri kat
+          rm -rf gh_ulusal; mkdir -p gh_ulusal
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "gh_ulusal/$il"; cp "$f" "gh_ulusal/$il/_ulusal.json"
+          done
           python3 okuyucu/hepsi.py --ozet-birlestir
           # Turkiye'den (self-hosted runner) okunan iller: veri-tr/ klasoru depoda
           if [ -f veri-tr/ozet-tr.json ]; then
@@ -168,6 +178,7 @@ jobs:
           else
             echo "::warning::TR runner calismiyor (veri-tr/ozet-tr.json yok)"
           fi
+          python3 okuyucu/kayitli_kaynak.py --ulusal-katla gh_ulusal || echo "::warning::GitHub ulusal kayitlari geri katilamadi"
           rm -f veri/ozet.[0-9]*.json
           # 14.10.2026 ULUSAL AKIS (vefatilanlari.com.tr): tum Turkiye en yeniden eskiye; her il/ilce icin eksik kisileri ekler (hata verirse tur durmaz)
           python3 okuyucu/vefatilan.py || echo "::warning::ulusal akis okunamadi"
@@ -175,6 +186,7 @@ jobs:
           python3 okuyucu/malatyahaber.py || echo "::warning::malatya haber listesi okunamadi"
           # 15.10.2026 KAYIT DEFTERI: okuyucu/kaynaklar/bolge-*.json satirlari (ajan isaretler, kod yazmaz); sehit_ulusal dagitimindan ONCE (ikinci dosyalar dagitilsin)
           python3 okuyucu/kayitli_kaynak.py || echo "::warning::kayitli kaynak okuyucusu hata verdi"
+          # 16.10.2026: GitHub IP'sine engel veren satirlar okuyucu/kaynaklar/_mac_gerekli.json'a isaretlenir (Mac runner okur: topla-tr.yml '--yer mac')
           python3 okuyucu/sehit_ulusal.py || echo "::warning::sehit duyurulari okunamadi"
           python3 okuyucu/cenazeilanlari.py || echo "::warning::cenazeilanlari akisi okunamadi"
           # aile ilanlari (Worker). AILE_WORKER_URL repo degiskeni/secret olarak tanimlaninca calisir; Resend + GELISTIRME=0 olmadan TANIMLANMAZ (sahte ilan riski)
@@ -230,3 +242,23 @@ jobs:
         with:
           path: site
       - uses: actions/deploy-pages@v4
+      # 16.10.2026 MAC'E DEVIR (son adim): kayitli_kaynak GitHub'da ENGEL alan satirlari okuyucu/kaynaklar/_mac_gerekli.json'a isaretledi. Yayindan SONRA, is alani
+      # temizlenip (izlenen dosyalar HEAD'e doner: autostash cakismasi olmasin) yalniz bu dosya degisince commit edilir. Basarisiz olursa kosu kirmizi olmaz.
+      - name: Mac devir isaretlerini depoya yaz (degismediyse atlanir; basarisiz yapmaz)
+        if: ${{ always() }}
+        continue-on-error: true
+        run: |
+          f=okuyucu/kaynaklar/_mac_gerekli.json
+          [ -f "$f" ] || { echo "mac devir dosyasi yok"; exit 0; }
+          cp "$f" "$RUNNER_TEMP/mac_gerekli.json"
+          git checkout -q -- . || true
+          cp "$RUNNER_TEMP/mac_gerekli.json" "$f"
+          if [ -n "$(git status --porcelain "$f")" ]; then
+            git config user.name "cenaze-bot"
+            git config user.email "cenaze-bot@users.noreply.github.com"
+            git add "$f"
+            git commit -m "kaynaklar: Mac'e devredilen satirlar (GitHub IP engeli)"
+            bash araclar/guvenli_push.sh "${GITHUB_REF_NAME}"
+          else
+            echo "mac devir isaretleri degismedi"
+          fi

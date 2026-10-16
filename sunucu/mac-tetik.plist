@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Kimin Cenazesi: Mac açılınca / uyanınca "Türkiye'den oku" turunu başlatır (araclar/mac_tetik.py). Kurulum: sunucu/RUNNER-KURULUM.md -->
+    <key>Label</key>
+    <string>com.kimincenazesi.mac-tetik</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/halil/Desktop/model-arastirmasi/cenaze-uygulamasi/araclar/mac_tetik.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>600</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/mac-tetik.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/mac-tetik.err</string>
+</dict>
+</plist>
