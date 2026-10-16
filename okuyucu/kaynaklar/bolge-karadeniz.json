@@ -232,33 +232,5 @@
   ],
   "guncel": "2026-10-15",
   "not": "RSS yok, Google News sitemap kullanılır; sık vefat/uğurlama haberi."
- },
- {
-  "ilce": null,
-  "tur": "yerel_basin",
-  "kalip": "sitemap",
-  "sitemap": "https://www.safakgazete.com/sitemap.xml",
-  "liste_url": null,
-  "takma": [
-   "Bartın",
-   "Ulus"
-  ],
-  "kesin_yerel": false,
-  "calistir": "github",
-  "siklik_dk": 120,
-  "robots": "izin",
-  "isaretleyen": "ajan-yeni-aci-1610",
-  "tarih": "2026-10-16",
-  "il": "zonguldak",
-  "ad": "Şafak Gazetesi (Zonguldak/Bartın)",
-  "url": "https://www.safakgazete.com",
-  "rss_url": null,
-  "kanit": [
-   "2026-10-15 Yıllarca direksiyon salladı: Erkan Özmen hayatını kaybetti",
-   "2026-10-14 Zonguldak'ta acı haber: Aziz Koşar hayatını kaybetti",
-   "2026-10-13 Ulus'ta acı kayıp: İsmet Çetin hayatını kaybetti"
-  ],
-  "guncel": "2026-10-15",
-  "not": "Bartın (Ulus) haberleri de var; sitemap_url doğrulanmadı."
  }
 ]

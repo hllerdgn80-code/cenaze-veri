@@ -77,29 +77,5 @@
   ],
   "guncel": "2026-10-16",
   "not": "Bismil ilçesi, \"acı günü: X vefat etti\" kalıbı, ayda ~8."
- },
- {
-  "ilce": null,
-  "tur": "yerel_basin",
-  "kalip": "rss",
-  "sitemap": null,
-  "liste_url": null,
-  "takma": [],
-  "kesin_yerel": false,
-  "calistir": "github",
-  "siklik_dk": 120,
-  "robots": "izin",
-  "isaretleyen": "ajan-yeni-aci-1610",
-  "tarih": "2026-10-16",
-  "il": "sirnak",
-  "ad": "Şırnak Haber",
-  "url": "https://www.sirnakhaber.com",
-  "rss_url": "https://www.sirnakhaber.com/rss",
-  "kanit": [
-   "2026-10-02 Silopi'de Eğitim Camiasını Üzen Vefat: Serhat Mete Hayatını Kaybetti",
-   "2026-09-17 Kazada Hayatını Kaybeden Şırnaklı Tır Sürücüsü Son Yolculuğuna Uğurlandı"
-  ],
-  "guncel": "2026-10-02",
-  "not": "Düşük sıklık; rss_url varsayım (kuru koşuyla doğrulanacak)."
  }
 ]

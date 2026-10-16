@@ -273,30 +273,5 @@
   ],
   "guncel": "2026-10-15",
   "not": "Kalıp \"X ailesinin acı günü\"; haftada ~2."
- },
- {
-  "ilce": null,
-  "tur": "yerel_basin",
-  "kalip": "rss",
-  "sitemap": null,
-  "liste_url": null,
-  "takma": [],
-  "kesin_yerel": false,
-  "calistir": "github",
-  "siklik_dk": 60,
-  "robots": "izin",
-  "isaretleyen": "ajan-yeni-aci-1610",
-  "tarih": "2026-10-16",
-  "il": "erzurum",
-  "ad": "Erzurum Pusula Gazetesi",
-  "url": "https://www.gazetepusula.net",
-  "rss_url": "https://www.gazetepusula.net/rss.xml",
-  "kanit": [
-   "2026-10-14 Annesinin acı haberiyle yola çıkacaktı, aynı gün hayatını kaybetti",
-   "2026-10-03 Asansör kazasında hayatını kaybetmişti! Gözyaşlarıyla toprağa verildi",
-   "2026-09-26 Erzurum'da Ayça Hızarcı ve Gazi Diler toprağa verildi"
-  ],
-  "guncel": "2026-10-15",
-  "not": "Ayda ~3-4 defin haberi, çoğu kaza; düşük sıklık."
  }
 ]

@@ -600,30 +600,5 @@
   ],
   "guncel": "2026-10-16",
   "not": "Çorum Haber ile aynı vefatları verebilir (K10 tekilleştirir)."
- },
- {
-  "ilce": null,
-  "tur": "yerel_basin",
-  "kalip": "rss",
-  "sitemap": null,
-  "liste_url": null,
-  "takma": [],
-  "kesin_yerel": false,
-  "calistir": "github",
-  "siklik_dk": 120,
-  "robots": "izin",
-  "isaretleyen": "ajan-yeni-aci-1610",
-  "tarih": "2026-10-16",
-  "il": "eskisehir",
-  "ad": "Eskişehir Haberleri (eskisehir.net)",
-  "url": "https://www.eskisehir.net",
-  "rss_url": "https://www.eskisehir.net/rss",
-  "kanit": [
-   "2026-10-15 Han'ın eski belediye başkanı İbrahim Koğar son yolculuğuna uğurlanıyor",
-   "2026-10-14 Han'ın eski belediye başkanı İbrahim Koğar hayatını kaybetti",
-   "2026-10-15 Nabi Avcı'nın ilkokul müdürü hayatını kaybetti"
-  ],
-  "guncel": "2026-10-16",
-  "not": "Eskişehir il genel haber; vefat haberleri seyrek-orta."
  }
 ]
