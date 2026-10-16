@@ -19,7 +19,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-aci-kayip-mustafa-unlu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-15",
      "sayfa_tarihi": "2026-10-15",
@@ -49,7 +49,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/catalzeytinde-murat-kurt-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -77,7 +77,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-muteahhitten-aci-haber-murat-kurt-vefat-etti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -107,7 +107,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/cidenin-aci-kaybi-nazmiye-guneysu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-15",
      "sayfa_tarihi": "2026-10-15",
@@ -135,7 +135,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/cidede-hamide-yenil-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-15",
      "sayfa_tarihi": "2026-10-15",
@@ -163,7 +163,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/cidede-mebruke-bakan-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -191,7 +191,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/cidede-ibrahim-ugur-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-13",
      "sayfa_tarihi": "2026-10-13",
@@ -219,7 +219,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/cidede-ali-sag-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-11",
      "sayfa_tarihi": "2026-10-11",
@@ -249,7 +249,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/dadayin-aci-kaybi-sakine-sahin-hakka-yurudu",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-13",
      "sayfa_tarihi": "2026-10-13",
@@ -259,6 +259,34 @@
     "ilce_belirsiz": false,
     "kaynak_turu": "yerel_haber",
     "ilk_gorulme": "2026-10-16T10:59:28+03:00"
+   },
+   {
+    "id": "91ca122af03f",
+    "il": "Kastamonu",
+    "ilce": "Daday",
+    "mahalle": "Boyalca Köyü",
+    "ad_soyad": "Sakine Şahin",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": "2026-10-12",
+    "namaz_yeri_vakti": "Daday Merkez Kolukaraoğlu Camii, öğle namazı",
+    "liste_tarihi": "2026-10-12",
+    "kaynak_ad": "Taşköprü Postası",
+    "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-sakine-sahin-hayatini-kaybetti",
+    "alindi": "2026-10-17T02:44:50+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-12",
+     "sayfa_tarihi": "2026-10-12",
+     "tarih_kaynagi": "metin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-17T02:44:55+03:00"
    }
   ],
   "Devrekani": [
@@ -279,7 +307,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Kastamonu Haber",
     "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -309,7 +337,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -339,7 +367,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Kastamonu Haber",
     "kaynak_url": "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -367,7 +395,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-emekli-bekciden-aci-haber-rasit-baltaoglu-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -397,7 +425,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/kastamonuda-taninan-marangoz-ustasi-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-12",
      "sayfa_tarihi": "2026-10-12",
@@ -425,7 +453,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-ayse-muzir-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-12",
      "sayfa_tarihi": "2026-10-12",
@@ -455,7 +483,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Kastamonu Haber",
     "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -483,7 +511,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/taskoprude-aysel-sahin-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-14",
      "sayfa_tarihi": "2026-10-14",
@@ -511,7 +539,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/taskoprude-saban-aktas-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-13",
      "sayfa_tarihi": "2026-10-13",
@@ -539,7 +567,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Taşköprü Postası",
     "kaynak_url": "https://www.taskoprupostasi.com/taskoprude-fikriye-tekin-hayatini-kaybetti",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-12",
      "sayfa_tarihi": "2026-10-12",
@@ -567,7 +595,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Kastamonu İstiklal",
     "kaynak_url": "https://www.kastamonuistiklal.com/taskoprude-fikriye-tekin-hakka-yurudu",
-    "alindi": "2026-10-17T00:44:35+03:00",
+    "alindi": "2026-10-17T02:44:50+03:00",
     "ham": {
      "yayin_tarihi": "2026-10-12",
      "sayfa_tarihi": "2026-10-12",
@@ -599,7 +627,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Kastamonu Haber",
    "kaynak_url": "https://www.kastamonuhaber.com/pence-kilit-operasyon-bolgesinden-aci-haber-uzman-cavus-mustafa-aslan-sehit-oldu",
-   "alindi": "2026-10-17T00:44:35+03:00",
+   "alindi": "2026-10-17T02:44:50+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-14",
     "sayfa_tarihi": "2026-10-14",
@@ -630,7 +658,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Taşköprü Postası",
    "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-sabriye-borekci-hayatini-kaybetti",
-   "alindi": "2026-10-17T00:44:35+03:00",
+   "alindi": "2026-10-17T02:44:50+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-14",
     "sayfa_tarihi": "2026-10-14",
@@ -658,7 +686,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "Taşköprü Postası",
    "kaynak_url": "https://www.taskoprupostasi.com/kastamonu-saglik-camiasinin-aci-kaybi-taskoprulu-doktor-vefat-etti",
-   "alindi": "2026-10-17T00:44:35+03:00",
+   "alindi": "2026-10-17T02:44:50+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-13",
     "sayfa_tarihi": "2026-10-13",
@@ -686,7 +714,7 @@
    "liste_tarihi": "2026-10-12",
    "kaynak_ad": "Taşköprü Postası",
    "kaynak_url": "https://www.taskoprupostasi.com/kastamonuda-haci-orhan-kose-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-17T00:44:35+03:00",
+   "alindi": "2026-10-17T02:44:50+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-12",
     "sayfa_tarihi": "2026-10-12",
@@ -714,7 +742,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Kastamonu İstiklal",
    "kaynak_url": "https://www.kastamonuistiklal.com/kastamonulu-genc-saglik-calisani-hayatini-kaybetti",
-   "alindi": "2026-10-17T00:44:35+03:00",
+   "alindi": "2026-10-17T02:44:50+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-11",
     "sayfa_tarihi": "2026-10-11",
@@ -726,10 +754,10 @@
    "ilk_gorulme": "2026-10-16T20:42:56+03:00"
   }
  ],
- "toplam": 25,
- "guncelleme": "2026-10-17T00:44:40+03:00",
+ "toplam": 26,
+ "guncelleme": "2026-10-17T02:44:55+03:00",
  "ilce_durum": {
-  "Taşköprü Postası": 11,
+  "Taşköprü Postası": 12,
   "Kastamonu İstiklal": 10,
   "Kastamonu Haber": 4,
   "Açıksöz": 0

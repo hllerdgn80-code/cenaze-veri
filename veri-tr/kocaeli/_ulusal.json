@@ -1768,7 +1768,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28997059/soner-alp-sonsuzluga-ugurlandi",
-   "alindi": "2026-10-16T19:56:46+03:00",
+   "alindi": "2026-10-17T02:45:04+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -1795,7 +1795,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28995520/nazile-irmak-vefat-etti",
-   "alindi": "2026-10-16T19:56:46+03:00",
+   "alindi": "2026-10-17T02:45:04+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -1876,7 +1876,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28993929/soner-olgun-hayatini-kaybetti",
-   "alindi": "2026-10-16T21:56:18+03:00",
+   "alindi": "2026-10-17T02:45:04+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -2074,7 +2074,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "f8ece8d11eb9",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": "Gündoğdu Mahallesi",
+   "ad_soyad": "Korgeneral Saner",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28978185/meral-aksenere-yagli-kazik-tehdidinde-bulunmustu-eski-korgeneral-saner-hayatini-kaybetti",
+   "alindi": "2026-10-17T02:45:04+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-13",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T00:44:49+03:00"
+ "guncelleme": "2026-10-17T02:45:04+03:00"
 }

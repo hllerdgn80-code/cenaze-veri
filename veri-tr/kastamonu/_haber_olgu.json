@@ -715,5 +715,31 @@
    "olen": 1,
    "kayit": 1
   }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-sakine-sahin-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Sakine Şahin",
+    "yas": null,
+    "ilce": "Daday",
+    "mahalle": "Boyalca Köyü",
+    "namaz": "Daday Merkez Kolukaraoğlu Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-12",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 3,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-topraga-verildi-buyuk-camlica-camii-imaminin-baba-acisi": {
+  "olgular": [],
+  "tarih": "2026-10-12",
+  "tani": null
  }
 }
