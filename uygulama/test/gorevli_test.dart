@@ -563,7 +563,7 @@ void main() {
     expect(find.text('Mehmet Cami'), findsNothing); // cami eşleşmiyor
     expect(find.text('Ali Gorevli'), findsNothing); // görevli ilanı
     expect(find.text('Veli Baska'), findsNothing); // başka ilçe
-    await tester.tap(find.descendant(of: find.byKey(const ValueKey('g_bolge_a30d5cab8953')), matching: find.text(M.gorevliDuzenle)));
+    await tester.tap(find.descendant(of: find.byKey(const ValueKey('g_bolge_a30d5cab8953')), matching: find.text(M.gorevliBolgeDuzelt)));
     await tester.pumpAndSettle();
     expect(find.byType(GorevliIlanFormu), findsOneWidget);
     expect(find.text('Fatma Yanlis'), findsOneWidget);
