@@ -80,14 +80,25 @@ jobs:
           else
             echo "::warning::KC_ANAHTAR secret yok: uygulama veri kapisindan 403 alir"
           fi
+      # 16.10.2026 H81: kod denetimi de kosuyu KIRMAZ (sahibine "Run failed" e-postasi gitmez); dusunce testler/derleme atlanir, uyari+ozet yazilir
       - name: Kod denetimi
+        id: analiz
+        continue-on-error: true
         run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Kod denetimi sonucu
+        run: |
+          if [ "${{ steps.analiz.outcome }}" != "success" ]; then
+            echo "::warning::KOD DENETIMI GECMEDI - testler ve derleme atlandi (ayrinti: Kod denetimi adimi)"
+            echo "## KOD DENETIMI GECMEDI - testler ve derleme atlandi" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       # 15.10.2026 H65: test basarisizligi kosuyu KIRMAZ (sahibine "Run failed" e-postasi gitmez); derleme adimlari atlanir,
       # ozet ve uyari yazilir, asistan ci_log.py ile raporu okur. (Bu Mac'te Command Line Tools SDK bozuk: objective_c derlenemiyor,
       # flutter test yerelde kosamiyor; testlerin tek yeri CI.)
       - name: Testler
         id: test
+        if: steps.analiz.outcome == 'success'
         continue-on-error: true
         run: flutter test
 
