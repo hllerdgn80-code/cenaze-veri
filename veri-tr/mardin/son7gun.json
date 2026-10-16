@@ -143,35 +143,6 @@
     "kaynak_turu": "yerel_basin",
     "ilk_gorulme": "2026-10-16T06:44:38+03:00"
    }
-  ],
-  "Yeşilli": [
-   {
-    "id": "103fb7fd19b6",
-    "il": "Mardin",
-    "ilce": "Yeşilli",
-    "mahalle": "Yeşilli Bahçebaşı Mahallesi",
-    "ad_soyad": "İbrahim Ece",
-    "anne_baba": null,
-    "yas": 18,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-10",
-    "defin_yeri": null,
-    "defin_zamani": null,
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": "Şeyh Ahmet Camii",
-    "liste_tarihi": "2026-10-10",
-    "kaynak_ad": "Mardin Haber Gazetesi",
-    "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/10-10-2026",
-    "alindi": "2026-10-16T08:52:02+03:00",
-    "ham": {
-     "sayfa_tarihi": "2026-10-10",
-     "tarih_kaynagi": "yayin_tarihi"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "kaynak_turu": "yerel_basin",
-    "ilk_gorulme": "2026-10-16T08:52:03+03:00"
-   }
   ]
  },
  "il_disi": [
@@ -262,9 +233,9 @@
    "ilk_gorulme": "2026-10-16T06:44:38+03:00"
   }
  ],
- "toplam": 9,
- "guncelleme": "2026-10-16T22:44:18+03:00",
+ "toplam": 8,
+ "guncelleme": "2026-10-17T00:44:41+03:00",
  "ilce_durum": {
-  "Mardin Haber Gazetesi": 1
+  "Mardin Haber Gazetesi": 0
  }
 }

@@ -1,0 +1,38 @@
+{
+ "il": "Kocaeli",
+ "liste_tarihi": "2026-10-17",
+ "kayitlar": [
+  {
+   "id": "0817a58f229c",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Saim Gökmen",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "KENT MEZARLIĞI",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Mübeccel Bulut Cami",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-17T00:43:17+03:00",
+   "ham": {
+    "ad": "SAİM",
+    "soyad": "GÖKMEN",
+    "mezarlik": "KENT MEZARLIĞI",
+    "cami": "Mübeccel Bulut Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "15.10.2026",
+    "defin_tarihi": "17.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "İzmit"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  }
+ ]
+}

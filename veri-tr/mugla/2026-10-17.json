@@ -1,0 +1,81 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-17",
+ "kayitlar": [
+  {
+   "id": "887f541761e7",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Veli Özyıldırım",
+   "anne_baba": null,
+   "yas": 56,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-17T00:43:22+03:00",
+   "ham": {
+    "nakil_yeri": "Ankara",
+    "nakil_tarihi": "2026-10-16"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "0717a66d9df3",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Zerrin İpekçi",
+   "anne_baba": null,
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-17T00:43:22+03:00",
+   "ham": {
+    "nakil_yeri": "Ankara",
+    "nakil_tarihi": "2026-10-16"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "b4bc346898bf",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Aykan Er",
+   "anne_baba": null,
+   "yas": 85,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "Bitez Gülsevim Rüştü Kaynak Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-17T00:43:22+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

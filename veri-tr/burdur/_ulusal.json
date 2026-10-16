@@ -153,7 +153,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/28993360/burdurda-eski-sivaci-ustasi-huseyin-ogutlu-vefat-etti",
-   "alindi": "2026-10-16T22:44:25+03:00",
+   "alindi": "2026-10-17T00:44:49+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -207,7 +207,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/28995702/burdurda-feci-kazada-hayatini-kaybeden-27-yasindaki-necati-anil-keskin-dualarla-topraga-verildi",
-   "alindi": "2026-10-16T22:44:25+03:00",
+   "alindi": "2026-10-17T00:44:49+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -216,7 +216,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "fc55818d5067",
+   "il": "Burdur",
+   "ilce": "Yeşilova",
+   "mahalle": null,
+   "ad_soyad": "Yaşar Alparslan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/28998292/burdurda-alparslan-ailesinin-aci-gunu",
+   "alindi": "2026-10-17T00:44:49+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T22:44:25+03:00"
+ "guncelleme": "2026-10-17T00:44:49+03:00"
 }

@@ -1,10 +1,12 @@
 {
  "istek": {
   "kocaeligazetesi.com.tr": {
-   "2026-10-16": 28
+   "2026-10-16": 28,
+   "2026-10-17": 3
   },
   "ozgurkocaeli.com.tr": {
-   "2026-10-16": 28
+   "2026-10-16": 28,
+   "2026-10-17": 3
   }
  },
  "okunan": {
@@ -41,7 +43,7 @@
   "https://www.kocaeligazetesi.com.tr/vefat/28995097/remzi-ok": "2026-10-16T19:59:34",
   "https://www.kocaeligazetesi.com.tr/vefat/28995094/huseyin-akar": "2026-10-16T19:59:39",
   "https://www.kocaeligazetesi.com.tr/vefat/28995085/sadrettin-degirmenci": "2026-10-16T19:59:43",
-  "https://www.ozgurkocaeli.com.tr/vefat/28996938/kadir-bayram": "2026-10-16T19:59:48",
+  "https://www.ozgurkocaeli.com.tr/vefat/28996938/kadir-bayram": "2026-10-17T00:47:28",
   "https://www.ozgurkocaeli.com.tr/haber/28997059/soner-alp-sonsuzluga-ugurlandi": "2026-10-16T19:59:52",
   "https://www.ozgurkocaeli.com.tr/haber/28995520/nazile-irmak-vefat-etti": "2026-10-16T19:59:56",
   "https://www.kocaeligazetesi.com.tr/haber/28997243/kocaelide-selde-kaybolan-mustafa-gedikliden-aci-haber-cansiz-bedenine-ulasildi": "2026-10-16T21:59:06",
@@ -55,7 +57,12 @@
   "https://www.kocaeligazetesi.com.tr/haber/28979028/sakaryada-geri-manevra-faciaya-donustu-73-yasindaki-kadin-hayatini-kaybetti": "2026-10-16T22:46:59",
   "https://www.ozgurkocaeli.com.tr/vefat/28972075/merih-tuysuz": "2026-10-16T22:47:01",
   "https://www.ozgurkocaeli.com.tr/vefat/28972072/serpil-verimli-vefat-etti": "2026-10-16T22:47:05",
-  "https://www.ozgurkocaeli.com.tr/haber/28968177/izmitin-sevilen-emekli-ogretmeni-hayatini-kaybetti": "2026-10-16T22:47:09"
+  "https://www.ozgurkocaeli.com.tr/haber/28968177/izmitin-sevilen-emekli-ogretmeni-hayatini-kaybetti": "2026-10-16T22:47:09",
+  "https://www.kocaeligazetesi.com.tr/haber/28979014/kartepenin-aci-kaybi-hayri-gunaydin-hayatini-kaybetti": "2026-10-17T00:47:09",
+  "https://www.kocaeligazetesi.com.tr/haber/28978588/mehmet-burak-temizkan-hayatini-kaybetti": "2026-10-17T00:47:14",
+  "https://www.kocaeligazetesi.com.tr/haber/28978560/izmitin-taninmis-esnaf-ailesinin-aci-gunu-sabiha-ozcan-hayatini-kaybetti": "2026-10-17T00:47:18",
+  "https://www.ozgurkocaeli.com.tr/haber/28964945/emekli-ogretmen-hayatini-kaybetti": "2026-10-17T00:47:19",
+  "https://www.ozgurkocaeli.com.tr/haber/28962492/ceviz-toplarken-yuksek-gerilim-akimina-kapilan-adam-hayatini-kaybetti": "2026-10-17T00:47:24"
  },
  "robots": {
   "www.kocaeligazetesi.com.tr": {

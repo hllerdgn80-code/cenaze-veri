@@ -677,5 +677,43 @@
    "olen": 1,
    "kayit": 1
   }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-haci-orhan-kose-son-yolculuguna-ugurlandi": {
+  "olgular": [
+   {
+    "ad": "Orhan Köse",
+    "yas": null,
+    "ilce": null,
+    "mahalle": null,
+    "namaz": "Pir Şeyh Şaban-ı Veli Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": "2026-10-12",
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": null
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-ayse-muzir-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Ayşe Muzır",
+    "yas": null,
+    "ilce": "Merkez",
+    "mahalle": "Akkaya Başören Köyü",
+    "namaz": "öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-12",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 5,
+   "olen": 1,
+   "kayit": 1
+  }
  }
 }
