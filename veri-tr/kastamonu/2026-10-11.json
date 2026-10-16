@@ -1,0 +1,60 @@
+{
+ "il": "Kastamonu",
+ "liste_tarihi": "2026-10-11",
+ "kayitlar": [
+  {
+   "id": "854fc084d194",
+   "il": "Kastamonu",
+   "ilce": "Cide",
+   "mahalle": "Çukurçal Köyü",
+   "ad_soyad": "Ali Sağ",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "akşam namazı",
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Kastamonu İstiklal",
+   "kaynak_url": "https://www.kastamonuistiklal.com/cidede-ali-sag-hayatini-kaybetti",
+   "alindi": "2026-10-16T20:42:46+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-11",
+    "sayfa_tarihi": "2026-10-11",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "01df1771607e",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": "Akkaya Başören Köyü",
+   "ad_soyad": "Adem Muzır",
+   "anne_baba": null,
+   "yas": 30,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Kastamonu İstiklal",
+   "kaynak_url": "https://www.kastamonuistiklal.com/kastamonulu-genc-saglik-calisani-hayatini-kaybetti",
+   "alindi": "2026-10-16T20:42:46+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-11",
+    "sayfa_tarihi": "2026-10-11",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

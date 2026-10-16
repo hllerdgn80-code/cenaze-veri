@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -70,7 +70,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Milas Belediyesi",
    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -93,7 +93,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Milas Belediyesi",
    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -116,7 +116,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -142,7 +142,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Milas Belediyesi",
    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -165,7 +165,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -190,7 +190,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -215,7 +215,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -240,7 +240,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -265,7 +265,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -290,7 +290,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-16T18:41:29+03:00",
+   "alindi": "2026-10-16T20:41:28+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -299,5 +299,5 @@
    "ilk_gorulme": "2026-10-16T18:42:11+03:00"
   }
  ],
- "guncelleme": "2026-10-16T18:42:11+03:00"
+ "guncelleme": "2026-10-16T20:42:11+03:00"
 }
