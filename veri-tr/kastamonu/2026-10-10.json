@@ -1,0 +1,33 @@
+{
+ "il": "Kastamonu",
+ "liste_tarihi": "2026-10-10",
+ "kayitlar": [
+  {
+   "id": "7b8b2bb0ec57",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": "Hösküden Mahallesi",
+   "ad_soyad": "Halil Gençtürk",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-10",
+   "kaynak_ad": "Kastamonu İstiklal",
+   "kaynak_url": "https://www.kastamonuistiklal.com/kastamonulu-saatci-gencturk-gebzede-hayatini-kaybetti",
+   "alindi": "2026-10-16T22:44:07+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-10",
+    "sayfa_tarihi": "2026-10-10",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

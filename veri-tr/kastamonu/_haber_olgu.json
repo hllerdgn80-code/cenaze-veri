@@ -614,5 +614,68 @@
    "olen": 1,
    "kayit": 1
   }
+ },
+ "https://www.taskoprupostasi.com/taskoprude-saban-aktas-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Şaban Aktaş",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Çiftlik Köyü",
+    "namaz": null,
+    "defin": null,
+    "namaz_t": "2026-10-13",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-13",
+  "tani": {
+   "cenaze_cumlesi": 7,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.taskoprupostasi.com/taskoprude-fikriye-tekin-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Fikriye Tekin",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Alatarla Köyü",
+    "namaz": "Alatarla Merkez Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-13",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 3,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/kastamonulu-saatci-gencturk-gebzede-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Halil Gençtürk",
+    "yas": null,
+    "ilce": null,
+    "mahalle": "Hösküden Mahallesi",
+    "namaz": "ikindi namazı",
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-10",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 1,
+   "kayit": 1
+  }
  }
 }
