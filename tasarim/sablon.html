@@ -899,7 +899,8 @@ $('#gk-ileri').onclick=()=>{if(GV.adim===1){const v=$('#gk-akis input').value.tr
 $('#gk-geri').onclick=()=>{if(GV.adim>1){GV.adim--;gkayitCiz()}else $('#p-gorevli').classList.remove('acik')};
 function gpanelCiz(){if(!LS.get('gv_kvkk',null)){$('#p-gkvkk').classList.add('acik');}else if(!LS.get('gv_sorumluluk',null)){$('#p-gsorum').classList.add('acik');}
   $('#gp-kart').innerHTML=`<div class="gv-baslik-kart"><b>${esc(GV.yer)} ${esc(GV_TAML[GV.unvan]||GV.unvan)}</b><span>${esc(GV.ad)}</span><small>${esc(GV.il)} · ${esc(GV.ilce)} · ${esc(GV.kul)}@diyanet.gov.tr</small></div>`;
-  $('#gp-akis').innerHTML=`<div class="gv-aciklama">Hesabınız Diyanet e-postanızla doğrulandı.</div>
+  const ilk=!LS.get('gv_dogrulandi_gosterildi',null);if(ilk)LS.set('gv_dogrulandi_gosterildi',true); // 16.10 sahibi: bu not yalnız ilk açılışta
+  $('#gp-akis').innerHTML=(ilk?`<div class="gv-aciklama">Hesabınız Diyanet e-postanızla doğrulandı.</div>`:'')+`
    <button class="ana-dugme" id="gp-paylas">İlan paylaş</button><div style="height:12px"></div><button class="ana-dugme" id="gp-ilanlarim">İlanlarım (1)</button>
     <div class="bolum">Son ilanlar</div><div class="kart"><div class="ad">Nurcihan Örneksoy</div><div class="soluk">Yayında</div></div>
 `;
@@ -916,7 +917,7 @@ $('#gkvkk-tam').onclick=e=>{e.preventDefault();bildir('Tam metin: Gizlilik sayfa
 $('#gp-menu-ac').onclick=e=>{e.stopPropagation();$('#gp-menu').hidden=!$('#gp-menu').hidden};
 $('#gp-menu').addEventListener('click',e=>{$('#gp-menu').hidden=true;
   if(e.target.closest('#gp-yer')){gyerCiz();return}
-  if(e.target.closest('[data-gvd]')){GV.durum=null;LS.set('gv_durum',null);LS.set('gv_pin',null);LS.set('gv_kvkk',null);LS.set('gv_sorumluluk',null);PANEL_ACIK=false;$('#p-gpanel').classList.remove('acik');panelSekmeGuncelle();ekranAc('e-ilanlar');bildir("Çıkış yapıldı.")}});
+  if(e.target.closest('[data-gvd]')){GV.durum=null;LS.set('gv_durum',null);LS.set('gv_pin',null);LS.set('gv_kvkk',null);LS.set('gv_sorumluluk',null);LS.set('gv_dogrulandi_gosterildi',null);PANEL_ACIK=false;$('#p-gpanel').classList.remove('acik');panelSekmeGuncelle();ekranAc('e-ilanlar');bildir("Çıkış yapıldı.")}});
 $('#gyer-akis').addEventListener('click',e=>{const pu=e.target.closest('[data-gpu]');if(pu){GV.unvan=pu.dataset.gpu;$$('#gyer-akis [data-gpu]').forEach(b=>b.classList.toggle('secili',b.dataset.gpu===GV.unvan))}});
 $('#gp-yer-kaydet').onclick=()=>{const yer=$('#gp-yer-ad').value.trim(),il=$('#gp-yer-il').value.trim(),ilce=$('#gp-yer-ilce').value.trim();if(!yer)return bildir('Görev yerini yazın.');
   GV.yer=yer;if(il)GV.il=il;if(ilce)GV.ilce=ilce;LS.set('gv_yer',{yer:GV.yer,il:GV.il,ilce:GV.ilce,unvan:GV.unvan});$('#p-gyer').classList.remove('acik');gpanelCiz();bildir('Görev yeriniz güncellendi.')};

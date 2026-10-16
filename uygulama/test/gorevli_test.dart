@@ -225,7 +225,7 @@ void main() {
     expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliKaydetDugme)).onTap, isNull);
     await tester.enterText(_alan('gy_ad'), 'Hasan Kurguluoğlu');
     await tester.enterText(_alan('gy_yer'), 'Korgan Merkez Camii');
-    await tester.tap(find.text(M.alanIlce));
+    await tester.tap(find.widgetWithText(IkincilDugme, M.alanIlce));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Ünye').first);
     await tester.pumpAndSettle();
@@ -277,7 +277,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.text('Kars').first);
     await tester.pumpAndSettle();
-    await tester.tap(find.text(M.alanIlce));
+    await tester.tap(find.widgetWithText(IkincilDugme, M.alanIlce));
     await tester.pumpAndSettle();
     await tester.tap(find.text('Sarıkamış').first);
     await tester.pumpAndSettle();
@@ -501,7 +501,7 @@ void main() {
     expect(kabulIstegi, 1);
     expect(d.depo.gorevliKvkkTamam(), isTrue);
     // ikinci açılış: pencere yok
-    await tester.pageBack();
+    await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
     await tester.tap(find.text('ac'));
     await tester.pumpAndSettle();
@@ -509,7 +509,7 @@ void main() {
     // hesap (kullanıcı adı) değişince yeniden
     await d.depo.gorevliKullaniciKaydet('baska.kisi');
     expect(d.depo.gorevliKvkkTamam(), isFalse);
-    await tester.pageBack();
+    await tester.binding.handlePopRoute();
     await tester.pumpAndSettle();
     await tester.tap(find.text('ac'));
     await tester.pumpAndSettle();
