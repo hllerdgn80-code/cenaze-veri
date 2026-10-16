@@ -21,6 +21,8 @@ Yeni bir yerel basın/haber ili eklenirse YEREL_ILLER'e de yazılır (yazılmasa
 import json, os, re, shutil, sys
 
 BASIN_TURLERI = ("yerel_basin", "yerel_haber")
+from collections import Counter as _Counter
+RAPOR_NEDEN = _Counter()   # 16.10.2026 H83: süzgeçte düşen kayıtların nedenleri (CI logunda yazılır)
 # yalnız yerel basın / yerel haber kaynağından okunan iller (resmî kaynakları yok) — §28: yayına girmez
 # 13.10.2026: mersin (Anamur Belediyesi) RESMÎ ilçe kaynağı kazandı -> listeden çıktı; il klasörüne yalnız resmî kayıtlar girer (yerel
 # haber kayıtları (a) ile elenir). Resmî kaynak sıfır kayıt verirse il boş görünür: izle. amasya kaldı (Merzifon Belediyesi robots.txt ile KAPALI).
@@ -90,6 +92,12 @@ def yerel_gun(k):
                     return sd
         return None
     for t in (k.get("namaz_tarihi"), (k.get("defin_zamani") or "")[:10]):
+        if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
+            return t
+    # 16.10.2026 (H83): kayıt defteri 'vefat edenler' listeleri cenaze gününü değil VEFAT gününü verir (metinde açık tarih,
+    # tarih_kaynagi='metin'); bu kayıtlar yayına hiç girmiyordu (defter 158 'yeni' kayıt, uygulamada 0). Resmî belediye listeleri
+    # gibi vefat/liste günü sayfasına yerleşir (uygulamada cenazeGunu zaten liste_tarihi'ne düşer); tazelik penceresi aynen uygulanır.
+    for t in (k.get("vefat_tarihi"), k.get("liste_tarihi")):
         if t and re.fullmatch(r"\d{4}-\d{2}-\d{2}", t):
             return t
     return None
@@ -239,7 +247,18 @@ def son7_suz(d):
         if k.get("kaynak_turu") in BASIN_TURLERI:
             k = dict(k); k["liste_tarihi"] = yerel_gun(k)        # kayit DOGRULANMIS cenaze gununun sayfasina yerlesir
         return k
-    resmi = lambda l: [kayit_suz(yerlestir(k)) for k in l if kabul(k)]
+    def kabul_sayac(k):
+        ok = kabul(k)
+        if not ok:
+            if isimsiz_bebek(k): RAPOR_NEDEN["isimsiz bebek"] += 1
+            elif k.get("kaynak_turu") in BASIN_TURLERI:
+                if not YEREL_YAYIN: RAPOR_NEDEN["yerel yayın kapalı"] += 1
+                elif not yerel_gun(k): RAPOR_NEDEN["yerel: tarih kaynağı yok (%s)" % ((k.get("ham") or {}).get("tarih_kaynagi"))] += 1
+                elif not _yerel_taze(k): RAPOR_NEDEN["yerel: taze değil"] += 1
+                else: RAPOR_NEDEN["yerel: ad/metin/cenaze bilgisi kilidi"] += 1
+            else: RAPOR_NEDEN["diğer"] += 1
+        return ok
+    resmi = lambda l: [kayit_suz(yerlestir(k)) for k in l if kabul_sayac(k)]
     ilceler = {i: resmi(l) for i, l in (d.get("ilceler") or {}).items()}
     ilceler = {i: l for i, l in ilceler.items() if l}
     out = {"il": d.get("il"), "ilceler": ilceler, "il_disi": resmi(d.get("il_disi") or []),
@@ -416,6 +435,7 @@ def main():
     if "--denetle" not in sys.argv:
         cikan, kalan = suz(kok)
         print(f"[süzgeç] yayına giren il: {len(kalan)} · çıkarılan: {len(cikan)} {cikan}")
+    print('[süzgeç] düşen kayıt nedenleri:', dict(RAPOR_NEDEN) or 'yok')
     hata = denetle(kok)
     for h in hata[:50]:
         print(f"::error title=Yayin suzgeci::{h}")
