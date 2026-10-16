@@ -11,7 +11,7 @@ Kullanım: python3 okuyucu/mersin.py [--gun 7] [--ilce "Kaynak Adı"]
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import json, re
+import json, re, time
 import ortak, ortak_haber as oh, ortak_ilce as oi
 
 IL = "Mersin"
@@ -50,8 +50,29 @@ def anamur_ayristir(satirlar):
     return sonuc
 
 
+ANAMUR_YOLLAR = [ANAMUR_API,
+                 ANAMUR_API.replace("/wp-json/wp/v2/posts?", "/?rest_route=/wp/v2/posts&"),
+                 ANAMUR_API.replace("https://anamur.bel.tr", "https://www.anamur.bel.tr")]
+
+
+def anamur_json():
+    """WordPress REST bazı ağlardan HTML (koruma/yönlendirme) döner (CI, 16.10.2026: JSONDecodeError): sırayla üç eşdeğer yol denenir."""
+    ipucu = []
+    for i, u in enumerate(ANAMUR_YOLLAR):
+        govde = oi.al(u)
+        try:
+            d = json.loads(govde)
+            if isinstance(d, list):
+                return d
+        except ValueError:
+            pass
+        ipucu.append(f"{len(govde)} bayt: {oi.metin(govde)[:60]!r}")
+        time.sleep(5)
+    raise RuntimeError("Anamur REST JSON vermedi (3 yol): " + " | ".join(ipucu))
+
+
 def anamur(ctx):
-    d = json.loads(oi.al(ANAMUR_API))
+    d = anamur_json()
     sonuc = []
     for p in d:
         m = re.match(r"\s*(\d{2}\.\d{2}\.\d{4})", oi.metin(p["title"]["rendered"]))

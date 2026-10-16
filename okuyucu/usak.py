@@ -10,7 +10,7 @@ Eşme Belediyesi (13.10.2026, RESMÎ ilçe kaynağı): `esme.bel.tr/gundem/cenaz
 publishedAt = UTC; yerel güne çevrilir). Yakın/telefon yok. Gün = yayın günü (namaz günü aynı kabul). Son ~10 ilan.
 Kullanım: python3 okuyucu/usak.py
 """
-import os, re, sys
+import os, re, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import json, ortak, ortak_ek, ortak_ilce as oi
@@ -123,10 +123,15 @@ def main():
     bilinen, istenen = bilinen_slug(), 0
     for sayfa_no in range(1, EN_COK_SAYFA + 1):
         url = URL if sayfa_no == 1 else f"{URL}/{sayfa_no}"
-        kayitlar = ayristir(ortak.indir(url))
+        html_ = ortak.indir(url)
+        kayitlar = ayristir(html_)
+        if not kayitlar and sayfa_no == 1:       # CI'da boş/eksik gövde gelebiliyor (16.10.2026): 6 sn sonra bir kez daha
+            time.sleep(6)
+            html_ = ortak.indir(url)
+            kayitlar = ayristir(html_)
         if not kayitlar:
             if sayfa_no == 1:
-                raise RuntimeError("İlan bulunamadı (sayfa düzeni değişmiş olabilir)")
+                raise RuntimeError(f"İlan bulunamadı ({len(html_)} bayt, 'fun-day' {html_.count('fun-day')} kez; sayfa düzeni değişmiş ya da yanıt boş olabilir)")
             break
         for r in kayitlar:
             if r["slug"] in bilinen:                                         # zaten kayitli: ayrinti istenmez, kayit korunur

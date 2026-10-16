@@ -118,6 +118,17 @@ class Liste(unittest.TestCase):
         self.assertEqual([x["ad_soyad"] for x in k], ["Mehmet Can Aksoy"])
         self.assertEqual((k[0]["namaz_yeri_vakti"], k[0]["defin_yeri"]), ("Hacı Bayram Camii, 13:00", "Kuzey Mezarlığı"))
 
+    def test_liste_haber_karti(self):
+        """Bafra Haber /vefat kalıbı: <a class=category-card title="Ad vefat etti"> ... <span>tarih</span> (16.10.2026)."""
+        t = BUGUN.strftime("%d.%m.%Y")
+        html_ = (f'<div class="category-grid"><a class="category-card" href="/huseyin-asci-vefat-etti--1.html" title="Hüseyin Aşçı vefat etti">'
+                 f'<img alt="x" src="a.webp" /><h3 class="category-card-title">Hüseyin Aşçı vefat etti</h3><div class="category-card-meta"><span>{t}</span><span>447</span></div></a>'
+                 f'<a class="category-card" href="/x.html" title="Eski Haber vefat etti"><div><span>01.01.2020</span></div></a>'
+                 f'<a href="/spor" title="Spor haberi"><span>{t}</span></a></div>')
+        s = kk.dogrula(satir(kalip="liste", rss_url=None, liste_url="https://www.testgazete.com/vefat"))[0]
+        k = kk.liste_ayristir(html_, CTX, "Ağrı", s)
+        self.assertEqual([x["ad_soyad"] for x in k], ["Hüseyin Aşçı"])
+
     def test_site_cumlesi_ve_telefon_atilir(self):
         self.assertIsNone(kk._temiz_alan("Allah rahmet eylesin"))
         self.assertIsNone(kk._temiz_alan("Aile 0532 123 45 67"))

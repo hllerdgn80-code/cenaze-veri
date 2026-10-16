@@ -758,8 +758,41 @@ def liste_ayristir(sayfa, ctx, il_adi, s):
         saat = f"{int(sm.group(1)):02d}:{sm.group(2)}" if sm else None
         cami = _temiz_alan(_SAAT.sub("", cami).strip(" ,-–")) if cami else None
         sonuc.append(_kayit_yap(ctx, il_adi, s, ad, yas, gun, "defin", cami, saat, _temiz_alan(mezar), s.get("ilce"), s["liste_url"]))
+    if not sonuc:                                # <li> yoksa/boşsa: haber KARTI kalıbı (Bafra Haber /vefat, 16.10.2026)
+        kartlar = haber_karti_ayristir(sayfa, ctx, il_adi, s)
+        if kartlar:
+            return kartlar
     if tarihsiz:
         print(f"  {s['ad']}: {tarihsiz} liste öğesi tarihsiz olduğu için alınmadı", file=sys.stderr)
+    return sonuc
+
+
+_KART_SON = re.compile(r"\s+(?:vefat\s+etti|vefat\s+etmiştir|hayatını\s+kaybetti|hakka\s+yürüdü|vefat|son\s+yolculuğuna\s+uğurlandı)\.?$", re.I)
+
+
+def haber_karti_ayristir(sayfa, ctx, il_adi, s):
+    """Haber KARTI listesi: <a href=... title="Ad Soyad vefat etti"> ... <span>GG.AA.YYYY</span> ... </a>. Tarih kartın İÇİNDE (meta
+    satırı) ya da başlıkta; başlık 'Ad Soyad vefat etti' biçimindeyse ad ayıklanır, ek metin (cami/yakın) yoksa yalnız ad + gün alınır."""
+    sonuc, tarihsiz, goruldu = [], 0, set()
+    for m in re.finditer(r"<a\b([^>]*)>([\s\S]*?)</a>", sayfa):
+        nitelik, ic = m.group(1), m.group(2)
+        bas = re.search(r'title="([^"]+)"', nitelik) or re.search(r"<h[1-6][^>]*>([\s\S]*?)</h[1-6]>", ic)
+        if not bas:
+            continue
+        baslik = oi.metin(bas.group(1))
+        if not _KART_SON.search(baslik):
+            continue
+        ad, yas = ad_ayikla(_KART_SON.sub("", baslik))
+        if not ad or ad in goruldu:
+            continue
+        gun = oi.tarih(oi.metin(re.sub(r"<(?:img|svg)[^>]*>", " ", ic)))
+        if not _tarih_penceresi_icinde(gun):
+            tarihsiz += 0 if gun else 1
+            continue
+        goruldu.add(ad)
+        sonuc.append(_kayit_yap(ctx, il_adi, s, ad, yas, gun, "vefat", None, None, None, s.get("ilce"), s["liste_url"]))
+    if tarihsiz:
+        print(f"  {s['ad']}: {tarihsiz} kart tarihsiz olduğu için alınmadı", file=sys.stderr)
     return sonuc
 
 

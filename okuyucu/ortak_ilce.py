@@ -386,6 +386,11 @@ def sayfala(url_fn, ayristir, gun_listesi, ssl_baglam=None, azami_sayfa=4, basla
                 raise
             print(f"  sayfa {n} robots.txt/engel nedeniyle okunmadı (ilk sayfalar yeterli sayıldı)", file=sys.stderr)
             break
+        except (TimeoutError, OSError) as e:      # 16.10.2026 (Milas): ilk sayfa alındıktan sonra zaman aşımı tüm ilçeyi düşürmesin
+            if n == baslangic or isinstance(e, urllib.error.HTTPError):
+                raise
+            print(f"  sayfa {n} zaman aşımı/bağlantı hatası ({type(e).__name__}); ilk {n - baslangic} sayfa yeterli sayıldı", file=sys.stderr)
+            break
         liste = ayristir(sayfa, n)
         if not liste:
             break

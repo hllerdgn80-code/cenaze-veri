@@ -3,7 +3,7 @@ CENAZE_KOPRU ve CENAZE_KOPRU_ANAHTAR ortam değişkenleri doluysa ve adres izinl
 değilse (ör. Mac) hiçbir şey değişmez."""
 import os, urllib.parse
 
-KOPRU_ALANLAR = {  "www.arnavutkoy.bel.tr"}
+KOPRU_ALANLAR = {"www.arnavutkoy.bel.tr", "www.19mayis.bel.tr", "www.milas.bel.tr"}
 
 
 def kopru_url(url):

@@ -80,7 +80,7 @@ BB_ATLA = {"suleymanpasa", "muratli"}      # bu iki ilçe kendi sayfalarından z
 def buyuksehir(ctx):
     """Tekirdağ BB 'Vefat Edenler - Güncel liste' (14.10.2026 keşfi): il geneli, girişsiz/CAPTCHA'sız, yalnız güncel gün(ler).
     Sütunlar: ad, 'İLÇE / İL' (merkezde boş), vakit + tarih (defin), cami + mezarlık. Önceki günler kendi dosyalarımızdan tamamlanır."""
-    sayfa = oi.al(BB)
+    sayfa = oi.al(BB, oi.ssl_ilce())      # sunucu ara sertifikayı (RapidSSL TLS RSA CA G1) göndermiyor -> sertifika/ilce-zincir.pem (doğrulama açık)
     govde = sayfa.split('id="merhum-body"', 1)
     if len(govde) < 2:
         raise RuntimeError("liste gövdesi bulunamadı (sayfa düzeni değişmiş olabilir)")

@@ -22,6 +22,14 @@ ILLER = ["ordu", "trabzon", "kocaeli", "kahramanmaras", "batman", "giresun", "ga
 IL_SINIRI_SN = 150
 
 
+def _bekci_birlestir():
+    try:
+        import kaynak_sayac
+        kaynak_sayac.birlestir()
+    except Exception as e:
+        print(f"kaynak bekçisi birleştirilemedi: {e}", file=sys.stderr)
+
+
 def birlestir():
     ozet_yolu = os.path.join(VERI, "ozet.json")
     try:
@@ -37,6 +45,7 @@ def birlestir():
             n += 1
     ozet["guncelleme"] = ortak.simdi_iso()
     ortak.json_yaz(ozet_yolu, ozet)
+    _bekci_birlestir()
     print(f"{n} grup özeti birleştirildi, {len(ozet['iller'])} il")
 
 
@@ -52,6 +61,7 @@ def ozet_ekle(dosya):
     ozet.setdefault("iller", {}).update(ek)
     ozet["guncelleme"] = ortak.simdi_iso()
     ortak.json_yaz(ozet_yolu, ozet)
+    _bekci_birlestir()
     print(f"{len(ek)} il özeti eklendi: {sorted(ek)}")
 
 
@@ -165,10 +175,19 @@ def main():
         giris["gun_hatasi"] = sum(1 for x in hata_satir if re.match(r"\s*(\[[^\]]*\]\s*)?HATA\b", x))
         giris["sure_sn"] = round(time.time() - t0)
         ozet["iller"][il] = giris
+        try:                                     # sıfır kaynak bekçisi: kaynak başına bu turun sayısı (veri/<il>/_sayac.json)
+            import kaynak_sayac
+            with open(son, encoding="utf-8") as f:
+                _idur = json.load(f).get("ilce_durum")
+            kaynak_sayac.kaydet(il, None if giris["hata"] else _idur, giris.get("kayit_sayisi"), giris.get("hata"))
+        except Exception as e:
+            print(f"[{il}] sayaç yazılamadı: {e}", file=sys.stderr)
         print(f"[{il}] {giris.get('kayit_sayisi')} kayıt, {giris['sure_sn']} sn" + (f", HATA: {giris['hata']}" if giris["hata"] else ""))
         print("   " + "\n   ".join(tampon.getvalue().strip().splitlines()[-2:]))
     ozet["guncelleme"] = ortak.simdi_iso()
     ortak.json_yaz(ozet_yolu, ozet)
+    if not grup:
+        _bekci_birlestir()
     sys.stdout.flush()
     os._exit(0)   # zaman aşımına uğrayan arka plan iş parçacıkları süreci tutmasın
 

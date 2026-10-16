@@ -432,10 +432,10 @@ def il_denetle(il_klasor, bugun, kuru=False):
         d["kapi"] = {"denetim": ortak.simdi_iso(), "elenen": len(red)}
         ortak.json_yaz(yol, d)
         red_yol = os.path.join(VERI, il_klasor, "_kapi_red.json")
-        yarin = []     # ortak.son7gun_yaz'in yazdigi "yarın kopyası" kayitlari kapi turunda silinmesin (15.10.2026)
+        yarin = []     # ortak.son7gun_yaz'in "yarın kopyası" ve gorevli_birlestir'in "yetki dışı düzeltme" kayitlari kapi turunda silinmesin
         try:
             with open(red_yol, encoding="utf-8") as f:
-                yarin = [r for r in json.load(f).get("red", []) if "yarın kopyası" in (r.get("kural") or [])][-50:]
+                yarin = [r for r in json.load(f).get("red", []) if any(x in (r.get("kural") or []) for x in ("yarın kopyası", "yetki dışı düzeltme"))][-50:]
         except Exception:
             pass
         ortak.json_yaz(red_yol, {"il": d.get("il"), "guncelleme": ortak.simdi_iso(), "elenen": len(red) + len(yarin), "red": red + yarin})

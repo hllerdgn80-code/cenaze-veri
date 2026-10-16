@@ -856,3 +856,41 @@ def liste_birikim(klasor, il, bugun, yeni_kayitlar, gun_sayisi=7):
             by_gun[bugun].append(k)
             mevcut.add(k["id"])
     return gunler, by_gun
+
+
+# ---------------------------------------------------------------- görev yeri <-> ilanın camisi/mahallesi (URUN §49a)
+# AYNI MANTIK Dart'ta (uygulama/lib/cekirdek/yer_eslesme.dart) ve JS'te (deploy/aile-worker/src/yer.js) birebir; değişirse üçü birlikte değişir.
+YER_EK = {"camii", "camisi", "cami", "mescidi", "mescit", "mahallesi", "mahalle", "mah", "koyu", "koy"}
+YER_GENEL = {"merkez", "yeni", "eski", "ulu", "buyuk", "kucuk", "orta", "asagi", "yukari", "cumhuriyet", "ilce", "belediye"}
+
+
+def yer_sade(s):
+    """'Korgan Merkez Camii' -> 'korgan merkez'; 'ÇİTLİCE MAHALLESİ' -> 'citlice'."""
+    t = tr_lower(s or "")
+    for a, b in zip("çğıöşüâîû", "cgiosuaiu"):
+        t = t.replace(a, b)
+    return " ".join(w for w in re.sub(r"[^a-z0-9]+", " ", t).split() if w not in YER_EK)
+
+
+def namaz_cami(namaz_yeri_vakti):
+    """'ÖĞLE NAMAZINDAN SONRA - MERKEZ CAMİİ' -> 'MERKEZ CAMİİ' (ilk '-' sonrası; '-' yoksa boş)."""
+    s = namaz_yeri_vakti or ""
+    return s.split("-", 1)[1].strip() if "-" in s else ""
+
+
+def yer_eslesir(gorev_yeri, cami, mahalle, haric=None):
+    """Görevlinin görev yeri ilanın camisi ya da mahallesi/köyü ile eşleşiyor mu? İlanda ikisi de yoksa False.
+    Eşleşme: eşit | biri diğerinin SON sözcük dizisi ('merkez' ⊂ 'korgan merkez') | 4+ harfli ortak ayırt edici sözcük (merkez gibi genel sözcükler ve `haric` [il/ilçe adı] hariç)."""
+    g = yer_sade(gorev_yeri).split()
+    if not g:
+        return False
+    yasak = set(yer_sade(haric).split()) if haric else set()
+    for aday in (cami, mahalle):
+        a = yer_sade(aday).split()
+        if not a:
+            continue
+        if a == g or (len(a) <= len(g) and g[-len(a):] == a) or (len(g) <= len(a) and a[-len(g):] == g):
+            return True
+        if any(len(w) >= 4 and w in a and w not in YER_GENEL and w not in yasak for w in set(g)):
+            return True
+    return False

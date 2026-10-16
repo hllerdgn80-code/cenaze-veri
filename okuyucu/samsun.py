@@ -5,7 +5,7 @@ Defin Vakti, Mezarlık, Camii). YAKIN ADI ve TELEFON ALINMAZ. robots.txt yok (40
 İstek sayısını küçük tutmak için son 2 gün her çalışmada, daha eski günler yalnız bir kez (ilk kurulum) okunur (veri/samsun/_tarama.json).
 Kullanım: python3 okuyucu/samsun.py [--gun 7]
 """
-import os, re, sys
+import os, re, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak, ortak_ilce as oi
@@ -19,6 +19,12 @@ def ondokuz_mayis(ctx):
     for gun in ctx["durum"].okunacak("19 Mayıs", ctx["gunler"], her_zaman=2):
         url = URL.format(gun)
         sayfa = oi.al(url)
+        if "<table" not in sayfa:                # bazı ağlardan 0 bayt/boş gövde gelir (16.10.2026): 6 sn sonra bir kez daha
+            time.sleep(6)
+            sayfa = oi.al(url)
+        if "<table" not in sayfa:
+            print(f"[19 Mayıs] boş yanıt ({len(sayfa)} bayt): {gun} atlandı (HATA değil; sonraki turda yeniden)", file=sys.stderr)
+            continue                             # günü 'tarandı' işaretleme
         govde = sayfa.split("<tbody>", 1)[-1].split("</tbody>", 1)[0]
         for tr in re.findall(r"<tr[\s\S]*?</tr>", govde):
             h = {a: oi.metin(v) for a, v in re.findall(r'data-label="([^"]+)"[^>]*>([\s\S]*?)</td>', tr)}

@@ -7,7 +7,7 @@ Her site ayrı kaynak; dizin = sitenin RSS'i (6 saat önbellek), site başına g
 Yalnız olgu (ad, yaş, ilçe/köy, tarih, cami + vakit, mezarlık); sitenin cümlesi, ölüm nedeni, yakın adı, fotoğraf ALINMAZ (ortak_haber).
 Kullanım: python3 okuyucu/corum.py [--gun 7] [--ilce "Kaynak Adı"]
 """
-import os, re, sys
+import os, re, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak, ortak_haber as oh, ortak_ilce as oi
@@ -35,7 +35,14 @@ def baslik_biciminde(s):
 
 
 def alaca(ctx):
-    baslik, satirlar = oi.tablo(oi.al(ALACA))
+    sayfa = oi.al(ALACA)
+    if "<table" not in sayfa:                    # CI'da bazen tablosuz (boş/ara/koruma) sayfa gelir: 6 sn sonra bir kez daha
+        time.sleep(6)
+        sayfa = oi.al(ALACA)
+    if "<table" not in sayfa:
+        print(f"[Alaca] tablosuz yanıt ({len(sayfa)} bayt, ilk 80: {oi.metin(sayfa)[:80]!r}) - bu tur atlandı", file=sys.stderr)
+        return []
+    baslik, satirlar = oi.tablo(sayfa)
     sonuc = []
     for s in satirlar:
         ad = baslik_biciminde(oi.metin(oi.kolon(baslik, s, "Ad Soyad")))
