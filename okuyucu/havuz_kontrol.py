@@ -84,7 +84,8 @@ def main():
         d = oku(os.path.join(ic, il, "_kapi_red.json"))
         for x in (d.get("red") or []) if isinstance(d, dict) else []:
             if isinstance(x, dict):
-                elenen.add(ortak.katla(x.get("ad_soyad") or ""))
+                k = x.get("kayit") if isinstance(x.get("kayit"), dict) else x       # kapi.py: {"kural": [...], "kayit": {...}}
+                elenen.add(ortak.katla(k.get("ad_soyad") or ""))
     eksik = [e for e in eksik if ortak.katla(e["ad"] or "") not in elenen]
     print(f"[havuz] kriterden geçen {uygun} · yayında olmayan {len(eksik)} · kriterden kalan {sum(red.values())} {dict(red)} · canlıdan farklı il {len(degisen)}")
     for e in eksik[:20]:
