@@ -1,0 +1,33 @@
+{
+ "il": "Kastamonu",
+ "liste_tarihi": "2026-10-13",
+ "kayitlar": [
+  {
+   "id": "5b5b8da287f6",
+   "il": "Kastamonu",
+   "ilce": "Daday",
+   "mahalle": "Boyalıca Köyü",
+   "ad_soyad": "Sakine Şahin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "aynı Köyü",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Merkez Kolukaraoğlu Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Kastamonu İstiklal",
+   "kaynak_url": "https://www.kastamonuistiklal.com/dadayin-aci-kaybi-sakine-sahin-hakka-yurudu",
+   "alindi": "2026-10-16T10:59:13+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-13",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

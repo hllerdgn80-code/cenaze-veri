@@ -13469,7 +13469,132 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "92de40d26b13",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Güzel Örs",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-16T10:59:50+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "c12590bc760a",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Süleyman Mumcu",
+   "anne_baba": null,
+   "yas": 88,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-16T10:59:50+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "539bc75cb04e",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Zeynal Abit Ergün",
+   "anne_baba": null,
+   "yas": 78,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-16T10:59:50+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "1233ea83115b",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Rabia Yanç",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-16T10:59:50+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "03d07af177ea",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Hamiyet Cenikci",
+   "anne_baba": null,
+   "yas": 63,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-16T10:59:50+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
- "guncelleme": "2026-10-16T06:45:08+03:00"
+ "guncelleme": "2026-10-16T10:59:50+03:00"
 }

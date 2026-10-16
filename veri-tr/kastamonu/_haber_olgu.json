@@ -289,5 +289,99 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/turk-pop-muziginin-usta-isminden-aci-haber-alpay-91-yasinda-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 1,
+   "kayit": 0
+  }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-muteahhitten-aci-haber-murat-kurt-vefat-etti": {
+  "olgular": [
+   {
+    "ad": "Murat Kurt",
+    "yas": null,
+    "ilce": "Çatalzeytin",
+    "mahalle": "Yunuslar Köyü",
+    "namaz": null,
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": null
+ },
+ "https://www.kastamonuistiklal.com/kastamonuda-tarlada-oldurulen-4-kisi-topraga-verildi": {
+  "olgular": [],
+  "tarih": "2026-10-13",
+  "tani": {
+   "cenaze_cumlesi": 3,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/dadayin-aci-kaybi-sakine-sahin-hakka-yurudu": {
+  "olgular": [
+   {
+    "ad": "Sakine Şahin",
+    "yas": null,
+    "ilce": "Daday",
+    "mahalle": "Boyalıca Köyü",
+    "namaz": "Merkez Kolukaraoğlu Camii, ikindi namazı",
+    "defin": "aynı Köyü",
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-13",
+  "tani": null
+ },
+ "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Raşit Baltaoğlu",
+    "yas": null,
+    "ilce": "İnebolu",
+    "mahalle": null,
+    "namaz": "Yeni Camii, öğle namazı",
+    "defin": "Hastane Üstü Mezarlığı",
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 5,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Sebahat Karakethüdaoğlu",
+    "yas": null,
+    "ilce": null,
+    "mahalle": "Bozkoca Köyü",
+    "namaz": "öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 4,
+   "olen": 0,
+   "kayit": 1
+  }
  }
 }

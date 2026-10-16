@@ -5,7 +5,7 @@
   {
    "id": "8a10e5147502",
    "il": "Aksaray",
-   "ilce": null,
+   "ilce": "Merkez",
    "mahalle": null,
    "ad_soyad": "Muzaffer Durmaz",
    "anne_baba": "Fazlı",
@@ -19,20 +19,22 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-16T08:50:39+03:00",
+   "alindi": "2026-10-16T10:58:46+03:00",
    "ham": {
     "baba": "FAZLI",
     "defin": "15.10.2026 16:30",
     "namaz": "İkindi",
-    "mezarlik": "BEDİR MUHTAR MEZARLIĞI / 3 ADA"
+    "mezarlik": "BEDİR MUHTAR MEZARLIĞI / 3 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
   },
   {
    "id": "533abc238b46",
    "il": "Aksaray",
-   "ilce": null,
+   "ilce": "Merkez",
    "mahalle": null,
    "ad_soyad": "Mustafa Arslan",
    "anne_baba": "Mithat",
@@ -46,15 +48,17 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-16T08:50:39+03:00",
+   "alindi": "2026-10-16T10:58:46+03:00",
    "ham": {
     "baba": "MİTHAT",
     "defin": "15.10.2026 13:18",
     "namaz": "Öğlen",
-    "mezarlik": "ARATOL MEZARLIĞI / 1"
+    "mezarlik": "ARATOL MEZARLIĞI / 1",
+    "ilce_kaynagi": "kaynak_belediye"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
   }
  ]
 }

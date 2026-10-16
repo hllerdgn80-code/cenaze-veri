@@ -491,7 +491,7 @@
   {
    "id": "a7d5ad675853",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kartepe",
    "mahalle": null,
    "ad_soyad": "Mehmet Burak Temizkan",
    "anne_baba": null,
@@ -514,10 +514,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "13.10.2026",
     "defin_tarihi": "14.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mezarlik_resmi"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_resmi"
   },
   {
    "id": "184d77ac220b",
