@@ -7,7 +7,6 @@ import '../cekirdek/durum.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import 'gorevli_kayit.dart';
-import 'gorevli_panel.dart';
 
 /// Bilgi penceresini açar (tam ekran DEĞİL). Bağlantıya dokunulursa pencere kapanır ve din görevlisi kayıt ekranı (oturum varsa panel) açılır.
 Future<void> sehitBilgiGoster(BuildContext context) {
@@ -47,8 +46,11 @@ class _SehitBilgiPenceresi extends StatelessWidget {
                 final d = Kapsam.oku(context);
                 final nav = Navigator.of(context, rootNavigator: true);
                 Navigator.of(context).pop();
-                nav.push(MaterialPageRoute(
-                    builder: (_) => d.depo.gorevliOturum != null ? const GorevliPanel() : GorevliKayit(il: d.il ?? '', ilce: d.ilce)));
+                if (d.depo.gorevliOturum != null) {
+                  d.panelSekmesiAc(); // oturum varsa Panel sekmesi (parola sorulur; URUN §53)
+                } else {
+                  nav.push(MaterialPageRoute(builder: (_) => GorevliKayit(il: d.il ?? '', ilce: d.ilce)));
+                }
               },
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: R.s3),

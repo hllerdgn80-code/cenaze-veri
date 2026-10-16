@@ -14,6 +14,7 @@ import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
 import 'gorevli_yer.dart';
+import 'panel_sekmesi.dart' show GorevliParolaDegistir;
 
 /// §27 dili: şehit ilanında "Şehidimiz <Rütbe> <Ad Soyad>"
 String _ilanAdi(Map<String, dynamic> i) {
@@ -242,6 +243,10 @@ class _GorevliPanelState extends State<GorevliPanel> {
               icon: const Icon(Icons.more_vert),
               onSelected: (v) {
                 if (v == 'yer') _yerDegisti();
+                if (v == 'degistir') {
+                  Navigator.of(context, rootNavigator: true)
+                      .push(MaterialPageRoute(builder: (_) => GorevliParolaDegistir(servis: widget.servis)));
+                }
                 if (v == 'kilit') {
                   bildir(context, M.panelKilitlendi);
                   Kapsam.oku(context).paneliKilitle();
@@ -250,6 +255,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
               },
               itemBuilder: (_) => [
                 PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: const Text(M.gorevliYerDegisti)),
+                if (widget.sekmede) const PopupMenuItem(value: 'degistir', child: Text(M.pinDegistir)),
                 if (widget.sekmede) const PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
                 const PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
               ],

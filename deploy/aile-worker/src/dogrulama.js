@@ -83,3 +83,38 @@ export async function epostaKodGonder(env, fetchFn, adres, kod) {
   if (env.GELISTIRME === "1") return { kanal: null, kod };
   return { hata: true };
 }
+
+// ---- Panel parolası (URUN §53, 16.10.2026): 4 haneli parola hesap kaydında AES-GCM ile ŞİFRELİ durur; "unuttum" onu Diyanet adresine e-postalar ----
+// Anahtar: env.PAROLA_ANAHTARI (secret) -> SHA-256 -> AES-GCM 256. Kayıtta yalnız {ct, iv} (base64); anahtar yoksa hiçbir şey yazılmaz/çözülmez.
+export const parolaAnahtariVar = (env) => typeof env.PAROLA_ANAHTARI === "string" && env.PAROLA_ANAHTARI.length >= 16;
+const b64 = (u8) => btoa(String.fromCharCode(...u8));
+const unb64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+async function parolaCrypto(env) {
+  const ham = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(env.PAROLA_ANAHTARI));
+  return crypto.subtle.importKey("raw", ham, { name: "AES-GCM" }, false, ["encrypt", "decrypt"]);
+}
+export async function parolaSifrele(env, parola) {
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, await parolaCrypto(env), new TextEncoder().encode(parola)));
+  return { ct: b64(ct), iv: b64(iv) };
+}
+export async function parolaCoz(env, kayit) {
+  try {
+    const p = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(kayit.iv) }, await parolaCrypto(env), unb64(kayit.ct));
+    return new TextDecoder().decode(p);
+  } catch { return null; }
+}
+export const PAROLA_KONU = "Kimin Cenazesi panel parolanız";
+export const PAROLA_METNI = (p) => `Kimin Cenazesi panel parolanız: ${p}`;
+/** Döner: {kanal:"eposta"} | {hata:true}. Başka alan adına ASLA. */
+export async function parolaEpostaGonder(env, fetchFn, adres, parola) {
+  if (!adres.endsWith("@" + ESTA) || !epostaVar(env)) return { hata: true };
+  try {
+    const r = await fetchFn(RESEND_URL, {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${env.RESEND_ANAHTARI}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ from: EPOSTA_GONDEREN, to: [adres], subject: PAROLA_KONU, text: PAROLA_METNI(parola) }),
+    });
+    return r.ok ? { kanal: "eposta" } : { hata: true };
+  } catch { return { hata: true }; }
+}

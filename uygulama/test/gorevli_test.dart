@@ -163,7 +163,7 @@ void main() {
     await tester.tap(find.text(M.gorevliKodDogrulaDugme));
     await tester.pumpAndSettle();
     expect(d.depo.gorevliOturum, 'tok123');
-    expect(d.sekmeSayisi, 5); // 5. sekme belirdi
+    expect(d.sekmeSayisi, 5); // sekme çubuğu daima 5
     expect(d.depo.gorevliKvkkTamam(), isFalse); // KVKK her girişte yeniden (§50a)
     // §53: kod doğrulanınca ÖNCE parola belirleme (panel değil)
     expect(find.byType(GorevliParolaBelirle), findsOneWidget);

@@ -153,7 +153,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
       _sayac?.cancel();
       // 5. sekme belirir; ÖNCE parola belirlenir (URUN §53), sonra Panel sekmesi + KVKK penceresi
       Kapsam.oku(context).oturumDegisti();
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => const GorevliParolaBelirle()));
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => GorevliParolaBelirle(servis: widget.servis)));
       return;
     }
     setState(() => _yukleniyor = false);

@@ -4,6 +4,7 @@
 // KV (AILE) anahtarları, hepsi "gorevli:" önekli:
 //   k:<kayit_id>            hesap kaydı: kayit_id = sha256("eposta:"+kullanici)[0:16]; {kullanici, eposta, durum, dogrulama:"diyanet_eposta", ad_soyad/il/ilce/gorev_yeri/unvan (ilk ilan öncesi /gorevli/profil ile)}. TELEFON/FOTOĞRAF YOK.
 //   ek:<kullanici>          bekleyen e-posta kodu {ozet, deneme, zaman} (TTL 10 dk)
+//   ph:<kayit_id>:<gün>     günlük parola hatırlatma sayacı (≤3); hesap kaydında parola_sifreli {ct,iv} (AES-GCM, PAROLA_ANAHTARI)
 //   eks:<kullanici>:<gün>   günlük kod sayacı (günde ≤5)
 //   liste:<il>:<ilce>       müftülük personel listesi [{ad_soyad, cami}] (CI'dan POST /gorevli/liste ile)
 //   foto:<kayit_id>         (eski akış kalıntısı; yeni kayıt üretmez, karar uçları siler)
@@ -13,7 +14,7 @@
 //   g:<ilan_id>             gözetimdeki hesabın ilanı (çapraz kontrol bekliyor; TTL 8 gün)
 //   n:<ilan_id>             bildirim yapan IP özetleri;  gs:<kayit_id>:<gün> günlük ilan sayacı
 import { ILCELER } from "./veri.js";
-import { smsGonder, netgsmVar, epostaVar, epostaGerekli, epostaKodGonder, ESTA, SMS_METNI, NETGSM_URL, telefonNormalize } from "./dogrulama.js";
+import { smsGonder, netgsmVar, epostaVar, epostaGerekli, epostaKodGonder, parolaAnahtariVar, parolaSifrele, parolaCoz, parolaEpostaGonder, ESTA, SMS_METNI, NETGSM_URL, telefonNormalize } from "./dogrulama.js";
 export { telefonNormalize, smsGonder, netgsmVar, SMS_METNI, NETGSM_URL };
 import { degerlendir, adGecerli, adNormalize, katla, metinTemiz, bugunTR, gunEkle, ilSlug } from "./kurallar.js";
 
@@ -27,6 +28,7 @@ const GUNLUK_KOD = 5;
 const KOD_ARALIK_MS = 300000; // yeniden gönder bekleme: 5 dk (sahibi 16.10 08:05)
 const KULLANICI_RE = /^[a-z0-9._-]{3,40}$/;
 const OTURUM_TTL = 180 * 86400;
+const GUNLUK_HATIRLAT = 3; // parola hatırlatma e-postası: hesap başına günde ≤3
 const KONTROL_GUN = 14; // "kontrolde"/"kuyruk" hesabı en çok 14 gün yaşar, sonra KV TTL ile kendiliğinden silinir
 const ILAN_TTL = 120 * 86400;
 const FOTO_TTL = 7 * 86400;
@@ -336,6 +338,41 @@ export async function gorevliIsle(req, env, o, H, yol) {
     return yanit(req, env, { sorumluluk_kabul: k.sorumluluk_kabul });
   }
 
+  // ---- POST /gorevli/parola {parola} (oturumlu): 4 haneli panel parolası hesap kaydına AES-GCM ile şifreli yazılır (§53) ----
+  async function parolaKaydet() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    const g = await govde(2000);
+    if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
+    const p = g.json?.parola;
+    if (typeof p !== "string" || !/^\d{4}$/.test(p)) return yanit(req, env, { hata: "parola_gecersiz" }, 400);
+    if (!parolaAnahtariVar(env)) return yanit(req, env, { hata: "parola_servisi_yok" }, 503);
+    k.parola_sifreli = await parolaSifrele(env, p);
+    await kayitYaz(k, k.durum === "onayli" ? 0 : undefined);
+    return yanit(req, env, { durum: "kaydedildi" });
+  }
+
+  // ---- POST /gorevli/parola-hatirlat (oturumlu): parolayı çözüp hesabın <kullanici>@diyanet.gov.tr adresine yollar; günde ≤3 ----
+  async function parolaHatirlat() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    if (!parolaAnahtariVar(env) || !epostaVar(env)) return yanit(req, env, { hata: "parola_servisi_yok" }, 503);
+    if (!k.parola_sifreli) return yanit(req, env, { hata: "parola_yok" }, 404);
+    const sk = `${P}ph:${k.id}:${gun}`;
+    const n = parseInt((await kv.get(sk)) || "0", 10);
+    if (n >= GUNLUK_HATIRLAT) {
+      const bekle = Math.max(60, Math.ceil((Date.parse(gunEkle(gun, 1) + "T00:00:00+03:00") - o.now.getTime()) / 1000));
+      return yanit(req, env, { hata: "gunluk_sinir", bekle_sn: bekle }, 429, { "Retry-After": String(bekle) });
+    }
+    const p = await parolaCoz(env, k.parola_sifreli);
+    if (!p) return yanit(req, env, { hata: "parola_yok" }, 404);
+    const adres = `${k.kullanici}@${ESTA}`;
+    const r = await parolaEpostaGonder(env, o.fetch, adres, p);
+    if (r.hata) return yanit(req, env, { hata: "gonderilemedi" }, 502);
+    await kv.put(sk, String(n + 1), { expirationTtl: 90000 });
+    return yanit(req, env, { durum: "gonderildi", adres });
+  }
+
   async function ilanlarim() {
     const k = await hesap();
     if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
@@ -540,6 +577,8 @@ export async function gorevliIsle(req, env, o, H, yol) {
         return yanit(req, env, { hata: "kaldirildi", ileti: "Doğrulama artık Diyanet e-posta koduyla: /gorevli/eposta-kod" }, 410);
       case "/gorevli/kvkk-kabul": return kvkkKabul();
       case "/gorevli/sorumluluk-kabul": return sorumlulukKabul();
+      case "/gorevli/parola": return parolaKaydet();
+      case "/gorevli/parola-hatirlat": return parolaHatirlat();
       case "/gorevli/ilan": return ilan();
       case "/gorevli/ilan/iptal": return iptal();
       case "/gorevli/ilan/duzenle": return duzenle();

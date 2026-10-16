@@ -212,6 +212,9 @@ class M {
   static const sekmeler = ['İlanlar', 'Sayfam', 'Dualar', 'Hatırla'];
   static const sekmePanel = 'Panel'; // 5. sekme: yalnız din görevlisi oturumu varken (URUN §53)
   // Panel parolası (URUN §53; ölçü: tasarim/sablon.html panelEkraniCiz)
+  static const panelGorevliBaslik = 'Bu paneli din görevlileri kullanabilir.';
+  static const panelGorevliAciklama = 'Din görevlisi misiniz? Kayıt olun.';
+  static const panelKayitDugme = 'Kayıt olun';
   static const pinBelirleBaslik = 'Panel parolası belirleyin';
   static const pinBelirleAciklama = 'Birilerinin sizin hesabınıza girip kötü niyetli/yanıltıcı paylaşımlar yapmasını önlemek için 4 haneli parola belirleyin.';
   static const pinAlan1 = '4 haneli parola';
@@ -228,6 +231,22 @@ class M {
   static const pinYanlis = 'Parola yanlış.';
   static String pinYanlisKalan(int n) => 'Parola yanlış. Kalan hak: $n';
   static String pinBekle(int sn) => 'Çok fazla yanlış deneme. $sn saniye sonra yeniden deneyin.';
+  static const pinSunucuyaYok = 'Parola sunucuya kaydedilemedi; hatırlatma çalışmayabilir.';
+  static String pinGonderildi(String adres) => 'Parolanız $adres adresine gönderildi.';
+  static const pinGonderilemedi = 'Parola şu an gönderilemedi. Daha sonra yeniden deneyin.';
+  static const pinSunucudaYok = 'Parolanız sunucuda kayıtlı değil; hatırlatma gönderilemez.';
+  static const pinGunlukSinir = 'Bugün en çok 3 kez gönderilebilir. Yarın yeniden deneyin.';
+  static const pinGonderildiBaslik = 'Parolanız gönderildi';
+  static const pinGonderildiBir = 'Parolanız e-postanıza gönderildi.';
+  static String pinGonderildiIki(String adres) => 'Parolanızı $adres adresine gönderdik. Gelen kutunuza bakın, sonra buraya dönüp parolanızı yazın.';
+  static const pinGonderilemediSayfa = 'Gönderilemedi; biraz sonra yeniden deneyin.';
+  static const pinTamam = 'Tamam';
+  static const pinDegistir = 'Parolamı değiştir';
+  static const pinDegistirBaslik = 'Parolanızı değiştirin';
+  static const pinEski = 'Eski parola';
+  static const pinYeni = 'Yeni parola';
+  static const pinEskiYanlis = 'Eski parola yanlış.';
+  static const pinDegisti = 'Parolanız değişti.';
   static const panelKilitle = 'Paneli kilitle';
   static const panelKilitlendi = 'Panel kilitlendi.';
   // İlan kutusu (15.10.2026): her il/ilçe liste sayfasının üstünde

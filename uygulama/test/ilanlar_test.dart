@@ -156,15 +156,16 @@ void main() {
     expect(find.text(M.gorevliEpostaAciklama), findsOneWidget); // kılavuz ekranı açıklaması (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
   });
 
-  testWidgets('Sekme çubuğu oturumsuz 4 sekme (İlanlar · Sayfam · Dualar · Hatırla); Panel sekmesi yok', (tester) async {
+  testWidgets('Sekme çubuğu oturumsuz da 5 sekme (İlanlar · Sayfam · Dualar · Hatırla · Panel)', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Ordu', 'ilce': 'Ünye'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 5; i++) {
       expect(find.byKey(ValueKey('sekme_$i')), findsOneWidget);
     }
-    expect(find.byKey(const ValueKey('sekme_4')), findsNothing);
+    expect(find.byKey(const ValueKey('sekme_5')), findsNothing);
+    expect(find.text(M.sekmePanel), findsOneWidget);
     expect(M.sekmeler, ['İlanlar', 'Sayfam', 'Dualar', 'Hatırla']);
   });
 

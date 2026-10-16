@@ -28,3 +28,5 @@ crons = ["17 3 * * *"]
 # Din görevlisi doğrulaması (16.10.2026, URUN §45): Diyanet e-posta kodu, Resend ile. Secret (sahibi/ana oturum, bir kez):
 #   wrangler secret put RESEND_ANAHTARI      # gönderen: dogrulama@kimincenazesi.com (Resend'de alan adı doğrulanmış olmalı)
 # Workers AI bağlaması KALDIRILDI (kart OCR'ı yok).
+# Panel parolası (URUN §53): hesap kaydında AES-GCM ile şifreli durur; "Parolamı unuttum" parolayı Diyanet adresine e-postalar (RESEND_ANAHTARI gerekir).
+#   wrangler secret put PAROLA_ANAHTARI      # en az 16 karakter rastgele; DEĞİŞTİRİLİRSE kayıtlı parolalar çözülemez (görevli yeni parola belirler)

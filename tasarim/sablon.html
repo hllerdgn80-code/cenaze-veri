@@ -198,7 +198,7 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .alan textarea{height:84px;padding:var(--s3) var(--s4);resize:none}
 .alan input:focus,.alan select:focus,.alan textarea:focus{border-color:var(--vurgu)}
 .ikili{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
-.dortlu{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s2)}
+.dortlu{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s2)}
 .dortlu .cins-dugme{padding:0;font-size:15px}
 .cins-dugme.kucuk{height:40px;font-size:15px}
 .alan-uyari{text-align:center;font-size:13px;line-height:18px;color:var(--metin2);margin:0 0 var(--s3)}
@@ -221,7 +221,7 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .onay input:checked:after{content:"";width:8px;height:14px;border:solid var(--vurgu-ust);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
 
 /* ALT SEKME ÇUBUĞU */
-.sekmeler{position:absolute;left:0;right:0;bottom:0;height:83px;padding-bottom:34px;display:none;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--zemin);border-top:1px solid var(--cizgi);z-index:30}
+.sekmeler{position:absolute;left:0;right:0;bottom:0;height:83px;padding-bottom:34px;display:none;grid-template-columns:repeat(5,minmax(0,1fr));background:var(--zemin);border-top:1px solid var(--cizgi);z-index:30}
 .app.sekmeli .sekmeler{display:grid}
 .sekmeler.besli{grid-template-columns:repeat(5,minmax(0,1fr))}
 .sekmeler button[hidden]{display:none}
@@ -509,6 +509,12 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
     <div class="alt-cubuk"><button class="ana-dugme" id="gsorum-kabul">Anladım, kabul ediyorum</button></div>
   </section>
 
+  <section class="panel" id="p-punut">
+    <div class="baslik"><button class="yuvarlak" data-kapat="p-punut" aria-label="Geri"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">Parolanız gönderildi</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir"><div class="bos"><i class="daire logo-png" style="background-size:cover;border-radius:50%"></i><h3>Parolanız e-postanıza gönderildi.</h3><p>Parolanızı <b id="punut-adres"></b> adresine gönderdik. Gelen kutunuza bakın, sonra buraya dönüp parolanızı yazın.</p></div></div>
+    <div class="alt-cubuk"><button class="ana-dugme" data-kapat="p-punut">Tamam</button></div>
+  </section>
+
   <!-- 16.10.2026 §53: PANEL sekmesi (din görevlisi; 4 haneli parola) -->
   <section class="ekran sekme" id="e-panel">
     <div class="baslik"><span class="yuvarlak" style="visibility:hidden"></span><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">Panel</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
@@ -520,7 +526,7 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
     <button data-sekme="e-sayfam"><svg class="i" viewBox="0 0 24 24"><path d="M7 3h10v18l-5-4-5 4z"/></svg><span>Sayfam</span></button>
     <button data-sekme="e-dua"><svg class="i" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5c-3-.5-6 0-8 1.5z"/><path d="M12 6v14.5"/></svg><span>Dualar</span></button>
     <button data-sekme="e-hatirla"><svg class="i" viewBox="0 0 24 24"><path d="M12 13c-2-3-6-5-6-8a3 3 0 0 1 6 0 3 3 0 0 1 6 0c0 3-4 5-6 8z"/><path d="M12 13l-4 8M12 13l4 8"/></svg><span>Hatırla</span></button>
-    <button data-sekme="e-panel" id="sekme-panel" hidden><svg class="i" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Panel</span></button>
+    <button data-sekme="e-panel" id="sekme-panel"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Panel</span></button>
   </nav>
   <div class="ev"></div>
   <div class="ortu" id="ortu"><div class="menu" id="menu">
@@ -543,10 +549,10 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 </div>
 
 <script>
-// 15.10.2026 AÇILIŞ MESAJI: her açılışta 6 sn görünür (sahibi: 5–7 sn), sonra sönerek uygulamaya girer; ?acilis=0 ile atlanır (test), ?acilis=N ile süre N sn
+// 15.10.2026 AÇILIŞ MESAJI: her açılışta 9 sn görünür (sahibi 16.10: 6→9 sn), sonra sönerek uygulamaya girer; ?acilis=0 ile atlanır (test), ?acilis=N ile süre N sn
 (function(){var a=document.getElementById('acilis');if(!a)return;var Q=new URLSearchParams(location.search||location.hash.replace(/^#/,'?'));var q=Q.get('acilis');
   var ADAYLAR=/*__ACILIS_ADAYLAR__*/null;var ad=Q.get('aday');if(ADAYLAR&&ad&&ADAYLAR['simge'+ad]){a.querySelector('img').src=ADAYLAR['simge'+ad]}
-  if(q==='0'){a.classList.add('yok');return}var sn=Math.min(7,Math.max(5,parseInt(q||'6',10)||6));
+  if(q==='0'){a.classList.add('yok');return}var sn=Math.min(12,Math.max(5,parseInt(q||'9',10)||9)); // 16.10 sahibi: 9 sn (3 sn daha uzun)
   var ciz=a.querySelector('.am-cizgi i');if(ciz)ciz.style.animationDuration=sn+'s';
   setTimeout(function(){a.classList.add('gizli');setTimeout(function(){a.classList.add('yok')},650)},sn*1000)})();
 const VERI=/*__VERI__*/null;
@@ -655,7 +661,7 @@ $('#oneri').addEventListener('click',e=>{if(e.target.id!=='oneri-gonder'||e.targ
   $('#oneri-ic').innerHTML=`<h3>Teşekkür ederiz</h3><p class="oneri-tamam">Mesajınız bize ulaştı.</p><button class="ana-dugme" data-kapat-m="oneri">Tamam</button>`});
 
 /* EKRAN GEÇİŞİ */
-function panelSekmeGuncelle(){const v=GV.durum==='onayli';$('#sekme-panel').hidden=!v;$('#sekmeler').classList.toggle('besli',v)}
+function panelSekmeGuncelle(){/* 16.10 sahibi: Panel sekmesi HER ZAMAN görünür */}
 function ekranAc(id){if(id==='e-panel'){panelEkraniCiz()}$$('.ekran').forEach(e=>e.classList.toggle('acik',e.id===id));
   const sekmeli=$('#'+id).classList.contains('sekme');$('#app').classList.toggle('sekmeli',sekmeli);
   const sek={'e-kay':'e-hatirla','e-tb':'e-hatirla'}[id]||id;
@@ -664,13 +670,15 @@ function ekranAc(id){if(id==='e-panel'){panelEkraniCiz()}$$('.ekran').forEach(e=
   if(id==='e-sayfam')sayfamCiz();}
 let PANEL_ACIK=false; // bu oturumda parola girildi mi
 function panelEkraniCiz(){const ak=$('#panel-akis');const pin=LS.get('gv_pin',null);
+  if(GV.durum!=='onayli'){ak.innerHTML=`<div class="bos"><i class="daire logo-png" style="background-size:cover;border-radius:50%"></i><h3>Bu paneli din görevlileri kullanabilir.</h3><p>Din görevlisi misiniz? Kayıt olun.</p><button class="ana-dugme" id="panel-kayit" style="margin-top:12px">Kayıt olun</button></div>`;return}
   if(!pin){ak.innerHTML=`<div class="adim-baslik" style="margin-top:16px"><h3>Panel parolası belirleyin</h3><p>Birilerinin sizin hesabınıza girip kötü niyetli/yanıltıcı paylaşımlar yapmasını önlemek için 4 haneli parola belirleyin.</p></div><label class="gv-alan">4 haneli parola<input id="pin1" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><label class="gv-alan">Yeniden yazın<input id="pin2" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><button class="ana-dugme" id="pin-kaydet" style="margin-top:12px">Kaydet</button>`;return}
   if(!PANEL_ACIK){ak.innerHTML=`<div class="adim-baslik" style="margin-top:16px"><h3>Panel parolanız</h3><p>Panele girmek için 4 haneli parolanızı yazın.</p></div><label class="gv-alan">Parola<input id="pin-gir" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><div class="gv-not" id="pin-hata"></div><button class="ana-dugme" id="pin-ac" style="margin-top:12px">Panele gir</button><button class="ikincil-dugme" id="pin-unut" style="margin-top:8px">Parolamı unuttum</button>`;return}
   ak.innerHTML=`<div class="gv-aciklama">Paneliniz açık. Aşağıdaki düğmeyle panel sayfasına geçin.</div><button class="ana-dugme" id="panel-ac">Din görevlisi panelini aç</button><div style="height:12px"></div><button class="ikincil-dugme" id="panel-kilitle">Paneli kilitle</button>`;}
 $('#panel-akis').addEventListener('click',e=>{
+  if(e.target.closest('#panel-kayit')){GV.adim=1;GV.hata=false;gkayitCiz();$('#p-gorevli').classList.add('acik');return}
   if(e.target.closest('#pin-kaydet')){const a=$('#pin1').value,b=$('#pin2').value;if(!/^\d{4}$/.test(a))return bildir('4 rakam yazın.');if(a!==b)return bildir('İki parola aynı değil.');LS.set('gv_pin',a);PANEL_ACIK=true;bildir('Parola kaydedildi.');panelEkraniCiz();return}
   if(e.target.closest('#pin-ac')){if($('#pin-gir').value===LS.get('gv_pin',null)){PANEL_ACIK=true;panelEkraniCiz();gpanelCiz()}else{$('#pin-hata').textContent='Parola yanlış.'}return}
-  if(e.target.closest('#pin-unut')){bildir('Parolayı sıfırlamak için çıkış yapıp e-posta koduyla yeniden giriş yapın.');return}
+  if(e.target.closest('#pin-unut')){$('#punut-adres').textContent=GV.kul+'@diyanet.gov.tr';$('#p-punut').classList.add('acik');return} // 16.10 sahibi: ayrı sayfa, sade ifade
   if(e.target.closest('#panel-ac')){gpanelCiz();return}
   if(e.target.closest('#panel-kilitle')){PANEL_ACIK=false;panelEkraniCiz();bildir('Panel kilitlendi.');return}});
 $$('#sekmeler button').forEach(b=>b.onclick=()=>ekranAc(b.dataset.sekme));

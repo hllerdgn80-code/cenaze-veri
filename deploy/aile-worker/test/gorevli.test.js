@@ -266,3 +266,50 @@ test("SORUMLULUK KABUL (§54): oturumsuz 401; kabul hesap kaydına tarih yazar; 
   const d = await al(e, "/gorevli/durum", h);
   assert.equal(d.sorumluluk_kabul, NOW.toISOString()); assert.equal(d.kvkk_kabul, null);
 });
+
+test("PAROLA (§53): /parola 4 rakam ister, oturumsuz 401, anahtar yoksa 503; kayıtta AES-GCM şifreli (düz parola yok), /durum'da sızmaz", async () => {
+  const e = env({ PAROLA_ANAHTARI: "test-anahtar-0123456789" });
+  assert.equal((await cagir(e, "/gorevli/parola", { parola: "1234" })).s, 401);
+  const { h } = await hazir(e);
+  for (const kotu of ["123", "12345", "abcd", 1234, null]) assert.equal((await cagir(e, "/gorevli/parola", { parola: kotu }, { ek: h })).s, 400, String(kotu));
+  assert.equal((await cagir(e, "/gorevli/parola", { parola: "4821" }, { ek: h })).s, 200);
+  const ham = [...e.AILE.m.entries()].filter(([k]) => k.includes(":k:")).map(([, v]) => v.v).join("");
+  assert.ok(ham.includes("parola_sifreli") && !ham.includes("4821"));
+  assert.ok(!JSON.stringify(await al(e, "/gorevli/durum", h)).includes("parola"));
+  const e2 = env(); // anahtar yok
+  const { h: h2 } = await hazir(e2);
+  assert.equal((await cagir(e2, "/gorevli/parola", { parola: "4821" }, { ek: h2 })).s, 503);
+});
+
+test("PAROLA HATIRLAT (§53): parola @diyanet.gov.tr adresine Resend ile gider; günde en çok 3, sonra 429 + bekle; parola yoksa 404; anahtar/Resend yoksa 503; oturumsuz 401", async () => {
+  const e = env({ PAROLA_ANAHTARI: "test-anahtar-0123456789", RESEND_ANAHTARI: "re_x", GELISTIRME: "0" });
+  assert.equal((await cagir(e, "/gorevli/parola-hatirlat", {})).s, 401);
+  // GELISTIRME=0 + Resend var: kod normal yoldan gider; testte giriş için sahte fetch
+  const giden = [];
+  const f = async (url, init) => { const b = JSON.parse(init.body); giden.push({ url, init, b }); return { ok: true }; };
+  const k = await cagir(e, "/gorevli/eposta-kod", { kullanici: KU }, { fetch: f });
+  assert.equal(k.s, 200);
+  const kod = giden[0].b.text.match(/\d{6}/)[0];
+  const d = await cagir(e, "/gorevli/eposta-dogrula", { kullanici: KU, kod });
+  const h = { Authorization: `Bearer ${d.oturum}` };
+  assert.equal((await cagir(e, "/gorevli/parola-hatirlat", {}, { ek: h, fetch: f })).s, 404); // parola henüz yok
+  assert.equal((await cagir(e, "/gorevli/parola", { parola: "4821" }, { ek: h })).s, 200);
+  giden.length = 0;
+  for (let i = 0; i < 3; i++) {
+    const r = await cagir(e, "/gorevli/parola-hatirlat", {}, { ek: h, fetch: f });
+    assert.equal(r.s, 200, JSON.stringify(r)); assert.equal(r.adres, `${KU}@diyanet.gov.tr`);
+  }
+  assert.equal(giden.length, 3);
+  assert.deepEqual(giden[0].b.to, [`${KU}@diyanet.gov.tr`]);
+  assert.equal(giden[0].url, "https://api.resend.com/emails");
+  assert.equal(giden[0].b.text, "Kimin Cenazesi panel parolanız: 4821");
+  assert.equal(giden[0].init.headers.Authorization, "Bearer re_x");
+  const dort = await cagir(e, "/gorevli/parola-hatirlat", {}, { ek: h, fetch: f });
+  assert.equal(dort.s, 429); assert.ok(dort.bekle_sn > 0); assert.equal(giden.length, 3);
+  // ertesi gün sayaç sıfırlanır
+  assert.equal((await cagir(e, "/gorevli/parola-hatirlat", {}, { ek: h, fetch: f, now: new Date(NOW.getTime() + 86400000) })).s, 200);
+  // anahtar yok -> 503
+  const e3 = env({ PAROLA_ANAHTARI: "test-anahtar-0123456789" }); // Resend yok
+  const { h: h3 } = await hazir(e3);
+  assert.equal((await cagir(e3, "/gorevli/parola-hatirlat", {}, { ek: h3, fetch: f })).s, 503);
+});

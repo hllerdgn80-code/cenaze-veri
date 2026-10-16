@@ -20,17 +20,193 @@ class PanelSekmesi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final d = Kapsam.of(context);
-    if (d.depo.gorevliOturum == null) return const SizedBox.shrink();
-    if (!d.depo.gorevliPinVar) return const GorevliParolaBelirle(sekmede: true);
-    if (!d.panelAcik) return const _ParolaGir();
+    if (d.depo.gorevliOturum == null) return const _GorevliDegil();
+    if (!d.depo.gorevliPinVar) return GorevliParolaBelirle(sekmede: true, servis: servis);
+    if (!d.panelAcik) return _ParolaGir(servis: servis);
     return GorevliPanel(sekmede: true, servis: servis);
+  }
+}
+
+/// Doğrulanmamış kullanıcı (ya da çıkıştan sonra): amblem + açıklama + "Kayıt olun" -> kayıt (kılavuz -> kod)
+class _GorevliDegil extends StatelessWidget {
+  const _GorevliDegil();
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    final d = Kapsam.of(context);
+    return Column(children: [
+      BaslikCubugu(
+        sol: const SizedBox(width: 40),
+        sag: const SizedBox(width: 40),
+        ust: M.gorevliUst,
+        baslik: const BuyukBaslik(M.sekmePanel),
+      ),
+      Expanded(
+        child: ListView(key: const ValueKey('panel_gorevli_degil'), padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s6), children: [
+          const Center(child: Daire('kemer', boyut: 96)),
+          const SizedBox(height: R.s5),
+          Text(M.panelGorevliBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
+          const SizedBox(height: R.s2),
+          Text(M.panelGorevliAciklama, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+          const SizedBox(height: R.s5),
+          AnaDugme(M.panelKayitDugme,
+              key: const ValueKey('panel_kayit'),
+              onTap: () => Navigator.of(context, rootNavigator: true)
+                  .push(MaterialPageRoute(builder: (_) => GorevliKayit(il: d.il ?? '', ilce: d.ilce)))),
+        ]),
+      ),
+    ]);
+  }
+}
+
+/// "Parolanız gönderildi" sayfası: açılınca /gorevli/parola-hatirlat çağrılır; "Tamam" parola giriş ekranına döner
+class GorevliParolaGonderildi extends StatefulWidget {
+  final GorevliServisi? servis;
+  const GorevliParolaGonderildi({super.key, this.servis});
+  @override
+  State<GorevliParolaGonderildi> createState() => _GorevliParolaGonderildiState();
+}
+
+class _GorevliParolaGonderildiState extends State<GorevliParolaGonderildi> {
+  bool _yukleniyor = true;
+  bool _tamam = false;
+  String _adres = '';
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _gonder());
+  }
+
+  Future<void> _gonder() async {
+    final d = Kapsam.oku(context);
+    final tok = d.depo.gorevliOturum;
+    _adres = '${d.depo.gorevliKullanici ?? ''}${M.gorevliAlanAdi}';
+    var ok = false;
+    if (tok != null) {
+      final y = await (widget.servis ?? GorevliServisi(istemci: d.veri.istemci)).parolaHatirlat(tok);
+      ok = y.tamam;
+      final a = y.govde?['adres']?.toString();
+      if (ok && a != null && a.isNotEmpty) _adres = a;
+    }
+    if (!mounted) return;
+    setState(() {
+      _yukleniyor = false;
+      _tamam = ok;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Scaffold(
+      body: SafeArea(
+        child: Column(children: [
+          BaslikCubugu(
+            sol: const SizedBox(width: 40),
+            sag: const SizedBox(width: 40),
+            ust: M.gorevliUst,
+            baslik: const BuyukBaslik(M.pinGonderildiBaslik),
+          ),
+          Expanded(
+            child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s6), children: [
+              const Center(child: Daire('kemer', boyut: 96)),
+              const SizedBox(height: R.s5),
+              if (_yukleniyor)
+                Text(M.gorevliYukleniyor, textAlign: TextAlign.center, style: Y.soluk(r))
+              else if (_tamam) ...[
+                Text(M.pinGonderildiBir, key: const ValueKey('pin_gonderildi'), textAlign: TextAlign.center, style: Y.adim(r)),
+                const SizedBox(height: R.s2),
+                Text(M.pinGonderildiIki(_adres), key: const ValueKey('pin_gonderildi_aciklama'), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+              ] else
+                Text(M.pinGonderilemediSayfa, key: const ValueKey('pin_gonderilemedi'), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
+              const SizedBox(height: R.s5),
+              AnaDugme(M.pinTamam, key: const ValueKey('pin_tamam'), onTap: _yukleniyor ? null : () => Navigator.of(context).pop()),
+            ]),
+          ),
+        ]),
+      ),
+    );
+  }
+}
+
+/// Parolayı hesaba (Worker'da şifreli) yazar; ağ/sunucu yoksa false (cihaz parolası yine geçerli)
+Future<bool> _sunucuyaYaz(AppDurum d, GorevliServisi? servis, String parola) async {
+  final tok = d.depo.gorevliOturum;
+  if (tok == null) return false;
+  final y = await (servis ?? GorevliServisi(istemci: d.veri.istemci)).parolaKaydet(tok, parola);
+  return y.tamam;
+}
+
+/// "Parolamı değiştir" (⋮ menüsü): eski parola -> yeni parola (iki kez); hem cihaza hem Worker'a yazılır
+class GorevliParolaDegistir extends StatefulWidget {
+  final GorevliServisi? servis;
+  const GorevliParolaDegistir({super.key, this.servis});
+  @override
+  State<GorevliParolaDegistir> createState() => _GorevliParolaDegistirState();
+}
+
+class _GorevliParolaDegistirState extends State<GorevliParolaDegistir> {
+  final _e = TextEditingController();
+  final _a = TextEditingController();
+  final _b = TextEditingController();
+  String? _hata;
+
+  @override
+  void dispose() {
+    _e.dispose();
+    _a.dispose();
+    _b.dispose();
+    super.dispose();
+  }
+
+  Future<void> _kaydet() async {
+    final d = Kapsam.oku(context);
+    if (!d.depo.gorevliPinDogru(_e.text)) return setState(() => _hata = M.pinEskiYanlis);
+    if (!RegExp(r'^\d{4}$').hasMatch(_a.text)) return setState(() => _hata = M.pinRakam);
+    if (_a.text != _b.text) return setState(() => _hata = M.pinFarkli);
+    await d.depo.gorevliPinKur(_a.text);
+    final sunucu = await _sunucuyaYaz(d, widget.servis, _a.text);
+    if (!mounted) return;
+    bildir(context, sunucu ? M.pinDegisti : M.pinSunucuyaYok);
+    Navigator.of(context).pop();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Scaffold(
+      body: SafeArea(
+        child: Column(children: [
+          BaslikCubugu(
+            sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
+            sag: const SizedBox(width: 40),
+            ust: M.gorevliUst,
+            baslik: const BuyukBaslik(M.pinDegistirBaslik),
+          ),
+          Expanded(
+            child: ListView(padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6), children: [
+              const SizedBox(height: R.s4),
+              FormAlani(key: const ValueKey('pin_eski'), etiket: M.pinEski, ipucu: '••••', denetleyici: _e, klavye: TextInputType.number, enCok: 4, gizli: true),
+              FormAlani(key: const ValueKey('pin_1'), etiket: M.pinYeni, ipucu: '••••', denetleyici: _a, klavye: TextInputType.number, enCok: 4, gizli: true),
+              FormAlani(key: const ValueKey('pin_2'), etiket: M.pinAlan2, ipucu: '••••', denetleyici: _b, klavye: TextInputType.number, enCok: 4, gizli: true),
+              if (_hata != null) Text(_hata!, key: const ValueKey('pin_hata'), textAlign: TextAlign.center, style: Y.kucuk(r)),
+              const SizedBox(height: R.s3),
+              AnaDugme(M.pinKaydet, key: const ValueKey('pin_kaydet'), onTap: _kaydet),
+            ]),
+          ),
+        ]),
+      ),
+    );
   }
 }
 
 /// Parola belirleme: kod doğrulanınca (sekmede=false, tam ekran) ya da parolası olmayan oturumda (sekmede=true)
 class GorevliParolaBelirle extends StatefulWidget {
   final bool sekmede;
-  const GorevliParolaBelirle({super.key, this.sekmede = false});
+  final GorevliServisi? servis;
+  const GorevliParolaBelirle({super.key, this.sekmede = false, this.servis});
   @override
   State<GorevliParolaBelirle> createState() => _GorevliParolaBelirleState();
 }
@@ -52,8 +228,9 @@ class _GorevliParolaBelirleState extends State<GorevliParolaBelirle> {
     if (!RegExp(r'^\d{4}$').hasMatch(_a.text)) return setState(() => _hata = M.pinRakam);
     if (_a.text != _b.text) return setState(() => _hata = M.pinFarkli);
     await d.depo.gorevliPinKur(_a.text);
+    final sunucu = await _sunucuyaYaz(d, widget.servis, _a.text);
     if (!mounted) return;
-    bildir(context, M.pinKaydedildi);
+    bildir(context, sunucu ? M.pinKaydedildi : M.pinSunucuyaYok);
     if (!widget.sekmede) Navigator.of(context, rootNavigator: true).popUntil((r) => r.isFirst);
     d.gorevliGirisTamam(); // Panel sekmesi seçilir, panel açık sayılır (KVKK penceresi panel ilk açılışında)
   }
@@ -90,7 +267,8 @@ class _GorevliParolaBelirleState extends State<GorevliParolaBelirle> {
 }
 
 class _ParolaGir extends StatefulWidget {
-  const _ParolaGir();
+  final GorevliServisi? servis;
+  const _ParolaGir({this.servis});
   @override
   State<_ParolaGir> createState() => _ParolaGirState();
 }
@@ -156,12 +334,9 @@ class _ParolaGirState extends State<_ParolaGir> {
     setState(() => _hata = M.pinYanlisKalan(kalan));
   }
 
-  /// "Parolamı unuttum": çıkış (oturum, parola, görev bilgisi silinir) + e-posta koduyla yeniden giriş
-  Future<void> _unuttum() async {
-    final d = Kapsam.oku(context);
-    final nav = Navigator.of(context, rootNavigator: true);
-    await d.gorevliCikis();
-    nav.push(MaterialPageRoute(builder: (_) => GorevliKayit(il: d.il ?? '', ilce: d.ilce)));
+  /// "Parolamı unuttum": çıkış YOK, parola silinmez; AYRI sayfa açılır, parola hesabın Diyanet adresine e-postalanır (URUN §53)
+  void _unuttum() {
+    Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(builder: (_) => GorevliParolaGonderildi(servis: widget.servis)));
   }
 
   @override

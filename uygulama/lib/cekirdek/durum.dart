@@ -135,8 +135,8 @@ class AppDurum extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Görünen sekme sayısı: din görevlisi oturumu varsa 5 (… · Panel), yoksa 4 (URUN §53)
-  int get sekmeSayisi => depo.gorevliOturum != null ? 5 : 4;
+  /// Sekme sayısı HER ZAMAN 5 (… · Panel); oturumsuzken Panel sekmesi "din görevlileri kullanabilir" mesajını gösterir (URUN §53, 16.10 10:50)
+  int get sekmeSayisi => 5;
 
   /// Panel parolası bu uygulama açılışında girildi mi (yalnız bellekte; açılış başına bir kez sorulur)
   bool panelAcik = false;
@@ -156,7 +156,7 @@ class AppDurum extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Panel sekmesini seç (bildirim / ilan kutusu bağlantısı); oturum yoksa bir şey yapmaz
+  /// Panel sekmesini seç (bildirim / ilan kutusu bağlantısı); oturum yoksa seçmez (çağıran kayıt ekranını açar)
   bool panelSekmesiAc() {
     if (depo.gorevliOturum == null) return false;
     sekmeSec(4);

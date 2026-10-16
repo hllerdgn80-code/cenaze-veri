@@ -72,5 +72,10 @@ class GorevliServisi {
 
   /// Sorumluluk uyarısı kabulünü hesaba yazar (URUN §54)
   Future<AileYanit> sorumlulukKabul(String oturum) => _istek('POST', '/gorevli/sorumluluk-kabul', oturum: oturum);
+  /// Panel parolasını hesaba şifreli yazar (URUN §53; "unuttum" e-postası için)
+  Future<AileYanit> parolaKaydet(String oturum, String parola) => _istek('POST', '/gorevli/parola', govde: {'parola': parola}, oturum: oturum);
+
+  /// "Parolamı unuttum": parola hesabın Diyanet adresine e-postayla gönderilir (günde ≤3)
+  Future<AileYanit> parolaHatirlat(String oturum) => _istek('POST', '/gorevli/parola-hatirlat', oturum: oturum);
   Future<AileYanit> iptal(String oturum, String ilanId) => _istek('POST', '/gorevli/ilan/iptal', govde: {'ilan_id': ilanId}, oturum: oturum);
 }
