@@ -42,6 +42,26 @@ Future<void> _yaz(WidgetTester t, String anahtar, String metin) async {
 }
 
 void main() {
+  // Yerel işlevler ilk kullanımdan ÖNCE tanımlanır (Dart kuralı; CI #42 bu yüzden düştü)
+  Future<AppDurum> panelDurumu() async {
+    final d = await testDurumu();
+    await d.depo.gorevliOturumKaydet('tok');
+    await d.depo.gorevliKvkkKaydet('2026-10-16T09:00:00Z'); // KVKK penceresi ayrı testlerde sınanır
+    return d;
+  }
+
+  GorevliServisi panelServisi(String durum, {List<Map<String, dynamic>> ilanlar = const []}) => GorevliServisi(
+        kok: 'https://g.test',
+        istemci: MockClient((req) async {
+          if (req.url.path == '/gorevli/durum') {
+            if (durum == 'silindi') return _y({'durum': 'silindi'});
+            return _y({'durum': durum, 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
+          }
+          if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': ilanlar});
+          return http.Response('yok', 404);
+        }),
+      );
+
   GorevliServisi epostaServisi(Map<String, Map<String, dynamic>> istekler, {int dogrulaKod = 200, int kodKod = 200, Map<String, dynamic>? kodGovde}) => GorevliServisi(
         kok: 'https://g.test',
         istemci: MockClient((req) async {
@@ -271,25 +291,6 @@ void main() {
     expect(d.depo.gorevliOturum, isNull);
     expect(find.byType(GorevliPanel), findsNothing);
   });
-
-  Future<AppDurum> panelDurumu() async {
-    final d = await testDurumu();
-    await d.depo.gorevliOturumKaydet('tok');
-    await d.depo.gorevliKvkkKaydet('2026-10-16T09:00:00Z'); // KVKK penceresi ayrı testlerde sınanır
-    return d;
-  }
-
-  GorevliServisi panelServisi(String durum, {List<Map<String, dynamic>> ilanlar = const []}) => GorevliServisi(
-        kok: 'https://g.test',
-        istemci: MockClient((req) async {
-          if (req.url.path == '/gorevli/durum') {
-            if (durum == 'silindi') return _y({'durum': 'silindi'});
-            return _y({'durum': durum, 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
-          }
-          if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': ilanlar});
-          return http.Response('yok', 404);
-        }),
-      );
 
   testWidgets('Panel (kontrolde): sabit başlık kartı, bilgi kutusu, İlan paylaş PASİF (dokununca açıklama), İlanlarım boş', (tester) async {
     telefon(tester);
