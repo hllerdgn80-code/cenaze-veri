@@ -16,6 +16,7 @@ import 'package:kimin_cenazesi/cekirdek/metin.dart';
 import 'package:kimin_cenazesi/cekirdek/tema.dart';
 import 'package:kimin_cenazesi/ekranlar/gorevli_kayit.dart';
 import 'package:kimin_cenazesi/ekranlar/gorevli_panel.dart';
+import 'package:kimin_cenazesi/ekranlar/panel_sekmesi.dart' show GorevliParolaBelirle;
 import 'package:kimin_cenazesi/ekranlar/gorevli_yer.dart';
 
 import 'ortak.dart';
@@ -32,6 +33,14 @@ Widget _ev(AppDurum d, Widget Function(BuildContext) ac) => Kapsam(
       ),
     );
 
+/// Uzun ekran (360×1800): ListView tembel kurulur; alt kısımdaki metinler/düğmeler de ağaçta olsun (CI #43)
+void uzun(WidgetTester tester) {
+  tester.view.physicalSize = const Size(1080, 5400);
+  tester.view.devicePixelRatio = 3.0;
+  addTearDown(tester.view.resetPhysicalSize);
+  addTearDown(tester.view.resetDevicePixelRatio);
+}
+
 Finder _alan(String anahtar) => find.descendant(of: find.byKey(ValueKey(anahtar)), matching: find.byType(TextField));
 
 Future<void> _yaz(WidgetTester t, String anahtar, String metin) async {
@@ -46,7 +55,8 @@ void main() {
   Future<AppDurum> panelDurumu() async {
     final d = await testDurumu();
     await d.depo.gorevliOturumKaydet('tok');
-    await d.depo.gorevliKvkkKaydet('2026-10-16T09:00:00Z'); // KVKK penceresi ayrı testlerde sınanır
+    await d.depo.gorevliKvkkKaydet('2026-10-16T09:00:00Z'); // KVKK ve sorumluluk pencereleri ayrı testlerde sınanır
+    await d.depo.gorevliSorumlulukKaydet('2026-10-16T09:00:00Z');
     return d;
   }
 
@@ -102,7 +112,7 @@ void main() {
   });
 
   testWidgets('Kod akışı: kullanıcı adı -> kod ekranı (adres, 5 madde, 10 dk, "(5 dk)" bekleme) -> yanlış kod uyarısı -> doğru kod -> panel HEMEN açılır', (tester) async {
-    telefon(tester);
+    uzun(tester);
     final d = await testDurumu();
     final istekler = <String, Map<String, dynamic>>{};
     var yanlis = true;
@@ -153,8 +163,12 @@ void main() {
     await tester.tap(find.text(M.gorevliKodDogrulaDugme));
     await tester.pumpAndSettle();
     expect(d.depo.gorevliOturum, 'tok123');
-    expect(find.byType(GorevliPanel), findsOneWidget);
-    expect(find.text(M.gorevliProfilYok), findsOneWidget); // ad/yer ilk "İlan paylaş"ta sorulur
+    expect(d.sekmeSayisi, 5); // 5. sekme belirdi
+    expect(d.depo.gorevliKvkkTamam(), isFalse); // KVKK her girişte yeniden (§50a)
+    // §53: kod doğrulanınca ÖNCE parola belirleme (panel değil)
+    expect(find.byType(GorevliParolaBelirle), findsOneWidget);
+    expect(find.byType(GorevliPanel), findsNothing);
+    expect(find.text(M.pinBelirleBaslik), findsOneWidget);
     await tester.pumpWidget(const SizedBox());
   });
 
@@ -180,7 +194,7 @@ void main() {
   });
 
   testWidgets('Profil yok: ilk "İlan paylaş" ad/görev yeri formunu açar, kaydedince ilan formuna geçer', (tester) async {
-    telefon(tester);
+    uzun(tester);
     final d = await panelDurumu();
     var tamam = false;
     Map<String, dynamic>? profilGovde;
@@ -224,7 +238,7 @@ void main() {
   });
 
   testWidgets('⋮ menüsü: "Görev yerim değişti" ayrı sayfa açar; Kaydet -> geri dönülür ve başlık kartı yeni görev yerini gösterir', (tester) async {
-    telefon(tester);
+    uzun(tester);
     final d = await panelDurumu();
     var yer = 'Korgan Merkez Camii', il = 'Ordu', ilce = 'Korgan';
     Map<String, dynamic>? giden;
@@ -399,10 +413,64 @@ void main() {
     expect(find.text('ac'), findsOneWidget);
   });
 
-  testWidgets('KVKK (§50): ilk açılışta tam ekran pencere; geri tuşu kapatmaz; "Okudum, anladım" kabulü cihaza ve sunucuya yazar; sonra panel; ikinci açılışta yok', (tester) async {
-    telefon(tester);
+  testWidgets('KVKK (§50a) + SORUMLULUK (§54): sıra KVKK -> sorumluluk -> panel; sunucu kaydı atlatmaz; çıkış-giriş sonrası İKİSİ de yeniden', (tester) async {
+    uzun(tester);
     final d = await testDurumu();
     await d.depo.gorevliOturumKaydet('tok');
+    await d.depo.gorevliKullaniciKaydet('hasan.k');
+    var sorumlulukIstegi = 0;
+    final servis = GorevliServisi(
+      kok: 'https://g.test',
+      istemci: MockClient((req) async {
+        if (req.url.path == '/gorevli/durum') return _y({'durum': 'onayli', 'kvkk_kabul': '2026-10-01T09:00:00Z', 'sorumluluk_kabul': '2026-10-01T09:00:00Z', 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
+        if (req.url.path == '/gorevli/kvkk-kabul') return _y({'kvkk_kabul': '2026-10-16T09:00:00Z'});
+        if (req.url.path == '/gorevli/sorumluluk-kabul') {
+          sorumlulukIstegi++;
+          return _y({'sorumluluk_kabul': '2026-10-16T09:00:00Z'});
+        }
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        return http.Response('yok', 404);
+      }),
+    );
+    Future<void> girisVeKabuller() async {
+      await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+      await tester.tap(find.text('ac'));
+      await tester.pumpAndSettle();
+      expect(find.text(M.gorevliKvkkBaslik), findsOneWidget, reason: 'sunucu kaydı pencereyi atlatmaz');
+      expect(find.text(M.gorevliSorumlulukBaslik), findsNothing); // önce KVKK
+      await tester.tap(find.text(M.gorevliKvkkOku));
+      await tester.pumpAndSettle();
+      expect(find.text(M.gorevliSorumlulukBaslik), findsOneWidget); // sonra sorumluluk
+      expect(find.text(M.gorevliSorumlulukMetin), findsOneWidget);
+      expect(find.byKey(const ValueKey('g_baslik_karti')), findsNothing);
+      await tester.binding.handlePopRoute(); // geri tuşu kapatmaz
+      await tester.pumpAndSettle();
+      expect(find.text(M.gorevliSorumlulukBaslik), findsOneWidget);
+      await tester.tap(find.text(M.gorevliSorumlulukKabul));
+      await tester.pumpAndSettle();
+      expect(find.text(M.gorevliSorumlulukBaslik), findsNothing);
+      expect(find.byKey(const ValueKey('g_baslik_karti')), findsOneWidget); // sonra panel
+    }
+
+    await girisVeKabuller();
+    expect(d.depo.gorevliKvkkTamam(), isTrue);
+    expect(d.depo.gorevliSorumlulukTamam(), isTrue);
+    expect(sorumlulukIstegi, 1);
+    await d.gorevliCikis(); // çıkış: cihazdaki iki kabul de silinir
+    expect(d.depo.gorevliKvkkKabul, isNull);
+    expect(d.depo.gorevliSorumlulukKabul, isNull);
+    await d.depo.gorevliOturumKaydet('tok2'); // yeniden giriş -> ikisi de yeniden
+    await d.depo.gorevliKullaniciKaydet('hasan.k');
+    await tester.pumpWidget(const SizedBox());
+    await girisVeKabuller();
+    expect(sorumlulukIstegi, 2);
+  });
+
+  testWidgets('KVKK (§50): ilk açılışta tam ekran pencere; geri tuşu kapatmaz; "Okudum, anladım" kabulü cihaza ve sunucuya yazar; sonra panel; ikinci açılışta yok', (tester) async {
+    uzun(tester);
+    final d = await testDurumu();
+    await d.depo.gorevliOturumKaydet('tok');
+    await d.depo.gorevliSorumlulukKaydet('2026-10-16T09:00:00Z'); // sorumluluk penceresi ayrı testte
     await d.depo.gorevliKullaniciKaydet('hasan.k');
     var kabulIstegi = 0;
     final servis = GorevliServisi(
@@ -512,7 +580,7 @@ void main() {
     Ilan k(String id) => Ilan.fromJson({'id': id, 'ad_soyad': 'Ali Kaya', 'ilce': 'Korgan', 'yas': 77, 'vefat_tarihi': '2026-10-15', 'namaz_tarihi': '2026-10-16'})!;
     await tester.pumpWidget(Kapsam(
       durum: d,
-      child: MaterialApp(theme: temaYap(true), home: Scaffold(body: KartListesi(children: [IlanKarti(ilan: k('a1')), IlanKarti(ilan: k('a2'))]))),
+      child: MaterialApp(theme: temaYap(true), home: Scaffold(body: KartListesi(children: [IlanKarti(ilan: k('a1')), IlanKarti(ilan: k('a2')), IlanKarti(ilan: k('a3'))]))),
     ));
     await tester.pumpAndSettle();
     final ekran = tester.view.physicalSize.height / tester.view.devicePixelRatio;

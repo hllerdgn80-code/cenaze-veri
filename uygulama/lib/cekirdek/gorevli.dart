@@ -69,5 +69,8 @@ class GorevliServisi {
   Future<AileYanit> duzenle(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/ilan/duzenle', govde: govde, oturum: oturum);
   /// KVKK aydınlatmasını kabul ettiğini hesaba yazar (URUN §50)
   Future<AileYanit> kvkkKabul(String oturum) => _istek('POST', '/gorevli/kvkk-kabul', oturum: oturum);
+
+  /// Sorumluluk uyarısı kabulünü hesaba yazar (URUN §54)
+  Future<AileYanit> sorumlulukKabul(String oturum) => _istek('POST', '/gorevli/sorumluluk-kabul', oturum: oturum);
   Future<AileYanit> iptal(String oturum, String ilanId) => _istek('POST', '/gorevli/ilan/iptal', govde: {'ilan_id': ilanId}, oturum: oturum);
 }

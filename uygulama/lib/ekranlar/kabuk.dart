@@ -1,4 +1,4 @@
-// Sekmeli kabuk: 4 eşit sekme (İlanlar · Sayfam · Dualar · Hatırla); her sekmenin kendi gezgini var,
+// Sekmeli kabuk: 4 eşit sekme (İlanlar · Sayfam · Dualar · Hatırla); din görevlisi oturumu varsa 5. sekme Panel (URUN §53); her sekmenin kendi gezgini var,
 // alt ekranlarda (dua listesi, Kaybettiklerimiz) sekme çubuğu görünür kalır.
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -11,9 +11,10 @@ import 'dualar.dart';
 import 'guncelleme.dart';
 import 'hatirla.dart';
 import 'ilanlar.dart';
+import 'panel_sekmesi.dart';
 import 'sayfam.dart';
 
-const _sekmeIkon = ['sk_ilan', 'sk_sayfam', 'sk_dua', 'sk_hatirla'];
+const _sekmeIkon = ['sk_ilan', 'sk_sayfam', 'sk_dua', 'sk_hatirla', 'sk_panel'];
 
 class AnaKabuk extends StatelessWidget {
   const AnaKabuk({super.key});
@@ -26,8 +27,10 @@ class AnaKabuk extends StatelessWidget {
         return const SayfamEkrani();
       case 2:
         return const DualarEkrani();
-      default:
+      case 3:
         return const HatirlaEkrani();
+      default:
+        return const PanelSekmesi();
     }
   }
 
@@ -55,9 +58,9 @@ class AnaKabuk extends StatelessWidget {
             const GuncellemeCubugu(),
             Expanded(
               child: IndexedStack(
-                index: d.sekme,
+                index: d.sekme < d.sekmeSayisi ? d.sekme : 0,
                 children: [
-                  for (int i = 0; i < 4; i++)
+                  for (int i = 0; i < d.sekmeSayisi; i++)
                     Navigator(
                       key: d.sekmeAnahtarlari[i],
                       onGenerateRoute: (_) => MaterialPageRoute(
@@ -79,7 +82,7 @@ class AnaKabuk extends StatelessWidget {
             child: SizedBox(
               height: 56,
               child: Row(children: [
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < d.sekmeSayisi; i++)
                   Expanded(
                     child: InkWell(
                       key: ValueKey('sekme_$i'),
@@ -87,7 +90,7 @@ class AnaKabuk extends StatelessWidget {
                       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                         Ikon(_sekmeIkon[i], boyut: 24, renk: d.sekme == i ? r.vurguMetin : r.metin3),
                         const SizedBox(height: 3),
-                        Text(M.sekmeler[i],
+                        Text(i < 4 ? M.sekmeler[i] : M.sekmePanel,
                             maxLines: 1,
                             softWrap: false,
                             overflow: TextOverflow.ellipsis,

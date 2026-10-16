@@ -17,7 +17,6 @@ import 'cekirdek/veri.dart';
 import 'ekranlar/acilis_mesaji.dart';
 import 'ekranlar/adres.dart';
 import 'ekranlar/bildirim_sorusu.dart';
-import 'ekranlar/gorevli_panel.dart';
 import 'ekranlar/guncelleme.dart';
 import 'ekranlar/kabuk.dart';
 
@@ -40,10 +39,9 @@ Future<void> main() async {
   final bildirim = AndroidBildirim();
   final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true, acilisAcik: true);
   // Bildirime dokunuş: uygulama o ilçenin bugünkü listesine döner (il/ilçe depodan; tarih = bugün)
-  // Din görevlisi onay bildirimine dokunuş: İlanlar sekmesinin gezgininde paneli açar (oturum depodadır)
+  // Din görevlisi onay bildirimine dokunuş: Panel sekmesini seçer (oturum depodadır)
   void gorevliPaneliAc() {
-    durum.sekmeSec(0);
-    durum.sekmeAnahtarlari[0].currentState?.push(MaterialPageRoute(builder: (_) => const GorevliPanel()));
+    if (!durum.panelSekmesiAc()) durum.sekmeSec(0); // Panel sekmesi; parola açılış başına bir kez sorulur (URUN §53)
   }
 
   durum.surumKontrol(); // açılış mesajı sürerken arka planda; hata = kapı açık (§42)

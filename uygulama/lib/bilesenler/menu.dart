@@ -1,5 +1,6 @@
 // ⋮ menü (270 px, ekranın ortasında): Adresi değiştir · Tema · Cenaze bildirimi aç/kapat · Uygulamayı paylaş · Öneri ve tavsiyeleriniz · Hakkında · Gizlilik
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -219,6 +220,7 @@ class FormAlani extends StatelessWidget {
   final TextInputType? klavye;
   final ValueChanged<String>? onChanged;
   final int? enCok;
+  final bool gizli; // parola: yalnız rakam, noktalı gösterim
   const FormAlani({
     super.key,
     required this.etiket,
@@ -228,6 +230,7 @@ class FormAlani extends StatelessWidget {
     this.klavye,
     this.onChanged,
     this.enCok,
+    this.gizli = false,
   });
 
   @override
@@ -244,6 +247,8 @@ class FormAlani extends StatelessWidget {
           minLines: satir,
           maxLines: satir,
           maxLength: enCok,
+          obscureText: gizli,
+          inputFormatters: gizli ? [FilteringTextInputFormatter.digitsOnly] : null,
           keyboardType: klavye,
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 16, color: r.metin),

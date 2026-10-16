@@ -1,7 +1,9 @@
 // Cihaz deposu (shared_preferences). Hiçbir veri cihaz dışına gönderilmez.
 // Anahtarlar: il, ilce, tema, kayit (Sayfam), sayac, cins, izin, onbellek_<il>.
 import 'dart:convert';
+import 'dart:math';
 
+import 'package:crypto/crypto.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'ilan.dart';
@@ -69,11 +71,63 @@ class Depo {
 
   Future<void> gorevliOturumKaydet(String? t) async {
     if (t == null) {
-      await _p.remove('gorevli_oturum');
-      await _p.remove('gorevli_yer');
+      // çıkış (URUN §53/§50a): oturum, parola, görev bilgisi ve KVKK kabul kaydı cihazdan silinir
+      for (final k in ['gorevli_oturum', 'gorevli_yer', 'gorevli_kullanici', 'gorevli_durum', 'gorevli_kvkk', 'gorevli_sorumluluk', ..._pinAnahtarlar]) {
+        await _p.remove(k);
+      }
     } else {
       await _p.setString('gorevli_oturum', t);
     }
+  }
+
+  // ---- Panel parolası (URUN §53): 4 rakam, cihazda sha256(tuz + parola) karması; düz parola saklanmaz ----
+  static const _pinAnahtarlar = ['gorevli_pin', 'gorevli_pin_tuz', 'gorevli_pin_yanlis', 'gorevli_pin_kilit'];
+  /// 5 yanlışta bekleme (sn)
+  static const pinKilitSn = 60;
+  static const pinEnCok = 5;
+
+  bool get gorevliPinVar => (_p.getString('gorevli_pin') ?? '').isNotEmpty;
+
+  static String pinKarma(String tuz, String pin) => sha256.convert(utf8.encode('$tuz|$pin')).toString();
+
+  Future<void> gorevliPinKur(String pin) async {
+    final r = Random.secure();
+    final tuz = List.generate(16, (_) => r.nextInt(256).toRadixString(16).padLeft(2, '0')).join();
+    await _p.setString('gorevli_pin_tuz', tuz);
+    await _p.setString('gorevli_pin', pinKarma(tuz, pin));
+    await _p.remove('gorevli_pin_yanlis');
+    await _p.remove('gorevli_pin_kilit');
+  }
+
+  bool gorevliPinDogru(String pin) {
+    final k = _p.getString('gorevli_pin');
+    final t = _p.getString('gorevli_pin_tuz');
+    return k != null && t != null && k == pinKarma(t, pin);
+  }
+
+  /// Kilidin kalan saniyesi (0 = kilit yok). Süre dolunca sayaç sıfırlanır.
+  int gorevliPinKilitKalanSn([DateTime? simdi]) {
+    final ms = _p.getInt('gorevli_pin_kilit');
+    if (ms == null) return 0;
+    final kalan = ((ms - (simdi ?? DateTime.now()).millisecondsSinceEpoch) / 1000).ceil();
+    return kalan > 0 ? kalan : 0;
+  }
+
+  /// Yanlış parola kaydı: 5. yanlışta 1 dk kilit; döner: kalan hak (kilitlendiyse 0)
+  Future<int> gorevliPinYanlisKaydet([DateTime? simdi]) async {
+    final n = (_p.getInt('gorevli_pin_yanlis') ?? 0) + 1;
+    if (n >= pinEnCok) {
+      await _p.setInt('gorevli_pin_kilit', (simdi ?? DateTime.now()).add(const Duration(seconds: pinKilitSn)).millisecondsSinceEpoch);
+      await _p.remove('gorevli_pin_yanlis');
+      return 0;
+    }
+    await _p.setInt('gorevli_pin_yanlis', n);
+    return pinEnCok - n;
+  }
+
+  Future<void> gorevliPinSayacSifirla() async {
+    await _p.remove('gorevli_pin_yanlis');
+    await _p.remove('gorevli_pin_kilit');
   }
 
   /// Hesabın il/ilçesi (otomatik ilanı düzeltme yetkisi için; URUN §49). Panel her açılışta günceller, çıkışta silinir.
@@ -99,6 +153,12 @@ class Depo {
     return i >= 0 && v.substring(0, i) == (gorevliKullanici ?? '');
   }
 
+  /// Sorumluluk uyarısı kabulü (URUN §54): giriş başına bir kez; çıkışta silinir
+  String? get gorevliSorumlulukKabul => _p.getString('gorevli_sorumluluk');
+  bool gorevliSorumlulukTamam() => (gorevliSorumlulukKabul ?? '').isNotEmpty;
+  Future<void> gorevliSorumlulukKaydet(String tarih) => _p.setString('gorevli_sorumluluk', tarih);
+  Future<void> gorevliSorumlulukSil() => _p.remove('gorevli_sorumluluk');
+  Future<void> gorevliKvkkSil() => _p.remove('gorevli_kvkk');
   Future<void> gorevliKvkkKaydet(String tarih) => _p.setString('gorevli_kvkk', '${gorevliKullanici ?? ''}|$tarih');
 
   /// Son bilinen hesap durumu (onayli | kontrolde | silindi): arka plan işi yalnız "kontrolde" iken sunucuya bakar

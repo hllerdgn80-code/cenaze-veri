@@ -210,6 +210,26 @@ class M {
 
   // 12. Alt sekmeler
   static const sekmeler = ['İlanlar', 'Sayfam', 'Dualar', 'Hatırla'];
+  static const sekmePanel = 'Panel'; // 5. sekme: yalnız din görevlisi oturumu varken (URUN §53)
+  // Panel parolası (URUN §53; ölçü: tasarim/sablon.html panelEkraniCiz)
+  static const pinBelirleBaslik = 'Panel parolası belirleyin';
+  static const pinBelirleAciklama = 'Birilerinin sizin hesabınıza girip kötü niyetli/yanıltıcı paylaşımlar yapmasını önlemek için 4 haneli parola belirleyin.';
+  static const pinAlan1 = '4 haneli parola';
+  static const pinAlan2 = 'Yeniden yazın';
+  static const pinKaydet = 'Kaydet';
+  static const pinRakam = '4 rakam yazın.';
+  static const pinFarkli = 'İki parola aynı değil.';
+  static const pinKaydedildi = 'Parola kaydedildi.';
+  static const pinGirBaslik = 'Panel parolanız';
+  static const pinGirAciklama = 'Panele girmek için 4 haneli parolanızı yazın.';
+  static const pinGirAlan = 'Parola';
+  static const pinGir = 'Panele gir';
+  static const pinUnuttum = 'Parolamı unuttum';
+  static const pinYanlis = 'Parola yanlış.';
+  static String pinYanlisKalan(int n) => 'Parola yanlış. Kalan hak: $n';
+  static String pinBekle(int sn) => 'Çok fazla yanlış deneme. $sn saniye sonra yeniden deneyin.';
+  static const panelKilitle = 'Paneli kilitle';
+  static const panelKilitlendi = 'Panel kilitlendi.';
   // İlan kutusu (15.10.2026): her il/ilçe liste sayfasının üstünde
   static const ilanKutusuGorevli = 'Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz.'; // tek paragraf (site sahibi 15.10.2026, birebir); başlık yok
   static const ilanKutusuKayit = 'Din görevlisi misiniz? Kayıt olun.';
@@ -336,6 +356,11 @@ class M {
   static const gorevliDuzelt = 'Düzelt';
   static const gorevliDuzeltmeAlindi = 'Düzeltmeniz alındı; bir sonraki güncellemede yayına girer.';
   static const gorevliDuzeltildi = 'Düzeltildi';
+  // Sorumluluk uyarısı (URUN §54, birebir)
+  static const gorevliSorumlulukBaslik = 'Paylaşımlarınızın sorumluluğu';
+  static const gorevliSorumlulukMetin =
+      'Bu panelden yapılacak ilanlardaki bilgilerin doğru olma sorumluluğu din görevlisine aittir. Yanıltıcı veya yanlış bilgi paylaşımından hesabın sahibi olan din görevlisi sorumludur.';
+  static const gorevliSorumlulukKabul = 'Anladım, kabul ediyorum';
   static const gorevliKvkkBaslik = 'Kişisel verileriniz';
   static const gorevliKvkkOku = 'Okudum, anladım';
   static const gorevliKvkkTam = 'Tam metin';

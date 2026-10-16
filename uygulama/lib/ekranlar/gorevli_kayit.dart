@@ -12,14 +12,16 @@ import '../cekirdek/durum.dart';
 import '../cekirdek/gorevli.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
-import 'gorevli_panel.dart';
+import 'panel_sekmesi.dart';
 
-/// Din görevlisi girişi: oturum varsa panel, yoksa kayıt ekranı (ilan kutusu bağlantısı kullanır)
+/// Din görevlisi girişi: oturum varsa Panel sekmesi, yoksa kayıt ekranı (ilan kutusu bağlantısı kullanır)
 Future<void> gorevliKapisi(BuildContext context, {required String il, String? ilce}) {
   final d = Kapsam.oku(context);
-  final nav = Navigator.of(context, rootNavigator: true);
-  return nav.push(MaterialPageRoute(
-      builder: (_) => d.depo.gorevliOturum != null ? const GorevliPanel() : GorevliKayit(il: il, ilce: ilce)));
+  if (d.depo.gorevliOturum != null) {
+    d.panelSekmesiAc(); // oturum varsa Panel sekmesi (parola sorulur); URUN §53
+    return Future.value();
+  }
+  return Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(builder: (_) => GorevliKayit(il: il, ilce: ilce)));
 }
 
 enum _Faz { kilavuz, kod }
@@ -145,10 +147,13 @@ class _GorevliKayitState extends State<GorevliKayit> {
       await depo.gorevliOturumKaydet(tok);
       await depo.gorevliKullaniciKaydet(_kullanici);
       await depo.gorevliDurumKaydet('onayli');
+      await depo.gorevliSorumlulukSil();
+      await depo.gorevliKvkkSil(); // her girişte KVKK penceresi yeniden (URUN §50a)
       if (!mounted) return;
       _sayac?.cancel();
-      // panel HEMEN açılır (bekleme yok)
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => GorevliPanel(servis: widget.servis)));
+      // 5. sekme belirir; ÖNCE parola belirlenir (URUN §53), sonra Panel sekmesi + KVKK penceresi
+      Kapsam.oku(context).oturumDegisti();
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => const GorevliParolaBelirle()));
       return;
     }
     setState(() => _yukleniyor = false);

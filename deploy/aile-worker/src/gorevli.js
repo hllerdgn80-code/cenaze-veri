@@ -327,6 +327,15 @@ export async function gorevliIsle(req, env, o, H, yol) {
     return yanit(req, env, { kvkk_kabul: k.kvkk_kabul });
   }
 
+  // ---- POST /gorevli/sorumluluk-kabul (oturumlu): panel ilk açılışta sorumluluk uyarısını "Anladım, kabul ediyorum" ile kabul etti (§54) ----
+  async function sorumlulukKabul() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    k.sorumluluk_kabul = o.now.toISOString();
+    await kayitYaz(k, k.durum === "onayli" ? 0 : undefined);
+    return yanit(req, env, { sorumluluk_kabul: k.sorumluluk_kabul });
+  }
+
   async function ilanlarim() {
     const k = await hesap();
     if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
@@ -339,7 +348,7 @@ export async function gorevliIsle(req, env, o, H, yol) {
     if ((await oturumKid()) === "RED") return yanit(req, env, { durum: "silindi" }); // sahibi reddetti: hesap silindi
     const k = await hesap();
     if (!k) return yanit(req, env, { hata: "yetkisiz" }, 401);
-    return yanit(req, env, { durum: k.durum, profil_tamam: profilTamam(k), ad_soyad: k.ad_soyad ?? null, il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null, kvkk_kabul: k.kvkk_kabul ?? null });
+    return yanit(req, env, { durum: k.durum, profil_tamam: profilTamam(k), ad_soyad: k.ad_soyad ?? null, il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null, kvkk_kabul: k.kvkk_kabul ?? null, sorumluluk_kabul: k.sorumluluk_kabul ?? null });
   }
   async function kendiIlanYukle(k, id) {
     if (typeof id !== "string" || !/^[0-9a-f]{16}$/.test(id)) return null;
@@ -530,6 +539,7 @@ export async function gorevliIsle(req, env, o, H, yol) {
       case "/gorevli/kayit": case "/gorevli/kod": case "/gorevli/giris": case "/gorevli/dogrula":
         return yanit(req, env, { hata: "kaldirildi", ileti: "Doğrulama artık Diyanet e-posta koduyla: /gorevli/eposta-kod" }, 410);
       case "/gorevli/kvkk-kabul": return kvkkKabul();
+      case "/gorevli/sorumluluk-kabul": return sorumlulukKabul();
       case "/gorevli/ilan": return ilan();
       case "/gorevli/ilan/iptal": return iptal();
       case "/gorevli/ilan/duzenle": return duzenle();

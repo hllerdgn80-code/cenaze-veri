@@ -223,6 +223,8 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 /* ALT SEKME ÇUBUĞU */
 .sekmeler{position:absolute;left:0;right:0;bottom:0;height:83px;padding-bottom:34px;display:none;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--zemin);border-top:1px solid var(--cizgi);z-index:30}
 .app.sekmeli .sekmeler{display:grid}
+.sekmeler.besli{grid-template-columns:repeat(5,minmax(0,1fr))}
+.sekmeler button[hidden]{display:none}
 .sekmeler button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:var(--metin3);padding-top:6px}
 .sekmeler button span{font-size:10px;line-height:12px;font-weight:600;letter-spacing:-.4px;white-space:nowrap}
 .sekmeler button.secili{color:var(--vurgu-metin)}
@@ -501,11 +503,24 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
     <div class="alt-cubuk"><button class="ana-dugme" id="gkvkk-kabul">Okudum, anladım</button></div>
   </section>
 
+  <section class="panel" id="p-gsorum">
+    <div class="baslik"><span class="yuvarlak" style="visibility:hidden"></span><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">Sorumluluk</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir"><div class="adim-baslik" style="margin-top:16px"><h3>Paylaşımlarınızın sorumluluğu</h3><p>Bu panelden yapılacak ilanlardaki bilgilerin doğru olma sorumluluğu din görevlisine aittir. Yanıltıcı veya yanlış bilgi paylaşımından hesabın sahibi olan din görevlisi sorumludur.</p></div></div>
+    <div class="alt-cubuk"><button class="ana-dugme" id="gsorum-kabul">Anladım, kabul ediyorum</button></div>
+  </section>
+
+  <!-- 16.10.2026 §53: PANEL sekmesi (din görevlisi; 4 haneli parola) -->
+  <section class="ekran sekme" id="e-panel">
+    <div class="baslik"><span class="yuvarlak" style="visibility:hidden"></span><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">Panel</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir" id="panel-akis"></div>
+  </section>
+
   <nav class="sekmeler" id="sekmeler">
     <button data-sekme="e-ilanlar"><svg class="i" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg><span>İlanlar</span></button>
     <button data-sekme="e-sayfam"><svg class="i" viewBox="0 0 24 24"><path d="M7 3h10v18l-5-4-5 4z"/></svg><span>Sayfam</span></button>
     <button data-sekme="e-dua"><svg class="i" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5c-3-.5-6 0-8 1.5z"/><path d="M12 6v14.5"/></svg><span>Dualar</span></button>
     <button data-sekme="e-hatirla"><svg class="i" viewBox="0 0 24 24"><path d="M12 13c-2-3-6-5-6-8a3 3 0 0 1 6 0 3 3 0 0 1 6 0c0 3-4 5-6 8z"/><path d="M12 13l-4 8M12 13l4 8"/></svg><span>Hatırla</span></button>
+    <button data-sekme="e-panel" id="sekme-panel" hidden><svg class="i" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span>Panel</span></button>
   </nav>
   <div class="ev"></div>
   <div class="ortu" id="ortu"><div class="menu" id="menu">
@@ -640,12 +655,24 @@ $('#oneri').addEventListener('click',e=>{if(e.target.id!=='oneri-gonder'||e.targ
   $('#oneri-ic').innerHTML=`<h3>Teşekkür ederiz</h3><p class="oneri-tamam">Mesajınız bize ulaştı.</p><button class="ana-dugme" data-kapat-m="oneri">Tamam</button>`});
 
 /* EKRAN GEÇİŞİ */
-function ekranAc(id){$$('.ekran').forEach(e=>e.classList.toggle('acik',e.id===id));
+function panelSekmeGuncelle(){const v=GV.durum==='onayli';$('#sekme-panel').hidden=!v;$('#sekmeler').classList.toggle('besli',v)}
+function ekranAc(id){if(id==='e-panel'){panelEkraniCiz()}$$('.ekran').forEach(e=>e.classList.toggle('acik',e.id===id));
   const sekmeli=$('#'+id).classList.contains('sekme');$('#app').classList.toggle('sekmeli',sekmeli);
   const sek={'e-kay':'e-hatirla','e-tb':'e-hatirla'}[id]||id;
   $$('#sekmeler button').forEach(b=>b.classList.toggle('secili',b.dataset.sekme===sek));
   $$('.panel').forEach(p=>p.classList.remove('acik'));
   if(id==='e-sayfam')sayfamCiz();}
+let PANEL_ACIK=false; // bu oturumda parola girildi mi
+function panelEkraniCiz(){const ak=$('#panel-akis');const pin=LS.get('gv_pin',null);
+  if(!pin){ak.innerHTML=`<div class="adim-baslik" style="margin-top:16px"><h3>Panel parolası belirleyin</h3><p>Birilerinin sizin hesabınıza girip kötü niyetli/yanıltıcı paylaşımlar yapmasını önlemek için 4 haneli parola belirleyin.</p></div><label class="gv-alan">4 haneli parola<input id="pin1" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><label class="gv-alan">Yeniden yazın<input id="pin2" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><button class="ana-dugme" id="pin-kaydet" style="margin-top:12px">Kaydet</button>`;return}
+  if(!PANEL_ACIK){ak.innerHTML=`<div class="adim-baslik" style="margin-top:16px"><h3>Panel parolanız</h3><p>Panele girmek için 4 haneli parolanızı yazın.</p></div><label class="gv-alan">Parola<input id="pin-gir" inputmode="numeric" maxlength="4" placeholder="••••" type="password"></label><div class="gv-not" id="pin-hata"></div><button class="ana-dugme" id="pin-ac" style="margin-top:12px">Panele gir</button><button class="ikincil-dugme" id="pin-unut" style="margin-top:8px">Parolamı unuttum</button>`;return}
+  ak.innerHTML=`<div class="gv-aciklama">Paneliniz açık. Aşağıdaki düğmeyle panel sayfasına geçin.</div><button class="ana-dugme" id="panel-ac">Din görevlisi panelini aç</button><div style="height:12px"></div><button class="ikincil-dugme" id="panel-kilitle">Paneli kilitle</button>`;}
+$('#panel-akis').addEventListener('click',e=>{
+  if(e.target.closest('#pin-kaydet')){const a=$('#pin1').value,b=$('#pin2').value;if(!/^\d{4}$/.test(a))return bildir('4 rakam yazın.');if(a!==b)return bildir('İki parola aynı değil.');LS.set('gv_pin',a);PANEL_ACIK=true;bildir('Parola kaydedildi.');panelEkraniCiz();return}
+  if(e.target.closest('#pin-ac')){if($('#pin-gir').value===LS.get('gv_pin',null)){PANEL_ACIK=true;panelEkraniCiz();gpanelCiz()}else{$('#pin-hata').textContent='Parola yanlış.'}return}
+  if(e.target.closest('#pin-unut')){bildir('Parolayı sıfırlamak için çıkış yapıp e-posta koduyla yeniden giriş yapın.');return}
+  if(e.target.closest('#panel-ac')){gpanelCiz();return}
+  if(e.target.closest('#panel-kilitle')){PANEL_ACIK=false;panelEkraniCiz();bildir('Panel kilitlendi.');return}});
 $$('#sekmeler button').forEach(b=>b.onclick=()=>ekranAc(b.dataset.sekme));
 document.addEventListener('click',e=>{const g=e.target.closest('[data-geri]');if(g)ekranAc(g.dataset.geri);
   const k=e.target.closest('[data-kapat]');if(k)$('#'+k.dataset.kapat).classList.remove('acik');});
@@ -845,7 +872,7 @@ function sehitBilgi(){$('#sm-baslik').textContent='Şehit cenazesi ilanları yal
 const GV_YER=LS.get('gv_yer',null)||{};const GV={durum:LS.get('gv_durum',null),adim:1,kod:'482193',kul:'hasan.kurguluoglu',ad:'Hasan Kurguluoğlu',yer:GV_YER.yer||'Korgan Merkez Camii',unvan:GV_YER.unvan||'İmam-Hatip',il:GV_YER.il||'Ordu',ilce:GV_YER.ilce||'Korgan',hata:false};
 const GV_TAML={'İmam-Hatip':'İmam Hatibi','Müezzin-Kayyım':'Müezzin-Kayyımı','Vaiz':'Vaizi'};
 const GV_UNVAN=['İmam-Hatip','Müezzin-Kayyım',"Kur'an Kursu Öğreticisi",'Vaiz','Din Hizmetleri Uzmanı','Müftü Yardımcısı'];
-function gorevliAc(){if(GV.durum==='onayli')return gpanelCiz();GV.adim=1;GV.hata=false;gkayitCiz();$('#p-gorevli').classList.add('acik')}
+function gorevliAc(){if(GV.durum==='onayli')return ekranAc('e-panel');GV.adim=1;GV.hata=false;gkayitCiz();$('#p-gorevli').classList.add('acik')}
 function gkayitCiz(){const a=GV.adim,ak=$('#gk-akis'),ib=$('#gk-ileri');ib.style.display='';ib.disabled=false;ib.classList.remove('pasif');
   if(a===1){$('#gk-ust').textContent='Din görevlisi';ib.textContent='Kodu gönder';
     ak.innerHTML=`<div class="adim-baslik"><h3>Din görevlisi olduğunuzu teyit edelim</h3><p>Diyanet İşleri Başkanlığının size tahsis ettiği e-posta adresinize bir kod göndereceğiz. Gelen kodu bir sonraki ekrana yazın; paneliniz hemen açılır.</p></div>
@@ -868,9 +895,9 @@ function gkayitCiz(){const a=GV.adim,ak=$('#gk-akis'),ib=$('#gk-ileri');ib.style
     <div class="gv-not">Kod 10 dakika geçerlidir.</div>`}}
 $('#gk-akis').addEventListener('click',e=>{if(e.target.closest('[data-gvt]')){$('#sm-baslik').textContent='Diyanet e-posta adresiniz';$('#sm-metin').innerHTML='<ol class="gv-tarif" style="text-align:left"><li>Diyanet her personeline bir e-posta adresi verir.</li><li>Adresiniz: <b>DİBBYS kullanıcı adınız</b>@diyanet.gov.tr</li><li>Tarayıcıya <b>posta.diyanet.gov.tr</b> yazın.</li><li>Kullanıcı adı: <b>kullanıcıadınız@diyanet.gov.tr</b></li><li>Şifre: <b>DİBBYS şifreniz</b>. Giriş yapın.</li><li>Gelen kutusundaki kodu uygulamaya girin.</li></ol>';$('#sm-paylas').hidden=true;$('#sayfa-metin').classList.add('acik')}});
 $('#gk-ileri').onclick=()=>{if(GV.adim===1){const v=$('#gk-akis input').value.trim().toLowerCase().replace(/@.*$/,'');if(!v)return;GV.kul=v;GV.adim=2;GV.hata=false;gkayitCiz()}
-  else if(GV.adim===2){const k=$('#gk-kod').value.trim();if(k!==GV.kod){GV.hata=true;gkayitCiz();return}GV.durum='onayli';LS.set('gv_durum','onayli');$('#p-gorevli').classList.remove('acik');gpanelCiz()}};
+  else if(GV.adim===2){const k=$('#gk-kod').value.trim();if(k!==GV.kod){GV.hata=true;gkayitCiz();return}GV.durum='onayli';LS.set('gv_durum','onayli');$('#p-gorevli').classList.remove('acik');panelSekmeGuncelle();ekranAc('e-panel')}};
 $('#gk-geri').onclick=()=>{if(GV.adim>1){GV.adim--;gkayitCiz()}else $('#p-gorevli').classList.remove('acik')};
-function gpanelCiz(){if(!LS.get('gv_kvkk',null)){$('#p-gkvkk').classList.add('acik');}
+function gpanelCiz(){if(!LS.get('gv_kvkk',null)){$('#p-gkvkk').classList.add('acik');}else if(!LS.get('gv_sorumluluk',null)){$('#p-gsorum').classList.add('acik');}
   $('#gp-kart').innerHTML=`<div class="gv-baslik-kart"><b>${esc(GV.yer)} ${esc(GV_TAML[GV.unvan]||GV.unvan)}</b><span>${esc(GV.ad)}</span><small>${esc(GV.il)} · ${esc(GV.ilce)} · ${esc(GV.kul)}@diyanet.gov.tr</small></div>`;
   $('#gp-akis').innerHTML=`<div class="gv-aciklama">Hesabınız Diyanet e-postanızla doğrulandı.</div>
    <button class="ana-dugme" id="gp-paylas">İlan paylaş</button><div style="height:12px"></div><button class="ana-dugme" id="gp-ilanlarim">İlanlarım (1)</button>
@@ -882,12 +909,14 @@ function gyerCiz(){$('#gyer-akis').innerHTML=`<div class="adim-baslik"><h3>Yeni 
     <label class="gv-alan">İl<input id="gp-yer-il" value="${esc(GV.il)}"></label><label class="gv-alan">İlçe<input id="gp-yer-ilce" value="${esc(GV.ilce)}"></label>
     <div class="gv-alan">Unvan</div><div class="ikili" style="flex-wrap:wrap;gap:8px">${GV_UNVAN.map(u=>`<button class="ikincil-dugme ${u===GV.unvan?'secili':''}" data-gpu="${esc(u)}" style="height:44px">${esc(u)}</button>`).join('')}</div>`;
   $('#p-gyer').classList.add('acik')}
-$('#gkvkk-kabul').onclick=()=>{LS.set('gv_kvkk',new Date().toISOString());$('#p-gkvkk').classList.remove('acik')};
+panelSekmeGuncelle(); // GV tanımlandıktan sonra (önce çağrılınca 'GV before initialization' ile sayfa donuyordu)
+$('#gkvkk-kabul').onclick=()=>{LS.set('gv_kvkk',new Date().toISOString());$('#p-gkvkk').classList.remove('acik');if(!LS.get('gv_sorumluluk',null))$('#p-gsorum').classList.add('acik')};
+$('#gsorum-kabul').onclick=()=>{LS.set('gv_sorumluluk',new Date().toISOString());$('#p-gsorum').classList.remove('acik')};
 $('#gkvkk-tam').onclick=e=>{e.preventDefault();bildir('Tam metin: Gizlilik sayfası')};
 $('#gp-menu-ac').onclick=e=>{e.stopPropagation();$('#gp-menu').hidden=!$('#gp-menu').hidden};
 $('#gp-menu').addEventListener('click',e=>{$('#gp-menu').hidden=true;
   if(e.target.closest('#gp-yer')){gyerCiz();return}
-  if(e.target.closest('[data-gvd]')){GV.durum=null;LS.set('gv_durum',null);$('#p-gpanel').classList.remove('acik');bildir("Çıkış yapıldı.")}});
+  if(e.target.closest('[data-gvd]')){GV.durum=null;LS.set('gv_durum',null);LS.set('gv_pin',null);LS.set('gv_kvkk',null);LS.set('gv_sorumluluk',null);PANEL_ACIK=false;$('#p-gpanel').classList.remove('acik');panelSekmeGuncelle();ekranAc('e-ilanlar');bildir("Çıkış yapıldı.")}});
 $('#gyer-akis').addEventListener('click',e=>{const pu=e.target.closest('[data-gpu]');if(pu){GV.unvan=pu.dataset.gpu;$$('#gyer-akis [data-gpu]').forEach(b=>b.classList.toggle('secili',b.dataset.gpu===GV.unvan))}});
 $('#gp-yer-kaydet').onclick=()=>{const yer=$('#gp-yer-ad').value.trim(),il=$('#gp-yer-il').value.trim(),ilce=$('#gp-yer-ilce').value.trim();if(!yer)return bildir('Görev yerini yazın.');
   GV.yer=yer;if(il)GV.il=il;if(ilce)GV.ilce=ilce;LS.set('gv_yer',{yer:GV.yer,il:GV.il,ilce:GV.ilce,unvan:GV.unvan});$('#p-gyer').classList.remove('acik');gpanelCiz();bildir('Görev yeriniz güncellendi.')};

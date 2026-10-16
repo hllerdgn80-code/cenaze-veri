@@ -84,7 +84,7 @@ class AppDurum extends ChangeNotifier {
 
   // Sekmeli kabuk
   int sekme = 0;
-  final List<GlobalKey<NavigatorState>> sekmeAnahtarlari = List.generate(4, (_) => GlobalKey<NavigatorState>());
+  final List<GlobalKey<NavigatorState>> sekmeAnahtarlari = List.generate(5, (_) => GlobalKey<NavigatorState>());
 
   /// Logoya dokunma ya da adres değişimi: İlanlar sekmesi, bugün
   int anaEkranSayaci = 0;
@@ -135,7 +135,44 @@ class AppDurum extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Görünen sekme sayısı: din görevlisi oturumu varsa 5 (… · Panel), yoksa 4 (URUN §53)
+  int get sekmeSayisi => depo.gorevliOturum != null ? 5 : 4;
+
+  /// Panel parolası bu uygulama açılışında girildi mi (yalnız bellekte; açılış başına bir kez sorulur)
+  bool panelAcik = false;
+
+  /// Oturum açıldı/kapandı ya da parola belirlendi: sekme çubuğunu yeniler
+  void oturumDegisti() => notifyListeners();
+
+  /// Parola belirlendi: panel açık sayılır ve Panel sekmesi seçilir
+  void gorevliGirisTamam() {
+    panelAcik = true;
+    sekme = 4;
+    notifyListeners();
+  }
+
+  void paneliKilitle() {
+    panelAcik = false;
+    notifyListeners();
+  }
+
+  /// Panel sekmesini seç (bildirim / ilan kutusu bağlantısı); oturum yoksa bir şey yapmaz
+  bool panelSekmesiAc() {
+    if (depo.gorevliOturum == null) return false;
+    sekmeSec(4);
+    return true;
+  }
+
+  /// Çıkış: oturum + parola + görev bilgisi + KVKK kaydı silinir, sekme çubuğu 4'e döner
+  Future<void> gorevliCikis() async {
+    await depo.gorevliOturumKaydet(null);
+    panelAcik = false;
+    if (sekme >= 4) sekme = 0;
+    notifyListeners();
+  }
+
   void sekmeSec(int i) {
+    if (i < 0 || i >= sekmeSayisi) return;
     if (i == sekme) {
       sekmeAnahtarlari[i].currentState?.popUntil((r) => r.isFirst);
     }

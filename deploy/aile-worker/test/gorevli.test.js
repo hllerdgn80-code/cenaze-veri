@@ -255,3 +255,14 @@ test("KVKK KABUL (§50): oturumsuz 401; kabul hesap kaydına tarih yazar; /durum
   assert.equal(r.s, 200); assert.equal(r.kvkk_kabul, NOW.toISOString());
   assert.equal((await al(e, "/gorevli/durum", h)).kvkk_kabul, NOW.toISOString());
 });
+
+test("SORUMLULUK KABUL (§54): oturumsuz 401; kabul hesap kaydına tarih yazar; /durum sorumluluk_kabul döner; kvkk kaydını etkilemez", async () => {
+  const e = env();
+  assert.equal((await cagir(e, "/gorevli/sorumluluk-kabul", {})).s, 401);
+  const { h } = await hazir(e);
+  assert.equal((await al(e, "/gorevli/durum", h)).sorumluluk_kabul, null);
+  const r = await cagir(e, "/gorevli/sorumluluk-kabul", {}, { ek: h });
+  assert.equal(r.s, 200); assert.equal(r.sorumluluk_kabul, NOW.toISOString());
+  const d = await al(e, "/gorevli/durum", h);
+  assert.equal(d.sorumluluk_kabul, NOW.toISOString()); assert.equal(d.kvkk_kabul, null);
+});

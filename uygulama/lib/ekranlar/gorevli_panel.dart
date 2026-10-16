@@ -50,7 +50,9 @@ class GorevliHesap {
 
 class GorevliPanel extends StatefulWidget {
   final GorevliServisi? servis;
-  const GorevliPanel({super.key, this.servis});
+  /// Panel SEKMESİ içinde mi (URUN §53): geri düğmesi yok; kapanış = çıkış ya da kilitleme
+  final bool sekmede;
+  const GorevliPanel({super.key, this.servis, this.sekmede = false});
   @override
   State<GorevliPanel> createState() => _GorevliPanelState();
 }
@@ -70,19 +72,28 @@ class _GorevliPanelState extends State<GorevliPanel> {
   GorevliServisi _servis() => widget.servis ?? GorevliServisi(istemci: Kapsam.oku(context).veri.istemci);
 
   Future<void> _cik(String mesaj) async {
-    final d = Kapsam.oku(context).depo;
-    await d.gorevliOturumKaydet(null);
-    await d.gorevliDurumKaydet(null);
     if (!mounted) return;
+    final d = Kapsam.oku(context);
     bildir(context, mesaj);
+    await d.gorevliCikis(); // oturum + parola + görev bilgisi + KVKK kaydı silinir; sekme çubuğu 4'e döner
+    if (!mounted || widget.sekmede) return;
     Navigator.of(context).pop();
+  }
+
+  /// KVKK kabul edilmedi: sekmede panel kilitlenir (parola yeniden sorulur), ayrı sayfada geri dönülür
+  void _kapat() {
+    if (widget.sekmede) {
+      Kapsam.oku(context).paneliKilitle();
+    } else {
+      Navigator.of(context).pop();
+    }
   }
 
   Future<void> _yukle() async {
     final depo = Kapsam.oku(context).depo;
     final tok = depo.gorevliOturum;
     if (tok == null) {
-      Navigator.of(context).pop();
+      _kapat();
       return;
     }
     setState(() {
@@ -104,18 +115,25 @@ class _GorevliPanelState extends State<GorevliPanel> {
     }
     await depo.gorevliDurumKaydet(h.onayli ? 'onayli' : 'kontrolde');
     if (h.il.isNotEmpty) await depo.gorevliYerKaydet(h.il, h.ilce);
-    // URUN §50: ilk açılışta (ya da hesap değişince) KVKK aydınlatması; kabul edilmeden panel görünmez
+    // URUN §50a (16.10 10:00): HER GİRİŞTE (e-posta kodu doğrulaması) panelin ilk açılışında bir kez; çıkış cihaz kaydını siler.
+    // Sunucudaki kvkk_kabul yalnız arşivdir; pencereyi atlatmak için kullanılmaz.
     if (!depo.gorevliKvkkTamam()) {
-      if (h.kvkkKabul != null && h.kvkkKabul!.isNotEmpty) {
-        await depo.gorevliKvkkKaydet(h.kvkkKabul!); // sunucuda kabul var: yeniden sorulmaz
-      } else {
-        final kabul = await Navigator.of(context, rootNavigator: true)
-            .push<bool>(MaterialPageRoute(fullscreenDialog: true, builder: (_) => GorevliKvkk(servis: widget.servis)));
-        if (!mounted) return;
-        if (kabul != true) {
-          Navigator.of(context).pop();
-          return;
-        }
+      final kabul = await Navigator.of(context, rootNavigator: true)
+          .push<bool>(MaterialPageRoute(fullscreenDialog: true, builder: (_) => GorevliKvkk(servis: widget.servis)));
+      if (!mounted) return;
+      if (kabul != true) {
+        _kapat();
+        return;
+      }
+    }
+    // URUN §54: KVKK'dan SONRA sorumluluk uyarısı (giriş başına bir kez; çıkış sıfırlar)
+    if (!depo.gorevliSorumlulukTamam()) {
+      final kabul = await Navigator.of(context, rootNavigator: true)
+          .push<bool>(MaterialPageRoute(fullscreenDialog: true, builder: (_) => GorevliSorumluluk(servis: widget.servis)));
+      if (!mounted) return;
+      if (kabul != true) {
+        _kapat();
+        return;
       }
     }
     final l = await s.ilanlarim(tok);
@@ -215,17 +233,24 @@ class _GorevliPanelState extends State<GorevliPanel> {
       body: SafeArea(
         child: Column(children: [
           BaslikCubugu(
-            sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
+            sol: widget.sekmede
+                ? const SizedBox(width: 40)
+                : YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
             sag: PopupMenuButton<String>(
               key: const ValueKey('g_menu'),
               tooltip: 'Menü',
               icon: const Icon(Icons.more_vert),
               onSelected: (v) {
                 if (v == 'yer') _yerDegisti();
+                if (v == 'kilit') {
+                  bildir(context, M.panelKilitlendi);
+                  Kapsam.oku(context).paneliKilitle();
+                }
                 if (v == 'cikis') _cik(M.gorevliCikisYapildi);
               },
               itemBuilder: (_) => [
                 PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: const Text(M.gorevliYerDegisti)),
+                if (widget.sekmede) const PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
                 const PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
               ],
             ),
@@ -564,6 +589,57 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
   }
 }
 
+
+/// URUN §54: KVKK'dan sonra tam ekran sorumluluk uyarısı. Geri tuşu kapatmaz; tek yol "Anladım, kabul ediyorum" (true döner).
+class GorevliSorumluluk extends StatefulWidget {
+  final GorevliServisi? servis;
+  const GorevliSorumluluk({super.key, this.servis});
+  @override
+  State<GorevliSorumluluk> createState() => _GorevliSorumlulukState();
+}
+
+class _GorevliSorumlulukState extends State<GorevliSorumluluk> {
+  bool _bekle = false;
+
+  Future<void> _kabul() async {
+    if (_bekle) return;
+    setState(() => _bekle = true);
+    final d = Kapsam.oku(context);
+    final tok = d.depo.gorevliOturum;
+    await d.depo.gorevliSorumlulukKaydet(DateTime.now().toUtc().toIso8601String());
+    if (tok != null) await (widget.servis ?? GorevliServisi(istemci: d.veri.istemci)).sorumlulukKabul(tok); // sunucu kaydı en iyi çabayla
+    if (mounted) Navigator.of(context).pop(true);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return PopScope(
+      canPop: false,
+      child: Scaffold(
+        body: SafeArea(
+          child: Column(children: [
+            Expanded(
+              child: ListView(
+                key: const ValueKey('g_sorumluluk'),
+                padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s4),
+                children: [
+                  Text(M.gorevliSorumlulukBaslik, textAlign: TextAlign.center, style: Y.buyuk(r)),
+                  const SizedBox(height: R.s4),
+                  Text(M.gorevliSorumlulukMetin, key: const ValueKey('g_sorumluluk_metin'), style: Y.govde(r).copyWith(fontSize: 15)),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s5),
+              child: AnaDugme(M.gorevliSorumlulukKabul, onTap: _bekle ? null : _kabul),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+}
 
 /// URUN §50: panel ilk açılışta tam ekran KVKK aydınlatması. Geri tuşu kapatmaz; tek yol "Okudum, anladım" (true döner).
 class GorevliKvkk extends StatefulWidget {

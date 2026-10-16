@@ -156,7 +156,7 @@ void main() {
     expect(find.text(M.gorevliEpostaAciklama), findsOneWidget); // kılavuz ekranı açıklaması (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
   });
 
-  testWidgets('Sekme çubuğu 4 sekme (İlanlar · Sayfam · Dualar · Hatırla); 5. sekme yok', (tester) async {
+  testWidgets('Sekme çubuğu oturumsuz 4 sekme (İlanlar · Sayfam · Dualar · Hatırla); Panel sekmesi yok', (tester) async {
     telefon(tester);
     final d = await testDurumu(onceki: {'il': 'Ordu', 'ilce': 'Ünye'});
     await tester.pumpWidget(KiminCenazesi(durum: d));
