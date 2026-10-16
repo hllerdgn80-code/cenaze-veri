@@ -622,10 +622,25 @@ def koy_adaylari(metin):
 KENT_MAHALLE_ETKIN = False
 
 
+_MAH_RESMI = {}
+
+
+def mahalle_resmi():
+    if "_" not in _MAH_RESMI:
+        try:
+            _MAH_RESMI["_"] = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mahalle_resmi.json"), encoding="utf-8"))
+        except Exception:
+            _MAH_RESMI["_"] = {}
+    return _MAH_RESMI["_"]
+
+
 def _mahalle_ilce(il, ad):
     """-> ilce | None. mahalle_ilce.json = {il_slug: {mahalle_norm: ilce}} (koy/mezra); '_kent' yalniz KENT_MAHALLE_ETKIN iken.
     Ayni ad birden cok ilcedeyse tabloya hic girmez."""
     t = dict(mahalle_tablosu().get(il_slug(il)) or {})
+    # 16.10.2026: RESMÎ mahalle listesi (İçişleri; araclar/mahalle_resmi_yap.py -> mahalle_resmi.json) ONCE gelir; il icinde tekil adlar
+    for k, v in (mahalle_resmi().get(il_slug(il)) or {}).items():
+        t[k] = v
     if KENT_MAHALLE_ETKIN:
         for k, v in ((mahalle_tablosu().get("_kent") or {}).get(il_slug(il)) or {}).items():
             t.setdefault(k, v)
