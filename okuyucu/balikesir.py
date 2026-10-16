@@ -6,6 +6,10 @@
   pencere dışına çıkınca bağlantı kesilir (tek istek). Doğum yeri/yılı ALINMAZ.
 - Altıeylül: `altieylul.bel.tr/Hizmet/Vefat` (tablo: defin tarihi, ad, yaş, MESLEK [alınmaz], cenaze yeri, namaz, mezarlık). 08.10.2026'da son kayıt
   28.09 (pencere dışı): 0 kayıt normaldir, "izlemede".
+- Balıkesir BŞB MEZARLIK BİLGİ SİSTEMİ (16.10.2026, sahibi: "mezarlık bilgi sistemi önceliğimiz"): `mbs.balikesir.bel.tr/Home/VefatListe?sayfa=N`
+  (12 kayıt/sayfa, vefat tarihine göre yeniden eskiye; giriş/CAPTCHA yok). Kart: "AD SOYAD - GG.AA.YYYY" (= vefat tarihi), Ana/Baba adı, doğum,
+  "Bulunduğu Mezarlık: ADI (İLÇE)". İlçe yalnız mezarlık adının parantezindeki parçadan (ilin geçerli ilçesiyse); namaz yeri/saati YOK.
+  Doğum tarihi/Eş adı/adres/koordinat ALINMAZ (yalnız yaş hesaplanır). Gün = vefat tarihi (liste_tarihi; namaz_tarihi boş).
 Kullanım: python3 okuyucu/balikesir.py [--gun 7] [--ilce Bandırma]
 """
 import os, re, sys
@@ -104,8 +108,44 @@ def altieylul(ctx):
     return sonuc
 
 
+# ---------------------------------------------------------------- Balıkesir BŞB Mezarlık Bilgi Sistemi
+MBS = "https://mbs.balikesir.bel.tr/Home/VefatListe?sayfa={}"
+
+
+def mbs(ctx):
+    gecerli = {ortak.katla(x): x for x in ortak.gecerli_ilceler(IL)}
+
+    def ayristir(sayfa, n):
+        liste = []
+        for t, p in re.findall(r'MeftaDetayMys/\d+"[^>]*>(.*?)</a>.*?<p class="p-2 m-0 pl-3">(.*?)</p>', sayfa, re.S):
+            m = re.match(r"^(.*?)\s*-\s*(\d{1,2}\.\d{1,2}\.\d{4})\s*$", oi.metin(t))
+            if not m:
+                continue
+            ad, gun = oi.ad_duzelt(m.group(1)), oi.tarih(m.group(2))
+            h = {a.strip(): oi.metin(v) for a, v in re.findall(r"<strong>([^<:]+?)\s*:\s*</strong>\s*([^|<]*)", p)}
+            if not ad or not gun:
+                continue
+            mez = h.get("Bulunduğu Mezarlık") or ""
+            pm = re.search(r"\(([^)]+)\)\s*$", mez)
+            ilce = gecerli.get(ortak.katla(pm.group(1))) if pm else None     # yalnız ilin geçerli ilçesi; yoksa None
+            dg = oi.tarih(h.get("Doğum", ""))
+            ana, baba = oi.ad_duzelt(h.get("Ana Ad", "")), oi.ad_duzelt(h.get("Baba Ad", ""))
+            k = oi.kayit(IL, ilce, "balikesir-mbs", ad, gun, "Balıkesir Büyükşehir Belediyesi", MBS.format(1), ctx["alindi"],
+                         ek_id=f"{ana}|{baba}|{mez}",
+                         anne_baba="-".join(x for x in (ana, baba) if x) or None,
+                         yas=oi.yas_hesapla(dg, gun) if dg else None, vefat_tarihi=gun,
+                         defin_yeri=oi.buyuk_ise_title(re.sub(r"\s*\([^)]*\)\s*$", "", mez), yer=True) or None, liste_tarihi=gun,
+                         ham={"ilce_kaynagi": "mezarlik_parantezi" if ilce else None})
+            if not ilce:
+                k["ilce_belirsiz"] = True
+            liste.append(k)
+        return liste
+
+    return oi.sayfala(lambda n: MBS.format(n), ayristir, ctx["gunler"], azami_sayfa=10)
+
+
 def main():
-    oi.il_calistir(IL, "balikesir", [("Bandırma", bandirma), ("Burhaniye", burhaniye), ("Altıeylül", altieylul)])
+    oi.il_calistir(IL, "balikesir", [("Bandırma", bandirma), ("Burhaniye", burhaniye), ("Altıeylül", altieylul), ("Balıkesir BŞB", mbs)])
 
 
 if __name__ == "__main__":

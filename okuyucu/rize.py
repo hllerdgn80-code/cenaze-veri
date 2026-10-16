@@ -3,6 +3,7 @@
 Kaynak: https://www.rize.bel.tr/vefat-edenler?page=N (HTML tablo kartları, en yeni üstte; sayfa başına 6 kayıt).
 Alanlar: ad (h3), Cenaze Tarihi, Mahalle / Köy, Namaz Yeri ve Saati, Defin Yeri. Tarih = cenaze tarihi (liste_tarihi).
 KVKK: "Yakınları" (yakın listesi, taziye telefonu/adı) ALINMAZ. Kaynakta ilçe yok -> ilce None + ilce_belirsiz.
+16.10.2026: ek kaynak Ardeşen Belediyesi ÖLÜM İLANI duyuruları (vefat.ardesen.bel.tr; okuyucu/ardesen.py), ilçesi dolu; Rize BŞB okunamasa da denenir.
 Kullanım: python3 okuyucu/rize.py [--gun 7]
 """
 import html, os, re, sys
@@ -85,13 +86,26 @@ def main():
                     by_gun[g].append(k)
         if all(t and t < gunler[-1] for t in tarihler):
             break
-    for g in gunler:
-        ortak.gun_yaz(KOK, IL, g, by_gun[g])
-        print(f"{g}: {len(by_gun[g])} kayıt")
-    silinen = ortak.eski_gunleri_sil(KOK, set(gunler))
+    # ek kaynak: Ardeşen Belediyesi ölüm ilanları (yarına yazılan ilan dahil)
+    yarin = (bugun + timedelta(days=1)).isoformat()
+    try:
+        import ardesen
+        for g, liste in ardesen.kayitlar(gunler + [yarin], alindi).items():
+            mevcut = by_gun.setdefault(g, [])
+            for k in liste:
+                if k["id"] not in gor:
+                    gor.add(k["id"]); mevcut.append(k)
+        print("Ardeşen:", {g: sum(1 for k in by_gun.get(g, []) if k.get("kaynak_ad") == "Ardeşen Belediyesi") for g in gunler + [yarin]})
+    except Exception as e:
+        print(f"HATA Ardeşen: {e}", file=sys.stderr)
+    tum = sorted(set(gunler) | ({yarin} if by_gun.get(yarin) else set()), reverse=True)
+    for g in tum:
+        ortak.gun_yaz(KOK, IL, g, by_gun.get(g, []))
+        print(f"{g}: {len(by_gun.get(g, []))} kayıt")
+    silinen = ortak.eski_gunleri_sil(KOK, set(tum))
     if silinen:
         print("silinen eski dosyalar:", silinen)
-    ortak.son7gun_yaz(KOK, IL, gunler, by_gun)
+    ortak.son7gun_yaz(KOK, IL, tum, by_gun)
 
 
 if __name__ == "__main__":
