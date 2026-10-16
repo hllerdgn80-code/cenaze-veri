@@ -441,11 +441,40 @@ def resmi_mezarlik_ilce(il, defin_yeri):
     return ilce
 
 
+def mezarlik_on_ek_ilce(il, defin_yeri):
+    """16.10.2026 (Kayseri 'Erkilet Bülbülpınar Mez.'): tam eşleşme yoksa, adın BAŞI tablodaki bir mezarlık/yer adıyla birebir
+    örtüşüyorsa (ör. 'erkilet bulbulpinar' -> tablo 'erkilet' = Kocasinan) o ilçe. Kesinlik: anahtar en az 5 harf, genel sözcük değil
+    (_STOP/_GENEL_ILCE/_GENEL_DEFIN), başa uyan TÜM anahtarlar aynı TEK ilçeyi göstermeli ve ilçe o ilin geçerli ilçesi olmalı. Tahmin yok."""
+    n = mezarlik_norm(defin_yeri)
+    if not n or " " not in n:
+        return None
+    d = (mezarlik_tablosu().get(il_slug(il)) or {})
+    toks = n.split()
+    adaylar = set()
+    for i in range(len(toks) - 1, 0, -1):
+        k = " ".join(toks[:i])
+        if len(k.replace(" ", "")) < 5 or k in _STOP or k in _GENEL_ILCE or k in _GENEL_DEFIN:
+            continue
+        if k in {katla(x) for x in gecerli_ilceler(il)}:      # 'Harran Aile Mez.': anahtar bir ILCE adiysa on ek eslesmesi yapilmaz
+            return None
+        v = d.get(k)
+        if isinstance(v, str):
+            adaylar.add(v)
+        elif isinstance(v, dict):
+            return None
+    if len(adaylar) != 1:
+        return None
+    ilce = next(iter(adaylar))
+    return ilce if ilce in gecerli_ilceler(il) else None
+
+
 def _resmi_mezarlik(kayit, il):
     if not RESMI_ETKIN or kayit.get("ilce") or kayit.get("il_disi_defin") or not kayit.get("ilce_belirsiz", True):
         return kayit
     try:
         ilce = resmi_mezarlik_ilce(il, kayit.get("defin_yeri"))
+        if not ilce:
+            ilce = mezarlik_on_ek_ilce(il, kayit.get("defin_yeri"))
         if ilce:
             kayit["ilce"], kayit["ilce_belirsiz"], kayit["ilce_kaynagi"] = ilce, False, "mezarlik_resmi"
             if isinstance(kayit.get("ham"), dict):
