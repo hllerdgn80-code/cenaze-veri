@@ -80,7 +80,7 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ClipRRect(
         borderRadius: BorderRadius.circular(yaricap),
-        // 15.10.2026: sahibinin seçtiği YENİ ALTIN LOGO (assets/ikon/ikon.png, A tasarımı); prototipteki logoyla aynı görsel
+        // 16.10.2026: sahibinin seçtiği tabutlu daire simge (assets/ikon/ikon.png = tasarim/acilis/simge22.png); Play simgesiyle aynı
         child: Image.asset('assets/ikon/ikon.png', width: boyut, height: boyut, fit: BoxFit.cover),
       );
 }

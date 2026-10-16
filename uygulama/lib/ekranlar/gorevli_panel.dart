@@ -13,6 +13,7 @@ import '../cekirdek/gorevli.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
+import 'gorevli_yer.dart';
 
 /// §27 dili: şehit ilanında "Şehidimiz <Rütbe> <Ad Soyad>"
 String _ilanAdi(Map<String, dynamic> i) {
@@ -22,18 +23,28 @@ String _ilanAdi(Map<String, dynamic> i) {
   return 'Şehidimiz ${rutbe.isEmpty ? '' : '$rutbe '}$ad';
 }
 
+/// Durum etiketi + "Düzeltildi" (otomatik ilanı düzelten kayıt; yalnız panelde, halka açık kartta YOK — H75)
+String _durumYaz(Map<String, dynamic> i) {
+  final d = M.gorevliDurumEtiket[i['durum']?.toString()] ?? '';
+  final duz = (i['duzeltme_id']?.toString() ?? '').isNotEmpty;
+  return [d, if (duz) M.gorevliDuzeltildi].where((x) => x.isNotEmpty).join(' · ');
+}
+
 class GorevliHesap {
   final String durum; // onayli | kontrolde | kuyruk
   final String adSoyad, il, ilce, gorevYeri;
   final String? unvan;
-  const GorevliHesap(this.durum, this.adSoyad, this.il, this.ilce, this.gorevYeri, this.unvan);
+  final String? kvkkKabul; // sunucudaki kabul tarihi (başka cihazdan/yeniden girişten)
+  const GorevliHesap(this.durum, this.adSoyad, this.il, this.ilce, this.gorevYeri, this.unvan, [this.kvkkKabul]);
   bool get onayli => durum == 'onayli';
+  /// ad-soyad, il, ilçe ve görev yeri dolu mu (kod doğrulandıktan sonra ilk ilanda bir kez sorulur)
+  bool get profilTamam => adSoyad.isNotEmpty && il.isNotEmpty && ilce.isNotEmpty && gorevYeri.isNotEmpty;
   static GorevliHesap? coz(Map<String, dynamic>? j) {
     if (j == null) return null;
     String s(String k) => j[k]?.toString() ?? '';
     final d = s('durum');
     if (d.isEmpty) return null;
-    return GorevliHesap(d, s('ad_soyad'), s('il'), s('ilce'), s('gorev_yeri'), j['unvan']?.toString());
+    return GorevliHesap(d, s('ad_soyad'), s('il'), s('ilce'), s('gorev_yeri'), j['unvan']?.toString(), j['kvkk_kabul']?.toString());
   }
 }
 
@@ -92,6 +103,21 @@ class _GorevliPanelState extends State<GorevliPanel> {
       return;
     }
     await depo.gorevliDurumKaydet(h.onayli ? 'onayli' : 'kontrolde');
+    if (h.il.isNotEmpty) await depo.gorevliYerKaydet(h.il, h.ilce);
+    // URUN §50: ilk açılışta (ya da hesap değişince) KVKK aydınlatması; kabul edilmeden panel görünmez
+    if (!depo.gorevliKvkkTamam()) {
+      if (h.kvkkKabul != null && h.kvkkKabul!.isNotEmpty) {
+        await depo.gorevliKvkkKaydet(h.kvkkKabul!); // sunucuda kabul var: yeniden sorulmaz
+      } else {
+        final kabul = await Navigator.of(context, rootNavigator: true)
+            .push<bool>(MaterialPageRoute(fullscreenDialog: true, builder: (_) => GorevliKvkk(servis: widget.servis)));
+        if (!mounted) return;
+        if (kabul != true) {
+          Navigator.of(context).pop();
+          return;
+        }
+      }
+    }
     final l = await s.ilanlarim(tok);
     if (!mounted) return;
     final liste = <Map<String, dynamic>>[
@@ -111,9 +137,33 @@ class _GorevliPanelState extends State<GorevliPanel> {
       bildir(context, M.gorevliKontrolBilgi);
       return;
     }
+    var hesap = h;
+    if (!hesap.profilTamam) {
+      // ilk "İlan paylaş": ad-soyad / görev yeri / il-ilçe / unvan BİR KEZ sorulur ve hesapta saklanır
+      final kayitli = await Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
+          builder: (_) => GorevliYerFormu(ilk: true, servis: widget.servis)));
+      if (kayitli != true || !mounted) return;
+      await _yukle();
+      final yeni = _hesap;
+      if (!mounted || yeni == null || !yeni.profilTamam) return;
+      hesap = yeni;
+    }
+    if (!mounted) return;
     final tamam = await Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
-        builder: (_) => GorevliIlanFormu(hesap: h, servis: widget.servis, duzenle: duzenle)));
+        builder: (_) => GorevliIlanFormu(hesap: hesap, servis: widget.servis, duzenle: duzenle)));
     if (tamam == true && mounted) _yukle();
+  }
+
+  /// "Görev yerim değişti": yeni görev yeri/unvan/il-ilçe; başlık kartı hemen yeni yeri gösterir; eski ilanlar değişmez
+  Future<void> _yerDegisti() async {
+    final h = _hesap;
+    if (h == null || !h.onayli || !h.profilTamam) return;
+    final tamam = await Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
+        builder: (_) => GorevliYerFormu(ilk: false, ad: h.adSoyad, il: h.il, ilce: h.ilce, gorevYeri: h.gorevYeri, unvan: h.unvan, servis: widget.servis)));
+    if (tamam == true && mounted) {
+      await _yukle();
+      if (mounted) bildir(context, M.gorevliYerGuncellendi);
+    }
   }
 
   Future<void> _ilanlarimAc() async {
@@ -132,7 +182,9 @@ class _GorevliPanelState extends State<GorevliPanel> {
           borderRadius: BorderRadius.circular(R.kart),
           boxShadow: const [BoxShadow(color: Color(0x14000000), blurRadius: 12, offset: Offset(0, 2))],
         ),
-        child: Column(children: [
+        child: !h.profilTamam
+            ? Text(M.gorevliProfilYok, key: const ValueKey('g_kart_profil_yok'), textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14))
+            : Column(children: [
           Text(M.gorevliBaslikKart(h.gorevYeri, h.unvan), key: const ValueKey('g_kart_1'), textAlign: TextAlign.center, style: Y.adim(r)),
           const SizedBox(height: 2),
           Text(h.adSoyad, key: const ValueKey('g_kart_2'), textAlign: TextAlign.center, style: Y.kartAd(r)),
@@ -142,7 +194,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
       );
 
   Widget _ilanSatiri(CvRenk r, Map<String, dynamic> i) {
-    final durum = M.gorevliDurumEtiket[i['durum']?.toString()] ?? '';
+    final durum = _durumYaz(i);
     return Container(
       width: double.infinity,
       margin: const EdgeInsets.only(bottom: R.s2),
@@ -164,7 +216,19 @@ class _GorevliPanelState extends State<GorevliPanel> {
         child: Column(children: [
           BaslikCubugu(
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
-            sag: YuvarlakDugme(ikon: 'kapat', anlam: 'Kapat', onTap: () => Navigator.of(context).pop()),
+            sag: PopupMenuButton<String>(
+              key: const ValueKey('g_menu'),
+              tooltip: 'Menü',
+              icon: const Icon(Icons.more_vert),
+              onSelected: (v) {
+                if (v == 'yer') _yerDegisti();
+                if (v == 'cikis') _cik(M.gorevliCikisYapildi);
+              },
+              itemBuilder: (_) => [
+                PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: const Text(M.gorevliYerDegisti)),
+                const PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
+              ],
+            ),
             ust: M.gorevliPanelUst,
             baslik: const BuyukBaslik(M.gorevliUst),
           ),
@@ -254,7 +318,7 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
         child: Column(children: [
           BaslikCubugu(
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
-            sag: YuvarlakDugme(ikon: 'kapat', anlam: 'Kapat', onTap: () => Navigator.of(context).pop()),
+            sag: const SizedBox(width: 40),
             ust: M.gorevliPanelUst,
             baslik: const BuyukBaslik(M.gorevliIlanlarimBaslik),
           ),
@@ -270,7 +334,7 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
                     decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
                     child: Column(children: [
                       Text(_ilanAdi(i), textAlign: TextAlign.center, style: Y.kartAd(r)),
-                      Text([tarih(i['namaz_tarihi']?.toString()), M.gorevliDurumEtiket[i['durum']?.toString()] ?? ''].where((x) => x.isNotEmpty).join(' · '),
+                      Text([tarih(i['namaz_tarihi']?.toString()), _durumYaz(i)].where((x) => x.isNotEmpty).join(' · '),
                           textAlign: TextAlign.center, style: Y.soluk(r)),
                       if (widget.onayli && (i['durum'] == 'yayinda')) ...[
                         const SizedBox(height: R.s3),
@@ -297,8 +361,9 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
 class GorevliIlanFormu extends StatefulWidget {
   final GorevliHesap hesap;
   final GorevliServisi? servis;
-  final Map<String, dynamic>? duzenle; // dolu ise var olan ilan düzenlenir
-  const GorevliIlanFormu({super.key, required this.hesap, this.servis, this.duzenle});
+  final Map<String, dynamic>? duzenle; // dolu ise var olan ilan düzenlenir (duzeltmeId varsa: otomatik ilan verisiyle dolu YENİ düzeltme kaydı)
+  final String? duzeltmeId; // URUN §49: düzeltilen otomatik ilanın id'si
+  const GorevliIlanFormu({super.key, required this.hesap, this.servis, this.duzenle, this.duzeltmeId});
   @override
   State<GorevliIlanFormu> createState() => _GorevliIlanFormuState();
 }
@@ -335,6 +400,10 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
       _sehit = d['sehit'] == true;
       _rutbe.text = d['rutbe']?.toString() ?? '';
       _toren.text = d['toren']?.toString() ?? '';
+      if (widget.duzeltmeId != null) {
+        _vakit = _bos(d['namaz_vakti']?.toString() ?? '');
+        _cami.text = d['namaz_cami']?.toString() ?? '';
+      }
     }
   }
 
@@ -360,12 +429,12 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
 
   Future<void> _tarihSec(bool vefat) async {
     final simdi = _yerel(bugunTr());
-    final g = await showDatePicker(
-      context: context,
-      initialDate: _yerel(vefat ? _vefat : _namaz),
-      firstDate: simdi.subtract(const Duration(days: 4)),
-      lastDate: vefat ? simdi : simdi.add(const Duration(days: 3)),
-    );
+    var ilk = _yerel(vefat ? _vefat : _namaz);
+    var son = vefat ? simdi : simdi.add(const Duration(days: 3));
+    var bas = simdi.subtract(const Duration(days: 4));
+    if (ilk.isBefore(bas)) bas = ilk; // düzeltmede otomatik ilanın tarihi 4 günden eski olabilir
+    if (ilk.isAfter(son)) son = ilk;
+    final g = await showDatePicker(context: context, initialDate: ilk, firstDate: bas, lastDate: son);
     if (g != null && mounted) setState(() => vefat ? _vefat = gunYaz(g) : _namaz = gunYaz(g));
   }
 
@@ -376,7 +445,8 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
     final mezarlik = _bos(_mezarlik.text);
     final yas = int.tryParse(_yas.text.trim());
     return {
-      if (widget.duzenle != null) 'ilan_id': widget.duzenle!['id'],
+      if (widget.duzenle != null && widget.duzeltmeId == null) 'ilan_id': widget.duzenle!['id'],
+      if (widget.duzeltmeId != null) 'duzeltme_id': widget.duzeltmeId,
       'ad_soyad': _bos(_ad.text),
       'cinsiyet': _cins,
       if (yas != null) 'yas': yas,
@@ -403,11 +473,11 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
       _hata = null;
     });
     final s = widget.servis ?? GorevliServisi(istemci: d.veri.istemci);
-    final y = widget.duzenle != null ? await s.duzenle(tok, _govde()) : await s.ilan(tok, _govde());
+    final y = (widget.duzenle != null && widget.duzeltmeId == null) ? await s.duzenle(tok, _govde()) : await s.ilan(tok, _govde());
     if (!mounted) return;
     setState(() => _yukleniyor = false);
     if (y.tamam && y.durum == 'yayinda') {
-      bildir(context, widget.duzenle != null ? M.gorevliIlanGuncel : M.gorevliIlanTamam);
+      bildir(context, widget.duzeltmeId != null ? M.gorevliDuzeltmeAlindi : (widget.duzenle != null ? M.gorevliIlanGuncel : M.gorevliIlanTamam));
       Navigator.of(context).pop(true);
     } else if (y.durum == 'red') {
       setState(() => _hata = y.neden ?? M.aileRed);
@@ -443,7 +513,7 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
         child: Column(children: [
           BaslikCubugu(
             sol: YuvarlakDugme(ikon: 'geri', anlam: 'Geri', onTap: () => Navigator.of(context).pop()),
-            sag: YuvarlakDugme(ikon: 'kapat', anlam: 'Kapat', onTap: () => Navigator.of(context).pop()),
+            sag: const SizedBox(width: 40),
             ust: M.gorevliPanelUst,
             baslik: const BuyukBaslik(M.gorevliIlanFormBaslik),
           ),
@@ -479,16 +549,83 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
                 FormAlani(key: const ValueKey('gi_mahalle'), etiket: M.gorevliMahalleKoy, denetleyici: _mahalle, enCok: 60),
                 _secim(r, M.alanVefat, tarih(_vefat), () => _tarihSec(true)),
                 _secim(r, M.alanNamazTarihi, tarih(_namaz), () => _tarihSec(false)),
-                for (final v in M.namazSecenek.take(6))
+                for (final v in [...M.namazSecenek.take(6), if (_vakit != null && !M.namazSecenek.take(6).contains(_vakit)) _vakit!])
                   Padding(padding: const EdgeInsets.only(bottom: R.s2), child: IkincilDugme(v, yukseklik: 44, secili: _vakit == v, onTap: () => setState(() => _vakit = v))),
                 FormAlani(key: const ValueKey('gi_cami'), etiket: M.alanCami, ipucu: M.alanCamiYer, denetleyici: _cami, enCok: 40),
                 FormAlani(key: const ValueKey('gi_mezarlik'), etiket: M.alanMezarlik, ipucu: M.alanMezarlikYer, denetleyici: _mezarlik, enCok: 60),
                 if (_hata != null) Padding(padding: const EdgeInsets.only(bottom: R.s3), child: Text(_hata!, textAlign: TextAlign.center, style: Y.kucuk(r))),
-                AnaDugme(widget.duzenle != null ? M.gorevliKaydet : M.gorevliGonder, onTap: (_hazir && !_yukleniyor) ? _gonder : null),
+                AnaDugme(widget.duzenle != null && widget.duzeltmeId == null ? M.gorevliKaydet : (widget.duzeltmeId != null ? M.gorevliKaydet : M.gorevliGonder), onTap: (_hazir && !_yukleniyor) ? _gonder : null),
               ],
             ),
           ),
         ]),
+      ),
+    );
+  }
+}
+
+
+/// URUN §50: panel ilk açılışta tam ekran KVKK aydınlatması. Geri tuşu kapatmaz; tek yol "Okudum, anladım" (true döner).
+class GorevliKvkk extends StatefulWidget {
+  final GorevliServisi? servis;
+  const GorevliKvkk({super.key, this.servis});
+  @override
+  State<GorevliKvkk> createState() => _GorevliKvkkState();
+}
+
+class _GorevliKvkkState extends State<GorevliKvkk> {
+  bool _bekle = false;
+
+  Future<void> _kabul() async {
+    if (_bekle) return;
+    setState(() => _bekle = true);
+    final d = Kapsam.oku(context);
+    final tok = d.depo.gorevliOturum;
+    final tarih = DateTime.now().toUtc().toIso8601String();
+    await d.depo.gorevliKvkkKaydet(tarih);
+    if (tok != null) {
+      // sunucu kaydı en iyi çabayla: ağ yoksa cihaz kaydı yeter, sonraki girişte sunucu "kabul yok" derse bir kez daha sorulur
+      await (widget.servis ?? GorevliServisi(istemci: d.veri.istemci)).kvkkKabul(tok);
+    }
+    if (mounted) Navigator.of(context).pop(true);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return PopScope(
+      canPop: false,
+      child: Scaffold(
+        body: SafeArea(
+          child: Column(children: [
+            Expanded(
+              child: ListView(
+                key: const ValueKey('g_kvkk'),
+                padding: const EdgeInsets.fromLTRB(R.s5, R.s6, R.s5, R.s4),
+                children: [
+                  Text(M.gorevliKvkkBaslik, textAlign: TextAlign.center, style: Y.buyuk(r)),
+                  const SizedBox(height: R.s4),
+                  for (final m in M.gorevliKvkkMetin)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: R.s3),
+                      child: Text(m, style: Y.govde(r).copyWith(fontSize: 15)),
+                    ),
+                  Center(
+                    child: TextButton(
+                      key: const ValueKey('g_kvkk_tam'),
+                      onPressed: () => metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin),
+                      child: const Text(M.gorevliKvkkTam),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s5),
+              child: AnaDugme(M.gorevliKvkkOku, onTap: _bekle ? null : _kabul),
+            ),
+          ]),
+        ),
       ),
     );
   }

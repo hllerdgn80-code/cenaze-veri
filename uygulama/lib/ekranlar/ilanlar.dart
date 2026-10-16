@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../bilesenler/ikonlar.dart';
 import '../bilesenler/ilan_karti.dart';
+import '../bilesenler/kart_sayfa.dart';
 import '../bilesenler/menu.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
@@ -102,9 +103,8 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
           color: r.vurgu,
           backgroundColor: r.yuzey,
           onRefresh: _yukle,
-          child: ListView(
+          child: KartListesi(
             controller: _kaydirma,
-            physics: const AlwaysScrollableScrollPhysics(),
             padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
             children: _icerik(context, d, r),
           ),
@@ -152,23 +152,10 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
   }
 
   List<Widget> _kaynaksiz(BuildContext context, AppDurum d, CvRenk r, IlVerisi v) {
+    // 16.10.2026 sahibi: "… yakınları tarafından paylaşılıyor" kartı TAMAMEN kaldırıldı; yalnız ilan kutusu
     return [
       const SizedBox(height: R.s3),
-      Container(
-        padding: const EdgeInsets.all(R.s5),
-        decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
-        child: Column(children: [
-          const Daire('kemer'),
-          const SizedBox(height: R.s4),
-          Text(M.kaynaksizBaslik(v.il),
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 17, height: 22 / 17, fontWeight: FontWeight.w600, color: r.metin)),
-          const SizedBox(height: R.s2),
-          Text(M.kaynaksizAciklama, textAlign: TextAlign.center, style: Y.govde(r).copyWith(fontSize: 14)),
-        ]),
-      ),
-      const SizedBox(height: R.s4),
-      IlanKutusu(il: v.il, ilce: d.ilce), // davet ile ilan kutusu birleşik: metin iki kez görünmez
+      IlanKutusu(il: v.il, ilce: d.ilce),
     ];
   }
 }
@@ -264,13 +251,10 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
       h.add(const Bolum(M.bolumIlGenelSade));
       h.addAll(kartlar(genel));
     }
-  } else {
+  } else if (genel.isNotEmpty) {
+    // 16.10.2026 sahibi: "İl geneli (ilçe belirtilmemiş)" bölümü yalnız o gün ilçesiz kayıt varsa; boş başlık ve boş metin yok
     h.add(const Bolum(M.bolumIlGeneli));
-    if (genel.isEmpty) {
-      h.add(const BosDurum(aciklama: M.bosIlGeneli, kucuk: true));
-    } else {
-      h.addAll(kartlar(genel));
-    }
+    h.addAll(kartlar(genel));
   }
   return h;
 }

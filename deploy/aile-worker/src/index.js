@@ -7,9 +7,13 @@
 //   r:<ip_ozeti>:<saat>   IP başına saatlik istek sayacı (TTL 1 saat)
 //   n:<ilan_id>           bildirim yapan IP özetleri (ilan ömrü)
 //   st:<il_slug>          {yayinda, gizli, red} sayaçları (panel)
+//   bo:<basvuru_id>       Tam Sayfa: ödeme bekleyen ilan_id (TTL 2 gün); /aile/odeme bununla ilanı bulur
+//   pt:<sha256(token)>    kullanılmış Play purchase_token → {ilan_id} (süresiz; aynı makbuz ikinci kez kullanılamaz)
+//   od:<zaman>:<özet>     ödeme kaydı {ilan_id, order_id, odeme_dogrulandi, ...}; GET /aile/odemeler (x-gizli) listeler
 import { ILCELER } from "./veri.js";
 import { gorevliIsle, gorevliBildir } from "./gorevli.js";
 import { kodGonder as kodKanali, kanalGerekli } from "./dogrulama.js";
+import { playDogrula, URUN_KIMLIGI } from "./odeme.js";
 import { degerlendir, girdiTemizle, adNormalize, bugunTR, gunEkle, gunFarki, ilSlug } from "./kurallar.js";
 
 const SAAT_LIMIT = 10;
@@ -18,6 +22,7 @@ const AZAMI_DENEME = 3;
 const GOVDE_LIMIT = 4096;
 const SAKLAMA_GUN = 30;
 const ILAN_TTL_SN = 120 * 86400;
+const ODEME_BEKLEME_SN = 2 * 86400;
 
 const hex = (buf) => [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
 export async function sha256(s) { return hex(await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s))); }
@@ -84,6 +89,7 @@ async function basvur(req, env, o) {
   if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
   const t = girdiTemizle(g.json);
   if (t.hata) return yanit(req, env, { hata: t.hata }, 400);
+  if (g.json?.tam !== true) return yanit(req, env, { hata: "aile ilanı kaldırıldı" }, 400); // 15.10.2026: ücretsiz aile ilanı yok; yalnız Tam Sayfa (200 ₺)
   if (g.json?.sehit === true) return yanit(req, env, { hata: "şehit ilanı yalnız din görevlisi" }, 400); // 15.10.2026: şehit ilanı yalnız din görevlisi panelinden
   if (kanalGerekli(env)) return yanit(req, env, { hata: "dogrulama_servisi_yok" }, 503);
   // Yeniden gönder: aynı telefon + ad + namaz tarihi, 15 dk içinde -> eski başvuru geçersiz, yeni kod; 60 sn'den sık 429. K6 sayacına yazılmaz (sayaç yalnız yayında artar).
@@ -150,26 +156,93 @@ async function dogrula(req, env, o) {
   const ilan = {
     id: ilanId, il: t.il, ilce: t.ilce, mahalle: t.mahalle ?? null, ad_soyad: t.ad_soyad, cinsiyet: t.cinsiyet, yas: t.yas ?? null,
     vefat_tarihi: t.vefat_tarihi, namaz_tarihi: t.namaz_tarihi, namaz_yeri_vakti: t.namaz_yeri_vakti ?? null, defin_yeri: t.defin_yeri ?? null,
-    liste_tarihi: t.namaz_tarihi, aile: true, dogrulandi: t.edevlet_kodu != null,
-    durum: "yayinda", olusturma: o.now.toISOString(), ip: o.ipOzeti,
+    liste_tarihi: t.namaz_tarihi, aile: true,
+    durum: t.tam ? "odeme_bekliyor" : "yayinda", olusturma: o.now.toISOString(), ip: o.ipOzeti,
     basvuran: { ad_soyad: t.basvuran.ad_soyad, telefon: t.basvuran.telefon, yakinlik: t.basvuran.yakinlik },
-    edevlet_kodu: t.edevlet_kodu ?? null,
   };
-  await env.AILE.put(`i:${ilanId}`, JSON.stringify(ilan), { expirationTtl: ILAN_TTL_SN });
-  await env.AILE.put(`x:${slug}:${ilanId}`, "1", { metadata: { n: adNormalize(t.ad_soyad), v: t.vefat_tarihi, t: t.namaz_tarihi }, expirationTtl: ILAN_TTL_SN });
-  gecmis.push(o.now.toISOString());
-  await env.AILE.put(eKey, JSON.stringify(gecmis), { expirationTtl: 7 * 86400 });
-  await sayacArtir(env, slug, "yayinda");
+  if (t.tam) {
+    // Tam Sayfa (200 ₺): telefon kodu doğrulandı, ilan kaydedildi ama ÖDEME gelene dek yayında/dizinde/sayaçta değil
+    ilan.tam = true;
+    await env.AILE.put(`i:${ilanId}`, JSON.stringify(ilan), { expirationTtl: ODEME_BEKLEME_SN });
+    await env.AILE.put(`bo:${basvuru_id}`, ilanId, { expirationTtl: ODEME_BEKLEME_SN });
+    return yanit(req, env, { durum: "odeme_bekliyor", ilan_id: ilanId, basvuru_id });
+  }
+  await yayinaAl(env, ilan, slug, o.now);
   return yanit(req, env, { durum: "yayinda", ilan_id: ilanId });
 }
 
-// Halka açık çıktıda yalnız bu alanlar bulunur; başvuran, telefon, IP, e-Devlet kodu ASLA
+// İlanı yayına alır: kayıt, dizin, telefon sayacı (K6), il sayacı. Normal ilanda doğrulamadan, Tam Sayfa'da ödemeden sonra çağrılır.
+async function yayinaAl(env, ilan, slug, now) {
+  const eKey = `e:${await sha256(ilan.basvuran.telefon)}`;
+  const gecmis = ((await kvJson(env.AILE, eKey)) || []).filter((z) => Date.parse(z) > now.getTime() - 7 * 86400000);
+  ilan.durum = "yayinda";
+  await env.AILE.put(`i:${ilan.id}`, JSON.stringify(ilan), { expirationTtl: ILAN_TTL_SN });
+  await env.AILE.put(`x:${slug}:${ilan.id}`, "1", { metadata: { n: adNormalize(ilan.ad_soyad), v: ilan.vefat_tarihi, t: ilan.namaz_tarihi }, expirationTtl: ILAN_TTL_SN });
+  gecmis.push(now.toISOString());
+  await env.AILE.put(eKey, JSON.stringify(gecmis), { expirationTtl: 7 * 86400 });
+  await sayacArtir(env, slug, "yayinda");
+}
+
+// POST /aile/odeme {basvuru_id, purchase_token, order_id, urun}: Play makbuzu → ilan odeme_bekliyor → yayinda
+async function odeme(req, env, o) {
+  const g = await govdeOku(req);
+  if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
+  const { basvuru_id, purchase_token, order_id, urun } = g.json || {};
+  if (typeof basvuru_id !== "string" || !/^[0-9a-f]{16}$/.test(basvuru_id)) return yanit(req, env, { hata: "basvuru_id gerekli" }, 400);
+  if (typeof purchase_token !== "string" || !/^[A-Za-z0-9._\-]{16,512}$/.test(purchase_token)) return yanit(req, env, { hata: "purchase_token geçersiz" }, 400);
+  if (order_id != null && order_id !== "" && (typeof order_id !== "string" || !/^[A-Za-z0-9._\-]{1,64}$/.test(order_id))) return yanit(req, env, { hata: "order_id geçersiz" }, 400);
+  if (urun !== URUN_KIMLIGI) return yanit(req, env, { hata: "urun geçersiz" }, 400);
+  const ilanId = await env.AILE.get(`bo:${basvuru_id}`);
+  const ilan = ilanId ? await kvJson(env.AILE, `i:${ilanId}`) : null;
+  if (!ilan || ilan.tam !== true) return yanit(req, env, { hata: "odeme_bekleyen_ilan_yok" }, 404);
+  const ozet = await sha256(purchase_token);
+  const kullanilmis = await kvJson(env.AILE, `pt:${ozet}`);
+  if (kullanilmis) {
+    // Aynı makbuz aynı ilan için yeniden gelirse (ağ kopması sonrası deneme) sonuç tekrarlanır; başka ilanda KULLANILAMAZ
+    if (kullanilmis.ilan_id === ilan.id && ilan.durum === "yayinda") return yanit(req, env, { durum: "yayinda", ilan_id: ilan.id, odeme_dogrulandi: ilan.odeme_dogrulandi === true });
+    return yanit(req, env, { hata: "token_kullanilmis" }, 409);
+  }
+  if (ilan.durum === "yayinda") return yanit(req, env, { durum: "yayinda", ilan_id: ilan.id, odeme_dogrulandi: ilan.odeme_dogrulandi === true });
+  let dogrulandi = false, siparisNo = order_id || null, test = false;
+  if (env.PLAY_SA_JSON) {
+    const p = await playDogrula(env, o.fetch, purchase_token, order_id || null, o.now);
+    if (!p.tamam) return yanit(req, env, { durum: "red", neden: p.neden }, p.gecici ? 502 : 402);
+    dogrulandi = true; siparisNo = p.siparis_no; test = p.test === true;
+  }
+  await env.AILE.put(`pt:${ozet}`, JSON.stringify({ ilan_id: ilan.id, ts: o.now.toISOString() }));
+  await env.AILE.put(`od:${o.now.toISOString()}:${ozet.slice(0, 8)}`, JSON.stringify({
+    ilan_id: ilan.id, ad_soyad: ilan.ad_soyad, il: ilan.il, ilce: ilan.ilce, order_id: siparisNo, token_ozeti: ozet,
+    odeme_dogrulandi: dogrulandi, test, zaman: o.now.toISOString(),
+  }));
+  ilan.odeme_dogrulandi = dogrulandi;
+  ilan.siparis_no = siparisNo;
+  await yayinaAl(env, ilan, ilSlug(ilan.il), o.now);
+  await env.AILE.delete(`bo:${basvuru_id}`);
+  return yanit(req, env, { durum: "yayinda", ilan_id: ilan.id, odeme_dogrulandi: dogrulandi });
+}
+
+// GET /aile/odemeler (x-gizli: PANEL_ANAHTARI): ödeme kayıtları, en yeni önce. odeme_dogrulandi:false olanlar Play Console sipariş listesiyle karşılaştırılır.
+async function odemeler(req, env) {
+  const anahtar = req.headers.get("x-gizli") || "";
+  const izin = env.PANEL_ANAHTARI ? sabitKarsilastir(anahtar, env.PANEL_ANAHTARI) : env.GELISTIRME === "1";
+  if (!izin) return yanit(req, env, { hata: "yetkisiz" }, 403);
+  const liste = [];
+  let cursor;
+  do {
+    const l = await env.AILE.list({ prefix: "od:", cursor });
+    for (const k of l.keys) { const v = await kvJson(env.AILE, k.name); if (v) liste.push(v); }
+    cursor = l.list_complete ? undefined : l.cursor;
+  } while (cursor);
+  liste.reverse();
+  return yanit(req, env, { odemeler: liste.slice(0, 500), dogrulanmamis: liste.filter((x) => !x.odeme_dogrulandi).length });
+}
+
+// Halka açık çıktıda yalnız bu alanlar bulunur; başvuran, telefon, IP, ödeme/sipariş bilgisi ASLA
 const GENEL_ALANLAR = ["id", "il", "ilce", "mahalle", "ad_soyad", "cinsiyet", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti", "defin_yeri", "liste_tarihi"];
 export function genel(ilan) {
   const r = {};
   for (const a of GENEL_ALANLAR) r[a] = ilan[a] ?? null;
   r.aile = true;
-  r.dogrulandi = ilan.dogrulandi === true;
   return r;
 }
 
@@ -239,7 +312,7 @@ async function durum(req, env) {
   return yanit(req, env, { iller });
 }
 
-// KVKK: 30 günden eski ilanlarda başvuran bilgisi, IP özeti ve e-Devlet kodu silinir; ilan kalır
+// KVKK: 30 günden eski ilanlarda başvuran bilgisi ve IP özeti silinir; ilan kalır
 export async function temizle(env, now = new Date()) {
   const esik = now.getTime() - SAKLAMA_GUN * 86400000;
   let cursor, temizlenen = 0;
@@ -247,8 +320,8 @@ export async function temizle(env, now = new Date()) {
     const l = await env.AILE.list({ prefix: "i:", cursor });
     for (const k of l.keys) {
       const ilan = await kvJson(env.AILE, k.name);
-      if (ilan && (ilan.basvuran || ilan.edevlet_kodu || ilan.ip) && Date.parse(ilan.olusturma) < esik) {
-        ilan.basvuran = null; ilan.edevlet_kodu = null; ilan.ip = null;
+      if (ilan && (ilan.basvuran || ilan.ip) && Date.parse(ilan.olusturma) < esik) {
+        ilan.basvuran = null; ilan.ip = null;
         await env.AILE.put(k.name, JSON.stringify(ilan), { expirationTtl: ILAN_TTL_SN });
         temizlenen++;
       }
@@ -279,13 +352,15 @@ export async function isle(req, env, ctx, secenek = {}) {
     const m = yol.match(/^\/aile\/([a-z0-9]{2,30})\.json$/);
     if (m) return liste(req, env, m[1], o);
     if (yol === "/aile/durum") return durum(req, env);
+    if (yol === "/aile/odemeler") return odemeler(req, env);
     return yanit(req, env, { hata: "bulunamadı" }, 404);
   }
-  if (req.method === "POST" && ["/aile/basvur", "/aile/dogrula", "/aile/bildir"].includes(yol)) {
+  if (req.method === "POST" && ["/aile/basvur", "/aile/dogrula", "/aile/bildir", "/aile/odeme"].includes(yol)) {
     o.ipOzeti = await sha256(`${req.headers.get("CF-Connecting-IP") || "yok"}|${env.IP_TUZ || "aile"}`);
     if (!(await hizSiniri(env, o.ipOzeti, o.now))) return yanit(req, env, { hata: "cok_fazla_istek" }, 429, { "Retry-After": "3600" });
     if (yol === "/aile/basvur") return basvur(req, env, o);
     if (yol === "/aile/dogrula") return dogrula(req, env, o);
+    if (yol === "/aile/odeme") return odeme(req, env, o);
     return bildir(req, env, o);
   }
   return yanit(req, env, { hata: "yöntem_desteklenmiyor" }, 405);

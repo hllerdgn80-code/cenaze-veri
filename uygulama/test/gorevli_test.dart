@@ -1,22 +1,21 @@
-// Din görevlisi (0.1.5, URUN-TASLAGI §37): kayıt formu (iki adım, kart fotoğrafı, SMS kodu), panel (sabit başlık kartı,
+// Din görevlisi (0.1.9, URUN-TASLAGI §45): Diyanet e-posta kodu (kılavuz -> kod -> panel), ⋮ menüsü (görev yerim değişti / çıkış), panel (sabit başlık kartı,
 // kontrolde iken pasif "İlan paylaş", onayda etkin, redde "hesap silindi"), il/ilçe kilidi, kartta rozet.
 import 'dart:convert';
-import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
-import 'package:kimin_cenazesi/bilesenler/ortak.dart' show AnaDugme;
+import 'package:kimin_cenazesi/bilesenler/ortak.dart' show AnaDugme, IkincilDugme;
 import 'package:kimin_cenazesi/cekirdek/durum.dart';
 import 'package:kimin_cenazesi/cekirdek/gorevli.dart';
 import 'package:kimin_cenazesi/cekirdek/ilan.dart';
 import 'package:kimin_cenazesi/cekirdek/metin.dart';
 import 'package:kimin_cenazesi/cekirdek/tema.dart';
-import 'package:kimin_cenazesi/cekirdek/yardimci.dart' show trBuyuk;
 import 'package:kimin_cenazesi/ekranlar/gorevli_kayit.dart';
 import 'package:kimin_cenazesi/ekranlar/gorevli_panel.dart';
+import 'package:kimin_cenazesi/ekranlar/gorevli_yer.dart';
 
 import 'ortak.dart';
 import 'widget_test.dart' show kapsamli, telefon;
@@ -34,13 +33,6 @@ Widget _ev(AppDurum d, Widget Function(BuildContext) ac) => Kapsam(
 
 Finder _alan(String anahtar) => find.descendant(of: find.byKey(ValueKey(anahtar)), matching: find.byType(TextField));
 
-Future<void> _yazF(WidgetTester t, String anahtar, String metin) async {
-  final f = find.descendant(of: find.byKey(ValueKey(anahtar)), matching: find.byType(TextField));
-  await t.scrollUntilVisible(f, 200, scrollable: find.byType(Scrollable).first);
-  await t.enterText(f, metin);
-  await t.pumpAndSettle();
-}
-
 Future<void> _yaz(WidgetTester t, String anahtar, String metin) async {
   final f = _alan(anahtar);
   await t.scrollUntilVisible(f, 200, scrollable: find.byType(Scrollable).first);
@@ -49,127 +41,234 @@ Future<void> _yaz(WidgetTester t, String anahtar, String metin) async {
 }
 
 void main() {
-  testWidgets('Kayıt formu: bilgiler (telefon, e-posta YOK) + BEYAN kutusu; işaretlenmeden "Başvuruyu gönder" pasif; sonra kart (yalnız kamera, kâğıt kodu YOK); telefon kodu', (tester) async {
+  GorevliServisi epostaServisi(Map<String, Map<String, dynamic>> istekler, {int dogrulaKod = 200, int kodKod = 200, Map<String, dynamic>? kodGovde}) => GorevliServisi(
+        kok: 'https://g.test',
+        istemci: MockClient((req) async {
+          final govde = req.body.isEmpty ? <String, dynamic>{} : jsonDecode(req.body) as Map<String, dynamic>;
+          istekler['${req.url.path}#${istekler.length}'] = govde;
+          if (req.url.path == '/gorevli/eposta-kod') return _y(kodGovde ?? {'durum': 'kod_gonderildi', 'adres': '${govde['kullanici']}@diyanet.gov.tr'}, kodKod);
+          if (req.url.path == '/gorevli/eposta-dogrula') {
+            if (dogrulaKod == 200) return _y({'durum': 'onayli', 'oturum': 'tok123', 'profil_tamam': false});
+            return _y({'hata': 'kod_yanlis', 'kalan_deneme': 4}, dogrulaKod);
+          }
+          if (req.url.path == '/gorevli/durum') return _y({'durum': 'onayli', 'profil_tamam': false});
+          if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+          return http.Response('yok', 404);
+        }),
+      );
+
+  testWidgets('Kılavuz ekranı: yalnız kullanıcı adı + sabit @diyanet.gov.tr; "nasıl giriş" penceresi 6 madde; kart/telefon alanı YOK', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final istekler = <String, Map<String, dynamic>>{};
+    await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: GorevliKayit(il: 'Kars', ilce: 'Merkez', servis: epostaServisi(istekler)))));
+    await tester.pumpAndSettle();
+    expect(find.text(M.gorevliEpostaBaslik), findsOneWidget);
+    expect(find.text(M.gorevliEpostaAciklama), findsOneWidget);
+    expect(find.text(M.gorevliAlanAdi), findsOneWidget);
+    expect(find.byType(TextField), findsOneWidget); // yalnız kullanıcı adı
+    expect(find.textContaining('Cep telefonu'), findsNothing);
+    expect(find.textContaining('kart'), findsNothing);
+    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliKodGonderDugme)).onTap, isNull);
+    await tester.tap(find.text(M.gorevliNasilGiris));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('g_nasil_pencere')), findsOneWidget);
+    expect(M.gorevliNasil6.length, 6);
+    for (int i = 0; i < 6; i++) {
+      expect(find.text('${i + 1}. ${M.gorevliNasil6[i]}'), findsOneWidget);
+    }
+    expect(find.textContaining('posta.diyanet.gov.tr'), findsWidgets);
+  });
+
+  testWidgets('Kod akışı: kullanıcı adı -> kod ekranı (adres, 5 madde, 10 dk, "(5 dk)" bekleme) -> yanlış kod uyarısı -> doğru kod -> panel HEMEN açılır', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final istekler = <String, Map<String, dynamic>>{};
+    var yanlis = true;
     final servis = GorevliServisi(
       kok: 'https://g.test',
       istemci: MockClient((req) async {
         final govde = req.body.isEmpty ? <String, dynamic>{} : jsonDecode(req.body) as Map<String, dynamic>;
         istekler['${req.url.path}#${istekler.length}'] = govde;
-        if (req.url.path == '/gorevli/kayit' && !govde.containsKey('foto_base64')) {
-          return _y({'durum': 'foto_gerek', 'kayit_id': 'k1', 'liste_eslesti': true});
+        if (req.url.path == '/gorevli/eposta-kod') return _y({'durum': 'kod_gonderildi', 'adres': 'x'});
+        if (req.url.path == '/gorevli/eposta-dogrula') {
+          if (yanlis) {
+            yanlis = false;
+            return _y({'hata': 'kod_yanlis', 'kalan_deneme': 4}, 400);
+          }
+          return _y({'durum': 'onayli', 'oturum': 'tok123', 'profil_tamam': false});
         }
-        if (req.url.path == '/gorevli/kayit') return _y({'durum': 'kuyruk', 'kayit_id': 'k1', 'dogrulama': 'kod', 'kanal': 'sms'});
-        if (req.url.path == '/gorevli/dogrula') return _y({'durum': 'kuyruk', 'oturum': 'tok123'});
+        if (req.url.path == '/gorevli/durum') return _y({'durum': 'onayli', 'profil_tamam': false});
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
         return http.Response('yok', 404);
       }),
     );
-    var cekilen = 0;
-    await tester.pumpWidget(Kapsam(
-      durum: d,
-      child: MaterialApp(
-        theme: temaYap(true),
-        home: GorevliKayit(
-          il: 'Kars',
-          ilce: 'Merkez',
-          servis: servis,
-          fotoAl: () async {
-            cekilen++;
-            return Uint8List.fromList([0xFF, 0xD8, 0xFF, 1, 2, 3]);
-          },
-        ),
-      ),
-    ));
+    await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: GorevliKayit(il: 'Kars', servis: servis))));
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliGirisNot), findsOneWidget); // "Hesabınız Diyanet personel kartınızla doğrulanır." (üstte, görünür)
-    expect(find.text('E-posta'), findsNothing);
-    await _yaz(tester, 'g_ad', 'Hasan Kurguluoğlu');
-    await _yaz(tester, 'g_yer', 'Korgan Merkez Camii');
-    await _yaz(tester, 'g_telefon', '0532 111 22 33'); // alan kaydırılarak görünür kılınır (ListView tembel kurar)
-    expect(find.text(M.gorevliTelefon), findsOneWidget);
-    expect(find.text(M.gorevliTelefonNot), findsOneWidget); // KVKK notu
-    // beyan işaretlenmeden pasif
-    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliBasvuruGonder)).onTap, isNull);
-    await tester.scrollUntilVisible(find.byKey(const ValueKey('g_beyan')), 200, scrollable: find.byType(Scrollable).first);
-    expect(find.text(M.gorevliBeyan), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('g_beyan')));
+    await tester.enterText(find.byType(TextField), 'Mehmet.Yilmaz@diyanet.gov.tr'); // alan adı yazılsa da kullanıcı adına inilir
     await tester.pumpAndSettle();
-    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliBasvuruGonder)).onTap, isNotNull);
-    await tester.tap(find.text(M.gorevliBasvuruGonder));
+    await tester.tap(find.text(M.gorevliKodGonderDugme));
     await tester.pumpAndSettle();
-
-    final ilk = istekler.values.first;
-    expect(ilk['telefon'], '5321112233');
-    expect(ilk['beyan'], true);
-    expect(ilk.containsKey('eposta'), isFalse);
-    expect(ilk['gorev_yeri'], 'Korgan Merkez Camii');
-    // kart ekranı: başlık, sahibinin metni EN ÜSTTE, yönerge, tek düğme "Personel kartımı çek"; kâğıt kodu ve galeri YOK
-    expect(find.text(trBuyuk(M.gorevliFotoUst)), findsWidgets); // BaslikCubugu üst etiketi BÜYÜK HARF basar (trBuyuk)
-    expect(find.text(M.gorevliFotoAciklama), findsOneWidget);
-    expect(find.text(M.gorevliFotoYonerge), findsOneWidget);
-    expect(find.text(M.gorevliListedeBulundu), findsNothing); // liste artık onay şartı değil; kullanıcıya gösterilmez
-    expect(find.byKey(const ValueKey('g_foto_kodu')), findsNothing);
-    expect(find.textContaining('kâğıt'), findsNothing);
-    expect(find.text('Galeriden seç'), findsNothing);
-    final kutuY = tester.getTopLeft(find.byKey(const ValueKey('g_foto_aciklama'))).dy;
-    final kameraY = tester.getTopLeft(find.text('Personel kartımı çek')).dy;
-    expect(kutuY < kameraY, isTrue);
-
-    await tester.tap(find.text('Personel kartımı çek'));
+    expect(istekler.values.first['kullanici'], 'mehmet.yilmaz');
+    expect(find.text('Kod gönderildi: mehmet.yilmaz@diyanet.gov.tr'), findsOneWidget);
+    for (int i = 0; i < 5; i++) {
+      expect(find.byKey(ValueKey('g_tarif_$i')), findsOneWidget);
+    }
+    expect(find.byKey(const ValueKey('g_tarif_5')), findsNothing);
+    expect(find.text('1. Adresiniz: mehmet.yilmaz@diyanet.gov.tr'), findsOneWidget);
+    expect(find.text(M.gorevliKodGecerli), findsOneWidget);
+    expect(find.text('Kodu yeniden gönder (5 dk)'), findsOneWidget); // 5 DAKİKA
+    expect(tester.widget<IkincilDugme>(find.widgetWithText(IkincilDugme, 'Kodu yeniden gönder (5 dk)')).onTap, isNull);
+    await tester.pump(const Duration(seconds: 61));
+    expect(find.text('Kodu yeniden gönder (3:59)'), findsOneWidget); // dakika:saniye geri sayım
+    // yanlış kod
+    await _yaz(tester, 'g_kod', '000000');
+    await tester.tap(find.text(M.gorevliKodDogrulaDugme));
     await tester.pumpAndSettle();
-    expect(cekilen, 1);
-    final foto = istekler.values.elementAt(1);
-    expect(foto['kayit_id'], 'k1');
-    expect(base64Decode(foto['foto_base64'] as String).length, 6);
-    // telefon kodu ekranı + saklama bilgisi + yeniden gönder (60 sn bekleme)
-    expect(find.text(M.gorevliKodAciklama), findsOneWidget);
-    expect(find.text(M.gorevliKuyrukUyari), findsOneWidget);
-    expect(find.text(M.kodBekle(60)), findsOneWidget);
+    expect(find.text(M.gorevliKodYanlis), findsOneWidget);
+    expect(d.depo.gorevliOturum, isNull);
+    // doğru kod -> oturum + panel HEMEN (bekleme/kontrol yok)
     await _yaz(tester, 'g_kod', '123456');
-    await tester.tap(find.text(M.kodDugme));
+    await tester.tap(find.text(M.gorevliKodDogrulaDugme));
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliKontrolMetin), findsOneWidget);
     expect(d.depo.gorevliOturum, 'tok123');
+    expect(find.byType(GorevliPanel), findsOneWidget);
+    expect(find.text(M.gorevliProfilYok), findsOneWidget); // ad/yer ilk "İlan paylaş"ta sorulur
     await tester.pumpWidget(const SizedBox());
   });
 
-  testWidgets('Kart tutmazsa aynı ekranda yeniden çekilir (kod yok); iki kez tutmazsa 7 gün uyarısı', (tester) async {
+  test('Bekleme süresi 5 dk; kodBekle biçimi', () {
+    expect(kodBeklemeSn, 300);
+    expect(M.kodBekle(300), 'Kodu yeniden gönder (5 dk)');
+    expect(M.kodBekle(65), 'Kodu yeniden gönder (1:05)');
+    expect(M.kodBekle(9), 'Kodu yeniden gönder (0:09)');
+  });
+
+  testWidgets('429 cok_sik_tekrar: kod ekranına geçilir ve kalan süreyle geri sayılır', (tester) async {
     telefon(tester);
     final d = await testDurumu();
-    var foto = 0;
+    final servis = epostaServisi({}, kodKod: 429, kodGovde: {'hata': 'cok_sik_tekrar', 'bekle_sn': 120});
+    await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: GorevliKayit(il: 'Kars', servis: servis))));
+    await tester.pumpAndSettle();
+    await tester.enterText(find.byType(TextField), 'ali.kaya');
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliKodGonderDugme));
+    await tester.pumpAndSettle();
+    expect(find.text('Kodu yeniden gönder (2:00)'), findsOneWidget);
+    await tester.pumpWidget(const SizedBox());
+  });
+
+  testWidgets('Profil yok: ilk "İlan paylaş" ad/görev yeri formunu açar, kaydedince ilan formuna geçer', (tester) async {
+    telefon(tester);
+    final d = await panelDurumu();
+    var tamam = false;
+    Map<String, dynamic>? profilGovde;
     final servis = GorevliServisi(
       kok: 'https://g.test',
       istemci: MockClient((req) async {
-        final g = req.body.isEmpty ? <String, dynamic>{} : jsonDecode(req.body) as Map<String, dynamic>;
-        if (req.url.path == '/gorevli/kayit' && g.containsKey('foto_base64')) {
-          foto++;
-          return foto == 1 ? _y({'durum': 'deneme2', 'kayit_id': 'k1'}) : _y({'durum': 'kuyruk', 'kayit_id': 'k1', 'dogrulama': 'kod'});
+        if (req.url.path == '/gorevli/durum') {
+          return tamam
+              ? _y({'durum': 'onayli', 'profil_tamam': true, 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'})
+              : _y({'durum': 'onayli', 'profil_tamam': false});
         }
-        if (req.url.path == '/gorevli/kayit') return _y({'durum': 'foto_gerek', 'kayit_id': 'k1'});
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        if (req.url.path == '/gorevli/profil') {
+          profilGovde = jsonDecode(req.body) as Map<String, dynamic>;
+          tamam = true;
+          return _y({'durum': 'onayli', 'profil_tamam': true});
+        }
         return http.Response('yok', 404);
       }),
     );
-    await tester.pumpWidget(Kapsam(
-      durum: d,
-      child: MaterialApp(theme: temaYap(true), home: GorevliKayit(il: 'Kars', ilce: 'Merkez', servis: servis, fotoAl: () async => Uint8List.fromList([0xFF, 0xD8, 1]))),
-    ));
-    await _yaz(tester, 'g_ad', 'Hasan Kurguluoğlu');
-    await _yaz(tester, 'g_yer', 'Korgan Merkez Camii');
-    await _yaz(tester, 'g_telefon', '5321112233');
-    await tester.scrollUntilVisible(find.byKey(const ValueKey('g_beyan')), 200, scrollable: find.byType(Scrollable).first);
-    await tester.tap(find.byKey(const ValueKey('g_beyan')));
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+    await tester.tap(find.text('ac'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text(M.gorevliBasvuruGonder));
+    expect(find.text(M.gorevliProfilYok), findsOneWidget);
+    await tester.tap(find.text(M.gorevliIlanPaylas));
     await tester.pumpAndSettle();
-    await tester.tap(find.text('Personel kartımı çek'));
+    expect(find.byType(GorevliYerFormu), findsOneWidget);
+    expect(tester.widget<AnaDugme>(find.widgetWithText(AnaDugme, M.gorevliKaydetDugme)).onTap, isNull);
+    await tester.enterText(_alan('gy_ad'), 'Hasan Kurguluoğlu');
+    await tester.enterText(_alan('gy_yer'), 'Korgan Merkez Camii');
+    await tester.tap(find.text(M.alanIlce));
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliDeneme2), findsOneWidget);
-    await tester.tap(find.text('Personel kartımı çek'));
+    await tester.tap(find.text('Ünye').first);
     await tester.pumpAndSettle();
-    expect(find.text(M.gorevliKuyrukUyari), findsOneWidget); // OCR iki kez tutmadı
-    await tester.pumpWidget(const SizedBox());
+    await tester.tap(find.text(M.gorevliKaydetDugme));
+    await tester.pumpAndSettle();
+    expect(profilGovde!['ad_soyad'], 'Hasan Kurguluoğlu');
+    expect(profilGovde!['gorev_yeri'], 'Korgan Merkez Camii');
+    expect(profilGovde!['ilce'], 'Ünye');
+    expect(find.byType(GorevliIlanFormu), findsOneWidget);
+  });
+
+  testWidgets('⋮ menüsü: "Görev yerim değişti" ayrı sayfa açar; Kaydet -> geri dönülür ve başlık kartı yeni görev yerini gösterir', (tester) async {
+    telefon(tester);
+    final d = await panelDurumu();
+    var yer = 'Korgan Merkez Camii', il = 'Ordu', ilce = 'Korgan';
+    Map<String, dynamic>? giden;
+    final servis = GorevliServisi(
+      kok: 'https://g.test',
+      istemci: MockClient((req) async {
+        if (req.url.path == '/gorevli/durum') {
+          return _y({'durum': 'onayli', 'profil_tamam': true, 'ad_soyad': 'Hasan Kurguluoğlu', 'il': il, 'ilce': ilce, 'gorev_yeri': yer, 'unvan': 'İmam-Hatip'});
+        }
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        if (req.url.path == '/gorevli/gorev-yeri') {
+          giden = jsonDecode(req.body) as Map<String, dynamic>;
+          yer = giden!['gorev_yeri'] as String;
+          il = giden!['il'] as String;
+          ilce = giden!['ilce'] as String;
+          return _y({'durum': 'onayli', 'profil_tamam': true});
+        }
+        return http.Response('yok', 404);
+      }),
+    );
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    expect((tester.widget(find.byKey(const ValueKey('g_kart_1'))) as Text).data, 'Korgan Merkez Camii İmam Hatibi');
+    expect(find.text(M.gorevliYerDegisti), findsNothing); // panelin içinde düğme YOK; yalnız ⋮ menüsünde
+    await tester.tap(find.byKey(const ValueKey('g_menu')));
+    await tester.pumpAndSettle();
+    expect(find.text(M.gorevliCikisYap), findsOneWidget);
+    await tester.tap(find.text(M.gorevliYerDegisti));
+    await tester.pumpAndSettle();
+    expect(find.byType(GorevliYerFormu), findsOneWidget);
+    expect(find.text(M.gorevliYerDegisti), findsWidgets); // sayfa başlığı
+    expect(find.byKey(const ValueKey('gy_ad')), findsNothing); // ad değişmez
+    await tester.enterText(_alan('gy_yer'), 'Kavak Camii');
+    await tester.tap(find.text('Ordu'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Kars').first);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.alanIlce));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Sarıkamış').first);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliYerKaydet));
+    await tester.pumpAndSettle();
+    expect(giden!['gorev_yeri'], 'Kavak Camii');
+    expect(giden!['il'], 'Kars');
+    expect(giden!['ilce'], 'Sarıkamış');
+    expect(giden!.containsKey('ad_soyad'), isFalse);
+    expect(find.byType(GorevliYerFormu), findsNothing); // geri dönüldü
+    expect((tester.widget(find.byKey(const ValueKey('g_kart_1'))) as Text).data, 'Kavak Camii İmam Hatibi');
+    expect((tester.widget(find.byKey(const ValueKey('g_kart_3'))) as Text).data, 'Kars · Sarıkamış');
+  });
+
+  testWidgets('⋮ menüsü: "Çıkış yap" oturumu siler ve paneli kapatır', (tester) async {
+    telefon(tester);
+    final d = await panelDurumu();
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: panelServisi('onayli'))));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('g_menu')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliCikisYap));
+    await tester.pumpAndSettle();
+    expect(d.depo.gorevliOturum, isNull);
+    expect(find.byType(GorevliPanel), findsNothing);
   });
 
   Future<AppDurum> panelDurumu() async {
@@ -297,7 +396,7 @@ void main() {
     expect(find.text('ac'), findsOneWidget);
   });
 
-  testWidgets('Kart: "Mahallenin din görevlisi paylaştı" rozeti ve görev yeri; "Yakını paylaştı" görünmez', (tester) async {
+  testWidgets('Kart: din görevlisi ilanında kaynak rozeti ve görev yeri GÖRÜNMEZ (sahibi 16.10)', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final r = Ilan.fromJson({
@@ -308,9 +407,10 @@ void main() {
     expect(Ilan.fromJson(r.toJson())!.gorevYeri, 'Korgan Merkez Camii');
     await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: r)));
     await tester.pumpAndSettle();
-    expect(find.text('Mahallenin din görevlisi paylaştı'), findsOneWidget);
+    expect(find.text('Mahallenin din görevlisi paylaştı'), findsNothing);
     expect(find.text('Yakını paylaştı'), findsNothing);
-    expect(find.text('Korgan Merkez Camii'), findsOneWidget);
+    expect(find.text('Korgan Merkez Camii'), findsNothing);
+    expect(find.text('Fatma Örnek'), findsOneWidget);
   });
 }
 

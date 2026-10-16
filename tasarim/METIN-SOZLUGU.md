@@ -138,7 +138,7 @@ Yer tutucular: `{il}`, `{ilce}`, `{yer}` (ilçe, yoksa il), `{yer’de}` (bulunm
 | bildirim.tel-eksik | Lütfen telefon numaranızı yazın | ✎ "Telefon numarasını girin" |
 | bildirim.kod-gitti | Doğrulama kodu gönderildi | ✎ "Kod gönderildi" |
 
-## 6. Tam Sayfa (ücretli vefat ilanı)
+## 6. Tam Sayfa (ücretli vefat ilanı) — KALDIRILDI 16.10.2026 (0.1.8); bu bölümün satırları geçersiz, bkz. en alttaki 0.1.8 bölümü
 | Anahtar | Metin | Durum · neden |
 |---|---|---|
 | tam.ust | Türkiye geneli | ✓ |
@@ -155,7 +155,7 @@ Yer tutucular: `{il}`, `{ilce}`, `{yer}` (ilçe, yoksa il), `{yer’de}` (bulunm
 | fiyat.tutar | 200 ₺ | ✓ |
 | fiyat.not | Abonelik değildir, bir kez ödenir | ✓ |
 | fiyat.madde1 | Türkiye genelinde görünür | ✎ "Ülke genelinde görünür" |
-| fiyat.madde2 | Metni sizinle birlikte hazırlanır | ✎ "Metin ve tasarım bizden" → reklam sloganı tınısı çıktı |
+| fiyat.madde2 | Metin sizin istediğiniz şekilde hazırlanır (sahibi 15.10) | ✎ "Metin ve tasarım bizden" → reklam sloganı tınısı çıktı |
 | fiyat.madde3 | Cami ve mezarlık haritada gösterilir | ✎ "Cami ve mezarlık haritada" |
 | fiyat.madde4 | Yayından önce doğrulanır ve kontrol edilir | ✓ |
 | adim5.tam.baslik | Yasal beyan ve ödeme | ✓ |
@@ -261,7 +261,7 @@ Kural: "vefat etti" / "Hakk’a yürüdü" YAZILMAZ → "şehit oldu". Ölüm ne
 | menu.hakkinda / gizlilik | Hakkında · Gizlilik | ✓ |
 | menu.paylas | Uygulamayı paylaş | ＋ ⋮ menüde ve Hakkında penceresinde |
 | paylas.baslik | Uygulamayı paylaş | ＋ |
-| paylas.metin | Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları. Play Store: {bağlantı} | ＋ sakin, ünlemsiz; Telegram'da bağlantı ayrı alanda gider |
+| paylas.metin | Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. Play Store: {bağlantı} | ＋ sakin, ünlemsiz; Telegram'da bağlantı ayrı alanda gider |
 | paylas.secenek | WhatsApp · Telegram · Diğer | ＋ üç eşit düğme |
 | paylas.kapat | Kapat | ＋ |
 | menu.oneri | Öneri ve tavsiyeleriniz | ＋ |
@@ -271,7 +271,7 @@ Kural: "vefat etti" / "Hakk’a yürüdü" YAZILMAZ → "şehit oldu". Ölüm ne
 | oneri.tamam | Teşekkür ederiz · Mesajınız bize ulaştı. · Tamam | ＋ sahibin metni |
 | dua.suzgec | Tümü + bölümde en sık geçen en çok 4 konu | ＋ basitlik; kalan konular yalnız "Tümü" içinde |
 | menu.sifirla | Seçimi sıfırla (test) — bildirim: Seçim sıfırlandı | ✓ yalnız prototip |
-| hakkinda.metin | İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1 · prototip | ✎ "Kaydettiğiniz ilanları Sayfam’da saklar, okuduklarınızı sayar." → merhum merkezli; kaynak/yöntem anlatılmaz (§16) |
+| hakkinda.metin | Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1 · prototip | ✎ "Kaydettiğiniz ilanları Sayfam’da saklar, okuduklarınızı sayar." → merhum merkezli; kaynak/yöntem anlatılmaz (§16) |
 | gizlilik.metin | Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur. | ✎ aile formu cümlesi eklendi |
 | modal.kapat | Tamam | ✓ |
 
@@ -307,7 +307,7 @@ Kural: içerik yok (ad, cami, saat, sayı yazılmaz); günde en çok 2; 21:00–
 | Anahtar | Metin | Durum · neden |
 |---|---|---|
 | sekme.1 | İlanlar | ✓ 78 px sekmeye "Cenaze İlanları" sığmaz; ekran başlığı tam adı taşır |
-| sekme.2 | Tam Sayfa | ✓ |
+| sekme.2 | ~~Tam Sayfa~~ | KALDIRILDI (16.10.2026, 0.1.8): sekmeler İlanlar · Sayfam · Dualar · Hatırla |
 | sekme.3 | Sayfam | ✓ |
 | sekme.4 | Dualar | ＋ (§26) |
 | sekme.5 | Hatırla | ＋ Kaybettiklerimiz + Tarihte Bugün tek sekmede; 6 sekmede "Kaybettiklerimiz" etiketi 63 px, sekme 65 px — sığmıyor |
@@ -316,8 +316,8 @@ Kural: içerik yok (ad, cami, saat, sayı yazılmaz); günde en çok 2; 21:00–
 | Anahtar | Metin |
 |---|---|
 | magaza.baslik | Kimin Cenazesi: Cenaze İlanı |
-| magaza.kisa (≤80 karakter; genel metin, "merhumlar" çoğulu kişiye bağlı değil) | İl ve ilçenizdeki cenaze ilanları her gün bir arada; merhumları rahmetle anın. |
-| magaza.uzun.giris | Kimin Cenazesi, il ve ilçenizdeki cenaze ilanlarını her sabah bir arada gösterir: vefat edenin adı, cenaze namazının kılınacağı cami ve vakit, defin yeri. Rahmetle andığınız kişileri Sayfanıza ekleyebilir, onlar için okuduğunuz Fâtiha ve Yâsîn’leri sayabilirsiniz. |
+| magaza.kisa (≤80 karakter; genel metin, "merhumlar" çoğulu kişiye bağlı değil) | Şehrinizdeki cenazelerden haberdar olun; merhumları rahmetle anın. |
+| magaza.uzun.giris | Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. Uygulama, cenaze ilanlarını her sabah bir arada gösterir: vefat edenin adı, cenaze namazının kılınacağı cami ve vakit, defin yeri. Rahmetle andığınız kişileri Sayfanıza ekleyebilir, onlar için okuduğunuz Fâtiha ve Yâsîn’leri sayabilirsiniz. |
 | magaza.yasak | "En güncel", "binlerce ilan", "belediye sitelerinden otomatik", ünlem, rakamla ilan sayısı |
 
 ## 14. Kısa ve düz dil turu (site sahibi 08.10.2026)
@@ -336,7 +336,7 @@ Kural: içerik yok (ad, cami, saat, sayı yazılmaz); günde en çok 2; 21:00–
 | aile.bitti.aciklama | Bilgiler doğrulandıktan sonra ilan {il} sayfasında yayımlanır. Başınız sağ olsun. | İlan kontrolden sonra {il} sayfasında yayımlanır. Başınız sağ olsun. |
 | sehit.bitti | İlan, resmî duyuruyla karşılaştırıldıktan sonra Tam Sayfa’da yayımlanır. Şehidimizin ruhu şad olsun. | İlan kontrolden sonra Tam Sayfa’da yayımlanır. Şehidimizin ruhu şad olsun. |
 | izin.hayir.bildirim | Dilediğinizde menüden açabilirsiniz | Bildirim gönderilmeyecek |
-| hakkinda.metin | Kimin Cenazesi, il ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz merhumları saklar, onlar için okuduklarınızı sayar. | İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. |
+| hakkinda.metin | Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz merhumları saklar, onlar için okuduklarınızı sayar. | İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. |
 | gizlilik.metin | Seçtiğiniz il ve ilçe, Sayfanıza eklediğiniz merhumlar ve okuduklarınızın sayısı yalnız bu cihazda tutulur. Konum izni istenmez; adresinizi siz seçersiniz. Cenaze ilanı paylaşırken girdiğiniz ölüm belgesi kodu yalnız doğrulama için kullanılır; belge dosyası saklanmaz. Uygulamada reklam yoktur. | Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur. *(belge dosyasının saklanmadığı form adımında zaten yazıyor)* |
 | dua.3 (Fâtiha ve Yâsîn) | … gelenektir. Okuduklarınızı Sayfam’daki sayaçlarla merhum adına sayabilirsiniz. | Vefat eden yakınlarımız için Fâtiha ve Yâsîn okumak Anadolu’da köklü bir gelenektir. |
 | hata.baglanti | Bağlantı kurulamadı. Cenaze ilanları, bağlantı geldiğinde yenilenir. | Bağlantı kurulamadı. İlanlar bağlantı gelince yenilenir. |
@@ -443,7 +443,7 @@ Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.ka
 | gorevli.baslikKartı | "{görev yeri} {unvan}" / "{ad soyad}" / "{il} · {ilçe}" | ＋ sabit başlık kartı; ör. Korgan Merkez Camii İmam Hatibi |
 | gorevli.ilanPaylas / ilanlarim | İlan paylaş · İlanlarım ({n}) | ＋ iki büyük düğme |
 | gorevli.yerKilit | İl ve ilçe görev yerinize göre sabittir. | ＋ |
-| kart.gorevli | Mahallenin din görevlisi paylaştı | ＋ rozet ("Yakını paylaştı" kalıbı); altında görev yeri |
+| kart.gorevli | — (KALDIRILDI 16.10.2026: ilanın kaynağı gösterilmez) | ＋ rozet ("Yakını paylaştı" kalıbı); altında görev yeri |
 
 ### §37 düzeltmeleri ve eklemeler (15.10.2026 akşam; yukarıdaki satırların yerine geçer)
 | Anahtar | Metin | Durum · neden |
@@ -472,3 +472,64 @@ Kaynak: `uygulama/lib/cekirdek/metin.dart` (`M.gorevli*`, `M.ilanKutusu*`, `M.ka
 |---|---|---|
 | gorevli.fotoAciklama | KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez. | ✎ kart ekranının EN ÜSTÜ; kuyruk istisnası metni ("…en çok 7 gün…") aynen kalır |
 | gorevli.kartIslenemedi | Fotoğraf işlenemedi. Lütfen kartı yeniden çekin. | ＋ karartma/tanıma hatasında fotoğraf GÖNDERİLMEZ |
+
+## 0.1.6 — Tam Sayfa ödemesi (ödeme satırları 0.1.8'de KALDIRILDI), e-Devlet kodunun kalkması, haritada aç (site sahibi 15.10.2026)
+GEÇERLİ olanlar; yukarıdaki satırlarla çelişirse BU bölüm kazanır.
+| anahtar | metin | not |
+|---|---|---|
+| form.ust | Adım {n} / 4 | ✎ e-Devlet "Ölüm belgesi doğrulama" adımı HER YERDEN kalktı: 1 vefat eden · 2 cenaze · 3 başvuran · 4 yasal beyan. Tek doğrulama telefon kodu |
+| adim2.* (baslik, aciklama, alan, ipucu), belge.dugme, belge.tamam | — | KALDIRILDI |
+| kart.dogrulandi | — | KALDIRILDI ("Doğrulandı" rozeti yok; yalnız "Yakını paylaştı" / "Mahallenin din görevlisi paylaştı") |
+| aile.giris.madde1 | Telefonunuza gönderilen kodla doğrulanır | ✎ "e-Devlet belge kodu isteğe bağlıdır" |
+| aile.giris.madde4 | Telefon numaranız ilanda görünmez | ✎ "Belge dosyası saklanmaz" |
+| gizlilik.metin | "…ölüm belgesi kodu…" cümlesi çıkarılır | uygulama artık belge kodu istemiyor |
+| odeme.dugme | Google Play ile öde | ✎ "Ödemeyi onayla" |
+| odeme.satir | Tutar (mağaza fiyatı; okunamazsa 200,00 ₺) · Yayın: Ödemeden sonra | "Hesap" satırı kalktı |
+| odeme.not | Ödeme Google Play penceresinde alınır; kart bilgisi uygulamaya gelmez. | ✎ |
+| odeme.kapali | Ödeme şu an alınamıyor, kısa süre sonra açılacak. | ürün Play'de tanımlı değilse düğme pasif, fiyat kartı görünür |
+| odeme.iptal | Ödeme tamamlanmadı. Bilgileriniz saklandı. | düğme "Yeniden deneyin" |
+| odeme.dogrulanamadi | Ödeme doğrulanamadı. Ücret çekildiyse Play size iade eder; yeniden deneyebilirsiniz. | |
+| odeme.tamam | Ödemeniz alındı, ilanınız yayında — İlan bulunduğunuz il veya ilçenin sayfasında görünür. Başınız sağ olsun. | |
+| tam.harita | Cami · haritada aç · Mezarlık · haritada aç | gerçek bağlantı: Google Haritalar araması "yer, ilçe, il"; kartta ikincil küçük bağlantı |
+| harita.acilamadi | Harita açılamadı | |
+
+### 0.1.6 ek — ücretsiz "cenaze yakını ilanı" KALDIRILDI (site sahibi 15.10.2026 akşam)
+| anahtar | metin | not |
+|---|---|---|
+| ilankutusu.baslik | — | KALDIRILDI (başlık/metin kalıbı yok) |
+| ilankutusu.metin | Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz. | ✎ site sahibi birebir; tek paragraf, ana metin rengi |
+| ilankutusu.kayit | Din görevlisi misiniz? Kayıt olun. | altın, altı çizili |
+| ilankutusu.yakin ("Cenaze yakını olarak ilanı paylaş"), ilankutusu.veya | — | KALDIRILDI |
+| kart.yakini | Tam Sayfa | ✎ "Yakını paylaştı" → rozet yalnız Tam Sayfa (200 ₺) kaydında; "Mahallenin din görevlisi paylaştı" aynen |
+| aile.giris.* (aile formu giriş kartı) | — | AileFormu(tam:false) hiçbir yerden açılmaz; Worker tam olmayan başvuruyu 400 "aile ilanı kaldırıldı" ile reddeder |
+
+## 0.1.8 — Tam Sayfa kategorisi KALDIRILDI (site sahibi 16.10.2026: "uygulamadan Tam Sayfa ilan kategorisini tamamen çıkar")
+Yukarıdaki satırlarla çelişirse BU bölüm kazanır.
+| anahtar | metin | not |
+|---|---|---|
+| sekme.* | İlanlar · Sayfam · Dualar · Hatırla | 4 eşit sekme; "Tam Sayfa" sekmesi ve simgesi yok |
+| tam.*, form.tam.*, fiyat.*, adim5.tam.*, odeme.*, sehit.tam.dugme, gorevli.dugme (Tam Sayfa düğmesi) | — | KALDIRILDI (ödeme, 200 ₺, Google Play Faturalandırma yok) |
+| kart.yakini | — | KALDIRILDI ("Tam Sayfa" rozeti yok) |
+| sehit.bitti | İlan kontrolden sonra ilanlarda yayımlanır. Şehidimizin ruhu şad olsun. | ✎ kullanılmıyor (şehit formu yok) |
+| ilankutusu.sehit | Şehit cenazesi ilanı nasıl verilir? | ＋ ilan kutusunda "Din görevlisi misiniz? Kayıt olun." bağlantısının altında; altın, altı çizili; dokununca sehit.bilgi penceresi |
+| sehit.bilgi.* | (değişmedi) | artık İlanlar ekranındaki ilan kutusundan açılır |
+| harita.cami / harita.mezarlik | Cami · haritada aç · Mezarlık · haritada aç | ilan kartındaki ikincil bağlantılar (anahtar tam.harita → harita) |
+
+## Din görevlisi — Diyanet e-posta doğrulaması (16.10.2026, URUN §45; yukarıdaki kart/telefon/foto satırlarının YERİNE geçer)
+KALDIRILDI: gorevli.telefon/not, beyan, basvuruGonder, fotoUst, fotoAciklama, fotoYonerge, kamera, deneme2, kartIslenemedi, kuyrukUyari, fotoSaklama, girisYap/girisBaslik/girisAciklama, ciftKayit/Not, girisNot, onaylandi, kodGirin (telefon).
+| anahtar | metin | not |
+|---|---|---|
+| gorevli.epostaBaslik | Din görevlisi olduğunuzu teyit edelim | kılavuz ekranı başlığı |
+| gorevli.epostaAciklama | Diyanet İşleri Başkanlığının size tahsis ettiği e-posta adresinize bir kod göndereceğiz. Gelen kodu bir sonraki ekrana yazın. | |
+| gorevli.kullanici / alanAdi | Diyanet kullanıcı adınız · @diyanet.gov.tr | alan adı sabit, değiştirilemez |
+| gorevli.kodGonderDugme | Kodu gönder | |
+| gorevli.nasilGiris | Diyanet e-posta adresime nasıl giriş yapabilirim? | pencere: 6 madde (M.gorevliNasil6) |
+| gorevli.kodGitti | Kod gönderildi: {kullanıcı}@diyanet.gov.tr | kod ekranı; altında 5 maddelik tarif (M.gorevliTarif5) |
+| gorevli.kodDogrulaDugme | Doğrula ve paneli aç | |
+| kod.bekle | Kodu yeniden gönder (5 dk) → geri sayım (4:59 …) | 5 DAKİKA (sahibi 16.10 08:05) |
+| gorevli.kodGecerli | Kod 10 dakika geçerlidir. | |
+| gorevli.kodYanlis / kodGecersiz | Kod yanlış ya da süresi dolmuş. Yeniden deneyin ya da yeni kod isteyin. · Kod 5 kez yanlış girildi; yeni kod isteyin. | |
+| gorevli.profilYok | Görev bilgilerinizi ilk ilanınızda bir kez yazacaksınız. | panel başlık kartı (profil yokken) |
+| gorevli.profilBaslik / kaydetDugme | Görev bilgileriniz · Kaydet ve devam et | ilk "İlan paylaş" |
+| gorevli.yerDegisti | Görev yerim değişti | ⋮ menüsünde ve sayfa başlığı; alanlar: görev yeri, il, ilçe, unvan; düğme "Kaydet" |
+| gorevli.cikisYap | Çıkış yap | ⋮ menüsü |

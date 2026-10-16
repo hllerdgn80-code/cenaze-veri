@@ -1,6 +1,6 @@
 // Din görevlisi Worker istemcisi (URUN-TASLAGI §37; Worker: deploy/aile-worker/src/gorevli.js).
-// Uç noktalar: POST /gorevli/kayit, /kod, /giris, /dogrula, /ilan, /ilan/iptal, /ilan/duzenle; GET /gorevli/durum, /ilanlarim.
-// Kart fotoğrafı yalnız POST gövdesinde gider; cihazda diske YAZILMAZ. Oturum belirteci Depo'da tutulur.
+// Uç noktalar (URUN §45): POST /gorevli/eposta-kod, /eposta-dogrula, /profil, /gorev-yeri, /ilan, /ilan/iptal, /ilan/duzenle; GET /gorevli/durum, /ilanlarim.
+// Oturum belirteci Depo'da tutulur. Kart fotoğrafı ve telefon kodu yolları kaldırıldı.
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io' show SocketException;
@@ -17,7 +17,6 @@ class GorevliServisi {
   const GorevliServisi({required this.istemci, this.kok = aileKok});
 
   static const _zamanAsimi = Duration(seconds: 15);
-  static const _fotoZamanAsimi = Duration(seconds: 60); // OCR birkaç saniye sürebilir
 
   Future<AileYanit> _istek(String yontem, String yol, {Map<String, dynamic>? govde, String? oturum, Duration? sure}) async {
     try {
@@ -51,20 +50,24 @@ class GorevliServisi {
     }
   }
 
-  /// Adım 1 (foto yok): bilgiler (ad_soyad, il, ilce, gorev_yeri, unvan, telefon) -> {durum:"foto_gerek", kayit_id, liste_eslesti}
-  Future<AileYanit> kayit(Map<String, dynamic> bilgi) => _istek('POST', '/gorevli/kayit', govde: bilgi);
+  /// Diyanet e-posta kodu iste: kullanıcı adı (@ öncesi). Yanıt {durum:"kod_gonderildi", adres}; 429 {hata:"cok_sik_tekrar", bekle_sn} | gunluk_kod_siniri
+  Future<AileYanit> epostaKodGonder(String kullanici) => _istek('POST', '/gorevli/eposta-kod', govde: {'kullanici': kullanici});
 
-  /// Adım 2: kayit_id + foto_base64 (cihazda ≤1600 px). Yanıt: onayli | kuyruk | deneme2 | kontrol_bekliyor (+ dogrulama:"kod", kanal)
-  Future<AileYanit> foto(String kayitId, String fotoBase64) =>
-      _istek('POST', '/gorevli/kayit', govde: {'kayit_id': kayitId, 'foto_base64': fotoBase64}, sure: _fotoZamanAsimi);
+  /// Kod doğruysa {durum:"onayli", oturum, profil_tamam, ...}: panel HEMEN açılır. Yanlış: 400 {hata:"kod_yanlis", kalan_deneme}; 429 {durum:"red"}; 410 süresi doldu
+  Future<AileYanit> epostaDogrula(String kullanici, String kod) =>
+      _istek('POST', '/gorevli/eposta-dogrula', govde: {'kullanici': kullanici, 'kod': kod});
 
-  Future<AileYanit> giris(String telefon) => _istek('POST', '/gorevli/giris', govde: {'telefon': telefon});
-  Future<AileYanit> kodYenidenGonder(String kayitId) => _istek('POST', '/gorevli/kod', govde: {'kayit_id': kayitId});
-  Future<AileYanit> dogrula(String kayitId, String kod) => _istek('POST', '/gorevli/dogrula', govde: {'kayit_id': kayitId, 'kod': kod});
+  /// İlk "İlan paylaş"ta bir kez: ad_soyad, il, ilce, gorev_yeri, unvan
+  Future<AileYanit> profil(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/profil', govde: govde, oturum: oturum);
+
+  /// "Görev yerim değişti": il, ilce, gorev_yeri, unvan (ad değişmez); eski ilanlar değişmez
+  Future<AileYanit> gorevYeri(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/gorev-yeri', govde: govde, oturum: oturum);
 
   Future<AileYanit> durum(String oturum) => _istek('GET', '/gorevli/durum', oturum: oturum);
   Future<AileYanit> ilanlarim(String oturum) => _istek('GET', '/gorevli/ilanlarim', oturum: oturum);
   Future<AileYanit> ilan(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/ilan', govde: govde, oturum: oturum);
   Future<AileYanit> duzenle(String oturum, Map<String, dynamic> govde) => _istek('POST', '/gorevli/ilan/duzenle', govde: govde, oturum: oturum);
+  /// KVKK aydınlatmasını kabul ettiğini hesaba yazar (URUN §50)
+  Future<AileYanit> kvkkKabul(String oturum) => _istek('POST', '/gorevli/kvkk-kabul', oturum: oturum);
   Future<AileYanit> iptal(String oturum, String ilanId) => _istek('POST', '/gorevli/ilan/iptal', govde: {'ilan_id': ilanId}, oturum: oturum);
 }

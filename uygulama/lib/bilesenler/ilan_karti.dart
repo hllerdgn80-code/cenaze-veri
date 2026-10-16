@@ -13,7 +13,9 @@ import '../cekirdek/ilan.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
+import '../ekranlar/gorevli_panel.dart';
 import 'ikonlar.dart';
+import 'kart_sayfa.dart';
 import 'ortak.dart';
 
 class IlanKarti extends StatelessWidget {
@@ -38,25 +40,14 @@ class IlanKarti extends StatelessWidget {
         Hap(M.kartBebek, zemin: r.vurguZemin, renk: r.vurguMetin),
         const SizedBox(height: R.s3),
       ],
-      if (ilan.gorevli) ...[
-        Hap(M.kartGorevli, zemin: r.vurguZemin, renk: r.vurguMetin),
-        if ((ilan.gorevYeri ?? '').isNotEmpty) ...[
-          const SizedBox(height: R.s1),
-          Text(ilan.gorevYeri!, textAlign: TextAlign.center, style: Y.soluk(r)),
-        ],
-        const SizedBox(height: R.s3),
-      ],
+      // 16.10.2026 sahibi: ilanın kaynağı (din görevlisi rozeti, görev yeri) kartta GÖSTERİLMEZ
       Text(trBuyuk(ilan.etiket), textAlign: TextAlign.center, style: Y.ustEtiket(r)),
       const SizedBox(height: R.s2),
       Text('${sh && ilan.rutbe != null ? '${ilan.rutbe} ' : ''}${ilan.adSoyad}',
           textAlign: TextAlign.center, style: Y.kartAd(r)),
       const SizedBox(height: 2),
-      if (ilan.vefatTarihi != null)
-        Text(
-          '${sh ? 'Şehit oldu' : 'Vefat'}: ${tarih(ilan.vefatTarihi)}${ilan.yas != null ? ' · ${ilan.yas} yaş' : ''}',
-          textAlign: TextAlign.center,
-          style: Y.soluk(r),
-        ),
+      // 16.10.2026 sahibi (URUN §51): kartta vefat tarihi GÖSTERİLMEZ; yalnız yaş (veri kalır)
+      if (ilan.yas != null) Text('${ilan.yas} yaş', textAlign: TextAlign.center, style: Y.soluk(r)),
       if ((ilan.mahalle ?? '').isNotEmpty || (ilan.ilce ?? '').isNotEmpty)
         Text(
           [baslikHarf(ilan.mahalle), ilan.ilce ?? ''].where((x) => x.isNotEmpty).join(' · '),
@@ -121,6 +112,10 @@ class IlanKarti extends StatelessWidget {
       ],
     ];
 
+    // URUN §51: ekranda tek ilan — liste ekranı sağlıyorsa kart en az görünür yükseklik kadar olur, içerik ortalanır
+    final sayfa = KartSayfasi.of(context);
+    final minYuk = sayfa?.yukseklik == null ? 0.0 : (sayfa!.yukseklik! - R.s3 - 2 * R.s5).clamp(0.0, double.infinity);
+    final duzelt = !sayacli && _duzeltebilir(context, ilan);
     final kart = Container(
       margin: const EdgeInsets.only(bottom: R.s3),
       decoration: BoxDecoration(
@@ -134,8 +129,12 @@ class IlanKarti extends StatelessWidget {
           if (sh) Positioned(left: 0, right: 0, top: 0, child: Container(height: 4, color: R.sehitAl)),
           Padding(
             padding: const EdgeInsets.all(R.s5),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: icerik),
+            child: ConstrainedBox(
+              constraints: BoxConstraints(minHeight: minYuk),
+              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.stretch, children: icerik),
+            ),
           ),
+          if (duzelt) Positioned(top: R.s2, right: R.s2, child: _DuzeltMenu(ilan: ilan)),
           if (sayacli)
             Positioned(
               top: R.s2,
@@ -145,7 +144,7 @@ class IlanKarti extends StatelessWidget {
         ],
       ),
     );
-    return kart;
+    return sayfa == null ? kart : KartIsareti(kayit: sayfa.kayit, child: kart);
   }
 }
 
@@ -356,6 +355,8 @@ class _SayacBlokState extends State<SayacBlok> {
     final toplam = s.values.fold<int>(0, (a, b) => a + b);
 
     return Column(children: [
+      Text(M.sayacBaslik, key: const ValueKey('sayac_baslik'), textAlign: TextAlign.center, style: Y.soluk(r)),
+      const SizedBox(height: R.s2),
       for (final t in sayacTurleri) ...[
         Padding(
           padding: const EdgeInsets.only(bottom: 6),
@@ -450,5 +451,64 @@ class _SayacBlokState extends State<SayacBlok> {
     if (!mounted) return;
     setState(() => _bekleyen = null);
     if (bek != null) await _degis(bek, 1);
+  }
+}
+
+
+/// URUN §49: din görevlisi oturumu varsa ve hesabın il (ve ilçe) bilgisi ilanla aynıysa, OTOMATİK ilan (görevli/şehit olmayan) düzeltilebilir
+bool _duzeltebilir(BuildContext context, Ilan ilan) {
+  if (ilan.gorevli || ilan.sehit) return false;
+  final d = Kapsam.of(context);
+  final yer = d.depo.gorevliYer;
+  if (d.depo.gorevliOturum == null || yer == null || yer.il.isEmpty) return false;
+  final il = ilan.il ?? d.il ?? '';
+  if (trKucuk(il) != trKucuk(yer.il)) return false;
+  final ilce = ilan.ilce ?? '';
+  return ilce.isEmpty || yer.ilce.isEmpty || trKucuk(ilce) == trKucuk(yer.ilce);
+}
+
+/// Otomatik ilan kartının ⋮ menüsü: "Düzelt" -> panelin ilan formu ilanın verisiyle dolu açılır
+class _DuzeltMenu extends StatelessWidget {
+  final Ilan ilan;
+  const _DuzeltMenu({required this.ilan});
+
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return PopupMenuButton<String>(
+      key: const ValueKey('kart_duzelt_menu'),
+      tooltip: 'Seçenekler',
+      color: r.yuzey2,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(R.dugme)),
+      icon: Ikon('menu', boyut: 20, renk: r.metin3),
+      onSelected: (_) {
+        final d = Kapsam.oku(context);
+        final yer = d.depo.gorevliYer!;
+        final np = ilan.namazParcalari;
+        Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
+          builder: (_) => GorevliIlanFormu(
+            hesap: GorevliHesap('onayli', '', yer.il, yer.ilce, '', null),
+            duzeltmeId: ilan.id,
+            duzenle: {
+              'ad_soyad': ilan.adSoyad,
+              'cinsiyet': ilan.cinsiyet,
+              'yas': ilan.yas,
+              'vefat_tarihi': ilan.vefatTarihi,
+              'namaz_tarihi': ilan.namazTarihi,
+              'mahalle': ilan.mahalle,
+              'defin_yeri': ilan.definYeri,
+              'namaz_vakti': np[0],
+              'namaz_cami': np[1],
+            },
+          ),
+        ));
+      },
+      itemBuilder: (_) => [
+        PopupMenuItem<String>(
+          value: 'duzelt',
+          child: Center(child: Text(M.gorevliDuzelt, style: TextStyle(color: r.metin))),
+        ),
+      ],
+    );
   }
 }

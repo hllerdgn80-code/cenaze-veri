@@ -59,7 +59,7 @@ jobs:
       - name: Paketler
         run: flutter pub get
 
-      - name: Uygulama simgesi (L13)
+      - name: Uygulama simgesi (tabutlu daire simge)
         run: dart run flutter_launcher_icons
 
       - name: Android ayarlari (paket adi, ad, izin, imza)
@@ -181,7 +181,7 @@ jobs:
       - name: PNG uret
         run: |
           mkdir -p magaza
-          rsvg-convert -w 1024 -h 500 uygulama/magaza/ozellik-grafigi.svg -o magaza/ozellik-grafigi-1024x500.png
+          cp uygulama/magaza/ozellik-grafigi-1024x500.png magaza/   # 16.10.2026: tabutlu simgeden hazir PNG (eski L13 svg silindi)
           cp uygulama/magaza/ikon-512.png magaza/
           file magaza/*.png
       - uses: actions/upload-artifact@v4

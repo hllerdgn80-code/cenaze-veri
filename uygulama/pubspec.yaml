@@ -1,7 +1,7 @@
 name: kimin_cenazesi
 description: "Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları."
 publish_to: "none"
-version: 0.1.8+17
+version: 0.1.9+18
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -18,9 +18,6 @@ dependencies:
   flutter_svg: ^2.0.16
   workmanager: ^0.10.10
   flutter_local_notifications: ^22.3.2
-  google_mlkit_text_recognition: ^0.17.1   # cihaz içi (internetsiz) metin tanıma: kartta TC karartma; Android minSdk 21+, ~+10 MB
-  image: ^4.12.0                           # piksel düzeyinde karartma + 1600 px küçültme (saf Dart)
-  image_picker: ^1.2.4   # kart fotoğrafı (kamera/galeri); maxWidth/maxHeight ile cihazda küçültülür, ek "image" paketi gerekmez
 
 dev_dependencies:
   flutter_test:
@@ -37,11 +34,11 @@ flutter:
     - assets/ikon/
     - assets/acilis/
 
-# Uygulama simgesi: L13 altin zemin (sahibi 14.10.2026: koyu zemin telefonda sonuk kaliyordu). CI'da `dart run flutter_launcher_icons` ile üretilir.
+# Uygulama simgesi: sahibinin 15.10 sectigi tabutlu daire simge (tasarim/acilis/simge22.png; sahibi 16.10: Play simgesi de bu olsun, eski L13 her yerden silindi). CI'da `dart run flutter_launcher_icons` ile üretilir.
 flutter_launcher_icons:
   android: true
   ios: false
   image_path: "assets/ikon/ikon.png"
-  adaptive_icon_background: "#C9A45C"
+  adaptive_icon_background: "#0F1F2E"
   adaptive_icon_foreground: "assets/ikon/ikon_on.png"
   min_sdk_android: 21

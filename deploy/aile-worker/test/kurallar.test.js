@@ -28,7 +28,7 @@ const j = async (r) => r.json();
 const temel = (ek = {}) => ({
   il: "Adana", ilce: "Seyhan", ad_soyad: "Deneme Örnek Kişi", cinsiyet: "e", yas: 80,
   vefat_tarihi: "2026-10-13", namaz_tarihi: "2026-10-14", namaz_yeri_vakti: "Örnek Camii öğle", defin_yeri: "Örnek Mezarlığı",
-  basvuran: { ad_soyad: "Deneme Başvuran", telefon: "0532 111 22 33", yakinlik: "oğlu" }, beyan: true, ...ek,
+  basvuran: { ad_soyad: "Deneme Başvuran", telefon: "0532 111 22 33", yakinlik: "oğlu" }, beyan: true, tam: true, ...ek, // 15.10.2026: ücretsiz aile ilanı kalktı; her başvuru Tam Sayfa
 });
 
 async function ilanVer(e, g, secenek = {}) {
@@ -36,7 +36,12 @@ async function ilanVer(e, g, secenek = {}) {
   const bj = await j(b);
   assert.equal(b.status, 200, JSON.stringify(bj));
   const d = await isle(istek("/aile/dogrula", { basvuru_id: bj.basvuru_id, kod: bj.gelistirme_kodu }), e, null, { now: NOW });
-  return { durum: d.status, ...(await j(d)) };
+  const dj = await j(d);
+  if (dj.durum === "odeme_bekliyor") { // Tam Sayfa: Play ödemesi (PLAY_SA_JSON yok → istemci makbuzu kabul)
+    const od = await isle(istek("/aile/odeme", { basvuru_id: dj.basvuru_id, purchase_token: `tok-${dj.ilan_id}-abcdefgh`, order_id: "GPA.1", urun: "tam_sayfa_ilan" }), e, null, { now: NOW });
+    return { ...(await j(od)), basvuru_id: dj.basvuru_id };
+  }
+  return { ...dj };
 }
 
 test("yayında: geçerli ilan yayına girer, listede görünür, başvuran sızmaz", async () => {
@@ -51,20 +56,13 @@ test("yayında: geçerli ilan yayına girer, listede görünür, başvuran sızm
   assert.equal(lj.kayitlar.length, 1);
   const k = lj.kayitlar[0];
   assert.equal(k.aile, true);
-  assert.equal(k.dogrulandi, true);
+  assert.equal("dogrulandi" in k, false); // alan çıktıda yok (e-Devlet kodu kalktı)
   assert.equal(k.liste_tarihi, "2026-10-14");
   const ham = JSON.stringify(lj);
   for (const yasak of ["5321112233", "0532", "Deneme Başvuran", "oğlu", "ABCD1234EFGH", "telefon", "eposta", "basvuran", "edevlet", "ip"]) {
     assert.ok(!ham.includes(yasak), `sızıntı: ${yasak}`);
   }
   assert.ok(!JSON.stringify(genel({ basvuran: { telefon: "5329998877" }, id: "1", ad_soyad: "A B" })).includes("5329998877"));
-});
-
-test("dogrulandi: e-Devlet kodu yoksa false", async () => {
-  const e = env();
-  await ilanVer(e, temel());
-  const lj = await j(await isle(istek("/aile/adana.json", null, { method: "GET" }), e, null, { now: NOW }));
-  assert.equal(lj.kayitlar[0].dogrulandi, false);
 });
 
 const redler = [
@@ -84,7 +82,6 @@ const redler = [
   ["ölüm nedeni alanda", temel({ mahalle: "kanser nedeniyle" }), /K8/],
   ["TC alanda", temel({ mahalle: "12345678901" }), /K8/],
   ["uzun alan", temel({ mahalle: "x".repeat(61) }), /K8/],
-  ["e-Devlet biçimi", temel({ edevlet_kodu: "a b" }), /K9/],
 ];
 for (const [ad, g, re] of redler) {
   test(`red: ${ad}`, async () => {
@@ -159,7 +156,7 @@ test("kod kanalı: WhatsApp şablonu varsa WhatsApp ile gider (SMS'e düşmez), 
   const kod = g.template.components[0].parameters[0].text;
   assert.match(kod, /^\d{6}$/);
   const d = await j(await isle(istek("/aile/dogrula", { basvuru_id: rj.basvuru_id, kod }), e, null, { now: NOW }));
-  assert.equal(d.durum, "yayinda");
+  assert.equal(d.durum, "odeme_bekliyor");
 });
 
 test("kod kanalı: WhatsApp başarısız -> Netgsm SMS; ikisi de başarısız -> 502; kanal yok + GELISTIRME=0 -> 503", async () => {
@@ -242,7 +239,7 @@ test("KVKK: 30 gün sonra başvuran bilgisi silinir, ilan kalır", async () => {
   assert.equal(await temizle(e, new Date(NOW.getTime() + 31 * 86400000)), 1);
   const ilan = JSON.parse(await e.AILE.get(`i:${ilan_id}`));
   assert.equal(ilan.basvuran, null);
-  assert.equal(ilan.edevlet_kodu, null);
+  assert.ok(!("edevlet_kodu" in ilan));
   assert.equal(ilan.ad_soyad, "Deneme Örnek Kişi");
 });
 
@@ -277,7 +274,7 @@ test("yeniden gönder: 60 sn içinde 429; sonra yeni kod, eski başvuru geçersi
   const eski = await isle(istek("/aile/dogrula", { basvuru_id: b1.basvuru_id, kod: b1.gelistirme_kodu }), e, null, { now: NOW });
   assert.equal((await j(eski)).durum, "red");
   const yeni = await j(await isle(istek("/aile/dogrula", { basvuru_id: b2.basvuru_id, kod: b2.gelistirme_kodu }), e, null, { now: NOW }));
-  assert.equal(yeni.durum, "yayinda");
+  assert.equal(yeni.durum, "odeme_bekliyor");
   // K6: bu ilan 1 sayılır, ikinci ilan hâlâ geçer
   assert.equal((await ilanVer(e, temel({ ad_soyad: "İki Kişi" }))).durum, "yayinda");
 });

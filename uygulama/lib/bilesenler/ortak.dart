@@ -169,6 +169,8 @@ class Daire extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final r = context.renk;
+    // 16.10.2026 sahibi: eski kavisli (kemer) simge her yerden kalktı; boş durumlarda uygulamanın tabutlu amblemi
+    if (ikon == 'kemer') return Logo(boyut: boyut, yaricap: boyut / 2);
     return Container(
       width: boyut,
       height: boyut,

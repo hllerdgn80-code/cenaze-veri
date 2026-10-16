@@ -57,3 +57,29 @@ export async function kodGonder(env, fetchFn, tel10, kod) {
   if (!kanalVar(env) && env.GELISTIRME === "1") return { kanal: null, kod }; // YALNIZ GELISTIRME=1; üretimde asla
   return { hata: true };
 }
+
+// ---- Diyanet e-posta kodu (URUN-TASLAGI §45, 16.10.2026) ----
+// Adres DAİMA <kullanici>@diyanet.gov.tr. Gönderim: Resend API (Bearer env.RESEND_ANAHTARI). GELISTIRME=1 ve anahtar yoksa kod yanıtta döner.
+export const ESTA = "diyanet.gov.tr";
+export const RESEND_URL = "https://api.resend.com/emails";
+export const EPOSTA_KONU = "Kimin Cenazesi doğrulama kodu";
+export const EPOSTA_GONDEREN = "Kimin Cenazesi <dogrulama@kimincenazesi.com>";
+export const EPOSTA_METNI = (kod) => `Kimin Cenazesi doğrulama kodunuz: ${kod} (10 dakika geçerlidir).`;
+export const epostaVar = (env) => !!env.RESEND_ANAHTARI;
+export const epostaGerekli = (env) => !epostaVar(env) && env.GELISTIRME !== "1";
+/** Döner: {kanal:"eposta"} | {kanal:null, kod} (yalnız GELISTIRME=1 ve anahtar yokken) | {hata:true} */
+export async function epostaKodGonder(env, fetchFn, adres, kod) {
+  if (!adres.endsWith("@" + ESTA)) return { hata: true }; // başka alan adına ASLA
+  if (epostaVar(env)) {
+    try {
+      const r = await fetchFn(RESEND_URL, {
+        method: "POST",
+        headers: { "Authorization": `Bearer ${env.RESEND_ANAHTARI}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ from: EPOSTA_GONDEREN, to: [adres], subject: EPOSTA_KONU, text: EPOSTA_METNI(kod) }),
+      });
+      return r.ok ? { kanal: "eposta" } : { hata: true };
+    } catch { return { hata: true }; }
+  }
+  if (env.GELISTIRME === "1") return { kanal: null, kod };
+  return { hata: true };
+}

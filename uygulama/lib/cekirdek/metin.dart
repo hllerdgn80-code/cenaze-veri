@@ -39,7 +39,7 @@ class M {
   static const kartDefin = 'Defin';
   static const kartKaydet = 'Sayfama kaydet';
   static const kartKaydedildi = 'Sayfamda ✓';
-  static const kartGorevli = 'Mahallenin din görevlisi paylaştı'; // 0.1.5 (§37)
+  // kartGorevli KALDIRILDI 16.10.2026 (sahibi: ilanın kaynağı belli edilmez)
   static const kartBebek = 'Bebek'; // §32: adı olan bebek kaydında rozet
   static const kartKaldir = 'Sayfamdan kaldır';
   static const kaldirSoru = 'Bu kaydı sayfanızdan kaldırmak istiyor musunuz?';
@@ -51,11 +51,10 @@ class M {
   static const bosBugunAciklama = ''; // 15.10.2026 sahibi: "son 7 günün ilanları aşağıda" ifadesi KALDIRILDI; geçmiş günler yalnız tarih şeridinden
   static const bosGecmisBaslik = 'Bu tarihte cenaze ilanı bulunmuyor';
   static String bosGecmisAciklama(String gun, String yer) => '${tarih(gun)} · $yer';
-  static const bosIlGeneli = 'Bu tarihte ilçesi belirtilmemiş cenaze ilanı bulunmuyor.';
+  // bosIlGeneli KALDIRILDI 16.10.2026 (sahibi: boş günde yalnız üstteki satır kalsın)
 
   // 3. Verisi olmayan il
-  static String kaynaksizBaslik(String il) => '${ek(il)} cenaze ilanları şu an yakınları tarafından paylaşılıyor.';
-  static const kaynaksizAciklama = 'Yakınların ya da bölgenizdeki din görevlisinin paylaştığı ilanlar burada görünür.';
+  // kaynaksizBaslik/kaynaksizAciklama KALDIRILDI 16.10.2026 (sahibi)
   static const kaynaksizDugme = 'Cenaze ilanı paylaş';
   static const kaynaksizBugun = 'Bugün';
   static const izinSoru = 'Bölgenizde cenaze olduğunda size haber vermemizi ister misiniz?';
@@ -87,7 +86,8 @@ class M {
   static const kodYer = '6 haneli kod';
   static const kodDugme = 'Doğrula';
   static const kodYeniden = 'Kodu yeniden gönder';
-  static String kodBekle(int sn) => 'Kodu yeniden gönder ($sn sn)';
+  /// Yeniden gönder bekleme 5 dk (sahibi 16.10): tam 300 sn iken "(5 dk)", sonra dakika:saniye geri sayım
+  static String kodBekle(int sn) => sn >= 300 ? 'Kodu yeniden gönder (5 dk)' : 'Kodu yeniden gönder (${sn ~/ 60}:${(sn % 60).toString().padLeft(2, '0')})';
   static const kodEksik = 'Lütfen kodu eksiksiz yazın';
   static const kodGitti = 'Doğrulama kodu gönderildi';
   static const kodHatali = 'Kod doğru değil. Yeniden deneyebilirsiniz.';
@@ -132,6 +132,7 @@ class M {
   static const sayfamBosBaslik = 'Sayfanızda henüz kimse yok';
   static const sayfamBosAciklama =
       'Merhuma/merhumeye ait bilgileri buraya ekleyebilirsiniz. Sayfama eklediğiniz bilgiler silinmez.';
+  static const sayacBaslik = 'Okuma sayacı — her dokunuşta bir artar'; // sahibi 16.10.2026: kutucukların sayaç olduğu üstte yazsın
   static const sayacGeri = 'Geri al';
   static const cinsSoru = 'Merhum mu, merhume mi?';
   static const cinsMerhum = 'Merhum';
@@ -182,7 +183,7 @@ class M {
   static const menuPaylas = 'Uygulamayı paylaş';
   static const menuOneri = 'Öneri ve tavsiyeleriniz';
   static const magazaBaglanti = 'https://play.google.com/store/apps/details?id=com.kimincenazesi.app';
-  static const paylasMetin = 'Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları. Play Store: $magazaBaglanti';
+  static const paylasMetin = 'Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. Play Store: $magazaBaglanti';
   static const oneriBaslik = 'Öneri ve tavsiyeleriniz';
   static const oneriMesaj = 'Mesajınız';
   static const oneriMesajYer = 'Görüşünüzü yazın';
@@ -194,7 +195,7 @@ class M {
   static const oneriTamamDugme = 'Tamam';
   static const hakkindaBaslik = 'Kimin Cenazesi';
   static const hakkindaMetin =
-      'İl ve ilçenizdeki cenaze ilanlarını her gün bir arada gösterir. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.4';
+      'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.9';
   static const gizlilikBaslik = 'Gizlilik';
   static const gizlilikMetin =
       'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.';
@@ -225,19 +226,58 @@ class M {
   static const gorevliUst = 'Din görevlisi';
   static const gorevliBaslik = 'Din Görevlisi İlanı';
   static const gorevliGirisEtiket = 'Din görevlileri için';
-  static const gorevliGirisNot = 'Hesabınız Diyanet personel kartınızla doğrulanır.';
   static const gorevliMadde1 = 'Cami ve köy cenazelerini ilk siz duyurabilirsiniz';
   static const gorevliMadde2 = 'İl ve ilçe görev yerinize göre sabittir';
   static const gorevliMadde3 = 'İlanlarınızı panelden düzenler ya da kaldırırsınız';
+  // ---- Diyanet e-posta doğrulaması (URUN §45, 16.10.2026) ----
+  static const gorevliEpostaBaslik = 'Din görevlisi olduğunuzu teyit edelim';
+  static const gorevliEpostaAciklama = 'Diyanet İşleri Başkanlığının size tahsis ettiği e-posta adresinize bir kod göndereceğiz. Gelen kodu bir sonraki ekrana yazın.';
+  static const gorevliKullanici = 'Diyanet kullanıcı adınız';
+  static const gorevliKullaniciYer = 'kullaniciadi';
+  static const gorevliAlanAdi = '@diyanet.gov.tr';
+  static const gorevliKodGonderDugme = 'Kodu gönder';
+  static const gorevliNasilGiris = 'Diyanet e-posta adresime nasıl giriş yapabilirim?';
+  static const gorevliNasilBaslik = 'Diyanet e-posta adresiniz';
+  /// Kılavuz penceresi: 6 kısa madde
+  static const gorevliNasil6 = [
+    'Diyanet her personeline bir e-posta adresi verir.',
+    'Adresiniz: DİBBYS kullanıcı adınız@diyanet.gov.tr',
+    'Tarayıcıya posta.diyanet.gov.tr yazın.',
+    'Kullanıcı adı: kullanıcıadınız@diyanet.gov.tr',
+    'Şifre: DİBBYS şifreniz. Giriş yapın.',
+    'Gelen kutusundaki kodu uygulamaya girin.',
+  ];
+  /// Kod ekranındaki 5 madde (kişinin adı dolu)
+  static List<String> gorevliTarif5(String adres) => [
+        'Adresiniz: $adres',
+        'Tarayıcıya posta.diyanet.gov.tr yazın.',
+        'Kullanıcı adı: $adres',
+        'Şifre: DİBBYS şifreniz. Giriş yapın.',
+        'Gelen kutusundaki kodu aşağıya yazın.',
+      ];
+  static String gorevliKodGitti(String adres) => 'Kod gönderildi: $adres';
+  static const gorevliKodGecerli = 'Kod 10 dakika geçerlidir.';
+  static const gorevliKodDogrulaDugme = 'Doğrula ve paneli aç';
+  static const gorevliKodYanlis = 'Kod yanlış ya da süresi dolmuş. Yeniden deneyin ya da yeni kod isteyin.';
+  static const gorevliKodGecersiz = 'Kod 5 kez yanlış girildi; yeni kod isteyin.';
+  static const gorevliKullaniciHata = 'Kullanıcı adı geçersiz. Yalnız harf, rakam, nokta, tire ve alt çizgi kullanın.';
+  static const gorevliGunlukSinir = 'Bugün için kod sınırına ulaştınız. Yarın yeniden deneyin.';
+  static const gorevliDondurulmus = 'Hesabınız şu an kullanıma kapalı.';
+  static const gorevliProfilYok = 'Görev bilgilerinizi ilk ilanınızda bir kez yazacaksınız.';
+  static const gorevliProfilBaslik = 'Görev bilgileriniz';
+  static const gorevliProfilAciklama = 'İlanlarınız bu görev yeriyle yayımlanır. Bilgiler hesabınızda saklanır.';
+  static const gorevliKaydetDugme = 'Kaydet ve devam et';
+  static const gorevliYerDegisti = 'Görev yerim değişti';
+  static const gorevliYerDegistiAciklama = 'Yeni ilanlarınız bu görev yeriyle paylaşılır; önceki ilanlar değişmez.';
+  static const gorevliYerGuncellendi = 'Görev yeriniz güncellendi.';
+  static const gorevliTamam = 'Tamam';
+  static const gorevliCikisYap = 'Çıkış yap';
+  static const gorevliCikisYapildi = 'Çıkış yaptınız.';
   static const gorevliAd = 'Ad soyad';
   static const gorevliAdYer = 'Kartınızdaki gibi';
   static const gorevliYer = 'Görev yeri';
   static const gorevliYerYer = 'Cami ya da köy adı';
   static const gorevliUnvan = 'Unvan';
-  static const gorevliTelefon = 'Cep telefonu';
-  static const gorevliTelefonYer = '5xx xxx xx xx';
-  static const gorevliTelefonNot = 'Telefon numaranız yalnız doğrulama ve bilgilendirme için kullanılır; ilanlarda görünmez.';
-  static const gorevliKodAciklama = 'Telefonunuza gönderilen 6 haneli kodu girin.';
   // [ekrandaki, Worker değeri]
   static const gorevliUnvanlar = [
     ['İmam-Hatip', 'İmam-Hatip'],
@@ -247,20 +287,6 @@ class M {
     ['Din Hizmetleri Uzmanı', 'Din Hizmetleri Uzmanı'],
     ['Müftü Yardımcısı', 'Müftü Yardımcısı'],
   ];
-  static const gorevliDevam = 'Devam';
-  static const gorevliListedeBulundu = 'Adınız müftülük listesinde bulundu. Şimdi kartınızı doğrulayalım.';
-  static const gorevliListedeYok = 'Adınız müftülük listesinde bulunamadı. Kartınızın fotoğrafıyla devam edebilirsiniz; başvurunuz ayrıca kontrol edilir.';
-  static const gorevliFotoUst = 'Diyanet personel kartı';
-  static const gorevliFotoYonerge = 'Diyanet İşleri Başkanlığı\'nın size verdiği personel kimlik kartınızın ön yüzünü çekin.';
-  static const gorevliFotoAciklama =
-      'KVKK uyarınca personel kartınızın fotoğrafı saklanmaz ve veri tabanında tutulmaz; doğrulama tamamlandığında otomatik olarak silinir. TC kimlik numaranız sistemimizde görünmez.';
-  static const gorevliKartIslenemedi = 'Fotoğraf işlenemedi. Lütfen kartı yeniden çekin.';
-  static const gorevliKamera = 'Personel kartımı çek'; // yalnız uygulama içi kamera; galeri seçeneği yok
-  static const gorevliDeneme2 = 'Kart doğrulanamadı. Işığı kontrol edip bir kez daha çekin.';
-  static const gorevliBeyan = 'Verdiğim bilgilerin doğru olduğunu, yanıltıcı bilgi vermem hâlinde hakkımda yasal işlem yapılmasını kabul ediyorum.';
-  static const gorevliBasvuruGonder = 'Başvuruyu gönder';
-  static const gorevliKuyrukUyari = 'Doğrulama yapılamadı; fotoğrafınız en çok 7 gün kontrol için saklanır, sonra silinir.';
-  static const gorevliFotoSaklama = 'Doğrulama için kartınızın fotoğrafı en çok 7 gün kontrol amacıyla saklanır, sonra silinir.';
   static const gorevliKontrolMetin =
       'Başvurunuz kontrol ediliyor. Onaylanınca tarafınıza bilgi verilecek ve din görevlisi paneliniz açılacaktır.';
   // Panel açıkken, onay beklerken (kontrolde)
@@ -268,15 +294,8 @@ class M {
       'Başvurunuz kontrol ediliyor. Hesabınız onaylanınca paneldeki "İlan paylaş" düğmesi etkin hale gelir. Onay verilmezse panel ve hesap silinir.';
   static const gorevliSilindi = 'Başvurunuz onaylanmadı; hesap silindi.';
   static const gorevliOnayBildirimi = 'Başvurunuz onaylandı; din görevlisi paneliniz açıldı.';
-  static const gorevliOturumDoldu = 'Oturumunuz sona erdi. Telefon numaranızla yeniden giriş yapabilirsiniz.';
-  static const gorevliOnaylandi = 'Hesabınız onaylandı';
+  static const gorevliOturumDoldu = 'Oturumunuz sona erdi. Diyanet e-posta kodunuzla yeniden giriş yapabilirsiniz.';
   static const gorevliPaneleGit = 'Panele git';
-  static const gorevliCiftKayit = 'Hesap kontrol bekliyor';
-  static const gorevliCiftKayitNot = 'Bu ad ve görev yeri için başka bir başvuru var. İkisi de kontrol edilecek.';
-  static const gorevliGirisYap = 'Hesabım var';
-  static const gorevliGirisBaslik = 'Telefon ile giriş';
-  static const gorevliGirisAciklama = 'Kayıt olduğunuz telefon numarasına doğrulama kodu göndeririz.';
-  static const gorevliKodGonder = 'Kodu gönder';
   static const gorevliBittiUst = 'Başvuru';
   // Panel
   static const gorevliPanelUst = 'Din görevlisi paneli';
@@ -290,6 +309,7 @@ class M {
   static const gorevliMahalleKoy = 'Mahalle ya da köy';
   static const gorevliGonder = 'İlanı yayımla';
   static const gorevliKaydet = 'Değişikliği kaydet';
+  static const gorevliYerKaydet = 'Kaydet';
   static const gorevliDuzenle = 'Düzenle';
   static const gorevliKaldir = 'İlanı kaldır';
   static const gorevliIlanTamam = 'İlanınız yayımlandı. Allah rahmet eylesin.';
@@ -311,6 +331,23 @@ class M {
     if (t != null) return '$yer $t';
     return u.isEmpty ? yer : '$yer · $u';
   }
+
+  // URUN §49 / §50
+  static const gorevliDuzelt = 'Düzelt';
+  static const gorevliDuzeltmeAlindi = 'Düzeltmeniz alındı; bir sonraki güncellemede yayına girer.';
+  static const gorevliDuzeltildi = 'Düzeltildi';
+  static const gorevliKvkkBaslik = 'Kişisel verilerinizin korunması';
+  static const gorevliKvkkOku = 'Okudum, anladım';
+  static const gorevliKvkkTam = 'Tam metin';
+  static const gorevliKvkkMetin = [
+    'Tuttuğumuz veriler: Diyanet e-posta adresiniz, ad-soyadınız, görev yeriniz ve unvanınız, il-ilçeniz, paylaştığınız ilanlar ve düzeltmeler.',
+    'Amaç: din görevlisi olduğunuzu teyit etmek, ilan paylaşmanızı sağlamak ve kötüye kullanımı önlemek.',
+    'Yer: veriler Cloudflare sunucularında, yurt dışında tutulur.',
+    'Süre: hesabınız açık kaldıkça; ilanlar 120 gün; e-posta kodu 10 dakika.',
+    'Haklarınız (KVKK md. 11): verilerinize erişme, düzeltme ve silme isteğinde bulunabilirsiniz. Gizlilik sayfasından ya da e-posta ile ulaşın.',
+    'Telefon numarası ve personel kartı fotoğrafı toplanmaz.',
+    'Verileriniz üçüncü kişilerle paylaşılmaz.',
+  ];
 
   static const gorevliDurumEtiket = {
     'yayinda': 'Yayında',

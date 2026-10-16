@@ -74,7 +74,8 @@ export function girdiTemizle(g) {
   };
   for (const a of SABIT_METIN) { if (g[a] != null && g[a] !== "") o[a] = s(g[a]); }
   if (g.yas != null && g.yas !== "") o.yas = Number(g.yas);
-  if (g.edevlet_kodu != null && g.edevlet_kodu !== "") o.edevlet_kodu = s(g.edevlet_kodu);
+  // 15.10.2026: e-Devlet ölüm belgesi kodu kalktı; gövdede gelirse YOK SAYILIR. Tek doğrulama telefon kodu.
+  if (g.tam === true) o.tam = true; // Tam Sayfa (200 ₺): ilan ödeme gelene dek yayında değil
   const b = g.basvuran;
   if (!b || typeof b !== "object") return { hata: "basvuran gerekli" };
   o.basvuran = { ad_soyad: s(b.ad_soyad), telefon: telefonNormalize(b.telefon), yakinlik: s(b.yakinlik) }; // 10 hane (5xxxxxxxxx); e-posta alanı kalktı
@@ -120,8 +121,6 @@ export function degerlendir(o, ctx) {
     const m = (MEZARLIK[slug] || {})[mezarlikNorm(o.defin_yeri)];
     if (m && m !== o.ilce) return "K4 mezarlık başka ilçede";
   }
-  // K9 e-Devlet kodu biçimi (verildiyse)
-  if (o.edevlet_kodu != null && !/^[A-Za-z0-9]{8,24}$/.test(o.edevlet_kodu)) return "K9 e-Devlet kodu biçimi geçersiz";
   // K5 ikinci ilan
   if (ctx.ayniKisiVar(slug, adNormalize(o.ad_soyad), o.vefat_tarihi)) return "K5 bu kişi için ilan zaten var";
   // K6 telefon başına 7 günde en çok 2 ilan

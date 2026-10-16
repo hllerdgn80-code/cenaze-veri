@@ -89,6 +89,7 @@ void main() {
     await tester.pumpAndSettle();
     expect((tester.widget(find.byKey(const ValueKey('sayi_f'))) as Text).data, '1');
     expect(find.text('Okuduklarınızın toplamı: 1'), findsOneWidget);
+    expect(find.text('Okuma sayacı — her dokunuşta bir artar'), findsOneWidget); // sahibi 16.10: sayaç başlığı
 
     await tester.tap(find.text('−1').first);
     await tester.pumpAndSettle();
@@ -101,7 +102,7 @@ void main() {
     await tester.pumpWidget(KiminCenazesi(durum: d));
     await tester.pumpAndSettle();
 
-    expect(find.text('Kars’ta cenaze ilanları şu an yakınları tarafından paylaşılıyor.'), findsOneWidget);
+    expect(find.textContaining('yakınları tarafından paylaşılıyor'), findsNothing); // 16.10: kart kaldırıldı
     expect(find.byKey(const ValueKey('ilan_kutusu')), findsOneWidget); // ilan kutusu (15.10.2026)
     expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsNothing);
     expect(find.text('Cenaze ilanı paylaş'), findsNothing); // eski düğme kalktı: kutuyla birleşti

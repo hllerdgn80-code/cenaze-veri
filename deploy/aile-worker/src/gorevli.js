@@ -1,73 +1,53 @@
-// Din görevlisi ilan kapısı — URUN-TASLAGI.md §37 (15.10.2026) + ek kararlar (müftülük listesi, taklit önlemi).
+// Din görevlisi ilan kapısı — URUN-TASLAGI.md §45 (16.10.2026): doğrulama = Diyanet e-posta kodu (kullanıcı adı@diyanet.gov.tr), kod doğruysa panel HEMEN açılır.
+// Eski kart fotoğrafı + telefon kodu uçları (/kayit /kod /giris /dogrula) KALDIRILDI: 410 döner.
 // index.js'ten H (yardımcılar) alır; döngüsel içe aktarma yok.
 // KV (AILE) anahtarları, hepsi "gorevli:" önekli:
-//   k:<kayit_id>            hesap kaydı (ad, il, ilçe, görev yeri, telefon [YALNIZ SMS için; hiçbir çıktıda yok], durum, dogrulama, kod özeti). FOTOĞRAF İÇERMEZ.
-//   t:<sha256(telefon)>     -> kayit_id
-//   tk:<sha256(telefon)>:<gün> günlük yeni kayıt sayacı
-//   ac:<ad|cami katla>      -> kayit_id (TEK HESAP kuralı)
+//   k:<kayit_id>            hesap kaydı: kayit_id = sha256("eposta:"+kullanici)[0:16]; {kullanici, eposta, durum, dogrulama:"diyanet_eposta", ad_soyad/il/ilce/gorev_yeri/unvan (ilk ilan öncesi /gorevli/profil ile)}. TELEFON/FOTOĞRAF YOK.
+//   ek:<kullanici>          bekleyen e-posta kodu {ozet, deneme, zaman} (TTL 10 dk)
+//   eks:<kullanici>:<gün>   günlük kod sayacı (günde ≤5)
 //   liste:<il>:<ilce>       müftülük personel listesi [{ad_soyad, cami}] (CI'dan POST /gorevli/liste ile)
-//   foto:<kayit_id>         YALNIZ durum "kuyruk" iken, TTL 7 gün; karar verilince silinir
+//   foto:<kayit_id>         (eski akış kalıntısı; yeni kayıt üretmez, karar uçları siler)
 //   oturum:<sha256(token)>  -> kayit_id (TTL 180 gün); RED sonrası "RED" işareti (30 gün): uygulama "hesap silindi" der
 //   ot:<kayit_id>           hesabın oturum özetleri (RED'de silinir)
 //   i:<ilan_id>             ilan;  x:<slug>:<ilan_id> dizin (metadata n,v,t);  h:<kayit_id>:<ilan_id> hesabın ilanları
 //   g:<ilan_id>             gözetimdeki hesabın ilanı (çapraz kontrol bekliyor; TTL 8 gün)
 //   n:<ilan_id>             bildirim yapan IP özetleri;  gs:<kayit_id>:<gün> günlük ilan sayacı
 import { ILCELER } from "./veri.js";
-import { telefonNormalize, smsGonder, netgsmVar, kodGonder as kodKanali, kanalGerekli, SMS_METNI, NETGSM_URL, waVar } from "./dogrulama.js";
+import { smsGonder, netgsmVar, epostaVar, epostaGerekli, epostaKodGonder, ESTA, SMS_METNI, NETGSM_URL, telefonNormalize } from "./dogrulama.js";
 export { telefonNormalize, smsGonder, netgsmVar, SMS_METNI, NETGSM_URL };
 import { degerlendir, adGecerli, adNormalize, katla, metinTemiz, bugunTR, gunEkle, ilSlug } from "./kurallar.js";
 
-import { OCR_MODEL, OCR_MAX_TOKEN, ISTEM, UNVANLAR, UNVAN_KATLA, yanitCoz, kartKarar } from "./gorevli_kurallar.js";
-export { OCR_MODEL };
-const FOTO_AZAMI_BAYT = 2 * 1024 * 1024;
-const KAYIT_GOVDE_LIMIT = 3_200_000;
+export const UNVANLAR = ["İmam-Hatip", "Müezzin-Kayyım", "Kur'an Kursu Öğreticisi", "Vaiz", "Müftü", "Müftü Yardımcısı", "Din Hizmetleri Uzmanı"];
+const UNVAN_KATLA = UNVANLAR.map((u) => katla(u));
 const LISTE_GOVDE_LIMIT = 8_000_000;
 const GOVDE_LIMIT = 4096;
-const KOD_OMRU_MS = 15 * 60 * 1000;
-const AZAMI_KOD_DENEME = 3;
+const KOD_OMRU_SN = 600; // 10 dk
+const AZAMI_KOD_DENEME = 5;
+const GUNLUK_KOD = 5;
+const KOD_ARALIK_MS = 300000; // yeniden gönder bekleme: 5 dk (sahibi 16.10 08:05)
+const KULLANICI_RE = /^[a-z0-9._-]{3,40}$/;
 const OTURUM_TTL = 180 * 86400;
 const KONTROL_GUN = 14; // "kontrolde"/"kuyruk" hesabı en çok 14 gün yaşar, sonra KV TTL ile kendiliğinden silinir
 const ILAN_TTL = 120 * 86400;
 const FOTO_TTL = 7 * 86400;
 const GOZETIM_GUN = 7;
-const GUNLUK_YENI_KAYIT = 3;
 const GUNLUK_ILAN = 10;
 const P = "gorevli:";
-const GIRIS_DURUMLARI = ["onayli", "kontrolde", "kuyruk"]; // telefon koduyla oturum alabilen durumlar (ilan YALNIZ "onayli")
+const GIRIS_DURUMLARI = ["onayli", "kontrolde", "kuyruk"]; // panel açılabilen durumlar (yeni akışta hesap doğrudan "onayli"; diğerleri eski kayıtlar için)
 const CAMI_GENEL = new Set(["cami", "camii", "camisi", "mescidi", "mescit", "camii serif", "serif", "koyu", "mahallesi"]);
 export const ONAY_SMS = "Kimin Cenazesi: din görevlisi başvurunuz onaylandı, paneliniz açıldı.";
 export const BEYAN_METNI = "Verdiğim bilgilerin doğru olduğunu, yanıltıcı bilgi vermem hâlinde hakkımda yasal işlem yapılmasını kabul ediyorum.";
 // ---- saf yardımcılar (test edilir) ----
-export function kartEslesir(metin, adSoyad) {
-  const t = " " + katla(metin) + " ";
-  if (!t.includes("diyanet")) return false;
-  const kelimeler = katla(adSoyad).split(" ").filter((w) => w.length >= 2);
-  return kelimeler.length >= 2 && kelimeler.every((w) => t.includes(w));
+/** "Ali.Kaya@Diyanet.gov.tr" -> "ali.kaya"; başka alan adı ya da geçersiz biçim -> null */
+export function kullaniciNormalize(x) {
+  if (typeof x !== "string") return null;
+  let u = x.trim().toLowerCase();
+  const at = u.indexOf("@");
+  if (at >= 0) { if (u.slice(at + 1) !== "diyanet.gov.tr") return null; u = u.slice(0, at); }
+  return KULLANICI_RE.test(u) ? u : null;
 }
-export function fotoGecerli(b64) {
-  if (typeof b64 !== "string" || !/^[A-Za-z0-9+/]+={0,2}$/.test(b64)) return false;
-  if (Math.floor((b64.length * 3) / 4) > FOTO_AZAMI_BAYT) return false;
-  return b64.startsWith("/9j/"); // JPEG
-}
-// Müftülük listesi: KABUL KURALI B (15.10.2026) — liste onay şartı DEĞİL, yalnız PUAN (eşleşirse liste_eslesti). Cami eşleşmesi de şart değil (not).
-// Dönüş: {durum:"liste_yok"|"listede_yok"|"ad_var", cami_eslesti:bool}.
-export function listeDurumu(kayitlar, adSoyad, goreYeri) {
-  if (!Array.isArray(kayitlar) || kayitlar.length === 0) return { durum: "liste_yok", cami_eslesti: false };
-  const ad = katla(adSoyad).split(" ").filter(Boolean);
-  const yer = new Set(katla(goreYeri).split(" ").filter(Boolean));
-  let adVar = false, cami = false;
-  if (ad.length >= 2) {
-    for (const k of kayitlar) {
-      const la = new Set(katla(k.ad_soyad).split(" ").filter(Boolean));
-      if (!ad.every((w) => la.has(w))) continue;
-      adVar = true;
-      const anlamli = katla(k.cami).split(" ").filter((w) => w && !CAMI_GENEL.has(w));
-      if (anlamli.length && anlamli.filter((w) => yer.has(w)).length >= Math.min(2, anlamli.length)) cami = true;
-    }
-  }
-  return { durum: adVar ? "ad_var" : "listede_yok", cami_eslesti: adVar && cami };
-}
-const GENEL = ["id", "il", "ilce", "ad_soyad", "cinsiyet", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti", "defin_yeri", "liste_tarihi"];
+const DUZELTME_RE = /^[0-9a-f]{8,32}$/;
+const GENEL = ["id", "duzeltme_id", "il", "ilce", "ad_soyad", "cinsiyet", "yas", "vefat_tarihi", "namaz_tarihi", "namaz_yeri_vakti", "defin_yeri", "liste_tarihi"];
 // Halka açık çıktı: görevlinin adı/telefonu/IP'si/hesap durumu ASLA yok
 export function genelGorevli(ilan) {
   const r = {};
@@ -106,14 +86,6 @@ export async function gorevliIsle(req, env, o, H, yol) {
     if (!kid || kid === "RED") return null;
     return (await kvJson(kv, `${P}k:${kid}`)) || null;
   }
-  // Kod BİZDEN gider (kullanıcı başvuru ekranına girer): WhatsApp şablonu → Netgsm SMS → GELISTIRME=1'de yanıtta (dogrulama.js)
-  async function kodGonder(k) {
-    const kod = kod6();
-    k.kod_ozeti = await sha256(`${k.id}:${kod}`);
-    k.kod_deneme = 0;
-    k.kod_zaman = o.now.getTime();
-    return await kodKanali(env, o.fetch, k.telefon, kod);
-  }
   // "kontrolde"/"kuyruk": oluşturmadan en çok 14 gün sonra kendiliğinden silinir (mutlak son kullanma); onaylı hesap kalıcı
   const kayitYaz = (k, ttl) => {
     if (k.durum === "kontrolde" || k.durum === "kuyruk") {
@@ -122,7 +94,6 @@ export async function gorevliIsle(req, env, o, H, yol) {
     }
     return kv.put(`${P}k:${k.id}`, JSON.stringify(k), ttl ? { expirationTtl: ttl } : {});
   };
-  const kalici = (k) => (k.tel_dogrulandi ? 0 : 86400);
   const ilanYaz = (i) => kv.put(`${P}i:${i.id}`, JSON.stringify(i), { expirationTtl: ILAN_TTL });
 
   async function hesapIlanlari(k) {
@@ -150,155 +121,63 @@ export async function gorevliIsle(req, env, o, H, yol) {
   // Sahibi onayında kayıtlı telefona yedek SMS (asıl yol: uygulama arka planda /gorevli/durum'a bakar). Netgsm yoksa sessiz geçer.
   async function onaySms(k) {
     if (!netgsmVar(env)) return false;
-    try { return await smsGonder(env, o.fetch, k.telefon, ONAY_SMS); } catch { return false; }
+    try { return k.telefon ? await smsGonder(env, o.fetch, k.telefon, ONAY_SMS) : false; } catch { return false; }
   }
   const gozetimde = (k) => k.gozetim_bitis && Date.parse(k.gozetim_bitis) > o.now.getTime();
 
-  // ---- POST /gorevli/kayit ----
-  // Adım 1 (foto yok): bilgiler -> {durum:"foto_gerek", kayit_id, liste_eslesti}. Adım 2 (kayit_id + foto_base64): OCR.
-  // Liste eşleşmesi TEK BAŞINA onay vermez; kart OCR'ı şart. Fotoğraf yalnız bellekte, yalnız "kuyruk" sonucunda ≤7 gün KV'de.
-  async function kayit() {
-    const g = await govde(KAYIT_GOVDE_LIMIT);
+  const dogrulu = (k) => k && k.eposta_dogrulandi === true;
+  const hesapId = async (ku) => (await sha256(`eposta:${ku}`)).slice(0, 16);
+
+  // ---- POST /gorevli/eposta-kod {kullanici} ----
+  // Kod YALNIZ <kullanici>@diyanet.gov.tr adresine gider. 10 dk geçerli, 5 yanlış deneme, günde ≤5 kod, aynı kullanıcıya yeni kod 5 dk dolmadan verilmez.
+  async function epostaKod() {
+    const g = await govde();
     if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
-    const b = g.json || {};
-    const dev = env.GELISTIRME === "1";
-    if (kanalGerekli(env)) return yanit(req, env, { hata: "dogrulama_servisi_yok" }, 503);
-    if (b.kayit_id == null && b.beyan !== true) return yanit(req, env, { hata: "beyan_gerekli" }, 400); // zorunlu onay kutusu (K7 kalıbı)
-    const s = (x) => (typeof x === "string" ? x.trim().replace(/\s+/g, " ") : x);
-    const fotoVar = b.foto_base64 != null && b.foto_base64 !== "";
-    if (fotoVar && !fotoGecerli(b.foto_base64)) return yanit(req, env, { hata: "foto_gecersiz" }, 400);
-    let k;
-    if (b.kayit_id != null) {
-      if (typeof b.kayit_id !== "string" || !/^[0-9a-f]{16}$/.test(b.kayit_id)) return yanit(req, env, { hata: "kayit_id gecersiz" }, 400);
-      k = await kvJson(kv, `${P}k:${b.kayit_id}`);
-      if (!k || !["foto_bekliyor", "deneme2"].includes(k.durum)) return yanit(req, env, { hata: "kayit_bulunamadi" }, 404);
-    } else {
-      const ad = s(b.ad_soyad), il = s(b.il), ilce = s(b.ilce), yer = s(b.gorev_yeri), tel = telefonNormalize(b.telefon);
-      if (!adGecerli(ad)) return yanit(req, env, { hata: "ad_soyad gecersiz" }, 400);
-      const ilv = ILCELER[ilSlug(il || "")];
-      if (!ilv) return yanit(req, env, { hata: "il gecersiz" }, 400);
-      if (ilce !== "Merkez" && !ilv.ilceler.includes(ilce)) return yanit(req, env, { hata: "ilce gecersiz" }, 400);
-      if (typeof yer !== "string" || yer.length < 2 || yer.length > 60 || metinTemiz(yer)) return yanit(req, env, { hata: "gorev_yeri gecersiz" }, 400);
-      if (!tel) return yanit(req, env, { hata: "telefon gecersiz" }, 400);
-      const eh = await sha256(tel);
-      const varId = await kv.get(`${P}t:${eh}`);
-      if (varId) {
-        const eski = await kvJson(kv, `${P}k:${varId}`);
-        if (eski && ["foto_bekliyor", "deneme2"].includes(eski.durum)) k = eski; // yarım kalan kayıt: sayaç sıfırlanmaz
-        else if (eski) return yanit(req, env, { hata: "hesap_var" }, 409);
-      }
-      if (!k) {
-        const sk = `${P}tk:${eh}:${gun}`;
-        const n = parseInt((await kv.get(sk)) || "0", 10);
-        if (n >= GUNLUK_YENI_KAYIT) return yanit(req, env, { hata: "cok_fazla_kayit" }, 429);
-        await kv.put(sk, String(n + 1), { expirationTtl: 90000 });
-        k = { id: rastgeleId(), deneme: 0, olusturma: o.now.toISOString(), ip: o.ipOzeti, tel_dogrulandi: false, durum: "foto_bekliyor" };
-      }
-      const unv = typeof b.unvan === "string" ? UNVANLAR.find((u) => katla(u) === katla(b.unvan)) : null;
-      if (b.unvan != null && b.unvan !== "" && !unv) return yanit(req, env, { hata: "unvan gecersiz" }, 400);
-      Object.assign(k, { ad_soyad: ad, il: ilv.il, ilce, gorev_yeri: yer, telefon: tel, beyan: true, beyan_tarihi: k.beyan_tarihi ?? o.now.toISOString(), unvan: unv ?? k.unvan ?? null });
-      await kv.put(`${P}t:${eh}`, k.id, { expirationTtl: 86400 });
-      const liste = await kvJson(kv, `${P}liste:${ilSlug(k.il)}:${ilceSlug(k.ilce)}`);
-      const ld = listeDurumu(liste, k.ad_soyad, k.gorev_yeri);
-      k.liste_durum = ld.durum; k.cami_eslesti = ld.cami_eslesti; k.liste_eslesti = ld.durum === "ad_var";
-      await kayitYaz(k, 86400);
-    }
-    if (!fotoVar) return yanit(req, env, { durum: "foto_gerek", kayit_id: k.id, liste_eslesti: k.liste_eslesti === true });
-    if (!env.AI) return yanit(req, env, { hata: "ocr_yok" }, 503);
-    // OCR: fotoğraf yalnız bu fonksiyonun belleğinde
-    let metin = "";
-    try {
-      const r = await env.AI.run(OCR_MODEL, {
-        messages: [{ role: "user", content: [{ type: "text", text: ISTEM }, { type: "image_url", image_url: { url: `data:image/jpeg;base64,${b.foto_base64}` } }] }],
-        max_tokens: OCR_MAX_TOKEN,
-      });
-      metin = String((r && (r.response ?? r.description)) ?? "");
-    } catch { return yanit(req, env, { hata: "ocr_gecici_hata" }, 503); } // deneme hakkı yanmaz
-    k.deneme += 1;
-    let fotoSakla = false;
-    const kk = kartKarar(yanitCoz(metin), k); // fotoğraf ve sicil değeri hiçbir yere yazılmaz
-    if (!k.unvan) { // seçilmediyse karttan (okunan unvan, listedeki ilk eşleşme)
-      const ham = " " + katla(`${yanitCoz(metin).unvan ?? ""}`) + " ";
-      const i = UNVAN_KATLA.findIndex((u) => ham.includes(" " + u + " "));
-      if (i >= 0) k.unvan = UNVANLAR[i];
-    }
-    if (k.liste_eslesti) kk.puan += 1; // müftülük listesi eşleşmesi PUAN (şart değil)
-    k.kart_puan = kk.puan; k.kart_uyarilar = kk.uyarilar; k.kart_nedenler = kk.gecti ? [] : kk.nedenler;
-    if (kk.gecti) { // KABUL KURALI B: kart kontrolleri (ibare, ad, unvan, fiziksel kart) geçerse onaylı; liste şart değil
-      k.durum = "onayli"; k.dogrulama = k.liste_eslesti ? "kart+muftuluk_listesi" : "kart";
-      k.gozetim_bitis = new Date(o.now.getTime() + GOZETIM_GUN * 86400000).toISOString(); // ilk 7 gün gözetim (çapraz kontrol + 2 bildirim)
-    } else if (k.deneme < 2) {
-      k.durum = "deneme2";
-      await kayitYaz(k, 86400);
-      return yanit(req, env, { durum: "deneme2", kayit_id: k.id, liste_eslesti: k.liste_eslesti === true, neden: kk.nedenler });
-    } else {
-      k.durum = "kuyruk"; fotoSakla = true; // kart iki kez tutmadı: fotoğraf ≤7 gün sahibinin bakması için
-    }
-    k.dogrulama_tarih = gun;
-    // TEK HESAP: aynı ad + görev yeri için ikinci hesap -> ikisi de dondurulur
-    const acKey = `${P}ac:${katla(k.ad_soyad)}|${katla(k.gorev_yeri)}`;
-    const oncekiId = await kv.get(acKey);
-    const onceki = oncekiId && oncekiId !== k.id ? await kvJson(kv, `${P}k:${oncekiId}`) : null;
-    if (fotoSakla) await kv.put(`${P}foto:${k.id}`, b.foto_base64, { expirationTtl: FOTO_TTL }); // TEK İSTİSNA: sahibinin elle bakması için ≤7 gün
-    if (onceki && [...GIRIS_DURUMLARI, "donduruldu"].includes(onceki.durum)) {
-      await dondur(onceki, `cift_kayit:${k.id}`);
-      await dondur(k, `cift_kayit:${onceki.id}`);
-      return yanit(req, env, { durum: "kontrol_bekliyor", kayit_id: k.id });
-    }
-    await kv.put(acKey, k.id);
-    const kg = await kodGonder(k);
+    const ku = kullaniciNormalize(g.json?.kullanici);
+    if (!ku) return yanit(req, env, { hata: "kullanici_gecersiz" }, 400);
+    if (epostaGerekli(env)) return yanit(req, env, { hata: "dogrulama_servisi_yok" }, 503);
+    const mevcut = await kvJson(kv, `${P}k:${await hesapId(ku)}`);
+    if (mevcut && mevcut.durum === "donduruldu") return yanit(req, env, { durum: "donduruldu" }, 403);
+    const onceki = await kvJson(kv, `${P}ek:${ku}`);
+    if (onceki && o.now.getTime() - onceki.zaman < KOD_ARALIK_MS) return yanit(req, env, { hata: "cok_sik_tekrar", bekle_sn: Math.ceil((KOD_ARALIK_MS - (o.now.getTime() - onceki.zaman)) / 1000) }, 429, { "Retry-After": String(Math.ceil((KOD_ARALIK_MS - (o.now.getTime() - onceki.zaman)) / 1000)) });
+    const sk = `${P}eks:${ku}:${gun}`;
+    const n = parseInt((await kv.get(sk)) || "0", 10);
+    if (n >= GUNLUK_KOD) return yanit(req, env, { hata: "gunluk_kod_siniri" }, 429);
+    const kod = kod6();
+    const kg = await epostaKodGonder(env, o.fetch, `${ku}@${ESTA}`, kod);
     if (kg.hata) return yanit(req, env, { hata: "kod_gonderilemedi" }, 502);
-    await kayitYaz(k, 86400); // telefon doğrulanana dek 1 gün
-    const c = { durum: k.durum, kayit_id: k.id, dogrulama: "kod", kanal: kg.kanal, liste_eslesti: k.liste_eslesti === true, cami_eslesti: k.cami_eslesti === true };
-    if (kg.kod) c.gelistirme_kodu = kg.kod;
+    await kv.put(`${P}ek:${ku}`, JSON.stringify({ ozet: await sha256(`${ku}:${kod}`), deneme: 0, zaman: o.now.getTime() }), { expirationTtl: KOD_OMRU_SN });
+    await kv.put(sk, String(n + 1), { expirationTtl: 90000 });
+    const c = { durum: "kod_gonderildi", adres: `${ku}@${ESTA}` };
+    if (kg.kod) c.gelistirme_kodu = kg.kod; // YALNIZ GELISTIRME=1 ve anahtar yokken; üretimde asla
     return yanit(req, env, c);
   }
 
-  // ---- POST /gorevli/kod (kodu yeniden gönder) | /gorevli/giris {telefon} ----
-  async function kodIste(giris) {
+  // ---- POST /gorevli/eposta-dogrula {kullanici, kod} -> hesap "onayli" + oturum; panel hemen açılır ----
+  async function epostaDogrula() {
     const g = await govde();
     if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
-    let k;
-    if (giris) {
-      const tl = telefonNormalize(g.json?.telefon);
-      const kid = tl ? await kv.get(`${P}t:${await sha256(tl)}`) : null;
-      k = kid ? await kvJson(kv, `${P}k:${kid}`) : null;
-      if (!k || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { dogrulama: "kod", kayit_id: rastgeleId() }); // varlık sızdırmaz
-    } else {
-      const kid = g.json?.kayit_id;
-      k = typeof kid === "string" && /^[0-9a-f]{16}$/.test(kid) ? await kvJson(kv, `${P}k:${kid}`) : null;
-      if (!k || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "kayit_bulunamadi" }, 404);
+    const ku = kullaniciNormalize(g.json?.kullanici);
+    const kod = g.json?.kod;
+    if (!ku) return yanit(req, env, { hata: "kullanici_gecersiz" }, 400);
+    if (typeof kod !== "string" || !/^\d{6}$/.test(kod)) return yanit(req, env, { hata: "6 haneli kod gerekli" }, 400);
+    const ek = await kvJson(kv, `${P}ek:${ku}`);
+    if (!ek) return yanit(req, env, { durum: "red", neden: "kod bulunamadı ya da süresi doldu" }, 410);
+    if ((await sha256(`${ku}:${kod}`)) !== ek.ozet) {
+      ek.deneme += 1;
+      if (ek.deneme >= AZAMI_KOD_DENEME) { await kv.delete(`${P}ek:${ku}`); return yanit(req, env, { durum: "red", neden: "kod 5 kez yanlış girildi" }, 429); }
+      const kalanSn = Math.max(60, KOD_OMRU_SN - Math.floor((o.now.getTime() - ek.zaman) / 1000));
+      await kv.put(`${P}ek:${ku}`, JSON.stringify(ek), { expirationTtl: kalanSn });
+      return yanit(req, env, { hata: "kod_yanlis", kalan_deneme: AZAMI_KOD_DENEME - ek.deneme }, 400);
     }
-    if (k.kod_zaman && o.now.getTime() - k.kod_zaman < 60000) return yanit(req, env, { hata: "cok_sik_tekrar" }, 429, { "Retry-After": "60" });
-    if (kanalGerekli(env)) return yanit(req, env, { hata: "dogrulama_servisi_yok" }, 503);
-    const kg = await kodGonder(k);
-    if (kg.hata) return yanit(req, env, { hata: "kod_gonderilemedi" }, 502);
-    await kayitYaz(k, kalici(k));
-    const c = { dogrulama: "kod", kanal: kg.kanal, kayit_id: k.id };
-    if (kg.kod) c.gelistirme_kodu = kg.kod;
-    return yanit(req, env, c);
-  }
-
-  // ---- POST /gorevli/dogrula ----
-  async function dogrula() {
-    const g = await govde();
-    if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
-    const { kayit_id, kod } = g.json || {};
-    if (typeof kayit_id !== "string" || !/^[0-9a-f]{16}$/.test(kayit_id) || typeof kod !== "string" || !/^\d{6}$/.test(kod)) return yanit(req, env, { hata: "kayit_id ve 6 haneli kod gerekli" }, 400);
-    const k = await kvJson(kv, `${P}k:${kayit_id}`);
-    if (!k || !k.kod_ozeti) return yanit(req, env, { durum: "red", neden: "kayıt bulunamadı ya da kod yok" }, 410);
-    if (k.durum === "red" || k.durum === "donduruldu") return yanit(req, env, { durum: k.durum }, 403);
-    if (!GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "kart_dogrulamasi_bitmedi" }, 409);
-    if (o.now.getTime() - k.kod_zaman > KOD_OMRU_MS) return yanit(req, env, { hata: "kod_suresi_doldu" }, 410);
-    if ((await sha256(`${kayit_id}:${kod}`)) !== k.kod_ozeti) {
-      k.kod_deneme += 1;
-      if (k.kod_deneme >= AZAMI_KOD_DENEME) { k.kod_ozeti = null; await kayitYaz(k, kalici(k)); return yanit(req, env, { durum: "red", neden: "kod 3 kez yanlış girildi" }, 429); }
-      await kayitYaz(k, kalici(k));
-      return yanit(req, env, { hata: "kod_yanlis", kalan_deneme: AZAMI_KOD_DENEME - k.kod_deneme }, 400);
-    }
-    k.kod_ozeti = null; k.tel_dogrulandi = true;
-    if (k.durum === "onayli") await kv.put(`${P}t:${await sha256(k.telefon)}`, k.id); // kalıcı
-    else await kv.put(`${P}t:${await sha256(k.telefon)}`, k.id, { expirationTtl: KONTROL_GUN * 86400 });
+    await kv.delete(`${P}ek:${ku}`);
+    const id = await hesapId(ku);
+    let k = await kvJson(kv, `${P}k:${id}`);
+    if (k && k.durum === "donduruldu") return yanit(req, env, { durum: "donduruldu" }, 403);
+    if (!k) {
+      k = { id, kullanici: ku, eposta: `${ku}@${ESTA}`, olusturma: o.now.toISOString(), durum: "onayli", dogrulama: "diyanet_eposta", dogrulama_tarih: gun,
+        eposta_dogrulandi: true, gozetim_bitis: new Date(o.now.getTime() + GOZETIM_GUN * 86400000).toISOString() }; // ilk 7 gün: 2 bildirim -> dondur
+    } else { k.eposta_dogrulandi = true; if (k.durum !== "onayli") k.durum = "onayli"; k.dogrulama_tarih = gun; }
     await kayitYaz(k, 0);
     const tok = [...crypto.getRandomValues(new Uint8Array(32))].map((x) => x.toString(16).padStart(2, "0")).join("");
     const oh = await sha256(tok);
@@ -306,7 +185,53 @@ export async function gorevliIsle(req, env, o, H, yol) {
     const ot = (await kvJson(kv, `${P}ot:${k.id}`)) || [];
     ot.push(oh);
     await kv.put(`${P}ot:${k.id}`, JSON.stringify(ot.slice(-10)), { expirationTtl: OTURUM_TTL });
-    return yanit(req, env, { durum: k.durum, oturum: tok, ad_soyad: k.ad_soyad, il: k.il, ilce: k.ilce, gorev_yeri: k.gorev_yeri, unvan: k.unvan ?? null });
+    return yanit(req, env, { durum: "onayli", oturum: tok, eposta: k.eposta, profil_tamam: profilTamam(k), ad_soyad: k.ad_soyad ?? null, il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null });
+  }
+  const profilTamam = (k) => !!(k && k.ad_soyad && k.il && k.ilce && k.gorev_yeri);
+
+  // Ortak doğrulama: ad_soyad (yalnız ilk profilde), il, ilçe, görev yeri, unvan
+  function yerDogrula(b, adGerek) {
+    const s = (x) => (typeof x === "string" ? x.trim().replace(/\s+/g, " ") : x);
+    const ad = s(b.ad_soyad), il = s(b.il), ilce = s(b.ilce), yer = s(b.gorev_yeri);
+    if (adGerek && !adGecerli(ad)) return { hata: "ad_soyad gecersiz" };
+    const ilv = ILCELER[ilSlug(il || "")];
+    if (!ilv) return { hata: "il gecersiz" };
+    if (ilce !== "Merkez" && !ilv.ilceler.includes(ilce)) return { hata: "ilce gecersiz" };
+    if (typeof yer !== "string" || yer.length < 2 || yer.length > 60 || metinTemiz(yer)) return { hata: "gorev_yeri gecersiz" };
+    const unv = typeof b.unvan === "string" ? UNVANLAR.find((u) => katla(u) === katla(b.unvan)) : null;
+    if (b.unvan != null && b.unvan !== "" && !unv) return { hata: "unvan gecersiz" };
+    return { ad, il: ilv.il, ilce, yer, unvan: unv ?? null };
+  }
+  const hesapOzeti = (k) => ({ durum: k.durum, profil_tamam: profilTamam(k), ad_soyad: k.ad_soyad ?? null, il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null });
+
+  // ---- POST /gorevli/profil (oturumlu): panelde ilk "İlan paylaş"ta BİR KEZ sorulan ad-soyad / il / ilçe / görev yeri / unvan ----
+  async function profil() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || k.durum !== "onayli") return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    if (profilTamam(k)) return yanit(req, env, { hata: "profil_kayitli" }, 409); // değişiklik için /gorevli/gorev-yeri
+    const g = await govde();
+    if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
+    const v = yerDogrula(g.json || {}, true);
+    if (v.hata) return yanit(req, env, { hata: v.hata }, 400);
+    Object.assign(k, { ad_soyad: v.ad, il: v.il, ilce: v.ilce, gorev_yeri: v.yer, unvan: v.unvan, profil_tarih: gun });
+    await kayitYaz(k, 0);
+    return yanit(req, env, hesapOzeti(k));
+  }
+
+  // ---- POST /gorevli/gorev-yeri (oturumlu): "Görev yerim değişti" — yeni görev yeri / unvan / il / ilçe; ad-soyad değişmez.
+  // Sonraki ilanlar yeni yerle paylaşılır; mevcut ilanlar (kendi kayıtlarındaki il/ilçe/görev yeriyle) DEĞİŞMEZ. ----
+  async function gorevYeri() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || k.durum !== "onayli") return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    if (!profilTamam(k)) return yanit(req, env, { hata: "profil_gerekli" }, 409);
+    const g = await govde();
+    if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
+    const v = yerDogrula(g.json || {}, false);
+    if (v.hata) return yanit(req, env, { hata: v.hata }, 400);
+    k.onceki_yer = { il: k.il, ilce: k.ilce, gorev_yeri: k.gorev_yeri, unvan: k.unvan ?? null, tarih: gun };
+    Object.assign(k, { il: v.il, ilce: v.ilce, gorev_yeri: v.yer, unvan: v.unvan ?? k.unvan ?? null, yer_degisti: gun });
+    await kayitYaz(k, 0);
+    return yanit(req, env, hesapOzeti(k));
   }
 
   // ---- ilan yardımcıları ----
@@ -329,7 +254,7 @@ export async function gorevliIsle(req, env, o, H, yol) {
   async function ilanDegerlendir(k, a, haricId) {
     const s = (x) => (typeof x === "string" ? x.trim().replace(/\s+/g, " ") : x);
     const t = { il: k.il, ilce: k.ilce, ad_soyad: s(a.ad_soyad), cinsiyet: a.cinsiyet, vefat_tarihi: s(a.vefat_tarihi), namaz_tarihi: s(a.namaz_tarihi), beyan: true,
-      basvuran: { ad_soyad: k.ad_soyad, telefon: k.telefon, yakinlik: "din görevlisi" } };
+      basvuran: { ad_soyad: k.ad_soyad, yakinlik: "din görevlisi" } };
     for (const f of ["mahalle", "namaz_yeri_vakti", "defin_yeri"]) if (a[f] != null && a[f] !== "") t[f] = s(a[f]);
     if (a.yas != null && a.yas !== "") t.yas = Number(a.yas);
     for (const f of ["ad_soyad", "vefat_tarihi", "namaz_tarihi"]) if (typeof t[f] !== "string" || !t[f]) return { neden: `${f} gerekli` };
@@ -348,25 +273,41 @@ export async function gorevliIsle(req, env, o, H, yol) {
     return { neden, t, slug };
   }
   const dizinYaz = (slug, id, t) => kv.put(`${P}x:${slug}:${id}`, "1", { metadata: { n: adNormalize(t.ad_soyad), v: t.vefat_tarihi, t: t.namaz_tarihi }, expirationTtl: ILAN_TTL });
-  const aktifHesap = (k) => k && k.durum === "onayli" && k.tel_dogrulandi === true; // panel/ilan yalnız onaylı hesaba
+  const aktifHesap = (k) => k && k.durum === "onayli" && dogrulu(k); // panel/ilan yalnız onaylı hesaba
 
   async function ilan() {
     const k = await hesap();
     if (!aktifHesap(k)) return yanit(req, env, { hata: "yetkisiz", durum: k ? k.durum : null }, k ? 403 : 401);
+    if (!profilTamam(k)) return yanit(req, env, { hata: "profil_gerekli" }, 409); // ad-soyad/görev yeri ilk ilandan önce /gorevli/profil ile
     const g = await govde();
     if (g.hata) return yanit(req, env, { hata: g.hata }, g.durum);
     const gs = `${P}gs:${k.id}:${gun}`;
     const n = parseInt((await kv.get(gs)) || "0", 10);
     if (n >= GUNLUK_ILAN) return yanit(req, env, { durum: "red", neden: "günlük ilan sınırı" }, 429);
-    const r = await ilanDegerlendir(k, g.json || {}, null); // il/ilçe istekten ALINMAZ: kayıttan
+    // §49: otomatik ilanı düzeltme. duzeltme_id = düzeltilen kaydın id'si; aynı hesabın aynı duzeltme_id'li canlı kaydı varsa YENİSİ açılmaz, o güncellenir
+    let duz = null;
+    if (g.json && g.json.duzeltme_id != null && g.json.duzeltme_id !== "") {
+      if (typeof g.json.duzeltme_id !== "string" || !DUZELTME_RE.test(g.json.duzeltme_id)) return yanit(req, env, { hata: "duzeltme_id_gecersiz" }, 400);
+      duz = g.json.duzeltme_id;
+    }
+    const eski = duz ? (await hesapIlanlari(k)).find((x) => x.duzeltme_id === duz && ["yayinda", "bekliyor"].includes(x.durum)) : null;
+    const r = await ilanDegerlendir(k, g.json || {}, eski ? eski.id : null); // il/ilçe istekten ALINMAZ: kayıttan
     if (r.neden) return yanit(req, env, { durum: "red", neden: r.neden });
+    if (eski) {
+      const tt = r.t;
+      Object.assign(eski, { ad_soyad: tt.ad_soyad, cinsiyet: tt.cinsiyet, yas: tt.yas ?? null, vefat_tarihi: tt.vefat_tarihi, namaz_tarihi: tt.namaz_tarihi, liste_tarihi: tt.namaz_tarihi,
+        namaz_yeri_vakti: tt.namaz_yeri_vakti ?? null, defin_yeri: tt.defin_yeri ?? null, mahalle: tt.mahalle ?? null, koy: tt.koy ?? null, guncelleme: o.now.toISOString() });
+      await ilanYaz(eski);
+      await dizinYaz(r.slug, eski.id, tt);
+      return yanit(req, env, { durum: eski.durum, ilan_id: eski.id, guncellendi: true });
+    }
     const t = r.t, id = rastgeleId();
     const yayinda = true; // aktifHesap yalnız onaylı hesaba izin verir
     const rec = {
       id, il: k.il, ilce: k.ilce, mahalle: t.mahalle ?? null, koy: t.koy ?? null, gorev_yeri: k.gorev_yeri, ad_soyad: t.ad_soyad, cinsiyet: t.cinsiyet, yas: t.yas ?? null,
       vefat_tarihi: t.vefat_tarihi, namaz_tarihi: t.namaz_tarihi, namaz_yeri_vakti: t.namaz_yeri_vakti ?? null, defin_yeri: t.defin_yeri ?? null,
       sehit: t.sehit === true, rutbe: t.rutbe ?? null, toren: t.toren_yeri ?? null, duyuru_url: t.duyuru_url ?? null,
-      liste_tarihi: t.namaz_tarihi, gorevli: true, dogrulandi: k.durum === "onayli", durum: yayinda ? "yayinda" : "bekliyor",
+      liste_tarihi: t.namaz_tarihi, gorevli: true, duzeltme_id: duz, dogrulandi: k.durum === "onayli", durum: yayinda ? "yayinda" : "bekliyor",
       kayit_id: k.id, olusturma: o.now.toISOString(),
     };
     await ilanYaz(rec);
@@ -377,19 +318,28 @@ export async function gorevliIsle(req, env, o, H, yol) {
     return yanit(req, env, { durum: rec.durum, ilan_id: id });
   }
 
+  // ---- POST /gorevli/kvkk-kabul (oturumlu): panel ilk açılışta KVKK aydınlatmasını "Okudum, anladım" ile kabul etti (§50) ----
+  async function kvkkKabul() {
+    const k = await hesap();
+    if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    k.kvkk_kabul = o.now.toISOString();
+    await kayitYaz(k, k.durum === "onayli" ? 0 : undefined);
+    return yanit(req, env, { kvkk_kabul: k.kvkk_kabul });
+  }
+
   async function ilanlarim() {
     const k = await hesap();
-    if (!k || k.tel_dogrulandi !== true || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
+    if (!k || !dogrulu(k) || !GIRIS_DURUMLARI.includes(k.durum)) return yanit(req, env, { hata: "yetkisiz" }, k ? 403 : 401);
     const l = k.durum === "onayli" ? await hesapIlanlari(k) : []; // "kontrolde": panel açık, liste boş
 
-    return yanit(req, env, { hesap: { durum: k.durum, il: k.il, ilce: k.ilce, gorev_yeri: k.gorev_yeri, unvan: k.unvan ?? null, ad_soyad: k.ad_soyad }, ilanlar: l.map((i) => ({ ...genelGorevli(i), durum: i.durum })) });
+    return yanit(req, env, { hesap: { durum: k.durum, profil_tamam: profilTamam(k), il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null, ad_soyad: k.ad_soyad ?? null }, ilanlar: l.map((i) => ({ ...genelGorevli(i), durum: i.durum })) });
   }
   // GET /gorevli/durum — uygulama her açılışta sorar: "kontrolde" iken panel kapalı, "onayli" olunca açılır
   async function ben() {
     if ((await oturumKid()) === "RED") return yanit(req, env, { durum: "silindi" }); // sahibi reddetti: hesap silindi
     const k = await hesap();
     if (!k) return yanit(req, env, { hata: "yetkisiz" }, 401);
-    return yanit(req, env, { telefon_dogrulandi: k.tel_dogrulandi === true, durum: k.durum, ad_soyad: k.ad_soyad, il: k.il, ilce: k.ilce, gorev_yeri: k.gorev_yeri, unvan: k.unvan ?? null, ilan_sayisi: undefined });
+    return yanit(req, env, { durum: k.durum, profil_tamam: profilTamam(k), ad_soyad: k.ad_soyad ?? null, il: k.il ?? null, ilce: k.ilce ?? null, gorev_yeri: k.gorev_yeri ?? null, unvan: k.unvan ?? null, kvkk_kabul: k.kvkk_kabul ?? null });
   }
   async function kendiIlanYukle(k, id) {
     if (typeof id !== "string" || !/^[0-9a-f]{16}$/.test(id)) return null;
@@ -478,8 +428,8 @@ export async function gorevliIsle(req, env, o, H, yol) {
       for (const oh of (await kvJson(kv, `${P}ot:${k.id}`)) || []) await kv.put(`${P}oturum:${oh}`, "RED", { expirationTtl: 30 * 86400 });
       await kv.delete(`${P}ot:${k.id}`);
       await kv.delete(`${P}foto:${k.id}`); await kv.delete(`${P}kod:${k.id}`);
-      await kv.delete(`${P}t:${await sha256(k.telefon)}`);
-      await kv.delete(`${P}ac:${katla(k.ad_soyad)}|${katla(k.gorev_yeri)}`);
+      if (k.telefon) await kv.delete(`${P}t:${await sha256(k.telefon)}`); // eski kayıt kalıntısı
+      await kv.delete(`${P}ac:${katla(k.ad_soyad || "")}|${katla(k.gorev_yeri || "")}`);
       await kv.delete(`${P}k:${k.id}`);
       return yanit(req, env, { durum: "silindi" });
     } else return yanit(req, env, { hata: "onay, dondur ya da ac gerekli" }, 400);
@@ -573,10 +523,13 @@ export async function gorevliIsle(req, env, o, H, yol) {
   }
   if (m === "POST") {
     switch (yol) {
-      case "/gorevli/kayit": return kayit();
-      case "/gorevli/kod": return kodIste(false);
-      case "/gorevli/giris": return kodIste(true);
-      case "/gorevli/dogrula": return dogrula();
+      case "/gorevli/eposta-kod": return epostaKod();
+      case "/gorevli/eposta-dogrula": return epostaDogrula();
+      case "/gorevli/profil": return profil();
+      case "/gorevli/gorev-yeri": return gorevYeri();
+      case "/gorevli/kayit": case "/gorevli/kod": case "/gorevli/giris": case "/gorevli/dogrula":
+        return yanit(req, env, { hata: "kaldirildi", ileti: "Doğrulama artık Diyanet e-posta koduyla: /gorevli/eposta-kod" }, 410);
+      case "/gorevli/kvkk-kabul": return kvkkKabul();
       case "/gorevli/ilan": return ilan();
       case "/gorevli/ilan/iptal": return iptal();
       case "/gorevli/ilan/duzenle": return duzenle();

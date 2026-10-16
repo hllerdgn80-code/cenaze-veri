@@ -259,12 +259,21 @@ if MAGAZA:   # tanınmış kişi adları da kurgusal ad ile değiştirilir; tan�
     for _L in kay.values(): _anon(_L)
     for _L in tbg.values(): _anon(_L)
     kay = {k: v[:15] for k, v in kay.items()}; tbg = {k: v[:6] for k, v in tbg.items()}; tbl = tbg[f"{URETIM.month:02d}-{URETIM.day:02d}"]
-logo = (K/"marka/svg/L13.svg").read_text().strip()
 adlar = json.load(open(T/"adlar.json"))
 veri = {"adlar": adlar, "ordu": ordu, "kay": kay, "tb": tbg, "uretim": URETIM.isoformat()}
 s = (T/"sablon.html").read_text()
 s = s.replace("/*__VERI__*/null", json.dumps(veri, ensure_ascii=False, separators=(",", ":")))
-s = s.replace("<!--__LOGO__-->", logo.replace('width="1024" height="1024"', 'class="logo"'))
+# 15.10.2026 AÇILIŞ EKRANI (sahibi): görsel + âyet + Diyanet meali + motto, 6 sn sonra uygulamaya girer.
+# Görsel: tasarim/acilis/secim.txt içindeki dosya adı (varsayılan simge1.png); sahibi adayı seçince o ad yazılır. data: URL olarak gömülür.
+import base64 as _b64
+_secim = (T/"acilis/secim.txt").read_text().strip() if (T/"acilis/secim.txt").exists() else "simge2.png"
+def _veri_url(p):
+    return "data:image/png;base64," + _b64.b64encode(p.read_bytes()).decode()
+_gorsel = T/"acilis"/_secim
+s = s.replace("__ACILIS_GORSEL__", _veri_url(_gorsel) if _gorsel.exists() else "")
+# adaylar: ?aday=1|2|3 ile prototipte karşılaştırma (sahibi seçer; seçim acilis/secim.txt'ye yazılır)
+_adaylar = {p.stem: _veri_url(p) for p in sorted((T/"acilis").glob("simge*.png"))}
+s = s.replace("/*__ACILIS_ADAYLAR__*/null", json.dumps(_adaylar))
 (T/OUT).write_text(s)
 print("üretim günü", URETIM, "· ilan günleri", _gunler[0], "…", _gunler[-1], "· bugün dolu:", URETIM.isoformat() in _gunler)
 print("prototip.html", len(s.encode()), "bayt;", sum(len(v) for v in kay.values()), "kişi;", len(tbl), "tarihte bugün")

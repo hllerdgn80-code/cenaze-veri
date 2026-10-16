@@ -153,7 +153,7 @@ void main() {
     await tester.tap(find.text('Din görevlisi misiniz? Kayıt olun.'));
     await tester.pumpAndSettle();
     expect(find.text(M.gorevliBaslik), findsWidgets);
-    expect(find.text(M.gorevliGirisNot), findsOneWidget); // kayıt ekranının alt başlığı (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
+    expect(find.text(M.gorevliEpostaAciklama), findsOneWidget); // kılavuz ekranı açıklaması (telefon alanı ekran dışında kalabilir: ListView tembel kurar)
   });
 
   testWidgets('Sekme çubuğu 4 sekme (İlanlar · Sayfam · Dualar · Hatırla); 5. sekme yok', (tester) async {
