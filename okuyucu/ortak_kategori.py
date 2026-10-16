@@ -13,7 +13,7 @@ DIZIN = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, DIZIN)
 import ortak, ortak_ilce as oi, ortak_basin as ob, ortak_haber as oh
 
-ONBELLEK_SN = 3 * 3600
+ONBELLEK_SN = 25 * 60   # 16.10.2026: 3 sa idi (ayni gecikme)
 ADAY = re.compile(r"vefat|hayatını\s+kaybet|acı\s+günü|toprağa|defned|cenaze|son\s+yolculu|hakk['’]?a\s+yürü|rahmet|taziye|başsağlığı|yaşamını\s+yitir|ebediyete", re.I)
 DEGIL = re.compile(r"anıldı|anılıyor|yıl\s*dönümü|vefatının|şehit|şehadet|ziyaret|ziyaretinde|kaymakam|vali\b|ziyaret|başkan\w*\s+(?:taziye|ziyaret)", re.I)
 

@@ -23,7 +23,7 @@ sys.path.insert(0, DIZIN)
 import ortak, ortak_ilce as oi, ortak_basin as ob
 
 KAYNAK_TURU = "yerel_haber"
-ONBELLEK_SN = 6 * 3600
+ONBELLEK_SN = 25 * 60   # 16.10.2026: 6 sa idi -> yerel haber ilanlari uygulamaya 6 saate kadar gec dusuyordu; tur 30 dk
 
 # başlıkta vefat kalıbı (tek kişilik haber)
 VEFAT_BASLIK = re.compile(

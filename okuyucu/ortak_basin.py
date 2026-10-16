@@ -19,7 +19,7 @@ DIZIN = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, DIZIN)
 import ortak, ortak_ilce as oi
 
-GUNLUK_ISTEK = 40   # 14.10.2026: 3 istek/gun robots+RSS ile bitiyor, haber govdesi acilamiyordu; 40 / gun / site hala dusuk sikliktir (saatlik tur basina ~3)
+GUNLUK_ISTEK = 120   # 14.10.2026: 3 istek/gun robots+RSS ile bitiyor, haber govdesi acilamiyordu; 40 / gun / site hala dusuk sikliktir (saatlik tur basina ~3)
 KAYNAK_TURU = "yerel_basin"
 
 
