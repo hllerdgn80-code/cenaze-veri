@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: kaynak-kesif
+  cancel-in-progress: false
+
 jobs:
   kesif:
     runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
@@ -24,6 +28,12 @@ jobs:
         run: sleep 60
       - if: steps.co1.outcome == 'failure'
         uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -34,4 +44,4 @@ jobs:
           git config user.name "cenaze-bot"
           git config user.email "cenaze-bot@users.noreply.github.com"
           git add -A arastirma/kesif
-          if git diff --cached --quiet; then echo "degisiklik yok"; else git commit -m "kesif: $(date -u +%F) adaylar" && git pull --rebase --autostash origin main && git push; fi
+          if git diff --cached --quiet; then echo "degisiklik yok"; else git commit -m "kesif: $(date -u +%F) adaylar"; bash araclar/guvenli_push.sh "${GITHUB_REF_NAME}"; fi   # 16.10.2026 H76: 15.10 08:24 #2 'git push' fetch-first ile dustu

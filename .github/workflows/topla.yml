@@ -39,6 +39,12 @@ jobs:
         run: sleep 60
       - if: steps.co1.outcome == 'failure'
         uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -66,6 +72,30 @@ jobs:
           path: veri
           retention-days: 1
 
+  # 16.10.2026 H76: DEPO YOLU KILIDI — satir sonu/':'/200+ karakter/30+ derinlik yolu depodan temizler (ayrinti araclar/yol_kilidi.sh). Kosuyu kirmaz.
+  yol-kilidi:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    continue-on-error: true
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
+      - name: Bozuk depo yollarini denetle
+        run: bash araclar/yol_kilidi.sh || echo "::warning::yol kilidi hata verdi"
+
   birlestir:
     needs: oku
     if: ${{ always() && needs.oku.result != 'cancelled' }}
@@ -83,6 +113,12 @@ jobs:
       - if: steps.co1.outcome == 'failure'
         run: sleep 60
       - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
         uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:

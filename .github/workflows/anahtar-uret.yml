@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: anahtar-uret
+  cancel-in-progress: false
+
 jobs:
   uret:
     runs-on: ubuntu-latest

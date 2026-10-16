@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: android
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   derle:
@@ -22,6 +22,20 @@ jobs:
         working-directory: uygulama
     steps:
       - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+        working-directory: ${{ github.workspace }}
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+        working-directory: ${{ github.workspace }}
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
 
       - uses: actions/setup-java@v4
         with:
@@ -150,6 +164,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
       - name: Donusturucu
         run: sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin fonts-dejavu-core
       - name: PNG uret
