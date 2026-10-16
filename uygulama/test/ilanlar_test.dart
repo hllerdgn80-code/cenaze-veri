@@ -96,11 +96,24 @@ void main() {
     telefon(tester);
     final d = await testDurumu();
     final v = veriYap(bugun, belirsiz: [kayit('g', 'Veli Örnek', '', bugun)]);
-    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Merkez', bugun, bugun))));
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, null, bugun, bugun))));
     await tester.pumpAndSettle();
     expect(find.text('Veli Örnek'), findsOneWidget);
     expect(find.textContaining('cenaze ilanı bulunmuyor'), findsNothing);
     expect(find.text(trBuyuk('İl geneli')), findsOneWidget);
+  });
+
+  testWidgets('16.10.2026 sahibi: ilçe sayfasında "İl geneli" bölümü YOK (nakil/ilçesiz kayıt yalnız il görünümünde)', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Ali Örnek', 'Bodrum', gunEkle(bugun, -3))],
+    }, belirsiz: [kayit('g', 'Nakil Kişi', '', bugun)]);
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Nakil Kişi'), findsNothing);
+    expect(find.textContaining('İL GENELİ'), findsNothing);
+    expect(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor'), findsOneWidget);
   });
 
   testWidgets('15.10.2026 sahibi: ilçede bugün ilan yoksa YALNIZ "bulunmuyor" satırı; diğer ilçeler ve son 7 gün açılmaz', (tester) async {
