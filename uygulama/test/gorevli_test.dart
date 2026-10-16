@@ -559,7 +559,7 @@ void main() {
     expect(find.byKey(const ValueKey('g_bolge_baslik')), findsOneWidget);
     expect(find.text('Fatma Yanlis'), findsOneWidget);
     expect(find.text(M.gorevliOtomatik), findsNothing); // etiket tarih satırında: "… · Otomatik"
-    expect(find.textContaining(M.gorevliOtomatik), findsOneWidget);
+    expect(find.textContaining('· ${M.gorevliOtomatik}'), findsOneWidget); // başlık ve açıklama da 'Sistem' içerir; etiket '· Sistem'
     expect(find.text('Mehmet Cami'), findsNothing); // cami eşleşmiyor
     expect(find.text('Ali Gorevli'), findsNothing); // görevli ilanı
     expect(find.text('Veli Baska'), findsNothing); // başka ilçe
