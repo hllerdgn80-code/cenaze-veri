@@ -233,9 +233,15 @@ test("DÜZELTME (§49): duzeltme_id doğrulanır; çıktıda görünür; aynı i
   const e = env();
   const { h } = await hazir(e);
   for (const kotu of ["XYZ", "../x", "a".repeat(40), 5]) assert.equal((await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: kotu }), { ek: h })).s, 400, String(kotu));
-  const a = await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: "a30d5cab8953", ad_soyad: "Fatma Doğru Ad" }), { ek: h });
+  // §49a: görev yeri (Korgan Merkez Camii) ile orijinal cami/mahalle eşleşmiyorsa ya da hiç yoksa 403 yetki_disi
+  for (const kotu of [{}, { orijinal_cami: "Çitlice Camii" }, { orijinal_mahalle: "Çitlice" }]) {
+    const r = await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: "a30d5cab8953", ...kotu }), { ek: h });
+    assert.equal(r.s, 403, JSON.stringify(kotu)); assert.equal(r.hata, "yetki_disi");
+  }
+  assert.equal((await al(e, "/gorevli/ordu.json")).kayitlar.length, 0);
+  const a = await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: "a30d5cab8953", orijinal_cami: "Merkez Camii", ad_soyad: "Fatma Doğru Ad" }), { ek: h });
   assert.equal(a.durum, "yayinda");
-  const b = await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: "a30d5cab8953", ad_soyad: "Fatma Doğru Ad", defin_yeri: "Korgan Mezarlığı" }), { ek: h });
+  const b = await cagir(e, "/gorevli/ilan", ilanGovde({ duzeltme_id: "a30d5cab8953", orijinal_mahalle: "Merkez Mahallesi", ad_soyad: "Fatma Doğru Ad", defin_yeri: "Korgan Mezarlığı" }), { ek: h });
   assert.equal(b.ilan_id, a.ilan_id); assert.equal(b.guncellendi, true);
   const ordu = (await al(e, "/gorevli/ordu.json")).kayitlar;
   assert.equal(ordu.length, 1); assert.equal(ordu[0].duzeltme_id, "a30d5cab8953"); assert.equal(ordu[0].defin_yeri, "Korgan Mezarlığı");

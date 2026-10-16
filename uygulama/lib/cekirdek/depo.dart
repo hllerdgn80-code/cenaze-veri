@@ -130,15 +130,15 @@ class Depo {
     await _p.remove('gorevli_pin_kilit');
   }
 
-  /// Hesabın il/ilçesi (otomatik ilanı düzeltme yetkisi için; URUN §49). Panel her açılışta günceller, çıkışta silinir.
-  ({String il, String ilce})? get gorevliYer {
+  /// Hesabın il/ilçesi ve görev yeri (otomatik ilanı düzeltme yetkisi için; URUN §49/§49a). Panel her açılışta günceller, çıkışta silinir.
+  ({String il, String ilce, String gorevYeri})? get gorevliYer {
     final v = _p.getString('gorevli_yer');
     if (v == null) return null;
-    final i = v.indexOf('|');
-    return i < 0 ? null : (il: v.substring(0, i), ilce: v.substring(i + 1));
+    final p = v.split('|');
+    return p.length < 2 ? null : (il: p[0], ilce: p[1], gorevYeri: p.length > 2 ? p.sublist(2).join('|') : '');
   }
 
-  Future<void> gorevliYerKaydet(String il, String ilce) => _p.setString('gorevli_yer', '$il|$ilce');
+  Future<void> gorevliYerKaydet(String il, String ilce, [String gorevYeri = '']) => _p.setString('gorevli_yer', '$il|$ilce|$gorevYeri');
 
   /// Giriş yapılan Diyanet kullanıcı adı (yalnız cihazda; KVKK kabulü "hesap değişti mi" için)
   String? get gorevliKullanici => _p.getString('gorevli_kullanici');

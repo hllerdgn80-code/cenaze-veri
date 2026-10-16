@@ -183,6 +183,7 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
 .ana-dugme{width:100%;height:52px;border-radius:var(--r-dugme);background:var(--vurgu);color:var(--vurgu-ust);font-size:17px;font-weight:650;display:flex;align-items:center;justify-content:center;gap:var(--s2);transition:opacity .2s}
 .ana-dugme[disabled]{opacity:.32;cursor:not-allowed;filter:grayscale(.4)}
 .ikincil-dugme{width:100%;height:48px;border-radius:var(--r-dugme);background:var(--yuzey);color:var(--metin);font-size:16px;font-weight:600}
+.ikincil-dugme.secili{background:var(--vurgu);color:var(--vurgu-ust);box-shadow:0 0 0 2px var(--vurgu) inset} /* 16.10 sahibi: seçili kutucuk belli olsun (vakit, cami, unvan) */
 .daha{display:block;margin:var(--s2) auto 0;height:40px;padding:0 var(--s5);border-radius:20px;background:var(--yuzey);color:var(--vurgu-metin);font-size:14px;font-weight:600}
 
 
@@ -517,6 +518,21 @@ svg.i{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.6;stro
     <div class="alt-cubuk"><button class="ana-dugme" data-kapat="p-punut">Tamam</button></div>
   </section>
 
+  <section class="panel" id="p-gilan">
+    <div class="baslik"><button class="yuvarlak" data-kapat="p-gilan" aria-label="Geri"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">İlan paylaş</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir" id="gilan-akis"></div>
+    <div class="alt-cubuk"><button class="ana-dugme" id="gilan-kaydet">İlanı paylaş</button></div>
+  </section>
+  <section class="panel" id="p-gilanlarim">
+    <div class="baslik"><button class="yuvarlak" data-kapat="p-gilanlarim" aria-label="Geri"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">İlanlarım</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir" id="gilanlarim-akis"></div>
+  </section>
+  <section class="panel" id="p-gduzelt">
+    <div class="baslik"><button class="yuvarlak" data-kapat="p-gduzelt" aria-label="Geri"><svg class="i" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">İlanı düzelt</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
+    <div class="kaydir" id="gduzelt-akis"></div>
+    <div class="alt-cubuk"><button class="ana-dugme" id="gduzelt-kaydet">Düzeltmeyi kaydet</button></div>
+  </section>
+
   <!-- 16.10.2026 §53: PANEL sekmesi (din görevlisi; 4 haneli parola) -->
   <section class="ekran sekme" id="e-panel">
     <div class="baslik"><span class="yuvarlak" style="visibility:hidden"></span><div class="orta"><div class="ust-etiket">Din görevlisi</div><div class="buyuk-baslik">Panel</div></div><span class="yuvarlak" style="visibility:hidden"></span></div>
@@ -592,6 +608,7 @@ const BUGUN=TR_GUN(new Date());
 function saatYaz(){const e=document.getElementById('saat');if(e)e.textContent=new Intl.DateTimeFormat('tr-TR',{timeZone:'Europe/Istanbul',hour:'2-digit',minute:'2-digit'}).format(new Date())}
 saatYaz();setInterval(saatYaz,20000);
 // Prototip: verisi (kaynağı) olmayan iller; ilçe listeleri gerçek, ilanlar örnektir
+const ILCELER=/*__ILCELER__*/null; // 16.10 sahibi: 81 ilin gerçek ilçe listesi (okuyucu/ilceler.json)
 const KAYNAKSIZ={Kars:['Akyaka','Arpaçay','Digor','Kağızman','Merkez','Sarıkamış','Selim','Susuz'],
  Tunceli:['Çemişgezek','Hozat','Mazgirt','Merkez','Nazımiye','Ovacık','Pertek','Pülümür'],
  Kilis:['Elbeyli','Merkez','Musabeyli','Polateli']};
@@ -695,9 +712,10 @@ function ilCiz(f=''){const q=sade(f);
 $('#il-ara').oninput=e=>ilCiz(e.target.value);
 $('#il-liste').onclick=e=>{const b=e.target.closest('[data-il]');if(!b)return;D.il=b.dataset.il;$('#ilce-ara').value='';ilceCiz();ekranAc('e-ilce')};
 let _sehitEklendi=false;
-function sehitEkle(){if(_sehitEklendi)return;_sehitEklendi=true;SEHITLER.forEach(r=>(VERI.ordu.ilceler[r.ilce]=VERI.ordu.ilceler[r.ilce]||[]).push(r))}
+function sehitEkle(){if(_sehitEklendi)return;_sehitEklendi=true;SEHITLER.forEach(r=>(VERI.ordu.ilceler[r.ilce]=VERI.ordu.ilceler[r.ilce]||[]).push(r));
+  (LS.get('gv_ilanlar',[])).forEach(r=>{if(r.il==='Ordu')(VERI.ordu.ilceler[r.ilce]=VERI.ordu.ilceler[r.ilce]||[]).push(r)})} // §37: görevlinin paylaştığı ilanlar (prototip: cihazda)
 function ordUTum(){sehitEkle();const o=VERI.ordu;return Object.values(o.ilceler).flat().concat(o.genel)}
-function ilceListesi(){return D.il==='Ordu'?VERI.ordu.ilce_listesi:KAYNAKSIZ[D.il]||null}
+function ilceListesi(){return D.il==='Ordu'?VERI.ordu.ilce_listesi:(ILCELER&&ILCELER[D.il])||KAYNAKSIZ[D.il]||null}
 function ilceCiz(f=''){$('#ilce-il').textContent=D.il;const q=sade(f);
   const IL=ilceListesi();
   if(!IL){$('#ilce-liste').innerHTML='';$('#ilce-liste').style.display='none';
@@ -725,7 +743,8 @@ function sayacBlok(r){const s=LS.get('sayac',{})[r.id]||{};const c=cinsiyet(r);l
    <button class="sayac" data-sayac="${r.id}" data-k="${k}">${sayacEtiket(k,c)}</button><span class="sayac-say">${s[k]||0}</span></div>`}).join('');
   return `<div class="sayac-baslik">Okuma sayacı — her dokunuşta bir artar</div><div class="sayaclar">${satirlar}</div><div class="cins-sec" hidden><p>Merhum mu, merhume mi?</p><div><button data-cins="e">Merhum</button><button data-cins="k">Merhume</button></div></div>
    <div class="toplam">Okuduklarınızın toplamı: <span class="top-say">${top}</span></div>`}
-function ilanKart(r,sayacli){const [vakit,yer]=namazAyir(r.namaz);const sh=!!r.sehit;
+const DUZ=LS.get('gv_duzeltme',{}); // §49b: görevlinin düzeltmeleri (id -> alanlar); gerçek uygulamada veri hattı saatlik turda uygular
+function ilanKart(r0,sayacli){const r=DUZ[r0.id]?Object.assign({},r0,DUZ[r0.id]):r0;const [vakit,yer]=namazAyir(r.namaz);const sh=!!r.sehit;
   const disi=r.disi?`<p>${esc(r.disi.il)}${r.disi.ilce?' / '+esc(r.disi.ilce):''}</p>`:'';
   const kay=kaydedildi(r.id);
   let h=`<article class="kart${sh?' sehit':''}" data-id="${r.id}">${sh?'<div class="yakini sehit-et"><span>ŞEHİT</span></div>':''}${r.bebek&&!sh?'<div class="yakini"><span>Bebek</span></div>':''}${r.gorevli?'<div class="yakini"><span>Mahallenin din görevlisi paylaştı</span></div>':''}
@@ -737,7 +756,7 @@ function ilanKart(r,sayacli){const [vakit,yer]=namazAyir(r.namaz);const sh=!!r.s
   <div class="iki-sutun"><div><h4>Cenaze namazı</h4><p>${esc(vakit)}</p><p>${esc(yer)}</p><p>${tarih(r.gun,1)} ${GUNU[haftaGunu(r.gun)]}</p></div><div class="dikey"></div>
    <div><h4>Defin</h4><p>${esc(baslikHarf(r.defin))}</p>${disi}</div></div>${sh?'<div class="dua-not">Ruhu şad olsun, mekânı cennet olsun.</div>':''}`;
   if(sayacli)h+=`<div class="ayrac"></div>`+sayacBlok(r)+`<button class="kart-uc" data-uc aria-label="Seçenekler">⋮</button><div class="kart-menu" hidden><button data-kaldir="${r.id}">Sayfamdan kaldır</button></div>`;
-  else if(GV.durum==='onayli'&&!r.gorevli&&!r.sehit&&(r.il||'')===GV.il)h+=`<button class="kart-uc" data-uc aria-label="Seçenekler">⋮</button><div class="kart-menu" hidden><button data-duzelt="${r.id}">Düzelt</button></div>`; // §49: din görevlisi kendi ilindeki otomatik ilanı düzeltir
+  else if(false)h+=`<button class="kart-uc" data-uc aria-label="Seçenekler">⋮</button><div class="kart-menu" hidden><button data-duzelt="${r.id}">Düzelt</button></div>`; // §49: din görevlisi kendi ilindeki otomatik ilanı düzeltir
   else h+=`<button class="kaydet-dugme" data-kaydet="${r.id}" ${kay?'disabled':''}>${kay?'Sayfamda ✓':'Sayfama kaydet'}</button>`;
   return h+'</article>';}
 function ilanVerisi(){sehitEkle();const o=VERI.ordu;
@@ -753,7 +772,7 @@ function seritCiz(){const {ilceKayit,genel}=ilanVerisi();const tum=Object.values
 $('#serit').onclick=e=>{const b=e.target.closest('[data-gun]');if(!b)return;D.gun=b.dataset.gun;ilanCiz()};
 function ilanKutusu(){return `<div class="ilan-kutusu"><p>Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz.</p><button class="baglanti" data-gorevli>Din görevlisi misiniz? Kayıt olun.</button><button class="baglanti" data-sehit>Şehit cenazesi ilanı nasıl verilir?</button></div>`}
 function ilanCiz(){if(!D.il)return;$('#konum-yazi').textContent=D.il+(D.ilce?' · '+D.ilce:'');
-  if(KAYNAKSIZ[D.il]){$('#serit').style.display='none';kaynaksizCiz();return}
+  if(D.il!=='Ordu'){$('#serit').style.display='none';kaynaksizCiz();return} // Ordu dışı illerde örnek kayıt yok: 'bulunmuyor' + ilan kutusu
   $('#serit').style.display='';seritCiz();
   const {ilceKayit,genel}=ilanVerisi();let h='',adet=0;
   const anahtarlar=Object.keys(ilceKayit).sort((a,b)=>a.localeCompare(b,'tr'));
@@ -875,13 +894,18 @@ addEventListener('resize',olcek);olcek();
 /* BAŞLAT */
 temaUygula();ilCiz();tbCiz();
 // Kayıtlı adres varsa açılış atlanır: doğrudan Cenaze İlanları, BUGÜN
-if(D.il==='Ordu'||KAYNAKSIZ[D.il]){D.gun=BUGUN;ilanCiz();ekranAc('e-ilanlar')}
+if(D.il){D.gun=BUGUN;ilanCiz();ekranAc('e-ilanlar')}
 
 function sehitBilgi(){$('#sm-baslik').textContent='Şehit cenazesi ilanları yalnızca din görevlileri tarafından paylaşılır.';$('#sm-metin').textContent='Şehidimizin yakınıysanız, cenaze töreninin yapılacağı caminin din görevlisine iletmeniz yeterlidir; ilan buradan duyurulur. Başınız sağ olsun. Şehidimizin ruhu şad olsun.';$('#sm-paylas').hidden=false;$('#sm-paylas').dataset.gv='1';$('#sm-paylas').textContent='Din görevlisi misiniz? Kayıt olun.';$('#sayfa-metin').classList.add('acik')}
 /* ---- 16.10.2026 §45: ilan kutusu + din görevlisi (kılavuz -> Diyanet e-postasına kod -> tarif + kod -> panel hemen açılır) ---- */
 const GV_YER=LS.get('gv_yer',null)||{};const GV={durum:LS.get('gv_durum',null),adim:1,kod:'482193',kul:'hasan.kurguluoglu',ad:'Hasan Kurguluoğlu',yer:GV_YER.yer||'Korgan Merkez Camii',unvan:GV_YER.unvan||'İmam-Hatip',il:GV_YER.il||'Ordu',ilce:GV_YER.ilce||'Korgan',hata:false};
 const GV_TAML={'İmam-Hatip':'İmam Hatibi','Müezzin-Kayyım':'Müezzin-Kayyımı','Vaiz':'Vaizi'};
 const GV_UNVAN=['İmam-Hatip','Müezzin-Kayyım',"Kur'an Kursu Öğreticisi",'Vaiz','Din Hizmetleri Uzmanı','Müftü Yardımcısı'];
+function gvSade(x){return (x||'').toLocaleLowerCase('tr').replace(/\b(camii|camisi|cami|mahallesi|mahalle|mah\.?|köyü|koyu)\b/g,' ').replace(/[^a-zçğıöşü0-9 ]/g,' ').replace(/\s+/g,' ').trim()}
+function gvYetkili(r){ // §49a: görevlinin görev yeri (cami/mahalle) ilanın camisi ya da mahallesiyle eşleşmeli; bilgi yoksa yetki yok
+  if((r.il||'Ordu')!==GV.il)return false;if(GV.ilce&&r.ilce&&r.ilce!==GV.ilce)return false;const g=gvSade(GV.yer).split(' ').filter(t=>t&&!['merkez'].includes(t)||true);const yer=gvSade(GV.yer);
+  const hedefler=[gvSade((r.namaz||'').split('-').pop()),gvSade(r.mah)].filter(Boolean);if(!hedefler.length)return false;
+  return hedefler.some(h=>h===yer||yer.endsWith(' '+h)||h.endsWith(' '+yer)||(yer.split(' ').some(t=>t.length>3&&h.split(' ').includes(t))));}
 function gorevliAc(){if(GV.durum==='onayli')return ekranAc('e-panel');GV.adim=1;GV.hata=false;gkayitCiz();$('#p-gorevli').classList.add('acik')}
 function gkayitCiz(){const a=GV.adim,ak=$('#gk-akis'),ib=$('#gk-ileri');ib.style.display='';ib.disabled=false;ib.classList.remove('pasif');
   if(a===1){$('#gk-ust').textContent='Din görevlisi';ib.textContent='Kodu gönder';
@@ -911,9 +935,8 @@ function gpanelCiz(){if(!LS.get('gv_kvkk',null)){$('#p-gkvkk').classList.add('ac
   $('#gp-kart').innerHTML=`<div class="gv-baslik-kart"><b>${esc(GV.yer)} ${esc(GV_TAML[GV.unvan]||GV.unvan)}</b><span>${esc(GV.ad)}</span><small>${esc(GV.il)} · ${esc(GV.ilce)} · ${esc(GV.kul)}@diyanet.gov.tr</small></div>`;
   const ilk=!LS.get('gv_dogrulandi_gosterildi',null);if(ilk)LS.set('gv_dogrulandi_gosterildi',true); // 16.10 sahibi: bu not yalnız ilk açılışta
   $('#gp-akis').innerHTML=(ilk?`<div class="gv-aciklama">Hesabınız Diyanet e-postanızla doğrulandı.</div>`:'')+`
-   <button class="ana-dugme" id="gp-paylas">İlan paylaş</button><div style="height:12px"></div><button class="ana-dugme" id="gp-ilanlarim">İlanlarım (1)</button>
-    <div class="bolum">Son ilanlar</div><div class="kart"><div class="ad">Nurcihan Örneksoy</div><div class="soluk">Yayında</div></div>
-`;
+   <button class="ana-dugme" id="gp-paylas">İlan paylaş</button><div style="height:12px"></div><button class="ana-dugme" id="gp-ilanlarim">İlanlarım (${LS.get('gv_ilanlar',[]).length})</button>
+    <div class="bolum">Son ilanlar</div>${(()=>{const L=LS.get('gv_ilanlar',[]).slice(-3).reverse();return L.length?L.map(r=>`<div class="kart"><div class="ad">${esc(r.ad)}</div><div class="soluk">${esc(r.mah||'')} · ${esc(r.ilce)} · Din görevlisi</div></div>`).join(''):'<p class="gv-not">Henüz ilan paylaşmadınız.</p>'})()}`;
   $('#p-gpanel').classList.add('acik')}
 function gyerCiz(){$('#gyer-akis').innerHTML=`<div class="adim-baslik"><h3>Yeni görev yeriniz</h3><p>Kaydedince panelinizin üstünde yeni görev yeriniz görünür; bundan sonraki ilanlar buradan paylaşılır.</p></div>
     <label class="gv-alan">Görev yeri<input id="gp-yer-ad" placeholder="Cami ya da köy adı" value="${esc(GV.yer)}"></label>
@@ -925,6 +948,53 @@ $('#gkvkk-kabul').onclick=()=>{LS.set('gv_kvkk',new Date().toISOString());$('#p-
 $('#gsorum-kabul').onclick=()=>{LS.set('gv_sorumluluk',new Date().toISOString());$('#p-gsorum').classList.remove('acik')};
 $('#gkvkk-tam').onclick=e=>{e.preventDefault();bildir('Tam metin: Gizlilik sayfası')};
 $('#gp-menu-ac').onclick=e=>{e.stopPropagation();$('#gp-menu').hidden=!$('#gp-menu').hidden};
+function gilanCiz(){$('#gilan-akis').innerHTML=`<div class="gv-aciklama">Bu panelden paylaştığınız ilan hemen yayına girer ve İlanlar sayfasında görünür.</div>
+    <label class="gv-alan">Ad soyad<input id="gi-ad" placeholder="Vefat edenin adı soyadı"></label>
+    <label class="gv-alan">Yaş<input id="gi-yas" inputmode="numeric" placeholder="Örn. 78"></label>
+    <label class="gv-beyan" style="margin:-6px 0 10px"><input type="checkbox" id="gi-yas-yok"><span>Belirtilmedi (yaş bilinmiyorsa işaretleyin; ilanda yaş görünmez)</span></label>
+    <label class="gv-alan">İl / ilçe<input id="gi-ilce" value="${esc(GV.il)} · ${esc(GV.ilce||'')}" readonly style="opacity:.7"></label>
+    <div class="gv-not" style="margin-top:-6px">İlanınız yalnız görev yaptığınız ilçede yayımlanır; il ve ilçe değiştirilemez.</div>
+    <label class="gv-alan">Mahalle / köy<input id="gi-mah" placeholder="Örn. Çitlice"></label>
+    <div class="gv-alan">Cenaze günü</div><div class="ikili"><button class="ikincil-dugme secili" data-gigun="0">Bugün</button><button class="ikincil-dugme" data-gigun="1">Yarın</button></div>
+    <div class="gv-alan">Vakit</div><div class="ikili" style="flex-wrap:wrap;gap:8px">${['Sabah Namazını Müteakip','Öğle Namazını Müteakip','İkindi Namazını Müteakip','Akşam Namazını Müteakip','Yatsı Namazını Müteakip'].map(v=>`<button class="ikincil-dugme ${v===_giVakit?'secili':''}" data-gi-vakit="${v}" style="height:44px;font-size:13px">${v}</button>`).join('')}</div>
+    <div class="gv-alan" style="margin-top:12px">Cami</div><div class="ikili" style="flex-wrap:wrap;gap:8px"><button class="ikincil-dugme ${_giDiger?'':'secili'}" data-gi-cami="kendi" style="height:44px">${esc(GV.yer)}</button><button class="ikincil-dugme ${_giDiger?'secili':''}" data-gi-cami="diger" style="height:44px">Diğer</button></div>
+    <label class="gv-alan" id="gi-cami-alan" style="margin-top:8px" ${_giDiger?'':'hidden'}>Cami adı<input id="gi-cami-ad" value="${esc('')}" placeholder="Cami adını yazın"></label>
+    <label class="gv-alan">Defin yeri<input id="gi-defin" placeholder="Mezarlık adı"></label>`;_giGun=0;_giVakit='Öğle Namazını Müteakip';_giDiger=false;$('#p-gilan').classList.add('acik')}
+let _giGun=0,_giVakit='Öğle Namazını Müteakip',_giDiger=false;
+document.addEventListener('change',e=>{if(e.target.id==='gi-yas-yok'){$('#gi-yas').disabled=e.target.checked;if(e.target.checked)$('#gi-yas').value=''}if(e.target.id==='gd-yas-yok'){$('#gd-yas').disabled=e.target.checked;if(e.target.checked)$('#gd-yas').value=''}});
+$('#gilan-akis').addEventListener('click',e=>{const v=e.target.closest('[data-gi-vakit]');if(v){_giVakit=v.dataset.giVakit;$$('#gilan-akis [data-gi-vakit]').forEach(x=>x.classList.toggle('secili',x===v));return}
+  const c=e.target.closest('[data-gi-cami]');if(c){_giDiger=c.dataset.giCami==='diger';$$('#gilan-akis [data-gi-cami]').forEach(x=>x.classList.toggle('secili',x===c));$('#gi-cami-alan').hidden=!_giDiger;return}
+  const b=e.target.closest('[data-gigun]');if(!b)return;_giGun=+b.dataset.gigun;$$('#gilan-akis [data-gigun]').forEach(x=>x.classList.toggle('secili',x===b))});
+$('#gilan-kaydet').onclick=()=>{const ad=$('#gi-ad').value.trim(),ilce=GV.ilce||'';if(!ad)return bildir('Ad soyad yazın.');if(!ilce)return bildir('Görev yerinizde ilçe kayıtlı değil.');
+  const gun=gunEkle(BUGUN,_giGun);const r={id:'gv-'+Date.now(),il:GV.il,ilce,mah:$('#gi-mah').value.trim(),ad,ab:'',yas:$('#gi-yas-yok').checked?null:(parseInt($('#gi-yas').value,10)||null),vefat:gun,gun,et:'Cenaze · '+tarih(gun,1)+' · '+_giVakit.split(' ')[0],defin:$('#gi-defin').value.trim(),namaz:_giVakit+'-'+((_giDiger?$('#gi-cami-ad').value.trim():GV.yer)||'').toLocaleUpperCase('tr'),disi:null,cin:null,gorevli:true};
+  const L=LS.get('gv_ilanlar',[]);L.push(r);LS.set('gv_ilanlar',L);if(r.il==='Ordu')(VERI.ordu.ilceler[r.ilce]=VERI.ordu.ilceler[r.ilce]||[]).push(r);
+  $('#p-gilan').classList.remove('acik');bildir('İlanınız yayına girdi.');gpanelCiz();if(D.il)ilanCiz()};
+function gilanlarimCiz(){const L=LS.get('gv_ilanlar',[]).slice().reverse();
+  const B=(D.il==='Ordu'||GV.il==='Ordu'?ordUTum():[]).filter(r=>!r.gorevli&&!r.sehit&&gvYetkili(r)).slice(0,8);
+  $('#gilanlarim-akis').innerHTML=`<div class="gv-aciklama" style="font-size:15px;line-height:22px">Bu sayfada sizin eklediğiniz ve sistem tarafından yüklenen ilanlar görüntülenir. Sistemin yüklediği ilanlarda bir hata görürseniz düzeltebilirsiniz, düzeltme ilanlar sayfasında otomatik olarak uygulanır.</div><div class="bolum">Sizin eklediğiniz ilanlar</div>${L.length?L.map(r=>`<div class="kart"><div class="ad">${esc(r.ad)}</div><div class="soluk">${esc(r.mah||'')} · ${esc(r.ilce)} · Din görevlisi</div></div>`).join(''):'<p class="gv-not">Henüz ilan paylaşmadınız.</p>'}
+    <div class="bolum">Sistemin yüklediği ilanlar</div>
+    ${B.length?B.map(r=>`<div class="kart"><div class="ad">${esc((DUZ[r.id]||r).ad)}</div><div class="soluk">${esc((DUZ[r.id]||r).mah||'')}${r.ilce?' · '+esc(r.ilce):''} · ${DUZ[r.id]?'Sistem · Düzeltildi':'Sistem'}</div><button class="ikincil-dugme" data-gduzenle="${r.id}" style="margin-top:8px">İlanı düzelt</button></div>`).join(''):'<p class="gv-not">Bölgenizde bizim çektiğimiz ilan yok.</p>'}`;
+  $('#p-gilanlarim').classList.add('acik')}
+$('#gilanlarim-akis').addEventListener('click',e=>{const d=e.target.closest('[data-gduzenle]');if(d)gduzeltCiz(d.dataset.gduzenle)});
+let _duzId=null,_gdVakit='Öğle Namazını Müteakip',_gdDiger=false;
+$('#gduzelt-akis').addEventListener('click',e=>{const v=e.target.closest('[data-gd-vakit]');if(v){_gdVakit=v.dataset.gdVakit;$$('#gduzelt-akis [data-gd-vakit]').forEach(x=>x.classList.toggle('secili',x===v));return}
+  const c=e.target.closest('[data-gd-cami]');if(c){_gdDiger=c.dataset.gdCami==='diger';$$('#gduzelt-akis [data-gd-cami]').forEach(x=>x.classList.toggle('secili',x===c));$('#gd-cami-alan').hidden=!_gdDiger}});
+function gduzeltCiz(id){const r0=kayitBul(id);if(!r0)return;const r=DUZ[id]?Object.assign({},r0,DUZ[id]):r0;_duzId=id;
+  $('#gduzelt-akis').innerHTML=`<div class="gv-aciklama">Bu ilan bizim çektiğimiz veriden; sizin caminizle/mahallenizle eşleştiği için düzeltebilirsiniz. Kaydettiğiniz düzeltme İlanlar sayfasındaki ilanda uygulanır.</div>
+    <label class="gv-alan">Ad soyad<input id="gd-ad" value="${esc(r.ad)}"></label>
+    <label class="gv-alan">Yaş<input id="gd-yas" inputmode="numeric" value="${r.yas||''}" ${r.yas?'':'disabled'}></label>
+    <label class="gv-beyan" style="margin:-6px 0 10px"><input type="checkbox" id="gd-yas-yok" ${r.yas?'':'checked'}><span>Belirtilmedi (yaş bilinmiyorsa işaretleyin; ilanda yaş görünmez)</span></label>
+    <label class="gv-alan">Mahalle / köy<input id="gd-mah" value="${esc(r.mah||'')}"></label>
+    ${(()=>{const [v,c]=namazAyir(r.namaz||'');const vk=v?(['Sabah','Öğle','İkindi','Akşam','Yatsı'].find(x=>v.toLocaleLowerCase('tr').startsWith(x.toLocaleLowerCase('tr')))||'Öğle')+' Namazını Müteakip':'Öğle Namazını Müteakip';const dg=gvSade(c)!==gvSade(GV.yer);_gdVakit=vk;_gdDiger=dg;return `    <div class="gv-alan">Vakit</div><div class="ikili" style="flex-wrap:wrap;gap:8px">${['Sabah Namazını Müteakip','Öğle Namazını Müteakip','İkindi Namazını Müteakip','Akşam Namazını Müteakip','Yatsı Namazını Müteakip'].map(v=>`<button class="ikincil-dugme ${v===vk?'secili':''}" data-gd-vakit="${v}" style="height:44px;font-size:13px">${v}</button>`).join('')}</div>
+    <div class="gv-alan" style="margin-top:12px">Cami</div><div class="ikili" style="flex-wrap:wrap;gap:8px"><button class="ikincil-dugme ${dg?'':'secili'}" data-gd-cami="kendi" style="height:44px">${esc(GV.yer)}</button><button class="ikincil-dugme ${dg?'secili':''}" data-gd-cami="diger" style="height:44px">Diğer</button></div>
+    <label class="gv-alan" id="gd-cami-alan" style="margin-top:8px" ${dg?'':'hidden'}>Cami adı<input id="gd-cami-ad" value="${esc(c)}" placeholder="Cami adını yazın"></label>
+`})()}
+    <label class="gv-alan">Defin yeri<input id="gd-defin" value="${esc(r.defin||'')}"></label>`;
+  $('#p-gduzelt').classList.add('acik')}
+$('#gduzelt-kaydet').onclick=()=>{if(!_duzId)return;const ad=$('#gd-ad').value.trim();if(!ad)return bildir('Ad soyad boş olamaz.');
+  DUZ[_duzId]={ad,yas:$('#gd-yas-yok').checked?null:(parseInt($('#gd-yas').value,10)||null),mah:$('#gd-mah').value.trim(),namaz:_gdVakit+'-'+((_gdDiger?$('#gd-cami-ad').value.trim():GV.yer)||'').toLocaleUpperCase('tr'),defin:$('#gd-defin').value.trim(),duzeltildi:true};
+  LS.set('gv_duzeltme',DUZ);$('#p-gduzelt').classList.remove('acik');bildir('Düzeltmeniz kaydedildi; İlanlar sayfasında uygulandı.');if($('#p-gilanlarim').classList.contains('acik'))gilanlarimCiz();if(D.il)ilanCiz()};
+$('#gp-akis').addEventListener('click',e=>{if(e.target.closest('#gp-paylas'))return gilanCiz();if(e.target.closest('#gp-ilanlarim'))return gilanlarimCiz();const d=e.target.closest('[data-gduzenle]');if(d){gduzeltCiz(d.dataset.gduzenle)}});
 $('#gp-menu').addEventListener('click',e=>{$('#gp-menu').hidden=true;
   if(e.target.closest('#gp-yer')){gyerCiz();return}
   if(e.target.closest('[data-gvd]')){GV.durum=null;LS.set('gv_durum',null);LS.set('gv_pin',null);LS.set('gv_kvkk',null);LS.set('gv_sorumluluk',null);LS.set('gv_dogrulandi_gosterildi',null);PANEL_ACIK=false;$('#p-gpanel').classList.remove('acik');panelSekmeGuncelle();ekranAc('e-ilanlar');bildir("Çıkış yapıldı.")}});

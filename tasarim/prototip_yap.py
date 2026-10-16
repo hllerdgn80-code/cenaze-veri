@@ -263,6 +263,9 @@ adlar = json.load(open(T/"adlar.json"))
 veri = {"adlar": adlar, "ordu": ordu, "kay": kay, "tb": tbg, "uretim": URETIM.isoformat()}
 s = (T/"sablon.html").read_text()
 s = s.replace("/*__VERI__*/null", json.dumps(veri, ensure_ascii=False, separators=(",", ":")))
+_ilc = json.load(open(K/"cenaze-uygulamasi/okuyucu/ilceler.json", encoding="utf-8")) if (K/"cenaze-uygulamasi/okuyucu/ilceler.json").exists() else json.load(open(T.parent/"okuyucu/ilceler.json", encoding="utf-8"))
+_ilc = {k: v for k, v in _ilc.items() if not k.startswith("_") and isinstance(v, list)}
+s = s.replace("/*__ILCELER__*/null", json.dumps(_ilc, ensure_ascii=False, separators=(",", ":")))  # 16.10.2026: 81 il ilçe listesi
 # 15.10.2026 AÇILIŞ EKRANI (sahibi): görsel + âyet + Diyanet meali + motto, 6 sn sonra uygulamaya girer.
 # Görsel: tasarim/acilis/secim.txt içindeki dosya adı (varsayılan simge1.png); sahibi adayı seçince o ad yazılır. data: URL olarak gömülür.
 import base64 as _b64

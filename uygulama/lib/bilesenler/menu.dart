@@ -221,6 +221,7 @@ class FormAlani extends StatelessWidget {
   final ValueChanged<String>? onChanged;
   final int? enCok;
   final bool gizli; // parola: yalnız rakam, noktalı gösterim
+  final bool etkin; // false: alan kapalı (ör. 'Belirtilmedi' işaretli yaş)
   const FormAlani({
     super.key,
     required this.etiket,
@@ -231,6 +232,7 @@ class FormAlani extends StatelessWidget {
     this.onChanged,
     this.enCok,
     this.gizli = false,
+    this.etkin = true,
   });
 
   @override
@@ -243,6 +245,7 @@ class FormAlani extends StatelessWidget {
         const SizedBox(height: 6),
         TextField(
           controller: denetleyici,
+          enabled: etkin,
           onChanged: onChanged,
           minLines: satir,
           maxLines: satir,

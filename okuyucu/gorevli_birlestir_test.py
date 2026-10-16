@@ -35,10 +35,10 @@ d = {"il": "Ordu", "ilceler": {"Korgan": [kayit("b4", "Hasan Öz", "Korgan", "20
 birlestir(d, [kayit("gorevli-4", "Hasan Öz", "Korgan", "2026-10-15", yas=80, gorevli=True)])
 assert len(d["ilceler"]["Korgan"]) == 2
 # 6) duzeltme_id: o id'li otomatik kayıt (başka listede de olsa) kalkar, görevli kaydı konur; ad değişmiş olsa bile; boş alan doldurulmaz
-oto = kayit("a30d5cab8953", "Fatma Yanlis", "Korgan", "2026-10-15", defin_yeri="Eski Mezarlık", yas=80)
+oto = kayit("a30d5cab8953", "Fatma Yanlis", "Korgan", "2026-10-15", defin_yeri="Eski Mezarlık", yas=80, mahalle="Tepe")
 diger = kayit("b9", "Ali Kaya", "Korgan", "2026-10-15")
 d = {"il": "Ordu", "ilceler": {"Korgan": [diger]}, "il_disi": [], "ilce_belirsiz": [oto]}
-e, s = birlestir(d, [kayit("gorevli-7", "Fatma Doğru", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="a30d5cab8953", defin_yeri=None)])
+e, s = birlestir(d, [kayit("gorevli-7", "Fatma Doğru", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="a30d5cab8953", defin_yeri=None, gorev_yeri="Tepe Camii")])
 assert d["ilce_belirsiz"] == [] and [x["id"] for x in d["ilceler"]["Korgan"]] == ["b9", "gorevli-7"], d
 assert d["ilceler"]["Korgan"][1]["defin_yeri"] is None and (e, s) == (1, 1)
 # 7) duzeltme_id şehit kaydını silmez; hedef yoksa görevli kaydı yine eklenir; ikinci çalıştırmada çift kart olmaz
@@ -50,4 +50,25 @@ g8 = kayit("gorevli-9", "Yeni Ad", "Korgan", "2026-10-15", gorevli=True, duzeltm
 d = {"il": "Ordu", "ilceler": {}, "il_disi": [], "ilce_belirsiz": []}
 birlestir(d, [g8]); birlestir(d, [g8])
 assert [x["id"] for x in d["ilceler"]["Korgan"]] == ["gorevli-9"]
-print("gorevli_birlestir: 7 test tamam")
+# 8) §49a: düzeltme YALNIZ görev yeri orijinal ilanın cami/mahallesiyle eşleşiyorsa uygulanır
+ek = dict(gorev_yeri="Korgan Çitlice Camii")
+oto = kayit("c1c1c1c1c1c1", "Ali Merkez", "Korgan", "2026-10-15", namaz_yeri_vakti="ÖĞLE NAMAZINDAN SONRA - MERKEZ CAMİİ", mahalle="Merkez Mahallesi")
+d = {"il": "Ordu", "ilceler": {"Korgan": [oto]}, "il_disi": [], "ilce_belirsiz": []}
+red = []
+e, s = birlestir(d, [kayit("gorevli-10", "Ali Merkez Doğru", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="c1c1c1c1c1c1", **ek)], red)
+assert d["ilceler"]["Korgan"] == [oto] and (e, s) == (0, 0), d
+assert len(red) == 1 and red[0]["kural"] == ["yetki dışı düzeltme"] and red[0]["kayit"]["id"] == "gorevli-10", red
+# 9) eşleşen görev yeri (cami ya da mahalle) -> uygulanır
+for gy in ("Korgan Merkez Camii", "Merkez Mahallesi"):
+    oto = kayit("c1c1c1c1c1c1", "Ali Merkez", "Korgan", "2026-10-15", namaz_yeri_vakti="ÖĞLE NAMAZINDAN SONRA - MERKEZ CAMİİ", mahalle="Merkez Mahallesi")
+    d = {"il": "Ordu", "ilceler": {"Korgan": [oto]}, "il_disi": [], "ilce_belirsiz": []}
+    red = []
+    birlestir(d, [kayit("gorevli-11", "Ali Merkez Doğru", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="c1c1c1c1c1c1", gorev_yeri=gy)], red)
+    assert [x["id"] for x in d["ilceler"]["Korgan"]] == ["gorevli-11"] and red == [], (gy, d, red)
+# 10) orijinalde cami de mahalle de yoksa düzeltme uygulanmaz
+oto = kayit("c1c1c1c1c1c1", "Ali Boş", "Korgan", "2026-10-15")
+d = {"il": "Ordu", "ilceler": {"Korgan": [oto]}, "il_disi": [], "ilce_belirsiz": []}
+red = []
+birlestir(d, [kayit("gorevli-12", "Ali Boş", "Korgan", "2026-10-15", gorevli=True, duzeltme_id="c1c1c1c1c1c1", **ek)], red)
+assert d["ilceler"]["Korgan"] == [oto] and len(red) == 1
+print("gorevli_birlestir: 10 test tamam")

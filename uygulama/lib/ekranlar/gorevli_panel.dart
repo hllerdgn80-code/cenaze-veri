@@ -10,8 +10,10 @@ import '../bilesenler/menu.dart';
 import '../bilesenler/ortak.dart';
 import '../cekirdek/durum.dart';
 import '../cekirdek/gorevli.dart';
+import '../cekirdek/ilan.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
+import '../cekirdek/yer_eslesme.dart';
 import '../cekirdek/yardimci.dart';
 import 'gorevli_yer.dart';
 import 'panel_sekmesi.dart' show GorevliParolaDegistir;
@@ -115,7 +117,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
       return;
     }
     await depo.gorevliDurumKaydet(h.onayli ? 'onayli' : 'kontrolde');
-    if (h.il.isNotEmpty) await depo.gorevliYerKaydet(h.il, h.ilce);
+    if (h.il.isNotEmpty) await depo.gorevliYerKaydet(h.il, h.ilce, h.gorevYeri);
     // URUN §50a (16.10 10:00): HER GİRİŞTE (e-posta kodu doğrulaması) panelin ilk açılışında bir kez; çıkış cihaz kaydını siler.
     // Sunucudaki kvkk_kabul yalnız arşivdir; pencereyi atlatmak için kullanılmaz.
     if (!depo.gorevliKvkkTamam()) {
@@ -187,7 +189,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
 
   Future<void> _ilanlarimAc() async {
     await Navigator.of(context, rootNavigator: true).push(MaterialPageRoute(
-        builder: (_) => GorevliIlanlarim(ilanlar: _ilanlar, onayli: _hesap?.onayli == true, servis: widget.servis, duzenle: _ilanAc)));
+        builder: (_) => GorevliIlanlarim(ilanlar: _ilanlar, onayli: _hesap?.onayli == true, servis: widget.servis, duzenle: _ilanAc, hesap: _hesap)));
     if (mounted) _yukle();
   }
 
@@ -314,7 +316,8 @@ class GorevliIlanlarim extends StatefulWidget {
   final bool onayli;
   final GorevliServisi? servis;
   final Future<void> Function([Map<String, dynamic>? duzenle]) duzenle;
-  const GorevliIlanlarim({super.key, required this.ilanlar, required this.onayli, required this.duzenle, this.servis});
+  final GorevliHesap? hesap; // URUN §49b: "Bölgenizdeki ilanlar" bölümü için il/ilçe/görev yeri
+  const GorevliIlanlarim({super.key, required this.ilanlar, required this.onayli, required this.duzenle, this.servis, this.hesap});
   @override
   State<GorevliIlanlarim> createState() => _GorevliIlanlarimState();
 }
@@ -325,6 +328,24 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
   void initState() {
     super.initState();
     _l = List.of(widget.ilanlar);
+    _bolgeYukle();
+  }
+
+  List<Ilan> _bolge = const [];
+
+  /// URUN §49b: canlı il verisinden (VeriServisi; önbellekli) görev yeriyle eşleşen OTOMATİK kayıtlar cihazda süzülür
+  Future<void> _bolgeYukle() async {
+    final h = widget.hesap;
+    if (h == null || !widget.onayli || h.il.isEmpty || h.gorevYeri.isEmpty) return;
+    final sonuc = await Kapsam.oku(context).veri.ilGetir(h.il);
+    final v = sonuc.veri;
+    if (v == null || !mounted) return;
+    final kucuk = trKucuk(h.ilce);
+    final liste = <Ilan>[
+      for (final e in v.ilceler.entries)
+        if (h.ilce.isEmpty || trKucuk(e.key) == kucuk) ...e.value,
+    ].where((i) => !i.gorevli && !i.sehit && yerEslesir(h.gorevYeri, i.namazParcalari[1], i.mahalle, haric: h.ilce)).toList();
+    setState(() => _bolge = liste);
   }
 
   Future<void> _kaldir(Map<String, dynamic> i) async {
@@ -357,6 +378,16 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
             child: ListView(
               padding: const EdgeInsets.fromLTRB(R.s5, 0, R.s5, R.s6),
               children: [
+                // sahibi 16.10: sayfanın üstünde görünür açıklama (soluk değil, gövde yazısı)
+                Padding(
+                  padding: const EdgeInsets.only(top: R.s3, bottom: R.s3),
+                  child: Container(
+                    padding: const EdgeInsets.all(R.s4),
+                    decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
+                    child: Text(M.gorevliIlanlarimAciklama, key: const ValueKey('g_ilanlarim_aciklama'), textAlign: TextAlign.center, style: Y.govde(r).copyWith(color: r.metin)),
+                  ),
+                ),
+                Padding(padding: const EdgeInsets.only(bottom: R.s3), child: Text(M.gorevliKendiBaslik, textAlign: TextAlign.center, style: Y.soluk(r))),
                 if (_l.isEmpty) Padding(padding: const EdgeInsets.only(top: R.s6), child: Text(M.gorevliIlanYok, key: const ValueKey('g_ilanlarim_bos'), textAlign: TextAlign.center, style: Y.soluk(r))),
                 for (final i in _l)
                   Container(
@@ -379,12 +410,56 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
                       ],
                     ]),
                   ),
+                if (_bolge.isNotEmpty) ...[
+                  Padding(
+                      padding: const EdgeInsets.only(top: R.s5, bottom: R.s3),
+                      child: Text(M.gorevliBolgeBaslik, key: const ValueKey('g_bolge_baslik'), textAlign: TextAlign.center, style: Y.soluk(r))),
+                  for (final i in _bolge)
+                    Container(
+                      key: ValueKey('g_bolge_${i.id}'),
+                      margin: const EdgeInsets.only(bottom: R.s3),
+                      padding: const EdgeInsets.all(R.s4),
+                      decoration: BoxDecoration(color: r.yuzey, borderRadius: BorderRadius.circular(R.kart)),
+                      child: Column(children: [
+                        Text(i.adSoyad, textAlign: TextAlign.center, style: Y.kartAd(r)),
+                        Text([tarih(i.namazTarihi), M.gorevliOtomatik].where((x) => x.isNotEmpty).join(' · '), textAlign: TextAlign.center, style: Y.soluk(r)),
+                        const SizedBox(height: R.s3),
+                        IkincilDugme(M.gorevliBolgeDuzelt, yukseklik: 44, onTap: () => _bolgeDuzenle(i)),
+                      ]),
+                    ),
+                ],
               ],
             ),
           ),
         ]),
       ),
     );
+  }
+
+  /// Otomatik kaydı düzelt: mevcut ilan formu kayıtla dolu; kayıt duzeltme_id + orijinal cami/mahalle ile gider
+  Future<void> _bolgeDuzenle(Ilan ilan) async {
+    final h = widget.hesap!;
+    final np = ilan.namazParcalari;
+    await Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
+      builder: (_) => GorevliIlanFormu(
+        hesap: GorevliHesap('onayli', h.adSoyad, h.il, h.ilce, h.gorevYeri, h.unvan),
+        servis: widget.servis,
+        duzeltmeId: ilan.id,
+        orijinalCami: np[1],
+        orijinalMahalle: ilan.mahalle,
+        duzenle: {
+          'ad_soyad': ilan.adSoyad,
+          'cinsiyet': ilan.cinsiyet,
+          'yas': ilan.yas,
+          'vefat_tarihi': ilan.vefatTarihi,
+          'namaz_tarihi': ilan.namazTarihi,
+          'mahalle': ilan.mahalle,
+          'defin_yeri': ilan.definYeri,
+          'namaz_vakti': np[0],
+          'namaz_cami': np[1],
+        },
+      ),
+    ));
   }
 }
 
@@ -394,13 +469,16 @@ class GorevliIlanFormu extends StatefulWidget {
   final GorevliServisi? servis;
   final Map<String, dynamic>? duzenle; // dolu ise var olan ilan düzenlenir (duzeltmeId varsa: otomatik ilan verisiyle dolu YENİ düzeltme kaydı)
   final String? duzeltmeId; // URUN §49: düzeltilen otomatik ilanın id'si
-  const GorevliIlanFormu({super.key, required this.hesap, this.servis, this.duzenle, this.duzeltmeId});
+  final String? orijinalCami, orijinalMahalle; // URUN §49a: düzeltilen ilanın ORİJİNAL cami/mahallesi (sunucu görev yeriyle yeniden denetler)
+  const GorevliIlanFormu({super.key, required this.hesap, this.servis, this.duzenle, this.duzeltmeId, this.orijinalCami, this.orijinalMahalle});
   @override
   State<GorevliIlanFormu> createState() => _GorevliIlanFormuState();
 }
 
 class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
   String? _cins;
+  bool _camiDiger = false; // §49d: 'Diğer' cami seçildi -> elle yazılır
+  bool _yasYok = false; // sahibi 16.10 (URUN §49c): 'Belirtilmedi' işaretliyse yaş alanı kapalı, ilanda yaş görünmez
   bool _sehit = false; // "Şehit cenazesi" anahtarı: §27 alanları (rütbe, tören yeri, resmî duyuru bağlantısı isteğe bağlı)
   String _vefat = bugunTr();
   String _namaz = bugunTr();
@@ -419,11 +497,14 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
   @override
   void initState() {
     super.initState();
+    if (widget.duzenle == null && widget.hesap.gorevYeri.isNotEmpty) _cami.text = widget.hesap.gorevYeri; // §49d: varsayılan kendi camisi
     final d = widget.duzenle;
     if (d != null) {
       _ad.text = d['ad_soyad']?.toString() ?? '';
       _cins = d['cinsiyet']?.toString();
       _yas.text = d['yas']?.toString() ?? '';
+      _yasYok = d['yas'] == null;
+      _camiDiger = _cami.text.isNotEmpty && _cami.text != widget.hesap.gorevYeri;
       _vefat = d['vefat_tarihi']?.toString() ?? _vefat;
       _namaz = d['namaz_tarihi']?.toString() ?? _namaz;
       _mahalle.text = d['mahalle']?.toString() ?? '';
@@ -474,10 +555,14 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
     final namazYeri = _vakit != null && cami != null ? '$_vakit-$cami' : (cami != null ? '-$cami' : _vakit);
     final mahalle = _bos(_mahalle.text);
     final mezarlik = _bos(_mezarlik.text);
-    final yas = int.tryParse(_yas.text.trim());
+    final yas = _yasYok ? null : int.tryParse(_yas.text.trim());
     return {
       if (widget.duzenle != null && widget.duzeltmeId == null) 'ilan_id': widget.duzenle!['id'],
-      if (widget.duzeltmeId != null) 'duzeltme_id': widget.duzeltmeId,
+      if (widget.duzeltmeId != null) ...{
+        'duzeltme_id': widget.duzeltmeId,
+        if ((widget.orijinalCami ?? '').isNotEmpty) 'orijinal_cami': widget.orijinalCami,
+        if ((widget.orijinalMahalle ?? '').isNotEmpty) 'orijinal_mahalle': widget.orijinalMahalle,
+      },
       'ad_soyad': _bos(_ad.text),
       'cinsiyet': _cins,
       if (yas != null) 'yas': yas,
@@ -576,13 +661,34 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
                 ]),
                 const SizedBox(height: R.s3),
                 FormAlani(key: const ValueKey('gi_ad'), etiket: M.alanAd, denetleyici: _ad, enCok: 60, onChanged: yenile),
-                FormAlani(key: const ValueKey('gi_yas'), etiket: M.alanYas, ipucu: M.alanYasYer, denetleyici: _yas, klavye: TextInputType.number, enCok: 3, onChanged: yenile),
+                FormAlani(key: const ValueKey('gi_yas'), etiket: M.alanYas, ipucu: M.alanYasYer, denetleyici: _yas, klavye: TextInputType.number, enCok: 3, etkin: !_yasYok, onChanged: yenile),
+                // sahibi 16.10 (§49c): yaş bilinmiyorsa 'Belirtilmedi' -> alan kapanır, ilanda yaş dairesi görünmez
+                Padding(
+                  padding: const EdgeInsets.only(bottom: R.s3),
+                  child: InkWell(
+                    key: const ValueKey('gi_yas_yok'),
+                    onTap: () => setState(() { _yasYok = !_yasYok; if (_yasYok) _yas.clear(); }),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                      Icon(_yasYok ? Icons.check_box : Icons.check_box_outline_blank, size: 22, color: r.vurguMetin),
+                      const SizedBox(width: R.s2),
+                      Text(M.alanYasYok, style: Y.govde(r)),
+                    ]),
+                  ),
+                ),
                 FormAlani(key: const ValueKey('gi_mahalle'), etiket: M.gorevliMahalleKoy, denetleyici: _mahalle, enCok: 60),
                 _secim(r, M.alanVefat, tarih(_vefat), () => _tarihSec(true)),
                 _secim(r, M.alanNamazTarihi, tarih(_namaz), () => _tarihSec(false)),
-                for (final v in [...M.namazSecenek.take(6), if (_vakit != null && !M.namazSecenek.take(6).contains(_vakit)) _vakit!])
+                // sahibi 16.10 (URUN §49d): VAKİT 5 kutucuk ("… Namazını Müteakip"); CAMİ: önce kendi camisi, "Diğer" seçilince elle yazılır
+                Padding(padding: const EdgeInsets.only(bottom: R.s1), child: Text(M.alanVakit, textAlign: TextAlign.center, style: Y.sutunEtiket(r).copyWith(fontSize: 12, letterSpacing: 0.4))),
+                for (final v in [...M.vakitSecenek, if (_vakit != null && !M.vakitSecenek.contains(_vakit)) _vakit!])
                   Padding(padding: const EdgeInsets.only(bottom: R.s2), child: IkincilDugme(v, yukseklik: 44, secili: _vakit == v, onTap: () => setState(() => _vakit = v))),
-                FormAlani(key: const ValueKey('gi_cami'), etiket: M.alanCami, ipucu: M.alanCamiYer, denetleyici: _cami, enCok: 40),
+                const SizedBox(height: R.s2),
+                Padding(padding: const EdgeInsets.only(bottom: R.s1), child: Text(M.alanCami, textAlign: TextAlign.center, style: Y.sutunEtiket(r).copyWith(fontSize: 12, letterSpacing: 0.4))),
+                if (widget.hesap.gorevYeri.isNotEmpty)
+                  Padding(padding: const EdgeInsets.only(bottom: R.s2), child: IkincilDugme(widget.hesap.gorevYeri, yukseklik: 44, secili: !_camiDiger, onTap: () => setState(() { _camiDiger = false; _cami.text = widget.hesap.gorevYeri; }))),
+                Padding(padding: const EdgeInsets.only(bottom: R.s2), child: IkincilDugme(M.alanCamiDiger, yukseklik: 44, secili: _camiDiger || widget.hesap.gorevYeri.isEmpty, onTap: () => setState(() { _camiDiger = true; if (_cami.text == widget.hesap.gorevYeri) _cami.clear(); }))),
+                if (_camiDiger || widget.hesap.gorevYeri.isEmpty)
+                  FormAlani(key: const ValueKey('gi_cami'), etiket: M.alanCamiAd, ipucu: M.alanCamiYer, denetleyici: _cami, enCok: 40),
                 FormAlani(key: const ValueKey('gi_mezarlik'), etiket: M.alanMezarlik, ipucu: M.alanMezarlikYer, denetleyici: _mezarlik, enCok: 60),
                 if (_hata != null) Padding(padding: const EdgeInsets.only(bottom: R.s3), child: Text(_hata!, textAlign: TextAlign.center, style: Y.kucuk(r))),
                 AnaDugme(widget.duzenle != null && widget.duzeltmeId == null ? M.gorevliKaydet : (widget.duzeltmeId != null ? M.gorevliKaydet : M.gorevliGonder), onTap: (_hazir && !_yukleniyor) ? _gonder : null),

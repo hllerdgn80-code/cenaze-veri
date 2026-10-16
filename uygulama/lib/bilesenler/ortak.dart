@@ -268,10 +268,11 @@ class IkincilDugme extends StatelessWidget {
   Widget build(BuildContext context) {
     final r = context.renk;
     return Material(
-      color: secili ? r.vurguZemin : r.yuzey2,
+      // 16.10.2026 sahibi: seçili kutucuk belirgin olsun (vakit, cami, unvan) — dolu vurgu rengi + kalın kenar
+      color: secili ? r.vurgu : r.yuzey2,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(R.dugme),
-        side: BorderSide(color: secili ? r.vurgu : Colors.transparent),
+        side: BorderSide(color: secili ? r.vurgu : Colors.transparent, width: secili ? 2 : 1),
       ),
       child: InkWell(
         borderRadius: BorderRadius.circular(R.dugme),
@@ -283,7 +284,7 @@ class IkincilDugme extends StatelessWidget {
             child: Text(yazi,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    fontSize: 15, fontWeight: FontWeight.w600, color: secili ? r.vurguMetin : r.metin)),
+                    fontSize: 15, fontWeight: FontWeight.w600, color: secili ? r.vurguUst : r.metin)),
           ),
         ),
       ),

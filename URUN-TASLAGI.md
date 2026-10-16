@@ -335,3 +335,33 @@ Verisi olmayan il/ilçede eski "… yakınları tarafından paylaşılıyor / di
 ## 54. PAROLA AÇIKLAMASI + SORUMLULUK UYARISI (site sahibi 16.10.2026 10:15)
 - Parola belirleme ekranındaki açıklama birebir: **"Birilerinin sizin hesabınıza girip kötü niyetli/yanıltıcı paylaşımlar yapmasını önlemek için 4 haneli parola belirleyin."**
 - Din görevlisi panele ilk girişinde (KVKK penceresinden sonra, giriş başına bir kez) SORUMLULUK uyarısı, metin birebir: **"Bu panelden yapılacak ilanlardaki bilgilerin doğru olma sorumluluğu din görevlisine aittir. Yanıltıcı veya yanlış bilgi paylaşımından hesabın sahibi olan din görevlisi sorumludur."** Düğme "Anladım, kabul ediyorum"; kabul tarihi cihazda ve Worker hesap kaydında (`sorumluluk_kabul`); geri tuşu kapatmaz; çıkışta sıfırlanır.
+
+## 49a. DÜZELTME YETKİSİ: CAMİ / MAHALLE EŞLEŞMESİ (site sahibi 16.10.2026 12:40)
+"Hiçbir din görevlisi kendi mahallesi dışındaki ilanlara müdahale edemesin. Çitlice'de görevli hoca, ilanda Çitlice Mahallesi yazıyorsa düzeltebilsin; cenaze merkezdeyse yalnız merkezdeki hocalar. Düzeltme hakkı için ilandaki cami adı ile görevlinin panelindeki cami adı eşleşmeli. Eşleşiyorsa, yalnız onun göreceği 'Düzelt' düğmesi ilanın altında kendiliğinden görünsün."
+KURAL (il/ilçe eşleşmesine EK, §49'un yerine geçer):
+- Görevlinin hesabındaki **görev yeri** (cami ya da köy/mahalle adı; §46 ile güncellenebilir) ile ilanın **cenaze namazı yeri (cami)** ya da **mahalle/köy** alanı eşleşmeli. Eşleşme sadeleştirilmiş adla yapılır (büyük/küçük harf, "camii/camisi/cami", "mahallesi/mah./köyü" ekleri, Türkçe karakter farkları atılır; "Merkez Camii" = "Korgan Merkez Camii").
+- İlanda cami ya da mahalle bilgisi yoksa kimse düzeltemez (yanlış kişiye yetki vermektense düzeltmesiz kalır; ilan din görevlisi paneline bildirilir: "Bildir").
+- "Düzelt" düğmesi ilanın ALTINDA, yalnız eşleşen görevli oturumunda görünür; başkası için düğme yoktur.
+- Sunucu ve veri hattı aynı kuralı yeniden denetler: Worker, düzeltmeyi hesabın görev yeriyle birlikte kaydeder; `gorevli_birlestir` düzeltmeyi yalnız orijinal kayıttaki cami/mahalle görevlinin görev yeriyle eşleşiyorsa uygular, eşleşmiyorsa düzeltme reddedilir ve `_kapi_red.json`'a "yetki dışı düzeltme" yazılır.
+- Örnek: Korgan Çitlice Camii görevlisi → yalnız "Çitlice" geçen (cami ya da mahalle) ilanları düzeltir; Korgan Merkez Camii görevlisi → "Merkez Camii"/"Merkez Mahallesi" ilanları.
+
+## 49b. KARTTA "DÜZELT" YOK; (sahibi 16.10 13:20, kesin akış: Çitlice camisinde görevli hoca → mahallesindeki cenaze bizim veriden İlanlar'da yayımlandı → aynı ilan görev yeri Çitlice olan hocaların İLANLARIM sayfasında da görünür → altında 'İlanı düzelt' → soyadındaki harf hatasını düzeltir → düzeltme İlanlar sayfasındaki ilana otomatik uygulanır [gerçek uygulamada en geç bir sonraki saatlik turda]) — EŞLEŞEN İLAN GÖREVLİNİN "İLANLARIM" SAYFASINA OTOMATİK DÜŞER (site sahibi 16.10.2026 13:00; §49a'nın "ilanın altında düğme" kısmının YERİNE geçer)
+"Altında düzeltme düğmesi çıkmasından ziyade, paylaştığımız ilan o hocanın mahallesindeyse direkt onun İlanlarım sayfasına otomatik düşsün."
+- Halka açık ilan kartında hiçbir düzeltme düğmesi YOK (kaynak da görünmez, H75).
+- Din görevlisi panelindeki **İlanlarım** listesi iki bölüm gösterir: (a) kendi paylaştıkları; (b) **"Bölgenizdeki ilanlar"**: bizim çektiğimiz, il/ilçe + cami/mahalle eşleşen (§49a `yer_eslesir`) OTOMATİK ilanlar, "Otomatik" etiketiyle. Görevli bunlara dokunup **İlanı düzelt** der (sahibi 16.10 13:10: düğme ilanın altında, adı "İlanı düzelt"); kaydedince kayıt onun düzeltmesi olur (`duzeltme_id` = orijinal id) ve veri hattı orijinalin yerine koyar (§49). Düzenlemediği ilanlara dokunulmaz.
+- Uygulama her panel açılışında canlı veriden (`veri/<il>/son7gun.json`) eşleşen kayıtları süzer (cihazda; sunucuya ek istek yok).
+- Yetki denetimi sunucuda ve veri hattında aynen §49a (eşleşmeyen düzeltme reddedilir).
+
+## 49c. İLANLARIM SAYFASI METİNLERİ (site sahibi 16.10.2026 13:40)
+- İlan paylaş formunda yaş alanı KALIR; altında **"Belirtilmedi"** kutucuğu (sahibi 16.10 13:50): işaretlenince yaş alanı kapanır, kayıtta yaş boş gider ve ilan kartındaki yaş satırı görünmez. Düzeltme formunda da aynı kutucuk (orijinalde yaş yoksa işaretli gelir).
+- İlanlarım sayfasının üstünde görünür (soluk değil) açıklama, birebir: **"Bu sayfada sizin eklediğiniz ve sistem tarafından yüklenen ilanlar görüntülenir. Sistemin yüklediği ilanlarda bir hata görürseniz düzeltebilirsiniz, düzeltme ilanlar sayfasında otomatik olarak uygulanır."**
+- Bölüm başlıkları: "Sizin eklediğiniz ilanlar" · "Sistemin yüklediği ilanlar".
+- Kayıt satırı etiketi: sistem kaydında "Yenipınar · Korgan · **Sistem**" (düzeltilmişse "Sistem · Düzeltildi"); hocanın kendi ilanında "Yenipınar · Korgan · **Din görevlisi**" ("Otomatik"/"Yayında" sözcükleri kullanılmaz).
+
+## 49d. İLAN FORMU: VAKİT KUTUCUKLARI + CAMİ SEÇİMİ (site sahibi 16.10.2026 14:00)
+- "Vakit" başlığı altında 5 kutucuk: Sabah / Öğle / İkindi / Akşam / Yatsı **Namazını Müteakip**; biri seçilir (serbest yazı yok).
+- "Cami" başlığı altında önce **görevlinin kendi camisi** (hesabındaki görev yeri) kutucuk olarak seçili gelir; altında **"Diğer"**; Diğer seçilince "Cami adı" alanı açılır ve elle yazılır. Düzeltme formunda cami farklıysa "Diğer" seçili ve alan dolu gelir.
+- Kayıt biçimi değişmez: `namaz_yeri_vakti = "<Vakit>-<CAMİ>"`.
+
+## 49e. GÖREVLİ İLANI YALNIZ KENDİ İLÇESİNDE YAYIMLANIR (site sahibi 16.10.2026 14:10)
+"Hocanın bulunduğu ilçede yayınlanmasına dikkat et; başka ilçede veya ilde yayınlanmasın." Üç katman: (1) formda il/ilçe değiştirilemez (hesabın görev yerinden gelir, kilitli; not: "İlanınız yalnız görev yaptığınız ilçede yayımlanır"); (2) Worker, ilanın il/ilçesini gövdeden DEĞİL hesap kaydından yazar; (3) veri hattı (`gorevli_al.py`) görevli kaydını yalnız Worker'ın verdiği il'in dosyasına, ilçe hesabın ilçesi olarak koyar; il/ilçe hesapla uyuşmayan kayıt alınmaz. Görev yeri değişince (§46) sonraki ilanlar yeni ilçeye gider, eskileri yerinde kalır.

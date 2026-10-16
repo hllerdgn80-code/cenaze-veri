@@ -13,7 +13,6 @@ import '../cekirdek/ilan.dart';
 import '../cekirdek/metin.dart';
 import '../cekirdek/tema.dart';
 import '../cekirdek/yardimci.dart';
-import '../ekranlar/gorevli_panel.dart';
 import 'ikonlar.dart';
 import 'kart_sayfa.dart';
 import 'ortak.dart';
@@ -115,7 +114,6 @@ class IlanKarti extends StatelessWidget {
     // URUN §51: ekranda tek ilan — liste ekranı sağlıyorsa kart en az görünür yükseklik kadar olur, içerik ortalanır
     final sayfa = KartSayfasi.of(context);
     final minYuk = sayfa?.yukseklik == null ? 0.0 : (sayfa!.yukseklik! - R.s3 - 2 * R.s5).clamp(0.0, double.infinity);
-    final duzelt = !sayacli && _duzeltebilir(context, ilan);
     final kart = Container(
       margin: const EdgeInsets.only(bottom: R.s3),
       decoration: BoxDecoration(
@@ -134,7 +132,6 @@ class IlanKarti extends StatelessWidget {
               child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.stretch, children: icerik),
             ),
           ),
-          if (duzelt) Positioned(top: R.s2, right: R.s2, child: _DuzeltMenu(ilan: ilan)),
           if (sayacli)
             Positioned(
               top: R.s2,
@@ -451,64 +448,5 @@ class _SayacBlokState extends State<SayacBlok> {
     if (!mounted) return;
     setState(() => _bekleyen = null);
     if (bek != null) await _degis(bek, 1);
-  }
-}
-
-
-/// URUN §49: din görevlisi oturumu varsa ve hesabın il (ve ilçe) bilgisi ilanla aynıysa, OTOMATİK ilan (görevli/şehit olmayan) düzeltilebilir
-bool _duzeltebilir(BuildContext context, Ilan ilan) {
-  if (ilan.gorevli || ilan.sehit) return false;
-  final d = Kapsam.of(context);
-  final yer = d.depo.gorevliYer;
-  if (d.depo.gorevliOturum == null || yer == null || yer.il.isEmpty) return false;
-  final il = ilan.il ?? d.il ?? '';
-  if (trKucuk(il) != trKucuk(yer.il)) return false;
-  final ilce = ilan.ilce ?? '';
-  return ilce.isEmpty || yer.ilce.isEmpty || trKucuk(ilce) == trKucuk(yer.ilce);
-}
-
-/// Otomatik ilan kartının ⋮ menüsü: "Düzelt" -> panelin ilan formu ilanın verisiyle dolu açılır
-class _DuzeltMenu extends StatelessWidget {
-  final Ilan ilan;
-  const _DuzeltMenu({required this.ilan});
-
-  @override
-  Widget build(BuildContext context) {
-    final r = context.renk;
-    return PopupMenuButton<String>(
-      key: const ValueKey('kart_duzelt_menu'),
-      tooltip: 'Seçenekler',
-      color: r.yuzey2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(R.dugme)),
-      icon: Ikon('menu', boyut: 20, renk: r.metin3),
-      onSelected: (_) {
-        final d = Kapsam.oku(context);
-        final yer = d.depo.gorevliYer!;
-        final np = ilan.namazParcalari;
-        Navigator.of(context, rootNavigator: true).push<bool>(MaterialPageRoute(
-          builder: (_) => GorevliIlanFormu(
-            hesap: GorevliHesap('onayli', '', yer.il, yer.ilce, '', null),
-            duzeltmeId: ilan.id,
-            duzenle: {
-              'ad_soyad': ilan.adSoyad,
-              'cinsiyet': ilan.cinsiyet,
-              'yas': ilan.yas,
-              'vefat_tarihi': ilan.vefatTarihi,
-              'namaz_tarihi': ilan.namazTarihi,
-              'mahalle': ilan.mahalle,
-              'defin_yeri': ilan.definYeri,
-              'namaz_vakti': np[0],
-              'namaz_cami': np[1],
-            },
-          ),
-        ));
-      },
-      itemBuilder: (_) => [
-        PopupMenuItem<String>(
-          value: 'duzelt',
-          child: Center(child: Text(M.gorevliDuzelt, style: TextStyle(color: r.metin))),
-        ),
-      ],
-    );
   }
 }

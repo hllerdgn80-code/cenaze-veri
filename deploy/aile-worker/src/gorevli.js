@@ -14,6 +14,7 @@
 //   g:<ilan_id>             gözetimdeki hesabın ilanı (çapraz kontrol bekliyor; TTL 8 gün)
 //   n:<ilan_id>             bildirim yapan IP özetleri;  gs:<kayit_id>:<gün> günlük ilan sayacı
 import { ILCELER } from "./veri.js";
+import { yerEslesir } from "./yer.js";
 import { smsGonder, netgsmVar, epostaVar, epostaGerekli, epostaKodGonder, parolaAnahtariVar, parolaSifrele, parolaCoz, parolaEpostaGonder, ESTA, SMS_METNI, NETGSM_URL, telefonNormalize } from "./dogrulama.js";
 export { telefonNormalize, smsGonder, netgsmVar, SMS_METNI, NETGSM_URL };
 import { degerlendir, adGecerli, adNormalize, katla, metinTemiz, bugunTR, gunEkle, ilSlug } from "./kurallar.js";
@@ -291,6 +292,8 @@ export async function gorevliIsle(req, env, o, H, yol) {
     if (g.json && g.json.duzeltme_id != null && g.json.duzeltme_id !== "") {
       if (typeof g.json.duzeltme_id !== "string" || !DUZELTME_RE.test(g.json.duzeltme_id)) return yanit(req, env, { hata: "duzeltme_id_gecersiz" }, 400);
       duz = g.json.duzeltme_id;
+      // §49a: düzeltme yetkisi = hesabın görev yeri ile düzeltilen ilanın orijinal camisi/mahallesi eşleşmeli (il/ilçe zaten kayıttan gelir)
+      if (!yerEslesir(k.gorev_yeri, g.json.orijinal_cami, g.json.orijinal_mahalle, k.ilce)) return yanit(req, env, { hata: "yetki_disi" }, 403);
     }
     const eski = duz ? (await hesapIlanlari(k)).find((x) => x.duzeltme_id === duz && ["yayinda", "bekliyor"].includes(x.durum)) : null;
     const r = await ilanDegerlendir(k, g.json || {}, eski ? eski.id : null); // il/ilçe istekten ALINMAZ: kayıttan

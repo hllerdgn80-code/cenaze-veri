@@ -4,7 +4,9 @@ AYNI KİŞİYSE (ulusal_birlestir.ayni(): ad + ±2 gün [+ yaş]) görevlinin ka
 BOŞ alanlar (mezarlık, mahalle, namaz yeri, yaş...) otomatik kayıttan doldurulur (ulusal_birlestir zenginleştirmesinin tersi).
 Sıra (topla.yml): gorevli_al -> ulusal_birlestir -> gorevli_birlestir -> yerlestirme_denetimi -> kapi.
 DÜZELTME (§49): görevli kaydında `duzeltme_id` varsa son7gun'da O id'li kayıt (hangi listede olursa olsun) kaldırılır ve görevli kaydı yerine konur
-(ayni() aranmaz, boş alan doldurulmaz: düzeltmede boş bırakılan alan bilerek boştur). Şehit kaydı (sehit:true) asla silinmez (§27). ortak.py / yayin_suz.py'ye dokunmaz.
+(ayni() aranmaz, boş alan doldurulmaz: düzeltmede boş bırakılan alan bilerek boştur). Şehit kaydı (sehit:true) asla silinmez (§27).
+YETKİ (§49a): düzeltilen ORİJİNAL kaydın cami (namaz_yeri_vakti '-' sonrası) ya da mahallesi görevlinin `gorev_yeri` ile ortak.yer_eslesir() eşleşmiyorsa
+düzeltme UYGULANMAZ; kayıt veri/<il>/_kapi_red.json'a {"kural":["yetki dışı düzeltme"], "neden", "kayit"} olarak yazılır (kapi.py bu girdileri korur). ortak.py / yayin_suz.py'ye dokunmaz.
 Kullanım: python3 okuyucu/gorevli_birlestir.py [veri_klasoru]"""
 import json, os, sys
 
@@ -15,8 +17,14 @@ from ulusal_birlestir import ayni
 ZENGINLES = ("defin_yeri", "mahalle", "namaz_yeri_vakti", "namaz_tarihi", "defin_zamani", "yas", "vefat_tarihi", "cinsiyet")
 
 
-def birlestir(d, gorevliler):
-    """d: son7gun sözlüğü (yerinde değişir); gorevliler: _ulusal.json'daki görevli kayıtları. Döner: (eklenen, silinen)."""
+def yetkili(g, m):
+    """Görevli kaydı g, orijinal kayıt m'yi düzeltebilir mi? (görev yeri <-> orijinal cami/mahalle; il/ilçe adı ortak sözcük sayılmaz)"""
+    return ortak.yer_eslesir(g.get("gorev_yeri"), ortak.namaz_cami(m.get("namaz_yeri_vakti")), m.get("mahalle"), haric=g.get("ilce") or m.get("ilce"))
+
+
+def birlestir(d, gorevliler, red=None):
+    """d: son7gun sözlüğü (yerinde değişir); gorevliler: _ulusal.json'daki görevli kayıtları; red: verilirse yetkisiz düzeltmeler bu listeye eklenir.
+    Döner: (eklenen, silinen)."""
     ilceler = d.setdefault("ilceler", {})
     listeler = [(None, d.setdefault("il_disi", [])), (None, d.setdefault("ilce_belirsiz", []))] + list(ilceler.items())
     eklenen = silinen = 0
@@ -26,6 +34,12 @@ def birlestir(d, gorevliler):
             hedef = [(l, m) for _, l in listeler for m in l if m.get("id") == duz and m is not g and not m.get("gorevli")]
             if any(m.get("sehit") for _, m in hedef):
                 continue                                          # şehit kaydı düzeltmeyle değişmez
+            yetkisiz = [m for _, m in hedef if not yetkili(g, m)]
+            if yetkisiz:                                          # §49a: görev yeri orijinal ilanın cami/mahallesiyle eşleşmiyor -> düzeltme uygulanmaz
+                if red is not None:
+                    red.append({"kural": ["yetki dışı düzeltme"], "neden": "yetki dışı düzeltme", "duzeltme_id": duz,
+                                "gorev_yeri": g.get("gorev_yeri"), "kayit": dict(g)})
+                continue
             for l, m in hedef:
                 l.remove(m)
                 silinen += 1
@@ -83,7 +97,21 @@ def main():
             continue
         if not g:
             continue
-        e, s = birlestir(d, g)
+        red = []
+        e, s = birlestir(d, g, red)
+        if red:
+            red_yol = os.path.join(yol, "_kapi_red.json")
+            try:
+                eski = json.load(open(red_yol, encoding="utf-8"))
+            except Exception:
+                eski = {"il": d.get("il"), "red": []}
+            var = {(r.get("duzeltme_id"), (r.get("kayit") or {}).get("id")) for r in eski.get("red", []) if "yetki dışı düzeltme" in (r.get("kural") or [])}
+            yeni = [r for r in red if (r["duzeltme_id"], r["kayit"].get("id")) not in var]
+            eski["red"] = eski.get("red", []) + yeni
+            eski["elenen"] = len(eski["red"])
+            eski["guncelleme"] = ortak.simdi_iso()
+            ortak.json_yaz(red_yol, eski)
+            print(f"gorevli birlestirme: {d.get('il')}: {len(red)} yetki disi duzeltme reddedildi")
         if e or s:
             d["toplam"] = sum(len(l) for l in (d.get("ilceler") or {}).values()) + len(d.get("il_disi") or []) + len(d.get("ilce_belirsiz") or [])
             d["guncelleme"] = ortak.simdi_iso()

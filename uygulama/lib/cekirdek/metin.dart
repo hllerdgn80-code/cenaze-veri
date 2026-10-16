@@ -114,11 +114,16 @@ class M {
   static const alanIl = 'İl';
   static const alanIlce = 'İlçe';
   static const alanCami = 'Cami';
+  static const alanCamiAd = 'Cami adı';
+  static const alanCamiDiger = 'Diğer'; // §49d: başka cami -> elle yazılır
+  static const alanVakit = 'Vakit';
+  static const vakitSecenek = ['Sabah Namazını Müteakip', 'Öğle Namazını Müteakip', 'İkindi Namazını Müteakip', 'Akşam Namazını Müteakip', 'Yatsı Namazını Müteakip']; // sahibi 16.10 (§49d)
   static const alanCamiYer = 'Cenaze namazının kılınacağı cami';
   static const alanMezarlik = 'Mezarlık';
   static const alanMezarlikYer = 'Defin yeri';
   static const alanYas = 'Yaş';
   static const alanYasYer = 'Biliyorsanız';
+  static const alanYasYok = 'Belirtilmedi'; // sahibi 16.10: yaş bilinmiyorsa; ilanda yaş görünmez
   static const alanNamazTarihi = 'Cenaze namazı tarihi';
 
   static const haritaCami = 'Cami · haritada aç';
@@ -341,6 +346,11 @@ class M {
   static const gorevliIlanPaylas = 'İlan paylaş';
   static String gorevliIlanlarim(int n) => 'İlanlarım ($n)';
   static const gorevliIlanlarimBaslik = 'İlanlarım';
+  static const gorevliKendiBaslik = 'Sizin eklediğiniz ilanlar';
+  static const gorevliIlanlarimAciklama = 'Bu sayfada sizin eklediğiniz ve sistem tarafından yüklenen ilanlar görüntülenir. Sistemin yüklediği ilanlarda bir hata görürseniz düzeltebilirsiniz, düzeltme ilanlar sayfasında otomatik olarak uygulanır.'; // sahibi 16.10 (birebir)
+  static const gorevliBolgeBaslik = 'Sistemin yüklediği ilanlar';
+  static const gorevliBolgeDuzelt = 'İlanı düzelt'; // sahibi 16.10: bölge ilanında düğme adı
+  static const gorevliOtomatik = 'Sistem'; // sahibi 16.10: 'Otomatik' değil 'Sistem'
   static const gorevliSonIlanlar = 'Son ilanlar';
   static const gorevliIlanYok = 'Henüz ilan paylaşmadınız.';
   static const gorevliYerKilit = 'İl ve ilçe görev yerinize göre sabittir.';
@@ -394,7 +404,7 @@ class M {
   ];
 
   static const gorevliDurumEtiket = {
-    'yayinda': 'Yayında',
+    'yayinda': 'Din görevlisi', // sahibi 16.10: hocanın kendi ilanında etiket 'Din görevlisi'
     'gizli': 'Gizlendi',
     'iptal': 'Kaldırıldı',
     'bekliyor': 'Kontrolde',

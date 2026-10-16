@@ -516,10 +516,25 @@ void main() {
     expect(find.text(M.gorevliKvkkBaslik), findsOneWidget);
   });
 
-  testWidgets('DÜZELT (§49): yalnız aynı il/ilçedeki otomatik ilanda ⋮ menü; form ilanla dolu; kayıt duzeltme_id ile gider; başka ilçede/görevli ilanında menü yok', (tester) async {
+  testWidgets('DÜZELT (§49a/§49b): kartta "Düzelt" YOK; İlanlarım > "Bölgenizdeki ilanlar" yalnız görev yeriyle eşleşen otomatik kayıtlar; Düzenle -> dolu form -> duzeltme_id + orijinal cami gider', (tester) async {
     telefon(tester);
+    uzun(tester);
     final govdeler = <Map<String, dynamic>>[];
+    Map<String, dynamic> kayit(String id, String ad, String cami, {String ilce = 'Korgan', bool gorevli = false}) => {
+          'id': id, 'il': 'Ordu', 'ilce': ilce, 'ad_soyad': ad, 'cinsiyet': 'k', 'yas': 80, 'vefat_tarihi': '2026-10-15', 'namaz_tarihi': '2026-10-16',
+          'namaz_yeri_vakti': 'Öğle namazı-$cami', 'defin_yeri': 'Korgan Mezarlığı', if (gorevli) 'gorevli': true,
+        };
     final d = await testDurumu(istemci: MockClient((req) async {
+      if (req.url.path.endsWith('/ordu/son7gun.json')) {
+        return _y({'ilceler': {
+          'Korgan': [kayit('a30d5cab8953', 'Fatma Yanlis', 'Merkez Camii'), kayit('d30d5cab8953', 'Mehmet Cami', 'Çitlice Camii'), kayit('c30d5cab8953', 'Ali Gorevli', 'Merkez Camii', gorevli: true)],
+          'Kabadüz': [kayit('b30d5cab8953', 'Veli Baska', 'Merkez Camii', ilce: 'Kabadüz')],
+        }});
+      }
+      if (req.url.path == '/gorevli/durum') {
+        return _y({'durum': 'onayli', 'ad_soyad': 'Hasan K', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
+      }
+      if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <Map<String, dynamic>>[]});
       if (req.url.path == '/gorevli/ilan') {
         govdeler.add(jsonDecode(req.body) as Map<String, dynamic>);
         return _y({'durum': 'yayinda', 'ilan_id': 'x1', 'guncellendi': false});
@@ -527,21 +542,28 @@ void main() {
       return http.Response('yok', 404);
     }));
     await d.depo.gorevliOturumKaydet('tok');
-    await d.depo.gorevliYerKaydet('Ordu', 'Korgan');
-    Ilan il(String id, String ilce, {bool gorevli = false}) => Ilan.fromJson({
-          'id': id, 'il': 'Ordu', 'ilce': ilce, 'ad_soyad': 'Fatma Yanlis', 'cinsiyet': 'k', 'yas': 80, 'vefat_tarihi': '2026-10-15', 'namaz_tarihi': '2026-10-16',
-          'namaz_yeri_vakti': 'Öğle namazı-Merkez Camii', 'defin_yeri': 'Korgan Mezarlığı', if (gorevli) 'gorevli': true,
-        })!;
-    await tester.pumpWidget(kapsamli(d, Column(children: [
-      IlanKarti(key: const ValueKey('a'), ilan: il('a30d5cab8953', 'Korgan')),
-      IlanKarti(key: const ValueKey('b'), ilan: il('b30d5cab8953', 'Kabadüz')),
-      IlanKarti(key: const ValueKey('c'), ilan: il('c30d5cab8953', 'Korgan', gorevli: true)),
-    ])));
+    await d.depo.gorevliKvkkKaydet('2026-10-16T09:00:00Z');
+    await d.depo.gorevliSorumlulukKaydet('2026-10-16T09:00:00Z');
+    // halka açık kartta "Düzelt" yok (oturum + eşleşme olsa bile)
+    await d.depo.gorevliYerKaydet('Ordu', 'Korgan', 'Korgan Merkez Camii');
+    await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: Ilan.fromJson(kayit('a30d5cab8953', 'Fatma Yanlis', 'Merkez Camii'))!)));
     await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('kart_duzelt_menu')), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('kart_duzelt_menu')));
+    expect(find.text(M.gorevliDuzelt), findsNothing);
+    expect(find.byKey(const ValueKey('kart_duzelt')), findsNothing);
+    // panel > İlanlarım
+    await tester.pumpWidget(_ev(d, (_) => const GorevliPanel()));
+    await tester.tap(find.text('ac'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text(M.gorevliDuzelt));
+    await tester.tap(find.text(M.gorevliIlanlarim(0)));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('g_bolge_baslik')), findsOneWidget);
+    expect(find.text('Fatma Yanlis'), findsOneWidget);
+    expect(find.text(M.gorevliOtomatik), findsNothing); // etiket tarih satırında: "… · Otomatik"
+    expect(find.textContaining(M.gorevliOtomatik), findsOneWidget);
+    expect(find.text('Mehmet Cami'), findsNothing); // cami eşleşmiyor
+    expect(find.text('Ali Gorevli'), findsNothing); // görevli ilanı
+    expect(find.text('Veli Baska'), findsNothing); // başka ilçe
+    await tester.tap(find.descendant(of: find.byKey(const ValueKey('g_bolge_a30d5cab8953')), matching: find.text(M.gorevliDuzenle)));
     await tester.pumpAndSettle();
     expect(find.byType(GorevliIlanFormu), findsOneWidget);
     expect(find.text('Fatma Yanlis'), findsOneWidget);
@@ -551,16 +573,12 @@ void main() {
     await tester.pumpAndSettle();
     expect(govdeler.length, 1);
     expect(govdeler[0]['duzeltme_id'], 'a30d5cab8953');
+    expect(govdeler[0]['orijinal_cami'], 'Merkez Camii');
     expect(govdeler[0]['ad_soyad'], 'Fatma Dogru');
     expect(govdeler[0]['defin_yeri'], 'Korgan Mezarlığı');
     expect(govdeler[0]['namaz_yeri_vakti'], 'Öğle namazı-Merkez Camii');
     expect(govdeler[0].containsKey('ilan_id'), isFalse);
     expect(find.text(M.gorevliDuzeltmeAlindi), findsOneWidget);
-    // oturum yoksa menü çıkmaz
-    await d.depo.gorevliOturumKaydet(null);
-    await tester.pumpWidget(kapsamli(d, IlanKarti(ilan: il('a30d5cab8953', 'Korgan'))));
-    await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('kart_duzelt_menu')), findsNothing);
   });
 
   testWidgets('Panel İlanlarım: duzeltme_id olan kayıtta "Düzeltildi" rozeti (yalnız panelde)', (tester) async {
