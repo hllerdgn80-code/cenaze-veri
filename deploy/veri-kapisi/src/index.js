@@ -3,6 +3,7 @@
 const UA_ONEK = "KiminCenazesi/";
 const IL_YOL = /^\/veri\/[a-z0-9-]{2,40}\/son7gun\.json$/;
 const KAYBETTIK_YOL = /^\/veri\/kaybettiklerimiz\/[A-Za-z0-9_\-\/]{1,120}\.json$/;
+const EZAN_YOL = /^\/ezan\/[a-z0-9-]{2,40}\.json$/;   // 16.10.2026: Diyanet ezan vakitleri (site/ezan/<il>.json)
 
 const bos = (durum) => new Response(null, { status: durum });
 
@@ -26,7 +27,8 @@ export function yolIzinli(ham) {
   if (["ozet.json", "saglik.json", "kapi.json", "yerlestirme-raporu.json"].includes(d)) return null;
   if (IL_YOL.test(yol) || KAYBETTIK_YOL.test(yol)) return yol;
   if (yol === "/surum.json") return yol;   // 15.10.2026 URUN §42: zorunlu guncelleme kapisi (site/surum.json)
-  if (yol === "/ayarlar.json") return yol; // 16.10.2026: UZAK AYAR (site/ayarlar.json) — ekran kurallari surumsuz degisir
+  if (yol === "/ayarlar.json") return yol;
+  if (EZAN_YOL.test(yol)) return yol; // 16.10.2026: UZAK AYAR (site/ayarlar.json) — ekran kurallari surumsuz degisir
   return null;
 }
 
