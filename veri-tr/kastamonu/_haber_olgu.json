@@ -178,5 +178,116 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/uskudar-belediye-baskan-vekili-dundar-ziya-gultekinden-aci-haber-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-aci-kayip-mustafa-unlu-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Mustafa Ünlü",
+    "yas": null,
+    "ilce": "Bozkurt",
+    "mahalle": null,
+    "namaz": null,
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 3,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/cidede-mebruke-bakan-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Mebruke Bakan",
+    "yas": null,
+    "ilce": "Cide",
+    "mahalle": "Özgürlük Mahallesi",
+    "namaz": "Medine Camii, ikindi namazı",
+    "defin": "Balçık Köyü Mezarlığı",
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/cidede-ibrahim-ugur-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "İbrahim Uğur",
+    "yas": null,
+    "ilce": "Cide",
+    "mahalle": "Hacıahmet Köyü",
+    "namaz": "öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-13",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuhaber.com/turk-muziginin-usta-ismi-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Aysel Şahin",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Alatarla Köyü",
+    "namaz": "ikindi namazı",
+    "defin": null,
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 4,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.aciksoz.com.tr/haber/28991237/diyanet-senden-imam-cinayetine-sert-tepki": {
+  "olgular": [],
+  "tarih": "2026-10-15",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }

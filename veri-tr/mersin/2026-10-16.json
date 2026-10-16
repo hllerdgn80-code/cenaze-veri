@@ -1,0 +1,28 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-16",
+ "kayitlar": [
+  {
+   "id": "83023f0b0f33",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Korucuk Mahallesi",
+   "ad_soyad": "Yusuf Şefik",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Korucuk Mezarlığı",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": "2026-10-16",
+   "namaz_yeri_vakti": "Saat 10:00",
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/16-10-2026-vefat-edenler/",
+   "alindi": "2026-10-16T08:52:03+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

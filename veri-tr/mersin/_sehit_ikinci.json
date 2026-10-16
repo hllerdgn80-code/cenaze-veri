@@ -1,0 +1,35 @@
+{
+ "guncelleme": "2026-10-16T08:52:19+03:00",
+ "kayitlar": [
+  {
+   "id": "6fb3de222bbb",
+   "il": "Kırıkkale",
+   "ilce": "Yahşihan",
+   "mahalle": null,
+   "ad_soyad": "Ali Tonga",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-10",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Merkez Camii, öğle namazı",
+   "liste_tarihi": "2026-10-10",
+   "kaynak_ad": "Mersin Haber Merkezi",
+   "kaynak_url": "https://www.mersinhabermerkezi.com/10-yil-sonra-ayni-sehir-ayni-aci-sehit-polisin-kardesi-de-trafik-kazasinda-hayatini-kaybetti",
+   "alindi": "2026-10-16T08:52:03+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-10",
+    "sayfa_tarihi": "2026-10-10",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "sehit": true,
+   "rutbe": "Polis Memuru",
+   "toren": null,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

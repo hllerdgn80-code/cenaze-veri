@@ -993,7 +993,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "8c3cb29924be",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Güvenç Koçkaya",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28985526/kocaeli-saglik-camiasinin-aci-kaybi-dr-guvenc-kockaya-hayatini-kaybetti",
+   "alindi": "2026-10-16T08:52:19+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T08:20:19+03:00"
+ "guncelleme": "2026-10-16T08:52:19+03:00"
 }
