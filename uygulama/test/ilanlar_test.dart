@@ -34,6 +34,49 @@ IlVerisi veriYap(String bugun, {Map<String, List<Map<String, dynamic>>> ilceler 
 void main() {
   final bugun = bugunTr();
 
+  testWidgets('§57: bugün boş + dün 2 kayıt → "Dün (…)" bölümü ve 2 kart; bulunmuyor satırı üstte', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final dun = gunEkle(bugun, -1);
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Dünkü Bir', 'Bodrum', dun), kayit('b', 'Dünkü İki', 'Bodrum', dun), kayit('c', 'Evvelki Gün', 'Bodrum', gunEkle(bugun, -2))],
+    });
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor'), findsOneWidget);
+    expect(find.text(trBuyuk(M.dunBolum(dun))), findsOneWidget);
+    expect(find.text('Dünkü Bir'), findsOneWidget);
+    expect(find.text('Dünkü İki'), findsOneWidget);
+    expect(find.text('Evvelki Gün'), findsNothing); // yalnız dün
+    expect(tester.getTopLeft(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor')).dy < tester.getTopLeft(find.text('Dünkü Bir')).dy, isTrue);
+  });
+
+  testWidgets('§57: bugün de dün de boş → "Dün" bölümü yok, yalnız bulunmuyor satırı', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('c', 'Evvelki Gün', 'Bodrum', gunEkle(bugun, -2))],
+    });
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor'), findsOneWidget);
+    expect(find.textContaining('Dün ('), findsNothing);
+    expect(find.text('Evvelki Gün'), findsNothing);
+  });
+
+  testWidgets('§57: bugün ilan VARSA "Dün" bölümü açılmaz', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final dun = gunEkle(bugun, -1);
+    final v = veriYap(bugun, ilceler: {
+      'Bodrum': [kayit('a', 'Bugünkü', 'Bodrum', bugun), kayit('b', 'Dünkü Bir', 'Bodrum', dun)],
+    });
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Bugünkü'), findsOneWidget);
+    expect(find.text('Dünkü Bir'), findsNothing);
+  });
+
   testWidgets('§27: ilçe görünümünde de şehit kartı listenin başında (ilçesi belirtilmemiş şehit dahil)', (tester) async {
     telefon(tester);
     final d = await testDurumu();
@@ -75,7 +118,8 @@ void main() {
     expect(find.text(trBuyuk('Muğla’da bugün: Bodrum, Milas')), findsNothing);
     expect(find.text('Ali Örnek'), findsNothing);
     expect(find.text('Hasan Örnek'), findsNothing);
-    expect(find.text('Dünkü Örnek'), findsNothing); // dünün kaydı kendiliğinden açılmaz
+    // 16.10.2026 (§57): bugün bu ilçede kayıt yok → yalnız DÜN kendiliğinden "Dün (…)" başlığıyla açılır
+    expect(find.text('Dünkü Örnek'), findsOneWidget);
   });
 
   testWidgets('15.10.2026: yarına kayıt varsa şeritte "Yarın" görünür, seçilince içeriği açılır; Bugün varsayılan', (tester) async {

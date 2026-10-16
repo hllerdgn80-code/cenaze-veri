@@ -17,14 +17,20 @@ import 'adres.dart';
 import 'gorevli_kayit.dart';
 import 'sehit_bilgi.dart';
 
+/// Açılışta/sekmeye dönüşte yeniden çekme eşiği (URUN §56: veri en çok 5 dk eski). Aşağı çekince her zaman çekilir. Testte kısaltılır.
+@visibleForTesting
+Duration ilanYenilemeAraligi = const Duration(minutes: 5);
+
 class IlanlarEkrani extends StatefulWidget {
   const IlanlarEkrani({super.key});
   @override
   State<IlanlarEkrani> createState() => _IlanlarEkraniState();
 }
 
-class _IlanlarEkraniState extends State<IlanlarEkrani> {
+class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserver {
   IlSonucu? _sonuc;
+  DateTime? _sonCekme;
+  int _oncekiSekme = 0;
   bool _yukleniyor = false;
   String? _yukluIl;
   int _anaSayac = -1;
@@ -32,9 +38,30 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
   final _kaydirma = ScrollController();
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  /// Uygulamaya dönüşte (arka plandan) veri 5 dk'dan eskiyse yeniden çekilir
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) _eskiyseYenile();
+  }
+
+  void _eskiyseYenile() {
+    if (!mounted || _yukleniyor || _sonCekme == null) return;
+    if (DateTime.now().difference(_sonCekme!) >= ilanYenilemeAraligi) _yukle();
+  }
+
+  @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     final d = Kapsam.of(context);
+    if (d.sekme == 0 && _oncekiSekme != 0) {
+      WidgetsBinding.instance.addPostFrameCallback((_) => _eskiyseYenile()); // İlanlar sekmesine dönüş
+    }
+    _oncekiSekme = d.sekme;
     if (d.anaEkranSayaci != _anaSayac) {
       _anaSayac = d.anaEkranSayaci;
       _gun = bugunTr();
@@ -51,6 +78,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _kaydirma.dispose();
     super.dispose();
   }
@@ -68,6 +96,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> {
     if (!mounted || il != d.il) return;
     setState(() {
       _sonuc = s;
+      _sonCekme = DateTime.now();
       _yukleniyor = false;
     });
   }
@@ -232,9 +261,17 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
     return x;
   }
 
+  // İlçesi belirtilmemiş kayıtlar (ilçesiz kaynakta "İl geneli"; ilçeli kaynakta yalnız o gün kayıt varsa)
+  List<Widget> genelBolumu(String g) {
+    final l = genelGun(g);
+    if (l.isEmpty) return <Widget>[];
+    return [Bolum(ilcesiz ? M.bolumIlGenelSade : M.bolumIlGeneli), ...kartlar(l)];
+  }
+
   final yer = ilce ?? v.il;
   List<Widget> h = gunKartlari(gun);
   final genelBugun = ilcesiz ? genelGun(gun) : <Ilan>[];
+  final bugunBos = h.isEmpty && genelGun(gun).isEmpty;
   if (h.isEmpty && genelBugun.isEmpty) {
     if (gun == bugun) {
       // 15.10.2026 sahibi: "ilçesine baktığında ilan varsa vardır, yoksa yoktur" — diğer ilçeler ve son 7 gün KENDİLİĞİNDEN AÇILMAZ
@@ -247,16 +284,16 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
     }
   }
 
-  final genel = genelGun(gun);
-  if (ilcesiz) {
-    if (genel.isNotEmpty) {
-      h.add(const Bolum(M.bolumIlGenelSade));
-      h.addAll(kartlar(genel));
+  h.addAll(genelBolumu(gun));
+  // URUN §57 (sahibi 16.10.2026: "uygulama bomboş görünüyor"): BUGÜN seçiliyken bugün hiç kayıt yoksa "bulunmuyor" satırının
+  // altında DÜNÜN ilanları "Dün (15 Ekim)" başlığıyla kendiliğinden listelenir (yalnız dün; eskisi tarih şeridinden).
+  if (gun == bugun && bugunBos) {
+    final dun = gunEkle(bugun, -1);
+    final dunKartlari = [...gunKartlari(dun), ...genelBolumu(dun)];
+    if (dunKartlari.isNotEmpty) {
+      h.add(Bolum(M.dunBolum(dun)));
+      h.addAll(dunKartlari);
     }
-  } else if (genel.isNotEmpty) {
-    // 16.10.2026 sahibi: "İl geneli (ilçe belirtilmemiş)" bölümü yalnız o gün ilçesiz kayıt varsa; boş başlık ve boş metin yok
-    h.add(const Bolum(M.bolumIlGeneli));
-    h.addAll(kartlar(genel));
   }
   return h;
 }

@@ -1,4 +1,4 @@
-// Canlı veri: her açılışta ve aşağı çekince indirilir; son başarılı yanıt cihazda saklanır.
+// Canlı veri: her açılışta, sekmeye dönüşte (5 dk geçtiyse) ve aşağı çekince indirilir; son başarılı yanıt cihazda saklanır.
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io' show SocketException;
@@ -7,6 +7,7 @@ import 'package:http/http.dart' as http;
 
 import 'depo.dart';
 import 'anahtar.dart';
+import 'gorevli_birlestir.dart';
 import 'ilan.dart';
 import 'kisi.dart';
 import 'yardimci.dart';
@@ -37,11 +38,13 @@ class VeriServisi {
   final Depo depo;
   final Set<String> haric; // hariç tutulan Wikidata kimlikleri (ikinci kilit)
   final String kok;
+  final String gorevliKok; // Worker: GET <gorevliKok>/gorevli/<il>.json (URUN §56)
   final Map<String, List<Kisi>> _kisiOnbellek = {};
 
-  VeriServisi({required this.istemci, required this.depo, this.haric = const {}, this.kok = veriKok});
+  VeriServisi({required this.istemci, required this.depo, this.haric = const {}, this.kok = veriKok, this.gorevliKok = aileKok});
 
   static const _zamanAsimi = Duration(seconds: 15);
+  static const _gorevliZamanAsimi = Duration(seconds: 5);
 
   Future<http.Response> _getir(String yol) =>
       istemci.get(Uri.parse('$kok/$yol'), headers: {'Accept': 'application/json', ...kcBasliklar()}).timeout(_zamanAsimi);
@@ -63,8 +66,32 @@ class VeriServisi {
     return IlSonucu(null, yoksa, null);
   }
 
-  /// Bir ilin son 7 günü. 404 → kaynaksız il (ilanlar yakınları tarafından paylaşılır).
+  /// Bir ilin son 7 günü + din görevlisi ilanları (URUN §56: saatlik turu beklemeden, Worker'dan anında; iki istek paralel).
+  /// Görevli isteği 5 sn'de kesilir, hata olursa sessizce atlanır.
   Future<IlSonucu> ilGetir(String il) async {
+    final gorevliIs = _gorevliGetir(il);
+    final s = await _ilTemel(il);
+    final g = await gorevliIs;
+    final v = s.veri;
+    if (v == null || g.isEmpty) return s;
+    final b = gorevliBirlestir(v, g);
+    return identical(b, v) ? s : IlSonucu(b, s.durum, s.zaman);
+  }
+
+  /// `GET /gorevli/<il>.json`; yalnız beyaz listedeki alanlar alınır ([gorevliKayitlari]). Her hata → boş liste.
+  Future<List<Ilan>> _gorevliGetir(String il) async {
+    try {
+      final y = await istemci
+          .get(Uri.parse('$gorevliKok/gorevli/${ilKodu(il)}.json'), headers: {'Accept': 'application/json', ...kcBasliklar()})
+          .timeout(_gorevliZamanAsimi);
+      if (y.statusCode != 200) return const [];
+      return gorevliKayitlari(jsonDecode(utf8.decode(y.bodyBytes)), bugunTr());
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  Future<IlSonucu> _ilTemel(String il) async {
     final kod = ilKodu(il);
     try {
       final y = await _getir('$kod/son7gun.json');

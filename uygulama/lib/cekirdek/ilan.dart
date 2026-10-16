@@ -26,6 +26,7 @@ class Ilan {
   final bool aile; // yakını paylaştı
   final bool gorevli; // din görevlisi paylaştı (URUN-TASLAGI §37)
   final String? gorevYeri; // görevlinin cami/köy adı (kişisel veri değil)
+  final String? duzeltmeId; // görevli düzeltmesi: yerine geçtiği otomatik kaydın id'si (URUN §49, §56)
 
   const Ilan({
     required this.id,
@@ -50,6 +51,7 @@ class Ilan {
     this.aile = false,
     this.gorevli = false,
     this.gorevYeri,
+    this.duzeltmeId,
   });
 
   static String? _s(dynamic v) {
@@ -107,6 +109,7 @@ class Ilan {
       aile: j['aile'] == true || j['kaynak_turu'] == 'aile',
       gorevli: j['gorevli'] == true,
       gorevYeri: _s(j['gorev_yeri']),
+      duzeltmeId: _s(j['duzeltme_id']),
     );
   }
 
@@ -133,6 +136,7 @@ class Ilan {
         'aile': aile,
         'gorevli': gorevli,
         'gorev_yeri': gorevYeri,
+        'duzeltme_id': duzeltmeId,
       };
 
   /// TEK KAYNAK: tarih şeridi gruplaması VE kart üst etiketi bu günü kullanır

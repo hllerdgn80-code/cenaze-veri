@@ -36,7 +36,7 @@ void main() {
     await s.kaybettiklerimiz('bakanlar');
     expect(gorulen, isNotEmpty);
     for (final r in gorulen) {
-      expect(r.url.host, 'veri.kimincenazesi.com');
+      expect(r.url.host, anyOf('veri.kimincenazesi.com', Uri.parse(aileKok).host)); // il verisi + görevli ilanı (§56)
       expect(r.headers['X-KC-Anahtar'], kcAnahtar);
       expect(r.headers['User-Agent'], startsWith('KiminCenazesi/'));
     }

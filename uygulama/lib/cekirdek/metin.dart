@@ -49,6 +49,8 @@ class M {
   static const bildirimKaydedildi = 'Sayfanıza eklendi';
   static String bosBugunBaslik(String yer) => 'Bugün ${ek(yer)} cenaze ilanı bulunmuyor';
   static const bosBugunAciklama = ''; // 15.10.2026 sahibi: "son 7 günün ilanları aşağıda" ifadesi KALDIRILDI; geçmiş günler yalnız tarih şeridinden
+  /// URUN §57: bugün boşken dünün ilanlarının üstündeki bölüm başlığı
+  static String dunBolum(String dun) => 'Dün (${tarih(dun, kisa: true)})';
   static const bosGecmisBaslik = 'Bu tarihte cenaze ilanı bulunmuyor';
   static String bosGecmisAciklama(String gun, String yer) => '${tarih(gun)} · $yer';
   // bosIlGeneli KALDIRILDI 16.10.2026 (sahibi: boş günde yalnız üstteki satır kalsın)
