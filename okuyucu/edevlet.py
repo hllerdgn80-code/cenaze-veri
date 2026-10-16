@@ -23,10 +23,10 @@ VERI = os.environ.get("EDEVLET_VERI") or os.path.join(DIZIN, "..", "veri")   # E
 TABAN = "https://www.turkiye.gov.tr/"
 BEKLE = 3.5
 HIZMET_ARASI_SN = int(os.environ.get("EDEVLET_HIZMET_ARASI_SN", "600"))   # 14.10.2026 sahibi "nazik kullanim": hizmetler arasi 10 dk (--kuru/--hizmet: 0)
-ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "80"))             # kosu basina toplam istek tavani
+ISTEK_TAVANI = int(os.environ.get("EDEVLET_ISTEK_TAVANI", "120"))   # 16.10.2026: 25 ilce hizmetine hic sira gelmiyordu (80 doluyordu)             # kosu basina toplam istek tavani
 KOSU_SAATLERI = os.environ.get("EDEVLET_KOSU_SAATLERI", "")                  # "06,18": yalniz bu TR saatlerinde kosar (bos: her zaman)
-DETAY_TAVANI = int(os.environ.get("EDEVLET_DETAY_TAVANI", "30"))              # H66: koşu başına toplam "Detay" isteği
-DETAY_HIZMET_TAVANI = int(os.environ.get("EDEVLET_DETAY_HIZMET_TAVANI", "15"))  # H66: hizmet başına "Detay" isteği
+DETAY_TAVANI = int(os.environ.get("EDEVLET_DETAY_TAVANI", "45"))              # H66: koşu başına toplam "Detay" isteği
+DETAY_HIZMET_TAVANI = int(os.environ.get("EDEVLET_DETAY_HIZMET_TAVANI", "30"))  # H66: hizmet başına "Detay" isteği
 DETAY_HIZMETLERI = {"izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama"}
 CAPTCHA_BEKLEME_SA = 6               # hizmet CAPTCHA gösterdiyse (14.10: art arda sorguda uyarlamalı CAPTCHA çıkıyor) 6 saat hiç istek atma
 GUN_SAYISI = 3                       # bugün + dün + evvelsi (site bu kadarını tutuyor)
@@ -363,7 +363,9 @@ def main():
     # ilçe hizmetleri önce, il geneli sonra
     # 14.10.2026 #13 dersi: alfabetik sira 60 istegi 0 donen ilce hizmetlerine harcadi (Istanbul/Izmir/Trabzon'a sira gelmedi).
     # ONCELIK: bilinen verimli hizmetler once; son 3 kosuda 0/captcha donen hizmet 7 gunde bir denenir (haftalik yeniden kontrol).
-    ONCELIK = ["izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama", "trabzon-buyuksehir-belediyesi-vefat-sorgulama",
+    # 16.10.2026 (sahibi: "bize verilen bilgiyi al, yerlestir"): ILCEYI HAZIR VEREN ilce belediyesi hizmetleri ONCE (Istanbul 13, Ankara Mamak,
+    # Kocaeli/Bursa/Tekirdag/Samsun/Corum/Kayseri ilceleri); IBB/Izmir il geneli sonra (ayni kisi ilceli kayitla zaten varsa il geneli kopyasi eklenmez).
+    ONCELIK = [s_ for s_, (il_, ic_) in sorted(HIZMETLER.items()) if ic_] + ["izmir-buyuksehir-belediyesi-vefat-sorgulama", "istanbul-buyuksehir-belediyesi-vefat-sorgulama", "trabzon-buyuksehir-belediyesi-vefat-sorgulama",
                "denizli-buyuksehir-belediyesi-vefat-sorgulama", "kocaeli-buyuksehir-belediyesi-vefat-sorgulama", "konya-buyuksehir-belediyesi-vefat-sorgulama",
                "kahramanmaras-buyuksehir-belediyesi-vefat-sorgulama", "tekirdag-buyuksehir-belediyesi-vefat-sorgulama", "diyarbakir-buyuksehir-belediyesi-vefat-sorgulama-v3",
                "erzurum-buyuksehir-belediyesi-vefat-sorgulama-v3", "pendik-belediyesi-vefat-sorgulama", "gebze-belediyesi-vefat-sorgulama", "bagcilar-belediyesi-vefat-sorgulama",

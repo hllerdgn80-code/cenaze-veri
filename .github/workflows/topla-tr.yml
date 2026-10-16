@@ -94,7 +94,7 @@ jobs:
       - name: "e-Devlet vefat sorgulama (yalniz TR IP; nazik kullanim - 06 ve 18 kosulari, hizmetler arasi 10 dk, kosu basina en cok 60 istek; CAPTCHA gorunce 6 sa bekler)"
         if: ${{ inputs.mod != 'bosluk' }}
         env:
-          EDEVLET_KOSU_SAATLERI: "06,10,14,18"   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
+          EDEVLET_KOSU_SAATLERI: "06,08,10,12,14,16,18,20"   # 16.10.2026: 8 kosu (Mac turlari iki saatte bir); hizmet arasi 10 dk AYNEN   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
           EDEVLET_HIZMET_ARASI_SN: "600"
           EDEVLET_ISTEK_TAVANI: "80"
           EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
