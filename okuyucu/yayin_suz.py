@@ -126,6 +126,10 @@ def yerel_kilidi(k):
     ad = (k.get("ad_soyad") or "").strip()
     if not 2 <= len(ad.split()) <= 5 or re.search(r"[\d@:/()!]", ad):
         return False
+    # 16.10.2026: kurum adi kisi adi diye alinmasin ("Milli Parklar Şube Müdürlüğü")
+    if set(_kat(ad).split()) & {"mudurlugu", "baskanligi", "belediyesi", "dernegi", "sube", "valiligi", "kaymakamligi", "mudurluk",
+                                 "vakfi", "odasi", "sendikasi", "universitesi", "hastanesi", "okulu", "lisesi", "komutanligi", "bakanligi"}:
+        return False
     for a in _METIN_ALANLARI:
         v = k.get(a)
         if v is None:

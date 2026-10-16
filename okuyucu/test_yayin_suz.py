@@ -46,6 +46,11 @@ class YayinSuzTest(unittest.TestCase):
         self.assertIsNone(ys.yerel_gun(k))
         self.assertFalse(ys.yerel_kilidi(k))
 
+    def test_kurum_adi_girmez(self):
+        k = _kayit(ad_soyad="Milli Parklar Şube Müdürlüğü", liste_tarihi=self.dun, namaz_tarihi=self.dun, namaz_yeri_vakti="Merkez Camii",
+                   ham={"sayfa_tarihi": self.dun, "tarih_kaynagi": "metin"})
+        self.assertFalse(ys.yerel_kilidi(k))
+
     def test_eski_kayit_girmez(self):
         eski = (self.bugun - datetime.timedelta(days=9)).isoformat()
         k = _kayit(liste_tarihi=eski, vefat_tarihi=eski, ham={"sayfa_tarihi": eski, "tarih_kaynagi": "metin"})
