@@ -1,0 +1,30 @@
+{
+ "istek": {
+  "kocaeligazetesi.com.tr": {
+   "2026-10-16": 5
+  },
+  "ozgurkocaeli.com.tr": {
+   "2026-10-16": 5
+  }
+ },
+ "okunan": {
+  "https://www.kocaeligazetesi.com.tr/haber/28992003/turk-futbolunun-aci-kaybi-eski-tff-baskani-erdogan-unver-hayatini-kaybetti": "2026-10-16T06:16:21",
+  "https://www.kocaeligazetesi.com.tr/haber/28991369/selde-hayatini-kaybeden-14-yasindaki-mahmud-babasinin-yanina-defnedildi": "2026-10-16T06:16:25",
+  "https://www.kocaeligazetesi.com.tr/haber/28990698/duzcedeki-kazadan-aci-haber-tahir-buyukakindan-bassagligi-mesaji": "2026-10-16T06:16:30",
+  "https://www.ozgurkocaeli.com.tr/haber/28990101/belediye-baskanvekili-gultekin-hayatini-kaybetti": "2026-10-16T06:16:39",
+  "https://www.ozgurkocaeli.com.tr/vefat/28986594/halit-halil-akifoglu": "2026-10-16T06:16:47",
+  "https://www.ozgurkocaeli.com.tr/vefat/28986590/burak-temizkan": "2026-10-16T06:16:52"
+ },
+ "robots": {
+  "www.kocaeligazetesi.com.tr": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.kocaeligazetesi.com.tr/google-news.xml\nSitemap: https://www.kocaeligazetesi.com.tr/sitemap.xml\nSitemap: https://www.kocaeligazetesi.com.tr/sitemap-latest.xml\n",
+   "yasak": false
+  },
+  "www.ozgurkocaeli.com.tr": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.ozgurkocaeli.com.tr/google-news.xml\nSitemap: https://www.ozgurkocaeli.com.tr/sitemap.xml\nSitemap: https://www.ozgurkocaeli.com.tr/sitemap-latest.xml\n",
+   "yasak": false
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "istek": {
+  "mardinhaber.com.tr": {
+   "2026-10-16": 4
+  }
+ },
+ "okunan": {
+  "https://mardinhaber.com.tr/mardin-vefatlar/16-10-2026": "2026-10-16T06:12:16",
+  "https://mardinhaber.com.tr/mardin-vefatlar/15-10-2026": "2026-10-16T06:12:21",
+  "https://mardinhaber.com.tr/mardin-vefatlar/14-10-2026": "2026-10-16T06:12:25"
+ },
+ "robots": {
+  "mardinhaber.com.tr": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://mardinhaber.com.tr/google-news.xml\nSitemap: https://mardinhaber.com.tr/sitemap.xml\nSitemap: https://mardinhaber.com.tr/sitemap-latest.xml\n",
+   "yasak": false
+  }
+ }
+}

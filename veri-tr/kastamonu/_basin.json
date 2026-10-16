@@ -1,0 +1,48 @@
+{
+ "istek": {
+  "taskoprupostasi.com": {
+   "2026-10-16": 5
+  },
+  "kastamonuistiklal.com": {
+   "2026-10-16": 5
+  },
+  "kastamonuhaber.com": {
+   "2026-10-16": 4
+  },
+  "aciksoz.com.tr": {
+   "2026-10-16": 4
+  }
+ },
+ "okunan": {
+  "https://www.taskoprupostasi.com/kastamonuda-yagis-kazaya-neden-oldu-3-yarali": "2026-10-16T06:09:36",
+  "https://www.taskoprupostasi.com/iki-otomobil-kayalara-carpti-suruculer-sans-eseri-kurtuldu": "2026-10-16T06:09:40",
+  "https://www.kastamonuistiklal.com/kastamonuda-yagisli-havada-kaza-3-yarali": "2026-10-16T06:09:53",
+  "https://www.kastamonuistiklal.com/cidede-hamide-yenil-hayatini-kaybetti": "2026-10-16T06:09:57",
+  "https://www.kastamonuhaber.com/taskoprude-bahcesinde-yasamini-yitirmisti-cenazesi-belli-oldu": "2026-10-16T06:10:06",
+  "https://www.kastamonuhaber.com/kastamonuda-cami-imami-olduruldu-supheli-ormanda-yakalandi": "2026-10-16T06:10:10",
+  "https://www.aciksoz.com.tr/haber/28990841/ceviz-toplarken-hayatini-kaybetmisti-cenaze-programi-belli-oldu": "2026-10-16T06:10:19",
+  "https://www.aciksoz.com.tr/haber/28991955/kastamonuda-kamyonet-refuje-carpti-1-yarali": "2026-10-16T06:10:23"
+ },
+ "robots": {
+  "www.taskoprupostasi.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.taskoprupostasi.com/sitemap.xml\nSitemap: https://www.taskoprupostasi.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.kastamonuistiklal.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: facebookexternalhit\r\nAllow: /\r\n\r\nUser-agent: Facebot\r\nAllow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /\r\n\r\nUser-agent: LinkedInBot\r\nAllow: /\r\n\r\nUser-agent: WhatsApp\r\nAllow: /\r\n\r\nUser-agent: Pinterest\r\nAllow: /\r\n\r\nUser-agent: GPTBot              # OpenAI (ChatGPT)\r\nUser-agent: Google-Extended     # Google (Gemini/Bard)\r\nUser-agent: CCBot               # Common Crawl\r\nUser-agent: ClaudeBot           # Anthropic (Claude)\r\nUser-agent: Applebot-Extended   # Apple Intelligence\r\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\r\nUser-agent: Diffbot             # Veri cikarma botlari\r\nUser-agent: FacebookBot         # Meta AI egitim verileri\r\nUser-agent: *\r\n\r\nDisallow: /widgets/\r\nDisallow: /widgets/load-widget*\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\nDisallow: /index.php\r\nDisallow: /public/\r\nDisallow: /service/*\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/*\r\nDisallow: /admin/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/*\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/*\r\nDisallow: /themes/*\r\nDisallow: /paylas\r\nDisallow: /font-awesome\r\nDisallow: /.well-known/*\r\n\r\nSitemap: https://www.kastamonuistiklal.com/sitemap.xml\r\nSitemap: https://www.kastamonuistiklal.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "www.kastamonuhaber.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nAllow: /\nSitemap: https://www.kastamonuhaber.com/sitemap.xml\nSitemap: https://www.kastamonuhaber.com/news-sitemap.xml",
+   "yasak": false
+  },
+  "www.aciksoz.com.tr": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.aciksoz.com.tr/google-news.xml\nSitemap: https://www.aciksoz.com.tr/sitemap.xml\nSitemap: https://www.aciksoz.com.tr/sitemap-latest.xml\n",
+   "yasak": false
+  }
+ }
+}

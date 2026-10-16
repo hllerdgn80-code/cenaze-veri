@@ -1,0 +1,53 @@
+{
+ "istek": {
+  "cukurovagazetesi.com": {
+   "2026-10-16": 6
+  },
+  "mersinhabermerkezi.com": {
+   "2026-10-16": 5
+  },
+  "imecegazetesi.com": {
+   "2026-10-16": 4
+  },
+  "istemersin.com": {
+   "2026-10-16": 4
+  }
+ },
+ "okunan": {
+  "https://cukurovagazetesi.com/besiktas-hoffenheim-deplasmaninda-3-2-kazandi": "2026-10-16T06:13:01",
+  "https://cukurovagazetesi.com/eyup-canin-olumune-iliskin-davada-yeni-gelisme": "2026-10-16T06:13:05",
+  "https://www.mersinhabermerkezi.com/antalyada-22-yasindaki-gencin-yurek-yakan-olumu-7-saat-once-oluruz-dedi-kazada-hayatini-kaybetti": "2026-10-16T06:13:18",
+  "https://www.mersinhabermerkezi.com/annesinin-acisina-dayanamadi-anne-ve-oglu-defnedildi": "2026-10-16T06:13:22",
+  "https://www.imecegazetesi.com/haber/28989213/berkay-sahin-ve-esi-dubaiye-mi-tasiniyor-yeni-bolum-paylasimi-dikkat-cekti": "2026-10-16T06:13:31",
+  "https://www.imecegazetesi.com/haber/28991863/tbbde-4-tur-suren-yarisin-kazanani-belli-oldu-ayse-unluce-secildi": "2026-10-16T06:13:35",
+  "https://www.istemersin.com/haber/28991459/suriyede-dogal-gaz-hattina-sabotajyangin-cikti": "2026-10-16T06:13:44",
+  "https://www.istemersin.com/haber/28991403/hurmuz-bogazinin-dogusunda-petrol-tankerinde-yangin-cikti": "2026-10-16T06:13:48"
+ },
+ "robots": {
+  "www.cukurovagazetesi.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\r\nDisallow: /public/\r\nDisallow: /service/\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/\r\nDisallow: /admin/\r\nDisallow: /login/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /user/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\n\r\nSitemap: https://cukurovagazetesi.com/sitemap.xml\r\nSitemap: https://cukurovagazetesi.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "cukurovagazetesi.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\r\nDisallow: /public/\r\nDisallow: /service/\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/\r\nDisallow: /admin/\r\nDisallow: /login/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /user/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\n\r\nSitemap: https://cukurovagazetesi.com/sitemap.xml\r\nSitemap: https://cukurovagazetesi.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "www.mersinhabermerkezi.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: facebookexternalhit\r\nAllow: /\r\n\r\nUser-agent: Facebot\r\nAllow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /\r\n\r\nUser-agent: LinkedInBot\r\nAllow: /\r\n\r\nUser-agent: WhatsApp\r\nAllow: /\r\n\r\nUser-agent: Pinterest\r\nAllow: /\r\n\r\nUser-agent: GPTBot              # OpenAI (ChatGPT)\r\nUser-agent: Google-Extended     # Google (Gemini/Bard)\r\nUser-agent: CCBot               # Common Crawl\r\nUser-agent: ClaudeBot           # Anthropic (Claude)\r\nUser-agent: Applebot-Extended   # Apple Intelligence\r\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\r\nUser-agent: Diffbot             # Veri cikarma botlari\r\nUser-agent: FacebookBot         # Meta AI egitim verileri\r\nUser-agent: *\r\n\r\nDisallow: /widgets/\r\nDisallow: /widgets/load-widget*\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\nDisallow: /index.php\r\nDisallow: /public/\r\nDisallow: /service/*\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/*\r\nDisallow: /admin/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/*\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/*\r\nDisallow: /themes/*\r\nDisallow: /paylas\r\nDisallow: /font-awesome\r\nDisallow: /.well-known/*\r\n\r\nSitemap: https://www.mersinhabermerkezi.com/sitemap.xml\r\nSitemap: https://www.mersinhabermerkezi.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "www.imecegazetesi.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.imecegazetesi.com/google-news.xml\nSitemap: https://www.imecegazetesi.com/sitemap.xml\nSitemap: https://www.imecegazetesi.com/sitemap-latest.xml\n",
+   "yasak": false
+  },
+  "www.istemersin.com": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.istemersin.com/google-news.xml\nSitemap: https://www.istemersin.com/sitemap.xml\nSitemap: https://www.istemersin.com/sitemap-latest.xml\n",
+   "yasak": false
+  }
+ }
+}

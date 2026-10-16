@@ -1,0 +1,160 @@
+{
+ "il": "Kastamonu",
+ "ilceler": {
+  "Cide": [
+   {
+    "id": "6d2deb20dea3",
+    "il": "Kastamonu",
+    "ilce": "Cide",
+    "mahalle": null,
+    "ad_soyad": "Nazmiye Güneysu",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Kastamonu İstiklal",
+    "kaynak_url": "https://www.kastamonuistiklal.com/cidenin-aci-kaybi-nazmiye-guneysu-hayatini-kaybetti",
+    "alindi": "2026-10-16T06:09:23+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-15",
+     "sayfa_tarihi": "2026-10-15",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-16T06:10:23+03:00"
+   },
+   {
+    "id": "d4aea96c0282",
+    "il": "Kastamonu",
+    "ilce": "Cide",
+    "mahalle": "Akbayır Köyü",
+    "ad_soyad": "Hamide Yenil",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "öğle namazı",
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Kastamonu İstiklal",
+    "kaynak_url": "https://www.kastamonuistiklal.com/cidede-hamide-yenil-hayatini-kaybetti",
+    "alindi": "2026-10-16T06:09:23+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-15",
+     "sayfa_tarihi": "2026-10-15",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-16T06:10:23+03:00"
+   }
+  ],
+  "İnebolu": [
+   {
+    "id": "fe5e0ce2a594",
+    "il": "Kastamonu",
+    "ilce": "İnebolu",
+    "mahalle": null,
+    "ad_soyad": "Raşit Baltaoğlu",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-14",
+    "kaynak_ad": "Kastamonu Haber",
+    "kaynak_url": "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti",
+    "alindi": "2026-10-16T06:09:23+03:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-14",
+     "sayfa_tarihi": "2026-10-14",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-16T06:10:23+03:00"
+   }
+  ]
+ },
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "676ac64333df",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Aysel Şahin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:09:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-16T06:10:23+03:00"
+  },
+  {
+   "id": "306b3be9676f",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sebahat Karakethüdaoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:09:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-16T06:10:23+03:00"
+  }
+ ],
+ "toplam": 5,
+ "guncelleme": "2026-10-16T06:10:23+03:00",
+ "ilce_durum": {
+  "Taşköprü Postası": 0,
+  "Kastamonu İstiklal": 2,
+  "Kastamonu Haber": 3,
+  "Açıksöz": 0
+ }
+}

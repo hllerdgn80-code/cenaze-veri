@@ -1,0 +1,87 @@
+{
+ "il": "Ağrı",
+ "liste_tarihi": "2026-10-14",
+ "kayitlar": [
+  {
+   "id": "6f8dcdc4406b",
+   "il": "Ağrı",
+   "ilce": "Doğubayazıt",
+   "mahalle": "Hürriyet Mahallesi",
+   "ad_soyad": "Maruf Kaya",
+   "anne_baba": null,
+   "yas": 87,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Koçkıran Şehir Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Doğubayazıt Gazetesi",
+   "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazitta-maruf-kaya-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:10:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "1a898b5db38a",
+   "il": "Ağrı",
+   "ilce": "Doğubayazıt",
+   "mahalle": "Sarıgül Mahallesi",
+   "ad_soyad": "İsmet Şahin",
+   "anne_baba": null,
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Doğubayazıt Gazetesi",
+   "kaynak_url": "https://dogubayazitgazetesi.com/dogubeyazitta-9-cocuk-babasi-ismet-sahin-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:10:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "366700c246ce",
+   "il": "Ağrı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yusuf Metin",
+   "anne_baba": null,
+   "yas": 24,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": "2026-10-14",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Patnos Haber Gazetesi",
+   "kaynak_url": "https://www.patnoshabergazetesi.com/patnoslu-24-yasindaki-genc-trafik-kazasinda-hayatini-kaybetti/104354",
+   "alindi": "2026-10-16T06:10:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-15",
+    "sayfa_tarihi": "2026-10-15",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

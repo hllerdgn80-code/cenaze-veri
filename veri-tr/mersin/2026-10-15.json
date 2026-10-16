@@ -1,0 +1,28 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-15",
+ "kayitlar": [
+  {
+   "id": "07e05c863173",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Sağlık Mahallesi",
+   "ad_soyad": "Şeküre Yüksel",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehir Mezarlığı",
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": "2026-10-15",
+   "namaz_yeri_vakti": "Öğle",
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/15-10-2026-vefat-edenler/",
+   "alindi": "2026-10-16T06:12:38+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

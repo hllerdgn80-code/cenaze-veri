@@ -1,0 +1,56 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-16",
+ "kayitlar": [
+  {
+   "id": "59958b27d6ce",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Meydan",
+   "anne_baba": null,
+   "yas": 52,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "Bitez Gülsevim Rüştü Kaynak Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": "2026-10-16",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-16T06:08:13+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "b6c9f1cef17f",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Fatma Nüket Birgül",
+   "anne_baba": null,
+   "yas": 79,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": "Akyarlar Kemer Camii'den Akyarlar mezarlığına",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": "2026-10-16",
+   "namaz_yeri_vakti": "Cuma Namazı",
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-16T06:08:13+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

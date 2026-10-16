@@ -1,0 +1,39 @@
+{
+ "il": "Mardin",
+ "ilceler": {},
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "6a6244afbc80",
+   "il": "Mardin",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "İhsan Seyithan",
+   "anne_baba": null,
+   "yas": 47,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Mardin Haber Gazetesi",
+   "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/15-10-2026",
+   "alindi": "2026-10-16T06:12:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-15",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin",
+   "ilk_gorulme": "2026-10-16T06:12:25+03:00"
+  }
+ ],
+ "toplam": 1,
+ "guncelleme": "2026-10-16T06:12:25+03:00",
+ "ilce_durum": {
+  "Mardin Haber Gazetesi": 1
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "istek": {
+  "tunceliemek.com.tr": {
+   "2026-10-16": 4
+  }
+ },
+ "okunan": {
+  "https://www.tunceliemek.com.tr/foto/28991528/savas-alanina-donen-kazada-motoru-firlayan-aractaki-surucu-kurtarilamadi": "2026-10-16T06:12:34",
+  "https://www.tunceliemek.com.tr/haber/28991498/agac-kesimi-sirasinda-cikan-kavga-cinayetle-sonlandi": "2026-10-16T06:12:38"
+ },
+ "robots": {
+  "www.tunceliemek.com.tr": {
+   "tarih": "2026-10-16",
+   "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.tunceliemek.com.tr/google-news.xml\nSitemap: https://www.tunceliemek.com.tr/sitemap.xml\nSitemap: https://www.tunceliemek.com.tr/sitemap-latest.xml\n",
+   "yasak": false
+  }
+ }
+}

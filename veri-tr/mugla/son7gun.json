@@ -3,6 +3,58 @@
  "ilceler": {
   "Bodrum": [
    {
+    "id": "59958b27d6ce",
+    "il": "Muğla",
+    "ilce": "Bodrum",
+    "mahalle": null,
+    "ad_soyad": "Mustafa Meydan",
+    "anne_baba": null,
+    "yas": 52,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-15",
+    "defin_yeri": "Bitez Gülsevim Rüştü Kaynak Camii'den Bitez mezarlığına",
+    "defin_zamani": "2026-10-16",
+    "namaz_tarihi": "2026-10-16",
+    "namaz_yeri_vakti": "İkindi Namazı",
+    "liste_tarihi": "2026-10-16",
+    "kaynak_ad": "Bodrum Belediyesi",
+    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "nakil_yeri": null,
+     "nakil_tarihi": null
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "b6c9f1cef17f",
+    "il": "Muğla",
+    "ilce": "Bodrum",
+    "mahalle": null,
+    "ad_soyad": "Fatma Nüket Birgül",
+    "anne_baba": null,
+    "yas": 79,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-14",
+    "defin_yeri": "Akyarlar Kemer Camii'den Akyarlar mezarlığına",
+    "defin_zamani": "2026-10-16",
+    "namaz_tarihi": "2026-10-16",
+    "namaz_yeri_vakti": "Cuma Namazı",
+    "liste_tarihi": "2026-10-16",
+    "kaynak_ad": "Bodrum Belediyesi",
+    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "nakil_yeri": null,
+     "nakil_tarihi": null
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
     "id": "7ff7e0b25851",
     "il": "Muğla",
     "ilce": "Bodrum",
@@ -19,7 +71,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -45,7 +97,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -71,7 +123,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -97,7 +149,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": "İstanbul",
      "nakil_tarihi": "2026-10-14"
@@ -123,7 +175,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": "İstanbul",
      "nakil_tarihi": "2026-10-13"
@@ -149,7 +201,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -175,7 +227,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -201,7 +253,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -227,7 +279,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -253,7 +305,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -279,7 +331,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -305,7 +357,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -331,7 +383,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -357,7 +409,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -383,140 +435,10 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "nakil_yeri": "Aydın Çine",
      "nakil_tarihi": "2026-10-10"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "c2202b67c450",
-    "il": "Muğla",
-    "ilce": "Bodrum",
-    "mahalle": null,
-    "ad_soyad": "Zeki Yılmaz",
-    "anne_baba": null,
-    "yas": 89,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": "Gölköy mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": "İkindi Namazı",
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Bodrum Belediyesi",
-    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "nakil_yeri": null,
-     "nakil_tarihi": null
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "1a3f3141d9cb",
-    "il": "Muğla",
-    "ilce": "Bodrum",
-    "mahalle": null,
-    "ad_soyad": "Zeynep Duman",
-    "anne_baba": null,
-    "yas": 77,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": "Aşağı Yalıçiftlik Camii'den Aşağı Yalıçiftlik mezarlığına",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Bodrum Belediyesi",
-    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "nakil_yeri": null,
-     "nakil_tarihi": null
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "61aec7c6328f",
-    "il": "Muğla",
-    "ilce": "Bodrum",
-    "mahalle": null,
-    "ad_soyad": "Naciye Coşkun",
-    "anne_baba": null,
-    "yas": 81,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": null,
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Bodrum Belediyesi",
-    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "nakil_yeri": "İstanbul",
-     "nakil_tarihi": "2026-10-08"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "1325cb6bb25f",
-    "il": "Muğla",
-    "ilce": "Bodrum",
-    "mahalle": null,
-    "ad_soyad": "Levent Külünkoğlu",
-    "anne_baba": null,
-    "yas": 56,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": "Ortakent Kerem Aydınlar Camii'den Ortakent mezarlığına",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": "İkindi Namazı",
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Bodrum Belediyesi",
-    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "nakil_yeri": null,
-     "nakil_tarihi": null
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "06816fe65d88",
-    "il": "Muğla",
-    "ilce": "Bodrum",
-    "mahalle": null,
-    "ad_soyad": "Aybars Karaman",
-    "anne_baba": null,
-    "yas": 0,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-09",
-    "defin_yeri": "Gölbaşı mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": "İkindi Namazı",
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Bodrum Belediyesi",
-    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "nakil_yeri": null,
-     "nakil_tarihi": null
     },
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -541,7 +463,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1942"
     },
@@ -566,7 +488,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1952"
     },
@@ -591,7 +513,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1939"
     },
@@ -616,7 +538,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1984"
     },
@@ -641,7 +563,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1964"
     },
@@ -666,7 +588,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1952"
     },
@@ -691,34 +613,9 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "dogum_yili": "1972"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "0684d2842962",
-    "il": "Muğla",
-    "ilce": "Dalaman",
-    "mahalle": "Çöğmen Mahallesi",
-    "ad_soyad": "Esma Muslu",
-    "anne_baba": null,
-    "yas": null,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-09",
-    "defin_yeri": "Çöğmen Merkez Mezarlığı",
-    "defin_zamani": null,
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": "Cuma Namazını Müteakip Çöğmen Camiinde Kılınacak Cenaze Namazından Sonra Çöğmen Merkez Mezarlığına",
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Dalaman Belediyesi",
-    "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {
-     "dogum_yili": "1944"
     },
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -726,6 +623,156 @@
    }
   ],
   "Fethiye": [
+   {
+    "id": "8b962a938a4f",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Aysel Karataş",
+    "anne_baba": null,
+    "yas": 79,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-15",
+    "defin_yeri": "Karaçulha Mezarlığı",
+    "defin_zamani": "2026-10-15",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "1d87588c1072",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Durmuş Kızılca",
+    "anne_baba": null,
+    "yas": 58,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-14",
+    "defin_yeri": "Çamköy Türbe Mezarlığı",
+    "defin_zamani": "2026-10-15",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "8bf1bbd643bf",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Ercan Erbaş",
+    "anne_baba": null,
+    "yas": 80,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-13",
+    "defin_yeri": "Ovacık Çatallar Mezarlığı",
+    "defin_zamani": "2026-10-15",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "9f1356079d1d",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Yurıı Vedula",
+    "anne_baba": null,
+    "yas": 65,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-12",
+    "defin_yeri": "Ovacık Çatallar Mezarlığı",
+    "defin_zamani": "2026-10-15",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-15",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "f778d1ad12a9",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Nazmiye Semerci",
+    "anne_baba": null,
+    "yas": 85,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-14",
+    "defin_yeri": "Eldirek Köyiçi Mezarlığı",
+    "defin_zamani": "2026-10-14",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-14",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
+   {
+    "id": "fe67630fb402",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Cihan Yuluk",
+    "anne_baba": null,
+    "yas": 78,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-13",
+    "defin_yeri": "Karakeçililer Mezarlığı",
+    "defin_zamani": "2026-10-14",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-14",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
+   },
    {
     "id": "29ea77d317c8",
     "il": "Muğla",
@@ -743,7 +790,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -768,13 +815,38 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
     "il_disi_defin": null,
     "ilce_belirsiz": false,
     "ilk_gorulme": "2026-10-15T11:36:32+03:00"
+   },
+   {
+    "id": "b293c7d79325",
+    "il": "Muğla",
+    "ilce": "Fethiye",
+    "mahalle": null,
+    "ad_soyad": "Gül Dönmez",
+    "anne_baba": null,
+    "yas": 56,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-12",
+    "defin_yeri": "Yeni Mahalle (Günlükbaşı) Mezarlığı",
+    "defin_zamani": "2026-10-13",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-13",
+    "kaynak_ad": "Fethiye Belediyesi",
+    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+    "alindi": "2026-10-16T06:08:13+03:00",
+    "ham": {
+     "tur": "Defin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-16T06:08:47+03:00"
    },
    {
     "id": "b93ab7b3aa53",
@@ -793,7 +865,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Nakil"
     },
@@ -818,7 +890,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -843,7 +915,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -868,7 +940,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -893,7 +965,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -918,84 +990,9 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {
      "tur": "Defin"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "2bd0290e7ad1",
-    "il": "Muğla",
-    "ilce": "Fethiye",
-    "mahalle": null,
-    "ad_soyad": "Eren Alp Önal",
-    "anne_baba": null,
-    "yas": 5,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-09",
-    "defin_yeri": "Karaçulha Mezarlığı",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Fethiye Belediyesi",
-    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
-    "ham": {
-     "tur": "Defin"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "035127912657",
-    "il": "Muğla",
-    "ilce": "Fethiye",
-    "mahalle": null,
-    "ad_soyad": "Burhan Şenkol",
-    "anne_baba": null,
-    "yas": 85,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": "Esenköy Mezarlığı",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Fethiye Belediyesi",
-    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
-    "ham": {
-     "tur": "Defin"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "e2b01889b8e3",
-    "il": "Muğla",
-    "ilce": "Fethiye",
-    "mahalle": null,
-    "ad_soyad": "Ersan Yergöz",
-    "anne_baba": null,
-    "yas": 51,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-08",
-    "defin_yeri": "MUĞLA",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Fethiye Belediyesi",
-    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-13T14:04:22+03:00",
-    "ham": {
-     "tur": "Nakil"
     },
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1020,7 +1017,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1043,7 +1040,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1066,7 +1063,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1089,7 +1086,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1112,7 +1109,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1135,7 +1132,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1158,7 +1155,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1181,7 +1178,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1204,7 +1201,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1227,7 +1224,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1250,7 +1247,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1273,30 +1270,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {},
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "e132318d5ab4",
-    "il": "Muğla",
-    "ilce": "Milas",
-    "mahalle": null,
-    "ad_soyad": "Halime Bilge",
-    "anne_baba": null,
-    "yas": null,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-09",
-    "defin_yeri": "Beçin Mahalle Mezarlığı",
-    "defin_zamani": "2026-10-09",
-    "namaz_tarihi": "2026-10-09",
-    "namaz_yeri_vakti": "11:00'da cenaze namazı ardından",
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Milas Belediyesi",
-    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1321,7 +1295,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1344,7 +1318,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1390,7 +1364,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1413,7 +1387,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1436,7 +1410,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1459,7 +1433,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1482,7 +1456,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1505,30 +1479,7 @@
     "liste_tarihi": "2026-10-10",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
-    "ham": {},
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "ilk_gorulme": "2026-10-15T11:36:32+03:00"
-   },
-   {
-    "id": "cc2c5227728b",
-    "il": "Muğla",
-    "ilce": "Seydikemer",
-    "mahalle": "Kabaağaç Mahallesi",
-    "ad_soyad": "Münire Kara",
-    "anne_baba": null,
-    "yas": null,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-09",
-    "defin_yeri": "Kabaağaç Mahalle Mezarlığı",
-    "defin_zamani": null,
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-09",
-    "kaynak_ad": "Seydikemer Belediyesi",
-    "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-15T11:34:51+03:00",
+    "alindi": "2026-10-16T06:08:13+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1538,13 +1489,13 @@
  },
  "il_disi": [],
  "ilce_belirsiz": [],
- "toplam": 62,
- "guncelleme": "2026-10-15T11:36:32+03:00",
+ "toplam": 60,
+ "guncelleme": "2026-10-16T06:08:47+03:00",
  "ilce_durum": {
-  "Bodrum": 20,
-  "Milas": 13,
-  "Fethiye": "HATA: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.fethiye.bel.tr'. (_ssl.c:1129)>",
-  "Seydikemer": 9,
-  "Dalaman": 8
+  "Bodrum": 17,
+  "Milas": 12,
+  "Fethiye": 15,
+  "Seydikemer": 8,
+  "Dalaman": 7
  }
 }

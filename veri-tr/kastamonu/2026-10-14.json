@@ -1,0 +1,87 @@
+{
+ "il": "Kastamonu",
+ "liste_tarihi": "2026-10-14",
+ "kayitlar": [
+  {
+   "id": "676ac64333df",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Aysel Şahin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aysel-sahin-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:09:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "fe5e0ce2a594",
+   "il": "Kastamonu",
+   "ilce": "İnebolu",
+   "mahalle": null,
+   "ad_soyad": "Raşit Baltaoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/ineboluda-emekli-bekci-rasit-baltaoglu-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:09:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "306b3be9676f",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sebahat Karakethüdaoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-sebahat-karakethudaoglu-hayatini-kaybetti",
+   "alindi": "2026-10-16T06:09:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-14",
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}
