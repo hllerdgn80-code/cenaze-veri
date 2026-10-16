@@ -35,7 +35,21 @@ IlVerisi veriYap(String bugun, {Map<String, List<Map<String, dynamic>>> ilceler 
 void main() {
   final bugun = bugunTr();
 
-  testWidgets('§57: bugün boş + dün 2 kayıt → "Dün (…)" bölümü ve 2 kart; bulunmuyor satırı üstte', (tester) async {
+  testWidgets('16.10.2026 sahibi: bugün boşsa YALNIZ "bulunmuyor" (dün açılmaz; uzak ayar varsayılanı)', (tester) async {
+    telefon(tester);
+    final d = await testDurumu();
+    final dun = gunEkle(bugun, -1);
+    final v = veriYap(bugun, ilceler: {'Bodrum': [kayit('a', 'Dünkü Bir', 'Bodrum', dun)]});
+    await tester.pumpWidget(kapsamli(d, Column(children: gunIcerigi(v, 'Bodrum', bugun, bugun))));
+    await tester.pumpAndSettle();
+    expect(find.text('Bugün Bodrum’da cenaze ilanı bulunmuyor'), findsOneWidget);
+    expect(find.text('Dünkü Bir'), findsNothing);
+    expect(find.text(trBuyuk(M.dunBolum(dun))), findsNothing);
+  });
+
+  testWidgets('§57 (uzak ayar bugun_bossa_dunu_goster=true): bugün boş + dün 2 kayıt → "Dün (…)" bölümü ve 2 kart; bulunmuyor satırı üstte', (tester) async {
+    UzakAyar.bugunBossaDunuGoster = true;
+    addTearDown(() => UzakAyar.bugunBossaDunuGoster = false);
     telefon(tester);
     final d = await testDurumu();
     final dun = gunEkle(bugun, -1);
@@ -145,8 +159,8 @@ void main() {
     expect(find.text(trBuyuk('Muğla’da bugün: Bodrum, Milas')), findsNothing);
     expect(find.text('Ali Örnek'), findsNothing);
     expect(find.text('Hasan Örnek'), findsNothing);
-    // 16.10.2026 (§57): bugün bu ilçede kayıt yok → yalnız DÜN kendiliğinden "Dün (…)" başlığıyla açılır
-    expect(find.text('Dünkü Örnek'), findsOneWidget);
+    // 16.10.2026 sahibi: bugün kayıt yoksa dün de AÇILMAZ (uzak ayar varsayılanı kapalı)
+    expect(find.text('Dünkü Örnek'), findsNothing);
   });
 
   testWidgets('15.10.2026: yarına kayıt varsa şeritte "Yarın" görünür, seçilince içeriği açılır; Bugün varsayılan', (tester) async {

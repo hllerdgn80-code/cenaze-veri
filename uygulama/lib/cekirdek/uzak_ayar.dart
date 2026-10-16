@@ -16,12 +16,18 @@ class UzakAyar {
   /// İlçe sayfasında ilin ilçesiz/nakil ilanlarını "İl geneli" başlığıyla göster (varsayılan: GÖSTERME — sahibi 16.10.2026).
   static bool ilceSayfasindaIlGeneli = false;
 
+  /// Bugün seçiliyken bugün ilan yoksa "Dün (…)" ilanlarını altında göster (URUN §57). Varsayılan: GÖSTERME — sahibi 16.10.2026
+  /// ("o gün cenaze yoksa sadece yok desin, altında ilan linkleri olsun").
+  static bool bugunBossaDunuGoster = false;
+
   static const _anahtar = 'uzak_ayar';
   static DateTime? _son;
 
   static void uygula(Map j) {
     final v = j['ilce_sayfasinda_il_geneli'];
     if (v is bool) ilceSayfasindaIlGeneli = v;
+    final d = j['bugun_bossa_dunu_goster'];
+    if (d is bool) bugunBossaDunuGoster = d;
   }
 
   /// Telefonda saklı son değeri yükler (açılışta, ağdan önce).
@@ -49,11 +55,11 @@ class UzakAyar {
       final govde = utf8.decode(r.bodyBytes);
       final j = jsonDecode(govde);
       if (j is! Map) return false;
-      final once = ilceSayfasindaIlGeneli;
+      final once = '$ilceSayfasindaIlGeneli|$bugunBossaDunuGoster';
       uygula(j);
       final p = await SharedPreferences.getInstance();
       await p.setString(_anahtar, govde);
-      return once != ilceSayfasindaIlGeneli;
+      return once != '$ilceSayfasindaIlGeneli|$bugunBossaDunuGoster';
     } catch (_) {
       return false;
     }

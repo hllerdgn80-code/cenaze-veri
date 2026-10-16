@@ -372,3 +372,6 @@ KURAL (il/ilçe eşleşmesine EK, §49'un yerine geçer):
 ## 57. SABAH BOŞLUĞU: BUGÜN BOŞSA DÜN KENDİLİĞİNDEN AÇILIR (site sahibi 16.10.2026: "uygulama bomboş görünüyor")
 Seçili gün BUGÜN ve bugün hiç kayıt yoksa "Bugün …'da cenaze ilanı bulunmuyor" satırının ALTINDA "Dün (15 Ekim)" bölüm başlığıyla yalnız DÜNÜN ilanları listelenir (şehit önce; ilçe bölümleri aynı); dün de boşsa yalnız "bulunmuyor" satırı. Daha eski günler tarih şeridinden. 15.10'daki "boş günde son 7 gün açılmaz" kuralı yalnız bu kadar gevşedi (diğer ilçeler hâlâ açılmaz). İlan kutusu yine en altta (§52).
 
+
+
+**§57 DEĞİŞTİ (sahibi 16.10.2026 öğleden sonra):** "dünü de göstermesin; o gün cenaze yoksa sadece yok desin, altında ilan linkleri olsun, bu kadar." Bugün boşsa "Dün (…)" bölümü AÇILMAZ; yalnız "Bugün <yer>’de cenaze ilanı bulunmuyor" + ilan kutusu. Kural uzak ayarda: `bugun_bossa_dunu_goster` (varsayılan false; site/ayarlar.json, araclar/uzak_ayar.py). İlçe sayfasında "İl geneli" bölümü de yok (`ilce_sayfasinda_il_geneli` false; YURUT H91).

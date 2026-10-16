@@ -293,7 +293,7 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
   h.addAll(genelBolumu(gun));
   // URUN §57 (sahibi 16.10.2026: "uygulama bomboş görünüyor"): BUGÜN seçiliyken bugün hiç kayıt yoksa "bulunmuyor" satırının
   // altında DÜNÜN ilanları "Dün (15 Ekim)" başlığıyla kendiliğinden listelenir (yalnız dün; eskisi tarih şeridinden).
-  if (gun == bugun && bugunBos) {
+  if (gun == bugun && bugunBos && UzakAyar.bugunBossaDunuGoster) { // 16.10.2026 sahibi: varsayılan KAPALI (uzak ayar)
     final dun = gunEkle(bugun, -1);
     final dunKartlari = [...gunKartlari(dun), ...genelBolumu(dun)];
     if (dunKartlari.isNotEmpty) {
