@@ -383,5 +383,91 @@
    "olen": 0,
    "kayit": 1
   }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-emekli-bekciden-aci-haber-rasit-baltaoglu-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Raşit Baltaoğlu",
+    "yas": null,
+    "ilce": "İnebolu",
+    "mahalle": "Aşağıhatıpbağı Mahallesi",
+    "namaz": "Yeni Camii, öğle namazı",
+    "defin": "Hastane Üstü Mezarlığı",
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 6,
+   "olen": 1,
+   "kayit": 1
+  }
+ },
+ "https://www.taskoprupostasi.com/kastamonuda-sabriye-borekci-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Sabriye Börekçi",
+    "yas": null,
+    "ilce": null,
+    "mahalle": null,
+    "namaz": "Hacı Nimet Darende Camii, öğle namazı",
+    "defin": "Anıt Mezarlığı",
+    "namaz_t": "2026-10-14",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 5,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuistiklal.com/taskoprude-fikriye-tekin-hakka-yurudu": {
+  "olgular": [
+   {
+    "ad": "Fikriye Tekin",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": null,
+    "namaz": "Alatarla Merkez Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-12",
+  "tani": null
+ },
+ "https://www.kastamonuistiklal.com/kastamonuda-silahli-kavga-4-kisi-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-12",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/kastamonu-istanbul-yolunda-kaza-hafif-ticari-arac-devrildi": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/tosya-d100-karayolunda-2-ayri-kaza-3-kisi-yaralandi": {
+  "olgular": [],
+  "tarih": "2026-10-14",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }

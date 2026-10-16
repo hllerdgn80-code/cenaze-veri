@@ -4,28 +4,28 @@
   {
    "id": "4f5c482dbe7a",
    "il": "Burdur",
-   "ilce": "Yeşilova",
-   "mahalle": "Işıklar Köyü",
+   "ilce": null,
+   "mahalle": null,
    "ad_soyad": "Ahmet Kayan",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "Işıklar Köyü",
+   "defin_yeri": null,
    "defin_zamani": "2026-10-15",
    "namaz_tarihi": "2026-10-15",
-   "namaz_yeri_vakti": "öğle namazı",
+   "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/28991147/burdurda-haci-ahmet-kayan-gozyaslari-icerisinde-topraga-verildi",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-15",
     "sayfa_tarihi": "2026-10-15",
     "tarih_kaynagi": "metin"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": false,
+   "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
   },
   {
@@ -153,7 +153,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/28993360/burdurda-eski-sivaci-ustasi-huseyin-ogutlu-vefat-etti",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -180,7 +180,34 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/28993522/fabrikada-yuksekten-dusmustu-10-gun-sonra-hayatini-kaybetti",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-16",
+    "sayfa_tarihi": "2026-10-16",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "956bb3a21330",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Armağan İlci Mahallesi",
+   "ad_soyad": "Necati Anıl Keskin",
+   "anne_baba": null,
+   "yas": 27,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Sultandere Mezarlığı",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/28995702/burdurda-feci-kazada-hayatini-kaybeden-27-yasindaki-necati-anil-keskin-dualarla-topraga-verildi",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -191,5 +218,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T13:55:51+03:00"
+ "guncelleme": "2026-10-16T17:56:26+03:00"
 }

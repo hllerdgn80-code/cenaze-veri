@@ -625,7 +625,7 @@
   {
    "id": "71450efecd63",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "İzmit",
    "mahalle": null,
    "ad_soyad": "Hürmet Sancak",
    "anne_baba": null,
@@ -648,10 +648,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "08.10.2026",
     "defin_tarihi": "10.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "6065912d3bb8",

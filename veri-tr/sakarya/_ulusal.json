@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-13",
    "kaynak_ad": "Sakarya Yenihaber",
    "kaynak_url": "https://www.sakaryayenihaber.com/haber/28986389/sakarya-haberleri-15-ekim-persembe-sakarya-vefatlar",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-15",
     "tarih_kaynagi": "metin"
@@ -28,23 +28,23 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "283481e317f4",
+   "id": "4c77a71ec38a",
    "il": "Sakarya",
    "ilce": "Sapanca",
-   "mahalle": "Çayiçi Mahallesi",
-   "ad_soyad": "İsmail Taylan",
+   "mahalle": "Rüstempaşa Mahallesi",
+   "ad_soyad": "Sapancalı Yılmazer",
    "anne_baba": null,
-   "yas": 64,
+   "yas": 71,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "Sapanca Güldibi Aile Mezarlığı",
+   "defin_yeri": "Sapanca Şükriye Mahalle Mezarlığı",
    "defin_zamani": "2026-10-16",
    "namaz_tarihi": "2026-10-16",
-   "namaz_yeri_vakti": "Sapanca Merkez Camii, cuma namazı",
+   "namaz_yeri_vakti": "Sapanca Camicedid Merkez Camii, cuma namazı",
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Sakarya Yenihaber",
-   "kaynak_url": "https://www.sakaryayenihaber.com/haber/28993919/64-yasindaki-baba-topraga-verildi",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "kaynak_url": "https://www.sakaryayenihaber.com/haber/28996525/sapancali-yilmazer-topraga-verildi",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -55,5 +55,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T13:55:51+03:00"
+ "guncelleme": "2026-10-16T17:56:26+03:00"
 }

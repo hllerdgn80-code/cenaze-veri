@@ -88,6 +88,35 @@
   ],
   "Nusaybin": [
    {
+    "id": "1a381d77e247",
+    "il": "Mardin",
+    "ilce": "Nusaybin",
+    "mahalle": null,
+    "ad_soyad": "Şilan Göktekin",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-12",
+    "defin_yeri": "Bahçebaşı Köyü Mezarlığı",
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-12",
+    "kaynak_ad": "Mardin Haber Gazetesi",
+    "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/12-10-2026",
+    "alindi": "2026-10-16T06:44:20+03:00",
+    "ham": {
+     "sayfa_tarihi": "2026-10-12",
+     "tarih_kaynagi": "yayin_tarihi",
+     "ilce_kaynagi": "mahalle_tablo"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_basin",
+    "ilce_kaynagi": "mahalle_tablo",
+    "ilk_gorulme": "2026-10-16T06:44:38+03:00"
+   },
+   {
     "id": "a0c5269db51c",
     "il": "Mardin",
     "ilce": "Nusaybin",
@@ -195,7 +224,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Mardin Haber Gazetesi",
    "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/15-10-2026",
-   "alindi": "2026-10-16T10:59:34+03:00",
+   "alindi": "2026-10-16T16:43:51+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-15",
     "tarih_kaynagi": "yayin_tarihi"
@@ -231,37 +260,10 @@
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin",
    "ilk_gorulme": "2026-10-16T06:44:38+03:00"
-  },
-  {
-   "id": "1a381d77e247",
-   "il": "Mardin",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Şilan Göktekin",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-12",
-   "defin_yeri": "Bahçebaşı Köyü Mezarlığı",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-12",
-   "kaynak_ad": "Mardin Haber Gazetesi",
-   "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/12-10-2026",
-   "alindi": "2026-10-16T06:44:20+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-12",
-    "tarih_kaynagi": "yayin_tarihi"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true,
-   "kaynak_turu": "yerel_basin",
-   "ilk_gorulme": "2026-10-16T06:44:38+03:00"
   }
  ],
  "toplam": 9,
- "guncelleme": "2026-10-16T10:59:39+03:00",
+ "guncelleme": "2026-10-16T16:43:56+03:00",
  "ilce_durum": {
   "Mardin Haber Gazetesi": 1
  }

@@ -1043,7 +1043,7 @@
   {
    "id": "90079f935fb0",
    "il": "Kocaeli",
-   "ilce": null,
+   "ilce": "Kandıra",
    "mahalle": null,
    "ad_soyad": "Turhan Satılmış",
    "anne_baba": null,
@@ -1066,10 +1066,11 @@
     "vakit": "ÖĞLEN",
     "olum_tarihi": "12.10.2026",
     "defin_tarihi": "13.10.2026",
-    "ilce_kaynagi": null
+    "ilce_kaynagi": "mahalle_tablo"
    },
-   "ilce_belirsiz": true,
-   "il_disi_defin": null
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "2dc62251a0d9",

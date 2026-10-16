@@ -288,7 +288,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkale-sanayisinin-sevilen-ismi-hayatini-kaybetti",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -315,7 +315,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -341,7 +341,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -367,7 +367,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -393,7 +393,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -419,7 +419,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -445,7 +445,33 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-16-ekim-1",
-   "alindi": "2026-10-16T13:55:51+03:00",
+   "alindi": "2026-10-16T17:56:26+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-16",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "a9103d95a15b",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": "Ahılı Köyü",
+   "ad_soyad": "Ahmet Atmaca",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-atmaca-ailesinin-aci-gunu",
+   "alindi": "2026-10-16T17:56:26+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "yayin_tarihi"
@@ -455,5 +481,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T13:55:51+03:00"
+ "guncelleme": "2026-10-16T17:56:26+03:00"
 }

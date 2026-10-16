@@ -1560,7 +1560,88 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "ba5b65ed607e",
+   "il": "Kocaeli",
+   "ilce": "Derince",
+   "mahalle": null,
+   "ad_soyad": "Hayri Günaydın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": "2026-10-14",
+   "namaz_yeri_vakti": "Uzunçiftlik Emekler Merkez Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28980340/derincede-gunaydin-ailesinin-aci-gunu",
+   "alindi": "2026-10-16T17:56:26+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "224edcd7806d",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hakan Murat Günday",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": "2026-10-14",
+   "namaz_yeri_vakti": "Hereke Sümer Camii, öğle namazı",
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28979284/muzisyen-barkin-tarimin-aci-gunu",
+   "alindi": "2026-10-16T17:56:26+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-14",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "358cf053d869",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Bir Hafta Sonra",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-13",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28977240/isten-cikarilma-korkusuyla-yagmurda-calistilar-19-yasindaki-mazlum-akima-kapilip-hayatini-kaybetti",
+   "alindi": "2026-10-16T17:56:26+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-13",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": {
+    "il": "Van",
+    "ilce": null
+   },
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T13:55:51+03:00"
+ "guncelleme": "2026-10-16T17:56:26+03:00"
 }

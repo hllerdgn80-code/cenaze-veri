@@ -5,7 +5,7 @@
   {
    "id": "1a381d77e247",
    "il": "Mardin",
-   "ilce": null,
+   "ilce": "Nusaybin",
    "mahalle": null,
    "ad_soyad": "Şilan Göktekin",
    "anne_baba": null,
@@ -22,11 +22,13 @@
    "alindi": "2026-10-16T06:44:20+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-12",
-    "tarih_kaynagi": "yayin_tarihi"
+    "tarih_kaynagi": "yayin_tarihi",
+    "ilce_kaynagi": "mahalle_tablo"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": true,
-   "kaynak_turu": "yerel_basin"
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin",
+   "ilce_kaynagi": "mahalle_tablo"
   },
   {
    "id": "6c7ff82731f4",
