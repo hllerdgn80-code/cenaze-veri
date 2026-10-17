@@ -1,9 +1,10 @@
 {
- "imlec": 28,
+ "imlec": 42,
  "istek": {
   "2026-10-14": 16,
   "2026-10-15": 30,
-  "2026-10-16": 30
+  "2026-10-16": 30,
+  "2026-10-17": 30
  },
  "alanlar": {
   "yozgatmedya.com.tr": {
@@ -994,6 +995,264 @@
    "vefat_sayfasi": [],
    "durum": "HATA URLError: <urlopen error timed out>",
    "istek": 1
+  },
+  "kayseriolay.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "kocaelizirve.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ilgazetesi.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "karaman.org": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat-edenler"
+   ]
+  },
+  "seskocaeli.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "ozgunkocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-haberleri",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": [
+    "/vefat-haberleri"
+   ]
+  },
+  "kgrthaber.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat-edenler"
+   ]
+  },
+  "ozgurkocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "bugunkocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "cagdaskocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "kayserihaber.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vali-gokmen-cicekin-taziye-kabulu",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": [
+    "/vali-gokmen-cicekin-taziye-kabulu"
+   ]
+  },
+  "karabukpostasi.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "bolgeninsesigazetesi.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "karamandauyanis.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/karamanda-vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/karamanda-vefat-edenler"
+   ]
+  },
+  "egirdirakingazetesi.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "mavikocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "gazete32.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/./isparta-vefat-edenler/",
+    "/isparta-vefat-edenler/ispartada-bugun-vefat-edenler-10-10-2026/"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/./isparta-vefat-edenler/",
+    "/isparta-vefat-edenler/ispartada-bugun-vefat-edenler-10-10-2026/",
+    "/isparta-vefat-edenler/ispartada-bugun-vefat-edenler-11-10-2026/",
+    "/isparta-vefat-edenler/ispartada-bugun-vefat-edenler-12-10-2026/",
+    "/isparta-vefat-edenler/ispartada-bugun-vefat-edenler-13-10-2026/",
+    "/vefat-edenler/"
+   ]
+  },
+  "asigazetesi.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kayserianadoluhaber.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "kastamonuguncel.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "kanal46.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "havadis.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "karamangundem.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "gazeteanadolu.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kirsehirmemleket.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
   }
  },
  "il_alan": {
@@ -1009,11 +1268,13 @@
    "haber7.com": 1
   },
   "Bayburt": {
-   "gumuskoza.com.tr": 2,
+   "gumuskoza.com.tr": 3,
    "bayburtpostasi.com.tr": 15,
    "yozgatmedya.com.tr": 1,
    "mersinhaber.com": 1,
-   "telgraf.net": 1
+   "telgraf.net": 1,
+   "marmarisyenisayfa.com": 2,
+   "tv42haber.com": 1
   },
   "Bingöl": {
    "aksiyon.com.tr": 1,
@@ -1024,7 +1285,8 @@
    "aksiyon.com.tr": 2,
    "marmarisyenisayfa.com": 1,
    "herkesduysun.com": 1,
-   "sanliurfagazetesi.com": 1
+   "sanliurfagazetesi.com": 1,
+   "haber7.com": 1
   },
   "Eskişehir": {
    "eskisehirekspres.net": 1,
@@ -1039,13 +1301,16 @@
    "kartepesehir.com": 1,
    "eskisehirdurum.com": 2,
    "ortadogugazetesi.com": 1,
-   "cagdaskocaeli.com.tr": 1
+   "cagdaskocaeli.com.tr": 1,
+   "marmarisyenisayfa.com": 1,
+   "karaman.org": 1
   },
   "Hakkâri": {
    "mersinhaber.com": 1
   },
   "Kırklareli": {
-   "onadimgazetesi.com": 9
+   "onadimgazetesi.com": 9,
+   "memurhaber365.com": 1
   },
   "Mardin": {
    "haberler.com": 1,
@@ -1058,10 +1323,12 @@
   "Muş": {
    "mersinhaber.com": 2,
    "samsungazetesi.com": 1,
-   "pembepusula.org": 1
+   "pembepusula.org": 1,
+   "haber7.com": 1
   },
   "Siirt": {
-   "herkesduysun.com": 1
+   "herkesduysun.com": 1,
+   "marmarisyenisayfa.com": 1
   },
   "Şırnak": {
    "alucrahaber.com": 1
@@ -1071,19 +1338,21 @@
    "medyabar.com": 1,
    "mersinhaber.com": 1,
    "gunebakisgazetesi.com": 1,
-   "bianlikhaber.com": 1
+   "bianlikhaber.com": 1,
+   "marmarisyenisayfa.com": 1
   },
   "Yozgat": {
    "tibbiyebulteni.com": 1,
    "sabah.com.tr": 1,
    "yozgatcamlik.com": 5,
-   "ilerigazetesi.com.tr": 2,
+   "ilerigazetesi.com.tr": 3,
    "yozgatmedya.com.tr": 14,
    "yozgathakimiyet.com.tr": 3,
    "merhabayozgat.com": 5,
    "kayserigurhaber.com": 1,
    "yeniufukgazetesi.com.tr": 1,
-   "yerkoyhabergazetesi.com": 1
+   "yerkoyhabergazetesi.com": 1,
+   "karar.com": 1
   },
   "Diyarbakır": {
    "milliyet.com.tr": 1,
@@ -1095,7 +1364,11 @@
    "haber7.com": 1,
    "ankahaber.net": 1,
    "hukukihaber.net": 1,
-   "amedtv.com": 1
+   "amedtv.com": 1,
+   "guneydoguekspres.com": 1,
+   "mardinlife.com": 1,
+   "havadis.com": 1,
+   "guneydoguguncel.com": 1
   },
   "Adana": {
    "kibrispostasi.com": 1,
@@ -1364,6 +1637,204 @@
    "mersinhaber.com": 1,
    "gumushane.gen.tr": 1,
    "herkesduysun.com": 1
+  },
+  "Hatay": {
+   "akdenizgercek.com.tr": 1,
+   "sondakikahatay.com": 3,
+   "gundemkibris.com": 1,
+   "asigazetesi.com": 4,
+   "yerel-haberler.haberturk.com": 1,
+   "antakyagazetesi.com": 1,
+   "mersinhaber.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Isparta": {
+   "ispartamanset.com": 2,
+   "egirdirakingazetesi.com.tr": 5,
+   "haber32.com.tr": 2,
+   "nnchaber.com": 3,
+   "gazete32.com.tr": 4,
+   "son32.com": 2,
+   "burdurgazetesi.com": 1,
+   "uyan32.com": 1,
+   "kanal46.com": 1
+  },
+  "İstanbul": {
+   "ilketv.com.tr": 1,
+   "ulketv.com": 1,
+   "istanbulgazetesi.com.tr": 3,
+   "ahaber.com.tr": 1,
+   "yerel-haberler.haberturk.com": 1,
+   "son.tv": 1,
+   "karabukpostasi.com": 1,
+   "babaocagi.com.tr": 1,
+   "yenialanya.com": 1,
+   "sivas360.com": 1,
+   "habername.com": 1,
+   "gazetekalem.com.tr": 1,
+   "aksiyon.com.tr": 1,
+   "canligaste.com": 1,
+   "mersinhaber.com": 2,
+   "haber.mynet.com": 1,
+   "duzcepostasi.com": 1,
+   "ajanshaber.com.tr": 1,
+   "aydinlik.com.tr": 1,
+   "gerzeninsesi.com": 1,
+   "cagdaskocaeli.com.tr": 1,
+   "herkesduysun.com": 1,
+   "turktime.com": 1,
+   "haberet.com": 1,
+   "havadis.com": 1,
+   "kayserigurhaber.com": 1
+  },
+  "İzmir": {
+   "hendeksonhaber.com": 1,
+   "halk54.com": 1,
+   "medyabar.com": 1,
+   "haberlisin.com": 1,
+   "egedesonsoz.com": 2,
+   "izmirtime35.com": 1,
+   "gazetemizmir.com": 1,
+   "sakaryayerelhaber.com": 1,
+   "haber7.com": 2,
+   "bizimsakarya.com.tr": 1,
+   "netgaste.com": 1,
+   "sakaryapostasi.com": 1,
+   "geyvemedya.com": 1,
+   "dirilispostasi.com": 1,
+   "izmirdesondakika.com.tr": 1,
+   "yeniizmir.com": 1,
+   "t54.com.tr": 1,
+   "memurhaber365.com": 1,
+   "noktagazetesi.com.tr": 1
+  },
+  "Kahramanmaraş": {
+   "cumhuriyet.com.tr": 1,
+   "ankahaber.net": 1,
+   "yerel-haberler.haberturk.com": 1,
+   "yenialanya.com": 1,
+   "marasmanset.com": 1,
+   "aksutvhaber.net": 1,
+   "egealternatif.com": 1,
+   "24saatgazetesi.com": 1,
+   "saraymedya.com": 1,
+   "basakgazetesi.com": 1,
+   "haber46.com.tr": 1,
+   "canligaste.com": 1,
+   "marasgundem.com.tr": 1,
+   "marastanhaber.com.tr": 1,
+   "marasbugun.com.tr": 3,
+   "mersinhaber.com": 1,
+   "medyayenigun.net": 1,
+   "turkgun.com": 1,
+   "tersaci.com": 1,
+   "marasanahaber.com.tr": 1,
+   "kanal46.com": 1,
+   "memurhaber365.com": 1,
+   "iscihaber.net": 1
+  },
+  "Karabük": {
+   "karabukpostasi.com": 4,
+   "ajanskarabuk.com": 1,
+   "yerel-haberler.haberturk.com": 1,
+   "haber7.com": 1,
+   "bolgeninsesigazetesi.com": 5,
+   "marmarisyenisayfa.com": 1,
+   "mersinhaber.com": 1,
+   "medyakarabuk.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Karaman": {
+   "karamangundem.com": 3,
+   "saraymedya.com": 3,
+   "gazeteanadolu.com": 1,
+   "kgrthaber.com": 8,
+   "karamandauyanis.com": 5,
+   "karaman.org": 7,
+   "karamanhaber.com": 3,
+   "karamanhaberleri.com": 2,
+   "imzagazetesi.com": 1
+  },
+  "Kars": {
+   "aksiyon.com.tr": 1
+  },
+  "Kastamonu": {
+   "bolgeninsesigazetesi.com": 1,
+   "kastamonugundemgazetesi.com": 1,
+   "haber7.com": 1,
+   "karabukpostasi.com": 1,
+   "safranbolubirlik.com": 1,
+   "tibbiyebulteni.com": 1,
+   "saglikpersonelihaber.net": 1,
+   "kastamonuguncel.com": 4,
+   "bafra55.net": 1,
+   "milligazete.com.tr": 1,
+   "mersinhaber.com": 2,
+   "geredemedyatakip.com.tr": 1,
+   "nnchaber.com": 1,
+   "haberkenti.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Kayseri": {
+   "kayserihaber.com": 7,
+   "kayseriolay.com": 10,
+   "kayserihaber.com.tr": 3,
+   "gazeteanadolu.com": 1,
+   "haber7.com": 1,
+   "marmarisyenisayfa.com": 1,
+   "kayserianadoluhaber.com.tr": 4,
+   "mavimarmaragazetesi.com": 1,
+   "ozgunkocaeli.com.tr": 1,
+   "urfanatik.com": 1,
+   "mersinhaber.com": 1,
+   "canligaste.com": 3,
+   "kayserim.net": 1,
+   "kayserigurhaber.com": 1
+  },
+  "Kilis": {
+   "aksiyon.com.tr": 1,
+   "habererk.com": 1,
+   "muhalif.com.tr": 1,
+   "turkgun.com": 1,
+   "havadis.com": 1
+  },
+  "Kırıkkale": {
+   "kalehaber.net": 3,
+   "ilgazetesi.com.tr": 9,
+   "yenigungazetesi.com.tr": 2,
+   "haber7.com": 1,
+   "haberankara.com": 1,
+   "mansetgazetesi.net": 3,
+   "gazetekale.com": 1,
+   "mersinhaber.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Kırşehir": {
+   "kirsehircigdem.com": 2,
+   "kirsehirhaber40.com": 1,
+   "kirsehirmemleket.com.tr": 3
+  },
+  "Kocaeli": {
+   "bugunkocaeli.com.tr": 7,
+   "gazeteanadolu.com": 1,
+   "ozgurkocaeli.com.tr": 8,
+   "seskocaeli.com": 8,
+   "kocaelihalkgazetesi.com": 1,
+   "kocaeligundem.com": 2,
+   "ozgunkocaeli.com.tr": 7,
+   "kocaelitv.com.tr": 2,
+   "cagdaskocaeli.com.tr": 5,
+   "enkocaeli.com": 1,
+   "kocaelidenge.com": 2,
+   "kocaelisehirgazetesi.com": 1,
+   "sonkocaeli.com": 2,
+   "attyiz.biz.tr": 1,
+   "ilkekocaeli.com": 1,
+   "bagimsizkocaeli.com.tr": 1,
+   "mavikocaeli.com.tr": 4,
+   "kocaelizirve.com": 9,
+   "kartepesehir.com": 1,
+   "kanal46.com": 1
   }
  }
 }
