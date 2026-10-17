@@ -1172,7 +1172,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1639f61cf995",
+   "il": "Konya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Durmuş Duran",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Konya Hakimiyet",
+   "kaynak_url": "https://www.hakimiyet.com/kestane-toplamak-icin-ormana-girdi-aci-haber-geldi/127837/",
+   "alindi": "2026-10-17T15:56:37+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T13:44:16+03:00"
+ "guncelleme": "2026-10-17T15:56:37+03:00"
 }

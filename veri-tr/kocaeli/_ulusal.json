@@ -1442,7 +1442,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/28995085/sadrettin-degirmenci",
-   "alindi": "2026-10-16T19:56:46+03:00",
+   "alindi": "2026-10-17T15:56:37+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -1459,21 +1459,21 @@
    "mahalle": "Veliahmet Mahallesi",
    "ad_soyad": "Kadir Bayram",
    "anne_baba": null,
-   "yas": 74,
+   "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "Kent Mezarlığı",
-   "defin_zamani": null,
-   "namaz_tarihi": "2026-10-16",
+   "defin_yeri": "İzmit Kent Mezarlığı",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
    "namaz_yeri_vakti": "Fevziye Camii, cuma namazı",
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
-   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28993350/izmitli-isim-hayatini-kaybetti",
-   "alindi": "2026-10-17T09:53:52+03:00",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/vefat/28996938/kadir-bayram",
+   "alindi": "2026-10-17T15:56:37+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
-    "tarih_kaynagi": "metin"
+    "tarih_kaynagi": "yayin_tarihi"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -1604,7 +1604,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28993929/soner-olgun-hayatini-kaybetti",
-   "alindi": "2026-10-17T09:53:52+03:00",
+   "alindi": "2026-10-17T15:56:37+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -2369,7 +2369,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "371b350e304a",
+   "il": "Kocaeli",
+   "ilce": "Körfez",
+   "mahalle": "Barbaros Mahallesi",
+   "ad_soyad": "Musa Şahin Çağlayan",
+   "anne_baba": null,
+   "yas": 54,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": "Barbaros Mahallesi Hayırseverler Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29000557/eski-bakan-zafer-caglayanin-yegeni-kocaelide-hayatini-kaybetti",
+   "alindi": "2026-10-17T15:56:37+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T13:44:16+03:00"
+ "guncelleme": "2026-10-17T15:56:37+03:00"
 }
