@@ -100,6 +100,70 @@
     "il": "İstanbul",
     "ilce": "Üsküdar"
    }
+  },
+  {
+   "id": "6a11025e6cd6",
+   "il": "Kocaeli",
+   "ilce": "Karamürsel",
+   "mahalle": null,
+   "ad_soyad": "Ali Güllap",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "KARAMÜRSEL YENİ MEZ.",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "İkindi – KARAMÜRSEL MERKEZ CAMİİ",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-17T11:31:08+03:00",
+   "ham": {
+    "ad": "ALİ",
+    "soyad": "GÜLLAP",
+    "mezarlik": "KARAMÜRSEL YENİ MEZ.",
+    "cami": "KARAMÜRSEL MERKEZ CAMİİ",
+    "vakit": "İKİNDİ",
+    "olum_tarihi": "17.10.2026",
+    "defin_tarihi": "17.10.2026",
+    "ilce_kaynagi": "ilce_adi_metinde"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "ilce_adi_metinde"
+  },
+  {
+   "id": "134d3007102f",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Zihni Eker",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "ÜÇTEPELER MEZARLIĞI",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Üçtepeler Cami",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-17T11:31:08+03:00",
+   "ham": {
+    "ad": "ZİHNİ",
+    "soyad": "EKER",
+    "mezarlik": "ÜÇTEPELER MEZARLIĞI",
+    "cami": "Üçtepeler Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "16.10.2026",
+    "defin_tarihi": "17.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "İzmit"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
   }
  ]
 }

@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-17T08:41:45+03:00",
+   "alindi": "2026-10-17T11:31:22+03:00",
    "ham": {
     "nakil_yeri": "Ankara",
     "nakil_tarihi": "2026-10-16"
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-17T08:41:45+03:00",
+   "alindi": "2026-10-17T11:31:22+03:00",
    "ham": {
     "nakil_yeri": "Ankara",
     "nakil_tarihi": "2026-10-16"
@@ -69,7 +69,32 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-17T08:41:45+03:00",
+   "alindi": "2026-10-17T11:31:22+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "a50711575084",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Fatma Kaya",
+   "anne_baba": null,
+   "yas": 79,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Kemer mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-17T11:31:22+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
