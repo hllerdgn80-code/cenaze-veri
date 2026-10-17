@@ -1253,6 +1253,269 @@
    "durum": "VEFAT SAYFASI YOK",
    "istek": 10,
    "menu_yollar": []
+  },
+  "kayserihaber.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/baki-ersoydan-vali-gokmen-ciceke-taziye-ziyareti",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": [
+    "/baki-ersoydan-vali-gokmen-ciceke-taziye-ziyareti"
+   ]
+  },
+  "sondakikahatay.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "karamanhaber.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/sabire-yaylali-vefat-etti",
+    "/vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/sabire-yaylali-vefat-etti",
+    "/vefat-edenler"
+   ]
+  },
+  "mansetgazetesi.net": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kirikkale-vefat-edenler",
+    "/kirikkalede-16-ekim-2026-vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/kirikkale-vefat-edenler",
+    "/kirikkalede-16-ekim-2026-vefat-edenler"
+   ]
+  },
+  "istanbulgazetesi.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/cenaze"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kalehaber.net": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "marasbugun.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/ali-oztuncun-annesi-hatice-oztuncun-taziye-yeri-belli-oldu",
+    "/kahramanmarasta-mesut-dedeoglunun-annesi-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/ali-oztuncun-annesi-hatice-oztuncun-taziye-yeri-belli-oldu",
+    "/kahramanmarasta-mesut-dedeoglunun-annesi-vefat-etti"
+   ]
+  },
+  "turkgun.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "kayserim.net": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kayseri-vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/kayseri-vefat-edenler"
+   ]
+  },
+  "karamanhaberleri.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/karaman-da-bugun-vefat-edenler-15-ekim-2026/9029/",
+    "/karaman-da-bugun-vefat-edenler-16-ekim-2026/9039/"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/karaman-da-bugun-vefat-edenler-15-ekim-2026/9029/",
+    "/karaman-da-bugun-vefat-edenler-16-ekim-2026/9039/",
+    "/muhsin-yazicioglu-vefatinin-yil-donumunde-aniliyor/8217/",
+    "/omur-seda-andac-vefat-etti/8944/"
+   ]
+  },
+  "kartepesehir.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "medyayenigun.net": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "egedesonsoz.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "yenigungazetesi.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ispartamanset.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat-edenler"
+   ]
+  },
+  "uyan32.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/afyonkarahisar-da-15-ekim-cenaze-ilanlari-defin-bilgileri-belli-oldu",
+    "/ak-parti-sozcusu-omer-celik-ten-yasar-unlu-icin-taziye-mesaji"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/afyonkarahisar-da-15-ekim-cenaze-ilanlari-defin-bilgileri-belli-oldu",
+    "/ak-parti-sozcusu-omer-celik-ten-yasar-unlu-icin-taziye-mesaji",
+    "/ispartada-bugun-vefat-edenler-17-ekim-2026"
+   ]
+  },
+  "t54.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "son32.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "bagimsizkocaeli.com.tr": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "guneydoguekspres.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "habername.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kocaelidenge.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "tv42haber.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL 403",
+   "istek": 5,
+   "menu_yollar": []
+  },
+  "haberankara.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "egealternatif.com": {
+   "tarih": "2026-10-17",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
   }
  },
  "il_alan": {
