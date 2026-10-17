@@ -19525,7 +19525,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-17T08:43:32+03:00",
+   "alindi": "2026-10-17T12:44:13+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-17",
     "hizmet": "pendik-belediyesi-vefat-sorgulama"
@@ -19550,7 +19550,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-17T08:43:32+03:00",
+   "alindi": "2026-10-17T12:44:13+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-17",
     "hizmet": "pendik-belediyesi-vefat-sorgulama"
@@ -19575,7 +19575,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-17T08:43:32+03:00",
+   "alindi": "2026-10-17T12:44:13+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-17",
     "hizmet": "pendik-belediyesi-vefat-sorgulama"
@@ -23459,6 +23459,106 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "4682f491b322",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Esma Kayar",
+   "anne_baba": null,
+   "yas": 21,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T12:44:13+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "33bbfbfa06ec",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Cuma Korkmaz",
+   "anne_baba": null,
+   "yas": 63,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T12:44:13+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "8f97d2e04323",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Meşe",
+   "anne_baba": null,
+   "yas": 67,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T12:44:13+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "fa1f85cd356c",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Mürteza Aydın",
+   "anne_baba": null,
+   "yas": 90,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T12:44:13+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-17T12:44:13+03:00"
