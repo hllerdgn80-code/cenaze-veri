@@ -8301,7 +8301,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-15T07:00:58+03:00",
+   "alindi": "2026-10-17T18:43:44+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-15",
     "hizmet": "pendik-belediyesi-vefat-sorgulama"
@@ -25137,6 +25137,56 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "bb0ff3455b0d",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Kamuran Kopuz",
+   "anne_baba": null,
+   "yas": 43,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T18:43:44+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-15",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "1ebe03637d4c",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Fatma Tüysüz",
+   "anne_baba": null,
+   "yas": 62,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T18:43:44+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-15",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-17T18:43:44+03:00"
