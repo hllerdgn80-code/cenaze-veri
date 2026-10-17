@@ -1,88 +1,88 @@
 {
- "guncelleme": "2026-10-17T11:33:08+03:00",
+ "guncelleme": "2026-10-17T13:44:16+03:00",
  "iller": {
   "kocaeli": {
-   "son_calisma": "2026-10-17T11:31:03+03:00",
+   "son_calisma": "2026-10-17T13:42:23+03:00",
    "hata": null,
    "il_adi": "Kocaeli",
-   "son_guncelleme": "2026-10-17T11:31:08+03:00",
-   "kayit_sayisi": 173,
+   "son_guncelleme": "2026-10-17T13:42:27+03:00",
+   "kayit_sayisi": 176,
    "il_disi": 36,
    "ilce_belirsiz": 8,
    "gun_hatasi": 0,
-   "sure_sn": 5
+   "sure_sn": 4
   },
   "van": {
-   "son_calisma": "2026-10-17T11:31:08+03:00",
+   "son_calisma": "2026-10-17T13:42:27+03:00",
    "hata": null,
    "il_adi": "Van",
-   "son_guncelleme": "2026-10-17T11:31:22+03:00",
+   "son_guncelleme": "2026-10-17T13:42:32+03:00",
    "kayit_sayisi": 52,
    "il_disi": 1,
    "ilce_belirsiz": 9,
    "gun_hatasi": 0,
-   "sure_sn": 13
+   "sure_sn": 4
   },
   "mugla": {
-   "son_calisma": "2026-10-17T11:31:22+03:00",
+   "son_calisma": "2026-10-17T13:42:32+03:00",
    "hata": null,
    "il_adi": "Muğla",
-   "son_guncelleme": "2026-10-17T11:32:09+03:00",
-   "kayit_sayisi": 70,
-   "il_disi": 0,
-   "ilce_belirsiz": 0,
-   "gun_hatasi": 0,
-   "sure_sn": 47
-  },
-  "aksaray": {
-   "son_calisma": "2026-10-17T11:32:09+03:00",
-   "hata": null,
-   "il_adi": "Aksaray",
-   "son_guncelleme": "2026-10-17T11:32:19+03:00",
-   "kayit_sayisi": 9,
-   "il_disi": 0,
-   "ilce_belirsiz": 0,
-   "gun_hatasi": 0,
-   "sure_sn": 10
-  },
-  "malatya": {
-   "son_calisma": "2026-10-17T11:32:19+03:00",
-   "hata": null,
-   "il_adi": "Malatya",
-   "son_guncelleme": "2026-10-17T11:32:57+03:00",
-   "kayit_sayisi": 0,
+   "son_guncelleme": "2026-10-17T13:43:10+03:00",
+   "kayit_sayisi": 71,
    "il_disi": 0,
    "ilce_belirsiz": 0,
    "gun_hatasi": 0,
    "sure_sn": 38
   },
+  "aksaray": {
+   "son_calisma": "2026-10-17T13:43:10+03:00",
+   "hata": null,
+   "il_adi": "Aksaray",
+   "son_guncelleme": "2026-10-17T13:43:18+03:00",
+   "kayit_sayisi": 9,
+   "il_disi": 0,
+   "ilce_belirsiz": 0,
+   "gun_hatasi": 0,
+   "sure_sn": 8
+  },
+  "malatya": {
+   "son_calisma": "2026-10-17T13:43:18+03:00",
+   "hata": null,
+   "il_adi": "Malatya",
+   "son_guncelleme": "2026-10-17T13:43:46+03:00",
+   "kayit_sayisi": 0,
+   "il_disi": 0,
+   "ilce_belirsiz": 0,
+   "gun_hatasi": 0,
+   "sure_sn": 29
+  },
   "kastamonu": {
-   "son_calisma": "2026-10-17T11:32:57+03:00",
+   "son_calisma": "2026-10-17T13:43:46+03:00",
    "hata": null,
    "il_adi": "Kastamonu",
-   "son_guncelleme": "2026-10-17T11:32:59+03:00",
+   "son_guncelleme": "2026-10-17T13:43:47+03:00",
    "kayit_sayisi": 28,
    "il_disi": 0,
    "ilce_belirsiz": 5,
    "gun_hatasi": 0,
-   "sure_sn": 1
+   "sure_sn": 0
   },
   "agri": {
-   "son_calisma": "2026-10-17T11:32:59+03:00",
+   "son_calisma": "2026-10-17T13:43:47+03:00",
    "hata": null,
    "il_adi": "Ağrı",
-   "son_guncelleme": "2026-10-17T11:33:00+03:00",
+   "son_guncelleme": "2026-10-17T13:43:47+03:00",
    "kayit_sayisi": 7,
    "il_disi": 0,
    "ilce_belirsiz": 2,
    "gun_hatasi": 0,
-   "sure_sn": 1
+   "sure_sn": 0
   },
   "mardin": {
-   "son_calisma": "2026-10-17T11:33:00+03:00",
+   "son_calisma": "2026-10-17T13:43:47+03:00",
    "hata": null,
    "il_adi": "Mardin",
-   "son_guncelleme": "2026-10-17T11:33:01+03:00",
+   "son_guncelleme": "2026-10-17T13:43:49+03:00",
    "kayit_sayisi": 8,
    "il_disi": 1,
    "ilce_belirsiz": 2,
@@ -90,10 +90,10 @@
    "sure_sn": 1
   },
   "tunceli": {
-   "son_calisma": "2026-10-17T11:33:01+03:00",
+   "son_calisma": "2026-10-17T13:43:49+03:00",
    "hata": null,
    "il_adi": "Tunceli",
-   "son_guncelleme": "2026-10-17T11:33:01+03:00",
+   "son_guncelleme": "2026-10-17T13:43:49+03:00",
    "kayit_sayisi": 0,
    "il_disi": 0,
    "ilce_belirsiz": 0,
@@ -101,15 +101,15 @@
    "sure_sn": 0
   },
   "mersin": {
-   "son_calisma": "2026-10-17T11:33:01+03:00",
+   "son_calisma": "2026-10-17T13:43:49+03:00",
    "hata": null,
    "il_adi": "Mersin",
-   "son_guncelleme": "2026-10-17T11:33:08+03:00",
+   "son_guncelleme": "2026-10-17T13:44:16+03:00",
    "kayit_sayisi": 5,
    "il_disi": 0,
    "ilce_belirsiz": 0,
    "gun_hatasi": 0,
-   "sure_sn": 8
+   "sure_sn": 27
   }
  }
 }

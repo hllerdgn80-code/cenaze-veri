@@ -202,16 +202,16 @@
    "vefat_tarihi": null,
    "defin_yeri": null,
    "defin_zamani": null,
-   "namaz_tarihi": "2026-10-16",
-   "namaz_yeri_vakti": "Hulusi Akar Camii, ikindi namazı",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kayseri Anadolu Haber",
    "kaynak_url": "https://www.kayserianadoluhaber.com.tr/melikgazi-eski-baskan-yardimcisindan-aci-haber-mehmet-yerebasar-vefat-etti/200161/",
-   "alindi": "2026-10-17T11:33:25+03:00",
+   "alindi": "2026-10-17T13:44:16+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
-    "tarih_kaynagi": "metin"
+    "tarih_kaynagi": "yayin_tarihi"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -341,7 +341,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/kayseri-de-17-ekim-cumartesi-gunu-vefat-edenler/31870/",
-   "alindi": "2026-10-17T11:33:25+03:00",
+   "alindi": "2026-10-17T13:44:16+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-17",
     "tarih_kaynagi": "metin"
@@ -349,7 +349,60 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "4fa79e995c1b",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Zafer Yazgan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Hulusi Akar Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kayseri Anadolu Haber",
+   "kaynak_url": "https://www.kayserianadoluhaber.com.tr/mhp-kayseri-nin-aci-gunu-zafer-yazgan-hayatini-kaybetti/200237/",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "8a16f44d9b63",
+   "il": "Kayseri",
+   "ilce": "Develi",
+   "mahalle": null,
+   "ad_soyad": "Gülbenk Yalçın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kayseri Anadolu Haber",
+   "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayserili-is-insani-istanbul-da-vefat-etti-cenaze-programi-belli-oldu/200254/",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T11:33:25+03:00"
+ "guncelleme": "2026-10-17T13:44:16+03:00"
 }

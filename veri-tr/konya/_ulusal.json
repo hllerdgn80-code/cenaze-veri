@@ -1145,7 +1145,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "b4bcd9bf1d22",
+   "il": "Konya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Zülfiye Arıca",
+   "anne_baba": null,
+   "yas": 70,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Konya Hakimiyet",
+   "kaynak_url": "https://www.hakimiyet.com/tur-otobusu-kazasinda-olu-sayisi-12-ye-yukseldi-zulfiye-arica-hayatini-kaybetti/127835/",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T11:33:25+03:00"
+ "guncelleme": "2026-10-17T13:44:16+03:00"
 }

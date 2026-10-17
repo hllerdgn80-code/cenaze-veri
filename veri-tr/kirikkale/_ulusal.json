@@ -362,7 +362,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/arap-turkyilmaz-vefat-etti",
-   "alindi": "2026-10-17T11:33:25+03:00",
+   "alindi": "2026-10-17T13:44:16+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-17",
     "sayfa_tarihi": "2026-10-17",
@@ -533,7 +533,111 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "3365116a7dcb",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yaşar Yıldırım",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-17-ekim-1",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "c77c0bd602b2",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Trabzonlu Yaşar Yıldırım",
+   "anne_baba": null,
+   "yas": 64,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Nokta Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-17-ekim-1",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "4a4a9fb3ce80",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ahmet Atmaca",
+   "anne_baba": null,
+   "yas": 83,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-17-ekim-1",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "4d7073f27a25",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ahmet Koçoğlu",
+   "anne_baba": null,
+   "yas": 86,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Etiler Veysel Karani Camii, öğle namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-17-ekim-1",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T11:33:25+03:00"
+ "guncelleme": "2026-10-17T13:44:16+03:00"
 }

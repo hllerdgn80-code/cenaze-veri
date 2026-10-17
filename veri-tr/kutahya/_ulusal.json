@@ -1,0 +1,33 @@
+{
+ "il": "Kütahya",
+ "kayitlar": [
+  {
+   "id": "c25979b0864b",
+   "il": "Kütahya",
+   "ilce": null,
+   "mahalle": "Çarşı Mahallesi",
+   "ad_soyad": "Adayı Hamza",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kütahya'nın Sesi",
+   "kaynak_url": "https://www.kutahyaninsesi.com/haber/28999613/yurek-burkan-olum-hafiz-adayi-hamza-hayatini-kaybetti",
+   "alindi": "2026-10-17T13:44:16+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  }
+ ],
+ "guncelleme": "2026-10-17T13:44:16+03:00"
+}

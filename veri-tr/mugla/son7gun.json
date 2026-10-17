@@ -19,7 +19,7 @@
     "liste_tarihi": "2026-10-17",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": "Ankara",
      "nakil_tarihi": "2026-10-16"
@@ -45,7 +45,7 @@
     "liste_tarihi": "2026-10-17",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": "Ankara",
      "nakil_tarihi": "2026-10-16"
@@ -71,7 +71,7 @@
     "liste_tarihi": "2026-10-17",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -97,7 +97,7 @@
     "liste_tarihi": "2026-10-17",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -105,6 +105,32 @@
     "il_disi_defin": null,
     "ilce_belirsiz": false,
     "ilk_gorulme": "2026-10-17T11:32:08+03:00"
+   },
+   {
+    "id": "7f0ce5a47c79",
+    "il": "Muğla",
+    "ilce": "Bodrum",
+    "mahalle": null,
+    "ad_soyad": "Azime Gedik",
+    "anne_baba": null,
+    "yas": 78,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-17",
+    "defin_yeri": null,
+    "defin_zamani": "2026-10-17",
+    "namaz_tarihi": "2026-10-17",
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-17",
+    "kaynak_ad": "Bodrum Belediyesi",
+    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+    "alindi": "2026-10-17T13:42:32+03:00",
+    "ham": {
+     "nakil_yeri": "Seydikemer",
+     "nakil_tarihi": "2026-10-17"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "ilk_gorulme": "2026-10-17T13:43:10+03:00"
    },
    {
     "id": "59958b27d6ce",
@@ -123,7 +149,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -149,7 +175,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -175,7 +201,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -227,7 +253,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -253,7 +279,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -279,7 +305,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -305,7 +331,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": "İstanbul",
      "nakil_tarihi": "2026-10-14"
@@ -331,7 +357,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": "İstanbul",
      "nakil_tarihi": "2026-10-13"
@@ -357,7 +383,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -383,7 +409,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -409,7 +435,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -435,7 +461,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -461,7 +487,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -487,7 +513,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -513,7 +539,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -539,7 +565,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -565,7 +591,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Bodrum Belediyesi",
     "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "nakil_yeri": null,
      "nakil_tarihi": null
@@ -593,7 +619,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1945"
     },
@@ -618,7 +644,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1955"
     },
@@ -643,7 +669,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1964"
     },
@@ -668,7 +694,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1942"
     },
@@ -693,7 +719,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1952"
     },
@@ -718,7 +744,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1939"
     },
@@ -743,7 +769,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1984"
     },
@@ -768,7 +794,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Dalaman Belediyesi",
     "kaynak_url": "https://dalaman.bel.tr/vefat-edenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "dogum_yili": "1964"
     },
@@ -795,7 +821,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -820,7 +846,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -845,7 +871,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -870,7 +896,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -895,7 +921,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -920,7 +946,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -945,7 +971,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -970,7 +996,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -995,7 +1021,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1020,7 +1046,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1045,7 +1071,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1070,7 +1096,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1095,7 +1121,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1120,7 +1146,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1145,7 +1171,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1170,7 +1196,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Nakil"
     },
@@ -1195,7 +1221,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Fethiye Belediyesi",
     "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {
      "tur": "Defin"
     },
@@ -1222,7 +1248,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1245,7 +1271,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1268,7 +1294,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1291,7 +1317,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1314,7 +1340,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1337,7 +1363,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1360,7 +1386,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1383,7 +1409,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1406,7 +1432,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1429,7 +1455,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1452,7 +1478,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1475,7 +1501,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1498,7 +1524,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1521,7 +1547,7 @@
     "liste_tarihi": "2026-10-11",
     "kaynak_ad": "Milas Belediyesi",
     "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1546,7 +1572,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1569,7 +1595,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1592,7 +1618,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1615,7 +1641,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1638,7 +1664,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1661,7 +1687,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1707,7 +1733,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1730,7 +1756,7 @@
     "liste_tarihi": "2026-10-12",
     "kaynak_ad": "Seydikemer Belediyesi",
     "kaynak_url": "https://www.seydikemer.bel.tr/AnaSayfa/VefatEdenler",
-    "alindi": "2026-10-17T11:31:22+03:00",
+    "alindi": "2026-10-17T13:42:32+03:00",
     "ham": {},
     "il_disi_defin": null,
     "ilce_belirsiz": false,
@@ -1740,10 +1766,10 @@
  },
  "il_disi": [],
  "ilce_belirsiz": [],
- "toplam": 70,
- "guncelleme": "2026-10-17T11:32:09+03:00",
+ "toplam": 71,
+ "guncelleme": "2026-10-17T13:43:10+03:00",
  "ilce_durum": {
-  "Bodrum": 21,
+  "Bodrum": 22,
   "Milas": 14,
   "Fethiye": 17,
   "Seydikemer": 8,
