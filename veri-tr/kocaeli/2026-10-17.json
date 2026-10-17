@@ -33,6 +33,73 @@
    },
    "ilce_belirsiz": false,
    "il_disi_defin": null
+  },
+  {
+   "id": "92267ea15721",
+   "il": "Kocaeli",
+   "ilce": "Kandıra",
+   "mahalle": null,
+   "ad_soyad": "Zeki Kuzu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "OCAKLAR KÖY MEZ.",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Ocaklar Cami",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-17T08:41:39+03:00",
+   "ham": {
+    "ad": "ZEKİ",
+    "soyad": "KUZU",
+    "mezarlik": "OCAKLAR KÖY MEZ.",
+    "cami": "Ocaklar Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "16.10.2026",
+    "defin_tarihi": "17.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "Kandıra"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "43bb45b479f8",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Taner Akşit",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Nakil: İstanbul / Üsküdar",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-17T08:41:39+03:00",
+   "ham": {
+    "ad": "TANER",
+    "soyad": "AKŞİT",
+    "mezarlik": "",
+    "cami": "ÜSKÜDAR",
+    "vakit": "NAKIL",
+    "olum_tarihi": "16.10.2026",
+    "defin_tarihi": "17.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "İstanbul / Üsküdar"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "İstanbul",
+    "ilce": "Üsküdar"
+   }
   }
  ]
 }

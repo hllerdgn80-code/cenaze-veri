@@ -1741,7 +1741,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28993350/izmitli-isim-hayatini-kaybetti",
-   "alindi": "2026-10-17T04:45:28+03:00",
+   "alindi": "2026-10-17T09:53:52+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -1876,7 +1876,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/28993929/soner-olgun-hayatini-kaybetti",
-   "alindi": "2026-10-17T02:45:04+03:00",
+   "alindi": "2026-10-17T09:53:52+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -2263,7 +2263,89 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "20f8d120bb81",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yanındaki Yolcu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-12",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-12",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28972715/sakaryada-feci-kaza-akpli-eski-meclis-uyesi-hayatini-kaybetti",
+   "alindi": "2026-10-17T09:53:52+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-12",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "58c33913025f",
+   "il": "Kocaeli",
+   "ilce": "Dilovası",
+   "mahalle": null,
+   "ad_soyad": "Hüseyin Turhan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-12",
+   "namaz_yeri_vakti": "Dilovası Orhangazi Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-12",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28971767/mhp-dilovasi-ilce-baskaninin-aci-gunu-huseyin-turhan-hayatini-kaybetti",
+   "alindi": "2026-10-17T09:53:52+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-12",
+    "sayfa_tarihi": "2026-10-12",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "a31f1a1a3ef6",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ertaç Kayloncu",
+   "anne_baba": null,
+   "yas": 90,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-12",
+   "defin_yeri": "Petek Köyü’ndeki aile mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Artvin Murgul Merkez Camii, öğle namazı",
+   "liste_tarihi": "2026-10-12",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/28970589/eski-sendikaci-osman-suat-kalyoncunun-aci-gunu",
+   "alindi": "2026-10-17T09:53:52+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-12",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": {
+    "il": "Artvin",
+    "ilce": null
+   },
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T07:54:23+03:00"
+ "guncelleme": "2026-10-17T09:53:52+03:00"
 }
