@@ -19468,6 +19468,81 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false
+  },
+  {
+   "id": "5de209b03158",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Kaya Yıldırım",
+   "anne_baba": null,
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T06:43:56+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "5a7b787ac7c9",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Seher Köroğlu",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T06:43:56+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "7d4a5de69bc5",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Tahsin Çeğindir",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T06:43:56+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-17T06:43:56+03:00"
