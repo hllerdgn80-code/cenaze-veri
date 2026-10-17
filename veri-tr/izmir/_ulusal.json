@@ -5635,7 +5635,107 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "ed7874b160be",
+   "il": "İzmir",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hüseyin Çil",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "İzmir Büyükşehir Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/izmir-buyuksehir-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T10:05:41+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "izmir-buyuksehir-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true
+  },
+  {
+   "id": "548a02e549bd",
+   "il": "İzmir",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Tolga Teksin",
+   "anne_baba": null,
+   "yas": 50,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "İzmir Büyükşehir Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/izmir-buyuksehir-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T10:05:41+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "izmir-buyuksehir-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true
+  },
+  {
+   "id": "5e9ca049afb2",
+   "il": "İzmir",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mehmet Karakaş",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "İzmir Büyükşehir Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/izmir-buyuksehir-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T10:05:41+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "izmir-buyuksehir-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true
+  },
+  {
+   "id": "88219a84d99a",
+   "il": "İzmir",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Çiçek Çam",
+   "anne_baba": null,
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "İzmir Büyükşehir Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/izmir-buyuksehir-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-17T10:05:41+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "hizmet": "izmir-buyuksehir-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true
   }
  ],
- "guncelleme": "2026-10-17T08:43:32+03:00"
+ "guncelleme": "2026-10-17T10:05:41+03:00"
 }

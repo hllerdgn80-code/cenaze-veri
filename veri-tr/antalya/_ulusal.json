@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -72,7 +72,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -83,26 +83,107 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "95d4aeb81ddc",
+   "id": "acf3a4f8abe5",
    "il": "Antalya",
    "ilce": "Alanya",
    "mahalle": null,
-   "ad_soyad": "Emine Tuncer",
+   "ad_soyad": "Rabia Arslan",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
+   "vefat_tarihi": "2026-10-16",
    "defin_yeri": "Öğle",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-16",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "919adcc8c182",
+   "il": "Antalya",
+   "ilce": "Alanya",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Yılmaz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Öğle",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "c5b0fe05eb16",
+   "il": "Antalya",
+   "ilce": "Alanya",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Avcı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Öğle",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "2006dd0a70a9",
+   "il": "Antalya",
+   "ilce": "Alanya",
+   "mahalle": null,
+   "ad_soyad": "Ayşe Çöl",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Öğle",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
     "durum": null
    },
    "il_disi_defin": null,
@@ -110,5 +191,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

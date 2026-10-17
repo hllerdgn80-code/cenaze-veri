@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -29,53 +29,26 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "e955e4e83d7f",
+   "id": "44a9c2c5e0a7",
    "il": "Şanlıurfa",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Nuriye Karababa",
+   "ad_soyad": "Lütfiye Polatkalası",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
+   "vefat_tarihi": "2026-10-16",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-16",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "d568d727b3f6",
-   "il": "Şanlıurfa",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Zeynep Karayılan",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-16",
     "durum": null
    },
    "il_disi_defin": null,
@@ -83,5 +56,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

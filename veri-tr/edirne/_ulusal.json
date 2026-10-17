@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-15",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-15",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-15",
@@ -72,7 +72,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -99,7 +99,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -110,59 +110,32 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "f606a56f9c6c",
+   "id": "182762f1d9d9",
    "il": "Edirne",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Cengiz Yorulmaz",
+   "ad_soyad": "Ahmet Kokala",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Çakıraga Camı",
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Süleçelebı Camı",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-16",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-16",
     "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "a9e125931fcc",
-   "il": "Edirne",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Ekrem Türen",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Büyünlü Köy Camı",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "durum": "defnedilecek"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

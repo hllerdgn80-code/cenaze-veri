@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "cenazeilanlari.com.tr",
    "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-16T10:51:50+03:00",
+   "alindi": "2026-10-17T11:02:50+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -27,34 +27,7 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "4957ab236328",
-   "il": "Artvin",
-   "ilce": "Hopa",
-   "mahalle": null,
-   "ad_soyad": "Selahattin Yazar",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-16T10:51:50+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:51:50+03:00"
+ "guncelleme": "2026-10-17T11:02:50+03:00"
 }

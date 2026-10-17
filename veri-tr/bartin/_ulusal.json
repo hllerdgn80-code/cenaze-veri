@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -29,26 +29,26 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "aacd6dd38353",
+   "id": "c6510fce1093",
    "il": "Bartın",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Tahir Özkan Yoğurtçu",
+   "ad_soyad": "Hatice Günden",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Orduyeri Camii",
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "Gökçemusacamii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-15",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-15",
     "durum": "defnedilecek"
    },
    "il_disi_defin": null,
@@ -56,5 +56,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

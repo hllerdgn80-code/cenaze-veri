@@ -72,7 +72,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -110,26 +110,26 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "706f25a66d5d",
+   "id": "45464fbc6d0a",
    "il": "Bilecik",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Salahattin Kaya",
+   "ad_soyad": "Celalettin Demir",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Pazaryeri Ahmetler Köy Camii",
+   "vefat_tarihi": "2026-10-15",
+   "defin_yeri": "Şerifpaşa Camii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-15",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-15",
     "durum": "defnedilecek"
    },
    "il_disi_defin": null,
@@ -137,5 +137,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

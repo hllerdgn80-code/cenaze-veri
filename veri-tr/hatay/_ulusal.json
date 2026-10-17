@@ -45,7 +45,61 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-14",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1b4b990bab01",
+   "il": "Hatay",
+   "ilce": "Antakya",
+   "mahalle": null,
+   "ad_soyad": "Seyfittin Haciömeroğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-14",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "5dfcf8b920d9",
+   "il": "Hatay",
+   "ilce": "Antakya",
+   "mahalle": null,
+   "ad_soyad": "Salih Oğur",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-14",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -56,5 +110,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

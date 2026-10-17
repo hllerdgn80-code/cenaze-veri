@@ -138,33 +138,6 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "22aee317a3ad",
-   "il": "Kayseri",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Gazi Bir",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Org.hulusi Akar Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "b75370c1faf1",
    "il": "Kayseri",
    "ilce": null,
@@ -234,7 +207,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kayseri Anadolu Haber",
    "kaynak_url": "https://www.kayserianadoluhaber.com.tr/melikgazi-eski-baskan-yardimcisindan-aci-haber-mehmet-yerebasar-vefat-etti/200161/",
-   "alindi": "2026-10-17T09:53:52+03:00",
+   "alindi": "2026-10-17T11:04:14+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-16",
     "sayfa_tarihi": "2026-10-16",
@@ -261,7 +234,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Kayseri Anadolu Haber",
    "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayseri-de-16-ekim-cuma-gunu-vefat-edenler/200157/",
-   "alindi": "2026-10-17T09:53:52+03:00",
+   "alindi": "2026-10-17T11:04:14+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-16",
     "tarih_kaynagi": "metin"
@@ -269,7 +242,114 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "4c0887e2fd10",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Lütfi Türkmen",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Org.hulusi Akar Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "eeeef4fb08d1",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Söğüt",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Org.hulusi Akar Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "7c55fea1b7a8",
+   "il": "Kayseri",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Anşe Koçer",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Org.hulusi Akar Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "6f89c638be03",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ahmet Dernekli",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Eski Mez. Hatice Gürkan",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-17",
+   "namaz_yeri_vakti": "Org.Hulusi Akar Camii",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Hunat TV",
+   "kaynak_url": "https://www.hunattv.com/kayseri-de-17-ekim-cumartesi-gunu-vefat-edenler/31870/",
+   "alindi": "2026-10-17T11:04:14+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T09:53:52+03:00"
+ "guncelleme": "2026-10-17T11:04:14+03:00"
 }

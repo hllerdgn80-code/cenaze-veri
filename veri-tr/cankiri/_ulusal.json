@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-14",
@@ -56,86 +56,32 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "8ec322d3912f",
-   "il": "Çankırı",
-   "ilce": "Şabanözü",
-   "mahalle": null,
-   "ad_soyad": "Osman Aktaş",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "öğle",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "8cb4a15d66aa",
+   "id": "263d9b81ed4a",
    "il": "Çankırı",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Gürcü Yurkancı",
+   "ad_soyad": "Nuri Akgüç",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
+   "vefat_tarihi": "2026-10-14",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
+   "liste_tarihi": "2026-10-14",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
+   "alindi": "2026-10-17T10:58:42+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
+    "sayfa_tarihi": "2026-10-14",
     "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "9ac946022bee",
-   "il": "Çankırı",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Kerim Çetin",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "öğle",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-13",
-    "durum": "defnedilecek"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-16T10:48:18+03:00"
+ "guncelleme": "2026-10-17T10:58:42+03:00"
 }

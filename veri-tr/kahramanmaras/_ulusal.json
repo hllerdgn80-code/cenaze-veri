@@ -225,7 +225,61 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "6d391618c7c8",
+   "il": "Kahramanmaraş",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Ümmühani Orçan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-17T10:58:42+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "189ca2f5f1c9",
+   "il": "Kahramanmaraş",
+   "ilce": "Elbistan",
+   "mahalle": "Zillihan Köyü",
+   "ad_soyad": "Hatice Öztunç",
+   "anne_baba": null,
+   "yas": 78,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Elbistan Cemevi",
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Son Dakika Yerel",
+   "kaynak_url": "https://www.sondakika.com/yerel/haber-chp-li-vekil-ali-oztunc-un-annesi-hatice-oztunc-78-20336179/",
+   "alindi": "2026-10-17T11:02:29+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-16",
+    "sayfa_tarihi": "2026-10-16",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
   }
  ],
- "guncelleme": "2026-10-16T06:45:08+03:00"
+ "guncelleme": "2026-10-17T11:02:29+03:00"
 }
