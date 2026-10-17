@@ -759,5 +759,43 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/taskoprude-bir-aci-haber-daha-haci-adem-metin-vefat-etti": {
+  "olgular": [
+   {
+    "ad": "Adem Metin",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Gökırmak Mahallesi",
+    "namaz": "Gökırmak Mahallesi Camii, ikindi namazı",
+    "defin": null,
+    "namaz_t": "2026-10-11",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-11",
+  "tani": null
+ },
+ "https://www.taskoprupostasi.com/taskopru-yavuc-koyunden-huseyin-ozdemir-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Hüseyin Özdemir",
+    "yas": null,
+    "ilce": "Taşköprü",
+    "mahalle": "Yavuç Köyü",
+    "namaz": "Taş Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-11",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-11",
+  "tani": {
+   "cenaze_cumlesi": 5,
+   "olen": 0,
+   "kayit": 1
+  }
  }
 }

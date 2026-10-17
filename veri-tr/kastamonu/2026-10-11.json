@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Kastamonu İstiklal",
    "kaynak_url": "https://www.kastamonuistiklal.com/cidede-ali-sag-hayatini-kaybetti",
-   "alindi": "2026-10-17T04:45:14+03:00",
+   "alindi": "2026-10-17T06:43:38+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-11",
     "sayfa_tarihi": "2026-10-11",
@@ -46,7 +46,7 @@
    "liste_tarihi": "2026-10-11",
    "kaynak_ad": "Kastamonu İstiklal",
    "kaynak_url": "https://www.kastamonuistiklal.com/kastamonulu-genc-saglik-calisani-hayatini-kaybetti",
-   "alindi": "2026-10-17T04:45:14+03:00",
+   "alindi": "2026-10-17T06:43:38+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-11",
     "sayfa_tarihi": "2026-10-11",
@@ -54,6 +54,60 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "1bd4e38d512b",
+   "il": "Kastamonu",
+   "ilce": "Taşköprü",
+   "mahalle": "Gökırmak Mahallesi",
+   "ad_soyad": "Adem Metin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-11",
+   "namaz_yeri_vakti": "Gökırmak Mahallesi Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Taşköprü Postası",
+   "kaynak_url": "https://www.taskoprupostasi.com/taskoprude-bir-aci-haber-daha-haci-adem-metin-vefat-etti",
+   "alindi": "2026-10-17T06:43:38+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-11",
+    "sayfa_tarihi": "2026-10-11",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "b6d63aa66323",
+   "il": "Kastamonu",
+   "ilce": "Taşköprü",
+   "mahalle": "Yavuç Köyü",
+   "ad_soyad": "Hüseyin Özdemir",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-11",
+   "namaz_yeri_vakti": "Taş Camii, öğle namazı",
+   "liste_tarihi": "2026-10-11",
+   "kaynak_ad": "Taşköprü Postası",
+   "kaynak_url": "https://www.taskoprupostasi.com/taskopru-yavuc-koyunden-huseyin-ozdemir-hayatini-kaybetti",
+   "alindi": "2026-10-17T06:43:38+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-11",
+    "sayfa_tarihi": "2026-10-11",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
    "kaynak_turu": "yerel_haber"
   }
  ]

@@ -479,7 +479,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "b8645afe9b7b",
+   "il": "Kırıkkale",
+   "ilce": "Yahşihan",
+   "mahalle": null,
+   "ad_soyad": "Arap Türkyılmaz",
+   "anne_baba": null,
+   "yas": 82,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/arap-turkyilmaz-vefat-etti",
+   "alindi": "2026-10-17T07:54:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T04:45:28+03:00"
+ "guncelleme": "2026-10-17T07:54:23+03:00"
 }
