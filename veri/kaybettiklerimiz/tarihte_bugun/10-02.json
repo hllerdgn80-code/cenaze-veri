@@ -33,7 +33,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q6061949",
-  "sitelink": 16,
+  "sitelink": 17,
   "fotograf": {
    "dosya": "Bodrum Belediyesi 19.jpg",
    "lisans": "CC BY 4.0",
@@ -62,7 +62,13 @@
   "defin_ulke": "Pakistan",
   "wikidata_id": "Q83322",
   "sitelink": 107,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Amritpal Singh Mann. Painted by Jaimal Singh Naqqash (1860–1916), Mehtab Singh Naqqash (1871–1940), and Hukum Singh.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -84,7 +90,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q80956",
   "sitelink": 104,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Arrhenius2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photogravure Meisenbach Riffarth & Co. Leipzig.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arrhenius2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arrhenius2.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -106,7 +118,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q5912",
   "sitelink": 91,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marcel Duchamp 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel_Duchamp_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp_01.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -128,7 +146,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q494660",
   "sitelink": 90,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Selim I. Semailname (Millet Library, Ali Emîrî Collection, History, MS no. 1216).jpg",
+   "lisans": "Public domain",
+   "yazar": "16th century artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Selim_I._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Selim_I._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -150,7 +174,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q1262052",
   "sitelink": 83,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jamal Khashoggi in March 2018 (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "April Brady / POMED",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamal_Khashoggi_in_March_2018_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jamal_Khashoggi_in_March_2018_%28cropped%29.jpg"
+  },
   "meslek": [],
   "aciklama": "Suudi gazeteci (1958–2018)",
   "aciklama_kaynak": "wikidata_tr",
@@ -173,7 +203,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q154353",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "François Arago par Ary Scheffer.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ary Scheffer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Arago_par_Ary_Scheffer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Arago_par_Ary_Scheffer.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -195,7 +231,13 @@
   "defin_ulke": "Finlandiya",
   "wikidata_id": "Q101942",
   "sitelink": 70,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paavo Nurmi (Antwerp 1920).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author (Suomen Urheilumuseo)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paavo_Nurmi_%28Antwerp_1920%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_%28Antwerp_1920%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -215,7 +257,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q184378",
   "sitelink": 69,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Rock Hudson in 1954.jpg",
+   "lisans": "Public domain",
+   "yazar": "Universal Pictures/ Photographer not credited [1]",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_Hudson_in_1954.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rock_Hudson_in_1954.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -236,8 +284,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q212963",
-  "sitelink": 65,
-  "fotograf": null,
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "SamuelAdamsLarge.jpeg",
+   "lisans": "Public domain",
+   "yazar": "John Singleton Copley",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SamuelAdamsLarge.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:SamuelAdamsLarge.jpeg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -259,7 +313,13 @@
   "defin_ulke": "Gürcistan",
   "wikidata_id": "Q348652",
   "sitelink": 64,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Gia Kancheli.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Gia_Kancheli_&_Boris_Berezovski.jpg: George Mel derivative work: Gaeser (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gia_Kancheli.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gia_Kancheli.jpg"
+  },
   "meslek": [
    "Besteci"
   ],

@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Britanya Lordlar Kamarası üyesi",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Royal Society Üyesi. Görev: Britanya Lordlar Kamarası üyesi, Birleşik Krallık Başbakanı",
   "hassas": false,
   "turk": false
  },
@@ -150,7 +150,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q174152",
-  "sitelink": 81,
+  "sitelink": 82,
   "fotograf": {
    "dosya": "Prem chand.jpg",
    "lisans": "CC BY-SA 3.0",
@@ -247,7 +247,36 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Macaristan Liyakat Nişanı. Görev: Macaristan cumhurbaşkanı, başkan",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Macaristan Liyakat Nişanı. Görev: başkan, Macaristan cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Phokas",
+  "dogum_tarihi": "0547",
+  "vefat_tarihi": "0610-10-08",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Trakya",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q31556",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Phocas (coin of).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phocas_%28coin_of%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Phocas_%28coin_of%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
   "hassas": false,
   "turk": false
  },
@@ -302,26 +331,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Çin imparatoru",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Megumu Tamura",
-  "dogum_tarihi": "1927-01-10",
-  "vefat_tarihi": "1986-10-08",
-  "vefat_yasi": 59,
-  "dogum_yeri": "Japonya",
-  "vefat_yeri": "Chūō-ku",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q748862",
-  "sitelink": 47,
-  "fotograf": null,
-  "meslek": [],
-  "aciklama": "Japon futbolcu (1927 – 1986)",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

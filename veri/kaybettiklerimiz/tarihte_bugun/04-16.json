@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Gergedan”, “Melencolia I”, “Praying Hands”",
+  "neden_onemli": "Önemli eserleri: “Gergedan”, “Praying Hands”, “Melencolia I”",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “2 Mayıs 1808”, “3 Mayıs 1808”, “Giyinik Maya”",
+  "neden_onemli": "Önemli eserleri: “2 Mayıs 1808”, “Çıplak Maya”, “3 Mayıs 1808”",
   "hassas": false,
   "turk": false
  },
@@ -84,6 +84,34 @@
   "turk": false
  },
  {
+  "ad": "Rosalind Franklin",
+  "dogum_tarihi": "1920-07-25",
+  "vefat_tarihi": "1958-04-16",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Notting Hill",
+  "vefat_yeri": "Royal Marsden Hospital",
+  "defin_yeri": "Willesden Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q7474",
+  "sitelink": 115,
+  "fotograf": {
+   "dosya": "Rosalind Franklin.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "MRC Laboratory of Molecular Biology",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind_Franklin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Alexis de Tocqueville",
   "dogum_tarihi": "1805-07-29",
   "vefat_tarihi": "1859-04-16",
@@ -108,34 +136,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Amerika'da Demokrasi”. Görev: başkan",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Rosalind Franklin",
-  "dogum_tarihi": "1920-07-25",
-  "vefat_tarihi": "1958-04-16",
-  "vefat_yasi": 37,
-  "dogum_yeri": "Notting Hill",
-  "vefat_yeri": "Royal Marsden Hospital",
-  "defin_yeri": "Willesden Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q7474",
-  "sitelink": 114,
-  "fotograf": {
-   "dosya": "Rosalind Franklin.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "MRC Laboratory of Molecular Biology",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind_Franklin.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg"
-  },
-  "meslek": [
-   "Fizikçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -168,6 +168,34 @@
   "turk": false
  },
  {
+  "ad": "Aphra Behn",
+  "dogum_tarihi": "1640-07-10",
+  "vefat_tarihi": "1689-04-16",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Canterbury",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q231886",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Peter Lely - Aphra Behn - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Peter Lely",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Lely_-_Aphra_Behn_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Peter_Lely_-_Aphra_Behn_-_Google_Art_Project.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Charles VIII",
   "dogum_tarihi": "1470-07-09",
   "vefat_tarihi": "1498-04-16",
@@ -188,34 +216,6 @@
   },
   "meslek": [
    "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Aphra Behn",
-  "dogum_tarihi": "1640-07-10",
-  "vefat_tarihi": "1689-04-16",
-  "vefat_yasi": 48,
-  "dogum_yeri": "Canterbury",
-  "vefat_yeri": "Londra",
-  "defin_yeri": "Westminster Manastırı",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q231886",
-  "sitelink": 76,
-  "fotograf": {
-   "dosya": "Peter Lely - Aphra Behn - Google Art Project.jpg",
-   "lisans": "Public domain",
-   "yazar": "Peter Lely",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Lely_-_Aphra_Behn_-_Google_Art_Project.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Peter_Lely_-_Aphra_Behn_-_Google_Art_Project.jpg"
-  },
-  "meslek": [
-   "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -275,7 +275,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Anjou Kontu, Auvergne Kontu",
+  "neden_onemli": "Görev: Auvergne Kontu, Anjou Kontu",
   "hassas": false,
   "turk": false
  },
@@ -329,7 +329,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Film National Board of Review Ödülü, BAFTA Akademi Bağlılık Ödülü. Önemli eserleri: “Brief Encounter”, “Doktor Jivago”, “Hindistan'a Geçit”",
+  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Film National Board of Review Ödülü. Önemli eserleri: “Doktor Jivago”, “Brief Encounter”, “Hindistan'a Geçit”",
   "hassas": false,
   "turk": false
  }

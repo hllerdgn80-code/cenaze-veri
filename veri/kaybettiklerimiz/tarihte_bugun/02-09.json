@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Kumarbaz”, “Budala”, “Yeraltından Notlar”",
+  "neden_onemli": "Önemli eserleri: “Budala”, “Kumarbaz”, “Öteki”",
   "hassas": false,
   "turk": false
  },
@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Otuz Yılı\" Jübile Madalyası, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
+  "neden_onemli": "Ödül: \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Otuz Yılı\" Jübile Madalyası, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
   "hassas": false,
   "turk": false
  },
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q81506",
-  "sitelink": 111,
+  "sitelink": 112,
   "fotograf": {
    "dosya": "Anthony van Dyck (1599-1641) - Charles I (1600-1649) - RCIN 404398 - Royal Collection.jpg",
    "lisans": "Public domain",
@@ -225,7 +225,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Krizantem Nişanı, Askeri Liyakat Haçı (Avusturya-Macaristan)",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kızıl Kartal Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -253,7 +253,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kutsal Hazine Nişanı, Shogakukan Manga Ödülü. Önemli eserleri: “Beyaz Aslan Kimba”, “Dororo”, “Astro Boy”",
+  "neden_onemli": "Ödül: Kutsal Hazine Nişanı, Shogakukan Manga Ödülü. Önemli eserleri: “Astro Boy”, “Beyaz Aslan Kimba”, “Dororo”",
   "hassas": false,
   "turk": false
  },
@@ -296,7 +296,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q153815",
-  "sitelink": 64,
+  "sitelink": 65,
   "fotograf": null,
   "meslek": [],
   "aciklama": null,
@@ -312,9 +312,9 @@
   "vefat_yasi": 50,
   "dogum_yeri": "Danimarka",
   "vefat_yeri": "Gainsborough, Lincolnshire",
-  "defin_yeri": "Roskilde Katedrali",
+  "defin_yeri": "Lund Cathedral",
   "defin_il": null,
-  "defin_ulke": "Danimarka",
+  "defin_ulke": "İsveç",
   "wikidata_id": "Q181896",
   "sitelink": 59,
   "fotograf": {

@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q209662",
-  "sitelink": 82,
+  "sitelink": 83,
   "fotograf": {
    "dosya": "LDBALL1950s.jpg",
    "lisans": "Public domain",
@@ -154,7 +154,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Max Planck Madalyası, Oersted Madalyası. Önemli eserleri: “ince yapı sabiti”",
+  "neden_onemli": "Ödül: Max Planck Madalyası, Lorentz Madalyası. Önemli eserleri: “ince yapı sabiti”",
   "hassas": false,
   "turk": false
  },
@@ -187,6 +187,32 @@
   "turk": false
  },
  {
+  "ad": "Morihei Ueshiba",
+  "dogum_tarihi": "1883-12-14",
+  "vefat_tarihi": "1969-04-26",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Tanabe",
+  "vefat_yeri": "Tokyo",
+  "defin_yeri": "Kōzan-ji Temple",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q182130",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Morihei Ueshiba 1939.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morihei_Ueshiba_1939.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Morihei_Ueshiba_1939.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Japon aikidocu (1883 – 1969)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Jonathan Demme",
   "dogum_tarihi": "1944-02-22",
   "vefat_tarihi": "2017-04-26",
@@ -211,32 +237,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: En İyi Film National Board of Review Ödülü, En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Morihei Ueshiba",
-  "dogum_tarihi": "1883-12-14",
-  "vefat_tarihi": "1969-04-26",
-  "vefat_yasi": 85,
-  "dogum_yeri": "Tanabe",
-  "vefat_yeri": "Tokyo",
-  "defin_yeri": "Kōzan-ji Temple",
-  "defin_il": null,
-  "defin_ulke": "Japonya",
-  "wikidata_id": "Q182130",
-  "sitelink": 66,
-  "fotograf": {
-   "dosya": "Morihei Ueshiba 1939.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morihei_Ueshiba_1939.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Morihei_Ueshiba_1939.jpg"
-  },
-  "meslek": [],
-  "aciklama": "Japon aikidocu (1883 – 1969)",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

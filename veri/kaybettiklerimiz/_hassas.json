@@ -587,18 +587,6 @@
   ]
  },
  {
-  "wikidata_id": "Q170046",
-  "ad": "Cafer-i Sâdık",
-  "aciklama": "Müslüman alim ve Şii İmamı (702-765)",
-  "neden": [
-   "cinayet"
-  ],
-  "vefat_tarihi": "0765-12-20",
-  "kategoriler": [
-   "tarihte_bugun"
-  ]
- },
- {
   "wikidata_id": "Q1409",
   "ad": "Caligula",
   "aciklama": null,
@@ -800,7 +788,7 @@
   "neden": [
    "Kurşuna dizerek infaz",
    "ateşli silah yaralanması",
-   "execution"
+   "ölüm cezası"
   ],
   "vefat_tarihi": "1944-07-21",
   "kategoriler": [
@@ -2809,18 +2797,6 @@
   ]
  },
  {
-  "wikidata_id": "Q511943",
-  "ad": "Pargalı İbrahim Paşa",
-  "aciklama": null,
-  "neden": [
-   "ölüm cezası"
-  ],
-  "vefat_tarihi": "1536-03-25",
-  "kategoriler": [
-   "tarihte_bugun"
-  ]
- },
- {
   "wikidata_id": "Q14356",
   "ad": "Park Chung-hee",
   "aciklama": null,
@@ -3117,18 +3093,6 @@
   "vefat_tarihi": "1934",
   "kategoriler": [
    "siyasetciler"
-  ]
- },
- {
-  "wikidata_id": "Q215778",
-  "ad": "Sadi Carnot",
-  "aciklama": null,
-  "neden": [
-   "cinayet"
-  ],
-  "vefat_tarihi": "1894-06-25",
-  "kategoriler": [
-   "tarihte_bugun"
   ]
  },
  {
@@ -3834,6 +3798,19 @@
    "ölüm cezası"
   ],
   "vefat_tarihi": "1972-05-06",
+  "kategoriler": [
+   "siyasetciler"
+  ]
+ },
+ {
+  "wikidata_id": "Q8072883",
+  "ad": "Ziya Hurşit",
+  "aciklama": null,
+  "neden": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "vefat_tarihi": "1926-07-14",
   "kategoriler": [
    "siyasetciler"
   ]

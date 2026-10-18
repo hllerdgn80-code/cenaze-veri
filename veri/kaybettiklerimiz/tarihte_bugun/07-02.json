@@ -12,7 +12,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q3701685",
   "sitelink": 15,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Kara Fatma.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kara_Fatma.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kara_Fatma.jpg"
+  },
   "meslek": [
    "Asker"
   ],
@@ -33,8 +39,14 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q6527",
-  "sitelink": 233,
-  "fotograf": null,
+  "sitelink": 234,
+  "fotograf": {
+   "dosya": "Jean-Jacques Rousseau (painted portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Maurice Quentin de La Tour",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -56,7 +68,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q23434",
   "sitelink": 208,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "ErnestHemingway.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lloyd Arnold",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ErnestHemingway.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -81,13 +99,19 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q36591",
   "sitelink": 152,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Vladimir Nabokov 1973.jpg",
+   "lisans": "Public domain",
+   "yazar": "Walter Mori (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir_Nabokov_1973.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg"
+  },
   "meslek": [
    "Satranç oyuncusu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Lolita”, “Lujin Savunması”, “Solgun Ateş”. Aday olduğu ödül: Nobel Edebiyat Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
+  "neden_onemli": "Önemli eserleri: “Lujin Savunması”, “Solgun Ateş”, “Lolita”. Aday olduğu ödül: Nobel Edebiyat Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -103,13 +127,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q102462",
   "sitelink": 97,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Annex - Stewart, James (Call Northside 777) 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio publicity still",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Gümüş Ayı. Önemli eserleri: “You Can't Take it With You”, “Two Rode Together”, “The Shop Around the Corner”",
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Hava madalyası. Önemli eserleri: “You Can't Take it With You”, “Two Rode Together”, “The Shootist”",
   "hassas": false,
   "turk": false
  },
@@ -125,13 +155,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q182870",
   "sitelink": 87,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Mario Puzo 1972 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Puzo_1972_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mario_Puzo_1972_%28cropped%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Writers Guild of America Ödülleri, En İyi Uyarlama Senaryo Akademi Ödülü. Önemli eserleri: “Baba”",
+  "neden_onemli": "Ödül: En İyi Uyarlama Senaryo Akademi Ödülü, Writers Guild of America Ödülleri. Önemli eserleri: “Baba”",
   "hassas": false,
   "turk": false
  },
@@ -147,7 +183,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q150688",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Porfirio Diaz.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "El Ágora",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porfirio_Diaz.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Porfirio_Diaz.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -170,7 +212,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q103404",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paus Paulus I Paulus primus (titel op object) Liber Chronicarum (serietitel, RP-P-2016-49-56-10).jpg",
+   "lisans": "CC0",
+   "yazar": "Rijksmuseum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paus_Paulus_I_Paulus_primus_%28titel_op_object%29_Liber_Chronicarum_%28serietitel%2C_RP-P-2016-49-56-10%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paus_Paulus_I_Paulus_primus_%28titel_op_object%29_Liber_Chronicarum_%28serietitel%2C_RP-P-2016-49-56-10%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -192,13 +240,19 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q181875",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sir Robert Peel, 2nd Bt by John Linnell.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Linnell",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Robert_Peel%2C_2nd_Bt_by_John_Linnell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Robert_Peel%2C_2nd_Bt_by_John_Linnell.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Birleşik Krallık içişleri bakanı",
   "hassas": false,
   "turk": false
  },
@@ -214,13 +268,19 @@
   "defin_ulke": null,
   "wikidata_id": "Q92614",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Douglas Engelbart in 2008.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Alex Handy from Oakland, Nmibia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas_Engelbart_in_2008.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart_in_2008.jpg"
+  },
   "meslek": [
    "Mucit"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: IEEE John von Neumann Madalyası, Turing Ödülü. Önemli eserleri: “İnsan bilgisayar etkileşimi”, “grafiksel kullanıcı arayüzü”, “fare”",
+  "neden_onemli": "Ödül: IEEE John von Neumann Madalyası, Turing Ödülü. Önemli eserleri: “grafiksel kullanıcı arayüzü”, “İnsan bilgisayar etkileşimi”, “fare”",
   "hassas": false,
   "turk": false
  },
@@ -236,13 +296,19 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q184267",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Andrei Gromyko 1972.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Mieremet, Rob / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Gromyko_1972.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Gromyko_1972.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Sosyalist Emek Kahramanı ünvanı, \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Otuz Yılı\" Jübile Madalyası. Görev: Sovyetler Birliği Birinci Başbakan Yardımcısı",
+  "neden_onemli": "Ödül: Onur Rozeti Nişanı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Görev: Sovyetler Birliği Birinci Başbakan Yardımcısı",
   "hassas": false,
   "turk": false
  },
@@ -258,13 +324,19 @@
   "defin_ulke": "Bulgaristan",
   "wikidata_id": "Q155074",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Georgi Dimitrow.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georgi_Dimitrow.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georgi_Dimitrow.png"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Bulgaristan Başbakanı, Bulgaristan Ulusal Meclisi üyesi",
+  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Bulgaristan Ulusal Meclisi üyesi, Bulgaristan Başbakanı",
   "hassas": false,
   "turk": false
  }

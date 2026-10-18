@@ -138,6 +138,32 @@
   "turk": false
  },
  {
+  "ad": "I. Callistus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0222-09-18",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria in Trastevere Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q122376",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Fresco of Pope Callixtus I - Basilica of Saint Paul Outside the Walls (Before 1823).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author; Photo taken by Arnaldo Vescovo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "John Cockcroft",
   "dogum_tarihi": "1897-05-27",
   "vefat_tarihi": "1967-09-18",
@@ -166,32 +192,6 @@
   "turk": false
  },
  {
-  "ad": "I. Callistus",
-  "dogum_tarihi": null,
-  "vefat_tarihi": "0222-09-18",
-  "vefat_yasi": null,
-  "dogum_yeri": "Roma",
-  "vefat_yeri": "Roma",
-  "defin_yeri": "Santa Maria in Trastevere Bazilikası",
-  "defin_il": null,
-  "defin_ulke": "İtalya",
-  "wikidata_id": "Q122376",
-  "sitelink": 80,
-  "fotograf": {
-   "dosya": "Fresco of Pope Callixtus I - Basilica of Saint Paul Outside the Walls (Before 1823).jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author; Photo taken by Arnaldo Vescovo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Toyotomi Hideyoshi",
   "dogum_tarihi": "1537-03-27",
   "vefat_tarihi": "1598-09-18",
@@ -215,7 +215,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Daimyo, Daijō-daijin",
+  "neden_onemli": "Görev: Daimyo, Dainagon",
   "hassas": false,
   "turk": false
  },

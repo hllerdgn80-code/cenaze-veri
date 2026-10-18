@@ -65,7 +65,13 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q29179",
   "sitelink": 134,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "RETRATO DEL GRAL. FRANCISCO FRANCO BAHAMONDE (adjusted levels).jpg",
+   "lisans": "CC0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RETRATO_DEL_GRAL._FRANCISCO_FRANCO_BAHAMONDE_%28adjusted_levels%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:RETRATO_DEL_GRAL._FRANCISCO_FRANCO_BAHAMONDE_%28adjusted_levels%29.jpg"
+  },
   "meslek": [
    "Sinema oyuncusu"
   ],
@@ -87,11 +93,17 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q133001",
   "sitelink": 93,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Portrait of Pope Paul III Farnese (by Titian) - National Museum of Capodimonte.jpg",
+   "lisans": "Public domain",
+   "yazar": "Titian",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Paul_III_Farnese_%28by_Titian%29_-_National_Museum_of_Capodimonte.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pope_Paul_III_Farnese_%28by_Titian%29_-_National_Museum_of_Capodimonte.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, Diosezan piskopos",
+  "neden_onemli": "Görev: Papa, başpiskopos",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +119,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q192348",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Benedetto Croce 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mario Nunes Vais",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedetto_Croce_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Benedetto_Croce_01.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -129,7 +147,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q132786",
   "sitelink": 78,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope Anastasius II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Anastasius_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Anastasius_II.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -149,7 +173,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q102291",
   "sitelink": 78,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Francis William Aston.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis_William_Aston.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Francis_William_Aston.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -171,7 +201,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q55163",
   "sitelink": 70,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Robert Altman - 1983.jpg",
+   "lisans": "Public domain",
+   "yazar": "Associate Press Newsfeatures (see first upload of this image)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Altman_-_1983.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Altman_-_1983.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -193,7 +229,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q190626",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Aaron Klug 1979.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Rob Bogaerts for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Klug_1979.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aaron_Klug_1979.jpg"
+  },
   "meslek": [
    "Kimyager"
   ],
@@ -215,7 +257,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q152260",
   "sitelink": 64,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alexandra of Denmark02.jpg",
+   "lisans": "Public domain",
+   "yazar": "W. & D. Downey",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandra_of_Denmark02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexandra_of_Denmark02.jpg"
+  },
   "meslek": [
    "Ressam"
   ],
@@ -237,7 +285,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q223723",
   "sitelink": 63,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Cesare Beccaria.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eliseo Sala",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cesare_Beccaria.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cesare_Beccaria.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -259,7 +313,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q87567",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anton Rubinstein by J Ganz.png",
+   "lisans": "Public domain",
+   "yazar": "J Ganz, Brussels",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anton_Rubinstein_by_J_Ganz.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anton_Rubinstein_by_J_Ganz.png"
+  },
   "meslek": [
    "Besteci"
   ],

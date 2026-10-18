@@ -61,19 +61,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q23",
   "sitelink": 275,
-  "fotograf": {
-   "dosya": "Gilbert Stuart Williamstown Portrait of George Washington.jpg",
-   "lisans": "Public domain",
-   "yazar": "Gilbert Stuart",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kongre Altın Madalyası. Görev: Amerika Birleşik Devletleri Başkanı, genel başkan",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası. Görev: genel başkan, Amerika Birleşik Devletleri Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -89,13 +83,7 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q997",
   "sitelink": 114,
-  "fotograf": {
-   "dosya": "RIAN archive 25981 Academician Sakharov.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Vladimir Fedorenko / Владимир Федоренко",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RIAN_archive_25981_Academician_Sakharov.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:RIAN_archive_25981_Academician_Sakharov.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -117,13 +105,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q103876",
   "sitelink": 103,
-  "fotograf": {
-   "dosya": "Peter O'Toole - 1968.jpg",
-   "lisans": "Public domain",
-   "yazar": "ABC TV",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_O%27Toole_-_1968.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Peter_O%27Toole_-_1968.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -145,13 +127,7 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q134644",
   "sitelink": 86,
-  "fotograf": {
-   "dosya": "Spaanse dichter en nobelprijswinnaar Vicente Alexandre, Bestanddeelnr 929-3851.jpg",
-   "lisans": "CC0",
-   "yazar": "Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spaanse_dichter_en_nobelprijswinnaar_Vicente_Alexandre%2C_Bestanddeelnr_929-3851.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Spaanse_dichter_en_nobelprijswinnaar_Vicente_Alexandre%2C_Bestanddeelnr_929-3851.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -173,13 +149,7 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q23481",
   "sitelink": 85,
-  "fotograf": {
-   "dosya": "Friedrich duerrenmatt 19890427.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Elke Wetzig (elya)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_duerrenmatt_19890427.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_duerrenmatt_19890427.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Sinema oyuncusu"
   ],
@@ -201,13 +171,7 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q190388",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "Zurbarán (atribuido)-John of the Cross-1656.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zurbar%C3%A1n_%28atribuido%29-John_of_the_Cross-1656.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Zurbar%C3%A1n_%28atribuido%29-John_of_the_Cross-1656.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -219,9 +183,10 @@
  },
  {
   "ad": "IV. Innocentius",
-  "dogum_tarihi": null,
+  "dogum_tarihi": "1195",
   "vefat_tarihi": "1254-12-21",
-  "vefat_yasi": null,
+  "vefat_yasi": 59,
+  "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Cenova",
   "vefat_yeri": "Napoli",
   "defin_yeri": "Napoli Katedrali",
@@ -229,13 +194,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q160609",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "The Council of Lyons excommunicating Frederic II (cropped).png",
-   "lisans": "Public domain",
-   "yazar": "AnonymousUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Council_of_Lyons_excommunicating_Frederic_II_%28cropped%29.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Council_of_Lyons_excommunicating_Frederic_II_%28cropped%29.png"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -255,13 +214,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q166635",
   "sitelink": 78,
-  "fotograf": {
-   "dosya": "Stanley Baldwin LCCN2014712420 (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Bain News Service",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stanley_Baldwin_LCCN2014712420_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Stanley_Baldwin_LCCN2014712420_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -284,19 +237,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q170863",
   "sitelink": 76,
-  "fotograf": {
-   "dosya": "01 Clément VI (Fresque de la chapelle Saint-Martial du palais des papes).jpg",
-   "lisans": "Public domain",
-   "yazar": "Matteo Giovanetti",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/01_Cl%C3%A9ment_VI_%28Fresque_de_la_chapelle_Saint-Martial_du_palais_des_papes%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:01_Cl%C3%A9ment_VI_%28Fresque_de_la_chapelle_Saint-Martial_du_palais_des_papes%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, Rouen başpiskoposu",
+  "neden_onemli": "Görev: Papa, kardinal",
   "hassas": false,
   "turk": false
  },
@@ -312,13 +259,7 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q36234",
   "sitelink": 74,
-  "fotograf": {
-   "dosya": "Charles III of Spain high resolution.jpg",
-   "lisans": "Public domain",
-   "yazar": "Anton Raphael Mengs",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_III_of_Spain_high_resolution.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_III_of_Spain_high_resolution.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": "İspanya kralı",
   "aciklama_kaynak": "wikidata_tr",

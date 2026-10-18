@@ -83,12 +83,12 @@
   "vefat_tarihi": "1804-07-12",
   "vefat_yasi": 47,
   "dogum_yeri": "Charlestown",
-  "vefat_yeri": "New York",
+  "vefat_yeri": "Greenwich Village",
   "defin_yeri": "Trinity Churchyard",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q178903",
-  "sitelink": 104,
+  "sitelink": 105,
   "fotograf": {
    "dosya": "Google Arts Project - Alexander Hamilton (1792 portrait) by John Trumbull.jpg",
    "lisans": "Public domain",
@@ -299,7 +299,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Onursal vatandaşlık. Görev: İrlanda Devlet Başkanı, başkan",
+  "neden_onemli": "Ödül: Onursal vatandaşlık. Görev: başkan, İrlanda Devlet Başkanı",
   "hassas": false,
   "turk": false
  },

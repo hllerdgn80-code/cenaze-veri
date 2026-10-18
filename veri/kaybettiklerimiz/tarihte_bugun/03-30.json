@@ -36,7 +36,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q94041",
   "sitelink": 92,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "James cagney promo photo (cropped, centered).jpg",
+   "lisans": "Public domain",
+   "yazar": "Warner Bros. Studio (work for hire)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_cagney_promo_photo_%28cropped%2C_centered%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_cagney_promo_photo_%28cropped%2C_centered%29.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -58,7 +64,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q10633",
   "sitelink": 92,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Queen Elizabeth the Queen Mother portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Richard Stone",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Elizabeth_the_Queen_Mother_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_the_Queen_Mother_portrait.jpg"
+  },
   "meslek": [
    "Ana kraliçe"
   ],
@@ -80,7 +92,13 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q78484",
   "sitelink": 85,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Steiner um 1905.jpg",
+   "lisans": "Public domain",
+   "yazar": "Otto Rietmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steiner_um_1905.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Steiner_um_1905.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -124,7 +142,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q18434",
   "sitelink": 75,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Léon Blum Meurisse b 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9on_Blum_Meurisse_b_1927.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Blum_Meurisse_b_1927.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -146,7 +170,13 @@
   "defin_ulke": "Arjantin",
   "wikidata_id": "Q76614",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bergius.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergius.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bergius.jpg"
+  },
   "meslek": [
    "Kimyager"
   ],
@@ -168,11 +198,17 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q383322",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope-Elect Stephen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope-Elect_Stephen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope-Elect_Stephen.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -188,7 +224,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q329716",
   "sitelink": 56,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Michael Jeter at the 44th Emmy Awards cropped.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Photo by Alan Light derivative work: Bea",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jeter_at_the_44th_Emmy_Awards_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Michael_Jeter_at_the_44th_Emmy_Awards_cropped.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -210,7 +252,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q235651",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Philip Showalter Hench.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Showalter_Hench.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Philip_Showalter_Hench.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -222,10 +270,9 @@
  },
  {
   "ad": "Sébastien Le Prestre de Vauban",
-  "dogum_tarihi": "1633-05",
+  "dogum_tarihi": "1633-05-15",
   "vefat_tarihi": "1707-03-30",
-  "vefat_yasi": 74,
-  "vefat_yasi_yaklasik": true,
+  "vefat_yasi": 73,
   "dogum_yeri": "Saint-Léger-Vauban",
   "vefat_yeri": "Paris",
   "defin_yeri": "Cathédrale Saint-Louis-des-Invalides",
@@ -233,7 +280,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q192839",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sebastien le Prestre de Vauban.png",
+   "lisans": "Public domain",
+   "yazar": "Charles-Philippe Larivière",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastien_le_Prestre_de_Vauban.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sebastien_le_Prestre_de_Vauban.png"
+  },
   "meslek": [
    "Yazar"
   ],

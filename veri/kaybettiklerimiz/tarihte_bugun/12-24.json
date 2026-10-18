@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Renaudot Ödülü. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Lenin Barış Ödülü. Aday olduğu ödül: Nobel Edebiyat Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -276,7 +276,35 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Rankine-Hugoniot bağıntıları”, “Rankine çevrimi”, “Rankine ölçeği”",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Rankine-Hugoniot bağıntıları”, “Rankine ölçeği”, “Rankine çevrimi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gerard Kuiper",
+  "dogum_tarihi": "1905-12-07",
+  "vefat_tarihi": "1973-12-24",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Tuitjenhorn",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192948",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "GerardKuiper.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GerardKuiper.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GerardKuiper.jpg"
+  },
+  "meslek": [
+   "Astronom"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Jules Janssen Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -305,34 +333,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Gerard Kuiper",
-  "dogum_tarihi": "1905-12-07",
-  "vefat_tarihi": "1973-12-24",
-  "vefat_yasi": 68,
-  "dogum_yeri": "Tuitjenhorn",
-  "vefat_yeri": "Meksiko",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q192948",
-  "sitelink": 61,
-  "fotograf": {
-   "dosya": "GerardKuiper.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GerardKuiper.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:GerardKuiper.jpg"
-  },
-  "meslek": [
-   "Astronom"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Jules Janssen Ödülü",
   "hassas": false,
   "turk": false
  }

@@ -28,35 +28,6 @@
   "turk": false
  },
  {
-  "ad": "Francis Drake",
-  "dogum_tarihi": "1540",
-  "vefat_tarihi": "1596-01-28",
-  "vefat_yasi": 56,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Tavistock",
-  "vefat_yeri": "Portobelo",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q36517",
-  "sitelink": 121,
-  "fotograf": {
-   "dosya": "Gheeraerts Francis Drake 1591.jpg",
-   "lisans": "Public domain",
-   "yazar": "Marcus Gheeraerts the Younger",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gheeraerts_Francis_Drake_1591.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Gheeraerts_Francis_Drake_1591.jpg"
-  },
-  "meslek": [
-   "Mühendis"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Suharto",
   "dogum_tarihi": "1921-06-08",
   "vefat_tarihi": "2008-01-27",
@@ -80,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı, Mugunghwa Büyük Nişanı. Görev: Endonezya Devlet Başkanı",
+  "neden_onemli": "Ödül: Krizantem Nişanı, Mugunghwa Büyük Nişanı. Görev: Endonezya Devlet Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -89,7 +60,7 @@
   "dogum_tarihi": "1919-01-01",
   "vefat_tarihi": "2010-01-27",
   "vefat_yasi": 91,
-  "dogum_yeri": "New York",
+  "dogum_yeri": "Manhattan",
   "vefat_yeri": "Cornish",
   "defin_yeri": null,
   "defin_il": null,
@@ -151,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q2737",
-  "sitelink": 97,
+  "sitelink": 98,
   "fotograf": {
    "dosya": "Louis de Funès 1970.jpg",
    "lisans": "Public domain",
@@ -248,7 +219,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Şövalye Haçı, 1. Sınıf Estonya Kızılhaç Nişanı. Görev: Finlandiya Devlet Başkanı, başkan",
+  "neden_onemli": "Ödül: Şövalye Haçı, Büyük Özgürlük Nişanı. Görev: Finlandiya Devlet Başkanı, başkan",
   "hassas": false,
   "turk": false
  },
@@ -333,6 +304,32 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “The Birds of America”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ingvar Kamprad",
+  "dogum_tarihi": "1926-03-30",
+  "vefat_tarihi": "2018-01-27",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Pjätteryd",
+  "vefat_yeri": "Liatorp",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q216932",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Ingvar Kamprad Haparanda June 2010.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Ministry of Enterprise, Energy and Communications of Sweden/Sandra Baqirjazid",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ingvar_Kamprad_Haparanda_June_2010.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dostluk Nişanı",
   "hassas": false,
   "turk": false
  }

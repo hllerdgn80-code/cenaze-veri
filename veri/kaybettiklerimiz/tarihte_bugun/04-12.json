@@ -21,7 +21,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı. Aday olduğu ödül: Nobel Barış Ödülü",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, başkan. Aday olduğu ödül: Nobel Barış Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -162,7 +162,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Praetor",
+  "neden_onemli": "Görev: Praetor, quaestor",
   "hassas": true,
   "hassas_nedeni": [
    "hanging to death"
@@ -221,7 +221,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Praetor",
+  "neden_onemli": "Görev: Praetor, quaestor",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"

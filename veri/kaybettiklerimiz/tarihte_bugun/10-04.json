@@ -11,7 +11,13 @@
   "defin_ulke": "Hollanda",
   "wikidata_id": "Q5598",
   "sitelink": 207,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rembrandt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+  },
   "meslek": [
    "Ressam"
   ],
@@ -33,7 +39,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q9021",
   "sitelink": 183,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Max Planck.png",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max_Planck.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Max_Planck.png"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -55,7 +67,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q7321",
   "sitelink": 161,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jacques Cartier 1851-1852.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Théophile Hamel / After François Nicholas Riss",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques_Cartier_1851-1852.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacques_Cartier_1851-1852.jpg"
+  },
   "meslek": [
    "Mucit"
   ],
@@ -77,7 +95,13 @@
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q83428",
   "sitelink": 107,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paracelsus.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Quinten Metsys",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paracelsus.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paracelsus.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -99,7 +123,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q41555",
   "sitelink": 105,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jacques Offenbach by Félix Nadar (restored).jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques_Offenbach_by_F%C3%A9lix_Nadar_%28restored%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacques_Offenbach_by_F%C3%A9lix_Nadar_%28restored%29.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -121,7 +151,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q1514",
   "sitelink": 100,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Janis Joplin 1970.JPG",
+   "lisans": "Public domain",
+   "yazar": "Grossman Glotzer Management Corporation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Janis_Joplin_1970.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Janis_Joplin_1970.JPG"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -143,7 +179,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q179910",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Mr. Vo Nguyen Giap.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mr._Vo_Nguyen_Giap.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mr._Vo_Nguyen_Giap.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -272,7 +314,7 @@
   "defin_il": null,
   "defin_ulke": "Kanada",
   "wikidata_id": "Q216924",
-  "sitelink": 55,
+  "sitelink": 56,
   "fotograf": {
    "dosya": "Glenn Gould 1961 (cropped).jpg",
    "lisans": "Public domain",

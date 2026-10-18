@@ -33,7 +33,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q303651",
-  "sitelink": 20,
+  "sitelink": 21,
   "fotograf": {
    "dosya": "Ahmet Haşim.jpg",
    "lisans": "Public domain",
@@ -62,19 +62,13 @@
   "defin_ulke": "Hollanda",
   "wikidata_id": "Q2677",
   "sitelink": 130,
-  "fotograf": {
-   "dosya": "Kaiser Wilhelm II of Germany - 1902.jpg",
-   "lisans": "Public domain",
-   "yazar": "Studio of Thomas Heinrich Voigt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Krizantem Nişanı, Hansa Haçı. Görev: Prusya'da Kral",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Hansa Haçı. Görev: Prusya'da Kral",
   "hassas": false,
   "turk": false
  },
@@ -90,13 +84,7 @@
   "defin_ulke": "Çekya",
   "wikidata_id": "Q83321",
   "sitelink": 106,
-  "fotograf": {
-   "dosya": "Casanova ritratto.jpg",
-   "lisans": "Public domain",
-   "yazar": "Francesco Giuseppe Casanova",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Casanova_ritratto.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Casanova_ritratto.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -118,17 +106,11 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q60039",
   "sitelink": 81,
-  "fotograf": {
-   "dosya": "Bundesarchiv Bild 146-1969-054-16, Reinhard Heydrich.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Heinrich Hoffmann",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-1969-054-16%2C_Reinhard_Heydrich.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1969-054-16%2C_Reinhard_Heydrich.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kan Nişanı, Memel Madalyası. Görev: Nazi Almanyası'nda Reichstag üyesi",
+  "neden_onemli": "Ödül: Kan Nişanı, Sudetenland Madalyası. Görev: Nazi Almanyası'nda Reichstag üyesi",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -148,19 +130,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q151500",
   "sitelink": 75,
-  "fotograf": {
-   "dosya": "Sultan Abdulaziz.jpg",
-   "lisans": "Public domain",
-   "yazar": "Abdullah frères",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultan_Abdulaziz.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Abdulaziz.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dizbağı Nişanı, Aziz Andreas Nişanı",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Dizbağı Nişanı",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -173,19 +149,13 @@
   "vefat_tarihi": "1971-06-04",
   "vefat_yasi": 86,
   "dogum_yeri": "Budapeşte",
-  "vefat_yeri": "Budapeşte",
+  "vefat_yeri": "XII. Budapeşte bölgesi",
   "defin_yeri": "Fiume Yolu Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Macaristan",
   "wikidata_id": "Q151523",
   "sitelink": 70,
-  "fotograf": {
-   "dosya": "Lukács György.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Horst Sturm",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs_Gy%C3%B6rgy.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Luk%C3%A1cs_Gy%C3%B6rgy.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -207,13 +177,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q186500",
   "sitelink": 65,
-  "fotograf": {
-   "dosya": "John Myun.jpg",
-   "lisans": "Public domain",
-   "yazar": "Chang_Myun.jpg: Unknown derivative work: Daffy123, kaganer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Myun.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Myun.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -235,13 +199,7 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q122272",
   "sitelink": 64,
-  "fotograf": {
-   "dosya": "Richard R. Ernst 1980s (cropped).jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_R._Ernst_1980s_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_R._Ernst_1980s_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Kimyager"
   ],
@@ -263,13 +221,7 @@
   "defin_ulke": "Ekvador",
   "wikidata_id": "Q189779",
   "sitelink": 61,
-  "fotograf": {
-   "dosya": "Martin Tovar y Tovar 12.JPG",
-   "lisans": "Public domain",
-   "yazar": "Martín Tovar y Tovar (1827 - 1902)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Tovar_y_Tovar_12.JPG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Martin_Tovar_y_Tovar_12.JPG"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -295,13 +247,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q270539",
   "sitelink": 54,
-  "fotograf": {
-   "dosya": "Charles W Fairbanks by Harris & Ewing.jpg",
-   "lisans": "Public domain",
-   "yazar": "Harris & Ewing",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_W_Fairbanks_by_Harris_%26_Ewing.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_W_Fairbanks_by_Harris_%26_Ewing.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -324,13 +270,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q152256",
   "sitelink": 54,
-  "fotograf": {
-   "dosya": "Conrad II (HRE).jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_II_%28HRE%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Conrad_II_%28HRE%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],

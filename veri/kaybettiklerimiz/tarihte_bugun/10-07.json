@@ -168,6 +168,34 @@
   "turk": false
  },
  {
+  "ad": "Guru Gobind Singh",
+  "dogum_tarihi": "1666-12-22",
+  "vefat_tarihi": "1708-10-07",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Patna",
+  "vefat_yeri": "Nanded",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312967",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Guru Gobind Singh.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Gobind_Singh.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Guru_Gobind_Singh.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Mario J. Molina",
   "dogum_tarihi": "1943-03-19",
   "vefat_tarihi": "2020-10-07",
@@ -192,34 +220,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Kimya Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Guru Gobind Singh",
-  "dogum_tarihi": "1666-12-22",
-  "vefat_tarihi": "1708-10-07",
-  "vefat_yasi": 41,
-  "dogum_yeri": "Patna",
-  "vefat_yeri": "Nanded",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q312967",
-  "sitelink": 70,
-  "fotograf": {
-   "dosya": "Guru Gobind Singh.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Gobind_Singh.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Guru_Gobind_Singh.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

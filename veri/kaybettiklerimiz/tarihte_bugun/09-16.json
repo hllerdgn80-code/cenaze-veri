@@ -144,7 +144,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -175,7 +175,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Aday olduğu ödül: En İyi Film Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
+  "neden_onemli": "Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü, En İyi Film Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -337,7 +337,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Güney Haçı Liyakat Nişanı. Görev: İtalya Devlet Başkanı, tabii senatörlük",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Güney Haçı Liyakat Nişanı. Görev: İtalya Başbakanı, İtalya Devlet Başkanı",
   "hassas": false,
   "turk": false
  }

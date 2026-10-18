@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Türkleşmek, İslamlaşmak, Muasırlaşmak”, “Kızıl Elma”, “Altın Işık”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Önemli eserleri: “Kızıl Elma”, “Türkleşmek, İslamlaşmak, Muasırlaşmak”, “Altın Işık”. Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Osmanlı Bahriye Nazırlığı, Erkân-ı Harbiye Umumiye Vekili",
+  "neden_onemli": "Görev: Sadrazam, Osmanlı Bahriye Nazırlığı",
   "hassas": false,
   "turk": true
  },
@@ -95,13 +95,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q102490",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Evangelista Torricelli by Lorenzo Lippi (circa 1647, Galleria Silvano Lodi & Due).jpg",
-   "lisans": "Public domain",
-   "yazar": "Lorenzo Lippi",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Evangelista_Torricelli_by_Lorenzo_Lippi_%28circa_1647%2C_Galleria_Silvano_Lodi_%26_Due%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Mucit"
   ],
@@ -123,13 +117,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q131981",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "Portrait of King George II of Great Britain.jpg",
-   "lisans": "Public domain",
-   "yazar": "John Shackleton",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_King_George_II_of_Great_Britain.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_King_George_II_of_Great_Britain.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -151,13 +139,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q171344",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "The Painter and His Pug by William Hogarth.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Painter_and_His_Pug_by_William_Hogarth.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Painter_and_His_Pug_by_William_Hogarth.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
@@ -179,19 +161,13 @@
   "defin_ulke": "Bahamalar",
   "wikidata_id": "Q106775",
   "sitelink": 70,
-  "fotograf": {
-   "dosya": "Richard Harris 1985 (1).jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "City of Boston Archives",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Harris_1985_%281%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_Harris_1985_%281%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Cannes Film Festivali En İyi Erkek Oyuncu Ödülü, Altın Küre Ödülleri. Önemli eserleri: “Gladyatör”, “Vahşi Kahraman”, “Sporcunun Hayatı, 1963 filmi”",
+  "neden_onemli": "Ödül: Altın Küre Ödülleri, Cannes Film Festivali En İyi Erkek Oyuncu Ödülü. Önemli eserleri: “Gladyatör”, “Sporcunun Hayatı, 1963 filmi”, “Vahşi Kahraman”",
   "hassas": false,
   "turk": false
  },
@@ -207,13 +183,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q219640",
   "sitelink": 66,
-  "fotograf": {
-   "dosya": "Vincent Price 1945.jpg",
-   "lisans": "Public domain",
-   "yazar": "Toronto Star Photograph Archive",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Price_1945.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Vincent_Price_1945.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -235,13 +205,7 @@
   "defin_ulke": "Etiyopya",
   "wikidata_id": "Q52596",
   "sitelink": 63,
-  "fotograf": {
-   "dosya": "Abebe Bikila 1968c.jpg",
-   "lisans": "CC0",
-   "yazar": "Jack de Nijs for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abebe_Bikila_1968c.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Abebe_Bikila_1968c.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -261,13 +225,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q33978",
   "sitelink": 59,
-  "fotograf": {
-   "dosya": "Robert Delaunay portrait photograph.jpg",
-   "lisans": "Public domain",
-   "yazar": "AnonymousUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Delaunay_portrait_photograph.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Delaunay_portrait_photograph.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
@@ -289,13 +247,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q218690",
   "sitelink": 59,
-  "fotograf": {
-   "dosya": "Raymond Queneau S.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Jean-Max Albert",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond_Queneau_S.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Raymond_Queneau_S.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -317,13 +269,7 @@
   "defin_ulke": "Suudi Arabistan",
   "wikidata_id": "Q314978",
   "sitelink": 57,
-  "fotograf": {
-   "dosya": "London, Oriental 12009, fol. 269v Hadikat us-suada Zeynulabidin preaching in defence of Huseyin.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/London%2C_Oriental_12009%2C_fol._269v_Hadikat_us-suada_Zeynulabidin_preaching_in_defence_of_Huseyin.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:London%2C_Oriental_12009%2C_fol._269v_Hadikat_us-suada_Zeynulabidin_preaching_in_defence_of_Huseyin.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],

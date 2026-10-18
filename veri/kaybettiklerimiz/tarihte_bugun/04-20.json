@@ -33,13 +33,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q36184",
   "sitelink": 107,
-  "fotograf": {
-   "dosya": "Bram Stoker 1906.jpg",
-   "lisans": "Public domain",
-   "yazar": "unidentified photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bram_Stoker_1906.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bram_Stoker_1906.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -61,13 +55,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q57077",
   "sitelink": 97,
-  "fotograf": {
-   "dosya": "Ferdinand Braun.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_Braun.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ferdinand_Braun.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Mucit"
   ],
@@ -89,13 +77,7 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q505476",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "Avicii 2014 003cr.jpg",
-   "lisans": "CC BY 3.0",
-   "yazar": "The Perfect World Foundation",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Avicii_2014_003cr.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Avicii_2014_003cr.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Besteci"
   ],
@@ -117,13 +99,7 @@
   "defin_ulke": "Çad",
   "wikidata_id": "Q57350",
   "sitelink": 83,
-  "fotograf": {
-   "dosya": "Idriss Déby at the White House in 2014.jpg",
-   "lisans": "Public domain",
-   "yazar": "Office of the White House (Amanda Lucidon)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Idriss_D%C3%A9by_at_the_White_House_in_2014.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Idriss_D%C3%A9by_at_the_White_House_in_2014.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -134,34 +110,6 @@
   "hassas_nedeni": [
    "shot to the head"
   ],
-  "turk": false
- },
- {
-  "ad": "François Jacob",
-  "dogum_tarihi": "1920-06-17",
-  "vefat_tarihi": "2013-04-20",
-  "vefat_yasi": 92,
-  "dogum_yeri": "Nancy",
-  "vefat_yeri": "14. arrondissement",
-  "defin_yeri": "Montparnasse Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q218311",
-  "sitelink": 67,
-  "fotograf": {
-   "dosya": "François Jacob nobel.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois_Jacob_nobel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Jacob_nobel.jpg"
-  },
-  "meslek": [
-   "Film yapımcısı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Şansölye",
-  "hassas": false,
   "turk": false
  },
  {
@@ -176,13 +124,7 @@
   "defin_ulke": "Danimarka",
   "wikidata_id": "Q156617",
   "sitelink": 66,
-  "fotograf": {
-   "dosya": "Christian X of Denmark circa 1915.jpg",
-   "lisans": "Public domain",
-   "yazar": "{{Creator:https://www.loc.gov/pictures/related/?fi=name&q=Bain%20News%20Service; publisher; Bain News Service}}",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_X_of_Denmark_circa_1915.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Christian_X_of_Denmark_circa_1915.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -204,13 +146,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q191029",
   "sitelink": 65,
-  "fotograf": {
-   "dosya": "Giuseppe Peano.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe_Peano.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Giuseppe_Peano.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Filozof"
   ],
@@ -232,13 +168,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q153905",
   "sitelink": 61,
-  "fotograf": {
-   "dosya": "Paul Celan (1938).jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Celan_%281938%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Celan_%281938%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -260,13 +190,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q4517",
   "sitelink": 59,
-  "fotograf": {
-   "dosya": "37. Tagung 1987 Mediziner Sir Bernard Katz - W134Nr.125421a1 - Willy Pragher (cropped).jpg",
-   "lisans": "CC BY 3.0 de",
-   "yazar": "Willy Pragher",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/37._Tagung_1987_Mediziner_Sir_Bernard_Katz_-_W134Nr.125421a1_-_Willy_Pragher_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:37._Tagung_1987_Mediziner_Sir_Bernard_Katz_-_W134Nr.125421a1_-_Willy_Pragher_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Doktor"
   ],
@@ -288,13 +212,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q201646",
   "sitelink": 58,
-  "fotograf": {
-   "dosya": "George Clinton by Ezra Ames.jpg",
-   "lisans": "Public domain",
-   "yazar": "Ezra Ames (May 5, 1768 – February 23, 1836)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Clinton_by_Ezra_Ames.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:George_Clinton_by_Ezra_Ames.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -316,19 +234,35 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q200228",
   "sitelink": 57,
-  "fotograf": {
-   "dosya": "Benny Hill.JPG",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Ricardo Liberato",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benny_Hill.JPG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Benny_Hill.JPG"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hans Kelsen",
+  "dogum_tarihi": "1881-10-11",
+  "vefat_tarihi": "1973-04-19",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Prag",
+  "vefat_yeri": "Berkeley",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q84165",
+  "sitelink": 54,
+  "fotograf": null,
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü",
   "hassas": false,
   "turk": false
  }

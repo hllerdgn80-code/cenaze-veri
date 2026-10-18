@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Savaş Liyakat Haçı, Altın Parti Rozeti. Görev: büyükelçi, başbakan",
+  "neden_onemli": "Ödül: Altın Parti Rozeti, Savaş Liyakat Haçı. Görev: büyükelçi, başbakan",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Vladimir Nişanı, Osmaniye Nişanı. Önemli eserleri: “İki direkli Mercury”, “Dokuzuncu Dalga”",
+  "neden_onemli": "Ödül: Aziz Vladimir Nişanı, St. Anna Nişanı. Önemli eserleri: “Dokuzuncu Dalga”, “İki direkli Mercury”",
   "hassas": false,
   "turk": false
  },
@@ -280,6 +280,34 @@
   "turk": false
  },
  {
+  "ad": "Giacomo Meyerbeer",
+  "dogum_tarihi": "1791-09-05",
+  "vefat_tarihi": "1864-05-02",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Tasdorf",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Schönhauser Allee Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q105237",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Meyerbeer d'après P. Petit b 1865.jpg",
+   "lisans": "Public domain",
+   "yazar": "Au Ménestrel, Paris, 1865. Uploaded, stiched and restored by JLPC",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Aslan Heinrich Nişanı şövalyesi. Önemli eserleri: “Le prophète”, “Les Huguenots”, “L'Africaine”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "John Carew Eccles",
   "dogum_tarihi": "1903-01-27",
   "vefat_tarihi": "1997-05-02",
@@ -303,35 +331,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Rhodes Bursu, Kraliyet Madalyası. Görev: profesör",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Giacomo Meyerbeer",
-  "dogum_tarihi": "1791-09-05",
-  "vefat_tarihi": "1864-05-02",
-  "vefat_yasi": 72,
-  "dogum_yeri": "Tasdorf",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Schönhauser Allee Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q105237",
-  "sitelink": 59,
-  "fotograf": {
-   "dosya": "Meyerbeer d'après P. Petit b 1865.jpg",
-   "lisans": "Public domain",
-   "yazar": "Au Ménestrel, Paris, 1865. Uploaded, stiched and restored by JLPC",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Meyerbeer_d%27apr%C3%A8s_P._Petit_b_1865.jpg"
-  },
-  "meslek": [
-   "Besteci"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aslan Heinrich Nişanı şövalyesi. Önemli eserleri: “Le prophète”, “L'Africaine”, “Les Huguenots”",
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Rhodes Bursu. Görev: profesör",
   "hassas": false,
   "turk": false
  }

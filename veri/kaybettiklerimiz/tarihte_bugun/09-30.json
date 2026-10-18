@@ -67,7 +67,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q12674",
   "sitelink": 95,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Rudolf Diesel2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf_Diesel2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rudolf_Diesel2.jpg"
+  },
   "meslek": [
    "Mucit"
   ],
@@ -89,7 +95,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q181715",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Teresa-de-Lisieux.jpg",
+   "lisans": "Public domain",
+   "yazar": "Céline Martin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa-de-Lisieux.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Teresa-de-Lisieux.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -111,8 +123,14 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q102323",
-  "sitelink": 80,
-  "fotograf": null,
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Snorre Sturluson-Christian Krohg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christian Krohg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snorre_Sturluson-Christian_Krohg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Snorre_Sturluson-Christian_Krohg.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -137,7 +155,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q107416",
   "sitelink": 76,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Martin Perl - tau.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Perl_-_tau.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martin_Perl_-_tau.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -158,8 +182,14 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q106126",
-  "sitelink": 75,
-  "fotograf": null,
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Signoret Harcourt 1947 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Signoret_Harcourt_1947_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Signoret_Harcourt_1947_2.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -181,7 +211,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q184014",
   "sitelink": 66,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "CharlesRichter.jpg",
+   "lisans": "Public domain",
+   "yazar": "en:Caltech photograph",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CharlesRichter.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CharlesRichter.jpg"
+  },
   "meslek": [
    "Jeolog"
   ],
@@ -202,8 +238,14 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q11628",
-  "sitelink": 64,
-  "fotograf": null,
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Margaret Hamilton 1995.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Daphne Weld Nichols",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret_Hamilton_1995.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_1995.jpg"
+  },
   "meslek": [
    "Mühendis"
   ],
@@ -225,7 +267,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q105494",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "RMSt.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Kupal123",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RMSt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:RMSt.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -247,7 +295,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q223309",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "André Lwoff nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9_Lwoff_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Lwoff_nobel.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -269,13 +323,19 @@
   "defin_ulke": "Çin Halk Cumhuriyeti",
   "wikidata_id": "Q311189",
   "sitelink": 54,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "清 佚名 《清太祖天命皇帝朝服像》.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Çin imparatoru, han",
+  "neden_onemli": "Görev: han, Çin imparatoru",
   "hassas": false,
   "turk": false
  }

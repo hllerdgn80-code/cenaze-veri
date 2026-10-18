@@ -33,13 +33,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q1035",
   "sitelink": 279,
-  "fotograf": {
-   "dosya": "Charles Darwin portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "Herbert Rose Barraud",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Darwin_portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -61,13 +55,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q5679",
   "sitelink": 219,
-  "fotograf": {
-   "dosya": "Byron 1813 by Phillips.jpg",
-   "lisans": "Public domain",
-   "yazar": "Thomas Phillips",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Byron_1813_by_Phillips.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -83,19 +71,13 @@
   "vefat_tarihi": "1626-04-19",
   "vefat_yasi": 65,
   "dogum_yeri": "Londra",
-  "vefat_yeri": "Highgate",
+  "vefat_yeri": "Londra",
   "defin_yeri": "St Michael's Church, St Albans",
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q37388",
   "sitelink": 188,
-  "fotograf": {
-   "dosya": "Somer Francis Bacon.jpg",
-   "lisans": "Public domain",
-   "yazar": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Somer_Francis_Bacon.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -117,13 +99,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q2492",
   "sitelink": 147,
-  "fotograf": {
-   "dosya": "Bundesarchiv B 145 Bild-F078072-0004, Konrad Adenauer.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Katherine Young (1906–1993)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_B_145_Bild-F078072-0004%2C_Konrad_Adenauer.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F078072-0004%2C_Konrad_Adenauer.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -145,19 +121,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q82006",
   "sitelink": 138,
-  "fotograf": {
-   "dosya": "Benjamin Disraeli (1804–1881) cropped.png",
-   "lisans": "Public domain",
-   "yazar": "Cornelius Jabez Hughes",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benjamin_Disraeli_%281804%E2%80%931881%29_cropped.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Benjamin_Disraeli_%281804%E2%80%931881%29_cropped.png"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Hazine Bakanı, Birleşik Krallık Başbakanı",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
   "hassas": false,
   "turk": false
  },
@@ -174,13 +144,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q131018",
   "sitelink": 134,
-  "fotograf": {
-   "dosya": "Francois Rabelais - Portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "anonymous / Unidentified painter",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francois_Rabelais_-_Portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Francois_Rabelais_-_Portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -202,13 +166,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q37463",
   "sitelink": 131,
-  "fotograf": {
-   "dosya": "Pierre Curie by Dujardin c1906.jpg",
-   "lisans": "Public domain",
-   "yazar": "Dujardin",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Curie_by_Dujardin_c1906.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Curie_by_Dujardin_c1906.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -230,13 +188,7 @@
   "defin_ulke": "Meksika",
   "wikidata_id": "Q46739",
   "sitelink": 121,
-  "fotograf": {
-   "dosya": "Paz0.jpg",
-   "lisans": "Public domain",
-   "yazar": "No machine-readable author provided. Pintorpereza~commonswiki assumed (based on copyright claims).",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paz0.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Paz0.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -258,13 +210,7 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q52937",
   "sitelink": 86,
-  "fotograf": {
-   "dosya": "Queen Christina (Sébastien Bourdon) - Nationalmuseum - 18075FXD.jpg",
-   "lisans": "Public domain",
-   "yazar": "Sébastien Bourdon",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Christina_%28S%C3%A9bastien_Bourdon%29_-_Nationalmuseum_-_18075FXD.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Christina_%28S%C3%A9bastien_Bourdon%29_-_Nationalmuseum_-_18075FXD.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -286,13 +232,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q49216",
   "sitelink": 80,
-  "fotograf": {
-   "dosya": "Waltermondaleasdiplomat.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waltermondaleasdiplomat.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Waltermondaleasdiplomat.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -313,14 +253,8 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q187520",
-  "sitelink": 79,
-  "fotograf": {
-   "dosya": "Charles Sanders Peirce.jpg",
-   "lisans": "Public domain",
-   "yazar": "Napoleon Sarony",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Sanders_Peirce.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Sanders_Peirce.jpg"
-  },
+  "sitelink": 80,
+  "fotograf": null,
   "meslek": [
    "Filozof"
   ],

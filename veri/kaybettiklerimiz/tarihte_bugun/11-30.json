@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Canterville Hortlağı”, “Dorian Gray'in Portresi”, “Sosyalizm ve İnsan Ruhu”",
+  "neden_onemli": "Önemli eserleri: “Dorian Gray'in Portresi”, “Sosyalizm ve İnsan Ruhu”, “Canterville Hortlağı”",
   "hassas": false,
   "turk": false
  },
@@ -83,7 +83,7 @@
   "vefat_tarihi": "2018-11-30",
   "vefat_yasi": 94,
   "dogum_yeri": "Milton",
-  "vefat_yeri": "Houston",
+  "vefat_yeri": "West Oaks",
   "defin_yeri": "George Bush Presidential Library",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -101,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Banyo Nişanı. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Banyo Nişanı. Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Amerika Birleşik Devletleri Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -185,7 +185,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Puşkin Madalyası. Görev: Çin Komünist Partisi Merkezi Askeri Komisyonu Başkanı, Çin Komünist Partisi Genel Sekreteri",
+  "neden_onemli": "Ödül: Puşkin Madalyası, Brezilya Ulusal Güney Haç Nişanı. Görev: Çin Halk Cumhuriyeti Başkanı, Çin Komünist Partisi Genel Sekreteri",
   "hassas": false,
   "turk": false
  },
@@ -211,7 +211,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -268,7 +268,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, komutan subay",
+  "neden_onemli": "Görev: Roma imparatoru, Bizans imparatoru",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"

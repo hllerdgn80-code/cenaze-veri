@@ -11,13 +11,7 @@
   "defin_ulke": "Hindistan",
   "wikidata_id": "Q8597",
   "sitelink": 168,
-  "fotograf": {
-   "dosya": "Contemporary seated portrait of Akbar, 1605.jpg",
-   "lisans": "Public domain",
-   "yazar": "1605 artist",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Contemporary_seated_portrait_of_Akbar%2C_1605.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Contemporary_seated_portrait_of_Akbar%2C_1605.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -39,13 +33,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q18111",
   "sitelink": 96,
-  "fotograf": {
-   "dosya": "Li Keqiang (20230104).jpg",
-   "lisans": "Public domain",
-   "yazar": "Office of the Press Secretary",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Li_Keqiang_%2820230104%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Li_Keqiang_%2820230104%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -67,14 +55,8 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q56189",
-  "sitelink": 94,
-  "fotograf": {
-   "dosya": "Lise Meitner (1878-1968), lecturing at Catholic University, Washington, D.C., 1946.jpg",
-   "lisans": "Public domain",
-   "yazar": "Smithsonian Institution",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lise_Meitner_%281878-1968%29%2C_lecturing_at_Catholic_University%2C_Washington%2C_D.C.%2C_1946.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_%281878-1968%29%2C_lecturing_at_Catholic_University%2C_Washington%2C_D.C.%2C_1946.jpg"
-  },
+  "sitelink": 95,
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -97,13 +79,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q102851",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Boethius initial consolation philosophy.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boethius_initial_consolation_philosophy.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Boethius_initial_consolation_philosophy.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -128,13 +104,7 @@
   "defin_ulke": "Arjantin",
   "wikidata_id": "Q170899",
   "sitelink": 83,
-  "fotograf": {
-   "dosya": "Presidente Nestor Kirchner (cropped).jpg",
-   "lisans": "CC BY 2.5 ar",
-   "yazar": "Casa Rosada - Gobierno de la Nación",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Presidente_Nestor_Kirchner_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Presidente_Nestor_Kirchner_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -156,19 +126,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q189080",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Lou Reed at the Hop Farm Music Festival.jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Man Alive!",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lou_Reed_at_the_Hop_Farm_Music_Festival.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Lou_Reed_at_the_Hop_Farm_Music_Festival.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Rock and Roll Hall of Fame, Grammy Ödülü. Önemli eserleri: “Walk on the Wild Side”, “Transformer”",
+  "neden_onemli": "Ödül: Rock and Roll Hall of Fame, Grammy Ödülü. Önemli eserleri: “Transformer”, “Walk on the Wild Side”",
   "hassas": false,
   "turk": false
  },
@@ -304,7 +268,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, Altın Yıldız Madalyası",
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, Askerî Hizmet madalyası",
   "hassas": false,
   "turk": false
  },

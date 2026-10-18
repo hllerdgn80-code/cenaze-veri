@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Venedik Taciri”, “Fırtına”, “Romeo ve Juliet”",
+  "neden_onemli": "Önemli eserleri: “Fırtına”, “Venedik Taciri”, “Romeo ve Juliet”",
   "hassas": false,
   "turk": false
  },
@@ -102,7 +102,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -151,7 +151,7 @@
   "fotograf": {
    "dosya": "Benoît XII Paolo de Siena 1341 crypte de St Pierre de Rome.jpg",
    "lisans": "Public domain",
-   "yazar": "Original uploaded by: JPS68",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beno%C3%AEt_XII_Paolo_de_Siena_1341_crypte_de_St_Pierre_de_Rome.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Beno%C3%AEt_XII_Paolo_de_Siena_1341_crypte_de_St_Pierre_de_Rome.jpg"
   },

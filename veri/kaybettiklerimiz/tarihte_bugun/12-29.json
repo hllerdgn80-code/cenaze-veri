@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Duino Ağıtları”, “Orpheus Soneleri (Orpheus'a Soneler)”, “Malte Laurids Brigge'nin Notları”",
+  "neden_onemli": "Önemli eserleri: “Orpheus Soneleri (Orpheus'a Soneler)”, “Duino Ağıtları”, “Malte Laurids Brigge'nin Notları”",
   "hassas": false,
   "turk": false
  },
@@ -140,6 +140,34 @@
   "turk": false
  },
  {
+  "ad": "Andreï Tarkovski",
+  "dogum_tarihi": "1932-04-04",
+  "vefat_tarihi": "1986-12-29",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Zavrazhye",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Sainte-Geneviève-des-Bois Russian Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q853",
+  "sitelink": 100,
+  "fotograf": {
+   "dosya": "Andrei Tarkovsky by Boris Baldin.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Boris Mikhailovich Baldin (1929-2005) - my father",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Tarkovsky_by_Boris_Baldin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Tarkovsky_by_Boris_Baldin.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Cannes Film Festivali En İyi Yönetmen Ödülü, Cannes Film Festivali Büyük Ödülü. Önemli eserleri: “Nostalji”, “Kurban”, “Solaris”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Harold Macmillan",
   "dogum_tarihi": "1894-02-10",
   "vefat_tarihi": "1986-12-29",
@@ -163,7 +191,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Büyük Katolik Isabel Nişanı. Görev: Birleşik Krallık Başbakanı, Savunma Bakanı",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Büyük Katolik Isabel Nişanı. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
   "hassas": false,
   "turk": false
  },
@@ -219,7 +247,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Prix de Rome. Önemli eserleri: “Horas Kardeşlerin Yemini”, “Le Sacre de Napoléon”, “Marat'ın Ölümü”",
+  "neden_onemli": "Ödül: Prix de Rome. Önemli eserleri: “Le Sacre de Napoléon”, “Horas Kardeşlerin Yemini”, “Marat'ın Ölümü”",
   "hassas": false,
   "turk": false
  },
@@ -305,34 +333,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Kronecker-Weber teoremi”, “Kronecker delta”. Görev: editör",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Christina Rossetti",
-  "dogum_tarihi": "1830-12-05",
-  "vefat_tarihi": "1894-12-29",
-  "vefat_yasi": 64,
-  "dogum_yeri": "Londra",
-  "vefat_yeri": "Londra",
-  "defin_yeri": "Highgate Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q236596",
-  "sitelink": 66,
-  "fotograf": {
-   "dosya": "Christina Rossetti 4.jpg",
-   "lisans": "Public domain",
-   "yazar": "Dante Gabriel Rossetti",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christina_Rossetti_4.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Christina_Rossetti_4.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

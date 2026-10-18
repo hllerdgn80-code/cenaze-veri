@@ -286,7 +286,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q153104",
   "sitelink": 67,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Otto Dix, May 1955, by Hans-Joachim Koch (2).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Hans-Joachim Koch",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Dix%2C_May_1955%2C_by_Hans-Joachim_Koch_%282%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Dix%2C_May_1955%2C_by_Hans-Joachim_Koch_%282%29.jpg"
+  },
   "meslek": [
    "Ressam"
   ],

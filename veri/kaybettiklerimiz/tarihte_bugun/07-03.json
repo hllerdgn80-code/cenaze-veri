@@ -33,7 +33,13 @@
   "defin_ulke": "Çekya",
   "wikidata_id": "Q905",
   "sitelink": 242,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Franz Kafka, 1923.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Kafka%2C_1923.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%2C_1923.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -55,7 +61,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q44301",
   "sitelink": 150,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jim Morrison 1969.JPG",
+   "lisans": "Public domain",
+   "yazar": "Elektra Records",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim_Morrison_1969.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_1969.JPG"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -77,7 +89,13 @@
   "defin_ulke": "İsrail",
   "wikidata_id": "Q44003",
   "sitelink": 104,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Theodor Herzl.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Pietzner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodor_Herzl.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Theodor_Herzl.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -99,7 +117,13 @@
   "defin_ulke": "Irak",
   "wikidata_id": "Q302835",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Nasir al-Din Tusi.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasir_al-Din_Tusi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nasir_al-Din_Tusi.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -121,7 +145,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q151494",
   "sitelink": 73,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "MehmedV.jpg",
+   "lisans": "Public domain",
+   "yazar": "P. S. Rogers",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MehmedV.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MehmedV.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -265,7 +295,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Kızıl Bayrak İşçi Nişanı",
+  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, \"SSCB Silahlı Kuvvetlerinin 60 Yılı\" Jübile Madalyası",
   "hassas": false,
   "turk": false
  },

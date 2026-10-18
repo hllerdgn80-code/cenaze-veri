@@ -117,13 +117,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q183266",
   "sitelink": 134,
-  "fotograf": {
-   "dosya": "Samuel Johnson by Joshua Reynolds.jpg",
-   "lisans": "Public domain",
-   "yazar": "Joshua Reynolds",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Johnson_by_Joshua_Reynolds.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Samuel_Johnson_by_Joshua_Reynolds.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -145,13 +139,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q61064",
   "sitelink": 103,
-  "fotograf": {
-   "dosya": "Wassily kandinsky.jpg",
-   "lisans": "Public domain",
-   "yazar": "未知上傳者",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wassily_kandinsky.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Wassily_kandinsky.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -173,13 +161,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q102454",
   "sitelink": 96,
-  "fotograf": {
-   "dosya": "Paul Samuelson.gif",
-   "lisans": "CC BY 1.0",
-   "yazar": "Innovation & Business Architectures, Inc.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Samuelson.gif",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Samuelson.gif"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -201,13 +183,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q163900",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "Franciscus de Xabier.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franciscus_de_Xabier.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Franciscus_de_Xabier.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -229,13 +205,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q104582",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Viktor-grignard (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Fotograv. - Generalstabens Litografiska Anstalt Stockholm",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viktor-grignard_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Viktor-grignard_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Kimyager"
   ],
@@ -258,13 +228,7 @@
   "defin_ulke": "Portekiz",
   "wikidata_id": "Q587697",
   "sitelink": 69,
-  "fotograf": {
-   "dosya": "D. Afonso Henriques - The Portuguese Genealogy (Genealogia dos Reis de Portugal).png",
-   "lisans": "Public domain",
-   "yazar": "António de Holanda",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/D._Afonso_Henriques_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:D._Afonso_Henriques_-_The_Portuguese_Genealogy_%28Genealogia_dos_Reis_de_Portugal%29.png"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -286,13 +250,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q199481",
   "sitelink": 69,
-  "fotograf": {
-   "dosya": "Mahmud1.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahmud1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Mahmud1.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": "24. Osmanlı padişahı (1730–1754)",
   "aciklama_kaynak": "wikidata_tr",
@@ -313,13 +271,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q188623",
   "sitelink": 67,
-  "fotograf": {
-   "dosya": "Francois Viete.jpeg",
-   "lisans": "Public domain",
-   "yazar": "The original uploader was Dr. Manuel at German Wikipedia.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francois_Viete.jpeg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Francois_Viete.jpeg"
-  },
+  "fotograf": null,
   "meslek": [
    "Matematikçi"
   ],

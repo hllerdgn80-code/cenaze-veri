@@ -243,7 +243,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Bronz Yıldız Madalyası",
+  "neden_onemli": "Ödül: Bronz Yıldız Madalyası, II. Dünya Savaşı Zafer Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -260,11 +260,11 @@
   "wikidata_id": "Q6714",
   "sitelink": 58,
   "fotograf": {
-   "dosya": "Wilhelm Grimm.png",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "State22",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm_Grimm.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Wilhelm_Grimm.png"
+   "dosya": "Wilhelm Grimm Daguerreotype.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hermann Biow",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm_Grimm_Daguerreotype.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wilhelm_Grimm_Daguerreotype.jpg"
   },
   "meslek": [
    "Yazar"

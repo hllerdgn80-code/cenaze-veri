@@ -10,7 +10,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q110126",
-  "sitelink": 51,
+  "sitelink": 52,
   "fotograf": {
    "dosya": "Hrant Dink Barış Anıtı.JPG",
    "lisans": "CC BY-SA 3.0",
@@ -65,7 +65,7 @@
   "vefat_tarihi": "2000-01-19",
   "vefat_yasi": 85,
   "dogum_yeri": "Viyana",
-  "vefat_yeri": "Orlando",
+  "vefat_yeri": "Casselbery",
   "defin_yeri": "Zentralfriedhof",
   "defin_il": null,
   "defin_ulke": "Avusturya",
@@ -98,7 +98,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q148285",
-  "sitelink": 97,
+  "sitelink": 98,
   "fotograf": {
    "dosya": "Bhagwan beweging gekwetst door reclame-affiche van het NRC met de tekst profeet, Bestanddeelnr 933-0734-cropped.jpg",
    "lisans": "CC0",
@@ -167,7 +167,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: İtalya Başbakanı, Avrupa Parlamentosu milletvekilliği",
+  "neden_onemli": "Görev: Avrupa Parlamentosu milletvekilliği, İtalya Başbakanı",
   "hassas": false,
   "turk": false
  },
@@ -252,6 +252,34 @@
   "turk": false
  },
  {
+  "ad": "Gaspard Ulliel",
+  "dogum_tarihi": "1984-11-25",
+  "vefat_tarihi": "2022-01-19",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Neuilly-sur-Seine",
+  "vefat_yeri": "Centre hospitalier universitaire de Grenoble",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q497770",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Gaspard Ulliel Césars 2015.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Georges Biard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaspard_Ulliel_C%C3%A9sars_2015.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gaspard_Ulliel_C%C3%A9sars_2015.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Dorothy Malone",
   "dogum_tarihi": "1924-01-30",
   "vefat_tarihi": "2018-01-19",
@@ -269,34 +297,6 @@
    "yazar": "Trailer screenshot",
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Written_on_the_wind8_%282%29.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Written_on_the_wind8_%282%29.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Gaspard Ulliel",
-  "dogum_tarihi": "1984-11-25",
-  "vefat_tarihi": "2022-01-19",
-  "vefat_yasi": 37,
-  "dogum_yeri": "Neuilly-sur-Seine",
-  "vefat_yeri": "Centre hospitalier universitaire de Grenoble",
-  "defin_yeri": "Père Lachaise Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q497770",
-  "sitelink": 53,
-  "fotograf": {
-   "dosya": "Gaspard Ulliel Césars 2015.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Georges Biard",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaspard_Ulliel_C%C3%A9sars_2015.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Gaspard_Ulliel_C%C3%A9sars_2015.jpg"
   },
   "meslek": [
    "Oyuncu"

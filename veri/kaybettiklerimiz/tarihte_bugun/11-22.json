@@ -61,7 +61,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9696",
   "sitelink": 249,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John F. Kennedy, White House color photo portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cecil W. Stoughton",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -87,7 +93,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q45765",
   "sitelink": 146,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jack London young.jpg",
+   "lisans": "Public domain",
+   "yazar": "published by L C Page and Company Boston 1903",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack_London_young.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jack_London_young.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -112,7 +124,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q81447",
   "sitelink": 144,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Aldous Huxley 1947.png",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aldous_Huxley_1947.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aldous_Huxley_1947.png"
+  },
   "meslek": [
    "Şair"
   ],
@@ -134,7 +152,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9204",
   "sitelink": 132,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "CS Lewis photo on dust jacket.jpg",
+   "lisans": "Public domain",
+   "yazar": "John S. Murray",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CS_Lewis_photo_on_dust_jacket.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CS_Lewis_photo_on_dust_jacket.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -155,8 +179,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q202878",
-  "sitelink": 111,
-  "fotograf": null,
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "Mae West - 1936.jpg",
+   "lisans": "Public domain",
+   "yazar": "Paramount Pictures",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mae_West_-_1936.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mae_West_-_1936.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -179,7 +209,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q60059",
   "sitelink": 94,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Tommaso da modena, ritratti di domenicani (vescovo) 1352 150cm, treviso, ex convento di san niccolò, sala del capitolo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tommaso da Modena",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tommaso_da_modena%2C_ritratti_di_domenicani_%28vescovo%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena%2C_ritratti_di_domenicani_%28vescovo%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -201,7 +237,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q53009",
   "sitelink": 86,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bernardo Bertolucci.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "© Elisa Caldana / Associazione Culturale Cinemazero from Pordenone, Italia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernardo_Bertolucci.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bernardo_Bertolucci.jpg"
+  },
   "meslek": [
    "Sinema oyuncusu"
   ],
@@ -223,7 +265,13 @@
   "defin_ulke": "Monako",
   "wikidata_id": "Q217619",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anthony Burgess (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Open Media Ltd.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Burgess_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anthony_Burgess_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -245,13 +293,19 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q215022",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Arthur Stanley Eddington.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Grantham Bain Collection, Library of Congress Prints and Photographs Division Washington, D.C.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Stanley_Eddington.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Stanley_Eddington.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Henry Draper Madalyası. Önemli eserleri: “Radyatif transfer”, “Kappa mekanizması”, “işınım bölgesi”",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Bruce Madalyası. Önemli eserleri: “Radyatif transfer”, “Kappa mekanizması”, “işınım bölgesi”",
   "hassas": false,
   "turk": false
  },
@@ -267,7 +321,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q114749",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Portrait of Sultan Ahmet I (r. 1603–17) (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "17th century artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Sultan_Ahmet_I_%28r._1603%E2%80%9317%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_Ahmet_I_%28r._1603%E2%80%9317%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],

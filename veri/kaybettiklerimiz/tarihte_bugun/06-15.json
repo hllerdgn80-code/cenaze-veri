@@ -50,6 +50,34 @@
   "turk": true
  },
  {
+  "ad": "Şehzade Mehmed Burhaneddin",
+  "dogum_tarihi": "1885-12-19",
+  "vefat_tarihi": "1949-06-05",
+  "vefat_yasi": 63,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q19737728",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "Şehzade Mehmed Burhaneddin Efendi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Tarihden sb",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9Eehzade_Mehmed_Burhaneddin_Efendi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9Eehzade_Mehmed_Burhaneddin_Efendi.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
   "ad": "James K. Polk",
   "dogum_tarihi": "1795-11-02",
   "vefat_tarihi": "1849-06-15",
@@ -116,7 +144,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q182408",
-  "sitelink": 85,
+  "sitelink": 86,
   "fotograf": {
    "dosya": "Glenda Jackson.JPG",
    "lisans": "Public domain",
@@ -301,34 +329,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: En İyi Yönetmen National Board of Review Ödülü, İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü, En İyi Sanat Yönetmeni Akademi Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Arthur Lewis",
-  "dogum_tarihi": "1915-01-23",
-  "vefat_tarihi": "1991-06-15",
-  "vefat_yasi": 76,
-  "dogum_yeri": "Castries",
-  "vefat_yeri": "Bridgetown",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q272519",
-  "sitelink": 56,
-  "fotograf": {
-   "dosya": "Arthur Lewis (1915-1991).jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Ulises Icardi",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Lewis_%281915-1991%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Lewis_%281915-1991%29.jpg"
-  },
-  "meslek": [
-   "Akademisyen"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
   "hassas": false,
   "turk": false
  }

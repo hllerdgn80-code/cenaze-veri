@@ -10,7 +10,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q1388882",
-  "sitelink": 21,
+  "sitelink": 22,
   "fotograf": null,
   "meslek": [
    "Şair"
@@ -22,7 +22,7 @@
   "turk": true
  },
  {
-  "ad": "Q937",
+  "ad": "Albert Einstein",
   "dogum_tarihi": "1879-03-14",
   "vefat_tarihi": "1955-04-18",
   "vefat_yasi": 76,
@@ -32,7 +32,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q937",
-  "sitelink": 321,
+  "sitelink": 322,
   "fotograf": {
    "dosya": "Albert Einstein Head cleaned.jpg",
    "lisans": "Public domain",
@@ -171,13 +171,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q236630",
   "sitelink": 67,
-  "fotograf": {
-   "dosya": "Pagnol Harcourt 1948.jpg",
-   "lisans": "Public domain",
-   "yazar": "Studio Harcourt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pagnol_Harcourt_1948.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Pagnol_Harcourt_1948.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -199,13 +193,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q271809",
   "sitelink": 60,
-  "fotograf": {
-   "dosya": "In primum Euclidis elementorum librum 01.jpg",
-   "lisans": "Public domain",
-   "yazar": "Euclid Francesco Barozzi",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/In_primum_Euclidis_elementorum_librum_01.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:In_primum_Euclidis_elementorum_librum_01.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -227,19 +215,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q298985",
   "sitelink": 56,
-  "fotograf": {
-   "dosya": "WilliamRufusKing.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WilliamRufusKing.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:WilliamRufusKing.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: büyükelçi, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, büyükelçi",
   "hassas": false,
   "turk": false
  },
@@ -255,13 +237,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q234050",
   "sitelink": 55,
-  "fotograf": {
-   "dosya": "Portrait of Erasmus Darwin by Joseph Wright of Derby (1792).jpg",
-   "lisans": "Public domain",
-   "yazar": "Joseph Wright of Derby",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Erasmus_Darwin_by_Joseph_Wright_of_Derby_%281792%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Erasmus_Darwin_by_Joseph_Wright_of_Derby_%281792%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -283,13 +259,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q232305",
   "sitelink": 55,
-  "fotograf": {
-   "dosya": "Roger Wolcott Sperry.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger_Wolcott_Sperry.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Roger_Wolcott_Sperry.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Doktor"
   ],
@@ -305,19 +275,13 @@
   "vefat_tarihi": "1898-04-18",
   "vefat_yasi": 72,
   "dogum_yeri": "Paris",
-  "vefat_yeri": "Rennes",
+  "vefat_yeri": "Paris",
   "defin_yeri": "Montmartre Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q203828",
   "sitelink": 53,
-  "fotograf": {
-   "dosya": "GustaveMoreau02.jpg",
-   "lisans": "Public domain",
-   "yazar": "Gustave Moreau",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GustaveMoreau02.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:GustaveMoreau02.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],

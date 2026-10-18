@@ -40,7 +40,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q104190",
   "sitelink": 90,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Retuched Painting of Robert Walpole.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jean-Baptiste van Loo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Retuched_Painting_of_Robert_Walpole.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Retuched_Painting_of_Robert_Walpole.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -62,7 +68,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q185832",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Emanuel Swedenborg, 1688-1772, ämbetsman (Per Krafft d.ä.) - Nationalmuseum - 15710.tif",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Per Krafft the Elder",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emanuel_Swedenborg%2C_1688-1772%2C_%C3%A4mbetsman_%28Per_Krafft_d.%C3%A4.%29_-_Nationalmuseum_-_15710.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emanuel_Swedenborg%2C_1688-1772%2C_%C3%A4mbetsman_%28Per_Krafft_d.%C3%A4.%29_-_Nationalmuseum_-_15710.tif"
+  },
   "meslek": [
    "Şair"
   ],
@@ -84,7 +96,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q188128",
   "sitelink": 82,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "AA Abrikosov ANL1.jpg",
+   "lisans": "Public domain",
+   "yazar": "AA_Abrikosov_and_VL_Ginzburg_ANL.jpg: ANL.gov derivative work: Materialscientist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AA_Abrikosov_ANL1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AA_Abrikosov_ANL1.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -106,7 +124,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q102527",
   "sitelink": 82,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Scott of the Antarctic (bw) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Henry Maull (1829–1914) and John Fox (1832–1907)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott_of_the_Antarctic_%28bw%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Scott_of_the_Antarctic_%28bw%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Kurgu olmayan eser yazarı"
   ],
@@ -128,22 +152,27 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q34013",
   "sitelink": 79,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Georges Seurat 1888 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Seurat_1888_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_1888_%28cropped%29.jpg"
+  },
   "meslek": [
    "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası”, “Asnières'de Yıkananlar”",
+  "neden_onemli": "Önemli eserleri: “Asnières'de Yıkananlar”, “Grande Jatte Adası'nda Bir Pazar Öğleden Sonrası”",
   "hassas": false,
   "turk": false
  },
  {
   "ad": "IV. Henry",
-  "dogum_tarihi": "1367-04",
+  "dogum_tarihi": "1367-04-23",
   "vefat_tarihi": "1413-03-29",
-  "vefat_yasi": 46,
-  "vefat_yasi_yaklasik": true,
+  "vefat_yasi": 45,
   "dogum_yeri": "Bolingbroke Kalesi",
   "vefat_yeri": "Westminster",
   "defin_yeri": "Canterbury Katedrali",
@@ -151,7 +180,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q161866",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Illumination of Henry IV (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "The National Archives UK",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Illumination_of_Henry_IV_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Illumination_of_Henry_IV_%28cropped%29.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
@@ -195,7 +230,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q229990",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "MJK 37447 Agnès Varda (Berlinale 2019) (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Martin Kraft",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MJK_37447_Agn%C3%A8s_Varda_%28Berlinale_2019%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MJK_37447_Agn%C3%A8s_Varda_%28Berlinale_2019%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Film yönetmeni"
   ],
@@ -217,7 +258,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q44086",
   "sitelink": 63,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Carl Orff um 1970.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Orff-Zentrum München",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Orff_um_1970.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Orff_um_1970.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -239,13 +286,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q105487",
   "sitelink": 62,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Identite-MauriceJarre-1950-Sacem.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Identite-MauriceJarre-1950-Sacem.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Identite-MauriceJarre-1950-Sacem.png"
+  },
   "meslek": [
    "Besteci"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Müzik Altın Küre Ödülü, BAFTA En İyi Özgün Müzik Ödülü. Aday olduğu ödül: En İyi Özgün Şarkı Akademi Ödülü, En İyi Film Müziği Akademi Ödülü",
+  "neden_onemli": "Ödül: En İyi Müzik Altın Küre Ödülü, BAFTA En İyi Özgün Müzik Ödülü. Aday olduğu ödül: En İyi Film Müziği Akademi Ödülü, En İyi Özgün Şarkı Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -261,7 +314,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q52930",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "GustavIII.jpg",
+   "lisans": "Public domain",
+   "yazar": "Workshop of Alexander Roslin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GustavIII.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GustavIII.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],

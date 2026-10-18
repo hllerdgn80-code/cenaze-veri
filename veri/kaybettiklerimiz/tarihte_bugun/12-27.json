@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Pakistan başbakanı, parti lideri",
+  "neden_onemli": "Görev: Pakistan başbakanı, Pakistan Hazine ve Maliye Bakanlığı",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -227,6 +227,34 @@
   "turk": false
  },
  {
+  "ad": "Dian Fossey",
+  "dogum_tarihi": "1932-01-16",
+  "vefat_tarihi": "1985-12-26",
+  "vefat_yasi": 53,
+  "dogum_yeri": "San Francisco",
+  "vefat_yeri": "Karisoke Research Center",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q234224",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Dian Fossey October 1968.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tribune Publishing, no photographer credited",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dian_Fossey_October_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dian_Fossey_October_1968.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Urbain V",
   "dogum_tarihi": "1310",
   "vefat_tarihi": "1370-12-27",
@@ -242,7 +270,7 @@
   "fotograf": {
    "dosya": "Simone dei crocifissi, urbano V, 1375 ca., forse dalla cattedrale di s. pietro 01 (cropped).jpg",
    "lisans": "Public domain",
-   "yazar": "Sailko",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_dei_crocifissi%2C_urbano_V%2C_1375_ca.%2C_forse_dalla_cattedrale_di_s._pietro_01_%28cropped%29.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Simone_dei_crocifissi%2C_urbano_V%2C_1375_ca.%2C_forse_dalla_cattedrale_di_s._pietro_01_%28cropped%29.jpg"
   },
@@ -252,34 +280,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Papa, başrahip",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Dian Fossey",
-  "dogum_tarihi": "1932-01-16",
-  "vefat_tarihi": "1985-12-26",
-  "vefat_yasi": 53,
-  "dogum_yeri": "San Francisco",
-  "vefat_yeri": "Karisoke Research Center",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q234224",
-  "sitelink": 78,
-  "fotograf": {
-   "dosya": "Dian Fossey October 1968.jpg",
-   "lisans": "Public domain",
-   "yazar": "Tribune Publishing, no photographer credited",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dian_Fossey_October_1968.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Dian_Fossey_October_1968.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

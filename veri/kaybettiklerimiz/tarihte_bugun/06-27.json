@@ -55,7 +55,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Misopogon”. Görev: Augustus, kayser",
+  "neden_onemli": "Önemli eserleri: “Misopogon”. Görev: kayser, Romalı konsül",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -142,7 +142,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Onur Rozeti Nişanı, Halk Kardeşliği Nişanı",
+  "neden_onemli": "Ödül: Halk Kardeşliği Nişanı, Onur Rozeti Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -170,7 +170,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı, Bambi Ödülleri",
+  "neden_onemli": "Ödül: Bambi Ödülleri, İtalya Cumhuriyeti Liyakat Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -213,7 +213,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q297425",
-  "sitelink": 62,
+  "sitelink": 63,
   "fotograf": {
    "dosya": "Alvin Toffler 02.jpg",
    "lisans": "CC BY-SA 2.0",

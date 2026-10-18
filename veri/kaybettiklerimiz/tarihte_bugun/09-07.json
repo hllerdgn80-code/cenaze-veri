@@ -55,41 +55,7 @@
   "defin_ulke": "Fas",
   "wikidata_id": "Q164535",
   "sitelink": 90,
-  "fotograf": {
-   "dosya": "Mobutu.jpg",
-   "lisans": "Public domain",
-   "yazar": "Frank Hall",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mobutu.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Mobutu.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "I. Faysal",
-  "dogum_tarihi": "1885-05-20",
-  "vefat_tarihi": "1933-09-08",
-  "vefat_yasi": 48,
-  "dogum_yeri": "Mekke",
-  "vefat_yeri": "Bern",
-  "defin_yeri": "Iraq Royal Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Irak",
-  "wikidata_id": "Q212486",
-  "sitelink": 72,
-  "fotograf": {
-   "dosya": "Faisal I, King of Syria and King of Iraq.jpg",
-   "lisans": "Public domain",
-   "yazar": "Vandyk photographic studio",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -111,13 +77,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q19009",
   "sitelink": 63,
-  "fotograf": {
-   "dosya": "Edwin McMillan Nobel.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nobel Foundation",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edwin_McMillan_Nobel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Edwin_McMillan_Nobel.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -139,13 +99,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q267814",
   "sitelink": 61,
-  "fotograf": {
-   "dosya": "MarshaHunt.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "CBS Television",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MarshaHunt.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:MarshaHunt.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -167,13 +121,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q65917",
   "sitelink": 57,
-  "fotograf": {
-   "dosya": "Fotothek df ps 0000064 Bildnisse - Porträts ^ Politiker.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Richard Peter",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek_df_ps_0000064_Bildnisse_-_Portr%C3%A4ts_%5E_Politiker.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Fotothek_df_ps_0000064_Bildnisse_-_Portr%C3%A4ts_%5E_Politiker.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -195,13 +143,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q310992",
   "sitelink": 54,
-  "fotograf": {
-   "dosya": "Buddha Yodfa Chulaloke portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_Yodfa_Chulaloke_portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Buddha_Yodfa_Chulaloke_portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -223,13 +165,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q211763",
   "sitelink": 53,
-  "fotograf": {
-   "dosya": "William Holman Hunt - Selfportrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "William Holman Hunt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Holman_Hunt_-_Selfportrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Holman_Hunt_-_Selfportrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
@@ -251,19 +187,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q317792",
   "sitelink": 50,
-  "fotograf": {
-   "dosya": "Cosmonaut Polyakov Watches Discovery's Rendezvous With Mir crop.jpg",
-   "lisans": "Public domain",
-   "yazar": "NASA",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmonaut_Polyakov_Watches_Discovery%27s_Rendezvous_With_Mir_crop.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Cosmonaut_Polyakov_Watches_Discovery%27s_Rendezvous_With_Mir_crop.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Doktor"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Yıldız Madalyası, Asturias Prensliği Ödülü",
+  "neden_onemli": "Ödül: Altın Yıldız Madalyası, SSCB Kozmonotları Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -279,13 +209,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q706931",
   "sitelink": 49,
-  "fotograf": {
-   "dosya": "Photo of AJP Taylor on dust jacket of Bismarck The Man and the Statesman.jpg",
-   "lisans": "Public domain",
-   "yazar": "Gillman & Soame",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_AJP_Taylor_on_dust_jacket_of_Bismarck_The_Man_and_the_Statesman.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_AJP_Taylor_on_dust_jacket_of_Bismarck_The_Man_and_the_Statesman.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Tarihçi"
   ],
@@ -307,19 +231,35 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q167997",
   "sitelink": 48,
-  "fotograf": {
-   "dosya": "Otto Schmidt.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Schmidt.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Schmidt.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kızıl Yıldız Nişanı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Önemli eserleri: “Büyük Sovyet Ansiklopedisi”, “Krull-Schmidt teoremi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q324726",
+  "dogum_tarihi": "1992-01-19",
+  "vefat_tarihi": "2018-09-07",
+  "vefat_yasi": 26,
+  "dogum_yeri": "Pittsburgh",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Homewood Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q324726",
+  "sitelink": 47,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

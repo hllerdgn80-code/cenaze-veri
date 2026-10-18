@@ -84,6 +84,35 @@
   "turk": false
  },
  {
+  "ad": "Francis Drake",
+  "dogum_tarihi": "1540",
+  "vefat_tarihi": "1596-01-28",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Tavistock",
+  "vefat_yeri": "Portobelo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q36517",
+  "sitelink": 121,
+  "fotograf": {
+   "dosya": "Gheeraerts Francis Drake 1591.jpg",
+   "lisans": "Public domain",
+   "yazar": "Marcus Gheeraerts the Younger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gheeraerts_Francis_Drake_1591.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gheeraerts_Francis_Drake_1591.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Astrid Lindgren",
   "dogum_tarihi": "1907-11-14",
   "vefat_tarihi": "2002-01-28",
@@ -94,7 +123,7 @@
   "defin_il": null,
   "defin_ulke": "İsveç",
   "wikidata_id": "Q55767",
-  "sitelink": 117,
+  "sitelink": 118,
   "fotograf": {
    "dosya": "Astrid Lindgren (cropped).jpg",
    "lisans": "Public domain",
@@ -107,7 +136,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Right Livelihood Award, Hans Christian Andersen Ödülü. Önemli eserleri: “Aslanyürekli Kardeşler”, “Haydudun Kızı Ronja”, “Çatıdaki Karlsson”",
+  "neden_onemli": "Ödül: Hans Christian Andersen Ödülü, Right Livelihood Award. Önemli eserleri: “Aslanyürekli Kardeşler”, “Haydudun Kızı Ronja”, “Çatıdaki Karlsson”",
   "hassas": false,
   "turk": false
  },
@@ -300,34 +329,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Kimya Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Dino Buzzati",
-  "dogum_tarihi": "1906-10-16",
-  "vefat_tarihi": "1972-01-28",
-  "vefat_yasi": 65,
-  "dogum_yeri": "Belluno",
-  "vefat_yeri": "Milano",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q242095",
-  "sitelink": 58,
-  "fotograf": {
-   "dosya": "Dino Buzzati.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dino_Buzzati.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Dino_Buzzati.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Strega Ödülü. Önemli eserleri: “Tatar Çölü”, “Coco”",
   "hassas": false,
   "turk": false
  }

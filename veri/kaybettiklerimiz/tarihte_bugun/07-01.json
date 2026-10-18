@@ -95,8 +95,14 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1399",
-  "sitelink": 229,
-  "fotograf": null,
+  "sitelink": 230,
+  "fotograf": {
+   "dosya": "Portrait of Niccolò Machiavelli by Santi di Tito.jpg",
+   "lisans": "Public domain",
+   "yazar": "Santi di Tito",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -118,13 +124,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q34012",
   "sitelink": 158,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marlon Brando publicity for One-Eyed Jacks.png",
+   "lisans": "Public domain",
+   "yazar": "None visible/Paramount Pictures",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marlon_Brando_publicity_for_One-Eyed_Jacks.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marlon_Brando_publicity_for_One-Eyed_Jacks.png"
+  },
   "meslek": [
    "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Rıhtımlar Üzerinde”, “İhtiras Tramvayı”, “İsyan”",
+  "neden_onemli": "Önemli eserleri: “İhtiras Tramvayı”, “İsyan”, “Tek Gözlü Jack”",
   "hassas": false,
   "turk": false
  },
@@ -140,7 +152,13 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q27645",
   "sitelink": 142,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bakunin Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakunin_Nadar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bakunin_Nadar.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -162,7 +180,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q102513",
   "sitelink": 119,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Beecher-Stowe.jpg",
+   "lisans": "Public domain",
+   "yazar": "not specified",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beecher-Stowe.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Beecher-Stowe.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -184,13 +208,47 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q151820",
   "sitelink": 95,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "L.-F. Céline.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence Meurisse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L.-F._C%C3%A9line.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:L.-F._C%C3%A9line.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Renaudot Ödülü. Önemli eserleri: “Gecenin Sonuna Yolculuk”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Juan Perón",
+  "dogum_tarihi": "1895-10-08",
+  "vefat_tarihi": "1974-07-01",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Lobos",
+  "vefat_yeri": "Quinta de Olivos",
+  "defin_yeri": "Partido de San Vicente",
+  "defin_il": null,
+  "defin_ulke": "Arjantin",
+  "wikidata_id": "Q93330",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Juan Domingo Perón (cropped 2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown author.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan_Domingo_Per%C3%B3n_%28cropped_2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Juan_Domingo_Per%C3%B3n_%28cropped_2%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Görev: Arjantin cumhurbaşkanı yardımcısı, Arjantin devlet başkanı",
   "hassas": false,
   "turk": false
  },
@@ -206,7 +264,13 @@
   "defin_ulke": "Hindistan",
   "wikidata_id": "Q43669",
   "sitelink": 93,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "The Incredulity of Saint Thomas-Caravaggio (1601-2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Caravaggio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -215,28 +279,6 @@
   "hassas_nedeni": [
    "ölüm cezası"
   ],
-  "turk": false
- },
- {
-  "ad": "Juan Perón",
-  "dogum_tarihi": "1895-10-08",
-  "vefat_tarihi": "1974-07-01",
-  "vefat_yasi": 78,
-  "dogum_yeri": "Lobos",
-  "vefat_yeri": "Quinta de Olivos",
-  "defin_yeri": "Partido de San Vicente",
-  "defin_il": null,
-  "defin_ulke": "Arjantin",
-  "wikidata_id": "Q93330",
-  "sitelink": 92,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Görev: Arjantin cumhurbaşkanı yardımcısı, Arjantin devlet başkanı",
-  "hassas": false,
   "turk": false
  },
  {
@@ -251,7 +293,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q131729",
   "sitelink": 91,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Wl-bragg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wl-bragg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wl-bragg.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -273,7 +321,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q102289",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "BuckminsterFuller1.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "en:User:Edgy01 (Dan Lindsay)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BuckminsterFuller1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:BuckminsterFuller1.jpg"
+  },
   "meslek": [
    "Şair"
   ],

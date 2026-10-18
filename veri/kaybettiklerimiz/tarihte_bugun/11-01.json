@@ -10,7 +10,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q607246",
-  "sitelink": 25,
+  "sitelink": 26,
   "fotograf": {
    "dosya": "Yahya Kemal (Beyatlı).jpg",
    "lisans": "Public domain",
@@ -157,7 +157,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Aziz Andreas Nişanı. Görev: Rusya imparatoru, Finlandiya Büyük Dükü",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Aziz Andreas Nişanı. Görev: Finlandiya Büyük Dükü, Rusya imparatoru",
   "hassas": false,
   "turk": false
  },
@@ -218,7 +218,7 @@
  {
   "ad": "Athelstan",
   "dogum_tarihi": "0895",
-  "vefat_tarihi": "0939-11-01",
+  "vefat_tarihi": "0939-10-31",
   "vefat_yasi": 44,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Wessex Krallığı",

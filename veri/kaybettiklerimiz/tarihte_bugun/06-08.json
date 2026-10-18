@@ -139,7 +139,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Sağduyu”, “İnsan Hakları”, “Akıl Çağı”",
+  "neden_onemli": "Önemli eserleri: “Sağduyu”, “Akıl Çağı”, “İnsan Hakları”",
   "hassas": false,
   "turk": false
  },
@@ -203,6 +203,28 @@
   "turk": false
  },
  {
+  "ad": "Omar Bongo",
+  "dogum_tarihi": "1935-12-30",
+  "vefat_tarihi": "2009-06-08",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Bongoville",
+  "vefat_yeri": "Barselona",
+  "defin_yeri": "Franceville",
+  "defin_il": null,
+  "defin_ulke": "Gabon",
+  "wikidata_id": "Q172083",
+  "sitelink": 78,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Pierre Nkurunziza",
   "dogum_tarihi": "1964-12-18",
   "vefat_tarihi": "2020-06-08",
@@ -222,33 +244,11 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Nkurunziza_-_World_Economic_Forum_on_Africa_2008.jpg"
   },
   "meslek": [
-   "Bakan"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Burundi devlet başkanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Omar Bongo",
-  "dogum_tarihi": "1935-12-30",
-  "vefat_tarihi": "2009-06-08",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Bongoville",
-  "vefat_yeri": "Barselona",
-  "defin_yeri": "Franceville",
-  "defin_il": null,
-  "defin_ulke": "Gabon",
-  "wikidata_id": "Q172083",
-  "sitelink": 77,
-  "fotograf": null,
-  "meslek": [
-   "Bakan"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Sadrazam, Osmanlı Dahiliye Nazırlığı",
+  "neden_onemli": "Görev: Osmanlı Dahiliye Nazırlığı, Osmanlı Bahriye Nazırlığı",
   "hassas": false,
   "turk": true
  },
@@ -219,7 +219,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Küre Ödülleri, Avrupa Film Ödülleri",
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

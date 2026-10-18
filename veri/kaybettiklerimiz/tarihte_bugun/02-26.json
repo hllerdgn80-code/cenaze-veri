@@ -304,30 +304,30 @@
   "turk": false
  },
  {
-  "ad": "Carl Menger",
-  "dogum_tarihi": "1840-02-23",
-  "vefat_tarihi": "1921-02-26",
-  "vefat_yasi": 81,
-  "dogum_yeri": "Nowy Sącz",
-  "vefat_yeri": "Viyana",
-  "defin_yeri": "Zentralfriedhof",
+  "ad": "Michelle Trachtenberg",
+  "dogum_tarihi": "1985-10-11",
+  "vefat_tarihi": "2025-02-26",
+  "vefat_yasi": 39,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
   "defin_il": null,
-  "defin_ulke": "Avusturya",
-  "wikidata_id": "Q84177",
-  "sitelink": 60,
+  "defin_ulke": null,
+  "wikidata_id": "Q229528",
+  "sitelink": 61,
   "fotograf": {
-   "dosya": "Carl Menger Portrait ONB cropped.png",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Menger_Portrait_ONB_cropped.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Menger_Portrait_ONB_cropped.png"
+   "dosya": "Michelle Trachtenberg (43904360470).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Greg2600",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelle_Trachtenberg_%2843904360470%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Michelle_Trachtenberg_%2843904360470%29.jpg"
   },
   "meslek": [
-   "Profesör"
+   "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Önemli eserleri: “Avrupa Muhabbeti”, “Buffy the Vampire Slayer”, “Dedikoducu Kız”",
   "hassas": false,
   "turk": false
  }

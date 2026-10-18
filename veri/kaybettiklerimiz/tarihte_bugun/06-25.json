@@ -95,7 +95,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Erkek R&B Vokal Performansı Grammy Ödülü, Yılın Kaydı Grammy Ödülü. Önemli eserleri: “Bad”, “Thriller”",
+  "neden_onemli": "Ödül: Yılın Kaydı Grammy Ödülü, En İyi Video Klip Grammy Ödülü. Önemli eserleri: “Thriller”, “Bad”",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -297,28 +297,29 @@
   "turk": false
  },
  {
-  "ad": "Sadi Carnot",
-  "dogum_tarihi": "1837-08-11",
-  "vefat_tarihi": "1894-06-25",
-  "vefat_yasi": 56,
-  "dogum_yeri": "Limoges",
-  "vefat_yeri": "3rd arrondissement of Lyon",
-  "defin_yeri": "Panthéon",
+  "ad": "George Armstrong Custer",
+  "dogum_tarihi": "1839-12-05",
+  "vefat_tarihi": "1876-06-25",
+  "vefat_yasi": 36,
+  "dogum_yeri": "New Rumley",
+  "vefat_yeri": "Big Horn ilçesi",
+  "defin_yeri": "West Point Cemetery",
   "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q215778",
-  "sitelink": 60,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q188205",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "G a custer.jpg",
+   "lisans": "Public domain",
+   "yazar": "George L. Andrews",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G_a_custer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:G_a_custer.jpg"
+  },
+  "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Krizantem Nişanı. Görev: Fransa Cumhurbaşkanı",
-  "hassas": true,
-  "hassas_nedeni": [
-   "cinayet"
-  ],
+  "neden_onemli": "Görev: Başkomutan",
+  "hassas": false,
   "turk": false
  }
 ]

@@ -13,11 +13,11 @@
   "wikidata_id": "Q13574559",
   "sitelink": 24,
   "fotograf": {
-   "dosya": "Nezihe muhiddin.jpg",
+   "dosya": "1930 04 08 Politika Nezihe Muhiddin.jpg",
    "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nezihe_muhiddin.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Nezihe_muhiddin.jpg"
+   "yazar": "Politika Gazetesi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1930_04_08_Politika_Nezihe_Muhiddin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1930_04_08_Politika_Nezihe_Muhiddin.jpg"
   },
   "meslek": [
    "Yazar"
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Boris Godunov”, “Yüzbaşının Kızı”, “Peygamber”",
+  "neden_onemli": "Önemli eserleri: “Boris Godunov”, “Peygamber”, “Yüzbaşının Kızı”",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması"
@@ -165,7 +165,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, Kennedy Center Onur Ödülleri. Önemli eserleri: “Satıcının Ölümü”, “Hepsi Oğlumdu”, “Köprüden Görünüş”",
+  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, ABD Ulusal Sanat Madalyası. Önemli eserleri: “Hepsi Oğlumdu”, “Köprüden Görünüş”, “Satıcının Ölümü”",
   "hassas": false,
   "turk": false
  },
@@ -208,7 +208,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q182580",
-  "sitelink": 96,
+  "sitelink": 97,
   "fotograf": {
    "dosya": "Shirleytemple.jpg",
    "lisans": "Public domain",
@@ -221,7 +221,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekran Oyuncuları Derneği Yaşam Başarı Ödülü, Kennedy Center Onur Ödülleri",
+  "neden_onemli": "Ödül: Akademi Çocuk Ödülü, Kennedy Center Onur Ödülleri",
   "hassas": false,
   "turk": false
  },
@@ -247,7 +247,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: Diosezan piskopos, Papa",
   "hassas": false,
   "turk": false
  },

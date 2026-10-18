@@ -184,6 +184,28 @@
   "turk": false
  },
  {
+  "ad": "Bal Gangadhar Tilak",
+  "dogum_tarihi": "1856-07-23",
+  "vefat_tarihi": "1920-09-01",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Ratnagiri",
+  "vefat_yeri": "Mumbai",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312555",
+  "sitelink": 61,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "II. Ludwig",
   "dogum_tarihi": "0806",
   "vefat_tarihi": "0876-09-01",
@@ -205,28 +227,6 @@
   },
   "meslek": [
    "Hükümdar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Bal Gangadhar Tilak",
-  "dogum_tarihi": "1856-07-23",
-  "vefat_tarihi": "1920-09-01",
-  "vefat_yasi": 64,
-  "dogum_yeri": "Ratnagiri",
-  "vefat_yeri": "Mumbai",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q312555",
-  "sitelink": 60,
-  "fotograf": null,
-  "meslek": [
-   "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

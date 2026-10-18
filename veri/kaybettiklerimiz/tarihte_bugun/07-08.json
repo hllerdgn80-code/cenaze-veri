@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Avustralya Şövalye Nişanı. Görev: Japonya Başbakanı",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Pavlonya Çiçekleri Nişanı. Görev: Japonya Başbakanı",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -98,7 +98,7 @@
   "defin_il": null,
   "defin_ulke": "Kuzey Kore",
   "wikidata_id": "Q41117",
-  "sitelink": 160,
+  "sitelink": 161,
   "fotograf": {
    "dosya": "Kim Il-sung in 1950.jpg",
    "lisans": "Public domain",
@@ -111,7 +111,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Bayrak Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Görev: Kore İşçi Partisi Başkanı, Kuzey Kore Devlet Başkanlığı",
+  "neden_onemli": "Ödül: Kızıl Bayrak Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Görev: Kuzey Kore Devlet Başkanlığı, Kore İşçi Partisi Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -154,7 +154,7 @@
   "defin_il": null,
   "defin_ulke": "Hollanda",
   "wikidata_id": "Q39599",
-  "sitelink": 120,
+  "sitelink": 121,
   "fotograf": {
    "dosya": "Christiaan-huygens4.jpg",
    "lisans": "Public domain",
@@ -200,6 +200,34 @@
   "turk": false
  },
  {
+  "ad": "José Eduardo dos Santos",
+  "dogum_tarihi": "1942-08-28",
+  "vefat_tarihi": "2022-07-08",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Luanda",
+  "vefat_yeri": "Barselona",
+  "defin_yeri": "Luanda",
+  "defin_il": null,
+  "defin_ulke": "Angola",
+  "wikidata_id": "Q57313",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "José Eduardo dos Santos 2.jpg",
+   "lisans": "CC BY 3.0 br",
+   "yazar": "Ricardo Stuckert/PR",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Eduardo_dos_Santos_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Eduardo_dos_Santos_2.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dostluk Nişanı, Onur Nişanı (Rusya). Görev: Angola cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "XV. Gregorius",
   "dogum_tarihi": "1554-01-19",
   "vefat_tarihi": "1623-07-08",
@@ -222,34 +250,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Papa, kardinal",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "José Eduardo dos Santos",
-  "dogum_tarihi": "1942-08-28",
-  "vefat_tarihi": "2022-07-08",
-  "vefat_yasi": 79,
-  "dogum_yeri": "Luanda",
-  "vefat_yeri": "Barselona",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q57313",
-  "sitelink": 83,
-  "fotograf": {
-   "dosya": "José Eduardo dos Santos 2.jpg",
-   "lisans": "CC BY 3.0 br",
-   "yazar": "Ricardo Stuckert/PR",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Eduardo_dos_Santos_2.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Eduardo_dos_Santos_2.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dostluk Nişanı, Onur Nişanı (Rusya). Görev: Angola cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },
@@ -333,7 +333,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: National Women's Hall of Fame, Kongre Altın Madalyası. Görev: Amerika Birleşik Devletleri'nde First Lady",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, National Women's Hall of Fame. Görev: Amerika Birleşik Devletleri'nde First Lady",
   "hassas": false,
   "turk": false
  }

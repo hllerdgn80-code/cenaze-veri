@@ -109,7 +109,7 @@
  {
   "ad": "I. Benedictus",
   "dogum_tarihi": "0525",
-  "vefat_tarihi": "0579-08-01",
+  "vefat_tarihi": "0579-08-03",
   "vefat_yasi": 54,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Roma",
@@ -159,7 +159,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Onur Madalyası. Görev: Weimar Cumhuriyeti Reichstag üyesi, genel başkan",
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Onur Madalyası. Görev: genel başkan, Weimar Cumhuriyeti Reichstag üyesi",
   "hassas": false,
   "turk": false
  },
@@ -327,7 +327,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Kraliyet Nişanı. Görev: başkan, Filipinler senato başkanı",
+  "neden_onemli": "Ödül: Büyük Kraliyet Nişanı. Görev: Filipinler senato başkanı, başkan",
   "hassas": false,
   "turk": false
  }

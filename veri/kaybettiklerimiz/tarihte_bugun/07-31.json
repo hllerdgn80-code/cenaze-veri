@@ -259,7 +259,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q106099",
-  "sitelink": 79,
+  "sitelink": 80,
   "fotograf": {
    "dosya": "Jeanne Moreau (2009).jpg",
    "lisans": "CC BY-SA 2.0",
@@ -274,6 +274,38 @@
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: BAFTA En İyi Kadın Oyuncu Ödülü, BAFTA Akademi Bağlılık Ödülü. Önemli eserleri: “Moderato cantabile (film)”",
   "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Jaurès",
+  "dogum_tarihi": "1859-09-03",
+  "vefat_tarihi": "1914-07-31",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Castres",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q12688",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Jean Jaurès, 1904, par Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Jaur%C3%A8s%2C_1904%2C_par_Nadar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Jaur%C3%A8s%2C_1904%2C_par_Nadar.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başkan",
+  "hassas": true,
+  "hassas_nedeni": [
+   "Jean Jaurès suikasti",
+   "cinayet"
+  ],
   "turk": false
  },
  {
@@ -302,38 +334,6 @@
   "aciklama_kaynak": null,
   "neden_onemli": null,
   "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Jean Jaurès",
-  "dogum_tarihi": "1859-09-03",
-  "vefat_tarihi": "1914-07-31",
-  "vefat_yasi": 54,
-  "dogum_yeri": "Castres",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Panthéon",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q12688",
-  "sitelink": 78,
-  "fotograf": {
-   "dosya": "Jean Jaurès, 1904, par Nadar.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nadar",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Jaur%C3%A8s%2C_1904%2C_par_Nadar.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Jaur%C3%A8s%2C_1904%2C_par_Nadar.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: başkan",
-  "hassas": true,
-  "hassas_nedeni": [
-   "Jean Jaurès suikasti",
-   "cinayet"
-  ],
   "turk": false
  }
 ]

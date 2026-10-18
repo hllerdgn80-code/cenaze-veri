@@ -107,35 +107,6 @@
   "turk": true
  },
  {
-  "ad": "Akinolu Thomas",
-  "dogum_tarihi": "1225",
-  "vefat_tarihi": "1274-03-14",
-  "vefat_yasi": 49,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Conti d’Aquino Kalesi, Roccasecca",
-  "vefat_yeri": "Fossanova Abbey",
-  "defin_yeri": "Church of the Jacobins",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q9438",
-  "sitelink": 208,
-  "fotograf": {
-   "dosya": "St-thomas-aquinasFXD.jpg",
-   "lisans": "Public domain",
-   "yazar": "Carlo Crivelli",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St-thomas-aquinasFXD.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Quinque viæ”, “De regno, ad regem Cypri”. Görev: profesör",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Chinua Achebe",
   "dogum_tarihi": "1930-11-16",
   "vefat_tarihi": "2013-03-21",
@@ -174,7 +145,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q238514",
-  "sitelink": 73,
+  "sitelink": 74,
   "fotograf": {
    "dosya": "Nawal El Saadawi, April 2012 (cropped).jpg",
    "lisans": "CC BY 2.0",
@@ -322,6 +293,34 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Frederick_Winslow_Taylor_%281%29.JPG"
   },
   "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aleksandr Glazunov",
+  "dogum_tarihi": "1865-08-10",
+  "vefat_tarihi": "1936-03-21",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Tihvin Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q25872",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "AlexanderGlazounov.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexanderGlazounov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AlexanderGlazounov.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,

@@ -46,7 +46,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Roman Hugo Ödülü, Damon Knight Anma Büyük Usta Ödülü. Önemli eserleri: “2061: Uzay Efsanesi 3”, “2010: İkinci Uzay Destanı”, “3001: Son Efsane”",
+  "neden_onemli": "Ödül: En İyi Roman Hugo Ödülü, Damon Knight Anma Büyük Usta Ödülü. Önemli eserleri: “2010: İkinci Uzay Destanı”, “2061: Uzay Efsanesi 3”, “3001: Son Efsane”",
   "hassas": false,
   "turk": false
  },
@@ -130,7 +130,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dizbağı Nişanı, Liyakat Nişanı. Görev: Birleşik Krallık Başbakanı, Amirallik Birinci Lordu",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Dizbağı Nişanı. Görev: Birleşik Krallık Başbakanı, Amirallik Birinci Lordu",
   "hassas": false,
   "turk": false
  },
@@ -214,7 +214,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"

@@ -85,6 +85,34 @@
   "turk": false
  },
  {
+  "ad": "Sri Ramakrishna",
+  "dogum_tarihi": "1836-02-18",
+  "vefat_tarihi": "1886-08-16",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Kamarpukur",
+  "vefat_yeri": "Kalküta",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q183126",
+  "sitelink": 114,
+  "fotograf": {
+   "dosya": "Ramakrishna.jpg",
+   "lisans": "Public domain",
+   "yazar": "Abinash Chandra Dna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramakrishna.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ramakrishna.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "İdi Amin",
   "dogum_tarihi": "1925",
   "vefat_tarihi": "2003-08-16",
@@ -110,34 +138,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Victoria Haçı. Görev: başkan, Uganda Devlet Başkanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Sri Ramakrishna",
-  "dogum_tarihi": "1836-02-18",
-  "vefat_tarihi": "1886-08-16",
-  "vefat_yasi": 50,
-  "dogum_yeri": "Kamarpukur",
-  "vefat_yeri": "Kalküta",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q183126",
-  "sitelink": 113,
-  "fotograf": {
-   "dosya": "Ramakrishna.jpg",
-   "lisans": "Public domain",
-   "yazar": "Abinash Chandra Dna",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramakrishna.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ramakrishna.jpg"
-  },
-  "meslek": [
-   "Filozof"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

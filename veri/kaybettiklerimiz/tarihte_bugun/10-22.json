@@ -162,6 +162,34 @@
   "turk": false
  },
  {
+  "ad": "Kütahyalı Komitas",
+  "dogum_tarihi": "1869-10-08",
+  "vefat_tarihi": "1935-10-22",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Kütahya",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Komitas Grave",
+  "defin_il": null,
+  "defin_ulke": "Ermenistan",
+  "wikidata_id": "Q351670",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Komitas.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komitas.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Komitas.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Nadia Boulanger",
   "dogum_tarihi": "1887-09-16",
   "vefat_tarihi": "1979-10-22",
@@ -186,34 +214,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Prix de Rome, Polonia Restituta Nişanı Kumandanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Kütahyalı Komitas",
-  "dogum_tarihi": "1869-10-08",
-  "vefat_tarihi": "1935-10-22",
-  "vefat_yasi": 66,
-  "dogum_yeri": "Kütahya",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Komitas Grave",
-  "defin_il": null,
-  "defin_ulke": "Ermenistan",
-  "wikidata_id": "Q351670",
-  "sitelink": 55,
-  "fotograf": {
-   "dosya": "Komitas.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komitas.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Komitas.jpg"
-  },
-  "meslek": [
-   "Şarkıcı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

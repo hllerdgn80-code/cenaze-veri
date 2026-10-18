@@ -28,6 +28,37 @@
   "turk": true
  },
  {
+  "ad": "Genç Seneca",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0065-04-10",
+  "vefat_yasi": null,
+  "dogum_yeri": "Corduba",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q2054",
+  "sitelink": 159,
+  "fotograf": {
+   "dosya": "Duble herma of Socrates and Seneca Antikensammlung Berlin 07.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Calidius",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Öfke Üzerine”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
   "ad": "Cibran Halil Cibran",
   "dogum_tarihi": "1883-01-06",
   "vefat_tarihi": "1931-04-10",
@@ -53,37 +84,6 @@
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Ermiş (kitap)”",
   "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Genç Seneca",
-  "dogum_tarihi": null,
-  "vefat_tarihi": "0065-04-10",
-  "vefat_yasi": null,
-  "dogum_yeri": "Corduba",
-  "vefat_yeri": "Roma",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q2054",
-  "sitelink": 158,
-  "fotograf": {
-   "dosya": "Duble herma of Socrates and Seneca Antikensammlung Berlin 07.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Calidius",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Öfke Üzerine”",
-  "hassas": true,
-  "hassas_nedeni": [
-   "ölüm cezası"
-  ],
   "turk": false
  },
  {
@@ -190,7 +190,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Miladî takvim”. Görev: kardinal, Papa",
+  "neden_onemli": "Önemli eserleri: “Miladî takvim”. Görev: Papa, kardinal",
   "hassas": false,
   "turk": false
  },
@@ -283,7 +283,7 @@
   "dogum_tarihi": "1903-10-28",
   "vefat_tarihi": "1966-04-10",
   "vefat_yasi": 62,
-  "dogum_yeri": "West Hampstead",
+  "dogum_yeri": "Londra",
   "vefat_yeri": "Combe Florey",
   "defin_yeri": "Church of St Peter & St Paul",
   "defin_il": null,

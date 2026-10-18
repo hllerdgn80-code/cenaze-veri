@@ -4,7 +4,7 @@
   "dogum_tarihi": "1882-02-02",
   "vefat_tarihi": "1941-01-13",
   "vefat_yasi": 58,
-  "dogum_yeri": "Dublin",
+  "dogum_yeri": "Rathgar",
   "vefat_yeri": "Zürih",
   "defin_yeri": "Fluntern Cemetery",
   "defin_il": null,
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma valisi, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -331,7 +331,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Birleşik Devletler Temsilciler Meclis Sözcüsü",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, kurul üyesi",
   "hassas": false,
   "turk": false
  }

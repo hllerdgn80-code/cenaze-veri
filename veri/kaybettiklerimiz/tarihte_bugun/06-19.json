@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: baronet, Liyakat Nişanı. Görev: rektör",
+  "neden_onemli": "Ödül: Liyakat Nişanı, baronet. Görev: rektör",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Brezilya Ulusal Güney Haç Nişanı",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Kara Kartal Nişanı",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -167,7 +167,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Yaratık”, “Ateş Arabaları”, “Yüzüklerin Efendisi üçlemesi”",
+  "neden_onemli": "Önemli eserleri: “Yaratık”, “Yüzüklerin Efendisi üçlemesi”, “Ateş Arabaları”",
   "hassas": false,
   "turk": false
  },

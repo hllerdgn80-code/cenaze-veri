@@ -11,7 +11,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q25161",
   "sitelink": 108,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Roald Dahl (1982).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Hans van Dijk for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roald_Dahl_%281982%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Roald_Dahl_%281982%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -33,13 +39,19 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q151164",
   "sitelink": 98,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "André Malraux, Pic, 22.jpg",
+   "lisans": "Public domain",
+   "yazar": "Roger Pic",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9_Malraux%2C_Pic%2C_22.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Malraux%2C_Pic%2C_22.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü, Büyük I. George Nişanı. Önemli eserleri: “İnsanlık Durumu”",
+  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü, İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı. Önemli eserleri: “İnsanlık Durumu”",
   "hassas": false,
   "turk": false
  },
@@ -55,7 +67,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q46420",
   "sitelink": 89,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ibn Arabi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibn_Arabi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ibn_Arabi.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -78,7 +96,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q162135",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope Gelasius I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Gelasius_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Gelasius_I.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -100,7 +124,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q160311",
   "sitelink": 76,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Henrytreti.jpg",
+   "lisans": "Public domain",
+   "yazar": "Matthew Paris",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henrytreti.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henrytreti.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -159,7 +189,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Nişan-ı Pakistan, Ulusal Kuruluş İçin Liyakat Nişanı. Görev: Güney Kore cumhurbaşkanı",
+  "neden_onemli": "Ödül: Mugunghwa Büyük Nişanı, Nişan-ı Pakistan. Görev: Güney Kore cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },

@@ -303,35 +303,35 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Puşkin Madalyası, Dostluk Nişanı. Görev: grup başkanı, Kıbrıs Cumhuriyeti Devlet Başkanı",
+  "neden_onemli": "Ödül: Puşkin Madalyası, Ulusal Sedir Nişanı. Görev: grup başkanı, Kıbrıs Cumhuriyeti Devlet Başkanı",
   "hassas": false,
   "turk": false
  },
  {
-  "ad": "Fredrich Fröbel",
-  "dogum_tarihi": "1782-04-21",
-  "vefat_tarihi": "1852-06-21",
-  "vefat_yasi": 70,
-  "dogum_yeri": "Oberweißbach",
-  "vefat_yeri": "Marienthal",
-  "defin_yeri": "Cemetery Schweina",
+  "ad": "John Lee Hooker",
+  "dogum_tarihi": "1917-08-22",
+  "vefat_tarihi": "2001-06-21",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Clarksdale",
+  "vefat_yeri": "Los Altos",
+  "defin_yeri": "Chapel of the Chimes",
   "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q76679",
-  "sitelink": 59,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q44570",
+  "sitelink": 60,
   "fotograf": {
-   "dosya": "Friedrich Fröbel.jpg",
-   "lisans": "Public domain",
-   "yazar": "Verlag A.Pichlers Witwe und Sohn",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_Fr%C3%B6bel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_Fr%C3%B6bel.jpg"
+   "dosya": "John Lee Hooker two.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jean-Luc",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Lee_Hooker_two.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Lee_Hooker_two.jpg"
   },
   "meslek": [
-   "Yazar"
+   "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame",
   "hassas": false,
   "turk": false
  }

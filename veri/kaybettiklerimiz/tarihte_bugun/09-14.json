@@ -139,7 +139,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Altın Post Nişanı. Görev: Birleşik Krallık Başbakanı, Birleşik Krallık içişleri bakanı",
+  "neden_onemli": "Ödül: Altın Post Nişanı, Kara Kartal Nişanı. Görev: Birleşik Krallık Başbakanı, Birleşik Krallık içişleri bakanı",
   "hassas": false,
   "turk": false
  },
@@ -239,13 +239,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q49004",
   "sitelink": 81,
-  "fotograf": {
-   "dosya": "Patrick Swayze - 1990 Grammy Awards (cropped).jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Alan Light",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Swayze_-_1990_Grammy_Awards_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Patrick_Swayze_-_1990_Grammy_Awards_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
@@ -266,7 +260,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q14279",
-  "sitelink": 77,
+  "sitelink": 78,
   "fotograf": {
    "dosya": "Giovanni Domenico Cassini.jpg",
    "lisans": "Public domain",

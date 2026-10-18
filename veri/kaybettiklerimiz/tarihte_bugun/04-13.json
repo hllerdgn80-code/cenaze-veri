@@ -163,7 +163,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Akitanya Dükü, Anjou Kontu",
+  "neden_onemli": "Görev: kral, Anjou Kontu",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -313,7 +313,7 @@
   "dogum_tarihi": "1740-04-06",
   "vefat_tarihi": "1794-04-13",
   "vefat_yasi": 54,
-  "dogum_yeri": "Clermont",
+  "dogum_yeri": "Clermont-Ferrand",
   "vefat_yeri": "Paris",
   "defin_yeri": null,
   "defin_il": null,

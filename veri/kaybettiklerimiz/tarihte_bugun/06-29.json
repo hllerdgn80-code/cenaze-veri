@@ -5,7 +5,7 @@
   "vefat_tarihi": "2003-06-29",
   "vefat_yasi": 96,
   "dogum_yeri": "Hartford",
-  "vefat_yeri": "Old Saybrook",
+  "vefat_yeri": "Fenwick",
   "defin_yeri": "Cedar Hill Cemetery",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -135,7 +135,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Post Nişanı (Gürcistan), Büyük Polonya Cumhuriyeti Liyakat Nişanı. Görev: icra kurulu başkanı, Amerika Birleşik Devletleri Savunma Bakanı",
+  "neden_onemli": "Ödül: Altın Post Nişanı (Gürcistan), Büyük Polonya Cumhuriyeti Liyakat Nişanı. Görev: Beyaz Saray Genel Sekreteri, Amerika Birleşik Devletleri Savunma Bakanı",
   "hassas": false,
   "turk": false
  },
@@ -151,7 +151,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q129247",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "EdwardIII (1).jpg",
+   "lisans": "Public domain",
+   "yazar": "TheAncientHistorian",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EdwardIII_%281%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:EdwardIII_%281%29.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
@@ -173,13 +179,19 @@
   "defin_ulke": null,
   "wikidata_id": "Q108283",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alan Arkin - 1975.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Arkin_-_1975.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alan_Arkin_-_1975.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Yardımcı Erkek Oyuncu Tony Ödülü (Oyun), En İyi Yardımcı Erkek Oyuncu Altın Küre Ödülü - Sinema. Önemli eserleri: “Makas Eller”, “Küçük Gün Işığım”, “BoJack Horseman”",
+  "neden_onemli": "Ödül: En İyi Yardımcı Erkek Oyuncu Tony Ödülü (Oyun), Theatre World Award. Önemli eserleri: “Makas Eller”, “Küçük Gün Işığım”, “BoJack Horseman”",
   "hassas": false,
   "turk": false
  },
@@ -196,7 +208,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q170871",
   "sitelink": 73,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "InnocenzoV.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tommaso da Modena",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/InnocenzoV.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:InnocenzoV.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -218,7 +236,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q229507",
   "sitelink": 68,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jayne Mansfield (Kiss Them For Me) - Color.jpg",
+   "lisans": "Public domain",
+   "yazar": "Likely 20th Century Fox",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayne_Mansfield_%28Kiss_Them_For_Me%29_-_Color.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jayne_Mansfield_%28Kiss_Them_For_Me%29_-_Color.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -241,7 +265,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q141791",
   "sitelink": 68,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Moctezuma Xocoyotzin.png",
+   "lisans": "Public domain",
+   "yazar": "attributed to Antonio Rodriguez (1636-1691)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moctezuma_Xocoyotzin.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Moctezuma_Xocoyotzin.png"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -263,7 +293,13 @@
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q183579",
   "sitelink": 67,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Kaiser Ferdinand I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eduard Edlinger",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiser_Ferdinand_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kaiser_Ferdinand_I.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -285,7 +321,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q201034",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Lana Turner - Marriage is a Private Affair portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "MGM",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lana_Turner_-_Marriage_is_a_Private_Affair_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lana_Turner_-_Marriage_is_a_Private_Affair_portrait.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],

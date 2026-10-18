@@ -70,7 +70,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q47480",
-  "sitelink": 123,
+  "sitelink": 124,
   "fotograf": {
    "dosya": "Paul Dirac, 1933.jpg",
    "lisans": "Public domain",
@@ -167,7 +167,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Ekim Devrimi Nişanı. Önemli eserleri: “Kolmogorov eşitsizliği”, “Kolmogorov karmaşıklığı”, “Kolmogorov-Arnold-Moser teoremi”",
+  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Ekim Devrimi Nişanı. Önemli eserleri: “Kolmogorov eşitsizliği”, “Kolmogorov karmaşıklığı”, “Kolmogorov aksiyomları”",
   "hassas": false,
   "turk": false
  },
@@ -229,6 +229,34 @@
   "turk": false
  },
  {
+  "ad": "Sergey Bondarçuk",
+  "dogum_tarihi": "1920-09-25",
+  "vefat_tarihi": "1994-10-20",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Bilozerka",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q55190",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Sergei Bondarchuk, Sarajevo, 29. november 1969. Movie premier Battle of Neretva by Stevan Kragujevic.JPG",
+   "lisans": "CC BY-SA 3.0 rs",
+   "yazar": "Stevan Kragujević",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergei_Bondarchuk%2C_Sarajevo%2C_29._november_1969._Movie_premier_Battle_of_Neretva_by_Stevan_Kragujevic.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sergei_Bondarchuk%2C_Sarajevo%2C_29._november_1969._Movie_premier_Battle_of_Neretva_by_Stevan_Kragujevic.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Ödülleri, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Carl Ferdinand Cori",
   "dogum_tarihi": "1896-12-05",
   "vefat_tarihi": "1984-10-20",
@@ -253,34 +281,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Willard Gibbs Madalyası. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Sergey Bondarçuk",
-  "dogum_tarihi": "1920-09-25",
-  "vefat_tarihi": "1994-10-20",
-  "vefat_yasi": 74,
-  "dogum_yeri": "Bilozerka",
-  "vefat_yeri": "Moskova",
-  "defin_yeri": "Novodevichy Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Rusya",
-  "wikidata_id": "Q55190",
-  "sitelink": 60,
-  "fotograf": {
-   "dosya": "Sergei Bondarchuk, Sarajevo, 29. november 1969. Movie premier Battle of Neretva by Stevan Kragujevic.JPG",
-   "lisans": "CC BY-SA 3.0 rs",
-   "yazar": "Stevan Kragujević",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergei_Bondarchuk%2C_Sarajevo%2C_29._november_1969._Movie_premier_Battle_of_Neretva_by_Stevan_Kragujevic.JPG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sergei_Bondarchuk%2C_Sarajevo%2C_29._november_1969._Movie_premier_Battle_of_Neretva_by_Stevan_Kragujevic.JPG"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Küre Ödülleri, 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası",
   "hassas": false,
   "turk": false
  },

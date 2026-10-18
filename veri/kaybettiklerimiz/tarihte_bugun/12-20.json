@@ -108,7 +108,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Oersted Madalyası, En İyi Dramatik Sunum Hugo Ödülü. Önemli eserleri: “Kozmos Evrenin ve Yaşamın Sırları”, “Mesaj”, “Karanlık Bir Dünyada Bilimin Mum Işığı”",
+  "neden_onemli": "Ödül: Oersted Madalyası, Carl Sagan Award for Public Appreciation of Science. Önemli eserleri: “Kozmos Evrenin ve Yaşamın Sırları”, “Mesaj”, “Cosmos: A Personal Voyage”",
   "hassas": false,
   "turk": false
  },
@@ -136,7 +136,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Yemen'e Mektup”, “Kitabü'l-Fera’iz”, “Semaniyetü'l-Fusul”",
+  "neden_onemli": "Önemli eserleri: “Yemen'e Mektup”, “Kitabü'l-Fera’iz”, “Delaletü'l-Hairin”",
   "hassas": false,
   "turk": false
  },
@@ -192,7 +192,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Senegal cumhurbaşkanı. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "neden_onemli": "Görev: Senegal cumhurbaşkanı, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi. Aday olduğu ödül: Nobel Edebiyat Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -220,7 +220,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
   "hassas": true,
   "hassas_nedeni": [
    "Yerinde infaz",
@@ -313,32 +313,31 @@
   "turk": false
  },
  {
-  "ad": "Cafer-i Sâdık",
-  "dogum_tarihi": "0702-04-24",
-  "vefat_tarihi": "0765-12-20",
-  "vefat_yasi": 63,
-  "dogum_yeri": "Medine",
-  "vefat_yeri": "Medine",
-  "defin_yeri": "Cennetü'l-Bakı",
+  "ad": "Wu Zetian",
+  "dogum_tarihi": "0624-02-20",
+  "vefat_tarihi": "0705-12-20",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Guangyuan",
+  "vefat_yeri": "Luoyang",
+  "defin_yeri": "Qianling Mausoleum",
   "defin_il": null,
-  "defin_ulke": "Suudi Arabistan",
-  "wikidata_id": "Q170046",
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q9738",
   "sitelink": 75,
   "fotograf": {
-   "dosya": "Eight imams and Hakima next to Jawad.jpg",
+   "dosya": "唐后行從圖 (局部) - 武則天.png",
    "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eight_imams_and_Hakima_next_to_Jawad.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Eight_imams_and_Hakima_next_to_Jawad.jpg"
+   "yazar": "Likely to be Zhang Xuan (张萱)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png"
   },
-  "meslek": [],
-  "aciklama": "Müslüman alim ve Şii İmamı (702-765)",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
-  "hassas": true,
-  "hassas_nedeni": [
-   "cinayet"
+  "meslek": [
+   "Şair"
   ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Çin imparatoru",
+  "hassas": false,
   "turk": false
  }
 ]

@@ -88,34 +88,6 @@
   "turk": false
  },
  {
-  "ad": "Andreï Tarkovski",
-  "dogum_tarihi": "1932-04-04",
-  "vefat_tarihi": "1986-12-29",
-  "vefat_yasi": 54,
-  "dogum_yeri": "Zavrazhye",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Sainte-Geneviève-des-Bois Russian Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q853",
-  "sitelink": 100,
-  "fotograf": {
-   "dosya": "Andrei Tarkovsky by Boris Baldin.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Boris Mikhailovich Baldin (1929-2005) - my father",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Tarkovsky_by_Boris_Baldin.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Tarkovsky_by_Boris_Baldin.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Cannes Film Festivali Büyük Ödülü, Cannes Film Festivali En İyi Yönetmen Ödülü. Önemli eserleri: “Nostalji”, “Kurban”, “Solaris”",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Susan Sontag",
   "dogum_tarihi": "1933-01-16",
   "vefat_tarihi": "2004-12-28",
@@ -242,7 +214,7 @@
   "fotograf": {
    "dosya": "Château de Bussy-Rabutin - Saint François de Sales, évêque de Genève (bgw19 0375) (cropped).jpg",
    "lisans": "Public domain",
-   "yazar": "Benjamin Gavaudo",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau_de_Bussy-Rabutin_-_Saint_Fran%C3%A7ois_de_Sales%2C_%C3%A9v%C3%AAque_de_Gen%C3%A8ve_%28bgw19_0375%29_%28cropped%29.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Bussy-Rabutin_-_Saint_Fran%C3%A7ois_de_Sales%2C_%C3%A9v%C3%AAque_de_Gen%C3%A8ve_%28bgw19_0375%29_%28cropped%29.jpg"
   },
@@ -336,6 +308,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Hindemith",
+  "dogum_tarihi": "1895-11-16",
+  "vefat_tarihi": "1963-12-28",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Hanau",
+  "vefat_yeri": "Frankfurt",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q57244",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Paul Hindemith 1923.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Hindemith_1923.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Hindemith_1923.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite, Balzan Ödülü",
   "hassas": false,
   "turk": false
  }

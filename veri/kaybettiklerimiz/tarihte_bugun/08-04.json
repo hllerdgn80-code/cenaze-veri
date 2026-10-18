@@ -45,7 +45,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kutup Yıldızı Nişanı, Dannebrog Yoldaşlığı. Önemli eserleri: “İmparatorun Yeni Giysileri”, “Çirkin Ördek Yavrusu”, “Kibritçi Kız”",
+  "neden_onemli": "Ödül: Kutup Yıldızı Nişanı, Dannebrog Yoldaşlığı. Önemli eserleri: “Küçük Deniz Kızı”, “İmparatorun Yeni Giysileri”, “Çirkin Ördek Yavrusu”",
   "hassas": false,
   "turk": false
  },
@@ -243,6 +243,32 @@
   "turk": false
  },
  {
+  "ad": "Juan Sebastián Elcano",
+  "dogum_tarihi": "1486-12-09",
+  "vefat_tarihi": "1526-08-04",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Getaria",
+  "vefat_yeri": "Büyük Okyanus",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q201510",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Elcano.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elcano.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Elcano.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: deniz kaptanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Edgar Douglas Adrian",
   "dogum_tarihi": "1889-11-30",
   "vefat_tarihi": "1977-08-04",
@@ -267,32 +293,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kraliyet Madalyası, Liyakat Nişanı. Görev: Britanya Lordlar Kamarası üyesi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Juan Sebastián Elcano",
-  "dogum_tarihi": "1486-12-09",
-  "vefat_tarihi": "1526-08-04",
-  "vefat_yasi": 39,
-  "dogum_yeri": "Getaria",
-  "vefat_yeri": "Büyük Okyanus",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q201510",
-  "sitelink": 63,
-  "fotograf": {
-   "dosya": "Elcano.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elcano.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Elcano.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: deniz kaptanı",
   "hassas": false,
   "turk": false
  },

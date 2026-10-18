@@ -60,7 +60,7 @@
   "dogum_tarihi": "1937-04-05",
   "vefat_tarihi": "2021-10-18",
   "vefat_yasi": 84,
-  "dogum_yeri": "New York",
+  "dogum_yeri": null,
   "vefat_yeri": "Walter Reed National Military Medical Center",
   "defin_yeri": "Arlington Ulusal Mezarlığı",
   "defin_il": null,
@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kongre Altın Madalyası, Üstün Hizmet Madalyası. Görev: Amerika Birleşik Devletleri dışişleri bakanı, Ulusal Güvenlik Danışmanı",
+  "neden_onemli": "Ödül: Üstün Hizmet Madalyası, Kongre Altın Madalyası. Görev: Amerika Birleşik Devletleri dışişleri bakanı, Amerika Birleşik Devletleri genelkurmay başkanı",
   "hassas": false,
   "turk": false
  },
@@ -220,7 +220,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dizbağı Nişanı, Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Birleşik Krallık içişleri bakanı",
+  "neden_onemli": "Ödül: Dizbağı Nişanı, Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, İngiltere Dışişleri Bakanı",
   "hassas": false,
   "turk": false
  },
@@ -235,7 +235,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q207478",
-  "sitelink": 57,
+  "sitelink": 58,
   "fotograf": {
    "dosya": "Alfred Binet.jpg",
    "lisans": "Public domain",
@@ -272,7 +272,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Aleksandr Nişanı, Memel Madalyası. Görev: Başkomutan",
+  "neden_onemli": "Ödül: Sudetenland Madalyası, Memel Madalyası. Görev: Başkomutan",
   "hassas": false,
   "turk": false
  },

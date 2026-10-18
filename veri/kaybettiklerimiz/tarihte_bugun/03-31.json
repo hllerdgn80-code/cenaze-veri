@@ -24,7 +24,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Erkân-ı Harbiye-i Umûmiye Riyaseti, Harbiye Nezareti",
+  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Sadrazam, Erkân-ı Harbiye-i Umûmiye Riyaseti",
   "hassas": false,
   "turk": true
  },
@@ -96,7 +96,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q935",
   "sitelink": 303,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "GodfreyKneller-IsaacNewton-1689.jpg",
+   "lisans": "Public domain",
+   "yazar": "Godfrey Kneller",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GodfreyKneller-IsaacNewton-1689.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -118,7 +124,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q127332",
   "sitelink": 135,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "CBRichmond.png",
+   "lisans": "Public domain",
+   "yazar": "George Richmond",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CBRichmond.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CBRichmond.png"
+  },
   "meslek": [
    "Şair"
   ],
@@ -140,7 +152,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q23543",
   "sitelink": 124,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Selena in 1988.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Selena_in_1988.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Selena_in_1988.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -166,7 +184,13 @@
   "defin_ulke": "Macaristan",
   "wikidata_id": "Q47755",
   "sitelink": 104,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Oliver Mark - Imre Kertész, Berlin 2005.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oliver_Mark_-_Imre_Kert%C3%A9sz%2C_Berlin_2005.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Imre_Kert%C3%A9sz%2C_Berlin_2005.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -188,8 +212,14 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q140412",
-  "sitelink": 101,
-  "fotograf": null,
+  "sitelink": 102,
+  "fotograf": {
+   "dosya": "John Donne by Isaac Oliver.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Isaac Oliver",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Donne_by_Isaac_Oliver.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Donne_by_Isaac_Oliver.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -211,7 +241,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q52651",
   "sitelink": 96,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jesse Owens 1936.jpg",
+   "lisans": "Public domain",
+   "yazar": "Acme News Photos",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesse_Owens_1936.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -237,7 +273,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Pritzker Mimarlık Ödülü, Çağdaş Mimarlık için Avrupa Birliği Ödülü. Önemli eserleri: “Bergiselschanze”, “MAXXI Müzesi”, “Londra Su Sporları Merkezi”",
+  "neden_onemli": "Ödül: Pritzker Mimarlık Ödülü, Çağdaş Mimarlık için Avrupa Birliği Ödülü. Önemli eserleri: “MAXXI Müzesi”, “Phaeno Bilim Merkezi”, “Londra Su Sporları Merkezi”",
   "hassas": false,
   "turk": false
  },
@@ -253,7 +289,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q76425",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Emil Behring 1896 Neapel.jpg",
+   "lisans": "Public domain",
+   "yazar": "L. Lamarra, Neapel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emil_Behring_1896_Neapel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emil_Behring_1896_Neapel.jpg"
+  },
   "meslek": [
    "Kurgu olmayan eser yazarı"
   ],
@@ -264,22 +306,28 @@
   "turk": false
  },
  {
-  "ad": "John Pierpont Morgan",
-  "dogum_tarihi": "1837-04-17",
-  "vefat_tarihi": "1913-03-31",
-  "vefat_yasi": 75,
-  "dogum_yeri": "Hartford",
-  "vefat_yeri": "Roma",
-  "defin_yeri": "Cedar Hill Cemetery",
+  "ad": "III. Felipe",
+  "dogum_tarihi": "1578-04-24",
+  "vefat_tarihi": "1621-03-31",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Madrid",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "Royal Crypt of the Royal Monastery of San Lorenzo de El Escorial",
   "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q54168",
-  "sitelink": 77,
-  "fotograf": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q34464",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Felipe-III-de-Espana A-Vidal.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pedro Antonio Vidal",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Felipe-III-de-Espana_A-Vidal.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Felipe-III-de-Espana_A-Vidal.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Morgan Kütüphanesi ve Müzesi”",
+  "neden_onemli": "Görev: Hükümdar, Asturias Prensliği",
   "hassas": false,
   "turk": false
  }

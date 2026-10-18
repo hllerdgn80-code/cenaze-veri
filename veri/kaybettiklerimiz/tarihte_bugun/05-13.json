@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Altın Küre Cecil B. DeMille Ödülü. Aday olduğu ödül: En İyi Kadın Oyuncu Akademi Ödülü, En İyi Kadın Oyuncu Altın Küre Ödülü - Drama",
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Altın Küre Cecil B. DeMille Ödülü. Aday olduğu ödül: En İyi Kadın Oyuncu Akademi Ödülü, En İyi Kadın Oyuncu Altın Küre Ödülü - Müzikal veya Komedi (sinema)",
   "hassas": false,
   "turk": false
  },
@@ -191,7 +191,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Le règne animal”. Görev: başkan yardımcısı, genel başkan",
+  "neden_onemli": "Önemli eserleri: “Le règne animal”. Görev: genel başkan, başkan yardımcısı",
   "hassas": false,
   "turk": false
  },
@@ -219,7 +219,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Saint Michael ve Saint George şovalyeleri",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Altın Kartal Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -291,7 +291,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q157043",
   "sitelink": 67,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "1870s Joseph Henry (1797-1878) American physicist, inventor and first secretary of the Smithsonian Institution (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Henry Ulke (1821-1910)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1870s_Joseph_Henry_%281797-1878%29_American_physicist%2C_inventor_and_first_secretary_of_the_Smithsonian_Institution_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1870s_Joseph_Henry_%281797-1878%29_American_physicist%2C_inventor_and_first_secretary_of_the_Smithsonian_Institution_%28cropped%29.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -319,7 +325,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Ulam spirali”, “Borsuk-Ulam teoremi”, “Mazur-Ulam teoremi”",
+  "neden_onemli": "Önemli eserleri: “Ulam spirali”, “Mazur-Ulam teoremi”, “Borsuk-Ulam teoremi”",
   "hassas": false,
   "turk": false
  }

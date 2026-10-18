@@ -34,8 +34,8 @@
   "vefat_yasi": 86,
   "dogum_yeri": "Sarikulmiak",
   "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
   "defin_ulke": null,
   "wikidata_id": "Q12526385",
   "sitelink": 18,
@@ -47,7 +47,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D0%B0%D0%BD_%28cropped%29.png"
   },
   "meslek": [
-   "Oyun yazarı"
+   "Araştırmacı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -127,7 +127,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Canzoniere”, “Afrika”, “De viris illustribus”",
+  "neden_onemli": "Önemli eserleri: “Canzoniere”, “Afrika”, “Liber sine nomine”",
   "hassas": false,
   "turk": false
  },
@@ -211,7 +211,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Billboard Müzik Ödülleri, Rockbjörnen",
+  "neden_onemli": "Ödül: Rockbjörnen, Billboard Müzik Ödülleri",
   "hassas": false,
   "turk": false
  },
@@ -259,7 +259,7 @@
   "fotograf": {
    "dosya": "Beaux-Arts de Carcassonne - Portrait d'André Chénier - Suvée - Joconde04400001220.jpg",
    "lisans": "Public domain",
-   "yazar": "Didier Descouens",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beaux-Arts_de_Carcassonne_-_Portrait_d%27Andr%C3%A9_Ch%C3%A9nier_-_Suv%C3%A9e_-_Joconde04400001220.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Beaux-Arts_de_Carcassonne_-_Portrait_d%27Andr%C3%A9_Ch%C3%A9nier_-_Suv%C3%A9e_-_Joconde04400001220.jpg"
   },

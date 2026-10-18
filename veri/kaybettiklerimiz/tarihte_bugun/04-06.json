@@ -13,7 +13,7 @@
   "sitelink": 11,
   "fotograf": null,
   "meslek": [
-   "Filozof"
+   "Kurgu olmayan eser yazarı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -84,7 +84,7 @@
   "vefat_yasi": 26,
   "dogum_yeri": "Finnøy",
   "vefat_yeri": "Froland",
-  "defin_yeri": null,
+  "defin_yeri": "Froland cemetery",
   "defin_il": null,
   "defin_ulke": "Norveç",
   "wikidata_id": "Q124115",
@@ -101,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Abel genişlemesi”, “Abel teoremi”, “Abel-Ruffini teoremi”",
+  "neden_onemli": "Önemli eserleri: “Abel-Ruffini teoremi”, “Abel genişlemesi”, “Abel teoremi”",
   "hassas": false,
   "turk": false
  },

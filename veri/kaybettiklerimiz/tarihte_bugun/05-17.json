@@ -32,8 +32,14 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q66075",
-  "sitelink": 103,
-  "fotograf": null,
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "NiccoloPaganini.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Jean-Auguste-Dominique Ingres",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NiccoloPaganini.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:NiccoloPaganini.jpeg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -55,13 +61,47 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q160499",
   "sitelink": 95,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Charles Maurice de Talleyrand-Périgord by François Gérard, 1808.jpg",
+   "lisans": "Public domain",
+   "yazar": "François Gérard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Maurice_de_Talleyrand-P%C3%A9rigord_by_Fran%C3%A7ois_G%C3%A9rard%2C_1808.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Maurice_de_Talleyrand-P%C3%A9rigord_by_Fran%C3%A7ois_G%C3%A9rard%2C_1808.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Kara Kartal Nişanı. Görev: büyükelçi, Autun Roma Katolik piskoposu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Donna Summer",
+  "dogum_tarihi": "1948-12-31",
+  "vefat_tarihi": "2012-05-17",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Boston",
+  "vefat_yeri": "Naples",
+  "defin_yeri": "Harpeth Hills Memory Gardens",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q908933",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Donna Summer in 1982.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harry Langdon.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Donna_Summer_in_1982.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Donna_Summer_in_1982.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Kadın R&B Vokal Performansı Grammy Ödülü, Rock and Roll Hall of Fame. Aday olduğu ödül: En İyi Kadın Pop Vokal Performansı Grammy Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -77,35 +117,19 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q152452",
   "sitelink": 79,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Gunnar Myrdal 1964 002 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Uppsala-Bild / Upplandsmuseet",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gunnar_Myrdal_1964_002_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gunnar_Myrdal_1964_002_%28cropped%29.jpg"
+  },
   "meslek": [
    "Akademisyen"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Donna Summer",
-  "dogum_tarihi": "1948-12-31",
-  "vefat_tarihi": "2012-05-17",
-  "vefat_yasi": 63,
-  "dogum_yeri": "Boston",
-  "vefat_yeri": "Naples",
-  "defin_yeri": "Harpeth Hills Memory Gardens",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q908933",
-  "sitelink": 78,
-  "fotograf": null,
-  "meslek": [
-   "Şarkıcı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Kadın R&B Vokal Performansı Grammy Ödülü, En İyi Dans Kaydı Grammy Ödülü. Aday olduğu ödül: En İyi Kadın Pop Vokal Performansı Grammy Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -121,13 +145,19 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q153172",
   "sitelink": 76,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Vangelis, 26 July 2012.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Ian Patterson",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vangelis%2C_26_July_2012.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vangelis%2C_26_July_2012.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Film Müziği Akademi Ödülü. Önemli eserleri: “Chariots of Fire”, “666”, “Bıçak Sırtı”",
+  "neden_onemli": "Ödül: En İyi Film Müziği Akademi Ödülü. Önemli eserleri: “Chariots of Fire”, “666”, “1492: Cennetin Keşfi”",
   "hassas": false,
   "turk": false
  },
@@ -143,7 +173,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q310847",
   "sitelink": 56,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John Jay (Gilbert Stuart portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Gilbert Stuart",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Jay_%28Gilbert_Stuart_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Jay_%28Gilbert_Stuart_portrait%29.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -165,7 +201,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q271766",
   "sitelink": 56,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Gerald Edelman (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerald_Edelman_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gerald_Edelman_%28cropped%29.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -187,7 +229,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q273212",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John C Breckinridge-04775-restored.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mathew Benjamin Brady / Levin Corbin Handy",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_C_Breckinridge-04775-restored.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_C_Breckinridge-04775-restored.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -209,7 +257,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q28937",
   "sitelink": 53,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alexis Clairault.jpg",
+   "lisans": "Public domain",
+   "yazar": "Louis-Jacques Cathelin / After Charles-Nicolas Cochin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexis_Clairault.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexis_Clairault.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -231,7 +285,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q215556",
   "sitelink": 53,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paul Dukas 01.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Dukas_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Dukas_01.jpg"
+  },
   "meslek": [
    "Eleştirmen"
   ],
@@ -253,7 +313,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q49072",
   "sitelink": 46,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Famous writer Herman Wouk arrived in Israel (FL45728797).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "IPPA photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Famous_writer_Herman_Wouk_arrived_in_Israel_%28FL45728797%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Famous_writer_Herman_Wouk_arrived_in_Israel_%28FL45728797%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],

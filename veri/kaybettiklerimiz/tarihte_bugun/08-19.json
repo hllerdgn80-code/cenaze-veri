@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Pascal teoremi”, “Pascal'ın Bahsi”, “Pascal'ın Hesap Makinesi”",
+  "neden_onemli": "Önemli eserleri: “Pascal'ın Bahsi”, “Pascal'ın Hesap Makinesi”, “Pascal teoremi”",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Goriot Baba”, “Tılsımlı Deri”, “Eugénie Grandet”",
+  "neden_onemli": "Önemli eserleri: “Goriot Baba”, “Sönmüş Hayaller”, “Tılsımlı Deri”",
   "hassas": false,
   "turk": false
  },
@@ -330,7 +330,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Piskopos",
+  "neden_onemli": "Görev: Piskopos, Romalı konsül",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"

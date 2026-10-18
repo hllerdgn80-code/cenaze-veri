@@ -11,19 +11,13 @@
   "defin_ulke": "Japonya",
   "wikidata_id": "Q8006",
   "sitelink": 177,
-  "fotograf": {
-   "dosya": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
-   "lisans": "Public domain",
-   "yazar": "映画の友 (Eiga no tomo)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Gümüş Ayı En İyi Yönetmen Ödülü, Gümüş Ayı. Önemli eserleri: “High and Low”, “Throne of Blood”, “Raşomon”",
+  "neden_onemli": "Ödül: Gümüş Ayı En İyi Yönetmen Ödülü, Gümüş Ayı. Önemli eserleri: “Throne of Blood”, “High and Low”, “Raşomon”",
   "hassas": false,
   "turk": false
  },
@@ -39,13 +33,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q8474",
   "sitelink": 153,
-  "fotograf": {
-   "dosya": "Suleiman I. Semailname (Millet Library, Ali Emîrî Collection, History, MS no. 1216).jpg",
-   "lisans": "Public domain",
-   "yazar": "16th century artist",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Suleiman_I._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Suleiman_I._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -67,13 +55,7 @@
   "defin_ulke": "Zimbabve",
   "wikidata_id": "Q10707",
   "sitelink": 139,
-  "fotograf": {
-   "dosya": "Robert Mugabe Official Portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "Government of Zimbabwe, taken by Joseph Nyadzayo as Presidential Photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Mugabe_Official_Portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Mugabe_Official_Portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -95,13 +77,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q42247",
   "sitelink": 123,
-  "fotograf": {
-   "dosya": "Sully Prudhomme, René-François-Armand, BNF Gallica.jpg",
-   "lisans": "Public domain",
-   "yazar": "UnknownUnknown , uploaded, stitched and restored by Jebulon",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sully_Prudhomme%2C_Ren%C3%A9-Fran%C3%A7ois-Armand%2C_BNF_Gallica.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sully_Prudhomme%2C_Ren%C3%A9-Fran%C3%A7ois-Armand%2C_BNF_Gallica.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -123,19 +99,35 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q37615",
   "sitelink": 117,
-  "fotograf": {
-   "dosya": "Luciano Pavarotti 2004.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luciano_Pavarotti_2004.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Luciano_Pavarotti_2004.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Yılın MusiCares Kişisi, Grammy Efsane Ödülü. Aday olduğu ödül: En Kötü Erkek Oyuncu Altın Ahududu Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Paul Belmondo",
+  "dogum_tarihi": "1933-04-09",
+  "vefat_tarihi": "2021-09-06",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Neuilly-sur-Seine",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q106255",
+  "sitelink": 110,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Serseri Aşıklar”, “Çılgın Pierrot”, “Le Professionnel”",
   "hassas": false,
   "turk": false
  },
@@ -152,47 +144,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q47551",
   "sitelink": 109,
-  "fotograf": {
-   "dosya": "Vecellio di Gregorio Tiziano - autoritratto.jpg",
-   "lisans": "Public domain",
-   "yazar": "Titian",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vecellio_di_Gregorio_Tiziano_-_autoritratto.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Vecellio_di_Gregorio_Tiziano_-_autoritratto.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Urbino Venüsü”, “Tarquin ve Lucretia”, “V. Karl'ın Atlı Portresi”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Jean-Paul Belmondo",
-  "dogum_tarihi": "1933-04-09",
-  "vefat_tarihi": "2021-09-06",
-  "vefat_yasi": 88,
-  "dogum_yeri": "Neuilly-sur-Seine",
-  "vefat_yeri": "Paris'in 7. bölgesi",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q106255",
-  "sitelink": 108,
-  "fotograf": {
-   "dosya": "Belmondo 1960.jpg",
-   "lisans": "Public domain",
-   "yazar": "Keystone/Hulton Archive",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Belmondo_1960.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Belmondo_1960.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Serseri Aşıklar”, “Le Professionnel”, “Çılgın Pierrot”",
   "hassas": false,
   "turk": false
  },
@@ -208,13 +166,7 @@
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q84296",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "Boltzmann-Ludwig.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boltzmann-Ludwig.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Boltzmann-Ludwig.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Filozof"
   ],
@@ -240,13 +192,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q160116",
   "sitelink": 87,
-  "fotograf": {
-   "dosya": "B alexander III2 (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Spinello Aretino",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/B_alexander_III2_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:B_alexander_III2_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -269,13 +215,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q160907",
   "sitelink": 77,
-  "fotograf": {
-   "dosya": "Bonifacius I.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonifacius_I.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bonifacius_I.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -297,19 +237,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q202148",
   "sitelink": 76,
-  "fotograf": {
-   "dosya": "Burt Reynolds 1991 portrait crop.jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Alan Light (https://www.flickr.com/people/alan-light/)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burt_Reynolds_1991_portrait_crop.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Burt_Reynolds_1991_portrait_crop.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Emmy Ödülleri, Komedi Dizilerinde En İyi Erkek Oyuncu Emmy Ödülü. Önemli eserleri: “The Longest Yard (film, 1974)”, “Boogie Nights”, “Yolun Sonu”",
+  "neden_onemli": "Ödül: Komedi Dizilerinde En İyi Erkek Oyuncu Emmy Ödülü, Emmy Ödülleri. Önemli eserleri: “The Longest Yard (film, 1974)”, “Boogie Nights”, “Yolun Sonu”",
   "hassas": false,
   "turk": false
  },
@@ -325,13 +259,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q234949",
   "sitelink": 65,
-  "fotograf": {
-   "dosya": "Dr. David Baltimore2 crop2.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Bob Paz",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._David_Baltimore2_crop2.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Dr._David_Baltimore2_crop2.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Akademisyen"
   ],

@@ -11,13 +11,19 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q8772",
   "sitelink": 133,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Fourier2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Julien-Léopold Boilly",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fourier2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fourier2.jpg"
+  },
   "meslek": [
    "Matematikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Fourier serileri”, “Kondüksiyon”, “Fourier dönüşümü”",
+  "neden_onemli": "Önemli eserleri: “Kondüksiyon”, “Fourier dönüşümü”, “Fourier serileri”",
   "hassas": false,
   "turk": false
  },
@@ -33,7 +39,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q128460",
   "sitelink": 108,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Portrait de Charles Perrault par Charles Le Brun (détail).jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles Le Brun",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_de_Charles_Perrault_par_Charles_Le_Brun_%28d%C3%A9tail%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_de_Charles_Perrault_par_Charles_Le_Brun_%28d%C3%A9tail%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -55,7 +67,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q46868",
   "sitelink": 93,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Itzhak Perlman with I.M. Pei, architect, looking at model of NYC Convention Center (03124v) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Itzhak_Perlman_with_I.M._Pei%2C_architect%2C_looking_at_model_of_NYC_Convention_Center_%2803124v%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Itzhak_Perlman_with_I.M._Pei%2C_architect%2C_looking_at_model_of_NYC_Convention_Center_%2803124v%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Mimar"
   ],
@@ -77,7 +95,13 @@
   "defin_ulke": "Suriye",
   "wikidata_id": "Q162543",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sébah & Joaillier - Sultan Mehmed VI.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sebah & Joaillier, that is: Jean Pascal Sébah (1872-1947) Polycarpe Joaillier (1848-1904) Restoration by Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9bah_%26_Joaillier_-_Sultan_Mehmed_VI.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:S%C3%A9bah_%26_Joaillier_-_Sultan_Mehmed_VI.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
@@ -99,13 +123,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q185151",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ronnie-James-Dio Heaven-N-Hell 2009-06-11 Chicago Photoby Adam-Bielawski.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Photobra|Adam Bielawski",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronnie-James-Dio_Heaven-N-Hell_2009-06-11_Chicago_Photoby_Adam-Bielawski.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ronnie-James-Dio_Heaven-N-Hell_2009-06-11_Chicago_Photoby_Adam-Bielawski.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Heaven and Hell”, “Ritchie Blackmore's Rainbow”, “Holy Diver”",
+  "neden_onemli": "Önemli eserleri: “Ritchie Blackmore's Rainbow”, “Heaven and Hell”, “Holy Diver”",
   "hassas": false,
   "turk": false
  },
@@ -120,8 +150,14 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q123029",
-  "sitelink": 73,
-  "fotograf": null,
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Rohrer (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "NIMSoffice",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rohrer_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rohrer_%28cropped%29.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -143,7 +179,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q233976",
   "sitelink": 68,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Frederick Gowland Hopkins nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Palmer Clarke (active 1890-1909)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Gowland_Hopkins_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Frederick_Gowland_Hopkins_nobel.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -158,14 +200,20 @@
   "dogum_tarihi": "1910-01-23",
   "vefat_tarihi": "1953-05-16",
   "vefat_yasi": 43,
-  "dogum_yeri": "Pont-à-Celles",
+  "dogum_yeri": "Liberchies",
   "vefat_yeri": "Samois-sur-Seine",
   "defin_yeri": "Cemetery of Samois-sur-Seine",
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q44122",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "DjangoReinhardt-1939-Harcourt.png",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DjangoReinhardt-1939-Harcourt.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:DjangoReinhardt-1939-Harcourt.png"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -209,7 +257,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q41618",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Basil&leo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown, 13th-century author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basil%26leo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Basil%26leo.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -231,7 +285,13 @@
   "defin_ulke": "Avustralya",
   "wikidata_id": "Q269372",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bob Hawke-1983.jpg",
+   "lisans": "CC BY-SA 3.0 au",
+   "yazar": "© Commonwealth of Australia 2011",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob_Hawke-1983.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bob_Hawke-1983.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -253,13 +313,19 @@
   "defin_ulke": null,
   "wikidata_id": "Q191037",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Jim Henson, creator, The Muppets.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gotfryd, Bernard, photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim_Henson%2C_creator%2C_The_Muppets.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jim_Henson%2C_creator%2C_The_Muppets.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Inkpot Ödülü, Peabody Ödülü. Önemli eserleri: “Susam Sokağı”, “Muppet'lar”",
+  "neden_onemli": "Ödül: Peabody Ödülü, Inkpot Ödülü. Önemli eserleri: “Susam Sokağı”, “Muppet'lar”",
   "hassas": false,
   "turk": false
  }

@@ -88,7 +88,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q7207",
-  "sitelink": 188,
+  "sitelink": 189,
   "fotograf": {
    "dosya": "Elizabeth1England.jpg",
    "lisans": "Public domain",
@@ -191,6 +191,36 @@
   "turk": false
  },
  {
+  "ad": "Jesse James",
+  "dogum_tarihi": "1847-09-05",
+  "vefat_tarihi": "1882-04-03",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Kearney",
+  "vefat_yeri": "St. Joseph",
+  "defin_yeri": "Mount Olivet Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q213626",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Jesse James NYPost.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer unknown. Scan by LoC.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesse_James_NYPost.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jesse_James_NYPost.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Amerikalı haydut",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
   "ad": "James Clark Ross",
   "dogum_tarihi": "1800-04-15",
   "vefat_tarihi": "1862-04-03",
@@ -217,36 +247,6 @@
   "turk": false
  },
  {
-  "ad": "Jesse James",
-  "dogum_tarihi": "1847-09-05",
-  "vefat_tarihi": "1882-04-03",
-  "vefat_yasi": 34,
-  "dogum_yeri": "Kearney",
-  "vefat_yeri": "St. Joseph",
-  "defin_yeri": "Mount Olivet Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q213626",
-  "sitelink": 56,
-  "fotograf": {
-   "dosya": "Jesse James NYPost.jpg",
-   "lisans": "Public domain",
-   "yazar": "Photographer unknown. Scan by LoC.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesse_James_NYPost.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Jesse_James_NYPost.jpg"
-  },
-  "meslek": [],
-  "aciklama": "Amerikalı haydut",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
-  "hassas": true,
-  "hassas_nedeni": [
-   "ateşli silah yaralanması",
-   "cinayet"
-  ],
-  "turk": false
- },
- {
   "ad": "Ruth Prawer Jhabvala",
   "dogum_tarihi": "1927-05-07",
   "vefat_tarihi": "2013-04-03",
@@ -270,7 +270,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA En İyi Uyarlama Senaryo Ödülü, Writers Guild of America Ödülleri. Aday olduğu ödül: En İyi Uyarlama Senaryo Akademi Ödülü",
+  "neden_onemli": "Ödül: BAFTA En İyi Uyarlama Senaryo Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü. Aday olduğu ödül: En İyi Uyarlama Senaryo Akademi Ödülü",
   "hassas": false,
   "turk": false
  },

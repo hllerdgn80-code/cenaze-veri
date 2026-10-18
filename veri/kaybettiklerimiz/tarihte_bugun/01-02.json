@@ -10,7 +10,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q709859",
-  "sitelink": 31,
+  "sitelink": 32,
   "fotograf": {
    "dosya": "Ferdi Tayfur.jpg",
    "lisans": "CC BY 3.0",
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı. Görev: Prusya'da Kral",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kara Kartal Nişanı. Görev: Prusya'da Kral",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı. Görev: başkan, Somali cumhurbaşkanı",
+  "neden_onemli": "Ödül: Lenin Nişanı. Görev: Somali Dışişleri Bakanı, başkan",
   "hassas": false,
   "turk": false
  },
@@ -184,7 +184,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Bizans imparatoru, Protostrator",
+  "neden_onemli": "Görev: Protostrator, Bizans imparatoru",
   "hassas": false,
   "turk": false
  },

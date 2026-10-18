@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü, Britanya İmparatorluğu genel kurmay başkanı. Önemli eserleri: “Tom Bombadil'in Maceraları”, “Silmarillion”, “Hobbit”",
+  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü, Britanya İmparatorluğu genel kurmay başkanı. Önemli eserleri: “Hobbit”, “Silmarillion”, “Tom Bombadil'in Maceraları”",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Vietnam Komünist Partisi genel sekreteri, Vietnam cumhurbaşkanı",
+  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Vietnam başbakanı, Vietnam Komünist Partisi genel sekreteri",
   "hassas": false,
   "turk": false
  },
@@ -130,7 +130,9 @@
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg"
   },
-  "meslek": [],
+  "meslek": [
+   "Kimyager"
+  ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: National Women's Hall of Fame, Ulusal Bilim Madalyası",
@@ -310,7 +312,7 @@
   "defin_il": null,
   "defin_ulke": "Yunanistan",
   "wikidata_id": "Q151976",
-  "sitelink": 62,
+  "sitelink": 63,
   "fotograf": {
    "dosya": "Mikis Theodorakis Fabrik 070004.jpg",
    "lisans": "CC BY-SA 2.0",

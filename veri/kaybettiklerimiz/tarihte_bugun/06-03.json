@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genel başkan, Genelkurmay Başkanı",
+  "neden_onemli": "Görev: Genelkurmay Başkanı, genel başkan",
   "hassas": false,
   "turk": true
  },
@@ -105,7 +105,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Associated Press Yılın Sporcusu, Uluslararası Şöhretli Boksörler Salonu. Aday olduğu ödül: En İyi Komedi Albümü Grammy Ödülü",
+  "neden_onemli": "Ödül: Associated Press Yılın Sporcusu, Arthur Ashe Cesaret Ödülü. Aday olduğu ödül: En İyi Komedi Albümü Grammy Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -177,13 +177,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q56158",
   "sitelink": 105,
-  "fotograf": {
-   "dosya": "Georges bizet.jpg",
-   "lisans": "Public domain",
-   "yazar": "Étienne Carjat",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_bizet.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Georges_bizet.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Besteci"
   ],
@@ -205,13 +199,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q93128",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "William Harvey 2.jpg",
-   "lisans": "Public domain",
-   "yazar": "After Daniël Mijtens",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Harvey_2.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Doktor"
   ],
@@ -233,19 +221,13 @@
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q83309",
   "sitelink": 90,
-  "fotograf": {
-   "dosya": "Johann Strauss II (3).jpg",
-   "lisans": "Public domain",
-   "yazar": "Fritz Luckhardt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Strauss_II_%283%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Johann_Strauss_II_%283%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Besteci"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Prusya Taç Nişanı. Önemli eserleri: “Çingene Baron”, “Yarasa”, “Güzel Mavi Tuna”",
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Prusya Taç Nişanı. Önemli eserleri: “Güzel Mavi Tuna”, “Çingene Baron”, “Yarasa”",
   "hassas": false,
   "turk": false
  },
@@ -261,13 +243,7 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q191598",
   "sitelink": 85,
-  "fotograf": {
-   "dosya": "Karamzin by Tropinin (1818, Tretyakov gallery).jpg",
-   "lisans": "Public domain",
-   "yazar": "Vasily Andreevich Tropinin",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karamzin_by_Tropinin_%281818%2C_Tretyakov_gallery%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Karamzin_by_Tropinin_%281818%2C_Tretyakov_gallery%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -289,13 +265,7 @@
   "defin_ulke": "Finlandiya",
   "wikidata_id": "Q132723",
   "sitelink": 85,
-  "fotograf": {
-   "dosya": "FransEemilSillanpää.jpg",
-   "lisans": "Public domain",
-   "yazar": "The original uploader was Blofeld of SPECTRE at English Wikipedia.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FransEemilSillanp%C3%A4%C3%A4.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -317,13 +287,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q83484",
   "sitelink": 84,
-  "fotograf": {
-   "dosya": "Anthony Quinn around the 1960s.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Quinn_around_the_1960s.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Anthony_Quinn_around_the_1960s.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],

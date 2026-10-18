@@ -43,7 +43,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Nansen Mülteci Ödülü, Büyük Katolik Isabel Nişanı. Görev: Fransa Cumhurbaşkanı, Avrupa Parlamentosu milletvekilliği",
+  "neden_onemli": "Ödül: Nansen Mülteci Ödülü, Büyük Katolik Isabel Nişanı. Görev: Fransa Cumhurbaşkanı, Ekonomi, Finans ve Sanayi Bakanı",
   "hassas": false,
   "turk": false
  },
@@ -84,7 +84,7 @@
   "vefat_tarihi": "1814-12-02",
   "vefat_yasi": 74,
   "dogum_yeri": "Paris",
-  "vefat_yeri": "Charenton asylum",
+  "vefat_yeri": "Saint-Maurice",
   "defin_yeri": "Charenton asylum",
   "defin_il": null,
   "defin_ulke": "Fransa",
@@ -216,7 +216,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -244,7 +244,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Moskova Savunması Madalyası, 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası",
+  "neden_onemli": "Ödül: Moskova Savunması Madalyası, Leningrad'ın 250. Yıldönümünü Kutlama Jübile Madalyası",
   "hassas": false,
   "turk": false
  },

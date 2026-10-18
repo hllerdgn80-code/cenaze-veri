@@ -33,7 +33,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q133267",
   "sitelink": 99,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Landau.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Landau.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Landau.jpg"
+  },
   "meslek": [
    "Teorik fizikçi"
   ],
@@ -55,7 +61,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q191084",
   "sitelink": 86,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Val Kilmer Cannes.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Georges Biard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Val_Kilmer_Cannes.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Val_Kilmer_Cannes.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -77,7 +89,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q189758",
   "sitelink": 80,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marvin Gaye (1973 publicity photo).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph by Jim Britt, whose other (copyrighted) photos of Gaye from the same session—many of them in full color—can be seen at his website. Originally distributed by Motown Records.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marvin_Gaye_%281973_publicity_photo%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marvin_Gaye_%281973_publicity_photo%29.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -99,7 +117,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q297736",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sobyanin meeting Evtushenko 05.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "mos.ru",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sobyanin_meeting_Evtushenko_05.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sobyanin_meeting_Evtushenko_05.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -254,7 +278,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q191499",
-  "sitelink": 64,
+  "sitelink": 65,
   "fotograf": {
    "dosya": "Scott Joplin 19072.jpg",
    "lisans": "Public domain",

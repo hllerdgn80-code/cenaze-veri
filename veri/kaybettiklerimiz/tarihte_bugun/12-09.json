@@ -133,7 +133,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -223,6 +223,34 @@
   "turk": false
  },
  {
+  "ad": "Lina Wertmüller",
+  "dogum_tarihi": "1928-08-14",
+  "vefat_tarihi": "2021-12-09",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q53039",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Lina Wertmuller 2000.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lina_Wertmuller_2000.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lina_Wertmuller_2000.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Thomas Wolsey",
   "dogum_tarihi": "1473",
   "vefat_tarihi": "1530-12-09",
@@ -248,34 +276,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: kardinal",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Lina Wertmüller",
-  "dogum_tarihi": "1928-08-14",
-  "vefat_tarihi": "2021-12-09",
-  "vefat_yasi": 93,
-  "dogum_yeri": "Roma",
-  "vefat_yeri": "Roma",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q53039",
-  "sitelink": 53,
-  "fotograf": {
-   "dosya": "Lina Wertmuller 2000.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lina_Wertmuller_2000.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Lina_Wertmuller_2000.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
   "hassas": false,
   "turk": false
  },

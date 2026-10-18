@@ -39,13 +39,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9682",
   "sitelink": 255,
-  "fotograf": {
-   "dosya": "Queen Elizabeth II official portrait for 1959 tour (retouched) (cropped) (3-to-4 aspect ratio).jpg",
-   "lisans": "Public domain",
-   "yazar": "Donald McKague",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -67,13 +61,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q55415",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Leni Riefenstahl, 1935.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leni_Riefenstahl%2C_1935.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Leni_Riefenstahl%2C_1935.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -95,13 +83,7 @@
   "defin_ulke": "Japonya",
   "wikidata_id": "Q155777",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Yukawa.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nobel Foundation archive",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukawa.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Yukawa.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -123,13 +105,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q13894",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Strauss3.jpg",
-   "lisans": "Public domain",
-   "yazar": "Franz Leximeliaman",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Strauss3.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Strauss3.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Besteci"
   ],
@@ -151,13 +127,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q8058",
   "sitelink": 85,
-  "fotograf": {
-   "dosya": "Louis XI (1423-1483).jpg",
-   "lisans": "Public domain",
-   "yazar": "Jacob de Litemont",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_XI_%281423-1483%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Louis_XI_%281423-1483%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -247,7 +217,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, başrahip",
+  "neden_onemli": "Görev: büyükelçi, başrahip",
   "hassas": false,
   "turk": false
  },
@@ -280,6 +250,34 @@
   "turk": false
  },
  {
+  "ad": "I. Faysal",
+  "dogum_tarihi": "1885-05-20",
+  "vefat_tarihi": "1933-09-08",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Mekke",
+  "vefat_yeri": "Bern",
+  "defin_yeri": "Iraq Royal Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Irak",
+  "wikidata_id": "Q212486",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Faisal I, King of Syria and King of Iraq.jpg",
+   "lisans": "Public domain",
+   "yazar": "Vandyk photographic studio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Faisal_I%2C_King_of_Syria_and_King_of_Iraq.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Willard Libby",
   "dogum_tarihi": "1908-12-17",
   "vefat_tarihi": "1980-09-08",
@@ -304,34 +302,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Kimya Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Peter Simon Pallas",
-  "dogum_tarihi": "1741-09-22",
-  "vefat_tarihi": "1811-09-08",
-  "vefat_yasi": 69,
-  "dogum_yeri": "Berlin",
-  "vefat_yeri": "Berlin",
-  "defin_yeri": "Berlin",
-  "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q155914",
-  "sitelink": 65,
-  "fotograf": {
-   "dosya": "Peter Simon Pallas. Stipple engraving by A. Tardieu after hi Wellcome V0004437.jpg",
-   "lisans": "CC BY 4.0",
-   "yazar": "Ambroise Tardieu",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Simon_Pallas._Stipple_engraving_by_A._Tardieu_after_hi_Wellcome_V0004437.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Peter_Simon_Pallas._Stipple_engraving_by_A._Tardieu_after_hi_Wellcome_V0004437.jpg"
-  },
-  "meslek": [
-   "Doktor"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi",
   "hassas": false,
   "turk": false
  }

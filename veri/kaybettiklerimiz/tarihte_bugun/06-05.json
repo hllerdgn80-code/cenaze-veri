@@ -23,35 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı, Ermeni SSC Halk Sanatçısı",
-  "hassas": false,
-  "turk": true
- },
- {
-  "ad": "Şehzade Mehmed Burhaneddin",
-  "dogum_tarihi": "1885-12-19",
-  "vefat_tarihi": "1949-06-05",
-  "vefat_yasi": 63,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "New York",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q19737728",
-  "sitelink": 13,
-  "fotograf": {
-   "dosya": "Şehzade Mehmed Burhaneddin Efendi.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Tarihden sb",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%9Eehzade_Mehmed_Burhaneddin_Efendi.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%C5%9Eehzade_Mehmed_Burhaneddin_Efendi.jpg"
-  },
-  "meslek": [
-   "Besteci"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Ödül: Ermeni SSC Halk Sanatçısı, Lenin Nişanı",
   "hassas": false,
   "turk": true
  },
@@ -96,19 +68,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9960",
   "sitelink": 304,
-  "fotograf": {
-   "dosya": "Ronald Reagan 1981 presidential portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "Michael Evans",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronald_Reagan_1981_presidential_portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_1981_presidential_portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Krizantem Nişanı, Kongre Altın Madalyası. Önemli eserleri: “Tear down this wall!”",
+  "neden_onemli": "Ödül: Krizantem Nişanı, Beyaz Kartal Nişanı. Önemli eserleri: “Tear down this wall!”",
   "hassas": false,
   "turk": false
  },
@@ -124,13 +90,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q172788",
   "sitelink": 96,
-  "fotograf": {
-   "dosya": "William Sydney Porter by doubleday.jpg",
-   "lisans": "Public domain",
-   "yazar": "W.M. Vanderweyde, New York",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Sydney_Porter_by_doubleday.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Sydney_Porter_by_doubleday.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -153,13 +113,7 @@
   "defin_ulke": "Japonya",
   "wikidata_id": "Q193344",
   "sitelink": 88,
-  "fotograf": {
-   "dosya": "Miyamoto Musashi-Portrait-Edo-period.png",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyamoto_Musashi-Portrait-Edo-period.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Miyamoto_Musashi-Portrait-Edo-period.png"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -181,13 +135,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q183532",
   "sitelink": 84,
-  "fotograf": {
-   "dosya": "Anne Bancroft Chrysler Theatre 1964 (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "NBC Television",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Bancroft_Chrysler_Theatre_1964_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Anne_Bancroft_Chrysler_Theatre_1964_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -209,13 +157,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q154812",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "Caroline Bardua - Bildnis des Komponisten Carl Maria von Weber.jpg",
-   "lisans": "Public domain",
-   "yazar": "Caroline Bardua",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Besteci"
   ],
@@ -237,13 +179,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q165983",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Sultan bayezid II, Shāhnāma-i Malik-i Āhī, calligrapher and painter Darwish Mahmud b. Abdullah nakkash, Istanbul, ca. 1495, tSMK, H. 1123, fol. 14a.jpg",
-   "lisans": "Public domain",
-   "yazar": "Darwish Mahmud b. Abdullah nakkash, Istanbul, ca. 1495",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultan_bayezid_II%2C_Sh%C4%81hn%C4%81ma-i_Malik-i_%C4%80h%C4%AB%2C_calligrapher_and_painter_Darwish_Mahmud_b._Abdullah_nakkash%2C_Istanbul%2C_ca._1495%2C_tSMK%2C_H._1123%2C_fol._14a.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_bayezid_II%2C_Sh%C4%81hn%C4%81ma-i_Malik-i_%C4%80h%C4%AB%2C_calligrapher_and_painter_Darwish_Mahmud_b._Abdullah_nakkash%2C_Istanbul%2C_ca._1495%2C_tSMK%2C_H._1123%2C_fol._14a.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -265,13 +201,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q18352991",
   "sitelink": 59,
-  "fotograf": {
-   "dosya": "Edgar Lungu in TICAD VII (cropped).jpg",
-   "lisans": "CC BY 4.0",
-   "yazar": "Cabinet Public Relations Office of the Cabinet Secretariat",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Lungu_in_TICAD_VII_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Edgar_Lungu_in_TICAD_VII_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -293,13 +223,7 @@
   "defin_ulke": "Estonya",
   "wikidata_id": "Q207727",
   "sitelink": 57,
-  "fotograf": {
-   "dosya": "Hoogoven Schaaktoernooi Keres, Bestanddeelnr 922-0145.jpg",
-   "lisans": "CC0",
-   "yazar": "Eric Koch for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven_Schaaktoernooi_Keres%2C_Bestanddeelnr_922-0145.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Hoogoven_Schaaktoernooi_Keres%2C_Bestanddeelnr_922-0145.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Satranç oyuncusu"
   ],
@@ -321,19 +245,35 @@
   "defin_ulke": null,
   "wikidata_id": "Q216129",
   "sitelink": 55,
-  "fotograf": {
-   "dosya": "Herbert Kitchener 1914.jpg",
-   "lisans": "Public domain",
-   "yazar": "Harris & Ewing, Inc.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert_Kitchener_1914.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Herbert_Kitchener_1914.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Mühendis"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dizbağı Nişanı, 1. Derece, Mecidiye Nişanı. Görev: büyükelçi, savunma bakanı",
+  "neden_onemli": "Ödül: Dizbağı Nişanı, 1. Derece, Mecidiye Nişanı. Görev: büyükelçi, Savaş Bakanlığı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Astrud Gilberto",
+  "dogum_tarihi": "1940-03-29",
+  "vefat_tarihi": "2023-06-05",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Salvador",
+  "vefat_yeri": "Philadelphia",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q230401",
+  "sitelink": 52,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Yılın Kaydı Grammy Ödülü. Önemli eserleri: “The Astrud Gilberto Album”, “The Girl from Ipanema”",
   "hassas": false,
   "turk": false
  }

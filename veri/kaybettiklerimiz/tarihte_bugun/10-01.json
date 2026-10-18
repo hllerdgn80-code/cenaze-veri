@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Türkiye İçişleri Bakanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Sanayi ve Teknoloji Bakanı",
   "hassas": false,
   "turk": true
  },
@@ -39,7 +39,13 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q32500",
   "sitelink": 125,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Portrait of Charles V, Holy Roman Emperor, seated (1500–1558), formerly attributed to Titian (Alte Pinakothek, Munich).jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Titian",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Charles_V%2C_Holy_Roman_Emperor%2C_seated_%281500%E2%80%931558%29%2C_formerly_attributed_to_Titian_%28Alte_Pinakothek%2C_Munich%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charles_V%2C_Holy_Roman_Emperor%2C_seated_%281500%E2%80%931558%29%2C_formerly_attributed_to_Titian_%28Alte_Pinakothek%2C_Munich%29.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
@@ -55,13 +61,19 @@
   "vefat_tarihi": "2025-10-01",
   "vefat_yasi": 91,
   "dogum_yeri": "Hampstead",
-  "vefat_yeri": "Beverly Hills",
+  "vefat_yeri": "Los Angeles",
   "defin_yeri": null,
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q184746",
   "sitelink": 122,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Deputy Secretary Higginbottom Poses for a Photo With Dr. Jane Goodall and the State Department's Global Health Diplomacy Director Jordan in Washington (22365513310) (2) (cropped 2).jpg",
+   "lisans": "Public domain",
+   "yazar": "U.S. Department of State from United States",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_%2822365513310%29_%282%29_%28cropped_2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_%2822365513310%29_%282%29_%28cropped_2%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -81,7 +93,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q747",
   "sitelink": 108,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pierre Corneille 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Charles Le Brun",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Corneille_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Corneille_2.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -104,7 +122,13 @@
   "defin_ulke": "Filistin",
   "wikidata_id": "Q44248",
   "sitelink": 108,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Domenico ghirlandaio, san girolamo 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Domenico Ghirlandaio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico_ghirlandaio%2C_san_girolamo_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Domenico_ghirlandaio%2C_san_girolamo_01.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -125,8 +149,14 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q1785",
-  "sitelink": 98,
-  "fotograf": null,
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "2014.06.23. Charles Aznavour Fot Mariusz Kubik 01.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Mariusz Kubik",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2014.06.23._Charles_Aznavour_Fot_Mariusz_Kubik_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:2014.06.23._Charles_Aznavour_Fot_Mariusz_Kubik_01.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -148,7 +178,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q184530",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Girolamo Cardano. Stipple engraving by R. Cooper. Wellcome V0001004.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Girolamo_Cardano._Stipple_engraving_by_R._Cooper._Wellcome_V0001004.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Girolamo_Cardano._Stipple_engraving_by_R._Cooper._Wellcome_V0001004.jpg"
+  },
   "meslek": [
    "Mucit"
   ],
@@ -170,7 +206,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q105167",
   "sitelink": 80,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Tom Clancy at Burns Library cropped.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Gary Wayne Gilbert",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Clancy_at_Burns_Library_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tom_Clancy_at_Burns_Library_cropped.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -214,7 +256,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q170386",
   "sitelink": 73,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope Innocent II – Santa Maria in Trastevere.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Hugo DK",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Innocent_II_%E2%80%93_Santa_Maria_in_Trastevere.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Innocent_II_%E2%80%93_Santa_Maria_in_Trastevere.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -236,7 +284,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q41610",
   "sitelink": 72,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Manuel I Comnenus.jpg",
+   "lisans": "Public domain",
+   "yazar": "Uploader: User:Tokle",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manuel_I_Comnenus.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Manuel_I_Comnenus.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -245,24 +299,31 @@
   "turk": false
  },
  {
-  "ad": "Enrico De Nicola",
-  "dogum_tarihi": "1877-11-09",
-  "vefat_tarihi": "1959-10-01",
-  "vefat_yasi": 81,
-  "dogum_yeri": "Napoli",
-  "vefat_yeri": "Torre del Greco",
-  "defin_yeri": "Cemetery of Poggioreale, Naples",
+  "ad": "III. Harald",
+  "dogum_tarihi": "1015",
+  "vefat_tarihi": "1066-10-01",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ringerike",
+  "vefat_yeri": "Stamford Bridge, East Riding of Yorkshire",
+  "defin_yeri": "Helgeseter Priory",
   "defin_il": null,
-  "defin_ulke": "İtalya",
-  "wikidata_id": "Q1245",
+  "defin_ulke": "Norveç",
+  "wikidata_id": "Q203647",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Harald III of Norway.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harald_III_of_Norway.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Harald_III_of_Norway.jpg"
+  },
   "meslek": [
-   "Siyasetçi"
+   "Askerî personel"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: İtalya Devlet Başkanı, tabii senatörlük",
+  "neden_onemli": "Görev: kral",
   "hassas": false,
   "turk": false
  }

@@ -204,7 +204,7 @@
   "vefat_tarihi": "1957-03-11",
   "vefat_yasi": 68,
   "dogum_yeri": "Winchester",
-  "vefat_yeri": "Boston",
+  "vefat_yeri": "Beacon Hill",
   "defin_yeri": "Arlington Ulusal Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -220,7 +220,35 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, liyakat madalyası",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, II. Dünya Savaşı Zafer Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Petar",
+  "dogum_tarihi": "1923-09-06",
+  "vefat_tarihi": "1970-11-03",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Belgrad",
+  "vefat_yeri": "Denver",
+  "defin_yeri": "St. Sava's Serbian Orthodox Seminary",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q223183",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Kralj Petar II.jpg",
+   "lisans": "CC BY 3.0 rs",
+   "yazar": "Непознат",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kralj_Petar_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kralj_Petar_II.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Légion d'honneur, Karađorđe'nin Yıldızı Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -243,34 +271,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Fransa Cumhurbaşkanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "II. Petar",
-  "dogum_tarihi": "1923-09-06",
-  "vefat_tarihi": "1970-11-03",
-  "vefat_yasi": 47,
-  "dogum_yeri": "Belgrad",
-  "vefat_yeri": "Denver",
-  "defin_yeri": "St. Sava's Serbian Orthodox Seminary",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q223183",
-  "sitelink": 55,
-  "fotograf": {
-   "dosya": "Kralj Petar II.jpg",
-   "lisans": "CC BY 3.0 rs",
-   "yazar": "Непознат",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kralj_Petar_II.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kralj_Petar_II.jpg"
-  },
-  "meslek": [
-   "Hükümdar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Karađorđe'nin Yıldızı Nişanı, Légion d'honneur",
   "hassas": false,
   "turk": false
  },

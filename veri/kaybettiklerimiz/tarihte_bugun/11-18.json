@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü. Önemli eserleri: “Kayıp Zamanın İzinde”, “Jean Santeuil”, “Çiçek Açmış Genç Kızların Gölgesinde”",
+  "neden_onemli": "Ödül: Goncourt Akademisi Edebiyat Ödülü. Önemli eserleri: “Jean Santeuil”, “Kayıp Zamanın İzinde”, “Çiçek Açmış Genç Kızların Gölgesinde”",
   "hassas": false,
   "turk": false
  },
@@ -98,11 +98,11 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
   },
   "meslek": [
-   "Kimyager"
+   "Fizikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -130,7 +130,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Amerika Birleşik Devletleri Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -223,7 +223,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q46720",
-  "sitelink": 73,
+  "sitelink": 74,
   "fotograf": {
    "dosya": "INC-1558-a Солид Валентиниан I ок. 364-367 гг. (аверс).png",
    "lisans": "CC BY-SA 4.0",
@@ -308,7 +308,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q4227",
   "sitelink": 68,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "James Coburn The Californians 1959.JPG",
+   "lisans": "Public domain",
+   "yazar": "NBC Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Coburn_The_Californians_1959.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Coburn_The_Californians_1959.JPG"
+  },
   "meslek": [
    "Oyuncu"
   ],

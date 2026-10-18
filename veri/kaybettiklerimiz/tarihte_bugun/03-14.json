@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9061",
-  "sitelink": 312,
+  "sitelink": 313,
   "fotograf": {
    "dosya": "Karl Marx 001 restored.jpg",
    "lisans": "Public domain",
@@ -24,6 +24,35 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “1844 Elyazmaları”, “Alman İdeolojisi”, “Komünist Manifesto”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Akinolu Thomas",
+  "dogum_tarihi": "1225",
+  "vefat_tarihi": "1274-03-14",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Conti d’Aquino Kalesi, Roccasecca",
+  "vefat_yeri": "Fossanova Abbey",
+  "defin_yeri": "Church of the Jacobins",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q9438",
+  "sitelink": 208,
+  "fotograf": {
+   "dosya": "St-thomas-aquinasFXD.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carlo Crivelli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St-thomas-aquinasFXD.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “De regno, ad regem Cypri”, “Quinque viæ”. Görev: profesör",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +80,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Asturias Prensliği Ödülü, Wolf Prize in Physics. Önemli eserleri: “Ceviz Kabuğundaki Evren”, “Zamanın Kısa Tarihi: Büyük Patlamadan Karadeliklere”, “Kara Delikler ve Bebek Evrenler”",
+  "neden_onemli": "Ödül: Asturias Prensliği Ödülü, Wolf Prize in Physics. Önemli eserleri: “Zamanın Kısa Tarihi: Büyük Patlamadan Karadeliklere”, “On the Shoulders of Giants”, “Ceviz Kabuğundaki Evren”",
   "hassas": false,
   "turk": false
  },
@@ -80,7 +109,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
   "hassas": false,
   "turk": false
  },
@@ -136,7 +165,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Micrographia”, “Montagu House”, “Hooke yasası”",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Micrographia”, “Hooke yasası”, “Montagu House”",
   "hassas": false,
   "turk": false
  },
@@ -179,7 +208,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q189147",
-  "sitelink": 65,
+  "sitelink": 66,
   "fotograf": {
    "dosya": "Colorpictureofgeorgeastman.jpg",
    "lisans": "Public domain",
@@ -279,7 +308,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “Kahraman Şerif”, “İnsanlık Uğruna”, “A Hatful of Rain”",
+  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “Kahraman Şerif”, “İnsanlık Uğruna”, “Çakalın Günü”",
   "hassas": false,
   "turk": false
  },
@@ -308,34 +337,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Vytautas Liyakat Nişanı. Görev: Estonya cumhurbaşkanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Christopher A. Sims",
-  "dogum_tarihi": "1942-10-21",
-  "vefat_tarihi": "2026-03-14",
-  "vefat_yasi": 83,
-  "dogum_yeri": "Washington",
-  "vefat_yeri": "Minneapolis",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q109737",
-  "sitelink": 50,
-  "fotograf": {
-   "dosya": "Nobel Prize 2011-Press Conference KVA-DSC 7720.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Holger Motzkau",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nobel_Prize_2011-Press_Conference_KVA-DSC_7720.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2011-Press_Conference_KVA-DSC_7720.jpg"
-  },
-  "meslek": [
-   "Profesör"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
   "hassas": false,
   "turk": false
  }

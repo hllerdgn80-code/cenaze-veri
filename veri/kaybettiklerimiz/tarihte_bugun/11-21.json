@@ -11,7 +11,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q961343",
   "sitelink": 17,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Yaşar Büyükanıt cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "R. D. Ward",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ya%C5%9Far_B%C3%BCy%C3%BCkan%C4%B1t_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ya%C5%9Far_B%C3%BCy%C3%BCkan%C4%B1t_cropped.jpg"
+  },
   "meslek": [
    "Asker"
   ],
@@ -33,7 +39,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q60429",
   "sitelink": 117,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sir CV Raman.JPG",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_CV_Raman.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -55,13 +67,19 @@
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q51056",
   "sitelink": 99,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Franz Joseph I of Austria.1910 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Pietzner",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Franz_Joseph_I_of_Austria.1910_%28cropped%29.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dizbağı Nişanı, Aziz Andreas Nişanı. Görev: Avusturya İmparatoru",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Dizbağı Nişanı. Görev: Avusturya İmparatoru",
   "hassas": false,
   "turk": false
  },
@@ -77,7 +95,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q191480",
   "sitelink": 89,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Eggink-Portrait of Ivan Krylov.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ivan Eggink",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eggink-Portrait_of_Ivan_Krylov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eggink-Portrait_of_Ivan_Krylov.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -99,7 +123,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q28189",
   "sitelink": 87,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Abdus Salam 1987 (cropped).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Molendijk, Bart / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdus_Salam_1987_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abdus_Salam_1987_%28cropped%29.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -121,7 +151,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q28494",
   "sitelink": 86,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anton Graff Heinrich von Kleist (1).jpg",
+   "lisans": "Public domain",
+   "yazar": "Anton Graff",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anton_Graff_Heinrich_von_Kleist_%281%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anton_Graff_Heinrich_von_Kleist_%281%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -146,7 +182,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q174044",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "AlexanderNevskyTitul.jpg",
+   "lisans": "Public domain",
+   "yazar": "Collective of Kremlin Armory artists",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexanderNevskyTitul.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AlexanderNevskyTitul.jpg"
+  },
   "meslek": [
    "Askeri lider"
   ],
@@ -168,7 +210,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9695",
   "sitelink": 67,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Henry Purcell by John Closterman.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Purcell_by_John_Closterman.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henry_Purcell_by_John_Closterman.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -190,7 +238,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q310841",
   "sitelink": 53,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Garret Augustus Hobart.jpg",
+   "lisans": "Public domain",
+   "yazar": "Doremus Gallery of Art, Paterson, NJ",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garret_Augustus_Hobart.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Garret_Augustus_Hobart.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -213,7 +267,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q41663",
   "sitelink": 52,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Histamenon nomisma-Constantine VIII-sb1776.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Classical Numismatic Group",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Histamenon_nomisma-Constantine_VIII-sb1776.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Histamenon_nomisma-Constantine_VIII-sb1776.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -233,7 +293,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q210162",
   "sitelink": 48,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ivan krasniy titularnik.jpg",
+   "lisans": "Public domain",
+   "yazar": "collective",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan_krasniy_titularnik.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ivan_krasniy_titularnik.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -255,7 +321,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q314210",
   "sitelink": 47,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Taoqian1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Chen Hongshou (1599-1652)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taoqian1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Taoqian1.jpg"
+  },
   "meslek": [
    "Şair"
   ],

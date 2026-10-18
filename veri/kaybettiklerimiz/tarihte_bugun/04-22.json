@@ -97,19 +97,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9588",
   "sitelink": 190,
-  "fotograf": {
-   "dosya": "Richard Nixon presidential portrait.jpg",
-   "lisans": "Public domain",
-   "yazar": "Department of Defense. Department of the Army. Office of the Deputy Chief of Staff for Operations. U.S. Army Audiovisual Center. (ca. 1974 - 05/15/1984)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Nixon_presidential_portrait.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Nişan-ı Pakistan, İtalya Cumhuriyeti Liyakat Nişanı. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "neden_onemli": "Ödül: Nişan-ı Pakistan, İtalya Cumhuriyeti Liyakat Nişanı. Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Amerika Birleşik Devletleri Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -125,13 +119,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q173028",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Segre.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nobel foundation",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Segre.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Segre.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -153,13 +141,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q160882",
   "sitelink": 75,
-  "fotograf": {
-   "dosya": "PCaius.jpg",
-   "lisans": "Public domain",
-   "yazar": "User Känsterle on nl.wikipedia",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PCaius.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:PCaius.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -179,13 +161,7 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q171136",
   "sitelink": 72,
-  "fotograf": {
-   "dosya": "Johanna I van Castilië.JPG",
-   "lisans": "Public domain",
-   "yazar": "Master of Affligem",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johanna_I_van_Castili%C3%AB.JPG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Johanna_I_van_Castili%C3%AB.JPG"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -207,13 +183,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q41590",
   "sitelink": 70,
-  "fotograf": {
-   "dosya": "Expoziție Mircea Eliade, fragment (cropped).jpg",
-   "lisans": "CC0",
-   "yazar": "Elena Ancu Damian",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Expozi%C8%9Bie_Mircea_Eliade%2C_fragment_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Expozi%C8%9Bie_Mircea_Eliade%2C_fragment_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -235,13 +205,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q60809",
   "sitelink": 69,
-  "fotograf": {
-   "dosya": "Ansel Adams and camera.jpg",
-   "lisans": "Public domain",
-   "yazar": "J. Malcolm Greany",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ansel_Adams_and_camera.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_and_camera.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -264,11 +228,11 @@
   "wikidata_id": "Q142472",
   "sitelink": 60,
   "fotograf": {
-   "dosya": "Denkmal für Käthe Kollwitz, Straße der Erinnerung, Berlin, 2013.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Christine Derwerny",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Denkmal_f%C3%BCr_K%C3%A4the_Kollwitz%2C_Stra%C3%9Fe_der_Erinnerung%2C_Berlin%2C_2013.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Denkmal_f%C3%BCr_K%C3%A4the_Kollwitz%2C_Stra%C3%9Fe_der_Erinnerung%2C_Berlin%2C_2013.jpg"
+   "dosya": "Käthe Kollwitz by Hugo Erfurth, 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hugo Erfurth",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4the_Kollwitz_by_Hugo_Erfurth%2C_1927.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:K%C3%A4the_Kollwitz_by_Hugo_Erfurth%2C_1927.jpg"
   },
   "meslek": [
    "Ressam"

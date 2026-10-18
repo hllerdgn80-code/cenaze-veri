@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Seiun Ödülü, Grand Prix de Littérature Policière. Önemli eserleri: “The Astronauts”, “Tales of Pirx the Pilot”, “Yıldız Güncesi”",
+  "neden_onemli": "Ödül: Seiun Ödülü, Grand Prix de Littérature Policière. Önemli eserleri: “Sahibinin Sesi”, “Golem XIV”, “Yıldız Güncesi”",
   "hassas": false,
   "turk": false
  },
@@ -135,7 +135,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Yönetmen Altın Küre Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Büyük Karnaval”, “The Fortune Cookie”, “Garsoniyer”",
+  "neden_onemli": "Ödül: En İyi Film Akademi Ödülü, En İyi Yönetmen Altın Küre Ödülü. Önemli eserleri: “Büyük Karnaval”, “The Fortune Cookie”, “Garsoniyer”",
   "hassas": false,
   "turk": false
  },
@@ -195,7 +195,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -295,7 +295,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q104148",
   "sitelink": 64,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Interpolisschaaktoernooi Tilburg 1819 Smyslov aan zet, Bestanddeelnr 929-3630.jpg",
+   "lisans": "CC0",
+   "yazar": "Koen Suyk / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Interpolisschaaktoernooi_Tilburg_1819_Smyslov_aan_zet%2C_Bestanddeelnr_929-3630.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Interpolisschaaktoernooi_Tilburg_1819_Smyslov_aan_zet%2C_Bestanddeelnr_929-3630.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -317,7 +323,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q277579",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "James Dewar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Dewar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Dewar.jpg"
+  },
   "meslek": [
    "Mucit"
   ],

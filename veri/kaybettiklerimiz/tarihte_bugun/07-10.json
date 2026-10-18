@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Arabistanlı Lawrence”, “Doktor Jivago”",
+  "neden_onemli": "Önemli eserleri: “Doktor Jivago”, “Arabistanlı Lawrence”",
   "hassas": false,
   "turk": false
  },
@@ -42,7 +42,7 @@
   "fotograf": {
    "dosya": "Jean-Babtiste Sabarier-Blot L.J.M.Daguerre.1844.JPG",
    "lisans": "Public domain",
-   "yazar": "Jean-Baptiste Sabatier-Blot",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Babtiste_Sabarier-Blot_L.J.M.Daguerre.1844.JPG",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Babtiste_Sabarier-Blot_L.J.M.Daguerre.1844.JPG"
   },
@@ -251,7 +251,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Inkpot Ödülü. Önemli eserleri: “Jetgiller”, “Looney Tunes”, “Pinokyo”",
+  "neden_onemli": "Ödül: Inkpot Ödülü. Önemli eserleri: “Jetgiller”, “Pinokyo”, “Looney Tunes”",
   "hassas": false,
   "turk": false
  },

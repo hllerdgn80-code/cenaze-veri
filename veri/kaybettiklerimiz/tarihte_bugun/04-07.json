@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Adlerschild des Deutschen Reiches. Görev: Ford Motor Şirketi'nin CEO'su, kurucu",
+  "neden_onemli": "Ödül: Adlerschild des Deutschen Reiches. Görev: kurucu, Ford Motor Şirketi'nin CEO'su",
   "hassas": false,
   "turk": false
  },
@@ -263,7 +263,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q77148",
-  "sitelink": 65,
+  "sitelink": 66,
   "fotograf": {
    "dosya": "1929 report on Carl Schmitt.jpg",
    "lisans": "Public domain",

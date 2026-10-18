@@ -1,5 +1,5 @@
 {
- "uretim_tarihi": "2026-10-11T07:41:31",
+ "uretim_tarihi": "2026-10-18T07:09:33",
  "kaynak": "Wikidata (CC0)",
  "sayilar": {
   "cumhurbaskanlari": 9,
@@ -19,15 +19,15 @@
    ]
   },
   "c_teror_orgutu": {
-   "adet": 25,
+   "adet": 24,
    "ornek": [
     "İbrahim Kaypakkaya",
-    "Mazlum Doğan",
-    "Mahsum Korkmaz"
+    "Mahsum Korkmaz",
+    "Dursun Karataş"
    ]
   },
   "d_soykirim_savas_sucu": {
-   "adet": 60,
+   "adet": 59,
    "ornek": [
     "Leopoldo Galtieri",
     "Hermann Hoth",
@@ -35,13 +35,13 @@
    ]
   },
   "e_elle_liste": {
-   "adet": 19,
+   "adet": 18,
    "ornek": [
-    "Mazlum Doğan",
     "Mahsum Korkmaz",
-    "Dursun Karataş"
+    "Dursun Karataş",
+    "Hakî Karer"
    ]
   }
  },
- "elenen_toplam": 129
+ "elenen_toplam": 127
 }

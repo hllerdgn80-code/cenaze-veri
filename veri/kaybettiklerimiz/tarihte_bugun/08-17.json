@@ -24,7 +24,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Censor, Romalı konsül",
+  "neden_onemli": "Görev: Censor, Tribün",
   "hassas": false,
   "turk": false
  },
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Kara Kartal Nişanı",
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -242,7 +242,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Yardımcı Kadın Oyuncu Saturn Ödülü. Önemli eserleri: “Malcolm in the Middle”, “Heroes”, “Çığlık 4”",
+  "neden_onemli": "Ödül: En İyi Yardımcı Kadın Oyuncu Saturn Ödülü. Önemli eserleri: “Malcolm in the Middle”, “Çığlık 4”, “Heroes”",
   "hassas": true,
   "hassas_nedeni": [
    "golden shot"
@@ -288,7 +288,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q287752",
-  "sitelink": 56,
+  "sitelink": 57,
   "fotograf": {
    "dosya": "Photo of Charlotte Perkins Gilman.jpg",
    "lisans": "Public domain",

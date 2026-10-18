@@ -217,7 +217,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: profesör, kütüphaneci",
+  "neden_onemli": "Görev: kütüphaneci, profesör",
   "hassas": false,
   "turk": false
  },
@@ -306,30 +306,24 @@
   "turk": false
  },
  {
-  "ad": "Korney Çukovski",
-  "dogum_tarihi": "1882-03-31",
-  "vefat_tarihi": "1969-10-28",
-  "vefat_yasi": 87,
-  "dogum_yeri": "Sankt-Peterburg",
-  "vefat_yeri": "Moskova",
-  "defin_yeri": "Peredelkino Cemetery",
+  "ad": "Tadeusz Mazowiecki",
+  "dogum_tarihi": "1927-04-18",
+  "vefat_tarihi": "2013-10-28",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Plock",
+  "vefat_yeri": "Varşova",
+  "defin_yeri": "Forest Cemetery in Laski",
   "defin_il": null,
-  "defin_ulke": "Rusya",
-  "wikidata_id": "Q347685",
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q55922",
   "sitelink": 59,
-  "fotograf": {
-   "dosya": "Chukovsky 1958 02 (cropped).jpg",
-   "lisans": "CC BY 4.0",
-   "yazar": "mos.ru / Главархив Москвы",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chukovsky_1958_02_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Chukovsky_1958_02_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
-   "Şair"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Lenin Nişanı",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Gediminas Nişanı. Görev: Polonya başbakanı",
   "hassas": false,
   "turk": false
  }

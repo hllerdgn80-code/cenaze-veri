@@ -208,7 +208,7 @@
   "fotograf": {
    "dosya": "Interior of Santi Giovanni e Paolo (Venice) - Honorius III by Leandro Bassano.jpg",
    "lisans": "Public domain",
-   "yazar": "Didier Descouens",
+   "yazar": null,
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Honorius_III_by_Leandro_Bassano.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Honorius_III_by_Leandro_Bassano.jpg"
   },
@@ -304,35 +304,31 @@
   "turk": false
  },
  {
-  "ad": "Pargalı İbrahim Paşa",
-  "dogum_tarihi": "1495",
-  "vefat_tarihi": "1536-03-25",
-  "vefat_yasi": 41,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Parga",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
+  "ad": "Ida B.Wells",
+  "dogum_tarihi": "1862-07-16",
+  "vefat_tarihi": "1931-03-25",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Holly Springs",
+  "vefat_yeri": "Şikago",
+  "defin_yeri": "Oak Woods Cemetery",
   "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q511943",
-  "sitelink": 49,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q289428",
+  "sitelink": 50,
   "fotograf": {
-   "dosya": "Ibrahim Pasha (portrait) suppresses the Kalender Çelebi rebellion in 1527. Süleymanname, TSM Haz 1517, f.248a.jpg",
+   "dosya": "Mary Garrity - Ida B. Wells-Barnett - Google Art Project - restoration crop.jpg",
    "lisans": "Public domain",
-   "yazar": "1558 Ottoman artist",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibrahim_Pasha_%28portrait%29_suppresses_the_Kalender_%C3%87elebi_rebellion_in_1527._S%C3%BCleymanname%2C_TSM_Haz_1517%2C_f.248a.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ibrahim_Pasha_%28portrait%29_suppresses_the_Kalender_%C3%87elebi_rebellion_in_1527._S%C3%BCleymanname%2C_TSM_Haz_1517%2C_f.248a.jpg"
+   "yazar": "Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_Garrity_-_Ida_B._Wells-Barnett_-_Google_Art_Project_-_restoration_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mary_Garrity_-_Ida_B._Wells-Barnett_-_Google_Art_Project_-_restoration_crop.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Stadhouder, Sadrazam",
-  "hassas": true,
-  "hassas_nedeni": [
-   "ölüm cezası"
-  ],
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
   "turk": false
  }
 ]
