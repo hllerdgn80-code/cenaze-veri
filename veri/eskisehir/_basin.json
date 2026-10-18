@@ -1,0 +1,79 @@
+{
+ "istek": {
+  "sakaryagazetesi.com.tr": {
+   "2026-10-18": 7
+  },
+  "sonhaber.com.tr": {
+   "2026-10-18": 6
+  },
+  "istikbalgazetesi.com": {
+   "2026-10-18": 7
+  },
+  "eskisehir.net": {
+   "2026-10-18": 6
+  },
+  "eskisehirhaber.com": {
+   "2026-10-18": 6
+  },
+  "eskisehirekspres.net": {
+   "2026-10-18": 6
+  }
+ },
+ "okunan": {
+  "https://www.sakaryagazetesi.com.tr/eskisehir-cevreyolunda-feci-kaza": "2026-10-18T18:40:36",
+  "https://www.sakaryagazetesi.com.tr/tasbasi-carsisinda-korkutan-yangin": "2026-10-18T18:40:39",
+  "https://www.sonhaber.com.tr/eskisehirde-pompali-tufekli-cinayette-7-kisi-daha-gozaltinda": "2026-10-18T18:40:52",
+  "https://www.sonhaber.com.tr/eskisehirde-evde-bicaklanan-kisi-hayatini-kaybetti": "2026-10-18T18:40:56",
+  "https://www.istikbalgazetesi.com/eskisehirde-feci-kaza-1i-agir-2-yarali": "2026-10-18T18:41:07",
+  "https://www.istikbalgazetesi.com/eskisehirde-misafir-olarak-gittigi-evde-hayatini-kaybetti": "2026-10-18T18:41:11",
+  "https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-bicakla-oldurulmustu-1-supheli-tutuklandi": "2026-10-18T18:41:19",
+  "https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-oldurulmustu-1-sahis-adliyeye-sevk-edildi": "2026-10-18T18:41:23",
+  "https://www.eskisehirhaber.com/eskisehirde-1-kisinin-bicaklanarak-can-verdigi-olaya-iliskin-yeni-gelisme": "2026-10-18T18:41:31",
+  "https://www.eskisehirhaber.com/konserde-aci-son-1-kisi-hayatini-kaybetti-2-kisinin-durumu-kritik": "2026-10-18T18:41:35",
+  "https://www.eskisehirekspres.net/evinde-misafir-ettigi-sahsin-bicakla-olumune-iliskin-gozaltina-alinan-kadin-tutuklandi": "2026-10-18T18:41:43",
+  "https://www.eskisehirekspres.net/eskisehirde-dukkan-bacasinda-cikan-yangin-panige-neden-oldu": "2026-10-18T18:41:47",
+  "https://www.sakaryagazetesi.com.tr/otomobilin-carptigi-yasli-adam-hayatini-kaybetti": "2026-10-18T18:43:48",
+  "https://www.sakaryagazetesi.com.tr/turk-muziginin-usta-ismi-alpay-hayatini-kaybetti": "2026-10-18T18:43:52",
+  "https://www.sonhaber.com.tr/foto-galeri/elektrikli-araclar-sarj-olurken-neden-yaniyor-iste-yangina-yol-acabilen-7-neden": "2026-10-18T18:43:53",
+  "https://www.istikbalgazetesi.com/eskisehirde-berfinin-hayatini-kaybettigi-kazada-surucu-hakkinda-yeni-gelisme": "2026-10-18T18:43:53",
+  "https://www.istikbalgazetesi.com/eskisehir-bilecik-yolunda-korkutan-kaza-1-kisi-hayatini-kaybetti": "2026-10-18T18:43:57",
+  "https://www.eskisehir.net/tasbasi-carsisinda-cikan-yanginin-detaylari-belli-oldu": "2026-10-18T18:43:57",
+  "https://www.eskisehir.net/eskisehir-cevreyolunda-iki-otomobil-carpisti-1i-agir-2-yarali": "2026-10-18T18:44:01",
+  "https://www.eskisehirhaber.com/eskisehirde-1-kisinin-pompali-tufekle-can-verdigi-olayda-7-gozalti": "2026-10-18T18:44:01",
+  "https://www.eskisehirhaber.com/kiz-meselesi-yuzunden-ciktigi-iddia-edilen-kavga-kanli-bitti": "2026-10-18T18:44:05",
+  "https://www.eskisehirekspres.net/eskisehirde-evdeki-supheli-olumde-gozaltindaki-kadin-adliyeye-sevk-edildi": "2026-10-18T18:44:05",
+  "https://www.eskisehirekspres.net/eskisehir-cevre-yolunda-trafik-kazasi-1i-agir-2-yarali": "2026-10-18T18:44:09"
+ },
+ "robots": {
+  "www.sakaryagazetesi.com.tr": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.sakaryagazetesi.com.tr/sitemap.xml\nSitemap: https://www.sakaryagazetesi.com.tr/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.sonhaber.com.tr": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.sonhaber.com.tr/sitemap.xml\nSitemap: https://www.sonhaber.com.tr/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.istikbalgazetesi.com": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.istikbalgazetesi.com/sitemap.xml\nSitemap: https://www.istikbalgazetesi.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.eskisehir.net": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.eskisehir.net/sitemap.xml\nSitemap: https://www.eskisehir.net/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.eskisehirhaber.com": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: \nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.eskisehirhaber.com/sitemap.xml\nSitemap: https://www.eskisehirhaber.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.eskisehirekspres.net": {
+   "tarih": "2026-10-18",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.eskisehirekspres.net/sitemap.xml\nSitemap: https://www.eskisehirekspres.net/rss?yandex=turbo\n",
+   "yasak": false
+  }
+ }
+}

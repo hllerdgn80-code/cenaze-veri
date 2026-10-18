@@ -1,0 +1,93 @@
+{
+ "il": "Batman",
+ "liste_tarihi": "2026-10-17",
+ "kayitlar": [
+  {
+   "id": "503e8daac351",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Mehmet Ali Aslan",
+   "anne_baba": null,
+   "yas": 67,
+   "dogum_tarihi": "1959-01-01",
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Gercüş",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-17&bitis=2026-10-17",
+   "alindi": "2026-10-18T18:38:35+00:00",
+   "ham": {
+    "ad": "Mehmet Ali ASLAN",
+    "dogum_tarihi": "01.01.1959",
+    "dogum_yeri": "Akça",
+    "defin_yeri": "Gercüş",
+    "defin_tarihi": "17.10.2026"
+   }
+  },
+  {
+   "id": "cc77ce8d2398",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Vehibe Basut",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": "1944-11-07",
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Asri Mezarlık",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-17&bitis=2026-10-17",
+   "alindi": "2026-10-18T18:38:35+00:00",
+   "ham": {
+    "ad": "Vehibe BASUT",
+    "dogum_tarihi": "07.11.1944",
+    "dogum_yeri": "Sason",
+    "defin_yeri": "Asri Mezarlık",
+    "defin_tarihi": "17.10.2026"
+   }
+  },
+  {
+   "id": "a27ae7fd7d22",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Mehmet Şerif Yanaç",
+   "anne_baba": null,
+   "yas": 31,
+   "dogum_tarihi": "1995-09-11",
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Beşiri",
+   "defin_zamani": "2026-10-17",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-17&bitis=2026-10-17",
+   "alindi": "2026-10-18T18:38:35+00:00",
+   "ham": {
+    "ad": "Mehmet Şerif YANAÇ",
+    "dogum_tarihi": "11.09.1995",
+    "dogum_yeri": "Batman",
+    "defin_yeri": "Beşiri",
+    "defin_tarihi": "17.10.2026"
+   }
+  }
+ ]
+}

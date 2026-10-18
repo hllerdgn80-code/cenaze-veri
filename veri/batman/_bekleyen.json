@@ -1,0 +1,66 @@
+{
+ "il": "Batman",
+ "kayitlar": [
+  {
+   "id": "8530999bc3b2",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Feleknaz Biltekin",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": "1945-05-08",
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Kurtalan",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-18&bitis=2026-10-18",
+   "alindi": "2026-10-18T18:38:29+00:00",
+   "ham": {
+    "ad": "Feleknaz BİLTEKİN",
+    "dogum_tarihi": "08.05.1945",
+    "dogum_yeri": "Kurtalan",
+    "defin_yeri": "Kurtalan",
+    "defin_tarihi": "18.10.2026"
+   },
+   "ilk_gorulme": "2026-10-18T18:39:01+00:00"
+  },
+  {
+   "id": "21f691c1d607",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Nazlife Sevim",
+   "anne_baba": null,
+   "yas": 88,
+   "dogum_tarihi": "1938-04-12",
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Yolağzı Köyü",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-18&bitis=2026-10-18",
+   "alindi": "2026-10-18T18:38:29+00:00",
+   "ham": {
+    "ad": "Nazlife SEVİM",
+    "dogum_tarihi": "12.04.1938",
+    "dogum_yeri": "Batman",
+    "defin_yeri": "Yolağzı Köyü",
+    "defin_tarihi": "18.10.2026"
+   },
+   "ilk_gorulme": "2026-10-18T18:39:01+00:00"
+  }
+ ],
+ "guncelleme": "2026-10-18T18:39:01+00:00"
+}

@@ -1,0 +1,93 @@
+{
+ "il": "Batman",
+ "liste_tarihi": "2026-10-13",
+ "kayitlar": [
+  {
+   "id": "9d12c7fa58bb",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Nazlife Çelik",
+   "anne_baba": null,
+   "yas": 76,
+   "dogum_tarihi": "1950-03-03",
+   "vefat_tarihi": "2026-10-13",
+   "defin_yeri": "İkiztepe Mezarlığı",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-13&bitis=2026-10-13",
+   "alindi": "2026-10-18T18:38:56+00:00",
+   "ham": {
+    "ad": "Nazlife ÇELİK",
+    "dogum_tarihi": "03.03.1950",
+    "dogum_yeri": "Kozluk",
+    "defin_yeri": "İkiztepe Mezarlığı",
+    "defin_tarihi": "13.10.2026"
+   }
+  },
+  {
+   "id": "bc314eaa2cf4",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Ayşe Özdemir",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": "1935-01-01",
+   "vefat_tarihi": "2026-10-13",
+   "defin_yeri": "Asri Mezarlık",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-13&bitis=2026-10-13",
+   "alindi": "2026-10-18T18:38:56+00:00",
+   "ham": {
+    "ad": "Ayşe ÖZDEMİR",
+    "dogum_tarihi": "01.01.1935",
+    "dogum_yeri": "Yayladüzü",
+    "defin_yeri": "Asri Mezarlık",
+    "defin_tarihi": "13.10.2026"
+   }
+  },
+  {
+   "id": "9203e5e38a6c",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "İsmail Güldiz",
+   "anne_baba": null,
+   "yas": 66,
+   "dogum_tarihi": "1960-07-01",
+   "vefat_tarihi": "2026-10-13",
+   "defin_yeri": "İkiztepe Mezarlığı",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-13&bitis=2026-10-13",
+   "alindi": "2026-10-18T18:38:56+00:00",
+   "ham": {
+    "ad": "İsmail GÜLDİZ",
+    "dogum_tarihi": "01.07.1960",
+    "dogum_yeri": "Kozluk",
+    "defin_yeri": "İkiztepe Mezarlığı",
+    "defin_tarihi": "13.10.2026"
+   }
+  }
+ ]
+}

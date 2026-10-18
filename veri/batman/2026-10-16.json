@@ -1,0 +1,93 @@
+{
+ "il": "Batman",
+ "liste_tarihi": "2026-10-16",
+ "kayitlar": [
+  {
+   "id": "d6e0d8dfe0c5",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Ekrem Arslan",
+   "anne_baba": null,
+   "yas": 70,
+   "dogum_tarihi": "1956-07-08",
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Asri Mezarlık",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-16&bitis=2026-10-16",
+   "alindi": "2026-10-18T18:38:39+00:00",
+   "ham": {
+    "ad": "Ekrem ARSLAN",
+    "dogum_tarihi": "08.07.1956",
+    "dogum_yeri": "Kozluk",
+    "defin_yeri": "Asri Mezarlık",
+    "defin_tarihi": "16.10.2026"
+   }
+  },
+  {
+   "id": "1b70622ad954",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Muhammed Özdaş",
+   "anne_baba": null,
+   "yas": 19,
+   "dogum_tarihi": "2007-09-21",
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Petrol Mezarlığı",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-16&bitis=2026-10-16",
+   "alindi": "2026-10-18T18:38:39+00:00",
+   "ham": {
+    "ad": "Muhammed ÖZDAŞ",
+    "dogum_tarihi": "21.09.2007",
+    "dogum_yeri": "Batman",
+    "defin_yeri": "Petrol Mezarlığı",
+    "defin_tarihi": "16.10.2026"
+   }
+  },
+  {
+   "id": "ff15ccaa4bc1",
+   "il": "Batman",
+   "ilce": "Merkez",
+   "ilce_kaynak": "belediye kapsamı (Batman Belediyesi = Merkez)",
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "mahalle": null,
+   "ad_soyad": "Abdullah Şendur",
+   "anne_baba": null,
+   "yas": 74,
+   "dogum_tarihi": "1951-12-14",
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Asri Mezarlık",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Batman Belediyesi",
+   "kaynak_url": "https://www.batman.bel.tr/index.php?sayfa=vefat_edenler&limit=100&baslangic=2026-10-16&bitis=2026-10-16",
+   "alindi": "2026-10-18T18:38:39+00:00",
+   "ham": {
+    "ad": "Abdullah ŞENDUR",
+    "dogum_tarihi": "14.12.1951",
+    "dogum_yeri": "Eruh",
+    "defin_yeri": "Asri Mezarlık",
+    "defin_tarihi": "16.10.2026"
+   }
+  }
+ ]
+}
