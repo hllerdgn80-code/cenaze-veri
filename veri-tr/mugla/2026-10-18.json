@@ -1,0 +1,56 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "8d2bedb5d47a",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Nahit Benlialper",
+   "anne_baba": null,
+   "yas": 97,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Torba Camii'den Gölköy mezarlığına",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-18T05:12:49+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "87d1df8f1726",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Gülsüm Emik",
+   "anne_baba": null,
+   "yas": 85,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Akyarlar Camii'den Akyarlar mezarlığına",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-18T05:12:49+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

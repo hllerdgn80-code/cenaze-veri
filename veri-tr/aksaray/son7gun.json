@@ -19,7 +19,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "DURMUŞ",
      "defin": "16.10.2026 13:28",
@@ -49,7 +49,7 @@
     "liste_tarihi": "2026-10-16",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "HALİL",
      "defin": "16.10.2026 13:31",
@@ -79,7 +79,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "FAZLI",
      "defin": "15.10.2026 16:30",
@@ -109,7 +109,7 @@
     "liste_tarihi": "2026-10-15",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "MİTHAT",
      "defin": "15.10.2026 13:18",
@@ -139,7 +139,7 @@
     "liste_tarihi": "2026-10-14",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "MUHARREM",
      "defin": "14.10.2026 13:23",
@@ -169,7 +169,7 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "TORBAY",
      "defin": "13.10.2026 13:18",
@@ -199,71 +199,11 @@
     "liste_tarihi": "2026-10-13",
     "kaynak_ad": "Aksaray Belediyesi",
     "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
+    "alindi": "2026-10-18T05:13:38+03:00",
     "ham": {
      "baba": "MEHMET",
      "defin": "13.10.2026 13:15",
      "namaz": "Sabah",
-     "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM",
-     "ilce_kaynagi": "kaynak_belediye"
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null,
-    "ilce_kaynagi": "kaynak_belediye",
-    "ilk_gorulme": "2026-10-15T11:36:41+03:00"
-   },
-   {
-    "id": "7d9e7a1b54e3",
-    "il": "Aksaray",
-    "ilce": "Merkez",
-    "mahalle": null,
-    "ad_soyad": "Şaban Şişman",
-    "anne_baba": "Abdussamet",
-    "yas": 84,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-11",
-    "defin_yeri": "Ervah Kabristanlığı / 5 Ada",
-    "defin_zamani": "2026-10-11",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": "Öğlen – defin saati 13:24",
-    "liste_tarihi": "2026-10-11",
-    "kaynak_ad": "Aksaray Belediyesi",
-    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
-    "ham": {
-     "baba": "ABDUSSAMET",
-     "defin": "11.10.2026 13:24",
-     "namaz": "Öğlen",
-     "mezarlik": "ERVAH KABRİSTANLIĞI / 5 ADA",
-     "ilce_kaynagi": "kaynak_belediye"
-    },
-    "ilce_belirsiz": false,
-    "il_disi_defin": null,
-    "ilce_kaynagi": "kaynak_belediye",
-    "ilk_gorulme": "2026-10-15T11:36:41+03:00"
-   },
-   {
-    "id": "2ea792d591ab",
-    "il": "Aksaray",
-    "ilce": "Merkez",
-    "mahalle": null,
-    "ad_soyad": "Faruk Uzun",
-    "anne_baba": "İsmet",
-    "yas": 52,
-    "dogum_tarihi": null,
-    "vefat_tarihi": "2026-10-10",
-    "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
-    "defin_zamani": "2026-10-11",
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": "Öğlen – defin saati 13:20",
-    "liste_tarihi": "2026-10-11",
-    "kaynak_ad": "Aksaray Belediyesi",
-    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-    "alindi": "2026-10-17T18:42:21+03:00",
-    "ham": {
-     "baba": "İSMET",
-     "defin": "11.10.2026 13:20",
-     "namaz": "Öğlen",
      "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM",
      "ilce_kaynagi": "kaynak_belediye"
     },
@@ -276,6 +216,6 @@
  },
  "il_disi": [],
  "ilce_belirsiz": [],
- "toplam": 9,
- "guncelleme": "2026-10-17T18:42:21+03:00"
+ "toplam": 7,
+ "guncelleme": "2026-10-18T05:13:38+03:00"
 }
