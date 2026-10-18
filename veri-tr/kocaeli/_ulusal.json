@@ -1565,7 +1565,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "f8144057efc6",
+   "il": "Kocaeli",
+   "ilce": "Körfez",
+   "mahalle": null,
+   "ad_soyad": "Yardımcısı Önal",
+   "anne_baba": null,
+   "yas": 75,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Körfez Asri Mezarlığı",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "Şirin Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29007084/kedfe-baskan-yardimcisi-onal-topraga-verildi",
+   "alindi": "2026-10-18T19:53:08+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T17:56:27+03:00"
+ "guncelleme": "2026-10-18T19:53:08+03:00"
 }
