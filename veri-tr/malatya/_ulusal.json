@@ -83,7 +83,59 @@
    },
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "794d8ee03191",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yaşındaki Adam",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29003943/balik-tutmaya-gitti-hayatini-kaybetti-3-arkadasi-kurtarildi",
+   "alindi": "2026-10-18T11:11:55+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "67399298b710",
+   "il": "Malatya",
+   "ilce": "Akçadağ",
+   "mahalle": null,
+   "ad_soyad": "Emine Boyraz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Yeni Malatya",
+   "kaynak_url": "https://www.yenimalatya.com.tr/haber/29004287/mhp-malatya-il-baskani-turgay-sengonulun-aci-gunu-mehmet-fendoglundan-taziye-mesaji",
+   "alindi": "2026-10-18T11:11:55+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T07:57:56+03:00"
+ "guncelleme": "2026-10-18T11:11:55+03:00"
 }

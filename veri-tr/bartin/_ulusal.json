@@ -2,33 +2,6 @@
  "il": "Bartın",
  "kayitlar": [
   {
-   "id": "5f9df6d050e4",
-   "il": "Bartın",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Safiye Şenuzun",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": "Aşağı Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-17T10:58:42+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-14",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "c6510fce1093",
    "il": "Bartın",
    "ilce": "Merkez",
@@ -54,7 +27,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "873fa64f48b0",
+   "il": "Bartın",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Ayşe Yılmaz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Tuna Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T10:58:42+03:00"
+ "guncelleme": "2026-10-18T11:07:13+03:00"
 }

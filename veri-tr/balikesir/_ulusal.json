@@ -29,60 +29,6 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "cc6d7af16901",
-   "il": "Balıkesir",
-   "ilce": "Karesi",
-   "mahalle": null,
-   "ad_soyad": "Emine Ayhan",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-16T10:48:18+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-14",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "2ba31518dc15",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Hasan Gevenli",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-17T10:58:42+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-14",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "020a97e9e239",
    "il": "Balıkesir",
    "ilce": "Karesi",
@@ -126,7 +72,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-17T10:58:42+03:00",
+   "alindi": "2026-10-18T11:07:13+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-16",
@@ -207,7 +153,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-17T10:58:42+03:00",
+   "alindi": "2026-10-18T11:07:13+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-16",
@@ -731,33 +677,6 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "dbadfb5e1827",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Hüseyin Gazi Bulut",
-   "anne_baba": null,
-   "yas": 70,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-17T11:02:50+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-14",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "8dff0c7618f0",
    "il": "Balıkesir",
    "ilce": "Havran",
@@ -1026,7 +945,88 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "4e911ce8b9da",
+   "il": "Balıkesir",
+   "ilce": "Bandırma",
+   "mahalle": null,
+   "ad_soyad": "Bircan Öztemel",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-17",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "d45f6a596861",
+   "il": "Balıkesir",
+   "ilce": "Edremit",
+   "mahalle": null,
+   "ad_soyad": "Sabriye Akın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "937cbf222f57",
+   "il": "Balıkesir",
+   "ilce": "Karesi",
+   "mahalle": null,
+   "ad_soyad": "Ramazan Korkmaz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-16",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T11:02:50+03:00"
+ "guncelleme": "2026-10-18T11:07:13+03:00"
 }

@@ -2,33 +2,6 @@
  "il": "Çanakkale",
  "kayitlar": [
   {
-   "id": "9d4caee4435d",
-   "il": "Çanakkale",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Müzeyyen Toklu",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-14",
-   "defin_yeri": "Barbaros Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-14",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-17T10:58:42+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-14",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "734db3acd70d",
    "il": "Çanakkale",
    "ilce": "Merkez",
@@ -54,7 +27,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "38007feb657e",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Yaşar Ökte",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Necippaşa Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-17",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "5d56afe9e58d",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Öztürk",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Barbaros Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-17",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T10:58:42+03:00"
+ "guncelleme": "2026-10-18T11:07:13+03:00"
 }

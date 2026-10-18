@@ -1,0 +1,33 @@
+{
+ "il": "Trabzon",
+ "kayitlar": [
+  {
+   "id": "648263a3235d",
+   "il": "Trabzon",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Yaşar Yıldırım",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": "Nokta Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-18T11:07:13+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-17",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  }
+ ],
+ "guncelleme": "2026-10-18T11:07:13+03:00"
+}
