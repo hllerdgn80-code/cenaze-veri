@@ -1789,6 +1789,262 @@
    "vefat_sayfasi": [],
    "durum": "ENGEL robots 403",
    "istek": 1
+  },
+  "yenikonya.com.tr": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "sakaryayerelhaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "sakaryapostasi.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "manisakulishaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "nigdeanadoluhaber.com.tr": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "rizedeyiz.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat"
+   ]
+  },
+  "hamlegazetesi.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "malatyacadde.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "haberfark.net": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "bolgegundemi.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "yenialanya.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/antalya-vefatlar",
+    "/cenazede-ciplak-kadindan-direk-dansi"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/antalya-vefatlar",
+    "/cenazede-ciplak-kadindan-direk-dansi"
+   ]
+  },
+  "yenimalatyahaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/malatyada-anne-ve-oglu-2-saat-arayla-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/malatyada-anne-ve-oglu-2-saat-arayla-vefat-etti"
+   ]
+  },
+  "sonkocaeli.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "urfadasin.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/sanliurfada-bu-aciya-yurek-dayanmaz-baba-ogul-pes-pese-vefat-etti",
+    "/sanliurfada-sevilen-suriyeli-ses-sanatcisi-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/sanliurfada-bu-aciya-yurek-dayanmaz-baba-ogul-pes-pese-vefat-etti",
+    "/sanliurfada-sevilen-suriyeli-ses-sanatcisi-vefat-etti",
+    "/vefat",
+    "/vefat/adla-tas",
+    "/vefat/bilal-geze",
+    "/vefat/kadir-cap"
+   ]
+  },
+  "rasyonelhaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "batmandabugun.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kebapci-cuma-dilekin-oglu-ahmet-dilek-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/kebapci-cuma-dilekin-oglu-ahmet-dilek-vefat-etti"
+   ]
+  },
+  "afyonhaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/sirnakta-gorev-yapan-afyonlu-uzman-cavus-vefat-etti",
+    "/taziye"
+   ],
+   "durum": "VAR",
+   "istek": 9,
+   "menu_yollar": [
+    "/sirnakta-gorev-yapan-afyonlu-uzman-cavus-vefat-etti"
+   ]
+  },
+  "kirsehircigdem.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "bbnhaber.com.tr": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "halk54.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "milligazete.com.tr": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/taziye"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "muglaturk.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "yenisokegazetesi.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "konhaber.com": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ankahaber.net": {
+   "tarih": "2026-10-18",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
   }
  },
  "il_alan": {

@@ -1,31 +1,31 @@
 # KAYNAK ADAYLARI (araclar/kaynak_kesif.py; otomatik, elle duzenleme)
 
-Guncelleme: 18.10.2026 03:26. Puan = haber sayisi (7 gun, toplam) + vefat sayfasi var (+3) + robots izinli (+2) + feed (+1); ENGEL/ROBOTS KAPALI/CAPTCHA = 0.
+Guncelleme: 18.10.2026 08:18. Puan = haber sayisi (7 gun, toplam) + vefat sayfasi var (+3) + robots izinli (+2) + feed (+1); ENGEL/ROBOTS KAPALI/CAPTCHA = 0.
 Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kesif/* dosyalarinda zaten gecen ama okuyucusu olmayan alan adi.
 
 | Puan | Il | Alan adi | Haber | Vefat sayfasi | Robots | Feed | Durum | Not |
 |---|---|---|---|---|---|---|---|---|
 | 25 | Çankırı | cankirihaber.net | 19 | /akman-ailesinin-aci-gunu-yeter-akman-vefat-etti, /cankiri-pttden-emekli-hasan-huseyin-eskihosafci-vefat-etti | evet | evet | VAR | liste |
 | 21 | Şanlıurfa | sanliurfagazetesi.com | 15 | /lutfiye-polatkalesi-vefat-etti | evet | evet | VAR | liste |
-| 20 | Nevşehir | fibhaber.com | 14 | /goreme-bahceli-cami-imami-kadir-evci-vefat-etti, /nevsehir-esrafindan-kahveci-halil-polat-vefat-etti | evet | evet | VAR | YENI |
+| 20 | Nevşehir | fibhaber.com | 14 | /goreme-bahceli-cami-imami-kadir-evci-vefat-etti, /nevsehir-esrafindan-kahveci-halil-polat-vefat-etti | evet | evet | VAR | liste |
 | 20 | Yozgat | yozgatmedya.com.tr | 14 | /vefat-edenler | evet | evet | VAR | YENI |
 | 14 | Karaman | kgrthaber.com | 8 | /vefat-edenler | evet | evet | VAR | liste |
 | 13 | Karaman | karaman.org | 7 | /vefat-edenler | evet | evet | VAR | liste |
 | 13 | Kayseri | kayserihaber.com | 7 | /vali-gokmen-cicekin-taziye-kabulu, /vefat | evet | evet | VAR | liste |
 | 13 | Kocaeli | bugunkocaeli.com.tr | 7 | /vefat-haberleri | evet | evet | VAR | YENI |
 | 13 | Kocaeli | ozgunkocaeli.com.tr | 7 | /vefat-haberleri, /vefat | evet | evet | VAR | YENI |
-| 13 | Konya | haberdairesi.com | 7 | /vefat, /vefat-edenler | evet | evet | VAR | YENI |
-| 13 | Rize | rizetakip.com | 7 | /vefat, /kategori/vefat | evet | evet | VAR | YENI |
+| 13 | Konya | haberdairesi.com | 7 | /vefat, /vefat-edenler | evet | evet | VAR | liste |
+| 13 | Rize | rizetakip.com | 7 | /vefat, /kategori/vefat | evet | evet | VAR | liste |
 | 12 | Artvin | gundemartvin.com | 6 | /artvinde-cenaze-donusu-kaza-2-yarali | evet | evet | VAR | liste |
 | 12 | Erzincan | erzincannet.com | 6 | /vefat | evet | evet | VAR | liste |
 | 12 | Kocaeli | kocaelizirve.com | 9 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 12 | Kırıkkale | ilgazetesi.com.tr | 9 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 12 | Nevşehir | muskarahaber.com | 6 | /nevsehirde-bugun-kimler-vefat-etti-18-ekim-2025, /vefatlar | evet | evet | VAR | YENI |
+| 12 | Nevşehir | muskarahaber.com | 6 | /nevsehirde-bugun-kimler-vefat-etti-18-ekim-2025, /vefatlar | evet | evet | VAR | liste |
 | 12 | Yozgat | yozgatcamlik.com | 6 | /vefat-edenler | evet | evet | VAR | liste |
 | 11 | Antalya | nnchaber.com | 6 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
 | 11 | Gaziantep | reformhaber.com | 5 | /gaziantep-defin-listesi-12-ekim-2026-kimler-vefat-etti, /gaziantep-defin-listesi-13-ekim-2026-kimler-vefat-etti | evet | evet | VAR | liste |
 | 11 | Karaman | karamandauyanis.com | 5 | /karamanda-vefat-edenler | evet | evet | VAR | liste |
-| 11 | Malatya | malatyayenises.com | 5 | /kategori/vefat-edenler, /malatyada-bugun-11-kisi-vefat-etti-14-ekim-2026 | evet | evet | VAR | YENI |
+| 11 | Malatya | malatyayenises.com | 5 | /kategori/vefat-edenler, /malatyada-bugun-11-kisi-vefat-etti-14-ekim-2026 | evet | evet | VAR | liste |
 | 11 | Sakarya | bizimsakarya.com.tr | 5 | /sakaryada-bugun-vefat-edenler-1, /vefat-edenler | evet | evet | VAR | YENI |
 | 10 | Afyonkarahisar | afyonanahaber.com.tr | 7 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 10 | Ankara | ankaraninsesi.com | 4 | /kategori/vefat, /kategori/vefat-haberleri | evet | evet | VAR | liste |
@@ -33,7 +33,7 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 10 | Isparta | gazete32.com.tr | 4 | /./isparta-vefat-edenler/, /isparta-vefat-edenler/ispartada-bugun-vefat-edenler-10-10-2026/ | evet | evet | VAR | YENI |
 | 10 | Karabük | bolgeninsesigazetesi.com | 5 | /vefat | evet | - | VAR | liste |
 | 10 | Konya | saraymedya.com | 7 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 10 | Malatya | malatyasoz.com | 4 | /malatyada-bugun-vefat-edenler-aciklandi-17-ekim-cenaze-listesi, /vefat-edenler | evet | evet | VAR | YENI |
+| 10 | Malatya | malatyasoz.com | 4 | /malatyada-bugun-vefat-edenler-aciklandi-17-ekim-cenaze-listesi, /vefat-edenler | evet | evet | VAR | liste |
 | 9 | Adana | kucuksaat.com | 6 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 9 | Adıyaman | urfadegisim.com.tr | 6 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 9 | Ankara | ankaramasasi.com.tr | 6 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
@@ -48,7 +48,8 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 9 | Karaman | karamanhaber.com | 3 | /sabire-yaylali-vefat-etti, /vefat-edenler | evet | evet | VAR | liste |
 | 9 | Kayseri | kayserihaber.com.tr | 3 | /baki-ersoydan-vali-gokmen-ciceke-taziye-ziyareti, /vefat | evet | evet | VAR | YENI |
 | 9 | Kırıkkale | mansetgazetesi.net | 3 | /kirikkale-vefat-edenler, /kirikkalede-16-ekim-2026-vefat-edenler | evet | evet | VAR | liste |
-| 9 | Malatya | busabahmalatya.com | 3 | /vefat, /vefat/ismail-harta | evet | evet | VAR | YENI |
+| 9 | Malatya | busabahmalatya.com | 3 | /vefat, /vefat/ismail-harta | evet | evet | VAR | liste |
+| 9 | Rize | rizedeyiz.com | 3 | /vefat | evet | evet | VAR | liste |
 | 9 | Yozgat | ilerigazetesi.com.tr | 3 | /yozgatta-cenazeye-giderken-kaza-yaptilar-8-yarali, /cenaze | evet | evet | VAR | YENI |
 | 9 | Çanakkale | biganinsesi.com | 3 | /alpayin-cenaze-programi-belli-oldu, /canakkalede-genc-yasta-vefat-etti | evet | evet | VAR | liste |
 | 9 | İstanbul | istanbulgazetesi.com.tr | 3 | /cenaze | evet | evet | VAR | YENI |
@@ -60,14 +61,18 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 8 | Isparta | nnchaber.com | 3 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
 | 8 | Karaman | karamanhaberleri.com | 2 | /karaman-da-bugun-vefat-edenler-15-ekim-2026/9029/, /karaman-da-bugun-vefat-edenler-16-ekim-2026/9039/ | evet | evet | VAR | liste |
 | 8 | Konya | nnchaber.com | 3 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
+| 8 | Malatya | yenimalatyahaber.com | 2 | /malatyada-anne-ve-oglu-2-saat-arayla-vefat-etti | evet | evet | VAR | liste |
 | 8 | Muğla | muglagazetesi.com.tr | 5 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 8 | Rize | gazeterize.com | 5 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
+| 8 | Rize | gazeterize.com | 5 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 8 | Şanlıurfa | urfadasin.com | 2 | /sanliurfada-bu-aciya-yurek-dayanmaz-baba-ogul-pes-pese-vefat-etti, /sanliurfada-sevilen-suriyeli-ses-sanatcisi-vefat-etti | evet | evet | VAR | liste |
 | 8 | Şanlıurfa | urfadegisim.com.tr | 5 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 7 | Afyonkarahisar | nnchaber.com | 2 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
+| 7 | Amasya | afyonhaber.com | 1 | /sirnakta-gorev-yapan-afyonlu-uzman-cavus-vefat-etti, /taziye | evet | evet | VAR | liste |
 | 7 | Ankara | kayserim.net | 1 | /kayseri-vefat-edenler | evet | evet | VAR | liste |
 | 7 | Ankara | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Ankara | nnchaber.com | 2 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
 | 7 | Aydın | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
+| 7 | Batman | batmandabugun.com | 1 | /kebapci-cuma-dilekin-oglu-ahmet-dilek-vefat-etti | evet | evet | VAR | liste |
 | 7 | Bayburt | yozgatmedya.com.tr | 1 | /vefat-edenler | evet | evet | VAR | YENI |
 | 7 | Bilecik | yozgatmedya.com.tr | 1 | /vefat-edenler | evet | evet | VAR | YENI |
 | 7 | Bitlis | sanliurfagazetesi.com | 1 | /lutfiye-polatkalesi-vefat-etti | evet | evet | VAR | liste |
@@ -84,6 +89,7 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 7 | Isparta | egirdirakingazetesi.com.tr | 5 | - | evet | - | VEFAT SAYFASI YOK | YENI |
 | 7 | Isparta | uyan32.com | 1 | /afyonkarahisar-da-15-ekim-cenaze-ilanlari-defin-bilgileri-belli-oldu, /ak-parti-sozcusu-omer-celik-ten-yasar-unlu-icin-taziye-mesaji | evet | evet | VAR | liste |
 | 7 | Kahramanmaraş | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
+| 7 | Kahramanmaraş | yenialanya.com | 1 | /antalya-vefatlar, /cenazede-ciplak-kadindan-direk-dansi | evet | evet | VAR | liste |
 | 7 | Karabük | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Kastamonu | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Kastamonu | tibbiyebulteni.com | 1 | /vefat-haberleri | evet | evet | VAR | liste |
@@ -93,15 +99,18 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 7 | Konya | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Kırklareli | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Kırıkkale | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
-| 7 | Malatya | malatyahamle.com | 4 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
+| 7 | Malatya | malatyahamle.com | 4 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 7 | Niğde | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Osmaniye | haber7.com | 4 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 7 | Sakarya | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Samsun | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
 | 7 | Samsun | samsungazetesi.com | 4 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 7 | Siirt | batmandabugun.com | 1 | /kebapci-cuma-dilekin-oglu-ahmet-dilek-vefat-etti | evet | evet | VAR | liste |
 | 7 | Yozgat | tibbiyebulteni.com | 1 | /vefat-haberleri | evet | evet | VAR | liste |
+| 7 | İstanbul | yenialanya.com | 1 | /antalya-vefatlar, /cenazede-ciplak-kadindan-direk-dansi | evet | evet | VAR | liste |
 | 7 | İzmir | bizimsakarya.com.tr | 1 | /sakaryada-bugun-vefat-edenler-1, /vefat-edenler | evet | evet | VAR | YENI |
 | 7 | İzmir | memurhaber365.com | 1 | /ekonomi-dunyasinin-duayeni-faruk-turkoglu-vefat-etti/, /kategori/vefat | evet | evet | VAR | liste |
+| 7 | Şırnak | afyonhaber.com | 1 | /sirnakta-gorev-yapan-afyonlu-uzman-cavus-vefat-etti, /taziye | evet | evet | VAR | liste |
 | 6 | Adana | nnchaber.com | 1 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
 | 6 | Ankara | yeniankara.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 6 | Aydın | aydinhedef.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
@@ -109,15 +118,22 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 6 | Bartın | bartinhalkgazetesi.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 6 | Bursa | aktuelbursa.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 6 | Denizli | nnchaber.com | 1 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
+| 6 | Diyarbakır | ankahaber.net | 1 | /kategori/vefat, /kategori/vefat-haberleri | evet | - | VAR | liste |
 | 6 | Diyarbakır | cegamedya.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 6 | Edirne | edirnegazetesi.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 6 | Elazığ | elazigsonhaber.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 6 | Hatay | sondakikahatay.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 6 | Kahramanmaraş | ankahaber.net | 1 | /kategori/vefat, /kategori/vefat-haberleri | evet | - | VAR | liste |
 | 6 | Karaman | saraymedya.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 6 | Kastamonu | bolgeninsesigazetesi.com | 1 | /vefat | evet | - | VAR | liste |
 | 6 | Kastamonu | karabukpostasi.com | 1 | /vefat | evet | - | VAR | liste |
+| 6 | Kastamonu | milligazete.com.tr | 1 | /taziye | evet | - | VAR | YENI |
 | 6 | Kastamonu | nnchaber.com | 1 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
+| 6 | Konya | yenikonya.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 6 | Kırşehir | kirsehirmemleket.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
+| 6 | Niğde | hamlegazetesi.com | 3 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 6 | Niğde | nigdeanadoluhaber.com.tr | 3 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
+| 6 | Samsun | milligazete.com.tr | 1 | /taziye | evet | - | VAR | YENI |
 | 6 | Samsun | nnchaber.com | 1 | /ayfer-yilmazok-vefat-bucak-girasun, /bucak-vefat-mehmet-ogutlu | evet | - | VAR | liste |
 | 6 | İstanbul | karabukpostasi.com | 1 | /vefat | evet | - | VAR | liste |
 | 5 | Afyonkarahisar | canligaste.com | 3 | - | evet | - | VEFAT SAYFASI YOK | liste |
@@ -129,29 +145,13 @@ Yalniz keşif: Google Haberler baslik/icerigi saklanmaz. 'liste' = arastirma/kes
 | 5 | Gaziantep | aksiyon.com.tr | 2 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 5 | Isparta | ispartamanset.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 5 | Kayseri | canligaste.com | 3 | - | evet | - | VEFAT SAYFASI YOK | liste |
+| 5 | Konya | haberfark.net | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 5 | Konya | konyaolay.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 5 | Konya | pusulahaber.com.tr | 2 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
 | 5 | Kırıkkale | yenigungazetesi.com.tr | 2 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
+| 5 | Kırşehir | kirsehircigdem.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 5 | Manisa | manisakulishaber.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 5 | Muğla | muglaturk.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
+| 5 | Sakarya | sakaryayerelhaber.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 5 | Çanakkale | haber7.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
 | 5 | İzmir | egedesonsoz.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 5 | İzmir | haber7.com | 2 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Adana | akdenizgercek.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Adana | gazetebirlik.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Afyonkarahisar | aydinlik.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Afyonkarahisar | haber1.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Afyonkarahisar | iscihaber.net | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Aksaray | saraymedya.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Amasya | aydinlik.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Amasya | babaocagi.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Amasya | haber1.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Amasya | habererk.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Amasya | havadis.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Ankara | guneydoguekspres.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Antalya | akdenizgercek.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Ardahan | haber7.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Aydın | elazigsonhaber.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Aydın | haber7.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Ağrı | haber7.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Balıkesir | haber7.com | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
-| 4 | Bilecik | haber26.com.tr | 1 | - | evet | evet | VEFAT SAYFASI YOK | YENI |
-| 4 | Bilecik | pembepusula.org | 1 | - | evet | evet | VEFAT SAYFASI YOK | liste |
