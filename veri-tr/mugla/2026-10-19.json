@@ -1,0 +1,81 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-19",
+ "kayitlar": [
+  {
+   "id": "fe7a5f89341a",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Turceyin Düzgüngün",
+   "anne_baba": null,
+   "yas": 52,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Mumcular Merkez Camii'den Mumcular mezarlığına",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-19T00:46:47+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "31284d3ed030",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Yavuz Ertunç",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Kadıkalesi Camii'den Kadıkalesi mezarlığına",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-19T00:46:47+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "58d849806eff",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Övüç İstipoğulları",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": "Yemiş Camii'den Yemiş mezarlığına",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-19T00:46:47+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
