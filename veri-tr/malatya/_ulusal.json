@@ -54,7 +54,36 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e6052b8abc43",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Amca Hastanede",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-17",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29003259/dugun-yolunda-aci-kaza-amca-hayatini-kaybetti-yegeni-agir-yaralandi",
+   "alindi": "2026-10-18T07:57:56+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": {
+    "il": "Elazığ",
+    "ilce": null
+   },
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T17:57:08+03:00"
+ "guncelleme": "2026-10-18T07:57:56+03:00"
 }

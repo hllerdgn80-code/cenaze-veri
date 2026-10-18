@@ -2396,7 +2396,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e9cde59325f3",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hasan Koç",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "Maşukiye Bağdat Camii, öğle namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29003396/kocaelide-eski-futbolcu-haydar-kocun-aci-gunu",
+   "alindi": "2026-10-18T07:57:56+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T05:14:23+03:00"
+ "guncelleme": "2026-10-18T07:57:56+03:00"
 }
