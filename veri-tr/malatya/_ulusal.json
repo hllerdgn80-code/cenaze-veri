@@ -127,7 +127,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Yeni Malatya",
    "kaynak_url": "https://www.yenimalatya.com.tr/haber/29004287/mhp-malatya-il-baskani-turgay-sengonulun-aci-gunu-mehmet-fendoglundan-taziye-mesaji",
-   "alindi": "2026-10-18T11:11:55+03:00",
+   "alindi": "2026-10-18T13:56:22+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -135,7 +135,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "c01ab4fc6076",
+   "il": "Malatya",
+   "ilce": "Akçadağ",
+   "mahalle": "Kültür Mahallesi",
+   "ad_soyad": "Dilara Işık",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Akçadağ İlçe Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29005030/dilara-isik-hayatini-kaybetti",
+   "alindi": "2026-10-18T13:56:22+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T11:11:55+03:00"
+ "guncelleme": "2026-10-18T13:56:22+03:00"
 }
