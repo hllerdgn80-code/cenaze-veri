@@ -4925,6 +4925,42 @@
    "ilk_gorulme": "2026-10-18T12:41:21+03:00"
   },
   {
+   "id": "b361527c04fe",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mehmet Koç",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Nakil: Malatya / Darende",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-18T14:41:22+03:00",
+   "ham": {
+    "ad": "MEHMET",
+    "soyad": "KOÇ",
+    "mezarlik": "",
+    "cami": "DARENDE",
+    "vakit": "NAKIL",
+    "olum_tarihi": "18.10.2026",
+    "defin_tarihi": "18.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Malatya / Darende"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Malatya",
+    "ilce": "Darende"
+   },
+   "ilk_gorulme": "2026-10-18T14:41:22+03:00"
+  },
+  {
    "id": "43bb45b479f8",
    "il": "Kocaeli",
    "ilce": null,
@@ -6375,6 +6411,6 @@
    "ilk_gorulme": "2026-10-15T11:34:44+03:00"
   }
  ],
- "toplam": 189,
- "guncelleme": "2026-10-18T12:41:21+03:00"
+ "toplam": 190,
+ "guncelleme": "2026-10-18T14:41:22+03:00"
 }
