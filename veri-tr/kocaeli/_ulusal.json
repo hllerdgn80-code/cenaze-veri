@@ -1125,7 +1125,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29000557/eski-bakan-zafer-caglayanin-yegeni-kocaelide-hayatini-kaybetti",
-   "alindi": "2026-10-18T15:55:41+03:00",
+   "alindi": "2026-10-18T21:54:47+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-17",
     "sayfa_tarihi": "2026-10-17",
@@ -1592,7 +1592,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "066a6cef4902",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Ali Mert Gümüşkaya",
+   "anne_baba": null,
+   "yas": 57,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Yahyakaptan Akşemsettin Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29007270/izmitin-taninmis-firinci-ailesinin-aci-kaybi-ali-mert-gumuskaya-hayatini-kaybetti",
+   "alindi": "2026-10-18T21:54:47+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T19:53:08+03:00"
+ "guncelleme": "2026-10-18T21:54:47+03:00"
 }

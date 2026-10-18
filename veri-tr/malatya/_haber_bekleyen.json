@@ -1,5 +1,32 @@
 [
  {
+  "id": "6dad9ddf6573",
+  "il": "Malatya",
+  "ilce": "Akçadağ",
+  "mahalle": "Doğantepe Köyü",
+  "ad_soyad": "Şemsettin Güldoğan",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": null,
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": null,
+  "liste_tarihi": "2026-10-18",
+  "kaynak_ad": "Malatya Sonsöz Gazetesi",
+  "kaynak_url": "https://malatyasonsoz.com.tr/haber/29007541/emekli-ogretmen-semsettin-guldogan-hayatini-kaybetti",
+  "alindi": "2026-10-18T21:54:47+03:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-18",
+   "sayfa_tarihi": "2026-10-18",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": false,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
   "id": "c01ab4fc6076",
   "il": "Malatya",
   "ilce": "Akçadağ",

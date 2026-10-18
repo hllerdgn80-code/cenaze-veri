@@ -574,7 +574,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-92",
-   "alindi": "2026-10-18T19:53:08+03:00",
+   "alindi": "2026-10-18T21:54:47+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -600,7 +600,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-92",
-   "alindi": "2026-10-18T19:53:08+03:00",
+   "alindi": "2026-10-18T21:54:47+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -626,7 +626,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-92",
-   "alindi": "2026-10-18T19:53:08+03:00",
+   "alindi": "2026-10-18T21:54:47+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -652,7 +652,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-92",
-   "alindi": "2026-10-18T19:53:08+03:00",
+   "alindi": "2026-10-18T21:54:47+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -687,7 +687,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "ce9bd3bd1139",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": "Hasandede Köyü",
+   "ad_soyad": "Gönül Caner Çöçü",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Kırıkkale Karşıyaka Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/gonul-caner-cocu-hakka-yurudu",
+   "alindi": "2026-10-18T21:54:47+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T19:53:08+03:00"
+ "guncelleme": "2026-10-18T21:54:47+03:00"
 }
