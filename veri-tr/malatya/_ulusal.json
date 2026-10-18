@@ -127,7 +127,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Yeni Malatya",
    "kaynak_url": "https://www.yenimalatya.com.tr/haber/29004287/mhp-malatya-il-baskani-turgay-sengonulun-aci-gunu-mehmet-fendoglundan-taziye-mesaji",
-   "alindi": "2026-10-18T13:56:22+03:00",
+   "alindi": "2026-10-18T17:56:27+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "tarih_kaynagi": "yayin_tarihi"
@@ -162,7 +162,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "ca767bde6a6c",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ege Üniversitesi Tıp Fakültesi",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29005688/anne-ve-babasinin-acisi-dinmeden-doktor-ahmet-cakaloglu-da-hayata-veda-etti",
+   "alindi": "2026-10-18T17:56:27+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T13:56:22+03:00"
+ "guncelleme": "2026-10-18T17:56:27+03:00"
 }
