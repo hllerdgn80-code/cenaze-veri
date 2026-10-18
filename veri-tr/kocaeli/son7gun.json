@@ -1830,6 +1830,39 @@
   ],
   "İzmit": [
    {
+    "id": "71204ce40fe2",
+    "il": "Kocaeli",
+    "ilce": "İzmit",
+    "mahalle": null,
+    "ad_soyad": "Hıdır Akyüz",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-18",
+    "defin_yeri": "KENT MEZARLIĞI",
+    "defin_zamani": "2026-10-18",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Öğlen – Topçular Turan Cami",
+    "liste_tarihi": "2026-10-18",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-18T08:41:22+03:00",
+    "ham": {
+     "ad": "HIDIR",
+     "soyad": "AKYÜZ",
+     "mezarlik": "KENT MEZARLIĞI",
+     "cami": "Topçular Turan Cami",
+     "vakit": "ÖĞLEN",
+     "olum_tarihi": "18.10.2026",
+     "defin_tarihi": "18.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "İzmit"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null,
+    "ilk_gorulme": "2026-10-18T08:41:22+03:00"
+   },
+   {
     "id": "0817a58f229c",
     "il": "Kocaeli",
     "ilce": "İzmit",
@@ -2986,6 +3019,39 @@
    }
   ],
   "Kandıra": [
+   {
+    "id": "eed2bc8f8c78",
+    "il": "Kocaeli",
+    "ilce": "Kandıra",
+    "mahalle": null,
+    "ad_soyad": "Emine Yavuz",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-17",
+    "defin_yeri": "DELİVELİ KÖY MEZ.",
+    "defin_zamani": "2026-10-18",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Öğlen – Deliveli Cami",
+    "liste_tarihi": "2026-10-18",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-18T08:41:22+03:00",
+    "ham": {
+     "ad": "EMİNE",
+     "soyad": "YAVUZ",
+     "mezarlik": "DELİVELİ KÖY MEZ.",
+     "cami": "Deliveli Cami",
+     "vakit": "ÖĞLEN",
+     "olum_tarihi": "17.10.2026",
+     "defin_tarihi": "18.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Kandıra"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null,
+    "ilk_gorulme": "2026-10-18T08:41:22+03:00"
+   },
    {
     "id": "92267ea15721",
     "il": "Kocaeli",
@@ -5733,6 +5799,6 @@
    "ilk_gorulme": "2026-10-15T11:34:44+03:00"
   }
  ],
- "toplam": 170,
- "guncelleme": "2026-10-18T06:41:27+03:00"
+ "toplam": 172,
+ "guncelleme": "2026-10-18T08:41:22+03:00"
 }

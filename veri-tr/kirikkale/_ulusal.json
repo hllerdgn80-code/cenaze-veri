@@ -637,7 +637,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "5dc6278798d9",
+   "il": "Kırıkkale",
+   "ilce": "Keskin",
+   "mahalle": "Konur Köyü",
+   "ad_soyad": "Nazik Canöz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/nazik-canoz-vefat-etti",
+   "alindi": "2026-10-18T09:56:17+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T19:56:56+03:00"
+ "guncelleme": "2026-10-18T09:56:17+03:00"
 }
