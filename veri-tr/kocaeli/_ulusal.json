@@ -1610,7 +1610,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29010324/ali-mert-gumuskaya",
-   "alindi": "2026-10-19T19:29:49+03:00",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1637,7 +1637,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29010321/asiye-kalyoncu",
-   "alindi": "2026-10-19T19:29:49+03:00",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1664,7 +1664,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29010315/emine-cakar",
-   "alindi": "2026-10-19T19:29:49+03:00",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1691,7 +1691,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013682/tufekli-saldirida-hayatini-kaybetti",
-   "alindi": "2026-10-19T19:29:49+03:00",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-19",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1717,7 +1717,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013650/kou-bashekimi-aksunun-babasi-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-19T19:29:49+03:00",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1742,9 +1742,9 @@
    "namaz_tarihi": "2026-10-19",
    "namaz_yeri_vakti": "Yahyakaptan Akşemsettin Camii, ikindi namazı",
    "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "Kocaeli Gazetesi",
-   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29007270/izmitin-taninmis-firinci-ailesinin-aci-kaybi-ali-mert-gumuskaya-hayatini-kaybetti",
-   "alindi": "2026-10-19T19:37:21+03:00",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29008464/izmitin-taninan-ismi-hayatini-kaybetti",
+   "alindi": "2026-10-19T22:51:42+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1755,5 +1755,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-19T19:37:21+03:00"
+ "guncelleme": "2026-10-19T22:51:42+03:00"
 }
