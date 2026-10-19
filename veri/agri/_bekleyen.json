@@ -1,0 +1,34 @@
+{
+ "il": "Ağrı",
+ "kayitlar": [
+  {
+   "id": "5b93f53112af",
+   "il": "Ağrı",
+   "ilce": "Taşlıçay",
+   "mahalle": null,
+   "ad_soyad": "Yakup Tanrıverdi",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Taşlıçay Ehlibeyt Yeşil Camii",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Patnos Haber Gazetesi",
+   "kaynak_url": "https://www.patnoshabergazetesi.com/taslicayli-emektar-ogretmen-hayatini-kaybetti/104482",
+   "alindi": "2026-10-19T18:39:02+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+  }
+ ],
+ "guncelleme": "2026-10-19T18:40:45+00:00"
+}

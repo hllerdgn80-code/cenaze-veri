@@ -1,0 +1,33 @@
+{
+ "il": "Ağrı",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "2021014238b2",
+   "il": "Ağrı",
+   "ilce": "Taşlıçay",
+   "mahalle": null,
+   "ad_soyad": "Yakup Tanrıverdi",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Ağrı Hürses",
+   "kaynak_url": "https://www.agrihurses.net/taslicayin-emektar-ogretmeni-yakup-tanriverdi-vefat-etti",
+   "alindi": "2026-10-19T18:39:02+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

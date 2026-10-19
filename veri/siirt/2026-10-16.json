@@ -1,0 +1,58 @@
+{
+ "il": "Siirt",
+ "liste_tarihi": "2026-10-16",
+ "kayitlar": [
+  {
+   "id": "b3e44ca1b90a",
+   "il": "Siirt",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hasan Bayar",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Artı Siirt",
+   "kaynak_url": "https://www.artisiirt.com/siirt-te-vefat-ve-taziyeler-19-ekim-2026/52943/",
+   "alindi": "2026-10-19T18:41:16+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "6dd2ff038381",
+   "il": "Siirt",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Melle Muhdi Gürel",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Artı Siirt",
+   "kaynak_url": "https://www.artisiirt.com/siirt-te-vefat-ve-taziyeler-19-ekim-2026/52943/",
+   "alindi": "2026-10-19T18:41:16+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  }
+ ]
+}

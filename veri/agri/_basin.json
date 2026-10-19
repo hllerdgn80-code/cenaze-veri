@@ -1,0 +1,79 @@
+{
+ "istek": {
+  "dogubayazitgazetesi.com": {
+   "2026-10-19": 6
+  },
+  "agrihurses.net": {
+   "2026-10-19": 3
+  },
+  "patnoshabergazetesi.com": {
+   "2026-10-19": 4
+  },
+  "ajans04.net": {
+   "2026-10-19": 4
+  },
+  "diyadinnet.com": {
+   "2026-10-19": 2
+  },
+  "agri04haber.com": {
+   "2026-10-19": 4
+  },
+  "tv04.net": {
+   "2026-10-19": 4
+  }
+ },
+ "okunan": {
+  "https://dogubayazitgazetesi.com/van-golu-havzasinda-alli-turnalarin-gorsel-soleni": "2026-10-19T18:39:17",
+  "https://dogubayazitgazetesi.com/dogubayazitta-7-cocuk-annesi-fatma-guc-hayatini-kaybetti": "2026-10-19T18:39:21",
+  "https://www.patnoshabergazetesi.com/3-cocuk-babasi-genc-insaat-kazasinda-hayatini-kaybetti/104493": "2026-10-19T18:39:40",
+  "https://www.patnoshabergazetesi.com/taslicayli-emektar-ogretmen-hayatini-kaybetti/104482": "2026-10-19T18:39:44",
+  "https://www.ajans04.net/erzurum-valisi-aydin-barus-tan-sehit-mevlut-gencoglu-nun-ailesine-vefa": "2026-10-19T18:39:58",
+  "https://www.ajans04.net/samek-te-eski-esyalar-sanatla-bulusuyor-el-emekleri-kazanca-donusuyor": "2026-10-19T18:40:10",
+  "https://www.agri04haber.com/agrida-silahli-saldiri": "2026-10-19T18:40:25",
+  "https://www.agri04haber.com/agrida-trafik-kazasi-1-yarali-3": "2026-10-19T18:40:29",
+  "https://www.tv04.net/agri-dogubayazit-ta-silahli-saldiri/88891/": "2026-10-19T18:40:39",
+  "https://www.tv04.net/agri-da-arac-bisikletli-cocuga-carpti/88887/": "2026-10-19T18:40:44"
+ },
+ "robots": {
+  "www.dogubayazitgazetesi.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://dogubayazitgazetesi.com/sitemap.xml\nSitemap: https://dogubayazitgazetesi.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "dogubayazitgazetesi.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://dogubayazitgazetesi.com/sitemap.xml\nSitemap: https://dogubayazitgazetesi.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.agrihurses.net": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: \nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.agrihurses.net/sitemap.xml\nSitemap: https://www.agrihurses.net/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.patnoshabergazetesi.com": {
+   "tarih": "2026-10-19",
+   "metin": "# tumeva-robots v1\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: WhatsApp/2.0\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: meta-externalfetcher\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: TelegramBot\nAllow: /\n\nUser-agent: *\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?page=\nDisallow: /*?cursor=\nDisallow: /*_token=\n\nSitemap: https://www.patnoshabergazetesi.com/sitemap.xml\nSitemap: https://www.patnoshabergazetesi.com/google_news.xml\n\n# tumeva-crawl-delay-start\nUser-agent: bingbot\nCrawl-delay: 10\n\nUser-agent: Yandex\nCrawl-delay: 10\n\nUser-agent: meta-webindexer\nCrawl-delay: 10\n\nUser-agent: meta-externalagent\nCrawl-delay: 10\n# tumeva-crawl-delay-end\n",
+   "yasak": false
+  },
+  "www.ajans04.net": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: *\nAllow: /\nAllow: /panel/uploads/\nAllow: /panel/logolar/\nAllow: /panel/mobil/grafikler/\nAllow: /panel/render_taziye.php\nAllow: /cache/images/\nDisallow: /tests/\nDisallow: /yedek/\nDisallow: /panel/\nDisallow: /scratch/\nDisallow: /*?*sort=\n\n# BİK MADDE 10: Site haritası (XML formatında, son güncelleme ve tam URL'ler)\nSitemap: https://www.ajans04.net/sitemap.xml\nSitemap: https://www.ajans04.net/news-sitemap.xml",
+   "yasak": false
+  },
+  "www.diyadinnet.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: Twitterbot\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: Google-Extended\nUser-agent: GPTBot\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: Applebot-Extended\nUser-agent: Omgilibot\nUser-agent: Diffbot\nUser-agent: FacebookBot\nUser-agent: *\n\nDisallow: /admin/\nDisallow: /includes/\nDisallow: /blocks/\nDisallow: /language/\nDisallow: /db/\nDisallow: /cgi-bin/\nDisallow: /vendor/\nDisallow: /cache/\nDisallow: /json_\nDisallow: /*?format=json\nDisallow: /*&format=json\nDisallow: /bul.php\nDisallow: /*file=yorum_ekle\nDisallow: /rss/newsstand.php\n\n# Yandex Clean-param (5 Eki 2026): ayni sayfanin parametreli kopyalarini tek adreste toplar. Kesisimsel direktif,\n# hangi grupta yazildigi fark etmez; Yandex disindaki botlar yok sayar. Ayri \"User-agent: Yandex\" grubu ACILMAZ\n# (acilirsa Yandex yukaridaki Disallow kurallarini uygulamaz).\nClean-param: pa /Bolgeler\nClean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&ck_subscriber_id&fbclid&gclid&yclid&ysclid\n\nSitemap: https://www.diyadinnet.com/sitemaps/sitemap-news.php\nSitemap: https://www.diyadinnet.com/sitemap.xml",
+   "yasak": false
+  },
+  "www.agri04haber.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.agri04haber.com/sitemap.xml\nSitemap: https://www.agri04haber.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.tv04.net": {
+   "tarih": "2026-10-19",
+   "metin": "Sitemap: https://www.tv04.net/sitemap_google_news.xml\nSitemap: https://www.tv04.net/sitemap_posts.xml\nUser-agent: *\nDisallow: /haber-gundemi/\nDisallow: /arama/*\nDisallow: /arsiv/*\nDisallow: /reklam/*\nDisallow: /yorum/*\nDisallow: /katman/*\nDisallow: /index.php\nDisallow: /index.php/*\nDisallow: /anasayfa\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /cdn-cgi/*\nDisallow: /*?ref=\n",
+   "yasak": false
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "il": "Aydın",
+ "liste_tarihi": "2026-10-14",
+ "kayitlar": [
+  {
+   "id": "f0eba6cf86a3",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Avşar",
+   "ad_soyad": "Fatma Eğerci",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "AVŞAR"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "dbcc458dd18a",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Güllübahçe",
+   "ad_soyad": "Şenol Uslu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "GÜLLÜBAHÇE"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "4d5d6431f100",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Yenidoğan",
+   "ad_soyad": "Ayşe Gölcük",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-14",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-14",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "YENİDOĞAN"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

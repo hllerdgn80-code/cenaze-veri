@@ -1,0 +1,106 @@
+{
+ "il": "Çankırı",
+ "liste_tarihi": "2026-10-13",
+ "kayitlar": [
+  {
+   "id": "5bae34c110aa",
+   "il": "Çankırı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ömer Çalışkan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Dede Köyünde",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": "2026-10-13",
+   "namaz_yeri_vakti": "öğle namazını müteakip",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-19T18:41:23+00:00",
+   "ham": {
+    "aciklama": "Cenazesi öğle namazını müteakip DEDE köyünde toprağa verilecektir."
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "331725f6eb83",
+   "il": "Çankırı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Kerim Çetin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yukarı Öz Köyünde",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": "2026-10-13",
+   "namaz_yeri_vakti": "öğle namazını müteakip",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-19T18:41:23+00:00",
+   "ham": {
+    "aciklama": "Cenazesi öğle namazını müteakip YUKARI ÖZ köyünde toprağa verilecektir."
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "91214af7ff51",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Gürcü Yurkancı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Ankara Polatlı İlçesinde",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-19T18:41:23+00:00",
+   "ham": {
+    "aciklama": "Cenazesi ANKARA POLATLI ilçesinde toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "54881bef676f",
+   "il": "Çankırı",
+   "ilce": "Şabanözü",
+   "mahalle": null,
+   "ad_soyad": "Osman Aktaş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şabanözü İlçesinde",
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": "2026-10-13",
+   "namaz_yeri_vakti": "öğle namazını müteakip",
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-19T18:41:23+00:00",
+   "ham": {
+    "aciklama": "Cenazesi öğle namazını müteakip ŞABANÖZÜ ilçesinde toprağa verilecektir.",
+    "ilce_kaynagi": "mezarlik_tablosu"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_tablosu"
+  }
+ ]
+}

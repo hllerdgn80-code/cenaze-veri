@@ -1,0 +1,76 @@
+{
+ "https://www.taskoprupostasi.com/kastamonuda-sokak-ortasinda-yangin-panigi": {
+  "olgular": [],
+  "tarih": "2026-10-19",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.taskoprupostasi.com/uzak-sehir-izleyicisi-isyan-etti-yeni-bolum-fragmani-ortaligi-karistirdi": {
+  "olgular": [],
+  "tarih": "2026-10-19",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/kastamonulu-genc-selde-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-19",
+  "tani": {
+   "cenaze_cumlesi": 2,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/cidede-ferdane-gullu-arslan-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Ferdane Güllü Arslan",
+    "yas": null,
+    "ilce": "Cide",
+    "mahalle": "Kezağzı Köyü",
+    "namaz": "İstanbul Fatih Camii, öğle namazı",
+    "defin": "Sarıyer Ayazağa Mezarlığı",
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-18",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.kastamonuhaber.com/kastamonuda-emekli-fehmi-sahin-vefat-etti": {
+  "olgular": [
+   {
+    "ad": "Fehmi Şahin",
+    "yas": null,
+    "ilce": null,
+    "mahalle": null,
+    "namaz": "Dereköy Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": null,
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-19",
+  "tani": null
+ },
+ "https://www.kastamonuhaber.com/kastamonuda-genc-kadin-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-19",
+  "tani": {
+   "cenaze_cumlesi": 4,
+   "olen": 0,
+   "kayit": 0
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "il": "Bayburt",
+ "ilceler": {},
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "df58798afa20",
+   "il": "Bayburt",
+   "ilce": null,
+   "mahalle": "Şeyhhayran Mahallesi",
+   "ad_soyad": "Tahsin Çeğindir",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Pendik Yeni Şeyhli Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Pendik Çarşı Camii, öğle namazı",
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Bayburt Postası",
+   "kaynak_url": "https://www.bayburtpostasi.com.tr/seyhhayran-mahallesinin-emektari-tahsin-cegindir-hayatini-kaybetti",
+   "alindi": "2026-10-19T18:41:16+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-19T18:41:57+00:00"
+  }
+ ],
+ "toplam": 1,
+ "guncelleme": "2026-10-19T18:41:57+00:00",
+ "ilce_durum": {
+  "Bayburt Haber": 0,
+  "Bayburt Haber Ajansı": 0,
+  "Bayburt Gündem": 0,
+  "Bayburt Postası": 1,
+  "Bayburt Postası (vefat sayfası)": 0
+ }
+}

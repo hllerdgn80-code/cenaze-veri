@@ -1,0 +1,136 @@
+{
+ "il": "Ağrı",
+ "ilceler": {
+  "Doğubayazıt": [
+   {
+    "id": "78f5b861a38e",
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "mahalle": null,
+    "ad_soyad": "Salih Kandemir",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-19",
+    "kaynak_ad": "Doğubayazıt Gazetesi",
+    "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazitta-kandemir-ailesinin-aci-gunu-salih-kandemir-vefat-etti",
+    "alindi": "2026-10-19T18:39:02+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-19",
+     "sayfa_tarihi": "2026-10-19",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   },
+   {
+    "id": "47d0f1e70dc5",
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "mahalle": "İncesu Köyü",
+    "ad_soyad": "Fatma Güç",
+    "anne_baba": null,
+    "yas": 65,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": "Koçkıran Şehir Mezarlığı",
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-17",
+    "kaynak_ad": "Doğubayazıt Gazetesi",
+    "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazitta-7-cocuk-annesi-fatma-guc-hayatini-kaybetti",
+    "alindi": "2026-10-19T18:39:02+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-17",
+     "sayfa_tarihi": "2026-10-17",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   }
+  ],
+  "Taşlıçay": [
+   {
+    "id": "5b93f53112af",
+    "il": "Ağrı",
+    "ilce": "Taşlıçay",
+    "mahalle": null,
+    "ad_soyad": "Yakup Tanrıverdi",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": "2026-10-19",
+    "namaz_yeri_vakti": "Taşlıçay Ehlibeyt Yeşil Camii",
+    "liste_tarihi": "2026-10-19",
+    "kaynak_ad": "Patnos Haber Gazetesi",
+    "kaynak_url": "https://www.patnoshabergazetesi.com/taslicayli-emektar-ogretmen-hayatini-kaybetti/104482",
+    "alindi": "2026-10-19T18:39:02+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-19",
+     "sayfa_tarihi": "2026-10-19",
+     "tarih_kaynagi": "metin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   },
+   {
+    "id": "2021014238b2",
+    "il": "Ağrı",
+    "ilce": "Taşlıçay",
+    "mahalle": null,
+    "ad_soyad": "Yakup Tanrıverdi",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-18",
+    "kaynak_ad": "Ağrı Hürses",
+    "kaynak_url": "https://www.agrihurses.net/taslicayin-emektar-ogretmeni-yakup-tanriverdi-vefat-etti",
+    "alindi": "2026-10-19T18:39:02+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-18",
+     "sayfa_tarihi": "2026-10-18",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   }
+  ]
+ },
+ "il_disi": [],
+ "ilce_belirsiz": [],
+ "toplam": 4,
+ "guncelleme": "2026-10-19T18:40:45+00:00",
+ "ilce_durum": {
+  "Doğubayazıt Gazetesi": 2,
+  "Ağrı Hürses": 1,
+  "Patnos Haber Gazetesi": 1,
+  "Ajans 04": 0,
+  "Diyadin Net": 0,
+  "Ağrı 04 Haber": 0,
+  "TV04": 0,
+  "Ağrıda Haber": "ENGEL (bırakıldı): robots.txt yasaklıyor: https://www.agridahaber.com/rss/",
+  "Karaköse Haber": "ENGEL (bırakıldı): robots.txt yasaklıyor: https://www.karakosehaber.com/rss/"
+ }
+}

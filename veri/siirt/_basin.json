@@ -1,0 +1,48 @@
+{
+ "istek": {
+  "artisiirt.com": {
+   "2026-10-19": 3
+  },
+  "siirthaberci.com": {
+   "2026-10-19": 3
+  },
+  "kurtalangazetesi.com": {
+   "2026-10-19": 3
+  },
+  "yenisiirt.com": {
+   "2026-10-19": 4
+  }
+ },
+ "okunan": {
+  "https://www.artisiirt.com/siirt-te-vefat-ve-taziyeler-19-ekim-2026/52943/": "2026-10-19T18:41:26",
+  "https://www.siirthaberci.com/haber/siirt-vefat-haberleri-pes-pese-geldi-dort-aile-yasta-iste-vefat-edenlerin-isimleri-ve-taziye-adresleri--137558": "2026-10-19T18:41:39",
+  "https://yenisiirt.com/siirt-baykan-yolunda-feci-kaza-anne-ve-baba-agir-yarali-bebeklerinin-durumu-iyi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=siirt-baykan-yolunda-feci-kaza-anne-ve-baba-agir-yarali-bebeklerinin-durumu-iyi": "2026-10-19T18:42:00"
+ },
+ "robots": {
+  "www.artisiirt.com": {
+   "tarih": "2026-10-19",
+   "metin": "Sitemap: https://www.artisiirt.com/sitemap_google_news.xml\nSitemap: https://www.artisiirt.com/sitemap_posts.xml\nUser-agent: *\nDisallow: /haber-gundemi/\nDisallow: /arama/*\nDisallow: /arsiv/*\nDisallow: /reklam/*\nDisallow: /yorum/*\nDisallow: /katman/*\nDisallow: /index.php\nDisallow: /index.php/*\nDisallow: /anasayfa\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /cdn-cgi/*\nDisallow: /*?ref=\n\nUser-agent: GPTBot\nAllow: /\nCrawl-delay: 5\n\nUser-agent: OAI-SearchBot\nAllow: /\nCrawl-delay: 5\n\nUser-agent: ClaudeBot\nAllow: /\nCrawl-delay: 5\n\nUser-agent: anthropic-ai\nAllow: /\nCrawl-delay: 5\n\nUser-agent: PerplexityBot\nAllow: /\nCrawl-delay: 5\n\nUser-agent: Google-Extended\nAllow: /\nCrawl-delay: 5\n\nUser-agent: ChatGPT-User\nAllow: /\nCrawl-delay: 5\n\nUser-agent: CCBot\nDisallow: /\n",
+   "yasak": false
+  },
+  "www.siirthaberci.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: *\nAllow: /\n\nSitemap: https://www.siirthaberci.com/sitemap.xml\nSitemap: https://www.siirthaberci.com/sitemap-news.xml\n\nUser-agent: *\nDisallow: /foto-galeri/*?s=\nDisallow: /haber/Default.aspx\nDisallow: /amp/haber/Default.aspx\nDisallow: /haber/images/\nDisallow: /amp/haber/images/\nDisallow: /\"\nDisallow: /%22\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: PerplexityBot\nDisallow: /\n\nUser-agent: YouBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: img2dataset\nDisallow: /\n\nUser-agent: Omgili\nDisallow: /\n\nUser-agent: Omgilibot\nDisallow: /\n\nUser-agent: Timpibot\nDisallow: /\n\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: SemrushBot\nDisallow: /\n\nUser-agent: AhrefsBot\nDisallow: /\n\nUser-agent: DotBot\nDisallow: /\n\nUser-agent: MJ12bot\nDisallow: /\n\nUser-agent: BLEXBot\nDisallow: /\n\nUser-agent: DataForSeoBot\nDisallow: /\n\nUser-agent: serpstatbot\nDisallow: /\n\nUser-agent: Seekport\nDisallow: /\n\nUser-agent: SeekportBot\nDisallow: /\n\nUser-agent: ZoominfoBot\nDisallow: /\n\nUser-agent: megaindex.com\nDisallow: /\n\nUser-agent: MegaIndex.ru\nDisallow: /\n\nUser-agent: BomboraBot\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: Sogou\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: Baiduspider-render\nDisallow: /\n",
+   "yasak": false
+  },
+  "www.kurtalangazetesi.com": {
+   "tarih": "2026-10-19",
+   "metin": "user-agent : *\ndisallow : /api/\nsitemap : https://www.kurtalangazetesi.com/xml/index.xml\n",
+   "yasak": false
+  },
+  "www.yenisiirt.com": {
+   "tarih": "2026-10-19",
+   "metin": "Sitemap: https://yenisiirt.com/sitemap_index.xml\r\nUser-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php",
+   "yasak": false
+  },
+  "yenisiirt.com": {
+   "tarih": "2026-10-19",
+   "metin": "Sitemap: https://yenisiirt.com/sitemap_index.xml\r\nUser-agent: *\r\nDisallow: /wp-admin/\r\nAllow: /wp-admin/admin-ajax.php",
+   "yasak": false
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "il": "Ağrı",
+ "liste_tarihi": "2026-10-17",
+ "kayitlar": [
+  {
+   "id": "47d0f1e70dc5",
+   "il": "Ağrı",
+   "ilce": "Doğubayazıt",
+   "mahalle": "İncesu Köyü",
+   "ad_soyad": "Fatma Güç",
+   "anne_baba": null,
+   "yas": 65,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Koçkıran Şehir Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-17",
+   "kaynak_ad": "Doğubayazıt Gazetesi",
+   "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazitta-7-cocuk-annesi-fatma-guc-hayatini-kaybetti",
+   "alindi": "2026-10-19T18:39:02+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-17",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

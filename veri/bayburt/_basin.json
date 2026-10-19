@@ -1,0 +1,41 @@
+{
+ "istek": {
+  "bayburthaber.com": {
+   "2026-10-19": 2
+  },
+  "bayburthaberajansi.com.tr": {
+   "2026-10-19": 2
+  },
+  "bayburtgundem.com": {
+   "2026-10-19": 3
+  },
+  "bayburtpostasi.com.tr": {
+   "2026-10-19": 6
+  }
+ },
+ "okunan": {
+  "https://www.bayburtpostasi.com.tr/seyhhayran-mahallesinin-emektari-tahsin-cegindir-hayatini-kaybetti": "2026-10-19T18:41:49"
+ },
+ "robots": {
+  "www.bayburthaber.com": {
+   "tarih": "2026-10-19",
+   "metin": "# tumeva-robots v1\r\n\r\nUser-agent: WhatsApp\r\nAllow: /\r\n\r\nUser-agent: WhatsApp/2.0\r\nAllow: /\r\n\r\nUser-agent: facebookexternalhit\r\nAllow: /\r\n\r\nUser-agent: Facebot\r\nAllow: /\r\n\r\nUser-agent: meta-externalfetcher\r\nAllow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /\r\n\r\nUser-agent: TelegramBot\r\nAllow: /\r\n\r\nUser-agent: *\r\nDisallow: /api/\r\nDisallow: /v.js/\r\nDisallow: /categories\r\nDisallow: /post/*/comments\r\nDisallow: /post/*/emojis\r\nDisallow: /post/*/emoji-votes\r\nDisallow: /arama$\r\nDisallow: /arama?\r\nDisallow: /*.php$\r\nDisallow: /_mail_\r\nDisallow: /images/fonts/\r\nDisallow: /*?ref=\r\nDisallow: /*?q=\r\nDisallow: /*?query=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?page=\r\nAllow: /gundem?page=2$\r\nDisallow: /*?cursor=\r\nDisallow: /*_token=\r\n\r\nSitemap: https://www.bayburthaber.com/sitemap.xml\r\nSitemap: https://www.bayburthaber.com/google_news.xml\r\n\r\n# tumeva-crawl-delay-start\r\nUser-agent: bingbot\r\nCrawl-delay: 10\r\n\r\nUser-agent: Yandex\r\nCrawl-delay: 10\r\n\r\nUser-agent: meta-webindexer\r\nCrawl-delay: 10\r\n\r\nUser-agent: meta-externalagent\r\nCrawl-delay: 10\r\n# tumeva-crawl-delay-end",
+   "yasak": false
+  },
+  "www.bayburthaberajansi.com.tr": {
+   "tarih": "2026-10-19",
+   "metin": "# tumeva-robots v1\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: WhatsApp/2.0\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: meta-externalfetcher\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: TelegramBot\nAllow: /\n\nUser-agent: *\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?page=\nDisallow: /*?cursor=\nDisallow: /*_token=\n\nSitemap: https://www.bayburthaberajansi.com.tr/sitemap.xml\nSitemap: https://www.bayburthaberajansi.com.tr/google_news.xml\n\n# tumeva-crawl-delay-start\nUser-agent: bingbot\nCrawl-delay: 10\n\nUser-agent: Yandex\nCrawl-delay: 10\n\nUser-agent: meta-webindexer\nCrawl-delay: 10\n\nUser-agent: meta-externalagent\nCrawl-delay: 10\n# tumeva-crawl-delay-end\n",
+   "yasak": false
+  },
+  "www.bayburtgundem.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.bayburtgundem.com/sitemap.xml\nSitemap: https://www.bayburtgundem.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.bayburtpostasi.com.tr": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.bayburtpostasi.com.tr/sitemap.xml\nSitemap: https://www.bayburtpostasi.com.tr/rss?yandex=turbo\n",
+   "yasak": false
+  }
+ }
+}

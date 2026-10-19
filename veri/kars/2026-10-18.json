@@ -1,0 +1,60 @@
+{
+ "il": "Kars",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "4f457edd6bbc",
+   "il": "Kars",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Cemil Demir",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Kars Hakimiyet",
+   "kaynak_url": "https://www.karshakimiyet.com/cemil-demir-vefat-etti-120555h.htm",
+   "alindi": "2026-10-19T18:41:16+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "6cc266c2822f",
+   "il": "Kars",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Durnatel Aydın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Kars Hakimiyet",
+   "kaynak_url": "https://www.karshakimiyet.com/durnatel-aydin-vefat-etti-120553h.htm",
+   "alindi": "2026-10-19T18:41:16+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "3f0e3aaefa3c",
+  "il": "Kastamonu",
+  "ilce": null,
+  "mahalle": null,
+  "ad_soyad": "Fehmi Şahin",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": null,
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": "Dereköy Camii, öğle namazı",
+  "liste_tarihi": "2026-10-19",
+  "kaynak_ad": "Kastamonu Haber",
+  "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-emekli-fehmi-sahin-vefat-etti",
+  "alindi": "2026-10-19T18:41:18+00:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-19",
+   "sayfa_tarihi": "2026-10-19",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": true,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
+  "id": "8657f9dfde46",
+  "il": "Kastamonu",
+  "ilce": "Cide",
+  "mahalle": "Kezağzı Köyü",
+  "ad_soyad": "Ferdane Güllü Arslan",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": "Sarıyer Ayazağa Mezarlığı",
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": "İstanbul Fatih Camii, öğle namazı",
+  "liste_tarihi": "2026-10-18",
+  "kaynak_ad": "Kastamonu İstiklal",
+  "kaynak_url": "https://www.kastamonuistiklal.com/cidede-ferdane-gullu-arslan-hayatini-kaybetti",
+  "alindi": "2026-10-19T18:41:18+00:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-18",
+   "sayfa_tarihi": "2026-10-18",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": false,
+  "kaynak_turu": "yerel_haber"
+ }
+]

@@ -1,0 +1,35 @@
+{
+ "istek": {
+  "karsmanset.com": {
+   "2026-10-19": 4
+  },
+  "habersarikamis.com": {
+   "2026-10-19": 2
+  },
+  "karshakimiyet.com": {
+   "2026-10-19": 8
+  }
+ },
+ "okunan": {
+  "https://www.karsmanset.com/haber/yemende-husilerden-egitim-kampina-saldiri-53-olu-200-yarali-1808595.htm": "2026-10-19T18:41:26",
+  "https://www.karsmanset.com/haber/prof-dr-cihat-yaycidan-mavi-vatan-dogu-akdeniz-ve-kibris-politikalarina-1808583.htm": "2026-10-19T18:41:30",
+  "https://www.karshakimiyet.com/kayip-alzheimer-hastasi-yasli-kadin-ucurumda-olu-bulundu-120637h.htm": "2026-10-19T18:41:45"
+ },
+ "robots": {
+  "www.karsmanset.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /api\r\n\r\nSitemap: https://www.karsmanset.com/sitemap.xsd",
+   "yasak": false
+  },
+  "www.habersarikamis.com": {
+   "tarih": "2026-10-19",
+   "metin": "# tumeva-robots v1\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: WhatsApp/2.0\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: meta-externalfetcher\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: TelegramBot\nAllow: /\n\nUser-agent: *\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?page=\nDisallow: /*?cursor=\nDisallow: /*_token=\n\nSitemap: https://www.habersarikamis.com/sitemap.xml\nSitemap: https://www.habersarikamis.com/google_news.xml\n\n# tumeva-crawl-delay-start\nUser-agent: bingbot\nCrawl-delay: 10\n\nUser-agent: Yandex\nCrawl-delay: 10\n\nUser-agent: meta-webindexer\nCrawl-delay: 10\n\nUser-agent: meta-externalagent\nCrawl-delay: 10\n# tumeva-crawl-delay-end\n",
+   "yasak": false
+  },
+  "www.karshakimiyet.com": {
+   "tarih": "2026-10-19",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /api\r\n\r\nSitemap: https://www.karshakimiyet.com/sitemap.xsd",
+   "yasak": false
+  }
+ }
+}

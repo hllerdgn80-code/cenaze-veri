@@ -1,0 +1,33 @@
+{
+ "il": "Manisa",
+ "kayitlar": [
+  {
+   "id": "171695f9b495",
+   "il": "Manisa",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mefaret Özkaynak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yeni Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Hilaliye Camii, öğle namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Akhisar Haber",
+   "kaynak_url": "https://www.akhisarhaber.net/vefat/mefaret-ozkaynak/19512",
+   "alindi": "2026-10-19T18:40:45+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin",
+   "ilk_gorulme": "2026-10-19T18:41:01+00:00"
+  }
+ ],
+ "guncelleme": "2026-10-19T18:41:01+00:00"
+}

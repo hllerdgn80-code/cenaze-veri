@@ -1,0 +1,126 @@
+{
+ "il": "Aydın",
+ "liste_tarihi": "2026-10-13",
+ "kayitlar": [
+  {
+   "id": "81f1bd1437c0",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Granta",
+   "ad_soyad": "Uğur Özcan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "GRANTA"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "11698e8112ea",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Sarıkemer",
+   "ad_soyad": "Kazım Aytekin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "SARIKEMER"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "d69500b4158f",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Atburgazı",
+   "ad_soyad": "Mehmet Zeki Çekan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "ATBURGAZI"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "26107492bbdd",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Bağarası",
+   "ad_soyad": "Meliha Dinç",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "BAĞARASI"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "b36287c87a56",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Savuca",
+   "ad_soyad": "Hüseyin Coşkun",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-13",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-13",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "SAVUCA"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

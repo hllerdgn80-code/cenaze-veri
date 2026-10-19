@@ -1,0 +1,18 @@
+{
+ "istek": {
+  "akhisarhaber.net": {
+   "2026-10-19": 4
+  }
+ },
+ "okunan": {
+  "https://www.akhisarhaber.net/vefat/mefaret-ozkaynak/19512": "2026-10-19T18:40:55",
+  "https://www.akhisarhaber.net/vefat/sabri-degerli/19490": "2026-10-19T18:41:00"
+ },
+ "robots": {
+  "www.akhisarhaber.net": {
+   "tarih": "2026-10-19",
+   "metin": "# tumeva-robots v1\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: WhatsApp/2.0\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: meta-externalfetcher\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: TelegramBot\nAllow: /\n\nUser-agent: *\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?page=\nDisallow: /*?cursor=\nDisallow: /*_token=\n\nSitemap: https://www.akhisarhaber.net/sitemap.xml\nSitemap: https://www.akhisarhaber.net/google_news.xml\n\n# tumeva-crawl-delay-start\nUser-agent: bingbot\nCrawl-delay: 10\n\nUser-agent: Yandex\nCrawl-delay: 10\n\nUser-agent: meta-webindexer\nCrawl-delay: 10\n\nUser-agent: meta-externalagent\nCrawl-delay: 10\n# tumeva-crawl-delay-end\n",
+   "yasak": false
+  }
+ }
+}

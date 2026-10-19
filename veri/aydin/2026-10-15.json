@@ -1,0 +1,54 @@
+{
+ "il": "Aydın",
+ "liste_tarihi": "2026-10-15",
+ "kayitlar": [
+  {
+   "id": "d3d452d9b8ce",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Granta",
+   "ad_soyad": "Durmuş Muslu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "GRANTA"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "937532a9a3c6",
+   "il": "Aydın",
+   "ilce": "Söke",
+   "mahalle": "Sazlı",
+   "ad_soyad": "Mehmet Kaya",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-15",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-15",
+   "kaynak_ad": "Söke Belediyesi",
+   "kaynak_url": "https://www.soke.bel.tr/vefatedenler",
+   "alindi": "2026-10-19T18:41:01+00:00",
+   "ham": {
+    "yer_zaman": "SAZLI"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
