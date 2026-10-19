@@ -1264,7 +1264,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "dd0b80f47ed0",
+   "il": "Konya",
+   "ilce": "Çeltik",
+   "mahalle": null,
+   "ad_soyad": "Halil Karaca",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Konya Hakimiyet",
+   "kaynak_url": "https://www.hakimiyet.com/konya-da-feci-kaza-tarim-iscisi-hayatini-kaybetti/127920/",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T15:55:41+03:00"
+ "guncelleme": "2026-10-19T19:29:49+03:00"
 }

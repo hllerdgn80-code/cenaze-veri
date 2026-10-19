@@ -27,7 +27,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0d092baf6ba1",
+   "il": "Kütahya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yeri Sahibi",
+   "anne_baba": null,
+   "yas": 42,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kütahya'nın Sesi",
+   "kaynak_url": "https://www.kutahyaninsesi.com/haber/29010268/kanli-restoran-baskini-is-yeri-sahibi-hayatini-kaybetti",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-17T17:57:08+03:00"
+ "guncelleme": "2026-10-19T19:29:49+03:00"
 }

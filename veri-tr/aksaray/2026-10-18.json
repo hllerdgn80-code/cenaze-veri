@@ -1,0 +1,35 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "fd9fb13995a2",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Muteber Geyik",
+   "anne_baba": "Kadir",
+   "yas": 78,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Ervah Kabristanlığı / 3 Ada",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:15",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-19T18:16:06+03:00",
+   "ham": {
+    "baba": "KADİR",
+    "defin": "18.10.2026 13:15",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 3 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

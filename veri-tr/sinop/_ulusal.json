@@ -1,0 +1,33 @@
+{
+ "il": "Sinop",
+ "kayitlar": [
+  {
+   "id": "6d1150be6108",
+   "il": "Sinop",
+   "ilce": "Boyabat",
+   "mahalle": null,
+   "ad_soyad": "Erdal Aktaş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Vitrin Haber",
+   "kaynak_url": "https://www.vitrinhaber.com/esnaf-erdal-aktas-hayatini-kaybetti",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  }
+ ],
+ "guncelleme": "2026-10-19T19:29:49+03:00"
+}

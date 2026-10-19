@@ -326,7 +326,61 @@
    },
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1e7b642bf57c",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Şirinevler Mahallesi",
+   "ad_soyad": "Ahmet Taşbaş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Burdur Asri Mezarlık",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29008892/burdurda-sanayi-esnaflarindan-ahmet-tasbas-vefat-etti",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "db8ba2297178",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nuri Gökçen",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29008872/burdurda-eski-radyo-ve-televizyon-tamir-ustasi-nuri-gokcen-vefat-etti",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-19T04:49:05+03:00"
+ "guncelleme": "2026-10-19T19:29:49+03:00"
 }

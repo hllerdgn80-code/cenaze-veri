@@ -714,7 +714,59 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "3e9dfd10be1f",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Dağevli Hatice Şahiner",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-19-ekim",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1b8c1bddfd84",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Deliceli Gönül Çöçü",
+   "anne_baba": null,
+   "yas": 42,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Sanayi Mahallesi İbadullah Camii, öğle namazı",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-19-ekim",
+   "alindi": "2026-10-19T19:29:49+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-19T04:49:05+03:00"
+ "guncelleme": "2026-10-19T19:29:49+03:00"
 }
