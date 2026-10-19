@@ -1,0 +1,73 @@
+{
+ "il": "Kocaeli",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "8dae4ad85911",
+   "il": "Kocaeli",
+   "ilce": "Darıca",
+   "mahalle": null,
+   "ad_soyad": "Sevim Solhan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "BALÇIK MEZARLIĞI",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Mina Cami",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-20T00:49:09+03:00",
+   "ham": {
+    "ad": "SEVİM",
+    "soyad": "SOLHAN",
+    "mezarlik": "BALÇIK MEZARLIĞI",
+    "cami": "Mina Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "19.10.2026",
+    "defin_tarihi": "20.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "Darıca"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "ecb3e2f7817c",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Fazlı Yıldız",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Nakil: Çankırı",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-20T00:49:09+03:00",
+   "ham": {
+    "ad": "FAZLI",
+    "soyad": "YILDIZ",
+    "mezarlik": "",
+    "cami": "ÇANKIRI NAKİL",
+    "vakit": "NAKIL",
+    "olum_tarihi": "18.10.2026",
+    "defin_tarihi": "20.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Çankırı"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Çankırı",
+    "ilce": null
+   }
+  }
+ ]
+}
