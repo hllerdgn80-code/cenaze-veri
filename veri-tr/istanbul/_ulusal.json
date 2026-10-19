@@ -30653,7 +30653,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-18T18:43:08+03:00",
+   "alindi": "2026-10-19T20:43:27+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-18",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -35696,6 +35696,56 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "bff5dd4243c6",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "İbrahim İslam",
+   "anne_baba": null,
+   "yas": 76,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-19T20:43:27+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "fd491538022f",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "Özlem Gündüren",
+   "anne_baba": null,
+   "yas": 43,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-19T20:43:27+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-18",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-19T20:43:27+03:00"
