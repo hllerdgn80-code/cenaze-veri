@@ -1,0 +1,510 @@
+{
+ "tarih": "2026-10-19",
+ "sorgulanan_iller": [
+  "agri",
+  "ardahan",
+  "bayburt",
+  "bingol",
+  "bitlis",
+  "eskisehir",
+  "hakkari",
+  "igdir",
+  "kirklareli",
+  "mardin",
+  "mus",
+  "siirt",
+  "sirnak",
+  "tunceli",
+  "yozgat",
+  "diyarbakir",
+  "sinop",
+  "sivas",
+  "tekirdag",
+  "tokat",
+  "trabzon",
+  "usak",
+  "van",
+  "yalova",
+  "zonguldak",
+  "adana",
+  "adiyaman",
+  "afyonkarahisar",
+  "aksaray",
+  "amasya"
+ ],
+ "il_alan_yeni": {
+  "Ağrı": {
+   "malatyaguncel.com": 1,
+   "mardinlife.com": 1,
+   "kent04.com": 2
+  },
+  "Ardahan": {
+   "kuzeyanadolugazetesi.com": 1
+  },
+  "Bayburt": {
+   "marmarisyenisayfa.com": 1,
+   "gumuskoza.com.tr": 2,
+   "mersinhaber.com": 1,
+   "gunebakis.com.tr": 1,
+   "tv42haber.com": 1
+  },
+  "Bingöl": {
+   "gunisigigazetesi.net": 1
+  },
+  "Bitlis": {
+   "aksiyon.com.tr": 1,
+   "herkesduysun.com": 1,
+   "malatyasonsoz.com.tr": 1,
+   "malatyacadde.com": 2
+  },
+  "Eskişehir": {
+   "aksiyon.com.tr": 1,
+   "bolgegundemi.com": 2,
+   "canligaste.com": 1,
+   "mersinhaber.com": 1
+  },
+  "Iğdır": {
+   "boluolay.com": 2
+  },
+  "Kırklareli": {
+   "yenicagri.com": 1,
+   "aksiyon.com.tr": 1,
+   "memurhaber365.com": 1,
+   "yozgatmedya.com.tr": 2
+  },
+  "Mardin": {
+   "gzt.com": 2,
+   "mardinlife.com": 5,
+   "urfanatik.com": 1,
+   "turkgun.com": 1,
+   "gazette.com.tr": 1
+  },
+  "Muş": {
+   "haber7.com": 1
+  },
+  "Siirt": {
+   "haber7.com": 1,
+   "aksiyon.com.tr": 1,
+   "batmandabugun.com": 1,
+   "tv42haber.com": 1
+  },
+  "Şırnak": {
+   "afyonhaber.com": 1
+  },
+  "Tunceli": {
+   "haber7.com": 1,
+   "mersinhaber.com": 1,
+   "bianlikhaber.com": 1
+  },
+  "Yozgat": {
+   "ilerigazetesi.com.tr": 3,
+   "yozgatcamlik.com": 7,
+   "yozgatmedya.com.tr": 13,
+   "yerkoyhabergazetesi.com": 3,
+   "merhabayozgat.com": 4
+  },
+  "Diyarbakır": {
+   "ankahaber.net": 1,
+   "guneydoguekspres.com": 1,
+   "amedtv.com": 1,
+   "yenisokegazetesi.com": 2,
+   "ozdiyarbakirgazetesi.com": 1,
+   "mardinlife.com": 1,
+   "cegamedya.com": 3,
+   "diyarbakirolay.com.tr": 1
+  },
+  "Sinop": {
+   "sinopflashaber.com": 2,
+   "aksiyon.com.tr": 1,
+   "saraymedya.com": 1,
+   "kastamonugundemgazetesi.com": 7,
+   "mersinhaber.com": 1
+  },
+  "Sivas": {
+   "gundemsivas.com": 1,
+   "sivas360.com": 4,
+   "saraymedya.com": 1,
+   "aksiyon.com.tr": 2,
+   "buyuksivas.com": 3,
+   "muhalif.com.tr": 1,
+   "sivasekspres.com": 3,
+   "haberoptimum.com": 3,
+   "sivasirade.com": 2,
+   "sivashaber346.com": 5,
+   "haber.tr": 1,
+   "memurhaber365.com": 2,
+   "ankaramasasi.com.tr": 1,
+   "nnchaber.com": 1,
+   "kanal46.com": 1,
+   "sivashaberler.com": 2
+  },
+  "Tekirdağ": {
+   "tekirdagyenihaber.com": 4,
+   "habertrak.com.tr": 1,
+   "kapakligazetesi.com.tr": 2
+  },
+  "Tokat": {
+   "haber7.com": 1,
+   "bolgeninsesigazetesi.com": 1,
+   "karabukpostasi.com": 1,
+   "yenikocaeli.com": 1,
+   "kocaeligundem.com": 1,
+   "elbistaninsesi.com": 1
+  },
+  "Trabzon": {
+   "takagazete.com.tr": 7,
+   "habertrabzon.tr": 1,
+   "haberanlik.com.tr": 8,
+   "kuzeyekspres.com.tr": 1,
+   "gunebakis.com.tr": 4
+  },
+  "Uşak": {
+   "usakhabergazetesi.com.tr": 1,
+   "usakhabermerkezi.com": 3,
+   "yesilsivasligazetesi.com": 3,
+   "nnchaber.com": 2,
+   "olumhaberi.com": 1
+  },
+  "Van": {
+   "haber7.com": 1,
+   "vanekspres.com.tr": 1,
+   "vanpostasigazetesi.com": 1,
+   "vanolay.com": 14,
+   "sehrivangazetesi.com": 3,
+   "vanhabergazetesi.com": 2,
+   "bolgegazetesivan.com": 1
+  },
+  "Yalova": {
+   "yalovagazetesi.com": 1,
+   "haber7.com": 1
+  },
+  "Zonguldak": {
+   "gzt.com": 1,
+   "haber7.com": 1,
+   "imzagazetesi.com": 4,
+   "kanalbzonguldak.com.tr": 1,
+   "safakgazete.com": 1,
+   "pusulagazetesi.com.tr": 2,
+   "ozgurhalkinsesi.com.tr": 8,
+   "tontv.com.tr": 1,
+   "muhalif.com.tr": 1,
+   "iscihaber.net": 1
+  },
+  "Adana": {
+   "adanapost.com": 1,
+   "kucuksaat.com": 3,
+   "haber7.com": 1,
+   "kastamonugundemgazetesi.com": 1,
+   "gazette.com.tr": 1,
+   "nnchaber.com": 1
+  },
+  "Adıyaman": {
+   "urfadegisim.com.tr": 5,
+   "gunebakisgazetesi.com": 4,
+   "isikgazetesi.com": 2,
+   "besniguncel.com": 1
+  },
+  "Afyonkarahisar": {
+   "afyonanahaber.com.tr": 5,
+   "bolgeninsesigazetesi.com": 1,
+   "afyonhaberturk.com": 1,
+   "beyazbelgehaber.com": 2,
+   "nnchaber.com": 5,
+   "aydinlik.com.tr": 1,
+   "uyan32.com": 1,
+   "memurhaber365.com": 1
+  },
+  "Aksaray": {
+   "saraymedya.com": 3,
+   "anadoluekspres.com.tr": 3,
+   "yenigungazete.com": 2
+  },
+  "Amasya": {
+   "bolgeninsesigazetesi.com": 1,
+   "aksiyon.com.tr": 1,
+   "objektifamasya.com": 16,
+   "tasova.net": 1
+  }
+ },
+ "belirsiz": 961,
+ "hata": {},
+ "on_inceleme_yapilan": 25,
+ "alan_sonuc": {
+  "anadoluekspres.com.tr": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat-haberleri"
+   ]
+  },
+  "malatyaguncel.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "beyazbelgehaber.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/haber/mustafa-arici-nin-cenaze-bilgisi-aciklandi",
+    "/haber/piyade-uzman-cavus-ramazan-tinas-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/haber/mustafa-arici-nin-cenaze-bilgisi-aciklandi",
+    "/haber/piyade-uzman-cavus-ramazan-tinas-vefat-etti"
+   ]
+  },
+  "haberanlik.com.tr": {
+   "tarih": "2026-10-19",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "dumlupinargazetesi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat-haberleri",
+    "/kategori/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/vefat-haberleri"
+   ]
+  },
+  "sivashaber346.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 5,
+   "menu_yollar": []
+  },
+  "vanolay.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vanda-15-kisi-vefat-etti-isimleri-belli-oldu",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": [
+    "/vanda-15-kisi-vefat-etti-isimleri-belli-oldu"
+   ]
+  },
+  "haber.mynet.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kastamonugundemgazetesi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat",
+    "/vefat-edenler"
+   ],
+   "durum": "VAR",
+   "istek": 7,
+   "menu_yollar": []
+  },
+  "rizeninsesi.net": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": [
+    "/kategori/vefat",
+    "/vefat-edenler"
+   ]
+  },
+  "sivashaberler.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat-haberleri/",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 5,
+   "menu_yollar": [
+    "/kategori/vefat-haberleri/"
+   ]
+  },
+  "yenigungazete.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
+  },
+  "sehrivangazetesi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "haberoptimum.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "sivasekspres.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": [
+    "/sivasta-bugun-vefat-edenler"
+   ]
+  },
+  "ozgurhalkinsesi.com.tr": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "usakhabermerkezi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
+  },
+  "tekirdagyenihaber.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/2026/10/18/emine-zuhal-malkoclar-vefat-etti/",
+    "/kategori/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/2026/10/18/emine-zuhal-malkoclar-vefat-etti/"
+   ]
+  },
+  "gzt.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "imzagazetesi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "yesilsivasligazetesi.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/usakta-15-ekim-persembe-gunu-7-kisi-vefat-etti",
+    "/usakta-19-ekim-pazar-gunu-2-kisi-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/usakta-15-ekim-persembe-gunu-7-kisi-vefat-etti",
+    "/usakta-19-ekim-pazar-gunu-2-kisi-vefat-etti"
+   ]
+  },
+  "sivas360.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kocaeligundem.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "takagazete.com.tr": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "buyuksivas.com": {
+   "tarih": "2026-10-19",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL ana 403",
+   "istek": 2
+  }
+ }
+}
