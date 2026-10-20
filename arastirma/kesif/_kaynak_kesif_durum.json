@@ -2863,6 +2863,268 @@
    "menu_yollar": [
     "/kozluda-altunkaya-ailesinin-aci-gunu-huseyin-altunkaya-vefat-etti"
    ]
+  },
+  "gundem67.com.tr": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "haberlisin.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kocaelisehirgazetesi.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "abamedya.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "adanapost.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ticarihayat.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ulusal.com.tr": {
+   "tarih": "2026-10-20",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "antakyagazetesi.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/armutlu-eski-muhtari-bedi-ofkeli-vefat-etti/",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": [
+    "/armutlu-eski-muhtari-bedi-ofkeli-vefat-etti/"
+   ]
+  },
+  "habersbalikesir.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ayakustuhaber.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "haberci18.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": [
+    "/vefat-haberleri/"
+   ]
+  },
+  "marastanhaber.com.tr": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "malatyadan.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "malatyaolay.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 5,
+   "menu_yollar": []
+  },
+  "gencgazete.net": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/bursada-bugun-vefat-edenler-kimler",
+    "/inegolde-bugun-vefat-edenler-kimler-2"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/bursada-bugun-vefat-edenler-kimler",
+    "/inegolde-bugun-vefat-edenler-kimler-2"
+   ]
+  },
+  "kanalbzonguldak.com.tr": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "habertrabzon.tr": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "bursabasin.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "gaziantepinhabercisi.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "hukukihaber.net": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/avukat-berke-halacoglu-vefat-etti",
+    "/avukat-fatih-demirtas-vefat-etti"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/avukat-berke-halacoglu-vefat-etti",
+    "/avukat-fatih-demirtas-vefat-etti",
+    "/avukat-mehmet-nazif-yunluel-vefat-etti",
+    "/avukat-omer-birtan-durukanvefat-etti"
+   ]
+  },
+  "esyenigun.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "batmancagdas.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "bagimsizbatmangazetesi.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 5,
+   "menu_yollar": []
+  },
+  "denizliyeniolay.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "haberburdur.com": {
+   "tarih": "2026-10-20",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/ayfer-yilmazok-vefat-bucak-girasun",
+    "/bucak-antalya-vefat-hasan-demirtas"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/ayfer-yilmazok-vefat-bucak-girasun",
+    "/bucak-antalya-vefat-hasan-demirtas",
+    "/bucak-vefat-enver-yavuz",
+    "/bucak-vefat-mehmet-ogutlu",
+    "/burdur/vefatlar",
+    "/havva-besler-vefat-bucak"
+   ]
   }
  },
  "il_alan": {
