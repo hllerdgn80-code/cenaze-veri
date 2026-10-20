@@ -1,0 +1,33 @@
+{
+ "il": "Erzurum",
+ "kayitlar": [
+  {
+   "id": "32b6b4dc4f73",
+   "il": "Erzurum",
+   "ilce": "Oltu",
+   "mahalle": null,
+   "ad_soyad": "Ruhi Akpınar",
+   "anne_baba": null,
+   "yas": 66,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Son Dakika Yerel",
+   "kaynak_url": "https://www.sondakika.com/yerel/haber-oltu-da-binlerce-ogrenci-yetistiren-ogretmen-ruhi--20345173/",
+   "alindi": "2026-10-20T11:01:59+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  }
+ ],
+ "guncelleme": "2026-10-20T11:01:59+03:00"
+}

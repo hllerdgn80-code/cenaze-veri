@@ -1,0 +1,33 @@
+{
+ "il": "Niğde",
+ "kayitlar": [
+  {
+   "id": "4e3a5963250e",
+   "il": "Niğde",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Hayriye Erdoğan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Fatih Sultan Mehmet Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-20T10:57:03+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-19",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  }
+ ],
+ "guncelleme": "2026-10-20T10:57:03+03:00"
+}

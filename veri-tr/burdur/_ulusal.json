@@ -434,7 +434,88 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1aeb4e0ae3e9",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Gülşan Süerkan",
+   "anne_baba": null,
+   "yas": 74,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Burdur Asri Mezarlık",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29015650/burdurlu-emekli-ogretmen-gulsan-suerkan-vefat-etti",
+   "alindi": "2026-10-20T11:03:10+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "5c891c5b0278",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Osman Çalıkuşu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29015490/burdurda-emekli-basgardiyan-osman-calikusu-vefat-etti",
+   "alindi": "2026-10-20T11:03:10+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "9d96c05746f2",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Üçdibek Mahallesi",
+   "ad_soyad": "Hatice Katrancı",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Sultandere Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29015612/burdurda-kofteci-muzaffer-katracinin-aci-gunu-hayatini-kaybetti",
+   "alindi": "2026-10-20T11:03:10+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T09:58:25+03:00"
+ "guncelleme": "2026-10-20T11:03:10+03:00"
 }

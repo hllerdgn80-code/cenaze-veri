@@ -2,33 +2,6 @@
  "il": "Şanlıurfa",
  "kayitlar": [
   {
-   "id": "44a9c2c5e0a7",
-   "il": "Şanlıurfa",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Lütfiye Polatkalası",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-16",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-16",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-16",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "00042917aa82",
    "il": "Şanlıurfa",
    "ilce": "Merkez",
@@ -45,7 +18,7 @@
    "liste_tarihi": "2026-10-17",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
+   "alindi": "2026-10-20T10:57:03+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-17",
@@ -56,26 +29,26 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "d52222d4b15a",
+   "id": "4978278cd9d6",
    "il": "Şanlıurfa",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Mehmet Aslantaş",
+   "ad_soyad": "İbrahim Halil Ermeç",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-16",
+   "vefat_tarihi": "2026-10-18",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-16",
+   "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
+   "alindi": "2026-10-20T10:57:03+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-16",
+    "sayfa_tarihi": "2026-10-18",
     "durum": null
    },
    "il_disi_defin": null,
@@ -83,26 +56,53 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "6ee4c5b9dc1f",
+   "id": "7cfd402c4052",
    "il": "Şanlıurfa",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Mustafa Kılıç",
+   "ad_soyad": "Adile Karabulut",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-15",
+   "vefat_tarihi": "2026-10-18",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-15",
+   "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
+   "alindi": "2026-10-20T10:57:03+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-15",
+    "sayfa_tarihi": "2026-10-18",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e9d6f00ab927",
+   "il": "Şanlıurfa",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Adul Demirkol",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-20T10:57:03+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-18",
     "durum": null
    },
    "il_disi_defin": null,
@@ -110,5 +110,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T11:07:13+03:00"
+ "guncelleme": "2026-10-20T10:57:03+03:00"
 }

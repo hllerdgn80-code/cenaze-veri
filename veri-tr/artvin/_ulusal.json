@@ -2,26 +2,26 @@
  "il": "Artvin",
  "kayitlar": [
   {
-   "id": "c6cdcb1fa4eb",
+   "id": "8116184d2c1e",
    "il": "Artvin",
    "ilce": "Hopa",
    "mahalle": null,
-   "ad_soyad": "Vahide Turan",
+   "ad_soyad": "Yaşar Altun",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-16",
+   "vefat_tarihi": "2026-10-18",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-16",
+   "liste_tarihi": "2026-10-18",
    "kaynak_ad": "cenazeilanlari.com.tr",
    "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-18T11:10:54+03:00",
+   "alindi": "2026-10-20T11:02:16+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-16",
+    "sayfa_tarihi": "2026-10-18",
     "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
    },
    "il_disi_defin": null,
@@ -29,5 +29,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T11:10:54+03:00"
+ "guncelleme": "2026-10-20T11:02:16+03:00"
 }
