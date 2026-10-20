@@ -534,6 +534,38 @@
    },
    "ilce_belirsiz": false,
    "il_disi_defin": null
+  },
+  {
+   "id": "7d8dbbd8e65a",
+   "il": "Kocaeli",
+   "ilce": "Kartepe",
+   "mahalle": null,
+   "ad_soyad": "Hatice Yılmaz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "KÖSEKÖY İSTASYON MEZARLIĞI",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "İkindi – MAŞUKİYE BAGDAT CAMİ",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-20T19:44:59+03:00",
+   "ham": {
+    "ad": "HATİCE",
+    "soyad": "YILMAZ",
+    "mezarlik": "KÖSEKÖY İSTASYON MEZARLIĞI",
+    "cami": "MAŞUKİYE BAGDAT CAMİ",
+    "vakit": "İKİNDİ",
+    "olum_tarihi": "20.10.2026",
+    "defin_tarihi": "20.10.2026",
+    "ilce_kaynagi": "mezarlik_resmi"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_resmi"
   }
  ]
 }

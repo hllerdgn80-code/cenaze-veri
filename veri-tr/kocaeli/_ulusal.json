@@ -368,7 +368,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013682/tufekli-saldirida-hayatini-kaybetti",
-   "alindi": "2026-10-20T13:56:52+03:00",
+   "alindi": "2026-10-20T19:46:29+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-19",
     "tarih_kaynagi": "yayin_tarihi"
@@ -394,7 +394,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013650/kou-bashekimi-aksunun-babasi-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-20T13:56:52+03:00",
+   "alindi": "2026-10-20T19:46:29+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -421,7 +421,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29008464/izmitin-taninan-ismi-hayatini-kaybetti",
-   "alindi": "2026-10-20T13:56:52+03:00",
+   "alindi": "2026-10-20T19:46:29+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1044,7 +1044,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29016741/ali-akcay",
-   "alindi": "2026-10-20T13:56:52+03:00",
+   "alindi": "2026-10-20T19:46:29+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -1071,7 +1071,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29016737/zeliha-sahin",
-   "alindi": "2026-10-20T13:56:52+03:00",
+   "alindi": "2026-10-20T19:46:29+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -1135,5 +1135,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T15:56:07+03:00"
+ "guncelleme": "2026-10-20T19:46:29+03:00"
 }
