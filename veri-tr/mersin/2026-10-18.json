@@ -1,0 +1,28 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "58c365ecb98d",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Emirşah Mahallesi",
+   "ad_soyad": "Hamdi Özcan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Emirşah Mezarlığı",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": "2026-10-18",
+   "namaz_yeri_vakti": "Öğle",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/18-10-2026-vefat-edenler/",
+   "alindi": "2026-10-20T08:47:03+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
