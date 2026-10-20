@@ -391,7 +391,15 @@ class IcAnadolu(unittest.TestCase):
 
     def test_nnc_ilce_ilce(self):
         s = self.sat("ankara")
-        k = kk.baslikli_ilan_ayristir(NNC, CTX, "Ankara", s, "https://x/8", "2026-10-14")
+        class _Sabit(date):      # 20.10.2026: fixture tarihleri (13-14 Ekim) 7 günlük pencereden çıktı; pencere sabit tarihe çakılır
+            @classmethod
+            def today(cls):
+                return date(2026, 10, 14)
+        _eski, kk.date = kk.date, _Sabit
+        try:
+            k = kk.baslikli_ilan_ayristir(NNC, CTX, "Ankara", s, "https://x/8", "2026-10-14")
+        finally:
+            kk.date = _eski
         self.assertEqual([(x["ad_soyad"], x["ilce"], x["mahalle"]) for x in k], [("Şerife Algül", "Kızılcahamam", "Eğerlidereköy Mahallesi"), ("Ramazan Kılıç", "Bala", "Büyükbayat Mahallesi")])
         self.assertNotIn("Hasan Algül", json.dumps(k, ensure_ascii=False))     # akraba adı alınmaz
 
