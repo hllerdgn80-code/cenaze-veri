@@ -1080,7 +1080,60 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "54d50aa423f3",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Çalışan Veteriner",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29018327/kocaelide-gorev-yapan-veteriner-cinayete-kurban-gitti-son-yolculuguna-ugurlandi",
+   "alindi": "2026-10-20T15:56:07+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "7910becf5f55",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nizamettin Yelmer",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29017974/kocaeli-buyuksehir-belediyesinin-aci-kaybi-nizamettin-yelmer-hayatini-kaybetti",
+   "alindi": "2026-10-20T15:56:07+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T13:56:52+03:00"
+ "guncelleme": "2026-10-20T15:56:07+03:00"
 }
