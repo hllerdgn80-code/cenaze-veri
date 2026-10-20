@@ -1610,7 +1610,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29010324/ali-mert-gumuskaya",
-   "alindi": "2026-10-20T02:55:12+03:00",
+   "alindi": "2026-10-20T07:58:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1691,7 +1691,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013682/tufekli-saldirida-hayatini-kaybetti",
-   "alindi": "2026-10-20T02:55:12+03:00",
+   "alindi": "2026-10-20T07:58:00+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-19",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1717,7 +1717,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29013650/kou-bashekimi-aksunun-babasi-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-20T02:55:12+03:00",
+   "alindi": "2026-10-20T07:58:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1744,7 +1744,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29008464/izmitin-taninan-ismi-hayatini-kaybetti",
-   "alindi": "2026-10-20T02:55:12+03:00",
+   "alindi": "2026-10-20T07:58:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-19",
     "sayfa_tarihi": "2026-10-19",
@@ -1753,7 +1753,63 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "809e9219f238",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mustafa Aksu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Kadıköy Kuyubaşı Tuğlacıbaşı Camii",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29014030/kou-bashekimi-maksut-gorkem-aksunun-aci-gunu",
+   "alindi": "2026-10-20T07:58:00+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": {
+    "il": "İstanbul",
+    "ilce": null
+   },
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "9cc2a03ecde6",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hadi Ertuğ",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Balaban Merkez Camii, öğle namazı",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29013884/hadi-ertug-hayatini-kaybetti",
+   "alindi": "2026-10-20T07:58:00+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T02:55:12+03:00"
+ "guncelleme": "2026-10-20T07:58:00+03:00"
 }
