@@ -1,0 +1,28 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "b1fa6aecad37",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": null,
+   "ad_soyad": "Ömer Çetin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Ortaköy Mezarlığı",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Saat 14:00",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/20-10-2026-vefat-edenler/",
+   "alindi": "2026-10-20T11:31:53+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
