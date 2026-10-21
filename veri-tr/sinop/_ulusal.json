@@ -81,7 +81,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "17ccf0bad061",
+   "il": "Sinop",
+   "ilce": "Türkeli",
+   "mahalle": "Yeşiloba Köyü",
+   "ad_soyad": "İnşaatçı Aksoy",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Vitrin Haber",
+   "kaynak_url": "https://www.vitrinhaber.com/ilcede-aci-kayip-insaatci-aksoy-vefat-etti",
+   "alindi": "2026-10-21T19:31:13+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T13:32:22+03:00"
+ "guncelleme": "2026-10-21T19:31:13+03:00"
 }
