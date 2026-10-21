@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T06:42:07+03:00",
+   "alindi": "2026-10-21T08:41:36+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T06:42:07+03:00",
+   "alindi": "2026-10-21T08:41:36+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -70,7 +70,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T06:42:07+03:00",
+   "alindi": "2026-10-21T08:41:36+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -96,7 +96,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T06:42:07+03:00",
+   "alindi": "2026-10-21T08:41:36+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -122,7 +122,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T06:42:07+03:00",
+   "alindi": "2026-10-21T08:41:36+03:00",
    "ham": {
     "nakil_yeri": "İstanbul",
     "nakil_tarihi": "2026-10-20"
@@ -130,7 +130,59 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "ilk_gorulme": "2026-10-21T05:31:40+03:00"
+  },
+  {
+   "id": "b0bd10ffe14b",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Çağlar Çelik",
+   "anne_baba": null,
+   "yas": 41,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Kumbahçe Uğur Camii'den Ortakent mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T08:41:36+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "ilk_gorulme": "2026-10-21T08:42:13+03:00"
+  },
+  {
+   "id": "56ffc68038df",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Fatma Özer",
+   "anne_baba": null,
+   "yas": 79,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Ortakent Kerem Aydınlar Camii'den Ortakent mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T08:41:36+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "ilk_gorulme": "2026-10-21T08:42:13+03:00"
   }
  ],
- "guncelleme": "2026-10-21T06:43:24+03:00"
+ "guncelleme": "2026-10-21T08:42:13+03:00"
 }

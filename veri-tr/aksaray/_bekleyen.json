@@ -1,5 +1,66 @@
 {
  "il": "Aksaray",
- "kayitlar": [],
- "guncelleme": "2026-10-21T06:43:38+03:00"
+ "kayitlar": [
+  {
+   "id": "4a8d60f0c8a0",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Murat Öztürk",
+   "anne_baba": "İbrahim Etem",
+   "yas": 56,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Ervah Kabristanlığı / Cennet Deresi 2 Ada",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:18",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-21T08:42:21+03:00",
+   "ham": {
+    "baba": "İBRAHİM ETEM",
+    "defin": "21.10.2026 13:18",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CENNET DERESİ 2 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye",
+   "ilk_gorulme": "2026-10-21T08:42:21+03:00"
+  },
+  {
+   "id": "b4431ab4512f",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Ahmet Örs",
+   "anne_baba": "Musa",
+   "yas": 71,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Ervah Kabristanlığı / 6 Ada",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:16",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-21T08:42:21+03:00",
+   "ham": {
+    "baba": "MUSA",
+    "defin": "21.10.2026 13:16",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 6 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye",
+   "ilk_gorulme": "2026-10-21T08:42:21+03:00"
+  }
+ ],
+ "guncelleme": "2026-10-21T08:42:21+03:00"
 }

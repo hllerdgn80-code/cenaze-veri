@@ -1,0 +1,93 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "9cef68e184ea",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Halim Çevik",
+   "anne_baba": "Ramazan",
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Ervah Kabristanlığı / 2 Ada",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:13",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-21T08:42:21+03:00",
+   "ham": {
+    "baba": "RAMAZAN",
+    "defin": "20.10.2026 13:13",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 2 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "ca6d1071dc0f",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Hanefi Çaylak",
+   "anne_baba": "Zarif",
+   "yas": 69,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Ervah Kabristanlığı / Cemaat Deresi 1ada",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:15",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-21T08:42:21+03:00",
+   "ham": {
+    "baba": "ZARİF",
+    "defin": "20.10.2026 13:15",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CEMAAT DERESİ 1ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "8a318952281a",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Kolukırık",
+   "anne_baba": "Sabri",
+   "yas": 59,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-21T08:42:21+03:00",
+   "ham": {
+    "baba": "SABRİ",
+    "defin": "20.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

@@ -442,17 +442,17 @@
    "mahalle": null,
    "ad_soyad": "Gülşan Süerkan",
    "anne_baba": null,
-   "yas": 74,
+   "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "Burdur Asri Mezarlık",
+   "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": "2026-10-20",
    "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29015650/burdurlu-emekli-ogretmen-gulsan-suerkan-vefat-etti",
-   "alindi": "2026-10-21T07:54:49+03:00",
+   "alindi": "2026-10-21T09:54:52+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -479,7 +479,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29015490/burdurda-emekli-basgardiyan-osman-calikusu-vefat-etti",
-   "alindi": "2026-10-21T07:54:49+03:00",
+   "alindi": "2026-10-21T09:54:52+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -542,7 +542,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "ffd082b787be",
+   "il": "Burdur",
+   "ilce": "Gölhisar",
+   "mahalle": "İbecik Köyü",
+   "ad_soyad": "Halil Pehlivan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29021165/burdurlu-emekli-polis-memuru-halil-pehlivan-hayatini-kaybetti",
+   "alindi": "2026-10-21T09:54:52+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "2ad21e42e821",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Orhaniye Köyü",
+   "ad_soyad": "Gülsen Ayvalı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "ilçesi Orhaniye Köyü",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29021234/burdurda-belediye-personeli-tuncay-ayvalinin-aci-gunu-hayatini-kaybetti",
+   "alindi": "2026-10-21T09:54:52+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T07:54:49+03:00"
+ "guncelleme": "2026-10-21T09:54:52+03:00"
 }

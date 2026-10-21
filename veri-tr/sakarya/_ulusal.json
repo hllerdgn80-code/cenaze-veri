@@ -2,32 +2,6 @@
  "il": "Sakarya",
  "kayitlar": [
   {
-   "id": "9cd10323d10c",
-   "il": "Sakarya",
-   "ilce": "Ferizli",
-   "mahalle": null,
-   "ad_soyad": "Fatma Oktan",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-13",
-   "defin_yeri": "Ferizli Teberik Mahalle Mezarlığı",
-   "defin_zamani": null,
-   "namaz_tarihi": "2026-10-13",
-   "namaz_yeri_vakti": "Merkez Cami, öğle namazı",
-   "liste_tarihi": "2026-10-13",
-   "kaynak_ad": "Sakarya Yenihaber",
-   "kaynak_url": "https://www.sakaryayenihaber.com/haber/28986389/sakarya-haberleri-15-ekim-persembe-sakarya-vefatlar",
-   "alindi": "2026-10-17T11:33:25+03:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-15",
-    "tarih_kaynagi": "metin"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "4c77a71ec38a",
    "il": "Sakarya",
    "ilce": "Sapanca",
@@ -82,5 +56,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T15:56:07+03:00"
+ "guncelleme": "2026-10-21T09:54:52+03:00"
 }
