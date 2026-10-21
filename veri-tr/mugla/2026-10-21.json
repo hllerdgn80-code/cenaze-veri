@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -69,7 +69,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -94,7 +94,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -119,7 +119,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": "İstanbul",
     "nakil_tarihi": "2026-10-20"
@@ -144,7 +144,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -169,11 +169,77 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-21T08:41:36+03:00",
+   "alindi": "2026-10-21T12:13:57+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
    },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "4ed17f0980e0",
+   "il": "Muğla",
+   "ilce": "Milas",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Özdemir",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Kızılcayıkık Mahalle Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "11:00'da cenaze namazı ardından",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Milas Belediyesi",
+   "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
+   "alindi": "2026-10-21T12:13:57+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "089d956b5eae",
+   "il": "Muğla",
+   "ilce": "Milas",
+   "mahalle": null,
+   "ad_soyad": "Kemal Döner",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Derince Mahalle Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "12:00'da cenaze namazı ardından",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Milas Belediyesi",
+   "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
+   "alindi": "2026-10-21T12:13:57+03:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "d5e7691f033d",
+   "il": "Muğla",
+   "ilce": "Milas",
+   "mahalle": null,
+   "ad_soyad": "Süphan Tekin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Milas Şehir Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Öğle namazına müteakip",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Milas Belediyesi",
+   "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
+   "alindi": "2026-10-21T12:13:57+03:00",
+   "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false
   }

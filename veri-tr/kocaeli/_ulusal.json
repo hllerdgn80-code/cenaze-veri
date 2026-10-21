@@ -881,7 +881,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29020496/silahli-saldirida-oldurulen-veteriner-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-21T07:54:49+03:00",
+   "alindi": "2026-10-21T13:32:22+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "yayin_tarihi"
@@ -907,7 +907,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Özgür Kocaeli Gazetesi",
    "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29020249/buyuksehir-personeli-hayatini-kaybetti",
-   "alindi": "2026-10-21T07:54:49+03:00",
+   "alindi": "2026-10-21T13:32:22+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -1528,7 +1528,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29022014/halit-dogancay-hayatini-kaybetti",
-   "alindi": "2026-10-21T11:32:21+03:00",
+   "alindi": "2026-10-21T13:32:22+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-21",
     "sayfa_tarihi": "2026-10-21",
@@ -1537,7 +1537,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "a23a8f3151c5",
+   "il": "Kocaeli",
+   "ilce": "Başiskele",
+   "mahalle": "Kullar Mahallesi",
+   "ad_soyad": "Nazan Başyiğit",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Kullar Merkez Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Kullar Merkez Camii, öğle namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29023428/nazan-basyigit",
+   "alindi": "2026-10-21T13:32:22+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "fca6df2c3e49",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Pembe Nefise Timur",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Gölcük İhsaniye Merkez Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Fevziye Camii, öğle namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29023425/pembe-nefise-timur",
+   "alindi": "2026-10-21T13:32:22+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T11:32:21+03:00"
+ "guncelleme": "2026-10-21T13:32:22+03:00"
 }

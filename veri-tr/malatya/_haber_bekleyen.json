@@ -1,5 +1,32 @@
 [
  {
+  "id": "b9c067f9d219",
+  "il": "Malatya",
+  "ilce": "Battalgazi",
+  "mahalle": null,
+  "ad_soyad": "Ahmet Kahveci",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": "Malatya Şehir Mezarlığı",
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": "öğle namazı",
+  "liste_tarihi": "2026-10-21",
+  "kaynak_ad": "Yeni Malatya",
+  "kaynak_url": "https://www.yenimalatya.com.tr/haber/29021649/basri-kahvecinin-aci-gunu-agabeyi-ahmet-kahveci-hayatini-kaybetti",
+  "alindi": "2026-10-21T13:32:22+03:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-21",
+   "sayfa_tarihi": "2026-10-21",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": false,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
   "id": "3fb0c2976d74",
   "il": "Malatya",
   "ilce": null,
