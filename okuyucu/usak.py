@@ -125,8 +125,10 @@ def main():
         url = URL if sayfa_no == 1 else f"{URL}/{sayfa_no}"
         html_ = ortak.indir(url)
         kayitlar = ayristir(html_)
-        if not kayitlar and sayfa_no == 1:       # CI'da boş/eksik gövde gelebiliyor (16.10.2026): 6 sn sonra bir kez daha
-            time.sleep(6)
+        for bekle in (6, 12):                    # CI'da boş/eksik gövde gelebiliyor (16.10.2026; 21.10: 12 KB kesik yanıt): 6 ve 12 sn sonra yeniden
+            if kayitlar or sayfa_no != 1:
+                break
+            time.sleep(bekle)
             html_ = ortak.indir(url)
             kayitlar = ayristir(html_)
         if not kayitlar:

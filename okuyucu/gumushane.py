@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Gümüşhane Belediyesi vefat duyuruları okuyucusu (yalnız standart kütüphane).
-Kaynak: https://www.gumushane.bel.tr/2/duyuru/?type=1&page=N (liste: başlık "AD hakkın rahmetine kavuşmuştur" + tarih)
+Kaynak: https://gumushane.bel.tr/vefat-edenler?page=N (21.10.2026'da eski /2/duyuru/ adresi 404 oldu; kartta metin de var, ayrıntı sayfası gerekmez) (liste: başlık "AD hakkın rahmetine kavuşmuştur" + tarih)
 ve her duyurunun ayrıntı sayfası (serbest metin). Tarih = duyuru tarihi (liste_tarihi).
 Ayrıntıdan yalnız: mahalle/köy ("... mahallesi sakinlerinden") ve "Cenazesi ..." cümlesi (namaz/defin yeri-vakti) alınır.
 KVKK: yakın listesi ("... eşi, ... annesi"), taziye telefonu ve taziye adı alınmaz. Kaynakta ilçe yok -> ilce None + ilce_belirsiz.
@@ -13,8 +13,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ortak
 
 IL = "Gümüşhane"
-ANA = "https://www.gumushane.bel.tr"
-LISTE = ANA + "/2/duyuru/?type=1&page={}"
+ANA = "https://gumushane.bel.tr"
+LISTE = ANA + "/vefat-edenler?page={}"
 KAYNAK_AD = "Gümüşhane Belediyesi"
 KOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "veri", "gumushane")
 MAKS_SAYFA = 4
@@ -25,18 +25,17 @@ def metin(s):
 
 
 def liste_ayristir(sayfa):
-    """-> [{href, baslik, tarih}] (yalnız 'links fresh' listesi)"""
-    i = sayfa.find('class="links fresh"')
-    blok = sayfa[i:sayfa.find("</ul>", i)] if i >= 0 else ""
+    """21.10.2026: site yeniden tasarlandi (gumushane.bel.tr/vefat-edenler?page=N). Her kart: ad (h3), tarih (rozet), serbest metin (govde).
+    -> [{href, baslik, tarih, govde}]"""
     sonuc = []
-    for a, ic in re.findall(r'<a href="([^"]+)">(.*?)</a>', blok, re.S):
-        t = re.search(r"<time[^>]*>(.*?)</time>", ic, re.S)
-        baslik = metin(re.sub(r"<time.*?</time>", "", ic, flags=re.S))
-        tarih = None
-        if t:
-            parca = metin(t.group(1)).replace(",", " ").split()[:3]
-            tarih = ortak.tarih_iso(" ".join(parca))
-        sonuc.append({"href": a, "baslik": baslik, "tarih": tarih})
+    for kart in re.split(r'<div class="nh-vefat-card', sayfa)[1:]:
+        h = re.search(r'<h3 class="nh-vefat-name[^>]*>(.*?)</h3>', kart, re.S)
+        t = re.search(r'bi-calendar-event[^>]*></i>\s*([^<]+)<', kart)
+        d = re.search(r'<div class="nh-vefat-desc">(.*?)</div>', kart, re.S)
+        if not h:
+            continue
+        tarih = ortak.tarih_iso(" ".join(metin(t.group(1)).split()[:3])) if t else None
+        sonuc.append({"href": None, "baslik": metin(h.group(1)), "tarih": tarih, "govde": metin(d.group(1)) if d else ""})
     return sonuc
 
 
@@ -45,9 +44,7 @@ def ad_cikar(baslik):
     return ad
 
 
-def ayrinti_ayristir(sayfa):
-    m = re.search(r"<h1>.*?</h1>\s*<p>(.*?)</p>", sayfa, re.S)
-    govde = metin(m.group(1)) if m else ""
+def ayrinti_ayristir(govde):
     mah = re.search(r"(?:İlimiz\s+|Gümüşhane\s+)?([\wÇĞİÖŞÜçğıöşü.' -]+?)\s+(mahallesi|mahalle|köyü|beldesi|kasabası)\s+sakinlerinden", govde, re.I)
     mahalle = None
     if mahalle_ham := (mah.group(1).strip() if mah else None):
@@ -66,7 +63,7 @@ def main():
     n = 7
     if "--gun" in sys.argv:
         n = int(sys.argv[sys.argv.index("--gun") + 1])
-    if not ortak.robots_izin(ANA + "/2/duyuru/"):
+    if not ortak.robots_izin(ANA + "/vefat-edenler"):
         print("robots.txt bu adresi yasaklıyor, okunmadı", file=sys.stderr)
         return
     bugun = date.today()
@@ -85,15 +82,11 @@ def main():
         for o in ogeler:
             if not o["tarih"] or o["tarih"] not in by_gun:
                 continue
-            url = ANA + o["href"] if o["href"].startswith("/") else o["href"]
+            url = LISTE.format(1).split("?")[0]
             ad = ad_cikar(o["baslik"])
-            try:
-                mahalle, cum = ayrinti_ayristir(ortak.indir(url))
-            except Exception as e:
-                print(f"HATA ayrıntı {url}: {e}", file=sys.stderr)
-                mahalle = cum = None
+            mahalle, cum = ayrinti_ayristir(o["govde"])
             k = {
-                "id": ortak.kayit_id("gumushane", ad, o["tarih"], o["href"]),
+                "id": ortak.kayit_id("gumushane", ad, o["tarih"], o["baslik"]),
                 "il": IL, "ilce": None,
                 "mahalle": ortak.tr_title(mahalle) if mahalle else None,
                 "ad_soyad": ortak.tr_title(ad),
