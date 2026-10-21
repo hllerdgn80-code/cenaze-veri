@@ -111,7 +111,7 @@ Geri alma (bir Worker bozulursa): `cp <worker>/src/index.js.bak-2110 <worker>/sr
 ---
 
 ## UYGULANDI (21.10.2026, canlıda doğrulandı)
-1. **Başlıklar (Worker):** indir (Version 82fbeb84), veri-kapisi (bd01481f), test-katil (79d1d0b6), aile (1325b654), tr-kopru (d4a0d319) dağıtıldı; APK tam indirme 19.450.205 bayt aynı, `/test` sayfası aynı 2534 bayt, veri kapısı anahtarlı JSON 200, aile `/aile/ordu.json` 200 + CORS yalnız kimincenazesi.com'a.
+1. **Başlıklar (Worker):** indir (Version 82fbeb84), veri-kapisi (bd01481f), test-katil (b0d713ec; CSP Cloudflare analitik işaretçisine izin verir), aile (1325b654), tr-kopru (d4a0d319) dağıtıldı; APK tam indirme 19.450.205 bayt aynı, `/test` sayfası aynı 2534 bayt, veri kapısı anahtarlı JSON 200, aile `/aile/ordu.json` 200 + CORS yalnız kimincenazesi.com'a.
 2. **Site:** `_headers` (CSP, X-Frame-Options, HSTS, Permissions-Policy, noindex yapılandırma dosyaları), `robots.txt`, `.well-known/security.txt` Pages'e yayınlandı; ana sayfa tarayıcıda açıldı, konsol temiz; `/gizlilik/`, `/logo.svg`, `/stil.css`, APK 200.
 3. **Gizli uçlar:** sabit-zaman karşılaştırma + IP kilidi; canlı: anahtarsız `/test/{sayim,liste,uyeler,grup}`, `POST /test/toplu`, `/aile/durum`, `/aile/odemeler`, köprü, veri kapısı → 403; doğru anahtarla `/test/sayim` 200 (22 üye, yönetici yetkisi var), `/test/uyeler` 200.
 4. **Girdi/boyut:** aile 5 KB gövde → 413, bozuk JSON → 400; test-katil `/test/toplu` e-posta doğrulaması + 16 KB sınırı (birim testleri).
