@@ -79,3 +79,18 @@ test("Durable Object sayacı: 61. istek 429", async () => {
   for (let i = 0; i < 61; i++) son = (await kapi(istek("/veri/ordu/son7gun.json"), e, kaynak)).status;
   assert.equal(son, 429);
 });
+
+// 21.10.2026 guvenlik duvari: basarili yanitta guvenlik basliklari, hata yanitlari bos ve basliksiz
+test("basarili yanit guvenlik basliklari tasir; hata yaniti bos + basliksiz", async () => {
+  const env = { KC_ANAHTAR: "k".repeat(24), KOKEN: "https://kaynak.test", DAKIKA_LIMIT: "60", LIMITER: { limit: async () => ({ success: true }) } };
+  const kaynak = async () => new Response("{}", { status: 200, headers: { "Content-Type": "application/json" } });
+  const ok = await kapi(new Request("https://veri.test/veri/ordu/son7gun.json", { headers: { "X-KC-Anahtar": env.KC_ANAHTAR, "User-Agent": "KiminCenazesi/1.0", "CF-Connecting-IP": "1.2.3.4" } }), env, kaynak);
+  assert.equal(ok.status, 200);
+  assert.equal(ok.headers.get("x-content-type-options"), "nosniff");
+  assert.equal(ok.headers.get("x-frame-options"), "DENY");
+  assert.match(ok.headers.get("content-security-policy"), /default-src 'none'/);
+  const red = await kapi(new Request("https://veri.test/veri/ordu/son7gun.json"), env, kaynak);
+  assert.equal(red.status, 403);
+  assert.equal(await red.text(), "");
+  assert.equal(red.headers.get("x-content-type-options"), null);
+});

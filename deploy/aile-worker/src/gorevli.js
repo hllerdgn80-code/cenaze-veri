@@ -18,6 +18,7 @@ import { yerEslesir } from "./yer.js";
 import { smsGonder, netgsmVar, epostaVar, epostaGerekli, epostaKodGonder, parolaAnahtariVar, parolaSifrele, parolaCoz, parolaEpostaGonder, ESTA, SMS_METNI, NETGSM_URL, telefonNormalize } from "./dogrulama.js";
 export { telefonNormalize, smsGonder, netgsmVar, SMS_METNI, NETGSM_URL };
 import { degerlendir, adGecerli, adNormalize, katla, metinTemiz, bugunTR, gunEkle, ilSlug } from "./kurallar.js";
+import { sinirliMetin } from "./guvenlik.js";   // 21.10.2026 guvenlik duvari
 
 export const UNVANLAR = ["İmam-Hatip", "Müezzin-Kayyım", "Kur'an Kursu Öğreticisi", "Vaiz", "Müftü", "Müftü Yardımcısı", "Din Hizmetleri Uzmanı"];
 const UNVAN_KATLA = UNVANLAR.map((u) => katla(u));
@@ -70,7 +71,9 @@ export async function gorevliIsle(req, env, o, H, yol) {
   const gun = bugunTR(o.now);
 
   async function govde(limit = GOVDE_LIMIT) {
-    const m = await req.text();
+    const o = await sinirliMetin(req, limit);   // 21.10.2026: Content-Length on kontrolu + akis sinirli okuma
+    if (o.asildi) return { hata: "gövde çok büyük", durum: 413 };
+    const m = o.metin;
     if (m.length > limit) return { hata: "gövde çok büyük", durum: 413 };
     try { return { json: JSON.parse(m) }; } catch { return { hata: "geçersiz JSON", durum: 400 }; }
   }

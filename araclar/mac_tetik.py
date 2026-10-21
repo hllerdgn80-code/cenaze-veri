@@ -27,7 +27,7 @@ def yaz(satir):
         pass
 
 
-def main():
+def tetik():
     kuru = "--kuru" in sys.argv
     try:
         r = g.cagri("/actions/workflows/%s/runs?per_page=5" % WF)
@@ -54,6 +54,53 @@ def main():
         yaz("TETİKLENDİ: %s (Mac açık; son koşu %s)" % (WF, son.isoformat() if son else "yok"))
     except SystemExit as e:
         yaz("HATA: tetikleme (%s)" % str(e)[:80])
+
+
+# ---- 21.10.2026 GUVENLIK DUVARI (madde 7 + 10): Mac acikken kendiliginden guvenlik nobeti (3 saatte bir), yedek + tam tarama (gunde 1) ----
+# Durum: araclar/.guvenlik-durum.json (zaman damgalari). BULGU varsa macOS bildirimi (guvenlik_nobeti.py --bildir). Ag/arac hatasi sessiz gecilir.
+import subprocess  # noqa: E402
+GDURUM = os.path.join(KOK, "araclar", ".guvenlik-durum.json")
+
+
+def guvenlik_turu():
+    simdi = dt.datetime.now(dt.timezone.utc).timestamp()
+    try:
+        d = json.load(open(GDURUM))
+    except Exception:
+        d = {}
+    py = sys.executable or "python3"
+    araclar = os.path.join(KOK, "araclar")
+
+    def calistir(ad, args, zaman):
+        try:
+            r = subprocess.run([py, os.path.join(araclar, ad)] + args, capture_output=True, text=True, timeout=zaman)
+            yaz("GUVENLIK %s %s -> cikis %s%s" % (ad, " ".join(args), r.returncode, (" | " + r.stdout.strip().splitlines()[-1][:120]) if r.stdout.strip() else ""))
+            return r.returncode
+        except Exception as e:
+            yaz("GUVENLIK %s calismadi: %s" % (ad, str(e)[:80])); return None
+
+    if simdi - d.get("son_yedek", 0) > 24 * 3600:
+        calistir("kv_yedek.py", [], 600)
+        d["son_yedek"] = simdi
+    if simdi - d.get("son_tam", 0) > 24 * 3600:
+        calistir("guvenlik_nobeti.py", ["--tam", "--bildir", "--sessiz"], 1200)
+        d["son_tam"] = d["son_nobet"] = simdi
+    elif simdi - d.get("son_nobet", 0) > 3 * 3600:
+        calistir("guvenlik_nobeti.py", ["--bildir", "--sessiz"], 600)
+        d["son_nobet"] = simdi
+    try:
+        json.dump(d, open(GDURUM, "w"))
+    except OSError:
+        pass
+
+
+def main():
+    tetik()
+    if "--kuru" not in sys.argv:
+        try:
+            guvenlik_turu()
+        except Exception as e:
+            yaz("GUVENLIK turu hata: %s" % str(e)[:80])
 
 
 if __name__ == "__main__":

@@ -15,6 +15,7 @@ import { gorevliIsle, gorevliBildir } from "./gorevli.js";
 import { kodGonder as kodKanali, kanalGerekli } from "./dogrulama.js";
 import { playDogrula, URUN_KIMLIGI } from "./odeme.js";
 import { degerlendir, girdiTemizle, adNormalize, bugunTR, gunEkle, gunFarki, ilSlug } from "./kurallar.js";
+import { GUVENLIK_BASLIK, sinirliMetin, kilitliMi, basarisizKaydet } from "./guvenlik.js";   // 21.10.2026 guvenlik duvari
 
 const SAAT_LIMIT = 10;
 const KOD_OMRU_SN = 900;
@@ -51,12 +52,14 @@ function corsBasliklari(req, env) {
 function yanit(req, env, govde, durum = 200, ek = {}) {
   return new Response(JSON.stringify(govde), {
     status: durum,
-    headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff", ...corsBasliklari(req, env), ...ek },
+    headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store", ...GUVENLIK_BASLIK, ...corsBasliklari(req, env), ...ek },
   });
 }
 
 async function govdeOku(req) {
-  const m = await req.text();
+  const o = await sinirliMetin(req, GOVDE_LIMIT);   // 21.10.2026: Content-Length on kontrolu + akis sinirli okuma
+  if (o.asildi) return { hata: "gövde çok büyük", durum: 413 };
+  const m = o.metin;
   if (m.length > GOVDE_LIMIT) return { hata: "gövde çok büyük", durum: 413 };
   try { return { json: JSON.parse(m) }; } catch { return { hata: "geçersiz JSON", durum: 400 }; }
 }
@@ -366,18 +369,30 @@ export async function isle(req, env, ctx, secenek = {}) {
   return yanit(req, env, { hata: "yöntem_desteklenmiyor" }, 405);
 }
 
+// Panel/yonetici anahtari isteyen yollar: yanlis anahtar (403) 10 dk'da 10 kez olursa IP 10 dk kilitlenir (isolate bellek; en iyi caba)
+const GIZLI_YOLLAR = new Set(["/aile/durum", "/aile/odemeler", "/gorevli/karar", "/gorevli/liste", "/gorevli/capraz"]);
+
 export default {
   async fetch(req, env, ctx) {
-    const cache = typeof caches !== "undefined" ? caches.default : null;
-    const url = new URL(req.url);
-    const onbellekli = cache && req.method === "GET" && /^\/(aile|gorevli)\/[a-z0-9]+\.json$/.test(url.pathname) && !req.headers.get("Origin");
-    if (onbellekli) {
-      const hit = await cache.match(req);
-      if (hit) return hit;
+    try {
+      const url = new URL(req.url);
+      const gizli = GIZLI_YOLLAR.has(url.pathname.replace(/\/+$/, ""));
+      const ip = req.headers.get("CF-Connecting-IP") || "yok";
+      if (gizli && kilitliMi(ip)) return new Response(JSON.stringify({ hata: "cok_fazla_deneme" }), { status: 429, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store", "Retry-After": "600", ...GUVENLIK_BASLIK } });
+      const cache = typeof caches !== "undefined" ? caches.default : null;
+      const onbellekli = cache && req.method === "GET" && /^\/(aile|gorevli)\/[a-z0-9]+\.json$/.test(url.pathname) && !req.headers.get("Origin");
+      if (onbellekli) {
+        const hit = await cache.match(req);
+        if (hit) return hit;
+      }
+      const r = await isle(req, env, ctx);
+      if (gizli && r.status === 403) basarisizKaydet(ip);
+      if (onbellekli && r.status === 200) ctx.waitUntil(cache.put(req, r.clone()));
+      return r;
+    } catch (e) {
+      console.error("aile beklenmeyen hata:", String(e && e.stack || e).slice(0, 500));   // yalniz Cloudflare gunlugunde; yanitta iz yok
+      return new Response(JSON.stringify({ hata: "sunucu_hatasi" }), { status: 500, headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store", ...GUVENLIK_BASLIK } });
     }
-    const r = await isle(req, env, ctx);
-    if (onbellekli && r.status === 200) ctx.waitUntil(cache.put(req, r.clone()));
-    return r;
   },
   async scheduled(event, env, ctx) {
     ctx.waitUntil(temizle(env));

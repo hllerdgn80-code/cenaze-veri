@@ -143,7 +143,7 @@ def site():
             if not m:
                 yaz("❌", 'ana sayfada id="apk" yok')
             elif re.search(r"\bhidden\b", m.group(0)):
-                yaz("❌", 'id="apk" öğesi hidden')
+                yaz("✅", 'id="apk" gizli (sahibi kararı 17.10.2026: APK düğmesi açılmayacak)')
             else:
                 yaz("✅", 'id="apk" görünür')
     k, _, h = al("https://kimincenazesi.com/indir/kimin-cenazesi.apk", "HEAD")
@@ -171,7 +171,7 @@ def yerel():
     a, b = os.path.join(KOK, "yuklenecek/uygulama"), os.path.join(KOK, "uygulama")
     if not (os.path.isdir(a) and os.path.isdir(b)):
         yaz("⚠️", "yuklenecek/uygulama ya da uygulama klasörü yok"); return
-    p = subprocess.run(["diff", "-rq", a, b], capture_output=True, text=True)
+    p = subprocess.run(["diff", "-rq", "-x", ".claude", "-x", ".dart_tool", "-x", "build", a, b], capture_output=True, text=True)   # 17.10: yerel araç klasörleri karşılaştırılmaz
     if p.returncode == 0:
         yaz("✅", "yuklenecek/uygulama = uygulama")
     else:
@@ -203,12 +203,26 @@ def play():
         if l.startswith("  ") and ("alpha" in l or "production" in l or "internal" in l):
             yaz("✅", "Play " + l.strip()[:150])
 
+def guvenlik():
+    """21.10.2026 guvenlik duvari (madde 10): guvenlik_nobeti.py son sonucunu ve yedek yasini okur; nobet 12 saatten eskiyse yeniden calistirmayi soyler."""
+    f = os.path.join(KOK, "deploy/guvenlik-nobeti.json")
+    if not os.path.exists(f):
+        yaz("⚠️", "güvenlik nöbeti hiç çalışmadı → python3 cenaze-uygulamasi/araclar/guvenlik_nobeti.py"); return
+    d = json.load(open(f))
+    yas_sa = (datetime.now() - datetime.fromisoformat(d["zaman"])).total_seconds() / 3600
+    if d.get("bulgu", 0) > 0:
+        yaz("❌", f"güvenlik nöbeti: {d['bulgu']} BULGU ({yas_sa:.1f} sa önce): " + "; ".join(d.get("bulgular", [])[:2])[:200])
+    elif yas_sa > 12:
+        yaz("⚠️", f"güvenlik nöbeti {yas_sa:.0f} saattir çalışmadı (Mac kapalı olabilir) → python3 cenaze-uygulamasi/araclar/guvenlik_nobeti.py")
+    else:
+        yaz("✅", f"güvenlik nöbeti: {d['ok']} OK, 0 bulgu, {d.get('uyari', 0)} uyarı ({yas_sa:.1f} sa önce)")
+
 def main():
     if any(a in ("-h", "--help") for a in sys.argv[1:]):
         print(__doc__.strip()); print("Kullanım: durum.py [--veri]"); return
     if "--veri" in sys.argv[1:]:
         veri(); print(f"özet: {sonuc['ok']} ✅ {sonuc['hata']} ❌ {sonuc['uyari']} ⚠️"); return
-    for f in (veri, github, site, yerel, cloudflare, play):
+    for f in (veri, github, site, yerel, cloudflare, play, guvenlik):
         try:
             f()
         except Exception as e:

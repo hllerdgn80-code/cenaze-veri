@@ -82,6 +82,12 @@ export async function kapi(request, env, kaynakGetir = fetch) {
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "private, max-age=120",
         "X-Robots-Tag": "noindex",
+        // 21.10.2026 guvenlik duvari (madde 1): hata yanitlari bos+basliksiz kalir; basarili JSON yanitinda guvenlik basliklari
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Referrer-Policy": "no-referrer",
+        "Content-Security-Policy": "default-src 'none'; frame-ancestors 'none'",
+        "Strict-Transport-Security": "max-age=31536000",
       },
     });
   } catch (e) {

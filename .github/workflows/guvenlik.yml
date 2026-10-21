@@ -1,0 +1,28 @@
+name: Guvenlik nobeti
+
+# 21.10.2026 guvenlik duvari (madde 10): canli sistemi DISARIDAN sinar (guvenlik basliklari, gizli uclar anahtarsiz 403, bozuk/buyuk govde, robots, SPF, TLS).
+# Sir/belirtec GEREKMEZ (araclar/guvenlik_nobeti.py --genel). BULGU varsa is BASARISIZ olur -> GitHub 'Run failed' e-postasi sahibe gider (mevcut alarm kanali).
+# Gecici ag hatasi bulgu sayilmaz; BULGU cikarsa 2 dk sonra bir kez daha denenir. Yerel tam nobet (belirtec, istek patlamasi, yedek): python3 araclar/guvenlik_nobeti.py
+on:
+  schedule:
+    - cron: "23 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: guvenlik-nobeti
+  cancel-in-progress: false
+
+jobs:
+  nobet:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: araclar
+      - name: Dis kontroller
+        run: |
+          python3 araclar/guvenlik_nobeti.py --genel --sessiz || { sleep 120; python3 araclar/guvenlik_nobeti.py --genel --sessiz; }
