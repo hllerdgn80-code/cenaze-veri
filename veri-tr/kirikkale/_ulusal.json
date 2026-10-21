@@ -709,7 +709,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-21-ekim-1",
-   "alindi": "2026-10-21T15:32:01+03:00",
+   "alindi": "2026-10-21T17:35:57+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "metin"
@@ -735,7 +735,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-21-ekim-1",
-   "alindi": "2026-10-21T15:32:01+03:00",
+   "alindi": "2026-10-21T17:35:57+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "metin"
@@ -761,7 +761,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kale Haber",
    "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-21-ekim-1",
-   "alindi": "2026-10-21T15:32:01+03:00",
+   "alindi": "2026-10-21T17:35:57+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "metin"
@@ -795,7 +795,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "f856899db52c",
+   "il": "Kırıkkale",
+   "ilce": "Çelebi",
+   "mahalle": null,
+   "ad_soyad": "Akile Ünver",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "bağlı Halildede Köyü",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/eski-il-genel-meclis-uyesi-kiratlinin-aci-gunu",
+   "alindi": "2026-10-21T17:35:57+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T15:32:01+03:00"
+ "guncelleme": "2026-10-21T17:35:57+03:00"
 }
