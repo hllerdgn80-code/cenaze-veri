@@ -738,7 +738,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0501d56c2bf2",
+   "il": "Malatya",
+   "ilce": "Battalgazi",
+   "mahalle": null,
+   "ad_soyad": "Ahmet Kahveci",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Malatya Şehir Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29021448/malatyada-ilce-baskaninin-aci-gunu-agabeyi-hayatini-kaybetti",
+   "alindi": "2026-10-21T11:32:21+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "b9c067f9d219",
+   "il": "Malatya",
+   "ilce": "Battalgazi",
+   "mahalle": null,
+   "ad_soyad": "Ahmet Kahveci",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Malatya Şehir Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Yeni Malatya",
+   "kaynak_url": "https://www.yenimalatya.com.tr/haber/29021649/basri-kahvecinin-aci-gunu-agabeyi-ahmet-kahveci-hayatini-kaybetti",
+   "alindi": "2026-10-21T11:32:21+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T07:54:49+03:00"
+ "guncelleme": "2026-10-21T11:32:21+03:00"
 }

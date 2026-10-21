@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-19",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-19",
@@ -72,7 +72,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-19",
@@ -83,26 +83,26 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "db47447d3a77",
+   "id": "983a2fccc909",
    "il": "Bilecik",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "İsmail Top",
+   "ad_soyad": "Zeynep Mutlu",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Ören Köy Camii",
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Bahçelievler Mahallesi Hamidiye Camii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
+   "liste_tarihi": "2026-10-19",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-19",
     "durum": "defnedilecek"
    },
    "il_disi_defin": null,
@@ -110,5 +110,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T10:57:03+03:00"
+ "guncelleme": "2026-10-21T11:21:17+03:00"
 }

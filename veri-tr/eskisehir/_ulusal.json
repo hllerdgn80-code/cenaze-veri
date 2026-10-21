@@ -1,0 +1,33 @@
+{
+ "il": "Eskişehir",
+ "kayitlar": [
+  {
+   "id": "866bb79d1891",
+   "il": "Eskişehir",
+   "ilce": "Odunpazarı",
+   "mahalle": null,
+   "ad_soyad": "Erol Erdal Gürdoğan",
+   "anne_baba": null,
+   "yas": 69,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Odunpazarı Mezarlığı",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Son Dakika Yerel",
+   "kaynak_url": "https://www.sondakika.com/yerel/haber-eskisehir-de-3-donemdir-muhtarlik-yapan-erol-erdal-20348458/",
+   "alindi": "2026-10-21T11:30:34+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-20",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  }
+ ],
+ "guncelleme": "2026-10-21T11:30:34+03:00"
+}

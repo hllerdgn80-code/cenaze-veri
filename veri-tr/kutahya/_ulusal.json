@@ -2,33 +2,6 @@
  "il": "Kütahya",
  "kayitlar": [
   {
-   "id": "c25979b0864b",
-   "il": "Kütahya",
-   "ilce": null,
-   "mahalle": "Çarşı Mahallesi",
-   "ad_soyad": "Adayı Hamza",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": null,
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "Kütahya'nın Sesi",
-   "kaynak_url": "https://www.kutahyaninsesi.com/haber/28999613/yurek-burkan-olum-hafiz-adayi-hamza-hayatini-kaybetti",
-   "alindi": "2026-10-17T17:57:08+03:00",
-   "ham": {
-    "yayin_tarihi": "2026-10-17",
-    "sayfa_tarihi": "2026-10-17",
-    "tarih_kaynagi": "yayin_tarihi"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "0d092baf6ba1",
    "il": "Kütahya",
    "ilce": null,
@@ -110,60 +83,6 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "61e4f14f86f8",
-   "il": "Kütahya",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Saadettin Pat",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Köprüören Köy Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "3d3dbc8d637c",
-   "il": "Kütahya",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Bülent Pekpak",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Şeker Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "f7c175ac427c",
    "il": "Kütahya",
    "ilce": null,
@@ -189,7 +108,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0eb4339da1da",
+   "il": "Kütahya",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Süleyman Kalem",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Ağızören Köy Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-21T11:21:17+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-18",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "98c9017f1364",
+   "il": "Kütahya",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Fatma Ak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Şembel Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-21T11:21:17+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-18",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T07:54:49+03:00"
+ "guncelleme": "2026-10-21T11:21:17+03:00"
 }

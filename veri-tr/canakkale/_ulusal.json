@@ -2,60 +2,6 @@
  "il": "Çanakkale",
  "kayitlar": [
   {
-   "id": "38007feb657e",
-   "il": "Çanakkale",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Yaşar Ökte",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Necippaşa Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "5d56afe9e58d",
-   "il": "Çanakkale",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Mustafa Öztürk",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Barbaros Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": "defnedilecek"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "26e5d443927c",
    "il": "Çanakkale",
    "ilce": "Merkez",
@@ -72,7 +18,7 @@
    "liste_tarihi": "2026-10-19",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-19",
@@ -135,7 +81,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "cc3a03ec5690",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Akın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Kocatepe Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-21T11:21:17+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-19",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T10:57:03+03:00"
+ "guncelleme": "2026-10-21T11:21:17+03:00"
 }

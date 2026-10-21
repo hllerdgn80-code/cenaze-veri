@@ -54,7 +54,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "9fbd0ad0e370",
+   "il": "Sinop",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Haydar Yılmaz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Vitrin Haber",
+   "kaynak_url": "https://www.vitrinhaber.com/sinop-eski-belediye-baskani-yilmaz-vefat-etti",
+   "alindi": "2026-10-21T11:32:21+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T13:56:52+03:00"
+ "guncelleme": "2026-10-21T11:32:21+03:00"
 }

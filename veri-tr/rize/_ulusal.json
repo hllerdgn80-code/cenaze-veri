@@ -2,53 +2,26 @@
  "il": "Rize",
  "kayitlar": [
   {
-   "id": "33047e054f66",
+   "id": "ac1426674df1",
    "il": "Rize",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Osman Kuvel",
+   "ad_soyad": "Ekrem Tezel",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
+   "vefat_tarihi": "2026-10-21",
    "defin_yeri": "Sahil Camii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
+   "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "ce7ffeecea01",
-   "il": "Rize",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Ali Kulaksız",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": "Karasu Köyü Merkez Camii",
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-21",
     "durum": null
    },
    "il_disi_defin": null,
@@ -56,5 +29,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T10:57:03+03:00"
+ "guncelleme": "2026-10-21T11:21:17+03:00"
 }

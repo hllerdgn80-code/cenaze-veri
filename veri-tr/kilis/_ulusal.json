@@ -2,60 +2,6 @@
  "il": "Kilis",
  "kayitlar": [
   {
-   "id": "502c1ed81209",
-   "il": "Kilis",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Maksude Karabalık",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "21a03de26e6f",
-   "il": "Kilis",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Adnan Akgül",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "a0a651ea39e3",
    "il": "Kilis",
    "ilce": "Merkez",
@@ -72,7 +18,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-18",
@@ -99,7 +45,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-18",
@@ -126,7 +72,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-18",
@@ -153,7 +99,7 @@
    "liste_tarihi": "2026-10-18",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-18",
@@ -164,26 +110,53 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "cd66b1346e2b",
+   "id": "f173ba1fe70e",
    "il": "Kilis",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Hazne Durmuş",
+   "ad_soyad": "Zekeriya Hamis",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-17",
+   "vefat_tarihi": "2026-10-20",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-17",
+   "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
+   "alindi": "2026-10-21T11:21:17+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-17",
+    "sayfa_tarihi": "2026-10-20",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "caa119157acb",
+   "il": "Kilis",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mahire Kurtaran",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-21T11:21:17+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-19",
     "durum": null
    },
    "il_disi_defin": null,
@@ -191,5 +164,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-20T10:57:03+03:00"
+ "guncelleme": "2026-10-21T11:21:17+03:00"
 }
