@@ -601,20 +601,20 @@
    "id": "db95b57d5553",
    "il": "Burdur",
    "ilce": null,
-   "mahalle": null,
+   "mahalle": "Evler Mahallesi",
    "ad_soyad": "Bilal İnal",
    "anne_baba": null,
-   "yas": null,
+   "yas": 65,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": null,
+   "defin_yeri": "Hacısarılar Mezarlığı",
    "defin_zamani": null,
    "namaz_tarihi": "2026-10-21",
-   "namaz_yeri_vakti": null,
+   "namaz_yeri_vakti": "Yunus Emre Camii",
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29021928/burdurda-sanayi-esnaflarindan-oto-boyacisi-bilal-inal-vefat-etti",
-   "alindi": "2026-10-22T00:21:18+03:00",
+   "alindi": "2026-10-22T02:22:12+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-21",
     "sayfa_tarihi": "2026-10-21",
@@ -625,5 +625,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T00:21:18+03:00"
+ "guncelleme": "2026-10-22T02:22:12+03:00"
 }
