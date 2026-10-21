@@ -8,6 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
 import 'package:kimin_cenazesi/bilesenler/ilan_karti.dart';
 import 'package:kimin_cenazesi/bilesenler/kart_sayfa.dart';
+import 'package:kimin_cenazesi/bilesenler/menu.dart' show metinPenceresi;
 import 'package:kimin_cenazesi/bilesenler/ortak.dart' show AnaDugme, IkincilDugme;
 import 'package:kimin_cenazesi/cekirdek/durum.dart';
 import 'package:kimin_cenazesi/cekirdek/gorevli.dart';
@@ -19,6 +20,9 @@ import 'package:kimin_cenazesi/ekranlar/gorevli_panel.dart';
 import 'package:kimin_cenazesi/ekranlar/panel_sekmesi.dart' show GorevliParolaBelirle;
 import 'package:kimin_cenazesi/ekranlar/gorevli_yer.dart';
 
+import 'package:url_launcher_platform_interface/url_launcher_platform_interface.dart';
+
+import 'harita_test.dart' show SahteLauncher;
 import 'ortak.dart';
 import 'widget_test.dart' show kapsamli, telefon;
 
@@ -348,6 +352,123 @@ void main() {
     await tester.pumpAndSettle();
     expect(d.depo.gorevliOturum, isNull);
     expect(find.byType(GorevliPanel), findsNothing);
+  });
+
+  testWidgets('⋮ menüsü: "Hesabımı sil" önce onay sorar; Vazgeç hiçbir şey yapmaz; onayda sunucuya POST /gorevli/hesap-sil (Bearer) gider, oturum cihazdan silinir, panel kapanır', (tester) async {
+    telefon(tester);
+    final d = await panelDurumu();
+    final istekler = <String>[];
+    final servis = GorevliServisi(
+      kok: 'https://g.test',
+      istemci: MockClient((req) async {
+        istekler.add('${req.method} ${req.url.path} ${req.headers['Authorization']}');
+        if (req.url.path == '/gorevli/durum') return _y({'durum': 'onayli', 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        if (req.url.path == '/gorevli/hesap-sil') return _y({'durum': 'silindi', 'ilan': 0});
+        return http.Response('yok', 404);
+      }),
+    );
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('g_menu')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliHesapSil));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('g_hesap_sil_pencere')), findsOneWidget);
+    expect(find.text(M.gorevliHesapSilBaslik), findsOneWidget);
+    // Vazgeç: istek yok, oturum duruyor
+    await tester.tap(find.text(M.gorevliHesapSilVazgec));
+    await tester.pumpAndSettle();
+    expect(istekler.any((x) => x.contains('hesap-sil')), isFalse);
+    expect(d.depo.gorevliOturum, 'tok');
+    // Onay
+    await tester.tap(find.byKey(const ValueKey('g_menu')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text(M.gorevliHesapSil));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('g_hesap_sil_onay')));
+    await tester.pumpAndSettle();
+    expect(istekler.where((x) => x.contains('hesap-sil')).single, 'POST /gorevli/hesap-sil Bearer tok');
+    expect(d.depo.gorevliOturum, isNull);
+    expect(find.byType(GorevliPanel), findsNothing);
+  });
+
+  testWidgets('"Hesabımı sil": sunucu hata verirse (ağ) hesap silinmiş gibi çıkış YAPILMAZ, uyarı gösterilir; 401 (hesap zaten yok) çıkış yapar', (tester) async {
+    telefon(tester);
+    final d = await panelDurumu();
+    var kod = 0; // 0 = ağ hatası, 401
+    final servis = GorevliServisi(
+      kok: 'https://g.test',
+      istemci: MockClient((req) async {
+        if (req.url.path == '/gorevli/durum') return _y({'durum': 'onayli', 'ad_soyad': 'Hasan Kurguluoğlu', 'il': 'Ordu', 'ilce': 'Korgan', 'gorev_yeri': 'Korgan Merkez Camii', 'unvan': 'İmam-Hatip'});
+        if (req.url.path == '/gorevli/ilanlarim') return _y({'ilanlar': <dynamic>[]});
+        if (req.url.path == '/gorevli/hesap-sil') return kod == 0 ? throw http.ClientException('ag yok') : _y({'hata': 'yetkisiz'}, 401);
+        return http.Response('yok', 404);
+      }),
+    );
+    await tester.pumpWidget(_ev(d, (_) => GorevliPanel(servis: servis)));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    Future<void> sil() async {
+      await tester.tap(find.byKey(const ValueKey('g_menu')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text(M.gorevliHesapSil));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('g_hesap_sil_onay')));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+    }
+    await sil();
+    expect(find.text(M.gorevliHesapSilHata), findsOneWidget);
+    expect(d.depo.gorevliOturum, 'tok');
+    await tester.pumpAndSettle(const Duration(seconds: 5));
+    kod = 401;
+    await sil();
+    await tester.pumpAndSettle(const Duration(seconds: 5));
+    expect(d.depo.gorevliOturum, isNull);
+    expect(find.byType(GorevliPanel), findsNothing);
+  });
+
+  testWidgets('Gizlilik penceresi (menü + KVKK "Tam metin"): metin görevli verisini söyler; "Gizlilik politikasının tam metni" bağlantısı kimincenazesi.com/gizlilik adresini dış uygulamada açar', (tester) async {
+    telefon(tester);
+    final sahte = SahteLauncher();
+    UrlLauncherPlatform.instance = sahte;
+    final d = await testDurumu();
+    expect(M.gizlilikMetin, contains('Diyanet e-posta'));
+    expect(M.gizlilikMetin, contains('Hesabınızı panel menüsünden silebilirsiniz'));
+    expect(M.gizlilikMetin, isNot(contains('yalnız bu cihazda tutulur. Konum')), reason: 'eski, görevli verisini gizleyen metin');
+    await tester.pumpWidget(Kapsam(
+      durum: d,
+      child: MaterialApp(
+        theme: temaYap(true),
+        home: Builder(builder: (c) => Scaffold(body: Center(child: ElevatedButton(onPressed: () => metinPenceresi(c, M.gizlilikBaslik, M.gizlilikMetin, baglantiYazi: M.gizlilikBaglantiYazi, baglantiUrl: M.gizlilikUrl), child: const Text('ac'))))),
+      ),
+    ));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    expect(find.text(M.gizlilikMetin), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('gizlilik_baglanti')));
+    await tester.pumpAndSettle();
+    expect(sahte.acilan.single, 'https://kimincenazesi.com/gizlilik');
+  });
+
+  testWidgets('KVKK penceresi: "Tam metin" gizlilik penceresini bağlantısıyla açar; kart metni parolayı ve hesap silmeyi anar', (tester) async {
+    uzun(tester);
+    final sahte = SahteLauncher();
+    UrlLauncherPlatform.instance = sahte;
+    final d = await testDurumu();
+    expect(M.gorevliKvkkMetin.join(' '), contains('panel parolanız'));
+    expect(M.gorevliKvkkMetin.join(' '), contains('Hesabımı sil'));
+    await tester.pumpWidget(_ev(d, (_) => GorevliKvkk(servis: panelServisi('onayli'))));
+    await tester.tap(find.text('ac'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('g_kvkk_tam')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('gizlilik_baglanti')), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('gizlilik_baglanti')));
+    await tester.pumpAndSettle();
+    expect(sahte.acilan.single, M.gizlilikUrl);
   });
 
   testWidgets('Panel (kontrolde): sabit başlık kartı, bilgi kutusu, İlan paylaş PASİF (dokununca açıklama), İlanlarım boş', (tester) async {

@@ -90,7 +90,7 @@ Future<void> menuAc(BuildContext context) async {
       await metinPenceresi(context, M.hakkindaBaslik, M.hakkindaMetin, paylas: true);
       break;
     case 'gizlilik':
-      await metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin);
+      await metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin, baglantiYazi: M.gizlilikBaglantiYazi, baglantiUrl: M.gizlilikUrl);
       break;
   }
 }
@@ -112,8 +112,17 @@ Future<bool> epostaTaslagi({required String konu, required String govde}) async 
   }
 }
 
-/// Hakkında / Gizlilik penceresi (ortalı)
-Future<void> metinPenceresi(BuildContext context, String baslik, String metin, {bool paylas = false}) {
+/// Gizlilik politikasını (web) sistem tarayıcısında açar
+Future<bool> baglantiAc(String url) async {
+  try {
+    return await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+  } catch (_) {
+    return false;
+  }
+}
+
+/// Hakkında / Gizlilik penceresi (ortalı). baglantiUrl verilirse metnin altında tıklanabilir bağlantı (Gizlilik politikasının tam metni)
+Future<void> metinPenceresi(BuildContext context, String baslik, String metin, {bool paylas = false, String? baglantiYazi, String? baglantiUrl}) {
   return showDialog<void>(
     context: context,
     builder: (c) {
@@ -128,6 +137,14 @@ Future<void> metinPenceresi(BuildContext context, String baslik, String metin, {
             Text(baslik, textAlign: TextAlign.center, style: Y.adim(r)),
             const SizedBox(height: R.s3),
             Text(metin, textAlign: TextAlign.left, style: Y.govde(r).copyWith(height: 22 / 15)),
+            if (baglantiUrl != null && baglantiYazi != null) ...[
+              const SizedBox(height: R.s3),
+              TextButton(
+                key: const ValueKey('gizlilik_baglanti'),
+                onPressed: () => baglantiAc(baglantiUrl),
+                child: Text(baglantiYazi, textAlign: TextAlign.center, style: TextStyle(color: r.vurguMetin, decoration: TextDecoration.underline)),
+              ),
+            ],
             const SizedBox(height: R.s5),
             if (paylas) ...[
               IkincilDugme(M.menuPaylas, onTap: () {

@@ -202,7 +202,10 @@ class M {
   static String get hakkindaBaslik => UzakAyar.yazi('hakkindaBaslik', 'Kimin Cenazesi');
   static String get hakkindaMetin => UzakAyar.yazi('hakkindaMetin', 'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.9');
   static String get gizlilikBaslik => UzakAyar.yazi('gizlilikBaslik', 'Gizlilik');
-  static String get gizlilikMetin => UzakAyar.yazi('gizlilikMetin', 'Seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Konum izni istenmez, uygulamada reklam yoktur.');
+  // 21.10.2026 Play denetimi: metin KODA eşit olmalı (tam metin: kimincenazesi.com/gizlilik)
+  static String get gizlilikMetin => UzakAyar.yazi('gizlilikMetin', 'Okumak için hesap gerekmez; seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Din görevlisi olarak kayıt olursanız Diyanet e-posta adresiniz, adınız, görev yeriniz ve panel parolanız sunucuda saklanır; hesabınızı panel menüsünden silebilirsiniz. Bildirim izni isteğe bağlıdır. Konum izni istenmez, uygulamada reklam yoktur.');
+  static String get gizlilikBaglantiYazi => UzakAyar.yazi('gizlilikBaglantiYazi', 'Gizlilik politikasının tam metni');
+  static String get gizlilikUrl => UzakAyar.yazi('gizlilikUrl', 'https://kimincenazesi.com/gizlilik');
   static String get modalKapat => UzakAyar.yazi('modalKapat', 'Tamam');
   static String get iletisimEposta => UzakAyar.yazi('iletisimEposta', 'iletisim@kimincenazesi.com');
 
@@ -316,6 +319,13 @@ class M {
   static String get gorevliTamam => UzakAyar.yazi('gorevliTamam', 'Tamam');
   static String get gorevliCikisYap => UzakAyar.yazi('gorevliCikisYap', 'Çıkış yap');
   static String get gorevliCikisYapildi => UzakAyar.yazi('gorevliCikisYapildi', 'Çıkış yaptınız.');
+  // 21.10.2026 Play: uygulama içi hesap silme (⋮ menüsü); web yolu kimincenazesi.com/hesap-silme
+  static String get gorevliHesapSil => UzakAyar.yazi('gorevliHesapSil', 'Hesabımı sil');
+  static String get gorevliHesapSilBaslik => UzakAyar.yazi('gorevliHesapSilBaslik', 'Hesabınızı silmek istiyor musunuz?');
+  static String get gorevliHesapSilMetin => UzakAyar.yazi('gorevliHesapSilMetin', 'Hesabınız, oturumunuz ve yayımladığınız bütün ilanlar sunucudan silinir. Bu işlem geri alınamaz.');
+  static String get gorevliHesapSilVazgec => UzakAyar.yazi('gorevliHesapSilVazgec', 'Vazgeç');
+  static String get gorevliHesapSilindi => UzakAyar.yazi('gorevliHesapSilindi', 'Hesabınız silindi.');
+  static String get gorevliHesapSilHata => UzakAyar.yazi('gorevliHesapSilHata', 'Hesap silinemedi. İnternet bağlantınızı kontrol edip yeniden deneyin.');
   static String get gorevliAd => UzakAyar.yazi('gorevliAd', 'Ad soyad');
   static String get gorevliAdYer => UzakAyar.yazi('gorevliAdYer', 'Kartınızdaki gibi');
   // 16.10.2026 sahibi: "soyadımı yanlış yazdım, düzeltemedim" -> panel menüsünde ad-soyad düzeltme
@@ -397,12 +407,12 @@ class M {
   static String get gorevliKvkkTam => UzakAyar.yazi('gorevliKvkkTam', 'Tam metin');
   // 16.10.2026 sahibi: "Cloudflare / yurt dışı" satırı kısa uyarıda YOK (korkutur); yurt dışı aktarımı tam metinde (Gizlilik) kalır
   static List<String> get gorevliKvkkMetin => UzakAyar.liste('gorevliKvkkMetin', const [
-    'Tuttuğumuz veriler: Diyanet e-posta adresiniz, ad-soyadınız, görev yeriniz ve unvanınız, il-ilçeniz, paylaştığınız ilanlar.',
+    'Tuttuğumuz veriler: Diyanet e-posta adresiniz, ad-soyadınız, görev yeriniz ve unvanınız, il-ilçeniz, panel parolanız (şifreli), paylaştığınız ilanlar.',
     'Amaç: din görevlisi olduğunuzu teyit etmek ve ilan paylaşmanızı sağlamak.',
     'Süre: hesabınız açık kaldıkça; ilanlar 120 gün; e-posta kodu 10 dakika.',
     'Telefon numarası, kimlik ya da personel kartı fotoğrafı toplanmaz.',
     'Verileriniz üçüncü kişilerle paylaşılmaz.',
-    'Haklarınız (KVKK md. 11): verilerinize erişme, düzeltme ve silme isteğinde bulunabilirsiniz; Gizlilik sayfasından ulaşın.',
+    'Haklarınız (KVKK md. 11): verilerinize erişme, düzeltme ve silme isteğinde bulunabilirsiniz. Hesabınızı panel menüsündeki "Hesabımı sil" ile istediğiniz an silebilirsiniz; ayrıntı için Tam metin.',
   ]);
 
   static Map<String, String> get gorevliDurumEtiket => UzakAyar.harita('gorevliDurumEtiket', const {

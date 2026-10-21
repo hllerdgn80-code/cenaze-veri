@@ -83,6 +83,40 @@ class _GorevliPanelState extends State<GorevliPanel> {
     Navigator.of(context).pop();
   }
 
+  /// Play hesap silme şartı: onay sorusu -> sunucuda hesap + ilanlar silinir -> çıkış (oturum, parola, görev bilgisi cihazdan da silinir)
+  Future<void> _hesapSil() async {
+    final onay = await showDialog<bool>(
+      context: context,
+      builder: (c) {
+        final r = c.renk;
+        return Dialog(
+          key: const ValueKey('g_hesap_sil_pencere'),
+          backgroundColor: r.yuzey,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(R.kart)),
+          child: Padding(
+            padding: const EdgeInsets.all(R.s5),
+            child: Column(mainAxisSize: MainAxisSize.min, children: [
+              Text(M.gorevliHesapSilBaslik, textAlign: TextAlign.center, style: Y.adim(r)),
+              const SizedBox(height: R.s3),
+              Text(M.gorevliHesapSilMetin, textAlign: TextAlign.left, style: Y.govde(r).copyWith(height: 22 / 15)),
+              const SizedBox(height: R.s5),
+              AnaDugme(M.gorevliHesapSil, key: const ValueKey('g_hesap_sil_onay'), yukseklik: 48, onTap: () => Navigator.of(c).pop(true)),
+              const SizedBox(height: R.s3),
+              IkincilDugme(M.gorevliHesapSilVazgec, onTap: () => Navigator.of(c).pop(false)),
+            ]),
+          ),
+        );
+      },
+    );
+    if (onay != true || !mounted) return;
+    final tok = Kapsam.oku(context).depo.gorevliOturum;
+    if (tok == null) return _cik(M.gorevliHesapSilindi);
+    final y = await _servis().hesapSil(tok);
+    if (!mounted) return;
+    if (y.tamam || y.kod == 401) return _cik(M.gorevliHesapSilindi); // 401: hesap sunucuda zaten yok
+    bildir(context, M.gorevliHesapSilHata);
+  }
+
   /// KVKK kabul edilmedi: sekmede panel kilitlenir (parola yeniden sorulur), ayrı sayfada geri dönülür
   void _kapat() {
     if (widget.sekmede) {
@@ -266,6 +300,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
                   Kapsam.oku(context).paneliKilitle();
                 }
                 if (v == 'cikis') _cik(M.gorevliCikisYapildi);
+                if (v == 'sil') _hesapSil();
               },
               itemBuilder: (_) => [
                 PopupMenuItem(value: 'yer', enabled: h != null && h.onayli && h.profilTamam, child: Text(M.gorevliYerDegisti)),
@@ -273,6 +308,7 @@ class _GorevliPanelState extends State<GorevliPanel> {
                 if (widget.sekmede) PopupMenuItem(value: 'degistir', child: Text(M.pinDegistir)),
                 if (widget.sekmede) PopupMenuItem(value: 'kilit', child: Text(M.panelKilitle)),
                 PopupMenuItem(value: 'cikis', child: Text(M.gorevliCikisYap)),
+                PopupMenuItem(value: 'sil', child: Text(M.gorevliHesapSil)),
               ],
             ),
             ust: M.gorevliPanelUst,
@@ -814,7 +850,7 @@ class _GorevliKvkkState extends State<GorevliKvkk> {
                   Center(
                     child: TextButton(
                       key: const ValueKey('g_kvkk_tam'),
-                      onPressed: () => metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin),
+                      onPressed: () => metinPenceresi(context, M.gizlilikBaslik, M.gizlilikMetin, baglantiYazi: M.gizlilikBaglantiYazi, baglantiUrl: M.gizlilikUrl),
                       child: Text(M.gorevliKvkkTam),
                     ),
                   ),

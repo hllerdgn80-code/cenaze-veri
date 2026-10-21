@@ -78,5 +78,7 @@ class GorevliServisi {
 
   /// "Parolamı unuttum": parola hesabın Diyanet adresine e-postayla gönderilir (günde ≤3)
   Future<AileYanit> parolaHatirlat(String oturum) => _istek('POST', '/gorevli/parola-hatirlat', oturum: oturum);
+  /// Hesabı ve bütün ilanlarını siler (Play hesap silme şartı; Worker POST /gorevli/hesap-sil). 200 {durum:"silindi"}; 401 = hesap zaten yok
+  Future<AileYanit> hesapSil(String oturum) => _istek('POST', '/gorevli/hesap-sil', oturum: oturum);
   Future<AileYanit> iptal(String oturum, String ilanId) => _istek('POST', '/gorevli/ilan/iptal', govde: {'ilan_id': ilanId}, oturum: oturum);
 }
