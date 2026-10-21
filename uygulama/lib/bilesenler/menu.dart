@@ -136,7 +136,13 @@ Future<void> metinPenceresi(BuildContext context, String baslik, String metin, {
             if (paylas) ...[const Logo(boyut: 56, yaricap: 16), const SizedBox(height: R.s3)],
             Text(baslik, textAlign: TextAlign.center, style: Y.adim(r)),
             const SizedBox(height: R.s3),
-            Text(metin, textAlign: TextAlign.left, style: Y.govde(r).copyWith(height: 22 / 15)),
+            // uzun metin (gizlilik) küçük ekranda taşmasın: yalnız metin kayar; bağlantı ve Kapat düğmesi sabit kalır
+            Flexible(
+              child: SingleChildScrollView(
+                key: const ValueKey('metin_kaydir'),
+                child: Text(metin, textAlign: TextAlign.left, style: Y.govde(r).copyWith(height: 22 / 15)),
+              ),
+            ),
             if (baglantiUrl != null && baglantiYazi != null) ...[
               const SizedBox(height: R.s3),
               TextButton(
