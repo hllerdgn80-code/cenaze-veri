@@ -168,27 +168,6 @@
   "tarih": "2026-10-13",
   "tani": null
  },
- "https://dogubayazitgazetesi.com/dogubeyazitta-iki-aci-haber-cafer-yildirim-ve-cebbar-fidan-hayatini-kaybetti": {
-  "olgular": [
-   {
-    "ad": "Cebbar Fidan",
-    "yas": 35,
-    "ilce": "Doğubayazıt",
-    "mahalle": "Kurtkapan Köyü",
-    "namaz": null,
-    "defin": "Koçkıran Şehir Mezarlığı",
-    "namaz_t": null,
-    "defin_t": null,
-    "il_disi": null
-   }
-  ],
-  "tarih": "2026-10-10",
-  "tani": {
-   "cenaze_cumlesi": 1,
-   "olen": 1,
-   "kayit": 1
-  }
- },
  "https://www.ajans04.net/dogubayazit-igdir-yolunda-bir-haftada-i-kinci-kamyon-kazasi": {
   "olgular": [],
   "tarih": "2026-10-15",
@@ -234,24 +213,6 @@
    "kayit": 0
   }
  },
- "https://www.tv04.net/agri-dogubayazit-sanayi-sitesi-nde-silahli-kavga-1-yarali/88869/": {
-  "olgular": [],
-  "tarih": "2026-10-10",
-  "tani": {
-   "cenaze_cumlesi": 0,
-   "olen": 0,
-   "kayit": 0
-  }
- },
- "https://dogubayazitgazetesi.com/dogubayazitta-uc-aci-haber-birden-3-kisi-hayatini-kaybetti": {
-  "olgular": [],
-  "tarih": "2026-10-10",
-  "tani": {
-   "cenaze_cumlesi": 6,
-   "olen": 2,
-   "kayit": 0
-  }
- },
  "https://www.agri04haber.com/agrida-yolcu-otobusu-kaza-yapti-1i-agir-5-yarali": {
   "olgular": [],
   "tarih": "2026-10-11",
@@ -273,15 +234,6 @@
  "https://www.agri04haber.com/agri-barosu-secimlerini-ozturk-kazandi": {
   "olgular": [],
   "tarih": "2026-10-11",
-  "tani": {
-   "cenaze_cumlesi": 0,
-   "olen": 0,
-   "kayit": 0
-  }
- },
- "https://www.agri04haber.com/agri-sanayi-sitesinde-silahli-kavga-1-yarali": {
-  "olgular": [],
-  "tarih": "2026-10-10",
   "tani": {
    "cenaze_cumlesi": 0,
    "olen": 0,

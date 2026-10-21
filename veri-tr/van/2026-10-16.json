@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-20T19:45:04+03:00",
+   "alindi": "2026-10-21T05:30:53+03:00",
    "ham": {
     "ilce": "ipekyolu",
     "mezar_no": "2192",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-20T19:45:04+03:00",
+   "alindi": "2026-10-21T05:30:53+03:00",
    "ham": {
     "ilce": "ipekyolu",
     "mezar_no": "2191",
@@ -71,7 +71,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-20T19:45:04+03:00",
+   "alindi": "2026-10-21T05:30:53+03:00",
    "ham": {
     "ilce": "ipekyolu",
     "mezar_no": "3029",
@@ -97,7 +97,7 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-20T19:45:04+03:00",
+   "alindi": "2026-10-21T05:30:53+03:00",
    "ham": {
     "ilce": "tusba",
     "mezar_no": "5400",
@@ -123,10 +123,36 @@
    "liste_tarihi": "2026-10-16",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-20T19:45:04+03:00",
+   "alindi": "2026-10-21T05:30:53+03:00",
    "ham": {
     "ilce": "tusba",
     "mezar_no": null,
+    "il_disi_notu": null
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "f15f35fe62b2",
+   "il": "Van",
+   "ilce": "Tuşba",
+   "mahalle": null,
+   "ad_soyad": "Sedika Örkmez",
+   "anne_baba": null,
+   "yas": 82,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Akköprü",
+   "defin_zamani": "2026-10-16",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-16",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "ilce": "tusba",
+    "mezar_no": "5401",
     "il_disi_notu": null
    },
    "ilce_belirsiz": false,

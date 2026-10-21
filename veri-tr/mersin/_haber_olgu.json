@@ -122,36 +122,6 @@
   "tarih": "2026-10-14",
   "tani": null
  },
- "https://www.mersinhabermerkezi.com/10-yil-sonra-ayni-sehir-ayni-aci-sehit-polisin-kardesi-de-trafik-kazasinda-hayatini-kaybetti": {
-  "olgular": [
-   {
-    "ad": "Ali Tonga",
-    "rutbe": "Polis Memuru",
-    "yas": null,
-    "m_il": "Kırıkkale",
-    "m_ilce": "Yahşihan",
-    "d_il": "Kırıkkale",
-    "d_ilce": "Yahşihan",
-    "namaz": "Merkez Camii, öğle namazı",
-    "defin": null,
-    "namaz_t": null,
-    "defin_t": "2026-10-10",
-    "toren": null,
-    "sehit": true
-   }
-  ],
-  "tarih": "2026-10-10",
-  "tani": null
- },
- "https://www.mersinhabermerkezi.com/evi-kentsel-donusume-girdi-tasindigi-yeni-evin-enkazi-altinda-kalarak-hayatini-kaybetti": {
-  "olgular": [],
-  "tarih": "2026-10-10",
-  "tani": {
-   "cenaze_cumlesi": 1,
-   "olen": 1,
-   "kayit": 0
-  }
- },
  "https://cukurovagazetesi.com/hayatini-kaybeden-motokurye-meslektaslarinin-eskortlugunda-ugurlandi": {
   "olgular": [],
   "tarih": "2026-10-14",
@@ -201,19 +171,5 @@
    "olen": 1,
    "kayit": 0
   }
- },
- "https://cukurovagazetesi.com/motosiklet-surucusu-hayatini-kaybetti-1": {
-  "olgular": [],
-  "tarih": "2026-10-10",
-  "tani": {
-   "cenaze_cumlesi": 1,
-   "olen": 0,
-   "kayit": 0
-  }
- },
- "https://cukurovagazetesi.com/eski-emniyet-genel-muduru-yilmaz-ergun-vefat-etti": {
-  "olgular": [],
-  "tarih": "2026-10-10",
-  "tani": null
  }
 }

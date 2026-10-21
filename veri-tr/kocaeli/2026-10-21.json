@@ -1,0 +1,73 @@
+{
+ "il": "Kocaeli",
+ "liste_tarihi": "2026-10-21",
+ "kayitlar": [
+  {
+   "id": "c84088028852",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": null,
+   "ad_soyad": "Sümer Er",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "KENT MEZARLIĞI",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Evliya Çelebi Cami",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-21T05:30:44+03:00",
+   "ham": {
+    "ad": "SÜMER",
+    "soyad": "ER",
+    "mezarlik": "KENT MEZARLIĞI",
+    "cami": "Evliya Çelebi Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "20.10.2026",
+    "defin_tarihi": "21.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "İzmit"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "81ed076e4be5",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Seher Arabacı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Nakil: Balıkesir / Savaştepe",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-21T05:30:44+03:00",
+   "ham": {
+    "ad": "SEHER",
+    "soyad": "ARABACI",
+    "mezarlik": "",
+    "cami": "SAVAŞTEPE",
+    "vakit": "NAKIL",
+    "olum_tarihi": "20.10.2026",
+    "defin_tarihi": "21.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Balıkesir / Savaştepe"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Balıkesir",
+    "ilce": "Savaştepe"
+   }
+  }
+ ]
+}

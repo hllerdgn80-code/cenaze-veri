@@ -1,0 +1,131 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-21",
+ "kayitlar": [
+  {
+   "id": "3122da1f406a",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Şevki Ekinci",
+   "anne_baba": null,
+   "yas": 75,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Merkez Adliye Camii'den Türbe mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "3ea967e00dbe",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Güler Taraman",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Turgutreis Merkez Yalı Camii'den Yukarı Akçaalan mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "9af08578b653",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Yüksel",
+   "anne_baba": null,
+   "yas": 75,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Yalıkavak Merkez Camii'den Sandıma mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "804a2f190d97",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Naime Ateş",
+   "anne_baba": null,
+   "yas": 87,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-20",
+   "defin_yeri": "Kelerlik Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "a661e476a9fb",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Sevim Barulay",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-16",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-21T05:30:53+03:00",
+   "ham": {
+    "nakil_yeri": "İstanbul",
+    "nakil_tarihi": "2026-10-20"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
