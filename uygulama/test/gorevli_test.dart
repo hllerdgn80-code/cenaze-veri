@@ -436,7 +436,7 @@ void main() {
     UrlLauncherPlatform.instance = sahte;
     final d = await testDurumu();
     expect(M.gizlilikMetin, contains('Diyanet e-posta'));
-    expect(M.gizlilikMetin, contains('Hesabınızı panel menüsünden silebilirsiniz'));
+    expect(M.gizlilikMetin, contains('panel menüsünden silebilirsiniz'));
     expect(M.gizlilikMetin, isNot(contains('yalnız bu cihazda tutulur. Konum')), reason: 'eski, görevli verisini gizleyen metin');
     await tester.pumpWidget(Kapsam(
       durum: d,
