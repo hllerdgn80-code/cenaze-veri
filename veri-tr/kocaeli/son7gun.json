@@ -1498,6 +1498,39 @@
     "ilk_gorulme": "2026-10-21T12:13:41+03:00"
    },
    {
+    "id": "4f5851c39c45",
+    "il": "Kocaeli",
+    "ilce": "İzmit",
+    "mahalle": null,
+    "ad_soyad": "Bebek Nagihan Baltacı",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-21",
+    "defin_yeri": "KENT MEZARLIĞI",
+    "defin_zamani": "2026-10-21",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Vakitsiz – KENT CAMİİ",
+    "liste_tarihi": "2026-10-21",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-21T14:15:32+03:00",
+    "ham": {
+     "ad": "BEBEK NAGİHAN",
+     "soyad": "BALTACI",
+     "mezarlik": "KENT MEZARLIĞI",
+     "cami": "KENT CAMİİ",
+     "vakit": "Vakitsiz",
+     "olum_tarihi": "21.10.2026",
+     "defin_tarihi": "21.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "İzmit"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null,
+    "ilk_gorulme": "2026-10-21T14:15:32+03:00"
+   },
+   {
     "id": "182ca055f1eb",
     "il": "Kocaeli",
     "ilce": "İzmit",
@@ -5207,6 +5240,6 @@
    "ilk_gorulme": "2026-10-16T16:42:19+03:00"
   }
  ],
- "toplam": 154,
- "guncelleme": "2026-10-21T12:13:41+03:00"
+ "toplam": 155,
+ "guncelleme": "2026-10-21T14:15:32+03:00"
 }

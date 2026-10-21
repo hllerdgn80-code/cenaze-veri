@@ -774,7 +774,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29016741/ali-akcay",
-   "alindi": "2026-10-21T09:54:52+03:00",
+   "alindi": "2026-10-21T15:32:01+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-20",
     "sayfa_tarihi": "2026-10-20",
@@ -828,7 +828,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29018327/kocaelide-gorev-yapan-veteriner-cinayete-kurban-gitti-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-21T09:54:52+03:00",
+   "alindi": "2026-10-21T15:32:01+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-20",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1593,5 +1593,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T13:32:22+03:00"
+ "guncelleme": "2026-10-21T15:32:01+03:00"
 }
