@@ -1,0 +1,31 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-22",
+ "kayitlar": [
+  {
+   "id": "03c0f8a29663",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mahinur Tavaslı",
+   "anne_baba": null,
+   "yas": 97,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-22T00:19:58+03:00",
+   "ham": {
+    "nakil_yeri": "Milas",
+    "nakil_tarihi": "2026-10-21"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

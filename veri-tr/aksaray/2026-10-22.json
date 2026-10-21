@@ -1,0 +1,64 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-22",
+ "kayitlar": [
+  {
+   "id": "07051159376c",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Şahmeri Bozkurt",
+   "anne_baba": "Ali",
+   "yas": 69,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-18",
+   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:13",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-22T00:20:43+03:00",
+   "ham": {
+    "baba": "ALİ",
+    "defin": "22.10.2026 13:13",
+    "namaz": "Öğlen",
+    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "62492f8105da",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Behıye Peker",
+   "anne_baba": "Mehmet",
+   "yas": 86,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Ervah Kabristanlığı / 6 Ada",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-22T00:20:43+03:00",
+   "ham": {
+    "baba": "MEHMET",
+    "defin": "22.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 6 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}
