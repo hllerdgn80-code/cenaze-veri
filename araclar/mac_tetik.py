@@ -72,6 +72,8 @@ def guvenlik_turu():
     araclar = os.path.join(KOK, "araclar")
 
     def calistir(ad, args, zaman):
+        if not os.path.exists(os.path.join(araclar, ad)):      # LaunchAgent kopyasi (~/actions-runner/mac-tetik) yalniz mac_tetik+github_api tasir: sessizce atla
+            return None
         try:
             r = subprocess.run([py, os.path.join(araclar, ad)] + args, capture_output=True, text=True, timeout=zaman)
             yaz("GUVENLIK %s %s -> cikis %s%s" % (ad, " ".join(args), r.returncode, (" | " + r.stdout.strip().splitlines()[-1][:120]) if r.stdout.strip() else ""))
