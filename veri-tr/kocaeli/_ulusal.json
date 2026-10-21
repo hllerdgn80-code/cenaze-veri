@@ -828,7 +828,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29018327/kocaelide-gorev-yapan-veteriner-cinayete-kurban-gitti-son-yolculuguna-ugurlandi",
-   "alindi": "2026-10-21T15:32:01+03:00",
+   "alindi": "2026-10-21T21:34:24+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-20",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1591,7 +1591,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "236586df5d68",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Türkan Akçaarman Özhan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29025905/nuri-akcaarmanin-aci-gunu-zonguldaktaki-bina-faciasi-yasa-bogdu",
+   "alindi": "2026-10-21T21:34:24+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T19:31:13+03:00"
+ "guncelleme": "2026-10-21T21:34:24+03:00"
 }
