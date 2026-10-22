@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-22T12:41:28+03:00",
+   "alindi": "2026-10-22T14:43:46+03:00",
    "ham": {
     "nakil_yeri": "Milas",
     "nakil_tarihi": "2026-10-21"
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-22T12:41:28+03:00",
+   "alindi": "2026-10-22T14:43:46+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -63,14 +63,14 @@
    "yas": 76,
    "dogum_tarihi": null,
    "vefat_tarihi": "2026-10-21",
-   "defin_yeri": "Turgutreis Merkez Yalı Camii'den Yukarı Akçaalan mezarlığına",
+   "defin_yeri": "Turgutreis Merkez Yalı Camii'den Ortakent mezarlığına",
    "defin_zamani": "2026-10-22",
    "namaz_tarihi": "2026-10-22",
    "namaz_yeri_vakti": "İkindi Namazı",
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-22T12:41:28+03:00",
+   "alindi": "2026-10-22T14:43:46+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -96,7 +96,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-22T12:41:28+03:00",
+   "alindi": "2026-10-22T14:43:46+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -122,12 +122,38 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Milas Belediyesi",
    "kaynak_url": "https://www.milas.bel.tr/VefatEdenler",
-   "alindi": "2026-10-22T12:41:28+03:00",
+   "alindi": "2026-10-22T14:43:46+03:00",
    "ham": {},
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "ilk_gorulme": "2026-10-22T11:33:39+03:00"
+  },
+  {
+   "id": "e8157d56b89a",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Ertok",
+   "anne_baba": null,
+   "yas": 87,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Çömlekçi mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-22T14:43:46+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "ilk_gorulme": "2026-10-22T14:44:40+03:00"
   }
  ],
- "guncelleme": "2026-10-22T12:42:05+03:00"
+ "guncelleme": "2026-10-22T14:44:40+03:00"
 }

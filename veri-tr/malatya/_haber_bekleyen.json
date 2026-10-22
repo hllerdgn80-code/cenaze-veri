@@ -1,5 +1,32 @@
 [
  {
+  "id": "dfdf5fc2e679",
+  "il": "Malatya",
+  "ilce": "Hekimhan",
+  "mahalle": null,
+  "ad_soyad": "İhsan Aydın",
+  "anne_baba": null,
+  "yas": null,
+  "dogum_tarihi": null,
+  "vefat_tarihi": null,
+  "defin_yeri": null,
+  "defin_zamani": null,
+  "namaz_tarihi": null,
+  "namaz_yeri_vakti": null,
+  "liste_tarihi": "2026-10-22",
+  "kaynak_ad": "Malatya Sonsöz Gazetesi",
+  "kaynak_url": "https://malatyasonsoz.com.tr/haber/29030668/ihsan-aydin-hayatini-kaybetti",
+  "alindi": "2026-10-22T15:57:16+03:00",
+  "ham": {
+   "yayin_tarihi": "2026-10-22",
+   "sayfa_tarihi": "2026-10-22",
+   "tarih_kaynagi": "yayin_tarihi"
+  },
+  "il_disi_defin": null,
+  "ilce_belirsiz": false,
+  "kaynak_turu": "yerel_haber"
+ },
+ {
   "id": "b9c067f9d219",
   "il": "Malatya",
   "ilce": "Battalgazi",
