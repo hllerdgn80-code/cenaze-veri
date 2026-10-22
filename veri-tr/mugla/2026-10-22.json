@@ -19,10 +19,35 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-22T06:37:48+03:00",
+   "alindi": "2026-10-22T08:38:50+03:00",
    "ham": {
     "nakil_yeri": "Milas",
     "nakil_tarihi": "2026-10-21"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "860de0707646",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Gülşen Dilligil",
+   "anne_baba": null,
+   "yas": 84,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Torba Camii'den Yukarı Kızılağaç mezarlığına",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-22T08:38:50+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false

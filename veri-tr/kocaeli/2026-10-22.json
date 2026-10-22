@@ -161,6 +161,107 @@
    },
    "ilce_belirsiz": false,
    "il_disi_defin": null
+  },
+  {
+   "id": "46c50b09dc91",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sultan Altun",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "ÇATALZEYTİN",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-22T08:38:45+03:00",
+   "ham": {
+    "ad": "SULTAN",
+    "soyad": "ALTUN",
+    "mezarlik": "",
+    "cami": "ÇATALZEYTİN",
+    "vakit": "NAKIL",
+    "olum_tarihi": "21.10.2026",
+    "defin_tarihi": "22.10.2026",
+    "ilce_kaynagi": null
+   },
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "fcc8c857794e",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Yılmaz Kara",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Nakil: Kastamonu",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-22T08:38:45+03:00",
+   "ham": {
+    "ad": "YILMAZ",
+    "soyad": "KARA",
+    "mezarlik": "",
+    "cami": "KASTAMONU NAKİL",
+    "vakit": "NAKIL",
+    "olum_tarihi": "21.10.2026",
+    "defin_tarihi": "22.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Kastamonu"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Kastamonu",
+    "ilce": null
+   }
+  },
+  {
+   "id": "a1f7e1b8b468",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mehmet Kapıcıoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Nakil: Trabzon / Of",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-22T08:38:45+03:00",
+   "ham": {
+    "ad": "MEHMET",
+    "soyad": "KAPICIOĞLU",
+    "mezarlik": "",
+    "cami": "THY OF",
+    "vakit": "NAKIL",
+    "olum_tarihi": "21.10.2026",
+    "defin_tarihi": "22.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Trabzon / Of"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Trabzon",
+    "ilce": "Of"
+   }
   }
  ]
 }

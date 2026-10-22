@@ -1609,7 +1609,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29025905/nuri-akcaarmanin-aci-gunu-zonguldaktaki-bina-faciasi-yasa-bogdu",
-   "alindi": "2026-10-22T02:22:12+03:00",
+   "alindi": "2026-10-22T09:52:10+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1617,7 +1617,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "6a7b7d772196",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": "Yahya Kaptan Mahallesi",
+   "ad_soyad": "İhsan Aydın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "Akşemseddin Camii, öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29027240/emekli-okul-muduru-ihsan-aydin-hayatini-kaybetti",
+   "alindi": "2026-10-22T09:52:10+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T07:50:32+03:00"
+ "guncelleme": "2026-10-22T09:52:10+03:00"
 }
