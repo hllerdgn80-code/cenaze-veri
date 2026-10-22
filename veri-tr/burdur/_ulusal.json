@@ -623,7 +623,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "7667d1260390",
+   "il": "Burdur",
+   "ilce": "Bucak",
+   "mahalle": "Kayı Köyü",
+   "ad_soyad": "Mehmet Elibol",
+   "anne_baba": null,
+   "yas": 74,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Köle mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29027025/burdurda-mehmet-elibol-vefat-etti",
+   "alindi": "2026-10-22T10:43:42+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "844ef205ca9c",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Burç Mahallesi",
+   "ad_soyad": "Behice Öğütlü",
+   "anne_baba": null,
+   "yas": 82,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Asri Mezarlık",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29027209/burdurda-belediye-personeli-serkan-ogutlunun-aci-gunu-hayatini-kaybetti",
+   "alindi": "2026-10-22T10:43:42+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T07:50:32+03:00"
+ "guncelleme": "2026-10-22T10:43:42+03:00"
 }

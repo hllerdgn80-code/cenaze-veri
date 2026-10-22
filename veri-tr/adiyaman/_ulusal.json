@@ -83,59 +83,32 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "91cc5201c309",
+   "id": "e3988f657192",
    "il": "Adıyaman",
-   "ilce": null,
+   "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Zeynal Akgün",
+   "ad_soyad": "Kadir Köse",
    "anne_baba": null,
-   "yas": 65,
+   "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-18",
+   "vefat_tarihi": "2026-10-21",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-18",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-21T11:31:06+03:00",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-22T10:36:54+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-18",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
+    "sayfa_tarihi": "2026-10-21",
+    "durum": null
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": true,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "c2caa11f6c44",
-   "il": "Adıyaman",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Ayşe Kılavuz",
-   "anne_baba": null,
-   "yas": 96,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-18",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-18",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-21T11:31:06+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-18",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true,
+   "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-21T11:31:06+03:00"
+ "guncelleme": "2026-10-22T10:36:54+03:00"
 }
