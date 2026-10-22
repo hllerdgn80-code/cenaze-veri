@@ -99,7 +99,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Sakarya Yenihaber",
    "kaynak_url": "https://www.sakaryayenihaber.com/haber/29026187/feci-kazada-motokurye-hayatini-kaybetti",
-   "alindi": "2026-10-22T13:56:15+03:00",
+   "alindi": "2026-10-22T17:06:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-21",
     "sayfa_tarihi": "2026-10-21",
@@ -119,14 +119,14 @@
    "yas": 79,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": null,
-   "defin_zamani": null,
+   "defin_yeri": "Yeni Mahalle Aile Mezarlığı",
+   "defin_zamani": "2026-10-22",
    "namaz_tarihi": "2026-10-22",
    "namaz_yeri_vakti": "Karasu Yeni Mahalle Merkez Camii, öğle namazı",
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Sakarya Yenihaber",
    "kaynak_url": "https://www.sakaryayenihaber.com/haber/29027841/karasudan-keles-ailesinin-aci-gunu-cevat-keles-vefat-etti",
-   "alindi": "2026-10-22T13:56:15+03:00",
+   "alindi": "2026-10-22T17:06:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -137,5 +137,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T13:56:15+03:00"
+ "guncelleme": "2026-10-22T17:06:00+03:00"
 }

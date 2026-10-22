@@ -803,18 +803,18 @@
    "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "Yahya Kaptan Mezarlığı",
+   "defin_yeri": null,
    "defin_zamani": null,
-   "namaz_tarihi": "2026-10-22",
+   "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Malatya Sonsöz Gazetesi",
    "kaynak_url": "https://malatyasonsoz.com.tr/haber/29030668/ihsan-aydin-hayatini-kaybetti",
-   "alindi": "2026-10-22T15:57:16+03:00",
+   "alindi": "2026-10-22T17:06:00+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
-    "tarih_kaynagi": "metin"
+    "tarih_kaynagi": "yayin_tarihi"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false,
@@ -848,5 +848,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T15:57:16+03:00"
+ "guncelleme": "2026-10-22T17:06:00+03:00"
 }

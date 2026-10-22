@@ -1042,8 +1042,8 @@
    "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Kocaeli Gazetesi",
-   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29025905/nuri-akcaarmanin-aci-gunu-zonguldaktaki-bina-faciasi-yasa-bogdu",
-   "alindi": "2026-10-22T09:52:10+03:00",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29025905/nuri-akcaharmanin-aci-gunu-zonguldaktaki-bina-faciasi-yasa-bogdu",
+   "alindi": "2026-10-22T17:06:00+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "tarih_kaynagi": "yayin_tarihi"
@@ -1537,7 +1537,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "540bdde7bff5",
+   "il": "Kocaeli",
+   "ilce": "Darıca",
+   "mahalle": "Nene Hatun Mahallesi",
+   "ad_soyad": "Nazire Yondemir",
+   "anne_baba": null,
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Eyüpoğlu Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29029605/nazire-yondemir",
+   "alindi": "2026-10-22T17:06:00+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "21595feae36e",
+   "il": "Kocaeli",
+   "ilce": "İzmit",
+   "mahalle": "Çenesuyu Çınarlı Köyü",
+   "ad_soyad": "İhsan Aydın",
+   "anne_baba": null,
+   "yas": 82,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "Akşemseddin Camii, öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29027678/kocaelinin-taninmis-egitimcisi-ihsan-aydin-hayatini-kaybetti",
+   "alindi": "2026-10-22T17:06:00+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T13:56:15+03:00"
+ "guncelleme": "2026-10-22T17:06:00+03:00"
 }
