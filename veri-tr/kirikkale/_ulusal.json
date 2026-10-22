@@ -636,7 +636,85 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1776c6482f5b",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Erzincanlı Necmi Özyalçın",
+   "anne_baba": null,
+   "yas": 86,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Nur Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-22-ekim-1",
+   "alindi": "2026-10-22T13:56:15+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "7a1a61fe8f69",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sivaslı Yeter Karık",
+   "anne_baba": null,
+   "yas": 85,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Yaylacık Merkez Camii, öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-22-ekim-1",
+   "alindi": "2026-10-22T13:56:15+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "d5ced984b1a0",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": "Aşağımahmutlar Köyü",
+   "ad_soyad": "Zekeriya Zengin",
+   "anne_baba": null,
+   "yas": 49,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Aşağımahmutlar Camii, öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-bugun-vefat-edenler-22-ekim-1",
+   "alindi": "2026-10-22T13:56:15+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T10:36:54+03:00"
+ "guncelleme": "2026-10-22T13:56:15+03:00"
 }
