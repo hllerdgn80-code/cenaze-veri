@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-22T08:39:36+03:00",
+   "alindi": "2026-10-22T11:33:49+03:00",
    "ham": {
     "baba": "ALİ",
     "defin": "22.10.2026 13:13",
@@ -48,7 +48,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Aksaray Belediyesi",
    "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
-   "alindi": "2026-10-22T08:39:36+03:00",
+   "alindi": "2026-10-22T11:33:49+03:00",
    "ham": {
     "baba": "MEHMET",
     "defin": "22.10.2026 13:10",
@@ -60,7 +60,37 @@
    "il_disi_defin": null,
    "ilce_kaynagi": "kaynak_belediye",
    "ilk_gorulme": "2026-10-22T00:20:43+03:00"
+  },
+  {
+   "id": "5924090cf0b2",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Durmuş Köksal",
+   "anne_baba": "Şammas",
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Ervah Kabristanlığı / 5 Ada",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:17",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-22T11:33:49+03:00",
+   "ham": {
+    "baba": "ŞAMMAS",
+    "defin": "22.10.2026 13:17",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 5 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye",
+   "ilk_gorulme": "2026-10-22T11:33:49+03:00"
   }
  ],
- "guncelleme": "2026-10-22T08:39:36+03:00"
+ "guncelleme": "2026-10-22T11:33:49+03:00"
 }
