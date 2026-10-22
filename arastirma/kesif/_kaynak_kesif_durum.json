@@ -3384,6 +3384,243 @@
    "vefat_sayfasi": [],
    "durum": "ENGEL robots 403",
    "istek": 1
+  },
+  "yalovagazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat"
+   ],
+   "durum": "VAR",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "haberts.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "gerzeninsesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kuzeyanadolugazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "gaziantepdogus.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "gaziantep27.net": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "noktagazetesi.com.tr": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 6,
+   "menu_yollar": []
+  },
+  "yeniizmir.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "sanliurfa63.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/haci-nadire-arslan-vefat-etti",
+    "/urfa-taziye"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": [
+    "/haci-nadire-arslan-vefat-etti",
+    "/urfa-taziye"
+   ]
+  },
+  "yeniakit.com.tr": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": false,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
+  },
+  "basakgazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "ortadogugazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/kategori/vefat",
+    "/kategori/vefat-haberleri"
+   ],
+   "durum": "VAR",
+   "istek": 4,
+   "menu_yollar": []
+  },
+  "hatayekspres.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "mansetaydin.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "dirilispostasi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "kocaelihalkgazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "gercekfethiye.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "safranbolubirlik.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [
+    "/vefat",
+    "/cenaze"
+   ],
+   "durum": "VAR",
+   "istek": 9,
+   "menu_yollar": []
+  },
+  "kandiraninsesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 503",
+   "istek": 1
+  },
+  "akyazi.net": {
+   "tarih": "2026-10-22",
+   "robots_izinli": false,
+   "feed": false,
+   "vefat_sayfasi": [],
+   "durum": "ENGEL robots 403",
+   "istek": 1
+  },
+  "vandahaber.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "karar.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "5ocakgazetesi.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "vanekspres.com.tr": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
+  },
+  "trhaberturk.com": {
+   "tarih": "2026-10-22",
+   "robots_izinli": true,
+   "feed": true,
+   "vefat_sayfasi": [],
+   "durum": "VEFAT SAYFASI YOK",
+   "istek": 10,
+   "menu_yollar": []
   }
  },
  "il_alan": {
