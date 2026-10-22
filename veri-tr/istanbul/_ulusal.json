@@ -37610,6 +37610,31 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "d1e2cc5acd6d",
+   "il": "İstanbul",
+   "ilce": "Pendik",
+   "mahalle": null,
+   "ad_soyad": "Medine Dağcı",
+   "anne_baba": null,
+   "yas": 89,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Pendik Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/pendik-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-22T06:39:30+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-22",
+    "hizmet": "pendik-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-22T06:39:30+03:00"
