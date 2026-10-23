@@ -2643,7 +2643,132 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "3e4da56f51d5",
+   "il": "Bursa",
+   "ilce": "İnegöl",
+   "mahalle": null,
+   "ad_soyad": "Durmuş Kurt",
+   "anne_baba": null,
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "İnegöl Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/inegol-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "inegol-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "71ecfa86f2bd",
+   "il": "Bursa",
+   "ilce": "İnegöl",
+   "mahalle": null,
+   "ad_soyad": "Abdullah Tetik",
+   "anne_baba": null,
+   "yas": 68,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "İnegöl Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/inegol-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "inegol-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "3eab3a9a8183",
+   "il": "Bursa",
+   "ilce": "İnegöl",
+   "mahalle": null,
+   "ad_soyad": "Yılmaz Tekin",
+   "anne_baba": null,
+   "yas": 72,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "İnegöl Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/inegol-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "inegol-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "1225f236d435",
+   "il": "Bursa",
+   "ilce": "İnegöl",
+   "mahalle": null,
+   "ad_soyad": "Ömer Serbest",
+   "anne_baba": null,
+   "yas": 87,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "İnegöl Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/inegol-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "inegol-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "ac05d0acb0c8",
+   "il": "Bursa",
+   "ilce": "İnegöl",
+   "mahalle": null,
+   "ad_soyad": "Hatice Ersoy",
+   "anne_baba": null,
+   "yas": 90,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "İnegöl Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/inegol-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "inegol-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
- "guncelleme": "2026-10-23T11:19:32+03:00"
+ "guncelleme": "2026-10-23T16:43:12+03:00"
 }
