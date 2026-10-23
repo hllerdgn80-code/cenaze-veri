@@ -337,7 +337,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/atalarimizin-son-duragi-artik-sir-degil-sehit-dusen-dedeler-icin-dijital-sorgulama/32319/",
-   "alindi": "2026-10-23T07:50:41+03:00",
+   "alindi": "2026-10-23T13:27:08+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -432,7 +432,59 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "beee7b163141",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hava Alcan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Org.Hulusi Akar Camii",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Hunat TV",
+   "kaynak_url": "https://www.hunattv.com/kayseri-de-23-ekim-cuma-gunu-vefat-edenler/32350/",
+   "alindi": "2026-10-23T13:27:08+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "946e88ad1d39",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hava Alcan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "T.Burun 6 Kapı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Org.Hulusi Akar Camii, öğle namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Kayseri Anadolu Haber",
+   "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayseri-de-23-ekim-cuma-gunu-vefat-edenler/200819/",
+   "alindi": "2026-10-23T13:27:08+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T11:19:32+03:00"
+ "guncelleme": "2026-10-23T13:27:08+03:00"
 }

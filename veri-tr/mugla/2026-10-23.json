@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T09:28:27+03:00",
+   "alindi": "2026-10-23T12:10:24+03:00",
    "ham": {
     "nakil_yeri": "Aydın",
     "nakil_tarihi": "2026-10-23"
@@ -37,14 +37,14 @@
    "yas": 85,
    "dogum_tarihi": null,
    "vefat_tarihi": "2026-10-22",
-   "defin_yeri": "Yukarı Akçaalan mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_yeri": "Turgutreis Merkez Yalı Camii’den Yukarı Akçaalan mezarlığına",
    "defin_zamani": "2026-10-23",
    "namaz_tarihi": "2026-10-23",
    "namaz_yeri_vakti": "Cuma Namazı",
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T09:28:27+03:00",
+   "alindi": "2026-10-23T12:10:24+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -69,10 +69,82 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T09:28:27+03:00",
+   "alindi": "2026-10-23T12:10:24+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "05af05794864",
+   "il": "Muğla",
+   "ilce": "Fethiye",
+   "mahalle": null,
+   "ad_soyad": "İbrahim Gökmen",
+   "anne_baba": null,
+   "yas": 93,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Nif Mezarlığı",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Fethiye Belediyesi",
+   "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+   "alindi": "2026-10-23T12:10:24+03:00",
+   "ham": {
+    "tur": "Defin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "3c85bdc20d9a",
+   "il": "Muğla",
+   "ilce": "Fethiye",
+   "mahalle": null,
+   "ad_soyad": "Emine Çelikel",
+   "anne_baba": null,
+   "yas": 96,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Foça Mahallesi Mezarlığı",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Fethiye Belediyesi",
+   "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+   "alindi": "2026-10-23T12:10:24+03:00",
+   "ham": {
+    "tur": "Defin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "26487c6c8d94",
+   "il": "Muğla",
+   "ilce": "Fethiye",
+   "mahalle": null,
+   "ad_soyad": "Erkan Çengel",
+   "anne_baba": null,
+   "yas": 55,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Karayolları Binyanlı Mezarlığı",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Fethiye Belediyesi",
+   "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
+   "alindi": "2026-10-23T12:10:24+03:00",
+   "ham": {
+    "tur": "Defin"
    },
    "il_disi_defin": null,
    "ilce_belirsiz": false
