@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T08:00:44+03:00",
+   "alindi": "2026-10-23T09:28:27+03:00",
    "ham": {
     "nakil_yeri": "Aydın",
     "nakil_tarihi": "2026-10-23"
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T08:00:44+03:00",
+   "alindi": "2026-10-23T09:28:27+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -52,7 +52,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "ilk_gorulme": "2026-10-23T08:01:21+03:00"
+  },
+  {
+   "id": "192b208d8042",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Hüseyin Öztürk",
+   "anne_baba": null,
+   "yas": 77,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Bitez Köyiçi Camii'den Bitez mezarlığına",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-23T09:28:27+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "ilk_gorulme": "2026-10-23T09:29:04+03:00"
   }
  ],
- "guncelleme": "2026-10-23T08:01:21+03:00"
+ "guncelleme": "2026-10-23T09:29:04+03:00"
 }

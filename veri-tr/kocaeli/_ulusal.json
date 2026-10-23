@@ -1555,7 +1555,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29029605/nazire-yondemir",
-   "alindi": "2026-10-22T17:06:00+03:00",
+   "alindi": "2026-10-23T09:29:54+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -1582,7 +1582,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/haber/29027678/kocaelinin-taninmis-egitimcisi-ihsan-aydin-hayatini-kaybetti",
-   "alindi": "2026-10-22T17:06:00+03:00",
+   "alindi": "2026-10-23T09:29:54+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -1672,7 +1672,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "a335aca32517",
+   "il": "Kocaeli",
+   "ilce": "Gölcük",
+   "mahalle": "Değirmendere Mahallesi",
+   "ad_soyad": "Mehmet Kuru",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Değirmendere Merkez Mezarlığı",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Değirmendere Dörtyol Camii, öğle namazı",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Kocaeli Gazetesi",
+   "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29029643/mehmet-kuru",
+   "alindi": "2026-10-23T09:29:54+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-22",
+    "sayfa_tarihi": "2026-10-22",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T09:14:30+03:00"
+ "guncelleme": "2026-10-23T09:29:54+03:00"
 }
