@@ -18,37 +18,10 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "caa119157acb",
-   "il": "Kilis",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Mahire Kurtaran",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
     "durum": null
    },
    "il_disi_defin": null,
@@ -72,7 +45,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-22",
@@ -99,7 +72,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
@@ -110,26 +83,53 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "dd68f92e49d8",
+   "id": "48cced54ee16",
    "il": "Kilis",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Mustafa El Hacci",
+   "ad_soyad": "Mehmet Korkmaz",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
+   "vefat_tarihi": "2026-10-21",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
+   "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-21",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0aa2e54eba3a",
+   "il": "Kilis",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Abdulrazak Alaloush",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-23T11:19:32+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-21",
     "durum": null
    },
    "il_disi_defin": null,
@@ -137,5 +137,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T10:36:54+03:00"
+ "guncelleme": "2026-10-23T11:19:32+03:00"
 }

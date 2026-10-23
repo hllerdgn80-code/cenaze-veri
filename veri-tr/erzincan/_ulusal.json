@@ -1,0 +1,33 @@
+{
+ "il": "Erzincan",
+ "kayitlar": [
+  {
+   "id": "d7ac95bc3768",
+   "il": "Erzincan",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Necmi Özyalçın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Nur Camii",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-23T11:19:32+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-22",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  }
+ ],
+ "guncelleme": "2026-10-23T11:19:32+03:00"
+}

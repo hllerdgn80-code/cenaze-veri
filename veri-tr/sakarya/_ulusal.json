@@ -135,7 +135,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "8c6bbc10e12c",
+   "il": "Sakarya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sayed Sarwar Omari",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Sakarya Yenihaber",
+   "kaynak_url": "https://www.sakaryayenihaber.com/haber/29033389/sakarya-haberleri-23-ekim-cuma-sakarya-vefatlar",
+   "alindi": "2026-10-23T11:27:23+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T09:29:54+03:00"
+ "guncelleme": "2026-10-23T11:27:23+03:00"
 }

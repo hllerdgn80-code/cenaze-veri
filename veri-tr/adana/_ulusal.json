@@ -2,33 +2,6 @@
  "il": "Adana",
  "kayitlar": [
   {
-   "id": "375815f5371f",
-   "il": "Adana",
-   "ilce": "Kozan",
-   "mahalle": null,
-   "ad_soyad": "Cumali Çakmak",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-20T10:57:03+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "d22dc609388d",
    "il": "Adana",
    "ilce": "Kozan",
@@ -45,7 +18,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-21",
@@ -56,26 +29,53 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "522db8a5637d",
+   "id": "e535ae1d3180",
    "il": "Adana",
    "ilce": "Kozan",
    "mahalle": null,
-   "ad_soyad": "Nefise Erdoğan",
+   "ad_soyad": "Necati Saygıcak",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
+   "vefat_tarihi": "2026-10-21",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
+   "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
+    "sayfa_tarihi": "2026-10-21",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0853986e9a67",
+   "il": "Adana",
+   "ilce": "Kozan",
+   "mahalle": null,
+   "ad_soyad": "Sevda Dinler",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-23T11:19:32+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-21",
     "durum": null
    },
    "il_disi_defin": null,
@@ -83,5 +83,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T10:36:54+03:00"
+ "guncelleme": "2026-10-23T11:19:32+03:00"
 }

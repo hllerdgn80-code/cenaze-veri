@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-21",
@@ -72,7 +72,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
@@ -83,5 +83,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T10:36:54+03:00"
+ "guncelleme": "2026-10-23T11:19:32+03:00"
 }

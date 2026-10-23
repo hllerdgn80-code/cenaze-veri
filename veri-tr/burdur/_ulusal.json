@@ -560,7 +560,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29028170/burdurda-avukat-ahmet-bahadirin-aci-gunu-hayatini-kaybetti",
-   "alindi": "2026-10-23T09:29:54+03:00",
+   "alindi": "2026-10-23T11:27:23+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -587,7 +587,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29030335/burdurda-ozel-idare-personeli-asim-gumusun-aci-gunu-hayatini-kaybetti",
-   "alindi": "2026-10-23T09:29:54+03:00",
+   "alindi": "2026-10-23T11:27:23+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -596,7 +596,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "8712f9c92f16",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Muharrem Akboz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29033517/burdurda-muharrem-akboz-vefat-etti",
+   "alindi": "2026-10-23T11:27:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "f80592d4e544",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": "Konak Mahallesi",
+   "ad_soyad": "Sadık Kılıçaslan",
+   "anne_baba": null,
+   "yas": 82,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Burdur Sultandere Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29033552/burdurda-kilicaslan-ailesinin-aci-gunu-hayatini-kaybetti",
+   "alindi": "2026-10-23T11:27:23+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T09:29:54+03:00"
+ "guncelleme": "2026-10-23T11:27:23+03:00"
 }

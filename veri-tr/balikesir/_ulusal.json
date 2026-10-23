@@ -2,33 +2,6 @@
  "il": "Balıkesir",
  "kayitlar": [
   {
-   "id": "56f6af7e6d70",
-   "il": "Balıkesir",
-   "ilce": "Gönen",
-   "mahalle": null,
-   "ad_soyad": "Şaban Bintaş",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "d032f90ae73c",
    "il": "Balıkesir",
    "ilce": "Altıeylül",
@@ -72,7 +45,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
@@ -99,7 +72,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-21",
@@ -126,7 +99,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-21",
@@ -180,7 +153,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-22T10:36:54+03:00",
+   "alindi": "2026-10-23T11:19:32+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
@@ -515,33 +488,6 @@
    "kaynak_turu": "yerel_basin"
   },
   {
-   "id": "2d544bfe69f7",
-   "il": "Balıkesir",
-   "ilce": "Burhaniye",
-   "mahalle": null,
-   "ad_soyad": "Necla Tonus",
-   "anne_baba": null,
-   "yas": 85,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-22T10:42:35+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "ca5d27d46722",
    "il": "Balıkesir",
    "ilce": "Edremit",
@@ -670,114 +616,6 @@
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-20",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "fa09813d2c57",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Canan Tunçer",
-   "anne_baba": null,
-   "yas": 68,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-22T10:42:35+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "ac2d370d43f7",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Şengül Altınöz",
-   "anne_baba": null,
-   "yas": 69,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-22T10:42:35+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "55128ae70e37",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Necat Ergül",
-   "anne_baba": null,
-   "yas": 76,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-22T10:42:35+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
-    "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "a27f19fffb81",
-   "il": "Balıkesir",
-   "ilce": "Edremit",
-   "mahalle": null,
-   "ad_soyad": "Şaban Bakar",
-   "anne_baba": null,
-   "yas": 64,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-19",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "cenazeilanlari.com.tr",
-   "kaynak_url": "https://cenazeilanlari.com.tr/",
-   "alindi": "2026-10-22T10:42:35+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-19",
     "not": "kart tarihi = ilandaki Defin Tarihi (vefat gunu ya da ayni gun)"
    },
    "il_disi_defin": null,
@@ -999,7 +837,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "8f04578e6292",
+   "il": "Balıkesir",
+   "ilce": "Edremit",
+   "mahalle": null,
+   "ad_soyad": "Bahar Düzgün",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-23T11:19:32+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-22",
+    "durum": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-22T10:42:35+03:00"
+ "guncelleme": "2026-10-23T11:19:32+03:00"
 }
