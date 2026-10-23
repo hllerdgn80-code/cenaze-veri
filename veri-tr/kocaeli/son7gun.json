@@ -3453,6 +3453,39 @@
     "ilk_gorulme": "2026-10-23T12:10:07+03:00"
    },
    {
+    "id": "4e7bca4541ce",
+    "il": "Kocaeli",
+    "ilce": "Kartepe",
+    "mahalle": null,
+    "ad_soyad": "Kemal Belat",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-23",
+    "defin_yeri": "MAŞÜKİYE MERKEZ MEZARLIĞI",
+    "defin_zamani": "2026-10-23",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "İkindi – Maşukiye Merkez Cami",
+    "liste_tarihi": "2026-10-23",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-23T16:41:25+03:00",
+    "ham": {
+     "ad": "KEMAL",
+     "soyad": "BELAT",
+     "mezarlik": "MAŞÜKİYE MERKEZ MEZARLIĞI",
+     "cami": "Maşukiye Merkez Cami",
+     "vakit": "İKİNDİ",
+     "olum_tarihi": "23.10.2026",
+     "defin_tarihi": "23.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "Kartepe"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null,
+    "ilk_gorulme": "2026-10-23T16:41:26+03:00"
+   },
+   {
     "id": "02a0b4384edc",
     "il": "Kocaeli",
     "ilce": "Kartepe",
@@ -5683,6 +5716,6 @@
    "ilk_gorulme": "2026-10-22T12:41:24+03:00"
   }
  ],
- "toplam": 168,
- "guncelleme": "2026-10-23T15:30:26+03:00"
+ "toplam": 169,
+ "guncelleme": "2026-10-23T16:41:26+03:00"
 }
