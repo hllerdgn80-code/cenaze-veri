@@ -36262,7 +36262,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T12:14:44+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-22",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38376,7 +38376,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T12:14:44+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-22",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38401,7 +38401,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-22T20:42:58+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38426,7 +38426,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-22T20:42:58+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38451,7 +38451,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-22T20:42:58+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38476,7 +38476,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-22T20:42:58+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38501,7 +38501,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-22T20:42:58+03:00",
+   "alindi": "2026-10-23T16:43:12+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-21",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -43989,6 +43989,81 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "0825dbb1e684",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "İsmail Köse",
+   "anne_baba": null,
+   "yas": 73,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "b29b0a951a92",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "Alime Akyol",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "d4bf59bd9400",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "Ziya Tekdemir",
+   "anne_baba": null,
+   "yas": 60,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-23T16:43:12+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-21",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-23T16:43:12+03:00"
