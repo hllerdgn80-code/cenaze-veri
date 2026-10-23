@@ -19,7 +19,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-22T17:04:27+03:00",
+   "alindi": "2026-10-23T07:47:51+03:00",
    "ham": {
     "ilce": "ipekyolu",
     "mezar_no": "2197",
@@ -45,7 +45,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-22T17:04:27+03:00",
+   "alindi": "2026-10-23T07:47:51+03:00",
    "ham": {
     "ilce": "ipekyolu",
     "mezar_no": "3775",
@@ -71,7 +71,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-22T17:04:27+03:00",
+   "alindi": "2026-10-23T07:47:51+03:00",
    "ham": {
     "ilce": "muradiye",
     "mezar_no": "2196",
@@ -97,7 +97,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-22T17:04:27+03:00",
+   "alindi": "2026-10-23T07:47:51+03:00",
    "ham": {
     "ilce": "edremit",
     "mezar_no": null,
@@ -123,7 +123,7 @@
    "liste_tarihi": "2026-10-20",
    "kaynak_ad": "Van Büyükşehir Belediyesi",
    "kaynak_url": "https://van.bel.tr/Taziyeler.html",
-   "alindi": "2026-10-22T17:04:27+03:00",
+   "alindi": "2026-10-23T07:47:51+03:00",
    "ham": {
     "ilce": "ercis",
     "mezar_no": null,
@@ -131,6 +131,88 @@
    },
    "ilce_belirsiz": false,
    "il_disi_defin": null
+  },
+  {
+   "id": "c1dc08c93f0c",
+   "il": "Van",
+   "ilce": "İpekyolu",
+   "mahalle": null,
+   "ad_soyad": "Bebek Narin Yıldız",
+   "anne_baba": null,
+   "yas": 1,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yenimahalle",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-23T07:47:51+03:00",
+   "ham": {
+    "ilce": "ipekyolu",
+    "mezar_no": "3776",
+    "il_disi_notu": null
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "b986f6734217",
+   "il": "Van",
+   "ilce": "Tuşba",
+   "mahalle": null,
+   "ad_soyad": "Şöhret Alkan",
+   "anne_baba": null,
+   "yas": 89,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Akköprü",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-23T07:47:51+03:00",
+   "ham": {
+    "ilce": "tusba",
+    "mezar_no": "5404",
+    "il_disi_notu": null
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "603152daf22e",
+   "il": "Van",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Bebek Bulcar",
+   "anne_baba": null,
+   "yas": 0,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Eskişehir",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Van Büyükşehir Belediyesi",
+   "kaynak_url": "https://van.bel.tr/Taziyeler.html",
+   "alindi": "2026-10-23T07:47:51+03:00",
+   "ham": {
+    "ilce": "ipekyolu",
+    "mezar_no": "1089",
+    "il_disi_notu": null,
+    "il_disi_kaynagi": "defin_yeri"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Eskişehir",
+    "ilce": null
+   }
   }
  ]
 }

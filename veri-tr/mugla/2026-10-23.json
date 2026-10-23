@@ -1,0 +1,56 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-23",
+ "kayitlar": [
+  {
+   "id": "019687dbee22",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Emir Kılçık",
+   "anne_baba": null,
+   "yas": 91,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-23T07:47:51+03:00",
+   "ham": {
+    "nakil_yeri": "Aydın",
+    "nakil_tarihi": "2026-10-23"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "bdf9134e54b9",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Nazife Bektaş",
+   "anne_baba": null,
+   "yas": 85,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Yukarı Akçaalan mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Cuma Namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-23T07:47:51+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
