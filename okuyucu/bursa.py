@@ -25,7 +25,7 @@ def metin(s):
 
 
 def ayristir(sayfa):
-    i = sayfa.find('id="bugundefnedilenler"')
+    i = max(sayfa.find('id="bugun-defnedilenler"'), sayfa.find('id="bugundefnedilenler"'))   # 23.10.2026: kaynak kimliği tireli yaptı
     if i < 0:
         raise RuntimeError('"Bugün Defnedilenler" sekmesi sayfada bulunamadı (sayfa düzeni değişmiş olabilir)')
     blok = sayfa[i:]
