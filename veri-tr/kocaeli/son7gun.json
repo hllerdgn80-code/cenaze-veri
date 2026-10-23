@@ -419,7 +419,7 @@
     "liste_tarihi": "2026-10-23",
     "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
     "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
-    "alindi": "2026-10-23T07:47:45+03:00",
+    "alindi": "2026-10-23T08:00:39+03:00",
     "ham": {
      "ad": "UĞURCAN",
      "soyad": "YUNDAN",
@@ -433,7 +433,7 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null,
-    "ilk_gorulme": "2026-10-23T07:47:46+03:00"
+    "ilk_gorulme": "2026-10-23T08:00:39+03:00"
    },
    {
     "id": "b589e1b3d1c4",
@@ -685,7 +685,7 @@
     "liste_tarihi": "2026-10-23",
     "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
     "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
-    "alindi": "2026-10-23T07:47:45+03:00",
+    "alindi": "2026-10-23T08:00:39+03:00",
     "ham": {
      "ad": "ENDER",
      "soyad": "GÜLHAN",
@@ -699,7 +699,7 @@
     },
     "ilce_belirsiz": false,
     "il_disi_defin": null,
-    "ilk_gorulme": "2026-10-23T07:47:46+03:00"
+    "ilk_gorulme": "2026-10-23T08:00:39+03:00"
    },
    {
     "id": "2fabe6ac37b4",
@@ -3637,7 +3637,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
-   "alindi": "2026-10-23T07:47:45+03:00",
+   "alindi": "2026-10-23T08:00:39+03:00",
    "ham": {
     "ad": "ŞENOL",
     "soyad": "PERÇİN",
@@ -3654,7 +3654,7 @@
     "il": "Giresun",
     "ilce": null
    },
-   "ilk_gorulme": "2026-10-23T07:47:46+03:00"
+   "ilk_gorulme": "2026-10-23T08:00:39+03:00"
   },
   {
    "id": "c3b3a8131d54",
@@ -3673,7 +3673,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
-   "alindi": "2026-10-23T07:47:45+03:00",
+   "alindi": "2026-10-23T08:00:39+03:00",
    "ham": {
     "ad": "SAİT",
     "soyad": "ÇABUK",
@@ -3690,7 +3690,7 @@
     "il": "Trabzon",
     "ilce": "Vakfıkebir"
    },
-   "ilk_gorulme": "2026-10-23T07:47:46+03:00"
+   "ilk_gorulme": "2026-10-23T08:00:39+03:00"
   },
   {
    "id": "6018fffb269a",
@@ -3709,7 +3709,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
-   "alindi": "2026-10-23T07:47:45+03:00",
+   "alindi": "2026-10-23T08:00:39+03:00",
    "ham": {
     "ad": "ERTUĞRUL",
     "soyad": "YILMAZ",
@@ -3726,7 +3726,7 @@
     "il": "Ordu",
     "ilce": null
    },
-   "ilk_gorulme": "2026-10-23T07:47:46+03:00"
+   "ilk_gorulme": "2026-10-23T08:00:39+03:00"
   },
   {
    "id": "fcc8c857794e",
@@ -4768,5 +4768,5 @@
   }
  ],
  "toplam": 141,
- "guncelleme": "2026-10-23T07:47:46+03:00"
+ "guncelleme": "2026-10-23T08:00:40+03:00"
 }
