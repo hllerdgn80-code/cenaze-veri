@@ -18,7 +18,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "nakil_yeri": "Aydın",
     "nakil_tarihi": "2026-10-23"
@@ -44,7 +44,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -70,7 +70,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bodrum Belediyesi",
    "kaynak_url": "https://www.bodrum.bel.tr/vefat",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "nakil_yeri": null,
     "nakil_tarihi": null
@@ -96,7 +96,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -121,7 +121,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -146,7 +146,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Fethiye Belediyesi",
    "kaynak_url": "https://www.fethiye.bel.tr/vefatedeneler",
-   "alindi": "2026-10-23T12:10:24+03:00",
+   "alindi": "2026-10-23T14:11:22+03:00",
    "ham": {
     "tur": "Defin"
    },
@@ -155,5 +155,5 @@
    "ilk_gorulme": "2026-10-23T12:12:17+03:00"
   }
  ],
- "guncelleme": "2026-10-23T12:12:17+03:00"
+ "guncelleme": "2026-10-23T14:12:58+03:00"
 }

@@ -862,6 +862,38 @@
     "il": "Balıkesir",
     "ilce": "Merkez"
    }
+  },
+  {
+   "id": "ba9dda5a9343",
+   "il": "Kocaeli",
+   "ilce": "Kandıra",
+   "mahalle": null,
+   "ad_soyad": "Şahizar Geç",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "BOZBURUN MEZARLIĞI",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Bozburun Cami",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-23T14:11:11+03:00",
+   "ham": {
+    "ad": "ŞAHİZAR",
+    "soyad": "GEÇ",
+    "mezarlik": "BOZBURUN MEZARLIĞI",
+    "cami": "Bozburun Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "22.10.2026",
+    "defin_tarihi": "23.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "Kandıra"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
   }
  ]
 }

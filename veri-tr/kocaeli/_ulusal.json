@@ -933,7 +933,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29029638/huseyin-yirgal",
-   "alindi": "2026-10-23T07:50:41+03:00",
+   "alindi": "2026-10-23T15:25:20+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -1149,7 +1149,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Kocaeli Gazetesi",
    "kaynak_url": "https://www.kocaeligazetesi.com.tr/vefat/29029643/mehmet-kuru",
-   "alindi": "2026-10-23T09:29:54+03:00",
+   "alindi": "2026-10-23T15:25:20+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -1455,7 +1455,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "9560870c7319",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": "GÖRÜYORDU Soğuksu Mahallesi",
+   "ad_soyad": "Kemal Belat",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Maşukiye Merkez Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29035931/masukiyeli-kibris-gazisi-kemal-belat-hayatini-kaybetti",
+   "alindi": "2026-10-23T15:25:20+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "9d02d621ea4a",
+   "il": "Kocaeli",
+   "ilce": "Başiskele",
+   "mahalle": "Servetiye Camii Köyü",
+   "ad_soyad": "Recep Karaosmanoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yuvacık Merkez Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Başiskele Servetiye Camii, cuma namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Özgür Kocaeli Gazetesi",
+   "kaynak_url": "https://www.ozgurkocaeli.com.tr/haber/29035705/servetiye-camii-koyu-eski-muhtari-hayatini-kaybetti",
+   "alindi": "2026-10-23T15:25:20+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T13:27:08+03:00"
+ "guncelleme": "2026-10-23T15:25:20+03:00"
 }
