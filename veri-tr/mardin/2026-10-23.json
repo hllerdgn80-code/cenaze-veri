@@ -1,31 +1,31 @@
 {
  "il": "Mardin",
- "liste_tarihi": "2026-10-15",
+ "liste_tarihi": "2026-10-23",
  "kayitlar": [
   {
-   "id": "6a6244afbc80",
+   "id": "2ebc3435d57a",
    "il": "Mardin",
-   "ilce": null,
+   "ilce": "Kızıltepe",
    "mahalle": null,
-   "ad_soyad": "İhsan Seyithan",
+   "ad_soyad": "Suut İbrahimoğlu",
    "anne_baba": null,
-   "yas": 47,
+   "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-15",
+   "vefat_tarihi": "2026-10-23",
    "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-15",
+   "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Mardin Haber Gazetesi",
-   "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/15-10-2026",
-   "alindi": "2026-10-16T22:44:13+03:00",
+   "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/23-10-2026",
+   "alindi": "2026-10-24T05:42:22+03:00",
    "ham": {
-    "sayfa_tarihi": "2026-10-15",
+    "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "yayin_tarihi"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": true,
+   "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
   }
  ]

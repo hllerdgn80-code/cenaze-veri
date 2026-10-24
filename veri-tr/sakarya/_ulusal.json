@@ -2,33 +2,6 @@
  "il": "Sakarya",
  "kayitlar": [
   {
-   "id": "4c77a71ec38a",
-   "il": "Sakarya",
-   "ilce": "Sapanca",
-   "mahalle": "Rüstempaşa Mahallesi",
-   "ad_soyad": "Sapancalı Yılmazer",
-   "anne_baba": null,
-   "yas": 71,
-   "dogum_tarihi": null,
-   "vefat_tarihi": null,
-   "defin_yeri": "Sapanca Şükriye Mahalle Mezarlığı",
-   "defin_zamani": "2026-10-16",
-   "namaz_tarihi": "2026-10-16",
-   "namaz_yeri_vakti": "Sapanca Camicedid Merkez Camii, cuma namazı",
-   "liste_tarihi": "2026-10-16",
-   "kaynak_ad": "Sakarya Yenihaber",
-   "kaynak_url": "https://www.sakaryayenihaber.com/haber/28996525/sapancali-yilmazer-topraga-verildi",
-   "alindi": "2026-10-17T07:54:23+03:00",
-   "ham": {
-    "yayin_tarihi": "2026-10-16",
-    "sayfa_tarihi": "2026-10-16",
-    "tarih_kaynagi": "metin"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "f493d323a73a",
    "il": "Sakarya",
    "ilce": "Akyazı",
@@ -153,7 +126,7 @@
    "liste_tarihi": "2026-10-21",
    "kaynak_ad": "Sakarya Yenihaber",
    "kaynak_url": "https://www.sakaryayenihaber.com/haber/29033389/sakarya-haberleri-23-ekim-cuma-sakarya-vefatlar",
-   "alindi": "2026-10-23T19:57:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
@@ -163,5 +136,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T19:57:21+03:00"
+ "guncelleme": "2026-10-24T05:42:48+03:00"
 }

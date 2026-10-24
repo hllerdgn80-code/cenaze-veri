@@ -519,28 +519,28 @@
   {
    "id": "8712f9c92f16",
    "il": "Burdur",
-   "ilce": null,
-   "mahalle": null,
+   "ilce": "Kemer",
+   "mahalle": "Kayı Köyü",
    "ad_soyad": "Muharrem Akboz",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": null,
+   "defin_yeri": "ilçesi Kayı Köyü",
    "defin_zamani": null,
    "namaz_tarihi": "2026-10-23",
-   "namaz_yeri_vakti": null,
+   "namaz_yeri_vakti": "cuma namazı",
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29033517/burdurda-muharrem-akboz-vefat-etti",
-   "alindi": "2026-10-24T05:25:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-23",
     "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": true,
+   "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
   },
   {
@@ -560,7 +560,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29033552/burdurda-kilicaslan-ailesinin-aci-gunu-hayatini-kaybetti",
-   "alindi": "2026-10-24T05:25:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-23",
     "sayfa_tarihi": "2026-10-23",
@@ -571,5 +571,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T05:25:21+03:00"
+ "guncelleme": "2026-10-24T05:42:48+03:00"
 }

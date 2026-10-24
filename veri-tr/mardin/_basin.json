@@ -6,7 +6,8 @@
    "2026-10-18": 8,
    "2026-10-19": 6,
    "2026-10-20": 8,
-   "2026-10-21": 8
+   "2026-10-21": 8,
+   "2026-10-24": 4
   }
  },
  "okunan": {
@@ -21,11 +22,14 @@
   "https://mardinhaber.com.tr/mardin-vefatlar/18-10-2026": "2026-10-19T19:37:09",
   "https://mardinhaber.com.tr/mardin-vefatlar/19-10-2026": "2026-10-20T19:46:22",
   "https://mardinhaber.com.tr/mardin-vefatlar/20-10-2026": "2026-10-21T22:22:45",
-  "https://mardinhaber.com.tr/mardin-vefatlar/21-10-2026": "2026-10-21T22:22:36"
+  "https://mardinhaber.com.tr/mardin-vefatlar/21-10-2026": "2026-10-21T22:22:36",
+  "https://mardinhaber.com.tr/mardin-vefatlar/24-10-2026": "2026-10-24T05:42:27",
+  "https://mardinhaber.com.tr/mardin-vefatlar/23-10-2026": "2026-10-24T05:42:31",
+  "https://mardinhaber.com.tr/mardin-vefatlar/22-10-2026": "2026-10-24T05:42:35"
  },
  "robots": {
   "mardinhaber.com.tr": {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-24",
    "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://mardinhaber.com.tr/google-news.xml\nSitemap: https://mardinhaber.com.tr/sitemap.xml\nSitemap: https://mardinhaber.com.tr/sitemap-latest.xml\n",
    "yasak": false
   }

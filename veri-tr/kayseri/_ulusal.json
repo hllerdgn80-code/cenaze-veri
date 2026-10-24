@@ -337,7 +337,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/atalarimizin-son-duragi-artik-sir-degil-sehit-dusen-dedeler-icin-dijital-sorgulama/32319/",
-   "alindi": "2026-10-24T05:25:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-22",
     "sayfa_tarihi": "2026-10-22",
@@ -450,7 +450,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/kayseri-de-23-ekim-cuma-gunu-vefat-edenler/32350/",
-   "alindi": "2026-10-23T19:57:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
@@ -476,7 +476,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Kayseri Anadolu Haber",
    "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayseri-de-23-ekim-cuma-gunu-vefat-edenler/200819/",
-   "alindi": "2026-10-24T05:25:21+03:00",
+   "alindi": "2026-10-24T05:42:48+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
@@ -486,5 +486,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T05:25:21+03:00"
+ "guncelleme": "2026-10-24T05:42:48+03:00"
 }
