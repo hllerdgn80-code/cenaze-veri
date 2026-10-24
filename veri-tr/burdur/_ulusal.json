@@ -519,28 +519,28 @@
   {
    "id": "8712f9c92f16",
    "il": "Burdur",
-   "ilce": "Kemer",
-   "mahalle": "Kayı Köyü",
+   "ilce": null,
+   "mahalle": null,
    "ad_soyad": "Muharrem Akboz",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
-   "defin_yeri": "ilçesi Kayı Köyü",
+   "defin_yeri": null,
    "defin_zamani": null,
    "namaz_tarihi": "2026-10-23",
-   "namaz_yeri_vakti": "cuma namazı",
+   "namaz_yeri_vakti": null,
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29033517/burdurda-muharrem-akboz-vefat-etti",
-   "alindi": "2026-10-24T07:57:57+03:00",
+   "alindi": "2026-10-24T09:56:12+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-23",
     "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": false,
+   "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
   },
   {
@@ -560,7 +560,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29033552/burdurda-kilicaslan-ailesinin-aci-gunu-hayatini-kaybetti",
-   "alindi": "2026-10-24T07:57:57+03:00",
+   "alindi": "2026-10-24T09:56:12+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-23",
     "sayfa_tarihi": "2026-10-23",
@@ -569,7 +569,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "a9a8652386ed",
+   "il": "Burdur",
+   "ilce": "Yeşilova",
+   "mahalle": "Çaltepe Köyü",
+   "ad_soyad": "Fahrettin Acar",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29039251/burdurda-acar-ailesinin-aci-gunu-hayatini-kaybetti",
+   "alindi": "2026-10-24T09:56:12+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T07:57:57+03:00"
+ "guncelleme": "2026-10-24T09:56:12+03:00"
 }
