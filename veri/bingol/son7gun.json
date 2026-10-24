@@ -1,0 +1,69 @@
+{
+ "il": "Bingöl",
+ "ilceler": {},
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "83ef7902f1e5",
+   "il": "Bingöl",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Abdulaziz Beki",
+   "anne_baba": null,
+   "yas": 81,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bingöl Kent Haber",
+   "kaynak_url": "https://www.bingolkenthaber.com/prof-dr-abdulaziz-beki-hayatini-kaybetti",
+   "alindi": "2026-10-24T18:39:47+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-24T18:40:14+00:00"
+  },
+  {
+   "id": "e3de5748546c",
+   "il": "Bingöl",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Abdülaziz Beki",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bingöl Online",
+   "kaynak_url": "https://www.bingolonline.com/haber/bingol-bir-degerini-daha-kaybetti-prof-dr-abdulaziz-beki-vefat-etti-84927.html",
+   "alindi": "2026-10-24T18:39:47+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-24T18:40:14+00:00"
+  }
+ ],
+ "toplam": 2,
+ "guncelleme": "2026-10-24T18:40:14+00:00",
+ "ilce_durum": {
+  "Bingöl Kent Haber": 1,
+  "Bingöl Online": 1
+ }
+}

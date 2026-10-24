@@ -1,0 +1,33 @@
+{
+ "il": "Çanakkale",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "9072875d0d72",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Ellek",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehrimiz Eski Mezarlığı",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "ikindi namazından sonra Arslanca Camii",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Çanakkale Belediyesi",
+   "kaynak_url": "https://www.canakkale.bel.tr/tr/sayfa/1214-cenaze-ilanlari/11994-20102026-tarihli-cenaze-ilani",
+   "alindi": "2026-10-24T18:40:44+00:00",
+   "ham": {
+    "sayfa_kimligi": "11994",
+    "cenaze_cumlesi": "Cenazesi bugün ikindi namazından sonra Arslanca Camii'nden kaldırılarak Şehrimiz Eski Mezarlığı'na defnedilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "il": "Giresun",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "61f85c39c53e",
+   "il": "Giresun",
+   "ilce": "Keşap",
+   "mahalle": "Dokuztepe Köyü",
+   "ad_soyad": "Selime Tekbaş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Dokuztepe Merkez Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/20/20-10-2026-sali-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "mahalle_tablo"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
+  },
+  {
+   "id": "bc460096272f",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Canan Özbalıkçı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Samanlıkkıranı Mezarlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Kumyalı Hatun Camiinde Öğlen Namazıana Müteakiben",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/20/20-10-2026-sali-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "a782f9c76cb4",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Barça Köyü",
+   "ad_soyad": "Hasan Tikman",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Barça Köyü Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/20/20-10-2026-sali-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_ham": "Merkez"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "bb26dba17851",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Çavuşoğlu Köyü",
+   "ad_soyad": "Kenan Aksoy",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aynı Yerde",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-20",
+   "namaz_yeri_vakti": "Çavuşoğlu Köyü Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/20/20-10-2026-sali-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_ham": "Merkez"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  }
+ ]
+}

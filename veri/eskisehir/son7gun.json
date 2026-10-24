@@ -1,15 +1,74 @@
 {
  "il": "Eskişehir",
- "ilceler": {},
+ "ilceler": {
+  "Odunpazarı": [
+   {
+    "id": "4846b4435343",
+    "il": "Eskişehir",
+    "ilce": "Odunpazarı",
+    "mahalle": null,
+    "ad_soyad": "Erol Erdal Gürdoğan",
+    "anne_baba": null,
+    "yas": 69,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": "Odunpazarı Mezarlığı",
+    "defin_zamani": "2026-10-20",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Tiryakizade Süleymanağa Camii, öğle namazı",
+    "liste_tarihi": "2026-10-20",
+    "kaynak_ad": "İstikbal Gazetesi",
+    "kaynak_url": "https://www.istikbalgazetesi.com/muhtarlar-gununde-hayatini-kaybetmisti-erol-erdal-gurdogan-topraga-verildi",
+    "alindi": "2026-10-24T18:42:47+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-20",
+     "sayfa_tarihi": "2026-10-20",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:43:43+00:00"
+   },
+   {
+    "id": "a7a27a222c53",
+    "il": "Eskişehir",
+    "ilce": "Odunpazarı",
+    "mahalle": null,
+    "ad_soyad": "Ekim Muhtarlar",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": "2026-10-20",
+    "namaz_yeri_vakti": "Tiryakizade Süleymanağa Camii, öğle namazı",
+    "liste_tarihi": "2026-10-20",
+    "kaynak_ad": "İstikbal Gazetesi",
+    "kaynak_url": "https://www.istikbalgazetesi.com/muhtarlar-gununde-hayatini-kaybetmisti-erol-erdal-gurdogan-topraga-verildi",
+    "alindi": "2026-10-24T18:42:47+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-20",
+     "sayfa_tarihi": "2026-10-20",
+     "tarih_kaynagi": "metin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:43:43+00:00"
+   }
+  ]
+ },
  "il_disi": [],
  "ilce_belirsiz": [],
- "toplam": 0,
- "guncelleme": "2026-10-18T18:44:09+00:00",
+ "toplam": 2,
+ "guncelleme": "2026-10-24T18:43:43+00:00",
  "ilce_durum": {
   "Çifteler": 0,
   "Sakarya Gazetesi": 0,
   "Sonhaber": 0,
-  "İstikbal Gazetesi": 0,
+  "İstikbal Gazetesi": 2,
   "Eskişehir Net": 0,
   "Eskişehir Haber": 0,
   "Eskişehir Ekspres": 0

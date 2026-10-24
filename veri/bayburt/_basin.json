@@ -1,20 +1,25 @@
 {
  "istek": {
   "bayburthaber.com": {
-   "2026-10-19": 2
+   "2026-10-19": 2,
+   "2026-10-24": 1
   },
   "bayburthaberajansi.com.tr": {
-   "2026-10-19": 2
+   "2026-10-19": 2,
+   "2026-10-24": 1
   },
   "bayburtgundem.com": {
-   "2026-10-19": 3
+   "2026-10-19": 3,
+   "2026-10-24": 2
   },
   "bayburtpostasi.com.tr": {
-   "2026-10-19": 6
+   "2026-10-19": 6,
+   "2026-10-24": 4
   }
  },
  "okunan": {
-  "https://www.bayburtpostasi.com.tr/seyhhayran-mahallesinin-emektari-tahsin-cegindir-hayatini-kaybetti": "2026-10-19T18:41:49"
+  "https://www.bayburtpostasi.com.tr/seyhhayran-mahallesinin-emektari-tahsin-cegindir-hayatini-kaybetti": "2026-10-19T18:41:49",
+  "https://www.bayburtpostasi.com.tr/26-yasindaki-bayburtlu-insaat-iscisi-hayatini-kaybetti": "2026-10-24T18:39:43"
  },
  "robots": {
   "www.bayburthaber.com": {

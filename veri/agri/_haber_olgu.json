@@ -108,5 +108,97 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://dogubayazitgazetesi.com/nusaybin-cizre-yolunda-facia-4u-cocuk-6-kisi-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 1,
+   "kayit": 0
+  }
+ },
+ "https://dogubayazitgazetesi.com/sanliurfada-feci-kaza-otomobil-15-metreden-dustu-surucu-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.agrihurses.net/taslicayin-emektar-ogretmeni-yakup-tanriverdi-vefat-etti": {
+  "olgular": [
+   {
+    "ad": "Yakup Tanrıverdi",
+    "yas": null,
+    "ilce": "Taşlıçay",
+    "mahalle": null,
+    "namaz": "Taşlıçay Ehlibeyt Yeşil Camii",
+    "defin": null,
+    "namaz_t": "2026-10-19",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-18",
+  "tani": null
+ },
+ "https://www.ajans04.net/aku-fabrikasinda-korkutan-yangin": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.ajans04.net/agri-da-guler-ozkan-i-olduren-servet-ozkan-dan-kaza-savunmasi": {
+  "olgular": [],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.diyadinnet.com/patnos-kazanbey-koyu-nde-imeceyle-cami-bahcesine-yeni-yerleske-h399553/": {
+  "olgular": [],
+  "tarih": "2026-10-21",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.agri04haber.com/nurettin-alptekin-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Nurettin Alptekin",
+    "yas": null,
+    "ilce": null,
+    "mahalle": null,
+    "namaz": "ikindi namazı",
+    "defin": null,
+    "namaz_t": "2026-10-24",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 1,
+   "olen": 0,
+   "kayit": 1
+  }
+ },
+ "https://www.agri04haber.com/8-cocuk-annesinin-katil-zanlisindan-pes-dedirten-savunma-kaza-mi-cinayet-mi": {
+  "olgular": [],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }

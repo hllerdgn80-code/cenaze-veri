@@ -1,0 +1,41 @@
+{
+ "istek": {
+  "sirnakajans.com": {
+   "2026-10-24": 5
+  },
+  "sirnakhaber.com": {
+   "2026-10-24": 2
+  },
+  "sirnakhaber73.com": {
+   "2026-10-24": 5
+  }
+ },
+ "okunan": {
+  "https://www.sirnakajans.com/kazada-hayatini-kaybeden-6-kisinin-kimlikleri-belli-oldu": "2026-10-24T18:48:02",
+  "https://www.sirnakajans.com/feci-kazada-4u-cocuk-6-kisi-hayatini-kaybetti": "2026-10-24T18:48:06",
+  "https://sirnakhaber73.com/nusaybinde-4u-cocuk-6-kisi-hayatini-kaybetti-61057h.htm": "2026-10-24T18:48:26",
+  "https://sirnakhaber73.com/sirnakta-trafik-kazasi-1-kisi-hayatini-kaybetti-1-kisi-yaralandi-61056h.htm": "2026-10-24T18:48:30"
+ },
+ "robots": {
+  "www.sirnakajans.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.sirnakajans.com/sitemap.xml\nSitemap: https://www.sirnakajans.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.sirnakhaber.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /api\r\n\r\nSitemap: https://sirnakhaber.com/sitemap.xsd",
+   "yasak": false
+  },
+  "www.sirnakhaber73.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /api\r\n\r\nSitemap: https://sirnakhaber73.com/sitemap.xsd",
+   "yasak": false
+  },
+  "sirnakhaber73.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /api\r\n\r\nSitemap: https://sirnakhaber73.com/sitemap.xsd",
+   "yasak": false
+  }
+ }
+}

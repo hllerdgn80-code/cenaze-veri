@@ -1,0 +1,27 @@
+{
+ "istek": {
+  "bingolkenthaber.com": {
+   "2026-10-24": 4
+  },
+  "bingolonline.com": {
+   "2026-10-24": 4
+  }
+ },
+ "okunan": {
+  "https://www.bingolkenthaber.com/bingol-bal-yarismasinin-kazananlari-belli-oldu": "2026-10-24T18:39:59",
+  "https://www.bingolonline.com/haber/bingol-erzurum-yolunda-kaza-3-yarali-84906.html": "2026-10-24T18:40:09",
+  "https://www.bingolonline.com/haber/fon-vurgununda-10-milyon-uzeri-kazanclarin-iadesi-istenecek-84900.html": "2026-10-24T18:40:14"
+ },
+ "robots": {
+  "www.bingolkenthaber.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.bingolkenthaber.com/sitemap.xml\nSitemap: https://www.bingolkenthaber.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.bingolonline.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.bingolonline.com/sitemap/sitemap-index.xml\r\nSitemap: https://www.bingolonline.com/sitemap/google-news.xml\r\nSitemap: https://www.bingolonline.com/sitemap/sonhaberler.xml\r\n",
+   "yasak": false
+  }
+ }
+}

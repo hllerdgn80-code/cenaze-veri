@@ -1,0 +1,40 @@
+{
+ "il": "Bitlis",
+ "ilceler": {},
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "2721ba4f6ceb",
+   "il": "Bitlis",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Hacı Sait Alak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-19",
+   "defin_yeri": "Kadriler Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Bitlis Haber",
+   "kaynak_url": "https://www.bitlishaber13.net/bitliste-vefat-edenler-2-vefat-1",
+   "alindi": "2026-10-24T18:40:14+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-19",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin",
+   "ilk_gorulme": "2026-10-24T18:40:38+00:00"
+  }
+ ],
+ "toplam": 1,
+ "guncelleme": "2026-10-24T18:40:38+00:00",
+ "ilce_durum": {
+  "Bitlis Haber": 1,
+  "Bitlis Postası": 0
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "istek": {
+  "cukurovagazetesi.com": {
+   "2026-10-24": 6
+  },
+  "mersinhabermerkezi.com": {
+   "2026-10-24": 5
+  }
+ },
+ "okunan": {
+  "https://cukurovagazetesi.com/su-kanalina-ucan-aracta-6-kisi-can-verdi": "2026-10-24T18:47:12",
+  "https://cukurovagazetesi.com/mersin-idman-yurdu-kazanmaya-alisti-2-0": "2026-10-24T18:47:16",
+  "https://www.mersinhabermerkezi.com/tirin-hatali-sollamasi-faciaya-davetiye-cikardi-24-kisi-olumden-dondu": "2026-10-24T18:47:28",
+  "https://www.mersinhabermerkezi.com/maltepede-gecekondu-yangini-12-yasindaki-cocuk-hayatini-kaybetti": "2026-10-24T18:47:32"
+ },
+ "robots": {
+  "www.cukurovagazetesi.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nDisallow: /public/\r\nDisallow: /service/\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/\r\nDisallow: /admin/\r\nDisallow: /login/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /user/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\n\r\nSitemap: https://cukurovagazetesi.com/sitemap.xml\r\nSitemap: https://cukurovagazetesi.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "cukurovagazetesi.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nDisallow: /public/\r\nDisallow: /service/\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/\r\nDisallow: /admin/\r\nDisallow: /login/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /user/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\n\r\nSitemap: https://cukurovagazetesi.com/sitemap.xml\r\nSitemap: https://cukurovagazetesi.com/rss?yandex=turbo",
+   "yasak": false
+  },
+  "www.mersinhabermerkezi.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\r\nAllow: /\r\n\r\nUser-agent: Facebot\r\nAllow: /\r\n\r\nUser-agent: Twitterbot\r\nAllow: /\r\n\r\nUser-agent: LinkedInBot\r\nAllow: /\r\n\r\nUser-agent: WhatsApp\r\nAllow: /\r\n\r\nUser-agent: Pinterest\r\nAllow: /\r\n\r\nUser-agent: GPTBot              # OpenAI (ChatGPT)\r\nUser-agent: Google-Extended     # Google (Gemini/Bard)\r\nUser-agent: CCBot               # Common Crawl\r\nUser-agent: ClaudeBot           # Anthropic (Claude)\r\nUser-agent: Applebot-Extended   # Apple Intelligence\r\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\r\nUser-agent: Diffbot             # Veri cikarma botlari\r\nUser-agent: FacebookBot         # Meta AI egitim verileri\r\nUser-agent: *\r\n\r\nDisallow: /widgets/\r\nDisallow: /widgets/load-widget*\r\nDisallow: /bigdata/*\r\nDisallow: /cdn-cgi/*\r\nDisallow: /index.php\r\nDisallow: /public/\r\nDisallow: /service/*\r\nDisallow: /arama/\r\nDisallow: /api\r\nDisallow: /*?q=\r\nDisallow: /*?preview=\r\nDisallow: /*?utm_source=\r\nDisallow: /*?utm_medium=\r\nDisallow: /*?utm_campaign=\r\nDisallow: /*?page=\r\nDisallow: /*?sayfa=\r\nDisallow: /*&page=\r\nDisallow: /*?sort=\r\nDisallow: /*&sort=\r\nDisallow: /advert/*\r\nDisallow: /admin/\r\nDisallow: /register/\r\nDisallow: /password-reset/\r\nDisallow: /auth/\r\nDisallow: /vidyome/embed/\r\nDisallow: /vendor/*\r\nDisallow: /member/\r\nDisallow: /date\r\nDisallow: /poster\r\nDisallow: /arsiv?date\r\nDisallow: /xpanel\r\nDisallow: /comments/*\r\nDisallow: /themes/*\r\nDisallow: /paylas\r\nDisallow: /font-awesome\r\nDisallow: /.well-known/*\r\n\r\nSitemap: https://www.mersinhabermerkezi.com/sitemap.xml\r\nSitemap: https://www.mersinhabermerkezi.com/rss?yandex=turbo",
+   "yasak": false
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "il": "Çankırı",
+ "liste_tarihi": "2026-10-20",
+ "kayitlar": [
+  {
+   "id": "0fe3e8cc5625",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Salih Çetinkaya",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Merkez Aile Mezarlığında",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi Merkez aile mezarlığında toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "4ab818a1974e",
+   "il": "Çankırı",
+   "ilce": "Kurşunlu",
+   "mahalle": null,
+   "ad_soyad": "Veli Kayacı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Kurşunlu İlçesinde",
+   "defin_zamani": "2026-10-20",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-20",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi KURŞUNLU ilçesinde toprağa verilecektir.",
+    "ilce_kaynagi": "ilce_adi_basta"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "ilce_adi_basta"
+  }
+ ]
+}

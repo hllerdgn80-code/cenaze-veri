@@ -1,0 +1,33 @@
+{
+ "il": "Çanakkale",
+ "liste_tarihi": "2026-10-18",
+ "kayitlar": [
+  {
+   "id": "0d78e7da1179",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Urhan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehrimiz Eski Mezarlığı",
+   "defin_zamani": "2026-10-18",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "ikindi namazından sonra Şehitler Camii",
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Çanakkale Belediyesi",
+   "kaynak_url": "https://www.canakkale.bel.tr/tr/sayfa/1214-cenaze-ilanlari/11988-18102026-tarihli-cenaze-ilani",
+   "alindi": "2026-10-24T18:40:44+00:00",
+   "ham": {
+    "sayfa_kimligi": "11988",
+    "cenaze_cumlesi": "Cenazesi bugün ikindi namazından sonra Şehitler Camii'nden kaldırılarak Şehrimiz Eski Mezarlığı'na defnedilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

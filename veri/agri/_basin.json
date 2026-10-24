@@ -1,25 +1,32 @@
 {
  "istek": {
   "dogubayazitgazetesi.com": {
-   "2026-10-19": 6
+   "2026-10-19": 6,
+   "2026-10-24": 4
   },
   "agrihurses.net": {
-   "2026-10-19": 3
+   "2026-10-19": 3,
+   "2026-10-24": 3
   },
   "patnoshabergazetesi.com": {
-   "2026-10-19": 4
+   "2026-10-19": 4,
+   "2026-10-24": 1
   },
   "ajans04.net": {
-   "2026-10-19": 4
+   "2026-10-19": 4,
+   "2026-10-24": 3
   },
   "diyadinnet.com": {
-   "2026-10-19": 2
+   "2026-10-19": 2,
+   "2026-10-24": 2
   },
   "agri04haber.com": {
-   "2026-10-19": 4
+   "2026-10-19": 4,
+   "2026-10-24": 3
   },
   "tv04.net": {
-   "2026-10-19": 4
+   "2026-10-19": 4,
+   "2026-10-24": 1
   }
  },
  "okunan": {
@@ -32,7 +39,15 @@
   "https://www.agri04haber.com/agrida-silahli-saldiri": "2026-10-19T18:40:25",
   "https://www.agri04haber.com/agrida-trafik-kazasi-1-yarali-3": "2026-10-19T18:40:29",
   "https://www.tv04.net/agri-dogubayazit-ta-silahli-saldiri/88891/": "2026-10-19T18:40:39",
-  "https://www.tv04.net/agri-da-arac-bisikletli-cocuga-carpti/88887/": "2026-10-19T18:40:44"
+  "https://www.tv04.net/agri-da-arac-bisikletli-cocuga-carpti/88887/": "2026-10-19T18:40:44",
+  "https://dogubayazitgazetesi.com/nusaybin-cizre-yolunda-facia-4u-cocuk-6-kisi-hayatini-kaybetti": "2026-10-24T18:38:40",
+  "https://dogubayazitgazetesi.com/sanliurfada-feci-kaza-otomobil-15-metreden-dustu-surucu-hayatini-kaybetti": "2026-10-24T18:38:44",
+  "https://www.agrihurses.net/taslicayin-emektar-ogretmeni-yakup-tanriverdi-vefat-etti": "2026-10-24T18:38:52",
+  "https://www.ajans04.net/aku-fabrikasinda-korkutan-yangin": "2026-10-24T18:39:01",
+  "https://www.ajans04.net/agri-da-guler-ozkan-i-olduren-servet-ozkan-dan-kaza-savunmasi": "2026-10-24T18:39:08",
+  "https://www.diyadinnet.com/patnos-kazanbey-koyu-nde-imeceyle-cami-bahcesine-yeni-yerleske-h399553/": "2026-10-24T18:39:14",
+  "https://www.agri04haber.com/nurettin-alptekin-hayatini-kaybetti": "2026-10-24T18:39:18",
+  "https://www.agri04haber.com/8-cocuk-annesinin-katil-zanlisindan-pes-dedirten-savunma-kaza-mi-cinayet-mi": "2026-10-24T18:39:22"
  },
  "robots": {
   "www.dogubayazitgazetesi.com": {

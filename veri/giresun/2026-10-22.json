@@ -1,0 +1,31 @@
+{
+ "il": "Giresun",
+ "liste_tarihi": "2026-10-22",
+ "kayitlar": [
+  {
+   "id": "d7e6d0809126",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Barça Köyü",
+   "ad_soyad": "Leman Kara",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aynı Yerde",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "Çandır Köyü Camiinde İkindi Namazına Müteakiben",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/22/22-10-2026-persembe-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "mahalle_tablo"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
+  }
+ ]
+}

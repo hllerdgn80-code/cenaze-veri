@@ -3,6 +3,34 @@
  "ilceler": {
   "Doğubayazıt": [
    {
+    "id": "5b630f70b455",
+    "il": "Ağrı",
+    "ilce": "Doğubayazıt",
+    "mahalle": "Gürbulak Köyü",
+    "ad_soyad": "Kemal Gültekin",
+    "anne_baba": null,
+    "yas": 64,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-24",
+    "kaynak_ad": "Doğubayazıt Gazetesi",
+    "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazit-gurbulak-koyunden-kemal-gultekin-vefat-etti",
+    "alindi": "2026-10-24T18:38:35+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-24",
+     "sayfa_tarihi": "2026-10-24",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:39:24+00:00"
+   },
+   {
     "id": "78f5b861a38e",
     "il": "Ağrı",
     "ilce": "Doğubayazıt",
@@ -29,34 +57,6 @@
     "ilce_belirsiz": false,
     "kaynak_turu": "yerel_haber",
     "ilk_gorulme": "2026-10-19T18:40:45+00:00"
-   },
-   {
-    "id": "47d0f1e70dc5",
-    "il": "Ağrı",
-    "ilce": "Doğubayazıt",
-    "mahalle": "İncesu Köyü",
-    "ad_soyad": "Fatma Güç",
-    "anne_baba": null,
-    "yas": 65,
-    "dogum_tarihi": null,
-    "vefat_tarihi": null,
-    "defin_yeri": "Koçkıran Şehir Mezarlığı",
-    "defin_zamani": null,
-    "namaz_tarihi": null,
-    "namaz_yeri_vakti": null,
-    "liste_tarihi": "2026-10-17",
-    "kaynak_ad": "Doğubayazıt Gazetesi",
-    "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazitta-7-cocuk-annesi-fatma-guc-hayatini-kaybetti",
-    "alindi": "2026-10-19T18:39:02+00:00",
-    "ham": {
-     "yayin_tarihi": "2026-10-17",
-     "sayfa_tarihi": "2026-10-17",
-     "tarih_kaynagi": "yayin_tarihi"
-    },
-    "il_disi_defin": null,
-    "ilce_belirsiz": false,
-    "kaynak_turu": "yerel_haber",
-    "ilk_gorulme": "2026-10-19T18:40:45+00:00"
    }
   ],
   "Taşlıçay": [
@@ -77,7 +77,7 @@
     "liste_tarihi": "2026-10-19",
     "kaynak_ad": "Patnos Haber Gazetesi",
     "kaynak_url": "https://www.patnoshabergazetesi.com/taslicayli-emektar-ogretmen-hayatini-kaybetti/104482",
-    "alindi": "2026-10-19T18:39:02+00:00",
+    "alindi": "2026-10-24T18:38:35+00:00",
     "ham": {
      "yayin_tarihi": "2026-10-19",
      "sayfa_tarihi": "2026-10-19",
@@ -87,6 +87,34 @@
     "ilce_belirsiz": false,
     "kaynak_turu": "yerel_haber",
     "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   },
+   {
+    "id": "dfaefcf13f32",
+    "il": "Ağrı",
+    "ilce": "Taşlıçay",
+    "mahalle": null,
+    "ad_soyad": "Yakup Tanrıverdi",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": "2026-10-19",
+    "namaz_yeri_vakti": "Taşlıçay Ehlibeyt Yeşil Camii",
+    "liste_tarihi": "2026-10-19",
+    "kaynak_ad": "Ağrı Hürses",
+    "kaynak_url": "https://www.agrihurses.net/taslicayin-emektar-ogretmeni-yakup-tanriverdi-vefat-etti",
+    "alindi": "2026-10-24T18:38:35+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-18",
+     "sayfa_tarihi": "2026-10-18",
+     "tarih_kaynagi": "metin"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:39:24+00:00"
    },
    {
     "id": "2021014238b2",
@@ -119,17 +147,74 @@
   ]
  },
  "il_disi": [],
- "ilce_belirsiz": [],
- "toplam": 4,
- "guncelleme": "2026-10-19T18:40:45+00:00",
+ "ilce_belirsiz": [
+  {
+   "id": "90a185f18767",
+   "il": "Ağrı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nurettin Alptekin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Ağrı 04 Haber",
+   "kaynak_url": "https://www.agri04haber.com/nurettin-alptekin-hayatini-kaybetti",
+   "alindi": "2026-10-24T18:38:35+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-24T18:39:24+00:00"
+  },
+  {
+   "id": "864651bc3de3",
+   "il": "Ağrı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nurettin Alptekin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Karaca Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "TV04",
+   "kaynak_url": "https://www.tv04.net/alptekin-ailesinin-aci-gunu-nurettin-alptekin-hayatini-kaybetti/88903/",
+   "alindi": "2026-10-24T18:38:35+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-24T18:39:24+00:00"
+  }
+ ],
+ "toplam": 7,
+ "guncelleme": "2026-10-24T18:39:24+00:00",
  "ilce_durum": {
-  "Doğubayazıt Gazetesi": 2,
+  "Doğubayazıt Gazetesi": 1,
   "Ağrı Hürses": 1,
   "Patnos Haber Gazetesi": 1,
   "Ajans 04": 0,
   "Diyadin Net": 0,
-  "Ağrı 04 Haber": 0,
-  "TV04": 0,
+  "Ağrı 04 Haber": 1,
+  "TV04": 1,
   "Ağrıda Haber": "ENGEL (bırakıldı): robots.txt yasaklıyor: https://www.agridahaber.com/rss/",
   "Karaköse Haber": "ENGEL (bırakıldı): robots.txt yasaklıyor: https://www.karakosehaber.com/rss/"
  }

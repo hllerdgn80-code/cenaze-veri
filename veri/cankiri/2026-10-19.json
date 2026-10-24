@@ -1,0 +1,84 @@
+{
+ "il": "Çankırı",
+ "liste_tarihi": "2026-10-19",
+ "kayitlar": [
+  {
+   "id": "bf5aab42bb0a",
+   "il": "Çankırı",
+   "ilce": "Ilgaz",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Çakmak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Ilgaz İlçesinde",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi ILGAZ ilçesinde toprağa verilecektir.",
+    "ilce_kaynagi": "mezarlik_tablosu"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mezarlik_tablosu"
+  },
+  {
+   "id": "679c46d2e353",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Fadime Çakmak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Merkez Aile Mezarlığında",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi Merkez aile mezarlığında toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "560dda82e722",
+   "il": "Çankırı",
+   "ilce": "Yapraklı",
+   "mahalle": null,
+   "ad_soyad": "Abdullah Metin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Ayseki Köyünde",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi AYSEKİ köyünde toprağa verilecektir.",
+    "ilce_kaynagi": "mahalle_tablo"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "mahalle_tablo"
+  }
+ ]
+}

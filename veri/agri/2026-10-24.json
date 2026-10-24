@@ -1,0 +1,60 @@
+{
+ "il": "Ağrı",
+ "liste_tarihi": "2026-10-24",
+ "kayitlar": [
+  {
+   "id": "5b630f70b455",
+   "il": "Ağrı",
+   "ilce": "Doğubayazıt",
+   "mahalle": "Gürbulak Köyü",
+   "ad_soyad": "Kemal Gültekin",
+   "anne_baba": null,
+   "yas": 64,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Doğubayazıt Gazetesi",
+   "kaynak_url": "https://dogubayazitgazetesi.com/dogubayazit-gurbulak-koyunden-kemal-gultekin-vefat-etti",
+   "alindi": "2026-10-24T18:38:35+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_haber"
+  },
+  {
+   "id": "90a185f18767",
+   "il": "Ağrı",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nurettin Alptekin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Ağrı 04 Haber",
+   "kaynak_url": "https://www.agri04haber.com/nurettin-alptekin-hayatini-kaybetti",
+   "alindi": "2026-10-24T18:38:35+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

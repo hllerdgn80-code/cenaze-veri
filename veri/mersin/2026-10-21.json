@@ -1,0 +1,50 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-21",
+ "kayitlar": [
+  {
+   "id": "3c00892780cd",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Esentepe Mahallesi",
+   "ad_soyad": "Fatma Sultan Çobanoğlu",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehir Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Öğle",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/21-10-2026-vefat-edenler/",
+   "alindi": "2026-10-24T18:46:51+00:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "0d94f8ea9361",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Güleç Mahallesi",
+   "ad_soyad": "Sultan Toprak",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Güleç Mezarlığı",
+   "defin_zamani": "2026-10-21",
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Saat 10:00",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/21-10-2026-vefat-edenler/",
+   "alindi": "2026-10-24T18:46:51+00:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

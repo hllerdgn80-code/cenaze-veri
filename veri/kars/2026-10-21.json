@@ -1,0 +1,33 @@
+{
+ "il": "Kars",
+ "liste_tarihi": "2026-10-21",
+ "kayitlar": [
+  {
+   "id": "1ec482e6f5ac",
+   "il": "Kars",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ennağı Topkaya",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Kars Hakimiyet",
+   "kaynak_url": "https://www.karshakimiyet.com/ennagi-topkaya-vefat-etti-120828h.htm",
+   "alindi": "2026-10-24T18:45:33+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-21",
+    "sayfa_tarihi": "2026-10-21",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

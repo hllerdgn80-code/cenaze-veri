@@ -1,0 +1,55 @@
+{
+ "il": "Giresun",
+ "liste_tarihi": "2026-10-21",
+ "kayitlar": [
+  {
+   "id": "c604d82de190",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Uzkara Köyü",
+   "ad_soyad": "Hayati Akgün",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Uzkara Köyünde İkindi Namazına Müteakiben",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/21/21-10-2026-carsamba-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_ham": "Merkez"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
+  },
+  {
+   "id": "753a25b08d48",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Teyyaredüzü Mahallesi",
+   "ad_soyad": "Ali Kurt",
+   "anne_baba": "Toka Bekir Kurt",
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-21",
+   "namaz_yeri_vakti": "Boztekke Camiinde İkindi Namazına Müteakiben",
+   "liste_tarihi": "2026-10-21",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/21/21-10-2026-carsamba-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

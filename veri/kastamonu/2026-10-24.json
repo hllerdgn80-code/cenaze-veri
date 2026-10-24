@@ -1,0 +1,33 @@
+{
+ "il": "Kastamonu",
+ "liste_tarihi": "2026-10-24",
+ "kayitlar": [
+  {
+   "id": "15be339dcc5d",
+   "il": "Kastamonu",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Sabahat Alpagut",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kastamonu Haber",
+   "kaynak_url": "https://www.kastamonuhaber.com/kastamonuda-aci-haber-sabahat-alpagut-hayatini-kaybetti",
+   "alindi": "2026-10-24T18:46:07+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber"
+  }
+ ]
+}

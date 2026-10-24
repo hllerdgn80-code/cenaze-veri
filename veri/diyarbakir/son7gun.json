@@ -1,0 +1,130 @@
+{
+ "il": "Diyarbakır",
+ "ilceler": {
+  "Bismil": [
+   {
+    "id": "77b9ea78dd23",
+    "il": "Diyarbakır",
+    "ilce": "Bismil",
+    "mahalle": null,
+    "ad_soyad": "Mehmet Salih Akbaş",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-24",
+    "kaynak_ad": "Bismil Haber",
+    "kaynak_url": "https://www.bismilhaber.com.tr/akbas-ailesinin-aci-gunu-haci-mehmet-salih-akbas-vefat-etti",
+    "alindi": "2026-10-24T18:41:32+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-24",
+     "sayfa_tarihi": "2026-10-24",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:42:40+00:00"
+   },
+   {
+    "id": "39d945125d11",
+    "il": "Diyarbakır",
+    "ilce": "Bismil",
+    "mahalle": "Tepe Beldesi",
+    "ad_soyad": "Sait Çelebi",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "Bismil Tepe Beldesi Yeni Camii",
+    "liste_tarihi": "2026-10-24",
+    "kaynak_ad": "Bismil Haber",
+    "kaynak_url": "https://www.bismilhaber.com.tr/bismilin-tepe-beldesinde-celebi-ailesinin-aci-gunu-sait-celebi-vefat-etmistir",
+    "alindi": "2026-10-24T18:41:32+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-24",
+     "sayfa_tarihi": "2026-10-24",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:42:40+00:00"
+   },
+   {
+    "id": "47051b135e7a",
+    "il": "Diyarbakır",
+    "ilce": "Bismil",
+    "mahalle": "Sanayi Mahallesi",
+    "ad_soyad": "Latif Işık",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-24",
+    "kaynak_ad": "Bismil Haber",
+    "kaynak_url": "https://www.bismilhaber.com.tr/bismilde-isik-ailesinin-aci-gunu-latif-isik-vefat-etmistir",
+    "alindi": "2026-10-24T18:41:32+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-24",
+     "sayfa_tarihi": "2026-10-24",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:42:40+00:00"
+   },
+   {
+    "id": "fa7bd2e15d4b",
+    "il": "Diyarbakır",
+    "ilce": "Bismil",
+    "mahalle": "Akpınar Mahallesi",
+    "ad_soyad": "Şükran Kurtulmuş",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": null,
+    "defin_yeri": null,
+    "defin_zamani": null,
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": null,
+    "liste_tarihi": "2026-10-23",
+    "kaynak_ad": "Bismil Haber",
+    "kaynak_url": "https://www.bismilhaber.com.tr/bismilde-celik-ve-kurtulmus-ailesinin-aci-gunu-sukran-kurtulmus-vefat-etmistir",
+    "alindi": "2026-10-24T18:41:32+00:00",
+    "ham": {
+     "yayin_tarihi": "2026-10-23",
+     "sayfa_tarihi": "2026-10-23",
+     "tarih_kaynagi": "yayin_tarihi"
+    },
+    "il_disi_defin": null,
+    "ilce_belirsiz": false,
+    "kaynak_turu": "yerel_haber",
+    "ilk_gorulme": "2026-10-24T18:42:40+00:00"
+   }
+  ]
+ },
+ "il_disi": [],
+ "ilce_belirsiz": [],
+ "toplam": 4,
+ "guncelleme": "2026-10-24T18:42:40+00:00",
+ "ilce_durum": {
+  "Bismil Haber": 1,
+  "Mücadele Gazetesi": 0,
+  "Diyarbakır Söz": 0,
+  "Bismil Haber (vefat sayfası)": 4,
+  "Mücadele Gazetesi (vefat sayfası)": 0
+ }
+}

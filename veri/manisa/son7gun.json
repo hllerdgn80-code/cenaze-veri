@@ -4,6 +4,60 @@
  "il_disi": [],
  "ilce_belirsiz": [
   {
+   "id": "f03e5e0dedf3",
+   "il": "Manisa",
+   "ilce": null,
+   "mahalle": "Efendi Mahallesi",
+   "ad_soyad": "Nihal Subaşılı",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yeni Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "Hilaliye Camii, cuma namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Akhisar Haber",
+   "kaynak_url": "https://www.akhisarhaber.net/vefat/nihal-subasili/19578",
+   "alindi": "2026-10-24T18:46:40+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin",
+   "ilk_gorulme": "2026-10-24T18:46:51+00:00"
+  },
+  {
+   "id": "76e8eeb8aee5",
+   "il": "Manisa",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Nadire Örekkuş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yeni Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-23",
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Akhisar Haber",
+   "kaynak_url": "https://www.akhisarhaber.net/vefat/nadire-orekkus/19577",
+   "alindi": "2026-10-24T18:46:40+00:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin",
+   "ilk_gorulme": "2026-10-24T18:46:51+00:00"
+  },
+  {
    "id": "171695f9b495",
    "il": "Manisa",
    "ilce": null,
@@ -29,37 +83,10 @@
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin",
    "ilk_gorulme": "2026-10-19T18:41:01+00:00"
-  },
-  {
-   "id": "7fc544c06ab2",
-   "il": "Manisa",
-   "ilce": null,
-   "mahalle": null,
-   "ad_soyad": "Sabri Degerli",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": null,
-   "defin_yeri": "Yeni Mezarlığı",
-   "defin_zamani": null,
-   "namaz_tarihi": "2026-10-16",
-   "namaz_yeri_vakti": "Yıldız Camii, ikindi namazı",
-   "liste_tarihi": "2026-10-16",
-   "kaynak_ad": "Akhisar Haber",
-   "kaynak_url": "https://www.akhisarhaber.net/vefat/sabri-degerli/19490",
-   "alindi": "2026-10-19T18:40:45+00:00",
-   "ham": {
-    "sayfa_tarihi": "2026-10-16",
-    "tarih_kaynagi": "yayin_tarihi"
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": true,
-   "kaynak_turu": "yerel_basin",
-   "ilk_gorulme": "2026-10-19T18:41:01+00:00"
   }
  ],
- "toplam": 2,
- "guncelleme": "2026-10-19T18:41:01+00:00",
+ "toplam": 3,
+ "guncelleme": "2026-10-24T18:46:51+00:00",
  "ilce_durum": {
   "Akhisar Haber": 2
  }

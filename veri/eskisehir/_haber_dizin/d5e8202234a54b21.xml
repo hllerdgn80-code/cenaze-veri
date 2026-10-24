@@ -8,119 +8,299 @@
     <language>tr-TR</language>
     <copyright>Copyright © 2026. Her hakkı saklıdır.</copyright>
     <category>News</category>
-    <lastBuildDate>Sun, 18 Oct 2026 21:40:46 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 21:42:36 +0300</lastBuildDate>
     <ttl>1</ttl>
     <atom:link rel="self" href="https://www.eskisehir.net/rss"/>
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
     <item>
-      <title><![CDATA[Eskişehir otobüsünde taciz iddiası: Muavin yolculuk boyunca...]]></title>
-      <link>https://www.eskisehir.net/eskisehir-otobusunde-skandal-tacizi-iddiasi-muavin-yolculuk-boyunca</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehir-otobusunde-skandal-tacizi-iddiasi-muavin-yolculuk-boyunca" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir kalkışlı bir şehirler arası otobüste seyahat eden kadın yolcu, firmasında görevli muavin tarafından seyahat süresince rahatsız edildiğini öne sürdü.]]></description>
+      <title><![CDATA[Tarih belli oldu: Eskişehir'de su yükleme işlemleri online gerçekleştirilecek]]></title>
+      <link>https://www.eskisehir.net/tarih-belli-oldu-eskisehirde-su-yukleme-islemleri-online-gerceklestirilecek</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/tarih-belli-oldu-eskisehirde-su-yukleme-islemleri-online-gerceklestirilecek" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de online su yükleme sistemi 26 Ekim’de kullanıma açılacak. Aboneler telefonları üzerinden su yükleyebilecek.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehir-otobusunde-skandal-tacizi-iddiasi-muavin-yolculuk-boyunca</guid>
-      <pubDate>Sun, 18 Oct 2026 21:06:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/otobus-3-2.jpg" type="image/jpeg" length="45740"/>
+      <guid>https://www.eskisehir.net/tarih-belli-oldu-eskisehirde-su-yukleme-islemleri-online-gerceklestirilecek</guid>
+      <pubDate>Sat, 24 Oct 2026 21:33:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/su-yukleme-1.png" type="image/jpeg" length="54575"/>
     </item>
     <item>
-      <title><![CDATA[Es-Es seyircisine kavuşuyor: İşte Eskişehirspor'un kasım ayı iç saha maçları]]></title>
-      <link>https://www.eskisehir.net/es-es-seyircisine-kavusuyor-iste-eskisehirsporun-kasim-ayi-ic-saha-maclari</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/es-es-seyircisine-kavusuyor-iste-eskisehirsporun-kasim-ayi-ic-saha-maclari" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehirspor'un seyirci cezası sona erdi. Siyah kırmızılı ekip, Bura Yıldırımspor karşılaşmasında seyircisine kavuşacak.]]></description>
+      <title><![CDATA[Eskişehirspor evinde Bursa Yıldırım SK ile berabere kaldı]]></title>
+      <link>https://www.eskisehir.net/eskisehirspor-evinde-bursa-yildirim-sk-ile-berabere-kaldi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirspor-evinde-bursa-yildirim-sk-ile-berabere-kaldi" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehirspor, Nesine 3. Lig’in 8. haftasında Bursa Yıldırım SK ile sahasında 2-2 berabere kaldı.]]></description>
       <category>Eskişehirspor</category>
-      <guid>https://www.eskisehir.net/es-es-seyircisine-kavusuyor-iste-eskisehirsporun-kasim-ayi-ic-saha-maclari</guid>
-      <pubDate>Sun, 18 Oct 2026 20:48:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/taraftar-1-1.jpg" type="image/jpeg" length="62408"/>
+      <guid>https://www.eskisehir.net/eskisehirspor-evinde-bursa-yildirim-sk-ile-berabere-kaldi</guid>
+      <pubDate>Sat, 24 Oct 2026 21:08:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskisehirspor-75.png" type="image/jpeg" length="96931"/>
     </item>
     <item>
-      <title><![CDATA[Türk sanat dünyasının usta ismi hayatını kaybetti]]></title>
-      <link>https://www.eskisehir.net/turk-sanatinin-usta-ismi-hayatini-kaybetti</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/turk-sanatinin-usta-ismi-hayatini-kaybetti" type="application/rss+xml"/>
-      <description><![CDATA[Türk resim ve özgün baskı sanatının önemli temsilcilerinden ressam, heykeltıraş ve eğitimci Süleyman Saim Tekcan, 86 yaşında yaşamını yitirdi.]]></description>
+      <title><![CDATA[Dev marka duyurdu: Benzinli ve hibrit modeller tarihe karışıyor]]></title>
+      <link>https://www.eskisehir.net/dev-marka-duyurdu-benzinli-ve-hibrit-modeller-tarihe-karisiyor</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/dev-marka-duyurdu-benzinli-ve-hibrit-modeller-tarihe-karisiyor" type="application/rss+xml"/>
+      <description><![CDATA[Japon otomobil üreticisi Subaru, Avrupa pazarında benzinli ve hibrit modellerinin satışını 2027 sonuna kadar kademeli olarak sonlandırmayı planlıyor.]]></description>
+      <category>Teknoloji</category>
+      <guid>https://www.eskisehir.net/dev-marka-duyurdu-benzinli-ve-hibrit-modeller-tarihe-karisiyor</guid>
+      <pubDate>Sat, 24 Oct 2026 20:58:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/araba-1.png" type="image/jpeg" length="99000"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehirspor, Bursa Yıldırım karşısında ilk yarıyı geride kapattı]]></title>
+      <link>https://www.eskisehir.net/eskisehirspor-bursa-yildirim-karsisinda-ilk-yariyi-geride-kapatti</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirspor-bursa-yildirim-karsisinda-ilk-yariyi-geride-kapatti" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehirspor, Nesine 3. Lig’in 8. haftasında sahasında konuk ettiği Bursa Yıldırım SK karşısında ilk yarıyı 1-0 geride tamamladı.]]></description>
+      <category>Eskişehirspor</category>
+      <guid>https://www.eskisehir.net/eskisehirspor-bursa-yildirim-karsisinda-ilk-yariyi-geride-kapatti</guid>
+      <pubDate>Sat, 24 Oct 2026 19:54:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskisehirspor-74.png" type="image/jpeg" length="72317"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’de öğrenciye zorla tespih satan şüphelinin cezası belli oldu]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-ogrenciye-zorla-tespih-satan-suphelinin-cezasi-belli-oldu</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-ogrenciye-zorla-tespih-satan-suphelinin-cezasi-belli-oldu" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de bir öğrenciye zorla tespih sattığı ve 100 TL aldığı iddia edilen 26 yaşındaki şüpheli hakkında karar verildi.]]></description>
+      <category>Eskişehir</category>
+      <guid>https://www.eskisehir.net/eskisehirde-ogrenciye-zorla-tespih-satan-suphelinin-cezasi-belli-oldu</guid>
+      <pubDate>Sat, 24 Oct 2026 19:36:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ev-hapsi.png" type="image/jpeg" length="61620"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’de yumruklu saldırının mağduru Hiranur: “Sınava giremeyeceğim”]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-yumruklu-saldirinin-magduru-hiranur-sinava-giremeyecegim</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-yumruklu-saldirinin-magduru-hiranur-sinava-giremeyecegim" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de tanımadığı kişinin yumruklu saldırısına uğrayan Hiranur Dereli, kolunun üzerine düşmesi nedeniyle KPSS sınavına katılamayabileceğini söyledi.]]></description>
+      <category>Eskişehir</category>
+      <guid>https://www.eskisehir.net/eskisehirde-yumruklu-saldirinin-magduru-hiranur-sinava-giremeyecegim</guid>
+      <pubDate>Sat, 24 Oct 2026 19:24:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/saldiri-magduru-konustu.png" type="image/jpeg" length="58926"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehirspor’un Bursa Yıldırım karşısında ilk 11'i belli oldu]]></title>
+      <link>https://www.eskisehir.net/eskisehirsporun-bursa-yildirim-karsisinda-ilk-11i-belli-oldu</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirsporun-bursa-yildirim-karsisinda-ilk-11i-belli-oldu" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehirspor’un Bursa Yıldırım SK maçında sahaya çıkacağı ilk 11 açıklandı. İşte, forma giyecek isimler...]]></description>
+      <category>Eskişehirspor</category>
+      <guid>https://www.eskisehir.net/eskisehirsporun-bursa-yildirim-karsisinda-ilk-11i-belli-oldu</guid>
+      <pubDate>Sat, 24 Oct 2026 18:32:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ilk-11-5.png" type="image/jpeg" length="42730"/>
+    </item>
+    <item>
+      <title><![CDATA[AK Parti Çayırova teşkilatından Ali Şan Eskişehir’de toprağa verildi]]></title>
+      <link>https://www.eskisehir.net/ak-parti-cayirova-teskilatindan-ali-san-eskisehirde-topraga-verildi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/ak-parti-cayirova-teskilatindan-ali-san-eskisehirde-topraga-verildi" type="application/rss+xml"/>
+      <description><![CDATA[Ali Şan, 24 Ekim Cumartesi günü Eskişehir Gündoğdu Mahallesi’nde düzenlenen cenaze töreninin ardından Asri Mezarlık’ta defnedildi.]]></description>
+      <category>Eskişehir</category>
+      <guid>https://www.eskisehir.net/ak-parti-cayirova-teskilatindan-ali-san-eskisehirde-topraga-verildi</guid>
+      <pubDate>Sat, 24 Oct 2026 18:19:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/hayatini-kaybetti-2.jpg" type="image/jpeg" length="82404"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’de bu gece gökyüzüne bakın! Ay ve Satürn bir arada görülecek]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-bu-gece-gokyuzune-bakin-ay-ve-saturn-bir-arada-gorulecek</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-bu-gece-gokyuzune-bakin-ay-ve-saturn-bir-arada-gorulecek" type="application/rss+xml"/>
+      <description><![CDATA[24 Ekim Cumartesi akşamı Ay ile Satürn gökyüzünde birbirine yakın konumda görülecek. Eskişehir’de de gözlemlenebilecek gök olayı için teleskop gerekmiyor.]]></description>
+      <category>Eskişehir</category>
+      <guid>https://www.eskisehir.net/eskisehirde-bu-gece-gokyuzune-bakin-ay-ve-saturn-bir-arada-gorulecek</guid>
+      <pubDate>Sat, 24 Oct 2026 17:57:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ay-ve-venus.png" type="image/jpeg" length="11225"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir'de bir tur skandalı daha: Parayı günlerdir iade etmiyorlar]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-bir-tur-skandali-daha-parayi-gunlerdir-iade-etmiyorlar</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-bir-tur-skandali-daha-parayi-gunlerdir-iade-etmiyorlar" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir turu için ödeme yapan aile, turun firma tarafından iptal edilmesine rağmen ücret iadesini alamadığını belirterek mağduriyetini dile getirdi.]]></description>
+      <category>Eskişehir</category>
+      <guid>https://www.eskisehir.net/eskisehirde-bir-tur-skandali-daha-parayi-gunlerdir-iade-etmiyorlar</guid>
+      <pubDate>Sat, 24 Oct 2026 17:11:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/07/eskisehir-para-2.jpg" type="image/jpeg" length="84403"/>
+    </item>
+    <item>
+      <title><![CDATA[Aylar süren hasret bitiyor: 17 binden fazla taraftar bilet aldı]]></title>
+      <link>https://www.eskisehir.net/aylar-suren-hasret-bitiyor-17-binden-fazla-taraftar-bilet-aldi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/aylar-suren-hasret-bitiyor-17-binden-fazla-taraftar-bilet-aldi" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehirspor, 169 gün sonra evinde taraftarıyla buluşuyor. Bu akşam 19.00'da oynanacak Bursa Yıldırımspor maçında bilet satışı 17 bini aştı.]]></description>
+      <category>Eskişehirspor</category>
+      <guid>https://www.eskisehir.net/aylar-suren-hasret-bitiyor-17-binden-fazla-taraftar-bilet-aldi</guid>
+      <pubDate>Sat, 24 Oct 2026 16:50:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/taraftar-1-1.jpg" type="image/jpeg" length="64162"/>
+    </item>
+    <item>
+      <title><![CDATA[Son dakika: Ünlü şarkıcı Nev hayatını kaybetti]]></title>
+      <link>https://www.eskisehir.net/son-dakika-unlu-sarkici-nev-hayatini-kaybetti</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/son-dakika-unlu-sarkici-nev-hayatini-kaybetti" type="application/rss+xml"/>
+      <description><![CDATA[Bir süredir yoğun bakımda tedavi gören Nev ismiyle tanınan şarkıcı Nevzat Doğansoy hayatını kaybetti.]]></description>
       <category>Gündem</category>
-      <guid>https://www.eskisehir.net/turk-sanatinin-usta-ismi-hayatini-kaybetti</guid>
-      <pubDate>Sun, 18 Oct 2026 20:34:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/saim-tekcan.jpg" type="image/jpeg" length="88261"/>
+      <guid>https://www.eskisehir.net/son-dakika-unlu-sarkici-nev-hayatini-kaybetti</guid>
+      <pubDate>Sat, 24 Oct 2026 16:16:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/n-e-v.jpg" type="image/jpeg" length="94231"/>
     </item>
     <item>
-      <title><![CDATA[İl Sağlık Müdürlüğü çağrıda bulundu: Eskişehir'de ücretsiz şekilde yaptırabilirsiniz]]></title>
-      <link>https://www.eskisehir.net/il-saglik-mudurlugu-cagrida-bulundu-eskisehirde-ucretsiz-sekilde-yaptirabilirsiniz</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/il-saglik-mudurlugu-cagrida-bulundu-eskisehirde-ucretsiz-sekilde-yaptirabilirsiniz" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir İl Sağlık Müdürlüğü, 1-31 Ekim Meme Kanseri Farkındalık Ayı hakkında yaptığı açıklamada, erken teşhisin önemine dikkat çekti. İşte Eskişehir'de ücretsiz tarama yaptırabileceğiniz yerler...]]></description>
+      <title><![CDATA[Eskişehir’de trafik önlemleri artırıldı! Valilikten önemli uyarı]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-trafik-onlemleri-artirildi-valilikten-onemli-uyari</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-trafik-onlemleri-artirildi-valilikten-onemli-uyari" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir Valiliği, 25 Ekim Pazar günü yapılacak 2026-KPSS Ortaöğretim Sınavı için alınan trafik tedbirlerini ve uyarıları açıkladı.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/il-saglik-mudurlugu-cagrida-bulundu-eskisehirde-ucretsiz-sekilde-yaptirabilirsiniz</guid>
-      <pubDate>Sun, 18 Oct 2026 20:16:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/kanser-1.jpg" type="image/jpeg" length="86802"/>
+      <guid>https://www.eskisehir.net/eskisehirde-trafik-onlemleri-artirildi-valilikten-onemli-uyari</guid>
+      <pubDate>Sat, 24 Oct 2026 16:11:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/08/eskisehir-valiligi-net.png" type="image/jpeg" length="89140"/>
     </item>
     <item>
-      <title><![CDATA[Eskişehir'de misafirliğe gittiği evde bıçakla öldürülmüştü: 1 şüpheli tutuklandı]]></title>
-      <link>https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-bicakla-oldurulmustu-1-supheli-tutuklandi</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-bicakla-oldurulmustu-1-supheli-tutuklandi" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir'de misafir olarak gittiği evin mutfağında bıçaklanarak ağır yaralanması sonucu yaşamını yitiren Osman K.’nin ölümüne ilişkin gözaltına alınan Ş.E. tutuklandı.]]></description>
+      <title><![CDATA[Eskişehir'de kapsül kokain taşıyan 3 şüpheliden 2'si tutuklandı]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-kapsul-kokain-tasiyan-3-supheliden-2si-tutuklandi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-kapsul-kokain-tasiyan-3-supheliden-2si-tutuklandi" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de 1 kilo 194 gram kokainle yakalanan 3 şüpheliden 2’si tutuklanarak cezaevine gönderildi, 1 şüpheli ise adli kontrolle serbest kaldı.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-bicakla-oldurulmustu-1-supheli-tutuklandi</guid>
-      <pubDate>Sun, 18 Oct 2026 19:44:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/misafirlige-gittigi-evde-oldu.png" type="image/jpeg" length="83715"/>
+      <guid>https://www.eskisehir.net/eskisehirde-kapsul-kokain-tasiyan-3-supheliden-2si-tutuklandi</guid>
+      <pubDate>Sat, 24 Oct 2026 15:47:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/kokoin.jpg" type="image/jpeg" length="39641"/>
     </item>
     <item>
-      <title><![CDATA[Yalaz: “7 bin 904 oyun ağır sorumluluğunu taşıyacağım”]]></title>
-      <link>https://www.eskisehir.net/yalaz-7-bin-904-oyun-agir-sorumlulugunu-tasiyacagim</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/yalaz-7-bin-904-oyun-agir-sorumlulugunu-tasiyacagim" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’de YENİ Parti il başkanlığı ön seçimine tek aday olarak giren Talat Yalaz, 7 bin 904 oy alarak il başkanı seçildi.]]></description>
+      <title><![CDATA[Gıda devi Eskişehir'de personel alımı başlattı: İşte açık kadrolar]]></title>
+      <link>https://www.eskisehir.net/gida-devi-eskisehirde-personel-alimi-baslatti-iste-acik-kadrolar</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/gida-devi-eskisehirde-personel-alimi-baslatti-iste-acik-kadrolar" type="application/rss+xml"/>
+      <description><![CDATA[Türkiye'nin gıda devlerinden Şenpiliç, Eskişehir’de tam zamanlı çalıştırılmak üzere yeni personel alımı yapacağını duyurdu.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/yalaz-7-bin-904-oyun-agir-sorumlulugunu-tasiyacagim</guid>
-      <pubDate>Sun, 18 Oct 2026 19:36:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/talat-yalaz-1-5.jpg" type="image/jpeg" length="46191"/>
+      <guid>https://www.eskisehir.net/gida-devi-eskisehirde-personel-alimi-baslatti-iste-acik-kadrolar</guid>
+      <pubDate>Sat, 24 Oct 2026 15:37:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/s-e-n-p-i-l-i-c.jpg" type="image/jpeg" length="21209"/>
     </item>
     <item>
-      <title><![CDATA[Saatte 20 meteor görülecek: Eskişehir'de Orionid meteor yağmuru izleyebileceğiniz en iyi konumlar]]></title>
-      <link>https://www.eskisehir.net/saatte-20-meteor-gorulecek-eskisehirde-orionid-meteor-yagmuru-izleyebileceginiz-en-iyi-konumlar</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/saatte-20-meteor-gorulecek-eskisehirde-orionid-meteor-yagmuru-izleyebileceginiz-en-iyi-konumlar" type="application/rss+xml"/>
-      <description><![CDATA[Yılın en dikkat çekici gökyüzü olaylarından Orionid meteor yağmuru, Eskişehir’den de izlenebilecek. İşte meteor yağmuru için tercih edilebilecek noktalar.]]></description>
+      <title><![CDATA[Eskişehir'de Yeni Yıl Pazarı için stant başvuruları devam ediyor]]></title>
+      <link>https://www.eskisehir.net/eskisehirde-yeni-yil-pazari-icin-stant-basvurulari-devam-ediyor</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-yeni-yil-pazari-icin-stant-basvurulari-devam-ediyor" type="application/rss+xml"/>
+      <description><![CDATA[Odunpazarı Belediyesi Yeni Yıl Pazarı, 25-31 Aralık'ta Hicri Sezen Meydanı'nda kurulacak.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/saatte-20-meteor-gorulecek-eskisehirde-orionid-meteor-yagmuru-izleyebileceginiz-en-iyi-konumlar</guid>
-      <pubDate>Sun, 18 Oct 2026 19:04:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/meteor-1.jpg" type="image/jpeg" length="56548"/>
+      <guid>https://www.eskisehir.net/eskisehirde-yeni-yil-pazari-icin-stant-basvurulari-devam-ediyor</guid>
+      <pubDate>Sat, 24 Oct 2026 15:24:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/01/500-bin-ziyaretci-7-gun-tek-meydan-odunpazari-yeni-yil-pazari-rekor-kirdi-6.jpeg" type="image/jpeg" length="90425"/>
     </item>
     <item>
-      <title><![CDATA[Eskişehir'de 2+1 daire için istenen fiyat dudak uçuklattı]]></title>
-      <link>https://www.eskisehir.net/eskisehirde-21-daire-icin-istenen-fiyat-dudak-ucuklatti</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-21-daire-icin-istenen-fiyat-dudak-ucuklatti" type="application/rss+xml"/>
-      <description><![CDATA[Türkiye'de olduğu gibi Eskişehir'de de kiralık daire fiyatlarında artış devam ederken, 2+1 daire için istenen fiyat dudak uçuklattı.]]></description>
+      <title><![CDATA[Rektör Adıgüzel, AAOU 2026 Konferansı'nda Türkiye'yi temsil etti]]></title>
+      <link>https://www.eskisehir.net/rektor-adiguzel-aaou-2026-konferansinda-turkiyeyi-temsil-etti</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/rektor-adiguzel-aaou-2026-konferansinda-turkiyeyi-temsil-etti" type="application/rss+xml"/>
+      <description><![CDATA[Anadolu Üniversitesi Rektörü Prof. Dr. Yusuf Adıgüzel, Filipinler'de düzenlenen 39'uncu AAOU Yıllık Konferansı'nda dünya akademisine seslendi.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehirde-21-daire-icin-istenen-fiyat-dudak-ucuklatti</guid>
-      <pubDate>Sun, 18 Oct 2026 18:35:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/kira-fiyati-1.jpg" type="image/jpeg" length="90025"/>
+      <guid>https://www.eskisehir.net/rektor-adiguzel-aaou-2026-konferansinda-turkiyeyi-temsil-etti</guid>
+      <pubDate>Sat, 24 Oct 2026 15:10:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/anadolu-universitesi-rektoru-prof-dr-adiguzel-aaou-2026-konferansinda-turkiyeyi-temsil-etti-1.jpg" type="image/jpeg" length="88795"/>
     </item>
     <item>
-      <title><![CDATA[Hakan Şapçı galibiyeti değerlendirdi: Eskişehirspor taraftarına çağrıda bulundu]]></title>
-      <link>https://www.eskisehir.net/hakan-sapci-galibiyeti-degerlendirdi-eskisehirspor-taraftarina-cagrida-bulundu</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/hakan-sapci-galibiyeti-degerlendirdi-eskisehirspor-taraftarina-cagrida-bulundu" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehirspor teknik direktörü Hakan Şapçı, Altay deplasmanında alınan galibiyeti değerlendirerek, "Her hafta daha iyi olmak için çalışıyoruz" dedi.]]></description>
-      <category>Eskişehirspor</category>
-      <guid>https://www.eskisehir.net/hakan-sapci-galibiyeti-degerlendirdi-eskisehirspor-taraftarina-cagrida-bulundu</guid>
-      <pubDate>Sun, 18 Oct 2026 18:05:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/hakan-sapci-6.jpg" type="image/jpeg" length="60024"/>
+      <title><![CDATA[Ünlü oyuncu Engin Altan Düzyatan’ın acı günü]]></title>
+      <link>https://www.eskisehir.net/unlu-oyuncu-engin-altan-duzyatanin-aci-gunu</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/unlu-oyuncu-engin-altan-duzyatanin-aci-gunu" type="application/rss+xml"/>
+      <description><![CDATA[Ünlü oyuncu Engin Altan Düzyatan’ın babası Mevlan Düzyatan hayatını kaybetti.]]></description>
+      <category>Magazin</category>
+      <guid>https://www.eskisehir.net/unlu-oyuncu-engin-altan-duzyatanin-aci-gunu</guid>
+      <pubDate>Sat, 24 Oct 2026 14:45:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/11/unlu-oyuncu-engin-altan-duzyatan-ulkeyi-terk-etti-sebebi-bakin-ne-cikti-1.png" type="image/jpeg" length="79790"/>
     </item>
     <item>
-      <title><![CDATA[Taşbaşı Çarşısı'nda çıkan yangının detayları belli oldu]]></title>
-      <link>https://www.eskisehir.net/tasbasi-carsisinda-cikan-yanginin-detaylari-belli-oldu</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/tasbasi-carsisinda-cikan-yanginin-detaylari-belli-oldu" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’in tarihi Taşbaşı Çarşısı’nda bir balıkçı dükkanının bacasında çıkan yangın paniğe neden oldu. Çevredeki esnafın yangın söndürme tüpleriyle müdahale ettiği olay, itfaiye ekiplerinin çalışmasıyla büyümeden kontrol altına alındı.]]></description>
+      <title><![CDATA[Eskişehir yolundaki korkunç kazada can veren şahsın kimliği ortaya çıktı]]></title>
+      <link>https://www.eskisehir.net/eskisehir-yolundaki-korkunc-kazada-can-veren-sahsin-kimligi-ortaya-cikti</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/eskisehir-yolundaki-korkunc-kazada-can-veren-sahsin-kimligi-ortaya-cikti" type="application/rss+xml"/>
+      <description><![CDATA[Ankara-Eskişehir yolu Karapınar Köprüsü’nde bariyerlere çarparak alev alan otomobilde hayatını kaybeden kişinin 34 yaşındaki Yasin Uçar olduğu ortaya çıktı.]]></description>
       <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/tasbasi-carsisinda-cikan-yanginin-detaylari-belli-oldu</guid>
-      <pubDate>Sun, 18 Oct 2026 17:43:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/tasbasi-carsisi-yangin-detay.jpg" type="image/jpeg" length="55392"/>
+      <guid>https://www.eskisehir.net/eskisehir-yolundaki-korkunc-kazada-can-veren-sahsin-kimligi-ortaya-cikti</guid>
+      <pubDate>Sat, 24 Oct 2026 14:38:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/yasin-ucar.jpg" type="image/jpeg" length="41632"/>
     </item>
     <item>
-      <title><![CDATA[Eskişehir’de 19 Ekim elektrik kesintisi: Çok sayıda mahalle ve ilçe etkilenecek]]></title>
-      <link>https://www.eskisehir.net/eskisehirde-19-ekim-elektrik-kesintisi-cok-sayida-mahalle-ve-ilce-etkilenecek</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-19-ekim-elektrik-kesintisi-cok-sayida-mahalle-ve-ilce-etkilenecek" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’de 19 Ekim 2026 Pazartesi günü planlı bakım, yatırım ve bağlantı çalışmaları nedeniyle bazı bölgelerde elektrik kesintisi uygulanacak. Alpu, Odunpazarı, Tepebaşı, Sivrihisar, Sarıcakaya, Seyitgazi ve Çifteler’de yapılacak çalışmalar kapsamında kesintilerin farklı saatlerde gerçekleşmesi planlanıyor.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehirde-19-ekim-elektrik-kesintisi-cok-sayida-mahalle-ve-ilce-etkilenecek</guid>
-      <pubDate>Sun, 18 Oct 2026 16:58:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/09/elektrik-kesintisi-4.jpg" type="image/jpeg" length="25457"/>
+      <title><![CDATA[Hastane bahçesinde toprak kayması: Bir işçi göçük altında kaldı]]></title>
+      <link>https://www.eskisehir.net/hastane-bahcesinde-toprak-kaymasi-bir-isci-gocuk-altinda-kaldi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/hastane-bahcesinde-toprak-kaymasi-bir-isci-gocuk-altinda-kaldi" type="application/rss+xml"/>
+      <description><![CDATA[Bilecik Eğitim ve Araştırma Hastanesi bahçesindeki kanalizasyon çalışmasında göçük altında kalan işçi Mesut Y., ekiplerce kurtarıldı.]]></description>
+      <category>Bilecik</category>
+      <guid>https://www.eskisehir.net/hastane-bahcesinde-toprak-kaymasi-bir-isci-gocuk-altinda-kaldi</guid>
+      <pubDate>Sat, 24 Oct 2026 14:27:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/bilecikte-kanalizasyon-calismasinda-gocuk-altinda-kalan-isci-kurtarildi.jpg" type="image/jpeg" length="36569"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’de öğrenciyi sıkıştırıp zorla para göndertmişti: Yardıma koşan genç o anları anlattı]]></title>
+      <link>https://www.eskisehir.net/video/eskisehirde-ogrenciyi-sikistirip-zorla-para-gondertmisti-yardima-kosan-genc-o-anlari-anlatti</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/eskisehirde-ogrenciyi-sikistirip-zorla-para-gondertmisti-yardima-kosan-genc-o-anlari-anlatti" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de tespih satma bahanesiyle bir öğrenciden zorla para istendiği iddia edilen olaya müdahale eden 19 yaşındaki Ferhat Bilgiseven, yaşananları anlattı. Şahsın öğrenciden 500 lira istediğini söyleyen Bilgiseven, “Ben ‘50 TL olsun’ dedim. Başımızdan defetmeye çalıştık açıkçası” ifadelerini kullandı.]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/eskisehirde-ogrenciyi-sikistirip-zorla-para-gondertmisti-yardima-kosan-genc-o-anlari-anlatti</guid>
+      <pubDate>Fri, 23 Oct 2026 17:54:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskisehirde-ogrenciyi-sikistirip-zorla-para-gondertmisti-yardima-kosan-genc-o-anlari-anlatti.png" type="image/jpeg" length="66464"/>
+    </item>
+    <item>
+      <title><![CDATA[Emrah Safa Gürkan: “Eskişehir’in tarihi dokusu benim için çok önemli “]]></title>
+      <link>https://www.eskisehir.net/video/emrah-safa-gurkan-eskisehirin-tarihi-dokusu-benim-icin-cok-onemli</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/emrah-safa-gurkan-eskisehirin-tarihi-dokusu-benim-icin-cok-onemli" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de Diş Hekimleri Odası tarafından düzenlenen Sempozyumu’a katılan Prof. Dr. Emrah Safa Gürkan, kentin tarihi dokusunun kendisi için önemli olduğunu belirterek, “Eskişehir’in tarihi dokusu benim için çok önemli “ dedi.]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/emrah-safa-gurkan-eskisehirin-tarihi-dokusu-benim-icin-cok-onemli</guid>
+      <pubDate>Fri, 23 Oct 2026 12:43:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/emrah-safa-gurkan-eskisehirin-tarihi-dokusu-benim-icin-cok-onemli.jpg" type="image/jpeg" length="77802"/>
+    </item>
+    <item>
+      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
+      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-47</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-47" type="application/rss+xml"/>
+      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 23.10.2026]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-47</guid>
+      <pubDate>Fri, 23 Oct 2026 10:41:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-kentsel-donusum.png" type="image/jpeg" length="78066"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’in mahallesinde sadece 223 kişi yaşıyor: “Çayına kaç şeker attığını bile bilirim”]]></title>
+      <link>https://www.eskisehir.net/video/eskisehirin-mahallesinde-sadece-223-kisi-yasiyor-cayina-kac-seker-attigini-bile-bilirim</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/eskisehirin-mahallesinde-sadece-223-kisi-yasiyor-cayina-kac-seker-attigini-bile-bilirim" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’in Odunpazarı ilçesinde 223 kişinin yaşadığı Paşa Mahallesi’nde, yıllara dayanan komşuluk ilişkileri günlük yaşamın ayrıntılarına yansıyor. Birbirlerini lakaplarıyla tanıyan mahalle sakinleri, komşularının çayına kaç şeker attığını, hangi saatlerde kahvehaneye geldiğini bile biliyor.]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/eskisehirin-mahallesinde-sadece-223-kisi-yasiyor-cayina-kac-seker-attigini-bile-bilirim</guid>
+      <pubDate>Thu, 22 Oct 2026 18:13:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/pasa-mahallesi.png" type="image/jpeg" length="12640"/>
+    </item>
+    <item>
+      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
+      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-46</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-46" type="application/rss+xml"/>
+      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 22.10.2026]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-46</guid>
+      <pubDate>Thu, 22 Oct 2026 10:33:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-talat-yalaz-yeni-parti-1.png" type="image/jpeg" length="17348"/>
+    </item>
+    <item>
+      <title><![CDATA[Eskişehir’de Mukaddes Emanetler Sergisi dualarla açıldı]]></title>
+      <link>https://www.eskisehir.net/video/eskisehirde-mukaddes-emanetler-sergisi-dualarla-acildi</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/eskisehirde-mukaddes-emanetler-sergisi-dualarla-acildi" type="application/rss+xml"/>
+      <description><![CDATA[Eskişehir’de MÜSİAD tarafından düzenlenen Mukaddes Emanetler Sergisi, düzenlenen törenle açıldı.]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/eskisehirde-mukaddes-emanetler-sergisi-dualarla-acildi</guid>
+      <pubDate>Wed, 21 Oct 2026 12:41:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskisehirde-mukaddes-emanetler-sergisi-dualarla-acildi1.jpg" type="image/jpeg" length="38875"/>
+    </item>
+    <item>
+      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
+      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-45</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-45" type="application/rss+xml"/>
+      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 21.10.2026]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-45</guid>
+      <pubDate>Wed, 21 Oct 2026 10:46:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-ayse-unluce-ebb.png" type="image/jpeg" length="15647"/>
+    </item>
+    <item>
+      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
+      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-44</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-44" type="application/rss+xml"/>
+      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 20.10.2026]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-44</guid>
+      <pubDate>Tue, 20 Oct 2026 10:28:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-yoga.png" type="image/jpeg" length="16076"/>
+    </item>
+    <item>
+      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
+      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-43</link>
+      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-43" type="application/rss+xml"/>
+      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 19.10.2026]]></description>
+      <category>ESKİŞEHİR</category>
+      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-43</guid>
+      <pubDate>Mon, 19 Oct 2026 10:32:00 +0300</pubDate>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-cuneyt-ozdemir-gurhan-albayrak-ak-parti.png" type="image/jpeg" length="32401"/>
     </item>
     <item>
       <title><![CDATA[Ünlüce, TBB seçimi hakkında konuştu: “Eskişehir’i farklı mecralarda temsil etmekten büyük mutluluk duyuyorum”]]></title>
@@ -130,187 +310,7 @@
       <category>ESKİŞEHİR</category>
       <guid>https://www.eskisehir.net/video/unluce-tbb-secimi-hakkinda-konustu-eskisehiri-farkli-mecralarda-temsil-etmekten-buyuk-mutluluk-duyuyorum</guid>
       <pubDate>Sun, 18 Oct 2026 16:28:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ayse-unluce-22.jpg" type="image/jpeg" length="14597"/>
-    </item>
-    <item>
-      <title><![CDATA[Talat Yalaz oyunu kullandı: “Tek adaylığın muhatabı ben değilim”]]></title>
-      <link>https://www.eskisehir.net/video/talat-yalaz-oyunu-kullandi-tek-adayligin-muhatabi-ben-degilim</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/talat-yalaz-oyunu-kullandi-tek-adayligin-muhatabi-ben-degilim" type="application/rss+xml"/>
-      <description><![CDATA[Yeni Parti Eskişehir Kurucu İl Başkanı Talat Yalaz tek aday olarak girdiği ön seçimde karşısına bir rakip çıkmamasına ilişkin değerlendirmelerde bulundu. Yalaz, eşi ve çocuğuyla birlikte Vecihi Hürkuş Havacılık ve Teknoloji Parkı’nda kurulan sandıkta oy kullandı.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/talat-yalaz-oyunu-kullandi-tek-adayligin-muhatabi-ben-degilim</guid>
-      <pubDate>Sun, 18 Oct 2026 16:27:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/talat-yalaz-22.png" type="image/jpeg" length="96262"/>
-    </item>
-    <item>
-      <title><![CDATA[Ünlüce, TBB seçimi hakkında konuştu: “Eskişehir’i farklı mecralarda temsil etmekten büyük mutluluk duyuyorum”]]></title>
-      <link>https://www.eskisehir.net/unluce-tbb-secimi-hakkinda-konustu-eskisehiri-farkli-mecralarda-temsil-etmekten-buyuk-mutluluk-duyuyorum</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/unluce-tbb-secimi-hakkinda-konustu-eskisehiri-farkli-mecralarda-temsil-etmekten-buyuk-mutluluk-duyuyorum" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce, Türkiye Belediyeler Birliği Başkan Vekili seçilmesinin ardından yeni görevine ilişkin değerlendirmelerde bulundu.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/unluce-tbb-secimi-hakkinda-konustu-eskisehiri-farkli-mecralarda-temsil-etmekten-buyuk-mutluluk-duyuyorum</guid>
-      <pubDate>Sun, 18 Oct 2026 16:17:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ayse-unluce-22.jpg" type="image/jpeg" length="50134"/>
-    </item>
-    <item>
-      <title><![CDATA[Eskişehir'de misafirliğe gittiği evde öldürülmüştü: 1 şahıs adliyeye sevk edildi]]></title>
-      <link>https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-oldurulmustu-1-sahis-adliyeye-sevk-edildi</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-oldurulmustu-1-sahis-adliyeye-sevk-edildi" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’in Odunpazarı ilçesinde, misafir olarak gittiği evin mutfağında bıçaklanarak ağır yaralanan ve kaldırıldığı hastanede yaşamını yitiren Osman K.’nin ölümüne ilişkin gözaltına alınan Ş.E. adlı kadın adliyeye sevk edildi.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehirde-misafirlige-gittigi-evde-oldurulmustu-1-sahis-adliyeye-sevk-edildi</guid>
-      <pubDate>Sun, 18 Oct 2026 16:00:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/misafirlige-gittigi-evde-oldu.png" type="image/jpeg" length="99168"/>
-    </item>
-    <item>
-      <title><![CDATA[Ahmet Ataç: “Tek hedefimiz iktidar olacak”]]></title>
-      <link>https://www.eskisehir.net/ahmet-atac-tek-hedefimiz-iktidar-olacak</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/ahmet-atac-tek-hedefimiz-iktidar-olacak" type="application/rss+xml"/>
-      <description><![CDATA[Tepebaşı Belediye Başkanı Ahmet Ataç, Hasan Polatkan Kültür Merkezi’nde oy kullandıktan sonra seçim sürecine ilişkin açıklamalarda bulundu.]]></description>
-      <category>Eskisehir.net | Özel</category>
-      <guid>https://www.eskisehir.net/ahmet-atac-tek-hedefimiz-iktidar-olacak</guid>
-      <pubDate>Sun, 18 Oct 2026 15:47:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ahmet-atac-talat-yalaz-1.jpg" type="image/jpeg" length="22818"/>
-    </item>
-    <item>
-      <title><![CDATA[Bugün başladı: Eskişehir'de 2 sokağa bir hafta boyunca araç park edilmeyecek]]></title>
-      <link>https://www.eskisehir.net/bugun-basladi-eskisehirde-2-sokaga-bir-hafta-boyunca-arac-park-edilmeyecek</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/bugun-basladi-eskisehirde-2-sokaga-bir-hafta-boyunca-arac-park-edilmeyecek" type="application/rss+xml"/>
-      <description><![CDATA[Kırmızıtoprak Mahallesi’nde Çiçek Sokak ve Dar Sokak üzerinde park yasağı olacağıı duyuruldu.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/bugun-basladi-eskisehirde-2-sokaga-bir-hafta-boyunca-arac-park-edilmeyecek</guid>
-      <pubDate>Sun, 18 Oct 2026 15:34:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/09/park-yasagi.jpg" type="image/jpeg" length="19513"/>
-    </item>
-    <item>
-      <title><![CDATA[Emekli maaşında yeni zam hesabı! İşte kuruşu kuruşuna 3 senaryo]]></title>
-      <link>https://www.eskisehir.net/emekli-maasinda-yeni-zam-hesabi-iste-kurusu-kurusuna-3-senaryo</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/emekli-maasinda-yeni-zam-hesabi-iste-kurusu-kurusuna-3-senaryo" type="application/rss+xml"/>
-      <description><![CDATA[Milyonlarca SSK ve Bağ-Kur emeklisinin ocak ayında alacağı maaş zammına ilişkin hesaplamalar sürüyor. Temmuz, ağustos ve eylül aylarına ait enflasyon verilerinin açıklanmasıyla birlikte emeklilerin yılın ikinci yarısı için hak ettiği zam oranı yüzde 5,57'ye ulaştı. Yıl sonu enflasyonunun hangi seviyede gerçekleşeceği ise ocak ayında yapılacak artışın oranını belirleyecek.]]></description>
-      <category>Ekonomi</category>
-      <guid>https://www.eskisehir.net/emekli-maasinda-yeni-zam-hesabi-iste-kurusu-kurusuna-3-senaryo</guid>
-      <pubDate>Sun, 18 Oct 2026 15:05:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/07/emekli-para.jpg" type="image/jpeg" length="25494"/>
-    </item>
-    <item>
-      <title><![CDATA[Ünlüce’den ön seçim değerlendirmesi: “Müthiş bir aidiyet duygusu”]]></title>
-      <link>https://www.eskisehir.net/unluceden-on-secim-degerlendirmesi-muthis-bir-aidiyet-duygusu</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/unluceden-on-secim-degerlendirmesi-muthis-bir-aidiyet-duygusu" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce, Hasan Polatkan Kültür Merkezi’nde oy kullandıktan sonra üye katılımıyla yapılan ön seçimi değerlendirdi.]]></description>
-      <category>Eskisehir.net | Özel</category>
-      <guid>https://www.eskisehir.net/unluceden-on-secim-degerlendirmesi-muthis-bir-aidiyet-duygusu</guid>
-      <pubDate>Sun, 18 Oct 2026 14:22:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ayse-unluce-seci.jpg" type="image/jpeg" length="30033"/>
-    </item>
-    <item>
-      <title><![CDATA[Eskişehir Çevreyolunda iki otomobil çarpıştı: 1'i ağır 2 yaralı]]></title>
-      <link>https://www.eskisehir.net/eskisehir-cevreyolunda-iki-otomobil-carpisti-1i-agir-2-yarali</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehir-cevreyolunda-iki-otomobil-carpisti-1i-agir-2-yarali" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir çevreyolunda meydana gelen trafik kazasında iki otomobil çarpıştı. Kazada araçlardan birinde bulunan iki kadın yaralanırken, yaralılardan birinin sağlık durumunun ağır olduğu öğrenildi.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehir-cevreyolunda-iki-otomobil-carpisti-1i-agir-2-yarali</guid>
-      <pubDate>Sun, 18 Oct 2026 13:39:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ankara-istikameti-kaza.jpg" type="image/jpeg" length="55298"/>
-    </item>
-    <item>
-      <title><![CDATA[Ayşe Ünlüce'den 19 Ekim Muhtarlar Günü mesajı]]></title>
-      <link>https://www.eskisehir.net/ayse-unluceden-19-ekim-muhtarlar-gunu-mesaji</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/ayse-unluceden-19-ekim-muhtarlar-gunu-mesaji" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce, "Eskişehir’i birlikte yönetmenin, her mahallemize eşit ve adil hizmet ulaştırmanın gücüne inanıyoruz. Bu süreçte muhtarlarımızın emeği, deneyimi ve katkısı çok kıymetli." dedi.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/ayse-unluceden-19-ekim-muhtarlar-gunu-mesaji</guid>
-      <pubDate>Sun, 18 Oct 2026 13:25:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/baskan-unluceden-19-ekim-muhtarlar-gunu-mesaji.JPG" type="image/jpeg" length="10917"/>
-    </item>
-    <item>
-      <title><![CDATA[Eskişehir Büyükşehir Belediyesi duyurdu: 19 Ekim'de ücretsiz bilet dağıtılacak]]></title>
-      <link>https://www.eskisehir.net/eskisehir-buyuksehir-belediyesi-duyurdu-19-ekimde-ucretsiz-bilet-dagitilacak</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/eskisehir-buyuksehir-belediyesi-duyurdu-19-ekimde-ucretsiz-bilet-dagitilacak" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir Büyükşehir Belediyesi, “Eskişehir Yılı 2026” etkinlikleri kapsamında kentin tarihini ve kültürel mirasını sanatla buluşturmaya hazırlanıyor. Bu kapsamda sahnelenecek “Eskiden Şehre Dorlion Zamanın Dansı” gösterisi, 22 Ekim Perşembe günü sanatseverlerle buluşacak. Gösteriyi izlemek isteyen vatandaşlar, ücretsiz biletlerini 19 Ekim Pazartesi günü saat 11.00’den itibaren alabilecek.]]></description>
-      <category>Eskişehir</category>
-      <guid>https://www.eskisehir.net/eskisehir-buyuksehir-belediyesi-duyurdu-19-ekimde-ucretsiz-bilet-dagitilacak</guid>
-      <pubDate>Sun, 18 Oct 2026 13:17:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskiden-sehre-dorlion-zamanin-dansi-gosterisine-ucretsiz-bilet.jpg" type="image/jpeg" length="88153"/>
-    </item>
-    <item>
-      <title><![CDATA[Ali Baş ve Cihan Yıldırım, Gürleyik Şelalesi’ni keşfe çıktılar]]></title>
-      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-gurleyik-selalesini-kesfe-ciktilar</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-gurleyik-selalesini-kesfe-ciktilar" type="application/rss+xml"/>
-      <description><![CDATA[Ali Baş ve Cihan Yıldırım; Eskişehir’in doğa harikası ve serinlik durağı Gürleyik Şelalesi’ni keşfe çıktılar.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-gurleyik-selalesini-kesfe-ciktilar</guid>
-      <pubDate>Sun, 18 Oct 2026 09:43:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/gurleyik-kapak.png" type="image/jpeg" length="80374"/>
-    </item>
-    <item>
-      <title><![CDATA[Orkun Kılıç’tan Eskişehir için sel uyarısı: "Kapatılan kanallar yeniden değerlendirilmeli"]]></title>
-      <link>https://www.eskisehir.net/video/orkun-kilictan-eskisehir-icin-sel-uyarisi-kapatilan-kanallar-yeniden-degerlendirilmeli</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/orkun-kilictan-eskisehir-icin-sel-uyarisi-kapatilan-kanallar-yeniden-degerlendirilmeli" type="application/rss+xml"/>
-      <description><![CDATA[TMMOB İnşaat Mühendisleri Odası (İMO) Genel Merkez Yönetim Kurulu Üyesi Orkun Kılıç, Eskişehir’de sel riskine karşı dere yataklarının ve kapatılan su kanallarının yeniden değerlendirilmesi gerektiğini söyledi.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/orkun-kilictan-eskisehir-icin-sel-uyarisi-kapatilan-kanallar-yeniden-degerlendirilmeli</guid>
-      <pubDate>Fri, 16 Oct 2026 15:54:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/orkun-kilic.png" type="image/jpeg" length="77412"/>
-    </item>
-    <item>
-      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
-      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-42</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-42" type="application/rss+xml"/>
-      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 16.10.2026]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-42</guid>
-      <pubDate>Fri, 16 Oct 2026 10:32:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-ayse-unluce-secim-zafer.png" type="image/jpeg" length="84505"/>
-    </item>
-    <item>
-      <title><![CDATA[Ayşe Ünlüce’den TBB Başkanvekilliği görevine seçilmesinin ardından ilk açıklama]]></title>
-      <link>https://www.eskisehir.net/video/ayse-unluceden-tbb-baskanvekilligi-gorevine-secilmesinin-ardindan-ilk-aciklama</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/ayse-unluceden-tbb-baskanvekilligi-gorevine-secilmesinin-ardindan-ilk-aciklama" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce, Türkiye Belediyeler Birliği (TBB) Başkanvekilliği görevine seçilmesinin ardından yaptığı açıklamada, belediyeler arasında ayrım gözetmeden eşit ve adil bir yönetim anlayışıyla hareket edeceğini söyledi.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/ayse-unluceden-tbb-baskanvekilligi-gorevine-secilmesinin-ardindan-ilk-aciklama</guid>
-      <pubDate>Thu, 15 Oct 2026 21:37:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ayse-unluce-tbb4.png" type="image/jpeg" length="44257"/>
-    </item>
-    <item>
-      <title><![CDATA[Mansur Yavaş: "Ekrem Başkan’ın, Zeydan Başkan’ın ve Vahap Başkan’ın emanetini Ayşe Hanım’a teslim ediyoruz"]]></title>
-      <link>https://www.eskisehir.net/video/mansur-yavas-ekrem-baskanin-zeydan-baskanin-ve-vahap-baskanin-emanetini-ayse-hanima-teslim-ediyoruz</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/mansur-yavas-ekrem-baskanin-zeydan-baskanin-ve-vahap-baskanin-emanetini-ayse-hanima-teslim-ediyoruz" type="application/rss+xml"/>
-      <description><![CDATA[Türkiye Belediyeler Birliği Başkanvekilliği seçiminde başkan adayı olan Eskişehir Büyükşehir Belediye Başkanı Ayşe Ünlüce'yi, destekleyen Ankara Büyükşehir Belediye Başkanı Mansur Yavaş açıklamalarda bulundu.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/mansur-yavas-ekrem-baskanin-zeydan-baskanin-ve-vahap-baskanin-emanetini-ayse-hanima-teslim-ediyoruz</guid>
-      <pubDate>Thu, 15 Oct 2026 20:43:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/whatsapp-image-2026-10-15-at-202719.jpeg" type="image/jpeg" length="10097"/>
-    </item>
-    <item>
-      <title><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor]]></title>
-      <link>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-41</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-41" type="application/rss+xml"/>
-      <description><![CDATA[Ali Baş ve Cihan Yıldırım Eskişehir'in Gündemini Yorumluyor I 15.10.2026]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/ali-bas-ve-cihan-yildirim-eskisehirin-gundemini-yorumluyor-41</guid>
-      <pubDate>Thu, 15 Oct 2026 10:53:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ali-bas-cihan-yildirim-ayse-unluce.png" type="image/jpeg" length="83665"/>
-    </item>
-    <item>
-      <title><![CDATA[Eskişehir’de vatandaşlar kışlık kıyafet alışverişi için Çarpa’ya akın etti]]></title>
-      <link>https://www.eskisehir.net/video/eskisehirde-vatandaslar-kislik-kiyafet-alisverisi-icin-carpaya-akin-etti</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/eskisehirde-vatandaslar-kislik-kiyafet-alisverisi-icin-carpaya-akin-etti" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’de kışlık alışverişine çıkan vatandaşlar Çarpa’da yoğunluk oluşturdu. Mont ve eşofman tezgâhlarında hareketlilik yaşanırken, pazara kent dışından da gelenler de oldu.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/eskisehirde-vatandaslar-kislik-kiyafet-alisverisi-icin-carpaya-akin-etti</guid>
-      <pubDate>Wed, 14 Oct 2026 19:01:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/carpa1.png" type="image/jpeg" length="13287"/>
-    </item>
-    <item>
-      <title><![CDATA[Eskişehir’de 1586. Sokak sakinleri yol ve telefon sorununa çözüm bekliyor]]></title>
-      <link>https://www.eskisehir.net/video/eskisehirde-1586-sokak-sakinleri-yol-ve-telefon-sorununa-cozum-bekliyor</link>
-      <atom:link rel="self" href="https://www.eskisehir.net/video/eskisehirde-1586-sokak-sakinleri-yol-ve-telefon-sorununa-cozum-bekliyor" type="application/rss+xml"/>
-      <description><![CDATA[Eskişehir’de yaklaşık 17 yıllık yerleşim alanında bulunan Yaşamkent Mahallesi 1586. Sokak’taki bozuk yol, mahalle sakinlerinin tepkisine neden oldu.]]></description>
-      <category>ESKİŞEHİR</category>
-      <guid>https://www.eskisehir.net/video/eskisehirde-1586-sokak-sakinleri-yol-ve-telefon-sorununa-cozum-bekliyor</guid>
-      <pubDate>Wed, 14 Oct 2026 15:05:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/eskisehirde-1586-sokak-sakinleri-yol.png" type="image/jpeg" length="87700"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/10/ayse-unluce-22.jpg" type="image/jpeg" length="19051"/>
     </item>
     <item>
       <title><![CDATA[Eskişehir'de Ramazan ayının gelişi fener alayıyla karşılandı]]></title>
@@ -320,7 +320,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/eskisehirde-ramazan-ayinin-gelisi-fener-alayiyla-karsilandi</guid>
       <pubDate>Wed, 18 Feb 2026 20:01:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/02/eskisehir-isiklarla-yurudu-ramazan-coskusu-eskisehirde-bir-baska-yasaniyor.png" type="image/jpeg" length="27106"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/02/eskisehir-isiklarla-yurudu-ramazan-coskusu-eskisehirde-bir-baska-yasaniyor.png" type="image/jpeg" length="20885"/>
     </item>
     <item>
       <title><![CDATA[Eskişehir'in kırsalında kar kalınlığı 35 santimetreyi geçti]]></title>
@@ -330,7 +330,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/eskisehirin-kirsalinda-kar-kalinligi-35-santimetreyi-gecti</guid>
       <pubDate>Mon, 12 Jan 2026 16:08:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/01/kar-3.png" type="image/jpeg" length="28574"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/01/kar-3.png" type="image/jpeg" length="19818"/>
     </item>
     <item>
       <title><![CDATA[Karla kaplanan tarihi Odunpazarı evleri eşsiz manzaralar sundu]]></title>
@@ -340,7 +340,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/karla-kaplanan-tarihi-odunpazari-evleri-essiz-manzaralar-sundu</guid>
       <pubDate>Thu, 01 Jan 2026 18:51:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/01/karla-kaplanan-tarihi-odunpazari-evleri-essiz-manzaralar-sundu.png" type="image/jpeg" length="48096"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2026/01/karla-kaplanan-tarihi-odunpazari-evleri-essiz-manzaralar-sundu.png" type="image/jpeg" length="65009"/>
     </item>
     <item>
       <title><![CDATA[Eskişehir'de huzurevinde tanıştılar! Yaşlı çift dünyaevine girdi: Nikahı Kazım Kurt kıydı]]></title>
@@ -350,7 +350,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/eskisehirde-huzurevinde-tanistilar-yasli-cift-dunyaevine-girdi-nikahi-kazim-kurt-kiydi</guid>
       <pubDate>Tue, 09 Dec 2025 12:11:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/12/1-14-4.jpeg" type="image/jpeg" length="21375"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/12/1-14-4.jpeg" type="image/jpeg" length="61022"/>
     </item>
     <item>
       <title><![CDATA[Minikler Eskişehir Fidanlık Tesisleri'nde eğitim aldı]]></title>
@@ -360,7 +360,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/minikler-eskisehir-fidanlik-tesislerinde-egitim-aldi</guid>
       <pubDate>Thu, 20 Nov 2025 12:57:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/11/minikler-uretim-surecini-yerinde-gordu-9.jpeg" type="image/jpeg" length="38589"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/11/minikler-uretim-surecini-yerinde-gordu-9.jpeg" type="image/jpeg" length="59605"/>
     </item>
     <item>
       <title><![CDATA[Eskişehir’de Cumhuriyet’in 102’nci yılı büyük coşkuyla kutlandı]]></title>
@@ -370,7 +370,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/eskisehirde-cumhuriyetin-102nci-yili-buyuk-coskuyla-kutlandi</guid>
       <pubDate>Wed, 29 Oct 2025 13:11:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/eskisehirde-cumhuriyetin-102nci-yili-buyuk-coskuyla-kutlandi.png" type="image/jpeg" length="21668"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/eskisehirde-cumhuriyetin-102nci-yili-buyuk-coskuyla-kutlandi.png" type="image/jpeg" length="61685"/>
     </item>
     <item>
       <title><![CDATA[Eskişehir'den karpostallık görüntüler! Görenler mest oldu]]></title>
@@ -380,7 +380,7 @@
       <category>Eskişehir</category>
       <guid>https://www.eskisehir.net/foto-galeri/eskisehirden-karpostallik-goruntuler-gorenler-mest-oldu</guid>
       <pubDate>Tue, 28 Oct 2025 09:56:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/a-w567952-04-1.webp" type="image/jpeg" length="41465"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/a-w567952-04-1.webp" type="image/jpeg" length="41590"/>
     </item>
     <item>
       <title><![CDATA[Altın biriktirenler gayrimenkule yönedi! Konut fiyatlarında yeni dönem başlıyor]]></title>
@@ -390,7 +390,7 @@
       <category>Galeri</category>
       <guid>https://www.eskisehir.net/foto-galeri/altin-biriktirenler-gayrimenkule-yonedi-konut-fiyatlarinda-yeni-donem-basliyor</guid>
       <pubDate>Mon, 20 Oct 2025 17:15:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/altin-konut.webp" type="image/jpeg" length="36273"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/altin-konut.webp" type="image/jpeg" length="16410"/>
     </item>
     <item>
       <title><![CDATA[Otomobilde yeni vergi dönemi başladı! Bazı araçlar 500 bin lira birden zamlanacak]]></title>
@@ -400,7 +400,7 @@
       <category>Galeri</category>
       <guid>https://www.eskisehir.net/foto-galeri/otomobilde-yeni-vergi-donemi-basladi-bazi-araclar-500-bin-lira-birden-zamlanacak</guid>
       <pubDate>Mon, 20 Oct 2025 15:37:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/09/araba-vergi-2-18.jpg" type="image/jpeg" length="32872"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/09/araba-vergi-2-18.jpg" type="image/jpeg" length="22211"/>
     </item>
     <item>
       <title><![CDATA[60 ay vadeli ev fırsatı! 7 şehirde konut ve iş yeri satışı başlıyor]]></title>
@@ -410,7 +410,7 @@
       <category>Galeri</category>
       <guid>https://www.eskisehir.net/foto-galeri/60-ay-vadeli-ev-firsati-7-sehirde-konut-ve-is-yeri-satisi-basliyor</guid>
       <pubDate>Mon, 20 Oct 2025 14:38:00 +0300</pubDate>
-      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/konut-17-12.jpg" type="image/jpeg" length="32758"/>
+      <enclosure url="https://eskisehirnet.teimg.com/crop/1280x720/eskisehir-net/uploads/2025/10/konut-17-12.jpg" type="image/jpeg" length="20563"/>
     </item>
   </channel>
 </rss>

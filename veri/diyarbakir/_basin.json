@@ -1,0 +1,38 @@
+{
+ "istek": {
+  "bismilhaber.com.tr": {
+   "2026-10-24": 10
+  },
+  "mucadelegazetesi.com.tr": {
+   "2026-10-24": 6
+  },
+  "diyarbakirsoz.com": {
+   "2026-10-24": 4
+  }
+ },
+ "okunan": {
+  "https://www.bismilhaber.com.tr/katliam-gibi-kaza-arac-su-kanalina-uctu-4u-cocuk-6-kisi-oldu": "2026-10-24T18:41:45",
+  "https://www.bismilhaber.com.tr/is-yerine-aractan-silahli-saldiri": "2026-10-24T18:41:49",
+  "https://www.mucadelegazetesi.com.tr/sarkici-nev-kimdir-gercek-adi-nedir-neden-oldu": "2026-10-24T18:42:02",
+  "https://www.mucadelegazetesi.com.tr/diyarbakirda-kaza-sonrasi-kavga-taraflar-birbirine-girdi": "2026-10-24T18:42:05",
+  "https://www.diyarbakirsoz.com/diyarbakir/oldukten-sonra-mi-onlem-alinacak-570545": "2026-10-24T18:42:19",
+  "https://www.diyarbakirsoz.com/turkiye/2-madenci-hayatini-kaybetti-5-madencimiz-yaralandi-570527": "2026-10-24T18:42:24"
+ },
+ "robots": {
+  "www.bismilhaber.com.tr": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.bismilhaber.com.tr/sitemap.xml\nSitemap: https://www.bismilhaber.com.tr/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.mucadelegazetesi.com.tr": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.mucadelegazetesi.com.tr/sitemap.xml\nSitemap: https://www.mucadelegazetesi.com.tr/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.diyarbakirsoz.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: *\r\nAllow: /\r\nDisallow: /admin/\r\nDisallow: /Admin/\r\nDisallow: /api/\r\nDisallow: /arama?\r\nDisallow: /Account/\r\n\r\nSitemap: https://www.diyarbakirsoz.com/sitemap.xml\r\n",
+   "yasak": false
+  }
+ }
+}

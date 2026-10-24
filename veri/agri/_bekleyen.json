@@ -2,33 +2,33 @@
  "il": "Ağrı",
  "kayitlar": [
   {
-   "id": "5b93f53112af",
+   "id": "90a185f18767",
    "il": "Ağrı",
-   "ilce": "Taşlıçay",
+   "ilce": null,
    "mahalle": null,
-   "ad_soyad": "Yakup Tanrıverdi",
+   "ad_soyad": "Nurettin Alptekin",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
    "vefat_tarihi": null,
    "defin_yeri": null,
    "defin_zamani": null,
-   "namaz_tarihi": "2026-10-19",
-   "namaz_yeri_vakti": "Taşlıçay Ehlibeyt Yeşil Camii",
-   "liste_tarihi": "2026-10-19",
-   "kaynak_ad": "Patnos Haber Gazetesi",
-   "kaynak_url": "https://www.patnoshabergazetesi.com/taslicayli-emektar-ogretmen-hayatini-kaybetti/104482",
-   "alindi": "2026-10-19T18:39:02+00:00",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Ağrı 04 Haber",
+   "kaynak_url": "https://www.agri04haber.com/nurettin-alptekin-hayatini-kaybetti",
+   "alindi": "2026-10-24T18:38:35+00:00",
    "ham": {
-    "yayin_tarihi": "2026-10-19",
-    "sayfa_tarihi": "2026-10-19",
+    "yayin_tarihi": "2026-10-23",
+    "sayfa_tarihi": "2026-10-23",
     "tarih_kaynagi": "metin"
    },
    "il_disi_defin": null,
-   "ilce_belirsiz": false,
+   "ilce_belirsiz": true,
    "kaynak_turu": "yerel_haber",
-   "ilk_gorulme": "2026-10-19T18:40:45+00:00"
+   "ilk_gorulme": "2026-10-24T18:39:24+00:00"
   }
  ],
- "guncelleme": "2026-10-19T18:40:45+00:00"
+ "guncelleme": "2026-10-24T18:39:24+00:00"
 }

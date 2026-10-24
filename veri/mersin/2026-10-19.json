@@ -1,0 +1,50 @@
+{
+ "il": "Mersin",
+ "liste_tarihi": "2026-10-19",
+ "kayitlar": [
+  {
+   "id": "5a3722fb85a8",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Gercebahşiş Mahallesi",
+   "ad_soyad": "Nazmi Yıldırım",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Gercebahşiş Yeni Mahalle Mezarlığı",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Saat 15:00",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/19-10-2026-vefat-edenler/",
+   "alindi": "2026-10-24T18:46:51+00:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "0b4d18aab2ac",
+   "il": "Mersin",
+   "ilce": "Anamur",
+   "mahalle": "Akdeniz Mahallesi",
+   "ad_soyad": "Yaşar Karahan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Ortaköy Bucaklı Mezarlığı",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "İkindi",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Anamur Belediyesi",
+   "kaynak_url": "https://anamur.bel.tr/19-10-2026-vefat-edenler/",
+   "alindi": "2026-10-24T18:46:51+00:00",
+   "ham": {},
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}

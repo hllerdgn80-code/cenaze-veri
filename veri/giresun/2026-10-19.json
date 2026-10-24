@@ -1,0 +1,103 @@
+{
+ "il": "Giresun",
+ "liste_tarihi": "2026-10-19",
+ "kayitlar": [
+  {
+   "id": "a90b17115dbe",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Fatma Gürsoy",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Teyyaredüzündeki Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Çınarlar Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/19/19-10-2026-pazartesi-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "c08698dadaa2",
+   "il": "Giresun",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mine Okay",
+   "anne_baba": "Arslan ve Hanife Okay",
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Küçüklü Köyü Eski Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/19/19-10-2026-pazartesi-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {},
+   "ilce_belirsiz": true,
+   "il_disi_defin": null
+  },
+  {
+   "id": "ac25ced4c4e0",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Mehmet Aydın",
+   "anne_baba": "Çimen Niyazi Aydın",
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Seyitköyü Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Seyitköyü Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/19/19-10-2026-pazartesi-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "a304a01f4561",
+   "il": "Giresun",
+   "ilce": "Merkez",
+   "mahalle": "Gemiler Çekeği Mahallesi",
+   "ad_soyad": "Ufuk Aydın",
+   "anne_baba": "Yusuf ve Meliha Aydın",
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Aynı Yerdeki Aile Kabristanlığında",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-19",
+   "namaz_yeri_vakti": "Mezarlıklar Müdürlüğü Camiinde Öğlen Namazına Müteakiben",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Giresun Belediyesi",
+   "kaynak_url": "https://giresun.bel.tr/2026/10/19/19-10-2026-pazartesi-vefat-ilanlari/",
+   "alindi": "2026-10-24T18:43:44+00:00",
+   "ham": {
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

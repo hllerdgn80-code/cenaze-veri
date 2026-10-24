@@ -1,0 +1,42 @@
+{
+ "il": "Iğdır",
+ "ilceler": {},
+ "il_disi": [],
+ "ilce_belirsiz": [
+  {
+   "id": "457a09498907",
+   "il": "Iğdır",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Fahrettin Aras",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-18",
+   "kaynak_ad": "Iğdır Haber",
+   "kaynak_url": "https://www.igdirhaber.net/vefat/igdirda-aras-ailesinin-aci-gunu-vefat-ve-bassagligi/71382",
+   "alindi": "2026-10-24T18:44:38+00:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-18",
+    "sayfa_tarihi": "2026-10-18",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_haber",
+   "ilk_gorulme": "2026-10-24T18:45:33+00:00"
+  }
+ ],
+ "toplam": 1,
+ "guncelleme": "2026-10-24T18:45:33+00:00",
+ "ilce_durum": {
+  "Yeşil Iğdır": 0,
+  "Iğdır Haber": 0,
+  "Iğdır Haber (vefat sayfası)": 1
+ }
+}

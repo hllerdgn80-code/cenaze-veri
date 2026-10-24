@@ -1,0 +1,84 @@
+{
+ "il": "Çankırı",
+ "liste_tarihi": "2026-10-22",
+ "kayitlar": [
+  {
+   "id": "8ff5c6956fc7",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Nihat Mantar",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Merkez Aile Mezarlığında",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "ikindi namazını müteakip",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi ikindi namazını müteakip Merkez aile mezarlığında toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "9526a761c40c",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Elif Erbaş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Merkez Aile Mezarlığında",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": "2026-10-22",
+   "namaz_yeri_vakti": "ikindi namazını müteakip",
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi ikindi namazını müteakip Merkez aile mezarlığında toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "ac7d58765c4d",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Suzan Merzi",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Merkez Aile Mezarlığında",
+   "defin_zamani": "2026-10-22",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "Çankırı Belediyesi",
+   "kaynak_url": "https://cankiri.bel.tr/vefat-edenler",
+   "alindi": "2026-10-24T18:41:31+00:00",
+   "ham": {
+    "aciklama": "Cenazesi Merkez aile mezarlığında toprağa verilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

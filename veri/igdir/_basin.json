@@ -1,0 +1,28 @@
+{
+ "istek": {
+  "yesiligdir.com": {
+   "2026-10-24": 5
+  },
+  "igdirhaber.net": {
+   "2026-10-24": 9
+  }
+ },
+ "okunan": {
+  "https://www.yesiligdir.com/karakoyunlu-girisinde-trafik-kazasi-1-yarali": "2026-10-24T18:44:49",
+  "https://www.yesiligdir.com/doc-dr-oguz-simsek-gozyaslari-icinde-topraga-verildi": "2026-10-24T18:44:53",
+  "https://www.igdirhaber.net/video/karakoyunlu-kavsaginda-trafik-kazasi-1-yarali/71738": "2026-10-24T18:45:03",
+  "https://www.igdirhaber.net/istanbul-tem-otoyolunda-zincirleme-kaza-2-yarali-kilometrelerce-arac-kuyrugu-olustu/71736": "2026-10-24T18:45:08"
+ },
+ "robots": {
+  "www.yesiligdir.com": {
+   "tarih": "2026-10-24",
+   "metin": "User-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: LinkedInBot\nAllow: /\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: Pinterest\nAllow: /\n\nUser-agent: GPTBot              # OpenAI (ChatGPT)\nUser-agent: Google-Extended     # Google (Gemini/Bard)\nUser-agent: CCBot               # Common Crawl\nUser-agent: ClaudeBot           # Anthropic (Claude)\nUser-agent: Applebot-Extended   # Apple Intelligence\nUser-agent: Omgilibot           # Facebook/Meta AI ve digerleri\nUser-agent: Diffbot             # Veri cikarma botlari\nUser-agent: FacebookBot         # Meta AI egitim verileri\nUser-agent: *\n\nDisallow: /widgets/\nDisallow: /widgets/load-widget*\nDisallow: /bigdata/*\nDisallow: /cdn-cgi/*\nDisallow: /index.php\nDisallow: /public/\nDisallow: /service/*\nDisallow: /arama/\nDisallow: /api\nDisallow: /*?q=\nDisallow: /*?preview=\nDisallow: /*?utm_source=\nDisallow: /*?utm_medium=\nDisallow: /*?utm_campaign=\nDisallow: /*?page=\nDisallow: /*?sayfa=\nDisallow: /*&page=\nDisallow: /*?sort=\nDisallow: /*&sort=\nDisallow: /advert/*\nDisallow: /admin/\nDisallow: /register/\nDisallow: /password-reset/\nDisallow: /auth/\nDisallow: /vidyome/embed/\nDisallow: /vendor/*\nDisallow: /member/\nDisallow: /date\nDisallow: /poster\nDisallow: /arsiv?date\nDisallow: /xpanel\nDisallow: /comments/*\nDisallow: /themes/*\nDisallow: /paylas\nDisallow: /font-awesome\nDisallow: /.well-known/*\n\nSitemap: https://www.yesiligdir.com/sitemap.xml\nSitemap: https://www.yesiligdir.com/rss?yandex=turbo\n",
+   "yasak": false
+  },
+  "www.igdirhaber.net": {
+   "tarih": "2026-10-24",
+   "metin": "# tumeva-robots v1\n\nUser-agent: WhatsApp\nAllow: /\n\nUser-agent: WhatsApp/2.0\nAllow: /\n\nUser-agent: facebookexternalhit\nAllow: /\n\nUser-agent: Facebot\nAllow: /\n\nUser-agent: meta-externalfetcher\nAllow: /\n\nUser-agent: Twitterbot\nAllow: /\n\nUser-agent: TelegramBot\nAllow: /\n\nUser-agent: *\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?cursor=\nDisallow: /*_token=\n\nSitemap: https://www.igdirhaber.net/sitemap.xml\nSitemap: https://www.igdirhaber.net/google_news.xml\n\n# tumeva-crawl-delay-start\nUser-agent: bingbot\nUser-agent: Yandex\nUser-agent: meta-webindexer\nUser-agent: meta-externalagent\nCrawl-delay: 10\nDisallow: /api/\nDisallow: /v.js/\nDisallow: /categories\nDisallow: /post/*/comments\nDisallow: /post/*/emojis\nDisallow: /post/*/emoji-votes\nDisallow: /arama$\nDisallow: /arama?\nDisallow: /*.php$\nDisallow: /_mail_\nDisallow: /images/fonts/\nDisallow: /*?ref=\nDisallow: /*?q=\nDisallow: /*?query=\nDisallow: /*?utm_source=\nDisallow: /*?cursor=\nDisallow: /*_token=\n# tumeva-crawl-delay-end\n",
+   "yasak": false
+  }
+ }
+}

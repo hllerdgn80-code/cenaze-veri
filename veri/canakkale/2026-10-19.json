@@ -1,0 +1,60 @@
+{
+ "il": "Çanakkale",
+ "liste_tarihi": "2026-10-19",
+ "kayitlar": [
+  {
+   "id": "208f041c554c",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Alaca",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehrimiz Eski Mezarlığı",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazından sonra Barbaros Camii",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Çanakkale Belediyesi",
+   "kaynak_url": "https://www.canakkale.bel.tr/tr/sayfa/1214-cenaze-ilanlari/11991-19102026-tarihli-cenaze-ilani",
+   "alindi": "2026-10-24T18:40:44+00:00",
+   "ham": {
+    "sayfa_kimligi": "11991",
+    "cenaze_cumlesi": "Cenazesi bugün öğle namazından sonra Barbaros Camii'nden kaldırılarak Şehrimiz Eski Mezarlığı'na defnedilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "ab7b0c4325f0",
+   "il": "Çanakkale",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Akın",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Şehrimiz Eski Mezarlığı",
+   "defin_zamani": "2026-10-19",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "öğle namazından sonra Kocatepe Camii",
+   "liste_tarihi": "2026-10-19",
+   "kaynak_ad": "Çanakkale Belediyesi",
+   "kaynak_url": "https://www.canakkale.bel.tr/tr/sayfa/1214-cenaze-ilanlari/11990-19102026-tarihli-cenaze-ilani",
+   "alindi": "2026-10-24T18:40:44+00:00",
+   "ham": {
+    "sayfa_kimligi": "11990",
+    "cenaze_cumlesi": "Cenazesi bugün öğle namazından sonra Kocatepe Camii'nden kaldırılarak Şehrimiz Eski Mezarlığı'na defnedilecektir.",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

@@ -205,5 +205,109 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.sakaryagazetesi.com.tr/maden-faciasindan-aci-haber-2-isci-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.sonhaber.com.tr/zincirleme-kaza-panige-neden-oldu-surucu-sikisti": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.sonhaber.com.tr/zonguldakta-grizu-patlamasi-faciasi-2-isci-hayatini-kaybetti-5-yarali": {
+  "olgular": [],
+  "tarih": "2026-10-23",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.istikbalgazetesi.com/muhtarlar-gununde-hayatini-kaybetmisti-erol-erdal-gurdogan-topraga-verildi": {
+  "olgular": [
+   {
+    "ad": "Erol Erdal Gürdoğan",
+    "yas": 69,
+    "ilce": "Odunpazarı",
+    "mahalle": null,
+    "namaz": "Tiryakizade Süleymanağa Camii, öğle namazı",
+    "defin": "Odunpazarı Mezarlığı",
+    "namaz_t": null,
+    "defin_t": "2026-10-20",
+    "il_disi": null
+   },
+   {
+    "ad": "Ekim Muhtarlar",
+    "yas": null,
+    "ilce": "Odunpazarı",
+    "mahalle": null,
+    "namaz": "Tiryakizade Süleymanağa Camii, öğle namazı",
+    "defin": null,
+    "namaz_t": "2026-10-20",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-20",
+  "tani": {
+   "cenaze_cumlesi": 4,
+   "olen": 1,
+   "kayit": 2
+  }
+ },
+ "https://www.istikbalgazetesi.com/eskisehirde-24-yasindaki-gencin-hayatini-kaybettigi-silahli-kavgada-1-tutuklama": {
+  "olgular": [],
+  "tarih": "2026-10-19",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.eskisehir.net/eskisehir-yolundaki-korkunc-kazada-can-veren-sahsin-kimligi-ortaya-cikti": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.eskisehir.net/hastane-bahcesinde-toprak-kaymasi-bir-isci-gocuk-altinda-kaldi": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.eskisehirhaber.com/eskisehir-ankara-yolunda-feci-kaza-1-can-kaybi": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.eskisehirekspres.net/afyonda-izin-gununde-calismaya-gittigi-tarlasinda-oldu": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
  }
 }

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+  <channel>
+    <title>Yeşil Iğdır Haberleri</title>
+    <link>https://www.yesiligdir.com</link>
+    <description>Iğdır ile ilgili en güncel haberlere ulaşabileceğiniz, son dakika Iğdır haberlerinin yer aldığı haber sitesidir.</description>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://www.yesiligdir.com/rss" type="application/rss+xml"/>
+    <language>tr-TR</language>
+    <copyright>Copyright © 2025. Her hakkı saklıdır.</copyright>
+    <category>News</category>
+    <lastBuildDate>Sat, 24 Oct 2026 21:44:05 +0300</lastBuildDate>
+    <ttl>1</ttl>
+    <atom:link rel="self" href="https://www.yesiligdir.com/rss"/>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/>
+    <item>
+      <title><![CDATA[3 Puan Bizim!]]></title>
+      <link>https://www.yesiligdir.com/3-puan-bizim</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/3-puan-bizim" type="application/rss+xml"/>
+      <description><![CDATA[Bandırmaspor karşısında 10 kişiyle mücadele eden Alagöz Holding Iğdır FK, 3 puanı hanemize yazdırdı.]]></description>
+      <category>Genel, Spor</category>
+      <guid>https://www.yesiligdir.com/3-puan-bizim</guid>
+      <pubDate>Sat, 24 Oct 2026 15:35:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/i-m-g-6276.jpeg" type="image/jpeg" length="87855"/>
+    </item>
+    <item>
+      <title><![CDATA[AK Parti Iğdır Merkez İlçe Başkanlığından Cumhuriyet Mahallesi Sakinleriyle Bir Araya Geldi]]></title>
+      <link>https://www.yesiligdir.com/ak-parti-igdir-merkez-ilce-baskanligindan-cumhuriyet-mahallesi-sakinleriyle-bir-araya-geldi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ak-parti-igdir-merkez-ilce-baskanligindan-cumhuriyet-mahallesi-sakinleriyle-bir-araya-geldi" type="application/rss+xml"/>
+      <description><![CDATA[AK Parti Iğdır Merkez İlçe Başkanlığı, sahadaki çalışmalarına hız kesmeden devam ediyor. Mahalle buluşmaları kapsamında bu haftaki toplantı Cumhuriyet Mahallesi sakinlerinin katılımıyla Ak Parti Iğdır il başkanlığı toplantı salonunda gerçekleştirildi.]]></description>
+      <category>Genel, Siyaset</category>
+      <guid>https://www.yesiligdir.com/ak-parti-igdir-merkez-ilce-baskanligindan-cumhuriyet-mahallesi-sakinleriyle-bir-araya-geldi</guid>
+      <pubDate>Sat, 24 Oct 2026 15:24:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/863999032-122122187343463412-1542950178977839528-n.jpg" type="image/jpeg" length="19029"/>
+    </item>
+    <item>
+      <title><![CDATA[IĞDIR’DA EĞİTİM-BİR-SEN’DE GÜVEN TAZELEME: SERVET TÜRKAN YENİDEN BAŞKAN SEÇİLDİ]]></title>
+      <link>https://www.yesiligdir.com/igdirda-egitim-bir-sende-guven-tazeleme-servet-turkan-yeniden-baskan-secildi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/igdirda-egitim-bir-sende-guven-tazeleme-servet-turkan-yeniden-baskan-secildi" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır Üniversitesi Eğitim-Bir-Sen (Iğdır 2 No’lu Şube) 2. Olağan Genel Kurulu tamamlandı. Genel kurula tek aday olarak giren Öğr. Gör. Servet Türkan, delegelerin ve üyelerin güçlü desteğini alarak yeniden şube başkanlığına seçildi.]]></description>
+      <category>Eğitim, Genel, Gündem</category>
+      <guid>https://www.yesiligdir.com/igdirda-egitim-bir-sende-guven-tazeleme-servet-turkan-yeniden-baskan-secildi</guid>
+      <pubDate>Sat, 24 Oct 2026 15:10:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/403c247d-2a0c-4857-83e0-7590fb9e0e45.jpg" type="image/jpeg" length="38778"/>
+    </item>
+    <item>
+      <title><![CDATA[Iğdır'da şiddetli yağışın zarar verdiği köy yollarında çalışma başlatıldı]]></title>
+      <link>https://www.yesiligdir.com/igdirda-siddetli-yagisin-zarar-verdigi-koy-yollarinda-calisma-baslatildi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/igdirda-siddetli-yagisin-zarar-verdigi-koy-yollarinda-calisma-baslatildi" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır'ın Aralık ilçesinde yağış nedeniyle zarar gören köy yollarında ekipler çalışma başlattı.]]></description>
+      <category>Çevre, Genel, Iğdır</category>
+      <guid>https://www.yesiligdir.com/igdirda-siddetli-yagisin-zarar-verdigi-koy-yollarinda-calisma-baslatildi</guid>
+      <pubDate>Sat, 24 Oct 2026 14:34:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/igdirda-siddetli-yagisin-zarar-verdigi-koy-yollarinda-calisma-baslatildi.jpg" type="image/jpeg" length="64268"/>
+    </item>
+    <item>
+      <title><![CDATA[Ceviz hasadı başladı]]></title>
+      <link>https://www.yesiligdir.com/ceviz-hasadi-basladi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ceviz-hasadi-basladi" type="application/rss+xml"/>
+      <description><![CDATA[Denizli'nin Çivril ilçesinde ceviz üretiminin önemli merkezlerinden Gürpınar Mahallesi'nde hasat başladı.]]></description>
+      <category>Denizli, Ekonomi</category>
+      <guid>https://www.yesiligdir.com/ceviz-hasadi-basladi</guid>
+      <pubDate>Sat, 24 Oct 2026 14:08:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/ceviz-hasadi-basladi.jpg" type="image/jpeg" length="65249"/>
+    </item>
+    <item>
+      <title><![CDATA[Maç Başlıyor]]></title>
+      <link>https://www.yesiligdir.com/mac-basliyor-1</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/mac-basliyor-1" type="application/rss+xml"/>
+      <description><![CDATA[Alagöz Holding Iğdır FK deplasmanda Bandırmaspor ile karşılaşıyor.]]></description>
+      <category>Genel, Spor</category>
+      <guid>https://www.yesiligdir.com/mac-basliyor-1</guid>
+      <pubDate>Sat, 24 Oct 2026 13:23:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/i-m-g-6275.jpeg" type="image/jpeg" length="20365"/>
+    </item>
+    <item>
+      <title><![CDATA[Özdemir Köyü’nde Su Hattı Arızasına Iğdır İl Özel İdaresi’nden Anında Müdahale]]></title>
+      <link>https://www.yesiligdir.com/ozdemir-koyunde-su-hatti-arizasina-igdir-il-ozel-idaresinden-aninda-mudahale</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ozdemir-koyunde-su-hatti-arizasina-igdir-il-ozel-idaresinden-aninda-mudahale" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır İl Özel İdaresi ekipleri, merkeze bağlı Özdemir köyünde meydana gelen içme suyu hattı arızasına vatandaşlardan gelen ihbarın hemen ardından yerinde müdahalede bulundu.]]></description>
+      <category>Genel</category>
+      <guid>https://www.yesiligdir.com/ozdemir-koyunde-su-hatti-arizasina-igdir-il-ozel-idaresinden-aninda-mudahale</guid>
+      <pubDate>Sat, 24 Oct 2026 12:37:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/d2f6a7a4-aae4-4bdd-b660-94ed957b2deb.jpg" type="image/jpeg" length="65859"/>
+    </item>
+    <item>
+      <title><![CDATA[Iğdır Eğitim-Bir-Sen 2 Nolu Şube’de Genel Kurul Heyecanı]]></title>
+      <link>https://www.yesiligdir.com/igdir-egitim-bir-sen-2-nolu-subede-genel-kurul-heyecani</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/igdir-egitim-bir-sen-2-nolu-subede-genel-kurul-heyecani" type="application/rss+xml"/>
+      <description><![CDATA[Eğitim-Bir-Sen Iğdır 2 Nolu Şube Başkanı Öğr. Gör. Servet Türkan, 2. Olağan Genel Kurul öncesinde basın mensupları ve sendika üyeleriyle kahvaltılı istişare toplantısında bir araya geldi.]]></description>
+      <category>Eğitim, Genel, Gündem</category>
+      <guid>https://www.yesiligdir.com/igdir-egitim-bir-sen-2-nolu-subede-genel-kurul-heyecani</guid>
+      <pubDate>Sat, 24 Oct 2026 12:30:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/b1149466-85d4-4536-87b4-d41e089d9933.jpg" type="image/jpeg" length="65146"/>
+    </item>
+    <item>
+      <title><![CDATA[IĞDIR’DA HAYVANSEVER VATANDAŞTAN ÖRNEK DAVRANIŞ]]></title>
+      <link>https://www.yesiligdir.com/igdirda-hayvansever-vatandastan-ornek-davranis</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/igdirda-hayvansever-vatandastan-ornek-davranis" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır’ın Karakoyunlu ilçesinde hayvansever vatandaş Akif Argın, dar bir demir borunun içerisinde sıkışarak mahsur kalan serçeyi büyük bir çabayla kurtardı. Argın’ın duyarlı davranışı takdir topladı.]]></description>
+      <category>Genel</category>
+      <guid>https://www.yesiligdir.com/igdirda-hayvansever-vatandastan-ornek-davranis</guid>
+      <pubDate>Sat, 24 Oct 2026 12:16:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/i-m-g-9500.jpeg" type="image/jpeg" length="22235"/>
+    </item>
+    <item>
+      <title><![CDATA[Karakoyunlu Girişinde Trafik Kazası: 1 Yaralı]]></title>
+      <link>https://www.yesiligdir.com/karakoyunlu-girisinde-trafik-kazasi-1-yarali</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/karakoyunlu-girisinde-trafik-kazasi-1-yarali" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır’ın Karakoyunlu ilçe girişindeki kavşakta meydana gelen trafik kazasında 1 kişi hafif yaralandı.]]></description>
+      <category>Genel</category>
+      <guid>https://www.yesiligdir.com/karakoyunlu-girisinde-trafik-kazasi-1-yarali</guid>
+      <pubDate>Sat, 24 Oct 2026 11:59:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/d32a489b-c0b8-43c4-8b03-4054e0c8d29f.jpg" type="image/jpeg" length="57696"/>
+    </item>
+    <item>
+      <title><![CDATA[Aralık Kaymakamından İl Emniyet Müdürüne Hoş Geldin Ziyareti]]></title>
+      <link>https://www.yesiligdir.com/aralik-kaymakamindan-il-emniyet-mudurune-hos-geldin-ziyareti</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/aralik-kaymakamindan-il-emniyet-mudurune-hos-geldin-ziyareti" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır’ın Aralık ilçesi Kaymakamı Sançar Batuhan Kurdu, Iğdır İl Emniyet Müdürlüğü görevine atanan Eraslan Er’e hayırlı olsun ziyaretinde bulundu.]]></description>
+      <category>Genel</category>
+      <guid>https://www.yesiligdir.com/aralik-kaymakamindan-il-emniyet-mudurune-hos-geldin-ziyareti</guid>
+      <pubDate>Sat, 24 Oct 2026 10:03:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/i-m-g-6274.jpeg" type="image/jpeg" length="98147"/>
+    </item>
+    <item>
+      <title><![CDATA[Atatürk Üniversitesi 2026-2027 Akademik Yılı Görkemli Bir Törenle Başladı]]></title>
+      <link>https://www.yesiligdir.com/ataturk-universitesi-2026-2027-akademik-yili-gorkemli-bir-torenle-basladi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ataturk-universitesi-2026-2027-akademik-yili-gorkemli-bir-torenle-basladi" type="application/rss+xml"/>
+      <description><![CDATA[Köklü tarihi, nitelikli eğitim kadrosu ve ulusal ile uluslararası alanda elde ettiği başarılarla Doğu'nun bilim meşalesi olan Atatürk Üniversitesi, 2026-2027 Eğitim-Öğretim Yılı Akademik Açılış Törenini büyük bir coşku ve geniş bir katılımla gerçekleştirdi. 15 Temmuz Milli İrade Salonunda düzenlenen etkinliğin onur konuğu Anayasa Mahkemesi Başkanı Kadir Özkaya oldu.]]></description>
+      <category>Eğitim, Erzurum</category>
+      <guid>https://www.yesiligdir.com/ataturk-universitesi-2026-2027-akademik-yili-gorkemli-bir-torenle-basladi</guid>
+      <pubDate>Sat, 24 Oct 2026 09:14:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/ataturk-universitesi-2026-2027-akademik-yili-gorkemli-bir-torenle-basladi.jpg" type="image/jpeg" length="37520"/>
+    </item>
+    <item>
+      <title><![CDATA[Başkan Uçar: 'Yakutiye için durmak yok, yola devam']]></title>
+      <link>https://www.yesiligdir.com/baskan-ucar-yakutiye-icin-durmak-yok-yola-devam</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/baskan-ucar-yakutiye-icin-durmak-yok-yola-devam" type="application/rss+xml"/>
+      <description><![CDATA[Yakutiye Belediye Başkanı Mahmut Uçar, ilçe genelinde yürütülen altyapı ve üstyapı çalışmalarını yakından takip etmeyi sürdürüyor. Başkan Uçar, bu kapsamda Bat Pazarı Caddesi'nde belediye ekipleri tarafından gerçekleştirilen çalışmaları yerinde inceleyerek bölge esnafıyla bir araya geldi.]]></description>
+      <category>Erzurum, Politika</category>
+      <guid>https://www.yesiligdir.com/baskan-ucar-yakutiye-icin-durmak-yok-yola-devam</guid>
+      <pubDate>Sat, 24 Oct 2026 09:14:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/baskan-ucar-yakutiye-icin-durmak-yok-yola-devam.jpg" type="image/jpeg" length="16145"/>
+    </item>
+    <item>
+      <title><![CDATA['Su Muhafızı Duru' oyunu ilk gösteriminde çocuklarla buluştu]]></title>
+      <link>https://www.yesiligdir.com/su-muhafizi-duru-oyunu-ilk-gosteriminde-cocuklarla-bulustu</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/su-muhafizi-duru-oyunu-ilk-gosteriminde-cocuklarla-bulustu" type="application/rss+xml"/>
+      <description><![CDATA[Erzurum'da çocuklara su bilincini aşılamayı hedefleyen 'Su Muhafızı Duru' adlı tiyatro oyunu, düzenlenen ilk gösterimiyle seyirciden büyük beğeni topladı.]]></description>
+      <category>Erzurum, Kültür sanat</category>
+      <guid>https://www.yesiligdir.com/su-muhafizi-duru-oyunu-ilk-gosteriminde-cocuklarla-bulustu</guid>
+      <pubDate>Sat, 24 Oct 2026 09:13:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/su-muhafizi-duru-oyunu-ilk-gosteriminde-cocuklarla-bulustu.jpg" type="image/jpeg" length="13659"/>
+    </item>
+    <item>
+      <title><![CDATA[Erzincan'da velilere yönelik güvenlik faaliyetleri gerçekleştirildi]]></title>
+      <link>https://www.yesiligdir.com/erzincanda-velilere-yonelik-guvenlik-faaliyetleri-gerceklestirildi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/erzincanda-velilere-yonelik-guvenlik-faaliyetleri-gerceklestirildi" type="application/rss+xml"/>
+      <description><![CDATA[Erzincan İl Emniyet Müdürlüğü Toplum Destekli Polislik Şube Müdürlüğü ekiplerince, yeni eğitim öğretim yılı kapsamında 10 okulda 837 öğrenci velisine yönelik güvenlik bilgilendirmesi gerçekleştirildi.]]></description>
+      <category>Asayiş, Erzincan</category>
+      <guid>https://www.yesiligdir.com/erzincanda-velilere-yonelik-guvenlik-faaliyetleri-gerceklestirildi</guid>
+      <pubDate>Sat, 24 Oct 2026 08:56:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/erzincanda-velilere-yonelik-guvenlik-faaliyetleri-gerceklestirildi.jpg" type="image/jpeg" length="23020"/>
+    </item>
+    <item>
+      <title><![CDATA[AK Parti'de hedef ve yol haritası masaya yatırıldı]]></title>
+      <link>https://www.yesiligdir.com/ak-partide-hedef-ve-yol-haritasi-masaya-yatirildi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ak-partide-hedef-ve-yol-haritasi-masaya-yatirildi" type="application/rss+xml"/>
+      <description><![CDATA[AK Parti Bilecik'te hedef ve yol haritası masaya yatırıldı.]]></description>
+      <category>Bilecik, Politika</category>
+      <guid>https://www.yesiligdir.com/ak-partide-hedef-ve-yol-haritasi-masaya-yatirildi</guid>
+      <pubDate>Sat, 24 Oct 2026 08:55:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/ak-partide-hedef-ve-yol-haritasi-masaya-yatirildi.jpg" type="image/jpeg" length="10282"/>
+    </item>
+    <item>
+      <title><![CDATA[Muğla Eğitim-Bir-Sen'den delegelere kongreye davet]]></title>
+      <link>https://www.yesiligdir.com/mugla-egitim-bir-senden-delegelere-kongreye-davet</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/mugla-egitim-bir-senden-delegelere-kongreye-davet" type="application/rss+xml"/>
+      <description><![CDATA[Muğla'nın 13 ilçesi ve Muğla Sıtkı Koçman Üniversitesinde delegelerle bir araya gelen Eğitim-Bir-Sen Muğla Şube Başkanı Önder Uçak, 8. Olağan Genel Kurul öncesinde yeni dönemin çalışma programını değerlendirdi.]]></description>
+      <category>Eğitim, Muğla</category>
+      <guid>https://www.yesiligdir.com/mugla-egitim-bir-senden-delegelere-kongreye-davet</guid>
+      <pubDate>Sat, 24 Oct 2026 08:55:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/mugla-egitim-bir-senden-delegelere-kongreye-davet.jpg" type="image/jpeg" length="44063"/>
+    </item>
+    <item>
+      <title><![CDATA[Ucuz araç kiralama vaadiyle tuzağa düşürdüler: 'Patinaj' operasyonunda 12 tutuklama]]></title>
+      <link>https://www.yesiligdir.com/ucuz-arac-kiralama-vaadiyle-tuzaga-dusurduler-patinaj-operasyonunda-12-tutuklama</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/ucuz-arac-kiralama-vaadiyle-tuzaga-dusurduler-patinaj-operasyonunda-12-tutuklama" type="application/rss+xml"/>
+      <description><![CDATA[Diyarbakır merkezli 10 ilde, gerçeğini aratmayan sahte internet siteleri üzerinden ucuz araç kiralama vaadiyle vatandaşları dolandıran çeteye yönelik düzenlenen 'Patinaj' operasyonunda gözaltına alınan 15 şüpheliden 12'si tutuklandı.]]></description>
+      <category>Asayiş, Diyarbakır</category>
+      <guid>https://www.yesiligdir.com/ucuz-arac-kiralama-vaadiyle-tuzaga-dusurduler-patinaj-operasyonunda-12-tutuklama</guid>
+      <pubDate>Sat, 24 Oct 2026 08:54:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/ucuz-arac-kiralama-vaadiyle-tuzaga-dusurduler-patinaj-operasyonunda-12-tutuklama.jpg" type="image/jpeg" length="99098"/>
+    </item>
+    <item>
+      <title><![CDATA[Kütahya OSB'de insan kaynakları buluşmalarının ilki gerçekleştirildi]]></title>
+      <link>https://www.yesiligdir.com/kutahya-osbde-insan-kaynaklari-bulusmalarinin-ilki-gerceklestirildi</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/kutahya-osbde-insan-kaynaklari-bulusmalarinin-ilki-gerceklestirildi" type="application/rss+xml"/>
+      <description><![CDATA[Kütahya Organize Sanayi Bölgesi (OSB) Müdürlüğü koordinasyonunda düzenlenen 'Kütahya OSB İnsan Kaynakları Buluşmaları'nın ilki, Sanayi 1973 Restaurant Lounge'da gerçekleştirildi. Programda, sanayide nitelikli iş gücünün geliştirilmesi, istihdam imkanlarının artırılması ve firmalar arasındaki iş birliğinin güçlendirilmesi konuları ele alındı.]]></description>
+      <category>Haberde insan, Kütahya</category>
+      <guid>https://www.yesiligdir.com/kutahya-osbde-insan-kaynaklari-bulusmalarinin-ilki-gerceklestirildi</guid>
+      <pubDate>Sat, 24 Oct 2026 08:54:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/kutahya-osbde-insan-kaynaklari-bulusmalarinin-ilki-gerceklestirildi.jpg" type="image/jpeg" length="18053"/>
+    </item>
+    <item>
+      <title><![CDATA[Bilecik'te 154 bin voltluk enerji hattı için uyarı]]></title>
+      <link>https://www.yesiligdir.com/bilecikte-154-bin-voltluk-enerji-hatti-icin-uyari</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/bilecikte-154-bin-voltluk-enerji-hatti-icin-uyari" type="application/rss+xml"/>
+      <description><![CDATA[Bilecik'in Söğüt ilçesinde 154 bin voltluk enerji hattı için uyarı yapıldı.]]></description>
+      <category>Bilecik, Haberde insan</category>
+      <guid>https://www.yesiligdir.com/bilecikte-154-bin-voltluk-enerji-hatti-icin-uyari</guid>
+      <pubDate>Sat, 24 Oct 2026 08:53:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/10/bilecikte-154-bin-voltluk-enerji-hatti-icin-uyari.jpg" type="image/jpeg" length="22360"/>
+    </item>
+    <item>
+      <title><![CDATA[Vali’den OSB’ye Ziyaret]]></title>
+      <link>https://www.yesiligdir.com/foto-galeri/validen-osbye-ziyaret</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/foto-galeri/validen-osbye-ziyaret" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır Organize Sanayi Bölgesi’nde faaliyet gösteren fabrikalar üretmeye devam ediyor. OSB’de faaliyet gösteren fabrikaların sayısı her geçen gün artıyor.]]></description>
+      <category>GENEL</category>
+      <guid>https://www.yesiligdir.com/foto-galeri/validen-osbye-ziyaret</guid>
+      <pubDate>Tue, 15 Sep 2026 11:02:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/09/a44ae5fc-9395-45ac-996e-9b36e5c0d9e2.jpg" type="image/jpeg" length="81876"/>
+    </item>
+    <item>
+      <title><![CDATA[Iğdır'da Çocukların Hortumlu Serinleme Eğlencesi Kamerada]]></title>
+      <link>https://www.yesiligdir.com/foto-galeri/igdirda-cocuklarin-hortumlu-serinleme-eglencesi-kamerada</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/foto-galeri/igdirda-cocuklarin-hortumlu-serinleme-eglencesi-kamerada" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır’da 40 dereceyi bulan kavurucu sıcaklarda bunalan çocuklar, çareyi parkı sulayan hortumda buldu.]]></description>
+      <category>GENEL</category>
+      <guid>https://www.yesiligdir.com/foto-galeri/igdirda-cocuklarin-hortumlu-serinleme-eglencesi-kamerada</guid>
+      <pubDate>Sun, 26 Jul 2026 13:16:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/07/whatsapp-image-2026-07-26-at-124949-1.jpeg" type="image/jpeg" length="58852"/>
+    </item>
+    <item>
+      <title><![CDATA[IĞDIR'DA ÇEVRE KİRLİLİĞİ TEPKİ ÇEKİYOR]]></title>
+      <link>https://www.yesiligdir.com/foto-galeri/igdirda-cevre-kirliligi-tepki-cekiyor</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/foto-galeri/igdirda-cevre-kirliligi-tepki-cekiyor" type="application/rss+xml"/>
+      <description><![CDATA[Kaldırım Çukurları Çöp Dolu, Konteynerler Boş Ama Çöpler Dışarıda]]></description>
+      <category>GENEL</category>
+      <guid>https://www.yesiligdir.com/foto-galeri/igdirda-cevre-kirliligi-tepki-cekiyor</guid>
+      <pubDate>Sat, 25 Jul 2026 13:22:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/07/whatsapp-image-2026-07-25-at-132343.jpeg" type="image/jpeg" length="74293"/>
+    </item>
+    <item>
+      <title><![CDATA[Iğdır’da Metruk Evde Yangın: İtfaiye Facianın Önüne Geçti]]></title>
+      <link>https://www.yesiligdir.com/foto-galeri/igdirda-metruk-evde-yangin-itfaiye-facianin-onune-gecti</link>
+      <atom:link rel="self" href="https://www.yesiligdir.com/foto-galeri/igdirda-metruk-evde-yangin-itfaiye-facianin-onune-gecti" type="application/rss+xml"/>
+      <description><![CDATA[Iğdır merkez Özgür Mahallesi’nde sabah saatlerinde metruk bir evde çıkan yangın, itfaiye ekiplerinin zamanında ve profesyonel müdahalesiyle mahalleliye korku dolu anlar yaşatmadan kontrol altına alındı.]]></description>
+      <category>GENEL</category>
+      <guid>https://www.yesiligdir.com/foto-galeri/igdirda-metruk-evde-yangin-itfaiye-facianin-onune-gecti</guid>
+      <pubDate>Wed, 17 Jun 2026 10:53:00 +0300</pubDate>
+      <enclosure url="https://yesiligdircom.teimg.com/crop/1280x720/yesiligdir-com/uploads/2026/06/123.jpg" type="image/jpeg" length="27786"/>
+    </item>
+  </channel>
+</rss>

@@ -72,5 +72,71 @@
    "olen": 0,
    "kayit": 0
   }
+ },
+ "https://www.taskoprupostasi.com/korkutan-kaza-otomobil-carpismanin-ardindan-devrildi": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.taskoprupostasi.com/katliam-gibi-kaza-bir-aile-yok-oldu": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/mantar-donusu-facia-otomobil-ucuruma-yuvarlandi-4-kisi-oldu": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuistiklal.com/cidenin-gencleri-kastamonuda-farkli-kazandi": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/unlu-sanatci-hayatini-kaybetti": {
+  "olgular": [],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 0,
+   "olen": 0,
+   "kayit": 0
+  }
+ },
+ "https://www.kastamonuhaber.com/dadayda-aci-haber-murvet-yeni-hayatini-kaybetti": {
+  "olgular": [
+   {
+    "ad": "Mürvet Yeni",
+    "yas": null,
+    "ilce": "Daday",
+    "mahalle": null,
+    "namaz": "Daday Merkez Kolukaraoğlu Camii, ikindi namazı",
+    "defin": null,
+    "namaz_t": "2026-10-25",
+    "defin_t": null,
+    "il_disi": null
+   }
+  ],
+  "tarih": "2026-10-24",
+  "tani": {
+   "cenaze_cumlesi": 2,
+   "olen": 0,
+   "kayit": 1
+  }
  }
 }
