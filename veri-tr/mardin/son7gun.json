@@ -19,7 +19,7 @@
     "liste_tarihi": "2026-10-23",
     "kaynak_ad": "Mardin Haber Gazetesi",
     "kaynak_url": "https://mardinhaber.com.tr/mardin-vefatlar/23-10-2026",
-    "alindi": "2026-10-24T05:42:22+03:00",
+    "alindi": "2026-10-24T11:33:16+03:00",
     "ham": {
      "sayfa_tarihi": "2026-10-23",
      "tarih_kaynagi": "yayin_tarihi"
@@ -34,8 +34,8 @@
  "il_disi": [],
  "ilce_belirsiz": [],
  "toplam": 1,
- "guncelleme": "2026-10-24T08:43:10+03:00",
+ "guncelleme": "2026-10-24T11:33:21+03:00",
  "ilce_durum": {
-  "Mardin Haber Gazetesi": 0
+  "Mardin Haber Gazetesi": 1
  }
 }

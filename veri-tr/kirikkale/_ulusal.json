@@ -580,7 +580,60 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e7bea06639ff",
+   "il": "Kırıkkale",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Osman Ünal",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Yuva Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "Çalılıöz Fırınlı Camii, ikindi namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-aci-kayip-sevenleri-yasa-boguldu-3",
+   "alindi": "2026-10-24T11:33:32+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "daffb8159fc0",
+   "il": "Kırıkkale",
+   "ilce": "Keskin",
+   "mahalle": null,
+   "ad_soyad": "Kazım Pekcan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-24",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kale Haber",
+   "kaynak_url": "https://www.kalehaber.net/kirikkalede-pekcan-ailesinin-aci-gunu",
+   "alindi": "2026-10-24T11:33:32+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T10:47:15+03:00"
+ "guncelleme": "2026-10-24T11:33:32+03:00"
 }
