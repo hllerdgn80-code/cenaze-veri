@@ -2,26 +2,26 @@
  "il": "Yozgat",
  "kayitlar": [
   {
-   "id": "5e8d83914910",
+   "id": "761bcb8f8aeb",
    "il": "Yozgat",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Fikriye Tufaner",
+   "ad_soyad": "Musa Ünal",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-16",
-   "defin_yeri": "Etiler Dörtyol Camii",
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Hacı Ali Babacan Camii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-16",
+   "liste_tarihi": "2026-10-23",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-18T11:07:13+03:00",
+   "alindi": "2026-10-24T10:47:15+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-16",
+    "sayfa_tarihi": "2026-10-23",
     "durum": null
    },
    "il_disi_defin": null,
@@ -29,5 +29,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-18T11:07:13+03:00"
+ "guncelleme": "2026-10-24T10:47:15+03:00"
 }

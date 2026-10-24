@@ -2,60 +2,6 @@
  "il": "Çankırı",
  "kayitlar": [
   {
-   "id": "1420f1f95ea7",
-   "il": "Çankırı",
-   "ilce": "Kurşunlu",
-   "mahalle": null,
-   "ad_soyad": "Veli Kayacı",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-20",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-20",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-23T11:19:32+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-20",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
-   "id": "c85f037612c3",
-   "il": "Çankırı",
-   "ilce": "Merkez",
-   "mahalle": null,
-   "ad_soyad": "Salih Çetinkaya",
-   "anne_baba": null,
-   "yas": null,
-   "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-20",
-   "defin_yeri": null,
-   "defin_zamani": null,
-   "namaz_tarihi": null,
-   "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-20",
-   "kaynak_ad": "ulusal liste",
-   "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-23T11:19:32+03:00",
-   "ham": {
-    "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-20",
-    "durum": null
-   },
-   "il_disi_defin": null,
-   "ilce_belirsiz": false,
-   "kaynak_turu": "yerel_basin"
-  },
-  {
    "id": "284b272e72a9",
    "il": "Çankırı",
    "ilce": "Merkez",
@@ -72,7 +18,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-23T11:19:32+03:00",
+   "alindi": "2026-10-24T10:47:15+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-22",
@@ -99,7 +45,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-23T11:19:32+03:00",
+   "alindi": "2026-10-24T10:47:15+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
     "sayfa_tarihi": "2026-10-22",
@@ -108,7 +54,34 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "f8ca6b1134af",
+   "il": "Çankırı",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Nihat Mantar",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "İkindi",
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-22",
+   "kaynak_ad": "ulusal liste",
+   "kaynak_url": "https://www.vefatilanlari.com.tr/",
+   "alindi": "2026-10-24T10:47:15+03:00",
+   "ham": {
+    "tarih_kaynagi": "ilan_vefat_tarihi",
+    "sayfa_tarihi": "2026-10-22",
+    "durum": "defnedilecek"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T11:19:32+03:00"
+ "guncelleme": "2026-10-24T10:47:15+03:00"
 }

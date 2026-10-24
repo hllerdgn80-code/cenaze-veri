@@ -2,26 +2,26 @@
  "il": "Bartın",
  "kayitlar": [
   {
-   "id": "d6889f70d1de",
+   "id": "18d7119bfb27",
    "il": "Bartın",
    "ilce": "Merkez",
    "mahalle": null,
-   "ad_soyad": "Suat Zuhal Demirci",
+   "ad_soyad": "Aslan Şükrü Işık",
    "anne_baba": null,
    "yas": null,
    "dogum_tarihi": null,
-   "vefat_tarihi": "2026-10-20",
-   "defin_yeri": "Gölbucağı Camii",
+   "vefat_tarihi": "2026-10-21",
+   "defin_yeri": "Aşağı Camii",
    "defin_zamani": null,
    "namaz_tarihi": null,
    "namaz_yeri_vakti": null,
-   "liste_tarihi": "2026-10-20",
+   "liste_tarihi": "2026-10-21",
    "kaynak_ad": "ulusal liste",
    "kaynak_url": "https://www.vefatilanlari.com.tr/",
-   "alindi": "2026-10-23T11:19:32+03:00",
+   "alindi": "2026-10-24T10:47:15+03:00",
    "ham": {
     "tarih_kaynagi": "ilan_vefat_tarihi",
-    "sayfa_tarihi": "2026-10-20",
+    "sayfa_tarihi": "2026-10-21",
     "durum": null
    },
    "il_disi_defin": null,
@@ -29,5 +29,5 @@
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T11:19:32+03:00"
+ "guncelleme": "2026-10-24T10:47:15+03:00"
 }
