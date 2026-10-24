@@ -52,32 +52,5 @@
   "il_disi_defin": null,
   "ilce_belirsiz": false,
   "kaynak_turu": "yerel_haber"
- },
- {
-  "id": "3fb0c2976d74",
-  "il": "Malatya",
-  "ilce": null,
-  "mahalle": null,
-  "ad_soyad": "Mübaşir İrfan Eroğlu",
-  "anne_baba": null,
-  "yas": null,
-  "dogum_tarihi": null,
-  "vefat_tarihi": null,
-  "defin_yeri": null,
-  "defin_zamani": null,
-  "namaz_tarihi": null,
-  "namaz_yeri_vakti": null,
-  "liste_tarihi": "2026-10-20",
-  "kaynak_ad": "Yeni Malatya",
-  "kaynak_url": "https://www.yenimalatya.com.tr/haber/29015790/malatya-adliyesinde-aci-olay-mubasir-irfan-eroglu-hayatini-kaybetti",
-  "alindi": "2026-10-21T05:51:26+03:00",
-  "ham": {
-   "yayin_tarihi": "2026-10-20",
-   "sayfa_tarihi": "2026-10-20",
-   "tarih_kaynagi": "yayin_tarihi"
-  },
-  "il_disi_defin": null,
-  "ilce_belirsiz": true,
-  "kaynak_turu": "yerel_haber"
  }
 ]

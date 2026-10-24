@@ -8,7 +8,8 @@
    "2026-10-20": 24,
    "2026-10-21": 29,
    "2026-10-22": 22,
-   "2026-10-23": 27
+   "2026-10-23": 27,
+   "2026-10-24": 4
   },
   "yenimalatya.com.tr": {
    "2026-10-16": 7,
@@ -18,7 +19,8 @@
    "2026-10-20": 12,
    "2026-10-21": 11,
    "2026-10-22": 7,
-   "2026-10-23": 11
+   "2026-10-23": 11,
+   "2026-10-24": 2
   }
  },
  "okunan": {
@@ -147,20 +149,21 @@
   "https://malatyasonsoz.com.tr/haber/29035738/tekne-turunda-sirra-kadem-basti-4-gun-sonra-aci-haber-geldi": "2026-10-23T15:26:03",
   "https://malatyasonsoz.com.tr/haber/29035061/maden-ocaginda-patlama-2-olu-2si-agir-5-yarali": "2026-10-23T15:33:52",
   "https://malatyasonsoz.com.tr/haber/29037529/motosiklet-yayaya-carpti-1-olu-1-agir-yarali": "2026-10-23T17:57:55",
-  "https://malatyasonsoz.com.tr/haber/29037541/3-katli-binada-cikan-yanginda-yaralanan-sahis-hayatini-kaybetti": "2026-10-23T17:57:59",
-  "https://malatyasonsoz.com.tr/haber/29037436/traktorden-dusen-yasli-adam-hayatini-kaybetti": "2026-10-23T17:58:03",
-  "https://www.yenimalatya.com.tr/haber/29037531/malatyada-3-kisinin-hayatini-kaybettigi-dagdeviren-apartmani-davasinda-karar-4-saniga-hapis": "2026-10-23T17:58:09",
+  "https://malatyasonsoz.com.tr/haber/29037541/3-katli-binada-cikan-yanginda-yaralanan-sahis-hayatini-kaybetti": "2026-10-24T05:26:53",
+  "https://malatyasonsoz.com.tr/haber/29037436/traktorden-dusen-yasli-adam-hayatini-kaybetti": "2026-10-24T05:27:00",
+  "https://www.yenimalatya.com.tr/haber/29037531/malatyada-3-kisinin-hayatini-kaybettigi-dagdeviren-apartmani-davasinda-karar-4-saniga-hapis": "2026-10-24T05:27:05",
   "https://malatyasonsoz.com.tr/haber/29037639/traktor-tarlaya-devrildi-1-kisi-oldu": "2026-10-23T19:58:16",
-  "https://malatyasonsoz.com.tr/haber/29037238/malatyada-10-kisi-vefat-etti": "2026-10-23T19:58:20"
+  "https://malatyasonsoz.com.tr/haber/29037238/malatyada-10-kisi-vefat-etti": "2026-10-23T19:58:20",
+  "https://malatyasonsoz.com.tr/haber/29037972/iki-ayri-trafik-kazasi-10-yarali": "2026-10-24T05:26:49"
  },
  "robots": {
   "malatyasonsoz.com.tr": {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-24",
    "metin": "User-agent: *\r\nDisallow: /haberleri?filter=\r\nDisallow: /etiket?filter=\r\nAllow: /\r\n\r\nUser-agent: Googlebot-Image\r\nDisallow: /user\r\nDisallow: /themes/enerjik/assets/\r\nDisallow: /themes/enerjik/assets/\r\nAllow: /\r\n\r\nUser-agent: AdsBot-Google\r\nDisallow: /service/stats/visitors\r\nDisallow: /service/advertchannels\r\nAllow: /\r\n\r\nuser-agent: Pinterestbot\r\nDisallow: /haberleri?filter=\r\nDisallow: /etiket?filter=\r\nAllow: /\r\n\r\nSitemap: https://malatyasonsoz.com.tr/google-news.xml\r\nSitemap: https://malatyasonsoz.com.tr/sitemap.xml\r\nSitemap: https://malatyasonsoz.com.tr/sitemap-latest.xml",
    "yasak": false
   },
   "www.yenimalatya.com.tr": {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-24",
    "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.yenimalatya.com.tr/google-news.xml\nSitemap: https://www.yenimalatya.com.tr/sitemap.xml\nSitemap: https://www.yenimalatya.com.tr/sitemap-latest.xml\n",
    "yasak": false
   }

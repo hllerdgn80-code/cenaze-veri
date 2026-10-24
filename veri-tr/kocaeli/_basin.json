@@ -8,7 +8,8 @@
    "2026-10-20": 24,
    "2026-10-21": 38,
    "2026-10-22": 23,
-   "2026-10-23": 26
+   "2026-10-23": 26,
+   "2026-10-24": 4
   },
   "ozgurkocaeli.com.tr": {
    "2026-10-16": 28,
@@ -18,7 +19,8 @@
    "2026-10-20": 21,
    "2026-10-21": 17,
    "2026-10-22": 13,
-   "2026-10-23": 21
+   "2026-10-23": 21,
+   "2026-10-24": 4
   }
  },
  "okunan": {
@@ -140,26 +142,26 @@
   "https://www.kocaeligazetesi.com.tr/vefat/29029605/nazire-yondemir": "2026-10-23T15:36:12",
   "https://www.kocaeligazetesi.com.tr/haber/29027678/kocaelinin-taninmis-egitimcisi-ihsan-aydin-hayatini-kaybetti": "2026-10-23T09:33:19",
   "https://www.kocaeligazetesi.com.tr/haber/29025905/nuri-akcaharmanin-aci-gunu-zonguldaktaki-bina-faciasi-yasa-bogdu": "2026-10-22T17:10:29",
-  "https://www.kocaeligazetesi.com.tr/haber/29033034/kocaelinin-sevilen-muhtari-recep-karaosmanoglu-hayatini-kaybetti": "2026-10-23T18:00:11",
+  "https://www.kocaeligazetesi.com.tr/haber/29033034/kocaelinin-sevilen-muhtari-recep-karaosmanoglu-hayatini-kaybetti": "2026-10-24T05:32:33",
   "https://www.kocaeligazetesi.com.tr/vefat/29029650/mehmet-tosunoglu-vefat-etti": "2026-10-23T18:00:16",
   "https://www.kocaeligazetesi.com.tr/vefat/29029647/arif-bektas": "2026-10-23T20:02:17",
   "https://www.ozgurkocaeli.com.tr/haber/29032742/kontrolden-cikan-kamyonet-bariyerlere-carpti-surucu-hayatini-kaybetti": "2026-10-23T18:00:25",
   "https://www.kocaeligazetesi.com.tr/vefat/29029643/mehmet-kuru": "2026-10-23T20:02:22",
   "https://www.ozgurkocaeli.com.tr/haber/29033732/bowling-salonunda-feci-kaza-genc-kadin-hayatini-kaybetti": "2026-10-23T18:00:20",
-  "https://www.kocaeligazetesi.com.tr/haber/29036012/kocaelide-kibris-gazisi-hayatini-kaybetti": "2026-10-23T20:02:13",
-  "https://www.ozgurkocaeli.com.tr/haber/29035931/masukiyeli-kibris-gazisi-kemal-belat-hayatini-kaybetti": "2026-10-23T20:02:31",
-  "https://www.ozgurkocaeli.com.tr/haber/29035705/servetiye-camii-koyu-eski-muhtari-hayatini-kaybetti": "2026-10-23T20:02:35",
-  "https://www.kocaeligazetesi.com.tr/haber/29036979/kocaeli-buyuksehirde-aci-kayip-buyukakindan-veda-mesaji": "2026-10-23T18:00:07",
-  "https://www.ozgurkocaeli.com.tr/haber/29037760/kibris-gazisi-kemal-belat-son-yolculuguna-ugurlandi": "2026-10-23T20:02:26"
+  "https://www.kocaeligazetesi.com.tr/haber/29036012/kocaelide-kibris-gazisi-hayatini-kaybetti": "2026-10-24T05:32:22",
+  "https://www.ozgurkocaeli.com.tr/haber/29035931/masukiyeli-kibris-gazisi-kemal-belat-hayatini-kaybetti": "2026-10-24T05:32:54",
+  "https://www.ozgurkocaeli.com.tr/haber/29035705/servetiye-camii-koyu-eski-muhtari-hayatini-kaybetti": "2026-10-24T05:33:00",
+  "https://www.kocaeligazetesi.com.tr/haber/29036979/kocaeli-buyuksehirde-aci-kayip-buyukakindan-veda-mesaji": "2026-10-24T05:32:18",
+  "https://www.ozgurkocaeli.com.tr/haber/29037760/kibris-gazisi-kemal-belat-son-yolculuguna-ugurlandi": "2026-10-24T05:32:42"
  },
  "robots": {
   "www.kocaeligazetesi.com.tr": {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-24",
    "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.kocaeligazetesi.com.tr/google-news.xml\nSitemap: https://www.kocaeligazetesi.com.tr/sitemap.xml\nSitemap: https://www.kocaeligazetesi.com.tr/sitemap-latest.xml\n",
    "yasak": false
   },
   "www.ozgurkocaeli.com.tr": {
-   "tarih": "2026-10-16",
+   "tarih": "2026-10-24",
    "metin": "User-agent: *\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Googlebot-Image\nDisallow: /user\nDisallow: /themes/enerjik/assets/\nAllow: /\n\nUser-agent: AdsBot-Google\nDisallow: /service/stats/visitors\nDisallow: /service/advertchannels\nAllow: /\n\nUser-agent: AhrefsBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: SemrushBot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nUser-agent: Applebot\nCrawl-delay: 3\nDisallow: /haberleri?filter=\nDisallow: /etiket?filter=\nDisallow: /paylas\nDisallow: /yazdir/\nDisallow: /ara\nDisallow: /api/\nDisallow: /service/\nDisallow: /user/\nAllow: /\n\nSitemap: https://www.ozgurkocaeli.com.tr/google-news.xml\nSitemap: https://www.ozgurkocaeli.com.tr/sitemap.xml\nSitemap: https://www.ozgurkocaeli.com.tr/sitemap-latest.xml\n",
    "yasak": false
   }

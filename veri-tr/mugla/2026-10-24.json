@@ -1,0 +1,131 @@
+{
+ "il": "Muğla",
+ "liste_tarihi": "2026-10-24",
+ "kayitlar": [
+  {
+   "id": "33ab215bc6b9",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Emel Yıldırım",
+   "anne_baba": null,
+   "yas": 86,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Akçaalan Merkez Camii'den Yukarı Akçaalan mezarlığına",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-24T05:21:08+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "9edd4da89b49",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Ayçin Evgeç Dalgıç",
+   "anne_baba": null,
+   "yas": 61,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-24T05:21:08+03:00",
+   "ham": {
+    "nakil_yeri": "Muğla",
+    "nakil_tarihi": "2026-10-23"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "df1ebfc29b9c",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Hasan Topal",
+   "anne_baba": null,
+   "yas": 59,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Gölköy mezarlığına, Cenaze Namazı mezarlıkta kılınacaktır.",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-24T05:21:08+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "77735970f3fc",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Halil İbrahim Yalçın",
+   "anne_baba": null,
+   "yas": 58,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Bitez Cemevi'nden Yukarı Akçaalan mezarlığına",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "İkindi Namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-24T05:21:08+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "ab834333f020",
+   "il": "Muğla",
+   "ilce": "Bodrum",
+   "mahalle": null,
+   "ad_soyad": "Hakkı Altay Gökakın",
+   "anne_baba": null,
+   "yas": 92,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Gündoğan Merkez Camii'den Gündoğan mezarlığına",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "Öğle Namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Bodrum Belediyesi",
+   "kaynak_url": "https://www.bodrum.bel.tr/vefat",
+   "alindi": "2026-10-24T05:21:08+03:00",
+   "ham": {
+    "nakil_yeri": null,
+    "nakil_tarihi": null
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  }
+ ]
+}
