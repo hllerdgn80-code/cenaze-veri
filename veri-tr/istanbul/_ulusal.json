@@ -30324,7 +30324,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T18:43:19+03:00",
+   "alindi": "2026-10-24T18:14:44+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-22",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -32438,7 +32438,7 @@
    "liste_tarihi": "2026-10-22",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T18:43:19+03:00",
+   "alindi": "2026-10-24T18:14:44+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-22",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38127,7 +38127,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T18:43:19+03:00",
+   "alindi": "2026-10-24T18:14:44+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-23",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -38152,7 +38152,7 @@
    "liste_tarihi": "2026-10-23",
    "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
    "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
-   "alindi": "2026-10-23T18:43:19+03:00",
+   "alindi": "2026-10-24T18:14:44+03:00",
    "ham": {
     "sayfa_tarihi": "2026-10-23",
     "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
@@ -44448,6 +44448,56 @@
    },
    "il_disi_defin": null,
    "ilce_belirsiz": true
+  },
+  {
+   "id": "600e1d6aaf00",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "Nazim Çobanoğlu",
+   "anne_baba": null,
+   "yas": 83,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-24T18:14:44+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
+  },
+  {
+   "id": "40c5d20c4949",
+   "il": "İstanbul",
+   "ilce": "Bağcılar",
+   "mahalle": null,
+   "ad_soyad": "Şefik Kaban",
+   "anne_baba": null,
+   "yas": 88,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Bağcılar Belediyesi (e-Devlet)",
+   "kaynak_url": "https://www.turkiye.gov.tr/bagcilar-belediyesi-vefat-sorgulama",
+   "alindi": "2026-10-24T18:14:44+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "hizmet": "bagcilar-belediyesi-vefat-sorgulama"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false
   }
  ],
  "guncelleme": "2026-10-24T18:14:44+03:00"
