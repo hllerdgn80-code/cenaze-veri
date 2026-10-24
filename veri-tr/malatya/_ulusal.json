@@ -846,7 +846,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0e668391bf43",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Meryem Azra Yetek",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29038698/otomobil-yayalara-carpti-anne-ve-4-yasindaki-kizi-hayatini-kaybetti",
+   "alindi": "2026-10-24T07:57:57+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-23",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-23T07:50:41+03:00"
+ "guncelleme": "2026-10-24T07:57:57+03:00"
 }
