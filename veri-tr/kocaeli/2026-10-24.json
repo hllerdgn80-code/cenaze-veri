@@ -685,6 +685,38 @@
     "il": "Van",
     "ilce": null
    }
+  },
+  {
+   "id": "06e6b6f55a8c",
+   "il": "Kocaeli",
+   "ilce": "Derince",
+   "mahalle": null,
+   "ad_soyad": "Ruhat Filiz Saral",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "KENT MEZARLIĞI",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – Gülerevler Cami",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-24T16:12:27+03:00",
+   "ham": {
+    "ad": "RUHAT FİLİZ",
+    "soyad": "SARAL",
+    "mezarlik": "KENT MEZARLIĞI",
+    "cami": "Gülerevler Cami",
+    "vakit": "ÖĞLEN",
+    "olum_tarihi": "22.10.2026",
+    "defin_tarihi": "24.10.2026",
+    "ilce_kaynagi": "cami_adresi",
+    "ilce_ham": "Derince"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null
   }
  ]
 }

@@ -1,0 +1,93 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-24",
+ "kayitlar": [
+  {
+   "id": "21696ac97573",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Zeynep Ünal",
+   "anne_baba": "Neşet",
+   "yas": 80,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-24",
+   "defin_yeri": "Ervah Kabristanlığı / Cemaat Deresi 2 Ada",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:13",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-24T16:13:23+03:00",
+   "ham": {
+    "baba": "NEŞET",
+    "defin": "24.10.2026 13:13",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / CEMAAT DERESİ 2 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "503c9044c9fc",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Zait Düzgün",
+   "anne_baba": "Tahir",
+   "yas": 71,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-24",
+   "defin_yeri": "Ervah Kabristanlığı / 1 Ada",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-24T16:13:23+03:00",
+   "ham": {
+    "baba": "TAHİR",
+    "defin": "24.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / 1 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "a208345b87d2",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Yavuz Gökkaya",
+   "anne_baba": "Ömer",
+   "yas": 52,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Bedir Muhtar Mezarlığı / 3 Ada",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:10",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-24T16:13:23+03:00",
+   "ham": {
+    "baba": "ÖMER",
+    "defin": "24.10.2026 13:10",
+    "namaz": "Öğlen",
+    "mezarlik": "BEDİR MUHTAR MEZARLIĞI / 3 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

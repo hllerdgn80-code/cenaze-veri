@@ -1,0 +1,64 @@
+{
+ "il": "Aksaray",
+ "liste_tarihi": "2026-10-23",
+ "kayitlar": [
+  {
+   "id": "84b74671a540",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Bayram Çamlı",
+   "anne_baba": "Etem",
+   "yas": 61,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Ervah Kabristanlığı / Badem Deresi 1 Ada",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "Öğlen – defin saati 13:08",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-24T16:13:23+03:00",
+   "ham": {
+    "baba": "ETEM",
+    "defin": "23.10.2026 13:08",
+    "namaz": "Öğlen",
+    "mezarlik": "ERVAH KABRİSTANLIĞI / BADEM DERESİ 1 ADA",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  },
+  {
+   "id": "a113193c2bf3",
+   "il": "Aksaray",
+   "ilce": "Merkez",
+   "mahalle": null,
+   "ad_soyad": "Necla Mercan",
+   "anne_baba": "Yaşar",
+   "yas": 50,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-22",
+   "defin_yeri": "Yeni Şehir Mezarlığı / S-1 Sıralı Sistem",
+   "defin_zamani": "2026-10-23",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": "defin saati 13:08",
+   "liste_tarihi": "2026-10-23",
+   "kaynak_ad": "Aksaray Belediyesi",
+   "kaynak_url": "https://ebelediye.aksaray.bel.tr/VefatEdenler/Index",
+   "alindi": "2026-10-24T16:13:23+03:00",
+   "ham": {
+    "baba": "YAŞAR",
+    "defin": "23.10.2026 13:08",
+    "namaz": "",
+    "mezarlik": "YENİ ŞEHİR MEZARLIĞI / S-1 SIRALI SİSTEM",
+    "ilce_kaynagi": "kaynak_belediye"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": null,
+   "ilce_kaynagi": "kaynak_belediye"
+  }
+ ]
+}

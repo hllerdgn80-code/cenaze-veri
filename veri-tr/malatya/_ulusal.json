@@ -898,7 +898,61 @@
    "il_disi_defin": null,
    "ilce_belirsiz": false,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "015ba5f083cd",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": "Süleymanlı Mahallesi",
+   "ad_soyad": "Emel Taşlı",
+   "anne_baba": null,
+   "yas": 70,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29041313/traktorden-dusen-yasli-kadin-hayatini-kaybetti",
+   "alindi": "2026-10-24T17:27:00+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1d612c2c49b8",
+   "il": "Malatya",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Mahmut Bozan",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "ikindi namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Yeni Malatya",
+   "kaynak_url": "https://www.yenimalatya.com.tr/haber/29041360/gazeteci-servet-bozanin-aci-gunu-babasi-mahmut-bozan-hayatini-kaybetti",
+   "alindi": "2026-10-24T17:27:00+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T13:56:02+03:00"
+ "guncelleme": "2026-10-24T17:27:00+03:00"
 }
