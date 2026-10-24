@@ -342,7 +342,7 @@
    "liste_tarihi": "2026-10-24",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/kayseri-de-otomobil-ile-motosiklet-carpisti-17-yasindaki-surucu-hayatini-kaybetti/32433/",
-   "alindi": "2026-10-24T11:33:32+03:00",
+   "alindi": "2026-10-24T13:56:02+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-24",
     "sayfa_tarihi": "2026-10-24",
@@ -369,7 +369,7 @@
    "liste_tarihi": "2026-10-24",
    "kaynak_ad": "Hunat TV",
    "kaynak_url": "https://www.hunattv.com/kayserili-polis-memuru-mustafa-oguzhan-cavus-van-daki-trafik-kazasinda-hayatini-kaybetti/32432/",
-   "alindi": "2026-10-24T11:33:32+03:00",
+   "alindi": "2026-10-24T13:56:02+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-24",
     "sayfa_tarihi": "2026-10-24",
@@ -378,7 +378,60 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "1f2bcdce33be",
+   "il": "Kayseri",
+   "ilce": "Yeşilhisar",
+   "mahalle": null,
+   "ad_soyad": "Mustafa Oğuzhan Çavuş",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kayseri Anadolu Haber",
+   "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayserili-polis-memuru-van-da-hayatini-kaybetti-mustafa-oguzhan-cavus-kimdir/200905/",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e5f59b8357c8",
+   "il": "Kayseri",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Fatma Cingöz",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Eski Mez.",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "Org.Hulusi Akar Camii, öğle namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kayseri Anadolu Haber",
+   "kaynak_url": "https://www.kayserianadoluhaber.com.tr/kayseri-de-24-ekim-cumartesi-gunu-vefat-edenler/200898/",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T11:33:32+03:00"
+ "guncelleme": "2026-10-24T13:56:02+03:00"
 }

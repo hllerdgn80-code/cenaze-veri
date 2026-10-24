@@ -872,7 +872,33 @@
    "il_disi_defin": null,
    "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "e13404096f00",
+   "il": "Malatya",
+   "ilce": "Akçadağ",
+   "mahalle": null,
+   "ad_soyad": "İhsan Metin",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Malatya Şehir Mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": "öğle namazı",
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Malatya Sonsöz Gazetesi",
+   "kaynak_url": "https://malatyasonsoz.com.tr/haber/29040018/akcadagli-metin-ailesinin-aci-gunu",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T07:57:57+03:00"
+ "guncelleme": "2026-10-24T13:56:02+03:00"
 }

@@ -573,8 +573,8 @@
   {
    "id": "a9a8652386ed",
    "il": "Burdur",
-   "ilce": "Yeşilova",
-   "mahalle": "Çaltepe Köyü",
+   "ilce": null,
+   "mahalle": null,
    "ad_soyad": "Fahrettin Acar",
    "anne_baba": null,
    "yas": null,
@@ -587,16 +587,97 @@
    "liste_tarihi": "2026-10-24",
    "kaynak_ad": "Burdur Gazetesi",
    "kaynak_url": "https://www.burdurgazetesi.com/haber/29039251/burdurda-acar-ailesinin-aci-gunu-hayatini-kaybetti",
-   "alindi": "2026-10-24T11:33:32+03:00",
+   "alindi": "2026-10-24T13:56:02+03:00",
    "ham": {
     "yayin_tarihi": "2026-10-24",
     "sayfa_tarihi": "2026-10-24",
     "tarih_kaynagi": "yayin_tarihi"
    },
    "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "17f61d132fe6",
+   "il": "Burdur",
+   "ilce": "Bucak",
+   "mahalle": "Kızılseki Köyü",
+   "ad_soyad": "Halıcı İzzet Zengin",
+   "anne_baba": null,
+   "yas": 99,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": "Köle mezarlığı",
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29040379/burdurda-99-yasindaki-halici-izzet-zengin-vefat-etti",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
    "ilce_belirsiz": false,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "0798eb2465c8",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Keziban Ongun",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": "2026-10-24",
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29040362/burdurda-keziban-ongun-vefat-etti",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "metin"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
+   "kaynak_turu": "yerel_basin"
+  },
+  {
+   "id": "3472938b7f46",
+   "il": "Burdur",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Ahmet Talha Tübcül",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": null,
+   "defin_yeri": null,
+   "defin_zamani": null,
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Burdur Gazetesi",
+   "kaynak_url": "https://www.burdurgazetesi.com/haber/29040556/burdurda-aci-haber-5-sinif-ogrencisi-vefat-etti",
+   "alindi": "2026-10-24T13:56:02+03:00",
+   "ham": {
+    "yayin_tarihi": "2026-10-24",
+    "sayfa_tarihi": "2026-10-24",
+    "tarih_kaynagi": "yayin_tarihi"
+   },
+   "il_disi_defin": null,
+   "ilce_belirsiz": true,
    "kaynak_turu": "yerel_basin"
   }
  ],
- "guncelleme": "2026-10-24T11:33:32+03:00"
+ "guncelleme": "2026-10-24T13:56:02+03:00"
 }

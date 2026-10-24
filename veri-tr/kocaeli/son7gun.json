@@ -2028,6 +2028,39 @@
     "ilk_gorulme": "2026-10-24T11:31:35+03:00"
    },
    {
+    "id": "30d7f4e930a0",
+    "il": "Kocaeli",
+    "ilce": "İzmit",
+    "mahalle": null,
+    "ad_soyad": "Serkan Düman",
+    "anne_baba": null,
+    "yas": null,
+    "dogum_tarihi": null,
+    "vefat_tarihi": "2026-10-24",
+    "defin_yeri": "KÖRÜKTEPE MEZARLIĞI",
+    "defin_zamani": "2026-10-24",
+    "namaz_tarihi": null,
+    "namaz_yeri_vakti": "İkindi – Alikahya Merkez Cami",
+    "liste_tarihi": "2026-10-24",
+    "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+    "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+    "alindi": "2026-10-24T12:41:27+03:00",
+    "ham": {
+     "ad": "SERKAN",
+     "soyad": "DÜMAN",
+     "mezarlik": "KÖRÜKTEPE MEZARLIĞI",
+     "cami": "Alikahya Merkez Cami",
+     "vakit": "İKİNDİ",
+     "olum_tarihi": "24.10.2026",
+     "defin_tarihi": "24.10.2026",
+     "ilce_kaynagi": "cami_adresi",
+     "ilce_ham": "İzmit"
+    },
+    "ilce_belirsiz": false,
+    "il_disi_defin": null,
+    "ilk_gorulme": "2026-10-24T12:41:27+03:00"
+   },
+   {
     "id": "ce46c7f26372",
     "il": "Kocaeli",
     "ilce": "İzmit",
@@ -4553,6 +4586,78 @@
    "ilk_gorulme": "2026-10-24T11:31:35+03:00"
   },
   {
+   "id": "b20082572a02",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "İbrahim İnce",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Nakil: Çanakkale / Yenice",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-24T12:41:27+03:00",
+   "ham": {
+    "ad": "İBRAHİM",
+    "soyad": "İNCE",
+    "mezarlik": "",
+    "cami": "YENİCE",
+    "vakit": "NAKIL",
+    "olum_tarihi": "23.10.2026",
+    "defin_tarihi": "24.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Çanakkale / Yenice"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Çanakkale",
+    "ilce": "Yenice"
+   },
+   "ilk_gorulme": "2026-10-24T12:41:27+03:00"
+  },
+  {
+   "id": "87b94556a2ab",
+   "il": "Kocaeli",
+   "ilce": null,
+   "mahalle": null,
+   "ad_soyad": "Canan Öncü",
+   "anne_baba": null,
+   "yas": null,
+   "dogum_tarihi": null,
+   "vefat_tarihi": "2026-10-23",
+   "defin_yeri": "Nakil: Van",
+   "defin_zamani": "2026-10-24",
+   "namaz_tarihi": null,
+   "namaz_yeri_vakti": null,
+   "liste_tarihi": "2026-10-24",
+   "kaynak_ad": "Kocaeli Büyükşehir Belediyesi",
+   "kaynak_url": "https://ebelediye.kocaeli.bel.tr/sosyalhizmetler/vefatlistesi",
+   "alindi": "2026-10-24T12:41:27+03:00",
+   "ham": {
+    "ad": "CANAN",
+    "soyad": "ÖNCÜ",
+    "mezarlik": "",
+    "cami": "THY VAN NAKİL",
+    "vakit": "NAKIL",
+    "olum_tarihi": "23.10.2026",
+    "defin_tarihi": "24.10.2026",
+    "ilce_kaynagi": "nakil_alani",
+    "ilce_ham": "Van"
+   },
+   "ilce_belirsiz": false,
+   "il_disi_defin": {
+    "il": "Van",
+    "ilce": null
+   },
+   "ilk_gorulme": "2026-10-24T12:41:27+03:00"
+  },
+  {
    "id": "a03b44d477d6",
    "il": "Kocaeli",
    "ilce": null,
@@ -5983,6 +6088,6 @@
    "ilk_gorulme": "2026-10-22T12:41:24+03:00"
   }
  ],
- "toplam": 177,
- "guncelleme": "2026-10-24T11:31:37+03:00"
+ "toplam": 180,
+ "guncelleme": "2026-10-24T12:41:27+03:00"
 }
