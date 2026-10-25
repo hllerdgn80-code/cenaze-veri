@@ -1,0 +1,329 @@
+[
+ {
+  "ad": "Aysel Gürel",
+  "dogum_tarihi": "1929-02-07",
+  "vefat_tarihi": "2008-02-17",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Denizli",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q434925",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Gazanfer Özcan",
+  "dogum_tarihi": "1931-01-27",
+  "vefat_tarihi": "2009-02-17",
+  "vefat_yasi": 78,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2075940",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Devlet Sanatçısı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Molière",
+  "dogum_tarihi": "1622-01-15",
+  "vefat_tarihi": "1673-02-17",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q687",
+  "sitelink": 226,
+  "fotograf": {
+   "dosya": "Pierre Mignard - Portrait de Jean-Baptiste Poquelin dit Molière (1622-1673) - Google Art Project (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Pierre Mignard I",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kadınlar Mektebi”, “Cimri”, “Adamcıl”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Heinrich Heine",
+  "dogum_tarihi": "1797-12-13",
+  "vefat_tarihi": "1856-02-17",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Düsseldorf",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q44403",
+  "sitelink": 168,
+  "fotograf": {
+   "dosya": "Heinrich Heine.PNG",
+   "lisans": "Public domain",
+   "yazar": "Moritz Daniel Oppenheim",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinrich_Heine.PNG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Heinrich_Heine.PNG"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giordano Bruno",
+  "dogum_tarihi": "1548-01",
+  "vefat_tarihi": "1600-02-17",
+  "vefat_yasi": 52,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Nola",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q36330",
+  "sitelink": 151,
+  "fotograf": {
+   "dosya": "Portrait of Giordano Bruno in \"Opere\" Wellcome L0015152 (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Jiddu Krishnamurti",
+  "dogum_tarihi": "1895-05-12",
+  "vefat_tarihi": "1986-02-17",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Madanapalle",
+  "vefat_yeri": "Ojai",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q179266",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Jiddu Krishnamurti 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiddu_Krishnamurti_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jiddu_Krishnamurti_01.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Johann Heinrich Pestalozzi",
+  "dogum_tarihi": "1746-01-12",
+  "vefat_tarihi": "1827-02-17",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Zürih",
+  "vefat_yeri": "Brugg",
+  "defin_yeri": "Birr",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q105428",
+  "sitelink": 89,
+  "fotograf": {
+   "dosya": "Johann Heinrich Pestalozzi (Real Academia de Bellas Artes de San Fernando, Madrid).jpg",
+   "lisans": "Public domain",
+   "yazar": "Francisco Javier Ramos",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Heinrich_Pestalozzi_%28Real_Academia_de_Bellas_Artes_de_San_Fernando%2C_Madrid%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johann_Heinrich_Pestalozzi_%28Real_Academia_de_Bellas_Artes_de_San_Fernando%2C_Madrid%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Leo",
+  "dogum_tarihi": "0880",
+  "vefat_tarihi": "0929-02-17",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Eski Aziz Petrus Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q103795",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "123-Leo VI.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/123-Leo_VI.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:123-Leo_VI.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Geronimo",
+  "dogum_tarihi": "1829-06-16",
+  "vefat_tarihi": "1909-02-17",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Gila Nehri",
+  "vefat_yeri": "Fort Sill",
+  "defin_yeri": "Beef Creek Apache Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q2791",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Geronimo agn 1913.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Geronimo_agn_1913.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Geronimo_agn_1913.jpg"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernst Jünger",
+  "dogum_tarihi": "1895-03-29",
+  "vefat_tarihi": "1998-02-17",
+  "vefat_yasi": 102,
+  "dogum_yeri": "Heidelberg",
+  "vefat_yeri": "Riedlingen",
+  "defin_yeri": "Wilflingen Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76727",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Ernst Jünger vers 1920 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Magnus Merck",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ernst_J%C3%BCnger_vers_1920_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ernst_J%C3%BCnger_vers_1920_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite. Önemli eserleri: “Çelik Fırtınalarında”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Albert",
+  "dogum_tarihi": "1875-04-08",
+  "vefat_tarihi": "1934-02-17",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Palace of the Count of Flanders",
+  "vefat_yeri": "Rochers de Marche-les-Dames",
+  "defin_yeri": "Royal Crypt",
+  "defin_il": null,
+  "defin_ulke": "Belçika",
+  "wikidata_id": "Q55008046",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Albert I Koning der Belgen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio of Eugène Pirou",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert_I_Koning_der_Belgen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Albert_I_Koning_der_Belgen.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kara Kartal Nişanı. Aday olduğu ödül: Nobel Barış Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jesse Jackson",
+  "dogum_tarihi": "1941-10-08",
+  "vefat_tarihi": "2026-02-17",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Greenville",
+  "vefat_yeri": "Şikago",
+  "defin_yeri": "Oak Woods Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q310586",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Jesse Jackson For President Crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jesse Jackson for President",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesse_Jackson_For_President_Crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jesse_Jackson_For_President_Crop.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Muammer Aksoy",
+  "dogum_tarihi": "1917",
+  "vefat_tarihi": "1990-01-31",
+  "vefat_yasi": 73,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İbradı",
+  "vefat_yeri": "Bahçelievler",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6930697",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Mario Levi",
+  "dogum_tarihi": "1957-02-25",
+  "vefat_tarihi": "2024-01-31",
+  "vefat_yasi": 66,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Acıbadem Musevi Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1894335",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Mario Levi 2018 (profile).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "medyascope",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Levi_2018_%28profile%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mario_Levi_2018_%28profile%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Haldun Taner Öykü Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "John Galsworthy",
+  "dogum_tarihi": "1867-08-14",
+  "vefat_tarihi": "1933-01-31",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Kingston upon Thames",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Highgate Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q82248",
+  "sitelink": 121,
+  "fotograf": {
+   "dosya": "John Galsworthy 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Galsworthy_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Galsworthy_2.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard von Weizsäcker",
+  "dogum_tarihi": "1920-04-15",
+  "vefat_tarihi": "2015-01-31",
+  "vefat_yasi": 94,
+  "dogum_yeri": "New Palace",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Waldfriedhof Dahlem",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2567",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 146-1991-039-11, Richard v. Weizsäcker.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-1991-039-11%2C_Richard_v._Weizs%C3%A4cker.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1991-039-11%2C_Richard_v._Weizs%C3%A4cker.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Pour le Mérite. Görev: Berlin yönetici belediye başkanı, Bundestag üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giovanni Bosco",
+  "dogum_tarihi": "1815-08-16",
+  "vefat_tarihi": "1888-01-31",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Castelnuovo Don Bosco",
+  "vefat_yeri": "Torino",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q146183",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "San Giovanni Bosco.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carlo Felice Deasti",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Giovanni_Bosco.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:San_Giovanni_Bosco.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "A. A. Milne",
+  "dogum_tarihi": "1882-01-18",
+  "vefat_tarihi": "1956-01-31",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Hartfield",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q207036",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "A a milne.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_a_milne.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:A_a_milne.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Sergius",
+  "dogum_tarihi": "0790",
+  "vefat_tarihi": "0847-01-31",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q228644",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Pope Sergius II Illustration.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Sergius_II_Illustration.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Sergius_II_Illustration.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ragnar Anton Kittil Frisch",
+  "dogum_tarihi": "1895-03-03",
+  "vefat_tarihi": "1973-01-31",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Oslo",
+  "vefat_yeri": "Oslo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q187988",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Uio frisch 2006 0025.jpg",
+   "lisans": "Public domain",
+   "yazar": "Borgens Atelier",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uio_frisch_2006_0025.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Uio_frisch_2006_0025.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Spurgeon",
+  "dogum_tarihi": "1834-06-19",
+  "vefat_tarihi": "1892-01-31",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Kelvedon",
+  "vefat_yeri": "Menton",
+  "defin_yeri": "West Norwood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q278825",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Charles Haddon Spurgeon by Alexander Melville.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alexander Melville",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Haddon_Spurgeon_by_Alexander_Melville.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Haddon_Spurgeon_by_Alexander_Melville.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. David",
+  "dogum_tarihi": "1073",
+  "vefat_tarihi": "1125-01-31",
+  "vefat_yasi": 52,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kutaisi",
+  "vefat_yeri": "Tiflis",
+  "defin_yeri": "Gelati Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Gürcistan",
+  "wikidata_id": "Q36760",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "David IV, detail from icon, St. Catherine Monastery.jpg",
+   "lisans": "Public domain",
+   "yazar": "Certain types of Egyptian works (official documents, stamps, works of national folklore) should use specific license tags instead of this generic tag.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_IV%2C_detail_from_icon%2C_St._Catherine_Monastery.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:David_IV%2C_detail_from_icon%2C_St._Catherine_Monastery.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Gürcü Krallığı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Samuel Goldwyn",
+  "dogum_tarihi": "1882-08-17",
+  "vefat_tarihi": "1974-01-31",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Varşova",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q72579",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Samuel Goldwyn (SAYRE 2218).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Goldwyn_%28SAYRE_2218%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Samuel_Goldwyn_%28SAYRE_2218%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Mott",
+  "dogum_tarihi": "1865-05-25",
+  "vefat_tarihi": "1955-01-31",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Livingston Manor",
+  "vefat_yeri": "Orlando",
+  "defin_yeri": "Washington Ulusal Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q159726",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "John Raleigh Mott, 1910.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Raleigh_Mott%2C_1910.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Raleigh_Mott%2C_1910.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ }
+]

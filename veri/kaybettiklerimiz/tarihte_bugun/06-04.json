@@ -1,0 +1,343 @@
+[
+ {
+  "ad": "Orhan Kemal",
+  "dogum_tarihi": "1914-09-15",
+  "vefat_tarihi": "1970-06-02",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Ceyhan",
+  "vefat_yeri": "Sofya",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q739401",
+  "sitelink": 22,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ahmet Haşim",
+  "dogum_tarihi": "1887",
+  "vefat_tarihi": "1933-06-04",
+  "vefat_yasi": 46,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bağdat",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q303651",
+  "sitelink": 21,
+  "fotograf": {
+   "dosya": "Ahmet Haşim.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahmet_Ha%C5%9Fim.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ahmet_Ha%C5%9Fim.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "II. Wilhelm",
+  "dogum_tarihi": "1859-01-27",
+  "vefat_tarihi": "1941-06-04",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Kronprinz Sarayı",
+  "vefat_yeri": "Huis Doorn",
+  "defin_yeri": "Huis Doorn",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q2677",
+  "sitelink": 130,
+  "fotograf": {
+   "dosya": "Kaiser Wilhelm II of Germany - 1902.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio of Thomas Heinrich Voigt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Krizantem Nişanı, Hansa Haçı. Görev: Prusya'da Kral",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giacomo Giralomo Casanova",
+  "dogum_tarihi": "1725-04-02",
+  "vefat_tarihi": "1798-06-04",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Venedik",
+  "vefat_yeri": "Duchcov",
+  "defin_yeri": "Duchcov",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q83321",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Casanova ritratto.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francesco Giuseppe Casanova",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Casanova_ritratto.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Casanova_ritratto.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Reinhard Heydrich",
+  "dogum_tarihi": "1904-03-07",
+  "vefat_tarihi": "1942-06-04",
+  "vefat_yasi": 38,
+  "dogum_yeri": "Halle",
+  "vefat_yeri": "Prag",
+  "defin_yeri": "Invalidenfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60039",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 146-1969-054-16, Reinhard Heydrich.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Heinrich Hoffmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-1969-054-16%2C_Reinhard_Heydrich.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1969-054-16%2C_Reinhard_Heydrich.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kan Nişanı, Sudetenland Madalyası. Görev: Nazi Almanyası'nda Reichstag üyesi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Abdülaziz",
+  "dogum_tarihi": "1830-02-08",
+  "vefat_tarihi": "1876-06-04",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Beylerbeyi Sarayı",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "II. Mahmud Türbesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q151500",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Sultan Abdulaziz.jpg",
+   "lisans": "Public domain",
+   "yazar": "Abdullah frères",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultan_Abdulaziz.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Abdulaziz.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı, Aziz Andreas Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "György Lukács",
+  "dogum_tarihi": "1885-04-13",
+  "vefat_tarihi": "1971-06-04",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "Budapeşte",
+  "defin_yeri": "Fiume Yolu Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q151523",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Lukács György.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Horst Sturm",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luk%C3%A1cs_Gy%C3%B6rgy.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Luk%C3%A1cs_Gy%C3%B6rgy.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Kızıl Bayrak Nişanı. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Chang Myon",
+  "dogum_tarihi": "1899-08-28",
+  "vefat_tarihi": "1966-06-04",
+  "vefat_yasi": 66,
+  "dogum_yeri": "İncheon",
+  "vefat_yeri": "Seul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q186500",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "John Myun.jpg",
+   "lisans": "Public domain",
+   "yazar": "Chang_Myun.jpg: Unknown derivative work: Daffy123, kaganer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Myun.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Myun.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi, Güney Kore Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard R. Ernst",
+  "dogum_tarihi": "1933-08-14",
+  "vefat_tarihi": "2021-06-04",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Winterthur",
+  "vefat_yeri": "Winterthur",
+  "defin_yeri": "Rosenberg cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q122272",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Richard R. Ernst 1980s (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_R._Ernst_1980s_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_R._Ernst_1980s_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antonio José de Sucre",
+  "dogum_tarihi": "1795-02-03",
+  "vefat_tarihi": "1830-06-04",
+  "vefat_yasi": 35,
+  "dogum_yeri": "Cumaná",
+  "vefat_yeri": "Büyük Kolombiya",
+  "defin_yeri": "Cathedral of Quito",
+  "defin_il": null,
+  "defin_ulke": "Ekvador",
+  "wikidata_id": "Q189779",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Martin Tovar y Tovar 12.JPG",
+   "lisans": "Public domain",
+   "yazar": "Martín Tovar y Tovar (1827 - 1902)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Tovar_y_Tovar_12.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martin_Tovar_y_Tovar_12.JPG"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bolivya Devlet Başkanı, Peru Devlet Başkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Charles W. Fairbanks",
+  "dogum_tarihi": "1852-05-11",
+  "vefat_tarihi": "1918-06-04",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Unionville Center",
+  "vefat_yeri": "Indianapolis",
+  "defin_yeri": "Crown Hill Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q270539",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Charles W Fairbanks by Harris & Ewing.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_W_Fairbanks_by_Harris_%26_Ewing.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_W_Fairbanks_by_Harris_%26_Ewing.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, kurul üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Konrad",
+  "dogum_tarihi": "0990",
+  "vefat_tarihi": "1039-06-04",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Speyer",
+  "vefat_yeri": "Utrecht",
+  "defin_yeri": "Speyer Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q152256",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Conrad II (HRE).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_II_%28HRE%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Conrad_II_%28HRE%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kral",
+  "hassas": false,
+  "turk": false
+ }
+]

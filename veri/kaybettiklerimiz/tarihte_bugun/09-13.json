@@ -1,0 +1,343 @@
+[
+ {
+  "ad": "Dilhan Eryurt",
+  "dogum_tarihi": "1926-11-29",
+  "vefat_tarihi": "2012-09-13",
+  "vefat_yasi": 85,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6096461",
+  "sitelink": 27,
+  "fotograf": {
+   "dosya": "Bodrum Belediyesi 09.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Gargarapalvin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bodrum_Belediyesi_09.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bodrum_Belediyesi_09.jpg"
+  },
+  "meslek": [
+   "Profesör"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Michel de Montaigne",
+  "dogum_tarihi": "1533-03-10",
+  "vefat_tarihi": "1592-09-13",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Montaigne Kalesi",
+  "vefat_yeri": "Montaigne Kalesi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q41568",
+  "sitelink": 140,
+  "fotograf": {
+   "dosya": "Montaigne-Dumonstier.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Montaigne-Dumonstier.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Montaigne-Dumonstier.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Denemeler”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tupac Shakur",
+  "dogum_tarihi": "1971-06-16",
+  "vefat_tarihi": "1996-09-13",
+  "vefat_yasi": 25,
+  "dogum_yeri": "East Harlem",
+  "vefat_yeri": "University Medical Center of Southern Nevada",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6107",
+  "sitelink": 135,
+  "fotograf": {
+   "dosya": "Tupac Shakur driver's license photo (1996) (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "State of California DMV",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tupac_Shakur_driver%27s_license_photo_%281996%29_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tupac_Shakur_driver%27s_license_photo_%281996%29_%28cropped%29.png"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Rock and Roll Hall of Fame",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Oliver Cromwell",
+  "dogum_tarihi": "1599-05-05",
+  "vefat_tarihi": "1658-09-13",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Huntingdon",
+  "vefat_yeri": "Whitehall Sarayı",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q44279",
+  "sitelink": 125,
+  "fotograf": {
+   "dosya": "Oliver Cromwell by Samuel Cooper.jpg",
+   "lisans": "Public domain",
+   "yazar": "After Samuel Cooper",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oliver_Cromwell_by_Samuel_Cooper.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oliver_Cromwell_by_Samuel_Cooper.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Lord Protektör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Felipe",
+  "dogum_tarihi": "1527-05-31",
+  "vefat_tarihi": "1598-09-13",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Palacio de Pimentel",
+  "vefat_yeri": "El Escorial",
+  "defin_yeri": "Royal Crypt of the Royal Monastery of San Lorenzo de El Escorial",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q34417",
+  "sitelink": 111,
+  "fotograf": {
+   "dosya": "Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sofonisba Anguissola",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hükümdar",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ludwig Feuerbach",
+  "dogum_tarihi": "1804-07-28",
+  "vefat_tarihi": "1872-09-13",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Landshut",
+  "vefat_yeri": "Rechenberg",
+  "defin_yeri": "Johannisfriedhof (Nürnberg)",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76422",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Ludwig Feuerbach (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig_Feuerbach_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ludwig_Feuerbach_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Hristiyanlığın Özü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Luc Godard",
+  "dogum_tarihi": "1930-12-03",
+  "vefat_tarihi": "2022-09-13",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Paris'in 7. bölgesi",
+  "vefat_yeri": "Rolle",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q53001",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Jean-Luc Godard at Berkeley, 1968.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Gary Stevens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Luc_Godard_at_Berkeley%2C_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Luc_Godard_at_Berkeley%2C_1968.jpg"
+  },
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Serseri Aşıklar”, “Çılgın Pierrot”, “Sauve Qui Peut (la vie)”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antony Hewish",
+  "dogum_tarihi": "1924-05-11",
+  "vefat_tarihi": "2021-09-13",
+  "vefat_yasi": 97,
+  "dogum_yeri": "Fowey",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q189990",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "26. Tagung 1976 Physiker; Gruppen beim Bayrischen Frühstück Antony Hewish - W134Nr.106841b - Willy Pragher.jpg",
+   "lisans": "CC BY 3.0 de",
+   "yazar": "Willy Pragher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/26._Tagung_1976_Physiker%3B_Gruppen_beim_Bayrischen_Fr%C3%BChst%C3%BCck_Antony_Hewish_-_W134Nr.106841b_-_Willy_Pragher.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:26._Tagung_1976_Physiker%3B_Gruppen_beim_Bayrischen_Fr%C3%BChst%C3%BCck_Antony_Hewish_-_W134Nr.106841b_-_Willy_Pragher.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "August Krogh",
+  "dogum_tarihi": "1874-11-15",
+  "vefat_tarihi": "1949-09-13",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Grenaa",
+  "vefat_yeri": "Kopenhag",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q152187",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "August Krogh.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bain News Service",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/August_Krogh.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:August_Krogh.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Italo Svevo",
+  "dogum_tarihi": "1861-12-19",
+  "vefat_tarihi": "1928-09-13",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Trieste",
+  "vefat_yeri": "Motta di Livenza",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q216478",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "ItaloSvevo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ItaloSvevo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ItaloSvevo.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lin Piao",
+  "dogum_tarihi": "1907-12-05",
+  "vefat_tarihi": "1971-09-13",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Huanggang",
+  "vefat_yeri": "Chinggis",
+  "defin_yeri": "Subraga Basin",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q315475",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Lin Biao.jpg",
+   "lisans": "Public domain",
+   "yazar": "​《解放军画报》记者 柳成行",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lin_Biao.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lin_Biao.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Çin Komünist Partisi Başkan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Noor Inayat Khan",
+  "dogum_tarihi": "1914-01-01",
+  "vefat_tarihi": "1944-09-13",
+  "vefat_yasi": 30,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Dachau Toplama Kampı",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q464957",
+  "sitelink": 49,
+  "fotograf": {
+   "dosya": "Noor Inayat Khan.jpeg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Noor_Inayat_Khan.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Noor_Inayat_Khan.jpeg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: George Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "execution by shooting"
+  ],
+  "turk": false
+ }
+]

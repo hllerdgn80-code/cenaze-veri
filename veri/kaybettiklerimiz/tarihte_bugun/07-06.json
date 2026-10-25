@@ -1,0 +1,276 @@
+[
+ {
+  "ad": "Aziz Nesin",
+  "dogum_tarihi": "1915-12-21",
+  "vefat_tarihi": "1995-07-06",
+  "vefat_yasi": 79,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Alaçatı",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q327261",
+  "sitelink": 50,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Zübük”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "İlter Türkmen",
+  "dogum_tarihi": "1927-11-08",
+  "vefat_tarihi": "2022-07-06",
+  "vefat_yasi": 94,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q8080093",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "İlter Türkmen in 1980.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "University of Jordan Library http://library.ju.edu.jo/",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C4%B0lter_T%C3%BCrkmen_in_1980.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%C4%B0lter_T%C3%BCrkmen_in_1980.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye dışişleri bakanı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Louis Armstrong",
+  "dogum_tarihi": "1901-08-04",
+  "vefat_tarihi": "1971-07-06",
+  "vefat_yasi": 69,
+  "dogum_yeri": "New Orleans",
+  "vefat_yeri": "Corona",
+  "defin_yeri": "Flushing Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q1779",
+  "sitelink": 179,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Guy de Maupassant",
+  "dogum_tarihi": "1850-08-05",
+  "vefat_tarihi": "1893-07-06",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Tourville-sur-Arques",
+  "vefat_yeri": "Passy",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q9327",
+  "sitelink": 155,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Güzel Dost”, “Horla”, “Bir Hayat”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Faulkner",
+  "dogum_tarihi": "1897-09-25",
+  "vefat_tarihi": "1962-07-06",
+  "vefat_yasi": 64,
+  "dogum_yeri": "New Albany",
+  "vefat_yeri": "Byhalia",
+  "defin_yeri": "Oxford Memorial Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q38392",
+  "sitelink": 148,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georg Ohm",
+  "dogum_tarihi": "1789-03-16",
+  "vefat_tarihi": "1854-07-06",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Erlangen",
+  "vefat_yeri": "Münih",
+  "defin_yeri": "Alter Südfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q1585",
+  "sitelink": 103,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Copley Madalyası. Önemli eserleri: “Ohm yasası”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ennio Morricone",
+  "dogum_tarihi": "1928-11-10",
+  "vefat_tarihi": "2020-07-06",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Cimitero Laurentino",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q23848",
+  "sitelink": 94,
+  "fotograf": null,
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Film Müziği Akademi Ödülü, Grammy Trustees Ödülü. Önemli eserleri: “Il buono, il brutto, il cattivo”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claude Simon",
+  "dogum_tarihi": "1913-10-10",
+  "vefat_tarihi": "2005-07-06",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Antananarivo",
+  "vefat_yeri": "Paris 5. bölge",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q131549",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Francisco Pizarro",
+  "dogum_tarihi": "1478-03-16",
+  "vefat_tarihi": "1541-07-06",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Trujillo",
+  "vefat_yeri": "Lima",
+  "defin_yeri": "Cathedral of Lima",
+  "defin_il": null,
+  "defin_ulke": "Peru",
+  "wikidata_id": "Q44741",
+  "sitelink": 90,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Marki",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "I. Murad",
+  "dogum_tarihi": "1326-06-29",
+  "vefat_tarihi": "1389-07-06",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "Kosova Ovası",
+  "defin_yeri": "Bursa",
+  "defin_il": "Bursa",
+  "defin_ulke": null,
+  "wikidata_id": "Q96261",
+  "sitelink": 77,
+  "fotograf": null,
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "James Caan",
+  "dogum_tarihi": "1940-03-26",
+  "vefat_tarihi": "2022-07-06",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Bronx",
+  "vefat_yeri": "Westwood, Los Angeles",
+  "defin_yeri": "Eden Anıt Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q95043",
+  "sitelink": 73,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "János Kádár",
+  "dogum_tarihi": "1912-05-26",
+  "vefat_tarihi": "1989-07-06",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Feyomi",
+  "vefat_yeri": "Budapeşte",
+  "defin_yeri": "Fiume Yolu Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q200850",
+  "sitelink": 66,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Barış Ödülü, Büyük Macaristan Liyakat Nişanı. Görev: parti sekreteri, Macaristan başbakanı",
+  "hassas": false,
+  "turk": false
+ }
+]

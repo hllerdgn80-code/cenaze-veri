@@ -1,0 +1,330 @@
+[
+ {
+  "ad": "Tuncel Kurtiz",
+  "dogum_tarihi": "1936-02-01",
+  "vefat_tarihi": "2013-09-27",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Kocaeli",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Balıkesir",
+  "defin_il": "Balıkesir",
+  "defin_ulke": null,
+  "wikidata_id": "Q366685",
+  "sitelink": 26,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Edgar Degas",
+  "dogum_tarihi": "1834-07-19",
+  "vefat_tarihi": "1917-09-27",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q46373",
+  "sitelink": 117,
+  "fotograf": {
+   "dosya": "Edgar Degas self portrait 1855FXD.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edgar Degas",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Degas_self_portrait_1855FXD.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_self_portrait_1855FXD.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q172653",
+  "dogum_tarihi": "1934-12-28",
+  "vefat_tarihi": "2024-09-27",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Ilford",
+  "vefat_yeri": "Chelsea and Westminster Hospital",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q172653",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Maggie Smith - Vintage (trim).jpg",
+   "lisans": "Public domain",
+   "yazar": "N/A studio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maggie_Smith_-_Vintage_%28trim%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maggie_Smith_-_Vintage_%28trim%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hassan Nasrallah",
+  "dogum_tarihi": "1960-08-31",
+  "vefat_tarihi": "2024-09-27",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Burç Hamud",
+  "vefat_yeri": "Haret Hreik",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q181182",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Sayyid Hassan Nasrallah 2019 (4x5 cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayyid_Hassan_Nasrallah_2019_%284x5_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sayyid_Hassan_Nasrallah_2019_%284x5_cropped%29.jpg"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hizbullah Genel Sekreteri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "İvan Gonçarov",
+  "dogum_tarihi": "1812-06-18",
+  "vefat_tarihi": "1891-09-27",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Ulyanovsk",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Volkovo Cemetery Writer's Walkways",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q189665",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Ivan Goncharov.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan_Goncharov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ivan_Goncharov.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Oblomov”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VII. Urbanus",
+  "dogum_tarihi": "1521-08-14",
+  "vefat_tarihi": "1590-09-27",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria sopra Minerva Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q134337",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Portrait of Pope Urban VII Castagna (Jacopo del Conte, Vatican Museums).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacopino del Conte",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Urban_VII_Castagna_%28Jacopo_del_Conte%2C_Vatican_Museums%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pope_Urban_VII_Castagna_%28Jacopo_del_Conte%2C_Vatican_Museums%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hugh Hefner",
+  "dogum_tarihi": "1926-04-09",
+  "vefat_tarihi": "2017-09-27",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Playboy Mansion",
+  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q194280",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Hugh Hefner 2007.jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "Luke Ford",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hugh_Hefner_2007.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hugh_Hefner_2007.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Playboy”. Görev: genel yayın yönetmeni",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XII. Innocentius",
+  "dogum_tarihi": "1615-03-13",
+  "vefat_tarihi": "1700-09-27",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Spinazzola",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Tomb of Innocentius XII",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q132708",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Antonio Zanchi – Papa Innocenzo XII.jpg",
+   "lisans": "Public domain",
+   "yazar": "Antonio Zanchi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Zanchi_%E2%80%93_Papa_Innocenzo_XII.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Antonio_Zanchi_%E2%80%93_Papa_Innocenzo_XII.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Konon",
+  "dogum_tarihi": "0630",
+  "vefat_tarihi": "0687-09-27",
+  "vefat_yasi": 57,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sicilya",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q171537",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Fresco of Pope Conon before restoration - Palazzo Altieri.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_of_Pope_Conon_before_restoration_-_Palazzo_Altieri.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fresco_of_Pope_Conon_before_restoration_-_Palazzo_Altieri.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giorgione",
+  "dogum_tarihi": "1478",
+  "vefat_tarihi": "1510",
+  "vefat_yasi": 32,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Castelfranco Veneto",
+  "vefat_yeri": "Venedik",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q8459",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Giorgione 059.jpg",
+   "lisans": "Public domain",
+   "yazar": "Giorgione",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giorgione_059.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giorgione_059.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Üç Filozof”, “Fırtına”, “Otoportre”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q203545",
+  "dogum_tarihi": "1940-10-19",
+  "vefat_tarihi": "2023-09-27",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Dublin",
+  "vefat_yeri": "Witham",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q203545",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Michael Gambon cropped.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "IamIrishwikiuser",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Gambon_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Michael_Gambon_cropped.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Britanya İmparatorluğu genel kurmay başkanı, Laurence Olivier Ödülleri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ram Mohan Roy",
+  "dogum_tarihi": "1772-05-22",
+  "vefat_tarihi": "1833-09-27",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Radhanagore",
+  "vefat_yeri": "Bristol",
+  "defin_yeri": "Arnos Vale Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q335269",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Portrait of Raja Ram Mohun Roy, 1833.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rembrandt Peale",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Raja_Ram_Mohun_Roy%2C_1833.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

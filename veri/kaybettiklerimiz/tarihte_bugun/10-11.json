@@ -1,0 +1,336 @@
+[
+ {
+  "ad": "Halit Refiğ",
+  "dogum_tarihi": "1934-03-05",
+  "vefat_tarihi": "2009-10-11",
+  "vefat_yasi": 75,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2237841",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Yönetmen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Édith Piaf",
+  "dogum_tarihi": "1915-12-19",
+  "vefat_tarihi": "1963-10-10",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Grasse",
+  "defin_yeri": "Gassion-Piaf Mezarı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q1631",
+  "sitelink": 146,
+  "fotograf": {
+   "dosya": "Piaf Harcourt 1946 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piaf_Harcourt_1946_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Piaf_Harcourt_1946_2.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Milord”, “La Vie en rose”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Prescott Joule",
+  "dogum_tarihi": "1818-12-24",
+  "vefat_tarihi": "1889-10-11",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Salford",
+  "vefat_yeri": "Sale",
+  "defin_yeri": "Brooklands",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q8962",
+  "sitelink": 136,
+  "fotograf": {
+   "dosya": "SS-joule.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SS-joule.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:SS-joule.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi. Önemli eserleri: “termodinamik”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Cocteau",
+  "dogum_tarihi": "1889-07-05",
+  "vefat_tarihi": "1963-10-11",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Maisons-Laffitte",
+  "vefat_yeri": "Milly-la-Forêt",
+  "defin_yeri": "Chapelle Saint-Blaise-des-Simples",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q83158",
+  "sitelink": 121,
+  "fotograf": {
+   "dosya": "Jean Cocteau b Meurisse 1923.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Cocteau_b_Meurisse_1923.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Cocteau_b_Meurisse_1923.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Güzel ile Hayvan”, “Bir Şairin Kanı”. Aday olduğu ödül: Nobel Edebiyat Ödülü, BAFTA En İyi Film Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claudius",
+  "dogum_tarihi": "-0009-07-30",
+  "vefat_tarihi": "0054-10-11",
+  "vefat_yasi": 54,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Lugdunum",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Augustus Anıt Mezarı",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1411",
+  "sitelink": 109,
+  "fotograf": {
+   "dosya": "Château de Versailles, salon de la paix, buste d'empereur romain (Claude).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Coyau",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau_de_Versailles%2C_salon_de_la_paix%2C_buste_d%27empereur_romain_%28Claude%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Versailles%2C_salon_de_la_paix%2C_buste_d%27empereur_romain_%28Claude%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Augur, Roma imparatoru",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Diane Keaton",
+  "dogum_tarihi": "1946-01-05",
+  "vefat_tarihi": "2025-10-11",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Los Angeles",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q102642",
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "Diane Keaton by Firooz Zahedi 2.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Firooz Zahedi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diane_Keaton_by_Firooz_Zahedi_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Diane_Keaton_by_Firooz_Zahedi_2.jpg"
+  },
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Annie Hall”, “Manhattan Murder Mystery”, “Manhattan”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anton Bruckner",
+  "dogum_tarihi": "1824-09-04",
+  "vefat_tarihi": "1896-10-11",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Ansfelden",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q81752",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Joseph Anton Bruckner (1868).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Anton_Bruckner_%281868%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Anton_Bruckner_%281868%29.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Karl Adolph Gjellerup",
+  "dogum_tarihi": "1857-06-02",
+  "vefat_tarihi": "1919-10-11",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Roholte",
+  "vefat_yeri": "Klotzsche",
+  "defin_yeri": "Alter Friedhof Klotzsche",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q131487",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Karl Gjellerup.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Gjellerup.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Karl_Gjellerup.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aleksey Leonov",
+  "dogum_tarihi": "1934-05-30",
+  "vefat_tarihi": "2019-10-11",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Listvyanka",
+  "vefat_yeri": "Burdenko Hospital",
+  "defin_yeri": "Federal Military Memorial Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q154269",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Alexei Leonov.jpg",
+   "lisans": "Public domain",
+   "yazar": "This image or video was catalogued by Lyndon B. Johnson Space Center of the United States National Aeronautics and Space Administration (NASA) under Photo ID: S74-20824.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexei_Leonov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexei_Leonov.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: \"SSCB Silahlı Kuvvetlerinin 60 Yılı\" Jübile Madalyası, Kızıl Yıldız Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Angela Lansbury",
+  "dogum_tarihi": "1925-10-16",
+  "vefat_tarihi": "2022-10-11",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q206856",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Angela Lansbury (8356239174).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Eva Rinaldi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Angela_Lansbury_%288356239174%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Angela_Lansbury_%288356239174%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, En İyi Kadın Oyuncu Altın Küre Ödülü - Drama. Aday olduğu ödül: En İyi Yardımcı Kadın Oyuncu Akademi Ödülü, En İyi Kadın Oyuncu Tony Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jörg Haider",
+  "dogum_tarihi": "1950-01-26",
+  "vefat_tarihi": "2008-10-11",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Bad Goisern",
+  "vefat_yeri": "Lambichl",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q44274",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "JoergHaider Sep07.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Die Freiheitlichen in Kärnten - BZÖ",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JoergHaider_Sep07.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JoergHaider_Sep07.JPG"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dorothea Lange",
+  "dogum_tarihi": "1895-05-26",
+  "vefat_tarihi": "1965-10-11",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Hoboken",
+  "vefat_yeri": "San Francisco",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q230673",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Dorothea Lange 1936 portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Dorothea_Lange_1936.jpg: Dorothea_Lange ??? derivative work: Svajcr (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dorothea_Lange_1936_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_1936_portrait.jpg"
+  },
+  "meslek": [
+   "Belgesel yapımcısı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame. Önemli eserleri: “Göçmen Anne”",
+  "hassas": false,
+  "turk": false
+ }
+]

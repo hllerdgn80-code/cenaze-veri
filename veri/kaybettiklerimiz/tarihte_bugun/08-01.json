@@ -1,0 +1,334 @@
+[
+ {
+  "ad": "Paris Pişmiş",
+  "dogum_tarihi": "1911-01-30",
+  "vefat_tarihi": "1999-08-01",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q437021",
+  "sitelink": 24,
+  "fotograf": null,
+  "meslek": [
+   "Astronom"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Maria Corazon Aquino",
+  "dogum_tarihi": "1933-01-25",
+  "vefat_tarihi": "2009-08-01",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Paniqui",
+  "vefat_yeri": null,
+  "defin_yeri": "Manila Memorial Park – Sucat",
+  "defin_il": null,
+  "defin_ulke": "Filipinler",
+  "wikidata_id": "Q1480",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Corazon Aquino 1986.jpg",
+   "lisans": "Public domain",
+   "yazar": "Airman Gerald B. Johnson",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corazon_Aquino_1986.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Corazon_Aquino_1986.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Nişan-ı Pakistan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lesya Ukraynka",
+  "dogum_tarihi": "1871-02-25",
+  "vefat_tarihi": "1913-08-01",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Zviahel",
+  "vefat_yeri": "Surami",
+  "defin_yeri": "Baikove Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Ukrayna",
+  "wikidata_id": "Q298033",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Lesya Ukrainka 1901 (facecrop).jpg",
+   "lisans": "Public domain",
+   "yazar": "Johann Krzanowski",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lesya_Ukrainka_1901_%28facecrop%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lesya_Ukrainka_1901_%28facecrop%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Fahd bin Abdül Aziz",
+  "dogum_tarihi": "1923",
+  "vefat_tarihi": "2005-08-01",
+  "vefat_yasi": 82,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Riyad",
+  "vefat_yeri": "King Faisal Specialist Hospital and Research Centre",
+  "defin_yeri": "Ud Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Suudi Arabistan",
+  "wikidata_id": "Q183187",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Fahd of Saudi Arabia Portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown Author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fahd_of_Saudi_Arabia_Portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fahd_of_Saudi_Arabia_Portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Nişanı, Halife Nişanı. Görev: Suudi Arabistan Kralı, veliaht",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Benedictus",
+  "dogum_tarihi": "0525",
+  "vefat_tarihi": "0579-08-03",
+  "vefat_yasi": 54,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q151902",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Benedict I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedict_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Benedict_I.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Walter Ulbricht",
+  "dogum_tarihi": "1893-06-30",
+  "vefat_tarihi": "1973-08-01",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Leipzig",
+  "vefat_yeri": "Groß Dölln",
+  "defin_yeri": "The Socialists' Memorial",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q2628",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-J1231-1002-002 Walter Ulbricht, Neujahrsansprache.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Hans-Joachim Spremberg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-J1231-1002-002_Walter_Ulbricht%2C_Neujahrsansprache.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-J1231-1002-002_Walter_Ulbricht%2C_Neujahrsansprache.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Kızıl Bayrak İşçi Nişanı. Görev: genel başkan, Weimar Cumhuriyeti Reichstag üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wilford Brimley",
+  "dogum_tarihi": "1934-09-27",
+  "vefat_tarihi": "2020-08-01",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Salt Lake City",
+  "vefat_yeri": "St. George",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q712180",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Wilford Brimley talking (cropped) (2).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Marc Majcher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilford_Brimley_talking_%28cropped%29_%282%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wilford_Brimley_talking_%28cropped%29_%282%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tadeus Reichstein",
+  "dogum_tarihi": "1897-07-20",
+  "vefat_tarihi": "1996-08-01",
+  "vefat_yasi": 99,
+  "dogum_yeri": "Włocławek",
+  "vefat_yeri": "Basel",
+  "defin_yeri": "Jewish Cemetery of Basel",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q115490",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Thadeus Reichstein ETH-Bib Portr 10137.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "ETH Zürich",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thadeus_Reichstein_ETH-Bib_Portr_10137.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Thadeus_Reichstein_ETH-Bib_Portr_10137.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Centenary Ödülü, Copley Madalyası. Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Otto Heinrich Warburg",
+  "dogum_tarihi": "1883-10-08",
+  "vefat_tarihi": "1970-08-01",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Freiburg im Breisgau",
+  "vefat_yeri": "Batı Berlin",
+  "defin_yeri": "Dahlem Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76464",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Otto Heinrich Warburg (cropped).jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Pahl, Georg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Heinrich_Warburg_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Heinrich_Warburg_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pola Negri",
+  "dogum_tarihi": "1897-01-03",
+  "vefat_tarihi": "1987-08-01",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Lipno",
+  "vefat_yeri": "San Antonio",
+  "defin_yeri": "Calvary Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q230633",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Pola Negri in The Way of Lost Souls.webp",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pola_Negri_in_The_Way_of_Lost_Souls.webp",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pola_Negri_in_The_Way_of_Lost_Souls.webp"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Alman Film Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Louis Blériot",
+  "dogum_tarihi": "1872-07-01",
+  "vefat_tarihi": "1936-08-01",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Cambrai",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Cimetière des Gonards",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q5396",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Louis Bleriot.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_Bleriot.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Louis_Bleriot.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Manuel L. Quezon",
+  "dogum_tarihi": "1878-08-19",
+  "vefat_tarihi": "1944-08-01",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Baler",
+  "vefat_yeri": "Saranac Lake",
+  "defin_yeri": "Manila North Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Filipinler",
+  "wikidata_id": "Q1503",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Manuel L. Quezon (November 1942).jpg",
+   "lisans": "Public domain",
+   "yazar": "Farm Security Administration - Office of War Information",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manuel_L._Quezon_%28November_1942%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Manuel_L._Quezon_%28November_1942%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Kraliyet Nişanı. Görev: başkan, Filipinler senato başkanı",
+  "hassas": false,
+  "turk": false
+ }
+]

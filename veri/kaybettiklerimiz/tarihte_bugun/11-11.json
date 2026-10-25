@@ -1,0 +1,319 @@
+[
+ {
+  "ad": "Sadi Irmak",
+  "dogum_tarihi": "1904-05-15",
+  "vefat_tarihi": "1990-11-11",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Seydişehir",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Aşiyan Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1397975",
+  "sitelink": 20,
+  "fotograf": null,
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mümtaz Soysal",
+  "dogum_tarihi": "1929-09-15",
+  "vefat_tarihi": "2019-11-11",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Zonguldak",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q4310076",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: dekan, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Fakir Baykurt",
+  "dogum_tarihi": "1929-06-15",
+  "vefat_tarihi": "1999-10-11",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Burdur",
+  "vefat_yeri": "Essen",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q334223",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sait Faik Hikâye Armağanı, Sedat Simavi Edebiyat Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Søren Kierkegaard",
+  "dogum_tarihi": "1813-05-05",
+  "vefat_tarihi": "1855-11-11",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Kopenhag",
+  "vefat_yeri": "Kopenhag",
+  "defin_yeri": "Assistens Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Danimarka",
+  "wikidata_id": "Q6512",
+  "sitelink": 170,
+  "fotograf": {
+   "dosya": "Søren Kierkegaard (1813-1855) - (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "La Biblioteca Real de Dinamarca",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Korku ve titreme”, “Ya - Ya da”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yaser Arafat",
+  "dogum_tarihi": "1929-08-04",
+  "vefat_tarihi": "2004-11-11",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Kahire",
+  "vefat_yeri": "Hôpital d'instruction des armées Percy",
+  "defin_yeri": "Mukataa Ramallah",
+  "defin_il": null,
+  "defin_ulke": "Filistin",
+  "wikidata_id": "Q34211",
+  "sitelink": 154,
+  "fotograf": {
+   "dosya": "Leader of the PLO, Yasser Arafat, 1996 Dan Hadani Archive.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Gideon Markowiz",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frederik Willem de Klerk",
+  "dogum_tarihi": "1936-03-18",
+  "vefat_tarihi": "2021-11-11",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Johannesburg",
+  "vefat_yeri": "Kap Şehri",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q151813",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Frederik Willem de Klerk, 1990.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Walter Rutishauser, Photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederik_Willem_de_Klerk%2C_1990.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Frederik_Willem_de_Klerk%2C_1990.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Peter Drucker",
+  "dogum_tarihi": "1909-11-19",
+  "vefat_tarihi": "2005-11-11",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Claremont",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q84238",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Drucker5789.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Jeff McNeill",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Drucker5789.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Drucker5789.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Adeodatus",
+  "dogum_tarihi": "0570",
+  "vefat_tarihi": "0618-11-11",
+  "vefat_yasi": 48,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Saint Bartholomew church",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q170550",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Adeodatus. Adeodato I – cropped.jpg",
+   "lisans": "CC0",
+   "yazar": "Giovanni Battista de'Cavalieri",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adeodatus._Adeodato_I_%E2%80%93_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adeodatus._Adeodato_I_%E2%80%93_cropped.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Liliuokalani",
+  "dogum_tarihi": "1838-09-02",
+  "vefat_tarihi": "1917-11-11",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Honolulu",
+  "vefat_yeri": "Honolulu",
+  "defin_yeri": "Royal Mausoleum of Hawaii",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q107288",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Liliʻuokalani.jpg",
+   "lisans": "Public domain",
+   "yazar": "James J. Williams / Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lili%CA%BBuokalani.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lili%CA%BBuokalani.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hükümdar",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Artturi Ilmari Virtanen",
+  "dogum_tarihi": "1895-01-15",
+  "vefat_tarihi": "1973-11-11",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Helsinki",
+  "vefat_yeri": "Helsinki",
+  "defin_yeri": "Hietaniemi Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Finlandiya",
+  "wikidata_id": "Q157239",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "A-I-Virtanen-portrait.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A-I-Virtanen-portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:A-I-Virtanen-portrait.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Julien Offray de La Mettrie",
+  "dogum_tarihi": "1709-12-25",
+  "vefat_tarihi": "1751-11-11",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Saint-Malo",
+  "vefat_yeri": "Potsdam",
+  "defin_yeri": "Friedrichstadt",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q7068",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Portrait de Julien Offray de La Mettrie.jpg",
+   "lisans": "Public domain",
+   "yazar": "Georg Friedrich Schmidt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_de_Julien_Offray_de_La_Mettrie.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_de_Julien_Offray_de_La_Mettrie.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Svetlana Alliluyeva",
+  "dogum_tarihi": "1926-02-28",
+  "vefat_tarihi": "2011-11-11",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Richland Center",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q228584",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Svetlana Alliluyeva 1970.jpg",
+   "lisans": "Public domain",
+   "yazar": "UPI",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Svetlana_Alliluyeva_1970.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Svetlana_Alliluyeva_1970.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

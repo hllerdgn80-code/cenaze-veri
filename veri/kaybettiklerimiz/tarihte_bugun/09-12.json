@@ -1,0 +1,346 @@
+[
+ {
+  "ad": "Agop Dilaçar",
+  "dogum_tarihi": "1895-05-22",
+  "vefat_tarihi": "1979-09-12",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Şişli Ermeni Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q395340",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Agop Dilaçar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Akşam Gazetesi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agop_Dila%C3%A7ar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Agop_Dila%C3%A7ar.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Johnny Cash",
+  "dogum_tarihi": "1932-02-26",
+  "vefat_tarihi": "2003-09-12",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Kingsland",
+  "vefat_yeri": "Nashville",
+  "defin_yeri": "Hendersonville Memory Gardens",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q42775",
+  "sitelink": 119,
+  "fotograf": {
+   "dosya": "Johnny Cash \"The Johnny Cash Spring Special\" (1979 CBS press photo).jpg",
+   "lisans": "Public domain",
+   "yazar": "CBS Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny_Cash_%22The_Johnny_Cash_Spring_Special%22_%281979_CBS_press_photo%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_%22The_Johnny_Cash_Spring_Special%22_%281979_CBS_press_photo%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Efsane Ödülü, Kennedy Center Onur Ödülleri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eugenio Montale",
+  "dogum_tarihi": "1896-10-12",
+  "vefat_tarihi": "1981-09-12",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Cenova",
+  "vefat_yeri": "Milano",
+  "defin_yeri": "San Felice a Ema Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q83174",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "Eugenio Montale.jpg",
+   "lisans": "Public domain",
+   "yazar": "Kaj Hagman.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugenio_Montale.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eugenio_Montale.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Steve Biko",
+  "dogum_tarihi": "1946-12-18",
+  "vefat_tarihi": "1977-09-12",
+  "vefat_yasi": 30,
+  "dogum_yeri": "Tarkastad",
+  "vefat_yeri": "Pretoria",
+  "defin_yeri": "Qonce",
+  "defin_il": null,
+  "defin_ulke": "Güney Afrika",
+  "wikidata_id": "Q214473",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Steve Biko on Flyer for Steve Biko Memorial at the Carver Cultural Center.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cape Argus",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Steve_Biko_on_Flyer_for_Steve_Biko_Memorial_at_the_Carver_Cultural_Center.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Norman Ernest Borlaug",
+  "dogum_tarihi": "1914-03-25",
+  "vefat_tarihi": "2009-09-12",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Cresco",
+  "vefat_yeri": "Dallas",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q154824",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Norman Borlaug.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norman_Borlaug.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Sergius",
+  "dogum_tarihi": "0650",
+  "vefat_tarihi": "0701-09-12",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Palermo",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q173086",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Pope-Sergius-I.jpg",
+   "lisans": "Public domain",
+   "yazar": "internet - on painter from history",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope-Sergius-I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope-Sergius-I.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Philippe Rameau",
+  "dogum_tarihi": "1683-09-25",
+  "vefat_tarihi": "1764-09-12",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Dijon",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Saint-Eustache, Paris",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q1145",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Attribué à Joseph Aved, Portrait de Jean-Philippe Rameau (vers 1728) - 001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Joseph Aved / Formerly attributed to Jean-Baptiste-Siméon Chardin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Attribu%C3%A9_%C3%A0_Joseph_Aved%2C_Portrait_de_Jean-Philippe_Rameau_%28vers_1728%29_-_001.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Hippolit ve Aricie”, “Platée”, “Les Indes Galantes”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Leonid Andreyev",
+  "dogum_tarihi": "1871-08-21",
+  "vefat_tarihi": "1919-09-12",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Oryol",
+  "vefat_yeri": "Gorkovskoye",
+  "defin_yeri": "Volkovo Cemetery Writer's Walkways",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q310866",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "1912c Leonid Andreyev Autochrome self-portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Leonid Nikolayevich Andreyev (1871 - 1919)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1912c_Leonid_Andreyev_Autochrome_self-portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1912c_Leonid_Andreyev_Autochrome_self-portrait.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Yedi Asılmışların Hikayesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anthony Perkins",
+  "dogum_tarihi": "1932-04-04",
+  "vefat_tarihi": "1992-09-12",
+  "vefat_yasi": 60,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Hollywood",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q193146",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "APerkinsPublicityStill.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Paramount Pictures)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/APerkinsPublicityStill.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:APerkinsPublicityStill.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Yılın Yeni Yıldızı Ödülü, Edgar Ödülü. Aday olduğu ödül: En İyi Yardımcı Erkek Oyuncu Akademi Ödülü, En İyi Erkek Oyuncu Tony Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claude Chabrol",
+  "dogum_tarihi": "1930-06-24",
+  "vefat_tarihi": "2010-09-12",
+  "vefat_yasi": 80,
+  "dogum_yeri": "10. arrondissement",
+  "vefat_yeri": "Paris 3. bölge",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q55375",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Chabrol-italie-1985.png",
+   "lisans": "Public domain",
+   "yazar": "Fabiàn Cevallos",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chabrol-italie-1985.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chabrol-italie-1985.png"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Ayı. Aday olduğu ödül: En İyi Avrupa Filmi Goya Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Andronikos Komnenos",
+  "dogum_tarihi": "1118",
+  "vefat_tarihi": "1185-09-12",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q41830",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "143 - Andronikos I Komnenos (Mutinensis - color).png",
+   "lisans": "Public domain",
+   "yazar": "Unknown Byzantine scribes",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/143_-_Andronikos_I_Komnenos_%28Mutinensis_-_color%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:143_-_Andronikos_I_Komnenos_%28Mutinensis_-_color%29.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "işkence"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "IV. Vasili",
+  "dogum_tarihi": "1552",
+  "vefat_tarihi": "1612-09-12",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Nijni Novgorod",
+  "vefat_yeri": "Gostynin",
+  "defin_yeri": "Başmelek Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q193232",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Vasily shuysky.jpg",
+   "lisans": "Public domain",
+   "yazar": "Collective of Kremlin armory",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vasily_shuysky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vasily_shuysky.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Rus çarı",
+  "hassas": false,
+  "turk": false
+ }
+]

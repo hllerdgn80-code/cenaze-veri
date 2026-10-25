@@ -1,0 +1,169 @@
+name: Turkiye'den oku
+
+# Yalniz Turkiye'den acilan kaynaklar: site sahibinin Mac'indeki self-hosted runner'da calisir.
+# topla.yml'den 6 dk ONCE (cron 47 -> 41) calisir; sonucu veri-tr/ klasorune commit eder,
+# topla.yml birlestir adimi bu veriyi uzerine kopyalar.
+on:
+  # 15.10.2026 H69: GitHub'in kendi zamanlayicisi KALDIRILDI — 12:41 tetiklemesini 4,5 saat gec (17:22) gonderip cift kosu
+  # uretti ve checkout'ta GitHub depolama arizasiyla dustu ("Run failed" e-postasi). Saat artik yalniz sunucu zamanlayicisinda
+  # (kc_tetikleyici.py: 06:41 09:41 12:41 18:41 TR + 10:05 bosluk) ve bekci (kimincenazesi_bekci.py) yedeginde.
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "normal = saatlik/4'lu tur; bosluk = 15.10.2026 BOSLUK TURU (bos illeri tespit et, yalniz onlarin e-Devlet hizmetlerini + ulusal akislari oku)"
+        required: false
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - bosluk
+      zorla:
+        description: "true = e-Devlet 06/18 saat kapisini bu kosuda atla (yalniz elle deneme; sunucu zamanlayicisi gondermez)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: read
+  actions: write     # 16.10.2026: e-Devlet anlik yayin (bosalt.yml tetikleme; acik depo)
+
+concurrency:
+  group: topla-tr
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Istanbul
+  # 16.10.2026: kastamonu agri mardin tunceli mersin = GitHub IP'sine robots.txt 403 veren il okuyuculari (Aciksoz; Agrida Haber+Karakose; Mardin Haber; Tunceli Emek;
+  # Imece+Iste Mersin). Mac kuru probunda 7/8 kaynak acildi (siirt Kurtalan Mac'ten de 403 -> eklenmedi)
+  TR_ILLER: "kocaeli van mugla aksaray malatya kastamonu agri mardin tunceli mersin"
+
+jobs:
+  oku-tr:
+    runs-on: self-hosted
+    timeout-minutes: 200   # 14.10.2026: e-Devlet nazik kullanim (hizmetler arasi 10 dk) kosuyu uzatir
+    steps:
+      # 16.10.2026 H76 (H74 kalintisi): Mac runner is alani temizligi — checkout'tan ONCE. Yalniz $GITHUB_WORKSPACE (.../_work/<depo>/<depo>) icinde;
+      # (1) 30. klasor derinligindeki alt agaclari sil (bozuk zincir: yol >1024 bayt = macOS PATH_MAX), (2) adi 200 bayttan uzun ya da satir sonu iceren her ogeyi sil.
+      # Korumalar: workspace /*/_work/*/* bicimine uymazsa HICBIR sey silinmez; hedefler find ile workspace icinde uretilir (-execdir, goreli). Hata kosuyu kirmaz.
+      - name: Runner is alani temizligi (ENAMETOOLONG kalintilari)
+        run: |
+          ws="${GITHUB_WORKSPACE:-}"
+          case "$ws" in
+            /*/_work/*/*) ;;
+            *) echo "workspace beklenen bicimde degil ($ws), temizlik atlandi"; exit 0 ;;
+          esac
+          [ -d "$ws" ] || { echo "workspace yok, temizlik atlandi"; exit 0; }
+          export LC_ALL=C
+          echo "runner temizligi: $ws"
+          find "$ws" -mindepth 30 -maxdepth 30 -type d -execdir rm -rf -- {} + 2>/dev/null || true
+          uzun="$(printf '?%.0s' $(seq 1 201))"
+          find "$ws" -mindepth 1 -depth \( -name "${uzun}*" -o -name $'*\n*' \) -execdir rm -rf -- {} + 2>/dev/null || true
+          echo "temizlik bitti"
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY_YAZ }}
+          yayin-sparse: |
+            uygulama/assets/veri
+      - name: Onceki veriyi geri yukle (biriktirme icin; depodaki son veri-tr/ — veri.tar.gz 08.10.2026'dan beri yayinlanmaz)
+        run: |
+          rm -rf veri onceki.tar.gz
+          mkdir -p veri
+          for il in $TR_ILLER; do
+            if [ -d "veri-tr/$il" ]; then cp -r "veri-tr/$il" veri/; echo "onceki $il yuklendi"; fi
+          done
+          # 15.10.2026: onceki e-Devlet/ulusal ciktilari ve bosluk gecmisi de geri yuklenir (uzerine yazma yerine birlesir)
+          for f in veri-tr/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri/$il"; [ -f "veri/$il/_ulusal.json" ] || cp "$f" "veri/$il/_ulusal.json"
+          done
+          if [ -f veri-tr/_bosluk.json ]; then cp veri-tr/_bosluk.json veri/_bosluk.json; fi
+      - name: Illeri oku (Turkiye'den)
+        if: ${{ inputs.mod != 'bosluk' }}
+        run: python3 okuyucu/hepsi.py $TR_ILLER
+      - name: "e-Devlet vefat sorgulama (yalniz TR IP; nazik kullanim - 06 ve 18 kosulari, hizmetler arasi 10 dk, kosu basina en cok 60 istek; CAPTCHA gorunce 6 sa bekler)"
+        if: ${{ inputs.mod != 'bosluk' }}
+        env:
+          EDEVLET_KOSU_SAATLERI: "06,08,10,12,14,16,18,20"   # 16.10.2026: 8 kosu (Mac turlari iki saatte bir); hizmet arasi 10 dk AYNEN   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
+          EDEVLET_HIZMET_ARASI_SN: "240"   # 16.10.2026 sahibi: "e-Devlet en uzun suren, kisalt" (600 -> 240; CAPTCHA'da hizmet 6 sa dinlenir)
+          EDEVLET_ISTEK_TAVANI: "150"
+          EDEVLET_SURE_DK: "70"
+          EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
+          GH_TOKEN: ${{ github.token }}      # anlik yayin: her hizmetten sonra veri-tr/<il>/_ulusal.json + bosalt.yml
+        run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
+      # ---- BOSLUK TURU (15.10.2026; mod=bosluk; 10:05 TR'de sunucu zamanlayicisi tetikler): site sahibi "bosluklar 10:00'a kadar beklensin, hala bos varsa kendi
+      # imkanlarimizla doldurulsun". Canli veriden bugun cenaze kaydi olmayan iller bulunur; yalniz onlarin e-Devlet hizmetleri + ulusal akislar okunur.
+      # Nazik kullanim AYNEN: hizmetler arasi 10 dk, kosu basina <=40 istek, captcha'da geri cekilme, haftalik atlama (edevlet.py).
+      - name: "Bosluk: bugun cenaze kaydi olmayan illeri bul (canli veri)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: python3 araclar/bosluk.py --tespit --canli --etiket tr-bosluk
+      - name: "Bosluk: bos illerin e-Devlet hizmetleri (yalniz TR IP; saat kapisi bu adimda EDEVLET_ZORLA=1 ile atlanir)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        env:
+          EDEVLET_YALNIZ: "1"
+          EDEVLET_ZORLA: "1"
+          EDEVLET_HIZMET_ARASI_SN: "600"
+          EDEVLET_ISTEK_TAVANI: "40"
+        run: |
+          export EDEVLET_ONCELIK="$(python3 araclar/bosluk.py --oncelik)"
+          echo "e-Devlet bosluk listesi: ${EDEVLET_ONCELIK:-<bos: eslesen hizmet yok>}"
+          python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
+      - name: "Bosluk: ulusal akislar (vefatilan, sondakika, bos illerin cenazeilanlari sayfasi)"
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: |
+          python3 okuyucu/vefatilan.py || echo "::warning::vefatilan okunamadi"
+          python3 okuyucu/sondakika.py || echo "::warning::sondakika okunamadi"
+          BOS="$(python3 araclar/bosluk.py --il-listesi)"
+          if [ -n "$BOS" ]; then python3 okuyucu/cenazeilanlari.py --il "$BOS" || echo "::warning::cenazeilanlari okunamadi"; else echo "bos il yok"; fi
+      # 16.10.2026 MAC'E DEVIR (sahibi karari: "robots.txt'yi/sayfayi GitHub'a vermeyen TUM kaynaklar Mac'ten okunsun"): kayit defterinde `calistir: mac` olan ya da GitHub turunda
+      # ENGEL (robots.txt 403 / HTTP 401-403-429) alip okuyucu/kaynaklar/_mac_gerekli.json'a isaretlenen satirlar BURADA, ev internetinden, sitenin kendi kurallarina uyan siradan
+      # istemci olarak okunur (robots.txt gercekten yasaklarsa ya da Mac'ten de 403 gelirse satir yine birakilir; engel dolanilmaz). Cikti veri/<il>/_ulusal.json -> asagida veri-tr/'ye
+      # tasinir, topla.yml birlestir adimi katar. Her iki modda (normal + bosluk) e-Devlet adimlarindan SONRA calisir. Istek tavani/sure e-Devlet'ten bagimsizdir.
+      - name: "Mac'e devredilen kaynaklari oku (kayit defteri, --yer mac)"
+        run: python3 okuyucu/kayitli_kaynak.py --yer mac --istek 300 --sure-sn 900 || echo "::warning::mac kayit defteri okuyucusu hata verdi"
+      - name: veri-tr/ klasorunu hazirla (bosluk modu; mevcut veri-tr korunur, yalniz _ulusal.json ve _bosluk.json guncellenir)
+        if: ${{ inputs.mod == 'bosluk' }}
+        run: |
+          mkdir -p veri-tr
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
+          done
+          if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
+      - name: veri-tr/ klasorunu hazirla
+        if: ${{ inputs.mod != 'bosluk' }}
+        run: |
+          rm -rf veri-tr
+          mkdir -p veri-tr
+          for il in $TR_ILLER; do
+            if [ -d "veri/$il" ]; then cp -r "veri/$il" veri-tr/; fi
+          done
+          # e-Devlet ciktilari (veri/<il>/_ulusal.json) tum iller icin tasinir; ana tur ulusal_birlestir ile katar
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
+          done
+          if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
+          python3 - <<'PY'
+          import json, os
+          iller = os.environ["TR_ILLER"].split()
+          ozet = json.load(open("veri/ozet.json", encoding="utf-8"))
+          cikti = {"guncelleme": ozet.get("guncelleme"),
+                   "iller": {k: v for k, v in ozet.get("iller", {}).items() if k in iller}}
+          json.dump(cikti, open("veri-tr/ozet-tr.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          print(sorted(cikti["iller"]))
+          PY
+      - name: Depoya commit et
+        run: |
+          git config user.name "cenaze-bot"
+          git config user.email "cenaze-bot@users.noreply.github.com"
+          git add -A veri-tr
+          if git diff --cached --quiet; then
+            echo "degisiklik yok, commit atilmadi"
+          else
+            git commit -m "veri-tr: Turkiye'den okunan iller"
+            bash araclar/guvenli_push.sh "${GITHUB_REF_NAME}"   # 16.10.2026 H76: 5 deneme, -X theirs (yerel en yeni veri kazanir), basarisizsa uyari + basarili cikis
+          fi

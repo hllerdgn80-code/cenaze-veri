@@ -1,0 +1,45 @@
+name: kimin_cenazesi
+description: "Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları."
+publish_to: "none"
+version: 0.1.16+63
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.2
+  crypto: ^3.0.3
+  shared_preferences: ^2.3.2
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.1
+  flutter_svg: ^2.0.16
+  workmanager: ^0.10.10
+  flutter_local_notifications: ^22.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  url_launcher_platform_interface: ^2.3.2   # harita_test: sahte launchUrl
+  plugin_platform_interface: ^2.1.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/veri/
+    - assets/ikon/
+    - assets/acilis/
+
+# Uygulama simgesi: sahibinin 15.10 sectigi tabutlu daire simge (tasarim/acilis/simge22.png; sahibi 16.10: Play simgesi de bu olsun, eski L13 her yerden silindi). CI'da `dart run flutter_launcher_icons` ile üretilir.
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/ikon/ikon.png"
+  adaptive_icon_background: "#0F1F2E"
+  adaptive_icon_foreground: "assets/ikon/ikon_on.png"
+  min_sdk_android: 21

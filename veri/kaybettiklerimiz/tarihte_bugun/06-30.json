@@ -1,0 +1,339 @@
+[
+ {
+  "ad": "Fuat Sezgin",
+  "dogum_tarihi": "1924-10-24",
+  "vefat_tarihi": "2018-06-30",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Bitlis",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "İstanbul",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q641011",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri. Önemli eserleri: “Geschichte des arabischen Schrifttums”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "John Strutt",
+  "dogum_tarihi": "1842-11-12",
+  "vefat_tarihi": "1919-06-30",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Langford Grove",
+  "vefat_yeri": "Terling Place",
+  "defin_yeri": "Terling (All Saints) Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q83297",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "John William Strutt.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_William_Strutt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_William_Strutt.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simone Veil",
+  "dogum_tarihi": "1927-07-13",
+  "vefat_tarihi": "2017-06-30",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Nice",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q298180",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Simone Veil, gymnase Japy 2008 02 27 n3 ret.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Marie-Lan Nguyen (User:Jastrow)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_Veil%2C_gymnase_Japy_2008_02_27_n3_ret.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Simone_Veil%2C_gymnase_Japy_2008_02_27_n3_ret.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Avrupa Parlamentosu Başkanı, Avrupa Parlamentosu milletvekilliği",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kurt von Schleicher",
+  "dogum_tarihi": "1882-04-07",
+  "vefat_tarihi": "1934-06-30",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Brandenburg an der Havel",
+  "vefat_yeri": "Neubabelsberg",
+  "defin_yeri": "Parkfriedhof Lichterfelde",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57133",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-B0527-0001-020, Kurt von Schleicher.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-B0527-0001-020%2C_Kurt_von_Schleicher.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0527-0001-020%2C_Kurt_von_Schleicher.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Harp Madalyası, Demir Haç",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "homicide by firearm"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Theodora",
+  "dogum_tarihi": "0497",
+  "vefat_tarihi": "0548-06-30",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Paphlagonia",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": "Havariyyun Kilisesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q204843",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Meister von San Vitale in Ravenna 008.jpg",
+   "lisans": "Public domain",
+   "yazar": "Meister von San Vitale in Ravenna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meister_von_San_Vitale_in_Ravenna_008.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meister_von_San_Vitale_in_Ravenna_008.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giuseppe Farina",
+  "dogum_tarihi": "1906-10-30",
+  "vefat_tarihi": "1966-06-30",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Torino",
+  "vefat_yeri": "Chambéry",
+  "defin_yeri": "Monumental Cemetery of Turin",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q2040",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "NinoFarina.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NinoFarina.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:NinoFarina.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Lee de Forest",
+  "dogum_tarihi": "1873-08-26",
+  "vefat_tarihi": "1961-06-30",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Council Bluffs",
+  "vefat_yeri": "Hollywood",
+  "defin_yeri": "San Fernando Misyon Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q354863",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Formal portrait of Lee de Forest.jpg",
+   "lisans": "CC0",
+   "yazar": "Credit Line: The National Cyclopedia of American Biography, courtesy AIP Emilio Segrè Visual Archives, T. J. J. See Collection",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Formal_portrait_of_Lee_de_Forest.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Formal_portrait_of_Lee_de_Forest.jpg"
+  },
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Edison Madalyası, IEEE Onur Madalyası. Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Pina Bausch",
+  "dogum_tarihi": "1940-07-27",
+  "vefat_tarihi": "2009-06-30",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Solingen",
+  "vefat_yeri": "Wuppertal",
+  "defin_yeri": "Wuppertal",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q155538",
+  "sitelink": 51,
+  "fotograf": {
+   "dosya": "Pina Bausch (festival d'Avignon, 1981).jpg",
+   "lisans": "Public domain",
+   "yazar": "Michaud, Fernand (1929-2012). Photographe",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pina_Bausch_%28festival_d%27Avignon%2C_1981%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pina_Bausch_%28festival_d%27Avignon%2C_1981%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite, İtalya Cumhuriyeti Liyakat Nişanı Kumandanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vsevolod Pudovkin",
+  "dogum_tarihi": "1893-02-28",
+  "vefat_tarihi": "1953-06-30",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Penza",
+  "vefat_yeri": "Jurmala",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q55195",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Vsevolod Pudovkin 1929.JPG",
+   "lisans": "Public domain",
+   "yazar": "Film screenshot",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vsevolod_Pudovkin_1929.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vsevolod_Pudovkin_1929.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Kızıl Bayrak Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gregor Strasser",
+  "dogum_tarihi": "1892-05-31",
+  "vefat_tarihi": "1934-06-30",
+  "vefat_yasi": 42,
+  "dogum_yeri": null,
+  "vefat_yeri": "Berlin",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q76638",
+  "sitelink": 44,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 119-1721, Gregor Strasser.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_119-1721%2C_Gregor_Strasser.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-1721%2C_Gregor_Strasser.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Parti Rozeti. Görev: Weimar Cumhuriyeti Reichstag üyesi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Alcide Dessalines d'Orbigny",
+  "dogum_tarihi": "1802-09-06",
+  "vefat_tarihi": "1857-06-30",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Couëron",
+  "vefat_yeri": "Pierrefitte-sur-Seine",
+  "defin_yeri": "Cimetière communal de Pierrefitte-sur-Seine",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q344661",
+  "sitelink": 43,
+  "fotograf": {
+   "dosya": "Alcide Dessalines d'Orbigny 1802.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcide_Dessalines_d%27Orbigny_1802.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alcide_Dessalines_d%27Orbigny_1802.jpg"
+  },
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simon Vouet",
+  "dogum_tarihi": "1590-01-08",
+  "vefat_tarihi": "1649-06-30",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q317920",
+  "sitelink": 42,
+  "fotograf": {
+   "dosya": "Vouet-autoportrait-lyon.jpg",
+   "lisans": "Public domain",
+   "yazar": "Simon Vouet",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vouet-autoportrait-lyon.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vouet-autoportrait-lyon.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

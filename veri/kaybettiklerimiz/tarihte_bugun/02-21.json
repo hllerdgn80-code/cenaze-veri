@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Baruch Spinoza",
+  "dogum_tarihi": "1632-11-24",
+  "vefat_tarihi": "1677-02-21",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Amsterdam",
+  "vefat_yeri": "Lahey",
+  "defin_yeri": "Nieuwe Kerk",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q35802",
+  "sitelink": 177,
+  "fotograf": {
+   "dosya": "Spinoza.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinoza.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Etika”, “Conatus”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nikolay Vasilyeviç Gogol",
+  "dogum_tarihi": "1809-03-31",
+  "vefat_tarihi": "1852-03-04",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Velyki Soroçyntsi",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q43718",
+  "sitelink": 157,
+  "fotograf": {
+   "dosya": "N.Gogol by F.Moller (1840, Tretyakov gallery).jpg",
+   "lisans": "Public domain",
+   "yazar": "Otto Friedrich Theodor von Möller",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/N.Gogol_by_F.Moller_%281840%2C_Tretyakov_gallery%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:N.Gogol_by_F.Moller_%281840%2C_Tretyakov_gallery%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Müfettiş (oyun)”, “Ölü Canlar”, “Taras Bulba”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Malcolm X",
+  "dogum_tarihi": "1925-05-19",
+  "vefat_tarihi": "1965-02-21",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Omaha",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": "Ferncliff Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q43303",
+  "sitelink": 135,
+  "fotograf": {
+   "dosya": "Malcolm X in 1964.jpg",
+   "lisans": "Public domain",
+   "yazar": "Marion S. Trikosko",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malcolm_X_in_1964.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Malcolm_X_in_1964.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Mihail Şolohov",
+  "dogum_tarihi": "1905-05-24",
+  "vefat_tarihi": "1984-02-21",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Kruzhilin",
+  "vefat_yeri": "Vyoshenskaya",
+  "defin_yeri": "Vyoshenskaya",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q42398",
+  "sitelink": 117,
+  "fotograf": {
+   "dosya": "Михаил Александрович Шолохов.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D0%B2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D0%BB%D0%BE%D1%85%D0%BE%D0%B2.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Heike Kamerlingh Onnes",
+  "dogum_tarihi": "1853-09-21",
+  "vefat_tarihi": "1926-02-21",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Groningen",
+  "vefat_yeri": "Leiden",
+  "defin_yeri": "Kerkhof Dorpskerk Voorschoten",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q62891",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Fizik Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gertrude B. Elion",
+  "dogum_tarihi": "1918-01-23",
+  "vefat_tarihi": "1999-02-21",
+  "vefat_yasi": 81,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Chapel Hill",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q35703",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Gertrude Elion (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "GlaxoSmithKline plc",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gertrude_Elion_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gertrude_Elion_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame, Garvan-Olin Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Billy Graham",
+  "dogum_tarihi": "1918-11-07",
+  "vefat_tarihi": "2018-02-21",
+  "vefat_yasi": 99,
+  "dogum_yeri": "Charlotte",
+  "vefat_yeri": "Montreat",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q213550",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Billy Graham bw photo, April 11, 1966.jpg",
+   "lisans": "Public domain",
+   "yazar": "Warren K. Leffler",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Billy_Graham_bw_photo%2C_April_11%2C_1966.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Billy_Graham_bw_photo%2C_April_11%2C_1966.jpg"
+  },
+  "meslek": [
+   "Papaz"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XIII. Benedictus",
+  "dogum_tarihi": "1649-02-02",
+  "vefat_tarihi": "1730-02-21",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Gravina in Puglia",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria sopra Minerva Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q155971",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Benedetto XIII.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedetto_XIII.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Benedetto_XIII.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frederick Banting",
+  "dogum_tarihi": "1891-11-14",
+  "vefat_tarihi": "1941-02-21",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Alliston",
+  "vefat_yeri": "Musgrave Harbour",
+  "defin_yeri": "Mount Pleasant Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q180350",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Fredrick banting.jpg",
+   "lisans": "Public domain",
+   "yazar": "Arthur Goss",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fredrick_banting.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fredrick_banting.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kenneth Arrow",
+  "dogum_tarihi": "1921-08-23",
+  "vefat_tarihi": "2017-02-21",
+  "vefat_yasi": 95,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Palo Alto",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192592",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Kenneth Arrow, Stanford University.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Linda A. Cicero / Stanford News Service",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenneth_Arrow%2C_Stanford_University.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenneth_Arrow%2C_Stanford_University.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Ekonomi Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Margot Fonteyn",
+  "dogum_tarihi": "1919-05-18",
+  "vefat_tarihi": "1991-02-21",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Reigate",
+  "vefat_yeri": "Panama",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q231776",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Margot Fonteyn - 1960s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Hurok Concerts (U.S.)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margot_Fonteyn_-_1960s.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Margot_Fonteyn_-_1960s.jpg"
+  },
+  "meslek": [],
+  "aciklama": "İngiliz kadın dansçı ve balerin",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Howard Walter Florey",
+  "dogum_tarihi": "1898-09-24",
+  "vefat_tarihi": "1968-02-21",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Adelaide",
+  "vefat_yeri": "Oxford",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q137106",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Howard Walter Florey 1945.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Howard_Walter_Florey_1945.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Howard_Walter_Florey_1945.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı, Rhodes Bursu. Görev: Britanya Lordlar Kamarası üyesi",
+  "hassas": false,
+  "turk": false
+ }
+]

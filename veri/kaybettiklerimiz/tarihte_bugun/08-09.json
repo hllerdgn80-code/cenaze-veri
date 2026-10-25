@@ -1,0 +1,337 @@
+[
+ {
+  "ad": "Aliye Berger",
+  "dogum_tarihi": "1903-12-24",
+  "vefat_tarihi": "1974-08-09",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Büyükada",
+  "vefat_yeri": "Büyükada",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q12808445",
+  "sitelink": 15,
+  "fotograf": null,
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Hermann Hesse",
+  "dogum_tarihi": "1877-07-02",
+  "vefat_tarihi": "1962-08-09",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Calw",
+  "vefat_yeri": "Montagnola",
+  "defin_yeri": "Sant'Abbondio Cemetery in Gentilino",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q25973",
+  "sitelink": 163,
+  "fotograf": {
+   "dosya": "Hermann Hesse 2.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann_Hesse_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hermann_Hesse_2.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dmitri Şostakoviç",
+  "dogum_tarihi": "1906-09-25",
+  "vefat_tarihi": "1975-08-09",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q80135",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Dmitri Shostakovich credit Deutsche Fotothek adjusted.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Fotothek_df_roe-neg_0002792_002_Portrait_Dmitri_Dmitrijewitsch_Schostakowitchs_im_Publikum_der_Bachfeier.jpg: Roger & Renate Rössing, credit Deutsche Fotothek. derivative work: Improvist (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sovyetler Birliği Halk Sanatçısı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Önemli eserleri: “Senfoni No. 1 (Şostakoviç)”, “Burun”, “Mtsenkli Lady Macbeth”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernst Haeckel",
+  "dogum_tarihi": "1834-02-16",
+  "vefat_tarihi": "1919-08-09",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Potsdam",
+  "vefat_yeri": "Jena",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q48246",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Ernst Haeckel 1860.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ernst_Haeckel_1860.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ernst_Haeckel_1860.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Darwin Madalyası. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Osman Gazi",
+  "dogum_tarihi": "1258-08-30",
+  "vefat_tarihi": "1326-08-09",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Söğüt",
+  "vefat_yeri": "Söğüt",
+  "defin_yeri": "Bursa",
+  "defin_il": "Bursa",
+  "defin_ulke": null,
+  "wikidata_id": "Q83100",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "I Osman.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ottoman miniature painting",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/I_Osman.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:I_Osman.jpg"
+  },
+  "meslek": [
+   "Sultan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hieronymus Bosch",
+  "dogum_tarihi": "1450",
+  "vefat_tarihi": "1516-08-09",
+  "vefat_yasi": 66,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "'s-Hertogenbosch",
+  "vefat_yeri": "'s-Hertogenbosch",
+  "defin_yeri": "'s-Hertogenbosch",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q130531",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Hieronymus Bosch by Cornelis Cort.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Cornelis Cort",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hieronymus_Bosch_by_Cornelis_Cort.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_by_Cornelis_Cort.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Zevk Bahçesi”, “Deliler Gemisi”, “İşte İnsan”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edith Stein",
+  "dogum_tarihi": "1891-10-12",
+  "vefat_tarihi": "1942-08-09",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Wrocław",
+  "vefat_yeri": "Auschwitz-Birkenau",
+  "defin_yeri": "Auschwitz toplama kampı",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q76749",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Edith Stein (ca. 1938-1939).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edith_Stein_%28ca._1938-1939%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edith_Stein_%28ca._1938-1939%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mahmut Derviş",
+  "dogum_tarihi": "1941-03-13",
+  "vefat_tarihi": "2008-08-09",
+  "vefat_yasi": 67,
+  "dogum_yeri": "El-Birva",
+  "vefat_yeri": "Houston",
+  "defin_yeri": "Ramallah",
+  "defin_il": null,
+  "defin_ulke": "Filistin",
+  "wikidata_id": "Q207720",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "MahmoudDarwish.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Amer Shomali",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MahmoudDarwish.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MahmoudDarwish.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Barış Ödülü, Uluslararası Nazım Hikmet Şiir Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "C. F. Powell",
+  "dogum_tarihi": "1903-12-05",
+  "vefat_tarihi": "1969-08-09",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Tonbridge",
+  "vefat_yeri": "Como Gölü",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q178103",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Cecil Powell.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cecil_Powell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cecil_Powell.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sharon Tate",
+  "dogum_tarihi": "1943-01-24",
+  "vefat_tarihi": "1969-08-09",
+  "vefat_yasi": 26,
+  "dogum_yeri": "Dallas",
+  "vefat_yeri": "10050 Cielo Drive, Benedict Canyon, Los Angeles",
+  "defin_yeri": "Holy Cross Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q228699",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Sharon Tate in 1968.jpg",
+   "lisans": "Public domain",
+   "yazar": "United Press International (UPI)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sharon_Tate_in_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sharon_Tate_in_1968.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Ruggero Leoncavallo",
+  "dogum_tarihi": "1857-04-23",
+  "vefat_tarihi": "1919-08-09",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Napoli",
+  "vefat_yeri": "Montecatini Terme",
+  "defin_yeri": "Madonna del Ponte Church",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q189015",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Zonder titel PK-F-MM.5862 - recto.tiff",
+   "lisans": "CC BY 4.0",
+   "yazar": "Schaarwächter, J.C. (1847-1904)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zonder_titel_PK-F-MM.5862_-_recto.tiff",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zonder_titel_PK-F-MM.5862_-_recto.tiff"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Palyaçolar”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Atinalı İrene",
+  "dogum_tarihi": "0752",
+  "vefat_tarihi": "0803-08-09",
+  "vefat_yasi": 51,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Atina",
+  "vefat_yeri": "Midilli",
+  "defin_yeri": "Havariyyun Kilisesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q206737",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Irene solidus sb 1599 (obverse).jpg",
+   "lisans": "CC BY-SA 2.5",
+   "yazar": "CNG",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Irene_solidus_sb_1599_%28obverse%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Irene_solidus_sb_1599_%28obverse%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: naip, Bizans imparatoru",
+  "hassas": false,
+  "turk": false
+ }
+]

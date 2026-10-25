@@ -1,0 +1,323 @@
+[
+ {
+  "ad": "Bülent Ulusu",
+  "dogum_tarihi": "1923-05-07",
+  "vefat_tarihi": "2015-12-23",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Üsküdar",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q375687",
+  "sitelink": 24,
+  "fotograf": null,
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mihail Kalaşnikov",
+  "dogum_tarihi": "1919-11-10",
+  "vefat_tarihi": "2013-12-23",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Kurya",
+  "vefat_yeri": "İjevsk",
+  "defin_yeri": "Federal Military Memorial Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q167573",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Kalashnikov Mikhail (1).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Министерство обороны Российской Федерации",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kalashnikov_Mikhail_%281%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kalashnikov_Mikhail_%281%29.jpg"
+  },
+  "meslek": [
+   "Tasarım mühendisi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, \"Orak ve Çekiç\" Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vlad Dracula",
+  "dogum_tarihi": "1431-11-11",
+  "vefat_tarihi": "1476-12-23",
+  "vefat_yasi": 45,
+  "dogum_yeri": "Segeşvar",
+  "vefat_yeri": "Bükreş",
+  "defin_yeri": "Snagov Monastery",
+  "defin_il": null,
+  "defin_ulke": "Romanya",
+  "wikidata_id": "Q43715",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Vlad Ţepeş, the Impaler, Prince of Wallachia (1456-1462) (died 1477).jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlad_%C5%A2epe%C5%9F%2C_the_Impaler%2C_Prince_of_Wallachia_%281456-1462%29_%28died_1477%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vlad_%C5%A2epe%C5%9F%2C_the_Impaler%2C_Prince_of_Wallachia_%281456-1462%29_%28died_1477%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hükümdar, voyvoda",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "II. Selim",
+  "dogum_tarihi": "1524-06-09",
+  "vefat_tarihi": "1574-12-23",
+  "vefat_yasi": 50,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Ayasofya",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q161872",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Selim II. Semailname (Millet Library, Ali Emîrî Collection, History, MS no. 1216).jpg",
+   "lisans": "Public domain",
+   "yazar": "16th century artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Selim_II._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Selim_II._Semailname_%28Millet_Library%2C_Ali_Em%C3%AEr%C3%AE_Collection%2C_History%2C_MS_no._1216%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "11. Osmanlı padişahı (1566–1574)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Emilia Plater",
+  "dogum_tarihi": "1806-11-13",
+  "vefat_tarihi": "1831-12-23",
+  "vefat_yasi": 25,
+  "dogum_yeri": "Vilnius",
+  "vefat_yeri": "Vainežeris",
+  "defin_yeri": "Kapčiamiestis",
+  "defin_il": null,
+  "defin_ulke": "Litvanya",
+  "wikidata_id": "Q294136",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Emilia Plater (284384).jpg",
+   "lisans": "Public domain",
+   "yazar": "Józef Straszewicz",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emilia_Plater_%28284384%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emilia_Plater_%28284384%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Polonyalı-Litvan soylu",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "P. V. Narasimha Rao",
+  "dogum_tarihi": "1921-06-28",
+  "vefat_tarihi": "2004-12-23",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Laknepalli",
+  "vefat_yeri": "Delhi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q275146",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Visit of Narasimha Rao, Indian Minister for Foreign Affairs, to the CEC (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Christian Lambiotte - European Commission",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Visit_of_Narasimha_Rao%2C_Indian_Minister_for_Foreign_Affairs%2C_to_the_CEC_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Visit_of_Narasimha_Rao%2C_Indian_Minister_for_Foreign_Affairs%2C_to_the_CEC_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Manuel",
+  "dogum_tarihi": "1469-06-09",
+  "vefat_tarihi": "1521-12-23",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Lizbon",
+  "vefat_yeri": "Lizbon",
+  "defin_yeri": "Jerónimos Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Portekiz",
+  "wikidata_id": "Q191231",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Fons Vitae (c. 1515-1517) - Colijn de Coter (attributed) (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Colijn de Coter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fons_Vitae_%28c._1515-1517%29_-_Colijn_de_Coter_%28attributed%29_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fons_Vitae_%28c._1515-1517%29_-_Colijn_de_Coter_%28attributed%29_%28cropped%29.png"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dési Bouterse",
+  "dogum_tarihi": "1945-10-13",
+  "vefat_tarihi": "2024-12-23",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Domburg",
+  "vefat_yeri": "Surinam",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q57667",
+  "sitelink": 61,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Conrad Gessner",
+  "dogum_tarihi": "1516-04-05",
+  "vefat_tarihi": "1565-12-23",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Zürih",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Grossmünster",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q60116",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Conrad Gesner by Tobias Stimmer2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Tobias Stimmer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_Gesner_by_Tobias_Stimmer2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Conrad_Gesner_by_Tobias_Stimmer2.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joan Didion",
+  "dogum_tarihi": "1934-12-05",
+  "vefat_tarihi": "2021-12-23",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Sacramento",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q267691",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Didion1970 (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Kathleen Ballard, Los Angeles Times",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Didion1970_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Didion1970_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beşeri Bilimler Charles Frankel Ödülü, Ulusal Kitap Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrey Tupolev",
+  "dogum_tarihi": "1888-11-10",
+  "vefat_tarihi": "1972-12-23",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Pustomazovo",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q219734",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "А.Н. Туполев 1944.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%90.%D0%9D._%D0%A2%D1%83%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2_1944.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%90.%D0%9D._%D0%A2%D1%83%D0%BF%D0%BE%D0%BB%D0%B5%D0%B2_1944.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, \"Orak ve Çekiç\" Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oscar Peterson",
+  "dogum_tarihi": "1925-08-15",
+  "vefat_tarihi": "2007-12-23",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Montreal",
+  "vefat_yeri": "Mississauga",
+  "defin_yeri": "Erindale",
+  "defin_il": null,
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q105349",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Oscar Peterson.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Tom Marcello Webster, New York, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar_Peterson.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oscar_Peterson.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Enstrümantal Caz Albümü Grammy Ödülü, Grammy Yaşam Boyu Başarı Ödülü. Aday olduğu ödül: En İyi Enstrümantal Caz Albümü Grammy Ödülü",
+  "hassas": false,
+  "turk": false
+ }
+]

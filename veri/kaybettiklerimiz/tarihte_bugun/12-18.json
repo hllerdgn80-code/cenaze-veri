@@ -1,0 +1,331 @@
+[
+ {
+  "ad": "Ayşe Şan",
+  "dogum_tarihi": "1938",
+  "vefat_tarihi": "1996-12-18",
+  "vefat_yasi": 58,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Diyarbakır",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q464678",
+  "sitelink": 14,
+  "fotograf": {
+   "dosya": "Ayşe Şan.jpg",
+   "lisans": "Public domain",
+   "yazar": "VOA Kurmanji",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ay%C5%9Fe_%C5%9Ean.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ay%C5%9Fe_%C5%9Ean.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Necip Hablemitoğlu",
+  "dogum_tarihi": "1954-11-28",
+  "vefat_tarihi": "2002-12-18",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q7193066",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Václav Havel",
+  "dogum_tarihi": "1936-10-05",
+  "vefat_tarihi": "2011-12-18",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Prag",
+  "vefat_yeri": "Hrádeček",
+  "defin_yeri": "Vinohrady Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q36233",
+  "sitelink": 144,
+  "fotograf": {
+   "dosya": "Václav Havel cut out.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Ondřej Sláma",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A1clav_Havel_cut_out.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:V%C3%A1clav_Havel_cut_out.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Erasmus Ödülü, Krizantem Nişanı. Önemli eserleri: “Largo Desolato”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean-Baptiste de Lamarck",
+  "dogum_tarihi": "1744-08-01",
+  "vefat_tarihi": "1829-12-18",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Bazentin",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q82122",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "Jean-Baptiste de Lamarck.jpg",
+   "lisans": "Public domain",
+   "yazar": "Charles Thévenin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Baptiste_de_Lamarck.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_de_Lamarck.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Johann Gottfried Herder",
+  "dogum_tarihi": "1744-08-25",
+  "vefat_tarihi": "1803-12-18",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Morąg",
+  "vefat_yeri": "Weimar",
+  "defin_yeri": "St. Peter und Paul",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q155547",
+  "sitelink": 102,
+  "fotograf": {
+   "dosya": "Johann Gottfried Herder 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Anton Graff",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Gottfried_Herder_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johann_Gottfried_Herder_2.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: pastör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Zsa Zsa Gábor",
+  "dogum_tarihi": "1917-02-06",
+  "vefat_tarihi": "2016-12-18",
+  "vefat_yasi": 99,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Fiume Yolu Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q207405",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Gabor, Zsa Zsa.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio publicity still",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabor%2C_Zsa_Zsa.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gabor%2C_Zsa_Zsa.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Ödülleri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ögeday Han",
+  "dogum_tarihi": "1186-11-14",
+  "vefat_tarihi": "1241-12-18",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Hamag Moğol",
+  "vefat_yeri": "Moğol İmparatorluğu",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q7519",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "YuanEmperorAlbumOgedeiPortrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YuanEmperorAlbumOgedeiPortrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumOgedeiPortrait.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Cengiz Han'ın oğlu ve 2. Moğol imparatoru",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Hadrianus",
+  "dogum_tarihi": "0792",
+  "vefat_tarihi": "0872-12-18",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q173995",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Adrian II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adrian_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adrian_II.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sigismund",
+  "dogum_tarihi": "1368-02-22",
+  "vefat_tarihi": "1437-12-18",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Free Imperial City of Nuremberg",
+  "vefat_yeri": "Znaym",
+  "defin_yeri": "Varat",
+  "defin_il": null,
+  "defin_ulke": "Romanya",
+  "wikidata_id": "Q57124",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Pisanello 024b.jpg",
+   "lisans": "Public domain",
+   "yazar": "Formerly attributed to Pisanello",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pisanello_024b.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pisanello_024b.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı. Görev: Elektör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XVII. Johannes",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1003-12-18",
+  "vefat_yasi": null,
+  "dogum_yeri": "Rapagnano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Giovanni in Laterano Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q227963",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Pope John XVII.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XVII.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_John_XVII.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eduard Bernstein",
+  "dogum_tarihi": "1850-01-06",
+  "vefat_tarihi": "1932-12-18",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Schöneberg",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "I. Städtischer Friedhof Eisackstraße",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q75786",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Eduard Bernstein (portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eduard_Bernstein_%28portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eduard_Bernstein_%28portrait%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Weimar Cumhuriyeti Reichstag üyesi, Alman İmparatorluğu'nda Reichstag üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Konrad Zuse",
+  "dogum_tarihi": "1910-06-22",
+  "vefat_tarihi": "1995-12-18",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Wilmersdorf",
+  "vefat_yeri": "Hünfeld",
+  "defin_yeri": "Neuer Friedhof, Hünfeld",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60093",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Konrad Zuse (1992).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Wolfgang Hunscher, Dortmund",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Konrad_Zuse_%281992%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Konrad_Zuse_%281992%29.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Harry H. Goode Anma Ödülü. Önemli eserleri: “Z3”, “Z5”, “Plankalkül”",
+  "hassas": false,
+  "turk": false
+ }
+]

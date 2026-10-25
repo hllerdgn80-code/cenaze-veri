@@ -1,0 +1,342 @@
+[
+ {
+  "ad": "Ali Bozer",
+  "dogum_tarihi": "1925-07-28",
+  "vefat_tarihi": "2020-09-30",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q459130",
+  "sitelink": 19,
+  "fotograf": {
+   "dosya": "Ali Bozer (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Benoît Bourgeois, European Communities",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ali_Bozer_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ali_Bozer_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "James Dean",
+  "dogum_tarihi": "1931-02-08",
+  "vefat_tarihi": "1955-09-30",
+  "vefat_yasi": 24,
+  "dogum_yeri": "Marion",
+  "vefat_yeri": "Cholame",
+  "defin_yeri": "Park Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q83359",
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "James Dean in Rebel Without a Cause.jpg",
+   "lisans": "Public domain",
+   "yazar": "In-house publicity still",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Dean_in_Rebel_Without_a_Cause.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Dean_in_Rebel_Without_a_Cause.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Theatre World Award",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Diesel",
+  "dogum_tarihi": "1858-03-18",
+  "vefat_tarihi": "1913-09-30",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Manş Denizi",
+  "defin_yeri": "deniz",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q12674",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Rudolf Diesel2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudolf_Diesel2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rudolf_Diesel2.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Thérèse de Lisieux",
+  "dogum_tarihi": "1873-01-02",
+  "vefat_tarihi": "1897-09-30",
+  "vefat_yasi": 24,
+  "dogum_yeri": "Alençon",
+  "vefat_yeri": "Lisieux",
+  "defin_yeri": "Lisieux",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q181715",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "Teresa-de-Lisieux.jpg",
+   "lisans": "Public domain",
+   "yazar": "Céline Martin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa-de-Lisieux.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Teresa-de-Lisieux.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Snorri Sturluson",
+  "dogum_tarihi": "1179",
+  "vefat_tarihi": "1241-09-30",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hvammur",
+  "vefat_yeri": "Reykholt",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q102323",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Snorre Sturluson-Christian Krohg.jpg",
+   "lisans": "Public domain",
+   "yazar": "Christian Krohg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snorre_Sturluson-Christian_Krohg.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Snorre_Sturluson-Christian_Krohg.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Heimskringla”, “Egils saga”, “Nesir Edda”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Martin Lewis Perl",
+  "dogum_tarihi": "1927-06-24",
+  "vefat_tarihi": "2014-09-30",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Palo Alto",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q107416",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Martin Perl - tau.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Perl_-_tau.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martin_Perl_-_tau.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simone Signoret",
+  "dogum_tarihi": "1921-03-25",
+  "vefat_tarihi": "1985-09-30",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Wiesbaden",
+  "vefat_yeri": "Autheuil-Authouillet",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q106126",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Signoret Harcourt 1947 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Signoret_Harcourt_1947_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Signoret_Harcourt_1947_2.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Francis Richter",
+  "dogum_tarihi": "1900-04-26",
+  "vefat_tarihi": "1985-09-30",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Overpeck",
+  "vefat_yeri": "Pasadena",
+  "defin_yeri": "Mountain View Cemetery and Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q184014",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "CharlesRichter.jpg",
+   "lisans": "Public domain",
+   "yazar": "en:Caltech photograph",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CharlesRichter.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CharlesRichter.jpg"
+  },
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Richter ölçeği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Margaret Hamilton",
+  "dogum_tarihi": "1936-08-17",
+  "vefat_tarihi": "2026-09-30",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Paoli",
+  "vefat_yeri": "Cambridge",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q11628",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Margaret Hamilton 1995.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Daphne Weld Nichols",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret_Hamilton_1995.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_1995.jpg"
+  },
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ralph M. Steinman",
+  "dogum_tarihi": "1943-01-14",
+  "vefat_tarihi": "2011-09-30",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Montreal",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q105494",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "RMSt.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Kupal123",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RMSt.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:RMSt.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "André Lwoff",
+  "dogum_tarihi": "1902-05-08",
+  "vefat_tarihi": "1994-09-30",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Ainay-le-Château",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q223309",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "André Lwoff nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andr%C3%A9_Lwoff_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9_Lwoff_nobel.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nurhaci",
+  "dogum_tarihi": "1559-02-21",
+  "vefat_tarihi": "1626-09-30",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Hetu Ala City",
+  "vefat_yeri": "Xingcheng",
+  "defin_yeri": "Fuling Tomb",
+  "defin_il": null,
+  "defin_ulke": "Çin Halk Cumhuriyeti",
+  "wikidata_id": "Q311189",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "清 佚名 《清太祖天命皇帝朝服像》.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E4%BD%9A%E5%90%8D_%E3%80%8A%E6%B8%85%E5%A4%AA%E7%A5%96%E5%A4%A9%E5%91%BD%E7%9A%87%E5%B8%9D%E6%9C%9D%E6%9C%8D%E5%83%8F%E3%80%8B.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Çin imparatoru, han",
+  "hassas": false,
+  "turk": false
+ }
+]

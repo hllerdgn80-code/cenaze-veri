@@ -1,0 +1,347 @@
+[
+ {
+  "ad": "Hasan Saka",
+  "dogum_tarihi": "1885",
+  "vefat_tarihi": "1960-07-29",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1588141",
+  "sitelink": 19,
+  "fotograf": {
+   "dosya": "Hasan saka.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hasan_saka.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hasan_saka.jpg"
+  },
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Vincent van Gogh",
+  "dogum_tarihi": "1853-03-30",
+  "vefat_tarihi": "1890-07-29",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Zundert",
+  "vefat_yeri": "Auvers-sur-Oise",
+  "defin_yeri": "Auvers-Sur-Oise Communal Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q5582",
+  "sitelink": 266,
+  "fotograf": {
+   "dosya": "Self-portrait - Vincent van Gogh.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Vincent van Gogh",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-portrait_-_Vincent_van_Gogh.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Self-portrait_-_Vincent_van_Gogh.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Buğday Tarlası ve Kargalar”, “Gece Kahvesi”, “Kafe Terasta Gece”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Robert Schumann",
+  "dogum_tarihi": "1810-06-08",
+  "vefat_tarihi": "1856-07-29",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Zwickau",
+  "vefat_yeri": "Endenich",
+  "defin_yeri": "Eski Bonn Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q7351",
+  "sitelink": 131,
+  "fotograf": {
+   "dosya": "Robert-schumann.jpg",
+   "lisans": "Public domain",
+   "yazar": "Williamtosun",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert-schumann.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert-schumann.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anatoliy Solovyanenko",
+  "dogum_tarihi": "1932-09-25",
+  "vefat_tarihi": "1999-07-29",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Donetsk",
+  "vefat_yeri": "Kozyn",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q488006",
+  "sitelink": 120,
+  "fotograf": {
+   "dosya": "Anatoliy Solovianenko - Soviet Life, October 1984.jpg",
+   "lisans": "Public domain",
+   "yazar": "Published by the Embassy of the Union of Soviet Socialist Republics to the United States of America - photographer uncredited",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anatoliy_Solovianenko_-_Soviet_Life%2C_October_1984.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anatoliy_Solovianenko_-_Soviet_Life%2C_October_1984.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sovyetler Birliği Halk Sanatçısı, Ukrayna Kahramanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dorothy Hodgkin",
+  "dogum_tarihi": "1910-05-12",
+  "vefat_tarihi": "1994-07-29",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Kahire",
+  "vefat_yeri": "Ilmington",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q7487",
+  "sitelink": 106,
+  "fotograf": {
+   "dosya": "Professor Dorothy Hodgkin.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "University of Bristol",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Professor_Dorothy_Hodgkin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Professor_Dorothy_Hodgkin.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Luis Buñuel",
+  "dogum_tarihi": "1900-02-22",
+  "vefat_tarihi": "1983-07-29",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Calanda",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": "Tolocha",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q51545",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Luis Buñuel.JPG",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis_Bu%C3%B1uel.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Luis_Bu%C3%B1uel.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Cannes Film Festivali En İyi Yönetmen Ödülü, Altın Palmiye. Önemli eserleri: “Altın Çağ”, “Burjuvazinin Gizli Çekiciliği”, “El Ángel Exterminador”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Emperor Meiji",
+  "dogum_tarihi": "1852-11-03",
+  "vefat_tarihi": "1912-07-30",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Site of the Nakayama Residence",
+  "vefat_yeri": "Meiji Palace",
+  "defin_yeri": "Fushimi Momoyama no Misasagi",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q174231",
+  "sitelink": 95,
+  "fotograf": {
+   "dosya": "Meiji Emperor.jpg",
+   "lisans": "Public domain",
+   "yazar": "Uchida Kuichi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meiji_Emperor.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meiji_Emperor.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kutsal Hazine Nişanı, Altın Uçurtma Nişanı. Görev: Japonya İmparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VIII. Urbanus",
+  "dogum_tarihi": "1568-04-15",
+  "vefat_tarihi": "1644-07-29",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Firenze",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q131579",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "Pietro da Cortona - Portrait of Urban VIII (ca. 1624-1627) - Google Art Project - edited.jpg",
+   "lisans": "Public domain",
+   "yazar": "Pietro da Cortona",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pietro_da_Cortona_-_Portrait_of_Urban_VIII_%28ca._1624-1627%29_-_Google_Art_Project_-_edited.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pietro_da_Cortona_-_Portrait_of_Urban_VIII_%28ca._1624-1627%29_-_Google_Art_Project_-_edited.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, Diosezan piskopos",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Herbert Marcuse",
+  "dogum_tarihi": "1898-07-19",
+  "vefat_tarihi": "1979-07-29",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Berlin",
+  "vefat_yeri": "Starnberg",
+  "defin_yeri": "Dorotheenstadt Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60030",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Herbert Marcuse in Newton, Massachusetts 1955.jpeg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Copyright holder: Marcuse family, represented by Harold Marcuse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert_Marcuse_in_Newton%2C_Massachusetts_1955.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Herbert_Marcuse_in_Newton%2C_Massachusetts_1955.jpeg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Eros ve Uygarlik”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "III. Selim",
+  "dogum_tarihi": "1761-12-24",
+  "vefat_tarihi": "1808-07-29",
+  "vefat_yasi": 46,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": "III. Mustafa Türbesi",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q199633",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Konstantin Kapidagli 002.jpg",
+   "lisans": "Public domain",
+   "yazar": "Konstantin Kapıdağlı",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Konstantin_Kapidagli_002.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Konstantin_Kapidagli_002.jpg"
+  },
+  "meslek": [
+   "Sultan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "I. Umberto",
+  "dogum_tarihi": "1844-03-14",
+  "vefat_tarihi": "1900-07-29",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Torino",
+  "vefat_yeri": "Monza",
+  "defin_yeri": "Panteon",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q153688",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Fratelli Vianelli (Giuseppe e Luigi, flor. 1860-1890 ca) - VE - Umberto I di Savoia 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fratelli Vianelli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fratelli_Vianelli_%28Giuseppe_e_Luigi%2C_flor._1860-1890_ca%29_-_VE_-_Umberto_I_di_Savoia_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fratelli_Vianelli_%28Giuseppe_e_Luigi%2C_flor._1860-1890_ca%29_-_VE_-_Umberto_I_di_Savoia_1.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "II. Theodosius",
+  "dogum_tarihi": "0401-04-11",
+  "vefat_tarihi": "0450-07-29",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": "Konstantinopolis",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q160353",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Theodosius II Louvre Ma1036.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodosius_II_Louvre_Ma1036.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Theodosius_II_Louvre_Ma1036.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Bizans imparatoru, Roma imparatoru",
+  "hassas": false,
+  "turk": false
+ }
+]

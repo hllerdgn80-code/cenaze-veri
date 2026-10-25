@@ -1,0 +1,325 @@
+[
+ {
+  "ad": "Kâzım Koyuncu",
+  "dogum_tarihi": "1971-11-07",
+  "vefat_tarihi": "2005-06-25",
+  "vefat_yasi": 33,
+  "dogum_yeri": "Hopa",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q735539",
+  "sitelink": 24,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Arif Mardin",
+  "dogum_tarihi": "1932-03-15",
+  "vefat_tarihi": "2006-06-25",
+  "vefat_yasi": 74,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q660545",
+  "sitelink": 20,
+  "fotograf": {
+   "dosya": "Arif Mardin (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Alan Light",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arif_Mardin_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arif_Mardin_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Trustees Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Turhan Baytop",
+  "dogum_tarihi": "1920-06-20",
+  "vefat_tarihi": "2002-06-25",
+  "vefat_yasi": 82,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q527099",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Michael Jackson",
+  "dogum_tarihi": "1958-08-29",
+  "vefat_tarihi": "2009-06-25",
+  "vefat_yasi": 50,
+  "dogum_yeri": "St. Mary's Mercy Hospital",
+  "vefat_yeri": "UCLA Ronald Reagan Medical Center",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q2831",
+  "sitelink": 322,
+  "fotograf": {
+   "dosya": "Michael Jackson 1983 (3x4 cropped) (contrast).jpg",
+   "lisans": "Public domain",
+   "yazar": "Matthew Rolston; Distributed by Epic Records",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Yılın Kaydı Grammy Ödülü, En İyi Erkek R&B Vokal Performansı Grammy Ödülü. Önemli eserleri: “Bad”, “Thriller”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Jacques-Yves Cousteau",
+  "dogum_tarihi": "1910-06-11",
+  "vefat_tarihi": "1997-06-25",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Saint-André-de-Cubzac",
+  "vefat_yeri": "17. arrondissement",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q83233",
+  "sitelink": 101,
+  "fotograf": {
+   "dosya": "Cousteau1972 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Hans Peters for Anefo .",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cousteau1972_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cousteau1972_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Belgesel Film Akademi Ödülü. Aday olduğu ödül: En İyi Belgesel Film Akademi Ödülü, En İyi Kısa Film Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Max Stirner",
+  "dogum_tarihi": "1806-10-25",
+  "vefat_tarihi": "1856-06-26",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Bayreuth",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Friedhof II der Sophiengemeinde Berlin",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76725",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Friedrich Engels - Die Freien (1842)-1.1 V01-1.2 raw RGASPI (Stirner cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Friedrich Engels",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_Engels_-_Die_Freien_%281842%29-1.1_V01-1.2_raw_RGASPI_%28Stirner_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_-_Die_Freien_%281842%29-1.1_V01-1.2_raw_RGASPI_%28Stirner_cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Biricik ve Mülkiyeti”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernest T.S. Walton",
+  "dogum_tarihi": "1903-10-06",
+  "vefat_tarihi": "1995-06-25",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Abbeyside",
+  "vefat_yeri": "Belfast",
+  "defin_yeri": "Deans Grange Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İrlanda",
+  "wikidata_id": "Q183631",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Ernest Walton.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ernest_Walton.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ernest_Walton.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Farrah Fawcett",
+  "dogum_tarihi": "1947-02-02",
+  "vefat_tarihi": "2009-06-25",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Corpus Christi",
+  "vefat_yeri": "Santa Monica",
+  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102341",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Farrah Fawcett 1977.JPG",
+   "lisans": "Public domain",
+   "yazar": "ABC Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Farrah_Fawcett_1977.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Farrah_Fawcett_1977.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Charlie'nin Melekleri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georg Philipp Telemann",
+  "dogum_tarihi": "1681-03-24",
+  "vefat_tarihi": "1767-06-25",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Magdeburg",
+  "vefat_yeri": "Hamburg",
+  "defin_yeri": "Hamburg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q75854",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Telemann.jpg",
+   "lisans": "Public domain",
+   "yazar": "Valentin Daniel Preisler",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Telemann.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Telemann.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Pimpinone”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Abdülmecid",
+  "dogum_tarihi": "1823-04-25",
+  "vefat_tarihi": "1861-06-25",
+  "vefat_yasi": 38,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Yavuz Selim Camii",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q174772",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Sultan Abdülmecid - Google Art Project.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sultan_Abd%C3%BClmecid_-_Google_Art_Project.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sultan_Abd%C3%BClmecid_-_Google_Art_Project.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kılıçlı Mecidi Nişanı, Aziz Andreas Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John B. Goodenough",
+  "dogum_tarihi": "1922-07-25",
+  "vefat_tarihi": "2023-06-25",
+  "vefat_yasi": 100,
+  "dogum_yeri": "Jena",
+  "vefat_yeri": "Austin",
+  "defin_yeri": "Austin Memorial Park Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q906529",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Nobel 9 Dec 2019 029 copy (49204051647) (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "US Embassy Sweden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nobel_9_Dec_2019_029_copy_%2849204051647%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nobel_9_Dec_2019_029_copy_%2849204051647%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Armstrong Custer",
+  "dogum_tarihi": "1839-12-05",
+  "vefat_tarihi": "1876-06-25",
+  "vefat_yasi": 36,
+  "dogum_yeri": "New Rumley",
+  "vefat_yeri": "Big Horn ilçesi",
+  "defin_yeri": "West Point Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q188205",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "G a custer.jpg",
+   "lisans": "Public domain",
+   "yazar": "George L. Andrews",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G_a_custer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:G_a_custer.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Başkomutan",
+  "hassas": false,
+  "turk": false
+ }
+]

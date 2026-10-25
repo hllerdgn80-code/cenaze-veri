@@ -1,0 +1,331 @@
+[
+ {
+  "ad": "Şerif Gören",
+  "dogum_tarihi": "1944-07-01",
+  "vefat_tarihi": "2024-12-08",
+  "vefat_yasi": 80,
+  "dogum_yeri": "İskeçe",
+  "vefat_yeri": "Mersin",
+  "defin_yeri": "Kozlu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q388991",
+  "sitelink": 25,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal En İyi Yönetmen Ödülü, Altın Portakal Yaşam Boyu Onur Ödülü. Önemli eserleri: “Yol”",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Şehzade Mehmed Abid",
+  "dogum_tarihi": "1904-09-17",
+  "vefat_tarihi": "1973-12-08",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Yıldız Sarayı",
+  "vefat_yeri": "Beyrut",
+  "defin_yeri": "Şam Süleymaniye Külliyesi Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Suriye",
+  "wikidata_id": "Q6066083",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "John Lennon",
+  "dogum_tarihi": "1940-10-09",
+  "vefat_tarihi": "1980-12-08",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Liverpool Maternity Hospital",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Central Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q1203",
+  "sitelink": 185,
+  "fotograf": {
+   "dosya": "John Lennon, 1974 (cropped).jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Tony Barnard, Los Angeles Times",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Lennon%2C_1974_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Lennon%2C_1974_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, En İyi Film Müziği Akademi Ödülü. Önemli eserleri: “Imagine”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Herbert Spencer",
+  "dogum_tarihi": "1820-04-27",
+  "vefat_tarihi": "1903-12-08",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Derby",
+  "vefat_yeri": "Brighton",
+  "defin_yeri": "Highgate Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q144535",
+  "sitelink": 120,
+  "fotograf": {
+   "dosya": "Herbert Spencer.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert_Spencer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Herbert_Spencer.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü, Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Boole",
+  "dogum_tarihi": "1815-11-02",
+  "vefat_tarihi": "1864-12-08",
+  "vefat_yasi": 49,
+  "dogum_yeri": "Lincoln",
+  "vefat_yeri": "Ballintemple",
+  "defin_yeri": "St Michael's Church",
+  "defin_il": null,
+  "defin_ulke": "İrlanda",
+  "wikidata_id": "Q134661",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "Photo of George Boole standing.png",
+   "lisans": "Public domain",
+   "yazar": "Samuel Prout Newcombe (c1824-1912)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_George_Boole_standing.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_George_Boole_standing.png"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi. Önemli eserleri: “Boole fonksiyonu”, “Boole eşitsizliği”, “Boole cebiri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Glenn",
+  "dogum_tarihi": "1921-07-18",
+  "vefat_tarihi": "2016-12-08",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Cambridge",
+  "vefat_yeri": "The James Cancer Hospital",
+  "defin_yeri": "Arlington Ulusal Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q182642",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "John Glenn Low Res crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "U.S. Senate Historical Office",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Glenn_Low_Res_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Glenn_Low_Res_crop.jpg"
+  },
+  "meslek": [
+   "Dizi oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Hava madalyası, Kongre Altın Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yuhanna ed-Dımaşki",
+  "dogum_tarihi": "0675",
+  "vefat_tarihi": "0749-12-08",
+  "vefat_yasi": 74,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Şam",
+  "vefat_yeri": "Mar Saba Manastırı",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q51884",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Ioann Damaskin ikona.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioann_Damaskin_ikona.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ioann_Damaskin_ikona.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hermann Weyl",
+  "dogum_tarihi": "1885-11-09",
+  "vefat_tarihi": "1955-12-08",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Elmshorn",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Princeton Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q71029",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Hermann Weyl ETH-Bib Portr 00890.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "ETH Zürich",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann_Weyl_ETH-Bib_Portr_00890.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hermann_Weyl_ETH-Bib_Portr_00890.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Peter-Weyl teoremi”, “Weyl denklemi”, “Weyl-Schouten teoremi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Oscar",
+  "dogum_tarihi": "1829-01-21",
+  "vefat_tarihi": "1907-12-08",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Stockholm",
+  "vefat_yeri": "Stockholm",
+  "defin_yeri": "Riddarholm Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q52924",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Porträtt av Oscar II i amiralsuniform. 1900-1907. Foto Lars Larsson.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lars Larsson",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4tt_av_Oscar_II_i_amiralsuniform._1900-1907._Foto_Lars_Larsson.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı, Kutup Yıldızı Nişanı. Görev: İsveç Kraliyet Ailesi, Norveç kralı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antonio Carlos Jobim",
+  "dogum_tarihi": "1927-01-25",
+  "vefat_tarihi": "1994-12-08",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Rio de Janeiro",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Rio de Janeiro",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q200131",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Antônio Carlos Jobim (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown ; Restoration by User:PerfectSoundWhatever",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ant%C3%B4nio_Carlos_Jobim_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ant%C3%B4nio_Carlos_Jobim_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü. Aday olduğu ödül: En İyi Yeni Sanatçı Grammy Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Thomas de Quincey",
+  "dogum_tarihi": "1785-08-15",
+  "vefat_tarihi": "1859-12-08",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Manchester",
+  "vefat_yeri": "Edinburgh",
+  "defin_yeri": "St Cuthbert's Church, Edinburgh",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q317160",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "John Watson Gordon (1788-1864) - Thomas de Quincey (1785–1859), Author and Essayist - PG 553 - National Galleries of Scotland.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Watson Gordon",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Watson_Gordon_%281788-1864%29_-_Thomas_de_Quincey_%281785%E2%80%931859%29%2C_Author_and_Essayist_-_PG_553_-_National_Galleries_of_Scotland.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Watson_Gordon_%281788-1864%29_-_Thomas_de_Quincey_%281785%E2%80%931859%29%2C_Author_and_Essayist_-_PG_553_-_National_Galleries_of_Scotland.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Cornforth",
+  "dogum_tarihi": "1917-09-07",
+  "vefat_tarihi": "2013-12-08",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Sidney",
+  "vefat_yeri": "Brighton",
+  "defin_yeri": "Clayton Wood Natural Burial Ground",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q135154",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "John Cornforth 1975.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Associated Press)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Cornforth_1975.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Cornforth_1975.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ }
+]

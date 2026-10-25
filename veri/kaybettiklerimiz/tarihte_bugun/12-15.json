@@ -1,0 +1,336 @@
+[
+ {
+  "ad": "Ali Şen",
+  "dogum_tarihi": "1918",
+  "vefat_tarihi": "1989-12-15",
+  "vefat_yasi": 71,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Adana",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q343040",
+  "sitelink": 10,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Walt Disney",
+  "dogum_tarihi": "1901-12-05",
+  "vefat_tarihi": "1966-12-15",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Burbank",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q8704",
+  "sitelink": 218,
+  "fotograf": {
+   "dosya": "Walt Disney 1946.JPG",
+   "lisans": "Public domain",
+   "yazar": "Boy Scouts of America",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walt_Disney_1946.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Brezilya Ulusal Güney Haç Nişanı. Önemli eserleri: “Miki Fare”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Johannes Vermeer",
+  "dogum_tarihi": "1632-10",
+  "vefat_tarihi": "1675-12-15",
+  "vefat_yasi": 43,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Delft",
+  "vefat_yeri": "Delft",
+  "defin_yeri": "Oude Kerk",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q41264",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Cropped version of Jan Vermeer van Delft 002.jpg",
+   "lisans": "Public domain",
+   "yazar": "Johannes Vermeer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Süt Boşaltan Kadın”, “Delft Manzarası”, “İnci Küpeli Kız”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Biruni",
+  "dogum_tarihi": "0973-09-09",
+  "vefat_tarihi": "1048-12-15",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Kath",
+  "vefat_yeri": "Gazni",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q11826",
+  "sitelink": 111,
+  "fotograf": {
+   "dosya": "Al-Biruni Portrait.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Michel Bakni",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Biruni_Portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Al-Biruni_Portrait.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “el-Asarü'l-Bakıye”, “et-Tefhim”, “el-Cemahir”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wolfgang Pauli",
+  "dogum_tarihi": "1900-04-25",
+  "vefat_tarihi": "1958-12-15",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Zollikon cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q65989",
+  "sitelink": 105,
+  "fotograf": {
+   "dosya": "ETH-BIB-Pauli, Wolfgang.tif",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Bettina Katzenstein",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ETH-BIB-Pauli%2C_Wolfgang.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Pauli%2C_Wolfgang.tif"
+  },
+  "meslek": [
+   "Teorik fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oturan Boğa",
+  "dogum_tarihi": "1831",
+  "vefat_tarihi": "1890-12-15",
+  "vefat_yasi": 59,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Grand River",
+  "vefat_yeri": "Dakota Territory",
+  "defin_yeri": "Sitting Bull Monument",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q43527",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Sitting Bull.jpg",
+   "lisans": "Public domain",
+   "yazar": "David Francis Barry",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitting_Bull.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sitting_Bull.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kabile reisi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Gustave Le Bon",
+  "dogum_tarihi": "1841-05-07",
+  "vefat_tarihi": "1931-12-13",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Nogent-le-Rotrou",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Père Lachaise Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q294572",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Gustave Le Bon about 1900.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Arnopeters",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Le_Bon_about_1900.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gustave_Le_Bon_about_1900.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: yönetici. Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Vallabhbhai Chaverbhai Patel",
+  "dogum_tarihi": "1875-10-31",
+  "vefat_tarihi": "1950-12-15",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Nadiad",
+  "vefat_yeri": "Mumbai",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q9455",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Sardar patel (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Government of India work",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sardar_patel_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sardar_patel_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Christopher Hitchens",
+  "dogum_tarihi": "1949-04-13",
+  "vefat_tarihi": "2011-12-15",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Portsmouth",
+  "vefat_yeri": "Houston",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q49081",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Christopher Hitchens crop.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "ensceptico",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christopher_Hitchens_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Christopher_Hitchens_crop.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lennon Ono Barış Ödülü. Önemli eserleri: “Hitchens'ın usturası”, “Tanrı Büyük Değildir”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joan Fontaine",
+  "dogum_tarihi": "1917-10-22",
+  "vefat_tarihi": "2013-12-15",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Tokyo",
+  "vefat_yeri": "Carmel-by-the-Sea",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q95076",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Joan Fontaine by A. L. Whitey Schafer.jpg",
+   "lisans": "Public domain",
+   "yazar": "Whitey Schafer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan_Fontaine_by_A._L._Whitey_Schafer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joan_Fontaine_by_A._L._Whitey_Schafer.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "François II",
+  "dogum_tarihi": "1544-01-29",
+  "vefat_tarihi": "1560-12-15",
+  "vefat_yasi": 16,
+  "dogum_yeri": "Fontainebleau",
+  "vefat_yeri": "Orléans",
+  "defin_yeri": "Saint-Denis Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q132548",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Portrait du roi de France François II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to François Clouet",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_du_roi_de_France_Fran%C3%A7ois_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_du_roi_de_France_Fran%C3%A7ois_II.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alp Arslan",
+  "dogum_tarihi": "1029-01-20",
+  "vefat_tarihi": "1072-12-15",
+  "vefat_yasi": 43,
+  "dogum_yeri": null,
+  "vefat_yeri": "Barzam Fortress",
+  "defin_yeri": "Merv",
+  "defin_il": null,
+  "defin_ulke": "Türkmenistan",
+  "wikidata_id": "Q200193",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Alp Arslan on throne Majma al-Tawarikh by Hafiz Abru (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "Hafiz-i Abru",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alp_Arslan_on_throne_Majma_al-Tawarikh_by_Hafiz_Abru_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alp_Arslan_on_throne_Majma_al-Tawarikh_by_Hafiz_Abru_%28cropped%29.png"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Büyük Selçuklu İmparatorluğu sultanı",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,283 @@
+[
+ {
+  "ad": "İsa",
+  "dogum_tarihi": "-0001",
+  "vefat_tarihi": "0033-04-01",
+  "vefat_yasi": 33,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beytüllahim",
+  "vefat_yeri": "Golgota",
+  "defin_yeri": "Kutsal Kabir Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İsrail",
+  "wikidata_id": "Q302",
+  "sitelink": 346,
+  "fotograf": null,
+  "meslek": [
+   "Dini lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İsa'nın mucizeleri”, “İsa'nın benzetmesi”. Görev: peygamber",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Chiang Kai-shek",
+  "dogum_tarihi": "1887-10-31",
+  "vefat_tarihi": "1975-04-05",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Xikou",
+  "vefat_yeri": "Taipei",
+  "defin_yeri": "Cihu Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Tayvan",
+  "wikidata_id": "Q16574",
+  "sitelink": 138,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Üstün Hizmet Madalyası, Nişan-ı Pakistan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kurt Cobain",
+  "dogum_tarihi": "1967-02-20",
+  "vefat_tarihi": "1994-04-05",
+  "vefat_yasi": 27,
+  "dogum_yeri": "Abardeen",
+  "vefat_yeri": "Seattle",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q8446",
+  "sitelink": 129,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Smells Like Teen Spirit”, “Nevermind”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Saul Bellow",
+  "dogum_tarihi": "1915-06-10",
+  "vefat_tarihi": "2005-04-05",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Lachine",
+  "vefat_yeri": "Brookline",
+  "defin_yeri": "Morningside Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q83059",
+  "sitelink": 120,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Douglas MacArthur",
+  "dogum_tarihi": "1880-01-26",
+  "vefat_tarihi": "1964-04-05",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Little Rock",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "MacArthur Memorial",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q127417",
+  "sitelink": 113,
+  "fotograf": null,
+  "meslek": [
+   "Subay"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Hava madalyası, Üstün Hizmet Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ambrosius",
+  "dogum_tarihi": "0339",
+  "vefat_tarihi": "0397-04-05",
+  "vefat_yasi": 58,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Augusta Treverorum",
+  "vefat_yeri": "Mediolanum",
+  "defin_yeri": "Basilica of Sant'Ambrogio",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q43689",
+  "sitelink": 98,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Piskopos, Roma valisi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Allen Ginsberg",
+  "dogum_tarihi": "1926-06-03",
+  "vefat_tarihi": "1997-04-05",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "East Village",
+  "defin_yeri": "BNai Israel Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q6711",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kitap Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charlton Heston",
+  "dogum_tarihi": "1923-10-04",
+  "vefat_tarihi": "2008-04-05",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Evanston",
+  "vefat_yeri": "Beverly Hills",
+  "defin_yeri": "Kaliforniya",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q80739",
+  "sitelink": 93,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Theatre World Award",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georges Jacques Danton",
+  "dogum_tarihi": "1759-10-26",
+  "vefat_tarihi": "1794-04-05",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Arcis-sur-Aube",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Errancis Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q184623",
+  "sitelink": 92,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Howard Hughes",
+  "dogum_tarihi": "1905-12-24",
+  "vefat_tarihi": "1976-04-05",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Houston",
+  "vefat_yeri": "Houston",
+  "defin_yeri": "Glenwood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q189081",
+  "sitelink": 76,
+  "fotograf": null,
+  "meslek": [
+   "Film yönetmeni"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sydney Brenner",
+  "dogum_tarihi": "1927-01-13",
+  "vefat_tarihi": "2019-04-05",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Germiston",
+  "vefat_yeri": "Singapur",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q234463",
+  "sitelink": 71,
+  "fotograf": null,
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Baruch Samuel Blumberg",
+  "dogum_tarihi": "1925-07-28",
+  "vefat_tarihi": "2011-04-05",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Mountain View",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q105830",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Baruch Samuel Blumberg by Tom Trower (NASA) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Tom Trower (NASA)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baruch_Samuel_Blumberg_by_Tom_Trower_%28NASA%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Baruch_Samuel_Blumberg_by_Tom_Trower_%28NASA%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: fahri doktora",
+  "hassas": false,
+  "turk": false
+ }
+]

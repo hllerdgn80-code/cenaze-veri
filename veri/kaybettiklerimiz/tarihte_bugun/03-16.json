@@ -1,0 +1,339 @@
+[
+ {
+  "ad": "Marcus Aurelius",
+  "dogum_tarihi": "0121-04-25",
+  "vefat_tarihi": "0180-03-16",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Vindobona",
+  "defin_yeri": "Sant'Angelo Kalesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1430",
+  "sitelink": 176,
+  "fotograf": {
+   "dosya": "Marcus Aurelius Louvre MR561 n02.jpg",
+   "lisans": "CC BY 2.5",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcus_Aurelius_Louvre_MR561_n02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kendime Düşünceler”. Görev: quaestor, Roma imparatoru",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Selma Lagerlöf",
+  "dogum_tarihi": "1858-11-20",
+  "vefat_tarihi": "1940-03-16",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Östra Ämtervik church parish",
+  "vefat_yeri": "Östra Ämtervik church parish",
+  "defin_yeri": "Östra Ämtervik cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q44519",
+  "sitelink": 155,
+  "fotograf": {
+   "dosya": "Selma Lagerlöf.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Selma_Lagerl%C3%B6f.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Selma_Lagerl%C3%B6f.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Odoacer",
+  "dogum_tarihi": "0433",
+  "vefat_tarihi": "0493-03-16",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Pannonia Prima",
+  "vefat_yeri": "Ravenna",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q103333",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Coin of Odoacer at the British Museum (obverse).png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "British Museum (photo)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Coin_of_Odoacer_at_the_British_Museum_%28obverse%29.png"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Charles Albert Gobat",
+  "dogum_tarihi": "1843-05-21",
+  "vefat_tarihi": "1914-03-16",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Tramelan",
+  "vefat_yeri": "Bern",
+  "defin_yeri": "Bremgarten cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q179458",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Charles Albert Gobat2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Albert_Gobat2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Albert_Gobat2.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Austen Chamberlain",
+  "dogum_tarihi": "1863-10-16",
+  "vefat_tarihi": "1937-03-16",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Birmingham",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "East Finchley Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q188999",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "1930 Austen Chamberlain.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Georges Chevalier",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1930_Austen_Chamberlain.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1930_Austen_Chamberlain.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John James Rickard Macleod",
+  "dogum_tarihi": "1876-09-06",
+  "vefat_tarihi": "1935-03-16",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Clunie",
+  "vefat_yeri": "Aberdeen",
+  "defin_yeri": "Allenvale Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q232024",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "J.J.R. Macleod ca. 1928.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J.J.R._Macleod_ca._1928.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:J.J.R._Macleod_ca._1928.png"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Constantin Brâncu»ôi",
+  "dogum_tarihi": "1876-02-19",
+  "vefat_tarihi": "1957-03-16",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Hobița",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q153048",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Edward Steichen - Brancusi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Edward Steichen",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Steichen_-_Brancusi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Brancusi.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Miguel Primo de Rivera",
+  "dogum_tarihi": "1870-01-08",
+  "vefat_tarihi": "1930-03-16",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Jerez de la Frontera",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Iglesia-convento de la Merced",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q192894",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Miguel Primo de Rivera, Kaulak (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Kaulak",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Finlandiya Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giovanni Battista Pergolesi",
+  "dogum_tarihi": "1710-01-04",
+  "vefat_tarihi": "1736-03-16",
+  "vefat_yasi": 26,
+  "dogum_yeri": "Jesi",
+  "vefat_yeri": "Pozzuoli",
+  "defin_yeri": "Pozzuoli Cathedral",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q185312",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Giovanni Battista Pergolesi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Domenico Antonio Vaccaro",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni_Battista_Pergolesi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Pergolesi.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Derek Barton",
+  "dogum_tarihi": "1918-09-08",
+  "vefat_tarihi": "1998-03-16",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Gravesend",
+  "vefat_yeri": "College Station",
+  "defin_yeri": "Texas A&M University",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102419",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Derek-Harold-Richard-Barton.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Portrait Gallery",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Derek-Harold-Richard-Barton.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Derek-Harold-Richard-Barton.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jean Monnet",
+  "dogum_tarihi": "1888-11-09",
+  "vefat_tarihi": "1979-03-16",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Cognac",
+  "vefat_yeri": "The Jean Monnet House",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q159700",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Jean Monnet.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author (Keystone France)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Monnet.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Monnet.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Erasmus Ödülü, Başkanlık Özgürlük Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aaron Nimzoviç",
+  "dogum_tarihi": "1886-11-07",
+  "vefat_tarihi": "1935-03-16",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Riga",
+  "vefat_yeri": "Kopenhag",
+  "defin_yeri": "Bispebjerg Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Danimarka",
+  "wikidata_id": "Q295114",
+  "sitelink": 51,
+  "fotograf": {
+   "dosya": "Aron Nimzowitsch.jpg",
+   "lisans": "Public domain",
+   "yazar": "Not mentioned",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aron_Nimzowitsch.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aron_Nimzowitsch.jpg"
+  },
+  "meslek": [
+   "Satranç oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

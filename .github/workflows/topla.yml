@@ -1,0 +1,306 @@
+name: Cenaze ilanlarini topla
+
+on:
+  schedule:
+    - cron: "47 3-18 * * *"   # 14.10.2026: SAATLIK (TR 06:47-21:47). GitHub zamanlanmis isleri atliyor: 8 tur/gun planlandi ama ~2-3 gerceklesti (veri 8,7 saat bayatladi); sik zamanlama + concurrency (en cok 1 calisan + 1 bekleyen) + sunucu bekcisi (deploy/bulut-bekci)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: topla
+  cancel-in-progress: false
+
+env:
+  CENAZE_HIZLI: "1"
+  TZ: Europe/Istanbul
+  CENAZE_KOPRU: ${{ secrets.CENAZE_KOPRU }}
+  CENAZE_KOPRU_ANAHTAR: ${{ secrets.CENAZE_KOPRU_ANAHTAR }}
+  AILE_WORKER_URL: ${{ vars.AILE_WORKER_URL }}
+  PANEL_ANAHTARI: ${{ secrets.PANEL_ANAHTARI }}   # gorevli_al.py gozetim capraz kontrolu (15.10.2026)
+
+jobs:
+  oku:
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        grup: [1, 2, 3, 4]
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY }}
+          yayin-sparse: |
+            uygulama/assets/veri
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Onceki IC veri (biriktirme icin) GitHub onbelleginden gelir; onbellek herkese acik DEGILDIR (08.10.2026: veri.tar.gz artik yayinlanmaz)
+      - name: Onceki ic veriyi onbellekten geri yukle
+        id: onbellek
+        uses: actions/cache/restore@v4
+        with:
+          path: veri
+          key: veri-ic-${{ github.run_id }}
+          restore-keys: veri-ic-
+      - name: Onbellek yoksa eski yayin paketini dene (yalniz gecis icin)
+        if: steps.onbellek.outputs.cache-matched-key == ''
+        run: |
+          mkdir -p veri
+          URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
+          if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri (gecis paketi) yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+      - name: Okuyuculari calistir (grup ${{ matrix.grup }}/4)
+        run: |
+          python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4
+          python3 okuyucu/hepsi.py --grup ${{ matrix.grup }}/4 --sadece-grubu-birak
+      # 25.10.2026 KAYNAK GIZLEME: acik depoda artifact'lar giris yapmis HERKES tarafindan indirilebilir; ic veri (kaynak_ad, kaynak_url, ham)
+      # bu yuzden SIFRELENEREK aktarilir (AES-256, parola yalniz Actions secret'i ARTIFACT_PAROLA).
+      - name: Grup verisini sifrele
+        env:
+          ART_PAROLA: ${{ secrets.ARTIFACT_PAROLA }}
+        run: |
+          [ -n "$ART_PAROLA" ] || { echo "::error::ARTIFACT_PAROLA secret'i yok"; exit 1; }
+          tar czf - veri | openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -salt -pass env:ART_PAROLA -out veri-grup.tgz.enc
+          ls -la veri-grup.tgz.enc
+      - uses: actions/upload-artifact@v4
+        with:
+          name: veri-grup-${{ matrix.grup }}
+          path: veri-grup.tgz.enc
+          retention-days: 1
+
+  # 16.10.2026 H76: DEPO YOLU KILIDI — satir sonu/':'/200+ karakter/30+ derinlik yolu depodan temizler (ayrinti araclar/yol_kilidi.sh). Kosuyu kirmaz.
+  yol-kilidi:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    continue-on-error: true
+    permissions:
+      contents: read
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY_YAZ }}
+          yayin: "0"
+      - name: Bozuk depo yollarini denetle
+        run: bash araclar/yol_kilidi.sh || echo "::warning::yol kilidi hata verdi"
+
+  birlestir:
+    needs: oku
+    if: ${{ always() && needs.oku.result != 'cancelled' }}
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
+    timeout-minutes: 30
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    permissions:            # 16.10.2026: Mac'e devir isaret dosyasi (okuyucu/kaynaklar/_mac_gerekli.json) depoya yazilir; is duzeyi izin ust duzeyi ezer -> hepsi yazilir
+      contents: write
+      pages: write
+      id-token: write
+      actions: write        # 16.10.2026 H89: bosalt.yml tetikleme + durum okuma
+    environment:
+      name: github-pages
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY_YAZ }}
+          yayin-sparse: |
+            site
+            uygulama/web
+            uygulama/assets/veri
+            veri/kaybettiklerimiz
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Onceki ic veriyi onbellekten geri yukle
+        id: onbellek
+        uses: actions/cache/restore@v4
+        with:
+          path: veri
+          key: veri-ic-${{ github.run_id }}
+          restore-keys: veri-ic-
+      - name: Onceki ozeti ayir (onbellek yoksa eski yayin paketi, yalniz gecis icin)
+        run: |
+          mkdir -p veri
+          if [ -z "${{ steps.onbellek.outputs.cache-matched-key }}" ]; then
+            URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/veri.tar.gz"
+            if curl -sfL "$URL" -o onceki.tar.gz; then tar -xzf onceki.tar.gz; echo "onceki veri (gecis paketi) yuklendi"; else echo "onceki veri yok (ilk calisma)"; fi
+          fi
+          if [ -f veri/ozet.json ]; then cp veri/ozet.json onceki-ozet.json; fi
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: veri-grup-*
+          path: gruplar
+      - name: Gruplari birlestir
+        env:
+          ART_PAROLA: ${{ secrets.ARTIFACT_PAROLA }}
+        run: |
+          # 25.10.2026: grup artifact'lari sifreli gelir; coz (veri/ kok klasoru duzlestirilir)
+          [ -n "$ART_PAROLA" ] || { echo "::error::ARTIFACT_PAROLA secret'i yok"; exit 1; }
+          for g in gruplar/*/; do
+            openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -pass env:ART_PAROLA -in "$g"veri-grup.tgz.enc | tar xzf - -C "$g" --strip-components=1
+            rm -f "$g"veri-grup.tgz.enc
+          done
+          for g in gruplar/*/; do cp -r "$g". veri/; done
+          # 16.10.2026: veri-tr/ (Mac) kopyasi veri/<il>/_ulusal.json'un USTUNE yazar; kopyadan once GitHub kayitlarini sakla, sonra id'ye gore geri kat
+          rm -rf gh_ulusal; mkdir -p gh_ulusal
+          for f in veri/*/_ulusal.json; do
+            [ -f "$f" ] || continue
+            il=$(basename "$(dirname "$f")"); mkdir -p "gh_ulusal/$il"; cp "$f" "gh_ulusal/$il/_ulusal.json"
+          done
+          python3 okuyucu/hepsi.py --ozet-birlestir
+          # Turkiye'den (self-hosted runner) okunan iller: veri-tr/ klasoru depoda
+          if [ -f veri-tr/ozet-tr.json ]; then
+            if python3 - <<'PY'
+          import json, sys
+          from datetime import datetime, timezone
+          g = json.load(open("veri-tr/ozet-tr.json", encoding="utf-8")).get("guncelleme")
+          try:
+              yas = (datetime.now(timezone.utc) - datetime.fromisoformat(g).astimezone(timezone.utc)).total_seconds() / 3600
+          except Exception:
+              yas = 9999
+          print(f"veri-tr yasi: {yas:.1f} saat")
+          sys.exit(0 if yas <= 36 else 1)
+          PY
+            then
+              for d in veri-tr/*/; do cp -r "$d" veri/; done
+              python3 okuyucu/hepsi.py --ozet-ekle veri-tr/ozet-tr.json
+            else
+              echo "::warning::TR runner calismiyor (veri-tr 36 saatten eski), yurt disi okumasi kullaniliyor"
+            fi
+          else
+            echo "::warning::TR runner calismiyor (veri-tr/ozet-tr.json yok)"
+          fi
+          python3 okuyucu/kayitli_kaynak.py --ulusal-katla gh_ulusal || echo "::warning::GitHub ulusal kayitlari geri katilamadi"
+          rm -f veri/ozet.[0-9]*.json
+          # 14.10.2026 ULUSAL AKIS (vefatilanlari.com.tr): tum Turkiye en yeniden eskiye; her il/ilce icin eksik kisileri ekler (hata verirse tur durmaz)
+          python3 okuyucu/vefatilan.py || echo "::warning::ulusal akis okunamadi"
+          python3 okuyucu/sondakika.py || echo "::warning::sondakika yerel akisi okunamadi"
+          python3 okuyucu/malatyahaber.py || echo "::warning::malatya haber listesi okunamadi"
+          # 15.10.2026 KAYIT DEFTERI: okuyucu/kaynaklar/bolge-*.json satirlari (ajan isaretler, kod yazmaz); sehit_ulusal dagitimindan ONCE (ikinci dosyalar dagitilsin)
+          python3 okuyucu/kayitli_kaynak.py || echo "::warning::kayitli kaynak okuyucusu hata verdi"
+          # 16.10.2026: GitHub IP'sine engel veren satirlar okuyucu/kaynaklar/_mac_gerekli.json'a isaretlenir (Mac runner okur: topla-tr.yml '--yer mac')
+          python3 okuyucu/sehit_ulusal.py || echo "::warning::sehit duyurulari okunamadi"
+          python3 okuyucu/cenazeilanlari.py || echo "::warning::cenazeilanlari akisi okunamadi"
+          # aile ilanlari (Worker). AILE_WORKER_URL repo degiskeni/secret olarak tanimlaninca calisir; Resend + GELISTIRME=0 olmadan TANIMLANMAZ (sahte ilan riski)
+          python3 okuyucu/aile_al.py || echo "::warning::aile ilanlari okunamadi"
+          # din gorevlisi ilanlari (Worker /gorevli/*; 15.10.2026 URUN-TASLAGI §37). PANEL_ANAHTARI secret'i varsa ilk 7 gun capraz kontrolu de yapilir
+          python3 okuyucu/gorevli_al.py || echo "::warning::gorevli ilanlari okunamadi"
+          python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
+          # din gorevlisi onceligi (15.10.2026): ayni kisi iki kaynaktaysa gorevli kaydi kalir, otomatik olan cikar; bos alanlar otomatikten dolar
+          python3 okuyucu/gorevli_birlestir.py || echo "::warning::gorevli birlestirme basarisiz"
+          python3 okuyucu/yerlestirme_denetimi.py veri || echo "::warning::yerlestirme denetimi ihlal buldu (veri/yerlestirme-raporu.json)"   # 14.10.2026: il/ilce/mezarlik tutarliligi (uyari modu)
+          python3 okuyucu/kapi.py   # yayın öncesi makine denetçisi (veri/kapi.json, veri/<il>/_kapi_red.json)
+      - name: Saglik denetimi (basarisiz yapmaz)
+        run: python3 okuyucu/saglik.py onceki-ozet.json || true
+      # 15.10.2026 BOSLUK TURU: her saatlik turda bugun cenaze kaydi olmayan iller yazilir (veri/_bosluk.json; gun ici gecmis birikir, TR 10:05 turunun
+      # kaydi veri-tr/_bosluk.json'dan katilir). Dosya YAYINA GITMEZ (yayin_suz veri/ kokundeki bilinmeyen dosyayi siler); yalniz iç onbellege + gunluk artifact.
+      - name: Bosluk tespiti (basarisiz yapmaz)
+        run: python3 araclar/bosluk.py --tespit --birlestir veri-tr/_bosluk.json || echo "::warning::bosluk tespiti basarisiz"
+      - uses: actions/upload-artifact@v4
+        if: ${{ hashFiles('veri/_bosluk.json') != '' }}
+        with:
+          name: bosluk
+          path: veri/_bosluk.json
+          retention-days: 3
+      - name: Ic veriyi onbellege kaydet (sonraki tur buradan biriktirir; yayina GITMEZ)
+        uses: actions/cache/save@v4
+        with:
+          path: veri
+          key: veri-ic-${{ github.run_id }}-${{ github.run_attempt }}
+      # 16.10.2026 H89 TOPLAYICI/BOSALTICI AYRIMI: havuz kaydedildi; yayini bosalt.yml yapar (hemen tetiklenir). Bosaltici 60 dk'dir basarili
+      # degilse ya da durum okunamazsa (kendin != 0) yayini bu tur YEDEK olarak kendisi yapar. Adim dusse de cikti bos -> yedek yayin (fail-open).
+      - name: Yayini bosalticiya devret
+        id: devir
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 araclar/bosalt_devir.py
+      - name: Yayin klasorunu hazirla
+        run: |
+          # 25.10.2026: Kaybettiklerimiz verisi ACIK depoda (yayin/veri/kaybettiklerimiz); ic veriye taze kopya
+          rm -rf veri/kaybettiklerimiz
+          if [ -d yayin/veri/kaybettiklerimiz ]; then cp -r yayin/veri/kaybettiklerimiz veri/; else echo "::warning::yayin/veri/kaybettiklerimiz yok"; fi
+          mkdir -p site
+          cp -r veri site/
+          # depodaki haftalik Kaybettiklerimiz verisi (checkout'ta veri/kaybettiklerimiz) site'a girsin
+          mkdir -p site/veri/kaybettiklerimiz
+          if [ -d veri/kaybettiklerimiz ]; then cp -r veri/kaybettiklerimiz/. site/veri/kaybettiklerimiz/; fi
+          # YAYIN SUZGECI (URUN-TASLAGI §16.5, §28): yerel basin/haber kayit ve illeri, kaynak_ad/kaynak_url/ham/anne_baba cikar.
+          # Suzgec kendini denetler; sizinti kalirsa cikis kodu 1 -> is DURUR, yayin yapilmaz.
+          python3 -B okuyucu/test_yayin_suz.py || echo "::warning::yayin_suz testi gecmedi (H83)"
+          python3 okuyucu/yayin_suz.py site/veri
+          # 16.10.2026 H83 tedbiri: ic veri -> yayin kaybi ve bos il sayisi (kosuyu kirmaz)
+          python3 okuyucu/yayin_kontrol.py veri/ozet.json site/veri/ozet.json site/veri || echo "::warning::yayin kontrol hata verdi"
+          # Uygulamanin gizlilik politikasi (Play Console URL'si; alan adi alininca tasinir)
+          if [ -f uygulama/web/gizlilik.html ]; then cp uygulama/web/gizlilik.html site/kimincenazesi-gizlilik.html; fi
+          echo '<!doctype html><meta charset="utf-8"><title>Cenaze veri</title><p>Veri: <a href="veri/ozet.json">ozet.json</a> · <a href="veri/saglik.json">saglik.json</a></p>' > site/index.html
+          python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
+      # Cloudflare Pages (veri.kimincenazesi.com) — uygulamanın kalıcı veri adresi (08.10.2026; URUN-TASLAGI §16).
+      # CLOUDFLARE_API_TOKEN secret'ı yoksa adım atlanır, GitHub Pages yayını sürer (sürüm 8'e kadar ikisi birlikte).
+      - name: Cloudflare Pages'e yayimla (veri.kimincenazesi.com)
+        if: ${{ env.CF_TOKEN != '' && steps.devir.outputs.kendin != '0' }}
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ba872dc9ccbc4853f9f06378bc456ab7
+          command: pages deploy yayin/site --project-name=kimincenazesi-veri --branch=main --commit-dirty=true
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ steps.devir.outputs.kendin != '0' }}
+        id: paket
+        continue-on-error: true
+        with:
+          path: yayin/site
+      - uses: actions/deploy-pages@v4
+        id: yayin1
+        if: ${{ steps.paket.outcome == 'success' }}
+        continue-on-error: true
+      - if: ${{ steps.yayin1.outcome == 'failure' }}
+        run: sleep 90
+      - uses: actions/deploy-pages@v4
+        if: ${{ steps.yayin1.outcome == 'failure' }}
+        continue-on-error: true
+      # 16.10.2026 MAC'E DEVIR (son adim): kayitli_kaynak GitHub'da ENGEL alan satirlari okuyucu/kaynaklar/_mac_gerekli.json'a isaretledi. Yayindan SONRA, is alani
+      # temizlenip (izlenen dosyalar HEAD'e doner: autostash cakismasi olmasin) yalniz bu dosya degisince commit edilir. Basarisiz olursa kosu kirmizi olmaz.
+      # 16.10.2026 H86 GUNLUK DENETIM KAYDI: her turda deploy/denetim/<gun>.json uretilir; 18 UTC (21 TR) ve sonrasindaki turlarda depoya commit
+      # edilir (bulut onarim rutini 21:30 TR'de okur). Kosuyu kirmaz.
+      - name: Gunluk denetim kaydi (deploy/denetim)
+        if: ${{ always() }}
+        continue-on-error: true
+        run: |
+          python3 okuyucu/gunluk_denetim.py veri site/veri "$RUNNER_TEMP/denetim" || { echo "::warning::gunluk denetim uretilemedi"; exit 0; }
+          H=$(date -u +%H)
+          if [ "$H" -ge 18 ] || [ "${DENETIM_ZORLA:-0}" = "1" ]; then
+            git checkout -q -- . || true
+            mkdir -p deploy/denetim && cp "$RUNNER_TEMP"/denetim/*.json deploy/denetim/
+            ls deploy/denetim | sort | head -n -14 | sed 's#^#deploy/denetim/#' | xargs -r git rm -q --cached 2>/dev/null || true
+            if [ -n "$(git status --porcelain deploy/denetim)" ]; then
+              git config user.name "cenaze-bot"; git config user.email "cenaze-bot@users.noreply.github.com"
+              git add deploy/denetim && git commit -q -m "denetim: $(date -u +%F) gunluk kayit" && bash araclar/guvenli_push.sh
+            fi
+          else
+            echo "denetim kaydi uretildi (commit aksam turunda)"
+          fi
+      - name: Mac devir isaretlerini depoya yaz (degismediyse atlanir; basarisiz yapmaz)
+        if: ${{ always() }}
+        continue-on-error: true
+        run: |
+          f=okuyucu/kaynaklar/_mac_gerekli.json
+          [ -f "$f" ] || { echo "mac devir dosyasi yok"; exit 0; }
+          cp "$f" "$RUNNER_TEMP/mac_gerekli.json"
+          git checkout -q -- . || true
+          cp "$RUNNER_TEMP/mac_gerekli.json" "$f"
+          if [ -n "$(git status --porcelain "$f")" ]; then
+            git config user.name "cenaze-bot"
+            git config user.email "cenaze-bot@users.noreply.github.com"
+            git add "$f"
+            git commit -m "kaynaklar: Mac'e devredilen satirlar (GitHub IP engeli)"
+            bash araclar/guvenli_push.sh "${GITHUB_REF_NAME}"
+          else
+            echo "mac devir isaretleri degismedi"
+          fi

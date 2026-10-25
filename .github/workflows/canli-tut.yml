@@ -1,0 +1,44 @@
+name: Depoyu canli tut
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # Pazartesi 03:00 UTC (60 gun commitsizlikte zamanlanmis isler kapanmasin)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: canli-tut
+  cancel-in-progress: false
+
+jobs:
+  canli:
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
+    timeout-minutes: 10   # 16.10.2026: olculen sure ~6 sn
+    steps:
+      - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
+      - name: Tarih yaz ve commit et
+        run: |
+          mkdir -p durum
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > durum/son-calisma.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add durum/son-calisma.txt
+          git commit -m "canli tut: $(date -u +%F)"
+          for i in 1 2 3 4 5; do   # 25.10.2026: guvenli_push.sh gizli depoya tasindi; ayni mantik satir ici
+            git pull --rebase --autostash -X theirs origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break
+            git rebase --abort >/dev/null 2>&1 || true; sleep $((10 + RANDOM % 21))
+          done

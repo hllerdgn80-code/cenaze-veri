@@ -1,0 +1,101 @@
+name: Kod (gizli) ve yayin (acik) depolarini al
+description: >
+  25.10.2026 KAYNAK GIZLEME. Gizli depo cenaze-kod (okuyucular, araclar, ic veri) is alaninin KOKUNE, acik depo (site, uygulama,
+  veri/kaybettiklerimiz) yayin/ klasorune alinir; site ve uygulama kok icin yayin/ altina sembolik baglanir. Her iki checkout
+  3 denemelidir (15.10.2026 H69: GitHub depolama arizasi). Gizli depoya yazacak isler anahtar olarak KOD_DEPLOY_KEY_YAZ verir.
+inputs:
+  anahtar:
+    description: Gizli depo dagitim ozel anahtari (secrets.KOD_DEPLOY_KEY okuma / secrets.KOD_DEPLOY_KEY_YAZ yazma)
+    required: true
+  sparse:
+    description: Gizli depodan yalniz bu klasorler (bos = hepsi)
+    required: false
+    default: ""
+  yayin:
+    description: "'1' ise acik depo da yayin/ icine alinir"
+    required: false
+    default: "1"
+  yayin-sparse:
+    description: Acik depodan yalniz bu klasorler (bos = hepsi)
+    required: false
+    default: ""
+  token:
+    description: Acik depo belirteci
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+      id: k1
+      continue-on-error: true
+      with:
+        repository: hllerdgn80-code/cenaze-kod
+        ssh-key: ${{ inputs.anahtar }}
+        path: .
+        sparse-checkout: ${{ inputs.sparse }}
+    - if: steps.k1.outcome == 'failure'
+      shell: bash
+      run: sleep 60
+    - if: steps.k1.outcome == 'failure'
+      uses: actions/checkout@v4
+      id: k2
+      continue-on-error: true
+      with:
+        repository: hllerdgn80-code/cenaze-kod
+        ssh-key: ${{ inputs.anahtar }}
+        path: .
+        sparse-checkout: ${{ inputs.sparse }}
+    - if: steps.k1.outcome == 'failure' && steps.k2.outcome == 'failure'
+      shell: bash
+      run: sleep 120
+    - if: steps.k1.outcome == 'failure' && steps.k2.outcome == 'failure'
+      uses: actions/checkout@v4
+      with:
+        repository: hllerdgn80-code/cenaze-kod
+        ssh-key: ${{ inputs.anahtar }}
+        path: .
+        sparse-checkout: ${{ inputs.sparse }}
+    - if: inputs.yayin == '1'
+      uses: actions/checkout@v4
+      id: y1
+      continue-on-error: true
+      with:
+        repository: ${{ github.repository }}
+        token: ${{ inputs.token }}
+        path: yayin
+        sparse-checkout: ${{ inputs.yayin-sparse }}
+    - if: inputs.yayin == '1' && steps.y1.outcome == 'failure'
+      shell: bash
+      run: sleep 60
+    - if: inputs.yayin == '1' && steps.y1.outcome == 'failure'
+      uses: actions/checkout@v4
+      id: y2
+      continue-on-error: true
+      with:
+        repository: ${{ github.repository }}
+        token: ${{ inputs.token }}
+        path: yayin
+        sparse-checkout: ${{ inputs.yayin-sparse }}
+    - if: inputs.yayin == '1' && steps.y1.outcome == 'failure' && steps.y2.outcome == 'failure'
+      shell: bash
+      run: sleep 120
+    - if: inputs.yayin == '1' && steps.y1.outcome == 'failure' && steps.y2.outcome == 'failure'
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ github.repository }}
+        token: ${{ inputs.token }}
+        path: yayin
+        sparse-checkout: ${{ inputs.yayin-sparse }}
+    - name: Sembolik baglar (site, uygulama -> yayin/)
+      if: inputs.yayin == '1'
+      shell: bash
+      run: |
+        # kod, kokte site/ ve uygulama/ klasorlerini bekler; gercek yer yayin/ altindadir
+        mkdir -p yayin/site yayin/uygulama
+        ln -sfn yayin/site site
+        ln -sfn yayin/uygulama uygulama
+    - name: Gunluk maskeleme (kaynak adlari/adresleri gunlukte gizlenir)
+      shell: bash
+      run: |
+        if [ -f araclar/log_maskele.py ]; then python3 araclar/log_maskele.py || echo "maskeleme betigi hata verdi"; fi

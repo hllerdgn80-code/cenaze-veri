@@ -1,0 +1,47 @@
+{
+ "uretim_tarihi": "2026-10-25T14:29:33",
+ "kaynak": "Wikidata (CC0)",
+ "sayilar": {
+  "cumhurbaskanlari": 9,
+  "basbakanlar": 18,
+  "bakanlar": 316,
+  "siyasetciler": 500,
+  "sanatcilar": 1000,
+  "tarihte_bugun": 4388
+ },
+ "elenen_kural_basina": {
+  "a_israil_vatandasi": {
+   "adet": 35,
+   "ornek": [
+    "Yitzhak Isaac Levy",
+    "Erol Güney",
+    "Ágnes Keleti"
+   ]
+  },
+  "c_teror_orgutu": {
+   "adet": 23,
+   "ornek": [
+    "İbrahim Kaypakkaya",
+    "Mahsum Korkmaz",
+    "Dursun Karataş"
+   ]
+  },
+  "d_soykirim_savas_sucu": {
+   "adet": 59,
+   "ornek": [
+    "Leopoldo Galtieri",
+    "Hermann Hoth",
+    "Željko Ražnatović"
+   ]
+  },
+  "e_elle_liste": {
+   "adet": 18,
+   "ornek": [
+    "Mahsum Korkmaz",
+    "Dursun Karataş",
+    "Hakî Karer"
+   ]
+  }
+ },
+ "elenen_toplam": 126
+}

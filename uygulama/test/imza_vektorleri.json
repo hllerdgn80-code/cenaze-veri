@@ -1,0 +1,94 @@
+{
+ "aciklama": "Ortak imza vektörleri (Python okuyucu/test_imza.py ile üretilir, Dart uygulama/test/imza_test.dart okur). Test anahtarı üretimde KULLANILMAZ.",
+ "acik_anahtar_b64": "Zr5+Myx6RTMyvZ0Kf32wVfXF7xoGraZtmLOftoEMRzo=",
+ "simdi": 1793000000,
+ "azami_yas": 1209600,
+ "vakalar": [
+  {
+   "ad": "geçerli (kompakt, Türkçe karakter)",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.WhQbhpxL2i2QSBvBu8igHP4lWRsAAFJnEKgHdWFCmxfu2GkfTqBOsoLbswzuVl4XRjb2TmA8La_oM9jHx-VKAA\"}",
+   "beklenen": "gecerli"
+  },
+  {
+   "ad": "geçerli (girintili, sonda satır sonu)",
+   "yol": "ayarlar.json",
+   "dosya": "{\n  \"yazilar\": {\"hataVeri\": \"Yükleme hatası: Muğla, Şırnak\"},\n  \"bayraklar\": {\"a\": true}\n,\"imza\":\"1792996400.lMkWNEjBVLvtCUCo7nIEEKYFuvVdhoLW0lkUb_4k95h7Nnu9r8anGhc73kP5nuoIIi6BWAqGwqIfx8banDtCDg\"}",
+   "beklenen": "gecerli"
+  },
+  {
+   "ad": "geçerli (boş nesne)",
+   "yol": "x.json",
+   "dosya": "{\"imza\":\"1792996400.QOS9KD0NY6R-ACeNQ1NAaRADs8ZyyJ7l1Mig601IO1W7P7k3PzBmxrVLX894ogejCmw4AKSMXpNXZlVAua1DBQ\"}",
+   "beklenen": "gecerli"
+  },
+  {
+   "ad": "geçerli (gövdede imza işareti metni geçiyor)",
+   "yol": "surum.json",
+   "dosya": "{\"not\":\",\\\"imza\\\":\\\"sahte\",\"a\":1,\"imza\":\"1792996400.sRqOJUAW5NfixQ9PMXF5m0MUeZP7Lhodr19bqzo1MgLoMNBsZxjsNL6Pkq77be0g7AbnWrL36CEawKw7gf4pBw\"}",
+   "beklenen": "gecerli"
+  },
+  {
+   "ad": "imzasız",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\"}",
+   "beklenen": "imzasiz"
+  },
+  {
+   "ad": "gövde değiştirildi (Mehmet -> Mehmat)",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmat Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.WhQbhpxL2i2QSBvBu8igHP4lWRsAAFJnEKgHdWFCmxfu2GkfTqBOsoLbswzuVl4XRjb2TmA8La_oM9jHx-VKAA\"}",
+   "beklenen": "bozuk"
+  },
+  {
+   "ad": "başka yola taşındı (kopya)",
+   "yol": "veri/rize/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.WhQbhpxL2i2QSBvBu8igHP4lWRsAAFJnEKgHdWFCmxfu2GkfTqBOsoLbswzuVl4XRjb2TmA8La_oM9jHx-VKAA\"}",
+   "beklenen": "bozuk"
+  },
+  {
+   "ad": "ilan eklendi (imza sonda kalsın diye araya girilmiş)",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":2,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.WhQbhpxL2i2QSBvBu8igHP4lWRsAAFJnEKgHdWFCmxfu2GkfTqBOsoLbswzuVl4XRjb2TmA8La_oM9jHx-VKAA\"}",
+   "beklenen": "bozuk"
+  },
+  {
+   "ad": "imza 15 günlük (azami 14)",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1791704000.u_-TqrQXEYYPSc8IVWsT8yr2qn2cwNPaIXuxD0duNlJm476mPlvemQJlLGWgA3glbkxzUE7yRri-zLujAo5DBg\"}",
+   "beklenen": "eski"
+  },
+  {
+   "ad": "imza zamanı gelecekte (+2 sa)",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1793007200.FiEZ96QcGcX_KZfds9_deleAGFi9w3ycO6Z01rK9RhI9wF47NeuN9OdcUBpqoU4zBA9LKkcK6fhXh0clZia0BQ\"}",
+   "beklenen": "eski"
+  },
+  {
+   "ad": "başka içeriğin imzası yapıştırıldı",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.z4gaXE_f-nCaGZNyoFyVMBTyaj5qN1XB_SbKOIIW81U5Sq_x5ovQwr78NtBaNTC9rhlBQ-xzSfRuLZacPceXDA\"}",
+   "beklenen": "bozuk"
+  },
+  {
+   "ad": "imza değeri kırpık",
+   "yol": "veri/ordu/son7gun.json",
+   "dosya": "{\"il\":\"Ordu\",\"ilceler\":{\"Fatsa\":[{\"id\":\"a1\",\"ad_soyad\":\"Mehmet Yıldız\"}]},\"toplam\":1,\"guncelleme\":\"2026-10-25T07:00:00+03:00\",\"imza\":\"1792996400.WhQbhpxL2i2QSBvBu8igHP4lWRsAAFJnEKgHdWFCmxfu2GkfTqBOsoLbswzuVl4XRjb2TmA8La_oM9jHx-\"}",
+   "beklenen": "imzasiz"
+  },
+  {
+   "ad": "dizi dosyası + yan imza geçerli",
+   "yol": "kaybettiklerimiz/bakanlar.json",
+   "dosya": "[{\"ad\":\"Örnek Kişi\",\"t\":\"2026-10-24\"}]",
+   "beklenen": "gecerli",
+   "yan": "1792996400.EHbKVLtLTpXQ4ssV_erF-_gBhXZ6Qry8pQYQV68IduX90r2unjR_r5MlQHsEakIEyTOPQkMgDMNMGJ9J78SXCA"
+  },
+  {
+   "ad": "dizi dosyası değiştirildi",
+   "yol": "kaybettiklerimiz/bakanlar.json",
+   "dosya": "[{\"ad\":\"Sahte Kişi\",\"t\":\"2026-10-24\"}]",
+   "beklenen": "bozuk",
+   "yan": "1792996400.EHbKVLtLTpXQ4ssV_erF-_gBhXZ6Qry8pQYQV68IduX90r2unjR_r5MlQHsEakIEyTOPQkMgDMNMGJ9J78SXCA"
+  }
+ ]
+}

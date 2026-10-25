@@ -1,0 +1,327 @@
+[
+ {
+  "ad": "Turan Dursun",
+  "dogum_tarihi": "1934",
+  "vefat_tarihi": "1990-09-04",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Şarkışla",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q693103",
+  "sitelink": 18,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Din Bu”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Albert Schweitzer",
+  "dogum_tarihi": "1875-01-14",
+  "vefat_tarihi": "1965-09-04",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Kaysersberg",
+  "vefat_yeri": "Lambaréné",
+  "defin_yeri": "Albert Schweitzer Hospital",
+  "defin_il": null,
+  "defin_ulke": "Gabon",
+  "wikidata_id": "Q49325",
+  "sitelink": 122,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-D0116-0041-019, Albert Schweitzer.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-D0116-0041-019%2C_Albert_Schweitzer.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-D0116-0041-019%2C_Albert_Schweitzer.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edvard Grieg",
+  "dogum_tarihi": "1843-06-15",
+  "vefat_tarihi": "1907-09-04",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Bergen",
+  "vefat_yeri": "Bergen",
+  "defin_yeri": "Troldhaugen",
+  "defin_il": null,
+  "defin_ulke": "Norveç",
+  "wikidata_id": "Q80621",
+  "sitelink": 111,
+  "fotograf": null,
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Peer Gynt”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georges Simenon",
+  "dogum_tarihi": "1903-02-13",
+  "vefat_tarihi": "1989-09-04",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Liège",
+  "vefat_yeri": "Lozan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q128790",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "GeorgesSimenon-StudioHarcourt-1952.png",
+   "lisans": "Public domain",
+   "yazar": "Studio Harcourt.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GeorgesSimenon-StudioHarcourt-1952.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GeorgesSimenon-StudioHarcourt-1952.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “commissaire Maigret”. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joan Rivers",
+  "dogum_tarihi": "1933-06-08",
+  "vefat_tarihi": "2014-09-04",
+  "vefat_yasi": 81,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Mount Sinai Hospital",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q240933",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Joan Rivers 1.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan_Rivers_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joan_Rivers_1.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Steve Irwin",
+  "dogum_tarihi": "1962-02-22",
+  "vefat_tarihi": "2006-09-04",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Upper Ferntree Gully",
+  "vefat_yeri": "Batt Resifi",
+  "defin_yeri": "Australia Zoo",
+  "defin_il": null,
+  "defin_ulke": "Avustralya",
+  "wikidata_id": "Q126513",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Steve Irwin.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Richard Giles, aka User rich115 on Flickr",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Irwin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Steve_Irwin.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giorgio Armani",
+  "dogum_tarihi": "1934-07-11",
+  "vefat_tarihi": "2025-09-04",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Piacenza",
+  "vefat_yeri": "Milano",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q157054",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "GiorgioArmani.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Jan Schroeder",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GiorgioArmani.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı Kumandanı, İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Schuman",
+  "dogum_tarihi": "1886-06-29",
+  "vefat_tarihi": "1963-09-04",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Lüksemburg",
+  "vefat_yeri": "Scy-Chazelles",
+  "defin_yeri": "Église Saint-Quentin",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q15981",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Robert Schuman 1958.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "European Commission",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Schuman_1958.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Schuman_1958.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Erasmus Ödülü, IX. Pius Şövalyesi. Görev: Avrupa Parlamentosu milletvekilliği, Ekonomi, Finans ve Sanayi Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hans Eysenck",
+  "dogum_tarihi": "1916-03-04",
+  "vefat_tarihi": "1997-09-04",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Berlin",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q58632",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Hans Eysenck (cropped).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Sirswindon",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Eysenck_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Eysenck_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Giacinto Facchetti",
+  "dogum_tarihi": "1942-07-18",
+  "vefat_tarihi": "2006-09-04",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Treviglio",
+  "vefat_yeri": "Milano",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q219390",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "1966–67 Inter Milan - Giacinto Facchetti.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1966%E2%80%9367_Inter_Milan_-_Giacinto_Facchetti.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1966%E2%80%9367_Inter_Milan_-_Giacinto_Facchetti.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı Kumandanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ferid Murad",
+  "dogum_tarihi": "1936-09-14",
+  "vefat_tarihi": "2023-09-04",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Whiting",
+  "vefat_yeri": "Menlo Park",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q295999",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Ferid Murad.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jeff Dahl",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferid_Murad.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ferid_Murad.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Irene Dunne",
+  "dogum_tarihi": "1898-12-20",
+  "vefat_tarihi": "1990-09-04",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Louisville",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Calvary Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q230099",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Irene Dunne upshot.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Irene_Dunne_upshot.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Irene_Dunne_upshot.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kutsal Kabir Tarikatı, Kennedy Center Onur Ödülleri. Aday olduğu ödül: En İyi Kadın Oyuncu Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ }
+]

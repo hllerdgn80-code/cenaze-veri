@@ -1,0 +1,347 @@
+[
+ {
+  "ad": "James Cook",
+  "dogum_tarihi": "1728-10-27",
+  "vefat_tarihi": "1779-02-14",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Marton",
+  "vefat_yeri": "Kealakekua Bay",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q7324",
+  "sitelink": 186,
+  "fotograf": {
+   "dosya": "Captainjamescookportrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nathaniel Dance-Holland",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Captainjamescookportrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi, Copley Madalyası",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "David Hilbert",
+  "dogum_tarihi": "1862-01-23",
+  "vefat_tarihi": "1943-02-14",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Kaliningrad",
+  "vefat_yeri": "Göttingen",
+  "defin_yeri": "Göttingen City Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q41585",
+  "sitelink": 165,
+  "fotograf": {
+   "dosya": "Hilbert.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilbert.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hilbert.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Goethe Sanat ve Bilim Madalyası. Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Richard",
+  "dogum_tarihi": "1367-01-14",
+  "vefat_tarihi": "1400-02-14",
+  "vefat_yasi": 33,
+  "dogum_yeri": "Bordeaux",
+  "vefat_yeri": "Pontefract Kalesi",
+  "defin_yeri": "King's Langley Priory",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q81000",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Richard II of England large 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_II_of_England_large_02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Richard_II_of_England_large_02.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Carlos Menem",
+  "dogum_tarihi": "1930-07-02",
+  "vefat_tarihi": "2021-02-14",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Anillaco",
+  "vefat_yeri": "Buenos Aires",
+  "defin_yeri": "San Justo Islamic Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Arjantin",
+  "wikidata_id": "Q185107",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Menem con banda presidencial.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Víctor Bugge",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Menem_con_banda_presidencial.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Menem_con_banda_presidencial.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Mugunghwa Büyük Nişanı, Büyük Vytautas Liyakat Nişanı. Görev: başkan, Arjantin devlet başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Valentine",
+  "dogum_tarihi": "0175",
+  "vefat_tarihi": "0273-02-14",
+  "vefat_yasi": 98,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Terni",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192151",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "San Valentino da Terni (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Giosuè Tacconi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Valentino_da_Terni_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:San_Valentino_da_Terni_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Piskopos",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Refik Hariri",
+  "dogum_tarihi": "1944-11-01",
+  "vefat_tarihi": "2005-02-14",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Sayda",
+  "vefat_yeri": "Beyrut",
+  "defin_yeri": "Beyrut",
+  "defin_il": null,
+  "defin_ulke": "Lübnan",
+  "wikidata_id": "Q192778",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Rafic Hariri in 2001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Helene C. Stikkel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafic_Hariri_in_2001.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rafic_Hariri_in_2001.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Lübnan başbakanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Morgan Tsvangirai",
+  "dogum_tarihi": "1952-03-10",
+  "vefat_tarihi": "2018-02-14",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Gutu",
+  "vefat_yeri": "Johannesburg",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q57762",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Morgan Tsvangirai Oslo 2009 A.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Copyright © Harry Wad",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morgan_Tsvangirai_Oslo_2009_A.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Morgan_Tsvangirai_Oslo_2009_A.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Julian Huxley",
+  "dogum_tarihi": "1887-06-22",
+  "vefat_tarihi": "1975-02-14",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Golders Green Crematorium",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q243419",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Hux-Oxon-72.jpg",
+   "lisans": "Public domain",
+   "yazar": "not given in the source",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hux-Oxon-72.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hux-Oxon-72.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Darwin Madalyası, Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Marco Pantani",
+  "dogum_tarihi": "1970-01-13",
+  "vefat_tarihi": "2004-02-14",
+  "vefat_yasi": 34,
+  "dogum_yeri": "Cesena",
+  "vefat_yeri": "Rimini",
+  "defin_yeri": "Cesenatico",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q273860",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Marco Pantani.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Aldo Bolzan Scan Les Meloures at lb.wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marco_Pantani.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marco_Pantani.jpg"
+  },
+  "meslek": [],
+  "aciklama": "İtalyan bisikletçi (1970-2004)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ruud Lubbers",
+  "dogum_tarihi": "1939-05-07",
+  "vefat_tarihi": "2018-02-14",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Rotterdam",
+  "vefat_yeri": "Rotterdam",
+  "defin_yeri": "Roman Catholic cemetery St. Laurentius",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q159840",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Ruud Lubbers 1985.jpg",
+   "lisans": "CC0",
+   "yazar": "Rijksoverheid.nl",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruud_Lubbers_1985.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruud_Lubbers_1985.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hollanda başbakanı, Hollanda Temsilciler Meclisi Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrey Çikatilo",
+  "dogum_tarihi": "1936-10-16",
+  "vefat_tarihi": "1994-02-14",
+  "vefat_yasi": 57,
+  "dogum_yeri": "Yabluçne",
+  "vefat_yeri": "Novoçerkassk",
+  "defin_yeri": "Novoçerkassk",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q44496",
+  "sitelink": 49,
+  "fotograf": {
+   "dosya": "Andrei Chikatilo (1990).jpg",
+   "lisans": "Public domain",
+   "yazar": "USSR Government",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Chikatilo_%281990%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Chikatilo_%281990%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Rus-Sovyet seri katil (1936 – 1994)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "execution by shooting",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Karl Guthe Jansky",
+  "dogum_tarihi": "1905-10-22",
+  "vefat_tarihi": "1950-02-14",
+  "vefat_yasi": 44,
+  "dogum_yeri": "Norman",
+  "vefat_yeri": "Red Bank",
+  "defin_yeri": "Forest Hill Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q319212",
+  "sitelink": 44,
+  "fotograf": {
+   "dosya": "Karl Jansky.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "The original uploader was Saber1983 at English Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Jansky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Karl_Jansky.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizik Ödülü",
+  "hassas": false,
+  "turk": false
+ }
+]

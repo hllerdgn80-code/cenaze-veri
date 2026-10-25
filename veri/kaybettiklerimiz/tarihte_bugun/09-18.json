@@ -1,0 +1,330 @@
+[
+ {
+  "ad": "Mustafa Dağıstanlı",
+  "dogum_tarihi": "1931-04-11",
+  "vefat_tarihi": "2022-09-18",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Samsun",
+  "vefat_yeri": "Antalya",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1372790",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Mehdi Yaghoubi, Mustafa Dağıstanlı, Mikhail Shakhov 1956 (Dağıstanlı).jpg",
+   "lisans": "Public domain",
+   "yazar": "National Olympic Committee of Iran",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehdi_Yaghoubi%2C_Mustafa_Da%C4%9F%C4%B1stanl%C4%B1%2C_Mikhail_Shakhov_1956_%28Da%C4%9F%C4%B1stanl%C4%B1%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mehdi_Yaghoubi%2C_Mustafa_Da%C4%9F%C4%B1stanl%C4%B1%2C_Mikhail_Shakhov_1956_%28Da%C4%9F%C4%B1stanl%C4%B1%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Leonhard Euler",
+  "dogum_tarihi": "1707-04-15",
+  "vefat_tarihi": "1783-09-18",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Basel",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Lazarev Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q7604",
+  "sitelink": 191,
+  "fotograf": {
+   "dosya": "Leonhard Euler.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jakob Emanuel Handmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonhard_Euler.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Euler-Mascheroni sabiti”, “Euler doğrusu”, “Euler-Lagrange denklemi”. Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jimi Hendrix",
+  "dogum_tarihi": "1942-11-27",
+  "vefat_tarihi": "1970-09-18",
+  "vefat_yasi": 27,
+  "dogum_yeri": "Seattle",
+  "vefat_yeri": "Kensington",
+  "defin_yeri": "Greenwood Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q5928",
+  "sitelink": 136,
+  "fotograf": {
+   "dosya": "Jimi Hendrix (1967) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Original photographer unknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimi_Hendrix_%281967%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_%281967%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: UK Music Hall of Fame, Grammy Yaşam Boyu Başarı Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Dag Hammarskjöld",
+  "dogum_tarihi": "1905-07-29",
+  "vefat_tarihi": "1961-09-18",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Jönköping",
+  "vefat_yeri": "Ndola",
+  "defin_yeri": "Uppsala Old Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q1267",
+  "sitelink": 124,
+  "fotograf": {
+   "dosya": "Dag Hammarskjöld.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dag_Hammarskj%C3%B6ld.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dag_Hammarskj%C3%B6ld.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ruth Bader Ginsburg",
+  "dogum_tarihi": "1933-03-15",
+  "vefat_tarihi": "2020-09-18",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Arlington Ulusal Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q11116",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "Ruth Bader Ginsburg official SCOTUS portrait (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Steve Petteway, Collection of the Supreme Court of the United States",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Bader_Ginsburg_official_SCOTUS_portrait_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_official_SCOTUS_portrait_%28cropped%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Callistus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0222-09-18",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Maria in Trastevere Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q122376",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Fresco of Pope Callixtus I - Basilica of Saint Paul Outside the Walls (Before 1823).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author; Photo taken by Arnaldo Vescovo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fresco_of_Pope_Callixtus_I_-_Basilica_of_Saint_Paul_Outside_the_Walls_%28Before_1823%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Cockcroft",
+  "dogum_tarihi": "1897-05-27",
+  "vefat_tarihi": "1967-09-18",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Todmorden",
+  "vefat_yeri": "Churchill Koleji (Cambridge)",
+  "defin_yeri": "Ascension Parish Burial Ground",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q62897",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Cockcroft.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cockcroft.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Cockcroft.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Toyotomi Hideyoshi",
+  "dogum_tarihi": "1537-03-27",
+  "vefat_tarihi": "1598-09-18",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Nakamura",
+  "vefat_yeri": "Fushimi Kalesi",
+  "defin_yeri": "Japonya",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q187550",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Toyotomi hideyoshi face.png",
+   "lisans": "Public domain",
+   "yazar": "Kanō Mitsunobu",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyotomi_hideyoshi_face.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Toyotomi_hideyoshi_face.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Daimyo, Daijō-daijin",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "V. Stephanus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0891-09-18",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q245030",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Pope Stephen V (2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Stephen_V_%282%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Stephen_V_%282%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Smoot",
+  "dogum_tarihi": "1945-02-20",
+  "vefat_tarihi": "2025-09-18",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Yukon",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q179572",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "George smoot 06N7133a.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Nomo michael hoefner http://www.zwo5.de",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_smoot_06N7133a.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:George_smoot_06N7133a.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XV. Karl",
+  "dogum_tarihi": "1826-05-03",
+  "vefat_tarihi": "1872-09-18",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Stockholm",
+  "vefat_yeri": "Malmö",
+  "defin_yeri": "Riddarholm Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q52925",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Karl XV i mitten av 1860-talet.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph by Mathias Hansen (1823-1905)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_XV_i_mitten_av_1860-talet.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Karl_XV_i_mitten_av_1860-talet.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı. Görev: İsveç Kraliyet Ailesi, Norveç kralı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Salvatore Schillaci",
+  "dogum_tarihi": "1964-12-01",
+  "vefat_tarihi": "2024-09-18",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Palermo",
+  "vefat_yeri": "Palermo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q295307",
+  "sitelink": 68,
+  "fotograf": {
+   "dosya": "Salvatore Schillac croppedi.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Користувач:Thevolodymyr на основі оригінального зображення авторства Fcbello з commons",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvatore_Schillac_croppedi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Salvatore_Schillac_croppedi.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Adidas Altın Top",
+  "hassas": false,
+  "turk": false
+ }
+]

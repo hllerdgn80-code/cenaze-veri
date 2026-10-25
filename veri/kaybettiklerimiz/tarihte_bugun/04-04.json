@@ -1,0 +1,279 @@
+[
+ {
+  "ad": "Alparslan Türkeş",
+  "dogum_tarihi": "1917-11-25",
+  "vefat_tarihi": "1997-04-04",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Lefkoşa",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Emniyet",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q735688",
+  "sitelink": 31,
+  "fotograf": {
+   "dosya": "Young Alparslan TÜRKEŞ.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alparslan TÜRKEŞ",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young_Alparslan_T%C3%9CRKE%C5%9E.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Young_Alparslan_T%C3%9CRKE%C5%9E.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Martin Luther King",
+  "dogum_tarihi": "1929-01-15",
+  "vefat_tarihi": "1968-04-04",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Atlanta",
+  "vefat_yeri": "Memphis",
+  "defin_yeri": "Martin Luther King Jr. National Historical Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q8027",
+  "sitelink": 248,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "William Henry Harrison",
+  "dogum_tarihi": "1773-02-09",
+  "vefat_tarihi": "1841-04-04",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Charles City ilçesi",
+  "vefat_yeri": "Beyaz Saray",
+  "defin_yeri": "William Henry Harrison Tomb State Memorial",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q11869",
+  "sitelink": 140,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Karl Benz",
+  "dogum_tarihi": "1844-11-25",
+  "vefat_tarihi": "1929-04-04",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Mühlburg",
+  "vefat_yeri": "Ladenburg",
+  "defin_yeri": "Ladenburg",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q40224",
+  "sitelink": 112,
+  "fotograf": null,
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kurucu",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Roger Ebert",
+  "dogum_tarihi": "1942-06-18",
+  "vefat_tarihi": "2013-04-04",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Urbana",
+  "vefat_yeri": "Şikago",
+  "defin_yeri": "Graceland Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q212173",
+  "sitelink": 100,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pulitzer Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Zülfikar Ali Butto",
+  "dogum_tarihi": "1928-01-05",
+  "vefat_tarihi": "1979-04-04",
+  "vefat_yasi": 51,
+  "dogum_yeri": "Larkana",
+  "vefat_yeri": "Rawalpindi",
+  "defin_yeri": "Bhutto family mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Pakistan",
+  "wikidata_id": "Q131355",
+  "sitelink": 93,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Pakistan başbakanı, Pakistan cumhurbaşkanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Gloria Swanson",
+  "dogum_tarihi": "1899-03-27",
+  "vefat_tarihi": "1983-04-04",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Weill Cornell Medical Center",
+  "defin_yeri": "Episcopal Church of the Heavenly Rest Columbarium",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q229232",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wilhelm Ostwald",
+  "dogum_tarihi": "1853-09-02",
+  "vefat_tarihi": "1932-04-04",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Riga",
+  "vefat_yeri": "Großbothen",
+  "defin_yeri": "Wilhelm Ostwald Park",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q12658",
+  "sitelink": 90,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Napier",
+  "dogum_tarihi": "1550-02-11",
+  "vefat_tarihi": "1617-04-04",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Merchiston Kulesi",
+  "vefat_yeri": "Edinburgh",
+  "defin_yeri": "St Giles' Cathedral",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q159592",
+  "sitelink": 85,
+  "fotograf": null,
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Napier'in Kemikleri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oliver Goldsmith",
+  "dogum_tarihi": "1728-11-10",
+  "vefat_tarihi": "1774-04-04",
+  "vefat_yasi": 45,
+  "dogum_yeri": "Elphin",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Temple Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q236236",
+  "sitelink": 82,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Grégoire XI",
+  "dogum_tarihi": "1330",
+  "vefat_tarihi": "1378-04-04",
+  "vefat_yasi": 48,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Rosiers-d'Égletons",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Santa Francesca Romana Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q169594",
+  "sitelink": 78,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Max Frisch",
+  "dogum_tarihi": "1911-05-15",
+  "vefat_tarihi": "1991-04-04",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Zürih",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q115483",
+  "sitelink": 73,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Georg Büchner Ödülü, Neustadt Uluslararası Edebiyat Ödülü. Aday olduğu ödül: Nobel Edebiyat Ödülü, Neustadt Uluslararası Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ }
+]

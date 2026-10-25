@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+Disallow: /test
+Disallow: /indir/
+Disallow: /aile/
+Disallow: /gorevli/
+Disallow: /ezan/
+Disallow: /ayarlar.json
+Disallow: /surum.json
+
+# Toplayici / SEO tarayicilari (21.10.2026): sitede onlara verilecek bir sey yok
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /

@@ -1,0 +1,343 @@
+[
+ {
+  "ad": "Fatma Seher Erden",
+  "dogum_tarihi": "1888",
+  "vefat_tarihi": "1955-07-02",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Erzurum",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Kulaksız Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q3701685",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "Kara Fatma.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kara_Fatma.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kara_Fatma.jpg"
+  },
+  "meslek": [
+   "Asker"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İstiklal Madalyası",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Jean-Jacques Rousseau",
+  "dogum_tarihi": "1712-06-28",
+  "vefat_tarihi": "1778-07-02",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Cenevre",
+  "vefat_yeri": "Ermenonville",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q6527",
+  "sitelink": 234,
+  "fotograf": {
+   "dosya": "Jean-Jacques Rousseau (painted portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Maurice Quentin de La Tour",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Emile ya da Eğitim Üzerine”, “Toplum Sözleşmesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ernest Hemingway",
+  "dogum_tarihi": "1899-07-21",
+  "vefat_tarihi": "1961-07-02",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Oak Park",
+  "vefat_yeri": "Ketchum",
+  "defin_yeri": "Ketchum Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q23434",
+  "sitelink": 208,
+  "fotograf": {
+   "dosya": "ErnestHemingway.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lloyd Arnold",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ErnestHemingway.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Vladimir Nabokov",
+  "dogum_tarihi": "1899-04-22",
+  "vefat_tarihi": "1977-07-02",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Montreux",
+  "defin_yeri": "Cemetery of Clarens",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q36591",
+  "sitelink": 152,
+  "fotograf": {
+   "dosya": "Vladimir Nabokov 1973.jpg",
+   "lisans": "Public domain",
+   "yazar": "Walter Mori (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir_Nabokov_1973.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg"
+  },
+  "meslek": [
+   "Satranç oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Lujin Savunması”, “Solgun Ateş”, “Lolita”. Aday olduğu ödül: Nobel Edebiyat Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Stewart",
+  "dogum_tarihi": "1908-05-20",
+  "vefat_tarihi": "1997-07-02",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Indiana",
+  "vefat_yeri": "Beverly Hills",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q102462",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Annex - Stewart, James (Call Northside 777) 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Studio publicity still",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Hava madalyası, Altın Küre Cecil B. DeMille Ödülü. Önemli eserleri: “You Can't Take it With You”, “Two Rode Together”, “The Shootist”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mario Puzo",
+  "dogum_tarihi": "1920-10-15",
+  "vefat_tarihi": "1999-07-02",
+  "vefat_yasi": 78,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Long Island",
+  "defin_yeri": "North Babylon Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q182870",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Mario Puzo 1972 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Puzo_1972_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mario_Puzo_1972_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Uyarlama Senaryo Akademi Ödülü, Writers Guild of America Ödülleri. Önemli eserleri: “Baba”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Porfirio Díaz",
+  "dogum_tarihi": "1830-09-15",
+  "vefat_tarihi": "1915-07-02",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Oaxaca de Juárez",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q150688",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Porfirio Diaz.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "El Ágora",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porfirio_Diaz.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Porfirio_Diaz.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: bakan, Meksika Başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Paulus",
+  "dogum_tarihi": "0700",
+  "vefat_tarihi": "0767-07-02",
+  "vefat_yasi": 67,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q103404",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Paus Paulus I Paulus primus (titel op object) Liber Chronicarum (serietitel, RP-P-2016-49-56-10).jpg",
+   "lisans": "CC0",
+   "yazar": "Rijksmuseum",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paus_Paulus_I_Paulus_primus_%28titel_op_object%29_Liber_Chronicarum_%28serietitel%2C_RP-P-2016-49-56-10%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paus_Paulus_I_Paulus_primus_%28titel_op_object%29_Liber_Chronicarum_%28serietitel%2C_RP-P-2016-49-56-10%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Peel",
+  "dogum_tarihi": "1788-02-05",
+  "vefat_tarihi": "1850-07-02",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Ramsbottom",
+  "vefat_yeri": "Westminster",
+  "defin_yeri": "Church of St Peter, Drayton Bassett",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q181875",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Sir Robert Peel, 2nd Bt by John Linnell.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Linnell",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Robert_Peel%2C_2nd_Bt_by_John_Linnell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Robert_Peel%2C_2nd_Bt_by_John_Linnell.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Douglas Engelbart",
+  "dogum_tarihi": "1925-01-30",
+  "vefat_tarihi": "2013-07-02",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Portland",
+  "vefat_yeri": "Atherton",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q92614",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Douglas Engelbart in 2008.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Alex Handy from Oakland, Nmibia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas_Engelbart_in_2008.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart_in_2008.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: IEEE John von Neumann Madalyası, Turing Ödülü. Önemli eserleri: “grafiksel kullanıcı arayüzü”, “İnsan bilgisayar etkileşimi”, “fare”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrey Gromıko",
+  "dogum_tarihi": "1909-07-18",
+  "vefat_tarihi": "1989-07-02",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Staryja Hramykі",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q184267",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Andrei Gromyko 1972.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Mieremet, Rob / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Gromyko_1972.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Gromyko_1972.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Onur Rozeti Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Görev: Sovyetler Birliği Birinci Başbakan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Georgi Dimitrov Mihaylov",
+  "dogum_tarihi": "1882-06-30",
+  "vefat_tarihi": "1949-07-02",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Demirciler",
+  "vefat_yeri": "Barvikha",
+  "defin_yeri": "Central Sofia Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Bulgaristan",
+  "wikidata_id": "Q155074",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Georgi Dimitrow.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georgi_Dimitrow.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georgi_Dimitrow.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Nişanı, Büyük Polonia Restituta Nişanı. Görev: Bulgaristan Başbakanı, Bulgaristan Ulusal Meclisi üyesi",
+  "hassas": false,
+  "turk": false
+ }
+]

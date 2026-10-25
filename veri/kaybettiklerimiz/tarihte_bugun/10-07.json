@@ -1,0 +1,291 @@
+[
+ {
+  "ad": "Tevfik Esenç",
+  "dogum_tarihi": "1906",
+  "vefat_tarihi": "1992-10-07",
+  "vefat_yasi": 86,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hacıosman",
+  "vefat_yeri": "Hacıosman",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q469566",
+  "sitelink": 30,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Cemal Reşit Rey",
+  "dogum_tarihi": "1904-09-25",
+  "vefat_tarihi": "1985-10-07",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Kudüs",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1053284",
+  "sitelink": 17,
+  "fotograf": {
+   "dosya": "1950 05 03 Aksam Cemal Resit Rey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Akşam Gazetesi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1950_05_03_Aksam_Cemal_Resit_Rey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:1950_05_03_Aksam_Cemal_Resit_Rey.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Devlet Sanatçısı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Recai Kutan",
+  "dogum_tarihi": "1930-04-05",
+  "vefat_tarihi": "2024-10-07",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Darende",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q263102",
+  "sitelink": 14,
+  "fotograf": {
+   "dosya": "Recai Kutan 2009 crop.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Mehmettorun at Turkish Wikipedia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Recai_Kutan_2009_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Recai_Kutan_2009_crop.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Enerji ve Tabii Kaynaklar Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Çerkez Ethem",
+  "dogum_tarihi": "1886",
+  "vefat_tarihi": "1949-10-07",
+  "vefat_yasi": 63,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Bandırma",
+  "vefat_yeri": "Amman",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q272791",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "CerkezEthemPortre.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CerkezEthemPortre.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CerkezEthemPortre.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Edgar Allan Poe",
+  "dogum_tarihi": "1809-01-19",
+  "vefat_tarihi": "1849-10-07",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Boston",
+  "vefat_yeri": "Baltimore",
+  "defin_yeri": "Westminster Hall and Burying Ground",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q16867",
+  "sitelink": 225,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kuyu ve Sarkaç”, “Çalınan Mektup”, “William Wilson”. Görev: genel yayın yönetmeni",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anna Politkovskaya",
+  "dogum_tarihi": "1958-08-30",
+  "vefat_tarihi": "2006-10-07",
+  "vefat_yasi": 48,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Troyekurovo Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q131240",
+  "sitelink": 95,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Olof Palme Ödülü, UNESCO Dünya Basın Özgürlüğü Ödülü. Görev: sözcü",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Guru Gobind Singh",
+  "dogum_tarihi": "1666-12-22",
+  "vefat_tarihi": "1708-10-07",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Patna",
+  "vefat_yeri": "Nanded",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312967",
+  "sitelink": 71,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mario J. Molina",
+  "dogum_tarihi": "1943-03-19",
+  "vefat_tarihi": "2020-10-07",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Meksiko",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q19045",
+  "sitelink": 71,
+  "fotograf": null,
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oliver Wendell Holmes",
+  "dogum_tarihi": "1809-08-29",
+  "vefat_tarihi": "1894-10-07",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Cambridge",
+  "vefat_yeri": "Boston",
+  "defin_yeri": "Mount Auburn Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q319829",
+  "sitelink": 63,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Norman Angell",
+  "dogum_tarihi": "1872-12-26",
+  "vefat_tarihi": "1967-10-07",
+  "vefat_yasi": 94,
+  "dogum_yeri": "Mansion House",
+  "vefat_yeri": "Croydon",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q272224",
+  "sitelink": 62,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Germanicus",
+  "dogum_tarihi": "-0014-05-22",
+  "vefat_tarihi": "0019-10-08",
+  "vefat_yasi": 20,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Antakya",
+  "defin_yeri": "Augustus Anıt Mezarı",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q191039",
+  "sitelink": 61,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Roma zaferi. Görev: Romalı konsül, quaestor",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Gurdon",
+  "dogum_tarihi": "1933-10-02",
+  "vefat_tarihi": "2025-10-07",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Dippenhall",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q81218",
+  "sitelink": 60,
+  "fotograf": null,
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ }
+]

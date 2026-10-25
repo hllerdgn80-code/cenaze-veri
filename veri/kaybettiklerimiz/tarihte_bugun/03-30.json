@@ -1,0 +1,321 @@
+[
+ {
+  "ad": "Mahir Çayan",
+  "dogum_tarihi": "1945-03-15",
+  "vefat_tarihi": "1972-03-30",
+  "vefat_yasi": 27,
+  "dogum_yeri": "Samsun",
+  "vefat_yeri": "Ataköy",
+  "defin_yeri": "Karşıyaka Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q1307293",
+  "sitelink": 14,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "James Cagney",
+  "dogum_tarihi": "1899-07-17",
+  "vefat_tarihi": "1986-03-30",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Manhattan",
+  "vefat_yeri": "Stanford",
+  "defin_yeri": "Gate of Heaven Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q94041",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "James cagney promo photo (cropped, centered).jpg",
+   "lisans": "Public domain",
+   "yazar": "Warner Bros. Studio (work for hire)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_cagney_promo_photo_%28cropped%2C_centered%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_cagney_promo_photo_%28cropped%2C_centered%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ekran Oyuncuları Derneği Yaşam Başarı Ödülü, Kennedy Center Onur Ödülleri. Aday olduğu ödül: En İyi Erkek Oyuncu Akademi Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Elizabeth Bowes-Lyon",
+  "dogum_tarihi": "1900-08-04",
+  "vefat_tarihi": "2002-03-30",
+  "vefat_yasi": 101,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Royal Lodge",
+  "defin_yeri": "King George VI Memorial Chapel",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q10633",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Queen Elizabeth the Queen Mother portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Richard Stone",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Elizabeth_the_Queen_Mother_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_the_Queen_Mother_portrait.jpg"
+  },
+  "meslek": [
+   "Ana kraliçe"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Companion of the Order of Canada",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rudolf Steiner",
+  "dogum_tarihi": "1861-02-27",
+  "vefat_tarihi": "1925-03-30",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Donji Kraljevec",
+  "vefat_yeri": "Dornach",
+  "defin_yeri": "Dornach",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q78484",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Steiner um 1905.jpg",
+   "lisans": "Public domain",
+   "yazar": "Otto Rietmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steiner_um_1905.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Steiner_um_1905.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sejong",
+  "dogum_tarihi": "1397-04-18",
+  "vefat_tarihi": "1450-02-26",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Tongin-dong",
+  "vefat_yeri": "Andong Byeolgung",
+  "defin_yeri": "Yeongneung (Sejong)",
+  "defin_il": null,
+  "defin_ulke": "Güney Kore",
+  "wikidata_id": "Q37682",
+  "sitelink": 77,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Léon Blum",
+  "dogum_tarihi": "1872-04-09",
+  "vefat_tarihi": "1950-03-30",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Saint-Denis Sokağı",
+  "vefat_yeri": "Jouy-en-Josas",
+  "defin_yeri": "Jouy-en-Josas",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q18434",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Léon Blum Meurisse b 1927.jpg",
+   "lisans": "Public domain",
+   "yazar": "Agence de presse Meurisse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A9on_Blum_Meurisse_b_1927.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Blum_Meurisse_b_1927.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Friedrich Bergius",
+  "dogum_tarihi": "1884-10-11",
+  "vefat_tarihi": "1949-03-30",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Złotniki",
+  "vefat_yeri": "Buenos Aires",
+  "defin_yeri": "German Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Arjantin",
+  "wikidata_id": "Q76614",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Bergius.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergius.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bergius.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Kimya Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "seçilmiş papa Stephanus",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0752-03-30",
+  "vefat_yasi": null,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q383322",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Pope-Elect Stephen.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope-Elect_Stephen.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope-Elect_Stephen.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Michael Jeter",
+  "dogum_tarihi": "1952-08-26",
+  "vefat_tarihi": "2003-03-30",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Lawrenceburg",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q329716",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Michael Jeter at the 44th Emmy Awards cropped.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Photo by Alan Light derivative work: Bea",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Jeter_at_the_44th_Emmy_Awards_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Michael_Jeter_at_the_44th_Emmy_Awards_cropped.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Philip Showalter Hench",
+  "dogum_tarihi": "1896-02-28",
+  "vefat_tarihi": "1965-03-30",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Pittsburgh",
+  "vefat_yeri": "Ocho Rios",
+  "defin_yeri": "Oakwood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q235651",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Philip Showalter Hench.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Showalter_Hench.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Philip_Showalter_Hench.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sébastien Le Prestre de Vauban",
+  "dogum_tarihi": "1633-05-15",
+  "vefat_tarihi": "1707-03-30",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Saint-Léger-Vauban",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Cathédrale Saint-Louis-des-Invalides",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q192839",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Sebastien le Prestre de Vauban.png",
+   "lisans": "Public domain",
+   "yazar": "Charles-Philippe Larivière",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastien_le_Prestre_de_Vauban.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sebastien_le_Prestre_de_Vauban.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Mareşal (Fransa). Önemli eserleri: “Liberia Hisarı”, “Arras İç Kalesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Chan Santokhi",
+  "dogum_tarihi": "1959-02-03",
+  "vefat_tarihi": "2026-03-30",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Lelydorp",
+  "vefat_yeri": "Paramaribo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q333135",
+  "sitelink": 51,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

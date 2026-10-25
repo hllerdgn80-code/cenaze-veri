@@ -1,0 +1,349 @@
+[
+ {
+  "ad": "Hale Asaf",
+  "dogum_tarihi": "1905",
+  "vefat_tarihi": "1938-05-31",
+  "vefat_yasi": 33,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Paris",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6103039",
+  "sitelink": 18,
+  "fotograf": {
+   "dosya": "Hale Asaf.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hale_Asaf.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hale_Asaf.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Kristof Kolomb",
+  "dogum_tarihi": "1451",
+  "vefat_tarihi": "1506-05-30",
+  "vefat_yasi": 55,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Cenova",
+  "vefat_yeri": "Valladolid",
+  "defin_yeri": "Sevilla Katedrali",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q7322",
+  "sitelink": 244,
+  "fotograf": {
+   "dosya": "Ridolfo del Ghirlandaio - Ritratto di Cristoforo Colombo (1520).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ridolfo del Ghirlandaio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridolfo_del_Ghirlandaio_-_Ritratto_di_Cristoforo_Colombo_%281520%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ridolfo_del_Ghirlandaio_-_Ritratto_di_Cristoforo_Colombo_%281520%29.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joseph Haydn",
+  "dogum_tarihi": "1732-03-31",
+  "vefat_tarihi": "1809-05-31",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Rohrau",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Bergkirche",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q7349",
+  "sitelink": 158,
+  "fotograf": {
+   "dosya": "Joseph Haydn, målning av Thomas Hardy från 1792.jpg",
+   "lisans": "Public domain",
+   "yazar": "Thomas Hardy",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Haydn%2C_m%C3%A5lning_av_Thomas_Hardy_fr%C3%A5n_1792.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_Haydn%2C_m%C3%A5lning_av_Thomas_Hardy_fr%C3%A5n_1792.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Évariste Galois",
+  "dogum_tarihi": "1811-10-25",
+  "vefat_tarihi": "1832-05-31",
+  "vefat_yasi": 20,
+  "dogum_yeri": "Bourg-la-Reine",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q7091",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "E. Galois Portrait No.2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Alfred Galois",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/E._Galois_Portrait_No.2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:E._Galois_Portrait_No.2.jpg"
+  },
+  "meslek": [
+   "Matematikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Galois kuramı”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "VII. Gregorius",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1085-05-31",
+  "vefat_yasi": null,
+  "dogum_yeri": "Sovana",
+  "vefat_yeri": "Salerno",
+  "defin_yeri": "Salerno Cathedral",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q133063",
+  "sitelink": 91,
+  "fotograf": {
+   "dosya": "Gregorius (Vita Gregorii VII).jpg",
+   "lisans": "Public domain",
+   "yazar": "Paul von Bernried, creatorArmin P., original uploader",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregorius_%28Vita_Gregorii_VII%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gregorius_%28Vita_Gregorii_VII%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Tintoretto",
+  "dogum_tarihi": "1519",
+  "vefat_tarihi": "1594-05-31",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Venedik",
+  "vefat_yeri": "Venedik",
+  "defin_yeri": "Madonna dell'Orto",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q9319",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Tintoretto - Self-Portrait as a Young Man, ca. 1548, CAI.103 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacopo Tintoretto",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tintoretto_-_Self-Portrait_as_a_Young_Man%2C_ca._1548%2C_CAI.103_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tintoretto_-_Self-Portrait_as_a_Young_Man%2C_ca._1548%2C_CAI.103_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Çarmıha Gerilme (Tintoretto)”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eusebius",
+  "dogum_tarihi": "0265",
+  "vefat_tarihi": "0340",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Caesarea Maritima",
+  "vefat_yeri": "Caesarea Maritima",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q142999",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Eusebius of Caesarea Rabbula Gospels Icon.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown, the art is from the 6th Century AD",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eusebius_of_Caesarea_Rabbula_Gospels_Icon.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eusebius_of_Caesarea_Rabbula_Gospels_Icon.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İncil'e Hazırlık”, “Kilise Tarihi (Eusebios)”. Görev: Piskopos",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Didius Julianus",
+  "dogum_tarihi": "0133",
+  "vefat_tarihi": "0193-05-31",
+  "vefat_yasi": 60,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Mediolanum",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1440",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "DidiusJulianusSest.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "originally uploaded by CharlesS in 2004",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DidiusJulianusSest.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:DidiusJulianusSest.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Praetor, aedilis",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Jacques Monod",
+  "dogum_tarihi": "1910-02-09",
+  "vefat_tarihi": "1976-05-31",
+  "vefat_yasi": 66,
+  "dogum_yeri": "17. arrondissement",
+  "vefat_yeri": "Cannes",
+  "defin_yeri": "Cannes (Grand Jas) Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q231402",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Jacques Monod 1971.jpg",
+   "lisans": "Public domain",
+   "yazar": "Farabola",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques_Monod_1971.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacques_Monod_1971.jpg"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: yönetici",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Elizabeth Blackwell",
+  "dogum_tarihi": "1821-02-03",
+  "vefat_tarihi": "1910-05-31",
+  "vefat_yasi": 89,
+  "dogum_yeri": "Bristol",
+  "vefat_yeri": "Hastings",
+  "defin_yeri": "Kilmun",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q234572",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "Elizabeth Blackwell NLM 02.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth_Blackwell_NLM_02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Elizabeth_Blackwell_NLM_02.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Raymond Davis Jr.",
+  "dogum_tarihi": "1914-10-14",
+  "vefat_tarihi": "2006-05-31",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Washington",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Blue Point Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q175519",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Raymond Davis, Jr 2001.jpg",
+   "lisans": "Public domain",
+   "yazar": "National Science Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond_Davis%2C_Jr_2001.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Raymond_Davis%2C_Jr_2001.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Timothy Leary",
+  "dogum_tarihi": "1920-10-22",
+  "vefat_tarihi": "1996-05-31",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Springfield",
+  "vefat_yeri": "Beverly Hills",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q211731",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Dr. Timothy Leary (1970 AP Photo).jpg",
+   "lisans": "Public domain",
+   "yazar": "AP News",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Timothy_Leary_%281970_AP_Photo%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dr._Timothy_Leary_%281970_AP_Photo%29.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

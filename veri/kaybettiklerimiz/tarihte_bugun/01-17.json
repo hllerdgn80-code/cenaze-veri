@@ -1,0 +1,335 @@
+[
+ {
+  "ad": "Mehmet Ali Birand",
+  "dogum_tarihi": "1941-12-09",
+  "vefat_tarihi": "2013-01-17",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Beyoğlu",
+  "vefat_yeri": "Şişli",
+  "defin_yeri": "Anadolu Hisarı Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q3259971",
+  "sitelink": 17,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sedat Simavi Gazetecilik Ödülü",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Rahşan Ecevit",
+  "dogum_tarihi": "1923-12-17",
+  "vefat_tarihi": "2020-01-17",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Bursa",
+  "vefat_yeri": "Ankara",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q7283651",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "Rahşan Ecevit - 28.2.15.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Onur",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rah%C5%9Fan_Ecevit_-_28.2.15.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rah%C5%9Fan_Ecevit_-_28.2.15.JPG"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Rutherford B. Hayes",
+  "dogum_tarihi": "1822-10-04",
+  "vefat_tarihi": "1893-01-17",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Delaware",
+  "vefat_yeri": "Fremont",
+  "defin_yeri": "Tomb of Rutherford B. Hayes and Lucy Webb Hayes",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q35686",
+  "sitelink": 139,
+  "fotograf": {
+   "dosya": "President Rutherford Hayes 1870 - 1880 Restored.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mathew Benjamin Brady",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bobby Fischer",
+  "dogum_tarihi": "1943-03-09",
+  "vefat_tarihi": "2008-01-17",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Şikago",
+  "vefat_yeri": "Reykjavík",
+  "defin_yeri": "Selfoss",
+  "defin_il": null,
+  "defin_ulke": "İzlanda",
+  "wikidata_id": "Q41314",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Bobby Fischer 1972 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Bert Verhoeff for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby_Fischer_1972_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bobby_Fischer_1972_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Satranç oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Patrice Lumumba",
+  "dogum_tarihi": "1925-07-02",
+  "vefat_tarihi": "1961-01-17",
+  "vefat_yasi": 35,
+  "dogum_yeri": "Katakokombe",
+  "vefat_yeri": "Lubumbashi",
+  "defin_yeri": "Mausoleum of Patrice Lumumba",
+  "defin_il": null,
+  "defin_ulke": "Kongo Demokratik Cumhuriyeti",
+  "wikidata_id": "Q161672",
+  "sitelink": 114,
+  "fotograf": {
+   "dosya": "PatriceLumumba1960.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Harry Pot for Anefo )",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PatriceLumumba1960.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:PatriceLumumba1960.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Kraliyet Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "execution by shooting"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Camilo José Cela",
+  "dogum_tarihi": "1916-05-11",
+  "vefat_tarihi": "2002-01-17",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Iria Flavia",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "Adina Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q132589",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Camilo José Cela. Fototeca. Biblioteca Virtual del Patrimonio Bibliográfico.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Camilo_Jos%C3%A9_Cela._Fototeca._Biblioteca_Virtual_del_Patrimonio_Bibliogr%C3%A1fico.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Camilo_Jos%C3%A9_Cela._Fototeca._Biblioteca_Virtual_del_Patrimonio_Bibliogr%C3%A1fico.jpg"
+  },
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aragonlu Catherine",
+  "dogum_tarihi": "1485-12-16",
+  "vefat_tarihi": "1536-01-17",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Alcalá de Henares",
+  "vefat_yeri": "Kimbolton Kalesi",
+  "defin_yeri": "Peterborough Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q162819",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Catherine of Aragon (1485-1536).jpg",
+   "lisans": "Public domain",
+   "yazar": "Lucas Horenbout",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Catherine_of_Aragon_%281485-1536%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Catherine_of_Aragon_%281485-1536%29.jpg"
+  },
+  "meslek": [
+   "Konsort kraliçe"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "İskender Bey",
+  "dogum_tarihi": "1405-05-06",
+  "vefat_tarihi": "1468-01-17",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Sinë",
+  "vefat_yeri": "Leş",
+  "defin_yeri": "Leş",
+  "defin_il": null,
+  "defin_ulke": "Arnavutluk",
+  "wikidata_id": "Q160614",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Skanderbeg by Antonio Maria Crespi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Antonio Maria Crespi Castoldi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skanderbeg_by_Antonio_Maria_Crespi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Skanderbeg_by_Antonio_Maria_Crespi.jpg"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hükümdar",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "X. Gregorius",
+  "dogum_tarihi": "1210",
+  "vefat_tarihi": "1276-01-17",
+  "vefat_yasi": 66,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Piacenza",
+  "vefat_yeri": "Arezzo",
+  "defin_yeri": "Arezzo Katedrali",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q161740",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Gregory X, Buffalmacco, Arezzo Cathedral.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eccekevin (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_X%2C_Buffalmacco%2C_Arezzo_Cathedral.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gregory_X%2C_Buffalmacco%2C_Arezzo_Cathedral.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Marcellus",
+  "dogum_tarihi": "0255-01-06",
+  "vefat_tarihi": "0309-01-17",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Roma",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Priscilla Katakombu",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q102131",
+  "sitelink": 74,
+  "fotograf": {
+   "dosya": "Pope Marcellus I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Marcellus_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Marcellus_I.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Francis Galton",
+  "dogum_tarihi": "1822-02-16",
+  "vefat_tarihi": "1911-01-17",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Sparkbrook",
+  "vefat_yeri": "Grayshott",
+  "defin_yeri": "Church of St Michael and All Angels",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q191026",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Sir Francis Galton, 1890s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eveleen Myers (née Tennant)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Francis_Galton%2C_1890s.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Francis_Galton%2C_1890s.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Darwin Madalyası. Önemli eserleri: “Galton kutusu”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Clyde Tombaugh",
+  "dogum_tarihi": "1906-02-04",
+  "vefat_tarihi": "1997-01-17",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Streator",
+  "vefat_yeri": "Las Cruces",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q190232",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Clyde Tombaugh image.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clyde_Tombaugh_image.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Clyde_Tombaugh_image.jpg"
+  },
+  "meslek": [
+   "Astronom"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,335 @@
+[
+ {
+  "ad": "Adnan Menderes",
+  "dogum_tarihi": "1899",
+  "vefat_tarihi": "1961-09-17",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Aydın",
+  "vefat_yeri": "İmralı",
+  "defin_yeri": "Adnan Menderes Anıt Mezarı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q238745",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Adnan Menderes VI. Yasama Dönemi.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adnan_Menderes_VI._Yasama_D%C3%B6nemi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adnan_Menderes_VI._Yasama_D%C3%B6nemi.jpg"
+  },
+  "meslek": [
+   "Başbakan"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": true
+ },
+ {
+  "ad": "Karl Popper",
+  "dogum_tarihi": "1902-07-28",
+  "vefat_tarihi": "1994-09-17",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Kenley",
+  "defin_yeri": "mortuary Lainzer Friedhof",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q81244",
+  "sitelink": 128,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sonning Ödülü, İngiliz Akademisi bursu. Önemli eserleri: “Bilimsel Araştırmanın Mantığı”, “Açık Toplum ve Düşmanları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Abdülaziz Buteflika",
+  "dogum_tarihi": "1937-03-02",
+  "vefat_tarihi": "2021-09-17",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Ucda",
+  "vefat_yeri": "Zeralide",
+  "defin_yeri": "El Alia Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Cezayir",
+  "wikidata_id": "Q57308",
+  "sitelink": 105,
+  "fotograf": {
+   "dosya": "Abdelaziz Bouteflika.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Unknown authorUnknown author and Vikoula5",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdelaziz_Bouteflika.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abdelaziz_Bouteflika.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dostluk Nişanı, Brezilya Ulusal Güney Haç Nişanı. Görev: Birleşmiş Milletler Genel Kurulu Başkanlığı, Cezayir cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Felipe",
+  "dogum_tarihi": "1605-04-08",
+  "vefat_tarihi": "1665-09-17",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Valladolid Royal Palace",
+  "vefat_yeri": "Cuarto bajo del Rey",
+  "defin_yeri": "Royal Crypt of the Royal Monastery of San Lorenzo de El Escorial",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q691402",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Philip IV of Spain.jpg",
+   "lisans": "Public domain",
+   "yazar": "Diego Velázquez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip_IV_of_Spain.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Philip_IV_of_Spain.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Hükümdar",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alfred de Vigny",
+  "dogum_tarihi": "1797-03-27",
+  "vefat_tarihi": "1863-09-17",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Loches",
+  "vefat_yeri": "d'Artois Sokağı",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q309702",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Félix Nadar 1820-1910 Alfred de Vigny.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F%C3%A9lix_Nadar_1820-1910_Alfred_de_Vigny.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Nadar_1820-1910_Alfred_de_Vigny.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Spiro Agnew",
+  "dogum_tarihi": "1918-11-09",
+  "vefat_tarihi": "1996-09-17",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Baltimore",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Dulaney Valley Memorial Gardens",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q203433",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Spiro Agnew.jpg",
+   "lisans": "Public domain",
+   "yazar": "Seems to be his official VPOTUS portrait, and a small version is licensed as such at Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spiro_Agnew.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spiro_Agnew.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Bronz Yıldız Madalyası. Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Maryland Valisi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ruth Benedict",
+  "dogum_tarihi": "1887-06-05",
+  "vefat_tarihi": "1948-09-17",
+  "vefat_yasi": 61,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Mount Hope Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q228822",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Ruth Benedict.jpg",
+   "lisans": "Public domain",
+   "yazar": "World Telegram staff photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Benedict.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruth_Benedict.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eugène Viollet-le-Duc",
+  "dogum_tarihi": "1814-01-27",
+  "vefat_tarihi": "1879-09-17",
+  "vefat_yasi": 65,
+  "dogum_yeri": "former 2nd arrondissement of Paris",
+  "vefat_yeri": "Lozan",
+  "defin_yeri": "Bois-de-Vaux Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q272912",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Viollet-le-Duc Dujardin & Reutlinger.png",
+   "lisans": "Public domain",
+   "yazar": "Paul Dujardin",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viollet-le-Duc_Dujardin_%26_Reutlinger.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Viollet-le-Duc_Dujardin_%26_Reutlinger.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Abbadia Kalesi”, “Montdardier Kalesi”, “Flachère Kalesi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Robert Bellarmine",
+  "dogum_tarihi": "1542-10-14",
+  "vefat_tarihi": "1621-09-17",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Montepulciano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Sant'Ignazio di Loyola in Campo Marzio Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q298664",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Portret van kardinaal Robertus Bellarminus, onbekend, schilderij, Museum Plantin-Moretus (Antwerpen) - MPM V IV 110 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portret_van_kardinaal_Robertus_Bellarminus%2C_onbekend%2C_schilderij%2C_Museum_Plantin-Moretus_%28Antwerpen%29_-_MPM_V_IV_110_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portret_van_kardinaal_Robertus_Bellarminus%2C_onbekend%2C_schilderij%2C_Museum_Plantin-Moretus_%28Antwerpen%29_-_MPM_V_IV_110_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antoine-Laurent de Jussieu",
+  "dogum_tarihi": "1748-04-12",
+  "vefat_tarihi": "1836-09-17",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Lyon",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q223963",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Antoine Laurent de Jussieu.png",
+   "lisans": "Public domain",
+   "yazar": "Design by Charles Thévenin (1764-1838), published in London, 1 March 1803, by Thornton",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoine_Laurent_de_Jussieu.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Antoine_Laurent_de_Jussieu.png"
+  },
+  "meslek": [
+   "Doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Searle",
+  "dogum_tarihi": "1932-07-31",
+  "vefat_tarihi": "2025-09-17",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Denver",
+  "vefat_yeri": "Tampa",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q295012",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "John Searle speaking at Google 1.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "FranksValli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Searle_speaking_at_Google_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Searle_speaking_at_Google_1.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beşeri Bilimler Charles Frankel Ödülü, Rhodes Bursu. Önemli eserleri: “Çin Odası”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Henry Le Chatelier",
+  "dogum_tarihi": "1850-10-08",
+  "vefat_tarihi": "1936-09-17",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Miribel-les-Échelles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q121926",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Анри Луи Ле Шателье.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D1%80%D0%B8_%D0%9B%D1%83%D0%B8_%D0%9B%D0%B5_%D0%A8%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%B5.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D1%80%D0%B8_%D0%9B%D1%83%D0%B8_%D0%9B%D0%B5_%D0%A8%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%B5.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Davy Madalyası. Görev: başkan",
+  "hassas": false,
+  "turk": false
+ }
+]

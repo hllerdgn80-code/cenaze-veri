@@ -1,0 +1,36 @@
+name: Muftuluk personel listesi (gunluk)
+
+# 15.10.2026 (URUN-TASLAGI §37 ek): il/ilce muftuluk sitelerinde "Personelimiz" listesi varsa ad+cami cikarir ve Worker'a (KV) yazar.
+# OLCUM (15.10.2026, 5 il ~75 ilce): liste pratikte yayimlanmiyor (KVKK nedeniyle kaldirilmis ya da bos) -> bu is cogunlukla "liste yok" uretir;
+# o durumda Worker hesabi "kontrolde" birakir (sahibi karari). Secret'lar: PANEL_ANAHTARI; repo degiskeni: AILE_WORKER_URL.
+on:
+  schedule:
+    - cron: "47 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: muftuluk
+  cancel-in-progress: false
+
+jobs:
+  muftuluk:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    env:
+      AILE_WORKER_URL: ${{ vars.AILE_WORKER_URL }}
+      PANEL_ANAHTARI: ${{ secrets.PANEL_ANAHTARI }}
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY }}
+          yayin-sparse: |
+            uygulama/assets/veri
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Muftuluk listeleri (pilot 5 il; --hepsi sonra)
+        run: python3 okuyucu/muftuluk_personel.py --yukle || echo "::warning::muftuluk listesi okunamadi"

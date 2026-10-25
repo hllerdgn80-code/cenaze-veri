@@ -1,0 +1,42 @@
+name: Ezan vakitleri (Diyanet)
+# 16.10.2026 sahibi: "ezan vakitlerini koy; tumuyle Diyanet'in verileri olsun". Haftada bir (DO cron: Pazartesi 02:10 UTC) Diyanet'in herkese
+# acik namaz vakti sayfalarindan 81 il / tum ilceler okunur (istekler arasi 1,5 sn), site/ezan/<il>.json depoya yazilir, bosalt.yml zorla yayinlar.
+# Hicbir adim kosuyu kirmaz (Run failed e-postasi yok).
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: ezan
+  cancel-in-progress: false
+jobs:
+  ezan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY }}
+          yayin-sparse: |
+            site
+      - uses: actions/setup-python@v5
+        continue-on-error: true
+        with:
+          python-version: "3.12"
+      - name: Diyanet ezan vakitlerini oku
+        continue-on-error: true
+        run: python3 okuyucu/ezan.py
+      - name: Depoya yaz ve yayinla
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # site/ezan = yayin/site/ezan (acik depo); commit ve push yayin/ icinden
+          if [ -n "$(git -C yayin status --porcelain site/ezan)" ]; then
+            git -C yayin config user.name "cenaze-bot"; git -C yayin config user.email "cenaze-bot@users.noreply.github.com"
+            git -C yayin add site/ezan && git -C yayin commit -q -m "ezan: Diyanet vakitleri $(date -u +%F)" && (cd yayin && bash ../araclar/guvenli_push.sh)
+          fi
+          curl -s -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/bosalt.yml/dispatches" -d '{"ref":"main","inputs":{"zorla":"true"}}' || true

@@ -1,0 +1,39 @@
+name: Gunluk kaynak kesfi
+
+# 14.10.2026 (URUN-TASLAGI §35/3): her gun Google Haberler RSS'inde "vefat etti / topraga verildi / son yolculuguna ugurlandi / cenaze namazi + il"
+# taramasi yeni yerel kaynaklari bulur (yalniz kesif; icerik alinmaz), on inceleme yapar, arastirma/kesif/ADAYLAR.md'yi gunceller ve commit'ler.
+# Gunluk <=30 sorgu; durum dosyasi (_kaynak_kesif_durum.json) imlec ve sayac tasir, commit'lenmezse kaybolur.
+on:
+  schedule:
+    - cron: "17 3 * * *"   # TR 06:17
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kaynak-kesif
+  cancel-in-progress: false
+
+jobs:
+  kesif:
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
+    timeout-minutes: 25   # 25.10.2026: 15 dk sinirinda iki kosu zaman asimiyla iptal oldu (kosu suresi 12-15 dk)
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY_YAZ }}
+          yayin-sparse: |
+            uygulama/assets/veri
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kesif
+        run: python3 araclar/kaynak_kesif.py || echo "::warning::kesif hata verdi"
+      - name: Sonucu commit'le
+        run: |
+          git config user.name "cenaze-bot"
+          git config user.email "cenaze-bot@users.noreply.github.com"
+          git add -A arastirma/kesif
+          if git diff --cached --quiet; then echo "degisiklik yok"; else git commit -m "kesif: $(date -u +%F) adaylar"; bash araclar/guvenli_push.sh "${GITHUB_REF_NAME}"; fi   # 16.10.2026 H76: 15.10 08:24 #2 'git push' fetch-first ile dustu

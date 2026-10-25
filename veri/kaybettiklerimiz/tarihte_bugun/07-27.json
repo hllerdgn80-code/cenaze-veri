@@ -1,0 +1,328 @@
+[
+ {
+  "ad": "Işılay Saygın",
+  "dogum_tarihi": "1947-04-04",
+  "vefat_tarihi": "2019-07-27",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Buca",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": "İzmir",
+  "defin_il": "İzmir",
+  "defin_ulke": null,
+  "wikidata_id": "Q6067762",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Kadın ve Aileden Sorumlu Devlet Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Mihail Yuryeviç Lermontov",
+  "dogum_tarihi": "1814-10-15",
+  "vefat_tarihi": "1841-07-27",
+  "vefat_yasi": 26,
+  "dogum_yeri": "Moskova",
+  "vefat_yeri": "Beşdağ (şehir)",
+  "defin_yeri": "Tarkhany",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q46599",
+  "sitelink": 128,
+  "fotograf": {
+   "dosya": "Mikhail lermontov.jpg",
+   "lisans": "Public domain",
+   "yazar": "Petr Zabolotskiy",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikhail_lermontov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mikhail_lermontov.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "John Dalton",
+  "dogum_tarihi": "1766-09-06",
+  "vefat_tarihi": "1844-07-27",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Cumberland (İngiltere)",
+  "vefat_yeri": "Manchester",
+  "defin_yeri": "Ardwick Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q41284",
+  "sitelink": 113,
+  "fotograf": {
+   "dosya": "John Dalton. Line engraving by W. H. Worthington, 1823, afte Wellcome V0006489.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi. Önemli eserleri: “Dalton yasası”, “renk körlüğü”, “atom kütle birimi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Muhammed Rıza Pehlevi",
+  "dogum_tarihi": "1919-10-26",
+  "vefat_tarihi": "1980-07-27",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Tahran",
+  "vefat_yeri": "Kahire",
+  "defin_yeri": "El Rıfai Camii",
+  "defin_il": null,
+  "defin_ulke": "Mısır",
+  "wikidata_id": "Q128245",
+  "sitelink": 113,
+  "fotograf": {
+   "dosya": "Shah Mohammad Reza Pahlavi, 1973.jpg",
+   "lisans": "Public domain",
+   "yazar": "Ghazarians",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shah_Mohammad_Reza_Pahlavi%2C_1973.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Shah_Mohammad_Reza_Pahlavi%2C_1973.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı, Büyük Polonia Restituta Nişanı. Görev: şah",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Abdul Kalam",
+  "dogum_tarihi": "1931-10-15",
+  "vefat_tarihi": "2015-07-27",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Rameswaram taluk",
+  "vefat_yeri": "Shillong",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q9513",
+  "sitelink": 102,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Padma Vibhushan. Görev: Hindistan Cumhurbaşkanı, başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "António de Oliveira Salazar",
+  "dogum_tarihi": "1889-04-28",
+  "vefat_tarihi": "1970-07-27",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Vimieiro",
+  "vefat_yeri": "Lizbon",
+  "defin_yeri": "Santa Comba Dão",
+  "defin_il": null,
+  "defin_ulke": "Portekiz",
+  "wikidata_id": "Q151394",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "António de Oliveira Salazar portrait (by Manuel Alves San Payo) – Lisboa.jpg",
+   "lisans": "Public domain",
+   "yazar": "Manuel Alves de San Payo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ant%C3%B3nio_de_Oliveira_Salazar_portrait_%28by_Manuel_Alves_San_Payo%29_%E2%80%93_Lisboa.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_de_Oliveira_Salazar_portrait_%28by_Manuel_Alves_San_Payo%29_%E2%80%93_Lisboa.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Portekiz Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Fyodor Tyutçev",
+  "dogum_tarihi": "1803-12-05",
+  "vefat_tarihi": "1873-07-27",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Ovstug",
+  "vefat_yeri": "Puskin",
+  "defin_yeri": "Novodeviçi Mezarlığı (Sankt Peterburg)",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q37217",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Tiutchev.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sergey Lvovich Levitsky",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiutchev.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tiutchev.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Gertrude Stein",
+  "dogum_tarihi": "1874-02-03",
+  "vefat_tarihi": "1946-07-27",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Allegheny",
+  "vefat_yeri": "Neuilly-sur-Seine",
+  "defin_yeri": "Gertrude Stein Mezarı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q188385",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Gertrude Stein 1934 (facecrop).jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Van Vechten",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gertrude_Stein_1934_%28facecrop%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gertrude_Stein_1934_%28facecrop%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bob Hope",
+  "dogum_tarihi": "1903-05-29",
+  "vefat_tarihi": "2003-07-27",
+  "vefat_yasi": 100,
+  "dogum_yeri": "Well Hall",
+  "vefat_yeri": "Toluca Lake",
+  "defin_yeri": "San Fernando Misyon Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q94081",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Bob Hope 1969 Publicity Photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "NBC Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob_Hope_1969_Publicity_Photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bob_Hope_1969_Publicity_Photo.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, Emmy Ödülleri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Victor",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0199-07-27",
+  "vefat_yasi": null,
+  "dogum_yeri": "Afrika",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q127989",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Pope Victor I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Victor_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Victor_I.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "William Wyler",
+  "dogum_tarihi": "1902-07-01",
+  "vefat_tarihi": "1981-07-27",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Mulhouse",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q51495",
+  "sitelink": 71,
+  "fotograf": {
+   "dosya": "William Wyler portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Film studio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Wyler_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Wyler_portrait.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Directors Guild of America Ödülleri, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “Hayatımızın En Güzel Yılları”, “Uğultulu Tepeler”, “The Heiress”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bartolomé de las Casas",
+  "dogum_tarihi": "1484-11-20",
+  "vefat_tarihi": "1566-07-27",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Sevilla",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "Basilica of Nuestra Señora de Atocha",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q207416",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Fray Bartolomé de las Casas.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous / Unidentified painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fray_Bartolom%C3%A9_de_las_Casas.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fray_Bartolom%C3%A9_de_las_Casas.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

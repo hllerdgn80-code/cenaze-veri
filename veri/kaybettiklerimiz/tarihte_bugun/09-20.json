@@ -1,0 +1,332 @@
+[
+ {
+  "ad": "Musa Anter",
+  "dogum_tarihi": "1917",
+  "vefat_tarihi": "1992-09-20",
+  "vefat_yasi": 75,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Mardin",
+  "vefat_yeri": "Diyarbakır",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q28862",
+  "sitelink": 19,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Necdet Kent",
+  "dogum_tarihi": "1911-01-01",
+  "vefat_tarihi": "2002-09-20",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Konstantinopolis",
+  "vefat_yeri": null,
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q1397281",
+  "sitelink": 13,
+  "fotograf": null,
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: büyükelçi",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Ruhi Su",
+  "dogum_tarihi": "1912",
+  "vefat_tarihi": "1985-09-20",
+  "vefat_yasi": 73,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Van",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q349194",
+  "sitelink": 12,
+  "fotograf": {
+   "dosya": "Ruhi Su 1.Gençlik Festivali Almanya.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Oğuz Gemalmaz",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruhi_Su_1.Gen%C3%A7lik_Festivali_Almanya.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruhi_Su_1.Gen%C3%A7lik_Festivali_Almanya.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Jean Sibelius",
+  "dogum_tarihi": "1865-12-08",
+  "vefat_tarihi": "1957-09-20",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Hämeenlinna",
+  "vefat_yeri": "Järvenpää",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q45682",
+  "sitelink": 105,
+  "fotograf": {
+   "dosya": "Jean Sibelius 1939.jpg",
+   "lisans": "Public domain",
+   "yazar": "The original uploader was -Majestic- at English Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Sibelius_1939.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jean_Sibelius_1939.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Goethe Sanat ve Bilim Madalyası, Dannebrog Nişanı Kumandanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Saint-John Perse",
+  "dogum_tarihi": "1887-05-31",
+  "vefat_tarihi": "1975-09-20",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Pointe-à-Pitre",
+  "vefat_yeri": "Giens Peninsula",
+  "defin_yeri": "cemetery of Giens",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q132684",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Saint-John Perse 1960.jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint-John_Perse_1960.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saint-John_Perse_1960.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Paul Erdős",
+  "dogum_tarihi": "1913-03-26",
+  "vefat_tarihi": "1996-09-20",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "Varşova",
+  "defin_yeri": "Kozma Street Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Macaristan",
+  "wikidata_id": "Q173746",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Erdos head budapest fall 1992.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Topsy Kretts",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erdos_head_budapest_fall_1992.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Erdos_head_budapest_fall_1992.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Wolf Matematik Ödülü, Kossuth Ödülü. Önemli eserleri: “Erdős-Rado teoremi”, “Erdős-Kac teoremi”, “Erdős-Szekeres teoremi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jacob Grimm",
+  "dogum_tarihi": "1785-01-04",
+  "vefat_tarihi": "1863-09-20",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Hanau",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Alter St.-Matthäus-Kirchhof Berlin",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q6701",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Jacob Grimm Friedlaender.png",
+   "lisans": "Public domain",
+   "yazar": "Siegmund Friedlaender",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacob_Grimm_Friedlaender.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jacob_Grimm_Friedlaender.png"
+  },
+  "meslek": [
+   "Hukukçu şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Grimm Masalları”, “Deutsche Mythologie”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Annie Besant",
+  "dogum_tarihi": "1847-10-01",
+  "vefat_tarihi": "1933-09-20",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Clapham",
+  "vefat_yeri": "Adyar",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q464318",
+  "sitelink": 82,
+  "fotograf": {
+   "dosya": "Annie Besant, LoC.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annie_Besant%2C_LoC.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Annie_Besant%2C_LoC.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Theodor Fontane",
+  "dogum_tarihi": "1819-12-30",
+  "vefat_tarihi": "1898-09-20",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Neuruppin",
+  "vefat_yeri": "Berlin",
+  "defin_yeri": "Friedhof II der Französisch-Reformierten Gemeinde",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76632",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Theodor Fontane.png",
+   "lisans": "Public domain",
+   "yazar": "Carl Breitbach",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodor_Fontane.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Theodor_Fontane.png"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Effi Briest”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Innocentius",
+  "dogum_tarihi": "1282",
+  "vefat_tarihi": "1362-09-20",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beyssac",
+  "vefat_yeri": "Avignon",
+  "defin_yeri": "charterhouse Notre-Dame du Val de Bénédiction",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q169288",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Innocent VI par Andrea di Bonaiuto 1365.jpg",
+   "lisans": "Public domain",
+   "yazar": "Andrea di Bonaiuto",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Innocent_VI_par_Andrea_di_Bonaiuto_1365.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Innocent_VI_par_Andrea_di_Bonaiuto_1365.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simon Wiesenthal",
+  "dogum_tarihi": "1908-12-31",
+  "vefat_tarihi": "2005-09-20",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Buchach",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Old Cemetery of Herzliya",
+  "defin_il": null,
+  "defin_ulke": "İsrail",
+  "wikidata_id": "Q49086",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "Simon Wiesenthal (1982).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Rob Bogaerts for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simon_Wiesenthal_%281982%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Simon_Wiesenthal_%281982%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Erasmus Ödülü, Kongre Altın Madalyası",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Burhaneddin Rabbani",
+  "dogum_tarihi": "1940-09-20",
+  "vefat_tarihi": "2011-09-20",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Feyzabad",
+  "vefat_yeri": "Kabil",
+  "defin_yeri": "Kabil",
+  "defin_il": null,
+  "defin_ulke": "Afganistan",
+  "wikidata_id": "Q188667",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Burhanuddin Rabbani Cropped DVIDS.jpg",
+   "lisans": "Public domain",
+   "yazar": "Combined Joint Task Force 101",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burhanuddin_Rabbani_Cropped_DVIDS.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Burhanuddin_Rabbani_Cropped_DVIDS.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ }
+]

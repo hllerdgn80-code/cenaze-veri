@@ -1,0 +1,336 @@
+[
+ {
+  "ad": "Diego Velázquez",
+  "dogum_tarihi": "1599",
+  "vefat_tarihi": "1660-08-06",
+  "vefat_yasi": 61,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Sevilla",
+  "vefat_yeri": "Madrid",
+  "defin_yeri": "Madrid",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q297",
+  "sitelink": 167,
+  "fotograf": {
+   "dosya": "Diego Velázquez Autorretrato 45 x 38 cm - Colección Real Academia de Bellas Artes de San Carlos - Museo de Bellas Artes de Valencia.jpg",
+   "lisans": "Public domain",
+   "yazar": "Diego Velázquez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Nedimeler”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VI. Paulus",
+  "dogum_tarihi": "1897-09-26",
+  "vefat_tarihi": "1978-08-06",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Concesio",
+  "vefat_yeri": "Castel Gandolfo",
+  "defin_yeri": "Vatican Grotto",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q16975",
+  "sitelink": 125,
+  "fotograf": {
+   "dosya": "Pope Paul VI 1969 Portrait (4x5 cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Fotografia Felici",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg"
+  },
+  "meslek": [
+   "Diplomat"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı, Liyakat Nişanı. Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Theodor W. Adorno",
+  "dogum_tarihi": "1903-09-11",
+  "vefat_tarihi": "1969-08-06",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Frankfurt",
+  "vefat_yeri": "Visp",
+  "defin_yeri": "Frankfurt Main Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q152388",
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "Theodor W. Adorno.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Jeremy J. Shapiro",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodor_W._Adorno.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Theodor_W._Adorno.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Minima Moralia.Sakatlanmış Yaşamdan Yansımalar”, “Estetik ve İdeoloji”, “Aydınlanma'nın Diyalektiği”. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Fulgencio Batista",
+  "dogum_tarihi": "1901-01-16",
+  "vefat_tarihi": "1973-08-06",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Banes",
+  "vefat_yeri": "Marbella",
+  "defin_yeri": "Aziz Isidore Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q11270",
+  "sitelink": 88,
+  "fotograf": {
+   "dosya": "Fulgencio Batista, 1938.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fulgencio_Batista%2C_1938.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fulgencio_Batista%2C_1938.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Küba Devlet Başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Edsger Dijkstra",
+  "dogum_tarihi": "1930-05-11",
+  "vefat_tarihi": "2002-08-06",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Rotterdam",
+  "vefat_yeri": "Nuenen",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q8556",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Edsger Wybe Dijkstra.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Hamilton Richards",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edsger_Wybe_Dijkstra.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edsger_Wybe_Dijkstra.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Turing Ödülü, Harry H. Goode Anma Ödülü. Önemli eserleri: “rahat sıralama”, “Dijkstra algoritması”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Sixtus",
+  "dogum_tarihi": "0215",
+  "vefat_tarihi": "0258-08-06",
+  "vefat_yasi": 43,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Yunanistan",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q127385",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Sandro Botticelli – Sixtus II.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sandro Botticelli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_%E2%80%93_Sixtus_II.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_%E2%80%93_Sixtus_II.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Ahmed b. Hanbel",
+  "dogum_tarihi": "0780-11-27",
+  "vefat_tarihi": "0855-08-06",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Bağdat",
+  "vefat_yeri": "Bağdat",
+  "defin_yeri": "Er-Rusafe",
+  "defin_il": null,
+  "defin_ulke": "Irak",
+  "wikidata_id": "Q194442",
+  "sitelink": 80,
+  "fotograf": null,
+  "meslek": [
+   "Tarihçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Musned”, “er-Red ale'z-Zenadıka ve'l-Cehmiye”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jorge Amado",
+  "dogum_tarihi": "1912-08-10",
+  "vefat_tarihi": "2001-08-06",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Itabuna",
+  "vefat_yeri": "Salvador",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q184440",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Jorge Amado, gtfy.00010.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bernard Gotfryd",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorge_Amado%2C_gtfy.00010.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jorge_Amado%2C_gtfy.00010.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Barış Ödülü. Önemli eserleri: “Dona Flor ve İki Kocası”, “Tieta do Agreste”, “Kum Kaptanları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Bohdan Hmelnıtski",
+  "dogum_tarihi": "1595",
+  "vefat_tarihi": "1657-08-06",
+  "vefat_yasi": 62,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Subotiv",
+  "vefat_yeri": "Çigirin",
+  "defin_yeri": "St. Elijah Church, Subotiv",
+  "defin_il": null,
+  "defin_ulke": "Ukrayna",
+  "wikidata_id": "Q203808",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Bohdan Khmelnytsky.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bohdan_Khmelnytsky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bohdan_Khmelnytsky.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Kazak hetman",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Domenico Modugno",
+  "dogum_tarihi": "1928-01-09",
+  "vefat_tarihi": "1994-08-06",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Polignano a Mare",
+  "vefat_yeri": "Lampedusa Adası",
+  "defin_yeri": "Cimitero Flaminio",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q201392",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Domenico Modugno in Anni Facili, 1953 film.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico_Modugno_in_Anni_Facili%2C_1953_film.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Domenico_Modugno_in_Anni_Facili%2C_1953_film.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sushma Swaraj",
+  "dogum_tarihi": "1952-02-14",
+  "vefat_tarihi": "2019-08-06",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Ambala Cantonment",
+  "vefat_yeri": "Yeni Delhi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1652493",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Secretary Tillerson is Greeted by Indian Minister of External Affairs Swaraj (24074726498) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "U.S. Department of State from United States",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Secretary_Tillerson_is_Greeted_by_Indian_Minister_of_External_Affairs_Swaraj_%2824074726498%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Secretary_Tillerson_is_Greeted_by_Indian_Minister_of_External_Affairs_Swaraj_%2824074726498%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Feodor Felix Konrad Lynen",
+  "dogum_tarihi": "1911-04-06",
+  "vefat_tarihi": "1979-08-06",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Münih",
+  "vefat_yeri": "Münih",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q44597",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Feodor Lynen with pipette.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Huttig-Foto, Starnberg",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feodor_Lynen_with_pipette.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Feodor_Lynen_with_pipette.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Centenary Ödülü. Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "hassas": false,
+  "turk": false
+ }
+]

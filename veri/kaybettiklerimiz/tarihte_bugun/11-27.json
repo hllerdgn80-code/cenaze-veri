@@ -1,0 +1,344 @@
+[
+ {
+  "ad": "Ada Lovelace",
+  "dogum_tarihi": "1815-12-10",
+  "vefat_tarihi": "1852-11-27",
+  "vefat_yasi": 36,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Marylebone",
+  "defin_yeri": "Church of St. Mary Magdalene, Hucknall",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q7259",
+  "sitelink": 133,
+  "fotograf": {
+   "dosya": "Ada Byron daguerreotype by Antoine Claudet 1843 or 1850 - cropped.png",
+   "lisans": "Public domain",
+   "yazar": "Antoine Claudet",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850_-_cropped.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ada_Byron_daguerreotype_by_Antoine_Claudet_1843_or_1850_-_cropped.png"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eugene O'Neill",
+  "dogum_tarihi": "1888-10-16",
+  "vefat_tarihi": "1953-11-27",
+  "vefat_yasi": 65,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Boston",
+  "defin_yeri": "Forest Hills Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q93157",
+  "sitelink": 107,
+  "fotograf": {
+   "dosya": "Eugene O'Neill 1936.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene_O%27Neill_1936.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eugene_O%27Neill_1936.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alexandre Dumas",
+  "dogum_tarihi": "1824-07-27",
+  "vefat_tarihi": "1895-11-27",
+  "vefat_yasi": 71,
+  "dogum_yeri": "former 2nd arrondissement of Paris",
+  "vefat_yeri": "Marly-le-Roi",
+  "defin_yeri": "Montmartre Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q169150",
+  "sitelink": 107,
+  "fotograf": {
+   "dosya": "Alexandre Dumas fils.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandre_Dumas_fils.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexandre_Dumas_fils.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Kamelyalı Kadın”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Mary",
+  "dogum_tarihi": "1516-02-28",
+  "vefat_tarihi": "1558-11-27",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Palace of Placentia",
+  "vefat_yeri": "Saint James Sarayı",
+  "defin_yeri": "Westminster Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q82674",
+  "sitelink": 102,
+  "fotograf": {
+   "dosya": "Anthonis Mor 001.jpg",
+   "lisans": "Public domain",
+   "yazar": "Antonis Mor",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthonis_Mor_001.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anthonis_Mor_001.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: İspanya Konsort Kraliçesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Émile Verhaeren",
+  "dogum_tarihi": "1855-05-21",
+  "vefat_tarihi": "1916-11-27",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Sint-Amands",
+  "vefat_yeri": "Rouen",
+  "defin_yeri": "tomb of Emile Verhaeren and Marthe Verhaeren",
+  "defin_il": null,
+  "defin_ulke": "Belçika",
+  "wikidata_id": "Q193680",
+  "sitelink": 69,
+  "fotograf": {
+   "dosya": "Emile Verhaeren01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Théo van Rysselberghe",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile_Verhaeren01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emile_Verhaeren01.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Harvey Milk",
+  "dogum_tarihi": "1930-05-22",
+  "vefat_tarihi": "1978-11-27",
+  "vefat_yasi": 48,
+  "dogum_yeri": "Woodmere",
+  "vefat_yeri": "San Francisco",
+  "defin_yeri": "San Francisco Columbarium",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q17141",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Harvey Milk in front of camera shop November 1977 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Harvey_Milk_in_front_of_camera_shop_November_1977_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Harvey_Milk_in_front_of_camera_shop_November_1977_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ateşli silah yaralanması",
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Yeghishe Charents",
+  "dogum_tarihi": "1897-03-25",
+  "vefat_tarihi": "1937-11-27",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Kars",
+  "vefat_yeri": "Erivan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q739413",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Yeghishe Charents Armenian poet.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yeghishe_Charents_Armenian_poet.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yeghishe_Charents_Armenian_poet.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Abraham de Moivre",
+  "dogum_tarihi": "1667-05-26",
+  "vefat_tarihi": "1754-11-27",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Vitry-le-François",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "St Martin-in-the-Fields",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q200397",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Abraham de Moivre by Joseph Highmore.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Highmore",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abraham_de_Moivre_by_Joseph_Highmore.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Abraham_de_Moivre_by_Joseph_Highmore.jpg"
+  },
+  "meslek": [
+   "Astronom"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “de Moivre formülü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arthur Honegger",
+  "dogum_tarihi": "1892-03-10",
+  "vefat_tarihi": "1955-11-27",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Le Havre",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Saint-Vincent Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q123164",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Photo Portrait of the swiss composer Arthur Honegger 1950 - Touring Club Italiano 11 5378 (cropped).jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_Portrait_of_the_swiss_composer_Arthur_Honegger_1950_-_Touring_Club_Italiano_11_5378_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_Portrait_of_the_swiss_composer_Arthur_Honegger_1950_-_Touring_Club_Italiano_11_5378_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Jeanne d'Arc”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Guillaume Dufay",
+  "dogum_tarihi": "1397-08-21",
+  "vefat_tarihi": "1474-11-27",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Beersel",
+  "vefat_yeri": "Cambrai",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q207717",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "DufayBinchois.jpg",
+   "lisans": "Public domain",
+   "yazar": "Master of the Missal of Paul Beye",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DufayBinchois.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:DufayBinchois.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Missa l'homme armé”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nílton Santos",
+  "dogum_tarihi": "1925-05-16",
+  "vefat_tarihi": "2013-11-27",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Rio de Janeiro",
+  "vefat_yeri": "Rio de Janeiro",
+  "defin_yeri": "Cemitério de São João Batista",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q83329",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Nilton Santos 1 (1956).tif",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nilton_Santos_1_%281956%29.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nilton_Santos_1_%281956%29.tif"
+  },
+  "meslek": [],
+  "aciklama": "Brezilyalı futbolcu",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Carradine",
+  "dogum_tarihi": "1906-02-05",
+  "vefat_tarihi": "1988-11-27",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Greenwich Village",
+  "vefat_yeri": "Milano",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312878",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "John Carradine - The Green Hornet, Episode 23 (Alias The Scarf) - 1967.jpg",
+   "lisans": "Public domain",
+   "yazar": "ABC Television",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Carradine_-_The_Green_Hornet%2C_Episode_23_%28Alias_The_Scarf%29_-_1967.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Carradine_-_The_Green_Hornet%2C_Episode_23_%28Alias_The_Scarf%29_-_1967.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,339 @@
+[
+ {
+  "ad": "Helen Keller",
+  "dogum_tarihi": "1880-06-27",
+  "vefat_tarihi": "1968-06-01",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Ivy Green",
+  "vefat_yeri": "Easton",
+  "defin_yeri": "Washington Ulusal Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q38203",
+  "sitelink": 169,
+  "fotograf": {
+   "dosya": "Helen Keller circa 1920 - restored.jpg",
+   "lisans": "Public domain",
+   "yazar": "Los Angeles Times; restored by User:Rhododendrites",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helen_Keller_circa_1920_-_restored.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Helen_Keller_circa_1920_-_restored.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Nişanı (Lübnan), National Women's Hall of Fame. Aday olduğu ödül: Nobel Barış Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Buchanan",
+  "dogum_tarihi": "1791-04-23",
+  "vefat_tarihi": "1868-06-01",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Stony Batter",
+  "vefat_yeri": "Lancaster",
+  "defin_yeri": "Woodward Hill Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q12325",
+  "sitelink": 144,
+  "fotograf": {
+   "dosya": "James Buchanan (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "From Brady daguerreotype (Mathew Brady) (1822-1896)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Buchanan_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Buchanan_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri dışişleri bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Dewey",
+  "dogum_tarihi": "1859-10-20",
+  "vefat_tarihi": "1952-06-01",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Burlington",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Vermont Üniversitesi",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q131805",
+  "sitelink": 110,
+  "fotograf": {
+   "dosya": "John Dewey, sem data.tif",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Dewey%2C_sem_data.tif",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Dewey%2C_sem_data.tif"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Nicolas Appert",
+  "dogum_tarihi": "1749-11-17",
+  "vefat_tarihi": "1841-06-01",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Châlons-en-Champagne",
+  "vefat_yeri": "Massy",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q39637",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Nicolas Appert inventeur.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Appert_inventeur.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicolas_Appert_inventeur.png"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın madalya, Gümüş madalya",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Girolamo Savonarola",
+  "dogum_tarihi": "1452-09-30",
+  "vefat_tarihi": "1498-06-01",
+  "vefat_yasi": 45,
+  "dogum_yeri": "Ferrara",
+  "vefat_yeri": "Signoria Meydanı",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q164823",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Girolamo Savonarola.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fra Bartolomeo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Girolamo_Savonarola.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Girolamo_Savonarola.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death",
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Tokugawa Ieyasu",
+  "dogum_tarihi": "1543-02-10",
+  "vefat_tarihi": "1616-06-01",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Okazaki Kalesi",
+  "vefat_yeri": "Sunpu Castle",
+  "defin_yeri": "Nikkō Tōshō-gū",
+  "defin_il": null,
+  "defin_ulke": "Japonya",
+  "wikidata_id": "Q171977",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Tokugawa Ieyasu2.JPG",
+   "lisans": "Public domain",
+   "yazar": "Kanō Tan'yū",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa_Ieyasu2.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieyasu2.JPG"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Şogun, Udaijin",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Erik Satie",
+  "dogum_tarihi": "1866-05-17",
+  "vefat_tarihi": "1925-07-01",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Honfleur",
+  "vefat_yeri": "Pierre-Larousse Sokağı",
+  "defin_yeri": "Cemetery of Arcueil",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q187192",
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Satie-erik-4ff9d0bde1749.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Sonia y natalia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Satie-erik-4ff9d0bde1749.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Satie-erik-4ff9d0bde1749.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Gnossiennes”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yves Saint Laurent",
+  "dogum_tarihi": "1936-08-01",
+  "vefat_tarihi": "2008-06-01",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Vehran",
+  "vefat_yeri": "Paris'in 7. bölgesi",
+  "defin_yeri": "Merakeş",
+  "defin_il": null,
+  "defin_ulke": "Fas",
+  "wikidata_id": "Q171556",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Yves Saint-Laurent at his old studio of the same name, 1961 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "L'Espresso",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yves_Saint-Laurent_at_his_old_studio_of_the_same_name%2C_1961_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yves_Saint-Laurent_at_his_old_studio_of_the_same_name%2C_1961_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Yves Saint Laurent”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "IV. Alexander",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1261-06-01",
+  "vefat_yasi": null,
+  "dogum_yeri": "Jenne",
+  "vefat_yeri": "Viterbo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q169915",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "B Alexander IV.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Alexander_IV.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:B_Alexander_IV.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Anna Seghers",
+  "dogum_tarihi": "1900-11-19",
+  "vefat_tarihi": "1983-06-01",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Mainz",
+  "vefat_yeri": "Doğu Berlin",
+  "defin_yeri": "Dorotheenstadt Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57393",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Anna Seghers (Bundesarchiv-Bild 183-F0114-0204-003) – retouched by Carschten.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Hochneder, Christa",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Seghers_%28Bundesarchiv-Bild_183-F0114-0204-003%29_%E2%80%93_retouched_by_Carschten.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anna_Seghers_%28Bundesarchiv-Bild_183-F0114-0204-003%29_%E2%80%93_retouched_by_Carschten.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Kızıl Bayrak İşçi Nişanı. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Simeon",
+  "dogum_tarihi": "0863",
+  "vefat_tarihi": "0927-06-01",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Ağababa",
+  "vefat_yeri": "Eski İstanbulluk",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192264",
+  "sitelink": 59,
+  "fotograf": {
+   "dosya": "Видин, май 2013 - panoramio (79).jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "Nikolai Karaneschev",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4%D0%B8%D0%BD%2C_%D0%BC%D0%B0%D0%B9_2013_-_panoramio_%2879%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B4%D0%B8%D0%BD%2C_%D0%BC%D0%B0%D0%B9_2013_-_panoramio_%2879%29.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: han, İmparator",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Thomas Riley Marshall",
+  "dogum_tarihi": "1854-03-14",
+  "vefat_tarihi": "1925-06-01",
+  "vefat_yasi": 71,
+  "dogum_yeri": "North Manchester",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Crown Hill Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q299001",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Thomas Riley Marshall headshot.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Riley_Marshall_headshot.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Thomas_Riley_Marshall_headshot.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, İndiana valisi",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,301 @@
+[
+ {
+  "ad": "Cevdet Sunay",
+  "dogum_tarihi": "1899-02-10",
+  "vefat_tarihi": "1982-05-22",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Trabzon",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Devlet Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q158500",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Turkse chef Generale staf (Generaal Sunay), Bestanddeelnr 916-7535 (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "F.N. Broers / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turkse_chef_Generale_staf_%28Generaal_Sunay%29%2C_Bestanddeelnr_916-7535_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Turkse_chef_Generale_staf_%28Generaal_Sunay%29%2C_Bestanddeelnr_916-7535_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Cumhurbaşkanı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Q535",
+  "dogum_tarihi": "1802-02-26",
+  "vefat_tarihi": "1885-05-22",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Besançon",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Panthéon",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q535",
+  "sitelink": 269,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Gülen Adam”, “Deniz İşçileri”, “L'art d'être grand-père”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alessandro Manzoni",
+  "dogum_tarihi": "1785-03-07",
+  "vefat_tarihi": "1873-05-22",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Milano",
+  "vefat_yeri": "Milano",
+  "defin_yeri": "Cimitero Monumentale di Milano",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1064",
+  "sitelink": 108,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pour le Mérite. Önemli eserleri: “Il conte di Carmagnola”, “Storia della colonna infame”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Jane Addams",
+  "dogum_tarihi": "1860-09-06",
+  "vefat_tarihi": "1935-05-22",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Cedarville",
+  "vefat_yeri": "Şikago",
+  "defin_yeri": "Cedarville Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q180989",
+  "sitelink": 100,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Philip Roth",
+  "dogum_tarihi": "1933-03-19",
+  "vefat_tarihi": "2018-05-22",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Newark",
+  "vefat_yeri": "Manhattan",
+  "defin_yeri": "Bard College Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q187019",
+  "sitelink": 91,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, Man Booker Uluslararası Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Langston Hughes",
+  "dogum_tarihi": "1901-02-01",
+  "vefat_tarihi": "1967-05-22",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Joplin",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Schomburg Center for Research in Black Culture",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q188093",
+  "sitelink": 88,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "I. Ioannes",
+  "dogum_tarihi": "0470",
+  "vefat_tarihi": "0526-05-22",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Siena",
+  "vefat_yeri": "Ravenna",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q160916",
+  "sitelink": 80,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "VII. Alexander",
+  "dogum_tarihi": "1599-02-13",
+  "vefat_tarihi": "1667-05-22",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Siena",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q127254",
+  "sitelink": 80,
+  "fotograf": {
+   "dosya": "Portrait of Pope Alexander VII Chigi (by Giovanni Battista Gaulli - Baciccio).jpg",
+   "lisans": "Public domain",
+   "yazar": "Giovanni Battista Gaulli",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Alexander_VII_Chigi_%28by_Giovanni_Battista_Gaulli_-_Baciccio%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Pope_Alexander_VII_Chigi_%28by_Giovanni_Battista_Gaulli_-_Baciccio%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Martha Washington",
+  "dogum_tarihi": "1731-06-13",
+  "vefat_tarihi": "1802-05-22",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Chestnut Grove",
+  "vefat_yeri": "Mount Vernon",
+  "defin_yeri": "Mount Vernon",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q191789",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Martha Washington.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martha_Washington.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Martha_Washington.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri'nde First Lady",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alfred Hershey",
+  "dogum_tarihi": "1908-12-04",
+  "vefat_tarihi": "1997-05-22",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Owosso",
+  "vefat_yeri": "Syosset",
+  "defin_yeri": "Memorial Cemetery of St. John's Church",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q271703",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Alfred Hershey.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Hershey.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfred_Hershey.jpg"
+  },
+  "meslek": [
+   "Kimyager"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Kimya Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Martin Gardner",
+  "dogum_tarihi": "1914-10-21",
+  "vefat_tarihi": "2010-05-22",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Tulsa",
+  "vefat_yeri": "Norman",
+  "defin_yeri": "kremasyon",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q677706",
+  "sitelink": 53,
+  "fotograf": {
+   "dosya": "Author Martin Gardner at a CSICOP Executive Council Meeting in 1979.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "RobertoTenore",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Author_Martin_Gardner_at_a_CSICOP_Executive_Council_Meeting_in_1979.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Author_Martin_Gardner_at_a_CSICOP_Executive_Council_Meeting_in_1979.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: David Hilbert Ödülü. Önemli eserleri: “Hah, Buldum !”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yuri Dolgoruki",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "1157-05-22",
+  "vefat_yasi": null,
+  "dogum_yeri": "Pereyaslav",
+  "vefat_yeri": "Kiev",
+  "defin_yeri": "Berestove Kurtarıcı Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "Ukrayna",
+  "wikidata_id": "Q275106",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Yuri I Dolgoruky.png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Царский титулярник",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuri_I_Dolgoruky.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yuri_I_Dolgoruky.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

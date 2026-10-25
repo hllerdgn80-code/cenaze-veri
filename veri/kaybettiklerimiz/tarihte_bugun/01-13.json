@@ -1,0 +1,338 @@
+[
+ {
+  "ad": "James Joyce",
+  "dogum_tarihi": "1882-02-02",
+  "vefat_tarihi": "1941-01-13",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Rathgar",
+  "vefat_yeri": "Zürih",
+  "defin_yeri": "Fluntern Cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q6882",
+  "sitelink": 207,
+  "fotograf": {
+   "dosya": "James Joyce by Alex Ehrenzweig, 1915 cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "James_Joyce_by_Alex_Ehrenzweig,_1915_restored.jpg: *James_Joyce_by_Alex_Ehrenzweig,_1915.jpg: Alex Ehrenzweig derivative work: RedAppleJack (talk) derivative work: Missionary (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Joyce_by_Alex_Ehrenzweig%2C_1915_cropped.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Dublinliler”, “Sanatçının Bir Genç Adam Olarak Portresi”, “Finnegans Wake”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Servius Sulpicius Galba",
+  "dogum_tarihi": "-0002-12-22",
+  "vefat_tarihi": "0069-01-13",
+  "vefat_yasi": 69,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Terracina",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Roma",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q1414",
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Stockholm - Antikengalerie 4 - Büste Kaiser Galba.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Wolfgang Sauber",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stockholm_-_Antikengalerie_4_-_B%C3%BCste_Kaiser_Galba.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Stockholm_-_Antikengalerie_4_-_B%C3%BCste_Kaiser_Galba.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Romalı konsül, Roma valisi",
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Agatho",
+  "dogum_tarihi": "0574",
+  "vefat_tarihi": "0681-01-13",
+  "vefat_yasi": 107,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Palermo",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q104467",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Pope Agatho (Menologion of Basil II) - cropped.jpg",
+   "lisans": "Public domain",
+   "yazar": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]: Pantoleon with Georgios, Michael the Younger, Michael of Blachernae, Symeon, Symeon of Blacherna",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Agatho_%28Menologion_of_Basil_II%29_-_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Agatho_%28Menologion_of_Basil_II%29_-_cropped.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Hubert Humphrey",
+  "dogum_tarihi": "1911-05-27",
+  "vefat_tarihi": "1978-01-13",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Wallace",
+  "vefat_yeri": "Waverly",
+  "defin_yeri": "Lakewood Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q209989",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Hubert Humphrey vice presidential portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Library of Congress",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hubert_Humphrey_vice_presidential_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hubert_Humphrey_vice_presidential_portrait.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, Başkanlık Özgürlük Madalyası. Görev: Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Maria Sibylla Merian",
+  "dogum_tarihi": "1647-04-02",
+  "vefat_tarihi": "1717-01-13",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Frankfurt",
+  "vefat_yeri": "Amsterdam",
+  "defin_yeri": "Heiligewegs- en Leidsche Kerkhof",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q62530",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Bildnis der Maria Sibylla Merian, 1679.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacob Marrel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bildnis_der_Maria_Sibylla_Merian%2C_1679.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bildnis_der_Maria_Sibylla_Merian%2C_1679.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Şişman Karl",
+  "dogum_tarihi": "0839",
+  "vefat_tarihi": "0888-01-13",
+  "vefat_yasi": 49,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Neudingen",
+  "vefat_yeri": "Neudingen",
+  "defin_yeri": "Reichenau Manastırı",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q150712",
+  "sitelink": 72,
+  "fotograf": {
+   "dosya": "Charles III the Fat.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_III_the_Fat.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_III_the_Fat.jpg"
+  },
+  "meslek": [
+   "Hükümdar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ali Şir Nevai",
+  "dogum_tarihi": "1441-02-18",
+  "vefat_tarihi": "1501-01-13",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Herat",
+  "vefat_yeri": "Herat",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q503340",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Amir Ali-Shir Nava'i before Sultan Husayn Bayqara in 1486 Herat.jpg",
+   "lisans": "Public domain",
+   "yazar": "1486 artist, Herat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amir_Ali-Shir_Nava%27i_before_Sultan_Husayn_Bayqara_in_1486_Herat.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Amir_Ali-Shir_Nava%27i_before_Sultan_Husayn_Bayqara_in_1486_Herat.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: kubbealtı veziri",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Arcangelo Corelli",
+  "dogum_tarihi": "1653-02-17",
+  "vefat_tarihi": "1713-01-08",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Fusignano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Panteon",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q164475",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Arcangelo Corelli 2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jan Frans van Douven",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arcangelo_Corelli_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arcangelo_Corelli_2.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “On iki konçerto grosso, Op. 6 (Corelli)”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Alexander Stepanovich Popov",
+  "dogum_tarihi": "1859-03-16",
+  "vefat_tarihi": "1906-01-13",
+  "vefat_yasi": 46,
+  "dogum_yeri": "Krasnoturinsk",
+  "vefat_yeri": "Sankt-Peterburg",
+  "defin_yeri": "Volkovo Cemetery Writer's Walkways",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q191799",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Alexander Stepanovich Popov.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Stepanovich_Popov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexander_Stepanovich_Popov.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rauf Denktaş",
+  "dogum_tarihi": "1924-01-27",
+  "vefat_tarihi": "2012-01-13",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Baf",
+  "vefat_yeri": "Kuzey Lefkoşa",
+  "defin_yeri": "Kuzey Lefkoşa",
+  "defin_il": null,
+  "defin_ulke": "Kıbrıs",
+  "wikidata_id": "Q200436",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Rauf Denktash.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rauf_Denktash.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rauf_Denktash.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Türkiye Cumhuriyeti Devlet Şeref Madalyası, Atatürk Uluslararası Barış Ödülü. Görev: Kıbrıs Cumhuriyeti başkan yardımcısı, Kuzey Kıbrıs cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Chiang Ching-kuo",
+  "dogum_tarihi": "1910-04-27",
+  "vefat_tarihi": "1988-01-13",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Fenghua District",
+  "vefat_yeri": "Seven Seas Residence",
+  "defin_yeri": "Touliao Mausoleum",
+  "defin_il": null,
+  "defin_ulke": "Tayvan",
+  "wikidata_id": "Q313598",
+  "sitelink": 53,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Schuyler Colfax",
+  "dogum_tarihi": "1823-03-23",
+  "vefat_tarihi": "1885-01-13",
+  "vefat_yasi": 61,
+  "dogum_yeri": "New York",
+  "vefat_yeri": "Mankato",
+  "defin_yeri": "South Bend City Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q310852",
+  "sitelink": 52,
+  "fotograf": {
+   "dosya": "Schuyler Colfax, photo portrait seated, c1855-1865.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schuyler_Colfax%2C_photo_portrait_seated%2C_c1855-1865.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Schuyler_Colfax%2C_photo_portrait_seated%2C_c1855-1865.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, Birleşik Devletler Temsilciler Meclis Sözcüsü",
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,335 @@
+[
+ {
+  "ad": "Rudolf von Sebottendorf",
+  "dogum_tarihi": "1875-11-09",
+  "vefat_tarihi": "1945-05-08",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Hoyerswerda",
+  "vefat_yeri": "Türkiye",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q61398",
+  "sitelink": 23,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Zeki Alasya",
+  "dogum_tarihi": "1943-04-18",
+  "vefat_tarihi": "2015-05-08",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Şehzadebaşı",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q187253",
+  "sitelink": 16,
+  "fotograf": {
+   "dosya": "Zeki ALASYA.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Serkan Yakın",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zeki_ALASYA.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Zeki_ALASYA.jpg"
+  },
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü, Devlet Sanatçısı",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Kemal Derviş",
+  "dogum_tarihi": "1949-01-10",
+  "vefat_tarihi": "2023-05-08",
+  "vefat_yasi": 74,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Maryland",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q205790",
+  "sitelink": 15,
+  "fotograf": {
+   "dosya": "Kemal Dervis.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "World Economic Forum swiss-image.ch/Photo by E.T. Studhalter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kemal_Dervis.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kemal_Dervis.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Birleşmiş Milletler Gelişim Programı Yöneticisi",
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Gustave Flaubert",
+  "dogum_tarihi": "1821-12-12",
+  "vefat_tarihi": "1880-05-08",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Rouen",
+  "vefat_yeri": "Croisset",
+  "defin_yeri": "Cimetière monumental de Rouen",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q43444",
+  "sitelink": 160,
+  "fotograf": {
+   "dosya": "Gustave Flaubert.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave_Flaubert.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Gustave_Flaubert.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Duygusal Eğitim”, “Ermiş Antonius ve Şeytan”, “Üç Öykü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John Stuart Mill",
+  "dogum_tarihi": "1806-05-20",
+  "vefat_tarihi": "1873-05-08",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Pentonville",
+  "vefat_yeri": "Avignon",
+  "defin_yeri": "Saint-Véran Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q50020",
+  "sitelink": 151,
+  "fotograf": {
+   "dosya": "John Stuart Mill by London Stereoscopic Company, c1870.jpg",
+   "lisans": "Public domain",
+   "yazar": "London Stereoscopic Company",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Antoine Lavoisier",
+  "dogum_tarihi": "1743-08-26",
+  "vefat_tarihi": "1794-05-08",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Concorde Meydanı",
+  "defin_yeri": "Errancis Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q39607",
+  "sitelink": 129,
+  "fotograf": {
+   "dosya": "David - Portrait of Monsieur Lavoisier (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Jacques-Louis David",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın madalya, Royal Society Üyesi. Önemli eserleri: “Kimyanın Temelleri”, “Kütlenin korunumu yasası”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
+  "ad": "Oswald Spengler",
+  "dogum_tarihi": "1880-05-29",
+  "vefat_tarihi": "1936-05-08",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Blankenburg",
+  "vefat_yeri": "Münih",
+  "defin_yeri": "Nordfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q57112",
+  "sitelink": 90,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 183-R06610, Oswald Spengler.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-R06610%2C_Oswald_Spengler.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R06610%2C_Oswald_Spengler.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Batı'nın Çöküşü”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Teresa Teng",
+  "dogum_tarihi": "1953-01-29",
+  "vefat_tarihi": "1995-05-08",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Baojhong Township",
+  "vefat_yeri": "Chiang Mai",
+  "defin_yeri": "Chin Pao San",
+  "defin_il": null,
+  "defin_ulke": "Tayvan",
+  "wikidata_id": "Q463945",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Teresa Teng US.jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teresa_Teng_US.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Teresa_Teng_US.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Helena Petrovna Blavatsky",
+  "dogum_tarihi": "1831-08-12",
+  "vefat_tarihi": "1891-05-08",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Dnipro",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q189454",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Helena Petrovna Blavatsky.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unsure",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Helena_Petrovna_Blavatsky.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Helena_Petrovna_Blavatsky.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “The Secret Doctrine”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Talcott Parsons",
+  "dogum_tarihi": "1902-12-13",
+  "vefat_tarihi": "1979-05-08",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Colorado Springs",
+  "vefat_yeri": "Münih",
+  "defin_yeri": "Old Burying Ground",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q203913",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "TalcottParsons.jpg",
+   "lisans": "Public domain",
+   "yazar": "AnonymousUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TalcottParsons.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:TalcottParsons.jpg"
+  },
+  "meslek": [
+   "Biyolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eadweard Muybridge",
+  "dogum_tarihi": "1830-04-09",
+  "vefat_tarihi": "1904-05-08",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Kingston upon Thames",
+  "vefat_yeri": "Kingston upon Thames",
+  "defin_yeri": "Woking Crematorium",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q190568",
+  "sitelink": 56,
+  "fotograf": {
+   "dosya": "Muybridge-2.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rainer Zenz Public domain This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Muybridge-2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Muybridge-2.jpg"
+  },
+  "meslek": [
+   "Sinema oyuncusu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Festus Mogae",
+  "dogum_tarihi": "1939-08-21",
+  "vefat_tarihi": "2026-05-08",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Serove",
+  "vefat_yeri": "Gaborone",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q193238",
+  "sitelink": 55,
+  "fotograf": {
+   "dosya": "Festus Mogae 2009-06-23.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Greenweek",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Festus_Mogae_2009-06-23.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Festus_Mogae_2009-06-23.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

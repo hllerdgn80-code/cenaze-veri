@@ -1,0 +1,330 @@
+[
+ {
+  "ad": "Metin Çekmez",
+  "dogum_tarihi": "1945-07-26",
+  "vefat_tarihi": "2021-08-25",
+  "vefat_yasi": 76,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Aydın",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q3502477",
+  "sitelink": 12,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Friedrich Nietzsche",
+  "dogum_tarihi": "1844-10-15",
+  "vefat_tarihi": "1900-08-25",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Röcken",
+  "vefat_yeri": "Weimar",
+  "defin_yeri": "Röcken",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q9358",
+  "sitelink": 256,
+  "fotograf": {
+   "dosya": "Nietzsche187a.jpg",
+   "lisans": "Public domain",
+   "yazar": "Friedrich Hermann Hartmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nietzsche187a.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Zamansız Düşünceler”, “Tragedyanın Doğuşu”, “Tarihin Yaşam İçin Yararı ve Yararsızlığı Üzerine”. Görev: profesör",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Neil Armstrong",
+  "dogum_tarihi": "1930-08-05",
+  "vefat_tarihi": "2012-08-25",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Wapakoneta",
+  "vefat_yeri": "Cincinnati",
+  "defin_yeri": "Atlas Okyanusu",
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1615",
+  "sitelink": 220,
+  "fotograf": {
+   "dosya": "Neil Armstrong pose.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neil_Armstrong_pose.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
+  },
+  "meslek": [
+   "Akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Cullum Coğrafya Madalyası, Kültür Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "James Watt",
+  "dogum_tarihi": "1736-01-19",
+  "vefat_tarihi": "1819-08-25",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Greenock",
+  "vefat_yeri": "Heathfield Hall",
+  "defin_yeri": "St Mary's Church",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q9041",
+  "sitelink": 160,
+  "fotograf": {
+   "dosya": "James Watt by Henry Howard.jpg",
+   "lisans": "Public domain",
+   "yazar": "Henry Howard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Watt_by_Henry_Howard.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Watt_by_Henry_Howard.jpg"
+  },
+  "meslek": [
+   "Mucit"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "David Hume",
+  "dogum_tarihi": "1711-05-07",
+  "vefat_tarihi": "1776-08-25",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Edinburgh",
+  "vefat_yeri": "Edinburgh",
+  "defin_yeri": "Old Calton Burial Ground",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q37160",
+  "sitelink": 159,
+  "fotograf": {
+   "dosya": "David Hume Ramsay.jpg",
+   "lisans": "Public domain",
+   "yazar": "Allan Ramsay",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Hume_Ramsay.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İnsan Doğası Üzerine Bir İnceleme”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "John McCain",
+  "dogum_tarihi": "1936-08-29",
+  "vefat_tarihi": "2018-08-25",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Coco Solo",
+  "vefat_yeri": "Cornville",
+  "defin_yeri": "United States Naval Academy Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q10390",
+  "sitelink": 132,
+  "fotograf": {
+   "dosya": "John McCain official portrait 2009.jpg",
+   "lisans": "Public domain",
+   "yazar": "United States Congress",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_McCain_official_portrait_2009.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_McCain_official_portrait_2009.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Mor Kalp",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q180453",
+  "dogum_tarihi": "1946-01-19",
+  "vefat_tarihi": "2026-08-25",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Pittman Center",
+  "vefat_yeri": "Vanderbilt-Ingram Cancer Center",
+  "defin_yeri": "Woodlawn Memorial Park Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q180453",
+  "sitelink": 123,
+  "fotograf": {
+   "dosya": "Young-Dolly-Parton.jpg",
+   "lisans": "Public domain",
+   "yazar": "David Gahr",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young-Dolly-Parton.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton.jpg"
+  },
+  "meslek": [
+   "Şarkıcı-şarkı yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, Grammy Yaşam Boyu Başarı Ödülü. Önemli eserleri: “Jolene”, “9 to 5”, “I Will Always Love You”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Henri Becquerel",
+  "dogum_tarihi": "1852-12-15",
+  "vefat_tarihi": "1908-08-25",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "manoir de Pen Castel",
+  "defin_yeri": "Châtillon-Coligny",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q41269",
+  "sitelink": 111,
+  "fotograf": {
+   "dosya": "Paul Nadar - Henri Becquerel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Paul Nadar / Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Nadar_-_Henri_Becquerel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Truman Capote",
+  "dogum_tarihi": "1924-09-30",
+  "vefat_tarihi": "1984-08-25",
+  "vefat_yasi": 59,
+  "dogum_yeri": "New Orleans",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q134180",
+  "sitelink": 103,
+  "fotograf": {
+   "dosya": "Truman Capote by Jack Mitchell.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jack Mitchell",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Truman_Capote_by_Jack_Mitchell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Truman_Capote_by_Jack_Mitchell.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: O. Henry Ödülü. Önemli eserleri: “Tiffany'de Kahvaltı”, “Soğukkanlılıkla”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Eyvind Johnson",
+  "dogum_tarihi": "1900-07-29",
+  "vefat_tarihi": "1976-08-25",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Boden",
+  "vefat_yeri": "Stockholm",
+  "defin_yeri": "Skogskyrkogården",
+  "defin_il": null,
+  "defin_ulke": "İsveç",
+  "wikidata_id": "Q131326",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Eyvind.JPG",
+   "lisans": "Public domain",
+   "yazar": "Meyere de, Jan",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eyvind.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eyvind.JPG"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Aaliyah",
+  "dogum_tarihi": "1979-01-16",
+  "vefat_tarihi": "2001-08-25",
+  "vefat_yasi": 22,
+  "dogum_yeri": "Brooklyn",
+  "vefat_yeri": "Marsh Harbour",
+  "defin_yeri": "Ferncliff Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q11617",
+  "sitelink": 76,
+  "fotograf": {
+   "dosya": "Aaliyah-02.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "mika-photography.com",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaliyah-02.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aaliyah-02.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: MTV Video Müzik Ödülleri En İyi Kadın Videosu. Aday olduğu ödül: MTV Video Müzik Ödülleri En İyi R&B Video, MTV Video Müzik Ödülleri En İyi Koreografi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "XIV. Johannes",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0984-08-25",
+  "vefat_yasi": null,
+  "dogum_yeri": "Pavia",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "San Pietro Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Vatikan",
+  "wikidata_id": "Q227972",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Pope John XIV Illustration.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XIV_Illustration.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_John_XIV_Illustration.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Papa, Diosezan piskopos",
+  "hassas": false,
+  "turk": false
+ }
+]

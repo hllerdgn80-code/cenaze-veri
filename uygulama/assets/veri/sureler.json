@@ -1,0 +1,805 @@
+{
+ "aciklama": "25.10.2026 sahibi: Dualar ve Âyetler bölümüne Yâsîn, Mülk, Nebe’ sûreleri (Arapça tam metin + Türkçe okunuş; 'Türkçe yazılışını oku' düğmesi sayfayı okunuşa çevirir).",
+ "besmele_ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+ "besmele_ok": "Bismillâhirrahmânirrahîm.",
+ "sureler": [
+  {
+   "id": "sure-36",
+   "no": 36,
+   "ad": "Yâsîn Sûresi",
+   "kisa": "Yâsîn",
+   "alt": "36. sûre · 83 âyet · Mekkî",
+   "besmele": true,
+   "ayetler": [
+    {
+     "n": 1,
+     "ar": " يسٓ",
+     "ok": "Yâsîn."
+    },
+    {
+     "n": 2,
+     "ar": "وَٱلْقُرْءَانِ ٱلْحَكِيمِ",
+     "ok": "Velkur’ânil hakîm."
+    },
+    {
+     "n": 3,
+     "ar": "إِنَّكَ لَمِنَ ٱلْمُرْسَلِينَ",
+     "ok": "Inneke leminel mürselîn."
+    },
+    {
+     "n": 4,
+     "ar": "عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+     "ok": "’Alâ sirâtim müstekîm."
+    },
+    {
+     "n": 5,
+     "ar": "تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ",
+     "ok": "Tenzîlel ’azîzir rahîm."
+    },
+    {
+     "n": 6,
+     "ar": "لِتُنذِرَ قَوْمًا مَّآ أُنذِرَ ءَابَآؤُهُمْ فَهُمْ غَـٰفِلُونَ",
+     "ok": "Litünzira kavmem mâ ünzira âbâühüm fehüm gâfilûn."
+    },
+    {
+     "n": 7,
+     "ar": "لَقَدْ حَقَّ ٱلْقَوْلُ عَلَىٰٓ أَكْثَرِهِمْ فَهُمْ لَا يُؤْمِنُونَ",
+     "ok": "Lekad hakkal kavlü ’alâ ekserihim fehüm lâ yü’minûn."
+    },
+    {
+     "n": 8,
+     "ar": "إِنَّا جَعَلْنَا فِىٓ أَعْنَـٰقِهِمْ أَغْلَـٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم مُّقْمَحُونَ",
+     "ok": "Innâ ce’alnâ fî a’nâkihim aglâlen fehiye ilel ’ezkâni fehüm mukmehûn."
+    },
+    {
+     "n": 9,
+     "ar": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَـٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
+     "ok": "Vece’alnâ mim beyni eydîhim seddev vemin halfihim sedden feagşeynâhüm fehüm lâ yübsirûn."
+    },
+    {
+     "n": 10,
+     "ar": "وَسَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+     "ok": "Vesevâün ’aleyhim eenzertehüm em lem tünzirhüm lâ yü’minûn."
+    },
+    {
+     "n": 11,
+     "ar": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَـٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+     "ok": "Innemâ tünziru menit tebe’az zikra vehaşiyer rahmâne bilgayb. Febeşşirhü bimagfirativ veecrin kerîm."
+    },
+    {
+     "n": 12,
+     "ar": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَـٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+     "ok": "Innâ nahnü nuhyil mevtâ venektübü mâ kaddemû veâsârahüm. Vekülle şey’in ahsaynâhü fî imâmim mübîn."
+    },
+    {
+     "n": 13,
+     "ar": "وَٱضْرِبْ لَهُم مَّثَلًا أَصْحَـٰبَ ٱلْقَرْيَةِ إِذْ جَآءَهَا ٱلْمُرْسَلُونَ",
+     "ok": "Vadrib lehüm meselen ashâbel karyeh. Iz câehel mürselûn."
+    },
+    {
+     "n": 14,
+     "ar": "إِذْ أَرْسَلْنَآ إِلَيْهِمُ ٱثْنَيْنِ فَكَذَّبُوهُمَا فَعَزَّزْنَا بِثَالِثٍ فَقَالُوٓا۟ إِنَّآ إِلَيْكُم مُّرْسَلُونَ",
+     "ok": "Iz erselnâ ileyhimüsneyni fekezzebûhümâ fe’azzeznâ bisâlisin fekâlû innâ ileyküm mürselûn."
+    },
+    {
+     "n": 15,
+     "ar": "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَـٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
+     "ok": "Kâlû mâ entüm illâ beşerum mislünâ vemâ enzeler rahmânü min şey’in in entüm illâ tekzibûn."
+    },
+    {
+     "n": 16,
+     "ar": "قَالُوا۟ رَبُّنَا يَعْلَمُ إِنَّآ إِلَيْكُمْ لَمُرْسَلُونَ",
+     "ok": "Kâlû rabbünâ ya’lemü innâ ileyküm lemürselûn."
+    },
+    {
+     "n": 17,
+     "ar": "وَمَا عَلَيْنَآ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+     "ok": "Vemâ ’aleynâ illel belâgul mübîn."
+    },
+    {
+     "n": 18,
+     "ar": "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
+     "ok": "Kâlû innâ tetayyernâ biküm. Leil lem tentehû lenercümenneküm veleyemessenneküm minnâ ’azâbün elîm."
+    },
+    {
+     "n": 19,
+     "ar": "قَالُوا۟ طَـٰٓئِرُكُم مَّعَكُمْ ۚ أَئِن ذُكِّرْتُم ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+     "ok": "Kâlû tâiruküm me’aküm. Ein zükkirtüm. Bel entüm kavmüm müsrifûn."
+    },
+    {
+     "n": 20,
+     "ar": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَـٰقَوْمِ ٱتَّبِعُوا۟ ٱلْمُرْسَلِينَ",
+     "ok": "Vecâe min aksel medîneti racülüy yes’â kâle yâ kavmit tebi’ül mürselîn."
+    },
+    {
+     "n": 21,
+     "ar": "ٱتَّبِعُوا۟ مَن لَّا يَسْـَٔلُكُمْ أَجْرًا وَهُم مُّهْتَدُونَ",
+     "ok": "Ittebi’û mel lâ yes’elüküm ecrav vehüm mühtedûn."
+    },
+    {
+     "n": 22,
+     "ar": "وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى فَطَرَنِى وَإِلَيْهِ تُرْجَعُونَ",
+     "ok": "Vemâ liye lâ a’büdül lezî fetaranî veileyhi türce’ûn."
+    },
+    {
+     "n": 23,
+     "ar": "ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَـٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَـٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
+     "ok": "Eettehizü min dûnihî âliheten iy yüridnir rahmânü bidurril lâ tugni ’annî şefâ’atühüm şey’ev velâ yünkizûn."
+    },
+    {
+     "n": 24,
+     "ar": "إِنِّىٓ إِذًا لَّفِى ضَلَـٰلٍ مُّبِينٍ",
+     "ok": "Innî izel lefî dalâlim mübîn."
+    },
+    {
+     "n": 25,
+     "ar": "إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ",
+     "ok": "Innî âmentü birabbiküm fesme’ûn."
+    },
+    {
+     "n": 26,
+     "ar": "قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَـٰلَيْتَ قَوْمِى يَعْلَمُونَ",
+     "ok": "Kîledhulil cenneh. Kâle yâ leyte kavmî ya’lemûn."
+    },
+    {
+     "n": 27,
+     "ar": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ",
+     "ok": "Bimâ gafera lî rabbî vece’alenî minel mükramîn."
+    },
+    {
+     "n": 28,
+     "ar": "۞ وَمَآ أَنزَلْنَا عَلَىٰ قَوْمِهِۦ مِنۢ بَعْدِهِۦ مِن جُندٍ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ",
+     "ok": "Vemâ enzelnâ ’alâ kavmihî mim ba’dihî min cündim mines semâi vemâ künnâ münzilîn."
+    },
+    {
+     "n": 29,
+     "ar": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ خَـٰمِدُونَ",
+     "ok": "In kânet illâ sayhatev vâhideten feizâ hüm hâmidûn."
+    },
+    {
+     "n": 30,
+     "ar": "يَـٰحَسْرَةً عَلَى ٱلْعِبَادِ ۚ مَا يَأْتِيهِم مِّن رَّسُولٍ إِلَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+     "ok": "Yâ hasraten ’alel ’ibâd. Mâ ye’tîhim mir rasûlin illâ kânû bihî yestehziûn."
+    },
+    {
+     "n": 31,
+     "ar": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
+     "ok": "Elem yerav kem ehleknâ kablehüm minel kurûni ennehüm ileyhim lâ yerci’ûn."
+    },
+    {
+     "n": 32,
+     "ar": "وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+     "ok": "Vein küllül lemmâ cemî’ul ledeynâ muhdarûn."
+    },
+    {
+     "n": 33,
+     "ar": "وَءَايَةٌ لَّهُمُ ٱلْأَرْضُ ٱلْمَيْتَةُ أَحْيَيْنَـٰهَا وَأَخْرَجْنَا مِنْهَا حَبًّا فَمِنْهُ يَأْكُلُونَ",
+     "ok": "Veâyetül lehümül ’ardul meyteh. Ahyeynâhâ veahracnâ minhâ habben feminhü ye’külûn."
+    },
+    {
+     "n": 34,
+     "ar": "وَجَعَلْنَا فِيهَا جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ وَفَجَّرْنَا فِيهَا مِنَ ٱلْعُيُونِ",
+     "ok": "Vece’alnâ fîhâ cennâtim min nehîliv vea’nâbiv vefeccernâ fîhâ minel ’uyûn."
+    },
+    {
+     "n": 35,
+     "ar": "لِيَأْكُلُوا۟ مِن ثَمَرِهِۦ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ",
+     "ok": "Liye’külû min semerihî vemâ ’amilethü eydîhim. Efelâ yeşkürûn."
+    },
+    {
+     "n": 36,
+     "ar": "سُبْحَـٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+     "ok": "Sübhânel lezî halekal ’ezvâce küllehâ mimmâ tümbitül ’ardu vemin enfüsihim vemimmâ lâ ya’lemûn."
+    },
+    {
+     "n": 37,
+     "ar": "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
+     "ok": "Veâyetül lehümül leyl. Neslehu minhün nehâra feizâ hüm muzlimûn."
+    },
+    {
+     "n": 38,
+     "ar": "وَٱلشَّمْسُ تَجْرِى لِمُسْتَقَرٍّ لَّهَا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
+     "ok": "Veşşemsü tecrî limüstekarril lehâ. Zâlike takdîrul ’azîzil ’alîm."
+    },
+    {
+     "n": 39,
+     "ar": "وَٱلْقَمَرَ قَدَّرْنَـٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
+     "ok": "Velkamera kaddernâhü menâzile hattâ ’âde kel’urcûnil kadîm."
+    },
+    {
+     "n": 40,
+     "ar": "لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ سَابِقُ ٱلنَّهَارِ ۚ وَكُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+     "ok": "Leş şemsü yembegî lehâ en tüdrikel kamera velel leylü sâbikun nehâr. Veküllün fî felekiy yesbehûn."
+    },
+    {
+     "n": 41,
+     "ar": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+     "ok": "Veâyetül lehüm ennâ hamelnâ zürriyyetehüm fil fülkil meşhûn."
+    },
+    {
+     "n": 42,
+     "ar": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
+     "ok": "Vehalaknâ lehüm mim mislihî mâ yerkebûn."
+    },
+    {
+     "n": 43,
+     "ar": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+     "ok": "Vein neşe’ nugrikhüm felâ sarîha lehüm velâ hüm yünkazûn."
+    },
+    {
+     "n": 44,
+     "ar": "إِلَّا رَحْمَةً مِّنَّا وَمَتَـٰعًا إِلَىٰ حِينٍ",
+     "ok": "Illâ rahmetem minnâ vemetâ’an ilâ hîn."
+    },
+    {
+     "n": 45,
+     "ar": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
+     "ok": "Veizâ kîle lehümüt tekû mâ beyne eydîküm vemâ halfeküm le’alleküm türhamûn."
+    },
+    {
+     "n": 46,
+     "ar": "وَمَا تَأْتِيهِم مِّنْ ءَايَةٍ مِّنْ ءَايَـٰتِ رَبِّهِمْ إِلَّا كَانُوا۟ عَنْهَا مُعْرِضِينَ",
+     "ok": "Vemâ te’tîhim min âyetim min âyâti rabbihim illâ kânû ’anhâ mü’ridîn."
+    },
+    {
+     "n": 47,
+     "ar": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ",
+     "ok": "Veizâ kîle lehüm enfikû mimmâ razekakümül lâhü kâlel lezîne keferû lillezîne âmenû enut’imü mel lev yeşâül lâhü at’ameh. In entüm illâ fî dalâlim mübîn."
+    },
+    {
+     "n": 48,
+     "ar": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
+     "ok": "Veyekûlûne metâ hâzel va’dü in küntüm sâdikîn."
+    },
+    {
+     "n": 49,
+     "ar": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَٰحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
+     "ok": "Mâ yenzurûne illâ sayhatev vâhideten te’huzühüm vehüm yehissimûn."
+    },
+    {
+     "n": 50,
+     "ar": "فَلَا يَسْتَطِيعُونَ تَوْصِيَةً وَلَآ إِلَىٰٓ أَهْلِهِمْ يَرْجِعُونَ",
+     "ok": "Felâ yestetî’ûne tevsiyetev velâ ilâ ehlihim yerci’ûn."
+    },
+    {
+     "n": 51,
+     "ar": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+     "ok": "Venüfiha fis sûri feizâ hüm minel ’ecdâsi ilâ rabbihim yensilûn."
+    },
+    {
+     "n": 52,
+     "ar": "قَالُوا۟ يَـٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَـٰذَا مَا وَعَدَ ٱلرَّحْمَـٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ",
+     "ok": "Kâlû yâ veylenâ mem be’asenâ mim merkadinâ. Hâzâ mâ ve’ader rahmânü vesadekal mürselûn."
+    },
+    {
+     "n": 53,
+     "ar": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
+     "ok": "In kânet illâ sayhatev vâhideten feizâ hüm cemî’ul ledeynâ muhdarûn."
+    },
+    {
+     "n": 54,
+     "ar": "فَٱلْيَوْمَ لَا تُظْلَمُ نَفْسٌ شَيْـًٔا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+     "ok": "Felyevme lâ tuzlemü nefsün şey’ev velâ tüczevne illâ mâ küntüm ta’melûn."
+    },
+    {
+     "n": 55,
+     "ar": "إِنَّ أَصْحَـٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍ فَـٰكِهُونَ",
+     "ok": "Inne ashâbel cennehil yevme fî şügulin fâkihûn."
+    },
+    {
+     "n": 56,
+     "ar": "هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَـٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ",
+     "ok": "Hüm veezvâcühüm fî zilâlin ’alel ’erâiki müttekiûn."
+    },
+    {
+     "n": 57,
+     "ar": "لَهُمْ فِيهَا فَـٰكِهَةٌ وَلَهُم مَّا يَدَّعُونَ",
+     "ok": "Lehüm fîhâ fâkihetüv velehüm mâ yedde’ûn."
+    },
+    {
+     "n": 58,
+     "ar": "سَلَـٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
+     "ok": "Selâmün kavlem mir rabbir rahîm."
+    },
+    {
+     "n": 59,
+     "ar": "وَٱمْتَـٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ",
+     "ok": "Vemtâzül yevme eyyühel mücrimûn."
+    },
+    {
+     "n": 60,
+     "ar": "۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَـٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَـٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+     "ok": "Elem a’hed ileyküm yâ benî âdeme el lâ ta’büdüş şeytân. Innehû leküm ’adüvvüm mübîn."
+    },
+    {
+     "n": 61,
+     "ar": "وَأَنِ ٱعْبُدُونِى ۚ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
+     "ok": "Veeni’büdûnî. Hâzâ sirâtum müstekîm."
+    },
+    {
+     "n": 62,
+     "ar": "وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ",
+     "ok": "Velekad edalle minküm cibillen kesîrâ. Efelem tekûnû ta’kilûn."
+    },
+    {
+     "n": 63,
+     "ar": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
+     "ok": "Hâzihî cehennemül letî küntüm tû’adûn."
+    },
+    {
+     "n": 64,
+     "ar": "ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+     "ok": "Islevhel yevme bimâ küntüm tekfürûn."
+    },
+    {
+     "n": 65,
+     "ar": "ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+     "ok": "Elyevme nahtimü ’alâ efvâhihim vetükellimünâ eydîhim veteşhedü ercülühüm bimâ kânû yeksibûn."
+    },
+    {
+     "n": 66,
+     "ar": "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ",
+     "ok": "Velev neşâü letamesnâ ’alâ a’yünihim festebekus sirâta feennâ yübsirûn."
+    },
+    {
+     "n": 67,
+     "ar": "وَلَوْ نَشَآءُ لَمَسَخْنَـٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَـٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
+     "ok": "Velev neşâü lemesahnâhüm ’alâ mekânetihim femestetâ’û müdiyyev velâ yerci’ûn."
+    },
+    {
+     "n": 68,
+     "ar": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+     "ok": "Vemen nü’ammirhü nünekkishü fil halk. Efelâ ya’kilûn."
+    },
+    {
+     "n": 69,
+     "ar": "وَمَا عَلَّمْنَـٰهُ ٱلشِّعْرَ وَمَا يَنۢبَغِى لَهُۥٓ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْءَانٌ مُّبِينٌ",
+     "ok": "Vemâ ’allemnâhüş şi’ra vemâ yembegî leh. In hüve illâ zikruv vekur’ânüm mübîn."
+    },
+    {
+     "n": 70,
+     "ar": "لِّيُنذِرَ مَن كَانَ حَيًّا وَيَحِقَّ ٱلْقَوْلُ عَلَى ٱلْكَـٰفِرِينَ",
+     "ok": "Liyünzira men kâne hayyev veyehikkal kavlü ’alel kâfirîn."
+    },
+    {
+     "n": 71,
+     "ar": "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَـٰمًا فَهُمْ لَهَا مَـٰلِكُونَ",
+     "ok": "Evelem yerav ennâ halaknâ lehüm mimmâ ’amilet eydînâ en’âmen fehüm lehâ mâlikûn."
+    },
+    {
+     "n": 72,
+     "ar": "وَذَلَّلْنَـٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+     "ok": "Vezellelnâhâ lehüm feminhâ rakûbühüm veminhâ ye’külûn."
+    },
+    {
+     "n": 73,
+     "ar": "وَلَهُمْ فِيهَا مَنَـٰفِعُ وَمَشَارِبُ ۖ أَفَلَا يَشْكُرُونَ",
+     "ok": "Velehüm fîhâ menâfi’u vemeşârib. Efelâ yeşkürûn."
+    },
+    {
+     "n": 74,
+     "ar": "وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لَّعَلَّهُمْ يُنصَرُونَ",
+     "ok": "Vettehazû min dûnil lâhi âlihetel le’allehüm yünsarûn."
+    },
+    {
+     "n": 75,
+     "ar": "لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌ مُّحْضَرُونَ",
+     "ok": "Lâ yestetî’ûne nasrahüm vehüm lehüm cündüm muhdarûn."
+    },
+    {
+     "n": 76,
+     "ar": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+     "ok": "Felâ yahzünke kavlühüm. Innâ na’lemü mâ yüsirrûne vemâ yü’linûn."
+    },
+    {
+     "n": 77,
+     "ar": "أَوَلَمْ يَرَ ٱلْإِنسَـٰنُ أَنَّا خَلَقْنَـٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+     "ok": "Evelem yeral ’insânü ennâ halaknâhü min nutfetin feizâ hüve hasîmüm mübîn."
+    },
+    {
+     "n": 78,
+     "ar": "وَضَرَبَ لَنَا مَثَلًا وَنَسِىَ خَلْقَهُۥ ۖ قَالَ مَن يُحْىِ ٱلْعِظَـٰمَ وَهِىَ رَمِيمٌ",
+     "ok": "Vedarabe lenâ meselev venesiye halkah. Kâle mey yuhyil ’izâme vehiye ramîm."
+    },
+    {
+     "n": 79,
+     "ar": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+     "ok": "Kul yuhyîhel lezî enşeehâ evvele merrah. Vehüve bikülli halkin ’alîm."
+    },
+    {
+     "n": 80,
+     "ar": "ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًا فَإِذَآ أَنتُم مِّنْهُ تُوقِدُونَ",
+     "ok": "Ellezî ce’ale leküm mineş şeceril ’ahdari nâran feizâ entüm minhü tûkidûn."
+    },
+    {
+     "n": 81,
+     "ar": "أَوَلَيْسَ ٱلَّذِى خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِقَـٰدِرٍ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ ٱلْخَلَّـٰقُ ٱلْعَلِيمُ",
+     "ok": "Eveleysel lezî halekas semâvâti vel’arda bikâdirin ’alâ ey yahlüka mislehüm. Belâ vehüvel hallâkul ’alîm."
+    },
+    {
+     "n": 82,
+     "ar": "إِنَّمَآ أَمْرُهُۥٓ إِذَآ أَرَادَ شَيْـًٔا أَن يَقُولَ لَهُۥ كُن فَيَكُونُ",
+     "ok": "Innemâ emruhû izâ erâde şey’en ey yekûle lehû kün feyekûn."
+    },
+    {
+     "n": 83,
+     "ar": "فَسُبْحَـٰنَ ٱلَّذِى بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَإِلَيْهِ تُرْجَعُونَ",
+     "ok": "Fesübhânel lezî biyedihî melekûtü külli şey’iv veileyhi türce’ûn."
+    }
+   ],
+   "k": "Kur’ân-ı Kerîm · Arapça metin: api.quran.com (Uthmani) · Okunuş: Muhammet Abay (api.alquran.cloud tr.transliteration), Türkçe okunuş yazımına sadeleştirildi"
+  },
+  {
+   "id": "sure-67",
+   "no": 67,
+   "ad": "Mülk Sûresi",
+   "kisa": "Mülk",
+   "alt": "67. sûre · 30 âyet · Mekkî",
+   "besmele": true,
+   "ayetler": [
+    {
+     "n": 1,
+     "ar": " تَبَـٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+     "ok": "Tebârakel lezî biyedihil mülk. Vehüve ’alâ külli şey’in kadîr."
+    },
+    {
+     "n": 2,
+     "ar": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ",
+     "ok": "Ellezî halekal mevte velhayâte liyeblüveküm eyyüküm ahsenü ’amelâ. Vehüvel ’azîzül gafûr."
+    },
+    {
+     "n": 3,
+     "ar": "ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَـٰنِ مِن تَفَـٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+     "ok": "Ellezî haleka seb’a semâvâtin tibâkâ. Mâ terâ fî halkir rahmâni min tefâvüt. Ferci’il besara hel terâ min fütûr."
+    },
+    {
+     "n": 4,
+     "ar": "ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ",
+     "ok": "Sümmerci’il besara kerrateyni yenkalib ileykel besaru hâsiev vehüve hasîr."
+    },
+    {
+     "n": 5,
+     "ar": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَجَعَلْنَـٰهَا رُجُومًا لِّلشَّيَـٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+     "ok": "Velekad zeyyennes semâed dünyâ bimesâbîha vece’alnâhâ rucûmel lişşeyâtîni vea’tednâ lehüm ’azâbes se’îr."
+    },
+    {
+     "n": 6,
+     "ar": "وَلِلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+     "ok": "Velillezîne keferû birabbihim ’azâbü cehennem. Vebi’sel mesîr."
+    },
+    {
+     "n": 7,
+     "ar": "إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًا وَهِىَ تَفُورُ",
+     "ok": "Izâ ülkû fîhâ semi’û lehâ şehîkav vehiye tefûr."
+    },
+    {
+     "n": 8,
+     "ar": "تَكَادُ تَمَيَّزُ مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌ",
+     "ok": "Tekâdü temeyyezü minel gayz. Küllemâ ülkiye fîhâ fevcün seelehüm hazenetühâ elem ye’tiküm nezîr."
+    },
+    {
+     "n": 9,
+     "ar": "قَالُوا۟ بَلَىٰ قَدْ جَآءَنَا نَذِيرٌ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ ٱللَّهُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ كَبِيرٍ",
+     "ok": "Kâlû belâ kad câenâ nezîrun fekezzebnâ vekulnâ mâ nezzelel lâhü min şey’. In entüm illâ fî dalâlin kebîr."
+    },
+    {
+     "n": 10,
+     "ar": "وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَـٰبِ ٱلسَّعِيرِ",
+     "ok": "Vekâlû lev künnâ nesme’u ev na’kilü mâ künnâ fî ashâbis se’îr."
+    },
+    {
+     "n": 11,
+     "ar": "فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًا لِّأَصْحَـٰبِ ٱلسَّعِيرِ",
+     "ok": "Fa’terafû bizembihim. Fesuhkal liashâbis se’îr."
+    },
+    {
+     "n": 12,
+     "ar": "إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+     "ok": "Innel lezîne yahşevne rabbehüm bilgaybi lehüm magfiratüv veecrun kebîr."
+    },
+    {
+     "n": 13,
+     "ar": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+     "ok": "Veesirrû kavleküm evicherû bih. Innehû ’alîmüm bizâtis sudûr."
+    },
+    {
+     "n": 14,
+     "ar": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+     "ok": "Elâ ya’lemü men halek. Vehüvel letîfül habîr."
+    },
+    {
+     "n": 15,
+     "ar": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+     "ok": "Hüvel lezî ce’ale lekümül ’arda zelûlen femşû fî menâkibihâ vekülû mir rizkih. Veileyhin nüşûr."
+    },
+    {
+     "n": 16,
+     "ar": "ءَأَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ تَمُورُ",
+     "ok": "Eemintüm men fis semâi ey yahsife bikümül ’arda feizâ hiye temûr."
+    },
+    {
+     "n": 17,
+     "ar": "أَمْ أَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا ۖ فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ",
+     "ok": "Em emintüm men fis semâi ey yürsile ’aleyküm hâsibâ. Feseta’lemûne keyfe nezîr."
+    },
+    {
+     "n": 18,
+     "ar": "وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ",
+     "ok": "Velekad kezzebel lezîne min kablihim fekeyfe kâne nekîr."
+    },
+    {
+     "n": 19,
+     "ar": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَـٰٓفَّـٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَـٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+     "ok": "Evelem yerav ilet tayri fevkahüm sâffâtiv veyakbidn. Mâ yümsikühünne iller rahmân. Innehû bikülli şey’im besîr."
+    },
+    {
+     "n": 20,
+     "ar": "أَمَّنْ هَـٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَـٰنِ ۚ إِنِ ٱلْكَـٰفِرُونَ إِلَّا فِى غُرُورٍ",
+     "ok": "Emmen hâzel lezî hüve cündül leküm yensuruküm min dûnir rahmân. Inil kâfirûne illâ fî gurûr."
+    },
+    {
+     "n": 21,
+     "ar": "أَمَّنْ هَـٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّ وَنُفُورٍ",
+     "ok": "Emmen hâzel lezî yerzükuküm in emseke rizkah. Bel leccû fî ’utüvviv venüfûr."
+    },
+    {
+     "n": 22,
+     "ar": "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+     "ok": "Efemey yemşî mükibben ’alâ vechihî ehdâ emmey yemşî seviyyen ’alâ sirâtim müstekîm."
+    },
+    {
+     "n": 23,
+     "ar": "قُلْ هُوَ ٱلَّذِىٓ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ",
+     "ok": "Kul hüvel lezî enşeeküm vece’ale lekümüs sem’a vel’ebsâra vel’ef’ideh. Kalîlem mâ teşkürûn."
+    },
+    {
+     "n": 24,
+     "ar": "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+     "ok": "Kul hüvel lezî zera’eküm fil ’ardi veileyhi tuhşerûn."
+    },
+    {
+     "n": 25,
+     "ar": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
+     "ok": "Veyekûlûne metâ hâzel va’dü in küntüm sâdikîn."
+    },
+    {
+     "n": 26,
+     "ar": "قُلْ إِنَّمَا ٱلْعِلْمُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
+     "ok": "Kul innemel ’ilmü ’indel lâh. Veinnemâ ene nezîrum mübîn."
+    },
+    {
+     "n": 27,
+     "ar": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ",
+     "ok": "Felemmâ raevhü zülfeten sîet vucûhül lezîne keferû vekîle hâzel lezî küntüm bihî tedde’ûn."
+    },
+    {
+     "n": 28,
+     "ar": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَـٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+     "ok": "Kul era’eytüm in ehlekeniyel lâhü vemem me’iye ev rahimenâ femey yücîrul kâfirîne min ’azâbin elîm."
+    },
+    {
+     "n": 29,
+     "ar": "قُلْ هُوَ ٱلرَّحْمَـٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَـٰلٍ مُّبِينٍ",
+     "ok": "Kul hüver rahmânü âmennâ bihî ve’aleyhi tevekkelnâ. Feseta’lemûne men hüve fî dalâlim mübîn."
+    },
+    {
+     "n": 30,
+     "ar": "قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَآءٍ مَّعِينٍۭ",
+     "ok": "Kul era’eytüm in asbeha mâüküm gavran femey ye’tîküm bimâim me’în."
+    }
+   ],
+   "k": "Kur’ân-ı Kerîm · Arapça metin: api.quran.com (Uthmani) · Okunuş: Muhammet Abay (api.alquran.cloud tr.transliteration), Türkçe okunuş yazımına sadeleştirildi"
+  },
+  {
+   "id": "sure-78",
+   "no": 78,
+   "ad": "Nebe’ Sûresi",
+   "kisa": "Nebe’",
+   "alt": "78. sûre · 40 âyet · Mekkî",
+   "besmele": true,
+   "ayetler": [
+    {
+     "n": 1,
+     "ar": " عَمَّ يَتَسَآءَلُونَ",
+     "ok": "’Amme yetesâelûn."
+    },
+    {
+     "n": 2,
+     "ar": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+     "ok": "’Anin nebeil ’azîm."
+    },
+    {
+     "n": 3,
+     "ar": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+     "ok": "Ellezî hüm fîhi muhtelifûn."
+    },
+    {
+     "n": 4,
+     "ar": "كَلَّا سَيَعْلَمُونَ",
+     "ok": "Kellâ seya’lemûn."
+    },
+    {
+     "n": 5,
+     "ar": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+     "ok": "Sümme kellâ seya’lemûn."
+    },
+    {
+     "n": 6,
+     "ar": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَـٰدًا",
+     "ok": "Elem nec’alil ’arda mihâdâ."
+    },
+    {
+     "n": 7,
+     "ar": "وَٱلْجِبَالَ أَوْتَادًا",
+     "ok": "Velcibâle evtâdâ."
+    },
+    {
+     "n": 8,
+     "ar": "وَخَلَقْنَـٰكُمْ أَزْوَٰجًا",
+     "ok": "Vehalaknâküm ezvâcâ."
+    },
+    {
+     "n": 9,
+     "ar": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
+     "ok": "Vece’alnâ nevmeküm sübâtâ."
+    },
+    {
+     "n": 10,
+     "ar": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا",
+     "ok": "Vece’alnel leyle libâsâ."
+    },
+    {
+     "n": 11,
+     "ar": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًا",
+     "ok": "Vece’alnen nehâra me’âşâ."
+    },
+    {
+     "n": 12,
+     "ar": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا",
+     "ok": "Vebeneynâ fevkaküm seb’an şidâdâ."
+    },
+    {
+     "n": 13,
+     "ar": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا",
+     "ok": "Vece’alnâ sirâcev vehhâcâ."
+    },
+    {
+     "n": 14,
+     "ar": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا",
+     "ok": "Veenzelnâ minel mü’sirâti mâen seccâcâ."
+    },
+    {
+     "n": 15,
+     "ar": "لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
+     "ok": "Linuhrice bihî habbev venebâtâ."
+    },
+    {
+     "n": 16,
+     "ar": "وَجَنَّـٰتٍ أَلْفَافًا",
+     "ok": "Vecennâtin elfâfâ."
+    },
+    {
+     "n": 17,
+     "ar": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَـٰتًا",
+     "ok": "Inne yevmel fasli kâne mîkâtâ."
+    },
+    {
+     "n": 18,
+     "ar": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+     "ok": "Yevme yünfehu fis sûri fete’tûne efvâcâ."
+    },
+    {
+     "n": 19,
+     "ar": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
+     "ok": "Vefütihatis semâü fekânet ebvâbâ."
+    },
+    {
+     "n": 20,
+     "ar": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+     "ok": "Vesüyyiratil cibâlü fekânet serâbâ."
+    },
+    {
+     "n": 21,
+     "ar": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا",
+     "ok": "Inne cehenneme kânet mirsâdâ."
+    },
+    {
+     "n": 22,
+     "ar": "لِّلطَّـٰغِينَ مَـَٔابًا",
+     "ok": "Littâgîne meâbâ."
+    },
+    {
+     "n": 23,
+     "ar": "لَّـٰبِثِينَ فِيهَآ أَحْقَابًا",
+     "ok": "Lâbisîne fîhâ ahkâbâ."
+    },
+    {
+     "n": 24,
+     "ar": "لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا",
+     "ok": "Lâ yezûkûne fîhâ berdev velâ şerâbâ."
+    },
+    {
+     "n": 25,
+     "ar": "إِلَّا حَمِيمًا وَغَسَّاقًا",
+     "ok": "Illâ hamîmev vegassâkâ."
+    },
+    {
+     "n": 26,
+     "ar": "جَزَآءً وِفَاقًا",
+     "ok": "Cezâev vifâkâ."
+    },
+    {
+     "n": 27,
+     "ar": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا",
+     "ok": "Innehüm kânû lâ yercûne hisâbâ."
+    },
+    {
+     "n": 28,
+     "ar": "وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا",
+     "ok": "Vekezzebû biâyâtinâ kizzâbâ."
+    },
+    {
+     "n": 29,
+     "ar": "وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًا",
+     "ok": "Vekülle şey’in ahsaynâhü kitâbâ."
+    },
+    {
+     "n": 30,
+     "ar": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+     "ok": "Fezûkû felen nezîdeküm illâ ’azâbâ."
+    },
+    {
+     "n": 31,
+     "ar": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+     "ok": "Inne lilmüttekîne mefâzâ."
+    },
+    {
+     "n": 32,
+     "ar": "حَدَآئِقَ وَأَعْنَـٰبًا",
+     "ok": "Hadâika vea’nâbâ."
+    },
+    {
+     "n": 33,
+     "ar": "وَكَوَاعِبَ أَتْرَابًا",
+     "ok": "Vekevâ’ibe etrâbâ."
+    },
+    {
+     "n": 34,
+     "ar": "وَكَأْسًا دِهَاقًا",
+     "ok": "Veke’sen dihâkâ."
+    },
+    {
+     "n": 35,
+     "ar": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا",
+     "ok": "Lâ yesme’ûne fîhâ lagvev velâ kizzâbâ."
+    },
+    {
+     "n": 36,
+     "ar": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
+     "ok": "Cezâem mir rabbike ’atâen hisâbâ."
+    },
+    {
+     "n": 37,
+     "ar": "رَّبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَـٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+     "ok": "Rabbis semâvâti vel’ardi vemâ beynehümer rahmâni lâ yemlikûne minhü hitâbâ."
+    },
+    {
+     "n": 38,
+     "ar": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَـٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَقَالَ صَوَابًا",
+     "ok": "Yevme yekûmür rûhu velmelâiketü saffâ. Lâ yetekellemûne illâ men ezine lehür rahmânü vekâle savâbâ."
+    },
+    {
+     "n": 39,
+     "ar": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+     "ok": "Zâlikel yevmül hakk. Femen şâet tehaze ilâ rabbihî meâbâ."
+    },
+    {
+     "n": 40,
+     "ar": "إِنَّآ أَنذَرْنَـٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+     "ok": "Innâ enzernâküm ’azâben karîbâ. Yevme yenzurul merü mâ kaddemet yedâhü veyekûlül kâfiru yâ leytenî küntü türâbâ."
+    }
+   ],
+   "k": "Kur’ân-ı Kerîm · Arapça metin: api.quran.com (Uthmani) · Okunuş: Muhammet Abay (api.alquran.cloud tr.transliteration), Türkçe okunuş yazımına sadeleştirildi"
+  }
+ ]
+}

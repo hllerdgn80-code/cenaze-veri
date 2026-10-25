@@ -1,0 +1,326 @@
+[
+ {
+  "ad": "Asım Orhan Barut",
+  "dogum_tarihi": "1926-06-06",
+  "vefat_tarihi": "1994-12-05",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Malatya",
+  "vefat_yeri": "Boulder",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q730393",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
+  "ad": "Nelson Mandela",
+  "dogum_tarihi": "1918-07-18",
+  "vefat_tarihi": "2013-12-05",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Mvezo",
+  "vefat_yeri": "Houghton Estate",
+  "defin_yeri": "Qunu",
+  "defin_il": null,
+  "defin_ulke": "Güney Afrika",
+  "wikidata_id": "Q8023",
+  "sitelink": 295,
+  "fotograf": {
+   "dosya": "Nelson Mandela 1994.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nelson_Mandela_1994.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Barış Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Wolfgang Amadeus Mozart",
+  "dogum_tarihi": "1756-01-27",
+  "vefat_tarihi": "1791-12-05",
+  "vefat_yasi": 35,
+  "dogum_yeri": "Salzburg",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Sankt Marx Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q254",
+  "sitelink": 274,
+  "fotograf": {
+   "dosya": "Wolfgang-amadeus-mozart 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Barbara Krafft",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang-amadeus-mozart_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wolfgang-amadeus-mozart_1.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Türk Marşı”, “Figaro'nun Düğünü”, “Saraydan Kız Kaçırma”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Claude Monet",
+  "dogum_tarihi": "1840-11-14",
+  "vefat_tarihi": "1926-12-05",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Giverny",
+  "defin_yeri": "Giverny Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q296",
+  "sitelink": 159,
+  "fotograf": {
+   "dosya": "Claude Monet 1899 Nadar crop.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet_1899_Nadar_crop.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İzlenim: Gün Doğumu”, “Kırda Öğle Yemeği”, “Nilüferler”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Władysław Reymont",
+  "dogum_tarihi": "1867-05-07",
+  "vefat_tarihi": "1925-12-05",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Kobiele Wielkie",
+  "vefat_yeri": "Varşova",
+  "defin_yeri": "Powązki Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q121180",
+  "sitelink": 108,
+  "fotograf": {
+   "dosya": "Wladyslaw Reymont 1897 (71364799) (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wladyslaw_Reymont_1897_%2871364799%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Wladyslaw_Reymont_1897_%2871364799%29_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Sri Aurobindo",
+  "dogum_tarihi": "1872-08-15",
+  "vefat_tarihi": "1950-12-05",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Sri Aurobindo Bhawan",
+  "vefat_yeri": "Puducherry",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q192207",
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "Sri aurobindo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Rudolf 1922",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_aurobindo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sri_aurobindo.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü, Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Oscar Niemeyer",
+  "dogum_tarihi": "1907-12-15",
+  "vefat_tarihi": "2012-12-05",
+  "vefat_yasi": 104,
+  "dogum_yeri": "Rio de Janeiro",
+  "vefat_yeri": "Rio de Janeiro",
+  "defin_yeri": "Cemitério de São João Batista",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q134165",
+  "sitelink": 98,
+  "fotograf": {
+   "dosya": "Oscar Niemeyer 1968b.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar_Niemeyer_1968b.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oscar_Niemeyer_1968b.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Barış Ödülü, Sanat ve Edebiyat Nişanı. Önemli eserleri: “Niterói Güncel Sanat Müzesi”, “Ibirapuera Oditoryumu”, “Palácio do Planalto”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Frank Gehry",
+  "dogum_tarihi": "1929-02-28",
+  "vefat_tarihi": "2025-12-05",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Toronto",
+  "vefat_yeri": "Santa Monica",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q180374",
+  "sitelink": 83,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Pritzker Mimarlık Ödülü, ABD Ulusal Sanat Madalyası. Önemli eserleri: “Weisman Art Museum”, “Dans Eden Ev”, “8 Spruce Street”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "II. Pedro",
+  "dogum_tarihi": "1825-12-02",
+  "vefat_tarihi": "1891-12-05",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Rio de Janeiro",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Petropolis",
+  "defin_il": null,
+  "defin_ulke": "Brezilya",
+  "wikidata_id": "Q156774",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Pedro II circa 1887b transparent.png",
+   "lisans": "Public domain",
+   "yazar": "Alphonse Liébert",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro_II_circa_1887b_transparent.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pedro_II_circa_1887b_transparent.png"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Dizbağı Nişanı, Kutup Yıldızı Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Mihai",
+  "dogum_tarihi": "1921-10-25",
+  "vefat_tarihi": "2017-12-05",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Foișor Castle",
+  "vefat_yeri": "Aubonne",
+  "defin_yeri": "Curtea de Argeș Monastery",
+  "defin_il": null,
+  "defin_ulke": "Romanya",
+  "wikidata_id": "Q930013",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Mihai.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jozef Trylinski",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mihai.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mihai.jpg"
+  },
+  "meslek": [
+   "Askeri lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: I. Georgios Nişanı, liyakat madalyası. Görev: Romanya Kralı, Romanya Senatosu üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kirstie Alley",
+  "dogum_tarihi": "1951-01-12",
+  "vefat_tarihi": "2022-12-05",
+  "vefat_yasi": 71,
+  "dogum_yeri": "Wichita",
+  "vefat_yeri": "Tampa",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q151935",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "KirstieAlley1994-close.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Kirstie Alley 1994.jpg: Photo by Alan Light derivative work: Bad Randolph (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KirstieAlley1994-close.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:KirstieAlley1994-close.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Cheers”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Karlheinz Stockhausen",
+  "dogum_tarihi": "1928-08-22",
+  "vefat_tarihi": "2007-12-05",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Mödrath castle",
+  "vefat_yeri": "Kürten",
+  "defin_yeri": "Waldfriedhof Kürten",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q154556",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "St. im Garten Mai 2005 RGB.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Kathinka Pasveer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St._im_Garten_Mai_2005_RGB.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:St._im_Garten_Mai_2005_RGB.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ }
+]

@@ -1,0 +1,52 @@
+name: Kaybettiklerimiz haftalik
+
+on:
+  schedule:
+    - cron: "0 1 * * 0"   # Pazar 01:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kaybettiklerimiz
+  cancel-in-progress: false
+
+jobs:
+  uret:
+    runs-on: ubuntu-24.04   # 14.10.2026 sabitlendi: ubuntu-latest 19.10'da Ubuntu 26'ya gecer (kirilma riski)
+    timeout-minutes: 330
+    steps:
+      # 25.10.2026 KAYNAK GIZLEME: gizli kod deposu (cenaze-kod) kokte, acik depo yayin/ altinda; 3 denemeli (H69) .github/actions/kod-al
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY }}
+          yayin-sparse: |
+            veri/kaybettiklerimiz
+            uygulama/assets/veri
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Onceki Kaybettiklerimiz verisini acik depodan al (yayin/veri/kaybettiklerimiz)
+        run: |
+          mkdir -p veri
+          rm -rf veri/kaybettiklerimiz
+          if [ -d yayin/veri/kaybettiklerimiz ]; then cp -r yayin/veri/kaybettiklerimiz veri/; fi
+      - name: Tam uretim
+        env:
+          TEMIZ: "1"
+        run: python3 okuyucu/kaybettiklerimiz.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kaybettiklerimiz
+          path: veri/kaybettiklerimiz
+          retention-days: 14
+      - name: Acik depoya commit et (yayin/veri/kaybettiklerimiz)
+        run: |
+          mkdir -p yayin/veri/kaybettiklerimiz
+          rsync -a --delete veri/kaybettiklerimiz/ yayin/veri/kaybettiklerimiz/
+          cd yayin
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri/kaybettiklerimiz
+          if git diff --cached --quiet; then echo "degisiklik yok"; else git commit -m "kaybettiklerimiz: haftalik guncelleme $(date -u +%F)"; bash ../araclar/guvenli_push.sh "${GITHUB_REF_NAME}"; fi   # 16.10.2026 H76
