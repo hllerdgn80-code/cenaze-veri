@@ -1,16 +1,17 @@
 {
- "ilce_sayfasinda_il_geneli": false,
- "bugun_bossa_dunu_goster": false,
- "bayraklar": {
   "ilce_sayfasinda_il_geneli": false,
   "bugun_bossa_dunu_goster": false,
-  "ilan_kutusu_goster": true,
-  "bildirim_teklifi_acik": true
- },
- "sayilar": {},
- "yazilar": {},
- "kaliplar": {},
- "listeler": {},
- "haritalar": {},
- "guncelleme": "2026-10-16"
+  "bayraklar": {
+    "ilce_sayfasinda_il_geneli": false,
+    "bugun_bossa_dunu_goster": false,
+    "ilan_kutusu_goster": true,
+    "bildirim_teklifi_acik": true
+  },
+  "sayilar": {},
+  "yazilar": {},
+  "kaliplar": {},
+  "listeler": {},
+  "haritalar": {},
+  "guncelleme": "2026-10-16",
+  "ilanKutusuGorevli": "Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden cenaze ilanınızı paylaşmasını talep edebilirsiniz."
 }
