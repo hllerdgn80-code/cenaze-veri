@@ -94,7 +94,8 @@ jobs:
           EDEVLET_KOSU_SAATLERI: "06,08,10,12,14,16,18,20"   # 16.10.2026: 8 kosu (Mac turlari iki saatte bir); hizmet arasi 10 dk AYNEN   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
           EDEVLET_HIZMET_ARASI_SN: "240"   # 16.10.2026 sahibi: "e-Devlet en uzun suren, kisalt" (600 -> 240; CAPTCHA'da hizmet 6 sa dinlenir)
           EDEVLET_ISTEK_TAVANI: "150"
-          EDEVLET_SURE_DK: "70"
+          EDEVLET_SURE_DK: "90"   # 30.10.2026 B4: 70->90 dk (35->55 hizmet; hedef M5: her hizmete 48 saatte >=1 sira). Istek tavani (150) ve hizmet arasi (240 sn) AYNEN; job timeout 200 dk icinde
+          EDEVLET_YENI_ADAY_TAVANI: "4"   # B4: kosu basina en cok 4 dogrulanmamis aday hizmete ilk temas
           EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
           GH_TOKEN: ${{ github.token }}      # anlik yayin: her hizmetten sonra veri-tr/<il>/_ulusal.json + bosalt.yml
         run: python3 okuyucu/edevlet.py || echo "::warning::e-Devlet okuyucusu hata verdi"
