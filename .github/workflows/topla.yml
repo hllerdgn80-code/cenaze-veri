@@ -2,7 +2,7 @@ name: Cenaze ilanlarini topla
 
 on:
   schedule:
-    - cron: "47 3-18 * * *"   # 14.10.2026: SAATLIK (TR 06:47-21:47). GitHub zamanlanmis isleri atliyor: 8 tur/gun planlandi ama ~2-3 gerceklesti (veri 8,7 saat bayatladi); sik zamanlama + concurrency (en cok 1 calisan + 1 bekleyen) + sunucu bekcisi (deploy/bulut-bekci)
+    - cron: "47 * * * *"   # 30.10.2026 7/24: her saat (gece dahil; saati asil DO sunucusu tutar, bu yedek). 14.10.2026: SAATLIK (TR 06:47-21:47). GitHub zamanlanmis isleri atliyor: 8 tur/gun planlandi ama ~2-3 gerceklesti (veri 8,7 saat bayatladi); sik zamanlama + concurrency (en cok 1 calisan + 1 bekleyen) + sunucu bekcisi (deploy/bulut-bekci)
   workflow_dispatch: {}
 
 permissions:
