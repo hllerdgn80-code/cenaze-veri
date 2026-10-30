@@ -15,6 +15,7 @@ import 'package:workmanager/workmanager.dart' as wm;
 import 'bildirim_mantik.dart';
 import 'gorevli.dart';
 import 'depo.dart';
+import 'uzak_ayar.dart';
 import 'veri.dart';
 import 'yardimci.dart';
 
@@ -26,10 +27,15 @@ const String _gorevEtiketi = 'kc-bildirim';
 
 final FlutterLocalNotificationsPlugin _eklenti = FlutterLocalNotificationsPlugin();
 
+/// Son atanan "bildirime dokunuldu" işleyicisi. 30.10.2026 HATA: izinIste()/_goster() eklentiyi işleyicisiz yeniden başlatıyor,
+/// baslat()'ta atanan işleyici siliniyordu (izin kartından / menüden sonra bildirime dokunmak listeye döndürmüyordu).
+DidReceiveNotificationResponseCallback? _tiklamaIsleyici;
+
 Future<void> _eklentiyiHazirla({DidReceiveNotificationResponseCallback? tiklandi}) async {
+  if (tiklandi != null) _tiklamaIsleyici = tiklandi;
   await _eklenti.initialize(
     settings: const InitializationSettings(android: AndroidInitializationSettings(_simge)),
-    onDidReceiveNotificationResponse: tiklandi,
+    onDidReceiveNotificationResponse: _tiklamaIsleyici,
   );
 }
 
@@ -127,8 +133,16 @@ Future<void> bildirimPlanla() async {
 @pragma('vm:entry-point')
 void bildirimGorevDagiticisi() {
   wm.Workmanager().executeTask((gorev, girdi) async {
+    // Bu izolat uygulamanın izolatından AYRI: uzak ayar (saatler, acil gizleme) burada yüklü değildir → telefondaki son iyi kopyadan yüklenir
+    await UzakAyar.yerelYukle();
+    var zincir = true;
     try {
-      await bildirimPlanla(); // önce zinciri sürdür: aşağıdaki iş patlasa bile ertesi pencere kurulu kalır
+      final d = Depo(await SharedPreferences.getInstance());
+      await d.yenile();
+      zincir = d.bildirimIzni == true; // kullanıcı bildirimi kapattıysa çalışan görev zinciri yeniden kurmaz
+    } catch (_) {}
+    try {
+      if (zincir) await bildirimPlanla(); // önce zinciri sürdür: aşağıdaki iş patlasa bile ertesi pencere kurulu kalır
     } catch (_) {}
     try {
       await arkaPlandaBak(gorev == BildirimRolu.ogle.name ? BildirimRolu.ogle : BildirimRolu.sabah);
@@ -139,6 +153,7 @@ void bildirimGorevDagiticisi() {
 
 /// Bir bakış: veriyi çek (X-KC-Anahtar + User-Agent başlıklarıyla, VeriServisi üzerinden), kararı ver, gerekirse göster.
 Future<void> arkaPlandaBak(BildirimRolu rol, {DateTime? simdiVerilen}) async {
+  await UzakAyar.yerelYukle(); // acil_gizle listesi bildirimde de geçerli olsun (acilSuz VeriServisi.ilGetir içinde UzakAyar'a bakar)
   final depo = Depo(await SharedPreferences.getInstance());
   await depo.yenile();
   try {

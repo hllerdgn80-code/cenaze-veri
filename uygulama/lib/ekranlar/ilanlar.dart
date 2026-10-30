@@ -36,6 +36,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
   String? _yukluIl;
   int _anaSayac = -1;
   String _gun = bugunTr();
+  String _bugunKayit = bugunTr(); // son bilinen "bugün" (gece yarısı geçişini yakalamak için)
   final _kaydirma = ScrollController();
 
   @override
@@ -47,7 +48,21 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
   /// Uygulamaya dönüşte (arka plandan) veri 5 dk'dan eskiyse yeniden çekilir
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.resumed) _eskiyseYenile();
+    if (state != AppLifecycleState.resumed || !mounted) return;
+    // 30.10.2026 HATA: uygulama bellekte kalıp gece yarısı geçilince "Bugün" seçili gün dünde kalıyor, dünün listesi gösteriliyordu.
+    // Bugünü izleyen kullanıcı yeni güne taşınır (başka bir gün seçmişse seçimi korunur) ve liste hemen yenilenir.
+    final b = bugunTr();
+    if (b != _bugunKayit) {
+      if (_gun == _bugunKayit) _gun = b;
+      _bugunKayit = b;
+      if (_yukluIl != null) {
+        _yukle();
+        return;
+      }
+      setState(() {});
+      return;
+    }
+    _eskiyseYenile();
   }
 
   void _eskiyseYenile() {
@@ -66,6 +81,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
     if (d.anaEkranSayaci != _anaSayac) {
       _anaSayac = d.anaEkranSayaci;
       _gun = bugunTr();
+      _bugunKayit = _gun;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (_kaydirma.hasClients) _kaydirma.jumpTo(0);
       });
@@ -94,7 +110,12 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
       setState(() => _yukleniyor = true);
     }
     UzakAyar.tazele(d.veri.istemci).then((degisti) {
-      if (degisti && mounted) setState(() {});
+      if (!degisti || !mounted) return;
+      // 30.10.2026 HATA: ayar, ilanlardan SONRA gelirse acil_gizle ekrandaki listeye uygulanmıyordu (bir sonraki yenilemeye dek gizlenen ilan görünüyordu)
+      setState(() {
+        final k = _sonuc, kv = _sonuc?.veri;
+        if (k != null && kv != null) _sonuc = IlSonucu(acilSuz(kv, UzakAyar.acilGizle), k.durum, k.zaman);
+      });
     });
     final s = await d.veri.ilGetir(il);
     if (!mounted || il != d.il) return;

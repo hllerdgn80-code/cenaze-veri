@@ -60,5 +60,9 @@ class AileServisi {
   }
 
   // 25.10.2026: /aile/basvur, /aile/dogrula, /aile/odeme KALDIRILDI (Tam Sayfa İlan; Worker 410). Aile ilanı yazma yolu yok; yalnız bildirim kalır.
-  Future<AileYanit> bildir(String ilanId, String neden) => _gonder('/aile/bildir', {'ilan_id': ilanId, 'neden': neden});
+  Future<AileYanit> bildir(String ilanId, String neden) => _gonder('/aile/bildir', {'ilan_id': bildirimKimligi(ilanId), 'neden': neden});
+
+  /// 30.10.2026 HATA: veri hattı aile/görevli kayıtlarının kimliğine "aile-" / "gorevli-" öneki koyar (okuyucu/aile_al.py, gorevli_al.py),
+  /// Worker ise çıplak 16 haneli kimliği ister (^[0-9a-f]{16}$) → önekli kimlikle "Bu ilanda bir yanlışlık mı var?" hep 400 dönüyordu.
+  static String bildirimKimligi(String id) => id.replaceFirst(RegExp(r'^(aile|gorevli)-'), '');
 }

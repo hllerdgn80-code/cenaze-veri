@@ -66,7 +66,8 @@ class UzakAyar {
 
   static List<List<String>> ikiliListe(String k, List<List<String>> varsayilan) {
     final v = _listeler[k];
-    if (v is List && v.every((x) => x is List && x.every((y) => y is String))) {
+    // her çift en az 2 öğeli olmalı (ekranlar o[0], o[1] okur): eksik çiftli bozuk ayar RangeError ile uygulamayı çökertmesin
+    if (v is List && v.every((x) => x is List && x.length >= 2 && x.every((y) => y is String))) {
       return [for (final x in v) (x as List).cast<String>()];
     }
     return varsayilan;

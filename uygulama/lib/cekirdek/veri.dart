@@ -124,6 +124,9 @@ class VeriServisi {
     try {
       final y = await _getir('$kod/son7gun.json');
       if (y.statusCode == 404) {
+        // 30.10.2026: veri kapısı, kaynağın (Pages) HER hatasını 404'e çevirir (deploy/veri-kapisi). Bu ilin verisi daha önce indiyse 404 geçici hata sayılır:
+        // yoksa kaynak bir an düşünce "Bugün … cenaze ilanı bulunmuyor" yazılıyordu (yanlış boşluk). Önbellek yoksa gerçekten kaynaksız ildir.
+        if (depo.onbellek(kod) != null) return _onbellektenOku(il, kod, VeriDurumu.hata);
         return IlSonucu(IlVerisi(il: il, kaynakli: false), VeriDurumu.tamam, null);
       }
       if (y.statusCode != 200) return _onbellektenOku(il, kod, VeriDurumu.hata);

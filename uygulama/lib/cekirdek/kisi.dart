@@ -1,5 +1,7 @@
 // Kaybettiklerimiz / Tarihte Bugün kişi kaydı (Wikidata, CC0). Kabir bilgisi gösterilmez.
 // Tanıtım satırı prototip_yap.py → tanitim()/tanitim_g()/gorev_sirasi() kurallarının sade karşılığıdır.
+// 30.10.2026: büyük/küçük harf çevirisi Türkçe (yardimci.dart trBuyuk/trKucuk): Dart'ın toUpperCase'i "i"yi "I" yapar ("Iktisatçı" hatası).
+import 'yardimci.dart';
 
 class Kisi {
   final String ad;
@@ -33,9 +35,9 @@ class Kisi {
       ad: (j['ad'] ?? '').toString(),
       wikidataId: (j['wikidata_id'] ?? '').toString(),
       vefatTarihi: j['vefat_tarihi']?.toString(),
-      yas: (j['vefat_yasi'] as num?)?.toInt(),
+      yas: _tam(j['vefat_yasi']),
       yasYaklasik: j['vefat_yasi_yaklasik'] == true,
-      sitelink: ((j['sitelink'] ?? j['sitelink_sayisi'] ?? 0) as num).toInt(),
+      sitelink: _tam(j['sitelink'] ?? j['sitelink_sayisi']) ?? 0,
       turk: j['turk'] == true,
       gorev: gorev,
       tanitim: gorev == null ? t : _gorevsiz(t, gorev),
@@ -43,7 +45,9 @@ class Kisi {
   }
 }
 
-String _buyukIlk(String t) => t.isEmpty ? t : t.substring(0, 1).toUpperCase() + t.substring(1);
+String _buyukIlk(String t) => t.isEmpty ? t : trBuyuk(t.substring(0, 1)) + t.substring(1);
+
+int? _tam(Object? v) => v is num ? v.toInt() : int.tryParse('${v ?? ''}');
 
 /// "Türk ressam" → "Ressam" (milliyet sıfatı yazılmaz; özel ad öbeklerine dokunulmaz)
 String _turkSil(String t) {
@@ -58,7 +62,7 @@ String _turkSil(String t) {
 
 Set<String> _kok(String t) =>
     RegExp(r'\p{L}{4,}', unicode: true).allMatches(t).map((m) {
-      final w = m.group(0)!.toLowerCase();
+      final w = trKucuk(m.group(0)!);
       return w.length > 5 ? w.substring(0, 5) : w;
     }).toSet();
 
@@ -70,7 +74,7 @@ String tanitimYap(Map<String, dynamic> x, {int enCok = 1}) {
       : (ham is List ? ham.map((e) => e.toString()).toList() : <String>[]);
   final m = <String>[];
   for (final p in parcalar) {
-    final t = p.trim().toLowerCase();
+    final t = trKucuk(p.trim());
     if (t.isNotEmpty && !m.contains(t)) m.add(t);
   }
   final secili = m.take(enCok).toList();
@@ -83,7 +87,7 @@ String tanitimYap(Map<String, dynamic> x, {int enCok = 1}) {
     t = t.replaceAll(RegExp(r'^[ .]+|[ .]+$'), '');
     if (t.isEmpty || t.contains('Vikipedi') || RegExp(r'\d+ dilde').hasMatch(t) || t.startsWith('Ödül')) continue;
     t = t.replaceFirst(RegExp(r'^(Görev|Önemli eserleri?):\s*'), '');
-    if (t.toLowerCase() == ms.toLowerCase() || secili.contains(t.toLowerCase())) continue;
+    if (trKucuk(t) == trKucuk(ms) || secili.contains(trKucuk(t))) continue;
     neden = t;
     break;
   }
@@ -93,7 +97,7 @@ String tanitimYap(Map<String, dynamic> x, {int enCok = 1}) {
   }
   ms = _turkSil(ms);
   neden = _buyukIlk(_turkSil(neden));
-  if (neden.isNotEmpty && (neden.toLowerCase() == ms.toLowerCase() || _kok(ms).intersection(_kok(neden)).isNotEmpty)) {
+  if (neden.isNotEmpty && (trKucuk(neden) == trKucuk(ms) || _kok(ms).intersection(_kok(neden)).isNotEmpty)) {
     neden = '';
   }
   return [ms, neden].where((t) => t.isNotEmpty).join(' · ');
@@ -118,13 +122,13 @@ String _gorevsiz(String t, String g) {
       .allMatches(g)
       .map((m) => m.group(0)!)
       .where((w) => int.tryParse(w) == null)
-      .map((w) => w.toLowerCase())
+      .map((w) => trKucuk(w))
       .toSet();
   final kalan = <String>[];
   for (final p in t.split(' · ')) {
     if (p.isEmpty) continue;
     if (RegExp(r'^\d+\. (Türkiye )?(Cumhurbaşkanı|[Bb]aşbakanı?)').hasMatch(p)) continue;
-    final kelimeler = RegExp(r'[\p{L}\p{N}]+', unicode: true).allMatches(p).map((m) => m.group(0)!.toLowerCase());
+    final kelimeler = RegExp(r'[\p{L}\p{N}]+', unicode: true).allMatches(p).map((m) => trKucuk(m.group(0)!));
     if (kelimeler.any((w) => gk.any((g2) => w.startsWith(g2)))) continue;
     kalan.add(p);
   }

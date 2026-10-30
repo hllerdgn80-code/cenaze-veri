@@ -30,11 +30,11 @@ class SahteBildirim implements BildirimArkayuzu {
   Future<void> iptal() async => iptalSayisi++;
 }
 
-Future<AppDurum> kartliDurum(SahteBildirim b, {Map<String, Object> onceki = const {}}) async {
+Future<AppDurum> kartliDurum(SahteBildirim b, {Map<String, Object> onceki = const {}, bool acilisAcik = false}) async {
   SharedPreferences.setMockInitialValues(onceki);
   final depo = await Depo.ac();
   final veri = VeriServisi(istemci: sahteAg(bugunTr()), depo: depo);
-  return AppDurum(depo: depo, veri: veri, gomulu: testGomulu(), bildirim: b, bildirimSorusuAcik: true);
+  return AppDurum(depo: depo, veri: veri, gomulu: testGomulu(), bildirim: b, bildirimSorusuAcik: true, acilisAcik: acilisAcik);
 }
 
 void telefon(WidgetTester tester) {
@@ -168,6 +168,27 @@ void main() {
       expect((await SharedPreferences.getInstance()).getBool('izin'), isTrue);
       expect(find.text(soru), findsNothing);
       expect(find.text('Bulunduğunuz ili seçin'), findsOneWidget);
+    });
+
+    // 30.10.2026 gerileme testi (sahibi: "Evet dedim, ekran takıldı, il seçimine ilerlemedi"): açılış mesajı AÇIKKEN
+    // (gerçek uygulamadaki akış) kart cevaptan sonra kapanmalı. Hata: AcilisMesaji sonrasını ayrı rota olarak açıyordu.
+    testWidgets('açılış mesajından sonra gelen kart cevaplanınca il seçimine geçer (Evet ve Şimdi değil)', (tester) async {
+      for (final dugme in ['Evet, haber verin', 'Şimdi değil']) {
+        telefon(tester);
+        final b = SahteBildirim();
+        final d = await kartliDurum(b, acilisAcik: true);
+        await tester.pumpWidget(KiminCenazesi(durum: d));
+        await tester.pump();
+        expect(find.text(soru), findsNothing); // önce açılış mesajı
+        await tester.pump(const Duration(seconds: 12));
+        await tester.pumpAndSettle();
+        expect(find.text(soru), findsOneWidget);
+        await tester.tap(find.text(dugme));
+        await tester.pumpAndSettle();
+        expect(find.text(soru), findsNothing);
+        expect(find.text('Bulunduğunuz ili seçin'), findsOneWidget);
+        await tester.pumpWidget(const SizedBox());
+      }
     });
 
     testWidgets('sistem izni verilmezse kapalı kalır, il seçimine geçilir', (tester) async {

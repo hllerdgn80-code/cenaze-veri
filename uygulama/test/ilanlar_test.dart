@@ -222,7 +222,7 @@ void main() {
     await tester.pumpWidget(kapsamli(d, const IlanKutusu(il: 'Kars', ilce: 'Merkez')));
     await tester.pumpAndSettle();
     expect(find.text('Cenaze ilanınızın burada görülmesini istiyorsanız'), findsNothing); // eski başlık kalktı
-    final bY = tester.getTopLeft(find.text('Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden talep edebilirsiniz.')).dy;
+    final bY = tester.getTopLeft(find.text('Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden cenaze ilanınızı paylaşmasını talep edebilirsiniz.')).dy;
     final linkY = tester.getTopLeft(find.text('Din görevlisi misiniz? Kayıt olun.')).dy;
     expect(bY < linkY, isTrue); // tek paragraf → bağlantı
     expect(find.text('Cenaze yakını olarak ilanı paylaş'), findsNothing);

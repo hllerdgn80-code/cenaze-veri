@@ -31,7 +31,8 @@ class _GorevliYerFormuState extends State<GorevliYerFormu> {
   @override
   void initState() {
     super.initState();
-    _il = (widget.il ?? '').isEmpty ? 'Ordu' : widget.il!;
+    // ilk kayıtta kullanıcının uygulamada seçtiği il önerilir (sabit 'Ordu' yerine); yoksa 'Ordu'
+    _il = (widget.il ?? '').isEmpty ? (Kapsam.oku(context).il ?? 'Ordu') : widget.il!;
     _ilce = (widget.ilce ?? '').isEmpty ? null : widget.ilce;
     final u = widget.unvan;
     _unvan = M.gorevliUnvanlar.any((x) => x[1] == u) ? u! : M.gorevliUnvanlar.first[1];

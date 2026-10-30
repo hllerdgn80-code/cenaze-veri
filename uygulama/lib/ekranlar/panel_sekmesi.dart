@@ -152,6 +152,7 @@ class _GorevliParolaDegistirState extends State<GorevliParolaDegistir> {
   final _a = TextEditingController();
   final _b = TextEditingController();
   String? _hata;
+  bool _isleniyor = false; // sunucu yanıtı (en çok 15 sn) beklenirken çift dokunuş parolayı iki kez kurmasın
 
   @override
   void dispose() {
@@ -162,10 +163,12 @@ class _GorevliParolaDegistirState extends State<GorevliParolaDegistir> {
   }
 
   Future<void> _kaydet() async {
+    if (_isleniyor) return;
     final d = Kapsam.oku(context);
     if (!d.depo.gorevliPinDogru(_e.text)) return setState(() => _hata = M.pinEskiYanlis);
     if (!RegExp(r'^\d{4}$').hasMatch(_a.text)) return setState(() => _hata = M.pinRakam);
     if (_a.text != _b.text) return setState(() => _hata = M.pinFarkli);
+    _isleniyor = true;
     await d.depo.gorevliPinKur(_a.text);
     final sunucu = await _sunucuyaYaz(d, widget.servis, _a.text);
     if (!mounted) return;
@@ -215,6 +218,7 @@ class _GorevliParolaBelirleState extends State<GorevliParolaBelirle> {
   final _a = TextEditingController();
   final _b = TextEditingController();
   String? _hata;
+  bool _isleniyor = false; // çift dokunuş koruması
 
   @override
   void dispose() {
@@ -224,9 +228,11 @@ class _GorevliParolaBelirleState extends State<GorevliParolaBelirle> {
   }
 
   Future<void> _kaydet() async {
+    if (_isleniyor) return;
     final d = Kapsam.oku(context);
     if (!RegExp(r'^\d{4}$').hasMatch(_a.text)) return setState(() => _hata = M.pinRakam);
     if (_a.text != _b.text) return setState(() => _hata = M.pinFarkli);
+    _isleniyor = true;
     await d.depo.gorevliPinKur(_a.text);
     final sunucu = await _sunucuyaYaz(d, widget.servis, _a.text);
     if (!mounted) return;
@@ -322,7 +328,7 @@ class _ParolaGirState extends State<_ParolaGir> {
     if (d.depo.gorevliPinKilitKalanSn() > 0) return _kilitGuncelle();
     if (d.depo.gorevliPinDogru(_p.text)) {
       await d.depo.gorevliPinSayacSifirla();
-      _p.clear();
+      if (mounted) _p.clear(); // await sırasında ekran kapanmışsa kapanmış denetleyiciye dokunulmaz
       d.panelAcik = true;
       d.oturumDegisti();
       return;

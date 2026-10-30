@@ -501,7 +501,8 @@ class _GorevliIlanlarimState extends State<GorevliIlanlarim> {
           'cinsiyet': ilan.cinsiyet,
           'yas': ilan.yas,
           'vefat_tarihi': ilan.vefatTarihi,
-          'namaz_tarihi': ilan.namazTarihi,
+          // namaz günü yoksa listede görünen gün (defin/liste/vefat) alınır; yoksa form "bugün"ü varsayıp düzeltmeyi yanlış güne yazıyordu
+          'namaz_tarihi': ilan.namazTarihi ?? (gunCoz(ilan.cenazeGunu) != null ? ilan.cenazeGunu.substring(0, 10) : null),
           'mahalle': ilan.mahalle,
           'defin_yeri': ilan.definYeri,
           'namaz_vakti': np[0],
@@ -553,6 +554,15 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
       _cins = d['cinsiyet']?.toString();
       _yas.text = d['yas']?.toString() ?? '';
       _yasYok = d['yas'] == null;
+      // 30.10.2026 HATA: kendi ilanını düzenlerken kayıtlı vakit/cami forma yüklenmiyordu; yalnız vakit değiştirilince
+      // namaz_yeri_vakti "<vakit>" olarak gidip caminin adını SUNUCUDA siliyordu. Kayıt "<vakit>-<cami>" biçiminden okunur.
+      final nyv = d['namaz_yeri_vakti']?.toString() ?? '';
+      if (widget.duzeltmeId == null && nyv.isNotEmpty) {
+        final i = nyv.indexOf('-');
+        _vakit = _bos(i < 0 ? nyv : nyv.substring(0, i));
+        final c = i < 0 ? null : _bos(nyv.substring(i + 1));
+        if (c != null) _cami.text = c;
+      }
       _camiDiger = _cami.text.isNotEmpty && _cami.text != widget.hesap.gorevYeri;
       _vefat = d['vefat_tarihi']?.toString() ?? _vefat;
       _namaz = d['namaz_tarihi']?.toString() ?? _namaz;
@@ -592,7 +602,8 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
     final simdi = _yerel(bugunTr());
     var ilk = _yerel(vefat ? _vefat : _namaz);
     var son = vefat ? simdi : simdi.add(const Duration(days: 3));
-    var bas = simdi.subtract(const Duration(days: 4));
+    // Sunucu kuralı K3: namaz tarihi dünden eski olamaz (vefat: namazdan en çok 3 gün önce → bugünden en çok 4 gün önce). Seçici de aynı sınırı gösterir.
+    var bas = simdi.subtract(Duration(days: vefat ? 4 : 1));
     if (ilk.isBefore(bas)) bas = ilk; // düzeltmede otomatik ilanın tarihi 4 günden eski olabilir
     if (ilk.isAfter(son)) son = ilk;
     final g = await showDatePicker(context: context, initialDate: ilk, firstDate: bas, lastDate: son);
@@ -605,6 +616,9 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
     final mahalle = _bos(_mahalle.text);
     final mezarlik = _bos(_mezarlik.text);
     final yas = _yasYok ? null : int.tryParse(_yas.text.trim());
+    // 30.10.2026 HATA: var olan kendi ilanı düzenlenirken yaş/mezarlık boşaltılınca anahtar hiç gönderilmiyordu → sunucu eski değeri koruyordu
+    // ("Belirtilmedi" işaretlense bile yaş ilanda kalıyordu). Sunucu (duzenle) yalnız gelen anahtarları değiştirir: boş alan açıkça null gider.
+    final duzenleme = widget.duzenle != null && widget.duzeltmeId == null;
     return {
       if (widget.duzenle != null && widget.duzeltmeId == null) 'ilan_id': widget.duzenle!['id'],
       if (widget.duzeltmeId != null) ...{
@@ -614,12 +628,12 @@ class _GorevliIlanFormuState extends State<GorevliIlanFormu> {
       },
       'ad_soyad': _bos(_ad.text),
       'cinsiyet': _cins,
-      if (yas != null) 'yas': yas,
+      if (yas != null) 'yas': yas else if (duzenleme) 'yas': null,
       'vefat_tarihi': _vefat,
       'namaz_tarihi': _namaz,
       if (namazYeri != null) 'namaz_yeri_vakti': namazYeri,
-      if (mezarlik != null) 'defin_yeri': mezarlik,
-      if (mahalle != null) 'koy': mahalle,
+      if (mezarlik != null) 'defin_yeri': mezarlik else if (duzenleme) 'defin_yeri': null,
+      if (mahalle != null) 'koy': mahalle else if (duzenleme) 'koy': null,
       if (_sehit) 'sehit': true,
       if (_sehit) 'rutbe': _bos(_rutbe.text),
       if (_sehit && _bos(_toren.text) != null) 'toren_yeri': _bos(_toren.text),

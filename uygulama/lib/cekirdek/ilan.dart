@@ -162,7 +162,10 @@ class Ilan {
 }
 
 String vakitBul(String? s) {
-  final m = RegExp(r'(sabah|öğle|ikindi|akşam|yatsı|cuma)').firstMatch(trKucuk(s ?? ''));
+  // 30.10.2026 HATA: cami adındaki sözcük de vakit sayılıyordu ("…-SABAHATTİN CAMİİ" → "Sabah", "-CUMA CAMİİ" → "Cuma"). Vakit yalnız ilk '-' öncesinde aranır.
+  final t = s ?? '';
+  final i = t.indexOf('-');
+  final m = RegExp(r'(sabah|öğle|ikindi|akşam|yatsı|cuma)').firstMatch(trKucuk(i < 0 ? t : t.substring(0, i)));
   return m == null ? '' : cumleHarf(m.group(1));
 }
 

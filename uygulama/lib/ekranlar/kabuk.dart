@@ -90,7 +90,7 @@ class AnaKabuk extends StatelessWidget {
                       child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                         Ikon(_sekmeIkon[i], boyut: 24, renk: d.sekme == i ? r.vurguMetin : r.metin3),
                         const SizedBox(height: 3),
-                        Text(i < 4 ? M.sekmeler[i] : M.sekmePanel,
+                        Text(i < 4 ? (i < M.sekmeler.length ? M.sekmeler[i] : '') : M.sekmePanel, // uzak ayarda 4'ten kısa liste çökmesin
                             maxLines: 1,
                             softWrap: false,
                             overflow: TextOverflow.ellipsis,
