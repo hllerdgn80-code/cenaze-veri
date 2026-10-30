@@ -181,7 +181,7 @@ void main() {
     expect(find.text('Ali Örnek'), findsNothing);
   });
 
-  testWidgets('15.10.2026: yarına kayıt yoksa şeritte "Yarın" YOK; 7 geçmiş gün yine var', (tester) async {
+  testWidgets('30.10.2026 §58: yarına kayıt YOK olsa da şeritte "Yarın" VAR (öbür gün yok); 7 geçmiş gün yine var', (tester) async {
     telefon(tester);
     final d = await testDurumu();
     final v = veriYap(bugun, ilceler: {
@@ -189,8 +189,9 @@ void main() {
     });
     await tester.pumpWidget(kapsamli(d, SizedBox(height: 80, child: SeritSarmal(veri: v, ilce: 'Bodrum', secili: bugun))));
     await tester.pumpAndSettle();
-    expect(find.text(M.seritYarin), findsNothing);
-    expect(find.byKey(ValueKey('gun_${gunEkle(bugun, 1)}')), findsNothing);
+    expect(find.text(M.seritYarin), findsOneWidget);
+    expect(find.byKey(ValueKey('gun_${gunEkle(bugun, 1)}')), findsOneWidget);
+    expect(find.byKey(ValueKey('gun_${gunEkle(bugun, 2)}')), findsNothing);
     for (int n = 0; n < 7; n++) {
       expect(find.byKey(ValueKey('gun_${gunEkle(bugun, -n)}')), findsOneWidget);
     }

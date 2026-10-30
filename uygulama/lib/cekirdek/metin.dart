@@ -29,7 +29,7 @@ class M {
   // 2. Cenaze İlanları
   static String get ilanlarUst => UzakAyar.yazi('ilanlarUst', 'Cenaze İlanları');
   static String get seritBugun => UzakAyar.yazi('seritBugun', 'Bugün');
-  static String get seritYarin => UzakAyar.yazi('seritYarin', 'Yarın'); // 15.10.2026: yarının ilanı anında yayında; yalnız o güne kayıt varsa şeritte
+  static String get seritYarin => UzakAyar.yazi('seritYarin', 'Yarın'); // 30.10.2026 §58: Yarın şeritte HER ZAMAN
   static String get bolumIlGeneli => UzakAyar.yazi('bolumIlGeneli', 'İl geneli (ilçe belirtilmemiş)');
   // §21/1: ilanları ilçe vermeyen kaynakta (ör. Gaziantep) ilanlar zaten "İl geneli"dir; parantezli açıklama gerekmez
   static String get bolumIlGenelSade => UzakAyar.yazi('bolumIlGenelSade', 'İl geneli');
@@ -52,6 +52,9 @@ class M {
   static String get bosBugunAciklama => UzakAyar.yazi('bosBugunAciklama', ''); // 15.10.2026 sahibi: "son 7 günün ilanları aşağıda" ifadesi KALDIRILDI; geçmiş günler yalnız tarih şeridinden
   /// URUN §57: bugün boşken dünün ilanlarının üstündeki bölüm başlığı
   static String dunBolum(String dun) => UzakAyar.kalip('dunBolum', 'Dün (${tarih(dun, kisa: true)})', [tarih(dun, kisa: true)]);
+  /// URUN §58 (sahibi 30.10.2026): Yarın (ve öbür gün) sekmesi boşken. {0} = yer ADI (ek almaz: "Bodrum için")
+  static String bosYarinBaslik(String yer) => UzakAyar.kalip('bosYarinBaslik', 'Yarın $yer için henüz cenaze ilanı girilmedi', [yer]);
+  static String get bosYarinAciklama => UzakAyar.yazi('bosYarinAciklama', 'Yarının ilanları gün içinde eklenir; liste kendiliğinden güncellenir.');
   static String get bosGecmisBaslik => UzakAyar.yazi('bosGecmisBaslik', 'Bu tarihte cenaze ilanı bulunmuyor');
   static String bosGecmisAciklama(String gun, String yer) => UzakAyar.kalip('bosGecmisAciklama', '${tarih(gun)} · $yer', [tarih(gun), yer]);
   // bosIlGeneli KALDIRILDI 16.10.2026 (sahibi: boş günde yalnız üstteki satır kalsın)
@@ -203,7 +206,7 @@ class M {
   static String get oneriTamamBaslik => UzakAyar.yazi('oneriTamamBaslik', 'Teşekkür ederiz');
   static String get oneriTamamDugme => UzakAyar.yazi('oneriTamamDugme', 'Tamam');
   static String get hakkindaBaslik => UzakAyar.yazi('hakkindaBaslik', 'Kimin Cenazesi');
-  static String get hakkindaMetin => UzakAyar.yazi('hakkindaMetin', 'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.17');
+  static String get hakkindaMetin => UzakAyar.yazi('hakkindaMetin', 'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.18');
   static String get gizlilikBaslik => UzakAyar.yazi('gizlilikBaslik', 'Gizlilik');
   // 21.10.2026 Play denetimi: metin KODA eşit olmalı (tam metin: kimincenazesi.com/gizlilik)
   static String get gizlilikMetin => UzakAyar.yazi('gizlilikMetin', 'Okumak için hesap gerekmez; seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Din görevlisi olarak kayıt olursanız Diyanet e-posta adresiniz, adınız, görev yeriniz ve panel parolanız sunucuda saklanır; hesabınızı panel menüsünden silebilirsiniz. Bildirim izni isteğe bağlıdır. Konum izni istenmez, uygulamada reklam yoktur.');

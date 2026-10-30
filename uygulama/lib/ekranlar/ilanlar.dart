@@ -250,41 +250,7 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
     return x;
   }
 
-  // Geçmiş günler (son 7 gün açılırken): ilçesiz kaynakta "İl geneli" kayıtları da girer
-  List<Widget> gecmisGun(String g) {
-    final x = gunKartlari(g, tarihliBolum: true);
-    if (ilcesiz) {
-      final gl = genelGun(g);
-      if (gl.isNotEmpty) {
-        if (ilce == null) x.add(Bolum('${tarih(g, kisa: true)} · ${M.bolumIlGenelSade}'));
-        x.addAll(kartlar(gl));
-      }
-    }
-    return x;
-  }
-
-  // §21/2: ilin diğer ilçelerinde bugünün ilanları (şehit önce)
-  List<Widget> digerIlceler(String g) {
-    final d = <String, List<Ilan>>{};
-    for (final e in v.ilceler.entries) {
-      if (e.key == ilce) continue;
-      final l = e.value.where((r) => r.cenazeGunu == g).toList();
-      if (l.isNotEmpty) d[e.key] = l;
-    }
-    if (d.isEmpty) return <Widget>[];
-    final adlar = d.keys.toList()..sort(trKarsilastir);
-    final x = <Widget>[
-      Bolum(M.digerIlcelerBaslik(v.il, adlar.take(3).toList(), devami: adlar.length > 3)),
-    ];
-    x.addAll(kartlar([for (final k in adlar) ...d[k]!.where((r) => r.sehit)]));
-    for (final k in adlar) {
-      final l = d[k]!.where((r) => !r.sehit).toList();
-      if (l.isEmpty) continue;
-      x.add(Bolum(k));
-      x.addAll(kartlar(l));
-    }
-    return x;
-  }
+  // (30.10.2026: kullanılmayan gecmisGun ve digerIlceler [§21/2, 15.10'da kapatıldı] iç işlevleri silindi — analiz uyarısı; yedek ilanlar.dart.bak-3010yarin)
 
   // İlçesi belirtilmemiş kayıtlar (ilçesiz kaynakta "İl geneli"; ilçeli kaynakta yalnız o gün kayıt varsa)
   List<Widget> genelBolumu(String g) {
@@ -306,6 +272,9 @@ List<Widget> gunIcerigi(IlVerisi v, String? ilce, String gun, String bugun) {
       h = <Widget>[
         BosDurum(baslik: M.bosBugunBaslik(yer), aciklama: M.bosBugunAciklama, kucuk: true),
       ];
+    } else if (gun.compareTo(bugun) > 0) {
+      // 30.10.2026 sahibi (URUN §58): Yarın (ve öbür gün) sekmesi boşsa "henüz girilmedi"; ilanlar gün içinde eklenir
+      h = <Widget>[BosDurum(baslik: M.bosYarinBaslik(yer), aciklama: M.bosYarinAciklama, kucuk: true)];
     } else {
       h = <Widget>[BosDurum(baslik: M.bosGecmisBaslik, aciklama: M.bosGecmisAciklama(gun, yer))];
     }
@@ -370,7 +339,7 @@ class IlanKutusu extends StatelessWidget {
   }
 }
 
-/// Eşit hücreler: [öbür gün] [Yarın] Bugün → 6 gün önce (15.10.2026: Yarın/öbür gün YALNIZ o güne ilan varsa eklenir); seçili altın dolgu; ilan olan günde nokta
+/// Eşit hücreler: [öbür gün] [Yarın] Bugün → 6 gün önce (30.10.2026 §58: Yarın HER ZAMAN; öbür gün YALNIZ o güne ilan varsa eklenir); seçili altın dolgu; ilan olan günde nokta
 class _TarihSeridi extends StatelessWidget {
   final IlVerisi veri;
   final String? ilce;
@@ -383,9 +352,10 @@ class _TarihSeridi extends StatelessWidget {
     final r = context.renk;
     final bugun = bugunTr();
     final hucreler = <Widget>[];
+    // 30.10.2026 sahibi (URUN §58): "Yarın" HER ZAMAN görünür; öbür gün yalnız o güne kayıt varsa; nokta yine veriye göre
     final ileri = <int>[
-      for (final k in [2, 1])
-        if (veri.gunDolu(ilce, gunEkle(bugun, k))) k
+      if (veri.gunDolu(ilce, gunEkle(bugun, 2))) 2,
+      1,
     ];
     final aralik = ileri.length > 1 ? 4.0 : 6.0;
     for (final n in [for (final k in ileri) -k, for (int i = 0; i < 7; i++) i]) {

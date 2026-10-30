@@ -7,6 +7,7 @@
 set -euo pipefail
 U="$(cd "$(dirname "$0")/.." && pwd)"
 FLUTTER="${FLUTTER_BIN:-$U/../../araclar/flutter-sdk/flutter/bin}"
+[ -x "$FLUTTER/flutter" ] || FLUTTER="$U/../araclar/flutter-sdk/flutter/bin"   # 30.10: uygulama/ (kanonik) ve yuklenecek/uygulama/ yerleşimlerinin ikisi de
 export PATH="$FLUTTER:$PATH" FLUTTER_SUPPRESS_ANALYTICS=true CI=true
 T="$(mktemp -d "${TMPDIR:-/tmp}/kc-yerel-test.XXXXXX")"
 trap 'rm -rf "$T"' EXIT
