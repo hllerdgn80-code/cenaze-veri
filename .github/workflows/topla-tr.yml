@@ -38,7 +38,8 @@ env:
   TZ: Europe/Istanbul
   # 16.10.2026: kastamonu agri mardin tunceli mersin = GitHub IP'sine robots.txt 403 veren il okuyuculari (Aciksoz; Agrida Haber+Karakose; Mardin Haber; Tunceli Emek;
   # Imece+Iste Mersin). Mac kuru probunda 7/8 kaynak acildi (siirt Kurtalan Mac'ten de 403 -> eklenmedi)
-  TR_ILLER: "kocaeli van mugla aksaray malatya kastamonu agri mardin tunceli mersin"
+  # 30.10.2026: amasya diyarbakir siirt kirklareli eklendi — GitHub IP'sinden 0/ENGEL (Kurtalan 403, Alternatif robots), Mac'ten (TR) 200 ve kayıt veriyor (Merzifon Bilgi 9, Bismil Haber 4)
+  TR_ILLER: "kocaeli van mugla aksaray malatya kastamonu agri mardin tunceli mersin amasya diyarbakir siirt kirklareli"
 
 jobs:
   oku-tr:
