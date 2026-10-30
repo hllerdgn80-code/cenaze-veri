@@ -81,6 +81,9 @@ jobs:
             il=$(basename "$(dirname "$f")"); mkdir -p "veri/$il"; [ -f "veri/$il/_ulusal.json" ] || cp "$f" "veri/$il/_ulusal.json"
           done
           if [ -f veri-tr/_bosluk.json ]; then cp veri-tr/_bosluk.json veri/_bosluk.json; fi
+          # 30.10.2026 H38: okuyucu DURUM dosyalari turlar arasi KORUNUR (veri/ her koşuda silindiği için e-Devlet captcha bekleme / 3 boş koşu haftalık
+          # atlama / ilçe dönüşüm sırası ve ulusal akışların günlük istek sayaçları her turda sıfırlanıyordu -> aynı hizmetler her tur, bütçe aşımı).
+          if [ -d veri-tr/_durum ]; then cp veri-tr/_durum/_*.json veri/ 2>/dev/null || true; echo "durum dosyalari geri yuklendi: $(ls veri-tr/_durum | tr '\n' ' ')"; fi
       - name: Illeri oku (Turkiye'den)
         if: ${{ inputs.mod != 'bosluk' }}
         run: python3 okuyucu/hepsi.py $TR_ILLER
@@ -133,6 +136,8 @@ jobs:
             il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
           done
           if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
+          # 30.10.2026 H38: durum dosyalari (e-Devlet, vefatilan, sondakika, cenazeilanlari, defter) sonraki tura tasinir
+          mkdir -p veri-tr/_durum; for f in veri/_*_durum.json; do [ -f "$f" ] && cp "$f" veri-tr/_durum/; done; ls veri-tr/_durum 2>/dev/null || true
       - name: veri-tr/ klasorunu hazirla
         if: ${{ inputs.mod != 'bosluk' }}
         run: |
@@ -147,6 +152,8 @@ jobs:
             il=$(basename "$(dirname "$f")"); mkdir -p "veri-tr/$il"; cp "$f" "veri-tr/$il/_ulusal.json"
           done
           if [ -f veri/_bosluk.json ]; then cp veri/_bosluk.json veri-tr/_bosluk.json; fi
+          # 30.10.2026 H38: durum dosyalari (e-Devlet, vefatilan, sondakika, cenazeilanlari, defter) sonraki tura tasinir
+          mkdir -p veri-tr/_durum; for f in veri/_*_durum.json; do [ -f "$f" ] && cp "$f" veri-tr/_durum/; done; ls veri-tr/_durum 2>/dev/null || true
           python3 - <<'PY'
           import json, os
           iller = os.environ["TR_ILLER"].split()
