@@ -18,7 +18,8 @@ class GuncellemeGerekli extends StatelessWidget {
       canPop: false,
       child: Scaffold(
         backgroundColor: _zemin,
-        body: Center(
+        body: SafeArea(
+          child: Center(
           child: SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(32, 36, 32, 40),
             child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -43,6 +44,7 @@ class GuncellemeGerekli extends StatelessWidget {
                 ),
               ),
             ]),
+          ),
           ),
         ),
       ),

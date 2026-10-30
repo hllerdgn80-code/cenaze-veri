@@ -94,6 +94,77 @@ def gradle_bildirim(p):
     p.write_text(s, encoding="utf-8")
     print("Gradle: desugaring + compileSdk ayarlandı")
 
+UCTAN_UCA_IMPORT = ("import android.os.Bundle", "import androidx.core.view.WindowCompat")
+UCTAN_UCA_SATIR = "        WindowCompat.setDecorFitsSystemWindows(window, false)\n"
+
+
+def uctan_uca_kotlin():
+    """30.10.2026 Play önerisi "uçtan uca ekran": SDK 35+ hedefleyen uygulamalar Android 15'te varsayılan uçtan uca çizilir.
+    MainActivity.onCreate (super'den sonra) WindowCompat.setDecorFitsSystemWindows(window, false) ekler (= enableEdgeToEdge'in çekirdeği).
+    Sınıf/onCreate tanınmazsa derleme DURUR (sessiz geçmez)."""
+    ma = next(iter(sorted((A / "app/src/main").rglob("MainActivity.kt"))), None)
+    if not ma:
+        sys.exit("MainActivity.kt yok (uçtan uca yaması uygulanamadı)")
+    k = ma.read_text(encoding="utf-8")
+    if "setDecorFitsSystemWindows" in k:
+        print("uçtan uca yaması zaten var")
+        return
+    for im in UCTAN_UCA_IMPORT:
+        if im not in k:
+            k = re.sub(r"(package [^\n]+\n)", lambda m, im=im: m.group(1) + "\n" + im, k, count=1)
+    if re.search(r"override fun onCreate\(", k):
+        k, n = re.subn(r"(super\.onCreate\(savedInstanceState\)[^\n]*\n)", lambda m: m.group(1) + UCTAN_UCA_SATIR, k, count=1)
+        if n != 1:
+            sys.exit("MainActivity.onCreate içinde super.onCreate(savedInstanceState) bulunamadı (uçtan uca yaması)")
+    else:
+        govde = ("    override fun onCreate(savedInstanceState: Bundle?) {\n        super.onCreate(savedInstanceState)\n"
+                 + UCTAN_UCA_SATIR + "    }\n")
+        m = re.search(r"class MainActivity\s*:\s*(\w+)\(\)\s*(\{\s*\}|\{)?", k)
+        if not m:
+            sys.exit("MainActivity sınıfı tanınmadı (uçtan uca yaması)")
+        if m.group(2) is None:
+            yer = "class MainActivity : %s() {\n%s}\n" % (m.group(1), govde)
+        elif m.group(2) == "{":
+            yer = "class MainActivity : %s() {\n%s" % (m.group(1), govde)
+        else:
+            yer = "class MainActivity : %s() {\n%s}\n" % (m.group(1), govde)
+        k = k[:m.start()] + yer + k[m.end():]
+    ma.write_text(k, encoding="utf-8")
+    print("uçtan uca yaması uygulandı:", ma)
+
+
+def uctan_uca_stil():
+    """windowOptOutEdgeToEdgeEnforcement (Android 15 uçtan uca zorunluluğundan çıkış) varsa SİLİNİR; uygulama uçtan uca olmalı."""
+    for st in sorted((A / "app/src/main/res").glob("values*/*.xml")):
+        t = st.read_text(encoding="utf-8")
+        t2 = re.sub(r"[ \t]*<item[^>]*windowOptOutEdgeToEdgeEnforcement[^>]*>[^<]*</item>\n?", "", t)
+        if t2 != t:
+            st.write_text(t2, encoding="utf-8")
+            print("windowOptOutEdgeToEdgeEnforcement silindi:", st)
+
+
+def gradle_uctan_uca(p):
+    """androidx.core (WindowCompat) açıkça bağımlılık; targetSdk >= 35 (Flutter 3.47 varsayılanı 36: yalnız güvence)."""
+    s = p.read_text(encoding="utf-8")
+    kts = p.suffix == ".kts"
+    if "androidx.core:core" not in s:
+        s += ('\ndependencies {\n    implementation("androidx.core:core:1.15.0")\n}\n' if kts
+              else "\ndependencies {\n    implementation 'androidx.core:core:1.15.0'\n}\n")
+    m = re.search(r"targetSdk(?:Version)?\s*=?\s*(\S+)", s)
+    if m:
+        deger = m.group(1)
+        yeni = None
+        if deger.startswith("flutter."):
+            yeni = "targetSdk = maxOf(35, flutter.targetSdkVersion)" if kts else "targetSdk Math.max(35, flutter.targetSdkVersion)"
+        elif deger.isdigit() and int(deger) < 35:
+            yeni = "targetSdk = 35" if kts else "targetSdk 35"
+        if yeni:
+            s = s[:m.start()] + yeni + s[m.end():]
+    else:
+        print("::warning::targetSdk satırı bulunamadı (Flutter varsayılanı 36 geçerli)")
+    p.write_text(s, encoding="utf-8")
+    print("Gradle: androidx.core + targetSdk>=35 ayarlandı")
+
 
 def gradle_dosyasi():
     for ad in ("build.gradle.kts", "build.gradle"):
@@ -180,5 +251,8 @@ if __name__ == "__main__":
     kimlik(g)
     bildirim_simgesi()
     gradle_bildirim(g)
+    gradle_uctan_uca(g)
+    uctan_uca_kotlin()
+    uctan_uca_stil()
     # (16.10.2026) ML Kit kalktı -> H68 R8 kuralları (proguard-rules.pro) artık gerekmiyor
     imza(g)

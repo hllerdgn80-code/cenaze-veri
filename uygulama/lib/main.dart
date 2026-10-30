@@ -33,8 +33,24 @@ Future<Gomulu> gomuluYukle() async {
   );
 }
 
+/// 30.10.2026 uçtan uca ekran (Play: Android 15'te SDK 35+ uygulamalar varsayılan uçtan uca çizilir): durum ve gezinme çubukları şeffaf,
+/// ikon rengi temaya göre (koyu tema → açık ikon). Ekran içeriği çubukların altına taşmasın diye ekranlar SafeArea / Scaffold ekleriyle sarılıdır.
+SystemUiOverlayStyle sistemCubuklari(bool koyu) {
+  final ikon = koyu ? Brightness.light : Brightness.dark;
+  return SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+    systemNavigationBarColor: Colors.transparent,
+    systemNavigationBarDividerColor: Colors.transparent,
+    systemNavigationBarContrastEnforced: false,
+    statusBarIconBrightness: ikon,
+    systemNavigationBarIconBrightness: ikon,
+    statusBarBrightness: koyu ? Brightness.dark : Brightness.light, // iOS
+  );
+}
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   final gomulu = await gomuluYukle();
   final depo = await Depo.ac();
   await UzakAyar.yerelYukle(); // 16.10.2026 uzak ayar: son değer telefondan, tazesi ilanlar yüklenirken
@@ -81,6 +97,10 @@ class KiminCenazesi extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           theme: temaYap(durum.koyu),
           themeAnimationDuration: const Duration(milliseconds: 250),
+          builder: (context, child) => AnnotatedRegion<SystemUiOverlayStyle>(
+            value: sistemCubuklari(durum.koyu),
+            child: child ?? const SizedBox.shrink(),
+          ),
           locale: const Locale('tr', 'TR'),
           supportedLocales: const [Locale('tr', 'TR')],
           localizationsDelegates: const [

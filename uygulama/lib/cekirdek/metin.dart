@@ -206,7 +206,7 @@ class M {
   static String get oneriTamamBaslik => UzakAyar.yazi('oneriTamamBaslik', 'Teşekkür ederiz');
   static String get oneriTamamDugme => UzakAyar.yazi('oneriTamamDugme', 'Tamam');
   static String get hakkindaBaslik => UzakAyar.yazi('hakkindaBaslik', 'Kimin Cenazesi');
-  static String get hakkindaMetin => UzakAyar.yazi('hakkindaMetin', 'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.18');
+  static String get hakkindaMetin => UzakAyar.yazi('hakkindaMetin', 'Şehrinizdeki cenazelerden haberdar olun. Sayfanıza eklediğiniz bilgiler silinmez. Sürüm 0.1.19');
   static String get gizlilikBaslik => UzakAyar.yazi('gizlilikBaslik', 'Gizlilik');
   // 21.10.2026 Play denetimi: metin KODA eşit olmalı (tam metin: kimincenazesi.com/gizlilik)
   static String get gizlilikMetin => UzakAyar.yazi('gizlilikMetin', 'Okumak için hesap gerekmez; seçtiğiniz adres ve Sayfanıza eklediğiniz bilgiler yalnız bu cihazda tutulur. Din görevlisi olarak kayıt olursanız Diyanet e-posta adresiniz, adınız, görev yeriniz ve panel parolanız sunucuda saklanır; hesabınızı panel menüsünden silebilirsiniz. Bildirim izni isteğe bağlıdır. Konum izni istenmez, uygulamada reklam yoktur.');

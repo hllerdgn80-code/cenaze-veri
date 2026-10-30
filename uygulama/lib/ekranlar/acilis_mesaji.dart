@@ -48,7 +48,8 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
       canPop: false,
       child: Scaffold(
         backgroundColor: _zemin,
-        body: Stack(children: [
+        body: SafeArea(
+          child: Stack(children: [
           Center(
             child: SingleChildScrollView(
               padding: const EdgeInsets.fromLTRB(28, 36, 28, 40),
@@ -109,6 +110,7 @@ class _AcilisMesajiState extends State<AcilisMesaji> {
             ),
           ),
         ]),
+        ),
       ),
     );
   }
