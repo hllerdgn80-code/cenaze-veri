@@ -53,12 +53,17 @@ Future<void> main() async {
   runApp(KiminCenazesi(durum: durum));
 }
 
+Widget _sonrakiEkran(AppDurum durum) => SurumKapisi(
+    child: durum.bildirimSorusuGerek
+        ? const BildirimSorusu()
+        : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani()));
+
 Widget _ilkEkran(AppDurum durum) {
-  final Widget sonra = SurumKapisi(
-      child: durum.bildirimSorusuGerek
-          ? const BildirimSorusu()
-          : (durum.adresVar ? const AnaKabuk() : const IlSecEkrani()));
-  return durum.acilisAcik ? AcilisMesaji(sonra: sonra) : sonra;
+  if (!durum.acilisAcik) return _sonrakiEkran(durum);
+  // 30.10.2026 HATA (0.1.7–0.1.16, sahibi yakaladı): AcilisMesaji sonrasını AYRI ROTA olarak açar (pushReplacement);
+  // MaterialApp.home yeniden kurulsa da o rota değişmez → izin kartı "Evet/Şimdi değil"den sonra takılı kalıyordu,
+  // il seçimine geçilmiyordu. Rotanın içeriği duruma bağlı yeniden kurulur.
+  return AcilisMesaji(sonra: ListenableBuilder(listenable: durum, builder: (_, __) => _sonrakiEkran(durum)));
 }
 
 class KiminCenazesi extends StatelessWidget {

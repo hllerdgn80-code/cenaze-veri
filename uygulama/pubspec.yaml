@@ -1,7 +1,7 @@
 name: kimin_cenazesi
 description: "Kimin Cenazesi — il ve ilçenizdeki cenaze ilanları."
 publish_to: "none"
-version: 0.1.16+63
+version: 0.1.17+64
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
