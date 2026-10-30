@@ -1,0 +1,82 @@
+name: Veri yedegi (sifreli)
+
+# 30.10.2026 D1 (VERI-AKISI-7-24-PLANI.md; YURUT.md §7b.6): ic veri onbellegi (veri-ic-*) GitHub tarafindan silinirse _bekleyen, _ulusal, ogrenilmis
+# mezarlik/ilce tablolari kaybolur. Haftalik (Pazar 02:30 UTC) sifreli yedek artifact'i (90 gun). Parola: Actions secret'i VERI_YEDEK_PAROLA
+# (kopyasi sahibinde: deploy/VERI-YEDEK-PAROLA-GIZLI.txt). Geri yukleme: sunucu/YEDEK-GERI-YUKLEME.md. topla.yml'e DOKUNMAZ.
+on:
+  schedule:
+    - cron: "30 2 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: yedek
+  cancel-in-progress: false
+
+jobs:
+  yedekle:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      VERI_YEDEK_PAROLA: ${{ secrets.VERI_YEDEK_PAROLA }}
+    steps:
+      - name: Parola var mi
+        run: |
+          [ -n "$VERI_YEDEK_PAROLA" ] || { echo "::error::VERI_YEDEK_PAROLA secret'i yok (yedek alinmadi)"; exit 1; }
+      # gizli depodan yalniz veri-tr (Mac runner durum dosyalari) ve veri (onbellek yoksa yedek kaynak); acik depo (yayin/) alinmaz
+      - uses: hllerdgn80-code/cenaze-veri/.github/actions/kod-al@main
+        with:
+          anahtar: ${{ secrets.KOD_DEPLOY_KEY }}
+          sparse: |
+            veri
+            veri-tr
+          yayin: "0"
+      - name: Depodaki veri/ kopyasini kenara al (onbellek varsa o gecerli)
+        run: |
+          if [ -d veri ]; then mv veri veri-depo; fi
+      - name: Ic veriyi onbellekten geri yukle (topla.yml ile ayni anahtar)
+        id: onbellek
+        uses: actions/cache/restore@v4
+        with:
+          path: veri
+          key: veri-ic-${{ github.run_id }}
+          restore-keys: veri-ic-
+      - name: Yedek paketini hazirla ve sifrele
+        id: paket
+        run: |
+          set -euo pipefail
+          if [ -z "${{ steps.onbellek.outputs.cache-matched-key }}" ]; then
+            echo "::warning::veri-ic onbellegi YOK (silinmis olabilir); yedek depodaki veri/ ile alindi (_bekleyen/_ulusal eksik olabilir)"
+            if [ -d veri-depo ]; then mv veri-depo veri; else mkdir -p veri; fi
+          else
+            echo "onbellek anahtari: ${{ steps.onbellek.outputs.cache-matched-key }}"
+          fi
+          mkdir -p veri-tr
+          TARIH=$(date -u +%Y-%m-%d)
+          echo "tarih=$TARIH" >> "$GITHUB_OUTPUT"
+          # acik depoda zaten duran Kaybettiklerimiz verisi yedege girmez; kalan her sey (ic veri) yalniz SIFRELI paketle cikar
+          tar czf veri-yedek.tgz --exclude='veri/kaybettiklerimiz' veri veri-tr
+          [ -s veri-yedek.tgz ] || { echo "::error::tar bos"; exit 1; }
+          # sayilar (il adi/kaynak adi gunluge yazilmaz: gunluk herkese aciktir)
+          echo "dosya sayisi: $(tar tzf veri-yedek.tgz | grep -vc '/$')"
+          echo "ic dosya (_*): $(tar tzf veri-yedek.tgz | grep -c '/_[^/]*$')"
+          echo "veri-tr dosya: $(tar tzf veri-yedek.tgz | grep -c '^veri-tr/.*[^/]$' || true)"
+          SHA_TAR=$(sha256sum veri-yedek.tgz | cut -d' ' -f1)
+          openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -salt -pass env:VERI_YEDEK_PAROLA -in veri-yedek.tgz -out "veri-yedek-$TARIH.tgz.enc"
+          # sifreli paketin cozulup ayni cikti verdigini ayni kosuda dogrula
+          SHA_COZ=$(openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -pass env:VERI_YEDEK_PAROLA -in "veri-yedek-$TARIH.tgz.enc" | sha256sum | cut -d' ' -f1)
+          [ "$SHA_TAR" = "$SHA_COZ" ] || { echo "::error::sifre cozme dogrulamasi basarisiz"; exit 1; }
+          rm -f veri-yedek.tgz
+          ls -la "veri-yedek-$TARIH.tgz.enc"
+          echo "paket sha256 (sifreli dosya): $(sha256sum "veri-yedek-$TARIH.tgz.enc" | cut -d' ' -f1)"
+          echo "tar sha256 (cozulunce): $SHA_TAR"
+          echo "boyut bayt: $(stat -c %s "veri-yedek-$TARIH.tgz.enc")"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: veri-yedek-${{ steps.paket.outputs.tarih }}
+          path: veri-yedek-${{ steps.paket.outputs.tarih }}.tgz.enc
+          retention-days: 90
+          compression-level: 0
+          if-no-files-found: error
