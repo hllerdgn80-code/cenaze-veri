@@ -10,6 +10,7 @@ import 'package:kimin_cenazesi/cekirdek/yardimci.dart';
 import 'package:kimin_cenazesi/ekranlar/sayfam.dart';
 
 import 'ortak.dart';
+import 'gorevli_test.dart' show uzun;
 import 'widget_test.dart' show telefon;
 
 void main() {
@@ -25,7 +26,7 @@ void main() {
   });
 
   testWidgets('Bağlantı → Vazgeç kaydı tutar; → Kaldır kaydı siler', (tester) async {
-    telefon(tester);
+    uzun(tester); // kart ekranı dolduran ölçüde (KartSayfasi); bağlantı kartın altında → uzun test ekranı (H80 dersi)
     final d = await testDurumu();
     await d.sayfamaEkle(Ilan.fromJson({'id': 'k1', 'ad_soyad': 'Ali Kaya', 'ilce': 'Merkez', 'cinsiyet': 'Erkek', 'namaz_tarihi': bugunTr()})!);
     await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: const Scaffold(body: SayfamEkrani()))));
