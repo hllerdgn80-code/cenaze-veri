@@ -59,7 +59,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.kimincenazesi.app
       vars:
-        APP_STORE_APPLE_ID: ""             # App Store Connect > Uygulama > Genel Bilgi > "Apple ID" (sayi; gizli degil). Uygulama kaydi sonrasi doldurulur.
+        APP_STORE_APPLE_ID: "6829241495"             # App Store Connect > Uygulama > Genel Bilgi > "Apple ID" (sayi; gizli degil). Uygulama kaydi sonrasi doldurulur.
       flutter: 3.47.7                      # ? bkz. yukaridaki not
       xcode: latest                        # ?
     scripts:
