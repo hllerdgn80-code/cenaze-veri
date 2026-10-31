@@ -91,10 +91,10 @@ jobs:
       - name: "e-Devlet vefat sorgulama (yalniz TR IP; nazik kullanim - 06 ve 18 kosulari, hizmetler arasi 10 dk, kosu basina en cok 60 istek; CAPTCHA gorunce 6 sa bekler)"
         if: ${{ inputs.mod != 'bosluk' }}
         env:
-          EDEVLET_KOSU_SAATLERI: "06,08,10,12,14,16,18,20"   # 16.10.2026: 8 kosu (Mac turlari iki saatte bir); hizmet arasi 10 dk AYNEN   # 15.10.2026 sahibi: e-Devlet listesi gün içinde doluyor; 4 koşu (aralık/tavan aynı; günlük tavan 160→320)
+          EDEVLET_KOSU_SAATLERI: "06,07,08,09,10,11,12,13,14,15,16,17,18,19,20"   # 31.10.2026 SAATLIK (sahibi: "belediyeler oncelikli, veri girdikleri saate gore ayarla"): Istanbul BB e-Devlet listesi 10:00-20:30 arasi SUREKLI doluyor (5 gunun olcumu: bugunun kaydi 10h 81 / 12h 133 / 14h 137 / 16h 137 / 18h 172 / 20h 23; 06:41 kosusu nerdeyse bos), iki saatlik tur 1 saat gecikme veriyordu -> Mac turu her saat (DO cron 41 3-17 UTC), kosu suresi 45 dk (gunluk e-Devlet suresi ~11 sa, oncekiyle ayni; hizmet arasi 240 sn AYNEN)   # 16.10.2026: 8 kosu; 15.10.2026 sahibi: 4 koşu
           EDEVLET_HIZMET_ARASI_SN: "240"   # 16.10.2026 sahibi: "e-Devlet en uzun suren, kisalt" (600 -> 240; CAPTCHA'da hizmet 6 sa dinlenir)
           EDEVLET_ISTEK_TAVANI: "150"
-          EDEVLET_SURE_DK: "90"   # 30.10.2026 B4: 70->90 dk (35->55 hizmet; hedef M5: her hizmete 48 saatte >=1 sira). Istek tavani (150) ve hizmet arasi (240 sn) AYNEN; job timeout 200 dk icinde
+          EDEVLET_SURE_DK: "45"   # 31.10.2026 SAATLIK TUR: 90->45 dk (saatte bir kosu; 15 kosu x 45 dk = 675 dk/gun >= eski 8 x 90 = 720 dk; 55 hizmetlik donusum gunde ~3 kez tamamlanir, B4 48 sa garantisi KORUNUR). 30.10.2026 B4: 70->90 dk (35->55 hizmet). Istek tavani (150) ve hizmet arasi (240 sn) AYNEN
           EDEVLET_YENI_ADAY_TAVANI: "4"   # B4: kosu basina en cok 4 dogrulanmamis aday hizmete ilk temas
           EDEVLET_ZORLA: ${{ inputs.zorla == 'true' && '1' || '0' }}
           GH_TOKEN: ${{ github.token }}      # anlik yayin: her hizmetten sonra veri-tr/<il>/_ulusal.json + bosalt.yml
