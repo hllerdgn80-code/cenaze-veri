@@ -262,7 +262,7 @@ void main() {
 
     await tester.tap(find.byTooltip('Seçenekler'));
     await tester.pumpAndSettle();
-    await tester.tap(find.text(M.kartKaldir));
+    await tester.tap(find.widgetWithText(PopupMenuItem<String>, M.kartKaldir)); // 31.10: kart altında da aynı yazı var
     await tester.pumpAndSettle();
     await tester.tap(find.text(M.kaldirTamam));
     await tester.pump();

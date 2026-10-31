@@ -31,6 +31,7 @@ void main() {
     await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: const Scaffold(body: SayfamEkrani()))));
     await tester.pumpAndSettle();
 
+    await tester.ensureVisible(find.byKey(const ValueKey('kaldir_k1')));
     await tester.tap(find.byKey(const ValueKey('kaldir_k1')));
     await tester.pumpAndSettle();
     expect(find.text(M.kaldirSoru), findsOneWidget);
@@ -39,6 +40,7 @@ void main() {
     expect(find.text('Ali Kaya'), findsOneWidget);
     expect(d.kayitli('k1'), isTrue);
 
+    await tester.ensureVisible(find.byKey(const ValueKey('kaldir_k1')));
     await tester.tap(find.byKey(const ValueKey('kaldir_k1')));
     await tester.pumpAndSettle();
     await tester.tap(find.text(M.kaldirTamam));
