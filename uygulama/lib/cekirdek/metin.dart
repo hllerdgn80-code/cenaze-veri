@@ -1,10 +1,14 @@
 // Ekran metinleri — tasarim/METIN-SOZLUGU.md ile birebir (anahtar adları sözlükteki gibi).
 // Süzgeç: pazar dili yok, ölüm sayısı yok, ünlem yok, "ücretsiz/elle/moderatör" yok, merhum/merhume kuralı.
+import 'package:flutter/foundation.dart' show defaultTargetPlatform, TargetPlatform;
+
+import 'surum.dart';
 import 'uzak_ayar.dart';
 import 'yardimci.dart';
 
 /// 0.1.4 (URUN-TASLAGI §36, site sahibi 15.10.2026): günlük cenaze bildirimi açık; ilk açılışta tek kart sorar.
-bool get bildirimTeklifiAcik => UzakAyar.bayrak('bildirim_teklifi_acik', true);
+/// 31.10.2026: yalnız Android'de (iOS'ta bildirim yok: menüde çalışmayan düğme kalmaz).
+bool get bildirimTeklifiAcik => defaultTargetPlatform == TargetPlatform.android && UzakAyar.bayrak('bildirim_teklifi_acik', true);
 
 class M {
   M._();
@@ -194,8 +198,13 @@ class M {
   static String get menuGizlilik => UzakAyar.yazi('menuGizlilik', 'Gizlilik');
   static String get menuPaylas => UzakAyar.yazi('menuPaylas', 'Uygulamayı paylaş');
   static String get menuOneri => UzakAyar.yazi('menuOneri', 'Öneri ve tavsiyeleriniz');
-  static String get magazaBaglanti => UzakAyar.yazi('magazaBaglanti', 'https://play.google.com/store/apps/details?id=com.kimincenazesi.app');
-  static String get paylasMetin => UzakAyar.yazi('paylasMetin', 'Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. Play Store: $magazaBaglanti');
+  // Mağaza bağlantısı/paylaşma metni platforma göre: Android = Play Store (uzak ayar anahtarları aynen); iOS = App Store (surum.json ios_magaza_url)
+  static String get magazaBaglanti => iosMu
+      ? UzakAyar.yazi('magazaBaglantiIos', sonIosMagazaUrl ?? varsayilanIosMagazaUrl)
+      : UzakAyar.yazi('magazaBaglanti', 'https://play.google.com/store/apps/details?id=com.kimincenazesi.app');
+  static String get paylasMetin => iosMu
+      ? UzakAyar.yazi('paylasMetinIos', 'Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. App Store: $magazaBaglanti')
+      : UzakAyar.yazi('paylasMetin', 'Kimin Cenazesi — şehrinizdeki cenazelerden haberdar olun. Play Store: $magazaBaglanti');
   static String get oneriBaslik => UzakAyar.yazi('oneriBaslik', 'Öneri ve tavsiyeleriniz');
   static String get oneriMesaj => UzakAyar.yazi('oneriMesaj', 'Mesajınız');
   static String get oneriMesajYer => UzakAyar.yazi('oneriMesajYer', 'Görüşünüzü yazın');

@@ -1,0 +1,109 @@
+# 31.10.2026 (Apple 4.2 hibrit plani Faz 2): iOS derlemesi Codemagic'te (Mac mini M2; bu Mac'e Xcode kurulmaz).
+# Alan adlari docs.codemagic.io'dan dogrulandi (yaml-quick-start/building-a-flutter-app, yaml-basic-configuration/yaml-getting-started, 31.10.2026).
+# DOGRULANMADI diye isaretlenen yerler "# ?" ile yorumlandi. Gizli deger YOK: KC_ANAHTAR Codemagic'te `kc_gizli` ortam grubundadir;
+# App Store Connect API anahtari "KC_ASC_ANAHTARI" adli entegrasyondur (Codemagic > Teams > Integrations).
+# Depo koku = yuklenecek/ ; uygulama kodu uygulama/ altinda.
+
+workflows:
+  ios-imzasiz:
+    name: iOS imzasiz derleme (Runner.app)
+    working_directory: uygulama          # docs: workflow duzeyinde calisma klasoru (dogrulandi)
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    environment:
+      groups:
+        - kc_gizli                       # KC_ANAHTAR burada (deger dosyada YOK)
+      flutter: 3.47.7                    # ? Codemagic imajinda 3.47.7 yoksa hata verir -> `stable` yap
+      xcode: latest                      # ? "latest" Xcode 26+ olmali (Apple sarti); sabit surum icin ornek: 26.3
+    scripts:
+      - name: iOS iskeleti
+        script: flutter create --org com.kimincenazesi --project-name kimin_cenazesi --platforms ios .
+      - name: Paketler
+        script: flutter pub get
+      - name: Uygulama simgesi (iOS)
+        script: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+      - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
+        script: python3 araclar/ios_ayarla.py
+      - name: Veri kapisi anahtari (kc_gizli grubundaki KC_ANAHTAR)
+        script: |
+          if [ -n "$KC_ANAHTAR" ]; then
+            sed -i.bak "s/YERTUTUCU_CI_SECRET_KC_ANAHTAR/$KC_ANAHTAR/" lib/cekirdek/anahtar.dart && rm -f lib/cekirdek/anahtar.dart.bak && echo "anahtar yazildi"
+          else
+            echo "UYARI: KC_ANAHTAR yok: uygulama veri kapisindan 403 alir"
+          fi
+      - name: Kod denetimi ve testler
+        ignore_failure: true   # ? script alani bu sayfada dogrulanmadi (CLI yamlinda bilinen alan); android.yml gibi kosuyu kirmaz
+        script: |
+          flutter analyze --no-fatal-infos --no-fatal-warnings
+          flutter test
+      - name: Imzasiz derleme
+        script: |
+          flutter build ios --release --no-codesign \
+            --build-number=$BUILD_NUMBER --dart-define=BUILD_NO=$BUILD_NUMBER
+      - name: Runner.app zip
+        script: ditto -c -k --sequesterRsrc --keepParent build/ios/iphoneos/Runner.app build/ios/Runner.app.zip
+    artifacts:
+      - build/ios/Runner.app.zip
+
+  ios-testflight:
+    name: iOS imzali derleme + TestFlight
+    working_directory: uygulama
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    integrations:
+      app_store_connect: KC_ASC_ANAHTARI   # Codemagic'te tanimlanacak entegrasyon adi (API anahtari sahibinin; dosyada YOK)
+    environment:
+      groups:
+        - kc_gizli
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.kimincenazesi.app
+      vars:
+        APP_STORE_APPLE_ID: ""             # App Store Connect > Uygulama > Genel Bilgi > "Apple ID" (sayi; gizli degil). Uygulama kaydi sonrasi doldurulur.
+      flutter: 3.47.7                      # ? bkz. yukaridaki not
+      xcode: latest                        # ?
+    scripts:
+      - name: iOS iskeleti
+        script: flutter create --org com.kimincenazesi --project-name kimin_cenazesi --platforms ios .
+      - name: Paketler
+        script: flutter pub get
+      - name: Uygulama simgesi (iOS)
+        script: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+      - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
+        script: python3 araclar/ios_ayarla.py
+      - name: Veri kapisi anahtari (kc_gizli grubundaki KC_ANAHTAR)
+        script: |
+          if [ -n "$KC_ANAHTAR" ]; then
+            sed -i.bak "s/YERTUTUCU_CI_SECRET_KC_ANAHTAR/$KC_ANAHTAR/" lib/cekirdek/anahtar.dart && rm -f lib/cekirdek/anahtar.dart.bak && echo "anahtar yazildi"
+          else
+            echo "UYARI: KC_ANAHTAR yok: uygulama veri kapisindan 403 alir"
+          fi
+      - name: Kod denetimi ve testler
+        ignore_failure: true   # ? script alani bu sayfada dogrulanmadi (CLI yamlinda bilinen alan); android.yml gibi kosuyu kirmaz
+        script: |
+          flutter analyze --no-fatal-infos --no-fatal-warnings
+          flutter test
+      - name: Imza ayarlari (Xcode projesine profil)
+        script: xcode-project use-profiles
+      - name: Derleme numarasi (TestFlight'ta artan olmali)
+        script: |
+          # ? `get-latest-testflight-build-number` komutu Codemagic CLI'da var, ama bu sayfada dogrulanmadi (sayfada app-store varyanti var).
+          if [ -n "$APP_STORE_APPLE_ID" ]; then
+            SON=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID" || echo 0)
+            echo "KC_BUILD=$((SON + 1))" >> $CM_ENV
+          else
+            echo "KC_BUILD=$BUILD_NUMBER" >> $CM_ENV
+          fi
+      - name: Imzali ipa
+        script: |
+          flutter build ipa --release \
+            --build-number=$KC_BUILD --dart-define=BUILD_NO=$KC_BUILD \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true         # dahili test (incelemesiz); App Store incelemesine GONDERILMEZ
+        submit_to_app_store: false

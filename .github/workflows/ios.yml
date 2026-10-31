@@ -1,0 +1,131 @@
+name: iOS derleme (Kimin Cenazesi, imzasiz)
+
+# 31.10.2026 (Apple 4.2 hibrit plani, Faz 2): iOS derlemesi bulutta. Bu is IMZASIZ derlemedir (Runner.app zip): iOS iskeleti + ayarlar + testler
+# + derleme calisiyor mu kontrolu. App Store'a/TestFlight'a yuklenecek imzali .ipa Codemagic'te uretilir (codemagic.yaml, ios-testflight).
+# Public depo -> macos-15 runner ucretsiz. Yalnizca elle calisir (push tetigi yok; "Run failed" e-postasi gelmesin diye android.yml ile ayni kural).
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios
+  cancel-in-progress: false
+
+jobs:
+  derle:
+    runs-on: macos-15
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: uygulama
+    steps:
+      - uses: actions/checkout@v4
+        id: co1
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure'
+        run: sleep 60
+        working-directory: ${{ github.workspace }}
+      - if: steps.co1.outcome == 'failure'
+        uses: actions/checkout@v4
+        id: co2
+        continue-on-error: true
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        run: sleep 120
+        working-directory: ${{ github.workspace }}
+      - if: steps.co1.outcome == 'failure' && steps.co2.outcome == 'failure'
+        uses: actions/checkout@v4
+
+      # Apple 2026'da Xcode 26+ ister. macos-15 imajinda varsayilan 16.4; 26.3 ayni imajda kurulu (runner-images macos-15 README, 31.10.2026).
+      - name: Xcode 26.3
+        run: |
+          sudo xcode-select -s /Applications/Xcode_26.3.app/Contents/Developer
+          xcodebuild -version
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: "3.47.7"   # android.yml ile ayni sabit surum (yukseltme bilincli yapilir)
+          cache: true
+
+      - name: Flutter surumu
+        run: flutter --version
+
+      # ios/ klasoru depoda tutulmaz; Flutter sablonu her derlemede uretilir (lib/, test/, pubspec.yaml'a DOKUNMAZ).
+      - name: iOS iskeleti
+        run: flutter create --org com.kimincenazesi --project-name kimin_cenazesi --platforms ios .
+
+      - name: Paketler
+        run: flutter pub get
+
+      - name: Uygulama simgesi (iOS)
+        run: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+
+      - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
+        run: python3 araclar/ios_ayarla.py
+
+      - name: Veri kapisi anahtari (secrets.KC_ANAHTAR -> lib/cekirdek/anahtar.dart; yoksa yer tutucu kalir ve uyari verilir)
+        env:
+          KC_ANAHTAR: ${{ secrets.KC_ANAHTAR }}
+        run: |
+          if [ -n "$KC_ANAHTAR" ]; then
+            sed -i.bak "s/YERTUTUCU_CI_SECRET_KC_ANAHTAR/$KC_ANAHTAR/" lib/cekirdek/anahtar.dart && rm -f lib/cekirdek/anahtar.dart.bak && echo "anahtar yazildi"
+          else
+            echo "::warning::KC_ANAHTAR secret yok: uygulama veri kapisindan 403 alir"
+          fi
+
+      - name: Kod denetimi
+        id: analiz
+        continue-on-error: true
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Kod denetimi sonucu
+        run: |
+          if [ "${{ steps.analiz.outcome }}" != "success" ]; then
+            echo "::warning::KOD DENETIMI GECMEDI - testler ve derleme atlandi (ayrinti: Kod denetimi adimi)"
+            echo "## KOD DENETIMI GECMEDI - testler ve derleme atlandi" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Testler
+        id: test
+        if: steps.analiz.outcome == 'success'
+        continue-on-error: true
+        run: flutter test
+
+      - name: Test sonucu
+        run: |
+          if [ "${{ steps.test.outcome }}" != "success" ]; then
+            echo "::warning::TESTLER GECMEDI - derleme atlandi (ayrinti: Testler adimi)"
+            echo "## TESTLER GECMEDI - derleme atlandi" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Testler gecti" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Imzasiz iOS derlemesi (Runner.app)
+        id: derle
+        continue-on-error: true
+        if: steps.test.outcome == 'success'
+        run: |
+          flutter build ios --release --no-codesign --build-number ${{ github.run_number }} --dart-define=BUILD_NO=${{ github.run_number }}
+          ls -la build/ios/iphoneos/
+          ditto -c -k --sequesterRsrc --keepParent build/ios/iphoneos/Runner.app build/ios/Runner.app.zip
+          ls -la build/ios/Runner.app.zip
+
+      - name: Derleme sonucu
+        if: steps.test.outcome == 'success'
+        run: |
+          if [ "${{ steps.derle.outcome }}" != "success" ]; then
+            echo "::warning::DERLEME BASARISIZ - artifact yok (ayrinti: derleme adimi)"
+            echo "## DERLEME BASARISIZ - artifact yok" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Derleme basarili (imzasiz Runner.app)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Runner.app zip'ini yukle
+        if: steps.test.outcome == 'success' && steps.derle.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kimin-cenazesi-ios-runner-${{ github.run_number }}
+          path: uygulama/build/ios/Runner.app.zip
+          retention-days: 14

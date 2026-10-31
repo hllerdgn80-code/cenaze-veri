@@ -6,7 +6,11 @@ import '../cekirdek/surum.dart';
 
 class GuncellemeGerekli extends StatelessWidget {
   final String mesaj;
-  const GuncellemeGerekli({super.key, required this.mesaj});
+
+  /// Testte enjekte edilir; null = çalışan platform. [iosUrl]: surum.json `ios_magaza_url`.
+  final bool? ios;
+  final String? iosUrl;
+  const GuncellemeGerekli({super.key, required this.mesaj, this.ios, this.iosUrl});
 
   static const _zemin = Color(0xFF101828);
   static const _altin = Color(0xFFC9A45C);
@@ -39,8 +43,8 @@ class GuncellemeGerekli extends StatelessWidget {
                   key: const ValueKey('guncelle_dugme'),
                   style: FilledButton.styleFrom(
                       backgroundColor: _altin, foregroundColor: _zemin, padding: const EdgeInsets.symmetric(vertical: 16)),
-                  onPressed: magazayiAc,
-                  child: const Text('Play Store\'da güncelle', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+                  onPressed: () => magazayiAc(ios: ios, iosUrl: iosUrl),
+                  child: Text('${magazaAdi(ios ?? iosMu)}\'da güncelle', style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
                 ),
               ),
             ]),
@@ -94,7 +98,9 @@ class _SurumKapisiState extends State<SurumKapisi> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     final d = Kapsam.of(context);
-    if (d.guncellemeZorunlu) return GuncellemeGerekli(mesaj: d.surum?.mesaj ?? varsayilanGuncellemeMesaji);
+    if (d.guncellemeZorunlu) {
+      return GuncellemeGerekli(mesaj: d.surum?.mesaj ?? varsayilanGuncellemeMesaji, ios: d.ios, iosUrl: d.surum?.iosMagazaUrl);
+    }
     if (d.surumBekliyor) return const Scaffold(backgroundColor: Color(0xFF101828));
     return widget.child;
   }
@@ -112,7 +118,7 @@ class GuncellemeCubugu extends StatelessWidget {
       color: const Color(0xFF101828),
       child: InkWell(
         key: const ValueKey('guncelleme_cubugu'),
-        onTap: magazayiAc,
+        onTap: () => magazayiAc(ios: d.ios, iosUrl: d.surum?.iosMagazaUrl),
         child: const Padding(
           padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
           child: Row(children: [

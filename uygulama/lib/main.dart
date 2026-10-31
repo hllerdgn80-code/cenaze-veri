@@ -3,6 +3,7 @@
 // bildirim izni ilk açılışta tek kartla sorulur (URUN-TASLAGI §36).
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show TargetPlatform, defaultTargetPlatform;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -56,7 +57,7 @@ Future<void> main() async {
   await UzakAyar.yerelYukle(); // 16.10.2026 uzak ayar: son değer telefondan, tazesi ilanlar yüklenirken
   final veri = VeriServisi(istemci: http.Client(), depo: depo, haric: gomulu.haric);
   final bildirim = AndroidBildirim();
-  final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: true, acilisAcik: true);
+  final durum = AppDurum(depo: depo, veri: veri, gomulu: gomulu, bildirim: bildirim, bildirimSorusuAcik: defaultTargetPlatform == TargetPlatform.android, acilisAcik: true); // iOS'ta bildirim özelliği yok (bildirim.dart yalnız Android)
   // Bildirime dokunuş: uygulama o ilçenin bugünkü listesine döner (il/ilçe depodan; tarih = bugün)
   // Din görevlisi onay bildirimine dokunuş: Panel sekmesini seçer (oturum depodadır)
   void gorevliPaneliAc() {

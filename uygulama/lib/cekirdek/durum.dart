@@ -45,7 +45,9 @@ class AppDurum extends ChangeNotifier {
     this.acilisAcik = false,
     SurumCekici? surumCekici,
     this.buildNo = buildNoDerleme,
-  })  : _surumCekici = surumCekici ?? varsayilanSurumCekici(veri.istemci),
+    bool? ios,
+  })  : ios = ios ?? iosMu,
+        _surumCekici = surumCekici ?? varsayilanSurumCekici(veri.istemci),
          il = depo.il,
         ilce = depo.ilce,
         koyu = depo.koyu,
@@ -58,12 +60,15 @@ class AppDurum extends ChangeNotifier {
 
   /// Çalışan sürümün build numarası; 0 = kapı atlanır (geliştirme/test)
   final int buildNo;
+
+  /// iOS mu (iOS'ta surum.json'un min_build_ios / son_build_ios anahtarları geçerli; testte enjekte edilir)
+  final bool ios;
   SurumBilgi? surum;
   bool surumBekliyor = false;
   Future<void>? _surumIs;
 
-  bool get guncellemeZorunlu => buildNo > 0 && surum != null && buildNo < surum!.minBuild;
-  bool get guncellemeOnerilir => buildNo > 0 && surum != null && !guncellemeZorunlu && buildNo < surum!.sonBuild;
+  bool get guncellemeZorunlu => buildNo > 0 && surum != null && buildNo < surum!.minBuildIcin(ios);
+  bool get guncellemeOnerilir => buildNo > 0 && surum != null && !guncellemeZorunlu && buildNo < surum!.sonBuildIcin(ios);
 
   /// Sürüm bilgisini çeker (3 sn); hata = kapı açık. Sürerken tekrar çağrılırsa aynı işi döndürür.
   Future<void> surumKontrol() {
@@ -72,7 +77,10 @@ class AppDurum extends ChangeNotifier {
       surumBekliyor = surum == null;
       try {
         final s = await _surumCekici().timeout(const Duration(seconds: 3));
-        if (s != null) surum = s; // hata/boş yanıt: önceki bilgi korunur, yoksa kapı açık
+        if (s != null) {
+          surum = s;
+          sonIosMagazaUrl = s.iosMagazaUrl;
+        } // hata/boş yanıt: önceki bilgi korunur, yoksa kapı açık
       } catch (_) {}
       surumBekliyor = false;
       _surumIs = null;
