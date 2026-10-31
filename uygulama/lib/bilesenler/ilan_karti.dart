@@ -96,6 +96,8 @@ class IlanKarti extends StatelessWidget {
       if (sayacli) ...[
         _Ayrac(r),
         SayacBlok(ilan: ilan),
+        const SizedBox(height: R.s3),
+        _KaldirSatiri(ilan: ilan), // 31.10 sahibi: ⋮ menüsü görünmüyordu → kart altında yazılı bağlantı
       ] else ...[
         const SizedBox(height: R.s5),
         d.kayitli(ilan.id)
@@ -273,6 +275,28 @@ class _KayitliDugme extends StatelessWidget {
       );
 }
 
+/// Sayfam kartının altında yazılı "Sayfamdan kaldır" bağlantısı (31.10.2026; ⋮ menüsüyle aynı onay penceresi)
+class _KaldirSatiri extends StatelessWidget {
+  final Ilan ilan;
+  const _KaldirSatiri({required this.ilan});
+  @override
+  Widget build(BuildContext context) {
+    final r = context.renk;
+    return Center(
+      child: InkWell(
+        key: ValueKey('kaldir_${ilan.id}'),
+        borderRadius: BorderRadius.circular(R.cip),
+        onTap: () => kaldirOnay(context, ilan),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: R.s3, vertical: R.s2),
+          child: Text(M.kartKaldir,
+              textAlign: TextAlign.center, style: Y.soluk(r).copyWith(decoration: TextDecoration.underline)),
+        ),
+      ),
+    );
+  }
+}
+
 /// Sayfam kartının ⋮ menüsü: "Sayfamdan kaldır" (onaylı)
 class _KartMenu extends StatelessWidget {
   final Ilan ilan;
@@ -285,7 +309,7 @@ class _KartMenu extends StatelessWidget {
       tooltip: 'Seçenekler',
       color: r.yuzey2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(R.dugme)),
-      icon: Ikon('menu', boyut: 20, renk: r.metin3),
+      icon: Ikon('menu', boyut: 24, renk: r.metin2),
       onSelected: (_) => kaldirOnay(context, ilan),
       itemBuilder: (_) => [
         PopupMenuItem<String>(
