@@ -8,8 +8,8 @@ Kullanım:  python3 araclar/ios_ayarla.py [ios_klasoru]      (varsayılan: ./ios
    IPHONEOS_DEPLOYMENT_TARGET'a DOKUNULMAZ, bulunan değer yazdırılır. Beklenen sayı tutmazsa HATA (sessiz geçmez).
 3) Ortam değişkeni KC_IOS_TEAM_ID (10 karakter, A-Z0-9) varsa DEVELOPMENT_TEAM satırları eklenir/değiştirilir; yoksa dokunulmaz.
    CODE_SIGN_STYLE'a dokunulmaz (Codemagic `xcode-project use-profiles` imza ayarını yapar).
-4) İkon yapılandırması flutter_launcher_icons-ios.yaml yoksa yazılır. Betik dart ÇAĞIRMAZ; CI şu adımı ayrıca çalıştırır:
-       dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+4) İkon yapılandırması ikon-ios.yaml yoksa yazılır. Betik dart ÇAĞIRMAZ; CI şu adımı ayrıca çalıştırır:
+       dart run flutter_launcher_icons -f ikon-ios.yaml
    (1024x1024, alfa kanalsız PNG: remove_alpha_ios: true)
 Gizli değer yazdırılmaz; çıktı GITHUB_OUTPUT'a da yazılır."""
 import os, pathlib, re, sys
@@ -21,7 +21,7 @@ GOSTERIM_ADI = "Kimin Cenazesi"
 # Flutter 3.47 şablonu: Runner (Debug/Release/Profile) = 3 ana kimlik, RunnerTests (Debug/Release/Profile) = 3 test kimliği,
 # Runner proje düzeyi (Debug/Release/Profile) = 3 TARGETED_DEVICE_FAMILY. Şablon değişirse burası bilerek DURDURUR.
 BEKLENEN_ANA, BEKLENEN_TEST, BEKLENEN_AILE = 3, 3, 3
-IKON_YAML = """# iOS simgesi: `dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml` (ios/ klasörü `flutter create` ile üretildikten sonra).
+IKON_YAML = """# iOS simgesi: `dart run flutter_launcher_icons -f ikon-ios.yaml` (ios/ klasörü `flutter create` ile üretildikten sonra).
 # Android simgesi pubspec.yaml'daki flutter_launcher_icons bölümüyle ayrıca üretilir.
 flutter_launcher_icons:
   android: false
@@ -135,11 +135,11 @@ def proje():
 
 
 def ikon_yapilandirmasi():
-    y = pathlib.Path("flutter_launcher_icons-ios.yaml")
+    y = pathlib.Path("ikon-ios.yaml")
     if not y.exists():
         y.write_text(IKON_YAML, encoding="utf-8")
-        print("flutter_launcher_icons-ios.yaml yazıldı")
-    print("SIRADAKİ CI ADIMI: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml")
+        print("ikon-ios.yaml yazıldı")
+    print("SIRADAKİ CI ADIMI: dart run flutter_launcher_icons -f ikon-ios.yaml")
 
 
 if __name__ == "__main__":

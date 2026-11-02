@@ -21,7 +21,7 @@ workflows:
       - name: Paketler
         script: flutter pub get
       - name: Uygulama simgesi (iOS)
-        script: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+        script: dart run flutter_launcher_icons -f ikon-ios.yaml
       - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
         script: python3 araclar/ios_ayarla.py
       - name: Veri kapisi anahtari (kc_gizli grubundaki KC_ANAHTAR)
@@ -68,7 +68,7 @@ workflows:
       - name: Paketler
         script: flutter pub get
       - name: Uygulama simgesi (iOS)
-        script: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+        script: dart run flutter_launcher_icons -f ikon-ios.yaml
       - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
         script: python3 araclar/ios_ayarla.py
       - name: Veri kapisi anahtari (kc_gizli grubundaki KC_ANAHTAR)

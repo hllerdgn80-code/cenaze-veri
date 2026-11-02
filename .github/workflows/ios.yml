@@ -60,7 +60,7 @@ jobs:
         run: flutter pub get
 
       - name: Uygulama simgesi (iOS)
-        run: dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml
+        run: dart run flutter_launcher_icons -f ikon-ios.yaml
 
       - name: iOS ayarlari (paket kimligi, ad, yon, sifreleme beyani, yalniz iPhone)
         run: python3 araclar/ios_ayarla.py

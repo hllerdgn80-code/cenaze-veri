@@ -1,4 +1,4 @@
-# iOS simgesi: `dart run flutter_launcher_icons -f flutter_launcher_icons-ios.yaml` (ios/ klasörü `flutter create` ile üretildikten sonra).
+# iOS simgesi: `dart run flutter_launcher_icons -f ikon-ios.yaml` (ios/ klasörü `flutter create` ile üretildikten sonra).
 # Android simgesi pubspec.yaml'daki flutter_launcher_icons bölümüyle ayrıca üretilir.
 flutter_launcher_icons:
   android: false
