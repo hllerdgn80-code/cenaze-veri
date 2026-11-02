@@ -273,7 +273,7 @@ class M {
   static String get panelKilitle => UzakAyar.yazi('panelKilitle', 'Paneli kilitle');
   static String get panelKilitlendi => UzakAyar.yazi('panelKilitlendi', 'Panel kilitlendi.');
   // İlan kutusu (15.10.2026): her il/ilçe liste sayfasının üstünde
-  static String get ilanKutusuGorevli => UzakAyar.yazi('ilanKutusuGorevli', 'Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden cenaze ilanınızı paylaşmasını talep edebilirsiniz.'); // tek paragraf (site sahibi 15.10.2026, birebir); başlık yok
+  static String get ilanKutusuGorevli => UzakAyar.yazi('ilanKutusuGorevli', 'Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden cenaze ilanınızı paylaşmasını rica edebilirsiniz.'); // tek paragraf (site sahibi 15.10.2026, birebir); başlık yok
   static String get ilanKutusuKayit => UzakAyar.yazi('ilanKutusuKayit', 'Din görevlisi misiniz? Kayıt olun.');
   static String get ilanKutusuSehit => UzakAyar.yazi('ilanKutusuSehit', 'Şehit cenazesi ilanı nasıl verilir?');
 
@@ -294,7 +294,7 @@ class M {
   // ---- Diyanet e-posta doğrulaması (URUN §45, 16.10.2026) ----
   static String get gorevliEpostaBaslik => UzakAyar.yazi('gorevliEpostaBaslik', 'Din görevlisi olduğunuzu teyit edelim');
   static String get gorevliEpostaAciklama => UzakAyar.yazi('gorevliEpostaAciklama', 'Diyanet İşleri Başkanlığının size tahsis ettiği e-posta adresinize bir kod göndereceğiz. Gelen kodu bir sonraki ekrana yazın.');
-  static String get gorevliKullanici => UzakAyar.yazi('gorevliKullanici', 'Diyanet kullanıcı adınız');
+  static String get gorevliKullanici => UzakAyar.yazi('gorevliKullanici', 'DİBBYS kullanıcı adınız');
   static String get gorevliKullaniciYer => UzakAyar.yazi('gorevliKullaniciYer', 'kullaniciadi');
   static String get gorevliAlanAdi => UzakAyar.yazi('gorevliAlanAdi', '@diyanet.gov.tr');
   static String get gorevliKodGonderDugme => UzakAyar.yazi('gorevliKodGonderDugme', 'Kodu gönder');
