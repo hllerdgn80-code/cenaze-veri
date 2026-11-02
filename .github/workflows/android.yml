@@ -60,7 +60,8 @@ jobs:
         run: flutter pub get
 
       - name: Uygulama simgesi (tabutlu daire simge)
-        run: dart run flutter_launcher_icons
+        # 02.11.2026: -f pubspec.yaml şart; uygulama/flutter_launcher_icons-ios.yaml (31.10 iOS) 'flavor' sayılıp ios/ klasörünü arıyor, derleme düşüyordu (run #71)
+        run: dart run flutter_launcher_icons -f pubspec.yaml
 
       - name: Android ayarlari (paket adi, ad, izin, imza)
         id: ayar
