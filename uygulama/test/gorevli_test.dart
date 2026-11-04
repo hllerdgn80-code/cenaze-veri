@@ -149,10 +149,6 @@ void main() {
     expect(istekler.values.first['kullanici'], 'mehmet.yilmaz');
     expect(find.text('Kod gönderildi: mehmet.yilmaz@diyanet.gov.tr'), findsOneWidget);
     expect(sahte.acilan, ['https://posta.diyanet.gov.tr/?username=mehmet.yilmaz%40diyanet.gov.tr']);
-    await tester.tap(find.byKey(const ValueKey('g_posta_ac'))); // yeniden açar, yeni kod istemez
-    await tester.pumpAndSettle();
-    expect(sahte.acilan.length, 2);
-    expect(istekler.keys.where((k) => k.startsWith('/gorevli/eposta-kod')).length, 1);
     for (int i = 0; i < 5; i++) {
       expect(find.byKey(ValueKey('g_tarif_$i')), findsOneWidget);
     }
@@ -162,7 +158,12 @@ void main() {
     expect(find.text('Kodu yeniden gönder (5 dk)'), findsOneWidget); // 5 DAKİKA
     expect(tester.widget<IkincilDugme>(find.widgetWithText(IkincilDugme, 'Kodu yeniden gönder (5 dk)')).onTap, isNull);
     await tester.pump(const Duration(seconds: 61));
-    expect(find.text('Kodu yeniden gönder (3:59)'), findsOneWidget); // dakika:saniye geri sayım
+    expect(find.text('Kodu yeniden gönder (3:59)'), findsOneWidget);
+    await tester.scrollUntilVisible(find.byKey(const ValueKey('g_posta_ac')), 200, scrollable: find.byType(Scrollable).first);
+    await tester.tap(find.byKey(const ValueKey('g_posta_ac'))); // yeniden açar, yeni kod istemez
+    await tester.pump();
+    expect(sahte.acilan.length, 2);
+    expect(istekler.keys.where((k) => k.startsWith('/gorevli/eposta-kod')).length, 1); // dakika:saniye geri sayım
     // yanlış kod
     await _yaz(tester, 'g_kod', '000000');
     await tester.tap(find.text(M.gorevliKodDogrulaDugme));

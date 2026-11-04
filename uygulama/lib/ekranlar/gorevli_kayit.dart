@@ -248,8 +248,6 @@ class _GorevliKayitState extends State<GorevliKayit> {
       const SizedBox(height: R.s3),
       for (int i = 0; i < tarif.length; i++)
         Padding(padding: const EdgeInsets.only(bottom: R.s2), child: Text('${i + 1}. ${tarif[i]}', key: ValueKey('g_tarif_$i'), style: Y.govde(r).copyWith(fontSize: 14))),
-      const SizedBox(height: R.s2),
-      IkincilDugme(M.gorevliPostaAc, key: const ValueKey('g_posta_ac'), onTap: () => baglantiAc(M.gorevliPostaUrl(_adres))), // yeni kod göndermez
       const SizedBox(height: R.s3),
       FormAlani(key: const ValueKey('g_kod'), etiket: M.kodAlan, ipucu: M.kodYer, denetleyici: _kod, klavye: TextInputType.number, enCok: 6),
       const SizedBox(height: R.s2),
@@ -260,6 +258,8 @@ class _GorevliKayitState extends State<GorevliKayit> {
         const SizedBox(height: R.s3),
         Text(_hata!, key: const ValueKey('g_kod_hata'), textAlign: TextAlign.center, style: Y.kucuk(r)),
       ],
+      const SizedBox(height: R.s4),
+      IkincilDugme(M.gorevliPostaAc, key: const ValueKey('g_posta_ac'), onTap: () => baglantiAc(M.gorevliPostaUrl(_adres))), // 04.11: yeni kod göndermez
     ];
   }
 
