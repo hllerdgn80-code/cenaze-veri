@@ -317,6 +317,9 @@ class M {
         'Şifre: DİBBYS şifreniz. Giriş yapın.',
         'Gelen kutusundaki kodu aşağıya yazın.',
       ];
+  /// 04.11.2026 (sahibi; prototip 24.10 DOĞRULAMA v2): kod istenince Diyanet posta sitesi kullanıcı adı DOLU açılır (Zimbra ?username=); alan adı sabit
+  static String gorevliPostaUrl(String adres) => '${UzakAyar.yazi('gorevliPostaAdres', 'https://posta.diyanet.gov.tr/')}?username=${Uri.encodeComponent(adres)}';
+  static String get gorevliPostaAc => UzakAyar.yazi('gorevliPostaAc', 'Posta sitesini aç');
   static String gorevliKodGitti(String adres) => UzakAyar.kalip('gorevliKodGitti', 'Kod gönderildi: $adres', [adres]);
   static String get gorevliKodGecerli => UzakAyar.yazi('gorevliKodGecerli', 'Kod 10 dakika geçerlidir.');
   static String get gorevliKodDogrulaDugme => UzakAyar.yazi('gorevliKodDogrulaDugme', 'Doğrula ve paneli aç');

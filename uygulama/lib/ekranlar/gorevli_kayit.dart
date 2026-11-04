@@ -111,6 +111,7 @@ class _GorevliKayitState extends State<GorevliKayit> {
         _faz = _Faz.kod;
       });
       _sayacBaslat();
+      if (ilk) baglantiAc(M.gorevliPostaUrl(_adres)); // 04.11: posta sitesi kullanıcı adı dolu açılır
       if (!ilk) bildir(context, M.kodGitti);
     } else if (y.kod == 429 && y.govde?['hata'] == 'cok_sik_tekrar' && bekle != null) {
       // 5 dk dolmadan yeni kod verilmez; önceki kod hâlâ geçerli -> kod ekranına geç, kalan süreyle geri say
@@ -247,6 +248,8 @@ class _GorevliKayitState extends State<GorevliKayit> {
       const SizedBox(height: R.s3),
       for (int i = 0; i < tarif.length; i++)
         Padding(padding: const EdgeInsets.only(bottom: R.s2), child: Text('${i + 1}. ${tarif[i]}', key: ValueKey('g_tarif_$i'), style: Y.govde(r).copyWith(fontSize: 14))),
+      const SizedBox(height: R.s2),
+      IkincilDugme(M.gorevliPostaAc, key: const ValueKey('g_posta_ac'), onTap: () => baglantiAc(M.gorevliPostaUrl(_adres))), // yeni kod göndermez
       const SizedBox(height: R.s3),
       FormAlani(key: const ValueKey('g_kod'), etiket: M.kodAlan, ipucu: M.kodYer, denetleyici: _kod, klavye: TextInputType.number, enCok: 6),
       const SizedBox(height: R.s2),

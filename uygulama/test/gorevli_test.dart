@@ -138,6 +138,8 @@ void main() {
         return http.Response('yok', 404);
       }),
     );
+    final sahte = SahteLauncher(); // 04.11: kod istenince posta sitesi kullanıcı adı dolu açılır
+    UrlLauncherPlatform.instance = sahte;
     await tester.pumpWidget(Kapsam(durum: d, child: MaterialApp(theme: temaYap(true), home: GorevliKayit(il: 'Kars', servis: servis))));
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField), 'Mehmet.Yilmaz@diyanet.gov.tr'); // alan adı yazılsa da kullanıcı adına inilir
@@ -146,6 +148,11 @@ void main() {
     await tester.pumpAndSettle();
     expect(istekler.values.first['kullanici'], 'mehmet.yilmaz');
     expect(find.text('Kod gönderildi: mehmet.yilmaz@diyanet.gov.tr'), findsOneWidget);
+    expect(sahte.acilan, ['https://posta.diyanet.gov.tr/?username=mehmet.yilmaz%40diyanet.gov.tr']);
+    await tester.tap(find.byKey(const ValueKey('g_posta_ac'))); // yeniden açar, yeni kod istemez
+    await tester.pumpAndSettle();
+    expect(sahte.acilan.length, 2);
+    expect(istekler.keys.where((k) => k.startsWith('/gorevli/eposta-kod')).length, 1);
     for (int i = 0; i < 5; i++) {
       expect(find.byKey(ValueKey('g_tarif_$i')), findsOneWidget);
     }
