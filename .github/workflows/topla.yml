@@ -207,6 +207,13 @@ jobs:
           name: bosluk
           path: veri/_bosluk.json
           retention-days: 3
+      # 07.11.2026 SESSIZ KAYNAK OZETI: bulut turunun kaynak sayaci (bozuk / uzun_sessiz) Mac'ten okunabilsin diye artifact (araclar/durum.py indirir). Yayina GITMEZ.
+      - uses: actions/upload-artifact@v4
+        if: ${{ hashFiles('veri/_kaynak_uyari.json') != '' }}
+        with:
+          name: kaynak-uyari
+          path: veri/_kaynak_uyari.json
+          retention-days: 3
       - name: Ic veriyi onbellege kaydet (sonraki tur buradan biriktirir; yayina GITMEZ)
         uses: actions/cache/save@v4
         with:
