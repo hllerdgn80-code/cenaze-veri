@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lalande Ödülü, Royal Society Üyesi. Önemli eserleri: “Yer çekimi için Gauss yasası”, “Disquisitiones Arithmeticae”, “normal dağılım”",
+  "neden_onemli": "Ödül: Lalande Ödülü, Royal Society Üyesi. Önemli eserleri: “Yer çekimi için Gauss yasası”, “normal dağılım”, “Disquisitiones Arithmeticae”",
   "hassas": false,
   "turk": false
  },
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q82083",
-  "sitelink": 145,
+  "sitelink": 146,
   "fotograf": {
    "dosya": "John Keats by William Hilton circa 1822 02.jpg",
    "lisans": "Public domain",
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "Brezilya",
   "wikidata_id": "Q78491",
-  "sitelink": 126,
+  "sitelink": 127,
   "fotograf": {
    "dosya": "Zweig Setzer 1927.jpg",
    "lisans": "Public domain",
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Önemli eserleri: “Bilinmeyen Bir Kadının Mektubu”, “Satranç”, “Dünün Dünyası”",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Önemli eserleri: “Satranç”, “Bilinmeyen Bir Kadının Mektubu”, “Dünün Dünyası”",
   "hassas": false,
   "turk": false
  },
@@ -135,7 +135,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Kızıl Bayrak İşçi Nişanı",
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Onur Rozeti Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -247,7 +247,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Suudi Arabistan veliaht prensi, Suudi Arabistan Kralı",
+  "neden_onemli": "Görev: Suudi Arabistan Kralı, Suudi Arabistan veliaht prensi",
   "hassas": false,
   "turk": false
  },

@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: baronet, Liyakat Nişanı. Görev: rektör",
+  "neden_onemli": "Ödül: Liyakat Nişanı, baronet. Görev: rektör",
   "hassas": false,
   "turk": false
  },
@@ -167,7 +167,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Yaratık”, “Yüzüklerin Efendisi üçlemesi”, “Ateş Arabaları”",
+  "neden_onemli": "Önemli eserleri: “Yüzüklerin Efendisi üçlemesi”, “Yaratık”, “Ateş Arabaları”",
   "hassas": false,
   "turk": false
  },
@@ -177,12 +177,12 @@
   "vefat_tarihi": "2016-06-19",
   "vefat_yasi": 27,
   "dogum_yeri": "Sankt-Peterburg",
-  "vefat_yeri": "Los Angeles",
+  "vefat_yeri": "Studio City",
   "defin_yeri": "Hollywood Forever Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q314133",
-  "sitelink": 56,
+  "sitelink": 57,
   "fotograf": {
    "dosya": "Anton Yelchin 2011.jpg",
    "lisans": "CC BY-SA 2.0",

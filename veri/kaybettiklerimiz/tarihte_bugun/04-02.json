@@ -96,7 +96,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q735524",
   "sitelink": 11,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Topal Osman Agha.jpg",
+   "lisans": "Public domain",
+   "yazar": "NA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Topal_Osman_Agha.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Topal_Osman_Agha.jpg"
+  },
   "meslek": [
    "Subay"
   ],
@@ -121,13 +127,19 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q989",
   "sitelink": 209,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope John Paul II smile.jpg",
+   "lisans": "CC BY 3.0 pl",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_Paul_II_smile.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_John_Paul_II_smile.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kongre Altın Madalyası, Beyaz Kartal Nişanı. Görev: yardımcı piskopos, Papa",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, Beyaz Kartal Nişanı. Görev: kardinal, yardımcı piskopos",
   "hassas": false,
   "turk": false
  },
@@ -142,8 +154,14 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q2185",
-  "sitelink": 142,
-  "fotograf": null,
+  "sitelink": 143,
+  "fotograf": {
+   "dosya": "Georges Pompidou 1969 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Farabola",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Pompidou_1969_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georges_Pompidou_1969_%28cropped%29.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -165,7 +183,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q76487",
   "sitelink": 105,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Porträt des Paul Heyse (1853) - Adolf Friedrich Erdmann von Menzel (Museum Georg Schäfer).jpg",
+   "lisans": "Public domain",
+   "yazar": "Adolph von Menzel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portr%C3%A4t_des_Paul_Heyse_%281853%29_-_Adolf_Friedrich_Erdmann_von_Menzel_%28Museum_Georg_Sch%C3%A4fer%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Paul_Heyse_%281853%29_-_Adolf_Friedrich_Erdmann_von_Menzel_%28Museum_Georg_Sch%C3%A4fer%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -187,7 +211,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q75698",
   "sitelink": 98,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Samuel Morse portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Mathew Benjamin Brady",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel_Morse_portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Samuel_Morse_portrait.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -209,7 +239,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q134588",
   "sitelink": 85,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paus Nicolaas V door Peter Paul Rubens.jpg",
+   "lisans": "Public domain",
+   "yazar": "Peter Paul Rubens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paus_Nicolaas_V_door_Peter_Paul_Rubens.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paus_Nicolaas_V_door_Peter_Paul_Rubens.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -229,7 +265,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q54945",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "YoungAlfven.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/YoungAlfven.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:YoungAlfven.jpg"
+  },
   "meslek": [
    "Bilimkurgu yazarı"
   ],
@@ -251,11 +293,17 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q169911",
   "sitelink": 83,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Girolamo Sicciolante - Paus Julius III.jpg",
+   "lisans": "Public domain",
+   "yazar": "Circle of Girolamo Siciolante da Sermoneta",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Girolamo_Sicciolante_-_Paus_Julius_III.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Girolamo_Sicciolante_-_Paus_Julius_III.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -271,7 +319,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q218747",
   "sitelink": 73,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Boze - Honoré de Mirabeau.jpg",
+   "lisans": "Public domain",
+   "yazar": "Joseph Boze",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boze_-_Honor%C3%A9_de_Mirabeau.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Boze_-_Honor%C3%A9_de_Mirabeau.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],

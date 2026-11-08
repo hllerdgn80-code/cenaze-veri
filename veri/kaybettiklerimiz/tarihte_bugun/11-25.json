@@ -11,13 +11,19 @@
   "defin_ulke": "Küba",
   "wikidata_id": "Q11256",
   "sitelink": 206,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Fidel Castro 1950s.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown (Mondadori Publishers)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fidel_Castro_1950s.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Fidel_Castro_1950s.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Lenin Barış Ödülü. Görev: Küba Devlet Başkanı, Küba Komünist Partisi Birinci Sekreteri",
+  "neden_onemli": "Ödül: Uluslararası Kaddafi İnsan Hakları Ödülü, Lenin Barış Ödülü. Görev: Küba Devlet Başkanı, Küba Komünist Partisi Birinci Sekreteri",
   "hassas": false,
   "turk": false
  },
@@ -32,8 +38,14 @@
   "defin_il": null,
   "defin_ulke": "Arjantin",
   "wikidata_id": "Q17515",
-  "sitelink": 175,
-  "fotograf": null,
+  "sitelink": 176,
+  "fotograf": {
+   "dosya": "Argentina celebrando copa (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_celebrando_copa_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Argentina_celebrando_copa_%28cropped%29.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -55,7 +67,13 @@
   "defin_ulke": "Japonya",
   "wikidata_id": "Q134456",
   "sitelink": 110,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Yukio Mishima, 1955 (cropped 850×950 px).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ken Domon",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukio_Mishima%2C_1955_%28cropped_850%C3%97950_px%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yukio_Mishima%2C_1955_%28cropped_850%C3%97950_px%29.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -77,7 +95,13 @@
   "defin_ulke": "Danimarka",
   "wikidata_id": "Q159552",
   "sitelink": 90,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Johannes Vilhelm Jensen 1944.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nobel Foundation",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vilhelm_Jensen_1944.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johannes_Vilhelm_Jensen_1944.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -99,11 +123,17 @@
   "defin_ulke": "Kuzey İrlanda",
   "wikidata_id": "Q164521",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "George Best (1976).jpg",
+   "lisans": "CC0",
+   "yazar": "Hans Peters for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Best_%281976%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:George_Best_%281976%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: English Football Hall of Fame, Ballon d'Or",
+  "neden_onemli": "Ödül: Ballon d'Or, English Football Hall of Fame",
   "hassas": false,
   "turk": false
  },
@@ -119,13 +149,19 @@
   "defin_ulke": null,
   "wikidata_id": "Q1264",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "U Thant (1963).jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Jack de Nijs for Anefo / Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/U_Thant_%281963%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:U_Thant_%281963%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: büyükelçi, Birleşmiş Milletler Genel Sekreterliği. Aday olduğu ödül: Nobel Barış Ödülü",
+  "neden_onemli": "Görev: Birleşmiş Milletler Genel Sekreterliği, büyükelçi. Aday olduğu ödül: Nobel Barış Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -141,7 +177,13 @@
   "defin_ulke": "Meksika",
   "wikidata_id": "Q171128",
   "sitelink": 85,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Diego Rivera - Google Art Project (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Rivera_-_Google_Art_Project_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_-_Google_Art_Project_%28cropped%29.jpg"
+  },
   "meslek": [
    "Ressam"
   ],
@@ -163,7 +205,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q184945",
   "sitelink": 79,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Dr HK Banda, first president of Malawi.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "National Archives of Malawi",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr_HK_Banda%2C_first_president_of_Malawi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dr_HK_Banda%2C_first_president_of_Malawi.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -184,8 +232,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q216134",
-  "sitelink": 72,
-  "fotograf": null,
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Upton Sinclair Portrait 1934.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Upton_Sinclair_Portrait_1934.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Upton_Sinclair_Portrait_1934.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -207,13 +261,19 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q32347",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alfons XII (cropped).JPG",
+   "lisans": "Public domain",
+   "yazar": "Fernando Debás",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfons_XII_%28cropped%29.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfons_XII_%28cropped%29.JPG"
+  },
   "meslek": [
    "Hükümdar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Kutsal Aleksandr Nevski Nişanı. Görev: Asturias Prensliği",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Kutsal Aleksandr Nevski Nişanı. Görev: Asturias Prensliği, İspanya'nın devlet başkanı",
   "hassas": false,
   "turk": false
  },
@@ -229,13 +289,19 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q55198",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alexander Dovzhenko.jpg",
+   "lisans": "Public domain",
+   "yazar": "Na",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Dovzhenko.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexander_Dovzhenko.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Kızıl Bayrak Nişanı",
+  "neden_onemli": "Ödül: Moskova'nın 800. Yıldönümünü Kutlama Jübile Madalyası, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -251,7 +317,13 @@
   "defin_ulke": "Ukrayna",
   "wikidata_id": "Q371322",
   "sitelink": 56,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Hrushevskyi Mykhailo XX.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hrushevskyi_Mykhailo_XX.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hrushevskyi_Mykhailo_XX.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],

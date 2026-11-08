@@ -1,5 +1,61 @@
 [
  {
+  "ad": "John Locke",
+  "dogum_tarihi": "1632-09-08",
+  "vefat_tarihi": "1704-11-08",
+  "vefat_yasi": 72,
+  "dogum_yeri": "Wrington",
+  "vefat_yeri": "High Laver",
+  "defin_yeri": "High Laver (All Saints) Churchyard",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q9353",
+  "sitelink": 210,
+  "fotograf": {
+   "dosya": "JohnLocke.png",
+   "lisans": "Public domain",
+   "yazar": "Godfrey Kneller",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JohnLocke.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JohnLocke.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Sivil Hükümet Üzerine İki İnceleme”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q16296",
+  "dogum_tarihi": "1940-07-13",
+  "vefat_tarihi": "2026-10-28",
+  "vefat_yasi": 86,
+  "dogum_yeri": "Mirfield",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q16296",
+  "sitelink": 93,
+  "fotograf": {
+   "dosya": "Patrick Stewart 1999.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Stewart_1999.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_1999.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “X-Men (film serisi)”, “Uzay Yolu: Yeni Nesil”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Matthew Langford Perry",
   "dogum_tarihi": "1969-08-19",
   "vefat_tarihi": "2023-10-28",
@@ -38,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q206191",
-  "sitelink": 85,
+  "sitelink": 86,
   "fotograf": {
    "dosya": "Abigail Adams.jpg",
    "lisans": "Public domain",
@@ -94,7 +150,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q160030",
-  "sitelink": 80,
+  "sitelink": 81,
   "fotograf": {
    "dosya": "PiusIII.jpg",
    "lisans": "Public domain",
@@ -250,56 +306,6 @@
   "turk": false
  },
  {
-  "ad": "Bernhard von Bülow",
-  "dogum_tarihi": "1849-05-03",
-  "vefat_tarihi": "1929-10-28",
-  "vefat_yasi": 80,
-  "dogum_yeri": "Klein Flottbek",
-  "vefat_yeri": "Roma",
-  "defin_yeri": "Nienstedten Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q60113",
-  "sitelink": 59,
-  "fotograf": {
-   "dosya": "Bernhard von Bülow (Hirsch).png",
-   "lisans": "Public domain",
-   "yazar": "Gebrüder Hirsch, Karlsruhe",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernhard_von_B%C3%BClow_%28Hirsch%29.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bernhard_von_B%C3%BClow_%28Hirsch%29.png"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İmtiyaz Madalyası, Kara Kartal Nişanı. Görev: büyükelçi, Almanya Şansölyesi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Tadeusz Mazowiecki",
-  "dogum_tarihi": "1927-04-18",
-  "vefat_tarihi": "2013-10-28",
-  "vefat_yasi": 86,
-  "dogum_yeri": "Plock",
-  "vefat_yeri": "Varşova",
-  "defin_yeri": "Forest Cemetery in Laski",
-  "defin_il": null,
-  "defin_ulke": "Polonya",
-  "wikidata_id": "Q55922",
-  "sitelink": 59,
-  "fotograf": null,
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Gediminas Nişanı. Görev: Polonya başbakanı",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Korney Çukovski",
   "dogum_tarihi": "1882-03-31",
   "vefat_tarihi": "1969-10-28",
@@ -310,7 +316,7 @@
   "defin_il": null,
   "defin_ulke": "Rusya",
   "wikidata_id": "Q347685",
-  "sitelink": 59,
+  "sitelink": 60,
   "fotograf": {
    "dosya": "Chukovsky 1958 02 (cropped).jpg",
    "lisans": "CC BY 4.0",

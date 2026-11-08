@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": "Rusya",
   "wikidata_id": "Q7200",
-  "sitelink": 244,
+  "sitelink": 245,
   "fotograf": {
    "dosya": "Kiprensky Pushkin.jpg",
    "lisans": "Public domain",
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Boris Godunov”, “Yüzbaşının Kızı”, “Peygamber”",
+  "neden_onemli": "Önemli eserleri: “Boris Godunov”, “Peygamber”, “s”",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması"
@@ -70,7 +70,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q15975",
-  "sitelink": 161,
+  "sitelink": 163,
   "fotograf": {
    "dosya": "Montesquieu 1.png",
    "lisans": "Public domain",
@@ -98,7 +98,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q35149",
-  "sitelink": 157,
+  "sitelink": 158,
   "fotograf": {
    "dosya": "Wilhelm Conrad Röntgen (1888-1900), 88374 p.jpg",
    "lisans": "Public domain",
@@ -137,7 +137,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı. Görev: Papa, kardinal",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı. Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -165,7 +165,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, ABD Ulusal Sanat Madalyası. Önemli eserleri: “Hepsi Oğlumdu”, “Köprüden Görünüş”, “Satıcının Ölümü”",
+  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, En İyi Oyun Tony Ödülü. Önemli eserleri: “Köprüden Görünüş”, “Hepsi Oğlumdu”, “Satıcının Ölümü”",
   "hassas": false,
   "turk": false
  },
@@ -208,7 +208,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q182580",
-  "sitelink": 97,
+  "sitelink": 98,
   "fotograf": {
    "dosya": "Shirleytemple.jpg",
    "lisans": "Public domain",
@@ -221,7 +221,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, Ekran Oyuncuları Derneği Yaşam Başarı Ödülü",
+  "neden_onemli": "Ödül: Ekran Oyuncuları Derneği Yaşam Başarı Ödülü, Akademi Çocuk Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -247,7 +247,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: Diosezan piskopos, kardinal",
   "hassas": false,
   "turk": false
  },

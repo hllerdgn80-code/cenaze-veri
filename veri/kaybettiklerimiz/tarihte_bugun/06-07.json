@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q7251",
-  "sitelink": 190,
+  "sitelink": 191,
   "fotograf": {
    "dosya": "Alan Turing (1951) (crop).jpg",
    "lisans": "Public domain",
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1413",
-  "sitelink": 136,
+  "sitelink": 137,
   "fotograf": {
    "dosya": "Nero Palatino Inv618.jpg",
    "lisans": "Public domain",
@@ -125,7 +125,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q187765",
-  "sitelink": 95,
+  "sitelink": 96,
   "fotograf": {
    "dosya": "Henry Miller 1940.jpg",
    "lisans": "Public domain",
@@ -166,7 +166,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Order of the Companions of Honour. Önemli eserleri: “Manzaralı Bir Oda”",
+  "neden_onemli": "Ödül: Order of the Companions of Honour, Liyakat Nişanı. Önemli eserleri: “Manzaralı Bir Oda”",
   "hassas": false,
   "turk": false
  },
@@ -225,6 +225,33 @@
   "turk": false
  },
  {
+  "ad": "Malik b. Enes",
+  "dogum_tarihi": "0711",
+  "vefat_tarihi": "0795-06-07",
+  "vefat_yasi": 84,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Medine",
+  "vefat_yeri": "Medine",
+  "defin_yeri": "Cennetü'l-Bakı",
+  "defin_il": null,
+  "defin_ulke": "Suudi Arabistan",
+  "wikidata_id": "Q312299",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Chester Beatty T 414 fol 130r Mālik.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sun'i",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chester_Beatty_T_414_fol_130r_M%C4%81lik.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Chester_Beatty_T_414_fol_130r_M%C4%81lik.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “el-Muvatta”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Dorothy Parker",
   "dogum_tarihi": "1893-08-22",
   "vefat_tarihi": "1967-06-07",
@@ -249,33 +276,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: O. Henry Ödülü. Aday olduğu ödül: En İyi Uyarlama Senaryo Akademi Ödülü, En İyi Hikaye Akademi Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Malik b. Enes",
-  "dogum_tarihi": "0711",
-  "vefat_tarihi": "0795-06-07",
-  "vefat_yasi": 84,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Medine",
-  "vefat_yeri": "Medine",
-  "defin_yeri": "Cennetü'l-Bakı",
-  "defin_il": null,
-  "defin_ulke": "Suudi Arabistan",
-  "wikidata_id": "Q312299",
-  "sitelink": 72,
-  "fotograf": {
-   "dosya": "Chester Beatty T 414 fol 130r Mālik.jpg",
-   "lisans": "Public domain",
-   "yazar": "Sun'i",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chester_Beatty_T_414_fol_130r_M%C4%81lik.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Chester_Beatty_T_414_fol_130r_M%C4%81lik.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “el-Muvatta”",
   "hassas": false,
   "turk": false
  },

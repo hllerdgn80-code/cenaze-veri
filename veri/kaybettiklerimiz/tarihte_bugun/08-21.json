@@ -12,11 +12,11 @@
   "wikidata_id": "Q33391",
   "sitelink": 185,
   "fotograf": {
-   "dosya": "León trotski 1924 color.jpg",
+   "dosya": "Leon Trotsky (3x4 cropped).jpg",
    "lisans": "Public domain",
    "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%C3%B3n_trotski_1924_color.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Le%C3%B3n_trotski_1924_color.jpg"
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leon_Trotsky_%283x4_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky_%283x4_cropped%29.jpg"
   },
   "meslek": [
    "Siyasetçi"
@@ -277,13 +277,7 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q310873",
   "sitelink": 63,
-  "fotograf": {
-   "dosya": "Юрий Никулин1.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Anastasiya Fedorenko",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%AE%D1%80%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D1%83%D0%BB%D0%B8%D0%BD1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%AE%D1%80%D0%B8%D0%B9_%D0%9D%D0%B8%D0%BA%D1%83%D0%BB%D0%B8%D0%BD1.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
@@ -294,28 +288,24 @@
   "turk": false
  },
  {
-  "ad": "Yonglo",
-  "dogum_tarihi": "1360-05-10",
-  "vefat_tarihi": "1424-08-21",
-  "vefat_yasi": 64,
-  "dogum_yeri": "Nankin",
-  "vefat_yeri": "İç Moğolistan",
-  "defin_yeri": "Changling Mausoleum (Ming dynasty)",
+  "ad": "İbn Hazm",
+  "dogum_tarihi": "0994-11-12",
+  "vefat_tarihi": "1064-08-21",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Córdoba",
+  "vefat_yeri": "Almería",
+  "defin_yeri": null,
   "defin_il": null,
-  "defin_ulke": "Çin Halk Cumhuriyeti",
-  "wikidata_id": "Q9965",
-  "sitelink": 56,
-  "fotograf": {
-   "dosya": "Portrait assis de l'empereur Ming Chengzu.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_assis_de_l%27empereur_Ming_Chengzu.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_assis_de_l%27empereur_Ming_Chengzu.jpg"
-  },
-  "meslek": [],
+  "defin_ulke": null,
+  "wikidata_id": "Q317787",
+  "sitelink": 57,
+  "fotograf": null,
+  "meslek": [
+   "Şair"
+  ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Çin imparatoru, prens",
+  "neden_onemli": "Önemli eserleri: “el-Muhalla”, “el-İhkam”, “el-Faṣl fi’l-milel ve’l-ehvâʾ ve’n-niḥal”",
   "hassas": false,
   "turk": false
  }

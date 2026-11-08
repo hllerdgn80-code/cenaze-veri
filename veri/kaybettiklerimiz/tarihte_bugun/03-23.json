@@ -11,7 +11,7 @@
   "defin_il": null,
   "defin_ulke": "Türkiye",
   "wikidata_id": "Q198770",
-  "sitelink": 44,
+  "sitelink": 45,
   "fotograf": {
    "dosya": "Said Nursi passport photo 1918.jpg",
    "lisans": "Public domain",
@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q4605",
-  "sitelink": 194,
+  "sitelink": 195,
   "fotograf": {
    "dosya": "Face detail, Sarah Bernhardt as Doña Sol in Hernani (cropped).png",
    "lisans": "Public domain",
@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q34851",
-  "sitelink": 145,
+  "sitelink": 147,
   "fotograf": {
    "dosya": "Elizabeth Taylor with Kennedy award.jpg",
    "lisans": "CC BY-SA 2.0",
@@ -108,7 +108,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Lucien Leuwen”, “Parma Manastırı”, “Aşk”",
+  "neden_onemli": "Önemli eserleri: “Parma Manastırı”, “Lucien Leuwen”, “Aşk”",
   "hassas": false,
   "turk": false
  },
@@ -123,7 +123,7 @@
   "defin_il": null,
   "defin_ulke": "Singapur",
   "wikidata_id": "Q131248",
-  "sitelink": 120,
+  "sitelink": 122,
   "fotograf": {
    "dosya": "Lee Kuan Yew.jpg",
    "lisans": "Public domain",
@@ -141,7 +141,7 @@
   "turk": false
  },
  {
-  "ad": "Friedrich Hayek",
+  "ad": "Friedrich August von Hayek",
   "dogum_tarihi": "1899-05-08",
   "vefat_tarihi": "1992-03-23",
   "vefat_yasi": 92,
@@ -220,7 +220,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Cisneros Nişanı, Büyük Katolik Isabel Nişanı. Görev: İspanya Başbakanı",
+  "neden_onemli": "Ödül: Büyük X. Alfonso Nişanı, Büyük Cisneros Nişanı. Görev: İspanya Başbakanı",
   "hassas": false,
   "turk": false
  },

@@ -31,6 +31,34 @@
   "turk": true
  },
  {
+  "ad": "Şahan Arzruni",
+  "dogum_tarihi": "1943-06-08",
+  "vefat_tarihi": "2026-10-21",
+  "vefat_yasi": 83,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q16106168",
+  "sitelink": 11,
+  "fotograf": {
+   "dosya": "SahanArzruni.png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Solopiano",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SahanArzruni.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:SahanArzruni.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
   "ad": "Q83235",
   "dogum_tarihi": "1758-09-29",
   "vefat_tarihi": "1805-10-21",
@@ -62,6 +90,34 @@
   "turk": false
  },
  {
+  "ad": "Jack Kerouac",
+  "dogum_tarihi": "1922-03-12",
+  "vefat_tarihi": "1969-10-21",
+  "vefat_yasi": 47,
+  "dogum_yeri": "Lowell",
+  "vefat_yeri": "St.Petersburg",
+  "defin_yeri": "Edson Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q160534",
+  "sitelink": 100,
+  "fotograf": {
+   "dosya": "Kerouac by Palumbo.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Tom Palumbo from New York, NY, USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerouac_by_Palumbo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kerouac_by_Palumbo.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Zen Kaçıkları”, “Yolda”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Huldrych Zwingli",
   "dogum_tarihi": "1484-01-10",
   "vefat_tarihi": "1531-10-21",
@@ -90,34 +146,6 @@
   "turk": false
  },
  {
-  "ad": "Jack Kerouac",
-  "dogum_tarihi": "1922-03-12",
-  "vefat_tarihi": "1969-10-21",
-  "vefat_yasi": 47,
-  "dogum_yeri": "Lowell",
-  "vefat_yeri": "St.Petersburg",
-  "defin_yeri": "Edson Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q160534",
-  "sitelink": 99,
-  "fotograf": {
-   "dosya": "Kerouac by Palumbo.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Tom Palumbo from New York, NY, USA",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerouac_by_Palumbo.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kerouac_by_Palumbo.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Zen Kaçıkları”, “Yolda”",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "François Truffaut",
   "dogum_tarihi": "1932-02-06",
   "vefat_tarihi": "1984-10-21",
@@ -128,7 +156,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q53002",
-  "sitelink": 97,
+  "sitelink": 98,
   "fotograf": {
    "dosya": "François Truffaut (1965).jpg",
    "lisans": "CC BY-SA 3.0 nl",
@@ -141,7 +169,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA En İyi Yönetmen Ödülü, Cannes Film Festivali En İyi Yönetmen Ödülü. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
+  "neden_onemli": "Ödül: En İyi Film New York Film Eleştirmenleri Birliği Ödülü, BAFTA En İyi Film Ödülü. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -260,7 +288,7 @@
   "dogum_tarihi": "1916-07-11",
   "vefat_tarihi": "2014-10-21",
   "vefat_yasi": 98,
-  "dogum_yeri": "Melbourne",
+  "dogum_yeri": "Gough Whitlam's birthplace",
   "vefat_yeri": "Sidney",
   "defin_yeri": null,
   "defin_il": null,
@@ -275,7 +303,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Gough_Whitlam_-_ACF_-_crop.jpg"
   },
   "meslek": [
-   "Bakan"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -308,26 +336,6 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Masato Kudo",
-  "dogum_tarihi": "1990-05-06",
-  "vefat_tarihi": "2022-10-21",
-  "vefat_yasi": 32,
-  "dogum_yeri": "Suginami-ku",
-  "vefat_yeri": "Miyazaki",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q1151134",
-  "sitelink": 53,
-  "fotograf": null,
-  "meslek": [],
-  "aciklama": "Japon futbolcu (1990 – 2022)",
-  "aciklama_kaynak": "wikidata_tr",
   "neden_onemli": null,
   "hassas": false,
   "turk": false

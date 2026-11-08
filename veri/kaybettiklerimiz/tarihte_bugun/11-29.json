@@ -33,7 +33,7 @@
   "vefat_tarihi": "1924-11-29",
   "vefat_yasi": 65,
   "dogum_yeri": "Lucca",
-  "vefat_yeri": "Brüksel Şehri",
+  "vefat_yeri": "Brussels",
   "defin_yeri": "Torre del Lago Puccini",
   "defin_il": null,
   "defin_ulke": "İtalya",
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Gianni Schicchi”, “Turandot”, “Tosca”",
+  "neden_onemli": "Önemli eserleri: “Gianni Schicchi”, “Tosca”, “La Bohème”",
   "hassas": false,
   "turk": false
  },
@@ -122,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q131706",
-  "sitelink": 106,
+  "sitelink": 107,
   "fotograf": {
    "dosya": "Kaiserin Maria Theresia (HRR).jpg",
    "lisans": "Public domain",
@@ -150,7 +150,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q83410",
-  "sitelink": 99,
+  "sitelink": 100,
   "fotograf": {
    "dosya": "Grant, Cary (Suspicion) 01 Crisco edit.jpg",
    "lisans": "Public domain",

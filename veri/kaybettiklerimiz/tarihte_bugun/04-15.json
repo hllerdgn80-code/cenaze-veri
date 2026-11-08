@@ -61,7 +61,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q91",
-  "sitelink": 296,
+  "sitelink": 297,
   "fotograf": {
    "dosya": "Abraham Lincoln O-77 matte collodion print.jpg",
    "lisans": "Public domain",
@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Gettysburg Konuşması”. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
+  "neden_onemli": "Önemli eserleri: “Gettysburg Konuşması”. Görev: Amerika Birleşik Devletleri Başkanı, başkan",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet",
@@ -93,7 +93,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q9364",
-  "sitelink": 202,
+  "sitelink": 203,
   "fotograf": {
    "dosya": "Flickr - Government Press Office (GPO) - Jean Paul Sartre and Simone De Beauvoir welcomed by Avraham Shlonsky and Leah Goldberg (cropped).jpg",
    "lisans": "CC BY-SA 3.0",
@@ -205,7 +205,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q271032",
-  "sitelink": 74,
+  "sitelink": 75,
   "fotograf": {
    "dosya": "Matthew Arnold - Project Gutenberg eText 16745.jpg",
    "lisans": "Public domain",
@@ -283,8 +283,8 @@
   "dogum_tarihi": "1910-12-19",
   "vefat_tarihi": "1986-04-14",
   "vefat_yasi": 75,
-  "dogum_yeri": "Paris",
-  "vefat_yeri": "Paris",
+  "dogum_yeri": "Paris 6. bölge",
+  "vefat_yeri": "13. arrondissement",
   "defin_yeri": "Larache",
   "defin_il": null,
   "defin_ulke": "Fas",

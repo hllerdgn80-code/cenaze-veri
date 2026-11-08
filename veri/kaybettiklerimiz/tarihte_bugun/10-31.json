@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Osmanlı Dahiliye Nazırlığı, Osmanlı Bahriye Nazırlığı",
+  "neden_onemli": "Görev: Sadrazam, Osmanlı Dahiliye Nazırlığı",
   "hassas": false,
   "turk": true
  },
@@ -80,7 +80,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false,
   "turk": true
  },
@@ -152,7 +152,7 @@
   "defin_il": null,
   "defin_ulke": "Hindistan",
   "wikidata_id": "Q1149",
-  "sitelink": 173,
+  "sitelink": 174,
   "fotograf": null,
   "meslek": [
    "Siyasetçi"
@@ -178,7 +178,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q7371",
-  "sitelink": 162,
+  "sitelink": 163,
   "fotograf": {
    "dosya": "Federico Fellini NYWTS 2.jpg",
    "lisans": "Public domain",
@@ -191,7 +191,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Amerika Yönetmenler Birliği, Bodil Ödülleri. Önemli eserleri: “8½”, “Aylaklar”, “Sonsuz Sokaklar”",
+  "neden_onemli": "Ödül: Amerika Yönetmenler Birliği, Bodil Ödülleri. Önemli eserleri: “Aylaklar”, “Sonsuz Sokaklar”, “8½”",
   "hassas": false,
   "turk": false
  },
@@ -200,13 +200,13 @@
   "dogum_tarihi": "1930-08-25",
   "vefat_tarihi": "2020-10-31",
   "vefat_yasi": 90,
-  "dogum_yeri": "Fountainbridge",
+  "dogum_yeri": "Simpson Memorial Maternity Hospital",
   "vefat_yeri": "Lyford Cay",
   "defin_yeri": null,
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q4573",
-  "sitelink": 145,
+  "sitelink": 146,
   "fotograf": {
    "dosya": "Sean Connery (1983).jpg",
    "lisans": "CC BY-SA 3.0 nl",
@@ -219,7 +219,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Saturn Ödülleri, Altın Küre Ödülleri",
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Altın Küre Ödülleri",
   "hassas": false,
   "turk": false
  },
@@ -314,9 +314,9 @@
   "vefat_yasi": 23,
   "dogum_yeri": "Madras",
   "vefat_yeri": "West Hollywood",
-  "defin_yeri": null,
+  "defin_yeri": "Micanopy",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q106514",
   "sitelink": 61,
   "fotograf": {

@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q9047",
-  "sitelink": 206,
+  "sitelink": 207,
   "fotograf": {
    "dosya": "Christoph Bernhard Francke - Bildnis des Philosophen Leibniz (ca. 1695).jpg",
    "lisans": "Public domain",
@@ -122,7 +122,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q41608",
-  "sitelink": 69,
+  "sitelink": 70,
   "fotograf": {
    "dosya": "Constantine VII Porphyrogenitus.jpg",
    "lisans": "Public domain",
@@ -169,6 +169,34 @@
   "turk": false
  },
  {
+  "ad": "Booker T. Washington",
+  "dogum_tarihi": "1856-04-05",
+  "vefat_tarihi": "1915-11-14",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Hale's Ford",
+  "vefat_yeri": "Tuskegee",
+  "defin_yeri": "Tuskegee University Campus Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q319871",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Booker T. Washington by Francis Benjamin Johnston, c. 1895.jpg",
+   "lisans": "Public domain",
+   "yazar": "Frances Benjamin Johnston",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Booker_T._Washington_by_Francis_Benjamin_Johnston%2C_c._1895.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Booker_T._Washington_by_Francis_Benjamin_Johnston%2C_c._1895.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: baş öğretmen, başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Jean-Baptiste Say",
   "dogum_tarihi": "1767-01-05",
   "vefat_tarihi": "1832-11-14",
@@ -193,34 +221,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Say Kanunu”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Booker T. Washington",
-  "dogum_tarihi": "1856-04-05",
-  "vefat_tarihi": "1915-11-14",
-  "vefat_yasi": 59,
-  "dogum_yeri": "Hale's Ford",
-  "vefat_yeri": "Tuskegee",
-  "defin_yeri": "Tuskegee University Campus Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q319871",
-  "sitelink": 63,
-  "fotograf": {
-   "dosya": "Booker T. Washington by Francis Benjamin Johnston, c. 1895.jpg",
-   "lisans": "Public domain",
-   "yazar": "Frances Benjamin Johnston",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Booker_T._Washington_by_Francis_Benjamin_Johnston%2C_c._1895.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Booker_T._Washington_by_Francis_Benjamin_Johnston%2C_c._1895.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: insan hakları savunucusu, baş öğretmen",
   "hassas": false,
   "turk": false
  },

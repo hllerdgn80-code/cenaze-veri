@@ -71,7 +71,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Aziz Andreas Nişanı. Görev: Rusya imparatoru, Rus çarı",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Aziz Andreas Nişanı. Görev: Rus çarı, Rusya imparatoru",
   "hassas": false,
   "turk": false
  },
@@ -95,7 +95,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Giosu%C3%A8_Carducci3_%28cropped%29.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -136,7 +136,7 @@
   "defin_il": null,
   "defin_ulke": "Rusya",
   "wikidata_id": "Q5752",
-  "sitelink": 119,
+  "sitelink": 120,
   "fotograf": {
    "dosya": "Kropotkin1.jpg",
    "lisans": "Public domain",
@@ -149,7 +149,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Karşılıklı Yardımlaşma”, “Ekmeğin Fethi”, “Bir Devrimcinin Anıları”",
+  "neden_onemli": "Önemli eserleri: “Ekmeğin Fethi”, “Karşılıklı Yardımlaşma”, “Etika - Ahlakın Kaynağı ve Açılması”",
   "hassas": false,
   "turk": false
  },
@@ -173,11 +173,11 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Mary_Queen_of_Scots_Blairs_Museum.jpg"
   },
   "meslek": [
-   "Konsort kraliçe"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: Fransa Konsort Kraliçesi",
   "hassas": true,
   "hassas_nedeni": [
    "ölüm cezası"
@@ -307,7 +307,7 @@
   "defin_il": null,
   "defin_ulke": "Brezilya",
   "wikidata_id": "Q57109",
-  "sitelink": 78,
+  "sitelink": 79,
   "fotograf": {
    "dosya": "Josef Mengele, Auschwitz. Album Höcker (cropped).jpg",
    "lisans": "Public domain",

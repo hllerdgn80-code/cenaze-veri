@@ -67,7 +67,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, National Women's Hall of Fame. Önemli eserleri: “Kafesteki Kuş Neden Şakır, Bilirim”",
+  "neden_onemli": "Ödül: National Women's Hall of Fame, ABD Ulusal Sanat Madalyası. Önemli eserleri: “Kafesteki Kuş Neden Şakır, Bilirim”",
   "hassas": false,
   "turk": false
  },
@@ -121,7 +121,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Olaf Nişanı, Aziz Yorgi Nişanı. Görev: Galler Prensi, Hindistan imparatoru",
+  "neden_onemli": "Ödül: Aziz Olaf Nişanı, Altın Post Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -154,6 +154,34 @@
   "turk": false
  },
  {
+  "ad": "Ngũgĩ wa Thiong'o",
+  "dogum_tarihi": "1938-01-05",
+  "vefat_tarihi": "2025-05-28",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Kamirithu",
+  "vefat_yeri": "Buford",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q302910",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Ngũgĩ wa Thiong'o 2019 (48139052733).jpg",
+   "lisans": "CC0",
+   "yazar": "Library of Congress Life",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ng%C5%A9g%C4%A9_wa_Thiong%27o_2019_%2848139052733%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ng%C5%A9g%C4%A9_wa_Thiong%27o_2019_%2848139052733%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Man Booker Uluslararası Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Ivan Franko",
   "dogum_tarihi": "1856-08-27",
   "vefat_tarihi": "1916-05-28",
@@ -178,34 +206,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Aday olduğu ödül: Nobel Edebiyat Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Ngũgĩ wa Thiong'o",
-  "dogum_tarihi": "1938-01-05",
-  "vefat_tarihi": "2025-05-28",
-  "vefat_yasi": 87,
-  "dogum_yeri": "Kamirithu",
-  "vefat_yeri": "Buford",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q302910",
-  "sitelink": 85,
-  "fotograf": {
-   "dosya": "Ngũgĩ wa Thiong'o 2019 (48139052733).jpg",
-   "lisans": "CC0",
-   "yazar": "Library of Congress Life",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ng%C5%A9g%C4%A9_wa_Thiong%27o_2019_%2848139052733%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ng%C5%A9g%C4%A9_wa_Thiong%27o_2019_%2848139052733%29.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Aday olduğu ödül: Man Booker Uluslararası Ödülü",
   "hassas": false,
   "turk": false
  },

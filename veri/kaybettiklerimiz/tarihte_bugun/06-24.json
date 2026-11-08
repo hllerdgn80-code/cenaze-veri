@@ -11,7 +11,7 @@
   "defin_il": null,
   "defin_ulke": "İran",
   "wikidata_id": "Q8011",
-  "sitelink": 193,
+  "sitelink": 194,
   "fotograf": {
    "dosya": "Pursina.jpg",
    "lisans": "Public domain",
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, New York valisi",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri'nin seçilmiş başkanı",
   "hassas": false,
   "turk": false
  },
@@ -257,6 +257,34 @@
   "turk": false
  },
  {
+  "ad": "Emilio Colombo",
+  "dogum_tarihi": "1920-04-11",
+  "vefat_tarihi": "2013-06-24",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Potenza",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312058",
+  "sitelink": 51,
+  "fotograf": {
+   "dosya": "Emilio Colombo 1966.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Joop van Bilsen for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emilio_Colombo_1966.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emilio_Colombo_1966.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı, İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı. Görev: Avrupa Parlamentosu milletvekilliği, Adalet Bakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Marie Leszczy≈Ñska",
   "dogum_tarihi": "1703-06-23",
   "vefat_tarihi": "1768-06-24",
@@ -314,34 +342,6 @@
    "açıklama: Canadian professional wrestler and murderer (1967–2007)",
    "hanging to death"
   ],
-  "turk": false
- },
- {
-  "ad": "Emilio Colombo",
-  "dogum_tarihi": "1920-04-11",
-  "vefat_tarihi": "2013-06-24",
-  "vefat_yasi": 93,
-  "dogum_yeri": "Potenza",
-  "vefat_yeri": "Roma",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q312058",
-  "sitelink": 50,
-  "fotograf": {
-   "dosya": "Emilio Colombo 1966.jpg",
-   "lisans": "CC BY-SA 3.0 nl",
-   "yazar": "Joop van Bilsen for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emilio_Colombo_1966.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Emilio_Colombo_1966.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı Büyük Subayı, Büyük Katolik Isabel Nişanı. Görev: İtalya Başbakanı, Avrupa Parlamentosu milletvekilliği",
-  "hassas": false,
   "turk": false
  }
 ]

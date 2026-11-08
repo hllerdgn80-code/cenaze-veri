@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Ren Altını”, “Tristan ve İsolde (opera)”, “Uçan Hollandalı”",
+  "neden_onemli": "Önemli eserleri: “Tristan ve İsolde (opera)”, “Ren Altını”, “Uçan Hollandalı”",
   "hassas": false,
   "turk": false
  },
@@ -224,7 +224,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q11156",
-  "sitelink": 53,
+  "sitelink": 54,
   "fotograf": {
    "dosya": "Antonin Scalia Official SCOTUS Portrait crop.jpg",
    "lisans": "Public domain",
@@ -248,9 +248,9 @@
   "vefat_yasi": 83,
   "dogum_yeri": "Talence",
   "vefat_yeri": "Fredensborg Palace",
-  "defin_yeri": null,
+  "defin_yeri": "Fredensborg Palace",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Danimarka",
   "wikidata_id": "Q1389258",
   "sitelink": 50,
   "fotograf": {

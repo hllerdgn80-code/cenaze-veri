@@ -5,7 +5,7 @@
   "vefat_tarihi": "1956-12-06",
   "vefat_yasi": 65,
   "dogum_yeri": "Dr. Ambedkar Nagar",
-  "vefat_yeri": "Yeni Delhi",
+  "vefat_yeri": "Dr. Ambedkar National Memorial",
   "defin_yeri": "Chaitya Bhoomi",
   "defin_il": null,
   "defin_ulke": "Hindistan",
@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genel başkan, Ana muhalefet partisi lideri",
+  "neden_onemli": "Görev: Ana muhalefet partisi lideri, genel başkan",
   "hassas": false,
   "turk": false
  },
@@ -177,7 +177,13 @@
   "defin_ulke": "Cezayir",
   "wikidata_id": "Q193670",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Photograph of Frantz Fanon from Black Skin White Masks (1967) dust jacket.webp",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph_of_Frantz_Fanon_from_Black_Skin_White_Masks_%281967%29_dust_jacket.webp",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photograph_of_Frantz_Fanon_from_Black_Skin_White_Masks_%281967%29_dust_jacket.webp"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -301,30 +307,30 @@
   "turk": false
  },
  {
-  "ad": "Roy Orbison",
-  "dogum_tarihi": "1936-04-23",
-  "vefat_tarihi": "1988-12-06",
-  "vefat_yasi": 52,
-  "dogum_yeri": "Vernon",
-  "vefat_yeri": "Nashville",
-  "defin_yeri": "Westwood Village Memorial Park Mezarlığı",
+  "ad": "Tunku Abdurrahman",
+  "dogum_tarihi": "1903-02-08",
+  "vefat_tarihi": "1990-12-06",
+  "vefat_yasi": 87,
+  "dogum_yeri": "Alor Setar",
+  "vefat_yeri": "Penang",
+  "defin_yeri": "Kedah Royal Mausoleum",
   "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q188426",
+  "defin_ulke": "Malezya",
+  "wikidata_id": "Q296317",
   "sitelink": 66,
   "fotograf": {
-   "dosya": "Roy Orbinson ontving gouden plaat voor Pretty Woman in Singel concertzaal, Roy, Bestanddeelnr 917-5752.jpg",
-   "lisans": "CC0",
-   "yazar": "Jack de Nijs for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy_Orbinson_ontving_gouden_plaat_voor_Pretty_Woman_in_Singel_concertzaal%2C_Roy%2C_Bestanddeelnr_917-5752.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Roy_Orbinson_ontving_gouden_plaat_voor_Pretty_Woman_in_Singel_concertzaal%2C_Roy%2C_Bestanddeelnr_917-5752.jpg"
+   "dosya": "Tunku abd rahman.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tunku_abd_rahman.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tunku_abd_rahman.jpg"
   },
   "meslek": [
-   "Şarkıcı"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame. Önemli eserleri: “Crying”",
+  "neden_onemli": "Ödül: Büyük Kraliyet Nişanı. Görev: Malezya Başbakanı",
   "hassas": false,
   "turk": false
  }

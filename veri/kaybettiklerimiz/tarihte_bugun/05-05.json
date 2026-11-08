@@ -32,7 +32,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q758354",
-  "sitelink": 14,
+  "sitelink": 15,
   "fotograf": null,
   "meslek": [
    "Film yönetmeni"
@@ -95,7 +95,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Beyaz Kartal Nişanı",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Kızıl Kartal Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -180,7 +180,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Onur Rozeti Nişanı",
+  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Kızıl Bayrak İşçi Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -279,7 +279,7 @@
   "defin_il": null,
   "defin_ulke": "Nijerya",
   "wikidata_id": "Q104705",
-  "sitelink": 71,
+  "sitelink": 72,
   "fotograf": {
    "dosya": "Umaruyaradua07052007.jpg",
    "lisans": "CC BY 3.0 br",

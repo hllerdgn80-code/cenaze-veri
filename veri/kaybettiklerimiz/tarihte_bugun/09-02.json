@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q892",
-  "sitelink": 205,
+  "sitelink": 206,
   "fotograf": {
    "dosya": "J. R. R. Tolkien, ca. 1925.jpg",
    "lisans": "Public domain",
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q82984",
-  "sitelink": 115,
+  "sitelink": 116,
   "fotograf": {
    "dosya": "Baron Pierre de Coubertin.jpg",
    "lisans": "Public domain",
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Altın Post Nişanı (Gürcistan). Görev: Özbekistan Cumhuriyeti Cumhurbaşkanı, başkan",
+  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Mugunghwa Büyük Nişanı. Görev: başkan, Özbekistan Cumhuriyeti Cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },
@@ -122,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q199654",
-  "sitelink": 94,
+  "sitelink": 95,
   "fotograf": {
    "dosya": "Barbara McClintock (1902-1992) shown in her laboratory in 1947.jpg",
    "lisans": "Public domain",
@@ -140,7 +140,7 @@
   "turk": false
  },
  {
-  "ad": "Q231178",
+  "ad": "Gloria Steinem",
   "dogum_tarihi": "1934-03-25",
   "vefat_tarihi": "2026-09-02",
   "vefat_yasi": 92,
@@ -150,7 +150,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q231178",
-  "sitelink": 86,
+  "sitelink": 87,
   "fotograf": {
    "dosya": "Gloria Steinem 1977 ©Lynn Gilbert (cropped).jpg",
    "lisans": "CC BY-SA 4.0",
@@ -164,6 +164,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: National Women's Hall of Fame, 100 Kadın (BBC)",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Viktor Frankl",
+  "dogum_tarihi": "1905-03-26",
+  "vefat_tarihi": "1997-09-02",
+  "vefat_yasi": 92,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Viyana",
+  "defin_yeri": "Old Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q154723",
+  "sitelink": 83,
+  "fotograf": {
+   "dosya": "Viktor Frankl2.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "Prof. Dr. Franz Vesely",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viktor_Frankl2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Viktor_Frankl2.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -192,34 +220,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kraliyet Madalyası. Önemli eserleri: “Hamilton yolu”, “Hamilton mekaniği”, “Hamilton prensibi”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Viktor Frankl",
-  "dogum_tarihi": "1905-03-26",
-  "vefat_tarihi": "1997-09-02",
-  "vefat_yasi": 92,
-  "dogum_yeri": "Viyana",
-  "vefat_yeri": "Viyana",
-  "defin_yeri": "Old Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Avusturya",
-  "wikidata_id": "Q154723",
-  "sitelink": 81,
-  "fotograf": {
-   "dosya": "Viktor Frankl2.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Prof. Dr. Franz Vesely",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viktor_Frankl2.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Viktor_Frankl2.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

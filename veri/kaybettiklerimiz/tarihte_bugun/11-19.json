@@ -62,9 +62,9 @@
   "vefat_yasi": 83,
   "dogum_yeri": "Cincinnati",
   "vefat_yeri": "Bakersfield",
-  "defin_yeri": null,
+  "defin_yeri": "Kaliforniya",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q485508",
   "sitelink": 95,
   "fotograf": {
@@ -220,7 +220,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Aday olduğu ödül: Nobel Kimya Ödülü, Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
+  "neden_onemli": "Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi, Nobel Kimya Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -248,7 +248,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA En İyi Yönetmen Ödülü, Kennedy Center Onur Ödülleri. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
+  "neden_onemli": "Ödül: BAFTA En İyi Yönetmen Ödülü, En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -276,7 +276,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Yirmi Yılı\" Jübile Madalyası, 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası",
+  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Kırk Yılı\" Jübile Madalyası",
   "hassas": false,
   "turk": false
  },

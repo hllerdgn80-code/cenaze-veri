@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "neden_onemli": "Görev: Praetor, Romalı konsül",
   "hassas": false,
   "turk": false
  },
@@ -80,7 +80,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Padma Vibhushan, Royal Society Üyesi. Önemli eserleri: “Foton Gazı”, “Bose-Einstein yoğunlaşması”, “bozon”",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Foton Gazı”, “bozon”, “Bose-Einstein yoğunlaşması”",
   "hassas": false,
   "turk": false
  },
@@ -109,34 +109,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Betty Friedan",
-  "dogum_tarihi": "1921-02-04",
-  "vefat_tarihi": "2006-02-04",
-  "vefat_yasi": 85,
-  "dogum_yeri": "Peoria",
-  "vefat_yeri": "Washington",
-  "defin_yeri": "Sag Harbor Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q234604",
-  "sitelink": 70,
-  "fotograf": {
-   "dosya": "Betty Friedan 1960.jpg",
-   "lisans": "Public domain",
-   "yazar": "Fred Palumbo, World Telegram staff photographer. Restored by Adam Cuerden",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Betty_Friedan_1960.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Betty_Friedan_1960.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: National Women's Hall of Fame",
   "hassas": false,
   "turk": false
  },
@@ -337,6 +309,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Ordre des Palmes Académiques",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Karen Carpenter",
+  "dogum_tarihi": "1950-03-02",
+  "vefat_tarihi": "1983-02-04",
+  "vefat_yasi": 32,
+  "dogum_yeri": "Yale – New Haven Hospital",
+  "vefat_yeri": "Downey Regional Medical Center",
+  "defin_yeri": "Valley Oaks Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q1250861",
+  "sitelink": 54,
+  "fotograf": {
+   "dosya": "Karen Carpenter in 1972 White House.png",
+   "lisans": "Public domain",
+   "yazar": "White House photo by Knudsen, Robert L.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karen_Carpenter_in_1972_White_House.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Karen_Carpenter_in_1972_White_House.png"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

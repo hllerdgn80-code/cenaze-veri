@@ -62,12 +62,12 @@
   "vefat_tarihi": "1968-12-20",
   "vefat_yasi": 66,
   "dogum_yeri": "Salinas",
-  "vefat_yeri": "New York",
+  "vefat_yeri": null,
   "defin_yeri": "Garden of Memories",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q39212",
-  "sitelink": 148,
+  "sitelink": 149,
   "fotograf": {
    "dosya": "John Steinbeck 1939 (cropped).jpg",
    "lisans": "Public domain",
@@ -95,7 +95,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q410",
-  "sitelink": 143,
+  "sitelink": 144,
   "fotograf": {
    "dosya": "Carl Sagan Planetary Society.JPG",
    "lisans": "Public domain",
@@ -108,7 +108,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Oersted Madalyası, En İyi Dramatik Sunum Hugo Ödülü. Önemli eserleri: “Mesaj”, “Kozmos Evrenin ve Yaşamın Sırları”, “Karanlık Bir Dünyada Bilimin Mum Işığı”",
+  "neden_onemli": "Ödül: Oersted Madalyası, En İyi Dramatik Sunum Hugo Ödülü. Önemli eserleri: “Kozmos Evrenin ve Yaşamın Sırları”, “Mesaj”, “Cosmos: A Personal Voyage”",
   "hassas": false,
   "turk": false
  },
@@ -174,7 +174,7 @@
   "vefat_tarihi": "2001-12-20",
   "vefat_yasi": 95,
   "dogum_yeri": "Joal-Fadiouth",
-  "vefat_yeri": "Fransa",
+  "vefat_yeri": "Verson",
   "defin_yeri": "Bel-Air Cemetery",
   "defin_il": null,
   "defin_ulke": "Senegal",
@@ -284,6 +284,35 @@
   "turk": false
  },
  {
+  "ad": "Cafer-i Sâdık",
+  "dogum_tarihi": "0702-04-24",
+  "vefat_tarihi": "0765-12-20",
+  "vefat_yasi": 63,
+  "dogum_yeri": "Medine",
+  "vefat_yeri": "Medine",
+  "defin_yeri": "Cennetü'l-Bakı",
+  "defin_il": null,
+  "defin_ulke": "Suudi Arabistan",
+  "wikidata_id": "Q170046",
+  "sitelink": 78,
+  "fotograf": {
+   "dosya": "Eight imams and Hakima next to Jawad.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eight_imams_and_Hakima_next_to_Jawad.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eight_imams_and_Hakima_next_to_Jawad.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Müslüman alim ve Şii İmamı (702-765)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "cinayet"
+  ],
+  "turk": false
+ },
+ {
   "ad": "Calixte II",
   "dogum_tarihi": "1065",
   "vefat_tarihi": "1124-12-20",
@@ -309,34 +338,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Papa",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Wu Zetian",
-  "dogum_tarihi": "0624-02-20",
-  "vefat_tarihi": "0705-12-20",
-  "vefat_yasi": 81,
-  "dogum_yeri": "Guangyuan",
-  "vefat_yeri": "Luoyang",
-  "defin_yeri": "Qianling Mausoleum",
-  "defin_il": null,
-  "defin_ulke": "Çin Halk Cumhuriyeti",
-  "wikidata_id": "Q9738",
-  "sitelink": 75,
-  "fotograf": {
-   "dosya": "唐后行從圖 (局部) - 武則天.png",
-   "lisans": "Public domain",
-   "yazar": "Likely to be Zhang Xuan (张萱)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8E%E8%A1%8C%E5%BE%9E%E5%9C%96_%28%E5%B1%80%E9%83%A8%29_-_%E6%AD%A6%E5%89%87%E5%A4%A9.png"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Çin imparatoru",
   "hassas": false,
   "turk": false
  }

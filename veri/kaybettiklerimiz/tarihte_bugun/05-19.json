@@ -39,8 +39,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q165421",
-  "sitelink": 103,
-  "fotograf": null,
+  "sitelink": 104,
+  "fotograf": {
+   "dosya": "Jackie Kennedy Color Portrait (3x4 cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Mark Shaw",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jackie_Kennedy_Color_Portrait_%283x4_cropped%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -62,7 +68,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q160852",
   "sitelink": 100,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "William Ewart Gladstone, 1892 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Samuel Alexander Walker",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -84,13 +96,19 @@
   "defin_ulke": "İran",
   "wikidata_id": "Q5947347",
   "sitelink": 99,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "2022 Ebrahim Raisi.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "duma.gov.ru",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022_Ebrahim_Raisi.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:2022_Ebrahim_Raisi.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: İran Cumhurbaşkanı, savcı",
+  "neden_onemli": "Görev: İran Cumhurbaşkanı, başkan",
   "hassas": false,
   "turk": false
  },
@@ -106,7 +124,13 @@
   "defin_ulke": "Küba",
   "wikidata_id": "Q103285",
   "sitelink": 99,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "José Martí retrato hecho en México 1875.jpg",
+   "lisans": "CC0",
+   "yazar": "Cuba. Secretaría de Instrucción Pública y Bellas Artes.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Mart%C3%AD_retrato_hecho_en_M%C3%A9xico_1875.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mart%C3%AD_retrato_hecho_en_M%C3%A9xico_1875.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -128,7 +152,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q170596",
   "sitelink": 92,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Te lawrence.jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris & Ewing",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Te_lawrence.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Te_lawrence.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -150,7 +180,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q125631",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pope Urban I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Artaud de Montor (1772–1849)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Urban_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Urban_I.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -171,7 +207,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q172933",
   "sitelink": 82,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Otto I begegnet Papst Johannes XII (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_I_begegnet_Papst_Johannes_XII_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_I_begegnet_Papst_Johannes_XII_%28cropped%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -196,7 +238,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q82934",
   "sitelink": 78,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Claude Henri de Rouvroy.jpg",
+   "lisans": "Public domain",
+   "yazar": "Godefroy Engelmann the Elder",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Henri_de_Rouvroy.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Claude_Henri_de_Rouvroy.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -219,7 +267,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q227721",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marinus I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marinus_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marinus_I.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -241,7 +295,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q76521",
   "sitelink": 72,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Max Scheler.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max_Scheler.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Max_Scheler.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -263,7 +323,13 @@
   "defin_ulke": "Polonya",
   "wikidata_id": "Q144439",
   "sitelink": 62,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bolesław Prus (ca. 1905).jpg",
+   "lisans": "Public domain",
+   "yazar": "Wilhelm Feldman (1868-1919).",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boles%C5%82aw_Prus_%28ca._1905%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Boles%C5%82aw_Prus_%28ca._1905%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],

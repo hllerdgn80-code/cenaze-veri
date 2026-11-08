@@ -24,7 +24,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Harbiye Nezareti, Hariciye Nezareti",
+  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı, Harp Madalyası. Görev: Sadrazam, Harbiye Nezareti",
   "hassas": false,
   "turk": true
  },
@@ -164,7 +164,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü. Önemli eserleri: “Como La Flor”, “Amor Prohibido”, “No Me Queda Más”",
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü. Önemli eserleri: “Como La Flor”, “No Me Queda Más”, “Amor Prohibido”",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -240,7 +240,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q52651",
-  "sitelink": 96,
+  "sitelink": 97,
   "fotograf": {
    "dosya": "Jesse Owens 1936.jpg",
    "lisans": "Public domain",
@@ -266,14 +266,14 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q47780",
-  "sitelink": 96,
+  "sitelink": 97,
   "fotograf": null,
   "meslek": [
    "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Pritzker Mimarlık Ödülü, Çağdaş Mimarlık için Avrupa Birliği Ödülü. Önemli eserleri: “MAXXI Müzesi”, “Phaeno Bilim Merkezi”, “Londra Su Sporları Merkezi”",
+  "neden_onemli": "Ödül: Pritzker Mimarlık Ödülü, Çağdaş Mimarlık için Avrupa Birliği Ödülü. Önemli eserleri: “Bergiselschanze”, “MAXXI Müzesi”, “Phaeno Bilim Merkezi”",
   "hassas": false,
   "turk": false
  },
@@ -316,7 +316,7 @@
   "defin_il": null,
   "defin_ulke": "İspanya",
   "wikidata_id": "Q34464",
-  "sitelink": 79,
+  "sitelink": 80,
   "fotograf": {
    "dosya": "Felipe-III-de-Espana A-Vidal.jpg",
    "lisans": "Public domain",

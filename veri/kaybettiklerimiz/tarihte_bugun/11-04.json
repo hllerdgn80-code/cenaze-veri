@@ -106,6 +106,34 @@
   "turk": false
  },
  {
+  "ad": "Gabriel Fauré",
+  "dogum_tarihi": "1845-05-12",
+  "vefat_tarihi": "1924-11-04",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Pamiers",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Passy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q104919",
+  "sitelink": 67,
+  "fotograf": {
+   "dosya": "FauréPirou1905.jpg",
+   "lisans": "Public domain",
+   "yazar": "Eugène Pirou",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faur%C3%A9Pirou1905.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9Pirou1905.jpg"
+  },
+  "meslek": [
+   "Besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: yönetici",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Norman Foster Ramsey",
   "dogum_tarihi": "1915-08-27",
   "vefat_tarihi": "2011-11-04",
@@ -134,34 +162,6 @@
   "turk": false
  },
  {
-  "ad": "Gabriel Fauré",
-  "dogum_tarihi": "1845-05-12",
-  "vefat_tarihi": "1924-11-04",
-  "vefat_yasi": 79,
-  "dogum_yeri": "Pamiers",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Passy Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q104919",
-  "sitelink": 66,
-  "fotograf": {
-   "dosya": "FauréPirou1905.jpg",
-   "lisans": "Public domain",
-   "yazar": "Eugène Pirou",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Faur%C3%A9Pirou1905.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Faur%C3%A9Pirou1905.jpg"
-  },
-  "meslek": [
-   "Besteci"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: yönetici",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Manuel Azaña",
   "dogum_tarihi": "1880-01-10",
   "vefat_tarihi": "1940-11-04",
@@ -185,7 +185,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: İspanya'nın devlet başkanı",
   "hassas": false,
   "turk": false
  },
@@ -214,6 +214,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Cannes Film Festivali Jüri Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Q312472",
+  "dogum_tarihi": "1933-03-26",
+  "vefat_tarihi": "2026-11-04",
+  "vefat_yasi": 93,
+  "dogum_yeri": "Milano",
+  "vefat_yeri": "Roma",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q312472",
+  "sitelink": 51,
+  "fotograf": {
+   "dosya": "Tinto Brass 01.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Gorupdebesanez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tinto_Brass_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Tinto_Brass_01.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Caligula”",
   "hassas": false,
   "turk": false
  },
@@ -301,29 +329,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Polonya Dükü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Ebu'l-Fida",
-  "dogum_tarihi": "1273-11",
-  "vefat_tarihi": "1331-11-04",
-  "vefat_yasi": 58,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Şam",
-  "vefat_yeri": "Humus",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q311462",
-  "sitelink": 44,
-  "fotograf": null,
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Takvimü'l-Büldan”",
   "hassas": false,
   "turk": false
  }

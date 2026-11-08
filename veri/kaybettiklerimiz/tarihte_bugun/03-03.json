@@ -118,7 +118,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q80095",
-  "sitelink": 107,
+  "sitelink": 108,
   "fotograf": {
    "dosya": "Paris - Salon du livre 2012 - Kenzaburō Ōe - 003.jpg",
    "lisans": "CC BY-SA 3.0",
@@ -223,7 +223,7 @@
   "vefat_tarihi": "1996-03-03",
   "vefat_yasi": 81,
   "dogum_yeri": "Ho Chi Minh Kenti",
-  "vefat_yeri": "Paris",
+  "vefat_yeri": "Paris 6. bölge",
   "defin_yeri": "Montparnasse Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Fransa",
@@ -280,7 +280,7 @@
   "vefat_yasi": 75,
   "dogum_yeri": "Peoria",
   "vefat_yeri": "Newport",
-  "defin_yeri": null,
+  "defin_yeri": "Büyük Okyanus",
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q202449",
@@ -325,7 +325,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekran Oyuncuları Derneği Yaşam Başarı Ödülü, Peabody Ödülü. Görev: UNICEF İyi Niyet Elçisi",
+  "neden_onemli": "Ödül: Peabody Ödülü, Kennedy Center Onur Ödülleri. Görev: UNICEF İyi Niyet Elçisi",
   "hassas": false,
   "turk": false
  }

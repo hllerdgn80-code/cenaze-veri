@@ -166,7 +166,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q218960",
-  "sitelink": 78,
+  "sitelink": 79,
   "fotograf": {
    "dosya": "Laurence Sterne by Sir Joshua Reynolds.jpg",
    "lisans": "Public domain",
@@ -301,30 +301,30 @@
   "turk": false
  },
  {
-  "ad": "Guido Westerwelle",
-  "dogum_tarihi": "1961-12-27",
-  "vefat_tarihi": "2016-03-18",
-  "vefat_yasi": 54,
-  "dogum_yeri": "Bad Honnef",
-  "vefat_yeri": "Köln",
-  "defin_yeri": "Melaten-Friedhof",
+  "ad": "I. Faruk",
+  "dogum_tarihi": "1920-02-11",
+  "vefat_tarihi": "1965-03-18",
+  "vefat_yasi": 45,
+  "dogum_yeri": "Abidin Sarayı",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "El Rıfai Camii",
   "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q58284",
-  "sitelink": 63,
+  "defin_ulke": "Mısır",
+  "wikidata_id": "Q213001",
+  "sitelink": 64,
   "fotograf": {
-   "dosya": "Ministru prezidents Valdis Dombrovskis tiekas ar Vācijas ārlietu ministru Gvido Vestervelli (7849819858) (cropped).jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "State Chancellery of Latvia",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ministru_prezidents_Valdis_Dombrovskis_tiekas_ar_V%C4%81cijas_%C4%81rlietu_ministru_Gvido_Vestervelli_%287849819858%29_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ministru_prezidents_Valdis_Dombrovskis_tiekas_ar_V%C4%81cijas_%C4%81rlietu_ministru_Gvido_Vestervelli_%287849819858%29_%28cropped%29.jpg"
+   "dosya": "Farouk-King-.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Farouk-King-.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Farouk-King-.jpg"
   },
   "meslek": [
-   "Yazar"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: fahri doktora. Görev: Dışişleri Bakanı, Bundestag üyesi",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı",
   "hassas": false,
   "turk": false
  }

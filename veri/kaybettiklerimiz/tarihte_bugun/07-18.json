@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Malta Egemen Askerî Düzeni. Önemli eserleri: “Emmaus'ta Yemek (Londra)”, “Holofernes'in Boynunun Yudit Tarafından Vurulması”, “Meryem'e Müjde”",
+  "neden_onemli": "Ödül: Malta Egemen Askerî Düzeni. Önemli eserleri: “Emmaus'ta Yemek (Londra)”, “Holofernes'in Boynunun Yudit Tarafından Vurulması”, “Yedi Merhamet Eylemi (Caravaggio)”",
   "hassas": false,
   "turk": false
  },
@@ -234,7 +234,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q718078",
-  "sitelink": 63,
+  "sitelink": 64,
   "fotograf": {
    "dosya": "Comedian Bob Newhart.jpg",
    "lisans": "CC BY 2.0",
@@ -308,30 +308,30 @@
   "turk": false
  },
  {
-  "ad": "Castello Branco",
-  "dogum_tarihi": "1900-09-20",
-  "vefat_tarihi": "1967-07-18",
-  "vefat_yasi": 66,
-  "dogum_yeri": "Fortaleza",
-  "vefat_yeri": "Fortaleza",
-  "defin_yeri": null,
+  "ad": "Eugene Merle Shoemaker",
+  "dogum_tarihi": "1928-04-28",
+  "vefat_tarihi": "1997-07-18",
+  "vefat_yasi": 69,
+  "dogum_yeri": "Los Angeles",
+  "vefat_yeri": "Alice Springs",
+  "defin_yeri": "Ay",
   "defin_il": null,
   "defin_ulke": null,
-  "wikidata_id": "Q294430",
-  "sitelink": 50,
+  "wikidata_id": "Q216874",
+  "sitelink": 51,
   "fotograf": {
-   "dosya": "Humberto Castelo Branco, presidente do Brasil, 1964.jpg",
+   "dosya": "Eugene Shoemaker.jpg",
    "lisans": "Public domain",
-   "yazar": "Governo do Brasil",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humberto_Castelo_Branco%2C_presidente_do_Brasil%2C_1964.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Humberto_Castelo_Branco%2C_presidente_do_Brasil%2C_1964.jpg"
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugene_Shoemaker.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eugene_Shoemaker.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Jeolog"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Güney Haçı Liyakat Nişanı. Görev: Brezilya devlet başkanı",
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası",
   "hassas": false,
   "turk": false
  }

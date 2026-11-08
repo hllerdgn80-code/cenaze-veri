@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Çekya",
   "wikidata_id": "Q7298",
-  "sitelink": 151,
+  "sitelink": 152,
   "fotograf": {
    "dosya": "Dvorak.jpg",
    "lisans": "Public domain",
@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Te Deum”, “Rusalka”",
+  "neden_onemli": "Önemli eserleri: “Rusalka”, “Te Deum”",
   "hassas": false,
   "turk": false
  },
@@ -33,7 +33,7 @@
   "vefat_tarihi": "1945-05-01",
   "vefat_yasi": 47,
   "dogum_yeri": "Rheydt",
-  "vefat_yeri": "Berlin",
+  "vefat_yeri": "Führerbunker",
   "defin_yeri": "Ehle",
   "defin_il": null,
   "defin_ulke": "Almanya",
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Gauleiter, Weimar Cumhuriyeti Reichstag üyesi",
+  "neden_onemli": "Görev: Weimar Cumhuriyeti Reichstag üyesi, Nazi Almanyası'nda Reichstag üyesi",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması"
@@ -95,7 +95,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q48373",
-  "sitelink": 101,
+  "sitelink": 102,
   "fotograf": {
    "dosya": "David Livingstone by Thomas Annan.jpg",
    "lisans": "Public domain",
@@ -136,7 +136,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Sosyalist Emek Kahramanı ünvanı",
+  "neden_onemli": "Ödül: Sosyalist Emek Kahramanı ünvanı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -164,7 +164,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Kara Kartal Nişanı. Görev: şah, komutan subay",
+  "neden_onemli": "Ödül: İftihar Nişanı, Dizbağı Nişanı. Görev: şah, komutan subay",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -261,12 +261,12 @@
   "vefat_tarihi": "1574-05-01",
   "vefat_yasi": 54,
   "dogum_yeri": "Firenze",
-  "vefat_yeri": "Firenze",
+  "vefat_yeri": "Medicea di Castello Villası",
   "defin_yeri": "Medici Şapeli",
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q48547",
-  "sitelink": 46,
+  "sitelink": 47,
   "fotograf": {
    "dosya": "Agnolo Bronzino - Cosimo I de' Medici in armour - Google Art Project.jpg",
    "lisans": "Public domain",

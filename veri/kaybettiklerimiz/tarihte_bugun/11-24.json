@@ -11,7 +11,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q15869",
   "sitelink": 176,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Freddie Mercury at Sheraton Hotel Buenos Aires.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Freddie_Mercury_at_Sheraton_Hotel_Buenos_Aires.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_at_Sheraton_Hotel_Buenos_Aires.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -33,9 +39,15 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q171730",
   "sitelink": 102,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Georges Clemenceau par Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Paul Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges_Clemenceau_par_Nadar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georges_Clemenceau_par_Nadar.jpg"
+  },
   "meslek": [
-   "Siyasetçi"
+   "Bakan"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -55,7 +67,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q172544",
   "sitelink": 85,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John Rawls (1971 photo portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Published by the Belknap Press of Harvard University Press. Photograph taken by Alec Rawls, John's son. The portrait was uncredited on the original dust jacket, but Alec is identified as its photograp",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Rawls_%281971_photo_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Rawls_%281971_photo_portrait%29.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -77,7 +95,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q48745",
   "sitelink": 75,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Lee Harvey Oswald 1963.jpg",
+   "lisans": "Public domain",
+   "yazar": "Dallas Police; Warren Commission",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee_Harvey_Oswald_1963.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lee_Harvey_Oswald_1963.jpg"
+  },
   "meslek": [],
   "aciklama": "John F. Kennedy'ye suikast düzenleyen Amerikalı eski denizci",
   "aciklama_kaynak": "wikidata_tr",
@@ -103,7 +127,13 @@
   "defin_ulke": "Vatikan",
   "wikidata_id": "Q227713",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Nuremberg Chronicles f 235v 1 (Innocentius VII).jpg",
+   "lisans": "Public domain",
+   "yazar": "After Hartmann Schedel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_Chronicles_f_235v_1_%28Innocentius_VII%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nuremberg_Chronicles_f_235v_1_%28Innocentius_VII%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -145,7 +175,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q159862",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marburg Elisabethkirche Elisabethschrein Elisabethfigur.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Heinrich Stürzl",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marburg_Elisabethkirche_Elisabethschrein_Elisabethfigur.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marburg_Elisabethkirche_Elisabethschrein_Elisabethfigur.jpg"
+  },
   "meslek": [],
   "aciklama": "Macarlı Prenses ve Hristiyan Papaz",
   "aciklama_kaynak": "wikidata_tr",
@@ -165,7 +201,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q294181",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Lautréamont.jpg",
+   "lisans": "Public domain",
+   "yazar": "Document found in 1977 by Jean-Jacques Lefrère in Bagnères-de-Bigorre (France).",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lautr%C3%A9amont.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lautr%C3%A9amont.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -187,7 +229,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q12702",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Robert Cecil, 1st Viscount Cecil of Chelwood - Project Gutenberg eText 15306.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Cecil%2C_1st_Viscount_Cecil_of_Chelwood_-_Project_Gutenberg_eText_15306.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Cecil%2C_1st_Viscount_Cecil_of_Chelwood_-_Project_Gutenberg_eText_15306.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -209,7 +257,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q52933",
   "sitelink": 53,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ulrika Eleonora, Queen of Sweden Georg Desmarées.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to Georg Desmarées",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulrika_Eleonora%2C_Queen_of_Sweden_Georg_Desmar%C3%A9es.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ulrika_Eleonora%2C_Queen_of_Sweden_Georg_Desmar%C3%A9es.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -229,7 +283,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q44584",
   "sitelink": 51,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Hans Magnus Enzensberger.JPG",
+   "lisans": "CC BY 2.5",
+   "yazar": "Mariusz Kubik, Kmarius, [1]",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Magnus_Enzensberger.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Magnus_Enzensberger.JPG"
+  },
   "meslek": [
    "Şair"
   ],
@@ -251,7 +311,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q160448",
   "sitelink": 50,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "László Moholy-Nagy by Hugo Erfurth, c. 1930 .jpg",
+   "lisans": "Public domain",
+   "yazar": "Hugo Erfurth",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A1szl%C3%B3_Moholy-Nagy_by_Hugo_Erfurth%2C_c._1930_.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:L%C3%A1szl%C3%B3_Moholy-Nagy_by_Hugo_Erfurth%2C_c._1930_.jpg"
+  },
   "meslek": [
    "Ressam"
   ],

@@ -122,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q1666",
-  "sitelink": 81,
+  "sitelink": 82,
   "fotograf": {
    "dosya": "Jacques Brel (1962).jpg",
    "lisans": "CC BY-SA 3.0",
@@ -151,13 +151,7 @@
   "defin_ulke": "Polonya",
   "wikidata_id": "Q106685",
   "sitelink": 80,
-  "fotograf": {
-   "dosya": "Andrzej Wajda OFF Plus Camera 2012 (cropped).jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Piotr DrabikDerivative work: TharonXX",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrzej_Wajda_OFF_Plus_Camera_2012_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrzej_Wajda_OFF_Plus_Camera_2012_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
@@ -179,13 +173,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q132797",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Pope Mark.jpg",
-   "lisans": "Public domain",
-   "yazar": "Artaud de Montor (1772–1849)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Mark.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Pope_Mark.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Dini lider"
   ],
@@ -206,14 +194,8 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q224029",
-  "sitelink": 76,
-  "fotograf": {
-   "dosya": "Maurois Harcourt 1936.jpg",
-   "lisans": "Public domain",
-   "yazar": "Studio Harcourt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maurois_Harcourt_1936.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Maurois_Harcourt_1936.jpg"
-  },
+  "sitelink": 77,
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -236,19 +218,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q169305",
   "sitelink": 76,
-  "fotograf": {
-   "dosya": "Taddeo di bartolo, s. tommaso d'aquino presenta la sua liturgia del corpus christi a urbano IV, 1403 ca. (cropped) (cropped).JPG",
-   "lisans": "CC BY 3.0",
-   "yazar": "Sailko",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taddeo_di_bartolo%2C_s._tommaso_d%27aquino_presenta_la_sua_liturgia_del_corpus_christi_a_urbano_IV%2C_1403_ca._%28cropped%29_%28cropped%29.JPG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Taddeo_di_bartolo%2C_s._tommaso_d%27aquino_presenta_la_sua_liturgia_del_corpus_christi_a_urbano_IV%2C_1403_ca._%28cropped%29_%28cropped%29.JPG"
-  },
+  "fotograf": null,
   "meslek": [
    "Diplomat"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: büyükelçi, patrik",
+  "neden_onemli": "Görev: Papa, büyükelçi",
   "hassas": false,
   "turk": false
  },
@@ -264,19 +240,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q128976",
   "sitelink": 75,
-  "fotograf": {
-   "dosya": "Alec Douglas-Home (c1963).jpg",
-   "lisans": "CC0",
-   "yazar": "Unknown photographer for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alec_Douglas-Home_%28c1963%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Alec_Douglas-Home_%28c1963%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Birleşik Krallık Başbakanı, Britanya Lordlar Kamarası üyesi",
+  "neden_onemli": "Görev: Birleşik Krallık Başbakanı, Müsteşar",
   "hassas": false,
   "turk": false
  },
@@ -292,13 +262,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q105962",
   "sitelink": 69,
-  "fotograf": {
-   "dosya": "ALLAIS PN Maurice-24x30-2001b.jpg",
-   "lisans": "CC BY 3.0",
-   "yazar": "ALLAIS_PN_Maurice-24x30-2001.jpg: Studio Harcourt derivative work: Materialscientist (talk)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ALLAIS_PN_Maurice-24x30-2001b.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:ALLAIS_PN_Maurice-24x30-2001b.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
@@ -320,13 +284,7 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q151759",
   "sitelink": 67,
-  "fotograf": {
-   "dosya": "Schinkel1.jpg",
-   "lisans": "Public domain",
-   "yazar": "Carl Joseph Begas",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schinkel1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Schinkel1.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],

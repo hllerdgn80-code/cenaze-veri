@@ -77,19 +77,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q8750",
   "sitelink": 180,
-  "fotograf": {
-   "dosya": "M Faraday Th Phillips oil 1842.jpg",
-   "lisans": "Public domain",
-   "yazar": "Thomas Phillips",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/M_Faraday_Th_Phillips_oil_1842.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kraliyet Madalyası, Rumford Madalyası",
+  "neden_onemli": "Ödül: Rumford Madalyası, Kraliyet Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -104,14 +98,8 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q125249",
-  "sitelink": 124,
-  "fotograf": {
-   "dosya": "William James by Alice M. Boughton, c. 1907, platinum print, from the National Portrait Gallery - NPG-NPG 87 37James-000001 (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Alice Boughton",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_James_by_Alice_M._Boughton%2C_c._1907%2C_platinum_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_87_37James-000001_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:William_James_by_Alice_M._Boughton%2C_c._1907%2C_platinum_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_87_37James-000001_%28cropped%29.jpg"
-  },
+  "sitelink": 125,
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -133,19 +121,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q1618",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "Col Charles Lindbergh, original, hec.21329.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Col_Charles_Lindbergh%2C_original%2C_hec.21329.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Col_Charles_Lindbergh%2C_original%2C_hec.21329.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Kongre Altın Madalyası",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, II. Dünya Savaşı Zafer Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -161,13 +143,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q7771",
   "sitelink": 83,
-  "fotograf": {
-   "dosya": "1841 portrait painting of Louis Philippe I (King of the French) by Winterhalter.jpg",
-   "lisans": "Public domain",
-   "yazar": "Franz Xaver Winterhalter",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1841_portrait_painting_of_Louis_Philippe_I_%28King_of_the_French%29_by_Winterhalter.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:1841_portrait_painting_of_Louis_Philippe_I_%28King_of_the_French%29_by_Winterhalter.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Kral"
   ],
@@ -317,28 +293,30 @@
   "turk": false
  },
  {
-  "ad": "Sven-Göran Eriksson",
-  "dogum_tarihi": "1948-02-05",
-  "vefat_tarihi": "2024-08-26",
-  "vefat_yasi": 76,
-  "dogum_yeri": "Sunne",
-  "vefat_yeri": "Sunne",
+  "ad": "Laura Branigan",
+  "dogum_tarihi": "1952-07-03",
+  "vefat_tarihi": "2004-08-26",
+  "vefat_yasi": 52,
+  "dogum_yeri": "Mount Kisco",
+  "vefat_yeri": "East Quogue",
   "defin_yeri": null,
   "defin_il": null,
   "defin_ulke": null,
-  "wikidata_id": "Q218369",
-  "sitelink": 58,
+  "wikidata_id": "Q229550",
+  "sitelink": 59,
   "fotograf": {
-   "dosya": "Sven-Goran Eriksson 2012.jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Doha Stadium Plus Qatar",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sven-Goran_Eriksson_2012.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sven-Goran_Eriksson_2012.jpg"
+   "dosya": "Laura Branigan 1987.jpg",
+   "lisans": "Public domain",
+   "yazar": "Distributed by Atlantic Records",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laura_Branigan_1987.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Laura_Branigan_1987.jpg"
   },
-  "meslek": [],
-  "aciklama": "İsveçli teknik direktör ve futbolcu",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Yılın Albümü Grammy Ödülü",
   "hassas": false,
   "turk": false
  }

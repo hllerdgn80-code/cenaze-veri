@@ -110,7 +110,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q215562",
-  "sitelink": 94,
+  "sitelink": 95,
   "fotograf": {
    "dosya": "Frederick Douglass as a younger man.jpg",
    "lisans": "Public domain",
@@ -194,8 +194,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q219780",
-  "sitelink": 74,
-  "fotograf": null,
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Hunter S. Thompson, Las Vegas 1971.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph credited to \"Cashman Photo Enterprises, Inc.\" Published by Random House.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hunter_S._Thompson%2C_Las_Vegas_1971.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hunter_S._Thompson%2C_Las_Vegas_1971.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -227,7 +233,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Üstün Hizmet Madalyası, I. Georgios Nişanı",
+  "neden_onemli": "Ödül: I. Georgios Nişanı, Üstün Hizmet Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -279,7 +285,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:KParnoldson.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Politika yazarı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

@@ -135,6 +135,37 @@
   "turk": false
  },
  {
+  "ad": "Aaron Swartz",
+  "dogum_tarihi": "1986-11-08",
+  "vefat_tarihi": "2013-01-11",
+  "vefat_yasi": 26,
+  "dogum_yeri": "Highland Park",
+  "vefat_yeri": "Brooklyn",
+  "defin_yeri": "Shalom Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q302817",
+  "sitelink": 85,
+  "fotograf": {
+   "dosya": "Aaron Swartz 2 at Boston Wikipedia Meetup, 2009-08-18.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Sage Ross",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Internet Hall of Fame, James Madison Ödülü. Önemli eserleri: “JSTOR”, “Open Library”, “RSS”",
+  "hassas": true,
+  "hassas_nedeni": [
+   "hanging to death"
+  ],
+  "turk": false
+ },
+ {
   "ad": "Carl David Anderson",
   "dogum_tarihi": "1905-09-03",
   "vefat_tarihi": "1991-01-11",
@@ -154,37 +185,6 @@
   "aciklama_kaynak": null,
   "neden_onemli": null,
   "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Aaron Swartz",
-  "dogum_tarihi": "1986-11-08",
-  "vefat_tarihi": "2013-01-11",
-  "vefat_yasi": 26,
-  "dogum_yeri": "Highland Park",
-  "vefat_yeri": "Brooklyn",
-  "defin_yeri": "Shalom Memorial Park",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q302817",
-  "sitelink": 84,
-  "fotograf": {
-   "dosya": "Aaron Swartz 2 at Boston Wikipedia Meetup, 2009-08-18.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Sage Ross",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Aaron_Swartz_2_at_Boston_Wikipedia_Meetup%2C_2009-08-18.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Internet Hall of Fame, James Madison Ödülü. Önemli eserleri: “Open Library”, “RSS”",
-  "hassas": true,
-  "hassas_nedeni": [
-   "hanging to death"
-  ],
   "turk": false
  },
  {
@@ -226,7 +226,7 @@
   "defin_il": null,
   "defin_ulke": "İsveç",
   "wikidata_id": "Q230662",
-  "sitelink": 77,
+  "sitelink": 79,
   "fotograf": {
    "dosya": "Anita Ekberg 1956.jpg",
    "lisans": "Public domain",
@@ -254,7 +254,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q157271",
-  "sitelink": 74,
+  "sitelink": 75,
   "fotograf": {
    "dosya": "Franz Gareis Portrait Friedrich Schlegel.jpg",
    "lisans": "Public domain",

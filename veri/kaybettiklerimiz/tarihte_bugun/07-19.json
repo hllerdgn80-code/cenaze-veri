@@ -10,7 +10,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q721715",
-  "sitelink": 32,
+  "sitelink": 33,
   "fotograf": {
    "dosya": "Nihat Erim in Washington D.C (cropped).jpg",
    "lisans": "CC BY-SA 4.0",
@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: Kamu İşleri Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -82,7 +82,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ulusal Kuruluş İçin Liyakat Nişanı, Mugunghwa Büyük Nişanı. Görev: Güney Kore cumhurbaşkanı",
+  "neden_onemli": "Ödül: Mugunghwa Büyük Nişanı, Ulusal Kuruluş İçin Liyakat Nişanı. Görev: Güney Kore cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },
@@ -143,6 +143,34 @@
   "turk": false
  },
  {
+  "ad": "Nguyễn Phú Trọng",
+  "dogum_tarihi": "1944-04-14",
+  "vefat_tarihi": "2024-07-19",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Đông Anh",
+  "vefat_yeri": "Hanoi",
+  "defin_yeri": "Mai Dịch Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Vietnam",
+  "wikidata_id": "Q318458",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Nguyen Phu Trong HN2023.jpg",
+   "lisans": "Public domain",
+   "yazar": "Adam Schultz",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nguyen_Phu_Trong_HN2023.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nguyen_Phu_Trong_HN2023.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Lenin Ödülü. Görev: Vietnam Komünist Partisi genel sekreteri, Vietnam cumhurbaşkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "II. Heinrich",
   "dogum_tarihi": "0973-05-11",
   "vefat_tarihi": "1024-07-19",
@@ -165,34 +193,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Nguyễn Phú Trọng",
-  "dogum_tarihi": "1944-04-14",
-  "vefat_tarihi": "2024-07-19",
-  "vefat_yasi": 80,
-  "dogum_yeri": "Đông Anh",
-  "vefat_yeri": "Hanoi",
-  "defin_yeri": "Mai Dịch Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Vietnam",
-  "wikidata_id": "Q318458",
-  "sitelink": 64,
-  "fotograf": {
-   "dosya": "Nguyen Phu Trong HN2023.jpg",
-   "lisans": "Public domain",
-   "yazar": "Adam Schultz",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nguyen_Phu_Trong_HN2023.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Nguyen_Phu_Trong_HN2023.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Ödülü. Görev: Vietnam Komünist Partisi genel sekreteri, Vietnam cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },

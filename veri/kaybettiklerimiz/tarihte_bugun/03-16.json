@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1430",
-  "sitelink": 176,
+  "sitelink": 177,
   "fotograf": {
    "dosya": "Marcus Aurelius Louvre MR561 n02.jpg",
    "lisans": "CC BY 2.5",
@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Kendime Düşünceler”. Görev: quaestor, Roma imparatoru",
+  "neden_onemli": "Önemli eserleri: “Kendime Düşünceler”. Görev: Romalı konsül, quaestor",
   "hassas": false,
   "turk": false
  },
@@ -123,7 +123,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q188999",
-  "sitelink": 68,
+  "sitelink": 69,
   "fotograf": {
    "dosya": "1930 Austen Chamberlain.jpg",
    "lisans": "CC BY 4.0",
@@ -169,6 +169,34 @@
   "turk": false
  },
  {
+  "ad": "Miguel Primo de Rivera",
+  "dogum_tarihi": "1870-01-08",
+  "vefat_tarihi": "1930-03-16",
+  "vefat_yasi": 60,
+  "dogum_yeri": "Jerez de la Frontera",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Iglesia-convento de la Merced",
+  "defin_il": null,
+  "defin_ulke": "İspanya",
+  "wikidata_id": "Q192894",
+  "sitelink": 65,
+  "fotograf": {
+   "dosya": "Miguel Primo de Rivera, Kaulak (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "Kaulak",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Finlandiya Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Constantin Brâncu»ôi",
   "dogum_tarihi": "1876-02-19",
   "vefat_tarihi": "1957-03-16",
@@ -193,34 +221,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Miguel Primo de Rivera",
-  "dogum_tarihi": "1870-01-08",
-  "vefat_tarihi": "1930-03-16",
-  "vefat_yasi": 60,
-  "dogum_yeri": "Jerez de la Frontera",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Iglesia-convento de la Merced",
-  "defin_il": null,
-  "defin_ulke": "İspanya",
-  "wikidata_id": "Q192894",
-  "sitelink": 64,
-  "fotograf": {
-   "dosya": "Miguel Primo de Rivera, Kaulak (cropped).jpg",
-   "lisans": "CC0",
-   "yazar": "Kaulak",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Miguel_Primo_de_Rivera%2C_Kaulak_%28cropped%29.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Finlandiya Nişanı",
   "hassas": false,
   "turk": false
  },

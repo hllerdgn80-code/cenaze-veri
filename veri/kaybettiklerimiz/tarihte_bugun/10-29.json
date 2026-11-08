@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q153232",
-  "sitelink": 114,
+  "sitelink": 115,
   "fotograf": {
    "dosya": "Jean Le Rond d'Alembert, by French school.jpg",
    "lisans": "Public domain",
@@ -23,35 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “d'Alembert paradoksu”, “D'Alembert prensibi”, “d'Alembert işleci”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Joseph Pulitzer",
-  "dogum_tarihi": "1847-04-10",
-  "vefat_tarihi": "1911-10-29",
-  "vefat_yasi": 64,
-  "dogum_yeri": "Makó",
-  "vefat_yeri": "Charleston",
-  "defin_yeri": "Woodlawn Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q173417",
-  "sitelink": 80,
-  "fotograf": {
-   "dosya": "JosephPulitzerPinceNeznpsgov.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JosephPulitzerPinceNeznpsgov.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Pulitzer Ödülü”",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “d'Alembert paradoksu”, “d'Alembert işleci”, “D'Alembert prensibi”",
   "hassas": false,
   "turk": false
  },
@@ -79,6 +51,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Joseph Pulitzer",
+  "dogum_tarihi": "1847-04-10",
+  "vefat_tarihi": "1911-10-29",
+  "vefat_yasi": 64,
+  "dogum_yeri": "Makó",
+  "vefat_yeri": "Charleston",
+  "defin_yeri": "Woodlawn Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q173417",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "JosephPulitzerPinceNeznpsgov.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JosephPulitzerPinceNeznpsgov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JosephPulitzerPinceNeznpsgov.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Pulitzer Ödülü”",
   "hassas": false,
   "turk": false
  },
@@ -121,7 +121,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q276028",
-  "sitelink": 74,
+  "sitelink": 75,
   "fotograf": {
    "dosya": "Frances Burnett.jpg",
    "lisans": "Public domain",

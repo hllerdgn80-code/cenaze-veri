@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Pulp”, “Hollywood”, “Ölüler Böyle Sever”",
+  "neden_onemli": "Önemli eserleri: “Pulp”, “Ölüler Böyle Sever”, “Hollywood”",
   "hassas": false,
   "turk": false
  },
@@ -101,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Dannebrog Nişanı, Dannebrog Nişanı Kumandanı. Önemli eserleri: “elektromanyetizma”",
+  "neden_onemli": "Ödül: Dannebrog Nişanı Kumandanı, Büyük Dannebrog Nişanı. Önemli eserleri: “elektromanyetizma”",
   "hassas": false,
   "turk": false
  },
@@ -129,7 +129,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Aziz Vladimir Nişanı. Görev: Prusya'da Kral",
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Beyaz Kartal Nişanı. Görev: Prusya'da Kral",
   "hassas": false,
   "turk": false
  },
@@ -157,7 +157,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Lenin Nişanı. Görev: bakan, Maslahatgüzar",
+  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Lenin Nişanı. Görev: bakan, büyükelçi",
   "hassas": false,
   "turk": false
  },
@@ -310,7 +310,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q230491",
-  "sitelink": 62,
+  "sitelink": 63,
   "fotograf": {
    "dosya": "Mary Anning painting.jpg",
    "lisans": "Public domain",

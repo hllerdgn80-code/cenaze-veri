@@ -97,7 +97,7 @@
   "defin_il": null,
   "defin_ulke": "Polonya",
   "wikidata_id": "Q2757",
-  "sitelink": 115,
+  "sitelink": 116,
   "fotograf": null,
   "meslek": [
    "Siyasetçi"
@@ -137,6 +137,32 @@
   "turk": false
  },
  {
+  "ad": "XIII. Gregorius",
+  "dogum_tarihi": "1502-01-11",
+  "vefat_tarihi": "1585-04-10",
+  "vefat_yasi": 83,
+  "dogum_yeri": "Bologna",
+  "vefat_yeri": "Roma",
+  "defin_yeri": "Tomb of Gregorius XIII",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q83029",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Lavinia Fontana - Portrait of Pope Gregory XIII.jpg",
+   "lisans": "Public domain",
+   "yazar": "Lavinia Fontana",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lavinia_Fontana_-_Portrait_of_Pope_Gregory_XIII.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Lavinia_Fontana_-_Portrait_of_Pope_Gregory_XIII.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Miladî takvim”. Görev: Papa, kardinal",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Emiliano Zapata",
   "dogum_tarihi": "1879-08-08",
   "vefat_tarihi": "1919-04-10",
@@ -166,32 +192,6 @@
    "ateşli silah yaralanması",
    "cinayet"
   ],
-  "turk": false
- },
- {
-  "ad": "XIII. Gregorius",
-  "dogum_tarihi": "1502-01-11",
-  "vefat_tarihi": "1585-04-10",
-  "vefat_yasi": 83,
-  "dogum_yeri": "Bologna",
-  "vefat_yeri": "Roma",
-  "defin_yeri": "Tomb of Gregorius XIII",
-  "defin_il": null,
-  "defin_ulke": "İtalya",
-  "wikidata_id": "Q83029",
-  "sitelink": 96,
-  "fotograf": {
-   "dosya": "Lavinia Fontana - Portrait of Pope Gregory XIII.jpg",
-   "lisans": "Public domain",
-   "yazar": "Lavinia Fontana",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lavinia_Fontana_-_Portrait_of_Pope_Gregory_XIII.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Lavinia_Fontana_-_Portrait_of_Pope_Gregory_XIII.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Miladî takvim”. Görev: Papa, kardinal",
-  "hassas": false,
   "turk": false
  },
  {
@@ -283,8 +283,8 @@
   "dogum_tarihi": "1903-10-28",
   "vefat_tarihi": "1966-04-10",
   "vefat_yasi": 62,
-  "dogum_yeri": "West Hampstead",
-  "vefat_yeri": "Combe Florey",
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Taunton",
   "defin_yeri": "Church of St Peter & St Paul",
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",

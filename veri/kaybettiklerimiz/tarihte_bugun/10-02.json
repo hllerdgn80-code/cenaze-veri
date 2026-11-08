@@ -51,34 +51,6 @@
   "turk": true
  },
  {
-  "ad": "Guru Nanak",
-  "dogum_tarihi": "1469-04-24",
-  "vefat_tarihi": "1539-10-02",
-  "vefat_yasi": 70,
-  "dogum_yeri": "Nankana Sahib",
-  "vefat_yeri": "Kartarpur",
-  "defin_yeri": "Gurdwara Darbar Sahib Kartarpur",
-  "defin_il": null,
-  "defin_ulke": "Pakistan",
-  "wikidata_id": "Q83322",
-  "sitelink": 107,
-  "fotograf": {
-   "dosya": "Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Amritpal Singh Mann. Painted by Jaimal Singh Naqqash (1860–1916), Mehtab Singh Naqqash (1871–1940), and Hukum Singh.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: lider",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Svante August Arrhenius",
   "dogum_tarihi": "1859-02-19",
   "vefat_tarihi": "1927-10-02",
@@ -326,6 +298,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Sovyetler Birliği Halk Sanatçısı, SSCB Devlet Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Raja Ravi Varma",
+  "dogum_tarihi": "1848-04-29",
+  "vefat_tarihi": "1906-10-02",
+  "vefat_yasi": 58,
+  "dogum_yeri": "Kilimanoor",
+  "vefat_yeri": "Attingal",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q333453",
+  "sitelink": 63,
+  "fotograf": {
+   "dosya": "Ravivarma1b.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bhawani Ram",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ravivarma1b.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ravivarma1b.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

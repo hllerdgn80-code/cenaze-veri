@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": "Suudi Arabistan",
   "wikidata_id": "Q8467",
-  "sitelink": 152,
+  "sitelink": 153,
   "fotograf": {
    "dosya": "Rashidun Caliphs Umar ibn Al-Khattāb - عُمر بن الخطّاب ثاني الخلفاء الراشدين.svg",
    "lisans": "CC BY-SA 3.0",
@@ -288,6 +288,34 @@
   "turk": false
  },
  {
+  "ad": "Maurice Leblanc",
+  "dogum_tarihi": "1864-12-11",
+  "vefat_tarihi": "1941-11-06",
+  "vefat_yasi": 76,
+  "dogum_yeri": "Rouen",
+  "vefat_yeri": "Perpignan",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q314993",
+  "sitelink": 57,
+  "fotograf": {
+   "dosya": "Maurice Leblanc âgé.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author (Service international photographique / SIPHO S.A.)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maurice_Leblanc_%C3%A2g%C3%A9.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maurice_Leblanc_%C3%A2g%C3%A9.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Eugène Pottier",
   "dogum_tarihi": "1816-10-05",
   "vefat_tarihi": "1887-11-06",
@@ -312,35 +340,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Enternasyonal”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "I. Harald",
-  "dogum_tarihi": "0911",
-  "vefat_tarihi": "0985-11-06",
-  "vefat_yasi": 74,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Danimarka",
-  "vefat_yeri": "Jomsborg",
-  "defin_yeri": "Roskilde Katedrali",
-  "defin_il": null,
-  "defin_ulke": "Danimarka",
-  "wikidata_id": "Q201041",
-  "sitelink": 57,
-  "fotograf": {
-   "dosya": "Grab von Harald Blauzahn in Roskilde 200710251128 00002.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Thborchert at German Wikipedia",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grab_von_Harald_Blauzahn_in_Roskilde_200710251128_00002.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Grab_von_Harald_Blauzahn_in_Roskilde_200710251128_00002.jpg"
-  },
-  "meslek": [
-   "Hükümdar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Danimarka Kraliyeti",
   "hassas": false,
   "turk": false
  }

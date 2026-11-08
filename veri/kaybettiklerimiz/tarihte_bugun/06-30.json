@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Avrupa Parlamentosu Başkanı, Avrupa Parlamentosu milletvekilliği",
+  "neden_onemli": "Görev: Avrupa Parlamentosu milletvekilliği, Avrupa Parlamentosu Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -149,7 +149,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q2040",
-  "sitelink": 58,
+  "sitelink": 59,
   "fotograf": {
    "dosya": "NinoFarina.jpg",
    "lisans": "Public domain",
@@ -309,30 +309,30 @@
   "turk": false
  },
  {
-  "ad": "Simon Vouet",
-  "dogum_tarihi": "1590-01-08",
-  "vefat_tarihi": "1649-06-30",
-  "vefat_yasi": 59,
-  "dogum_yeri": "Paris",
-  "vefat_yeri": "Paris",
-  "defin_yeri": null,
+  "ad": "Georgi Beregovoy",
+  "dogum_tarihi": "1921-04-15",
+  "vefat_tarihi": "1995-06-30",
+  "vefat_yasi": 74,
+  "dogum_yeri": "Fedorivka",
+  "vefat_yeri": "Moskova",
+  "defin_yeri": "Novodevichy Mezarlığı",
   "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q317920",
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q364451",
   "sitelink": 42,
   "fotograf": {
-   "dosya": "Vouet-autoportrait-lyon.jpg",
-   "lisans": "Public domain",
-   "yazar": "Simon Vouet",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vouet-autoportrait-lyon.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Vouet-autoportrait-lyon.jpg"
+   "dosya": "Георгий Береговой.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "Министерство обороны СССР",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%91%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D0%B9.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D0%B8%D0%B9_%D0%91%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D0%B9.jpg"
   },
   "meslek": [
-   "Ressam"
+   "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Ödül: Askerî İşbirliğini Güçlendirme Madalyası, \"Sovyet Ordusu ve Donanmasının 30 Yılı\" Jübile Madalyası",
   "hassas": false,
   "turk": false
  }

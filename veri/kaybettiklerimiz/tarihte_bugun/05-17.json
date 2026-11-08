@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q326819",
-  "sitelink": 10,
+  "sitelink": 11,
   "fotograf": null,
   "meslek": [
    "Şarkıcı"
@@ -20,6 +20,34 @@
   "neden_onemli": null,
   "hassas": false,
   "turk": true
+ },
+ {
+  "ad": "Guru Nanak",
+  "dogum_tarihi": "1469-04-24",
+  "vefat_tarihi": "1539-10-02",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Nankana Sahib",
+  "vefat_yeri": "Kartarpur",
+  "defin_yeri": "Gurdwara Darbar Sahib Kartarpur",
+  "defin_il": null,
+  "defin_ulke": "Pakistan",
+  "wikidata_id": "Q83322",
+  "sitelink": 107,
+  "fotograf": {
+   "dosya": "Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Amritpal Singh Mann. Painted by Jaimal Singh Naqqash (1860–1916), Mehtab Singh Naqqash (1871–1940), and Hukum Singh.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: lider",
+  "hassas": false,
+  "turk": false
  },
  {
   "ad": "Niccolò Paganini",
@@ -32,7 +60,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q66075",
-  "sitelink": 104,
+  "sitelink": 105,
   "fotograf": {
    "dosya": "NiccoloPaganini.jpeg",
    "lisans": "Public domain",
@@ -73,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Kara Kartal Nişanı. Görev: büyükelçi, Fransız asilzadesi",
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Kara Kartal Nişanı. Görev: büyükelçi, Autun Roma Katolik piskoposu",
   "hassas": false,
   "turk": false
  },
@@ -101,7 +129,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Kadın R&B Vokal Performansı Grammy Ödülü, Rock and Roll Hall of Fame. Aday olduğu ödül: En İyi Kadın Pop Vokal Performansı Grammy Ödülü",
+  "neden_onemli": "Ödül: En İyi Kadın R&B Vokal Performansı Grammy Ödülü, En İyi Dans Kaydı Grammy Ödülü. Aday olduğu ödül: En İyi Kadın Pop Vokal Performansı Grammy Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -278,7 +306,7 @@
   "dogum_tarihi": "1865-10-01",
   "vefat_tarihi": "1935-05-17",
   "vefat_yasi": 69,
-  "dogum_yeri": "Paris",
+  "dogum_yeri": "Paris 1. bölge",
   "vefat_yeri": "Paris",
   "defin_yeri": "Crématorium-columbarium du Père-Lachaise",
   "defin_il": null,
@@ -298,34 +326,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Prix de Rome",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Herman Wouk",
-  "dogum_tarihi": "1915-05-27",
-  "vefat_tarihi": "2019-05-17",
-  "vefat_yasi": 103,
-  "dogum_yeri": "Bronx",
-  "vefat_yeri": "Palm Springs",
-  "defin_yeri": "Beth David Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q49072",
-  "sitelink": 46,
-  "fotograf": {
-   "dosya": "Famous writer Herman Wouk arrived in Israel (FL45728797).jpg",
-   "lisans": "CC BY 4.0",
-   "yazar": "IPPA photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Famous_writer_Herman_Wouk_arrived_in_Israel_%28FL45728797%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Famous_writer_Herman_Wouk_arrived_in_Israel_%28FL45728797%29.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kurgu dalında Pulitzer Ödülü, II. Dünya Savaşı Zafer Madalyası. Önemli eserleri: “Denizde İsyan”",
   "hassas": false,
   "turk": false
  }

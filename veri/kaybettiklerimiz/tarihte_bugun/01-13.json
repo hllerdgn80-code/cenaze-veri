@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q6882",
-  "sitelink": 207,
+  "sitelink": 209,
   "fotograf": {
    "dosya": "James Joyce by Alex Ehrenzweig, 1915 cropped.jpg",
    "lisans": "Public domain",
@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma valisi",
+  "neden_onemli": "Görev: Roma valisi, Romalı konsül",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -156,7 +156,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q150712",
-  "sitelink": 72,
+  "sitelink": 73,
   "fotograf": {
    "dosya": "Charles III the Fat.jpg",
    "lisans": "CC BY-SA 4.0",
@@ -281,7 +281,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Türkiye Cumhuriyeti Devlet Şeref Madalyası, Atatürk Uluslararası Barış Ödülü. Görev: Kıbrıs Cumhuriyeti başkan yardımcısı, Kuzey Kıbrıs cumhurbaşkanı",
+  "neden_onemli": "Ödül: Atatürk Uluslararası Barış Ödülü, Türkiye Cumhuriyeti Devlet Şeref Madalyası. Görev: Kıbrıs Cumhuriyeti başkan yardımcısı, Kuzey Kıbrıs cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },

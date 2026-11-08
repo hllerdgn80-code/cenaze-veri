@@ -6,7 +6,7 @@
   "vefat_yasi": 64,
   "dogum_yeri": "Trier",
   "vefat_yeri": "Londra",
-  "defin_yeri": "Karl Marx'ın mezarı",
+  "defin_yeri": "Highgate Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9061",
@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q17714",
-  "sitelink": 201,
+  "sitelink": 202,
   "fotograf": {
    "dosya": "Relative time (2886233692) (Stephen Hawking cropped).jpg",
    "lisans": "CC BY-SA 2.0",
@@ -80,7 +80,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Asturias Prensliği Ödülü, Wolf Prize in Physics. Önemli eserleri: “Ceviz Kabuğundaki Evren”, “Zamanın Kısa Tarihi: Büyük Patlamadan Karadeliklere”, “On the Shoulders of Giants”",
+  "neden_onemli": "Ödül: Asturias Prensliği Ödülü, Wolf Prize in Physics. Önemli eserleri: “Zamanın Kısa Tarihi: Büyük Patlamadan Karadeliklere”, “Ceviz Kabuğundaki Evren”, “On the Shoulders of Giants”",
   "hassas": false,
   "turk": false
  },
@@ -96,7 +96,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1407",
-  "sitelink": 119,
+  "sitelink": 120,
   "fotograf": {
    "dosya": "(Venice) Tiberius Portrait of the 'Imperium Maius' type in Museo Archeologico Nazionale.jpg",
    "lisans": "Public domain",
@@ -109,7 +109,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
   "hassas": false,
   "turk": false
  },
@@ -124,7 +124,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q76357",
-  "sitelink": 103,
+  "sitelink": 104,
   "fotograf": {
    "dosya": "JuergenHabermas retouched.jpg",
    "lisans": "CC BY-SA 3.0",
@@ -137,7 +137,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Erasmus Ödülü, Leibniz Ödülü",
+  "neden_onemli": "Ödül: Leibniz Ödülü, Erasmus Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -229,6 +229,34 @@
   "turk": false
  },
  {
+  "ad": "Klement Gottwald",
+  "dogum_tarihi": "1896-11-23",
+  "vefat_tarihi": "1953-03-14",
+  "vefat_yasi": 56,
+  "dogum_yeri": "Dědice",
+  "vefat_yeri": "Prag",
+  "defin_yeri": "Olšany Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q296054",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Klement GOTTWALD, předseda československé vlády, oficiální portrét (ČTK, ID FO00075657).jpg",
+   "lisans": "Public domain",
+   "yazar": "ČTK/Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Klement_GOTTWALD%2C_p%C5%99edseda_%C4%8Deskoslovensk%C3%A9_vl%C3%A1dy%2C_ofici%C3%A1ln%C3%AD_portr%C3%A9t_%28%C4%8CTK%2C_ID_FO00075657%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Klement_GOTTWALD%2C_p%C5%99edseda_%C4%8Deskoslovensk%C3%A9_vl%C3%A1dy%2C_ofici%C3%A1ln%C3%AD_portr%C3%A9t_%28%C4%8CTK%2C_ID_FO00075657%29.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Büyük Polonia Restituta Nişanı, 25 Şubat Nişanı, 1. Sınıf",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Susan Hayward",
   "dogum_tarihi": "1917-06-30",
   "vefat_tarihi": "1975-03-14",
@@ -257,34 +285,6 @@
   "turk": false
  },
  {
-  "ad": "Klement Gottwald",
-  "dogum_tarihi": "1896-11-23",
-  "vefat_tarihi": "1953-03-14",
-  "vefat_yasi": 56,
-  "dogum_yeri": "Dědice",
-  "vefat_yeri": "Prag",
-  "defin_yeri": "Olšany Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Çekya",
-  "wikidata_id": "Q296054",
-  "sitelink": 60,
-  "fotograf": {
-   "dosya": "Klement GOTTWALD, předseda československé vlády, oficiální portrét (ČTK, ID FO00075657).jpg",
-   "lisans": "Public domain",
-   "yazar": "ČTK/Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Klement_GOTTWALD%2C_p%C5%99edseda_%C4%8Deskoslovensk%C3%A9_vl%C3%A1dy%2C_ofici%C3%A1ln%C3%AD_portr%C3%A9t_%28%C4%8CTK%2C_ID_FO00075657%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Klement_GOTTWALD%2C_p%C5%99edseda_%C4%8Deskoslovensk%C3%A9_vl%C3%A1dy%2C_ofici%C3%A1ln%C3%AD_portr%C3%A9t_%28%C4%8CTK%2C_ID_FO00075657%29.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Polonia Restituta Nişanı, 25 Şubat Nişanı, 1. Sınıf",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Fred Zinnemann",
   "dogum_tarihi": "1907-04-29",
   "vefat_tarihi": "1997-03-14",
@@ -295,7 +295,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q55420",
-  "sitelink": 57,
+  "sitelink": 58,
   "fotograf": {
    "dosya": "Fred Zinnemann 1940s.jpg",
    "lisans": "Public domain",
@@ -308,7 +308,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “İnsanlık Uğruna”, “Kahraman Şerif”, “Çakalın Günü”",
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, BAFTA Akademi Bağlılık Ödülü. Önemli eserleri: “Kahraman Şerif”, “İnsanlık Uğruna”, “A Hatful of Rain”",
   "hassas": false,
   "turk": false
  },

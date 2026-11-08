@@ -77,7 +77,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9381",
-  "sitelink": 225,
+  "sitelink": 226,
   "fotograf": {
    "dosya": "AdamSmith.jpg",
    "lisans": "Public domain",
@@ -90,7 +90,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Ulusların Zenginliği”, “Ahlaki Duygular Teorisi”",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Ahlaki Duygular Teorisi”, “Ulusların Zenginliği”",
   "hassas": false,
   "turk": false
  },
@@ -106,7 +106,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q5600",
-  "sitelink": 138,
+  "sitelink": 139,
   "fotograf": {
    "dosya": "Mimar Sinan, architecte de Soliman le Magnifique.jpg",
    "lisans": "Public domain",
@@ -129,7 +129,7 @@
   "vefat_tarihi": "1918-07-17",
   "vefat_yasi": 50,
   "dogum_yeri": "Puskin",
-  "vefat_yeri": "Yekaterinburg",
+  "vefat_yeri": "İpatyev Evi",
   "defin_yeri": "Peter ve Paul Katedrali",
   "defin_il": null,
   "defin_ulke": "Rusya",
@@ -147,7 +147,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Yorgi Nişanı. Görev: Rusya imparatoru, Finlandiya Büyük Dükü",
+  "neden_onemli": "Ödül: Mesih Nişanı, Aziz Yorgi Nişanı. Görev: Finlandiya Büyük Dükü, Rusya imparatoru",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -307,7 +307,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q7346",
-  "sitelink": 73,
+  "sitelink": 74,
   "fotograf": {
    "dosya": "John Coltrane 1963 cropped ver2.jpg",
    "lisans": "CC0",

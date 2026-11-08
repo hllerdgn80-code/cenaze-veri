@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "Endonezya",
   "wikidata_id": "Q76127",
-  "sitelink": 127,
+  "sitelink": 128,
   "fotograf": {
    "dosya": "Presiden Sukarno.jpg",
    "lisans": "Public domain",
@@ -252,34 +252,6 @@
   "turk": false
  },
  {
-  "ad": "Q189145",
-  "dogum_tarihi": "1794-02-21",
-  "vefat_tarihi": "1876-06-21",
-  "vefat_yasi": 82,
-  "dogum_yeri": "Xalapa",
-  "vefat_yeri": "Meksiko",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q189145",
-  "sitelink": 64,
-  "fotograf": {
-   "dosya": "Oleo Antonio Lopez de Santa Anna.PNG",
-   "lisans": "Public domain",
-   "yazar": "Carlos Paris",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oleo_Antonio_Lopez_de_Santa_Anna.PNG",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Oleo_Antonio_Lopez_de_Santa_Anna.PNG"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Meksika Başkanı, başkan",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Dimitris Hristofyas",
   "dogum_tarihi": "1946-08-29",
   "vefat_tarihi": "2019-06-21",
@@ -308,30 +280,58 @@
   "turk": false
  },
  {
-  "ad": "John Lee Hooker",
-  "dogum_tarihi": "1917-08-22",
-  "vefat_tarihi": "2001-06-21",
-  "vefat_yasi": 83,
-  "dogum_yeri": "Clarksdale",
-  "vefat_yeri": "Los Altos",
-  "defin_yeri": "Chapel of the Chimes",
+  "ad": "Q189145",
+  "dogum_tarihi": "1794-02-21",
+  "vefat_tarihi": "1876-06-21",
+  "vefat_yasi": 82,
+  "dogum_yeri": "Xalapa",
+  "vefat_yeri": "Meksiko",
+  "defin_yeri": null,
   "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q44570",
-  "sitelink": 60,
+  "defin_ulke": null,
+  "wikidata_id": "Q189145",
+  "sitelink": 63,
   "fotograf": {
-   "dosya": "John Lee Hooker two.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Jean-Luc",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Lee_Hooker_two.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Lee_Hooker_two.jpg"
+   "dosya": "Oleo Antonio Lopez de Santa Anna.PNG",
+   "lisans": "Public domain",
+   "yazar": "Carlos Paris",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oleo_Antonio_Lopez_de_Santa_Anna.PNG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Oleo_Antonio_Lopez_de_Santa_Anna.PNG"
   },
   "meslek": [
-   "Şarkıcı"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame",
+  "neden_onemli": "Görev: Meksika Başkanı, başkan",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Fredrich Fröbel",
+  "dogum_tarihi": "1782-04-21",
+  "vefat_tarihi": "1852-06-21",
+  "vefat_yasi": 70,
+  "dogum_yeri": "Oberweißbach",
+  "vefat_yeri": "Marienthal",
+  "defin_yeri": "Cemetery Schweina",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76679",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Friedrich Fröbel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Verlag A.Pichlers Witwe und Sohn",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Friedrich_Fr%C3%B6bel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Friedrich_Fr%C3%B6bel.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

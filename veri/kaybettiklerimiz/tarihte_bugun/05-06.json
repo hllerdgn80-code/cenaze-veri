@@ -32,7 +32,7 @@
   "dogum_tarihi": "1817-07-12",
   "vefat_tarihi": "1862-05-06",
   "vefat_yasi": 44,
-  "dogum_yeri": "Concord",
+  "dogum_yeri": "Wheeler-Minot Farmhouse",
   "vefat_yeri": "Concord",
   "defin_yeri": "Sleepy Hollow Cemetery",
   "defin_il": null,
@@ -62,7 +62,7 @@
   "vefat_yasi": 89,
   "dogum_yeri": "Berlin",
   "vefat_yeri": "Berlin",
-  "defin_yeri": "Schloss Tegel",
+  "defin_yeri": "the Humboldt family’s burial place",
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q6694",
@@ -112,6 +112,34 @@
   "turk": false
  },
  {
+  "ad": "Maria Montessori",
+  "dogum_tarihi": "1870-08-31",
+  "vefat_tarihi": "1952-05-06",
+  "vefat_yasi": 81,
+  "dogum_yeri": "Chiaravalle",
+  "vefat_yeri": "Noordwijk",
+  "defin_yeri": "Noordwijk",
+  "defin_il": null,
+  "defin_ulke": "Hollanda",
+  "wikidata_id": "Q131117",
+  "sitelink": 109,
+  "fotograf": {
+   "dosya": "Maria Montessori (portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Montessori_%28portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maria_Montessori_%28portrait%29.jpg"
+  },
+  "meslek": [
+   "Deneme yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "VII. Edward",
   "dogum_tarihi": "1841-11-09",
   "vefat_tarihi": "1910-05-06",
@@ -136,34 +164,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Krizantem Nişanı, Kara Kartal Nişanı. Görev: Galler Prensi, Hindistan imparatoru",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Maria Montessori",
-  "dogum_tarihi": "1870-08-31",
-  "vefat_tarihi": "1952-05-06",
-  "vefat_yasi": 81,
-  "dogum_yeri": "Chiaravalle",
-  "vefat_yeri": "Noordwijk",
-  "defin_yeri": "Noordwijk",
-  "defin_il": null,
-  "defin_ulke": "Hollanda",
-  "wikidata_id": "Q131117",
-  "sitelink": 108,
-  "fotograf": {
-   "dosya": "Maria Montessori (portrait).jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Montessori_%28portrait%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Maria_Montessori_%28portrait%29.jpg"
-  },
-  "meslek": [
-   "Deneme yazarı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Aday olduğu ödül: Nobel Barış Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -219,7 +219,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: tabii senatörlük, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "neden_onemli": "Ödül: Büyük Katolik Isabel Nişanı. Görev: İtalya Başbakanı, tabii senatörlük",
   "hassas": false,
   "turk": false
  },

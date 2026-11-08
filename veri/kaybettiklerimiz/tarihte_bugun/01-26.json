@@ -28,6 +28,34 @@
   "turk": true
  },
  {
+  "ad": "Kobe Bryant",
+  "dogum_tarihi": "1978-08-23",
+  "vefat_tarihi": "2020-01-26",
+  "vefat_yasi": 41,
+  "dogum_yeri": "Philadelphia",
+  "vefat_yeri": "Calabasas",
+  "defin_yeri": "Pacific View Memorial Park",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q25369",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "KBryant8.jpg",
+   "lisans": "Public domain",
+   "yazar": "Kobe_Bryant_8.jpg: *Kobe_Bryant_7144.jpg: Sgt. Joseph A. Lee derivative work: JoeJohnson2 (talk) derivative work: JoeJohnson2 (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KBryant8.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:KBryant8.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: NBA En Değerli Oyuncu Ödülü, Bill Russell NBA Finalleri En Değerli Oyuncu Ödülü. Aday olduğu ödül: En İyi Kısa Animasyon Filmi Akademi Ödülü, Laureus Yılın Erkek Sporcuları Listesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Edward Jenner",
   "dogum_tarihi": "1749-05-17",
   "vefat_tarihi": "1823-01-26",
@@ -52,34 +80,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “çiçek aşısı”, “aşılama”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Kobe Bryant",
-  "dogum_tarihi": "1978-08-23",
-  "vefat_tarihi": "2020-01-26",
-  "vefat_yasi": 41,
-  "dogum_yeri": "Philadelphia",
-  "vefat_yeri": "Calabasas",
-  "defin_yeri": "Pacific View Memorial Park",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q25369",
-  "sitelink": 114,
-  "fotograf": {
-   "dosya": "KBryant8.jpg",
-   "lisans": "Public domain",
-   "yazar": "Kobe_Bryant_8.jpg: *Kobe_Bryant_7144.jpg: Sgt. Joseph A. Lee derivative work: JoeJohnson2 (talk) derivative work: JoeJohnson2 (talk)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KBryant8.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:KBryant8.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: NBA En Değerli Oyuncu Ödülü, Bill Russell NBA Finalleri En Değerli Oyuncu Ödülü. Aday olduğu ödül: En İyi Kısa Animasyon Filmi Akademi Ödülü, Laureus Yılın Erkek Sporcuları Listesi",
   "hassas": false,
   "turk": false
  },
@@ -135,17 +135,17 @@
   "turk": false
  },
  {
-  "ad": "Q191305",
+  "ad": "Gérard de Nerval",
   "dogum_tarihi": "1808-05-22",
   "vefat_tarihi": "1855-01-26",
   "vefat_yasi": 46,
   "dogum_yeri": "Paris",
-  "vefat_yeri": "Paris",
+  "vefat_yeri": "former 7th arrondissement of Paris",
   "defin_yeri": "Père Lachaise Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q191305",
-  "sitelink": 72,
+  "sitelink": 73,
   "fotograf": {
    "dosya": "Félix Nadar 1820-1910 portraits Gérard de Nerval.jpg",
    "lisans": "Public domain",

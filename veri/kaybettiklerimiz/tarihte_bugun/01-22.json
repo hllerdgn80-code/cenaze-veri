@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi vekili",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi vekili, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9439",
-  "sitelink": 176,
+  "sitelink": 177,
   "fotograf": {
    "dosya": "Queen Victoria by Bassano.jpg",
    "lisans": "Public domain",
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9640",
-  "sitelink": 175,
+  "sitelink": 176,
   "fotograf": {
    "dosya": "Lyndon B. Johnson, photo portrait, leaning on chair, color cropped.jpg",
    "lisans": "Public domain",
@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Gümüş Yıldız, II. Dünya Savaşı Zafer Madalyası. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
+  "neden_onemli": "Ödül: II. Dünya Savaşı Zafer Madalyası, Gümüş Yıldız. Görev: Amerika Birleşik Devletleri Başkanı, Amerika Birleşik Devletleri Başkan Yardımcısı",
   "hassas": false,
   "turk": false
  },
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1409",
-  "sitelink": 130,
+  "sitelink": 131,
   "fotograf": {
    "dosya": "Portrait Head of Caligula - Getty Museum (72.AA.155).jpg",
    "lisans": "CC0",
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -164,7 +164,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Hain Döngüsü”, “Dünyaya Orman Denir”, “Mülksüzler”",
+  "neden_onemli": "Önemli eserleri: “Dünyaya Orman Denir”, “Hain Döngüsü”, “Mülksüzler”",
   "hassas": false,
   "turk": false
  },
@@ -302,7 +302,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
   "hassas": false,
   "turk": false
  },

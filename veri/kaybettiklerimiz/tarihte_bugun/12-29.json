@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "Brezilya",
   "wikidata_id": "Q12897",
-  "sitelink": 183,
+  "sitelink": 185,
   "fotograf": {
    "dosya": "Pele con brasil (cropped).jpg",
    "lisans": "Public domain",
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q76483",
-  "sitelink": 134,
+  "sitelink": 135,
   "fotograf": {
    "dosya": "Rainer Maria Rilke 1900.jpg",
    "lisans": "Public domain",
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Orpheus Soneleri (Orpheus'a Soneler)”, “Malte Laurids Brigge'nin Notları”, “Duino Ağıtları”",
+  "neden_onemli": "Önemli eserleri: “Duino Ağıtları”, “Orpheus Soneleri (Orpheus'a Soneler)”, “Malte Laurids Brigge'nin Notları”",
   "hassas": false,
   "turk": false
  },
@@ -140,6 +140,34 @@
   "turk": false
  },
  {
+  "ad": "Carl Spitteler",
+  "dogum_tarihi": "1845-04-24",
+  "vefat_tarihi": "1924-12-29",
+  "vefat_yasi": 79,
+  "dogum_yeri": "Liestal",
+  "vefat_yeri": "Lucerne",
+  "defin_yeri": "Friedhof Friedental",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q226525",
+  "sitelink": 96,
+  "fotograf": {
+   "dosya": "Carl Spitteler 1919.jpg",
+   "lisans": "Public domain",
+   "yazar": "A. B. Lagrelius & Westphal, Stockholm",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Spitteler_1919.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Spitteler_1919.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Harold Macmillan",
   "dogum_tarihi": "1894-02-10",
   "vefat_tarihi": "1986-12-29",
@@ -164,34 +192,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Liyakat Nişanı, Büyük Katolik Isabel Nişanı. Görev: Birleşik Krallık Başbakanı, Hazine Bakanı",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Carl Spitteler",
-  "dogum_tarihi": "1845-04-24",
-  "vefat_tarihi": "1924-12-29",
-  "vefat_yasi": 79,
-  "dogum_yeri": "Liestal",
-  "vefat_yeri": "Lucerne",
-  "defin_yeri": "Friedhof Friedental",
-  "defin_il": null,
-  "defin_ulke": "İsviçre",
-  "wikidata_id": "Q226525",
-  "sitelink": 95,
-  "fotograf": {
-   "dosya": "Carl Spitteler 1919.jpg",
-   "lisans": "Public domain",
-   "yazar": "A. B. Lagrelius & Westphal, Stockholm",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl_Spitteler_1919.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Carl_Spitteler_1919.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
   "hassas": false,
   "turk": false
  },

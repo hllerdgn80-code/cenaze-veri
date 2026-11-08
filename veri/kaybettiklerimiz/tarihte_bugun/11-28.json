@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q8753",
-  "sitelink": 171,
+  "sitelink": 172,
   "fotograf": {
    "dosya": "Enrico Fermi 1943-49.jpg",
    "lisans": "Public domain",
@@ -108,7 +108,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Uykulu Kuytu Menkıbesi”, “Jonathan Oldstyle'ın Mektupları”, “Geoffrye Crayon'un Skeçler Kitabı”. Görev: büyükelçi",
+  "neden_onemli": "Önemli eserleri: “Uykulu Kuytu Menkıbesi”, “Jonathan Oldstyle'ın Mektupları”, “Rip Van Winkle”. Görev: büyükelçi",
   "hassas": false,
   "turk": false
  },
@@ -136,7 +136,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Gizli Yediler”, “Afacan Beşler”",
+  "neden_onemli": "Önemli eserleri: “Afacan Beşler”, “Gizli Yediler”",
   "hassas": false,
   "turk": false
  },
@@ -164,7 +164,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Sant'Andrea al Quirinale Kilisesi”, “San Pietro Meydanı”, “Azize Teresa'nın Vecdi”",
+  "neden_onemli": "Önemli eserleri: “Sant'Andrea al Quirinale Kilisesi”, “Azize Teresa'nın Vecdi”, “San Pietro Meydanı”",
   "hassas": false,
   "turk": false
  },
@@ -263,7 +263,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q185105",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Photo of Fernand Braudel on The Identity of France dustjacket.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jerry Bauer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_Fernand_Braudel_on_The_Identity_of_France_dustjacket.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_Fernand_Braudel_on_The_Identity_of_France_dustjacket.jpg"
+  },
   "meslek": [
    "Tarihçi"
   ],

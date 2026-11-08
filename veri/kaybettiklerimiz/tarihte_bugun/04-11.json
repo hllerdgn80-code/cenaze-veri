@@ -10,16 +10,44 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q462737",
-  "sitelink": 18,
+  "sitelink": 17,
   "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Doğru Yol Partisi Genel Başkanı",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi Başkanı, Demokrat Parti Genel Başkanı",
   "hassas": false,
   "turk": true
+ },
+ {
+  "ad": "Bob Marley",
+  "dogum_tarihi": "1945-02-06",
+  "vefat_tarihi": "1981-05-11",
+  "vefat_yasi": 36,
+  "dogum_yeri": "Nine Mile",
+  "vefat_yeri": "Jackson Memorial Hospital",
+  "defin_yeri": "Nine Mile",
+  "defin_il": null,
+  "defin_ulke": "Jamaika",
+  "wikidata_id": "Q409",
+  "sitelink": 165,
+  "fotograf": {
+   "dosya": "Bob Marley (1976).jpg",
+   "lisans": "Public domain",
+   "yazar": "Dennis Morris; Distributed by Island Records",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob_Marley_%281976%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bob_Marley_%281976%29.jpg"
+  },
+  "meslek": [
+   "Şarkıcı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame",
+  "hassas": false,
+  "turk": false
  },
  {
   "ad": "Kurt Vonnegut",
@@ -32,7 +60,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q49074",
-  "sitelink": 121,
+  "sitelink": 122,
   "fotograf": {
    "dosya": "Kurt Vonnegut by Bernard Gotfryd (1965).jpg",
    "lisans": "Public domain",
@@ -45,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü, Mor Kalp. Önemli eserleri: “Şampiyonların Kahvaltısı”, “Mezbaha No. 5”, “Kedi Beşiği”",
+  "neden_onemli": "Ödül: Mor Kalp, En İyi Dramatik Sunum Hugo Ödülü. Önemli eserleri: “Şampiyonların Kahvaltısı”, “Mezbaha No. 5”, “Kedi Beşiği”",
   "hassas": false,
   "turk": false
  },
@@ -298,34 +326,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Kimya Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Otto Wagner",
-  "dogum_tarihi": "1841-07-13",
-  "vefat_tarihi": "1918-04-11",
-  "vefat_yasi": 76,
-  "dogum_yeri": "Penzing",
-  "vefat_yeri": "Viyana",
-  "defin_yeri": "Otto Wagner's grave",
-  "defin_il": null,
-  "defin_ulke": "Avusturya",
-  "wikidata_id": "Q84287",
-  "sitelink": 53,
-  "fotograf": {
-   "dosya": "Otto Wagner (1841–1918).jpg",
-   "lisans": "Public domain",
-   "yazar": "=Unknown authorUnknown author (The photographer is unknown and not mentioned in the source.)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_Wagner_%281841%E2%80%931918%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Otto_Wagner_%281841%E2%80%931918%29.jpg"
-  },
-  "meslek": [
-   "Mimar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Franz Joseph nişanı. Önemli eserleri: “Avusturya Posta Tasarruf Bankası”",
   "hassas": false,
   "turk": false
  }

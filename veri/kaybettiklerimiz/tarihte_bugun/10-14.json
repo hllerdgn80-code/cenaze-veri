@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -39,13 +39,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q72984",
   "sitelink": 123,
-  "fotograf": {
-   "dosya": "Bing Crosby Paramount Pictures.jpg",
-   "lisans": "Public domain",
-   "yazar": "AnonymousUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bing_Crosby_Paramount_Pictures.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bing_Crosby_Paramount_Pictures.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şarkıcı"
   ],
@@ -67,19 +61,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q14060",
   "sitelink": 113,
-  "fotograf": {
-   "dosya": "Bundesarchiv Bild 183-J16362, Erwin Rommel.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Winkelmann",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-J16362%2C_Erwin_Rommel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-J16362%2C_Erwin_Rommel.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Subay"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Sudetenland Madalyası, Demir Haç'a Toka Eklentisi",
+  "neden_onemli": "Ödül: Memel Madalyası, Sudetenland Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -95,13 +83,7 @@
   "defin_ulke": "Tanzanya",
   "wikidata_id": "Q186525",
   "sitelink": 90,
-  "fotograf": {
-   "dosya": "President Nyerere van Tanzania, koppen, Bestanddeelnr 928-2879 (cropped).jpg",
-   "lisans": "CC0",
-   "yazar": "Rob Mieremet / Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Nyerere_van_Tanzania%2C_koppen%2C_Bestanddeelnr_928-2879_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:President_Nyerere_van_Tanzania%2C_koppen%2C_Bestanddeelnr_928-2879_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -123,19 +105,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q152505",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "Leonard Bernstein by Jack Mitchell (high quality).jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Jack Mitchell",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonard_Bernstein_by_Jack_Mitchell_%28high_quality%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Leonard_Bernstein_by_Jack_Mitchell_%28high_quality%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Müzikal Tony Ödülü, Grammy Yaşam Boyu Başarı Ödülü. Görev: doçent",
+  "neden_onemli": "Ödül: En İyi Müzikal Tony Ödülü, Kennedy Center Onur Ödülleri. Görev: doçent",
   "hassas": false,
   "turk": false
  },
@@ -151,13 +127,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q101740",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "Benoit Mandelbrot mg 1804-d.jpg",
-   "lisans": "CC BY-SA 2.0 fr",
-   "yazar": "Rama",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Benoit_Mandelbrot_mg_1804-d.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Benoit_Mandelbrot_mg_1804-d.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -172,20 +142,14 @@
   "dogum_tarihi": "1909-06-20",
   "vefat_tarihi": "1959-10-14",
   "vefat_yasi": 50,
-  "dogum_yeri": "Battery Point",
+  "dogum_yeri": "Queen Alexandra Hospital",
   "vefat_yeri": "Vancouver",
   "defin_yeri": "Forest Lawn Memorial Park (Glendale)",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q93188",
   "sitelink": 78,
-  "fotograf": {
-   "dosya": "Errol Flynn1.jpg",
-   "lisans": "Public domain",
-   "yazar": "User Roisterer on en.wikipedia",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Errol_Flynn1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Errol_Flynn1.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],

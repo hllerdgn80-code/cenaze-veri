@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı, Ermeni SSC Halk Sanatçısı",
+  "neden_onemli": "Ödül: Ermeni SSC Halk Sanatçısı, Lenin Nişanı",
   "hassas": false,
   "turk": true
  },
@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9960",
-  "sitelink": 304,
+  "sitelink": 306,
   "fotograf": {
    "dosya": "Ronald Reagan 1981 presidential portrait.jpg",
    "lisans": "Public domain",
@@ -80,7 +80,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Krizantem Nişanı, Kongre Altın Madalyası. Önemli eserleri: “Tear down this wall!”",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası, Krizantem Nişanı. Önemli eserleri: “Tear down this wall!”",
   "hassas": false,
   "turk": false
  },
@@ -147,7 +147,7 @@
   "vefat_tarihi": "2005-06-06",
   "vefat_yasi": 73,
   "dogum_yeri": "Bronx",
-  "vefat_yeri": "New York",
+  "vefat_yeri": "Manhattan",
   "defin_yeri": "Kensico Mezarlığı",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -171,7 +171,7 @@
  },
  {
   "ad": "Carl Maria Friedrich Ernst von Weber",
-  "dogum_tarihi": "1786-11-18",
+  "dogum_tarihi": "1786-12-18",
   "vefat_tarihi": "1826-06-05",
   "vefat_yasi": 39,
   "dogum_yeri": "Eutin",
@@ -189,7 +189,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
   },
   "meslek": [
-   "Besteci"
+   "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -292,7 +292,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q216129",
-  "sitelink": 55,
+  "sitelink": 56,
   "fotograf": {
    "dosya": "Herbert Kitchener 1914.jpg",
    "lisans": "Public domain",

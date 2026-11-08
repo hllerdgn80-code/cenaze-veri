@@ -117,7 +117,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q70326",
   "sitelink": 96,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pierre-Augustin Caron de Beaumarchais par Jean-Marc Nattier.jpg",
+   "lisans": "Public domain",
+   "yazar": "JackyM59",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Augustin_Caron_de_Beaumarchais_par_Jean-Marc_Nattier.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre-Augustin_Caron_de_Beaumarchais_par_Jean-Marc_Nattier.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -139,7 +145,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q154232",
   "sitelink": 90,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Alexander Wassiljewitsch Suworow Petersburg Eremitag.JPG",
+   "lisans": "Public domain",
+   "yazar": "Nicolas Sébastien Frosté",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Wassiljewitsch_Suworow_Petersburg_Eremitag.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alexander_Wassiljewitsch_Suworow_Petersburg_Eremitag.JPG"
+  },
   "meslek": [
    "Askeri lider"
   ],
@@ -162,13 +174,19 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q172383",
   "sitelink": 82,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Meister der Reichenauer Schule 002 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Meister der Reichenauer Schule",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meister_der_Reichenauer_Schule_002_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Meister_der_Reichenauer_Schule_002_%28cropped%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: başrahip, Papa",
+  "neden_onemli": "Görev: başrahip, Reims Roma Katolik başpiskoposu",
   "hassas": false,
   "turk": false
  },
@@ -184,7 +202,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q189006",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Charles Laveran nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Laveran.jpg: Eugène Pirou (1841–1909) derivative work: Materialscientist (talk)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Laveran_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_Laveran_nobel.jpg"
+  },
   "meslek": [
    "Doktor"
   ],
@@ -206,7 +230,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q207356",
   "sitelink": 73,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "William Saroyan.jpg",
+   "lisans": "Public domain",
+   "yazar": "Al Aumuller, World-Telegram staff photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Saroyan.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Saroyan.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -229,11 +259,17 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q227970",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sergius IV (Saint Paul Outside the Walls).png",
+   "lisans": "Public domain",
+   "yazar": "Cesare Mariani",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergius_IV_%28Saint_Paul_Outside_the_Walls%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sergius_IV_%28Saint_Paul_Outside_the_Walls%29.png"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: Diosezan piskopos, kardinal",
   "hassas": false,
   "turk": false
  },
@@ -249,7 +285,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q187224",
   "sitelink": 67,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pierre-Gilles de Gennes.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Dominique Morisseau Laboratoire de Physique et d'Etude des Matériaux (LPEM) ESPCI Paris 10 rue Vauquelin 75005 Paris, France",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Gilles_de_Gennes.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre-Gilles_de_Gennes.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -271,7 +313,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q270935",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "ChrisCornell2013.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Matthew Straubmuller",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ChrisCornell2013.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ChrisCornell2013.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],

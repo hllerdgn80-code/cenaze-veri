@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Hazine ve Maliye Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Hazine ve Maliye Bakanı",
   "hassas": false,
   "turk": true
  },
@@ -89,13 +89,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q42443",
   "sitelink": 161,
-  "fotograf": {
-   "dosya": "Anatole France young years.jpg",
-   "lisans": "Public domain",
-   "yazar": "Photographer : Wilhelm Benque. Tucker Collection",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anatole_France_young_years.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Anatole_France_young_years.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -117,13 +111,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q165557",
   "sitelink": 103,
-  "fotograf": {
-   "dosya": "Robert Edward Lee.jpg",
-   "lisans": "Public domain",
-   "yazar": "Julian Vannerson",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Edward_Lee.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Edward_Lee.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Asker"
   ],
@@ -145,19 +133,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q45575",
   "sitelink": 93,
-  "fotograf": {
-   "dosya": "Dennis Ritchie 2011.jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Denise Panyik-Dale",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dennis_Ritchie_2011.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Dennis_Ritchie_2011.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Japonya Ödülü, Turing Ödülü. Önemli eserleri: “Plan 9 (işletim sistemi)”, “B (programlama dili)”, “BCPL”",
+  "neden_onemli": "Ödül: Japonya Ödülü, Turing Ödülü. Önemli eserleri: “Plan 9 (işletim sistemi)”, “BCPL”, “B (programlama dili)”",
   "hassas": false,
   "turk": false
  },
@@ -173,13 +155,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q157155",
   "sitelink": 82,
-  "fotograf": {
-   "dosya": "Ernest Renan 1876-84.jpg",
-   "lisans": "Public domain",
-   "yazar": "Antoine Samuel Adam-Salomon",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ernest_Renan_1876-84.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ernest_Renan_1876-84.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -200,44 +176,10 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q182455",
-  "sitelink": 71,
-  "fotograf": {
-   "dosya": "Wilt Chamberlain3.jpg",
-   "lisans": "Public domain",
-   "yazar": "Wilt_Chamberlain2.jpg: Fred Palumbo, World Telegram staff photographer derivative work: JoeJohnson2 (talk)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilt_Chamberlain3.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain3.jpg"
-  },
+  "sitelink": 72,
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Philippe de France",
-  "dogum_tarihi": "1245-04-10",
-  "vefat_tarihi": "1285-10-12",
-  "vefat_yasi": 40,
-  "dogum_yeri": "Poissy Kalesi",
-  "vefat_yeri": "Perpignan",
-  "defin_yeri": "Saint-Denis Bazilikası",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q172203",
-  "sitelink": 69,
-  "fotograf": {
-   "dosya": "Couronnement de Philippe III.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Couronnement_de_Philippe_III.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Couronnement_de_Philippe_III.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -257,20 +199,36 @@
   "defin_il": null,
   "defin_ulke": "Japonya",
   "wikidata_id": "Q200798",
-  "sitelink": 68,
-  "fotograf": {
-   "dosya": "Memorial Portrait of Hiroshige, by Kunisada.jpg",
-   "lisans": "CC0",
-   "yazar": "Utagawa Kunisada",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Memorial_Portrait_of_Hiroshige%2C_by_Kunisada.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Memorial_Portrait_of_Hiroshige%2C_by_Kunisada.jpg"
-  },
+  "sitelink": 69,
+  "fotograf": null,
   "meslek": [
    "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “36 Fuji Dağı Manzarası”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Philippe de France",
+  "dogum_tarihi": "1245-04-10",
+  "vefat_tarihi": "1285-10-12",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Poissy Kalesi",
+  "vefat_yeri": "Perpignan",
+  "defin_yeri": "Saint-Denis Bazilikası",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q172203",
+  "sitelink": 69,
+  "fotograf": null,
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -286,13 +244,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q187519",
   "sitelink": 67,
-  "fotograf": {
-   "dosya": "Rouget - Charles III of France.jpg",
-   "lisans": "Public domain",
-   "yazar": "Georges Rouget",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rouget_-_Charles_III_of_France.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Rouget_-_Charles_III_of_France.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Hükümdar"
   ],
@@ -314,13 +266,7 @@
   "defin_ulke": "Çekya",
   "wikidata_id": "Q150862",
   "sitelink": 66,
-  "fotograf": {
-   "dosya": "Nicolas Neufchâtel 002.jpg",
-   "lisans": "Public domain",
-   "yazar": "Workshop of Nicolas Neufchatel",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Neufch%C3%A2tel_002.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Nicolas_Neufch%C3%A2tel_002.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,

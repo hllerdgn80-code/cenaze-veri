@@ -51,7 +51,7 @@
   "turk": true
  },
  {
-  "ad": "Arnold J. Toynbee",
+  "ad": "Arnold Joseph Toynbee",
   "dogum_tarihi": "1889-04-14",
   "vefat_tarihi": "1975-10-22",
   "vefat_yasi": 86,
@@ -75,6 +75,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: İngiliz Akademisi bursu. Aday olduğu ödül: Nobel Edebiyat Ödülü",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Yasuo Fukuda",
+  "dogum_tarihi": "1936-07-16",
+  "vefat_tarihi": "2026-10-22",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Setagaya-ku",
+  "vefat_yeri": "Tokyo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q101137",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Yasuo Fukuda 200709.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "内閣官房内閣広報室",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yasuo_Fukuda_200709.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Yasuo_Fukuda_200709.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: Japonya Başbakanı",
   "hassas": false,
   "turk": false
  },
@@ -117,13 +145,13 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q190697",
-  "sitelink": 71,
+  "sitelink": 72,
   "fotograf": {
-   "dosya": "COHEN TANNOUDJI Claude-24x30-1999.jpg",
-   "lisans": "CC BY 3.0",
-   "yazar": "Studio Harcourt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/COHEN_TANNOUDJI_Claude-24x30-1999.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:COHEN_TANNOUDJI_Claude-24x30-1999.jpg"
+   "dosya": "Claude Cohen-Tannoudji (cropped).JPG",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Amir Bernat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Cohen-Tannoudji_%28cropped%29.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Claude_Cohen-Tannoudji_%28cropped%29.JPG"
   },
   "meslek": [
    "Fizikçi"
@@ -294,34 +322,6 @@
   },
   "meslek": [
    "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "I. Fernando",
-  "dogum_tarihi": "1345-10-31",
-  "vefat_tarihi": "1383-10-22",
-  "vefat_yasi": 37,
-  "dogum_yeri": "Santarém",
-  "vefat_yeri": "Lizbon",
-  "defin_yeri": "Carmo Rahibe Manastırı",
-  "defin_il": null,
-  "defin_ulke": "Portekiz",
-  "wikidata_id": "Q108442",
-  "sitelink": 49,
-  "fotograf": {
-   "dosya": "Ferdinand I of Portugal - Chronique d' Angleterre (Volume III) (late 15th C), f.201v - BL Royal MS 14 E IV (cropped).png",
-   "lisans": "Public domain",
-   "yazar": "Jean de Wavrin; Seignur de Forestel",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand_I_of_Portugal_-_Chronique_d%27_Angleterre_%28Volume_III%29_%28late_15th_C%29%2C_f.201v_-_BL_Royal_MS_14_E_IV_%28cropped%29.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ferdinand_I_of_Portugal_-_Chronique_d%27_Angleterre_%28Volume_III%29_%28late_15th_C%29%2C_f.201v_-_BL_Royal_MS_14_E_IV_%28cropped%29.png"
-  },
-  "meslek": [
-   "Hükümdar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

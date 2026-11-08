@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Enerji ve Tabii Kaynaklar Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Enerji ve Tabii Kaynaklar Bakanı",
   "hassas": false,
   "turk": true
  },
@@ -119,13 +119,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q16867",
   "sitelink": 225,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Edgar Allan Poe, circa 1849, restored, squared off.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author; Restored by Yann Forget and Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe%2C_circa_1849%2C_restored%2C_squared_off.jpg"
+  },
   "meslek": [
    "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Kuyu ve Sarkaç”, “Çalınan Mektup”, “William Wilson”. Görev: genel yayın yönetmeni",
+  "neden_onemli": "Önemli eserleri: “Çalınan Mektup”, “Gammaz Yürek”, “William Wilson”. Görev: genel yayın yönetmeni",
   "hassas": false,
   "turk": false
  },
@@ -141,7 +147,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q131240",
   "sitelink": 95,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anna Politkovskaja im Gespräch mit Christhard Läpple.jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "Blaues Sofa",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna_Politkovskaja_im_Gespr%C3%A4ch_mit_Christhard_L%C3%A4pple.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anna_Politkovskaja_im_Gespr%C3%A4ch_mit_Christhard_L%C3%A4pple.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -167,7 +179,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q312967",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Guru Gobind Singh.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guru_Gobind_Singh.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Guru_Gobind_Singh.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -189,7 +207,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q19045",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Mario Molina 1c389 8387.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Janwikifoto",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Molina_1c389_8387.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mario_Molina_1c389_8387.jpg"
+  },
   "meslek": [
    "Kimyager"
   ],
@@ -211,7 +235,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q319829",
   "sitelink": 63,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Holmes photo 1910.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer unidentified / Notman Photo Co.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Holmes_photo_1910.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Holmes_photo_1910.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -233,7 +263,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q272224",
   "sitelink": 62,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Norman Angell 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Grantham Bain Collection (Library of Congress)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Norman_Angell_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Norman_Angell_01.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -256,13 +292,19 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q191039",
   "sitelink": 61,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "(Toulouse) Portrait de Germanicus - Musée Saint-Raymond Ra 342 c.jpg",
+   "lisans": "Public domain",
+   "yazar": "Didier Descouens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Toulouse%29_Portrait_de_Germanicus_-_Mus%C3%A9e_Saint-Raymond_Ra_342_c.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%28Toulouse%29_Portrait_de_Germanicus_-_Mus%C3%A9e_Saint-Raymond_Ra_342_c.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Roma zaferi. Görev: Romalı konsül, quaestor",
+  "neden_onemli": "Ödül: Roma zaferi. Görev: quaestor, Romalı konsül",
   "hassas": false,
   "turk": false
  },
@@ -278,7 +320,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q81218",
   "sitelink": 60,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John Gurdon Cambridge 2012.JPG",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Deryck Chan, courtesy to cameraman Sien Yi Tan.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Gurdon_Cambridge_2012.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Gurdon_Cambridge_2012.JPG"
+  },
   "meslek": [
    "Doktor"
   ],

@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Mormon Kitabı”, “Çok Değerli İnci”, “Öğreti ve Antlaşmalar Kitabı”",
+  "neden_onemli": "Önemli eserleri: “Öğreti ve Antlaşmalar Kitabı”, “Çok Değerli İnci”, “Mormon Kitabı”",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -55,7 +55,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Misopogon”. Görev: Pontifex Maximus, Romalı konsül",
+  "neden_onemli": "Önemli eserleri: “Misopogon”. Görev: kayser, Augustus",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -170,7 +170,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İtalya Cumhuriyeti Liyakat Nişanı, Bambi Ödülleri",
+  "neden_onemli": "Ödül: Bambi Ödülleri, İtalya Cumhuriyeti Liyakat Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -260,6 +260,34 @@
   "turk": false
  },
  {
+  "ad": "A. J. Ayer",
+  "dogum_tarihi": "1910-10-29",
+  "vefat_tarihi": "1989-07-26",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Londra",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q243757",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Alfred Jules Ayer.png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Jules_Ayer.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfred_Jules_Ayer.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İngiliz Akademisi bursu",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Ranjit Singh",
   "dogum_tarihi": "1780-11-13",
   "vefat_tarihi": "1839-06-27",
@@ -284,34 +312,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Mihrace",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "A. J. Ayer",
-  "dogum_tarihi": "1910-10-29",
-  "vefat_tarihi": "1989-07-26",
-  "vefat_yasi": 78,
-  "dogum_yeri": "Londra",
-  "vefat_yeri": "Londra",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q243757",
-  "sitelink": 57,
-  "fotograf": {
-   "dosya": "Alfred Jules Ayer.png",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Jules_Ayer.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Alfred_Jules_Ayer.png"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İngiliz Akademisi bursu",
   "hassas": false,
   "turk": false
  },

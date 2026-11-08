@@ -22,34 +22,6 @@
   "turk": true
  },
  {
-  "ad": "Franz Kafka",
-  "dogum_tarihi": "1883-07-03",
-  "vefat_tarihi": "1924-06-03",
-  "vefat_yasi": 40,
-  "dogum_yeri": "Prag",
-  "vefat_yeri": "Kafka Sterbehaus",
-  "defin_yeri": "New Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Çekya",
-  "wikidata_id": "Q905",
-  "sitelink": 242,
-  "fotograf": {
-   "dosya": "Franz Kafka, 1923.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Kafka%2C_1923.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%2C_1923.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Şato”, “Dönüşüm”, “Kanun Önünde”",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Jim Morrison",
   "dogum_tarihi": "1943-12-08",
   "vefat_tarihi": "1971-07-03",
@@ -101,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genel başkan",
+  "neden_onemli": "Ödül: 5. Derece, Mecidiye Nişanı. Görev: genel başkan",
   "hassas": false,
   "turk": false
  },
@@ -227,7 +199,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q110930",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Robert Curl crop 2009 CHAO.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Douglas A. Lockard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Curl_crop_2009_CHAO.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_Curl_crop_2009_CHAO.jpg"
+  },
   "meslek": [
    "Kimyager"
   ],
@@ -249,7 +227,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q204943",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Brian-Jones-1965 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Olavi Kaskisuo / Lehtikuva",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian-Jones-1965_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Brian-Jones-1965_%28cropped%29.jpg"
+  },
   "meslek": [
    "Gitarist"
   ],
@@ -271,13 +255,19 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q312474",
   "sitelink": 51,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Andrian Nikolaev atwedding.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "RIA Novosti",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrian_Nikolaev_atwedding.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrian_Nikolaev_atwedding.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası",
+  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Kızıl Bayrak İşçi Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -300,6 +290,28 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: Arjantin devlet başkanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "André Citroën",
+  "dogum_tarihi": "1878-02-05",
+  "vefat_tarihi": "1935-07-03",
+  "vefat_yasi": 57,
+  "dogum_yeri": "9. arrondissement",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Montparnasse Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q219842",
+  "sitelink": 49,
+  "fotograf": null,
+  "meslek": [
+   "Mühendis"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: başkan, kurucu",
   "hassas": false,
   "turk": false
  }

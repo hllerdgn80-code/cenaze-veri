@@ -95,6 +95,34 @@
   "turk": true
  },
  {
+  "ad": "Mihail Bakunin",
+  "dogum_tarihi": "1814-05-30",
+  "vefat_tarihi": "1876-06-13",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Priamukhino",
+  "vefat_yeri": "Bern",
+  "defin_yeri": "Bremgarten cemetery",
+  "defin_il": null,
+  "defin_ulke": "İsviçre",
+  "wikidata_id": "Q27645",
+  "sitelink": 142,
+  "fotograf": {
+   "dosya": "Bakunin Nadar.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nadar",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakunin_Nadar.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bakunin_Nadar.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tanrı ve Devlet”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Pumpuang Duangjan",
   "dogum_tarihi": "1961-08-04",
   "vefat_tarihi": "1992-06-13",
@@ -156,7 +184,7 @@
   "vefat_tarihi": "1886-06-13",
   "vefat_yasi": 40,
   "dogum_yeri": "Nymphenburg Sarayı",
-  "vefat_yeri": "Lake Starnberg",
+  "vefat_yeri": "Starnberg Gölü",
   "defin_yeri": "St. Michael's Church, Munich",
   "defin_il": null,
   "defin_ulke": "Almanya",
@@ -285,34 +313,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “İnsanlığımı Yitirirken”, “Batan Güneş”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Georg von Békésy",
-  "dogum_tarihi": "1899-06-03",
-  "vefat_tarihi": "1972-06-13",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Budapeşte",
-  "vefat_yeri": "Honolulu",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q238716",
-  "sitelink": 60,
-  "fotograf": {
-   "dosya": "Georg von Békésy nobel.jpg",
-   "lisans": "Public domain",
-   "yazar": "The Nobel Foundation",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georg_von_B%C3%A9k%C3%A9sy_nobel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Georg_von_B%C3%A9k%C3%A9sy_nobel.jpg"
-  },
-  "meslek": [
-   "Fizikçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

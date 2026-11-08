@@ -26,13 +26,13 @@
   "dogum_tarihi": "1856-07-10",
   "vefat_tarihi": "1943-01-07",
   "vefat_yasi": 86,
-  "dogum_yeri": "Smiljan",
-  "vefat_yeri": "New York",
+  "dogum_yeri": "Nikola Tesla Memorial Center",
+  "vefat_yeri": "New Yorker Hotel",
   "defin_yeri": "Nikola Tesla Müzesi",
   "defin_il": null,
   "defin_ulke": "Sırbistan",
   "wikidata_id": "Q9036",
-  "sitelink": 219,
+  "sitelink": 221,
   "fotograf": {
    "dosya": "Tesla circa 1890.jpeg",
    "lisans": "Public domain",
@@ -222,7 +222,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q310002",
-  "sitelink": 70,
+  "sitelink": 72,
   "fotograf": {
    "dosya": "François de Salignac de la Mothe-Fénelon.PNG",
    "lisans": "Public domain",
@@ -319,7 +319,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Büyük Polonia Restituta Nişanı. Görev: Portekiz Başbakanı, Portekiz Cumhurbaşkanı",
+  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Büyük Polonia Restituta Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, Portekiz Cumhurbaşkanı",
   "hassas": false,
   "turk": false
  }

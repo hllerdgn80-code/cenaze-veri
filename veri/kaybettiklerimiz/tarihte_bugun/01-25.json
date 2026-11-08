@@ -66,11 +66,11 @@
   "wikidata_id": "Q47434",
   "sitelink": 99,
   "fotograf": {
-   "dosya": "Edmond Halley 072.jpg",
+   "dosya": "Edmund Halley.jpg",
    "lisans": "Public domain",
-   "yazar": "Richard Phillips",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edmond_Halley_072.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Edmond_Halley_072.jpg"
+   "yazar": "Thomas Murray",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edmund_Halley.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Edmund_Halley.jpg"
   },
   "meslek": [
    "Filozof"
@@ -105,7 +105,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “The Snows of Kilimanjaro”, “The Barefoot Contessa”, “Katiller”",
+  "neden_onemli": "Önemli eserleri: “The Barefoot Contessa”, “The Snows of Kilimanjaro”, “Katiller”",
   "hassas": false,
   "turk": false
  },
@@ -133,7 +133,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Romalı konsül, Roma imparatoru",
+  "neden_onemli": "Görev: Roma imparatoru, Romalı konsül",
   "hassas": false,
   "turk": false
  },
@@ -300,7 +300,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Norveç kralı, Schleswig Dükü",
+  "neden_onemli": "Görev: İsveç Kraliyet Ailesi, Schleswig Dükü",
   "hassas": false,
   "turk": false
  },

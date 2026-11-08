@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q34970",
-  "sitelink": 107,
+  "sitelink": 108,
   "fotograf": {
    "dosya": "D H Lawrence passport photograph.jpg",
    "lisans": "Public domain",
@@ -134,7 +134,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü, En İyi Roman Hugo Ödülü. Önemli eserleri: “Aksın Gözyaşlarım, Dedi Polis”, “Gökteki Göz”, “Karanlığı Taramak”",
+  "neden_onemli": "Ödül: En İyi Dramatik Sunum Hugo Ödülü, En İyi Roman Hugo Ödülü. Önemli eserleri: “Aksın Gözyaşlarım, Dedi Polis”, “Androidler Elektrikli Koyun Düşler Mi?”, “Ubik”",
   "hassas": false,
   "turk": false
  },
@@ -149,7 +149,7 @@
   "defin_il": null,
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q130834",
-  "sitelink": 89,
+  "sitelink": 90,
   "fotograf": {
    "dosya": "Francis II, Holy Roman Emperor by Friedrich von Amerling 003.jpg",
    "lisans": "Public domain",
@@ -162,7 +162,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Post Nişanı, Aziz Andreas Nişanı. Görev: Avusturya İmparatoru, Elektör",
+  "neden_onemli": "Ödül: Altın Post Nişanı, Aziz Andreas Nişanı. Görev: Elektör, Avusturya İmparatoru",
   "hassas": false,
   "turk": false
  },
@@ -171,7 +171,7 @@
   "dogum_tarihi": "1874-05-09",
   "vefat_tarihi": "1939-03-02",
   "vefat_yasi": 64,
-  "dogum_yeri": "Brompton",
+  "dogum_yeri": null,
   "vefat_yeri": "Londra",
   "defin_yeri": "Putney Vale Cemetery",
   "defin_il": null,
@@ -186,6 +186,34 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Howard_carter.jpg"
   },
   "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Berthe Morisot",
+  "dogum_tarihi": "1841-01-14",
+  "vefat_tarihi": "1895-03-02",
+  "vefat_yasi": 54,
+  "dogum_yeri": "Bourges",
+  "vefat_yeri": "Paris",
+  "defin_yeri": "Passy Mezarlığı",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q105320",
+  "sitelink": 81,
+  "fotograf": {
+   "dosya": "Morisot berthe photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morisot_berthe_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Morisot_berthe_photo.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
@@ -213,34 +241,6 @@
   },
   "meslek": [
    "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Berthe Morisot",
-  "dogum_tarihi": "1841-01-14",
-  "vefat_tarihi": "1895-03-02",
-  "vefat_yasi": 54,
-  "dogum_yeri": "Bourges",
-  "vefat_yeri": "Paris",
-  "defin_yeri": "Passy Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q105320",
-  "sitelink": 77,
-  "fotograf": {
-   "dosya": "Morisot berthe photo.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morisot_berthe_photo.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Morisot_berthe_photo.jpg"
-  },
-  "meslek": [
-   "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

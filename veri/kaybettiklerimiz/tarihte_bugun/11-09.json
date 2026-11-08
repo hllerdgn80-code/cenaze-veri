@@ -17,7 +17,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Polonia Restituta Nişanı. Görev: Fransa Cumhurbaşkanı, Fransa Başbakanı",
+  "neden_onemli": "Ödül: Büyük Polonia Restituta Nişanı. Görev: Fransa Cumhurbaşkanı, başkan",
   "hassas": false,
   "turk": false
  },
@@ -117,7 +117,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q133704",
-  "sitelink": 82,
+  "sitelink": 83,
   "fotograf": {
    "dosya": "Simone Martini 040.jpg",
    "lisans": "Public domain",
@@ -161,15 +161,43 @@
   "turk": false
  },
  {
+  "ad": "Dylan Thomas",
+  "dogum_tarihi": "1914-10-27",
+  "vefat_tarihi": "1953-11-09",
+  "vefat_yasi": 39,
+  "dogum_yeri": "Swansea",
+  "vefat_yeri": "New York",
+  "defin_yeri": "Grave of Dylan Thomas",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q191023",
+  "sitelink": 77,
+  "fotograf": {
+   "dosya": "Dylan Thomas icon Blashford 1937.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nora Summers",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dylan_Thomas_icon_Blashford_1937.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dylan_Thomas_icon_Blashford_1937.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Ramsay MacDonald",
   "dogum_tarihi": "1866-10-12",
   "vefat_tarihi": "1937-11-09",
   "vefat_yasi": 71,
   "dogum_yeri": "Lossiemouth",
   "vefat_yeri": "Atlas Okyanusu",
-  "defin_yeri": null,
+  "defin_yeri": "İskoçya",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q166646",
   "sitelink": 77,
   "fotograf": {
@@ -184,7 +212,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, İngiltere Dışişleri Bakanı",
+  "neden_onemli": "Ödül: Royal Society Üyesi. Görev: Birleşik Krallık Başbakanı, Muhalefet Lideri",
   "hassas": false,
   "turk": false
  },
@@ -213,34 +241,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Willard Gibbs Madalyası, Ulusal Bilim Madalyası. Aday olduğu ödül: Nobel Kimya Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Dylan Thomas",
-  "dogum_tarihi": "1914-10-27",
-  "vefat_tarihi": "1953-11-09",
-  "vefat_yasi": 39,
-  "dogum_yeri": "Swansea",
-  "vefat_yeri": "New York",
-  "defin_yeri": "Grave of Dylan Thomas",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q191023",
-  "sitelink": 76,
-  "fotograf": {
-   "dosya": "Dylan Thomas icon Blashford 1937.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nora Summers",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dylan_Thomas_icon_Blashford_1937.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Dylan_Thomas_icon_Blashford_1937.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -301,7 +301,7 @@
   "vefat_yasi": 93,
   "dogum_yeri": "Napoli",
   "vefat_yeri": "Roma",
-  "defin_yeri": "Cemetery of Poggioreale, Naples",
+  "defin_yeri": "Cemetery of Poggioreale",
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1235",
@@ -312,7 +312,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: İtalya Devlet Başkanı, İtalya Başbakanı",
+  "neden_onemli": "Görev: İtalya Devlet Başkanı, tabii senatörlük",
   "hassas": false,
   "turk": false
  }

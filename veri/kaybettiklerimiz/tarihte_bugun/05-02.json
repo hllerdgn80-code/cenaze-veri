@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q150552",
-  "sitelink": 77,
+  "sitelink": 78,
   "fotograf": {
    "dosya": "Bundesarchiv Bild 183-1988-0113-500, Franz v. Papen (cropped)(2).jpg",
    "lisans": "CC BY-SA 3.0 de",
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Savaş Liyakat Haçı, Altın Parti Rozeti. Görev: başbakan, büyükelçi",
+  "neden_onemli": "Ödül: Altın Parti Rozeti, Savaş Liyakat Haçı. Görev: başbakan, Almanya Şansölyesi",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Vladimir Nişanı, St. Anna Nişanı. Önemli eserleri: “Dokuzuncu Dalga”, “İki direkli Mercury”",
+  "neden_onemli": "Ödül: Aziz Vladimir Nişanı, Osmaniye Nişanı. Önemli eserleri: “Dokuzuncu Dalga”, “İki direkli Mercury”",
   "hassas": false,
   "turk": false
  },
@@ -124,11 +124,11 @@
   "wikidata_id": "Q189197",
   "sitelink": 72,
   "fotograf": {
-   "dosya": "Joseph McCarthy.jpg",
+   "dosya": "Joseph McCarthy US senate biography photo.jpg",
    "lisans": "Public domain",
-   "yazar": "United Press",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_McCarthy.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_McCarthy.jpg"
+   "yazar": "Historian of the United States Senate",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_McCarthy_US_senate_biography_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Joseph_McCarthy_US_senate_biography_photo.jpg"
   },
   "meslek": [
    "Siyasetçi"
@@ -224,6 +224,34 @@
   "turk": false
  },
  {
+  "ad": "Paulo Freire",
+  "dogum_tarihi": "1921-09-19",
+  "vefat_tarihi": "1997-05-02",
+  "vefat_yasi": 75,
+  "dogum_yeri": "Recife",
+  "vefat_yeri": "São Paulo",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q164797",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Paulo Freire 1977.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Slobodan Dimitro",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo_Freire_1977.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paulo_Freire_1977.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: fahri doktora. Önemli eserleri: “Ezilenlerin Pedagojisi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "J. Edgar Hoover",
   "dogum_tarihi": "1895-01-01",
   "vefat_tarihi": "1972-05-02",
@@ -248,34 +276,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kamu Refahı Madalyası",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Paulo Freire",
-  "dogum_tarihi": "1921-09-19",
-  "vefat_tarihi": "1997-05-02",
-  "vefat_yasi": 75,
-  "dogum_yeri": "Recife",
-  "vefat_yeri": "São Paulo",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q164797",
-  "sitelink": 63,
-  "fotograf": {
-   "dosya": "Paulo Freire 1977.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Slobodan Dimitro",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo_Freire_1977.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Paulo_Freire_1977.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: fahri doktora. Önemli eserleri: “Ezilenlerin Pedagojisi”",
   "hassas": false,
   "turk": false
  },

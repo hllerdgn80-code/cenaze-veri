@@ -51,35 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Prince Otto”, “Kaçırılan Çocuk”, “A Child's Garden of Verses”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Auguste Renoir",
-  "dogum_tarihi": "1841-02-25",
-  "vefat_tarihi": "1919-12-03",
-  "vefat_yasi": 78,
-  "dogum_yeri": "Limoges",
-  "vefat_yeri": "Cagnes-sur-Mer",
-  "defin_yeri": "Essoyes",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q39931",
-  "sitelink": 115,
-  "fotograf": {
-   "dosya": "Pierre Auguste Renoir, uncropped image.jpg",
-   "lisans": "Public domain",
-   "yazar": "UnknownUnknown Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Auguste_Renoir%2C_uncropped_image.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Auguste_Renoir%2C_uncropped_image.jpg"
-  },
-  "meslek": [
-   "Ressam"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Le Déjeuner des canotiers”, “Bal du moulin de la Galette”, “Salıncak (Pierre-Auguste Renoir)”",
+  "neden_onemli": "Önemli eserleri: “Prince Otto”, “Kaçırılan Çocuk”, “Define Adası”",
   "hassas": false,
   "turk": false
  },
@@ -163,7 +135,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Aziz Andreas Nişanı. Görev: Norveç kralı, Schleswig Dükü",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı. Görev: Schleswig Dükü, Holstein Dükü",
   "hassas": false,
   "turk": false
  },
@@ -326,6 +298,32 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Andrew (Yunanistan ve Danimarka Prensi)",
+  "dogum_tarihi": "1882-02-02",
+  "vefat_tarihi": "1944-12-03",
+  "vefat_yasi": 62,
+  "dogum_yeri": "Tatoi Palace",
+  "vefat_yeri": "Hôtel Métropole",
+  "defin_yeri": "Tatoi Royal Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Yunanistan",
+  "wikidata_id": "Q156531",
+  "sitelink": 48,
+  "fotograf": {
+   "dosya": "Prince Andrew of Greece.JPG",
+   "lisans": "Public domain",
+   "yazar": "Philip de László",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prince_Andrew_of_Greece.JPG",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Prince_Andrew_of_Greece.JPG"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Kara Kartal Nişanı",
   "hassas": false,
   "turk": false
  }

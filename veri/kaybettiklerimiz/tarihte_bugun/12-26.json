@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q11613",
-  "sitelink": 198,
+  "sitelink": 199,
   "fotograf": {
    "dosya": "TRUMAN 58-766-06 (cropped).jpg",
    "lisans": "Public domain",
@@ -61,7 +61,7 @@
   "vefat_tarihi": "2006-12-26",
   "vefat_yasi": 93,
   "dogum_yeri": "Gerald R. Ford Birthsite and Gardens",
-  "vefat_yeri": "Thunderbird Country Club",
+  "vefat_yeri": "Rancho Mirage",
   "defin_yeri": "Gerald R. Ford Presidential Museum",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -95,20 +95,20 @@
   "defin_il": null,
   "defin_ulke": "İran",
   "wikidata_id": "Q9546",
-  "sitelink": 145,
+  "sitelink": 146,
   "fotograf": {
-   "dosya": "Al-Ghazali by Khalil Gibran.png",
-   "lisans": "Public domain",
-   "yazar": "Kahlil Gibran",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Al-Ghazali_by_Khalil_Gibran.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Al-Ghazali_by_Khalil_Gibran.png"
+   "dosya": "أبو حامد الغزالي.png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "السيف ذو الوشاح",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%A3%D8%A8%D9%88_%D8%AD%D8%A7%D9%85%D8%AF_%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:%D8%A3%D8%A8%D9%88_%D8%AD%D8%A7%D9%85%D8%AF_%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84%D9%8A.png"
   },
   "meslek": [
    "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Filozofların Tutarsızlığı”, “Kimyâ-yı Saʿâdet”, “İlyaü Ulumi'd-Din”",
+  "neden_onemli": "Önemli eserleri: “Kimyâ-yı Saʿâdet”, “Filozofların Tutarsızlığı”, “İlyaü Ulumi'd-Din”",
   "hassas": false,
   "turk": false
  },
@@ -123,7 +123,7 @@
   "defin_il": null,
   "defin_ulke": "Güney Afrika",
   "wikidata_id": "Q43033",
-  "sitelink": 120,
+  "sitelink": 121,
   "fotograf": {
    "dosya": "Archbishop-Tutu-medium.jpg",
    "lisans": "Public domain",
@@ -325,7 +325,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı. Görev: Yunanistan Cumhurbaşkanı, Dışişleri Bakan Yardımcısı",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı. Görev: Dışişleri Bakan Yardımcısı, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false,
   "turk": false
  }

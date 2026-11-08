@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
   "hassas": false,
   "turk": true
  },
@@ -157,7 +157,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Inkpot Ödülü, En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, Inkpot Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -313,7 +313,7 @@
   "defin_il": null,
   "defin_ulke": "Lüksemburg",
   "wikidata_id": "Q155167",
-  "sitelink": 53,
+  "sitelink": 52,
   "fotograf": {
    "dosya": "JenikLucvGelnhausenu.jpg",
    "lisans": "Public domain",

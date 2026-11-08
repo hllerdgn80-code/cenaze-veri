@@ -130,7 +130,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q327261",
-  "sitelink": 50,
+  "sitelink": 51,
   "fotograf": null,
   "meslek": [
    "Şair",
@@ -530,7 +530,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri, Puşkin Madalyası. Önemli eserleri: “İmparatorluğun En Uzun Yüzyılı”, “İlber Ortaylı Seyahatnamesi”",
+  "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri, Puşkin Madalyası. Önemli eserleri: “İlber Ortaylı Seyahatnamesi”, “İmparatorluğun En Uzun Yüzyılı”",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -867,7 +867,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İstanbul Üniversitesi fahri doktorası, Devlet Sanatçısı",
+  "neden_onemli": "Ödül: Devlet Sanatçısı, İstanbul Üniversitesi fahri doktorası",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -1485,7 +1485,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Türk Dil Kurumu Şiir Ödülü",
+  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Sertel Ödülleri",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -1590,7 +1590,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Türk Dil Kurumu Şiir Ödülü, Necatigil Şiir Ödülü. Önemli eserleri: “Göçebe”, “Üvercinka”, “Sevda Sözleri”",
+  "neden_onemli": "Ödül: Necatigil Şiir Ödülü, Yeditepe Şiir Armağanı. Önemli eserleri: “Göçebe”, “Üvercinka”, “Sevda Sözleri”",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -2012,35 +2012,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Lenin Nişanı, Ermeni SSC Halk Sanatçısı",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Abdulkadir İnan",
-  "dogum_tarihi": "1889-10-29",
-  "vefat_tarihi": "1976-07-26",
-  "vefat_yasi": 86,
-  "dogum_yeri": "Sarikulmiak",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Karşıyaka Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q12526385",
-  "sitelink": 18,
-  "fotograf": {
-   "dosya": "Инан (cropped).png",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%BD%D0%B0%D0%BD_%28cropped%29.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BD%D0%B0%D0%BD_%28cropped%29.png"
-  },
-  "meslek": [
-   "Araştırmacı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genel yayın yönetmeni",
+  "neden_onemli": "Ödül: Ermeni SSC Halk Sanatçısı, Lenin Nişanı",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -3316,6 +3288,28 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Mehmet Emin Toprak",
+  "dogum_tarihi": "1974-09-11",
+  "vefat_tarihi": "2002-12-02",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Yenice",
+  "vefat_yeri": "Çan",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q130164",
+  "sitelink": 16,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Muhsin Ertuğrul",
   "dogum_tarihi": "1892-03-07",
   "vefat_tarihi": "1979-04-29",
@@ -3358,7 +3352,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri, Devlet Sanatçısı",
+  "neden_onemli": "Ödül: Altın Portakal Yıldırım Önal Anı Ödülü, Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -3517,6 +3511,29 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Atıf Yılmaz",
+  "dogum_tarihi": "1925-12-09",
+  "vefat_tarihi": "2006-05-05",
+  "vefat_yasi": 80,
+  "dogum_yeri": "Mersin",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q758354",
+  "sitelink": 15,
+  "fotograf": null,
+  "meslek": [
+   "Film yönetmeni",
+   "senarist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü",
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Ekrem Akurgal",
   "dogum_tarihi": "1911-03-30",
   "vefat_tarihi": "2002-11-01",
@@ -3639,28 +3656,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Görev: genel yayın yönetmeni",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Mehmet Emin Toprak",
-  "dogum_tarihi": "1974-09-11",
-  "vefat_tarihi": "2002-12-02",
-  "vefat_yasi": 28,
-  "dogum_yeri": "Yenice",
-  "vefat_yeri": "Çan",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q130164",
-  "sitelink": 15,
-  "fotograf": null,
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -3847,25 +3842,33 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Atıf Yılmaz",
-  "dogum_tarihi": "1925-12-09",
-  "vefat_tarihi": "2006-05-05",
-  "vefat_yasi": 80,
-  "dogum_yeri": "Mersin",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "ad": "Ahmet Refik Altınay",
+  "dogum_tarihi": "1881",
+  "vefat_tarihi": "1937-10-10",
+  "vefat_yasi": 56,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Beşiktaş",
+  "vefat_yeri": "Beşiktaş",
+  "defin_yeri": "Büyükada",
   "defin_il": "İstanbul",
   "defin_ulke": null,
-  "wikidata_id": "Q758354",
+  "wikidata_id": "Q6102857",
   "sitelink": 14,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ahmet refik altinay.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahmet_refik_altinay.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ahmet_refik_altinay.jpg"
+  },
   "meslek": [
-   "Film yönetmeni",
-   "senarist"
+   "Şair",
+   "yazar",
+   "tarihçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Portakal Yaşam Boyu Onur Ödülü",
+  "neden_onemli": null,
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -4332,37 +4335,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Ahmet Refik Altınay",
-  "dogum_tarihi": "1881",
-  "vefat_tarihi": "1937-10-10",
-  "vefat_yasi": 56,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Beşiktaş",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "İstanbul",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6102857",
-  "sitelink": 13,
-  "fotograf": {
-   "dosya": "AhmetRefik.jpg",
-   "lisans": "Public domain",
-   "yazar": "Ahmet Refik - Two committees. Two Massacres. Published 1919.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AhmetRefik.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:AhmetRefik.jpg"
-  },
-  "meslek": [
-   "Şair",
-   "yazar",
-   "tarihçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Ayhan Işık",
   "dogum_tarihi": "1929-05-05",
   "vefat_tarihi": "1979-06-16",
@@ -4401,6 +4373,35 @@
    "Oyuncu",
    "şair",
    "söz yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Barış Akarsu",
+  "dogum_tarihi": "1979-06-29",
+  "vefat_tarihi": "2007-07-04",
+  "vefat_yasi": 28,
+  "dogum_yeri": "Zonguldak",
+  "vefat_yeri": "Bodrum",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q791161",
+  "sitelink": 13,
+  "fotograf": {
+   "dosya": "Barış akarsu.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Kağıt at Turkish Wikipedia Later versions were uploaded by AlfonzoxXx, Mach at tr.wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bar%C4%B1%C5%9F_akarsu.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bar%C4%B1%C5%9F_akarsu.jpg"
+  },
+  "meslek": [
+   "Şarkıcı",
+   "oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -5228,35 +5229,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Barış Akarsu",
-  "dogum_tarihi": "1979-06-29",
-  "vefat_tarihi": "2007-07-04",
-  "vefat_yasi": 28,
-  "dogum_yeri": "Zonguldak",
-  "vefat_yeri": "Bodrum",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q791161",
-  "sitelink": 12,
-  "fotograf": {
-   "dosya": "Barış akarsu.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Kağıt at Turkish Wikipedia Later versions were uploaded by AlfonzoxXx, Mach at tr.wikipedia.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bar%C4%B1%C5%9F_akarsu.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bar%C4%B1%C5%9F_akarsu.jpg"
-  },
-  "meslek": [
-   "Şarkıcı",
-   "oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Behçet Necatigil",
   "dogum_tarihi": "1916-04-16",
   "vefat_tarihi": "1979-12-13",
@@ -5902,9 +5874,9 @@
  },
  {
   "ad": "Şehzade Mehmed Abid",
-  "dogum_tarihi": "1904-09-17",
+  "dogum_tarihi": "1905-09-17",
   "vefat_tarihi": "1973-12-08",
-  "vefat_yasi": 69,
+  "vefat_yasi": 68,
   "dogum_yeri": "Yıldız Sarayı",
   "vefat_yeri": "Beyrut",
   "defin_yeri": "Şam Süleymaniye Külliyesi Mezarlığı",
@@ -6030,7 +6002,7 @@
   "vefat_yasi": 69,
   "dogum_yeri": "Adana",
   "vefat_yeri": "İstanbul",
-  "defin_yeri": "Kabasakal Mezarlığı",
+  "defin_yeri": "Adana",
   "defin_il": "Adana",
   "defin_ulke": null,
   "wikidata_id": "Q4831727",
@@ -6379,6 +6351,29 @@
    "Oyuncu",
    "film yönetmeni",
    "senarist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Mahzuni Şerif",
+  "dogum_tarihi": "1940-11-17",
+  "vefat_tarihi": "2002-05-17",
+  "vefat_yasi": 61,
+  "dogum_yeri": "Afşin",
+  "vefat_yeri": "Köln",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q326819",
+  "sitelink": 11,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı",
+   "besteci"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -6819,6 +6814,35 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Şahan Arzruni",
+  "dogum_tarihi": "1943-06-08",
+  "vefat_tarihi": "2026-10-21",
+  "vefat_yasi": 83,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "New York",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q16106168",
+  "sitelink": 11,
+  "fotograf": {
+   "dosya": "SahanArzruni.png",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Solopiano",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SahanArzruni.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:SahanArzruni.png"
+  },
+  "meslek": [
+   "Yazar",
+   "besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Ali Şen",
   "dogum_tarihi": "1918",
   "vefat_tarihi": "1989-12-15",
@@ -6884,6 +6908,34 @@
   },
   "meslek": [
    "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Aykut Barka",
+  "dogum_tarihi": "1951-12-16",
+  "vefat_tarihi": "2002-02-01",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Fatih",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2229444",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Aykut barka1.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "The original uploader was Pulsar at English Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aykut_barka1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aykut_barka1.jpg"
+  },
+  "meslek": [
+   "Jeolog"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -7256,29 +7308,6 @@
   "hassas_nedeni": [
    "cinayet"
   ],
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Mahzuni Şerif",
-  "dogum_tarihi": "1940-11-17",
-  "vefat_tarihi": "2002-05-17",
-  "vefat_yasi": 61,
-  "dogum_yeri": "Afşin",
-  "vefat_yeri": "Köln",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q326819",
-  "sitelink": 10,
-  "fotograf": null,
-  "meslek": [
-   "Şarkıcı",
-   "besteci"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
@@ -7933,34 +7962,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Aykut Barka",
-  "dogum_tarihi": "1951-12-16",
-  "vefat_tarihi": "2002-02-01",
-  "vefat_yasi": 50,
-  "dogum_yeri": "Fatih",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Zincirlikuyu Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q2229444",
-  "sitelink": 9,
-  "fotograf": {
-   "dosya": "Aykut barka1.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "The original uploader was Pulsar at English Wikipedia.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aykut_barka1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Aykut_barka1.jpg"
-  },
-  "meslek": [
-   "Jeolog"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Belkıs Şevket",
   "dogum_tarihi": null,
   "vefat_tarihi": null,
@@ -8461,7 +8462,7 @@
   "dogum_tarihi": "1907-09-13",
   "vefat_tarihi": "1998-01-14",
   "vefat_yasi": 90,
-  "dogum_yeri": "Konstantinopolis",
+  "dogum_yeri": "İstanbul",
   "vefat_yeri": "İstanbul",
   "defin_yeri": "Zincirlikuyu Mezarlığı",
   "defin_il": "İstanbul",
@@ -9844,6 +9845,29 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Namık İsmail",
+  "dogum_tarihi": "1890",
+  "vefat_tarihi": "1935-08-30",
+  "vefat_yasi": 45,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Samsun",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6583467",
+  "sitelink": 8,
+  "fotograf": null,
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Nermin Abadan-Unat",
   "dogum_tarihi": "1921-09-18",
   "vefat_tarihi": "2025-12-11",
@@ -10262,7 +10286,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Erdal Öz Edebiyat Ödülü, Orhan Kemal Roman Armağanı. Önemli eserleri: “Edebiyatımızda Sevdiğim Romanlar Kılavuzu”",
+  "neden_onemli": "Ödül: Orhan Kemal Roman Armağanı, Erdal Öz Edebiyat Ödülü. Önemli eserleri: “Edebiyatımızda Sevdiğim Romanlar Kılavuzu”",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -10685,6 +10709,28 @@
   "fotograf": null,
   "meslek": [
    "Heykeltıraş"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Öztürk Serengil",
+  "dogum_tarihi": "1930-05-02",
+  "vefat_tarihi": "1999-01-11",
+  "vefat_yasi": 68,
+  "dogum_yeri": "Artvin",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Çengelköy Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q5371845",
+  "sitelink": 8,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -11333,6 +11379,28 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Gürdal Duyar",
+  "dogum_tarihi": "1935-08-20",
+  "vefat_tarihi": "2004-04-18",
+  "vefat_yasi": 68,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6084771",
+  "sitelink": 7,
+  "fotograf": null,
+  "meslek": [
+   "Heykeltıraş"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Güzide Sabri Aygün",
   "dogum_tarihi": "1886",
   "vefat_tarihi": "1946",
@@ -11672,29 +11740,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Namık İsmail",
-  "dogum_tarihi": "1890",
-  "vefat_tarihi": "1935-08-30",
-  "vefat_yasi": 45,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Samsun",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6583467",
-  "sitelink": 7,
-  "fotograf": null,
-  "meslek": [
-   "Ressam"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Necati Zekeriya",
   "dogum_tarihi": "1928-11-11",
   "vefat_tarihi": "1988-06-10",
@@ -11875,6 +11920,29 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Orhan Aksoy",
+  "dogum_tarihi": "1930-01-10",
+  "vefat_tarihi": "2008-01-22",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Mustafakemalpaşa",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q6033250",
+  "sitelink": 7,
+  "fotograf": null,
+  "meslek": [
+   "Yönetmen",
+   "senarist"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Orhan Boran",
   "dogum_tarihi": "1928-06-30",
   "vefat_tarihi": "2012-05-26",
@@ -11938,6 +12006,26 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Reha Muhtar",
+  "dogum_tarihi": "1959-07-21",
+  "vefat_tarihi": "2026-06-03",
+  "vefat_yasi": 66,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Bodrum",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q7309738",
+  "sitelink": 7,
+  "fotograf": null,
+  "meslek": [],
+  "aciklama": "Gazeteci (1959–2026)",
+  "aciklama_kaynak": "wikidata_tr",
   "neden_onemli": null,
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
@@ -12530,28 +12618,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kızıl Bayrak İşçi Nişanı, Ermeni SSC Halk Sanatçısı",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Öztürk Serengil",
-  "dogum_tarihi": "1930-05-02",
-  "vefat_tarihi": "1999-01-11",
-  "vefat_yasi": 68,
-  "dogum_yeri": "Artvin",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Çengelköy Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q5371845",
-  "sitelink": 7,
-  "fotograf": null,
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -13647,28 +13713,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Gürdal Duyar",
-  "dogum_tarihi": "1935-08-20",
-  "vefat_tarihi": "2004-04-18",
-  "vefat_yasi": 68,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Zincirlikuyu Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6084771",
-  "sitelink": 6,
-  "fotograf": null,
-  "meslek": [
-   "Heykeltıraş"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Halide Pişkin",
   "dogum_tarihi": "1902-07-16",
   "vefat_tarihi": "1959-11-01",
@@ -14484,29 +14528,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Orhan Aksoy",
-  "dogum_tarihi": "1930-01-10",
-  "vefat_tarihi": "2008-01-22",
-  "vefat_yasi": 78,
-  "dogum_yeri": "Mustafakemalpaşa",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Zincirlikuyu Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6033250",
-  "sitelink": 6,
-  "fotograf": null,
-  "meslek": [
-   "Yönetmen",
-   "senarist"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Osman Fahir Seden",
   "dogum_tarihi": "1924-03-22",
   "vefat_tarihi": "1998-09-01",
@@ -14548,7 +14569,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Türkçe”, “İngilizce”",
+  "neden_onemli": "Önemli eserleri: “İngilizce”, “Türkçe”",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -14629,26 +14650,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Türkiye Cumhurbaşkanlığı Kültür ve Sanat Büyük Ödülleri",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Reha Muhtar",
-  "dogum_tarihi": "1959-07-21",
-  "vefat_tarihi": "2026-06-03",
-  "vefat_yasi": 66,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "Bodrum",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q7309738",
-  "sitelink": 6,
-  "fotograf": null,
-  "meslek": [],
-  "aciklama": "Gazeteci (1959–2026)",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -15456,28 +15457,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Şenol Coşkun",
-  "dogum_tarihi": "1988-11-12",
-  "vefat_tarihi": "2006-11-29",
-  "vefat_yasi": 18,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6081030",
-  "sitelink": 6,
-  "fotograf": null,
-  "meslek": [
-   "Dizi oyuncusu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Şerif Muhiddin Targan",
   "dogum_tarihi": "1892",
   "vefat_tarihi": "1967",
@@ -16001,6 +15980,29 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
+  "ad": "Berkant",
+  "dogum_tarihi": "1938-12-31",
+  "vefat_tarihi": "2012-10-01",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Ankara",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q4891947",
+  "sitelink": 5,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı",
+   "besteci"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
   "ad": "Bilge Olgaç",
   "dogum_tarihi": "1940-01-10",
   "vefat_tarihi": "1994-03-02",
@@ -16317,6 +16319,26 @@
    "Hukukçu şair",
    "yazar"
   ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Erman Şener",
+  "dogum_tarihi": "1942-08-09",
+  "vefat_tarihi": "2002-03-29",
+  "vefat_yasi": 59,
+  "dogum_yeri": "Afyonkarahisar",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Cebeci Asri Mezarlığı",
+  "defin_il": "Ankara",
+  "defin_ulke": null,
+  "wikidata_id": "Q6075871",
+  "sitelink": 5,
+  "fotograf": null,
+  "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
@@ -19568,7 +19590,7 @@
  },
  {
   "ad": "Belkıs Dilligil",
-  "dogum_tarihi": "1929-02-19",
+  "dogum_tarihi": "1929-02-14",
   "vefat_tarihi": "1995-05-10",
   "vefat_yasi": 66,
   "dogum_yeri": "İstanbul",
@@ -19581,29 +19603,6 @@
   "fotograf": null,
   "meslek": [
    "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Berkant",
-  "dogum_tarihi": "1938-12-31",
-  "vefat_tarihi": "2012-10-01",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Ankara",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Karacaahmet Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q4891947",
-  "sitelink": 4,
-  "fotograf": null,
-  "meslek": [
-   "Şarkıcı",
-   "besteci"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -19747,6 +19746,29 @@
   "fotograf": null,
   "meslek": [
    "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Cemil Cem",
+  "dogum_tarihi": "1882",
+  "vefat_tarihi": "1950-04-09",
+  "vefat_yasi": 68,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1053328",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Ressam"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -19948,26 +19970,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Erman Şener",
-  "dogum_tarihi": "1942-08-09",
-  "vefat_tarihi": "2002-03-29",
-  "vefat_yasi": 59,
-  "dogum_yeri": "Afyonkarahisar",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Cebeci Asri Mezarlığı",
-  "defin_il": "Ankara",
-  "defin_ulke": null,
-  "wikidata_id": "Q6075871",
-  "sitelink": 4,
-  "fotograf": null,
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Erol Toy",
   "dogum_tarihi": "1936",
   "vefat_tarihi": "2021-03-13",
@@ -20102,35 +20104,6 @@
   "fotograf": null,
   "meslek": [
    "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Fahir Yeniçay",
-  "dogum_tarihi": "1902",
-  "vefat_tarihi": "1988-05-11",
-  "vefat_yasi": 86,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q85970331",
-  "sitelink": 4,
-  "fotograf": {
-   "dosya": "Fahir Yeniçay.jpg",
-   "lisans": "Public domain",
-   "yazar": "Fenerbahçe Magazine",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fahir_Yeni%C3%A7ay.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Fahir_Yeni%C3%A7ay.jpg"
-  },
-  "meslek": [
-   "Fizikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -21239,8 +21212,8 @@
   "vefat_yasi": 57,
   "dogum_yeri": "İstanbul",
   "vefat_yeri": "Başakşehir Çam ve Sakura Şehir Hastanesi",
-  "defin_yeri": null,
-  "defin_il": null,
+  "defin_yeri": "Karacaahmet Mezarlığı",
+  "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q11325542",
   "sitelink": 4,
@@ -21345,6 +21318,29 @@
   "fotograf": null,
   "meslek": [
    "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Nuri Sesigüzel",
+  "dogum_tarihi": "1937-07-01",
+  "vefat_tarihi": "2023-05-20",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Halfeti",
+  "vefat_yeri": "Beylikdüzü",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q6583218",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Şarkıcı",
+   "sinema oyuncusu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -21537,6 +21533,28 @@
   "meslek": [
    "Yazar",
    "profesör"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Pervin Par",
+  "dogum_tarihi": "1939-03-23",
+  "vefat_tarihi": "2015-07-30",
+  "vefat_yasi": 76,
+  "dogum_yeri": "İzmir",
+  "vefat_yeri": "İzmir",
+  "defin_yeri": "Çeşme",
+  "defin_il": "İzmir",
+  "defin_ulke": null,
+  "wikidata_id": "Q6090161",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -22117,6 +22135,29 @@
   "meslek": [
    "Besteci",
    "doktor"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Tahsin Yazıcı",
+  "dogum_tarihi": "1922",
+  "vefat_tarihi": "2002-11-20",
+  "vefat_yasi": 80,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Kiğı",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q113576581",
+  "sitelink": 4,
+  "fotograf": null,
+  "meslek": [
+   "Akademisyen"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -23320,29 +23361,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Ayhan Böke",
-  "dogum_tarihi": "1928",
-  "vefat_tarihi": "2016-08-23",
-  "vefat_yasi": 88,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Ankara",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "Karacaahmet Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6054822",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Mimar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Ayhan Hikmet",
   "dogum_tarihi": "1929",
   "vefat_tarihi": "1962-04-23",
@@ -23554,33 +23572,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Cemil Sait Barlas",
-  "dogum_tarihi": "1905",
-  "vefat_tarihi": "1964-10-10",
-  "vefat_yasi": 59,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "Hendek",
-  "defin_yeri": "Yeniköy Mezarlığı",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q6044329",
-  "sitelink": 3,
-  "fotograf": {
-   "dosya": "Cemil sait barlas.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cemil_sait_barlas.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Cemil_sait_barlas.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Davut Sulari",
   "dogum_tarihi": "1925",
   "vefat_tarihi": "1984-12-27",
@@ -23606,6 +23597,29 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Demir Özlü",
+  "dogum_tarihi": "1935-09-09",
+  "vefat_tarihi": "2021-02-13",
+  "vefat_yasi": 85,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "Stockholm",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q668833",
+  "sitelink": 3,
+  "fotograf": null,
+  "meslek": [
+   "Hukukçu şair",
+   "yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Orhan Kemal Roman Armağanı, Sait Faik Hikâye Armağanı",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -23847,29 +23861,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Fahir İz",
-  "dogum_tarihi": "1911-04-30",
-  "vefat_tarihi": "2004-07-05",
-  "vefat_yasi": 93,
-  "dogum_yeri": "İstanbul",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6005885",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Yazar",
-   "edebiyat araştırmacısı"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Fahire Fersan",
   "dogum_tarihi": "1900",
   "vefat_tarihi": "1997-01-03",
@@ -23898,9 +23889,9 @@
   "vefat_tarihi": "1995-04-19",
   "vefat_yasi": 41,
   "dogum_yeri": "Burdur",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": null,
-  "defin_il": null,
+  "vefat_yeri": "Alaşehir",
+  "defin_yeri": "Alaşehir Asri Mezarlığı",
+  "defin_il": "Manisa",
   "defin_ulke": null,
   "wikidata_id": "Q6034241",
   "sitelink": 3,
@@ -23976,6 +23967,34 @@
   "meslek": [
    "Mimar",
    "akademisyen"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Hans Winterstein",
+  "dogum_tarihi": "1879-07-31",
+  "vefat_tarihi": "1963-08-18",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Prag",
+  "vefat_yeri": "Münih",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q1583142",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Hans Winterstein (1879–1963).webp",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans_Winterstein_%281879%E2%80%931963%29.webp",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hans_Winterstein_%281879%E2%80%931963%29.webp"
+  },
+  "meslek": [
+   "Doktor"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -24146,29 +24165,6 @@
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
  {
-  "ad": "Kemal Zeytinoğlu",
-  "dogum_tarihi": "1911",
-  "vefat_tarihi": "1959-02-17",
-  "vefat_yasi": 48,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Eskişehir",
-  "vefat_yeri": null,
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q6043109",
-  "sitelink": 3,
-  "fotograf": null,
-  "meslek": [
-   "Mühendis"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, bakan",
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
   "ad": "Mahmut Sami Ramazanoğlu",
   "dogum_tarihi": "1882",
   "vefat_tarihi": "1984-02-12",
@@ -24262,35 +24258,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "kategori_adi": "Sanat, Edebiyat ve Bilim"
- },
- {
-  "ad": "Mustafa Taki Doğruyol",
-  "dogum_tarihi": "1873",
-  "vefat_tarihi": "1925-08-01",
-  "vefat_yasi": 52,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Sivas",
-  "vefat_yeri": "Gürün",
-  "defin_yeri": "Sivas",
-  "defin_il": "Sivas",
-  "defin_ulke": null,
-  "wikidata_id": "Q6055298",
-  "sitelink": 3,
-  "fotograf": {
-   "dosya": "Portrait of Mustafa Taki Doğruyol.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Mustafa_Taki_Do%C4%9Fruyol.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mustafa_Taki_Do%C4%9Fruyol.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "kategori_adi": "Sanat, Edebiyat ve Bilim"
  },
@@ -24558,6 +24525,34 @@
   "fotograf": null,
   "meslek": [
    "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "kategori_adi": "Sanat, Edebiyat ve Bilim"
+ },
+ {
+  "ad": "Tevfik Sağlam",
+  "dogum_tarihi": "1882-05-27",
+  "vefat_tarihi": "1963-07-11",
+  "vefat_yasi": 81,
+  "dogum_yeri": "İstanbul",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Edirnekapı Şehitliği",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q913750",
+  "sitelink": 3,
+  "fotograf": {
+   "dosya": "Salim-Vehib-Husrev.jpg",
+   "lisans": "Public domain",
+   "yazar": "NA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salim-Vehib-Husrev.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Salim-Vehib-Husrev.jpg"
+  },
+  "meslek": [
+   "Doktor"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

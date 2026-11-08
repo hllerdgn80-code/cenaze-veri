@@ -98,7 +98,7 @@
   "defin_il": null,
   "defin_ulke": "Arjantin",
   "wikidata_id": "Q185107",
-  "sitelink": 73,
+  "sitelink": 74,
   "fotograf": {
    "dosya": "Menem con banda presidencial.jpg",
    "lisans": "CC BY 2.0",
@@ -195,7 +195,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Morgan_Tsvangirai_Oslo_2009_A.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Bakan"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -215,13 +215,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q243419",
   "sitelink": 55,
-  "fotograf": {
-   "dosya": "Hux-Oxon-72.jpg",
-   "lisans": "Public domain",
-   "yazar": "not given in the source",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hux-Oxon-72.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Hux-Oxon-72.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -243,13 +237,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q273860",
   "sitelink": 53,
-  "fotograf": {
-   "dosya": "Marco Pantani.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Aldo Bolzan Scan Les Meloures at lb.wikipedia",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marco_Pantani.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Marco_Pantani.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": "İtalyan bisikletçi (1970-2004)",
   "aciklama_kaynak": "wikidata_tr",
@@ -269,13 +257,7 @@
   "defin_ulke": "Hollanda",
   "wikidata_id": "Q159840",
   "sitelink": 53,
-  "fotograf": {
-   "dosya": "Ruud Lubbers 1985.jpg",
-   "lisans": "CC0",
-   "yazar": "Rijksoverheid.nl",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruud_Lubbers_1985.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruud_Lubbers_1985.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -297,13 +279,7 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q44496",
   "sitelink": 49,
-  "fotograf": {
-   "dosya": "Andrei Chikatilo (1990).jpg",
-   "lisans": "Public domain",
-   "yazar": "USSR Government",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Chikatilo_%281990%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Andrei_Chikatilo_%281990%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": "Rus-Sovyet seri katil (1936 – 1994)",
   "aciklama_kaynak": "wikidata_tr",
@@ -328,13 +304,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q319212",
   "sitelink": 44,
-  "fotograf": {
-   "dosya": "Karl Jansky.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "The original uploader was Saber1983 at English Wikipedia.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Jansky.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Karl_Jansky.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Mucit"
   ],

@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q791161",
-  "sitelink": 12,
+  "sitelink": 13,
   "fotograf": {
    "dosya": "Barış akarsu.jpg",
    "lisans": "CC BY-SA 3.0",
@@ -28,7 +28,7 @@
   "turk": true
  },
  {
-  "ad": "Marie Curie",
+  "ad": "Q7186",
   "dogum_tarihi": "1867-11-07",
   "vefat_tarihi": "1934-07-04",
   "vefat_yasi": 66,
@@ -126,7 +126,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q47478",
-  "sitelink": 138,
+  "sitelink": 139,
   "fotograf": null,
   "meslek": [
    "Şarkıcı"
@@ -143,7 +143,7 @@
   "vefat_tarihi": "1848-07-04",
   "vefat_yasi": 79,
   "dogum_yeri": "Saint-Malo",
-  "vefat_yeri": "former 10th arrondissement of Paris",
+  "vefat_yeri": "eski 10. arrondissement (Paris)",
   "defin_yeri": "tomb of Chateaubriand",
   "defin_il": null,
   "defin_ulke": "Fransa",

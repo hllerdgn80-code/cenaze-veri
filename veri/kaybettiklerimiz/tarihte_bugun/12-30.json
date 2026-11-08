@@ -140,7 +140,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ulusal Bilim Madalyası, İtalya Cumhuriyeti Liyakat Nişanı. Görev: tabii senatörlük",
+  "neden_onemli": "Ödül: Ulusal Bilim Madalyası, İtalya Cumhuriyeti Liyakat Nişanı Kumandanı. Görev: tabii senatörlük",
   "hassas": false,
   "turk": false
  },
@@ -155,7 +155,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q183372",
-  "sitelink": 99,
+  "sitelink": 100,
   "fotograf": {
    "dosya": "ANWhitehead.jpg",
    "lisans": "Public domain",
@@ -179,9 +179,9 @@
   "vefat_yasi": 35,
   "dogum_yeri": "Calamba",
   "vefat_yeri": "Manila",
-  "defin_yeri": null,
+  "defin_yeri": "Rizal Monument",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Filipinler",
   "wikidata_id": "Q1500",
   "sitelink": 89,
   "fotograf": {
@@ -337,7 +337,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: başpiskopos, Papa",
+  "neden_onemli": "Görev: Papa, başpiskopos",
   "hassas": false,
   "turk": false
  }

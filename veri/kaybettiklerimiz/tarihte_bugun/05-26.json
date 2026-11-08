@@ -60,7 +60,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q48301",
-  "sitelink": 148,
+  "sitelink": 149,
   "fotograf": {
    "dosya": "Heidegger 2 (1960).jpg",
    "lisans": "CC BY-SA 3.0",
@@ -105,6 +105,34 @@
   "turk": false
  },
  {
+  "ad": "Sydney Pollack",
+  "dogum_tarihi": "1934-07-01",
+  "vefat_tarihi": "2008-05-26",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Lafayette",
+  "vefat_yeri": "Pacific Palisades",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q51522",
+  "sitelink": 79,
+  "fotograf": {
+   "dosya": "Sydney Pollack.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "Arthur from Westchester County north of NYC, USA, at Arthur@NYCArthur.com",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Pollack.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sydney_Pollack.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Akbabanın Üç Günü”, “Tootsie”, “Benim Afrikam”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Abdülkadir Cezayiri",
   "dogum_tarihi": "1808-09-06",
   "vefat_tarihi": "1883-05-26",
@@ -129,34 +157,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Kara Kartal Nişanı. Görev: emir",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Sydney Pollack",
-  "dogum_tarihi": "1934-07-01",
-  "vefat_tarihi": "2008-05-26",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Lafayette",
-  "vefat_yeri": "Los Angeles",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q51522",
-  "sitelink": 77,
-  "fotograf": {
-   "dosya": "Sydney Pollack.jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "Arthur from Westchester County north of NYC, USA, at Arthur@NYCArthur.com",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Pollack.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sydney_Pollack.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Film Akademi Ödülü, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “Akbabanın Üç Günü”, “Benim Afrikam”, “Tootsie”",
   "hassas": false,
   "turk": false
  },

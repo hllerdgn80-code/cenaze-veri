@@ -51,9 +51,37 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: genel başkan, Genelkurmay Başkanı",
+  "neden_onemli": "Görev: Genelkurmay Başkanı, genel başkan",
   "hassas": false,
   "turk": true
+ },
+ {
+  "ad": "Franz Kafka",
+  "dogum_tarihi": "1883-07-03",
+  "vefat_tarihi": "1924-06-03",
+  "vefat_yasi": 40,
+  "dogum_yeri": "Prag",
+  "vefat_yeri": "Kafka Sterbehaus",
+  "defin_yeri": "New Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Çekya",
+  "wikidata_id": "Q905",
+  "sitelink": 242,
+  "fotograf": {
+   "dosya": "Franz Kafka, 1923.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Kafka%2C_1923.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Franz_Kafka%2C_1923.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Şato”, “Dönüşüm”, “Kanun Önünde”",
+  "hassas": false,
+  "turk": false
  },
  {
   "ad": "Nicolaus Copernicus",
@@ -94,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q36107",
-  "sitelink": 184,
+  "sitelink": 185,
   "fotograf": {
    "dosya": "Muhammad Ali, gtfy.00140.jpg",
    "lisans": "Public domain",
@@ -245,7 +273,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Prusya Taç Nişanı. Önemli eserleri: “Çingene Baron”, “Yarasa”, “Güzel Mavi Tuna”",
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Franz Joseph nişanı. Önemli eserleri: “Çingene Baron”, “Yarasa”, “Güzel Mavi Tuna”",
   "hassas": false,
   "turk": false
  },
@@ -302,34 +330,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Anthony Quinn",
-  "dogum_tarihi": "1915-04-21",
-  "vefat_tarihi": "2001-06-03",
-  "vefat_yasi": 86,
-  "dogum_yeri": "Chihuahua",
-  "vefat_yeri": "Boston",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q83484",
-  "sitelink": 84,
-  "fotograf": {
-   "dosya": "Anthony Quinn around the 1960s.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Quinn_around_the_1960s.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Anthony_Quinn_around_the_1960s.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "DeMille Ödülü",
   "hassas": false,
   "turk": false
  }

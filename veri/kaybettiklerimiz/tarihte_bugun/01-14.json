@@ -95,7 +95,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Alis Harikalar Diyarında”, “Mors ve Marangoz”, “Kaplumbağa Aşil'e Ne Dedi?”",
+  "neden_onemli": "Önemli eserleri: “The Nursery \"Alice\"”, “Mors ve Marangoz”, “Alis Harikalar Diyarında”",
   "hassas": false,
   "turk": false
  },
@@ -138,7 +138,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q16390",
-  "sitelink": 118,
+  "sitelink": 119,
   "fotograf": {
    "dosya": "Humphrey Bogart 1940.jpg",
    "lisans": "Public domain",
@@ -180,6 +180,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Ulusal Bilim Madalyası. Önemli eserleri: “Gödel'in ontolojik kanıtı”, “Gödel eksiklik teoremi”, “birinci Gödel teoremi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "George Berkeley",
+  "dogum_tarihi": "1685-03-12",
+  "vefat_tarihi": "1753-01-14",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Dysart Castle",
+  "vefat_yeri": "Oxford",
+  "defin_yeri": "Oxford Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q82049",
+  "sitelink": 112,
+  "fotograf": {
+   "dosya": "George Berkeley by Jonh Smibert.jpg",
+   "lisans": "Public domain",
+   "yazar": "John Smibert",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Berkeley_by_Jonh_Smibert.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:George_Berkeley_by_Jonh_Smibert.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -292,34 +320,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Diff'rent Strokes”, “Maude (dizi)”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Georgi Malenkov",
-  "dogum_tarihi": "1902-01-08",
-  "vefat_tarihi": "1988-01-14",
-  "vefat_yasi": 86,
-  "dogum_yeri": "Orenburg",
-  "vefat_yeri": "Moskova",
-  "defin_yeri": "Kuntsevo Mezarlığı",
-  "defin_il": null,
-  "defin_ulke": "Rusya",
-  "wikidata_id": "Q180588",
-  "sitelink": 83,
-  "fotograf": {
-   "dosya": "G.M. Malenkov TASS Portrait Trim Edit.jpg",
-   "lisans": "Public domain",
-   "yazar": "G. Weil for TASS",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G.M._Malenkov_TASS_Portrait_Trim_Edit.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:G.M._Malenkov_TASS_Portrait_Trim_Edit.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, \"Orak ve Çekiç\" Madalyası",
   "hassas": false,
   "turk": false
  }

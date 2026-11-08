@@ -60,7 +60,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q9696",
-  "sitelink": 250,
+  "sitelink": 251,
   "fotograf": {
    "dosya": "John F. Kennedy, White House color photo portrait.jpg",
    "lisans": "Public domain",
@@ -152,7 +152,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9204",
   "sitelink": 132,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "CS Lewis photo on dust jacket.jpg",
+   "lisans": "Public domain",
+   "yazar": "John S. Murray",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CS_Lewis_photo_on_dust_jacket.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:CS_Lewis_photo_on_dust_jacket.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -226,18 +232,24 @@
   "vefat_yasi": 77,
   "dogum_yeri": "Parma",
   "vefat_yeri": "Roma",
-  "defin_yeri": null,
+  "defin_yeri": "cemetery of Casarola",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "İtalya",
   "wikidata_id": "Q53009",
-  "sitelink": 86,
-  "fotograf": null,
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Bernardo Bertolucci.jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "© Elisa Caldana / Associazione Culturale Cinemazero from Pordenone, Italia",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernardo_Bertolucci.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bernardo_Bertolucci.jpg"
+  },
   "meslek": [
    "Sinema oyuncusu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
+  "neden_onemli": "Ödül: En İyi Uyarlama Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü. Aday olduğu ödül: En İyi Yönetmen Akademi Ödülü, En İyi Uyarlama Senaryo Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -253,7 +265,13 @@
   "defin_ulke": "Monako",
   "wikidata_id": "Q217619",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anthony Burgess (cropped).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Open Media Ltd.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Burgess_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anthony_Burgess_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -275,13 +293,19 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q215022",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Arthur Stanley Eddington.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Grantham Bain Collection, Library of Congress Prints and Photographs Division Washington, D.C.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Stanley_Eddington.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Stanley_Eddington.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Henry Draper Madalyası. Önemli eserleri: “Kappa mekanizması”, “işınım bölgesi”, “Radyatif transfer”",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Henry Draper Madalyası. Önemli eserleri: “Radyatif transfer”, “Kappa mekanizması”, “işınım bölgesi”",
   "hassas": false,
   "turk": false
  },
@@ -297,7 +321,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q114749",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Portrait of Sultan Ahmet I (r. 1603–17) (cropped).jpg",
+   "lisans": "CC0",
+   "yazar": "17th century artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Sultan_Ahmet_I_%28r._1603%E2%80%9317%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sultan_Ahmet_I_%28r._1603%E2%80%9317%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],

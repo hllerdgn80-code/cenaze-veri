@@ -46,7 +46,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Türk Dil Kurumu Şiir Ödülü, Necatigil Şiir Ödülü. Önemli eserleri: “Göçebe”, “Üvercinka”, “Sevda Sözleri”",
+  "neden_onemli": "Ödül: Necatigil Şiir Ödülü, Yeditepe Şiir Armağanı. Önemli eserleri: “Göçebe”, “Üvercinka”, “Sevda Sözleri”",
   "hassas": false,
   "turk": true
  },
@@ -181,12 +181,12 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Altın Post Nişanı",
+  "neden_onemli": "Ödül: Altın Post Nişanı, Kara Kartal Nişanı",
   "hassas": false,
   "turk": false
  },
  {
-  "ad": "Maria Gaetana Agnesi",
+  "ad": "Q200392",
   "dogum_tarihi": "1718-05-16",
   "vefat_tarihi": "1799-01-09",
   "vefat_yasi": 80,

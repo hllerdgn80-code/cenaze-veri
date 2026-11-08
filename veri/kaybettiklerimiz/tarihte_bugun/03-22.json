@@ -82,7 +82,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q5879",
-  "sitelink": 278,
+  "sitelink": 280,
   "fotograf": {
    "dosya": "Goethe (Stieler 1828).jpg",
    "lisans": "Public domain",
@@ -95,7 +95,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Doğu-Batı Divanı”, “Wilhelm Meister'in Çıraklık Yılları”, “Egmont”",
+  "neden_onemli": "Önemli eserleri: “Doğu-Batı Divanı”, “Egmont”, “Wilhelm Meister'in Çıraklık Yılları”",
   "hassas": false,
   "turk": false
  },
@@ -173,7 +173,35 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Büyük Polonya Cumhuriyeti Liyakat Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, Fransa Başbakanı",
+  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Büyük Norveç Kraliyet Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, Fransa Başbakanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Kenzō Tange",
+  "dogum_tarihi": "1913-09-04",
+  "vefat_tarihi": "2005-03-22",
+  "vefat_yasi": 91,
+  "dogum_yeri": "Sakai",
+  "vefat_yeri": "Minato-ku",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q151794",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Kenzo Tange 1981.jpg",
+   "lisans": "CC BY-SA 3.0 nl",
+   "yazar": "Hans van Dijk for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenzo_Tange_1981.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenzo_Tange_1981.jpg"
+  },
+  "meslek": [
+   "Mimar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Tokyo Olimpiyat Stadı”, “Singapur Kapalı Stadyumu”, “Yoyogi Ulusal Spor Salonu”",
   "hassas": false,
   "turk": false
  },
@@ -207,34 +235,6 @@
   "turk": false
  },
  {
-  "ad": "Kenzō Tange",
-  "dogum_tarihi": "1913-09-04",
-  "vefat_tarihi": "2005-03-22",
-  "vefat_yasi": 91,
-  "dogum_yeri": "Sakai",
-  "vefat_yeri": "Minato-ku",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q151794",
-  "sitelink": 65,
-  "fotograf": {
-   "dosya": "Kenzo Tange 1981.jpg",
-   "lisans": "CC BY-SA 3.0 nl",
-   "yazar": "Hans van Dijk for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenzo_Tange_1981.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenzo_Tange_1981.jpg"
-  },
-  "meslek": [
-   "Mimar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Tokyo Olimpiyat Stadı”, “Yoyogi Ulusal Spor Salonu”, “Singapur Kapalı Stadyumu”",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "William Hanna",
   "dogum_tarihi": "1910-07-14",
   "vefat_tarihi": "2001-03-22",
@@ -245,7 +245,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q263324",
-  "sitelink": 54,
+  "sitelink": 55,
   "fotograf": {
    "dosya": "William Hanna 1977.jpg",
    "lisans": "Public domain",
@@ -283,35 +283,32 @@
   "turk": false
  },
  {
-  "ad": "Gurlu Muhammet",
-  "dogum_tarihi": "1144",
-  "vefat_tarihi": "1206-03-22",
-  "vefat_yasi": 62,
+  "ad": "Hamza bin Abdülmuttalib",
+  "dogum_tarihi": "0568",
+  "vefat_tarihi": "0625-03-22",
+  "vefat_yasi": 57,
   "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Ghor",
-  "vefat_yeri": "Dhamiak",
-  "defin_yeri": "Sohawa Tehsil",
+  "dogum_yeri": "Mekke",
+  "vefat_yeri": "Uhud Dağı",
+  "defin_yeri": "Uhud Şüheda Mezarlığı",
   "defin_il": null,
-  "defin_ulke": "Pakistan",
-  "wikidata_id": "Q1647182",
+  "defin_ulke": null,
+  "wikidata_id": "Q770033",
   "sitelink": 49,
   "fotograf": {
-   "dosya": "Mu'izz al-Din Muhammad. AH 599-602 AD 1171-1206.jpg",
+   "dosya": "Hamza Bin Abd Al-Mottalib Name.png",
    "lisans": "CC BY-SA 3.0",
-   "yazar": "CNG Coins",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mu%27izz_al-Din_Muhammad._AH_599-602_AD_1171-1206.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Mu%27izz_al-Din_Muhammad._AH_599-602_AD_1171-1206.jpg"
+   "yazar": "بلال الدويك",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamza_Bin_Abd_Al-Mottalib_Name.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hamza_Bin_Abd_Al-Mottalib_Name.png"
   },
   "meslek": [
-   "Hükümdar"
+   "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: sultan",
-  "hassas": true,
-  "hassas_nedeni": [
-   "cinayet"
-  ],
+  "neden_onemli": null,
+  "hassas": false,
   "turk": false
  }
 ]

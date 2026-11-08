@@ -587,6 +587,18 @@
   ]
  },
  {
+  "wikidata_id": "Q170046",
+  "ad": "Cafer-i Sâdık",
+  "aciklama": "Müslüman alim ve Şii İmamı (702-765)",
+  "neden": [
+   "cinayet"
+  ],
+  "vefat_tarihi": "0765-12-20",
+  "kategoriler": [
+   "tarihte_bugun"
+  ]
+ },
+ {
   "wikidata_id": "Q1409",
   "ad": "Caligula",
   "aciklama": null,
@@ -1205,13 +1217,13 @@
   ]
  },
  {
-  "wikidata_id": "Q1647182",
-  "ad": "Gurlu Muhammet",
+  "wikidata_id": "Q191305",
+  "ad": "Gérard de Nerval",
   "aciklama": null,
   "neden": [
-   "cinayet"
+   "hanging to death"
   ],
-  "vefat_tarihi": "1206-03-22",
+  "vefat_tarihi": "1855-01-26",
   "kategoriler": [
    "tarihte_bugun"
   ]
@@ -1301,18 +1313,6 @@
   "vefat_tarihi": "1961-09-16",
   "kategoriler": [
    "bakanlar",
-   "tarihte_bugun"
-  ]
- },
- {
-  "wikidata_id": "Q171571",
-  "ad": "Hayden Panettiere",
-  "aciklama": null,
-  "neden": [
-   "golden shot"
-  ],
-  "vefat_tarihi": "2026-08-16",
-  "kategoriler": [
    "tarihte_bugun"
   ]
  },
@@ -2041,18 +2041,6 @@
   "vefat_tarihi": "2020-01-03",
   "kategoriler": [
    "tarihte_bugun"
-  ]
- },
- {
-  "wikidata_id": "Q1738444",
-  "ad": "Kemal Kayacan",
-  "aciklama": null,
-  "neden": [
-   "cinayet"
-  ],
-  "vefat_tarihi": "1992-07-29",
-  "kategoriler": [
-   "siyasetciler"
   ]
  },
  {
@@ -2885,6 +2873,18 @@
   ]
  },
  {
+  "wikidata_id": "Q171571",
+  "ad": "Q171571",
+  "aciklama": null,
+  "neden": [
+   "golden shot"
+  ],
+  "vefat_tarihi": "2026-08-16",
+  "kategoriler": [
+   "tarihte_bugun"
+  ]
+ },
+ {
   "wikidata_id": "Q179157",
   "ad": "Q179157",
   "aciklama": null,
@@ -2893,18 +2893,6 @@
    "cinayet"
   ],
   "vefat_tarihi": "1997-03-09",
-  "kategoriler": [
-   "tarihte_bugun"
-  ]
- },
- {
-  "wikidata_id": "Q191305",
-  "ad": "Q191305",
-  "aciklama": null,
-  "neden": [
-   "hanging to death"
-  ],
-  "vefat_tarihi": "1855-01-26",
   "kategoriler": [
    "tarihte_bugun"
   ]
@@ -3556,7 +3544,7 @@
  },
  {
   "wikidata_id": "Q1419",
-  "ad": "Vespasian",
+  "ad": "Vespasianus",
   "aciklama": null,
   "neden": [
    "cinayet"
@@ -3786,19 +3774,6 @@
    "ölüm cezası"
   ],
   "vefat_tarihi": "1972-05-06",
-  "kategoriler": [
-   "siyasetciler"
-  ]
- },
- {
-  "wikidata_id": "Q8072883",
-  "ad": "Ziya Hurşit",
-  "aciklama": null,
-  "neden": [
-   "hanging to death",
-   "ölüm cezası"
-  ],
-  "vefat_tarihi": "1926-07-14",
   "kategoriler": [
    "siyasetciler"
   ]

@@ -18,7 +18,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Avrupa Konseyi Parlamenterler Meclisi Temsilcisi",
+  "neden_onemli": "Görev: Avrupa Konseyi Parlamenterler Meclisi Temsilcisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -105,7 +105,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Pour le Mérite. Görev: Berlin yönetici belediye başkanı, Bundestag üyesi",
+  "neden_onemli": "Ödül: Büyük Macaristan Liyakat Nişanı, Goldene Kamera. Görev: Bundestag üyesi, Berlin yönetici belediye başkanı",
   "hassas": false,
   "turk": false
  },
@@ -322,9 +322,7 @@
    "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Raleigh_Mott%2C_1910.jpg",
    "sayfa": "https://commons.wikimedia.org/wiki/File:John_Raleigh_Mott%2C_1910.jpg"
   },
-  "meslek": [
-   "Diplomat"
-  ],
+  "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Barış Ödülü sahibi",

@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Top Gun”, “Willow”, “Heat”",
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -89,7 +89,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q189758",
   "sitelink": 80,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Marvin Gaye (1973 publicity photo).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph by Jim Britt, whose other (copyrighted) photos of Gaye from the same session—many of them in full color—can be seen at his website. Originally distributed by Motown Records.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marvin_Gaye_%281973_publicity_photo%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Marvin_Gaye_%281973_publicity_photo%29.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -111,7 +117,13 @@
   "defin_ulke": "Rusya",
   "wikidata_id": "Q297736",
   "sitelink": 74,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sobyanin meeting Evtushenko 05.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "mos.ru",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sobyanin_meeting_Evtushenko_05.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sobyanin_meeting_Evtushenko_05.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -133,7 +145,13 @@
   "defin_ulke": "Portekiz",
   "wikidata_id": "Q51068",
   "sitelink": 72,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Emperor karl of austria-hungary 1917.png",
+   "lisans": "Public domain",
+   "yazar": "Wenzl Weis",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_karl_of_austria-hungary_1917.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Emperor_karl_of_austria-hungary_1917.png"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -155,7 +173,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q1673706",
   "sitelink": 72,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Isamu Akasaki 201111.jpg",
+   "lisans": "CC BY 4.0",
+   "yazar": "大臣官房人事課",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isamu_Akasaki_201111.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Isamu_Akasaki_201111.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -177,36 +201,19 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q154842",
   "sitelink": 72,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Max Ernst 1968.jpg",
+   "lisans": "CC0",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max_Ernst_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Max_Ernst_1968.jpg"
+  },
   "meslek": [
    "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Venedik Bienali. Önemli eserleri: “Celebes”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Prokopius",
-  "dogum_tarihi": "0500",
-  "vefat_tarihi": "0565",
-  "vefat_yasi": 65,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Caesarea Maritima",
-  "vefat_yeri": "Konstantinopolis",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q186153",
-  "sitelink": 70,
-  "fotograf": null,
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “De aedificiis”",
   "hassas": false,
   "turk": false
  },
@@ -223,11 +230,17 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q178525",
   "sitelink": 68,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Queen Eleanor (Frederick Sandys, 1858).jpg",
+   "lisans": "Public domain",
+   "yazar": "Frederick Sandys",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Eleanor_%28Frederick_Sandys%2C_1858%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Eleanor_%28Frederick_Sandys%2C_1858%29.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Poitiers Kontu, Akitanya Dükü",
+  "neden_onemli": "Görev: Akitanya Dükü, Poitiers Kontu",
   "hassas": false,
   "turk": false
  },
@@ -243,7 +256,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q191499",
   "sitelink": 65,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Scott Joplin 19072.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott_Joplin_19072.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_19072.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -265,13 +284,45 @@
   "defin_ulke": "Yunanistan",
   "wikidata_id": "Q152935",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Georgeiiofgreece.jpg",
+   "lisans": "Public domain",
+   "yazar": "United States Office of War Information, Overseas Picture Division, Washington Division.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Georgeiiofgreece.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Georgeiiofgreece.jpg"
+  },
   "meslek": [
    "Hükümdar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Dannebrog Yoldaşlığı. Görev: Helenler kralı",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Simo Häyhä",
+  "dogum_tarihi": "1905-12-17",
+  "vefat_tarihi": "2002-04-01",
+  "vefat_yasi": 96,
+  "dogum_yeri": "Rautjärvi",
+  "vefat_yeri": "Hamina",
+  "defin_yeri": "Ruokolahti Church",
+  "defin_il": null,
+  "defin_ulke": "Finlandiya",
+  "wikidata_id": "Q185489",
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Mestariampuja Simo Häyhä \"Saharan kauhun\" komppaniasta, SAKuva-9479.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mestariampuja_Simo_H%C3%A4yh%C3%A4_%22Saharan_kauhun%22_komppaniasta%2C_SAKuva-9479.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Mestariampuja_Simo_H%C3%A4yh%C3%A4_%22Saharan_kauhun%22_komppaniasta%2C_SAKuva-9479.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Fin keskin nişancı",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

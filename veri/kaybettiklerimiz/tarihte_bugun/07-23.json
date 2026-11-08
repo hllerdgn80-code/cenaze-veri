@@ -33,7 +33,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q34836",
-  "sitelink": 160,
+  "sitelink": 161,
   "fotograf": {
    "dosya": "Ulysses S. Grant 1870-1880.jpg",
    "lisans": "Public domain",
@@ -61,7 +61,7 @@
   "defin_il": null,
   "defin_ulke": "Rusya",
   "wikidata_id": "Q8003",
-  "sitelink": 147,
+  "sitelink": 148,
   "fotograf": {
    "dosya": "Sergei Eisenstein 03.jpg",
    "lisans": "Public domain",
@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Moskova'nın 800. Yıldönümünü Kutlama Jübile Madalyası, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Önemli eserleri: “Ekim”, “Potemkin Zırhlısı”",
+  "neden_onemli": "Ödül: Onur Rozeti Nişanı, 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası. Önemli eserleri: “Ekim”, “Potemkin Zırhlısı”",
   "hassas": false,
   "turk": false
  },
@@ -229,7 +229,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q49285",
-  "sitelink": 87,
+  "sitelink": 88,
   "fotograf": {
    "dosya": "Sally Ride (1984).jpg",
    "lisans": "Public domain",
@@ -298,35 +298,34 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Nişan-ı Pakistan, Liyakat Nişanı (Lübnan)",
+  "neden_onemli": "Ödül: Liyakat Nişanı (Lübnan), Ulusal Liyakat Nişan (Moritanya)",
   "hassas": false,
   "turk": false
  },
  {
-  "ad": "I. Mihail",
-  "dogum_tarihi": "1596-07-22",
-  "vefat_tarihi": "1645-07-23",
-  "vefat_yasi": 49,
-  "dogum_yeri": "Moskova",
-  "vefat_yeri": "Moskova",
-  "defin_yeri": "Başmelek Katedrali",
+  "ad": "XI. Benedictus",
+  "dogum_tarihi": "1240",
+  "vefat_tarihi": "1304-07-15",
+  "vefat_yasi": 64,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Treviso",
+  "vefat_yeri": "Perugia",
+  "defin_yeri": "San Domenico",
   "defin_il": null,
-  "defin_ulke": "Rusya",
-  "wikidata_id": "Q181915",
-  "sitelink": 72,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q169301",
+  "sitelink": 74,
   "fotograf": {
-   "dosya": "Engraved portrait of Mikhail Fedorovich.jpg",
+   "dosya": "39 Benedetto XI.jpg",
    "lisans": "Public domain",
-   "yazar": "Монкорне",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Engraved_portrait_of_Mikhail_Fedorovich.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Engraved_portrait_of_Mikhail_Fedorovich.jpg"
+   "yazar": "Tommaso da Modena",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/39_Benedetto_XI.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:39_Benedetto_XI.jpg"
   },
-  "meslek": [
-   "Hükümdar"
-  ],
+  "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Rus çarı",
+  "neden_onemli": "Görev: Papa",
   "hassas": false,
   "turk": false
  }

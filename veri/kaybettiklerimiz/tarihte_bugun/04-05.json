@@ -11,8 +11,14 @@
   "defin_il": null,
   "defin_ulke": "İsrail",
   "wikidata_id": "Q302",
-  "sitelink": 346,
-  "fotograf": null,
+  "sitelink": 347,
+  "fotograf": {
+   "dosya": "Spas vsederzhitel sinay (cropped1).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown artistUnknown artist",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spas_vsederzhitel_sinay_%28cropped1%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay_%28cropped1%29.jpg"
+  },
   "meslek": [
    "Dini lider"
   ],
@@ -43,7 +49,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Üstün Hizmet Madalyası, Nişan-ı Pakistan",
+  "neden_onemli": "Ödül: Mavi Gök ve Beyaz Güneş Nişanı, Üstün Hizmet Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -59,7 +65,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q8446",
   "sitelink": 129,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Nirvana around 1992 (cropped).jpg",
+   "lisans": "CC BY-SA 2.0",
+   "yazar": "P.B. Rage from USA",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nirvana_around_1992_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -83,8 +95,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q83059",
-  "sitelink": 120,
-  "fotograf": null,
+  "sitelink": 121,
+  "fotograf": {
+   "dosya": "Saul Bellow (Herzog portrait).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photograph by Jeff Lowenthal. Published by Viking Press.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saul_Bellow_%28Herzog_portrait%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saul_Bellow_%28Herzog_portrait%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -105,8 +123,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q127417",
-  "sitelink": 113,
-  "fotograf": null,
+  "sitelink": 114,
+  "fotograf": {
+   "dosya": "MacArthur Manila (cropped2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer not credited.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MacArthur_Manila_%28cropped2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:MacArthur_Manila_%28cropped2%29.jpg"
+  },
   "meslek": [
    "Subay"
   ],
@@ -128,8 +152,14 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q43689",
-  "sitelink": 98,
-  "fotograf": null,
+  "sitelink": 99,
+  "fotograf": {
+   "dosya": "AmbroseOfMilan.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AmbroseOfMilan.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:AmbroseOfMilan.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -151,7 +181,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q6711",
   "sitelink": 95,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Allen Ginsberg 1979 - cropped.jpg",
+   "lisans": "CC0",
+   "yazar": "Hans van Dijk for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Ginsberg_1979_-_cropped.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Allen_Ginsberg_1979_-_cropped.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -173,13 +209,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q80739",
   "sitelink": 93,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Charlton Heston - 1953.jpg",
+   "lisans": "Public domain",
+   "yazar": "20th Century Fox studios",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlton_Heston_-_1953.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Charlton_Heston_-_1953.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Theatre World Award",
+  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, Altın Küre Cecil B. DeMille Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -195,7 +237,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q184623",
   "sitelink": 92,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Anonyme - Portrait de Georges Danton (1759-1794), orateur et homme politique - P712 - Musée Carnavalet - 2.jpg",
+   "lisans": "CC0",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_Mus%C3%A9e_Carnavalet_-_2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Anonyme_-_Portrait_de_Georges_Danton_%281759-1794%29%2C_orateur_et_homme_politique_-_P712_-_Mus%C3%A9e_Carnavalet_-_2.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -220,7 +268,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q189081",
   "sitelink": 76,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Howard Hughes 1938 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Acme Newspictures",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Howard_Hughes_1938_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Howard_Hughes_1938_%28cropped%29.jpg"
+  },
   "meslek": [
    "Film yönetmeni"
   ],
@@ -242,7 +296,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q234463",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sydney Brenner OIST 2008 (33208371153) (cropped).jpg",
+   "lisans": "CC BY 2.0",
+   "yazar": "OIST from Onna Village, Japan",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Brenner_OIST_2008_%2833208371153%29_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sydney_Brenner_OIST_2008_%2833208371153%29_%28cropped%29.jpg"
+  },
   "meslek": [
    "Biyolog"
   ],

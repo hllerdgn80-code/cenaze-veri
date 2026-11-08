@@ -36,7 +36,7 @@
   "defin_il": null,
   "defin_ulke": "Kolombiya",
   "wikidata_id": "Q7282241",
-  "sitelink": 167,
+  "sitelink": 166,
   "fotograf": {
    "dosya": "ラファエル・オロスコ・マエストレ.jpg",
    "lisans": "CC BY-SA 4.0",
@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q40531",
-  "sitelink": 121,
+  "sitelink": 122,
   "fotograf": {
    "dosya": "John Wayne - still portrait.jpg",
    "lisans": "Public domain",
@@ -179,7 +179,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q313013",
-  "sitelink": 64,
+  "sitelink": 65,
   "fotograf": {
    "dosya": "Brian Wilson of the Beach Boys in West Los Angeles 1990 photographed by Ithaka Darin Pappas.jpg",
    "lisans": "CC BY-SA 4.0",
@@ -225,6 +225,34 @@
   "turk": false
  },
  {
+  "ad": "Robert E. Howard",
+  "dogum_tarihi": "1906-01-22",
+  "vefat_tarihi": "1936-06-11",
+  "vefat_yasi": 30,
+  "dogum_yeri": "Peaster",
+  "vefat_yeri": "Cross Plains",
+  "defin_yeri": "Greenleaf Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q207640",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Robert E Howard suit.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_E_Howard_suit.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_E_Howard_suit.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Ejderhanın Saati”, “Cehennem Güvercinleri”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Françoise Hardy",
   "dogum_tarihi": "1944-01-17",
   "vefat_tarihi": "2024-06-11",
@@ -249,34 +277,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Robert E. Howard",
-  "dogum_tarihi": "1906-01-22",
-  "vefat_tarihi": "1936-06-11",
-  "vefat_yasi": 30,
-  "dogum_yeri": "Peaster",
-  "vefat_yeri": "Cross Plains",
-  "defin_yeri": "Greenleaf Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q207640",
-  "sitelink": 61,
-  "fotograf": {
-   "dosya": "Robert E Howard suit.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_E_Howard_suit.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Robert_E_Howard_suit.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Ejderhanın Saati”, “Cehennem Güvercinleri”",
   "hassas": false,
   "turk": false
  },

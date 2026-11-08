@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q7226",
-  "sitelink": 195,
+  "sitelink": 196,
   "fotograf": {
    "dosya": "Contemporaine afb jeanne d arc.png",
    "lisans": "Public domain",
@@ -65,7 +65,7 @@
   "vefat_tarihi": "1845-06-08",
   "vefat_yasi": 78,
   "dogum_yeri": "Waxhaws",
-  "vefat_yeri": "Davidson ilçesi",
+  "vefat_yeri": "The Hermitage",
   "defin_yeri": "The Hermitage",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -186,7 +186,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q23357",
   "sitelink": 96,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Photo of Abraham Harold Maslow by William Carter (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "William Carter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_Abraham_Harold_Maslow_by_William_Carter_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_Abraham_Harold_Maslow_by_William_Carter_%28cropped%29.jpg"
+  },
   "meslek": [
    "Akademisyen"
   ],
@@ -327,7 +333,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Roma imparatoru, kayser",
+  "neden_onemli": "Görev: kayser, Roma imparatoru",
   "hassas": false,
   "turk": false
  }

@@ -28,11 +28,11 @@
   "vefat_yasi": 80,
   "dogum_yeri": "Kalküta",
   "vefat_yeri": "Kalküta",
-  "defin_yeri": null,
+  "defin_yeri": "Ganj Nehri",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Hindistan",
   "wikidata_id": "Q7241",
-  "sitelink": 247,
+  "sitelink": 248,
   "fotograf": {
    "dosya": "Rabindranath Tagore in 1909.jpg",
    "lisans": "Public domain",
@@ -88,7 +88,7 @@
   "defin_il": null,
   "defin_ulke": "İsveç",
   "wikidata_id": "Q151911",
-  "sitelink": 89,
+  "sitelink": 90,
   "fotograf": {
    "dosya": "Jöns Jacob Berzelius from Familj-Journalen1873.png",
    "lisans": "Public domain",
@@ -116,7 +116,7 @@
   "defin_il": null,
   "defin_ulke": "Rusya",
   "wikidata_id": "Q49484",
-  "sitelink": 85,
+  "sitelink": 86,
   "fotograf": {
    "dosya": "Constantin Stanislavski.jpg",
    "lisans": "Public domain",
@@ -129,7 +129,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Sovyetler Birliği Halk Sanatçısı, Kızıl Kartal Nişanı",
+  "neden_onemli": "Ödül: Kızıl Kartal Nişanı, Sovyetler Birliği Halk Sanatçısı",
   "hassas": false,
   "turk": false
  },
@@ -288,7 +288,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q463891",
-  "sitelink": 53,
+  "sitelink": 54,
   "fotograf": {
    "dosya": "Virginia-Apgar-July-6-1959.jpg",
    "lisans": "Public domain",

@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: York Dükü, Chester Kontu. Görev: Galler Prensi, York Dükü",
+  "neden_onemli": "Ödül: York Dükü, Chester Kontu. Görev: Galler Prensi, Chester Kontu",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -75,7 +75,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:HusseinJordanien.jpg"
   },
   "meslek": [
-   "Hükümdar"
+   "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -279,7 +279,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Sosyalist Emek Kahramanı ünvanı, Sevastopol Savunması Madalyası",
+  "neden_onemli": "Ödül: Sevastopol Savunması Madalyası, Sosyalist Emek Kahramanı ünvanı",
   "hassas": false,
   "turk": false
  },

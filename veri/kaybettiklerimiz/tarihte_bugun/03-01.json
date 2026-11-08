@@ -141,6 +141,34 @@
   "turk": false
  },
  {
+  "ad": "Arthur Koestler",
+  "dogum_tarihi": "1905-09-05",
+  "vefat_tarihi": "1983-03-01",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Budapeşte",
+  "vefat_yeri": "Londra",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q78494",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Arthur Koestler (1969).jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Eric Koch for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Koestler_%281969%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Koestler_%281969%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Sonning Ödülü, Britanya İmparatorluğu genel kurmay başkanı. Önemli eserleri: “Sonnenfinsternis”, “Onüçüncü Kabile”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Akira Toriyama",
   "dogum_tarihi": "1955-04-05",
   "vefat_tarihi": "2024-03-01",
@@ -159,34 +187,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Shogakukan Manga Ödülü. Önemli eserleri: “Blue Dragon”, “Dragon Quest”, “Dr. Slump”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Arthur Koestler",
-  "dogum_tarihi": "1905-09-05",
-  "vefat_tarihi": "1983-03-01",
-  "vefat_yasi": 77,
-  "dogum_yeri": "Budapeşte",
-  "vefat_yeri": "Londra",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q78494",
-  "sitelink": 72,
-  "fotograf": {
-   "dosya": "Arthur Koestler (1969).jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Eric Koch for Anefo",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_Koestler_%281969%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Arthur_Koestler_%281969%29.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Sonning Ödülü, Britanya İmparatorluğu genel kurmay başkanı. Önemli eserleri: “Sonnenfinsternis”, “Onüçüncü Kabile”",
   "hassas": false,
   "turk": false
  },
@@ -248,6 +248,29 @@
   "turk": false
  },
  {
+  "ad": "Prokopius",
+  "dogum_tarihi": "0500",
+  "vefat_tarihi": "0506",
+  "vefat_yasi": 6,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Caesarea Maritima",
+  "vefat_yeri": null,
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q186153",
+  "sitelink": 70,
+  "fotograf": null,
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “De aedificiis”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Alain Resnais",
   "dogum_tarihi": "1922-06-03",
   "vefat_tarihi": "2014-03-01",
@@ -271,7 +294,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Aslan. Aday olduğu ödül: BAFTA En İyi Film Ödülü, En İyi Dramatik Sunum Hugo Ödülü",
+  "neden_onemli": "Ödül: Altın Aslan. Aday olduğu ödül: BAFTA En İyi Film Ödülü, En İyi Yönetmenlik için Directors Guild of America Ödülü - Uzun Metraj Film",
   "hassas": false,
   "turk": false
  },
@@ -297,34 +320,6 @@
   "meslek": [],
   "aciklama": "Fransız futbolcu ve futbol menajeri (1933 – 2023)",
   "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Georges J. F. Köhler",
-  "dogum_tarihi": "1946-04-17",
-  "vefat_tarihi": "1995-03-01",
-  "vefat_yasi": 48,
-  "dogum_yeri": "Münih",
-  "vefat_yeri": "Freiburg im Breisgau",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q77160",
-  "sitelink": 52,
-  "fotograf": {
-   "dosya": "40. Tagung 1990 Mediziner Portraits; Prof. Köhler (Freiburg) - W134Nr.126381c1 - Willy Pragher (cropped).jpg",
-   "lisans": "CC BY 3.0 de",
-   "yazar": "Willy Pragher",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/40._Tagung_1990_Mediziner_Portraits%3B_Prof._K%C3%B6hler_%28Freiburg%29_-_W134Nr.126381c1_-_Willy_Pragher_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:40._Tagung_1990_Mediziner_Portraits%3B_Prof._K%C3%B6hler_%28Freiburg%29_-_W134Nr.126381c1_-_Willy_Pragher_%28cropped%29.jpg"
-  },
-  "meslek": [
-   "Biyolog"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
   "neden_onemli": null,
   "hassas": false,
   "turk": false

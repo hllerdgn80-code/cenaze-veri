@@ -32,7 +32,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q7374",
-  "sitelink": 188,
+  "sitelink": 189,
   "fotograf": {
    "dosya": "Hitchcock, Alfred 02.jpg",
    "lisans": "Public domain",
@@ -45,7 +45,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Saturn Ödülleri, Altın Küre Ödülleri. Önemli eserleri: “İtiraf Ediyorum”, “Şüphe”, “Ölüm Kararı”",
+  "neden_onemli": "Ödül: Altın Küre Cecil B. DeMille Ödülü, Saturn Ödülleri. Önemli eserleri: “Şüphe”, “Aşktan da Üstün”, “İtiraf Ediyorum”",
   "hassas": false,
   "turk": false
  },
@@ -60,7 +60,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q9391",
-  "sitelink": 173,
+  "sitelink": 174,
   "fotograf": {
    "dosya": "Ludwig Wittgenstein.jpg",
    "lisans": "Public domain",
@@ -101,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Yeni Yıl Şarkısı”, “Kapıdaki Düşman”, “Kanca”",
+  "neden_onemli": "Önemli eserleri: “Yeni Yıl Şarkısı”, “Kapıdaki Düşman”, “Pamuk Prenses ve Avcı”",
   "hassas": false,
   "turk": false
  },
@@ -173,7 +173,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q186042",
   "sitelink": 76,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "John Kenneth Galbraith from the back cover of \"The Affluent Society\".jpeg",
+   "lisans": "Public domain",
+   "yazar": "Published by Houghton Mifflin Company. Photographer is unknown.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Kenneth_Galbraith_from_the_back_cover_of_%22The_Affluent_Society%22.jpeg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:John_Kenneth_Galbraith_from_the_back_cover_of_%22The_Affluent_Society%22.jpeg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -263,7 +269,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Milyoner”, “Pi'nin Yaşamı”",
+  "neden_onemli": "Önemli eserleri: “Pi'nin Yaşamı”, “Milyoner”",
   "hassas": false,
   "turk": false
  },

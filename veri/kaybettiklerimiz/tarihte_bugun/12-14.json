@@ -38,7 +38,7 @@
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q118946614",
-  "sitelink": 11,
+  "sitelink": 12,
   "fotograf": null,
   "meslek": [
    "Siyasetçi"
@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kongre Altın Madalyası. Görev: genel başkan, Amerika Birleşik Devletleri Başkanı",
+  "neden_onemli": "Ödül: Kongre Altın Madalyası. Görev: Amerika Birleşik Devletleri Başkanı, genel başkan",
   "hassas": false,
   "turk": false
  },
@@ -297,7 +297,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: kardinal, Arras Roma Katolik piskoposu",
+  "neden_onemli": "Görev: Papa, kardinal",
   "hassas": false,
   "turk": false
  },
@@ -321,9 +321,9 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Charles_III_of_Spain_high_resolution.jpg"
   },
   "meslek": [],
-  "aciklama": "İspanya kralı",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: İspanya'nın devlet başkanı",
   "hassas": false,
   "turk": false
  }

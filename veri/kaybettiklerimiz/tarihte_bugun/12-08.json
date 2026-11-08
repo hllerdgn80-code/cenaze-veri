@@ -23,9 +23,9 @@
  },
  {
   "ad": "Şehzade Mehmed Abid",
-  "dogum_tarihi": "1904-09-17",
+  "dogum_tarihi": "1905-09-17",
   "vefat_tarihi": "1973-12-08",
-  "vefat_yasi": 69,
+  "vefat_yasi": 68,
   "dogum_yeri": "Yıldız Sarayı",
   "vefat_yeri": "Beyrut",
   "defin_yeri": "Şam Süleymaniye Külliyesi Mezarlığı",
@@ -54,7 +54,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q1203",
-  "sitelink": 185,
+  "sitelink": 186,
   "fotograf": {
    "dosya": "John Lennon, 1974 (cropped).jpg",
    "lisans": "CC BY 4.0",
@@ -67,7 +67,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, En İyi Film Müziği Akademi Ödülü. Önemli eserleri: “Imagine”",
+  "neden_onemli": "Ödül: Grammy Yaşam Boyu Başarı Ödülü, Rock and Roll Hall of Fame. Önemli eserleri: “Imagine”",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -127,7 +127,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi. Önemli eserleri: “Boole fonksiyonu”, “Boole eşitsizliği”, “Boole cebiri”",
+  "neden_onemli": "Ödül: Kraliyet Madalyası, Royal Society Üyesi. Önemli eserleri: “Boole fonksiyonu”, “Boole cebiri”, “Boole eşitsizliği”",
   "hassas": false,
   "turk": false
  },

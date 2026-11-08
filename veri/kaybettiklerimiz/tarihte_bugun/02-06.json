@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Nişanı, Order of the Companions of Honour. Görev: York Dükü, İmparator",
+  "neden_onemli": "Ödül: Liyakat Nişanı, Order of the Companions of Honour. Görev: İmparator, York Dükü",
   "hassas": false,
   "turk": false
  },
@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Fulbright. Görev: Şili Cumhurbaşkanı, başkan",
+  "neden_onemli": "Ödül: Fulbright. Görev: başkan, Şili Cumhurbaşkanı",
   "hassas": false,
   "turk": false
  },
@@ -189,7 +189,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },
@@ -250,6 +250,34 @@
   "turk": false
  },
  {
+  "ad": "Betty Friedan",
+  "dogum_tarihi": "1921-02-04",
+  "vefat_tarihi": "2006-02-04",
+  "vefat_yasi": 85,
+  "dogum_yeri": "Peoria",
+  "vefat_yeri": "Washington",
+  "defin_yeri": "Sag Harbor Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q234604",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Betty Friedan 1960.jpg",
+   "lisans": "Public domain",
+   "yazar": "Fred Palumbo, World Telegram staff photographer. Restored by Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Betty_Friedan_1960.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Betty_Friedan_1960.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: National Women's Hall of Fame",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Emilio Aguinaldo",
   "dogum_tarihi": "1869-03-22",
   "vefat_tarihi": "1964-02-06",
@@ -302,34 +330,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Kimya Ödülü sahibi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "II. Ahmed",
-  "dogum_tarihi": "1643-02-25",
-  "vefat_tarihi": "1695-02-06",
-  "vefat_yasi": 51,
-  "dogum_yeri": "Konstantinopolis",
-  "vefat_yeri": "Edirne",
-  "defin_yeri": "İstanbul",
-  "defin_il": "İstanbul",
-  "defin_ulke": null,
-  "wikidata_id": "Q199660",
-  "sitelink": 67,
-  "fotograf": {
-   "dosya": "Ahmet II.jpg",
-   "lisans": "Public domain",
-   "yazar": "Kapıdağlı",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahmet_II.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ahmet_II.jpg"
-  },
-  "meslek": [
-   "Hükümdar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  }

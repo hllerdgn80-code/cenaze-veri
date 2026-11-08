@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Çocukluk”, “Sevgi Neredeyse Tanrı Oradadır”, “Yeniyetmelik”. Aday olduğu ödül: Nobel Barış Ödülü, Nobel Edebiyat Ödülü",
+  "neden_onemli": "Önemli eserleri: “Peder Sergey”, “Şeytan”, “Hacı Murat”. Aday olduğu ödül: Nobel Barış Ödülü, Nobel Edebiyat Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -108,7 +108,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, Kızıl Yıldız Nişanı. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
+  "neden_onemli": "Ödül: Kızıl Yıldız Nişanı, Kızıl Bayrak Nişanı. Görev: Sovyetler Birliği Komünist Partisi Genel Sekreteri",
   "hassas": false,
   "turk": false
  },
@@ -132,11 +132,11 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Bundeskanzler_Helmut_Schmidt.jpg"
   },
   "meslek": [
-   "Siyasetçi"
+   "Bakan"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Onursal vatandaşlık, fahri doktora. Görev: Avrupa Parlamentosu milletvekilliği, Dışişleri Bakanı",
+  "neden_onemli": "Ödül: Onursal vatandaşlık, fahri doktora",
   "hassas": false,
   "turk": false
  },
@@ -192,7 +192,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En Kötü Yönetmen Razzie Ödülü, Kurgu dalında Pulitzer Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
+  "neden_onemli": "Ödül: Kurgu dalında Pulitzer Ödülü, En Kötü Yönetmen Razzie Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -314,9 +314,9 @@
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Dimetoka",
   "vefat_yeri": "Nimfeo (İzmir)",
-  "defin_yeri": null,
+  "defin_yeri": "Manisa ilçesi",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Yunanistan",
   "wikidata_id": "Q37072",
   "sitelink": 52,
   "fotograf": {

@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Bolivya Devlet Başkanı, başkan",
+  "neden_onemli": "Görev: Kolombiya cumhurbaşkanı, başkan",
   "hassas": false,
   "turk": false
  },
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Kraliçenin Gerdanlığı”, “Demir Maske”, “Üç Silahşorlar”",
+  "neden_onemli": "Önemli eserleri: “Kraliçenin Gerdanlığı”, “Üç Silahşorlar”, “Demir Maske”",
   "hassas": false,
   "turk": false
  },
@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Divan-ı Kebir”, “Fihi Ma Fih”, “Mecalis-i Seb'a”",
+  "neden_onemli": "Önemli eserleri: “Divan-ı Kebir”, “Fihi Ma Fih”, “Mesnevi”",
   "hassas": false,
   "turk": false
  },
@@ -107,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Kırk Yılı\" Jübile Madalyası, Büyük Mali Nişanı. Görev: Kuzey Kore Devlet Başkanlığı, Kore İşçi Partisi Başkanı",
+  "neden_onemli": "Ödül: \"1941-1945 Büyük Vatanseverlik Savaşında Zaferin Kırk Yılı\" Jübile Madalyası, Büyük Mali Nişanı. Görev: Kore İşçi Partisi Başkanı, Devlet İşleri Komisyonu Başkanı",
   "hassas": false,
   "turk": false
  },
@@ -122,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q39837",
-  "sitelink": 131,
+  "sitelink": 132,
   "fotograf": {
    "dosya": "Statue of Averroes in Córdoba, Spain.jpg",
    "lisans": "CC BY 3.0",
@@ -136,6 +136,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Tutarsızlığın Tutarsızlığı”, “Bidayetü'l-Müctehid”, “el-Külliyat fi't-Tıb”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Auguste Renoir",
+  "dogum_tarihi": "1841-02-25",
+  "vefat_tarihi": "1919-12-03",
+  "vefat_yasi": 78,
+  "dogum_yeri": "Limoges",
+  "vefat_yeri": "Cagnes-sur-Mer",
+  "defin_yeri": "Essoyes",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q39931",
+  "sitelink": 115,
+  "fotograf": {
+   "dosya": "Pierre Auguste Renoir, uncropped image.jpg",
+   "lisans": "Public domain",
+   "yazar": "UnknownUnknown Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Auguste_Renoir%2C_uncropped_image.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pierre_Auguste_Renoir%2C_uncropped_image.jpg"
+  },
+  "meslek": [
+   "Ressam"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “İki Kız Kardeş (Terasta)”, “Bal du moulin de la Galette”, “Salıncak (Pierre-Auguste Renoir)”",
   "hassas": false,
   "turk": false
  },
@@ -169,16 +197,17 @@
  },
  {
   "ad": "Fatıma",
-  "dogum_tarihi": "0604-07-30",
+  "dogum_tarihi": "0615",
   "vefat_tarihi": "0632-12-17",
-  "vefat_yasi": 28,
+  "vefat_yasi": 17,
+  "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Mekke",
   "vefat_yeri": "Medine",
-  "defin_yeri": "Cennetü'l-Bakı",
+  "defin_yeri": null,
   "defin_il": null,
-  "defin_ulke": "Suudi Arabistan",
+  "defin_ulke": null,
   "wikidata_id": "Q180123",
-  "sitelink": 101,
+  "sitelink": 102,
   "fotograf": {
    "dosya": "Paris, BnF, Supplément Persan 1030 fol. 467v cropped Fatima.jpg",
    "lisans": "Public domain",
@@ -247,7 +276,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Osmaniye Nişanı, Dizbağı Nişanı",
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Osmaniye Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -300,34 +329,6 @@
   },
   "meslek": [
    "Fizikçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Cesária Évora",
-  "dogum_tarihi": "1941-08-27",
-  "vefat_tarihi": "2011-12-17",
-  "vefat_yasi": 70,
-  "dogum_yeri": "Mindelo",
-  "vefat_yeri": "Mindelo",
-  "defin_yeri": "Mindelo",
-  "defin_il": null,
-  "defin_ulke": "Cabo Verde",
-  "wikidata_id": "Q103759",
-  "sitelink": 75,
-  "fotograf": {
-   "dosya": "Cesária Évora (2457851527).jpg",
-   "lisans": "CC BY-SA 2.0",
-   "yazar": "As fotos da Virada!",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ces%C3%A1ria_%C3%89vora_%282457851527%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ces%C3%A1ria_%C3%89vora_%282457851527%29.jpg"
-  },
-  "meslek": [
-   "Şarkıcı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

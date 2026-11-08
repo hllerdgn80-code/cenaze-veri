@@ -59,6 +59,34 @@
   "turk": true
  },
  {
+  "ad": "Aykut Barka",
+  "dogum_tarihi": "1951-12-16",
+  "vefat_tarihi": "2002-02-01",
+  "vefat_yasi": 50,
+  "dogum_yeri": "Fatih",
+  "vefat_yeri": "İstanbul",
+  "defin_yeri": "Zincirlikuyu Mezarlığı",
+  "defin_il": "İstanbul",
+  "defin_ulke": null,
+  "wikidata_id": "Q2229444",
+  "sitelink": 10,
+  "fotograf": {
+   "dosya": "Aykut barka1.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "The original uploader was Pulsar at English Wikipedia.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aykut_barka1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Aykut_barka1.jpg"
+  },
+  "meslek": [
+   "Jeolog"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": true
+ },
+ {
   "ad": "Şarlman",
   "dogum_tarihi": "0742-04-14",
   "vefat_tarihi": "0814-02-01",
@@ -69,7 +97,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q3044",
-  "sitelink": 186,
+  "sitelink": 188,
   "fotograf": {
    "dosya": "Charlemagne denier Mayence 812 814.jpg",
    "lisans": "Public domain",
@@ -97,7 +125,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q40904",
-  "sitelink": 140,
+  "sitelink": 141,
   "fotograf": {
    "dosya": "Bundesarchiv Bild183-R57262, Werner Heisenberg.jpg",
    "lisans": "CC BY-SA 3.0 de",
@@ -125,7 +153,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q47152",
-  "sitelink": 133,
+  "sitelink": 134,
   "fotograf": {
    "dosya": "Richard Rothwell (1800-1868) - Mary Wollstonecraft Shelley - NPG 1235 - National Portrait Gallery.jpg",
    "lisans": "Public domain",
@@ -181,7 +209,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q103949",
-  "sitelink": 99,
+  "sitelink": 100,
   "fotograf": {
    "dosya": "Busterkeaton edit.jpg",
    "lisans": "Public domain",
@@ -194,7 +222,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Önemli eserleri: “The General”, “Sherlock, Jr.”",
   "hassas": false,
   "turk": false
  },
@@ -306,35 +334,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Maximilian Schell",
-  "dogum_tarihi": "1930-12-08",
-  "vefat_tarihi": "2014-02-01",
-  "vefat_yasi": 83,
-  "dogum_yeri": "Viyana",
-  "vefat_yeri": "Innsbruck",
-  "defin_yeri": "Zentralfriedhof",
-  "defin_il": null,
-  "defin_ulke": "Avusturya",
-  "wikidata_id": "Q153018",
-  "sitelink": 77,
-  "fotograf": {
-   "dosya": "Maximilian Schell - 1970-1.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maximilian_Schell_-_1970-1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Maximilian_Schell_-_1970-1.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  }

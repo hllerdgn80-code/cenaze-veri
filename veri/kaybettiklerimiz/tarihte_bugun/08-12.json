@@ -32,7 +32,7 @@
   "defin_il": null,
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q37030",
-  "sitelink": 166,
+  "sitelink": 167,
   "fotograf": {
    "dosya": "Thomas Mann 1929.jpg",
    "lisans": "Public domain",
@@ -89,7 +89,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q82104",
   "sitelink": 107,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ian Fleming c. 1958 (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Erich Hartmann",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ian_Fleming_c._1958_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ian_Fleming_c._1958_%28cropped%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -123,7 +129,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kennedy Center Onur Ödülleri, Yardımcı Rolde Kadın Oyuncu Tarafından Üstün Performans Ekran Oyuncuları Derneği Ödülü. Aday olduğu ödül: En İyi Yardımcı Kadın Oyuncu Akademi Ödülü, BAFTA En İyi Kadın Oyuncu Ödülü",
+  "neden_onemli": "Ödül: Yardımcı Rolde Kadın Oyuncu Tarafından Üstün Performans Ekran Oyuncuları Derneği Ödülü, Kennedy Center Onur Ödülleri. Aday olduğu ödül: En İyi Yardımcı Kadın Oyuncu Akademi Ödülü, BAFTA En İyi Kadın Oyuncu Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -147,7 +153,7 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Henry_Fonda_in_Warlock.jpg"
   },
   "meslek": [
-   "Oyuncu"
+   "Dizi oyuncusu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

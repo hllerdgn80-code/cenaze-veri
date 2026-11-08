@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q401469",
-  "sitelink": 16,
+  "sitelink": 17,
   "fotograf": {
    "dosya": "Ahmed Riza Bey.png",
    "lisans": "Public domain",
@@ -63,7 +63,7 @@
   "vefat_yasi": 69,
   "dogum_yeri": "Adana",
   "vefat_yeri": "İstanbul",
-  "defin_yeri": "Kabasakal Mezarlığı",
+  "defin_yeri": "Adana",
   "defin_il": "Adana",
   "defin_ulke": null,
   "wikidata_id": "Q4831727",
@@ -102,7 +102,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Millî Eğitim Bakanı, Türkiye Büyük Millet Meclisi milletvekili",
+  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Millî Eğitim Bakanı",
   "hassas": false,
   "turk": true
  },
@@ -186,7 +186,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Onursal vatandaşlık",
+  "neden_onemli": "Ödül: Onursal vatandaşlık, Altın Leopar",
   "hassas": false,
   "turk": false
  },
@@ -327,7 +327,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Avrupa Muhabbeti”, “Buffy the Vampire Slayer”, “Dedikoducu Kız”",
+  "neden_onemli": "Önemli eserleri: “Buffy the Vampire Slayer”, “Dedikoducu Kız”, “17 Yeniden”",
   "hassas": false,
   "turk": false
  }

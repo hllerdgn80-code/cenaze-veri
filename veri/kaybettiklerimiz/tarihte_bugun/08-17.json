@@ -11,7 +11,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1405",
-  "sitelink": 246,
+  "sitelink": 247,
   "fotograf": {
    "dosya": "Augustus of Prima Porta (inv. 2290).jpg",
    "lisans": "CC BY-SA 4.0",
@@ -24,7 +24,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Pontifex Maximus, Romalı konsül",
+  "neden_onemli": "Görev: Romalı konsül, Pontifex Maximus",
   "hassas": false,
   "turk": false
  },
@@ -186,7 +186,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Büyük Polonya Cumhuriyeti Liyakat Nişanı, Büyük Dannebrog Nişanı. Görev: İtalya Başbakanı, İtalya Devlet Başkanı",
+  "neden_onemli": "Ödül: Büyük Polonya Cumhuriyeti Liyakat Nişanı, Büyük Dannebrog Nişanı. Görev: İtalya Devlet Başkanı, İtalya Başbakanı",
   "hassas": false,
   "turk": false
  },
@@ -219,7 +219,7 @@
   "turk": false
  },
  {
-  "ad": "Hayden Panettiere",
+  "ad": "Q171571",
   "dogum_tarihi": "1989-08-21",
   "vefat_tarihi": "2026-08-16",
   "vefat_yasi": 36,

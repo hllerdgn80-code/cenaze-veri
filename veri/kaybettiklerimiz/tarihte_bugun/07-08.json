@@ -73,7 +73,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Pavlonya Çiçekleri Nişanı, Brezilya Ulusal Güney Haç Nişanı. Görev: Japonya Başbakanı",
+  "neden_onemli": "Ödül: Pavlonya Çiçekleri Nişanı, Halife Nişanı. Görev: Japonya Başbakanı",
   "hassas": true,
   "hassas_nedeni": [
    "ateşli silah yaralanması",
@@ -93,13 +93,7 @@
   "defin_ulke": "Kuzey Kore",
   "wikidata_id": "Q41117",
   "sitelink": 161,
-  "fotograf": {
-   "dosya": "Kim Il-sung in 1950.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kim_Il-sung_in_1950.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kim_Il-sung_in_1950.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -121,13 +115,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q93343",
   "sitelink": 143,
-  "fotograf": {
-   "dosya": "Percy Bysshe Shelley by Alfred Clint.jpg",
-   "lisans": "Public domain",
-   "yazar": "After Amelia Curran",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Percy_Bysshe_Shelley_by_Alfred_Clint.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -172,11 +160,11 @@
   "vefat_yasi": 53,
   "dogum_yeri": "Darjeeling",
   "vefat_yeri": "Eaton Square",
-  "defin_yeri": null,
+  "defin_yeri": "East Sussex",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q129429",
-  "sitelink": 108,
+  "sitelink": 109,
   "fotograf": {
    "dosya": "Vivien Leigh Scarlet.jpg",
    "lisans": "Public domain",

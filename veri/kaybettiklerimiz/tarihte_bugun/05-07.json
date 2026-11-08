@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Görev: Türkiye'nin Paris Büyükelçisi, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -248,7 +248,7 @@
   "turk": false
  },
  {
-  "ad": "James George Frazer",
+  "ad": "James Frazer",
   "dogum_tarihi": "1854-01-01",
   "vefat_tarihi": "1941-05-07",
   "vefat_yasi": 87,

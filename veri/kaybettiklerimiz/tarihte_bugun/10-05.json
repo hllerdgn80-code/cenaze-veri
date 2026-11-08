@@ -60,14 +60,20 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q19837",
-  "sitelink": 231,
-  "fotograf": null,
+  "sitelink": 232,
+  "fotograf": {
+   "dosya": "Steve Jobs Headshot 2010-CROP2.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "MetalGearLiquid, based on File:Steve_Jobs_Headshot_2010-CROP.jpg made by Matt Yohe",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Jobs_Headshot_2010-CROP2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg"
+  },
   "meslek": [
    "Film yapımcısı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Grammy Trustees Ödülü, Başkanlık Özgürlük Madalyası. Önemli eserleri: “Apple II”, “Apple Lisa”, “Mac OS X 10.0”",
+  "neden_onemli": "Ödül: Grammy Trustees Ödülü, Başkanlık Özgürlük Madalyası. Önemli eserleri: “Apple II”, “Mac OS X 10.0”, “Apple Lisa”",
   "hassas": false,
   "turk": false
  },
@@ -83,7 +89,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q83159",
   "sitelink": 84,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "El papa Clemente VII, por Sebastiano del Piombo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sebastiano del Piombo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/El_papa_Clemente_VII%2C_por_Sebastiano_del_Piombo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:El_papa_Clemente_VII%2C_por_Sebastiano_del_Piombo.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -104,7 +116,13 @@
   "defin_ulke": "Hindistan",
   "wikidata_id": "Q207817",
   "sitelink": 79,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Amir Khusraw (portrait) presents a book of poetry to Ala'uddin Khalji. Khamsa (Quintet) by Amir Khusraw Dihlavi. Balkh, Afghanistan, 1503-1504 (Smithsonian, S1986.213).jpg",
+   "lisans": "Public domain",
+   "yazar": "Ala'uddin Muhammad al-Harawi (Calligrapher), 1503-1504",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amir_Khusraw_%28portrait%29_presents_a_book_of_poetry_to_Ala%27uddin_Khalji._Khamsa_%28Quintet%29_by_Amir_Khusraw_Dihlavi._Balkh%2C_Afghanistan%2C_1503-1504_%28Smithsonian%2C_S1986.213%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Amir_Khusraw_%28portrait%29_presents_a_book_of_poetry_to_Ala%27uddin_Khalji._Khamsa_%28Quintet%29_by_Amir_Khusraw_Dihlavi._Balkh%2C_Afghanistan%2C_1503-1504_%28Smithsonian%2C_S1986.213%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -126,7 +144,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q184659",
   "sitelink": 71,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Maurice Wilkins nobel.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maurice_Wilkins_nobel.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Maurice_Wilkins_nobel.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -148,7 +172,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q107405",
   "sitelink": 70,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Onsager 1968.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Onsager_1968.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Onsager_1968.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -170,13 +200,19 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q193346",
   "sitelink": 64,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Henning Mankell 3 2011 Shankbone.jpg",
+   "lisans": "CC BY 3.0",
+   "yazar": "David Shankbone",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henning_Mankell_3_2011_Shankbone.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Henning_Mankell_3_2011_Shankbone.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Piramit”, “Beşinci Kadın”, “Ateşin Gizi”. Aday olduğu ödül: İskandinav Kurulu Edebiyat Ödülü",
+  "neden_onemli": "Önemli eserleri: “Beşinci Kadın”, “Riga'nın Köpekleri”, “Ateşin Gizi”. Aday olduğu ödül: İskandinav Kurulu Edebiyat Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -192,7 +228,13 @@
   "defin_ulke": "Polonya",
   "wikidata_id": "Q18978",
   "sitelink": 63,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Saint Faustyna Kowalska portrait (1931).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Faustyna_Kowalska_portrait_%281931%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Saint_Faustyna_Kowalska_portrait_%281931%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -214,7 +256,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q110869",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "William Lassell.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Lassell.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:William_Lassell.jpg"
+  },
   "meslek": [
    "Fizikçi"
   ],
@@ -236,7 +284,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q153023",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Heinrich III. (HRR) Miniatur.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown painterUnknown painter",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinrich_III._%28HRR%29_Miniatur.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Heinrich_III._%28HRR%29_Miniatur.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -258,7 +312,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q150953",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Codex Manesse Heinrich VI. (HRR).jpg",
+   "lisans": "Public domain",
+   "yazar": "Meister des Codex Manesse",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Manesse_Heinrich_VI._%28HRR%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Codex_Manesse_Heinrich_VI._%28HRR%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],

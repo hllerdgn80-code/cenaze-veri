@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Kayalıklar Meryemi”, “Vaftizci Yahya”, “Son Akşam Yemeği”",
+  "neden_onemli": "Önemli eserleri: “Kayalıklar Meryemi”, “Vaftizci Yahya”, “La Scapigliata”",
   "hassas": false,
   "turk": false
  },
@@ -112,34 +112,6 @@
   "turk": false
  },
  {
-  "ad": "Józef Piłsudski",
-  "dogum_tarihi": "1867-12-05",
-  "vefat_tarihi": "1935-05-12",
-  "vefat_yasi": 67,
-  "dogum_yeri": "Zalavas",
-  "vefat_yeri": "Varşova",
-  "defin_yeri": "Wawel Katedrali",
-  "defin_il": null,
-  "defin_ulke": "Polonya",
-  "wikidata_id": "Q885",
-  "sitelink": 97,
-  "fotograf": {
-   "dosya": "Józef Piłsudski (22-1-4) cropped.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B3zef_Pi%C5%82sudski_%2822-1-4%29_cropped.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:J%C3%B3zef_Pi%C5%82sudski_%2822-1-4%29_cropped.jpg"
-  },
-  "meslek": [
-   "Siyasetçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Macaristan Liyakat Nişanı. Görev: başkan, Polonya başbakanı",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "John Dryden",
   "dogum_tarihi": "1631-08-19",
   "vefat_tarihi": "1700-05-12",
@@ -150,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q213355",
-  "sitelink": 97,
+  "sitelink": 98,
   "fotograf": {
    "dosya": "John Dryden (Richardson, c. 1730s).jpg",
    "lisans": "CC BY-SA 4.0",
@@ -164,6 +136,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Royal Society Üyesi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Józef Piłsudski",
+  "dogum_tarihi": "1867-12-05",
+  "vefat_tarihi": "1935-05-12",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Zalavas",
+  "vefat_yeri": "Varşova",
+  "defin_yeri": "Wawel Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q885",
+  "sitelink": 97,
+  "fotograf": {
+   "dosya": "Józefpiłsudski.jpg",
+   "lisans": "Public domain",
+   "yazar": "Witold Pikiel",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B3zefpi%C5%82sudski.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:J%C3%B3zefpi%C5%82sudski.jpg"
+  },
+  "meslek": [
+   "Siyasetçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Karađorđe'nin Yıldızı Nişanı, Beyaz Kartal Nişanı. Görev: başkan, Polonya başbakanı",
   "hassas": false,
   "turk": false
  },
@@ -191,7 +191,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Satılmış Nişanlı”, “Má vlast”",
+  "neden_onemli": "Önemli eserleri: “Má vlast”, “Satılmış Nişanlı”",
   "hassas": false,
   "turk": false
  },
@@ -222,15 +222,41 @@
   "turk": false
  },
  {
+  "ad": "Irena Sendler",
+  "dogum_tarihi": "1910-02-15",
+  "vefat_tarihi": "2008-05-12",
+  "vefat_yasi": 98,
+  "dogum_yeri": "Varşova",
+  "vefat_yeri": "Varşova",
+  "defin_yeri": "Powązki Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Polonya",
+  "wikidata_id": "Q151932",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Irena Sendlerowa 1942.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Irena_Sendlerowa_1942.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Irena_Sendlerowa_1942.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Liyakat Haçı, Beyaz Kartal Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Erik Erikson",
   "dogum_tarihi": "1902-06-15",
   "vefat_tarihi": "1994-05-12",
   "vefat_yasi": 91,
   "dogum_yeri": "Frankfurt",
   "vefat_yeri": "Harwich",
-  "defin_yeri": null,
+  "defin_yeri": "First Congregational Church Cemetery",
   "defin_il": null,
-  "defin_ulke": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q58074",
   "sitelink": 72,
   "fotograf": {
@@ -246,32 +272,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Ulusal Kitap Ödülü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Irena Sendler",
-  "dogum_tarihi": "1910-02-15",
-  "vefat_tarihi": "2008-05-12",
-  "vefat_yasi": 98,
-  "dogum_yeri": "Varşova",
-  "vefat_yeri": "Varşova",
-  "defin_yeri": "Powązki Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Polonya",
-  "wikidata_id": "Q151932",
-  "sitelink": 72,
-  "fotograf": {
-   "dosya": "Irena Sendlerowa 1942.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Irena_Sendlerowa_1942.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Irena_Sendlerowa_1942.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Liyakat Haçı, Beyaz Kartal Nişanı",
   "hassas": false,
   "turk": false
  },
@@ -327,7 +327,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Macaristan Liyakat Nişanı. Görev: Finlandiya Devlet Başkanı, Finans Bakanı",
+  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Büyük Macaristan Liyakat Nişanı. Görev: Finlandiya Devlet Başkanı, Finlandiya başbakanı",
   "hassas": false,
   "turk": false
  }

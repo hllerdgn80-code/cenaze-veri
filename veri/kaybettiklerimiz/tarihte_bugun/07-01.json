@@ -52,7 +52,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Osmanlı Türklerinde İlim”. Görev: Türkiye Büyük Millet Meclisi milletvekili, Sıhhiye ve Muavenet-i İçtimaiye Vekili",
+  "neden_onemli": "Önemli eserleri: “Osmanlı Türklerinde İlim”. Görev: Sıhhiye ve Muavenet-i İçtimaiye Vekili, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -123,7 +123,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q34012",
-  "sitelink": 158,
+  "sitelink": 159,
   "fotograf": {
    "dosya": "Marlon Brando publicity for One-Eyed Jacks.png",
    "lisans": "Public domain",
@@ -137,34 +137,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “İhtiras Tramvayı”, “İsyan”, “Paris'te Son Tango”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Mihail Bakunin",
-  "dogum_tarihi": "1814-05-30",
-  "vefat_tarihi": "1876-07-01",
-  "vefat_yasi": 62,
-  "dogum_yeri": "Priamukhino",
-  "vefat_yeri": "Bern",
-  "defin_yeri": "Bremgarten cemetery",
-  "defin_il": null,
-  "defin_ulke": "İsviçre",
-  "wikidata_id": "Q27645",
-  "sitelink": 142,
-  "fotograf": {
-   "dosya": "Bakunin Nadar.jpg",
-   "lisans": "Public domain",
-   "yazar": "Nadar",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bakunin_Nadar.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bakunin_Nadar.jpg"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Tanrı ve Devlet”",
   "hassas": false,
   "turk": false
  },
@@ -225,6 +197,35 @@
   "turk": false
  },
  {
+  "ad": "Tomas",
+  "dogum_tarihi": null,
+  "vefat_tarihi": "0072-07-01",
+  "vefat_yasi": null,
+  "dogum_yeri": "Celile",
+  "vefat_yeri": "Mylapore",
+  "defin_yeri": "San Thome Basilica",
+  "defin_il": null,
+  "defin_ulke": "Hindistan",
+  "wikidata_id": "Q43669",
+  "sitelink": 94,
+  "fotograf": {
+   "dosya": "The Incredulity of Saint Thomas-Caravaggio (1601-2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Caravaggio",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Görev: havari",
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
   "ad": "Juan Perón",
   "dogum_tarihi": "1895-10-08",
   "vefat_tarihi": "1974-07-01",
@@ -248,37 +249,8 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Görev: Arjantin devlet başkanı, Arjantin cumhurbaşkanı yardımcısı",
+  "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı. Görev: Arjantin cumhurbaşkanı yardımcısı, Arjantin devlet başkanı",
   "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Tomas",
-  "dogum_tarihi": null,
-  "vefat_tarihi": "0072-07-01",
-  "vefat_yasi": null,
-  "dogum_yeri": "Celile",
-  "vefat_yeri": "Mylapore",
-  "defin_yeri": "San Thome Basilica",
-  "defin_il": null,
-  "defin_ulke": "Hindistan",
-  "wikidata_id": "Q43669",
-  "sitelink": 93,
-  "fotograf": {
-   "dosya": "The Incredulity of Saint Thomas-Caravaggio (1601-2).jpg",
-   "lisans": "Public domain",
-   "yazar": "Caravaggio",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:The_Incredulity_of_Saint_Thomas-Caravaggio_%281601-2%29.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Görev: havari",
-  "hassas": true,
-  "hassas_nedeni": [
-   "ölüm cezası"
-  ],
   "turk": false
  },
  {
@@ -320,7 +292,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q102289",
-  "sitelink": 88,
+  "sitelink": 89,
   "fotograf": {
    "dosya": "BuckminsterFuller1.jpg",
    "lisans": "CC BY 3.0",
@@ -334,6 +306,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Başkanlık Özgürlük Madalyası. Önemli eserleri: “Biosphère”, “Dimaksiyon haritası”, “Dimaksiyon”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Ismail Kadare",
+  "dogum_tarihi": "1936-01-28",
+  "vefat_tarihi": "2024-07-01",
+  "vefat_yasi": 88,
+  "dogum_yeri": "Ergirikasrı",
+  "vefat_yeri": "Tiran",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q179695",
+  "sitelink": 87,
+  "fotograf": {
+   "dosya": "Ismail Kadare (portret).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ismail_Kadare_%28portret%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ismail_Kadare_%28portret%29.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Man Booker Uluslararası Ödülü, Neustadt Uluslararası Edebiyat Ödülü. Önemli eserleri: “Ölü Ordunun Generali”",
   "hassas": false,
   "turk": false
  }

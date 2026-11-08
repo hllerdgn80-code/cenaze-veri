@@ -211,6 +211,16 @@
   ]
  },
  {
+  "wikidata_id": "Q17612464",
+  "ad": "Cihatçı John",
+  "kategoriler": [
+   "tarihte_bugun"
+  ],
+  "kurallar": [
+   "c_teror_orgutu"
+  ]
+ },
+ {
   "wikidata_id": "Q233950",
   "ad": "Daniel Kahneman",
   "kategoriler": [
@@ -609,16 +619,6 @@
  {
   "wikidata_id": "Q63702",
   "ad": "Irma Grese",
-  "kategoriler": [
-   "tarihte_bugun"
-  ],
-  "kurallar": [
-   "d_soykirim_savas_sucu"
-  ]
- },
- {
-  "wikidata_id": "Q57199",
-  "ad": "Joachim Peiper",
   "kategoriler": [
    "tarihte_bugun"
   ],

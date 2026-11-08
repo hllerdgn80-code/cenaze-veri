@@ -28,34 +28,6 @@
   "turk": true
  },
  {
-  "ad": "John Locke",
-  "dogum_tarihi": "1632-09-08",
-  "vefat_tarihi": "1704-11-08",
-  "vefat_yasi": 72,
-  "dogum_yeri": "Wrington",
-  "vefat_yeri": "High Laver",
-  "defin_yeri": "High Laver (All Saints) Churchyard",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q9353",
-  "sitelink": 210,
-  "fotograf": {
-   "dosya": "JohnLocke.png",
-   "lisans": "Public domain",
-   "yazar": "Godfrey Kneller",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JohnLocke.png",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:JohnLocke.png"
-  },
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Royal Society Üyesi. Önemli eserleri: “Sivil Hükümet Üzerine İki İnceleme”",
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "John Milton",
   "dogum_tarihi": "1608-12-09",
   "vefat_tarihi": "1674-11-08",
@@ -66,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q79759",
-  "sitelink": 155,
+  "sitelink": 156,
   "fotograf": {
    "dosya": "John-milton.jpg",
    "lisans": "Public domain",
@@ -94,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q46602",
-  "sitelink": 125,
+  "sitelink": 126,
   "fotograf": {
    "dosya": "Ivan Bunin (sepia).jpg",
    "lisans": "Public domain",
@@ -135,7 +107,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Cesur Emek Madalyası, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Önemli eserleri: “Alman-Sovyet Saldırmazlık Paktı”",
+  "neden_onemli": "Ödül: \"Orak ve Çekiç\" Madalyası, Onur Rozeti Nişanı. Önemli eserleri: “Alman-Sovyet Saldırmazlık Paktı”",
   "hassas": false,
   "turk": false
  },
@@ -190,6 +162,38 @@
   "turk": false
  },
  {
+  "ad": "Walter Raleigh",
+  "dogum_tarihi": "1552",
+  "vefat_tarihi": "1618-11-08",
+  "vefat_yasi": 66,
+  "vefat_yasi_yaklasik": true,
+  "dogum_yeri": "Hayes Barton",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "Azize Margaret Kilisesi",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q189144",
+  "sitelink": 73,
+  "fotograf": {
+   "dosya": "Sir Walter Ralegh by 'H' monogrammist.jpg",
+   "lisans": "Public domain",
+   "yazar": "anonymous",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": true,
+  "hassas_nedeni": [
+   "ölüm cezası"
+  ],
+  "turk": false
+ },
+ {
   "ad": "Q311644",
   "dogum_tarihi": "1883-10-26",
   "vefat_tarihi": "1970-11-08",
@@ -215,37 +219,6 @@
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Düşün ve Zenginleş”",
   "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Walter Raleigh",
-  "dogum_tarihi": "1552-02-01",
-  "vefat_tarihi": "1618-11-08",
-  "vefat_yasi": 66,
-  "dogum_yeri": "Hayes Barton",
-  "vefat_yeri": "Londra",
-  "defin_yeri": "Azize Margaret Kilisesi",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q189144",
-  "sitelink": 72,
-  "fotograf": {
-   "dosya": "Sir Walter Ralegh by 'H' monogrammist.jpg",
-   "lisans": "Public domain",
-   "yazar": "anonymous",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sir_Walter_Ralegh_by_%27H%27_monogrammist.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": true,
-  "hassas_nedeni": [
-   "ölüm cezası"
-  ],
   "turk": false
  },
  {
@@ -328,6 +301,34 @@
   "aciklama": "İngiltere kraliçesi (1031-1083)",
   "aciklama_kaynak": "wikidata_tr",
   "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "August von Mackensen",
+  "dogum_tarihi": "1849-12-06",
+  "vefat_tarihi": "1945-11-08",
+  "vefat_yasi": 95,
+  "dogum_yeri": "Leipnitz",
+  "vefat_yeri": "Habighorst",
+  "defin_yeri": "Stadtfriedhof",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q76909",
+  "sitelink": 50,
+  "fotograf": {
+   "dosya": "General Feldmarschall August Von Mackensen (cropped).png",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/General_Feldmarschall_August_Von_Mackensen_%28cropped%29.png",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:General_Feldmarschall_August_Von_Mackensen_%28cropped%29.png"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Demir Haç",
   "hassas": false,
   "turk": false
  }

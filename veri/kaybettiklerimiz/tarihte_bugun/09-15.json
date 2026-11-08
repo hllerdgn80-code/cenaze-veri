@@ -67,7 +67,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q43706",
-  "sitelink": 106,
+  "sitelink": 107,
   "fotograf": {
    "dosya": "Johnchrysostom.jpg",
    "lisans": "Public domain",
@@ -164,7 +164,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Kızıl Kartal Nişanı. Görev: veliaht, İsveç Kraliyet Ailesi",
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Brezilya Ulusal Güney Haç Nişanı. Görev: veliaht, İsveç Kraliyet Ailesi",
   "hassas": false,
   "turk": false
  },
@@ -226,6 +226,34 @@
   "turk": false
  },
  {
+  "ad": "Thomas Wolfe",
+  "dogum_tarihi": "1900-10-03",
+  "vefat_tarihi": "1938-09-15",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Asheville",
+  "vefat_yeri": "Baltimore",
+  "defin_yeri": "Riverside Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q314256",
+  "sitelink": 60,
+  "fotograf": {
+   "dosya": "Thomas Wolfe 1937 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Van Vechten",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Wolfe_1937_1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Thomas_Wolfe_1937_1.jpg"
+  },
+  "meslek": [
+   "Şair"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Anton Webern",
   "dogum_tarihi": "1883-12-03",
   "vefat_tarihi": "1945-09-15",
@@ -254,34 +282,6 @@
   "hassas_nedeni": [
    "cinayet"
   ],
-  "turk": false
- },
- {
-  "ad": "Thomas Wolfe",
-  "dogum_tarihi": "1900-10-03",
-  "vefat_tarihi": "1938-09-15",
-  "vefat_yasi": 37,
-  "dogum_yeri": "Asheville",
-  "vefat_yeri": "Baltimore",
-  "defin_yeri": "Riverside Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q314256",
-  "sitelink": 59,
-  "fotograf": {
-   "dosya": "Thomas Wolfe 1937 1.jpg",
-   "lisans": "Public domain",
-   "yazar": "Carl Van Vechten",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Wolfe_1937_1.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Thomas_Wolfe_1937_1.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
   "turk": false
  },
  {

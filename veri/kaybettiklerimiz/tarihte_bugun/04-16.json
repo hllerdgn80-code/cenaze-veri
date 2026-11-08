@@ -1,6 +1,6 @@
 [
  {
-  "ad": "Albrecht Dürer",
+  "ad": "Q5580",
   "dogum_tarihi": "1471-05-30",
   "vefat_tarihi": "1528-04-16",
   "vefat_yasi": 56,
@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q5580",
-  "sitelink": 187,
+  "sitelink": 188,
   "fotograf": {
    "dosya": "Dürer Alte Pinakothek.jpg",
    "lisans": "Public domain",
@@ -38,7 +38,7 @@
   "defin_il": null,
   "defin_ulke": "İspanya",
   "wikidata_id": "Q5432",
-  "sitelink": 186,
+  "sitelink": 188,
   "fotograf": {
    "dosya": "Vicente López Portaña - el pintor Francisco de Goya.jpg",
    "lisans": "Public domain",
@@ -51,7 +51,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “2 Mayıs 1808”, “Çıplak Maya”, “3 Mayıs 1808”",
+  "neden_onemli": "Önemli eserleri: “2 Mayıs 1808”, “3 Mayıs 1808”, “Çıplak Maya”",
   "hassas": false,
   "turk": false
  },
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q43736",
-  "sitelink": 125,
+  "sitelink": 126,
   "fotograf": {
    "dosya": "Yasunari Kawabata 1938.jpg",
    "lisans": "Public domain",
@@ -80,6 +80,34 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Nobel Edebiyat Ödülü sahibi",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rosalind Franklin",
+  "dogum_tarihi": "1920-07-25",
+  "vefat_tarihi": "1958-04-16",
+  "vefat_yasi": 37,
+  "dogum_yeri": "Notting Hill",
+  "vefat_yeri": "Royal Marsden Hospital",
+  "defin_yeri": "Willesden Jewish Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q7474",
+  "sitelink": 116,
+  "fotograf": {
+   "dosya": "Rosalind Franklin.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "MRC Laboratory of Molecular Biology",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind_Franklin.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg"
+  },
+  "meslek": [
+   "Fizikçi"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -108,34 +136,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Amerika'da Demokrasi”. Görev: başkan",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Rosalind Franklin",
-  "dogum_tarihi": "1920-07-25",
-  "vefat_tarihi": "1958-04-16",
-  "vefat_yasi": 37,
-  "dogum_yeri": "Notting Hill",
-  "vefat_yeri": "Royal Marsden Hospital",
-  "defin_yeri": "Willesden Jewish Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q7474",
-  "sitelink": 115,
-  "fotograf": {
-   "dosya": "Rosalind Franklin.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "MRC Laboratory of Molecular Biology",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalind_Franklin.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg"
-  },
-  "meslek": [
-   "Fizikçi"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },
@@ -275,7 +275,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Anjou Kontu, Auvergne Kontu",
+  "neden_onemli": "Görev: Auvergne Kontu, Anjou Kontu",
   "hassas": false,
   "turk": false
  },
@@ -329,7 +329,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Yönetmen Akademi Ödülü. Önemli eserleri: “Brief Encounter”, “Doktor Jivago”, “Hindistan'a Geçit”",
+  "neden_onemli": "Ödül: En İyi Yönetmen Akademi Ödülü, En İyi Film National Board of Review Ödülü. Önemli eserleri: “Doktor Jivago”, “Brief Encounter”, “Hindistan'a Geçit”",
   "hassas": false,
   "turk": false
  }

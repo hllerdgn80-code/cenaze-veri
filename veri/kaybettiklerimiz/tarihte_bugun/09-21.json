@@ -80,7 +80,7 @@
   "turk": true
  },
  {
-  "ad": "Dante Alighieri",
+  "ad": "Dante",
   "dogum_tarihi": "1265",
   "vefat_tarihi": "1321-09-22",
   "vefat_yasi": 56,
@@ -104,7 +104,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “De monarchia”, “Ziyafet”, “Yeni Hayat”",
+  "neden_onemli": "Önemli eserleri: “De monarchia”, “Ziyafet”, “Questio de situ et formae aque et terre”",
   "hassas": false,
   "turk": false
  },
@@ -132,7 +132,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “İstenç ve Tasarım Olarak Dünya”, “Parerga ve Paralipomena”",
+  "neden_onemli": "Önemli eserleri: “Parerga ve Paralipomena”, “İstenç ve Tasarım Olarak Dünya”",
   "hassas": false,
   "turk": false
  },
@@ -182,7 +182,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Aziz Andreas Nişanı. Görev: Norveç kralı",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Brezilya Ulusal Güney Haç Nişanı. Görev: Norveç kralı",
   "hassas": false,
   "turk": false
  },
@@ -260,7 +260,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Beyaz Kartal Nişanı, Aziz Andreas Nişanı. Görev: Kazak hetman",
+  "neden_onemli": "Ödül: Aziz Andreas Nişanı, Beyaz Kartal Nişanı. Görev: Kazak hetman",
   "hassas": false,
   "turk": false
  },

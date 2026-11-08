@@ -23,7 +23,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Türkiye Büyük Millet Meclisi milletvekili, Maarif Vekili",
+  "neden_onemli": "Görev: Maarif Vekili, Türkiye Büyük Millet Meclisi milletvekili",
   "hassas": false,
   "turk": true
  },
@@ -47,11 +47,11 @@
    "sayfa": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg"
   },
   "meslek": [
-   "Hükümdar"
+   "Kraliçe"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Altın Post Nişanı (Gürcistan), Beyaz Kartal Nişanı",
+  "neden_onemli": "Ödül: Altın Post Nişanı (Gürcistan), Beyaz Kartal Nişanı. Görev: Man Lordu, Lancaster Dükü",
   "hassas": false,
   "turk": false
  },
@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q55415",
-  "sitelink": 93,
+  "sitelink": 94,
   "fotograf": {
    "dosya": "Leni Riefenstahl, 1935.jpg",
    "lisans": "Public domain",
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": "Japonya",
   "wikidata_id": "Q155777",
-  "sitelink": 93,
+  "sitelink": 94,
   "fotograf": {
    "dosya": "Yukawa.jpg",
    "lisans": "Public domain",
@@ -140,6 +140,34 @@
   "turk": false
  },
  {
+  "ad": "Hermann von Helmholtz",
+  "dogum_tarihi": "1821-08-31",
+  "vefat_tarihi": "1894-09-08",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Potsdam",
+  "vefat_yeri": "Charlottenburg",
+  "defin_yeri": "Friedhof Wannsee, Lindenstraße",
+  "defin_il": null,
+  "defin_ulke": "Almanya",
+  "wikidata_id": "Q60024",
+  "sitelink": 86,
+  "fotograf": {
+   "dosya": "Hermann von Helmholtz.jpg",
+   "lisans": "Public domain",
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann_von_Helmholtz.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Faraday Lectureship Ödülü, Matteucci Madalyası. Önemli eserleri: “Gibbs-Helmholtz denklemi”, “Helmholtz bobini”, “Helmholtz denklemi”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "XI. Louis de France",
   "dogum_tarihi": "1423-07-12",
   "vefat_tarihi": "1483-09-08",
@@ -164,34 +192,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Hermann von Helmholtz",
-  "dogum_tarihi": "1821-08-31",
-  "vefat_tarihi": "1894-09-08",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Potsdam",
-  "vefat_yeri": "Charlottenburg",
-  "defin_yeri": "Friedhof Wannsee, Lindenstraße",
-  "defin_il": null,
-  "defin_ulke": "Almanya",
-  "wikidata_id": "Q60024",
-  "sitelink": 85,
-  "fotograf": {
-   "dosya": "Hermann von Helmholtz.jpg",
-   "lisans": "Public domain",
-   "yazar": null,
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann_von_Helmholtz.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz.jpg"
-  },
-  "meslek": [
-   "Filozof"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Faraday Lectureship Ödülü, Matteucci Madalyası. Önemli eserleri: “Helmholtz denklemi”, “Gibbs-Helmholtz denklemi”, “Kelvin-Helmholtz mekanizması”",
   "hassas": false,
   "turk": false
  },
@@ -247,7 +247,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: başrahip, Papa",
+  "neden_onemli": "Görev: büyükelçi, kardinal",
   "hassas": false,
   "turk": false
  },
@@ -262,7 +262,7 @@
   "defin_il": null,
   "defin_ulke": "Danimarka",
   "wikidata_id": "Q103854",
-  "sitelink": 81,
+  "sitelink": 82,
   "fotograf": {
    "dosya": "Aage Bohr.jpg",
    "lisans": "Public domain",
@@ -318,7 +318,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q190486",
-  "sitelink": 71,
+  "sitelink": 72,
   "fotograf": {
    "dosya": "Willard Libby in Lab.jpg",
    "lisans": "CC BY-SA 4.0",

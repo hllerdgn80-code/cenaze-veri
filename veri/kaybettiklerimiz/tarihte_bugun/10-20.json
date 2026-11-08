@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": "Mısır",
   "wikidata_id": "Q19878",
-  "sitelink": 185,
+  "sitelink": 186,
   "fotograf": {
    "dosya": "Muammar al-Gaddafi in 2010 (cropped).jpg",
    "lisans": "CC BY 4.0",
@@ -42,7 +42,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q35236",
-  "sitelink": 163,
+  "sitelink": 164,
   "fotograf": {
    "dosya": "President Hoover portrait.jpg",
    "lisans": "Public domain",
@@ -70,7 +70,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q47480",
-  "sitelink": 124,
+  "sitelink": 125,
   "fotograf": {
    "dosya": "Paul Dirac, 1933.jpg",
    "lisans": "Public domain",
@@ -167,7 +167,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası. Önemli eserleri: “Kolmogorov eşitsizliği”, “Kolmogorov karmaşıklığı”, “Kolmogorov aksiyomları”",
+  "neden_onemli": "Ödül: Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası, Ekim Devrimi Nişanı. Önemli eserleri: “Kolmogorov eşitsizliği”, “Kolmogorov-Smirnov sınaması”, “Kolmogorov aksiyomları”",
   "hassas": false,
   "turk": false
  },
@@ -229,6 +229,32 @@
   "turk": false
  },
  {
+  "ad": "Junko Tabei",
+  "dogum_tarihi": "1939-09-22",
+  "vefat_tarihi": "2016-10-20",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Miharu",
+  "vefat_yeri": "Kawagoe",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q234491",
+  "sitelink": 62,
+  "fotograf": {
+   "dosya": "Junko Tabei.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Jaan Künnap",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Junko_Tabei.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Junko_Tabei.jpg"
+  },
+  "meslek": [],
+  "aciklama": "Japon dağcı (1939 – 2016)",
+  "aciklama_kaynak": "wikidata_tr",
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Sergey Bondarçuk",
   "dogum_tarihi": "1920-09-25",
   "vefat_tarihi": "1994-10-20",
@@ -252,7 +278,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Ekim Devrimi Nişanı, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası",
+  "neden_onemli": "Ödül: Altın Küre Ödülleri, Vladimir İlyiç Lenin'in 100. Yıldönümünü Anma Jübile Madalyası",
   "hassas": false,
   "turk": false
  },
@@ -281,32 +307,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Willard Gibbs Madalyası. Aday olduğu ödül: Nobel Fizyoloji veya Tıp Ödülü sahipleri listesi",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Junko Tabei",
-  "dogum_tarihi": "1939-09-22",
-  "vefat_tarihi": "2016-10-20",
-  "vefat_yasi": 77,
-  "dogum_yeri": "Miharu",
-  "vefat_yeri": "Kawagoe",
-  "defin_yeri": null,
-  "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q234491",
-  "sitelink": 60,
-  "fotograf": {
-   "dosya": "Junko Tabei.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Jaan Künnap",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Junko_Tabei.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Junko_Tabei.jpg"
-  },
-  "meslek": [],
-  "aciklama": "Japon dağcı (1939 – 2016)",
-  "aciklama_kaynak": "wikidata_tr",
-  "neden_onemli": null,
   "hassas": false,
   "turk": false
  },

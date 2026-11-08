@@ -74,7 +74,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Puşkin Ödülü. Önemli eserleri: “Vanya Dayı”, “Vanka”, “Kaştanka”",
+  "neden_onemli": "Ödül: Puşkin Ödülü. Önemli eserleri: “Vanya Dayı”, “Vanka”, “Üç Kızkardeş”",
   "hassas": false,
   "turk": false
  },
@@ -306,29 +306,30 @@
   "turk": false
  },
  {
-  "ad": "XI. Benedictus",
-  "dogum_tarihi": "1240",
-  "vefat_tarihi": "1304-07-15",
-  "vefat_yasi": 64,
-  "vefat_yasi_yaklasik": true,
-  "dogum_yeri": "Treviso",
-  "vefat_yeri": "Perugia",
-  "defin_yeri": "San Domenico",
+  "ad": "Hugo von Hofmannsthal",
+  "dogum_tarihi": "1874-02-01",
+  "vefat_tarihi": "1929-07-15",
+  "vefat_yasi": 55,
+  "dogum_yeri": "Viyana",
+  "vefat_yeri": "Rodaun",
+  "defin_yeri": "Cemetery Kalksburg",
   "defin_il": null,
-  "defin_ulke": "İtalya",
-  "wikidata_id": "Q169301",
-  "sitelink": 74,
+  "defin_ulke": "Avusturya",
+  "wikidata_id": "Q51513",
+  "sitelink": 73,
   "fotograf": {
-   "dosya": "39 Benedetto XI.jpg",
+   "dosya": "Hofmannsthal 1893.jpg",
    "lisans": "Public domain",
-   "yazar": "Tommaso da Modena",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/39_Benedetto_XI.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:39_Benedetto_XI.jpg"
+   "yazar": null,
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hofmannsthal_1893.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Hofmannsthal_1893.jpg"
   },
-  "meslek": [],
+  "meslek": [
+   "Şair"
+  ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa",
+  "neden_onemli": "Önemli eserleri: “Der Rosenkavalier”. Aday olduğu ödül: Nobel Edebiyat Ödülü",
   "hassas": false,
   "turk": false
  }

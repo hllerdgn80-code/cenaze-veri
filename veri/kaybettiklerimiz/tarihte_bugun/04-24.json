@@ -57,7 +57,7 @@
   "vefat_yasi": 28,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Kayseri",
-  "vefat_yeri": "Lud",
+  "vefat_yeri": "Nicomedia",
   "defin_yeri": "Lud",
   "defin_il": null,
   "defin_ulke": "İsrail",
@@ -193,6 +193,34 @@
   "turk": false
  },
  {
+  "ad": "Sathya Sai Baba",
+  "dogum_tarihi": "1926-11-23",
+  "vefat_tarihi": "2011-04-24",
+  "vefat_yasi": 84,
+  "dogum_yeri": "Puttaparthi",
+  "vefat_yeri": "Puttaparthi",
+  "defin_yeri": null,
+  "defin_il": null,
+  "defin_ulke": null,
+  "wikidata_id": "Q483931",
+  "sitelink": 70,
+  "fotograf": {
+   "dosya": "Sri Sathya Sai Baba at Brindavan.jpg",
+   "lisans": "CC BY-SA 4.0",
+   "yazar": "Venkatant",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Sathya_Sai_Baba_at_Brindavan.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sri_Sathya_Sai_Baba_at_Brindavan.jpg"
+  },
+  "meslek": [
+   "Dini lider"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Gerhard Domagk",
   "dogum_tarihi": "1895-10-30",
   "vefat_tarihi": "1964-04-24",
@@ -221,30 +249,30 @@
   "turk": false
  },
  {
-  "ad": "Sathya Sai Baba",
-  "dogum_tarihi": "1926-11-23",
-  "vefat_tarihi": "2011-04-24",
-  "vefat_yasi": 84,
-  "dogum_yeri": "Puttaparthi",
-  "vefat_yeri": "Puttaparthi",
-  "defin_yeri": null,
+  "ad": "Lucy Maud Montgomery",
+  "dogum_tarihi": "1874-11-30",
+  "vefat_tarihi": "1942-04-24",
+  "vefat_yasi": 67,
+  "dogum_yeri": "Prens Edward Adası",
+  "vefat_yeri": "Toronto",
+  "defin_yeri": "Cavendish",
   "defin_il": null,
-  "defin_ulke": null,
-  "wikidata_id": "Q483931",
+  "defin_ulke": "Kanada",
+  "wikidata_id": "Q273034",
   "sitelink": 69,
   "fotograf": {
-   "dosya": "Sri Sathya Sai Baba at Brindavan.jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Venkatant",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sri_Sathya_Sai_Baba_at_Brindavan.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sri_Sathya_Sai_Baba_at_Brindavan.jpg"
+   "dosya": "LMM signed photo.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LMM_signed_photo.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:LMM_signed_photo.jpg"
   },
   "meslek": [
-   "Dini lider"
+   "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": null,
+  "neden_onemli": "Önemli eserleri: “Anne of Avonlea”, “Anne of the Island”, “Yeşilin Kızı Anne”",
   "hassas": false,
   "turk": false
  },
@@ -300,34 +328,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Önemli eserleri: “Ospedale degli Innocenti”, “Santo Spirito Bazilikası”, “Santa Maria degli Angeli Kilisesi-2”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Lucy Maud Montgomery",
-  "dogum_tarihi": "1874-11-30",
-  "vefat_tarihi": "1942-04-24",
-  "vefat_yasi": 67,
-  "dogum_yeri": "Prens Edward Adası",
-  "vefat_yeri": "Toronto",
-  "defin_yeri": "Cavendish",
-  "defin_il": null,
-  "defin_ulke": "Kanada",
-  "wikidata_id": "Q273034",
-  "sitelink": 68,
-  "fotograf": {
-   "dosya": "LMM signed photo.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/LMM_signed_photo.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:LMM_signed_photo.jpg"
-  },
-  "meslek": [
-   "Şair"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Anne of Avonlea”, “Anne of the Island”, “Yeşilin Kızı Anne”",
   "hassas": false,
   "turk": false
  }

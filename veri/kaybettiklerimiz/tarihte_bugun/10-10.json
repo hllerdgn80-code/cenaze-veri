@@ -17,7 +17,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Türk Dil Kurumu Şiir Ödülü",
+  "neden_onemli": "Ödül: Yunus Nadi Ödülleri, Sertel Ödülleri",
   "hassas": false,
   "turk": true
  },
@@ -72,18 +72,18 @@
   "vefat_yasi": 56,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Beşiktaş",
-  "vefat_yeri": "İstanbul",
-  "defin_yeri": "İstanbul",
+  "vefat_yeri": "Beşiktaş",
+  "defin_yeri": "Büyükada",
   "defin_il": "İstanbul",
   "defin_ulke": null,
   "wikidata_id": "Q6102857",
-  "sitelink": 13,
+  "sitelink": 14,
   "fotograf": {
-   "dosya": "AhmetRefik.jpg",
+   "dosya": "Ahmet refik altinay.jpg",
    "lisans": "Public domain",
-   "yazar": "Ahmet Refik - Two committees. Two Massacres. Published 1919.",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AhmetRefik.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:AhmetRefik.jpg"
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ahmet_refik_altinay.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ahmet_refik_altinay.jpg"
   },
   "meslek": [
    "Şair"
@@ -105,14 +105,8 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q676555",
-  "sitelink": 139,
-  "fotograf": {
-   "dosya": "StFrancis part.jpg",
-   "lisans": "Public domain",
-   "yazar": "Parzi",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/StFrancis_part.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:StFrancis_part.jpg"
-  },
+  "sitelink": 140,
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -134,19 +128,13 @@
   "defin_ulke": "İspanya",
   "wikidata_id": "Q24829",
   "sitelink": 113,
-  "fotograf": {
-   "dosya": "Orson Welles 1937 cr3-4.jpg",
-   "lisans": "Public domain",
-   "yazar": "Carl Van Vechten",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Orson_Welles_1937_cr3-4.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Orson_Welles_1937_cr3-4.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Film National Board of Review Ödülü, Altın Palmiye. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
+  "neden_onemli": "Ödül: Altın Palmiye, En İyi Film National Board of Review Ödülü. Aday olduğu ödül: En İyi Özgün Senaryo Akademi Ödülü, En İyi Yönetmen Akademi Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -163,13 +151,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q42188",
   "sitelink": 103,
-  "fotograf": {
-   "dosya": "Abel Tasman Navigateur en Australie (cropped).jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Abel_Tasman_Navigateur_en_Australie_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -191,13 +173,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q194291",
   "sitelink": 89,
-  "fotograf": {
-   "dosya": "S. Bandaranaike w Polsce (Sirimavo cropped close).jpg",
-   "lisans": "Public domain",
-   "yazar": "Centralna Agencja Fotograficzna",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S._Bandaranaike_w_Polsce_%28Sirimavo_cropped_close%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:S._Bandaranaike_w_Polsce_%28Sirimavo_cropped_close%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -218,14 +194,8 @@
   "defin_il": null,
   "defin_ulke": "Fransa",
   "wikidata_id": "Q71231",
-  "sitelink": 85,
-  "fotograf": {
-   "dosya": "Carlo calvo.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_calvo.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Carlo_calvo.jpg"
-  },
+  "sitelink": 86,
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -247,13 +217,7 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q84233",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Ludwig von Mises.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Ludwig von Mises Institute",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig_von_Mises.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Ludwig_von_Mises.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],
@@ -275,13 +239,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q174311",
   "sitelink": 78,
-  "fotograf": {
-   "dosya": "C Reeve in Marriage of Figaro Opening night 1985.jpg",
-   "lisans": "CC BY-SA 3.0",
-   "yazar": "Jbfrankel",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/C_Reeve_in_Marriage_of_Figaro_Opening_night_1985.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:C_Reeve_in_Marriage_of_Figaro_Opening_night_1985.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Oyuncu"
   ],
@@ -303,13 +261,7 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q181707",
   "sitelink": 77,
-  "fotograf": {
-   "dosya": "Françoise Foliot - Jean Gigoux - Portrait de Charles Fourrier (cropped) (1).jpg",
-   "lisans": "CC BY-SA 4.0",
-   "yazar": "Jean Gigoux",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7oise_Foliot_-_Jean_Gigoux_-_Portrait_de_Charles_Fourrier_%28cropped%29_%281%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7oise_Foliot_-_Jean_Gigoux_-_Portrait_de_Charles_Fourrier_%28cropped%29_%281%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yazar"
   ],

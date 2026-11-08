@@ -39,7 +39,7 @@
   "defin_il": null,
   "defin_ulke": "Almanya",
   "wikidata_id": "Q4583",
-  "sitelink": 170,
+  "sitelink": 171,
   "fotograf": {
    "dosya": "Anne Frank (cropped).jpg",
    "lisans": "Public domain",
@@ -174,7 +174,7 @@
   "vefat_tarihi": "1955-03-12",
   "vefat_yasi": 34,
   "dogum_yeri": "Kansas City",
-  "vefat_yeri": "New York",
+  "vefat_yeri": "Manhattan",
   "defin_yeri": "Lincoln Cemetery",
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
@@ -330,7 +330,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Polonya başbakanı, Polonya cumhurbaşkanı",
+  "neden_onemli": "Görev: Polonya cumhurbaşkanı, Polonya başbakanı",
   "hassas": false,
   "turk": false
  }

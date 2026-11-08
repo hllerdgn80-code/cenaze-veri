@@ -172,6 +172,32 @@
   "turk": false
  },
  {
+  "ad": "Mihail Kutuzov",
+  "dogum_tarihi": "1747-09-16",
+  "vefat_tarihi": "1813-04-28",
+  "vefat_yasi": 65,
+  "dogum_yeri": "Sankt-Peterburg",
+  "vefat_yeri": "Bolesławiec",
+  "defin_yeri": "Kazan Katedrali",
+  "defin_il": null,
+  "defin_ulke": "Rusya",
+  "wikidata_id": "Q185801",
+  "sitelink": 75,
+  "fotograf": {
+   "dosya": "Kutuzov by Volkov.jpg",
+   "lisans": "Public domain",
+   "yazar": "R.M. Volkov (1776-1831)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kutuzov_by_Volkov.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Kutuzov_by_Volkov.jpg"
+  },
+  "meslek": [],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "J. Willard Gibbs",
   "dogum_tarihi": "1839-02-11",
   "vefat_tarihi": "1903-04-28",
@@ -195,33 +221,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Rumford Ödülü, Copley Madalyası. Önemli eserleri: “Gibbs paradoksu”, “Gibbs Serbest Enerjisi”, “Gibbs-Helmholtz denklemi”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Mihail Kutuzov",
-  "dogum_tarihi": "1747-09-16",
-  "vefat_tarihi": "1813-04-28",
-  "vefat_yasi": 65,
-  "dogum_yeri": "Sankt-Peterburg",
-  "vefat_yeri": "Bolesławiec",
-  "defin_yeri": "Kazan Katedrali",
-  "defin_il": null,
-  "defin_ulke": "Rusya",
-  "wikidata_id": "Q185801",
-  "sitelink": 74,
-  "fotograf": {
-   "dosya": "Kutuzov by Volkov.jpg",
-   "lisans": "Public domain",
-   "yazar": "R.M. Volkov (1776-1831)",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kutuzov_by_Volkov.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kutuzov_by_Volkov.jpg"
-  },
-  "meslek": [],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kara Kartal Nişanı, Aziz Andreas Nişanı",
+  "neden_onemli": "Ödül: Rumford Ödülü, Copley Madalyası. Önemli eserleri: “Gibbs paradoksu”, “Gibbs Serbest Enerjisi”, “Gibbs eşitsizliği”",
   "hassas": false,
   "turk": false
  },
@@ -333,7 +333,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1. Derece, Mecidiye Nişanı. Görev: Fransa Cumhurbaşkanı, Genel Divan Üyesi",
+  "neden_onemli": "Ödül: Büyük Kamboçya Liyakat Nişanı, 1. Derece, Mecidiye Nişanı. Görev: Fransa Cumhurbaşkanı, Genel Divan Üyesi",
   "hassas": false,
   "turk": false
  }

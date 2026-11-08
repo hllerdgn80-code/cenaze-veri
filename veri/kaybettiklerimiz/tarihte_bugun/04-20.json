@@ -88,7 +88,7 @@
   "defin_il": null,
   "defin_ulke": "İsveç",
   "wikidata_id": "Q505476",
-  "sitelink": 90,
+  "sitelink": 91,
   "fotograf": {
    "dosya": "Avicii 2014 003cr.jpg",
    "lisans": "CC BY 3.0",
@@ -101,7 +101,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Dünya Müzik Ödülleri, Teen Choice Awards",
+  "neden_onemli": "Ödül: Billboard Müzik Ödülleri, Dünya Müzik Ödülleri",
   "hassas": false,
   "turk": false
  },
@@ -137,6 +137,34 @@
   "turk": false
  },
  {
+  "ad": "Giuseppe Peano",
+  "dogum_tarihi": "1858-08-27",
+  "vefat_tarihi": "1932-04-20",
+  "vefat_yasi": 73,
+  "dogum_yeri": "Spinetta",
+  "vefat_yeri": "Torino",
+  "defin_yeri": "Monumental Cemetery of Turin",
+  "defin_il": null,
+  "defin_ulke": "İtalya",
+  "wikidata_id": "Q191029",
+  "sitelink": 66,
+  "fotograf": {
+   "dosya": "Giuseppe Peano.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe_Peano.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Giuseppe_Peano.jpg"
+  },
+  "meslek": [
+   "Filozof"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Ödül: İtalya Kraliyet Şövalyesi. Önemli eserleri: “Peano aksiyomları”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "X. Christian",
   "dogum_tarihi": "1870-09-26",
   "vefat_tarihi": "1947-04-20",
@@ -161,34 +189,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Aziz Andreas Nişanı, Beyaz Kartal Nişanı. Görev: Danimarka Kraliyeti",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Giuseppe Peano",
-  "dogum_tarihi": "1858-08-27",
-  "vefat_tarihi": "1932-04-20",
-  "vefat_yasi": 73,
-  "dogum_yeri": "Spinetta",
-  "vefat_yeri": "Torino",
-  "defin_yeri": "Monumental Cemetery of Turin",
-  "defin_il": null,
-  "defin_ulke": "İtalya",
-  "wikidata_id": "Q191029",
-  "sitelink": 65,
-  "fotograf": {
-   "dosya": "Giuseppe Peano.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe_Peano.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Giuseppe_Peano.jpg"
-  },
-  "meslek": [
-   "Filozof"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: İtalya Kraliyet Şövalyesi. Önemli eserleri: “Peano aksiyomları”",
   "hassas": false,
   "turk": false
  },
@@ -272,7 +272,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, New York Eyalet Meclis üyesi",
+  "neden_onemli": "Görev: Amerika Birleşik Devletleri Başkan Yardımcısı, New York valisi",
   "hassas": false,
   "turk": false
  },

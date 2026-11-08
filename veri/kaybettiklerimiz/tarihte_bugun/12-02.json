@@ -10,7 +10,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q130164",
-  "sitelink": 15,
+  "sitelink": 16,
   "fotograf": null,
   "meslek": [
    "Oyuncu"
@@ -43,7 +43,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Nansen Mülteci Ödülü, Büyük Katolik Isabel Nişanı. Görev: Fransa Cumhurbaşkanı, Ekonomi, Finans ve Sanayi Bakanı",
+  "neden_onemli": "Ödül: Nansen Mülteci Ödülü, Büyük Katolik Isabel Nişanı. Görev: Fransa Cumhurbaşkanı, Avrupa Parlamentosu milletvekilliği",
   "hassas": false,
   "turk": false
  },
@@ -83,7 +83,7 @@
   "dogum_tarihi": "1740-06-02",
   "vefat_tarihi": "1814-12-02",
   "vefat_yasi": 74,
-  "dogum_yeri": "Paris",
+  "dogum_yeri": "Condé Konağı",
   "vefat_yeri": "Charenton asylum",
   "defin_yeri": "Charenton asylum",
   "defin_il": null,
@@ -142,9 +142,9 @@
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Selby",
   "vefat_yeri": "Lyons-la-Forêt",
-  "defin_yeri": "Port-du-Salut Abbey",
+  "defin_yeri": "Reading Abbey",
   "defin_il": null,
-  "defin_ulke": "Fransa",
+  "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q101384",
   "sitelink": 81,
   "fotograf": {
@@ -244,7 +244,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: 1941-1945 Büyük Yurtsever Savaşında Almanya üzerinde Zafer Madalyası, Kafkasya Savunması Madalyası",
+  "neden_onemli": "Ödül: Kafkasya Savunması Madalyası, \"SSCB Silahlı Kuvvetlerinin 40 Yılı\" Jübile Madalyası",
   "hassas": false,
   "turk": false
  },

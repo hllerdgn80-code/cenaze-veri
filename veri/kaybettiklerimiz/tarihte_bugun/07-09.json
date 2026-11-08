@@ -66,7 +66,7 @@
   "defin_il": null,
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1427",
-  "sitelink": 112,
+  "sitelink": 113,
   "fotograf": {
    "dosya": "Bust Hadrian Musei Capitolini MC817.jpg",
    "lisans": "Public domain",
@@ -94,7 +94,7 @@
   "defin_il": null,
   "defin_ulke": null,
   "wikidata_id": "Q43476",
-  "sitelink": 98,
+  "sitelink": 99,
   "fotograf": {
    "dosya": "Amadeo Avogadro.png",
    "lisans": "Public domain",
@@ -194,7 +194,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Anjou Dükü",
+  "neden_onemli": "Görev: İspanya'nın devlet başkanı, Anjou Dükü",
   "hassas": false,
   "turk": false
  },
@@ -219,6 +219,34 @@
   },
   "meslek": [
    "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Rod Steiger",
+  "dogum_tarihi": "1925-04-14",
+  "vefat_tarihi": "2002-07-09",
+  "vefat_yasi": 77,
+  "dogum_yeri": "Westhampton",
+  "vefat_yeri": "Los Angeles",
+  "defin_yeri": "Forest Lawn Memorial Park (Hollywood Hills)",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q273215",
+  "sitelink": 61,
+  "fotograf": {
+   "dosya": "Rod Steiger 1964.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rod_Steiger_1964.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Rod_Steiger_1964.jpg"
+  },
+  "meslek": [
+   "Oyuncu"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -256,34 +284,6 @@
   "turk": false
  },
  {
-  "ad": "Rod Steiger",
-  "dogum_tarihi": "1925-04-14",
-  "vefat_tarihi": "2002-07-09",
-  "vefat_yasi": 77,
-  "dogum_yeri": "Westhampton",
-  "vefat_yeri": "Los Angeles",
-  "defin_yeri": "Forest Lawn Memorial Park (Hollywood Hills)",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q273215",
-  "sitelink": 60,
-  "fotograf": {
-   "dosya": "Rod Steiger 1964.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown photographer",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rod_Steiger_1964.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Rod_Steiger_1964.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
   "ad": "Fernando de la Rúa",
   "dogum_tarihi": "1937-09-15",
   "vefat_tarihi": "2019-07-09",
@@ -294,7 +294,7 @@
   "defin_il": null,
   "defin_ulke": "Arjantin",
   "wikidata_id": "Q295007",
-  "sitelink": 52,
+  "sitelink": 53,
   "fotograf": {
    "dosya": "Fernando de la Rúa con bastón y banda de presidente.jpg",
    "lisans": "CC BY 2.0",

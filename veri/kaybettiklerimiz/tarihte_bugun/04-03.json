@@ -88,8 +88,14 @@
   "defin_il": null,
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q7207",
-  "sitelink": 189,
-  "fotograf": null,
+  "sitelink": 190,
+  "fotograf": {
+   "dosya": "Elizabeth1England.jpg",
+   "lisans": "Public domain",
+   "yazar": "Attributed to William Segar / Attributed to George Gower / Formerly attributed to Nicholas Hilliard",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth1England.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Elizabeth1England.jpg"
+  },
   "meslek": [
    "Kraliçe"
   ],
@@ -110,8 +116,14 @@
   "defin_il": null,
   "defin_ulke": "Avusturya",
   "wikidata_id": "Q7294",
-  "sitelink": 161,
-  "fotograf": null,
+  "sitelink": 162,
+  "fotograf": {
+   "dosya": "JohannesBrahms.jpg",
+   "lisans": "Public domain",
+   "yazar": "C. Brasch, Berlin (biography)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JohannesBrahms.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JohannesBrahms.jpg"
+  },
   "meslek": [
    "Besteci"
   ],
@@ -133,7 +145,13 @@
   "defin_ulke": "İsviçre",
   "wikidata_id": "Q128560",
   "sitelink": 111,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Graham Greene angol író, 1975 Fortepan 84697.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "FOTO:Fortepan — ID 84697: Adományozó/Donor: Magyar Hírek folyóirat. archive copy at the Wayback Machine",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Graham_Greene_angol_%C3%ADr%C3%B3%2C_1975_Fortepan_84697.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Graham_Greene_angol_%C3%ADr%C3%B3%2C_1975_Fortepan_84697.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -156,7 +174,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q192062",
   "sitelink": 81,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Murillo Self-portrait.jpg",
+   "lisans": "Public domain",
+   "yazar": "Bartolomé Esteban Murillo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Murillo_Self-portrait.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Murillo_Self-portrait.jpg"
+  },
   "meslek": [
    "Ressam"
   ],
@@ -177,8 +201,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q213626",
-  "sitelink": 57,
-  "fotograf": null,
+  "sitelink": 58,
+  "fotograf": {
+   "dosya": "Jesse James NYPost.jpg",
+   "lisans": "Public domain",
+   "yazar": "Photographer unknown. Scan by LoC.",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jesse_James_NYPost.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Jesse_James_NYPost.jpg"
+  },
   "meslek": [],
   "aciklama": "Amerikalı haydut",
   "aciklama_kaynak": "wikidata_tr",
@@ -202,7 +232,13 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q200564",
   "sitelink": 57,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "James Clark Ross.jpg",
+   "lisans": "Public domain",
+   "yazar": "Wildman, John R. (1785)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Clark_Ross.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:James_Clark_Ross.jpg"
+  },
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -222,7 +258,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q235759",
   "sitelink": 51,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Ruth Prawer Jhabvala 1987.jpg",
+   "lisans": "Public domain",
+   "yazar": "Gotfryd, Bernard, photographer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth_Prawer_Jhabvala_1987.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Ruth_Prawer_Jhabvala_1987.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -244,7 +286,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q229513",
   "sitelink": 51,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sarah Vaughan - William P. Gottlieb - No. 1.jpg",
+   "lisans": "Public domain",
+   "yazar": "William P. Gottlieb / Adam Cuerden",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sarah_Vaughan_-_William_P._Gottlieb_-_No._1.jpg"
+  },
   "meslek": [
    "Şarkıcı"
   ],
@@ -266,7 +314,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q55004",
   "sitelink": 50,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Bundesarchiv Bild 146-2005-0119, Kurt Weill.jpg",
+   "lisans": "CC BY-SA 3.0 de",
+   "yazar": "UnknownUnknown",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-2005-0119%2C_Kurt_Weill.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-2005-0119%2C_Kurt_Weill.jpg"
+  },
   "meslek": [
    "Besteci"
   ],

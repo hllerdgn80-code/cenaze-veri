@@ -4,7 +4,7 @@
   "dogum_tarihi": "1759-04-27",
   "vefat_tarihi": "1797-09-10",
   "vefat_yasi": 38,
-  "dogum_yeri": "Spitalfields",
+  "dogum_yeri": "Londra",
   "vefat_yeri": "Somers Town",
   "defin_yeri": "Gravestones To Tregonwell Campbell And Shelley Families And To Vicars Of St Peters In Churchyard Of St Peters",
   "defin_il": null,
@@ -257,6 +257,34 @@
   "turk": false
  },
  {
+  "ad": "Émilie du Châtelet",
+  "dogum_tarihi": "1706-12-23",
+  "vefat_tarihi": "1749-09-10",
+  "vefat_yasi": 42,
+  "dogum_yeri": "Paris",
+  "vefat_yeri": "Lunéville",
+  "defin_yeri": "Eglise Saint Jacques Lunéville",
+  "defin_il": null,
+  "defin_ulke": "Fransa",
+  "wikidata_id": "Q7286",
+  "sitelink": 64,
+  "fotograf": {
+   "dosya": "Le Tonnelier de Breteuil, Emilie.jpg",
+   "lisans": "Public domain",
+   "yazar": "Marianne Loir",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Tonnelier_de_Breteuil%2C_Emilie.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Le_Tonnelier_de_Breteuil%2C_Emilie.jpg"
+  },
+  "meslek": [
+   "Deneme yazarı"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": null,
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "Zeami Motokiyo",
   "dogum_tarihi": "1363",
   "vefat_tarihi": "1443-09-10",
@@ -272,34 +300,6 @@
   "fotograf": null,
   "meslek": [
    "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": null,
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Émilie du Châtelet",
-  "dogum_tarihi": "1706-12-17",
-  "vefat_tarihi": "1749-09-10",
-  "vefat_yasi": 42,
-  "dogum_yeri": "Paris",
-  "vefat_yeri": "Lunéville",
-  "defin_yeri": "Eglise Saint Jacques Lunéville",
-  "defin_il": null,
-  "defin_ulke": "Fransa",
-  "wikidata_id": "Q7286",
-  "sitelink": 63,
-  "fotograf": {
-   "dosya": "Le Tonnelier de Breteuil, Emilie.jpg",
-   "lisans": "Public domain",
-   "yazar": "Marianne Loir",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Tonnelier_de_Breteuil%2C_Emilie.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Le_Tonnelier_de_Breteuil%2C_Emilie.jpg"
-  },
-  "meslek": [
-   "Deneme yazarı"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,

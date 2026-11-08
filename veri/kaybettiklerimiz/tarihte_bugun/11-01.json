@@ -134,6 +134,34 @@
   "turk": false
  },
  {
+  "ad": "Dale Carnegie",
+  "dogum_tarihi": "1888-11-24",
+  "vefat_tarihi": "1955-11-01",
+  "vefat_yasi": 66,
+  "dogum_yeri": "Maryville",
+  "vefat_yeri": "Forest Hills",
+  "defin_yeri": "Belton Cemetery",
+  "defin_il": null,
+  "defin_ulke": "Amerika Birleşik Devletleri",
+  "wikidata_id": "Q230762",
+  "sitelink": 100,
+  "fotograf": {
+   "dosya": "Dale Carnegie (1937).jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dale_Carnegie_%281937%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Dale_Carnegie_%281937%29.jpg"
+  },
+  "meslek": [
+   "Yazar"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “Dost Kazanma ve İnsanları Etkileme Sanatı”",
+  "hassas": false,
+  "turk": false
+ },
+ {
   "ad": "III. Aleksandr",
   "dogum_tarihi": "1845-03-10",
   "vefat_tarihi": "1894-11-01",
@@ -158,28 +186,6 @@
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Brezilya Ulusal Güney Haç Nişanı, Kara Kartal Nişanı. Görev: Rusya imparatoru, Finlandiya Büyük Dükü",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Dale Carnegie",
-  "dogum_tarihi": "1888-11-24",
-  "vefat_tarihi": "1955-11-01",
-  "vefat_yasi": 66,
-  "dogum_yeri": "Maryville",
-  "vefat_yeri": "Forest Hills",
-  "defin_yeri": "Belton Cemetery",
-  "defin_il": null,
-  "defin_ulke": "Amerika Birleşik Devletleri",
-  "wikidata_id": "Q230762",
-  "sitelink": 98,
-  "fotograf": null,
-  "meslek": [
-   "Yazar"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Dost Kazanma ve İnsanları Etkileme Sanatı”",
   "hassas": false,
   "turk": false
  },
@@ -212,7 +218,7 @@
  {
   "ad": "Athelstan",
   "dogum_tarihi": "0895",
-  "vefat_tarihi": "0939-10-31",
+  "vefat_tarihi": "0939-11-01",
   "vefat_yasi": 44,
   "vefat_yasi_yaklasik": true,
   "dogum_yeri": "Wessex Krallığı",

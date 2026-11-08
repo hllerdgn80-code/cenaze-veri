@@ -11,13 +11,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q157309",
   "sitelink": 98,
-  "fotograf": {
-   "dosya": "Simone Weil 1943.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simone_Weil_1943.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Simone_Weil_1943.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Şair"
   ],
@@ -39,13 +33,7 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q160369",
   "sitelink": 86,
-  "fotograf": {
-   "dosya": "Calixtus III.jpg",
-   "lisans": "Public domain",
-   "yazar": "Sano di Pietro",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calixtus_III.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Calixtus_III.jpg"
-  },
+  "fotograf": null,
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
@@ -65,13 +53,7 @@
   "defin_ulke": "Brezilya",
   "wikidata_id": "Q156844",
   "sitelink": 83,
-  "fotograf": {
-   "dosya": "Getulio Vargas (1930).jpg",
-   "lisans": "Public domain",
-   "yazar": "Governo do Brasil",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Getulio_Vargas_%281930%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Getulio_Vargas_%281930%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
@@ -96,19 +78,35 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q30693",
   "sitelink": 80,
-  "fotograf": {
-   "dosya": "Clausius.jpg",
-   "lisans": "Public domain",
-   "yazar": "UnknownUnknown",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clausius.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Clausius.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
   "neden_onemli": "Ödül: Demir Haç, Copley Madalyası. Önemli eserleri: “Clausius teoremi”, “Clausius-Mossotti eşitliği”",
+  "hassas": false,
+  "turk": false
+ },
+ {
+  "ad": "Richard Attenborough",
+  "dogum_tarihi": "1923-08-29",
+  "vefat_tarihi": "2014-08-24",
+  "vefat_yasi": 90,
+  "dogum_yeri": "Cambridge",
+  "vefat_yeri": "Londra",
+  "defin_yeri": "St Mary Magdalene church, Richmond, London",
+  "defin_il": null,
+  "defin_ulke": "Birleşik Krallık",
+  "wikidata_id": "Q51506",
+  "sitelink": 79,
+  "fotograf": null,
+  "meslek": [
+   "Oyuncu"
+  ],
+  "aciklama": null,
+  "aciklama_kaynak": null,
+  "neden_onemli": "Önemli eserleri: “A Bridge Too Far”, “Gölge Topraklarda”",
   "hassas": false,
   "turk": false
  },
@@ -124,47 +122,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q181685",
   "sitelink": 79,
-  "fotograf": {
-   "dosya": "Sadi Carnot.jpeg",
-   "lisans": "Public domain",
-   "yazar": "Louis-Léopold Boilly",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sadi_Carnot.jpeg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Sadi_Carnot.jpeg"
-  },
+  "fotograf": null,
   "meslek": [
    "Fizikçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Carnot kuramı”, “Carnot ısı motoru”, “Carnot çevrimi”",
-  "hassas": false,
-  "turk": false
- },
- {
-  "ad": "Richard Attenborough",
-  "dogum_tarihi": "1923-08-29",
-  "vefat_tarihi": "2014-08-24",
-  "vefat_yasi": 90,
-  "dogum_yeri": "Cambridge",
-  "vefat_yeri": "Londra",
-  "defin_yeri": "St Mary Magdalene church, Richmond, London",
-  "defin_il": null,
-  "defin_ulke": "Birleşik Krallık",
-  "wikidata_id": "Q51506",
-  "sitelink": 78,
-  "fotograf": {
-   "dosya": "RichardAttenborough07TIFF.jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "gdcgraphics at https://www.flickr.com/photos/gdcgraphics/",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RichardAttenborough07TIFF.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:RichardAttenborough07TIFF.jpg"
-  },
-  "meslek": [
-   "Oyuncu"
-  ],
-  "aciklama": null,
-  "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: BAFTA Akademi Bağlılık Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Gölge Topraklarda”, “A Bridge Too Far”, “Gandhi”",
+  "neden_onemli": "Önemli eserleri: “Carnot ısı motoru”, “Carnot kuramı”, “Carnot çevrimi”",
   "hassas": false,
   "turk": false
  },
@@ -180,19 +144,13 @@
   "defin_ulke": "Almanya",
   "wikidata_id": "Q2571",
   "sitelink": 70,
-  "fotograf": {
-   "dosya": "Bundesarchiv Bild 146-1989-047-20, Walter Scheel.jpg",
-   "lisans": "CC BY-SA 3.0 de",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_146-1989-047-20%2C_Walter_Scheel.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1989-047-20%2C_Walter_Scheel.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Siyasetçi"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Onursal vatandaşlık, Krizantem Nişanı. Görev: Avrupa Parlamentosu milletvekilliği, Dışişleri Bakanı",
+  "neden_onemli": "Ödül: Onursal vatandaşlık, Krizantem Nişanı. Görev: Dışişleri Bakanı, Avrupa Parlamentosu milletvekilliği",
   "hassas": false,
   "turk": false
  },
@@ -208,13 +166,7 @@
   "defin_ulke": null,
   "wikidata_id": "Q110916",
   "sitelink": 64,
-  "fotograf": {
-   "dosya": "Hideki Shirakawa.jpg",
-   "lisans": "CC BY 4.0",
-   "yazar": "日本学士院",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hideki_Shirakawa.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Hideki_Shirakawa.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Kimyager"
   ],
@@ -258,13 +210,7 @@
   "defin_ulke": "Birleşik Krallık",
   "wikidata_id": "Q216051",
   "sitelink": 55,
-  "fotograf": {
-   "dosya": "Charlie Watts on drums The ABC & D of Boogie Woogie (2010) (cropped).jpg",
-   "lisans": "CC BY 2.0",
-   "yazar": "Poiseon Bild & Text (press photo by a photographer of the consulting company Poiseon AG in St. Gallen, Switzerland))",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlie_Watts_on_drums_The_ABC_%26_D_of_Boogie_Woogie_%282010%29_%28cropped%29.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Charlie_Watts_on_drums_The_ABC_%26_D_of_Boogie_Woogie_%282010%29_%28cropped%29.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Müzisyen"
   ],
@@ -286,13 +232,7 @@
   "defin_ulke": "Japonya",
   "wikidata_id": "Q55401",
   "sitelink": 51,
-  "fotograf": {
-   "dosya": "Kenji Mizoguchi 3.jpg",
-   "lisans": "Public domain",
-   "yazar": "Unknown authorUnknown author",
-   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenji_Mizoguchi_3.jpg",
-   "sayfa": "https://commons.wikimedia.org/wiki/File:Kenji_Mizoguchi_3.jpg"
-  },
+  "fotograf": null,
   "meslek": [
    "Yönetmen"
   ],

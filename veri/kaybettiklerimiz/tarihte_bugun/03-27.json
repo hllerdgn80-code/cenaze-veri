@@ -79,7 +79,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Seiun Ödülü, Grand Prix de Littérature Policière. Önemli eserleri: “Yıldız Güncesi”, “The Astronauts”, “Tales of Pirx the Pilot”",
+  "neden_onemli": "Ödül: Seiun Ödülü, Grand Prix de Littérature Policière. Önemli eserleri: “The Astronauts”, “Tales of Pirx the Pilot”, “Solaris”",
   "hassas": false,
   "turk": false
  },
@@ -122,7 +122,7 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q51547",
-  "sitelink": 80,
+  "sitelink": 81,
   "fotograf": {
    "dosya": "BW1989 crop.jpg",
    "lisans": "CC BY-SA 3.0 de",
@@ -135,7 +135,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Yönetmen Altın Küre Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Büyük Karnaval”, “The Fortune Cookie”, “Garsoniyer”",
+  "neden_onemli": "Ödül: En İyi Yönetmen Altın Küre Ödülü, En İyi Film Akademi Ödülü. Önemli eserleri: “Büyük Karnaval”, “Garsoniyer”, “The Fortune Cookie”",
   "hassas": false,
   "turk": false
  },
@@ -163,7 +163,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Praefectus urbanus, Roma imparatoru",
+  "neden_onemli": "Görev: Roma imparatoru, Roma valisi",
   "hassas": true,
   "hassas_nedeni": [
    "cinayet"
@@ -195,7 +195,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: kardinal, Papa",
   "hassas": false,
   "turk": false
  },

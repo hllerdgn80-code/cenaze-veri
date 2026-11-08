@@ -11,13 +11,19 @@
   "defin_ulke": "Polonya",
   "wikidata_id": "Q79822",
   "sitelink": 130,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Adam Mickiewicz według dagerotypu paryskiego z 1842 roku.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg"
+  },
   "meslek": [
    "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “Pan Tadeusz”, “Konrad Wallenrod”, “Kırım Soneleri”. Görev: profesör",
+  "neden_onemli": "Önemli eserleri: “Konrad Wallenrod”, “Pan Tadeusz”, “Kırım Soneleri”. Görev: profesör",
   "hassas": false,
   "turk": false
  },
@@ -33,7 +39,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q318750",
   "sitelink": 85,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Stephen Hillenburg by Carlos Cazurro.jpg",
+   "lisans": "CC BY-SA 3.0",
+   "yazar": "Carlos Cazurro Burgos (http://www.cazurro.com/)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen_Hillenburg_by_Carlos_Cazurro.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Stephen_Hillenburg_by_Carlos_Cazurro.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -55,8 +67,14 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q105180",
-  "sitelink": 83,
-  "fotograf": null,
+  "sitelink": 84,
+  "fotograf": {
+   "dosya": "Sojourner Truth 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "Sojourner Truth",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sojourner_Truth_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_01.jpg"
+  },
   "meslek": [
    "Dini lider"
   ],
@@ -78,7 +96,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q182128",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Pico1.jpg",
+   "lisans": "Public domain",
+   "yazar": "Cristofano dell'Altissimo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pico1.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Pico1.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -100,7 +124,13 @@
   "defin_ulke": "Hollanda",
   "wikidata_id": "Q173714",
   "sitelink": 77,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Max Euwe (1979).jpg",
+   "lisans": "CC0",
+   "yazar": "Hans van Dijk for Anefo",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max_Euwe_%281979%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Max_Euwe_%281979%29.jpg"
+  },
   "meslek": [
    "Satranç oyuncusu"
   ],
@@ -122,7 +152,13 @@
   "defin_ulke": "Polonya",
   "wikidata_id": "Q77204",
   "sitelink": 59,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Eichendorff Stahlstich von Eichens.jpg",
+   "lisans": "Public domain",
+   "yazar": "E. Eichens",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eichendorff_Stahlstich_von_Eichens.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Eichendorff_Stahlstich_von_Eichens.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -144,7 +180,13 @@
   "defin_ulke": "İsveç",
   "wikidata_id": "Q154759",
   "sitelink": 58,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Sven Hedin 01.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Grantham Bain Collection (Library of Congress)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sven_Hedin_01.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Sven_Hedin_01.jpg"
+  },
   "meslek": [
    "Oyuncu"
   ],
@@ -188,7 +230,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q317152",
   "sitelink": 55,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Paul Lafargue 1869.jpg",
+   "lisans": "Public domain",
+   "yazar": "German Fehrenbach",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Lafargue_1869.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Paul_Lafargue_1869.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -210,13 +258,19 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q220520",
   "sitelink": 51,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "JOHN M. BROWNING.jpg",
+   "lisans": "Public domain",
+   "yazar": "unknown/Browning",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JOHN_M._BROWNING.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:JOHN_M._BROWNING.jpg"
+  },
   "meslek": [
    "Mucit"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Önemli eserleri: “.45 ACP”, “M2 Browning”, “Colt M1911”",
+  "neden_onemli": "Önemli eserleri: “.45 ACP”, “Colt M1911”, “M2 Browning”",
   "hassas": false,
   "turk": false
  },
@@ -232,7 +286,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q296023",
   "sitelink": 46,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Soult2.jpg",
+   "lisans": "Public domain",
+   "yazar": "George Peter Alexander Healy (July 15, 1813 – June 24, 1894)",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Soult2.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Soult2.jpg"
+  },
   "meslek": [
    "Siyasetçi"
   ],
@@ -266,7 +326,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: En İyi Özgün Şarkı Akademi Ödülü, Edgar Ödülü. Aday olduğu ödül: En İyi Müzikal Tony Ödülü",
+  "neden_onemli": "Ödül: Edgar Ödülü, Kennedy Center Onur Ödülleri. Aday olduğu ödül: En İyi Müzikal Tony Ödülü",
   "hassas": false,
   "turk": false
  }

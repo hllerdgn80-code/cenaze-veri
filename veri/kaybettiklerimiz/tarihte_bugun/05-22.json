@@ -28,7 +28,7 @@
   "turk": true
  },
  {
-  "ad": "Q535",
+  "ad": "Victor Hugo",
   "dogum_tarihi": "1802-02-26",
   "vefat_tarihi": "1885-05-22",
   "vefat_yasi": 83,
@@ -39,7 +39,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q535",
   "sitelink": 269,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Victor Hugo by Étienne Carjat 1876 - full.jpg",
+   "lisans": "Public domain",
+   "yazar": "Étienne Carjat",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -61,7 +67,13 @@
   "defin_ulke": "İtalya",
   "wikidata_id": "Q1064",
   "sitelink": 108,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Francesco Hayez - Ritratto di Alessandro Manzoni.jpg",
+   "lisans": "Public domain",
+   "yazar": "Francesco Hayez",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francesco_Hayez_-_Ritratto_di_Alessandro_Manzoni.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Francesco_Hayez_-_Ritratto_di_Alessandro_Manzoni.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -83,7 +95,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q180989",
   "sitelink": 100,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "ADDAMS, JANE 21664v (cropped2).jpg",
+   "lisans": "Public domain",
+   "yazar": "Harris Ewing, publisher",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ADDAMS%2C_JANE_21664v_%28cropped2%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:ADDAMS%2C_JANE_21664v_%28cropped2%29.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -104,14 +122,20 @@
   "defin_il": null,
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q187019",
-  "sitelink": 91,
-  "fotograf": null,
+  "sitelink": 92,
+  "fotograf": {
+   "dosya": "Philip Roth - 1973.jpg",
+   "lisans": "Public domain",
+   "yazar": "Nancy Crampton",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philip_Roth_-_1973.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Philip_Roth_-_1973.jpg"
+  },
   "meslek": [
    "Şair"
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, Man Booker Uluslararası Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
+  "neden_onemli": "Ödül: ABD Ulusal Sanat Madalyası, Ulusal Kitap Ödülü. Aday olduğu ödül: Neustadt Uluslararası Edebiyat Ödülü, Kurgu dalında Pulitzer Ödülü",
   "hassas": false,
   "turk": false
  },
@@ -127,7 +151,13 @@
   "defin_ulke": "Amerika Birleşik Devletleri",
   "wikidata_id": "Q188093",
   "sitelink": 88,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Langston Hughes by Carl Van Vechten (cropped).jpg",
+   "lisans": "Public domain",
+   "yazar": "Carl Van Vechten",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Langston_Hughes_by_Carl_Van_Vechten_%28cropped%29.jpg"
+  },
   "meslek": [
    "Şair"
   ],
@@ -150,7 +180,13 @@
   "defin_ulke": null,
   "wikidata_id": "Q160916",
   "sitelink": 80,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Johannes I.jpg",
+   "lisans": "Public domain",
+   "yazar": "Unknown authorUnknown author",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_I.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Johannes_I.jpg"
+  },
   "meslek": [
    "Yazar"
   ],
@@ -182,7 +218,7 @@
   "meslek": [],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Görev: Papa, kardinal",
+  "neden_onemli": "Görev: Diosezan piskopos, kardinal",
   "hassas": false,
   "turk": false
  },

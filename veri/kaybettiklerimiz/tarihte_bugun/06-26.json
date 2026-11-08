@@ -89,7 +89,13 @@
   "defin_ulke": "Fransa",
   "wikidata_id": "Q44272",
   "sitelink": 128,
-  "fotograf": null,
+  "fotograf": {
+   "dosya": "Photo of Michel Foucault on 1970 dustjacket of The Order of Things.jpg",
+   "lisans": "Public domain",
+   "yazar": "Jerry Bauer",
+   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg",
+   "sayfa": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg"
+  },
   "meslek": [
    "Filozof"
   ],
@@ -123,7 +129,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: St. Anna Nişanı, Brezilya Ulusal Güney Haç Nişanı. Görev: Britanya Lordlar Kamarası üyesi",
+  "neden_onemli": "Ödül: Kara Kartal Nişanı, St. Anna Nişanı. Görev: Britanya Lordlar Kamarası üyesi",
   "hassas": false,
   "turk": false
  },
@@ -326,7 +332,7 @@
   ],
   "aciklama": null,
   "aciklama_kaynak": null,
-  "neden_onemli": "Ödül: Kudüs Yıldızı Nişanı, SSCB Devlet Ödülü. Görev: Duma üyesi",
+  "neden_onemli": "Ödül: Kudüs Yıldızı Nişanı, Onur Nişanı (Rusya). Görev: Duma üyesi",
   "hassas": false,
   "turk": false
  }
