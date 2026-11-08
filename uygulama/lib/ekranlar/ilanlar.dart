@@ -1,5 +1,8 @@
 // Cenaze İlanları (ana ekran): kayıtlı il/ilçe, bugün; 7 günlük tarih şeridi (cenaze günü);
 // ilçe bölümleri, "İl geneli", boş durumlar; verisi olmayan ilde bilgi kartı + "Cenaze ilanı paylaş".
+import 'dart:async';
+import 'dart:io' show Platform;
+
 import 'package:flutter/material.dart';
 
 import '../bilesenler/ikonlar.dart';
@@ -38,16 +41,24 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
   String _gun = bugunTr();
   String _bugunKayit = bugunTr(); // son bilinen "bugün" (gece yarısı geçişini yakalamak için)
   final _kaydirma = ScrollController();
+  Timer? _otoYenile; // 08.11.2026: ekran açık kalınca da veri tazelensin (önceden yalnız dönüşte/aşağı çekince yenileniyordu)
+  bool _onPlan = true;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    if (!Platform.environment.containsKey('FLUTTER_TEST')) {
+      _otoYenile = Timer.periodic(const Duration(seconds: 30), (_) {
+        if (_onPlan) _eskiyseYenile(); // eşik: ilan_yenileme_sn (uzak ayar; varsayılan 5 dk)
+      });
+    }
   }
 
   /// Uygulamaya dönüşte (arka plandan) veri 5 dk'dan eskiyse yeniden çekilir
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
+    _onPlan = state == AppLifecycleState.resumed;
     if (state != AppLifecycleState.resumed || !mounted) return;
     // 30.10.2026 HATA: uygulama bellekte kalıp gece yarısı geçilince "Bugün" seçili gün dünde kalıyor, dünün listesi gösteriliyordu.
     // Bugünü izleyen kullanıcı yeni güne taşınır (başka bir gün seçmişse seçimi korunur) ve liste hemen yenilenir.
@@ -96,6 +107,7 @@ class _IlanlarEkraniState extends State<IlanlarEkrani> with WidgetsBindingObserv
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    _otoYenile?.cancel();
     _kaydirma.dispose();
     super.dispose();
   }
