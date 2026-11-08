@@ -7,11 +7,13 @@
     "ilan_kutusu_goster": true,
     "bildirim_teklifi_acik": true
   },
-  "sayilar": {},
+  "sayilar": {
+    "ilan_yenileme_sn": 120
+  },
   "yazilar": {},
   "kaliplar": {},
   "listeler": {},
   "haritalar": {},
-  "guncelleme": "2026-10-16",
+  "guncelleme": "2026-11-08",
   "ilanKutusuGorevli": "Cenaze ilanınızın bu sayfada görülmesini istiyorsanız bulunduğunuz bölgedeki din görevlisinden cenaze ilanınızı paylaşmasını rica edebilirsiniz."
 }
