@@ -148,7 +148,7 @@ jobs:
         with:
           name: kimin-cenazesi-aab-${{ github.run_number }}
           path: uygulama/build/app/outputs/bundle/release/app-release.aab
-          retention-days: 30
+          retention-days: 7        # 09.11.2026: 30 gun -> 7 gun (her derleme ~95 MB; GitHub ucretsiz Actions deposu 0,5 GB/ay, 08.11 "%100" uyarisi)
 
       - name: APK'yi yukle
         if: steps.test.outcome == 'success' && (steps.derle.outcome == 'success' || steps.derle2.outcome == 'success')
@@ -156,7 +156,7 @@ jobs:
         with:
           name: kimin-cenazesi-apk-${{ github.run_number }}
           path: uygulama/build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 30
+          retention-days: 7        # 09.11.2026: 30 gun -> 7 gun (her derleme ~95 MB; GitHub ucretsiz Actions deposu 0,5 GB/ay, 08.11 "%100" uyarisi)
 
       - name: arm64 APK'yi yukle (site icin)
         if: steps.ayar.outputs.imzali == 'true' && steps.test.outcome == 'success' && steps.derle.outcome == 'success'
@@ -164,7 +164,7 @@ jobs:
         with:
           name: kimin-cenazesi-apk-arm64-${{ github.run_number }}
           path: uygulama/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
-          retention-days: 30
+          retention-days: 7        # 09.11.2026: 30 gun -> 7 gun (her derleme ~95 MB; GitHub ucretsiz Actions deposu 0,5 GB/ay, 08.11 "%100" uyarisi)
 
       - name: Imza dosyalarini sil
         if: always()
@@ -200,4 +200,4 @@ jobs:
         with:
           name: magaza-gorselleri
           path: magaza
-          retention-days: 30
+          retention-days: 7        # 09.11.2026: 30 gun -> 7 gun (her derleme ~95 MB; GitHub ucretsiz Actions deposu 0,5 GB/ay, 08.11 "%100" uyarisi)
