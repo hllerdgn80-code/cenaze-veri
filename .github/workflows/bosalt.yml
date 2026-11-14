@@ -94,6 +94,17 @@ jobs:
           python3 okuyucu/ulusal_birlestir.py || echo "::warning::ulusal birlestirme basarisiz"
           python3 okuyucu/gorevli_birlestir.py || echo "::warning::gorevli birlestirme basarisiz"
           python3 okuyucu/kapi.py || echo "::warning::kapi hata verdi"
+          # 14.11.2026 GUVENLIK PAKETI: YAYIN NOBETCISI, PILOT = uyari (yalniz rapor; kayit cikarmaz, kosuyu kirmaz). Rapor: artifact "nobetci" (kisi adi yok).
+          # Bilinen kaynak listesi temizlenince repo degiskeni NOBETCI_MOD=zorunlu yapilir (YURUT H107-EK3).
+          NOBETCI_MOD="${{ vars.NOBETCI_MOD || 'uyari' }}" python3 okuyucu/nobetci.py || echo "::warning::nobetci hata verdi"
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && hashFiles('veri/nobetci.json') != '' }}
+        continue-on-error: true
+        with:
+          name: nobetci
+          path: veri/nobetci.json
+          retention-days: 3
+          overwrite: true
       - name: Kriterlerden gecir (yayin klasoru)
         id: hazirla
         if: steps.havuz.outputs.var == '1'
@@ -117,6 +128,14 @@ jobs:
         if: steps.hazirla.outcome == 'success'
         continue-on-error: true
         run: python3 okuyucu/havuz_kontrol.py veri site/veri
+      # 14.11.2026 GUVENLIK PAKETI: YAYIN IMZASI (Ed25519; tohum yalniz secret KC_IMZA_ANAHTARI). Yalniz yayin yapilacaksa imzalar.
+      # Eski uygulamalar "imza" anahtarini yok sayar. Adim dusse de yayin surer (uygulama henuz zorunlu kilmiyor).
+      - name: Yayin imzasi (Ed25519)
+        if: ${{ steps.hazirla.outcome == 'success' && (steps.kontrol.outputs.degisti != '0' || inputs.zorla == 'true') }}
+        continue-on-error: true
+        env:
+          KC_IMZA_ANAHTARI: ${{ secrets.KC_IMZA_ANAHTARI }}
+        run: python3 okuyucu/imzala.py site
       - name: Cloudflare Pages'e yayimla
         if: ${{ steps.hazirla.outcome == 'success' && (steps.kontrol.outputs.degisti != '0' || inputs.zorla == 'true') && env.CF_TOKEN != '' }}
         continue-on-error: true

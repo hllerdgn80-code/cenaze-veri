@@ -249,6 +249,13 @@ jobs:
           python3 -c "import json;d=json.load(open('veri/ozet.json'))['iller'];[print(v.get('il_adi',k),v.get('kayit_sayisi'),v.get('hata') or '') for k,v in d.items()]"
       # Cloudflare Pages (veri.kimincenazesi.com) — uygulamanın kalıcı veri adresi (08.10.2026; URUN-TASLAGI §16).
       # CLOUDFLARE_API_TOKEN secret'ı yoksa adım atlanır, GitHub Pages yayını sürer (sürüm 8'e kadar ikisi birlikte).
+      # 14.11.2026 GUVENLIK PAKETI: yedek yayin da imzali cikar (bosalt.yml ile ayni adim)
+      - name: Yayin imzasi (Ed25519)
+        if: ${{ steps.devir.outputs.kendin != '0' }}
+        continue-on-error: true
+        env:
+          KC_IMZA_ANAHTARI: ${{ secrets.KC_IMZA_ANAHTARI }}
+        run: python3 okuyucu/imzala.py site
       - name: Cloudflare Pages'e yayimla (veri.kimincenazesi.com)
         if: ${{ env.CF_TOKEN != '' && steps.devir.outputs.kendin != '0' }}
         continue-on-error: true
